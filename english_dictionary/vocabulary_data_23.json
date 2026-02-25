@@ -1,0 +1,963 @@
+{
+  "words": [
+    {
+      "number": 594,
+      "word": "affluent",
+      "pos": "形容詞",
+      "meaning": "裕福な、豊かな、豊富に流れる",
+      "nuance": "単に「お金を持っている」だけでなく、生活水準が高く、富が溢れ出しているような「豊かさ」を指します。個人だけでなく「affluent society（豊かな社会）」のように地域や社会に対しても使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He grew up in an affluent neighborhood.",
+              "ja": "彼は裕福な近隣地域で育った。",
+              "highlight": "affluent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ad (〜へ) + fluere (流れる) <br>→ 豊かに流れ込む",
+      "synonyms": [
+        {"word": "wealthy", "trans": "裕福な"},
+        {"word": "prosperous", "trans": "繁栄している"},
+        {"word": "rich", "trans": "金持ちの"}
+      ],
+      "antonyms": [
+        {"word": "poor", "trans": "貧しい"},
+        {"word": "impoverished", "trans": "貧困化した"},
+        {"word": "destitute", "trans": "極貧の"}
+      ],
+      "related": [
+        {"word": "affluence", "trans": "名詞：富、豊かさ"},
+        {"word": "fluent", "trans": "形容詞：流暢な"}
+      ]
+    },
+    {
+      "number": "594-2",
+      "word": "affluence",
+      "pos": "名詞",
+      "meaning": "富、豊かさ、流入",
+      "nuance": "経済的な豊かさが溢れている状態を指します。「an age of affluence（飽食の時代、豊かな時代）」といった表現で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The country's affluence is based on its oil reserves.",
+              "ja": "その国の豊かさは、石油資源に基づいている。",
+              "highlight": "affluence"
+            }
+          ]
+        }
+      ],
+      "etymology": "affluentの名詞形",
+      "synonyms": [
+        {"word": "wealth", "trans": "富"},
+        {"word": "prosperity", "trans": "繁栄"},
+        {"word": "abundance", "trans": "豊富"}
+      ],
+      "antonyms": [
+        {"word": "poverty", "trans": "貧困"},
+        {"word": "scarcity", "trans": "不足"}
+      ],
+      "related": [
+        {"word": "affluent", "trans": "形容詞：裕福な"}
+      ]
+    },
+    {
+      "number": 595,
+      "word": "surplus",
+      "pos": "名詞、形容詞",
+      "meaning": "余剰、過剰、黒字、余りの",
+      "nuance": "必要な量を超えて「余っている分」を指します。予算の「黒字（budget surplus）」や、食料の「余剰（food surplus）」などの文脈で頻出します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The country produced a grain surplus this year.",
+              "ja": "その国は今年、穀物の余剰分を生み出した。",
+              "highlight": "surplus"
+            }
+          ]
+        }
+      ],
+      "etymology": "sur (上に/超えて) + plus (より多く) <br>→ 定員を超えて多い",
+      "synonyms": [
+        {"word": "excess", "trans": "過剰"},
+        {"word": "extra", "trans": "余分なもの"},
+        {"word": "remainder", "trans": "残り"}
+      ],
+      "antonyms": [
+        {"word": "deficit", "trans": "不足、赤字"},
+        {"word": "shortage", "trans": "不足"},
+        {"word": "lack", "trans": "欠如"}
+      ],
+      "related": []
+    },
+    {
+      "number": "595-2",
+      "word": "superfluous",
+      "pos": "形容詞",
+      "meaning": "余分な、不必要な、過多の",
+      "nuance": "単に余っているだけでなく、多すぎて「もはや不要である」「無駄である」というネガティブなニュアンスを含むことが多い言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She removed all the superfluous words from her essay.",
+              "ja": "彼女はエッセイから不必要な（余計な）言葉をすべて削除した。",
+              "highlight": "superfluous"
+            }
+          ]
+        }
+      ],
+      "etymology": "super (超えて) + fluere (流れる) <br>→ 器から溢れ出すほど流れている",
+      "synonyms": [
+        {"word": "unnecessary", "trans": "不必要な"},
+        {"word": "redundant", "trans": "余分な、重複した"},
+        {"word": "excessive", "trans": "過度の"}
+      ],
+      "antonyms": [
+        {"word": "essential", "trans": "不可欠な"},
+        {"word": "necessary", "trans": "必要な"},
+        {"word": "scanty", "trans": "不十分な"}
+      ],
+      "related": [
+        {"word": "fluid", "trans": "名詞/形容詞：流体/流動的な"}
+      ]
+    },
+    {
+      "number": 596,
+      "word": "fluid",
+      "pos": "名詞、形容詞",
+      "meaning": "流体（液体・気体）、流動的な、なめらかな",
+      "nuance": "形が一定ではなく流れる性質を持つものを指します。比喩的に「計画が流動的である（計画が決まっていない）」際にも非常によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Drink plenty of fluids when you have a fever.",
+              "ja": "熱がある時は水分をたくさん摂りなさい。",
+              "highlight": "fluids"
+            },
+            {
+              "en": "The situation remains fluid and could change any time.",
+              "ja": "状況は依然として流動的（不安定）であり、いつでも変わり得る。",
+              "highlight": "fluid"
+            }
+          ]
+        }
+      ],
+      "etymology": "fluere (流れる) + id (状態)",
+      "synonyms": [
+        {"word": "liquid", "trans": "液体"},
+        {"word": "changeable", "trans": "変わりやすい"},
+        {"word": "smooth", "trans": "なめらかな"}
+      ],
+      "antonyms": [
+        {"word": "solid", "trans": "固体の、強固な"},
+        {"word": "fixed", "trans": "固定された"},
+        {"word": "stable", "trans": "安定した"}
+      ],
+      "related": [
+        {"word": "fluent", "trans": "形容詞：流暢な"},
+        {"word": "fluctuate", "trans": "動詞：変動する"}
+      ]
+    },
+    {
+      "number": 597,
+      "word": "nutritious",
+      "pos": "形容詞",
+      "meaning": "栄養のある、栄養分に富んだ",
+      "nuance": "その食べ物が健康に良い成分（栄養素）をたくさん含んでいることを指します。実用的な「健康的である」というプラスの評価です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Eggs are a highly nutritious food.",
+              "ja": "卵は非常に栄養価の高い食品だ。",
+              "highlight": "nutritious"
+            }
+          ]
+        }
+      ],
+      "etymology": "nutri (養う) + ous (〜に満ちた)",
+      "synonyms": [
+        {"word": "nourishing", "trans": "栄養になる"},
+        {"word": "healthful", "trans": "健康に良い"},
+        {"word": "wholesome", "trans": "健全な、健康に良い"}
+      ],
+      "antonyms": [
+        {"word": "unhealthy", "trans": "不健康な"},
+        {"word": "junk", "trans": "（食べ物が）ガラクタの、栄養のない"}
+      ],
+      "related": [
+        {"word": "nutrition", "trans": "名詞：栄養"},
+        {"word": "nutrient", "trans": "名詞：栄養素"}
+      ]
+    },
+    {
+      "number": 598,
+      "word": "bombard",
+      "pos": "動詞",
+      "meaning": "〜を爆撃する、（質問などで）攻め立てる",
+      "nuance": "物理的な大砲での攻撃だけでなく、質問、メール、広告などが「浴びせかけるように」大量に押し寄せる様子を表すのによく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The reporter bombarded the minister with questions.",
+              "ja": "記者は大臣に質問を浴びせかけた。",
+              "highlight": "bombarded"
+            }
+          ]
+        }
+      ],
+      "etymology": "bomb (爆弾) + ard (強く〜する人/物)",
+      "synonyms": [
+        {"word": "attack", "trans": "攻撃する"},
+        {"word": "assault", "trans": "急襲する"},
+        {"word": "shower", "trans": "浴びせる"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "bombardment", "trans": "名詞：砲撃、質問攻め"}
+      ]
+    },
+    {
+      "number": 599,
+      "word": "dip",
+      "pos": "動詞、名詞",
+      "meaning": "〜を（軽く）浸す、少し下がる、ディップ（ソース）",
+      "nuance": "液体の中にさっと入れてすぐ出す動作や、数値などが一時的に「少し下がる」ことを指します。アイスなどの「ディップ」もここから来ています。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He dipped his bread into the soup.",
+              "ja": "彼はパンをスープに浸した。",
+              "highlight": "dipped"
+            },
+            {
+              "en": "Sales dipped slightly last month.",
+              "ja": "先月、売上はわずかに落ち込んだ。",
+              "highlight": "dipped"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 dyppan (浸す) <br>→ deep（深い）と同源",
+      "synonyms": [
+        {"word": "submerge", "trans": "沈める"},
+        {"word": "soak", "trans": "浸す"},
+        {"word": "drop", "trans": "下がる"}
+      ],
+      "antonyms": [
+        {"word": "rise", "trans": "上がる"},
+        {"word": "ascend", "trans": "登る"}
+      ],
+      "related": [
+        {"word": "deep", "trans": "形容詞：深い"}
+      ]
+    },
+    {
+      "number": "599-2",
+      "word": "splash",
+      "pos": "動詞、名詞",
+      "meaning": "（水などを）はねかける、パシャッと音を立てる、水しぶき",
+      "nuance": "液体が飛び散る様子やその音を指します。比喩的に、大々的に報道したり、目立つように掲載したりする（make a splash：注目を浴びる）際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The kids were splashing water at each other.",
+              "ja": "子供たちは互いに水を掛け合っていた。",
+              "highlight": "splashing"
+            }
+          ]
+        }
+      ],
+      "etymology": "擬音語的（plash の変形）",
+      "synonyms": [
+        {"word": "sprinkle", "trans": "振りかける"},
+        {"word": "scatter", "trans": "まき散らす"},
+        {"word": "splatter", "trans": "はね散らす"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 600,
+      "word": "junk",
+      "pos": "名詞",
+      "meaning": "がらくた、くず、ジャンクフード、麻薬（俗）",
+      "nuance": "価値のないもの、使い古されたものを指します。栄養のない食べ物を「junk food」、不要なメールを「junk mail」と呼ぶのはお馴染みです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I need to clear out all the junk in the garage.",
+              "ja": "ガレージにあるがらくたを全部片付けなきゃいけない。",
+              "highlight": "junk"
+            }
+          ]
+        }
+      ],
+      "etymology": "古いロープの端切れ（航海用語）に由来",
+      "synonyms": [
+        {"word": "rubbish", "trans": "ゴミ、くだらないもの"},
+        {"word": "trash", "trans": "ゴミ"},
+        {"word": "clutter", "trans": "散らかったもの"}
+      ],
+      "antonyms": [
+        {"word": "treasure", "trans": "宝物"},
+        {"word": "valuable", "trans": "貴重品"}
+      ],
+      "related": []
+    },
+    {
+      "number": 601,
+      "word": "debris",
+      "pos": "名詞",
+      "meaning": "（破壊された後の）破片、残骸、瓦礫",
+      "nuance": "事故、災害、爆発などで壊れたものの「散らばった欠片」を指します。発音は「デブリ」で、最後のsは読みません。宇宙ゴミ（space debris）も有名です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Emergency workers cleared the debris from the road.",
+              "ja": "救急隊員が道路から瓦礫（残骸）を取り除いた。",
+              "highlight": "debris"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 de (離して) + briser (砕く) <br>→ 砕け散ったもの",
+      "synonyms": [
+        {"word": "rubble", "trans": "瓦礫"},
+        {"word": "remains", "trans": "残骸"},
+        {"word": "wreckage", "trans": "難破貨物、残骸"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 602,
+      "word": "echo",
+      "pos": "名詞、動詞",
+      "meaning": "反響、こだま、〜を繰り返す、反映する",
+      "nuance": "音が跳ね返ってくることだけでなく、他人の意見に「同意して繰り返す」ことや、過去の出来事が現代に「影響を及ぼす（こだまする）」といった意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Her voice echoed in the empty hallway.",
+              "ja": "彼女の声が誰もいない廊下に響き渡った（反響した）。",
+              "highlight": "echoed"
+            },
+            {
+              "en": "The Prime Minister's words echoed the feelings of the nation.",
+              "ja": "首相の言葉は国民の感情を反映していた（繰り返していた）。",
+              "highlight": "echoed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 Echo (神話のニンフの名前)",
+      "synonyms": [
+        {"word": "resonance", "trans": "響き"},
+        {"word": "reverberation", "trans": "残響"},
+        {"word": "repeat", "trans": "繰り返す"}
+      ],
+      "antonyms": [
+        {"word": "silence", "trans": "静寂"}
+      ],
+      "related": []
+    },
+    {
+      "number": "602-2",
+      "word": "mimic",
+      "pos": "動詞、名詞",
+      "meaning": "（笑わせるために）真似る、模倣する、模倣者",
+      "nuance": "声や仕草をそっくりに真似ることを指します。しばしば人をからかったり、面白がらせたりする意図が含まれます。生物学では「擬態（他者に似せること）」を指す際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He can mimic the teacher's voice perfectly.",
+              "ja": "彼は先生の声を完璧に真似ることができる。",
+              "highlight": "mimic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 mimos (役者、パントマイム)",
+      "synonyms": [
+        {"word": "imitate", "trans": "模倣する"},
+        {"word": "copy", "trans": "写す、真似る"},
+        {"word": "mock", "trans": "あざける、真似して馬鹿にする"}
+      ],
+      "antonyms": [
+        {"word": "originate", "trans": "創案する"},
+        {"word": "lead", "trans": "導く、先頭に立つ"}
+      ],
+      "related": [
+        {"word": "mime", "trans": "名詞：パントマイム"},
+        {"word": "pantomime", "trans": "名詞：無言劇"}
+      ]
+    },
+    {
+      "number": 603,
+      "word": "countless",
+      "pos": "形容詞",
+      "meaning": "数えきれないほどの、無数の",
+      "nuance": "非常に数が多くて数えられないという強調表現です。many よりもドラマチックで、星の数や、繰り返された努力などについてよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I've told him the same thing countless times.",
+              "ja": "私は彼に数えきれないほど何度も同じことを言ってきた。",
+              "highlight": "countless"
+            }
+          ]
+        }
+      ],
+      "etymology": "count (数える) + less (〜がない) <br>→ 数えられない",
+      "synonyms": [
+        {"word": "innumerable", "trans": "無数の"},
+        {"word": "infinite", "trans": "無限の"},
+        {"word": "multitudinous", "trans": "多数の"}
+      ],
+      "antonyms": [
+        {"word": "few", "trans": "わずかな"},
+        {"word": "limited", "trans": "限られた"},
+        {"word": "countable", "trans": "数えられる"}
+      ],
+      "related": [
+        {"word": "count", "trans": "動詞：数える"}
+      ]
+    },
+    {
+      "number": 604,
+      "word": "plea",
+      "pos": "名詞",
+      "meaning": "嘆願、切実な願い、弁解、抗弁",
+      "nuance": "単なるお願いではなく、必死で切実な訴えを指します。裁判の文脈では「罪状認否（被告側の主張）」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The parents made an emotional plea for their child's safe return.",
+              "ja": "両親は、子供が無事に戻ってくるよう感情に訴える嘆願を行った。",
+              "highlight": "plea"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 plaid (訴訟、議論)",
+      "synonyms": [
+        {"word": "appeal", "trans": "訴え"},
+        {"word": "petition", "trans": "嘆願書"},
+        {"word": "request", "trans": "要請"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "plead", "trans": "動詞：嘆願する"}
+      ]
+    },
+    {
+      "number": 605,
+      "word": "plead",
+      "pos": "動詞",
+      "meaning": "嘆願する、訴える、（裁判で）抗弁する",
+      "nuance": "必死に頼み込む様子や、裁判で「〜であると主張する（plead guilty：罪を認める）」際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She pleaded with him not to leave.",
+              "ja": "彼女は彼に行かないでほしいと嘆願した。",
+              "highlight": "pleaded"
+            }
+          ]
+        }
+      ],
+      "etymology": "plea の動詞形",
+      "synonyms": [
+        {"word": "beg", "trans": "乞う"},
+        {"word": "implore", "trans": "懇願する"},
+        {"word": "appeal", "trans": "訴える"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "plea", "trans": "名詞：嘆願"}
+      ]
+    },
+    {
+      "number": "605-2",
+      "word": "petition",
+      "pos": "名詞、動詞",
+      "meaning": "請願（書）、嘆願、〜に請願する",
+      "nuance": "多くの人の署名を集めて公的機関に提出する「請願書」を指すことが多いです。plea よりも形式的・組織的な手続きのニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They started a petition against the new highway.",
+              "ja": "彼らは新しい高速道路の建設に反対する署名運動（請願）を始めた。",
+              "highlight": "petition"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 petere (求める) <br>→ 求めること",
+      "synonyms": [
+        {"word": "request", "trans": "要請"},
+        {"word": "application", "trans": "申請"},
+        {"word": "entreaty", "trans": "懇願"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "appetite", "trans": "名詞：食欲（求める心）"},
+        {"word": "compete", "trans": "動詞：競う（共に求める）"}
+      ]
+    },
+    {
+      "number": 606,
+      "word": "routinely",
+      "pos": "副詞",
+      "meaning": "日常的に、いつものように、決まりきった手順で",
+      "nuance": "特別なことではなく、日々の習慣や決められた手順として「当たり前に行われる」様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The database is routinely backed up every night.",
+              "ja": "データベースは毎晩、日常的に（定期的に）バックアップされている。",
+              "highlight": "routinely"
+            }
+          ]
+        }
+      ],
+      "etymology": "routine + ly (副詞語尾)",
+      "synonyms": [
+        {"word": "regularly", "trans": "定期的に"},
+        {"word": "habitually", "trans": "習慣的に"},
+        {"word": "customarily", "trans": "例え通りに"}
+      ],
+      "antonyms": [
+        {"word": "exceptionally", "trans": "例外的に"},
+        {"word": "occasionally", "trans": "時々"},
+        {"word": "rarely", "trans": "滅多に〜ない"}
+      ],
+      "related": [
+        {"word": "routine", "trans": "名詞：お決まりの手順"}
+      ]
+    },
+    {
+      "number": "606-2",
+      "word": "routine",
+      "pos": "名詞、形容詞",
+      "meaning": "日課、決まりきった仕事、日常の、型通りの",
+      "nuance": "毎日決まって行う一連の動作を指します。しばしば「代わり映えのしない、退屈な」というニュアンスで使われることもあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Exercise has become part of my daily routine.",
+              "ja": "運動は私の日課の一部になった。",
+              "highlight": "routine"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 route (道) <br>→ いつも通る道",
+      "synonyms": [
+        {"word": "habit", "trans": "習慣"},
+        {"word": "custom", "trans": "慣習"},
+        {"word": "procedure", "trans": "手順"}
+      ],
+      "antonyms": [
+        {"word": "novelty", "trans": "新しさ"},
+        {"word": "irregularity", "trans": "不規則"}
+      ],
+      "related": [
+        {"word": "route", "trans": "名詞：経路"}
+      ]
+    },
+    {
+      "number": 607,
+      "word": "drastically",
+      "pos": "副詞",
+      "meaning": "劇的に、思い切って、徹底的に",
+      "nuance": "変化の幅が非常に大きく、衝撃的であることを強調します。人口減少やコスト削減など、重大な事柄の急激な変化によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The budget was drastically cut.",
+              "ja": "予算は大幅に（劇的に）削減された。",
+              "highlight": "drastically"
+            }
+          ]
+        }
+      ],
+      "etymology": "drastic + ally (副詞語尾)",
+      "synonyms": [
+        {"word": "radically", "trans": "根本的に"},
+        {"word": "sharply", "trans": "急激に"},
+        {"word": "dramatically", "trans": "劇的に"}
+      ],
+      "antonyms": [
+        {"word": "slightly", "trans": "わずかに"},
+        {"word": "gradually", "trans": "徐々に"}
+      ],
+      "related": [
+        {"word": "drastic", "trans": "形容詞：思い切った"}
+      ]
+    },
+    {
+      "number": 608,
+      "word": "drastic",
+      "pos": "形容詞",
+      "meaning": "思い切った、急激な、猛烈な",
+      "nuance": "極端で強力な手段や、非常に大きな影響を与える変化を指します。「drastic measures（抜本的な対策）」というフレーズが典型的です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We need to take drastic action to solve this problem.",
+              "ja": "この問題を解決するには、思い切った（抜本的な）行動をとる必要がある。",
+              "highlight": "drastic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 drastikos (活動的な、効き目のある) <br>→ 行動を伴う",
+      "synonyms": [
+        {"word": "extreme", "trans": "極端な"},
+        {"word": "severe", "trans": "厳しい"},
+        {"word": "radical", "trans": "根本的な"}
+      ],
+      "antonyms": [
+        {"word": "mild", "trans": "緩やかな"},
+        {"word": "moderate", "trans": "適度な"}
+      ],
+      "related": [
+        {"word": "drama", "trans": "名詞：ドラマ（行動、劇）"}
+      ]
+    },
+    {
+      "number": 609,
+      "word": "assault",
+      "pos": "名詞、動詞",
+      "meaning": "猛攻撃、暴行、〜を襲撃する",
+      "nuance": "肉体的な「暴行」だけでなく、軍事的な「強襲」、あるいは比喩的な「激しい非難」を指す非常に強い言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The army launched an assault on the city.",
+              "ja": "軍はその都市への強襲を開始した。",
+              "highlight": "assault"
+            }
+          ]
+        }
+      ],
+      "etymology": "ad (〜へ) + saltare (跳ぶ) <br>→ 〜へ向かって跳びかかる",
+      "synonyms": [
+        {"word": "attack", "trans": "攻撃"},
+        {"word": "onset", "trans": "襲来"},
+        {"word": "offensive", "trans": "攻勢"}
+      ],
+      "antonyms": [
+        {"word": "defense", "trans": "防御"},
+        {"word": "protection", "trans": "保護"}
+      ],
+      "related": [
+        {"word": "insult", "trans": "動詞：侮辱する（言葉で跳びかかる）"}
+      ]
+    },
+    {
+      "number": 610,
+      "word": "blast",
+      "pos": "名詞、動詞",
+      "meaning": "爆発、突風、（批判などの）爆発、〜を爆破する",
+      "nuance": "衝撃波を伴うような「ドカン」という爆発や、強い風の吹きつけを指します。最近では「楽しい時間（have a blast）」や「激しく批判する」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The windows were shattered by the blast.",
+              "ja": "爆風によって窓ガラスが粉々に砕けた。",
+              "highlight": "blast"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 blæst (吹くこと)",
+      "synonyms": [
+        {"word": "explosion", "trans": "爆発"},
+        {"word": "gust", "trans": "突風"},
+        {"word": "boom", "trans": "轟音"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 611,
+      "word": "combat",
+      "pos": "名詞、動詞",
+      "meaning": "戦闘、闘争、〜と戦う",
+      "nuance": "軍隊同士の「戦闘」を指すほか、病気、犯罪、社会問題など望ましくないものと「戦い、撲滅しようとする」際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "New measures were introduced to combat crime.",
+              "ja": "犯罪と戦う（撲滅する）ための新しい対策が導入された。",
+              "highlight": "combat"
+            }
+          ]
+        }
+      ],
+      "etymology": "com (共に) + battuere (叩く) <br>→ 叩き合う",
+      "synonyms": [
+        {"word": "battle", "trans": "戦い"},
+        {"word": "fight", "trans": "闘争"},
+        {"word": "conflict", "trans": "紛争"}
+      ],
+      "antonyms": [
+        {"word": "peace", "trans": "平和"},
+        {"word": "compromise", "trans": "妥協"}
+      ],
+      "related": [
+        {"word": "battle", "trans": "名詞：戦い"}
+      ]
+    },
+    {
+      "number": "611-2",
+      "word": "raid",
+      "pos": "名詞、動詞",
+      "meaning": "急襲、不法侵入、（警察の）立ち入り捜査、〜を急襲する",
+      "nuance": "不意を突いて突然攻撃したり、証拠を求めて警察が踏み込んだりすることを指します。冷蔵庫を夜中にあさる（raid the fridge）といった日常的な使い方もされます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Police carried out a raid on the house.",
+              "ja": "警察はその家への立ち入り捜査（ガサ入れ）を行った。",
+              "highlight": "raid"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 rad (乗ること、遠征) <br>→ road（道）と同源",
+      "synonyms": [
+        {"word": "incursion", "trans": "侵入"},
+        {"word": "attack", "trans": "攻撃"},
+        {"word": "invasion", "trans": "侵略"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "road", "trans": "名詞：道"}
+      ]
+    },
+    {
+      "number": "611-3",
+      "word": "stab",
+      "pos": "動詞、名詞",
+      "meaning": "〜を（突き刺すような刃物で）刺す、突き刺すこと",
+      "nuance": "ナイフなどの尖ったもので「グサリと刺す」動作を指します。比喩的に「裏切る（stab in the back）」や「試みる（take a stab at）」という表現もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was stabbed in the arm during the fight.",
+              "ja": "彼は喧嘩の最中に腕を刺された。",
+              "highlight": "stabbed"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世英語 (突き刺す)",
+      "synonyms": [
+        {"word": "pierce", "trans": "突き刺す"},
+        {"word": "puncture", "trans": "穴をあける"},
+        {"word": "thrust", "trans": "突き出す"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 612,
+      "word": "warfare",
+      "pos": "名詞",
+      "meaning": "戦争（状態）、武力衝突、闘争",
+      "nuance": "個々の戦闘（battle）ではなく、戦争という「活動・形態」全体を指します。「guerrilla warfare（ゲリラ戦）」や「cyber warfare（サイバー戦）」のように使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Modern warfare depends heavily on technology.",
+              "ja": "現代の戦争はテクノロジーに大きく依存している。",
+              "highlight": "warfare"
+            }
+          ]
+        }
+      ],
+      "etymology": "war (戦争) + fare (行く、旅する/事態) <br>→ 戦争の行い",
+      "synonyms": [
+        {"word": "war", "trans": "戦争"},
+        {"word": "hostilities", "trans": "敵対行為"},
+        {"word": "fighting", "trans": "戦闘"}
+      ],
+      "antonyms": [
+        {"word": "peace", "trans": "平和"}
+      ],
+      "related": [
+        {"word": "welfare", "trans": "名詞：福祉（良く行くこと）"}
+      ]
+    },
+    {
+      "number": 613,
+      "word": "warrior",
+      "pos": "名詞",
+      "meaning": "戦士、勇士、武人",
+      "nuance": "単なる兵士（soldier）よりも、勇猛さや伝統的な「戦う人」という誇り高いニュアンスが含まれます。歴史的な文脈やファンタジー、または「週末の戦士（weekend warrior）」のように比喩的にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The ancient warriors fought with great courage.",
+              "ja": "古代の戦士たちは大きな勇気を持って戦った。",
+              "highlight": "warriors"
+            }
+          ]
+        }
+      ],
+      "etymology": "war + ior (〜する人)",
+      "synonyms": [
+        {"word": "fighter", "trans": "戦う人"},
+        {"word": "soldier", "trans": "兵士"},
+        {"word": "combatant", "trans": "戦闘員"}
+      ],
+      "antonyms": [
+        {"word": "pacifist", "trans": "平和主義者"}
+      ],
+      "related": [
+        {"word": "war", "trans": "名詞：戦争"}
+      ]
+    },
+    {
+      "number": 614,
+      "word": "troop",
+      "pos": "名詞、動詞",
+      "meaning": "（複数形で）軍隊、部隊、群れ、ゾロゾロ歩く",
+      "nuance": "通常、複数形の troops で「軍隊の兵員」を指します。一団となって動く人々や動物の「群れ」を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The government decided to withdraw the troops.",
+              "ja": "政府は軍隊を撤退させることを決定した。",
+              "highlight": "troops"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 troupe (群れ)",
+      "synonyms": [
+        {"word": "forces", "trans": "軍隊"},
+        {"word": "soldiers", "trans": "兵士たち"},
+        {"word": "contingent", "trans": "分遣隊"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 615,
+      "word": "prewar",
+      "pos": "形容詞",
+      "meaning": "戦前の",
+      "nuance": "特に第二次世界大戦（WWII）が始まる前の時期を指すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The city still has some beautiful prewar buildings.",
+              "ja": "その都市にはまだ美しい戦前の建物がいくつか残っている。",
+              "highlight": "prewar"
+            }
+          ]
+        }
+      ],
+      "etymology": "pre (〜の前) + war (戦争)",
+      "synonyms": [],
+      "antonyms": [
+        {"word": "postwar", "trans": "戦後の"}
+      ],
+      "related": [
+        {"word": "war", "trans": "名詞：戦争"}
+      ]
+    },
+    {
+      "number": 616,
+      "word": "postwar",
+      "pos": "形容詞",
+      "meaning": "戦後の",
+      "nuance": "戦争が終わった直後の復興期や、その後の時代を指します。一般的には1945年以降を指すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Japan experienced rapid economic growth in the postwar era.",
+              "ja": "日本は戦後の時代に急速な経済成長を経験した。",
+              "highlight": "postwar"
+            }
+          ]
+        }
+      ],
+      "etymology": "post (〜の後) + war (戦争)",
+      "synonyms": [],
+      "antonyms": [
+        {"word": "prewar", "trans": "戦前の"}
+      ],
+      "related": [
+        {"word": "war", "trans": "名詞：戦争"}
+      ]
+    }
+  ]
+}
