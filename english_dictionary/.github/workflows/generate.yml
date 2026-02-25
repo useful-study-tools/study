@@ -1,0 +1,100 @@
+name: Generate Vocabulary HTML Files
+# vocabulary_data*.json が変更されたときに実行
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'english_dictionary/vocabulary_data*.json' # パスを変更
+  workflow_dispatch:  # 手動実行も可能
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      # 1. リポジトリをチェックアウト
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      # 2. Pythonをセットアップ
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      # 3. dataフォルダを作成（english_dictionaryの下に作成）
+      - name: Create data directory
+        run: mkdir -p english_dictionary/data
+      
+      # 4. 単語HTMLファイルを生成
+      - name: Generate vocabulary HTML files
+        run: |
+          echo "🔧 Generating HTML files..."
+          python english_dictionary/generate_vocab.py
+          echo ""
+          echo "📁 Files in data/ directory (最初の20件):"
+          ls -lh english_dictionary/data/ | head -20
+          echo ""
+          echo "📊 Total HTML files:"
+          ls -1 english_dictionary/data/*.html 2>/dev/null | wc -l
+      
+      # 5. index.htmlを更新
+      - name: Update index.html
+        run: |
+          python english_dictionary/build_index.py
+          echo "✅ index.html updated"
+
+      # 5.5. exercise.htmlを更新
+      - name: Update exercise.html
+        run: |
+          python english_dictionary/generate_exercise.py
+          echo "✅ exercise.html updated"
+      
+      # 6. 変更があるかチェック (監視パスを english_dictionary/ 内に変更)
+      - name: Check for changes
+        id: check_changes
+        run: |
+          TARGET_PATHS="english_dictionary/data/ english_dictionary/index.html english_dictionary/exercise.html"
+          if [ -n "$(git status --porcelain $TARGET_PATHS)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            git status --porcelain $TARGET_PATHS
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+      
+      # 7. 生成されたファイルをコミット＆プッシュ
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # 正しいパスでadd
+          git add english_dictionary/data/*.html
+          git add english_dictionary/index.html
+          git add english_dictionary/exercise.html
+          
+          git commit -m "🤖 Auto-generate vocabulary HTML files [skip ci]"
+          git push
+      
+      # 8. 完了サマリー
+      - name: Job summary
+        run: |
+          echo "## 📊 Generation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          # フォルダ移動してカウント
+          cd english_dictionary
+          for file in vocabulary_data*.json; do
+            if [ -f "$file" ]; then
+              count=$(python3 -c "import json; print(len(json.load(open('$file'))['words']))" 2>/dev/null || echo "0")
+              echo "- \`$file\`: $count words" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
+          total=$(ls -1 data/*.html 2>/dev/null | wc -l)
+          echo "- Total: **$total HTML files** in \`data/\` directory" >> $GITHUB_STEP_SUMMARY
