@@ -1,0 +1,228 @@
+{
+  "words": [
+    
+    
+    {
+      "number": 422,
+      "word": "degrade",
+      "pos": "動詞",
+      "meaning": "〜の質を下げる、降格させる、分解される",
+      "nuance": "「段階（grade）を下へ（de）」持っていくイメージです。他動詞では「地位や質を傷つけ、低下させる」こと、自動詞では「（化学物質などが）自然に分解・劣化する」ことを表します。",
+      "example_sections": [
+        {
+          "title": "例文（他動詞：〜の質・地位を下げる）",
+          "examples": [
+            {
+              "en": "Pollution has degraded the quality of the lake water.",
+              "ja": "汚染が湖水の質を低下させた。",
+              "highlight": "degraded"
+            },
+            {
+              "en": "Cruel punishments degrade both the punisher and the punished.",
+              "ja": "残酷な罰は、罰する側と罰せられる側の両方の品位を落とす。",
+              "highlight": "degrade"
+            }
+          ]
+        },
+        {
+          "title": "例文（自動詞：劣化する・分解される）",
+          "examples": [
+            {
+              "en": "Plastics can take hundreds of years to degrade in the ocean.",
+              "ja": "プラスチックが海中で分解されるには何百年もかかる場合がある。",
+              "highlight": "degrade"
+            }
+          ]
+        }
+      ],
+      "etymology": "de (下に) + gradus (歩み・階段) <br>→ 階段を下りる",
+      "synonyms": [
+        {"word": "deteriorate", "trans": "悪化する"},
+        {"word": "humiliate", "trans": "恥をかかせる"},
+        {"word": "decompose", "trans": "分解する"}
+      ],
+      "antonyms": [
+        {"word": "upgrade", "trans": "向上させる"},
+        {"word": "improve", "trans": "改善する"},
+        {"word": "enhance", "trans": "高める"}
+      ],
+      "related": [
+        {"word": "degradation", "trans": "名詞：悪化・分解"},
+        {"word": "biodegradable", "trans": "形容詞：生分解性の"}
+      ]
+    },
+    {
+      "number": "422-2",
+      "word": "degradation",
+      "pos": "名詞",
+      "meaning": "悪化、低下、分解、(品位の)下落",
+      "nuance": "質や価値、状態が徐々に損なわれていくプロセスを指します。環境分野では「環境破壊（environmental degradation）」、化学分野では「物質の分解」として頻出します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Environmental degradation is reaching a critical point in this region.",
+              "ja": "この地域における環境悪化は危機的な状況に達している。",
+              "highlight": "degradation"
+            },
+            {
+              "en": "The degradation of traditional values concerns many older citizens.",
+              "ja": "伝統的価値観の低下が、多くの高齢者の懸念となっている。",
+              "highlight": "degradation"
+            }
+          ]
+        }
+      ],
+      "etymology": "degrade (下げる) + ation (こと) <br>→ 段階を落とすこと",
+      "synonyms": [
+        {"word": "deterioration", "trans": "悪化"},
+        {"word": "decline", "trans": "衰退・低下"},
+        {"word": "breakdown", "trans": "崩壊・分解"}
+      ],
+      "antonyms": [
+        {"word": "improvement", "trans": "改善"},
+        {"word": "restoration", "trans": "修復・復元"},
+        {"word": "enhancement", "trans": "向上"}
+      ],
+      "related": [
+        {
+          "word": "degrade",
+          "trans": "動詞：下げる・分解する",
+          "link": "422-degrade.html"
+        }
+      ]
+    },
+    {
+      "number": 423,
+      "word": "descent",
+      "pos": "名詞",
+      "meaning": "降下、下り坂、家系、血統",
+      "nuance": "物理的に下へ移動すること、または祖先からの系統を表します。飛行機の降下や山の下りだけでなく、「of French descent（フランス系の）」のように血統の意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（降下・下り）",
+          "examples": [
+            {
+              "en": "The plane began its descent into Tokyo.",
+              "ja": "飛行機は東京への降下を始めた。",
+              "highlight": "descent"
+            },
+            {
+              "en": "The descent down the mountain was more difficult than expected.",
+              "ja": "山を下りるのは予想以上に困難だった。",
+              "highlight": "descent"
+            }
+          ]
+        },
+        {
+          "title": "例文（家系・血統）",
+          "examples": [
+            {
+              "en": "She is of Japanese descent.",
+              "ja": "彼女は日本系です。",
+              "highlight": "descent"
+            }
+          ]
+        }
+      ],
+      "etymology": "de (下に) + scent (登る) <br>→ 下に降りること",
+      "synonyms": [
+        {"word": "drop", "trans": "降下"},
+        {"word": "decline", "trans": "下り坂"},
+        {"word": "ancestry", "trans": "家系"}
+      ],
+      "antonyms": [
+        {"word": "ascent", "trans": "上昇"},
+        {"word": "climb", "trans": "登ること"}
+      ],
+      "related": [
+        {"word": "descend", "trans": "動詞：降りる"},
+        {"word": "descendant", "trans": "名詞：子孫"}
+      ]
+    },
+    {
+      "number": "423-2",
+      "word": "descendant",
+      "pos": "名詞",
+      "meaning": "子孫、末裔",
+      "nuance": "ある人物や集団から血統的に続く後の世代を指します。歴史的な人物の子孫や、生物学的な進化の系統でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is a descendant of a famous samurai family.",
+              "ja": "彼は有名な侍の家系の子孫です。",
+              "highlight": "descendant"
+            },
+            {
+              "en": "Many Americans are descendants of European immigrants.",
+              "ja": "多くのアメリカ人はヨーロッパ移民の子孫です。",
+              "highlight": "descendants"
+            }
+          ]
+        }
+      ],
+      "etymology": "descend (降りる) + ant (人) <br>→ (血統を)降りてきた人",
+      "synonyms": [
+        {"word": "offspring", "trans": "子孫"},
+        {"word": "heir", "trans": "相続人"},
+        {"word": "progeny", "trans": "子孫"}
+      ],
+      "antonyms": [
+        {"word": "ancestor", "trans": "祖先"},
+        {"word": "forefather", "trans": "先祖"}
+      ],
+      "related": [
+        {
+          "word": "descent",
+          "trans": "名詞：家系・血統",
+          "link": "423-descent.html"
+        },
+        {
+          "word": "descend",
+          "trans": "動詞：降りる"
+        }
+      ]
+    },
+    {
+      "number": "423-3",
+      "word": "deforestation",
+      "pos": "名詞",
+      "meaning": "森林伐採、森林破壊",
+      "nuance": "森林を大規模に伐採し、森がなくなることを指します。環境問題の文脈で頻出し、気候変動や生態系破壊との関連で議論されます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Deforestation in the Amazon is a major environmental concern.",
+              "ja": "アマゾンでの森林伐採は主要な環境問題です。",
+              "highlight": "Deforestation"
+            },
+            {
+              "en": "The government is taking steps to prevent further deforestation.",
+              "ja": "政府はさらなる森林破壊を防ぐための措置を講じている。",
+              "highlight": "deforestation"
+            }
+          ]
+        }
+      ],
+      "etymology": "de (除去) + forest (森) + ation (こと) <br>→ 森を取り除くこと",
+      "synonyms": [
+        {"word": "logging", "trans": "伐採"},
+        {"word": "clearance", "trans": "開墾"},
+        {"word": "tree-cutting", "trans": "木の伐採"}
+      ],
+      "antonyms": [
+        {"word": "reforestation", "trans": "植林・再森林化"},
+        {"word": "afforestation", "trans": "森林造成"}
+      ],
+      "related": [
+        {"word": "forest", "trans": "名詞：森"},
+        {"word": "deforest", "trans": "動詞：森林を伐採する"}
+      ]
+    }
+  ]
+}
