@@ -1,0 +1,784 @@
+{
+  "words": [
+    {
+      "number": 579,
+      "word": "verdict",
+      "pos": "名詞",
+      "meaning": "（陪審員の）評決、判定、決定",
+      "nuance": "法廷で陪審員が下す「有罪・無罪」の判断を指すのが本来の意味ですが、日常会話でも「（試してみた結果としての）最終的な判断や感想」という意味でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The jury reached a unanimous verdict of not guilty.",
+              "ja": "陪審団は全員一致で無罪の評決を下した。",
+              "highlight": "verdict"
+            },
+            {
+              "en": "What's your verdict on the new restaurant?",
+              "ja": "新しいレストランについての君の判定（感想）はどうだい？",
+              "highlight": "verdict"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vere (真実を) + dictum (言われたこと) <br>→ 真実を述べること",
+      "synonyms": [
+        {"word": "judgment", "trans": "判断"},
+        {"word": "decision", "trans": "決定"},
+        {"word": "ruling", "trans": "裁定"}
+      ],
+      "antonyms": [
+        {"word": "accusation", "trans": "告発"},
+        {"word": "indictment", "trans": "起訴"}
+      ],
+      "related": [
+        {"word": "verify", "trans": "動詞：確かめる"},
+        {"word": "dictionary", "trans": "名詞：辞書"}
+      ]
+    },
+    {
+      "number": 580,
+      "word": "nutritional",
+      "pos": "形容詞",
+      "meaning": "栄養上の、栄養に関する",
+      "nuance": "食品の成分や、体が健康を維持するためのプロセスとしての「栄養」に関わる形容詞です。「nutritional value（栄養価）」や「nutritional balance（栄養バランス）」という形で多用されます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Fast food often lacks nutritional value.",
+              "ja": "ファストフードはしばしば栄養価に欠けている。",
+              "highlight": "nutritional"
+            }
+          ]
+        }
+      ],
+      "etymology": "nutrition + al (形容詞語尾)",
+      "synonyms": [
+        {"word": "dietary", "trans": "食事の、規定食の"},
+        {"word": "nutritive", "trans": "栄養になる"}
+      ],
+      "antonyms": [
+        {"word": "unhealthy", "trans": "不健康な"}
+      ],
+      "related": [
+        {"word": "nutrition", "trans": "名詞：栄養摂取"},
+        {"word": "nutrient", "trans": "名詞：栄養素"}
+      ]
+    },
+    {
+      "number": "580-2",
+      "word": "nutrition",
+      "pos": "名詞",
+      "meaning": "栄養摂取、栄養（学）",
+      "nuance": "食べ物を摂取し、体がそれをエネルギーや細胞にする「プロセス全体」を指します。また、バランスの良い食事そのものを指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Poor nutrition can lead to a variety of health problems.",
+              "ja": "栄養不足（悪い栄養状態）は、さまざまな健康問題を引き起こす可能性がある。",
+              "highlight": "nutrition"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 nutrire (養う、授乳する)",
+      "synonyms": [
+        {"word": "nourishment", "trans": "滋養"},
+        {"word": "sustenance", "trans": "持続させるもの、食物"}
+      ],
+      "antonyms": [
+        {"word": "malnutrition", "trans": "栄養失調"}
+      ],
+      "related": [
+        {"word": "nurse", "trans": "名詞：看護師（もとは乳母）"},
+        {"word": "nurture", "trans": "動詞：育てる"}
+      ]
+    },
+    {
+      "number": 581,
+      "word": "nutrient",
+      "pos": "名詞",
+      "meaning": "栄養素、栄養分",
+      "nuance": "タンパク質、ビタミン、ミネラルなど、食物に含まれる個々の「成分」を指します。科学的な文脈でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Plants absorb nutrients from the soil.",
+              "ja": "植物は土壌から栄養分を吸収する。",
+              "highlight": "nutrients"
+            }
+          ]
+        }
+      ],
+      "etymology": "nutri (養う) + ent (〜するもの)",
+      "synonyms": [
+        {"word": "ingredient", "trans": "成分"},
+        {"word": "nourishment", "trans": "滋養分"}
+      ],
+      "antonyms": [
+        {"word": "toxin", "trans": "毒素"},
+        {"word": "pollutant", "trans": "汚染物質"}
+      ],
+      "related": [
+        {"word": "nutritional", "trans": "形容詞：栄養上の"}
+      ]
+    },
+    {
+      "number": 582,
+      "word": "disparity",
+      "pos": "名詞",
+      "meaning": "（不均衡な）格差、相違、不一致",
+      "nuance": "単なる違い（difference）ではなく、収入、教育、権利などが「不公平に、あるいは極端に離れている」というネガティブなニュアンスを含みます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There is a huge economic disparity between the rich and the poor.",
+              "ja": "富裕層と貧困層の間には巨大な経済的格差がある。",
+              "highlight": "disparity"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (否定) + par (等しい) + ity (名詞語尾) <br>→ 等しくないこと",
+      "synonyms": [
+        {"word": "inequality", "trans": "不平等"},
+        {"word": "gap", "trans": "溝、格差"},
+        {"word": "imbalance", "trans": "不均衡"}
+      ],
+      "antonyms": [
+        {"word": "parity", "trans": "同等、均等"},
+        {"word": "equality", "trans": "平等"},
+        {"word": "similarity", "trans": "類似"}
+      ],
+      "related": [
+        {"word": "disparate", "trans": "形容詞：共通点のない"}
+      ]
+    },
+    {
+      "number": "582-2",
+      "word": "parity",
+      "pos": "名詞",
+      "meaning": "同等、均等、一致",
+      "nuance": "価値、地位、力などが、他のものと同じレベル（対等）であることを指します。経済や通貨の価値、あるいはスポーツのチーム間の実力差がない状態などで使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The goal is to achieve gender parity in the workplace.",
+              "ja": "目標は、職場における男女の均等（同等性）を達成することだ。",
+              "highlight": "parity"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 par (等しい) <br>→ 同じレベルであること",
+      "synonyms": [
+        {"word": "equality", "trans": "平等"},
+        {"word": "equivalence", "trans": "同等"},
+        {"word": "uniformity", "trans": "均一性"}
+      ],
+      "antonyms": [
+        {"word": "disparity", "trans": "格差"},
+        {"word": "inequality", "trans": "不平等"}
+      ],
+      "related": [
+        {"word": "compare", "trans": "動詞：比較する（並べて等しいか見る）"}
+      ]
+    },
+    {
+      "number": 583,
+      "word": "healthful",
+      "pos": "形容詞",
+      "meaning": "健康に良い、健康を増進させる",
+      "nuance": "healthyが「（人などが）健康な状態である」ことを指すのに対し、healthfulは「（食べ物や環境などが）人を健康にする性質を持っている」という外的な要因を指すことが多いです（現在はhealthyで代用されることも多い）。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Regular exercise and a healthful diet are essential.",
+              "ja": "定期的な運動と健康に良い食生活は不可欠だ。",
+              "highlight": "healthful"
+            }
+          ]
+        }
+      ],
+      "etymology": "health + ful (〜に満ちた) <br>→ 健康を与える",
+      "synonyms": [
+        {"word": "wholesome", "trans": "健康に良い、健全な"},
+        {"word": "salubrious", "trans": "（気候などが）健康に良い"},
+        {"word": "beneficial", "trans": "有益な"}
+      ],
+      "antonyms": [
+        {"word": "unhealthy", "trans": "不健康な"},
+        {"word": "harmful", "trans": "有害な"},
+        {"word": "detrimental", "trans": "損害を与える"}
+      ],
+      "related": [
+        {"word": "health", "trans": "名詞：健康"}
+      ]
+    },
+    {
+      "number": 584,
+      "word": "dietary",
+      "pos": "形容詞",
+      "meaning": "食事の、規定食の",
+      "nuance": "日常の食事内容や、アレルギー、宗教、健康上の理由による「食事制限・規定」に関連することを指します。「dietary fiber（食物繊維）」や「dietary restrictions（食事制限）」といった表現で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Do you have any dietary requirements?",
+              "ja": "（アレルギーなどの）食事制限やご要望はありますか？",
+              "highlight": "dietary"
+            }
+          ]
+        }
+      ],
+      "etymology": "diet + ary (形容詞語尾)",
+      "synonyms": [
+        {"word": "nutritional", "trans": "栄養上の"},
+        {"word": "alimentary", "trans": "食物の、消化の"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "diet", "trans": "名詞：食事、規定食"}
+      ]
+    },
+    {
+      "number": "584-2",
+      "word": "diet",
+      "pos": "名詞、動詞",
+      "meaning": "（日常の）食事、規定食、ダイエット、国会（日本など）",
+      "nuance": "日本語の「ダイエット（痩身）」の意味もありますが、英語では本来「日々の食事のあり方」そのものを指します。また「the Diet」で日本や北欧の「国会」を指す固有の名詞になります。",
+      "example_sections": [
+        {
+          "title": "例文（食事）",
+          "examples": [
+            {
+              "en": "A balanced diet is key to a long life.",
+              "ja": "バランスの取れた食事が長寿の鍵だ。",
+              "highlight": "diet"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 diaita (生活様式、生き方)",
+      "synonyms": [
+        {"word": "food", "trans": "食べ物"},
+        {"word": "fare", "trans": "料理、食事内容"},
+        {"word": "parliament", "trans": "議会（英国など）"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "dietician", "trans": "名詞：栄養士"}
+      ]
+    },
+    {
+      "number": 585,
+      "word": "tag",
+      "pos": "名詞、動詞",
+      "meaning": "荷札、付け札、鬼ごっこ、〜に札をつける、タグ付けする",
+      "nuance": "物を確認・識別するために付ける小さな札です。現代ではSNSの「タグ付け」や、ITの「メタデータ」を指すことが多いです。また、子供の遊びの「鬼ごっこ」も英語ではtagと言います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The price tag was missing from the shirt.",
+              "ja": "そのシャツには値札がついていなかった。",
+              "highlight": "tag"
+            },
+            {
+              "en": "Please tag me in the photo.",
+              "ja": "その写真に私をタグ付けしてください。",
+              "highlight": "tag"
+            }
+          ]
+        }
+      ],
+      "etymology": "不詳（紐の端、付け札を意味する語から）",
+      "synonyms": [
+        {"word": "label", "trans": "ラベル"},
+        {"word": "ticket", "trans": "切符、札"},
+        {"word": "mark", "trans": "印"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 586,
+      "word": "label",
+      "pos": "名詞、動詞",
+      "meaning": "ラベル、はり紙、分類、〜にラベルをはる、〜を（…だと）決めつける",
+      "nuance": "容器に中身を記した紙を貼ることだけでなく、人に対して「彼は怠け者だ」のように一方的な評価を下して「レッテルを貼る」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Always read the label before taking medicine.",
+              "ja": "薬を飲む前には必ずラベルを読みなさい。",
+              "highlight": "label"
+            },
+            {
+              "en": "He was labeled as a troublemaker.",
+              "ja": "彼はトラブルメーカーだというレッテルを貼られた。",
+              "highlight": "labeled"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 (帯、細長い布片)",
+      "synonyms": [
+        {"word": "tag", "trans": "タグ"},
+        {"word": "categorize", "trans": "分類する"},
+        {"word": "brand", "trans": "銘柄、烙印を押す"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 587,
+      "word": "socioeconomic",
+      "pos": "形容詞",
+      "meaning": "社会経済的な",
+      "nuance": "「社会（social）」と「経済（economic）」の2つの要素を組み合わせた概念です。家庭の収入、教育水準、職業などが合わさった「社会的な立ち位置」を分析する際によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The study looks at the socioeconomic factors affecting health.",
+              "ja": "その研究は、健康に影響を与える社会経済的要因を調査している。",
+              "highlight": "socioeconomic"
+            }
+          ]
+        }
+      ],
+      "etymology": "socio (社会の) + economic (経済の)",
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        {"word": "sociology", "trans": "名詞：社会学"},
+        {"word": "economy", "trans": "名詞：経済"}
+      ]
+    },
+    {
+      "number": 588,
+      "word": "disapprove",
+      "pos": "動詞",
+      "meaning": "賛成しない、不承認とする、非とする",
+      "nuance": "単に賛成しないだけでなく、「それは良くないことだ」という道徳的・公的な批判や、承認を与えないというニュアンスを含みます。しばしば「disapprove of (someone/something)」の形で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Her parents strongly disapprove of her smoking.",
+              "ja": "彼女の両親は、彼女の喫煙を強く快く思っていない（反対している）。",
+              "highlight": "disapprove"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (反対) + approve (賛成する) <br>→ 賛成の反対、認めない",
+      "synonyms": [
+        {"word": "object to", "trans": "反対する"},
+        {"word": "condemn", "trans": "非難する"},
+        {"word": "reject", "trans": "拒絶する"}
+      ],
+      "antonyms": [
+        {"word": "approve", "trans": "賛成する"},
+        {"word": "support", "trans": "支持する"},
+        {"word": "endorse", "trans": "是認する"}
+      ],
+      "related": [
+        {"word": "disapproval", "trans": "名詞：不賛成"}
+      ]
+    },
+    {
+      "number": "588-2",
+      "word": "disapproval",
+      "pos": "名詞",
+      "meaning": "不賛成、不承認、非難",
+      "nuance": "何かが正しくない、あるいは気に入らないという感情や、公式な拒否の態度を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He shook his head in disapproval.",
+              "ja": "彼は不賛成の意を示して首を横に振った。",
+              "highlight": "disapproval"
+            }
+          ]
+        }
+      ],
+      "etymology": "disapproveの名詞形",
+      "synonyms": [
+        {"word": "objection", "trans": "反対"},
+        {"word": "criticism", "trans": "批判"},
+        {"word": "disfavour", "trans": "不興、不賛成"}
+      ],
+      "antonyms": [
+        {"word": "approval", "trans": "賛成"},
+        {"word": "agreement", "trans": "同意"},
+        {"word": "sanction", "trans": "認可"}
+      ],
+      "related": [
+        {"word": "disapprove", "trans": "動詞：賛成しない"}
+      ]
+    },
+    {
+      "number": 589,
+      "word": "dishonesty",
+      "pos": "名詞",
+      "meaning": "不誠実、不正、不正直",
+      "nuance": "嘘をついたり、人を騙したり、不正な手段を使ったりする性質や行為そのものを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was fired for his dishonesty regarding the company funds.",
+              "ja": "彼は会社の資金に関する不正（不誠実な行為）により解雇された。",
+              "highlight": "dishonesty"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (否定) + honesty (正直)",
+      "synonyms": [
+        {"word": "deceit", "trans": "詐欺、虚偽"},
+        {"word": "fraud", "trans": "不正、詐欺"},
+        {"word": "corruption", "trans": "汚職、不徳"}
+      ],
+      "antonyms": [
+        {"word": "honesty", "trans": "正直"},
+        {"word": "integrity", "trans": "誠実、高潔"},
+        {"word": "truthfulness", "trans": "真実であること"}
+      ],
+      "related": [
+        {"word": "dishonest", "trans": "形容詞：不誠実な"}
+      ]
+    },
+    {
+      "number": 590,
+      "word": "disobedient",
+      "pos": "形容詞",
+      "meaning": "従順でない、従わない、反抗的な",
+      "nuance": "ルールや親、上司などの命令に従おうとしない様子を指します。特に子供の行儀の悪さや、規律を守らない態度について使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The disobedient child refused to go to bed.",
+              "ja": "その言うことを聞かない（反抗的な）子供は、寝るのを拒んだ。",
+              "highlight": "disobedient"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (否定) + obedient (従順な)",
+      "synonyms": [
+        {"word": "rebellious", "trans": "反抗的な"},
+        {"word": "defiant", "trans": "挑戦的な、従わない"},
+        {"word": "unruly", "trans": "手に負えない"}
+      ],
+      "antonyms": [
+        {"word": "obedient", "trans": "従順な"},
+        {"word": "compliant", "trans": "順応する"},
+        {"word": "submissive", "trans": "服従する"}
+      ],
+      "related": [
+        {"word": "disobey", "trans": "動詞：従わない"},
+        {"word": "obedience", "trans": "名詞：服従"}
+      ]
+    },
+    {
+      "number": 591,
+      "word": "displeasure",
+      "pos": "名詞",
+      "meaning": "不快、不満、不機嫌",
+      "nuance": "何かに満足していなかったり、腹を立てていたりする状態を指す、やや硬い表現です。「不快感を示す」という文脈でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The manager expressed her displeasure at the slow progress.",
+              "ja": "部長は、進捗の遅さに対して不快感（不満）を表明した。",
+              "highlight": "displeasure"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (否定) + pleasure (喜び)",
+      "synonyms": [
+        {"word": "annoyance", "trans": "苛立ち"},
+        {"word": "dissatisfaction", "trans": "不満"},
+        {"word": "irritation", "trans": "焦燥、苛立ち"}
+      ],
+      "antonyms": [
+        {"word": "pleasure", "trans": "喜び"},
+        {"word": "satisfaction", "trans": "満足"},
+        {"word": "delight", "trans": "歓喜"}
+      ],
+      "related": [
+        {"word": "displease", "trans": "動詞：不快にさせる"}
+      ]
+    },
+    {
+      "number": 592,
+      "word": "disregard",
+      "pos": "動詞、名詞",
+      "meaning": "無視する、軽視する、無視、軽視",
+      "nuance": "注意を払うべきこと（ルール、警告、他人の感情など）を、意図的に「無視して扱う」ことを指します。不注意によるものより、軽んじているというニュアンスが強いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He disregarded the safety warnings and entered the building.",
+              "ja": "彼は安全警告を無視して建物に入った。",
+              "highlight": "disregarded"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (否定) + regard (注視する、考慮する)",
+      "synonyms": [
+        {"word": "ignore", "trans": "無視する"},
+        {"word": "neglect", "trans": "怠る、疎かにする"},
+        {"word": "overlook", "trans": "見逃す"}
+      ],
+      "antonyms": [
+        {"word": "heed", "trans": "注意を払う"},
+        {"word": "respect", "trans": "尊重する"},
+        {"word": "consider", "trans": "考慮する"}
+      ],
+      "related": []
+    },
+    {
+      "number": 593,
+      "word": "dissatisfied",
+      "pos": "形容詞",
+      "meaning": "不満な、満足していない",
+      "nuance": "期待していたレベルに達していないことに対して、不満を感じている状態を指します。「be dissatisfied with (something)」という形で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Many customers were dissatisfied with the service.",
+              "ja": "多くの顧客がそのサービスに不満を抱いていた。",
+              "highlight": "dissatisfied"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (否定) + satisfied (満足した)",
+      "synonyms": [
+        {"word": "unhappy", "trans": "満足していない"},
+        {"word": "discontented", "trans": "不平のある"},
+        {"word": "frustrated", "trans": "欲求不満の"}
+      ],
+      "antonyms": [
+        {"word": "satisfied", "trans": "満足した"},
+        {"word": "content", "trans": "甘んじている、満足している"}
+      ],
+      "related": [
+        {"word": "satisfy", "trans": "動詞：満足させる"},
+        {"word": "dissatisfaction", "trans": "名詞：不満"}
+      ]
+    },
+    {
+      "number": "593-2",
+      "word": "discharge",
+      "pos": "動詞、名詞",
+      "meaning": "（職務を）果たす、解雇する、放出する、退院させる、放出",
+      "nuance": "何かを「外に出す」ことが基本イメージです。兵役や仕事からの解放（退役、解雇）、病院からの退院、ガスや汚水の放出、そして任務の遂行（重荷を下ろす）など、多岐にわたる意味があります。",
+      "example_sections": [
+        {
+          "title": "例文（任務）",
+          "examples": [
+            {
+              "en": "He discharged his duties with great care.",
+              "ja": "彼は細心の注意を払って任務を遂行した。",
+              "highlight": "discharged"
+            }
+          ]
+        },
+        {
+          "title": "例文（放出・解雇）",
+          "examples": [
+            {
+              "en": "The factory was found to be discharging toxic waste.",
+              "ja": "その工場は有害廃棄物を放出していることが判明した。",
+              "highlight": "discharging"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (取り除く) + charge (荷、負担) <br>→ 負担を取り除く = 放出・解放する",
+      "synonyms": [
+        {"word": "release", "trans": "放免する、放つ"},
+        {"word": "dismiss", "trans": "解雇する"},
+        {"word": "emit", "trans": "（光や音などを）放つ"}
+      ],
+      "antonyms": [
+        {"word": "hire", "trans": "雇う"},
+        {"word": "admit", "trans": "（病院などに）入れる、認める"},
+        {"word": "absorb", "trans": "吸収する"}
+      ],
+      "related": [
+        {"word": "charge", "trans": "名詞/動詞：負担、充電、請求"}
+      ]
+    },
+    {
+      "number": "593-3",
+      "word": "disclose",
+      "pos": "動詞",
+      "meaning": "暴露する、公表する、明らかにする",
+      "nuance": "隠されていたこと、秘密にされていたことを、包み（close）を解くように（dis）人々に「見える状態」にすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company failed to disclose its financial problems.",
+              "ja": "その会社は自社の財政問題を公表しなかった（隠していた）。",
+              "highlight": "disclose"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (反対) + close (閉じる) <br>→ 閉じているものを開ける",
+      "synonyms": [
+        {"word": "reveal", "trans": "明らかにする"},
+        {"word": "unveil", "trans": "（ベールを脱ぐように）公開する"},
+        {"word": "divulge", "trans": "（秘密を）漏らす"}
+      ],
+      "antonyms": [
+        {"word": "conceal", "trans": "隠す"},
+        {"word": "hide", "trans": "隠す"},
+        {"word": "suppress", "trans": "隠蔽する、抑える"}
+      ],
+      "related": [
+        {"word": "disclosure", "trans": "名詞：開示"},
+        {"word": "enclosure", "trans": "名詞：囲い込み、同封物"}
+      ]
+    },
+    {
+      "number": "593-4",
+      "word": "disclosure",
+      "pos": "名詞",
+      "meaning": "開示、暴露、発表された事実",
+      "nuance": "情報を公開する「行為」そのものや、公開された「内容」を指します。「Full disclosure（全情報の開示、ありのままを話すこと）」というフレーズがよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Recent disclosures have damaged the politician's reputation.",
+              "ja": "最近の（情報の）暴露は、その政治家の評判を傷つけた。",
+              "highlight": "disclosures"
+            }
+          ]
+        }
+      ],
+      "etymology": "discloseの名詞形",
+      "synonyms": [
+        {"word": "revelation", "trans": "新事実、暴露"},
+        {"word": "announcement", "trans": "発表"},
+        {"word": "exposure", "trans": "さらすこと、暴露"}
+      ],
+      "antonyms": [
+        {"word": "secrecy", "trans": "秘密厳守"},
+        {"word": "concealment", "trans": "隠蔽"}
+      ],
+      "related": [
+        {"word": "disclose", "trans": "動詞：暴露する"}
+      ]
+    },
+    {
+      "number": "593-5",
+      "word": "discord",
+      "pos": "名詞",
+      "meaning": "不一致、不和、不協和音",
+      "nuance": "人々の間の意見の食い違いや、仲の悪さを指します。また、音楽において調和していない音（不協和音）のことも指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The new policy caused discord within the committee.",
+              "ja": "新しい方針は委員会内に不和（意見の対立）を引き起こした。",
+              "highlight": "discord"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (離れて) + cord (心) <br>→ 心が離れていること",
+      "synonyms": [
+        {"word": "conflict", "trans": "衝突、争い"},
+        {"word": "disagreement", "trans": "不一致"},
+        {"word": "strife", "trans": "争い、闘争"}
+      ],
+      "antonyms": [
+        {"word": "harmony", "trans": "調和"},
+        {"word": "concord", "trans": "一致"},
+        {"word": "unity", "trans": "結束"}
+      ],
+      "related": [
+        {"word": "cordial", "trans": "形容詞：心からの、温かい"}
+      ]
+    },
+    {
+      "number": "593-6",
+      "word": "displace",
+      "pos": "動詞",
+      "meaning": "〜に取って代わる、置き換える、（故郷から）追い出す",
+      "nuance": "本来あった場所から何かを「押し出す」イメージです。新しい技術が古いものに取って代わる場合や、戦争などで人々が住む場所を追われる（displaced people：避難民）場合に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "AI may displace workers in certain industries.",
+              "ja": "AIが特定の産業において労働者に取って代わるかもしれない。",
+              "highlight": "displace"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (離れて) + place (場所) <br>→ 場所を移す",
+      "synonyms": [
+        {"word": "replace", "trans": "取って代わる"},
+        {"word": "supersede", "trans": "（より優れたものが）取って代わる"},
+        {"word": "uproot", "trans": "根こそぎにする、追い出す"}
+      ],
+      "antonyms": [
+        {"word": "reinstate", "trans": "復職させる、元の状態に戻す"},
+        {"word": "settle", "trans": "定住させる"}
+      ],
+      "related": [
+        {"word": "displacement", "trans": "名詞：置換、強制移住"}
+      ]
+    }
+  ]
+}
