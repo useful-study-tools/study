@@ -1,0 +1,1554 @@
+{
+  "words": [
+    {
+      "number": 732,
+      "word": "epidemiology",
+      "pos": "名詞",
+      "meaning": "疫学",
+      "nuance": "疾病の発生原因、分布、および予防を研究する医学の一分野です。感染症の蔓延を防ぐための学問として現代社会で重視されています。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Epidemiology is crucial for tracking the spread of infectious diseases.",
+              "ja": "疫学は感染症の拡散を追跡するために極めて重要である。",
+              "highlight": "Epidemiology"
+            },
+            {
+              "en": "She decided to major in epidemiology to help prevent future pandemics.",
+              "ja": "彼女は将来のパンデミックを防ぐ手助けをするため、疫学を専攻することに決めた。",
+              "highlight": "epidemiology"
+            }
+          ]
+        }
+      ],
+      "etymology": "epi（〜の上に）+ demos（人々）+ ology（学問）→ 人々の上に降りかかるもの（流行病）の研究",
+      "synonyms": [
+        {"word": "public health science", "trans": "公衆衛生学"},
+        {"word": "pathology", "trans": "病理学"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "epidemic", "trans": "名詞/形容詞：流行病/流行の"},
+        {"word": "epidemiologist", "trans": "名詞：疫学者"}
+      ]
+    },
+    {
+      "number": "732-2",
+      "word": "hygiene",
+      "pos": "名詞",
+      "meaning": "衛生、清潔、健康法",
+      "nuance": "病気を防ぎ健康を維持するための「清潔さ」や「習慣」を指します。個人的なもの（personal hygiene）から公共のものまで含まれます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Poor standards of hygiene can lead to the spread of disease.",
+              "ja": "低い衛生水準は、病気の蔓延につながる可能性がある。",
+              "highlight": "hygiene"
+            },
+            {
+              "en": "Regular handwashing is an essential part of personal hygiene.",
+              "ja": "定期的な手洗いは、個人衛生の不可欠な要素である。",
+              "highlight": "hygiene"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 Hygieia（健康の女神ヒュギエイア）",
+      "synonyms": [
+        {"word": "cleanliness", "trans": "清潔さ"},
+        {"word": "sanitation", "trans": "公衆衛生、下水施設"},
+        {"word": "purity", "trans": "純粋、清潔"}
+      ],
+      "antonyms": [
+        {"word": "filth", "trans": "不潔、汚物"},
+        {"word": "contamination", "trans": "汚染"}
+      ],
+      "related": [
+        {"word": "hygienic", "trans": "形容詞：衛生的な"}
+      ]
+    },
+    {
+      "number": "732-3",
+      "word": "hygienics",
+      "pos": "名詞",
+      "meaning": "衛生学、健康法",
+      "nuance": "hygieneの実践的な理論や学問としての側面を指します。現在は hygiene や sanitation と呼ばれることが一般的です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Hygienics involves the study of environment-related health factors.",
+              "ja": "衛生学には、環境に関連する健康要因の研究が含まれる。",
+              "highlight": "Hygienics"
+            },
+            {
+              "en": "The principles of hygienics are applied in modern hospital design.",
+              "ja": "衛生学の原理は現代の病院設計に応用されている。",
+              "highlight": "hygienics"
+            }
+          ]
+        }
+      ],
+      "etymology": "hygiene + ics（学問）",
+      "synonyms": [
+        {"word": "sanitary science", "trans": "衛生科学"},
+        {"word": "hygiene", "trans": "衛生"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 733,
+      "word": "character",
+      "pos": "名詞",
+      "meaning": "性格、個性、特徴、登場人物、文字",
+      "nuance": "その人を定義する「内面的な資質」から、物語の「キャラクター」、さらには漢字やアルファベットなどの「文字」まで非常に広い意味を持ちます。",
+      "example_sections": [
+        {
+          "title": "例文（性格・特徴）",
+          "examples": [
+            {
+              "en": "Success reveals a person's true character.",
+              "ja": "成功は人の本当の性格（人格）を明らかにする。",
+              "highlight": "character"
+            },
+            {
+              "en": "The area has kept its traditional character.",
+              "ja": "その地域は伝統的な特徴を維持している。",
+              "highlight": "character"
+            }
+          ]
+        },
+        {
+          "title": "例文（登場人物・文字）",
+          "examples": [
+            {
+              "en": "Who is your favorite character in the novel?",
+              "ja": "その小説の中であなたの好きな登場人物は誰ですか？",
+              "highlight": "character"
+            },
+            {
+              "en": "Password must be at least eight characters long.",
+              "ja": "パスワードは少なくとも8文字以上でなければならない。",
+              "highlight": "characters"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 kharassein（刻み込む、印をつける）",
+      "synonyms": [
+        {"word": "personality", "trans": "人格、個性"},
+        {"word": "nature", "trans": "性質"},
+        {"word": "letter", "trans": "文字"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "characteristic", "trans": "名詞/形容詞：特徴/特徴的な"},
+        {"word": "characterize", "trans": "動詞：〜を特徴づける"}
+      ]
+    },
+    {
+      "number": "733-2",
+      "word": "characterize",
+      "pos": "動詞",
+      "meaning": "〜を特徴づける、〜の特色を示す、〜を（…と）評する",
+      "nuance": "何かがどのような性質を持っているかを明確に説明したり、特定の性質が何かの「印」となっている場合に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The disease is characterized by a high fever.",
+              "ja": "その病気は高熱を出すのが特徴である。",
+              "highlight": "characterized"
+            },
+            {
+              "en": "How would you characterize the current economic situation?",
+              "ja": "現在の経済状況をどのように表現（特徴づけ）しますか？",
+              "highlight": "characterize"
+            }
+          ]
+        }
+      ],
+      "etymology": "character + ize（動詞化）",
+      "synonyms": [
+        {"word": "distinguish", "trans": "区別する、特徴づける"},
+        {"word": "define", "trans": "定義する"},
+        {"word": "describe", "trans": "描写する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "characterization", "trans": "名詞：性格描写、特徴づけ"}
+      ]
+    },
+    {
+      "number": 734,
+      "word": "validate",
+      "pos": "動詞",
+      "meaning": "〜を正当だと認める、〜を有効にする、〜を検証（確認）する",
+      "nuance": "データや理論が正しいことを証明する、あるいは切符やパスワードなどを「使える状態にする」行為を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The test results validate our theory.",
+              "ja": "試験結果は我々の理論が正しいことを証明している。",
+              "highlight": "validate"
+            },
+            {
+              "en": "You need to validate your parking ticket at the reception.",
+              "ja": "受付で駐車券の有効化（確認）を受ける必要があります。",
+              "highlight": "validate"
+            }
+          ]
+        }
+      ],
+      "etymology": "valid（有効な）+ ate（動詞化）",
+      "synonyms": [
+        {"word": "confirm", "trans": "確認する"},
+        {"word": "verify", "trans": "検証する"},
+        {"word": "authenticate", "trans": "認証する"}
+      ],
+      "antonyms": [
+        {"word": "invalidate", "trans": "無効にする"},
+        {"word": "nullify", "trans": "無効にする、取り消す"}
+      ],
+      "related": [
+        {"word": "validation", "trans": "名詞：確認、有効化"}
+      ]
+    },
+    {
+      "number": 735,
+      "word": "valid",
+      "pos": "形容詞",
+      "meaning": "有効な、正当な、妥当な、根拠の確かな",
+      "nuance": "法律・規則的に「使える」状態や、論理的に「もっともだ」という納得感の両方に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "This passport is valid for another three years.",
+              "ja": "このパスポートはあと3年間有効です。",
+              "highlight": "valid"
+            },
+            {
+              "en": "She raised some valid points during the meeting.",
+              "ja": "彼女は会議中にいくつかの妥当な（もっともな）指摘をした。",
+              "highlight": "valid"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 valere（強い、価値がある）",
+      "synonyms": [
+        {"word": "legitimate", "trans": "合法的な、正当な"},
+        {"word": "logical", "trans": "論理的な"},
+        {"word": "effective", "trans": "効果的な、有効な"}
+      ],
+      "antonyms": [
+        {"word": "invalid", "trans": "無効な"},
+        {"word": "void", "trans": "無効の、空の"}
+      ],
+      "related": [
+        {"word": "validity", "trans": "名詞：有効性"}
+      ]
+    },
+    {
+      "number": "735-2",
+      "word": "validity",
+      "pos": "名詞",
+      "meaning": "有効性、妥当性、効力",
+      "nuance": "法的な期限が生きていることや、議論の内容がどれほど真実に近いかを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Experts questioned the validity of the data.",
+              "ja": "専門家はそのデータの妥当性を疑問視した。",
+              "highlight": "validity"
+            },
+            {
+              "en": "The period of validity for this offer is one month.",
+              "ja": "この申し出の有効期間は1ヶ月です。",
+              "highlight": "validity"
+            }
+          ]
+        }
+      ],
+      "etymology": "valid の名詞形",
+      "synonyms": [
+        {"word": "soundness", "trans": "健全さ、妥当性"},
+        {"word": "legitimacy", "trans": "正当性、合法性"}
+      ],
+      "antonyms": [
+        {"word": "invalidity", "trans": "無効であること"}
+      ],
+      "related": []
+    },
+    {
+      "number": 736,
+      "word": "invalid",
+      "pos": "形容詞、名詞",
+      "meaning": "無効な、説得力のない、病弱な（人）",
+      "nuance": "形容詞で「無効な」という意味（発音：インヴァリッド）と、名詞で「病人、障害を持つ人」という意味（発音：インヴァリド）があります。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The contract was declared invalid by the court.",
+              "ja": "その契約は裁判所によって無効と宣言された。",
+              "highlight": "invalid"
+            },
+            {
+              "en": "That is an invalid argument because it's based on false info.",
+              "ja": "それは誤った情報に基づいているので、説得力のない（妥当でない）議論だ。",
+              "highlight": "invalid"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He spent his last years as an invalid after the stroke.",
+              "ja": "彼は脳卒中の後、晩年を病人（療養生活者）として過ごした。",
+              "highlight": "invalid"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（否定）+ valid（強い）→ 強くない、効力がない",
+      "synonyms": [
+        {"word": "null", "trans": "無効の"},
+        {"word": "void", "trans": "無効の"},
+        {"word": "patient", "trans": "病人（名詞の意味）"}
+      ],
+      "antonyms": [
+        {"word": "valid", "trans": "有効な"},
+        {"word": "healthy", "trans": "健康な"}
+      ],
+      "related": [
+        {"word": "invalidate", "trans": "動詞：無効にする"}
+      ]
+    },
+    {
+      "number": "736-2",
+      "word": "legalize",
+      "pos": "動詞",
+      "meaning": "〜を合法化する、〜を公認する",
+      "nuance": "これまで違法だったり非公式だったりしたものを、法律で認めることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Some countries have moved to legalize gambling.",
+              "ja": "いくつかの国はギャンブルを合法化する動きを見せている。",
+              "highlight": "legalize"
+            },
+            {
+              "en": "The government decided to legalize the use of certain chemicals.",
+              "ja": "政府は特定の化学物質の使用を合法化することを決定した。",
+              "highlight": "legalize"
+            }
+          ]
+        }
+      ],
+      "etymology": "legal（法律の）+ ize（動詞化）",
+      "synonyms": [
+        {"word": "authorize", "trans": "権限を与える、公認する"},
+        {"word": "legitimize", "trans": "正当化する、適法にする"}
+      ],
+      "antonyms": [
+        {"word": "prohibit", "trans": "禁止する"},
+        {"word": "ban", "trans": "禁止する"},
+        {"word": "outlaw", "trans": "法的に禁止する"}
+      ],
+      "related": [
+        {"word": "legalization", "trans": "名詞：合法化"}
+      ]
+    },
+    {
+      "number": "736-3",
+      "word": "legal",
+      "pos": "形容詞",
+      "meaning": "法律上の、合法的な、法律に関する",
+      "nuance": "法律そのものに関連する場合（legal advice）と、法律に違反していない状態（It is legal.）の両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "You should seek legal advice before signing the document.",
+              "ja": "書類に署名する前に法律的な助言（弁護士の助言）を求めるべきだ。",
+              "highlight": "legal"
+            },
+            {
+              "en": "Is it legal to park your car here overnight?",
+              "ja": "ここに一晩中車を停めるのは合法（法律的にOK）ですか？",
+              "highlight": "legal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 lex（法律）",
+      "synonyms": [
+        {"word": "lawful", "trans": "法に従った"},
+        {"word": "judicial", "trans": "司法の"},
+        {"word": "statutory", "trans": "法定の"}
+      ],
+      "antonyms": [
+        {"word": "illegal", "trans": "違法の"},
+        {"word": "illicit", "trans": "不法な"}
+      ],
+      "related": [
+        {"word": "legally", "trans": "副詞：法律的に"},
+        {"word": "legality", "trans": "名詞：適法性"}
+      ]
+    },
+    {
+      "number": 737,
+      "word": "infectious",
+      "pos": "形容詞",
+      "meaning": "伝染性の、感染症の、影響を与えやすい（うつりやすい）",
+      "nuance": "病原体が体内に侵入して起こる病気全般を指します。比喩的に「笑いやあくびが周囲にうつる」という際にもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Flu is a highly infectious disease.",
+              "ja": "インフルエンザは非常に伝染性の高い病気である。",
+              "highlight": "infectious"
+            },
+            {
+              "en": "Her laughter was infectious, and soon everyone was giggling.",
+              "ja": "彼女の笑いは周囲にうつりやすく、すぐに誰もがクスクス笑い出した。",
+              "highlight": "infectious"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（中に）+ facere（作る、行う）→ 中に入り込む",
+      "synonyms": [
+        {"word": "communicable", "trans": "伝染性の"},
+        {"word": "catching", "trans": "うつりやすい"},
+        {"word": "spreading", "trans": "広がる"}
+      ],
+      "antonyms": [
+        {"word": "noninfectious", "trans": "非伝染性の"},
+        {"word": "harmless", "trans": "無害な"}
+      ],
+      "related": [
+        {"word": "infect", "trans": "動詞：感染させる"},
+        {"word": "infection", "trans": "名詞：感染"}
+      ]
+    },
+    {
+      "number": "737-2",
+      "word": "infection",
+      "pos": "名詞",
+      "meaning": "感染、伝染、感染症",
+      "nuance": "病原体が体内に侵入し増殖するプロセス、またはその結果生じる病気の状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "You should clean the wound to prevent infection.",
+              "ja": "感染を防ぐために傷口をきれいにすべきだ。",
+              "highlight": "infection"
+            },
+            {
+              "en": "Ear infections are common among young children.",
+              "ja": "耳の感染症（中耳炎など）は小さな子供によく見られる。",
+              "highlight": "infections"
+            }
+          ]
+        }
+      ],
+      "etymology": "infect の名詞形",
+      "synonyms": [
+        {"word": "contamination", "trans": "汚染"},
+        {"word": "disease", "trans": "病気"},
+        {"word": "ailment", "trans": "病気、不調"}
+      ],
+      "antonyms": [
+        {"word": "sterilization", "trans": "殺菌、不妊化"},
+        {"word": "purity", "trans": "清潔、純粋"}
+      ],
+      "related": [
+        {"word": "disinfectant", "trans": "名詞：消毒剤"}
+      ]
+    },
+    {
+      "number": "737-3",
+      "word": "infect",
+      "pos": "動詞",
+      "meaning": "〜に感染させる、〜を汚染する、（感情を）うつす",
+      "nuance": "物理的なウイルスだけでなく、コンピュータウイルスを感染させる際や、感情を周囲に広める際にも使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The virus can infect both humans and animals.",
+              "ja": "そのウイルスは人間と動物の両方に感染する可能性がある。",
+              "highlight": "infect"
+            },
+            {
+              "en": "His enthusiasm infected the whole team.",
+              "ja": "彼の熱意がチーム全体に伝わった（影響を与えた）。",
+              "highlight": "infected"
+            }
+          ]
+        }
+      ],
+      "etymology": "infectious と同語源",
+      "synonyms": [
+        {"word": "contaminate", "trans": "汚染する"},
+        {"word": "pollute", "trans": "汚染する"},
+        {"word": "influence", "trans": "影響を与える"}
+      ],
+      "antonyms": [
+        {"word": "disinfect", "trans": "消毒する"},
+        {"word": "purify", "trans": "浄化する"}
+      ],
+      "related": []
+    },
+    {
+      "number": "737-4",
+      "word": "contagious",
+      "pos": "形容詞",
+      "meaning": "（接触）伝染性の、うつりやすい",
+      "nuance": "infectiousが感染全般を指すのに対し、contagiousは特に「人から人への直接・間接的な接触」によって広まる性質を強調します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Keep the sick child home; the disease is very contagious.",
+              "ja": "病気の子供は家にいさせてください。その病気は非常に伝染性が高いです。",
+              "highlight": "contagious"
+            },
+            {
+              "en": "Yawning is famously contagious.",
+              "ja": "あくびがうつりやすいのは有名な話だ。",
+              "highlight": "contagious"
+            }
+          ]
+        }
+      ],
+      "etymology": "con（共に）+ tangere（触れる）→ 触れ合うことで広がる",
+      "synonyms": [
+        {"word": "infectious", "trans": "伝染性の"},
+        {"word": "transmissible", "trans": "伝達可能な"},
+        {"word": "catching", "trans": "うつりやすい"}
+      ],
+      "antonyms": [
+        {"word": "noncontagious", "trans": "非接触伝染性の"}
+      ],
+      "related": [
+        {"word": "contagion", "trans": "名詞：伝染、伝染病"}
+      ]
+    },
+    {
+      "number": "737-5",
+      "word": "contagion",
+      "pos": "名詞",
+      "meaning": "伝染、伝染病、悪影響の広がり",
+      "nuance": "接触による伝染そのもの、あるいはその伝染病を指します。経済危機が他国に広がるような「負の連鎖」にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The government is trying to stop the contagion of the new virus.",
+              "ja": "政府は新型ウイルスの伝染を止めようとしている。",
+              "highlight": "contagion"
+            },
+            {
+              "en": "There are fears of financial contagion across Europe.",
+              "ja": "ヨーロッパ全土に金融危機の連鎖（悪影響）が広がる恐れがある。",
+              "highlight": "contagion"
+            }
+          ]
+        }
+      ],
+      "etymology": "contagious の名詞形",
+      "synonyms": [
+        {"word": "transmission", "trans": "伝達、伝染"},
+        {"word": "outbreak", "trans": "発生、流行"},
+        {"word": "infection", "trans": "感染"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "contact", "trans": "名詞：接触"}
+      ]
+    },
+    {
+      "number": 738,
+      "word": "pandemic",
+      "pos": "名詞、形容詞",
+      "meaning": "（世界的な）大流行病、世界的に流行している",
+      "nuance": "国境を超えて、世界中の極めて広い範囲で発生する流行を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The 1918 Spanish flu was a devastating pandemic.",
+              "ja": "1918年のスペイン風邪は壊滅的なパンデミック（世界的大流行）だった。",
+              "highlight": "pandemic"
+            },
+            {
+              "en": "We must be prepared for the next pandemic.",
+              "ja": "私たちは次のパンデミックに備えなければならない。",
+              "highlight": "pandemic"
+            }
+          ]
+        }
+      ],
+      "etymology": "pan（全ての）+ demos（人々）",
+      "synonyms": [
+        {"word": "global outbreak", "trans": "世界的な発生"},
+        {"word": "scourge", "trans": "災い、天罰"}
+      ],
+      "antonyms": [
+        {"word": "local outbreak", "trans": "局地的な発生"}
+      ],
+      "related": [
+        {"word": "pan-American", "trans": "汎アメリカの"}
+      ]
+    },
+    {
+      "number": "738-2",
+      "word": "epidemic",
+      "pos": "名詞、形容詞",
+      "meaning": "（地域的な）流行病、蔓延、流行の",
+      "nuance": "特定の地域やコミュニティ内で、予想を大幅に超える速度で広がる流行を指します。比喩的に「犯罪の急増」などにも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Health officials are struggling to contain the cholera epidemic.",
+              "ja": "衛生当局はコレラの流行（エピデミック）を封じ込めようと苦闘している。",
+              "highlight": "epidemic"
+            },
+            {
+              "en": "The city is facing an epidemic of car thefts.",
+              "ja": "その都市は自動車盗難の蔓延に直面している。",
+              "highlight": "epidemic"
+            }
+          ]
+        }
+      ],
+      "etymology": "epi（〜の間に）+ demos（人々）",
+      "synonyms": [
+        {"word": "plague", "trans": "疫病"},
+        {"word": "rash", "trans": "多発、頻発"},
+        {"word": "outbreak", "trans": "発生、突発"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "epidemiology", "trans": "名詞：疫学"}
+      ]
+    },
+    {
+      "number": "738-3",
+      "word": "endemic",
+      "pos": "形容詞、名詞",
+      "meaning": "（ある地方・集団に）特有の、風土病の、風土病",
+      "nuance": "常に特定の地域に存在している、あるいはその土地から離れない性質を指します（例：熱帯地方のマラリア）。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Malaria is endemic in many hot, wet parts of the world.",
+              "ja": "マラリアは世界の多くの暑く湿った地域に特有の（風土病の）病気だ。",
+              "highlight": "endemic"
+            },
+            {
+              "en": "Corruption seems to be endemic in that government.",
+              "ja": "その政府には汚職が（特有のものとして）根付いているようだ。",
+              "highlight": "endemic"
+            }
+          ]
+        }
+      ],
+      "etymology": "en（中に）+ demos（人々）",
+      "synonyms": [
+        {"word": "native", "trans": "固有の"},
+        {"word": "indigenous", "trans": "土着の"},
+        {"word": "prevalent", "trans": "普及している、蔓延している"}
+      ],
+      "antonyms": [
+        {"word": "exotic", "trans": "外来の"},
+        {"word": "foreign", "trans": "外国の"}
+      ],
+      "related": []
+    },
+    {
+      "number": 739,
+      "word": "germ",
+      "pos": "名詞",
+      "meaning": "細菌、微生物、芽、起源（兆し）",
+      "nuance": "病気を引き起こす目に見えない小さな生物（俗称としての細菌）を指すほか、物事の「始まり・種」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Wash your hands to get rid of germs.",
+              "ja": "バイキン（細菌）を取り除くために手を洗いなさい。",
+              "highlight": "germs"
+            },
+            {
+              "en": "That idea was the germ of a great novel.",
+              "ja": "そのアイデアが、偉大な小説の始まり（種）だった。",
+              "highlight": "germ"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 germen（芽、種）",
+      "synonyms": [
+        {"word": "bacterium", "trans": "細菌（単数形）"},
+        {"word": "microbe", "trans": "微生物"},
+        {"word": "seed", "trans": "種、始まり"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "germinate", "trans": "動詞：芽を出す、発達する"}
+      ]
+    },
+    {
+      "number": "739-2",
+      "word": "virus",
+      "pos": "名詞",
+      "meaning": "ウイルス、有害な影響、コンピュータウイルス",
+      "nuance": "細菌(bacteria)よりさらに小さく、他者の細胞内でしか増殖できない存在。転じて、人々に悪影響を与えるものや、プログラムのウイルスも指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The common cold is caused by a virus.",
+              "ja": "風邪はウイルスによって引き起こされる。",
+              "highlight": "virus"
+            },
+            {
+              "en": "My computer was attacked by a malicious virus.",
+              "ja": "私のコンピュータが悪質なウイルスに攻撃された。",
+              "highlight": "virus"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 virus（毒、毒液）",
+      "synonyms": [
+        {"word": "pathogen", "trans": "病原体"},
+        {"word": "infection", "trans": "感染源"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "viral", "trans": "形容詞：ウイルスの、（ネットで）拡散する"},
+        {"word": "antiviral", "trans": "形容詞：抗ウイルスの"}
+      ]
+    },
+    {
+      "number": 740,
+      "word": "designate",
+      "pos": "動詞、形容詞",
+      "meaning": "〜を指定する、〜を指名する、任命された（名詞の後ろで）",
+      "nuance": "公式な立場や目的のために、特定の役割や場所を「決める」際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "This area has been designated as a National Park.",
+              "ja": "この地域は国立公園に指定されている。",
+              "highlight": "designated"
+            },
+            {
+              "en": "The chairman designated his successor.",
+              "ja": "議長は自身の後継者を指名した。",
+              "highlight": "designated"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "He is the director designate of the new museum.",
+              "ja": "彼は新しい美術館の館長に指名された人物（次期館長）だ。",
+              "highlight": "designate"
+            }
+          ]
+        }
+      ],
+      "etymology": "de（完全に）+ sign（しるし）+ ate（動詞化）",
+      "synonyms": [
+        {"word": "appoint", "trans": "指名する、任命する"},
+        {"word": "specify", "trans": "特定する"},
+        {"word": "assign", "trans": "割り当てる"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "designation", "trans": "名詞：名称、指定"},
+        {"word": "design", "trans": "名詞/動詞：設計（する）"}
+      ]
+    },
+    {
+      "number": "740-2",
+      "word": "designation",
+      "pos": "名詞",
+      "meaning": "指定、名称、称号、任命",
+      "nuance": "何かに与えられた公式な名前や、選出されたという事実を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The site received its official designation as a World Heritage Site.",
+              "ja": "その場所は世界遺産として正式な指定を受けた。",
+              "highlight": "designation"
+            },
+            {
+              "en": "What is the official designation of your job title?",
+              "ja": "あなたの職名の正式な呼称は何ですか？",
+              "highlight": "designation"
+            }
+          ]
+        }
+      ],
+      "etymology": "designate の名詞形",
+      "synonyms": [
+        {"word": "label", "trans": "呼称、ラベル"},
+        {"word": "classification", "trans": "分類"},
+        {"word": "title", "trans": "肩書き、名称"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 741,
+      "word": "terminate",
+      "pos": "動詞",
+      "meaning": "〜を終わらせる、終了する、解雇する",
+      "nuance": "契約、期間、あるいは雇用関係などを「打ち切る」という少し硬い表現です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The contract will terminate at the end of this month.",
+              "ja": "その契約は今月末で終了する。",
+              "highlight": "terminate"
+            },
+            {
+              "en": "His employment was terminated due to repeated absences.",
+              "ja": "度重なる欠勤を理由に、彼の雇用は打ち切られた（解雇された）。",
+              "highlight": "terminated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 terminus（境界、終わり）",
+      "synonyms": [
+        {"word": "conclude", "trans": "締めくくる、終わる"},
+        {"word": "cease", "trans": "やめる、止まる"},
+        {"word": "dismiss", "trans": "解雇する"}
+      ],
+      "antonyms": [
+        {"word": "commence", "trans": "開始する"},
+        {"word": "initiate", "trans": "始める"},
+        {"word": "continue", "trans": "続ける"}
+      ],
+      "related": [
+        {"word": "terminal", "trans": "名詞/形容詞：終着駅/末期の"},
+        {"word": "terminator", "trans": "名詞：終わらせるもの"}
+      ]
+    },
+    {
+      "number": "741-2",
+      "word": "termination",
+      "pos": "名詞",
+      "meaning": "終了、打ち切り、解雇",
+      "nuance": "公式な手続きとしての「終わり」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Notice of termination must be given 30 days in advance.",
+              "ja": "契約解除（終了）の通知は30日前に行わなければならない。",
+              "highlight": "termination"
+            },
+            {
+              "en": "The early termination of the program was disappointing.",
+              "ja": "プログラムの早期打ち切りは残念だった。",
+              "highlight": "termination"
+            }
+          ]
+        }
+      ],
+      "etymology": "terminate の名詞形",
+      "synonyms": [
+        {"word": "expiration", "trans": "満了"},
+        {"word": "conclusion", "trans": "結末"},
+        {"word": "closure", "trans": "閉鎖、終結"}
+      ],
+      "antonyms": [
+        {"word": "onset", "trans": "始まり"},
+        {"word": "renewal", "trans": "更新"}
+      ],
+      "related": []
+    },
+    {
+      "number": 742,
+      "word": "tolerate",
+      "pos": "動詞",
+      "meaning": "〜を許容する、〜を我慢する、〜に耐える",
+      "nuance": "必ずしも好きではないが、反対せずに「大目に見る」というニュアンスです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The school will not tolerate any form of bullying.",
+              "ja": "学校はいかなる形態のいじめも容認（我慢）しない。",
+              "highlight": "tolerate"
+            },
+            {
+              "en": "Some plants can tolerate extreme cold.",
+              "ja": "一部の植物は極度の寒さに耐えることができる。",
+              "highlight": "tolerate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tolerare（耐える、運ぶ）",
+      "synonyms": [
+        {"word": "endure", "trans": "耐える"},
+        {"word": "stand", "trans": "我慢する"},
+        {"word": "permit", "trans": "許可する、許容する"}
+      ],
+      "antonyms": [
+        {"word": "forbid", "trans": "禁止する"},
+        {"word": "prohibit", "trans": "禁じる"},
+        {"word": "reject", "trans": "拒絶する"}
+      ],
+      "related": [
+        {"word": "tolerance", "trans": "名詞：寛容、耐性"}
+      ]
+    },
+    {
+      "number": "742-2",
+      "word": "tolerant",
+      "pos": "形容詞",
+      "meaning": "寛容な、耐性のある",
+      "nuance": "他人の意見や行動に対して偏見なく受け入れる態度、あるいは環境に対する強さを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We must be tolerant of other people's religious beliefs.",
+              "ja": "私たちは他人の宗教的信条に対して寛容でなければならない。",
+              "highlight": "tolerant"
+            },
+            {
+              "en": "This species of grass is highly salt-tolerant.",
+              "ja": "この種類の芝生は非常に塩分耐性が高い。",
+              "highlight": "tolerant"
+            }
+          ]
+        }
+      ],
+      "etymology": "tolerate の形容詞形",
+      "synonyms": [
+        {"word": "broad-minded", "trans": "心の広い"},
+        {"word": "patient", "trans": "忍耐強い"},
+        {"word": "resistant", "trans": "耐性のある"}
+      ],
+      "antonyms": [
+        {"word": "intolerant", "trans": "不寛容な"},
+        {"word": "prejudiced", "trans": "偏見のある"}
+      ],
+      "related": []
+    },
+    {
+      "number": "742-3",
+      "word": "tolerable",
+      "pos": "形容詞",
+      "meaning": "我慢できる、耐えられる、まあまあの",
+      "nuance": "素晴らしくはないが、なんとか耐えられるレベルであることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The heat was unpleasant but tolerable.",
+              "ja": "暑さは不快だったが、我慢できる程度だった。",
+              "highlight": "tolerable"
+            },
+            {
+              "en": "He has a tolerable knowledge of French.",
+              "ja": "彼はフランス語のまあまあの知識（日常会話に困らない程度）を持っている。",
+              "highlight": "tolerable"
+            }
+          ]
+        }
+      ],
+      "etymology": "tolerate + able",
+      "synonyms": [
+        {"word": "bearable", "trans": "耐えられる"},
+        {"word": "acceptable", "trans": "許容できる"},
+        {"word": "passable", "trans": "まずまずの"}
+      ],
+      "antonyms": [
+        {"word": "intolerable", "trans": "耐え難い"},
+        {"word": "unbearable", "trans": "我慢できない"}
+      ],
+      "related": []
+    },
+    {
+      "number": "742-4",
+      "word": "tolerance",
+      "pos": "名詞",
+      "meaning": "寛容、忍耐、耐性、許容誤差",
+      "nuance": "他人の違いを認める姿勢のほか、薬への「慣れ（耐性）」や工業分野の「誤差範囲」も指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The community has a high level of religious tolerance.",
+              "ja": "その地域社会は宗教的寛容度が非常に高い。",
+              "highlight": "tolerance"
+            },
+            {
+              "en": "Over time, the body develops a tolerance to the drug.",
+              "ja": "時間が経つにつれ、体はその薬に対して耐性を持ってしまう。",
+              "highlight": "tolerance"
+            }
+          ]
+        }
+      ],
+      "etymology": "tolerate の名詞形",
+      "synonyms": [
+        {"word": "open-mindedness", "trans": "オープンな姿勢"},
+        {"word": "endurance", "trans": "忍耐"},
+        {"word": "resistance", "trans": "耐性"}
+      ],
+      "antonyms": [
+        {"word": "intolerance", "trans": "不寛容"},
+        {"word": "bigotry", "trans": "偏執、不寛容"}
+      ],
+      "related": []
+    },
+    {
+      "number": "742-5",
+      "word": "accelerate",
+      "pos": "動詞",
+      "meaning": "加速する、〜を速める、促進する",
+      "nuance": "物理的な速度だけでなく、プロセスの進行を早める際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The car accelerated as it hit the highway.",
+              "ja": "高速道路に入ると、車は加速した。",
+              "highlight": "accelerated"
+            },
+            {
+              "en": "Exposure to sunlight can accelerate the aging of the skin.",
+              "ja": "日光を浴びることは肌の老化を早める可能性がある。",
+              "highlight": "accelerate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ac（〜へ）+ celer（速い）+ ate",
+      "synonyms": [
+        {"word": "speed up", "trans": "速める"},
+        {"word": "hasten", "trans": "急がせる"},
+        {"word": "expedite", "trans": "促進する"}
+      ],
+      "antonyms": [
+        {"word": "decelerate", "trans": "減速する"},
+        {"word": "slow down", "trans": "遅くする"},
+        {"word": "retard", "trans": "遅らせる"}
+      ],
+      "related": [
+        {"word": "acceleration", "trans": "名詞：加速"},
+        {"word": "accelerator", "trans": "名詞：アクセル"}
+      ]
+    },
+    {
+      "number": "742-6",
+      "word": "circulate",
+      "pos": "動詞",
+      "meaning": "循環する、〜を流通させる、〜を触れ回る",
+      "nuance": "血液、空気、お金、あるいは噂話などがぐるぐると「回る」様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A cooling fan helps to circulate the air in the room.",
+              "ja": "扇風機は部屋の空気を循環させるのに役立つ。",
+              "highlight": "circulate"
+            },
+            {
+              "en": "Rumors have been circulating about his resignation.",
+              "ja": "彼の辞任についての噂が広まっている（流れている）。",
+              "highlight": "circulating"
+            }
+          ]
+        }
+      ],
+      "etymology": "circle（円）+ ate",
+      "synonyms": [
+        {"word": "flow", "trans": "流れる"},
+        {"word": "distribute", "trans": "分配する、流通させる"},
+        {"word": "spread", "trans": "広める"}
+      ],
+      "antonyms": [
+        {"word": "stagnate", "trans": "停滞する"},
+        {"word": "block", "trans": "遮断する"}
+      ],
+      "related": [
+        {"word": "circulation", "trans": "名詞：循環、発行部数"}
+      ]
+    },
+    {
+      "number": "742-7",
+      "word": "collaborate",
+      "pos": "動詞",
+      "meaning": "共同で行う、協力する、合作する",
+      "nuance": "特定の目的やプロジェクトのために複数の人間・組織が「共に働く」ことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Researchers from different countries collaborated on the project.",
+              "ja": "異なる国の研究者たちがそのプロジェクトで協力した。",
+              "highlight": "collaborated"
+            },
+            {
+              "en": "The two musicians decided to collaborate on a new album.",
+              "ja": "その二人のミュージシャンは新しいアルバムを合作することに決めた。",
+              "highlight": "collaborate"
+            }
+          ]
+        }
+      ],
+      "etymology": "col（共に）+ labor（働く）+ ate",
+      "synonyms": [
+        {"word": "cooperate", "trans": "協力する"},
+        {"word": "team up", "trans": "チームを組む"},
+        {"word": "work together", "trans": "協力して働く"}
+      ],
+      "antonyms": [
+        {"word": "compete", "trans": "競う"},
+        {"word": "work alone", "trans": "単独で働く"}
+      ],
+      "related": [
+        {"word": "collaboration", "trans": "名詞：共同作業、合作"}
+      ]
+    },
+    {
+      "number": "742-8",
+      "word": "collaboration",
+      "pos": "名詞",
+      "meaning": "共同作業、協力、合作、コラボレーション",
+      "nuance": "協力して作り上げた成果物そのものを指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The product was developed in collaboration with a major tech firm.",
+              "ja": "その製品は大手のIT企業との協力によって開発された。",
+              "highlight": "collaboration"
+            },
+            {
+              "en": "Effective collaboration is key to the success of any team.",
+              "ja": "効果的な共同作業が、どんなチームの成功にとっても鍵となる。",
+              "highlight": "collaboration"
+            }
+          ]
+        }
+      ],
+      "etymology": "collaborate の名詞形",
+      "synonyms": [
+        {"word": "partnership", "trans": "提携"},
+        {"word": "cooperation", "trans": "協力"},
+        {"word": "teamwork", "trans": "チームワーク"}
+      ],
+      "antonyms": [
+        {"word": "competition", "trans": "競争"},
+        {"word": "conflict", "trans": "衝突"}
+      ],
+      "related": []
+    },
+    {
+      "number": "742-9",
+      "word": "correlate",
+      "pos": "動詞",
+      "meaning": "互いに関係がある、〜を関連づける",
+      "nuance": "一方が変化するともう一方も変化するような「相関関係」があることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Obesity often correlates with an increased risk of heart disease.",
+              "ja": "肥満はしばしば心臓病のリスク増加と相関している。",
+              "highlight": "correlates"
+            },
+            {
+              "en": "Researchers tried to correlate smoking habits with lung cancer rates.",
+              "ja": "研究者たちは喫煙習慣と肺がん率を関連づけようとした。",
+              "highlight": "correlate"
+            }
+          ]
+        }
+      ],
+      "etymology": "cor（共に）+ relate（関係づける）",
+      "synonyms": [
+        {"word": "associate", "trans": "連想する、関連づける"},
+        {"word": "link", "trans": "結びつける"},
+        {"word": "connect", "trans": "つなげる"}
+      ],
+      "antonyms": [
+        {"word": "disconnect", "trans": "切り離す"},
+        {"word": "differ", "trans": "異なる"}
+      ],
+      "related": [
+        {"word": "correlation", "trans": "名詞：相関関係"},
+        {"word": "relative", "trans": "名詞/形容詞：親戚/相対的な"}
+      ]
+    },
+    {
+      "number": "742-10",
+      "word": "delegate",
+      "pos": "動詞、名詞",
+      "meaning": "（権限などを）委任する、任せる、代表者、使節",
+      "nuance": "自分の仕事を部下に「任せる」という動詞の意味と、会議などに送られる「代表」という名詞の意味があります。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "A good manager knows how to delegate tasks effectively.",
+              "ja": "優れたマネージャーは、タスクを効果的に委任する方法を知っている。",
+              "highlight": "delegate"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Delegates from over 100 countries attended the conference.",
+              "ja": "100カ国以上からの代表者がその会議に出席した。",
+              "highlight": "Delegates"
+            }
+          ]
+        }
+      ],
+      "etymology": "de（離れて）+ legare（送る、任命する）",
+      "synonyms": [
+        {"word": "entrust", "trans": "預ける、委ねる"},
+        {"word": "assign", "trans": "割り当てる"},
+        {"word": "representative", "trans": "代表者"}
+      ],
+      "antonyms": [
+        {"word": "retain", "trans": "保持する（任せない）"}
+      ],
+      "related": [
+        {"word": "delegation", "trans": "名詞：代表団、委任"}
+      ]
+    },
+    {
+      "number": "742-11",
+      "word": "differentiate",
+      "pos": "動詞",
+      "meaning": "〜を区別する、〜を差別化する、特異性を出す",
+      "nuance": "違いを見分けること、あるいは競合他社との違いを明確にすること（差別化）を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It is difficult to differentiate between the two species.",
+              "ja": "その2つの種を区別するのは難しい。",
+              "highlight": "differentiate"
+            },
+            {
+              "en": "The company needs to differentiate its products from those of competitors.",
+              "ja": "その会社は、自社製品を競合他社のものと差別化する必要がある。",
+              "highlight": "differentiate"
+            }
+          ]
+        }
+      ],
+      "etymology": "different（異なる）+ ate",
+      "synonyms": [
+        {"word": "distinguish", "trans": "区別する"},
+        {"word": "discriminate", "trans": "識別する、差別する"},
+        {"word": "contrast", "trans": "対比させる"}
+      ],
+      "antonyms": [
+        {"word": "confuse", "trans": "混同する"},
+        {"word": "ignore", "trans": "無視する（違いを見ない）"}
+      ],
+      "related": [
+        {"word": "differentiation", "trans": "名詞：区別、分化、微分（数学）"}
+      ]
+    },
+    {
+      "number": "742-12",
+      "word": "escalate",
+      "pos": "動詞",
+      "meaning": "段階的に拡大する、エスカレートする、悪化する",
+      "nuance": "争いや問題がより深刻な段階へ「上がっていく」様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The minor dispute quickly escalated into a full-scale war.",
+              "ja": "些細な紛争が、瞬く間に全面戦争へとエスカレートした。",
+              "highlight": "escalated"
+            },
+            {
+              "en": "Costs have escalated significantly over the past year.",
+              "ja": "コストはこの1年間で大幅に増大した。",
+              "highlight": "escalated"
+            }
+          ]
+        }
+      ],
+      "etymology": "escalator（エスカレーター）からの逆形成",
+      "synonyms": [
+        {"word": "intensify", "trans": "激化する"},
+        {"word": "increase", "trans": "増加する"},
+        {"word": "worsen", "trans": "悪化する"}
+      ],
+      "antonyms": [
+        {"word": "de-escalate", "trans": "段階的に縮小する"},
+        {"word": "diminish", "trans": "減少する"},
+        {"word": "ease", "trans": "和らぐ"}
+      ],
+      "related": [
+        {"word": "escalator", "trans": "名詞：エスカレーター"}
+      ]
+    },
+    {
+      "number": "742-13",
+      "word": "evacuate",
+      "pos": "動詞",
+      "meaning": "（場所から）避難させる、〜から退去する、〜を空にする",
+      "nuance": "危険な場所から人々を「外へ出す」こと、あるいは場所を「空にする」ことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Local residents were ordered to evacuate the area due to the flood.",
+              "ja": "洪水のため、地元住民はその地域から避難するよう命じられた。",
+              "highlight": "evacuate"
+            },
+            {
+              "en": "The building was evacuated after the fire alarm went off.",
+              "ja": "火災報知器が鳴った後、建物から全員が退去した。",
+              "highlight": "evacuated"
+            }
+          ]
+        }
+      ],
+      "etymology": "e（外に）+ vacuus（空の）+ ate",
+      "synonyms": [
+        {"word": "vacate", "trans": "立ち退く"},
+        {"word": "abandon", "trans": "去る、見捨てる"},
+        {"word": "clear out", "trans": "空にする、立ち退く"}
+      ],
+      "antonyms": [
+        {"word": "occupy", "trans": "占拠する"},
+        {"word": "stay", "trans": "とどまる"}
+      ],
+      "related": [
+        {"word": "evacuation", "trans": "名詞：避難"},
+        {"word": "vacant", "trans": "形容詞：空いている"}
+      ]
+    },
+    {
+      "number": "742-14",
+      "word": "mandate",
+      "pos": "動詞、名詞",
+      "meaning": "〜を命じる、義務づける、権限、委任、命令",
+      "nuance": "選挙によって得られた「国民からの委託」や、法的な「義務化」を指す重い言葉です。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The new law mandates that all children must wear seatbelts.",
+              "ja": "新しい法律は、すべての子供がシートベルトを着用することを義務づけている。",
+              "highlight": "mandates"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The president has a clear mandate from the voters to reform the tax system.",
+              "ja": "大統領は税制改革について、有権者から明確な委託（権限）を得ている。",
+              "highlight": "mandate"
+            }
+          ]
+        }
+      ],
+      "etymology": "manus（手）+ dare（与える）→ 手に委ねる",
+      "synonyms": [
+        {"word": "order", "trans": "命じる"},
+        {"word": "command", "trans": "命じる"},
+        {"word": "authorize", "trans": "権限を与える"}
+      ],
+      "antonyms": [
+        {"word": "veto", "trans": "拒否する"},
+        {"word": "request", "trans": "要請する（強制力なし）"}
+      ],
+      "related": [
+        {"word": "mandatory", "trans": "形容詞：義務的な"}
+      ]
+    },
+    {
+      "number": "742-15",
+      "word": "nominate",
+      "pos": "動詞",
+      "meaning": "〜を指名する、候補者に立てる、任命する",
+      "nuance": "賞や役職の「候補者として名前を挙げる」際によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was nominated for an Academy Award for Best Actor.",
+              "ja": "彼はアカデミー主演男優賞にノミネート（指名）された。",
+              "highlight": "nominated"
+            },
+            {
+              "en": "The committee will nominate a new chairperson next week.",
+              "ja": "委員会は来週、新しい議長を指名する予定だ。",
+              "highlight": "nominate"
+            }
+          ]
+        }
+      ],
+      "etymology": "nomen（名前）+ ate",
+      "synonyms": [
+        {"word": "propose", "trans": "提案する"},
+        {"word": "name", "trans": "名前を挙げる"},
+        {"word": "appoint", "trans": "任命する"}
+      ],
+      "antonyms": [
+        {"word": "dismiss", "trans": "解雇する、退ける"}
+      ],
+      "related": [
+        {"word": "nomination", "trans": "名詞：指名、推薦"},
+        {"word": "nominee", "trans": "名詞：候補者"}
+      ]
+    },
+    {
+      "number": "742-16",
+      "word": "rotate",
+      "pos": "動詞",
+      "meaning": "回転する、〜を回転させる、交代する、循環させる",
+      "nuance": "軸を中心に回る物理的な回転と、当番などが順番に回る（交代する）ことの両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The Earth rotates on its axis once every 24 hours.",
+              "ja": "地球は24時間ごとに地軸を中心に自転（回転）している。",
+              "highlight": "rotates"
+            },
+            {
+              "en": "The staff members rotate the weekend shifts.",
+              "ja": "スタッフは週末のシフトを交代で行う。",
+              "highlight": "rotate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 rota（車輪）+ ate",
+      "synonyms": [
+        {"word": "revolve", "trans": "公転する、回る"},
+        {"word": "spin", "trans": "回転する"},
+        {"word": "alternate", "trans": "交互に行う"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "rotation", "trans": "名詞：回転、交代"},
+        {"word": "rotary", "trans": "形容詞：回転式の"}
+      ]
+    },
+    {
+      "number": "742-17",
+      "word": "simulate",
+      "pos": "動詞",
+      "meaning": "〜をシミュレートする、〜のふりをする、〜を模造する",
+      "nuance": "コンピュータなどで現実の状況を再現すること、あるいは本物のように見せかける（ふりをする）ことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The software is used to simulate flight conditions for pilot training.",
+              "ja": "そのソフトウェアはパイロット訓練のために飛行状況をシミュレートするのに使われる。",
+              "highlight": "simulate"
+            },
+            {
+              "en": "Some insects simulate death to escape from predators.",
+              "ja": "一部の昆虫は捕食者から逃れるために死んだふりをする。",
+              "highlight": "simulate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 similis（似た）+ ate",
+      "synonyms": [
+        {"word": "imitate", "trans": "模倣する"},
+        {"word": "replicate", "trans": "再現する"},
+        {"word": "feign", "trans": "〜のふりをする"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "simulation", "trans": "名詞：シミュレーション"},
+        {"word": "similar", "trans": "形容詞：似ている"}
+      ]
+    }
+  ]
+}
