@@ -1,0 +1,1476 @@
+{
+  "words": [
+    {
+      "number": 646,
+      "word": "intake",
+      "pos": "名詞",
+      "meaning": "摂取（量）、受け入れ数、取り入れ口",
+      "nuance": "体に取り入れるエネルギー（カロリー）や栄養、あるいは組織に新しく入る人員の数などを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "You should reduce your daily intake of salt.",
+              "ja": "一日の塩分摂取量を減らすべきだ。",
+              "highlight": "intake"
+            },
+            {
+              "en": "The university has increased its annual intake of students.",
+              "ja": "その大学は年間の学生受け入れ数を増やした。",
+              "highlight": "intake"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (中に) + take (取る)",
+      "synonyms": [
+        {"word": "consumption", "trans": "消費、摂取"},
+        {"word": "absorption", "trans": "吸収"},
+        {"word": "input", "trans": "入力、投入"}
+      ],
+      "antonyms": [
+        {"word": "output", "trans": "出力"},
+        {"word": "discharge", "trans": "排出"},
+        {"word": "expulsion", "trans": "追放、排出"}
+      ],
+      "related": [
+        {"word": "take in", "trans": "句動詞：〜を摂取する、理解する"}
+      ]
+    },
+    {
+      "number": 647,
+      "word": "sanction",
+      "pos": "名詞、動詞",
+      "meaning": "（公式な）認可、制裁、〜を認可する、〜に制裁を加える",
+      "nuance": "「認可」と「制裁」という真逆の意味を持ちますが、どちらも「公的な権限による決定」という点で共通しています。複数形の sanctions は経済制裁を指すことが一般的です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The UN imposed economic sanctions on the country.",
+              "ja": "国連はその国に対して経済制裁を科した。",
+              "highlight": "sanctions"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The government refused to sanction the project.",
+              "ja": "政府はそのプロジェクトの認可を拒んだ。",
+              "highlight": "sanction"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sanctus (神聖な、決定された) → 法律で定められたこと",
+      "synonyms": [
+        {"word": "approval", "trans": "承認"},
+        {"word": "penalty", "trans": "罰則、制裁"},
+        {"word": "authorization", "trans": "公認"}
+      ],
+      "antonyms": [
+        {"word": "prohibition", "trans": "禁止"},
+        {"word": "ban", "trans": "禁止令"},
+        {"word": "veto", "trans": "拒否権"}
+      ],
+      "related": [
+        {"word": "sanctuary", "trans": "名詞：聖域、避難所"}
+      ]
+    },
+    {
+      "number": "647-2",
+      "word": "confirmation",
+      "pos": "名詞",
+      "meaning": "確認、裏付け、確証",
+      "nuance": "何かが真実である、あるいは確定していることを証明する行為や書類を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We are waiting for confirmation of the test results.",
+              "ja": "私たちは検査結果の確認（裏付け）を待っている。",
+              "highlight": "confirmation"
+            }
+          ]
+        }
+      ],
+      "etymology": "confirm の名詞形",
+      "synonyms": [
+        {"word": "verification", "trans": "照合、立証"},
+        {"word": "proof", "trans": "証拠"},
+        {"word": "validation", "trans": "有効化、確認"}
+      ],
+      "antonyms": [
+        {"word": "denial", "trans": "否定"},
+        {"word": "contradiction", "trans": "矛盾、否定"},
+        {"word": "cancellation", "trans": "取り消し"}
+      ],
+      "related": [
+        {"word": "confirm", "trans": "動詞：確認する"}
+      ]
+    },
+    {
+      "number": "647-3",
+      "word": "confirm",
+      "pos": "動詞",
+      "meaning": "〜を確認する、（決意などを）固める、〜を裏付ける",
+      "nuance": "疑いや不確実なことをはっきりさせる、あるいは予約などを確定させる際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please call to confirm your reservation.",
+              "ja": "予約を確定するために電話をしてください。",
+              "highlight": "confirm"
+            }
+          ]
+        }
+      ],
+      "etymology": "con (完全に) + firmare (強くする) → 確実なものにする",
+      "synonyms": [
+        {"word": "verify", "trans": "確かめる"},
+        {"word": "corroborate", "trans": "（証拠で）裏付ける"},
+        {"word": "affirm", "trans": "断言する、肯定する"}
+      ],
+      "antonyms": [
+        {"word": "deny", "trans": "否定する"},
+        {"word": "refute", "trans": "反論する"},
+        {"word": "nullify", "trans": "無効にする"}
+      ],
+      "related": [
+        {"word": "firm", "trans": "形容詞：固い、確固たる"},
+        {"word": "confirmed", "trans": "形容詞：常習的な、確認済みの"}
+      ]
+    },
+    {
+      "number": 648,
+      "word": "reprint",
+      "pos": "動詞、名詞",
+      "meaning": "〜を増刷する、〜を再版する、増刷、再版",
+      "nuance": "一度出版されたものを、修正せずに（あるいは最小限の修正で）再び印刷することを指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The book was so popular that they decided to reprint it.",
+              "ja": "その本は非常に人気があったので、彼らは増刷することに決めた。",
+              "highlight": "reprint"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The article is a reprint from an earlier edition.",
+              "ja": "この記事は以前の版からの再版（転載）である。",
+              "highlight": "reprint"
+            }
+          ]
+        }
+      ],
+      "etymology": "re (再び) + print (印刷する)",
+      "synonyms": [
+        {"word": "reissue", "trans": "再発行する"},
+        {"word": "republish", "trans": "再出版する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "printer", "trans": "名詞：印刷機"},
+        {"word": "footprint", "trans": "名詞：足跡"}
+      ]
+    },
+    {
+      "number": 649,
+      "word": "packet",
+      "pos": "名詞",
+      "meaning": "小包、袋、パケット（情報通信の単位）",
+      "nuance": "イギリス英語ではタバコや菓子の「箱・袋」を指すことが多いです。IT用語としてはデータを細切れにした単位を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He bought a packet of cigarettes.",
+              "ja": "彼はタバコを1箱買った。",
+              "highlight": "packet"
+            }
+          ]
+        }
+      ],
+      "etymology": "pack (包み) + et (小さいもの)",
+      "synonyms": [
+        {"word": "package", "trans": "小包、パッケージ"},
+        {"word": "bundle", "trans": "束"},
+        {"word": "parcel", "trans": "小包"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "package", "trans": "名詞/動詞：包み/梱包する"},
+        {"word": "backpack", "trans": "名詞：リュックサック"}
+      ]
+    },
+    {
+      "number": 650,
+      "word": "proudly",
+      "pos": "副詞",
+      "meaning": "誇らしげに、堂々と、高慢に",
+      "nuance": "自分の成果や所属するものに対して、自尊心を持って行動する様子を表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She proudly displayed her trophy on the mantelpiece.",
+              "ja": "彼女はトロフィーを暖炉の上に誇らしげに飾った。",
+              "highlight": "proudly"
+            }
+          ]
+        }
+      ],
+      "etymology": "proud + ly (副詞語尾)",
+      "synonyms": [
+        {"word": "triumphantly", "trans": "勝ち誇って"},
+        {"word": "boastfully", "trans": "自慢げに"},
+        {"word": "arrogantly", "trans": "傲慢に"}
+      ],
+      "antonyms": [
+        {"word": "humbly", "trans": "謙虚に"},
+        {"word": "modestly", "trans": "控えめに"},
+        {"word": "shamefully", "trans": "恥ずかしそうに"}
+      ],
+      "related": [
+        {"word": "pride", "trans": "名詞：誇り"}
+      ]
+    },
+    {
+      "number": "650-2",
+      "word": "proud",
+      "pos": "形容詞",
+      "meaning": "誇りに思う、光栄な、自尊心のある、傲慢な",
+      "nuance": "良い意味での「誇り」だけでなく、悪い意味での「高慢・プライドが高すぎる」という意味も持ち合わせます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I am proud of your achievements.",
+              "ja": "私はあなたの成果を誇りに思います。",
+              "highlight": "proud"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 prod (勇敢な、優れた)",
+      "synonyms": [
+        {"word": "honored", "trans": "光栄に思う"},
+        {"word": "arrogant", "trans": "傲慢な"},
+        {"word": "conceited", "trans": "うぬぼれた"}
+      ],
+      "antonyms": [
+        {"word": "humble", "trans": "謙虚な"},
+        {"word": "ashamed", "trans": "恥じている"},
+        {"word": "modest", "trans": "控えめな"}
+      ],
+      "related": [
+        {"word": "pride", "trans": "名詞：誇り、自尊心"}
+      ]
+    },
+    {
+      "number": 651,
+      "word": "incautiously",
+      "pos": "副詞",
+      "meaning": "不注意に、うっかりと、軽率に",
+      "nuance": "危険やリスクを考慮せずに、注意を怠って行動する様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He incautiously revealed his secret to a stranger.",
+              "ja": "彼は不注意にも自分の秘密を見知らぬ人に漏らしてしまった。",
+              "highlight": "incautiously"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (否定) + cautious + ly",
+      "synonyms": [
+        {"word": "carelessly", "trans": "不注意に"},
+        {"word": "recklessly", "trans": "無謀に"},
+        {"word": "rashly", "trans": "軽率に"}
+      ],
+      "antonyms": [
+        {"word": "cautiously", "trans": "慎重に"},
+        {"word": "carefully", "trans": "注意深く"},
+        {"word": "prudently", "trans": "慎み深く"}
+      ],
+      "related": [
+        {"word": "incautious", "trans": "形容詞：不注意な"}
+      ]
+    },
+    {
+      "number": "651-2",
+      "word": "incautious",
+      "pos": "形容詞",
+      "meaning": "不注意な、軽率な、用心が足りない",
+      "nuance": "先の結果を考えずに、リスクを軽視している状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It was incautious of him to leave his car unlocked.",
+              "ja": "車の鍵をかけずにおくなんて、彼は不注意だった。",
+              "highlight": "incautious"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (否定) + cautious",
+      "synonyms": [
+        {"word": "careless", "trans": "不注意な"},
+        {"word": "imprudent", "trans": "軽率な"},
+        {"word": "heedless", "trans": "不注意な"}
+      ],
+      "antonyms": [
+        {"word": "cautious", "trans": "慎重な"},
+        {"word": "wary", "trans": "用心深い"},
+        {"word": "guarded", "trans": "慎重な"}
+      ],
+      "related": [
+        {"word": "caution", "trans": "名詞：警告、注意"}
+      ]
+    },
+    {
+      "number": 652,
+      "word": "cautious",
+      "pos": "形容詞",
+      "meaning": "慎重な、用心深い",
+      "nuance": "危険を避けるために注意を払っている様子を指します。waryよりも一般的な慎重さを表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The government is cautious about making any promises.",
+              "ja": "政府はいかなる約束をすることについても慎重だ。",
+              "highlight": "cautious"
+            }
+          ]
+        }
+      ],
+      "etymology": "caution (注意) + ous (〜に満ちた)",
+      "synonyms": [
+        {"word": "careful", "trans": "注意深い"},
+        {"word": "prudent", "trans": "慎重な"},
+        {"word": "wary", "trans": "用心深い"}
+      ],
+      "antonyms": [
+        {"word": "incautious", "trans": "不注意な"},
+        {"word": "reckless", "trans": "無謀な"},
+        {"word": "bold", "trans": "大胆な"}
+      ],
+      "related": [
+        {"word": "caution", "trans": "名詞：用心、警告"}
+      ]
+    },
+    {
+      "number": "652-2",
+      "word": "cautiously",
+      "pos": "副詞",
+      "meaning": "慎重に、用心深く",
+      "nuance": "ミスや危険を避けるために、ゆっくりと、あるいは細心の注意を払って行動する様子です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He moved cautiously through the dark room.",
+              "ja": "彼は暗い部屋の中を慎重に進んだ。",
+              "highlight": "cautiously"
+            }
+          ]
+        }
+      ],
+      "etymology": "cautious + ly",
+      "synonyms": [
+        {"word": "carefully", "trans": "注意深く"},
+        {"word": "warily", "trans": "用心深く"},
+        {"word": "gingerly", "trans": "おずおずと、慎重に"}
+      ],
+      "antonyms": [
+        {"word": "incautiously", "trans": "不注意に"},
+        {"word": "recklessly", "trans": "無謀に"}
+      ],
+      "related": [
+        {"word": "cautious", "trans": "形容詞：慎重な"}
+      ]
+    },
+    {
+      "number": "652-3",
+      "word": "caution",
+      "pos": "名詞、動詞",
+      "meaning": "用心、警告、〜に警告する、〜に注意を与える",
+      "nuance": "将来の危険に対する「用心」という姿勢と、具体的な「警告」という行為の両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Exercise caution when driving in the rain.",
+              "ja": "雨の中を運転する時は注意を払いなさい。",
+              "highlight": "caution"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The doctor cautioned him against smoking.",
+              "ja": "医者は彼に喫煙しないよう警告した（注意を促した）。",
+              "highlight": "cautioned"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 cautio (注意、用心)",
+      "synonyms": [
+        {"word": "care", "trans": "注意"},
+        {"word": "warning", "trans": "警告"},
+        {"word": "alert", "trans": "警告する"}
+      ],
+      "antonyms": [
+        {"word": "negligence", "trans": "怠慢、不注意"},
+        {"word": "disregard", "trans": "無視"}
+      ],
+      "related": [
+        {"word": "precaution", "trans": "名詞：予防策"}
+      ]
+    },
+    {
+      "number": 653,
+      "word": "tout",
+      "pos": "動詞、名詞",
+      "meaning": "〜を押し売りする、〜を熱烈に宣伝する、押し売り、ダフ屋（英）",
+      "nuance": "良い面を強調してしつこく売り込んだり、称賛したりすることを指します。イギリスではチケットの転売屋を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The product was touted as a miracle cure.",
+              "ja": "その製品は奇跡の治療薬として大々的に宣伝された。",
+              "highlight": "touted"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He bought the tickets from a ticket tout.",
+              "ja": "彼はチケットをダフ屋から買った。",
+              "highlight": "tout"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 totian (覗き見る、突き出る) → 客を探して覗き込む",
+      "synonyms": [
+        {"word": "praise", "trans": "称賛する"},
+        {"word": "promote", "trans": "宣伝する"},
+        {"word": "peddle", "trans": "売り歩く"}
+      ],
+      "antonyms": [
+        {"word": "criticize", "trans": "批判する"},
+        {"word": "belittle", "trans": "軽視する"}
+      ],
+      "related": []
+    },
+    {
+      "number": 654,
+      "word": "capital",
+      "pos": "名詞、形容詞",
+      "meaning": "首都、資本（金）、大文字、主要な、死刑に値する",
+      "nuance": "非常に多義的な言葉ですが、根底には「頭（一番重要なもの）」という意味があります。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Tokyo is the capital of Japan.",
+              "ja": "東京は日本の首都だ。",
+              "highlight": "capital"
+            },
+            {
+              "en": "We need more capital to start the business.",
+              "ja": "事業を始めるためにもっと資本が必要だ。",
+              "highlight": "capital"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "Write your name in capital letters.",
+              "ja": "名前を大文字で書きなさい。",
+              "highlight": "capital"
+            },
+            {
+              "en": "Murder is a capital offense in some states.",
+              "ja": "いくつかの州では、殺人は死刑に値する罪（死罪）である。",
+              "highlight": "capital"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 caput (頭)",
+      "synonyms": [
+        {"word": "assets", "trans": "資産"},
+        {"word": "chief", "trans": "主要な"},
+        {"word": "principal", "trans": "主要な、元金"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "capitalism", "trans": "名詞：資本主義"},
+        {"word": "captain", "trans": "名詞：船長、主将（グループの頭）"}
+      ]
+    },
+    {
+      "number": 655,
+      "word": "vigorous",
+      "pos": "形容詞",
+      "meaning": "精力的な、活気のある、力強い",
+      "nuance": "身体的な強さだけでなく、活動や反対運動などが「非常に力強く、エネルギッシュである」ことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The elderly man still enjoys vigorous exercise every morning.",
+              "ja": "そのお年寄りの男性は、今でも毎朝精力的な（激しい）運動を楽しんでいる。",
+              "highlight": "vigorous"
+            },
+            {
+              "en": "The plan met with vigorous opposition from the residents.",
+              "ja": "その計画は住民からの力強い（猛烈な）反対に遭った。",
+              "highlight": "vigorous"
+            }
+          ]
+        }
+      ],
+      "etymology": "vigor（活力）+ ous（〜に満ちた）",
+      "synonyms": [
+        {"word": "energetic", "trans": "精力的な"},
+        {"word": "strenuous", "trans": "激しい、奮闘を要する"},
+        {"word": "robust", "trans": "強健な"}
+      ],
+      "antonyms": [
+        {"word": "weak", "trans": "弱い"},
+        {"word": "feeble", "trans": "弱々しい"},
+        {"word": "lethargic", "trans": "無気力な"}
+      ],
+      "related": [
+        {"word": "vigor", "trans": "名詞：活力、精力"}
+      ]
+    },
+    {
+      "number": "655-2",
+      "word": "vigor",
+      "pos": "名詞",
+      "meaning": "活力、精力、気力、迫力",
+      "nuance": "生命力に溢れ、心身ともに力強い状態を指します。法的な文脈では「有効性（legal vigor）」を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She began her new job with renewed vigor.",
+              "ja": "彼女は新たな活力を注いで新しい仕事に取り掛かった。",
+              "highlight": "vigor"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vigere（生き生きとしている）",
+      "synonyms": [
+        {"word": "vitality", "trans": "生命力"},
+        {"word": "energy", "trans": "エネルギー"},
+        {"word": "dynamism", "trans": "力強さ"}
+      ],
+      "antonyms": [
+        {"word": "frailty", "trans": "虚弱"},
+        {"word": "apathy", "trans": "無関心、無気力"}
+      ],
+      "related": [
+        {"word": "vigorous", "trans": "形容詞：精力的な"}
+      ]
+    },
+    {
+      "number": 656,
+      "word": "dynamic",
+      "pos": "形容詞、名詞",
+      "meaning": "活動的な、動的な、ダイナミックな、動力、動態",
+      "nuance": "常に変化し、進歩し続ける「力強い動き」を感じさせる言葉です。性格や状況、物理的な力について使われます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "We need a dynamic leader to save this company.",
+              "ja": "この会社を救うには、活動的な（バイタリティのある）リーダーが必要だ。",
+              "highlight": "dynamic"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The dynamics of the market are changing rapidly.",
+              "ja": "市場の動態（力学的な仕組み）は急速に変化している。",
+              "highlight": "dynamics"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 dunamis（力）",
+      "synonyms": [
+        {"word": "active", "trans": "活動的な"},
+        {"word": "vibrant", "trans": "活気に満ちた"},
+        {"word": "powerful", "trans": "強力な"}
+      ],
+      "antonyms": [
+        {"word": "static", "trans": "静止した"},
+        {"word": "passive", "trans": "受動的な"},
+        {"word": "stagnant", "trans": "停滞した"}
+      ],
+      "related": [
+        {"word": "dynamite", "trans": "名詞：ダイナマイト"},
+        {"word": "dynamo", "trans": "名詞：発電機"}
+      ]
+    },
+    {
+      "number": 657,
+      "word": "brisk",
+      "pos": "形容詞",
+      "meaning": "（動きが）きびきびした、活発な、（天気が）すがすがしい",
+      "nuance": "スピード感があり、小気味よい様子を指します。散歩（brisk walk）や、景気（brisk trade）の文脈でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We took a brisk walk in the park.",
+              "ja": "私たちは公園をきびきびと（速い足取りで）散歩した。",
+              "highlight": "brisk"
+            },
+            {
+              "en": "Business was brisk at the new store.",
+              "ja": "新しい店では商売が活発だった（繁盛していた）。",
+              "highlight": "brisk"
+            }
+          ]
+        }
+      ],
+      "etymology": "おそらくフランス語 brusque（ぶっきらぼうな、不意の）",
+      "synonyms": [
+        {"word": "quick", "trans": "速い"},
+        {"word": "energetic", "trans": "精力的な"},
+        {"word": "lively", "trans": "生き生きとした"}
+      ],
+      "antonyms": [
+        {"word": "slow", "trans": "遅い"},
+        {"word": "sluggish", "trans": "のろい、不活発な"}
+      ],
+      "related": [
+        {"word": "brusque", "trans": "形容詞：ぶっきらぼうな"}
+      ]
+    },
+    {
+      "number": 658,
+      "word": "mighty",
+      "pos": "形容詞、副詞",
+      "meaning": "強力な、巨大な、非常に（口語）",
+      "nuance": "圧倒的な力や大きさに対する畏敬の念が含まれます。物語の中で「強大な力」を表現する際によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The mighty oak tree stood in the center of the field.",
+              "ja": "巨大で力強いオークの木が野原の中央に立っていた。",
+              "highlight": "mighty"
+            }
+          ]
+        },
+        {
+          "title": "例文（副詞）",
+          "examples": [
+            {
+              "en": "That’s a mighty fine car you’ve got there.",
+              "ja": "それはまた、えらく（非常に）立派な車だね。",
+              "highlight": "mighty"
+            }
+          ]
+        }
+      ],
+      "etymology": "might（力）+ y（形容詞語尾）",
+      "synonyms": [
+        {"word": "powerful", "trans": "強力な"},
+        {"word": "potent", "trans": "有力な"},
+        {"word": "vast", "trans": "広大な、莫大な"}
+      ],
+      "antonyms": [
+        {"word": "weak", "trans": "弱い"},
+        {"word": "tiny", "trans": "ちっぽけな"},
+        {"word": "insignificant", "trans": "取るに足らない"}
+      ],
+      "related": [
+        {"word": "might", "trans": "名詞：力、権力"}
+      ]
+    },
+    {
+      "number": 659,
+      "word": "static",
+      "pos": "形容詞、名詞",
+      "meaning": "静止した、停滞した、静電気の、（ラジオ等の）雑音",
+      "nuance": "動きがない状態を指します。物理的な静止だけでなく、状況が変化しない場合や、テレビ・ラジオの砂嵐のような「ノイズ」も指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The population has remained static for the past ten years.",
+              "ja": "人口はこの10年間、静止した（変化のない）ままだ。",
+              "highlight": "static"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "There is a lot of static on the radio.",
+              "ja": "ラジオにひどい雑音（スタティック）が入っている。",
+              "highlight": "static"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 statikos（立たせる、静止させる）",
+      "synonyms": [
+        {"word": "stationary", "trans": "静止した"},
+        {"word": "unchanging", "trans": "不変の"},
+        {"word": "noise", "trans": "雑音"}
+      ],
+      "antonyms": [
+        {"word": "dynamic", "trans": "動的な"},
+        {"word": "active", "trans": "活動的な"},
+        {"word": "moving", "trans": "動いている"}
+      ],
+      "related": [
+        {"word": "statue", "trans": "名詞：像"},
+        {"word": "status", "trans": "名詞：地位、状態"}
+      ]
+    },
+    {
+      "number": 660,
+      "word": "tobacco",
+      "pos": "名詞",
+      "meaning": "タバコ、タバコの葉",
+      "nuance": "植物としてのタバコや、加工された「原料としての葉」を指します。吸う状態のものは cigarette や cigar と呼び分けます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Tobacco cultivation is a major industry in this region.",
+              "ja": "タバコ栽培はこの地域の主要産業だ。",
+              "highlight": "Tobacco"
+            }
+          ]
+        }
+      ],
+      "etymology": "スペイン語 tabaco（カリブの先住民の言葉由来）",
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        {"word": "tobacconist", "trans": "名詞：タバコ屋（英）"}
+      ]
+    },
+    {
+      "number": "660-2",
+      "word": "cigarette",
+      "pos": "名詞",
+      "meaning": "（紙巻き）タバコ",
+      "nuance": "細い紙で巻かれた、一般的に普及している吸うためのタバコを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He lit a cigarette while waiting for the bus.",
+              "ja": "彼はバスを待つ間、タバコに火をつけた。",
+              "highlight": "cigarette"
+            }
+          ]
+        }
+      ],
+      "etymology": "cigar（葉巻）+ ette（小さいもの）",
+      "synonyms": [
+        {"word": "smoke", "trans": "タバコ（口語）"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "cigar", "trans": "名詞：葉巻"}
+      ]
+    },
+    {
+      "number": 661,
+      "word": "lobby",
+      "pos": "名詞、動詞",
+      "meaning": "ロビー、玄関広間、ロビー活動をする（働きかける）",
+      "nuance": "建物の入り口の広場を指すだけでなく、政治家などに特定の目的で働きかける「ロビー活動」という動詞的な意味が重要です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "I’ll meet you in the hotel lobby.",
+              "ja": "ホテルのロビーで会いましょう。",
+              "highlight": "lobby"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "They are lobbying the government for tax reform.",
+              "ja": "彼らは税制改革を求めて政府にロビー活動を行っている。",
+              "highlight": "lobbying"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世ラテン語 lobia（屋根付きの通路、回廊）",
+      "synonyms": [
+        {"word": "entrance hall", "trans": "玄関ホール"},
+        {"word": "pressure", "trans": "圧力をかける"},
+        {"word": "influence", "trans": "影響を与える"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "lobbyist", "trans": "名詞：ロビイスト（院外運動家）"}
+      ]
+    },
+    {
+      "number": 662,
+      "word": "agitation",
+      "pos": "名詞",
+      "meaning": "動揺、興奮、扇動、世論を喚起する活動",
+      "nuance": "心がひどく落ち着かない状態（動揺）と、政治的・社会的な変化を求めて人々を「焚きつける」ことの両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The news caused a state of widespread agitation.",
+              "ja": "そのニュースは広範囲にわたる動揺を引き起こした。",
+              "highlight": "agitation"
+            }
+          ]
+        }
+      ],
+      "etymology": "agitate の名詞形",
+      "synonyms": [
+        {"word": "disturbance", "trans": "妨害、動揺"},
+        {"word": "excitement", "trans": "興奮"},
+        {"word": "unrest", "trans": "不安、不穏な状態"}
+      ],
+      "antonyms": [
+        {"word": "calm", "trans": "平静"},
+        {"word": "tranquility", "trans": "静寂、平穏"}
+      ],
+      "related": [
+        {"word": "agitate", "trans": "動詞：扇動する、かき混ぜる"}
+      ]
+    },
+    {
+      "number": "662-2",
+      "word": "agitate",
+      "pos": "動詞",
+      "meaning": "〜を動揺させる、〜をかき乱す、扇動する、（液体を）かき混ぜる",
+      "nuance": "何かを激しく動かす、あるいは人の心を穏やかでなくさせる行為です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Don't agitate the patient; he needs rest.",
+              "ja": "患者を興奮（動揺）させないでください。彼には安静が必要です。",
+              "highlight": "agitate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 agitare（激しく動かす）",
+      "synonyms": [
+        {"word": "disturb", "trans": "邪魔する、不安にする"},
+        {"word": "shake", "trans": "振る、揺さぶる"},
+        {"word": "provoke", "trans": "挑発する、引き起こす"}
+      ],
+      "antonyms": [
+        {"word": "soothe", "trans": "なだめる"},
+        {"word": "quiet", "trans": "静かにさせる"}
+      ],
+      "related": [
+        {"word": "agitator", "trans": "名詞：扇動家、攪拌機"}
+      ]
+    },
+    {
+      "number": 663,
+      "word": "doubt",
+      "pos": "名詞、動詞",
+      "meaning": "疑い、疑念、〜を疑う、〜ではないと思う",
+      "nuance": "「本当だろうか？」という不確実な気持ちを指します。doubt that... は「〜ではないと思う」という否定的な確信に近いニュアンスになります。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "There is no doubt that he is innocent.",
+              "ja": "彼が無実であることに疑いの余地はない。",
+              "highlight": "doubt"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "I doubt if it will rain today.",
+              "ja": "今日は雨は降らないと思う（降るかどうか疑わしい）。",
+              "highlight": "doubt"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 dubitare（迷う、二つの間で揺れる）",
+      "synonyms": [
+        {"word": "distrust", "trans": "不信"},
+        {"word": "uncertainty", "trans": "不確実さ"},
+        {"word": "suspect", "trans": "疑う（〜だろうと思う）"}
+      ],
+      "antonyms": [
+        {"word": "belief", "trans": "信念"},
+        {"word": "trust", "trans": "信頼"},
+        {"word": "certainty", "trans": "確実性"}
+      ],
+      "related": [
+        {"word": "doubtful", "trans": "形容詞：疑わしい"},
+        {"word": "dubious", "trans": "形容詞：疑わしい、怪しい"}
+      ]
+    },
+    {
+      "number": 664,
+      "word": "dubious",
+      "pos": "形容詞",
+      "meaning": "疑わしい、怪しげな、半信半疑の",
+      "nuance": "価値や真実味が疑わしく、どっちつかずで「怪しい」というニュアンスが強いです。詐欺的な匂いがする場合などにも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I was dubious about the success of the plan.",
+              "ja": "私はその計画の成功について半信半疑だった。",
+              "highlight": "dubious"
+            },
+            {
+              "en": "The businessman has a dubious reputation.",
+              "ja": "その実業家は怪しげな（疑わしい）評判を持っている。",
+              "highlight": "dubious"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 dubius（二つの方向がある、不確かな）",
+      "synonyms": [
+        {"word": "suspicious", "trans": "疑わしい"},
+        {"word": "questionable", "trans": "疑問の余地がある"},
+        {"word": "skeptical", "trans": "懐疑的な"}
+      ],
+      "antonyms": [
+        {"word": "trustworthy", "trans": "信頼できる"},
+        {"word": "reliable", "trans": "確かな"},
+        {"word": "certain", "trans": "確信している"}
+      ],
+      "related": [
+        {"word": "doubt", "trans": "名詞/動詞：疑い"}
+      ]
+    },
+    {
+      "number": 665,
+      "word": "sodium",
+      "pos": "名詞",
+      "meaning": "ナトリウム",
+      "nuance": "食塩（塩化ナトリウム）の構成要素として、健康や化学の文脈でよく登場します。英語では「ソウディアム」のように発音されます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Excessive sodium intake can lead to high blood pressure.",
+              "ja": "過剰なナトリウム摂取は高血圧を招く可能性がある。",
+              "highlight": "sodium"
+            },
+            {
+              "en": "Sodium is a highly reactive metal.",
+              "ja": "ナトリウムは非常に反応性の高い金属である。",
+              "highlight": "Sodium"
+            }
+          ]
+        }
+      ],
+      "etymology": "Soda（ソーダ）+ ium（金属元素名）",
+      "synonyms": [
+        {"word": "natrium", "trans": "ナトリウム（ラテン語由来・ドイツ語等）"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "sodium chloride", "trans": "塩化ナトリウム（食塩）"},
+        {"word": "soda", "trans": "ソーダ、炭酸"}
+      ]
+    },
+    {
+      "number": 666,
+      "word": "presumably",
+      "pos": "副詞",
+      "meaning": "おそらく、たぶん、思うに",
+      "nuance": "確かな証拠はないが、論理的な状況から判断して「おそらくそうであろう」と推測する際に使われます。probably よりも「前提（presume）に基づく」響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Presumably, the meeting has been cancelled because of the snow.",
+              "ja": "おそらく（察するに）、雪のために会議は中止になったのだろう。",
+              "highlight": "Presumably"
+            },
+            {
+              "en": "He is not in his office, so presumably he has gone home.",
+              "ja": "彼はオフィスにいないので、たぶん家に帰ったのだろう。",
+              "highlight": "presumably"
+            }
+          ]
+        }
+      ],
+      "etymology": "pre（あらかじめ）+ sumere（取る）→ あらかじめ当然のこととして受け取る",
+      "synonyms": [
+        {"word": "probably", "trans": "おそらく"},
+        {"word": "seemingly", "trans": "見たところ"},
+        {"word": "likely", "trans": "たぶん"}
+      ],
+      "antonyms": [
+        {"word": "certainly", "trans": "確実に"},
+        {"word": "definitely", "trans": "間違いなく"},
+        {"word": "unlikely", "trans": "ありそうにない"}
+      ],
+      "related": [
+        {"word": "presume", "trans": "動詞：推定する"},
+        {"word": "presumption", "trans": "名詞：推定、厚かましさ"}
+      ]
+    },
+    {
+      "number": "666-2",
+      "word": "presumable",
+      "pos": "形容詞",
+      "meaning": "推測できる、もっともらしい",
+      "nuance": "事実や状況から考えて、当然そうであると考えられる状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The presumable cause of the fire was an electrical fault.",
+              "ja": "火災の考えられる（もっともらしい）原因は電気系統の故障だった。",
+              "highlight": "presumable"
+            },
+            {
+              "en": "That is a presumable conclusion based on the current data.",
+              "ja": "それは現在のデータに基づいた、推測可能な結論である。",
+              "highlight": "presumable"
+            }
+          ]
+        }
+      ],
+      "etymology": "presume（推定する）+ able（可能な）",
+      "synonyms": [
+        {"word": "probable", "trans": "ありそうな"},
+        {"word": "likely", "trans": "可能性が高い"},
+        {"word": "plausible", "trans": "もっともらしい"}
+      ],
+      "antonyms": [
+        {"word": "improbable", "trans": "ありそうもない"},
+        {"word": "unthinkable", "trans": "考えられない"}
+      ],
+      "related": [
+        {"word": "presumably", "trans": "副詞：おそらく"}
+      ]
+    },
+    {
+      "number": 667,
+      "word": "supposedly",
+      "pos": "副詞",
+      "meaning": "（真偽は不明だが）建前では、一般に言われているところでは",
+      "nuance": "「〜だと思われているが、実は違うかもしれない」という、少し疑わしいニュアンスを含むことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "This is supposedly the best restaurant in town, but I wasn't impressed.",
+              "ja": "ここは町で一番のレストランだと言われている（建前ではそうだ）が、私は感動しなかった。",
+              "highlight": "supposedly"
+            },
+            {
+              "en": "The movie is supposedly based on a true story.",
+              "ja": "その映画は（世間では）実話に基づいているとされている。",
+              "highlight": "supposedly"
+            }
+          ]
+        }
+      ],
+      "etymology": "sub（下に）+ ponere（置く）→ 仮定する",
+      "synonyms": [
+        {"word": "allegedly", "trans": "（証拠はないが）申し立てによると"},
+        {"word": "purportedly", "trans": "〜と言われて"},
+        {"word": "apparently", "trans": "見たところでは"}
+      ],
+      "antonyms": [
+        {"word": "actually", "trans": "実際には"},
+        {"word": "truly", "trans": "本当に"},
+        {"word": "certainly", "trans": "確かに"}
+      ],
+      "related": [
+        {"word": "suppose", "trans": "動詞：仮定する、〜だと思う"},
+        {"word": "supposition", "trans": "名詞：推測"}
+      ]
+    },
+    {
+      "number": 668,
+      "word": "heighten",
+      "pos": "動詞",
+      "meaning": "〜を高める、増大させる",
+      "nuance": "感情、意識、緊張、効果などをさらに「高いレベル」に引き上げることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The music was used to heighten the suspense in the film.",
+              "ja": "その音楽は映画のサスペンスを高めるために使われた。",
+              "highlight": "heighten"
+            },
+            {
+              "en": "Security has been heightened at the airport.",
+              "ja": "空港の警戒が強化されている（高められている）。",
+              "highlight": "heightened"
+            }
+          ]
+        }
+      ],
+      "etymology": "height（高さ）+ en（動詞化：〜にする）",
+      "synonyms": [
+        {"word": "enhance", "trans": "高める、向上させる"},
+        {"word": "intensify", "trans": "激化させる"},
+        {"word": "increase", "trans": "増やす"}
+      ],
+      "antonyms": [
+        {"word": "lower", "trans": "低くする"},
+        {"word": "diminish", "trans": "減少させる"},
+        {"word": "reduce", "trans": "減らす"}
+      ],
+      "related": [
+        {"word": "height", "trans": "名詞：高さ"}
+      ]
+    },
+    {
+      "number": "668-2",
+      "word": "height",
+      "pos": "名詞",
+      "meaning": "高さ、身長、絶頂、高台",
+      "nuance": "物理的な高さや身長だけでなく、成功の「ピーク（絶頂）」を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The tower is 300 meters in height.",
+              "ja": "その塔は高さが300メートルある。",
+              "highlight": "height"
+            },
+            {
+              "en": "She was at the height of her career when she retired.",
+              "ja": "彼女はキャリアの絶頂期に引退した。",
+              "highlight": "height"
+            }
+          ]
+        }
+      ],
+      "etymology": "high（高い）の古期英語形由来",
+      "synonyms": [
+        {"word": "altitude", "trans": "高度"},
+        {"word": "stature", "trans": "身長、名声"},
+        {"word": "peak", "trans": "頂点"}
+      ],
+      "antonyms": [
+        {"word": "depth", "trans": "深さ"},
+        {"word": "base", "trans": "基盤、底"}
+      ],
+      "related": [
+        {"word": "high", "trans": "形容詞：高い"},
+        {"word": "highly", "trans": "副詞：非常に"}
+      ]
+    },
+    {
+      "number": 669,
+      "word": "width",
+      "pos": "名詞",
+      "meaning": "幅、広さ",
+      "nuance": "物の横方向の長さを指します。対義語は length（長さ）や depth（奥行き/深さ）です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "What is the width of the road?",
+              "ja": "その道路の幅はどのくらいですか？",
+              "highlight": "width"
+            },
+            {
+              "en": "The fabric is available in different widths.",
+              "ja": "その布地はさまざまな幅で購入できる。",
+              "highlight": "widths"
+            }
+          ]
+        }
+      ],
+      "etymology": "wide（広い）+ th（名詞化語尾）",
+      "synonyms": [
+        {"word": "breadth", "trans": "幅、広さ"},
+        {"word": "span", "trans": "スパン、全長"}
+      ],
+      "antonyms": [
+        {"word": "narrowness", "trans": "狭さ"}
+      ],
+      "related": [
+        {"word": "wide", "trans": "形容詞：広い"},
+        {"word": "widen", "trans": "動詞：広くする"}
+      ]
+    },
+    {
+      "number": 670,
+      "word": "induce",
+      "pos": "動詞",
+      "meaning": "〜を誘発する、勧誘して〜させる、（医学）陣痛を促す",
+      "nuance": "ある状態や行動を引き起こす原因となること、あるいは人を説得して何かをさせることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Nothing could induce me to go back there.",
+              "ja": "何があっても、私がそこに戻る気にはならないだろう（誘い込めないだろう）。",
+              "highlight": "induce"
+            },
+            {
+              "en": "High stress levels can induce sleep problems.",
+              "ja": "高いストレスレベルは睡眠障害を誘発することがある。",
+              "highlight": "induce"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（中に）+ ducere（導く）→ 中へ導き入れる",
+      "synonyms": [
+        {"word": "cause", "trans": "引き起こす"},
+        {"word": "persuade", "trans": "説得する"},
+        {"word": "trigger", "trans": "誘発する"}
+      ],
+      "antonyms": [
+        {"word": "prevent", "trans": "防ぐ"},
+        {"word": "deter", "trans": "抑止する"},
+        {"word": "discourage", "trans": "思いとどまらせる"}
+      ],
+      "related": [
+        {"word": "inducement", "trans": "名詞：動機、誘因"},
+        {"word": "introduction", "trans": "名詞：導入、紹介（中に導く）"}
+      ]
+    },
+    {
+      "number": "670-2",
+      "word": "inducement",
+      "pos": "名詞",
+      "meaning": "動機、誘因、おとり、勧誘",
+      "nuance": "人に何かをさせるための「きっかけ」や「報酬」といった、外からの働きかけを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They offered him a large bonus as an inducement to stay.",
+              "ja": "彼らは慰留させるための誘因（動機付け）として多額のボーナスを提示した。",
+              "highlight": "inducement"
+            },
+            {
+              "en": "The low price is a major inducement for customers.",
+              "ja": "低価格は顧客にとって大きな誘因となる。",
+              "highlight": "inducement"
+            }
+          ]
+        }
+      ],
+      "etymology": "induce + ment（名詞化語尾）",
+      "synonyms": [
+        {"word": "incentive", "trans": "動機、報奨金"},
+        {"word": "motivation", "trans": "やる気、動機"},
+        {"word": "stimulus", "trans": "刺激"}
+      ],
+      "antonyms": [
+        {"word": "deterrent", "trans": "抑止力"},
+        {"word": "hindrance", "trans": "障害"}
+      ],
+      "related": [
+        {"word": "induce", "trans": "動詞：誘発する"}
+      ]
+    },
+    {
+      "number": "670-3",
+      "word": "induction",
+      "pos": "名詞",
+      "meaning": "就任（式）、入会、導入、帰納法、（電磁）誘導",
+      "nuance": "新しい環境への「手引き」や、個別の事例から一般論を導く「帰納」を指します。キッチンで使うIH（Induction Heating）のIはこの単語です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "New employees receive two days of induction training.",
+              "ja": "新入社員は2日間の導入研修を受ける。",
+              "highlight": "induction"
+            },
+            {
+              "en": "Scientific reasoning often relies on induction.",
+              "ja": "科学的な推論はしばしば帰納法に頼る。",
+              "highlight": "induction"
+            }
+          ]
+        }
+      ],
+      "etymology": "induce の名詞形",
+      "synonyms": [
+        {"word": "initiation", "trans": "入会、開始"},
+        {"word": "installation", "trans": "就任"},
+        {"word": "introduction", "trans": "導入"}
+      ],
+      "antonyms": [
+        {"word": "deduction", "trans": "演繹（えんえき）法、控除"}
+      ],
+      "related": [
+        {"word": "inductive", "trans": "形容詞：帰納的な"}
+      ]
+    },
+    {
+      "number": "670-4",
+      "word": "incidence",
+      "pos": "名詞",
+      "meaning": "（病気などの）発生率、及ぶ範囲",
+      "nuance": "ある特定の期間や集団において、事件や病気が「どの程度の頻度で起こるか」という割合を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There is a high incidence of heart disease in this area.",
+              "ja": "この地域では心臓病の発生率が高い。",
+              "highlight": "incidence"
+            },
+            {
+              "en": "The government aims to reduce the incidence of crime.",
+              "ja": "政府は犯罪の発生率を減らすことを目指している。",
+              "highlight": "incidence"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（上に）+ cadere（落ちる）→ 降りかかること",
+      "synonyms": [
+        {"word": "frequency", "trans": "頻度"},
+        {"word": "rate", "trans": "割合"},
+        {"word": "occurrence", "trans": "発生"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "incident", "trans": "名詞：出来事"}
+      ]
+    },
+    {
+      "number": "670-5",
+      "word": "incident",
+      "pos": "名詞、形容詞",
+      "meaning": "出来事、事件、紛争、付随する",
+      "nuance": "単なる「event（イベント）」よりも、不快なことや重大な「事件」というニュアンスで使われることが多いです。また、何かに付随して起こる状況も指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The police are investigating the incident.",
+              "ja": "警察はその事件を調査している。",
+              "highlight": "incident"
+            },
+            {
+              "en": "The border incident led to a diplomatic crisis.",
+              "ja": "国境での紛争が外交危機を招いた。",
+              "highlight": "incident"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "There are many risks incident to the job of a firefighter.",
+              "ja": "消防士の仕事には多くのリスクが付きものである（付随している）。",
+              "highlight": "incident"
+            }
+          ]
+        }
+      ],
+      "etymology": "incidence と同源",
+      "synonyms": [
+        {"word": "event", "trans": "出来事"},
+        {"word": "occurrence", "trans": "発生、出来事"},
+        {"word": "episode", "trans": "エピソード、出来事"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "incidental", "trans": "形容詞：付随的な、臨時の"},
+        {"word": "coincidence", "trans": "名詞：偶然の一致"}
+      ]
+    }
+  ]
+}
