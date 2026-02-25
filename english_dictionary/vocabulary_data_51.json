@@ -1,0 +1,670 @@
+{
+  "words": [
+    {
+      "number": 3979,
+      "word": "intellectual",
+      "pos": "形容詞、名詞",
+      "meaning": "【形】知的な、理知的な 【名】知識人、インテリ",
+      "nuance": "感情や直感ではなく、思考・論理・学習能力に関わる「知性」の側面を指します。",
+      "example_sections": [
+        {
+          "title": "形容詞の例文",
+          "examples": [
+            {
+              "en": "The book explores the intellectual development of children.",
+              "ja": "その本は子供の知的な発達を探求している。",
+              "highlight": "intellectual"
+            },
+            {
+              "en": "I enjoy playing chess because it is an intellectual challenge.",
+              "ja": "チェスは知的な挑戦（頭を使う作業）なので、プレイするのが楽しい。",
+              "highlight": "intellectual"
+            }
+          ]
+        },
+        {
+          "title": "名詞の例文",
+          "examples": [
+            {
+              "en": "He was considered one of the leading intellectuals of the 20th century.",
+              "ja": "彼は20世紀を代表する知識人の一人と考えられていた。",
+              "highlight": "intellectuals"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 intellegere（理解する）",
+      "synonyms": [
+        {"word": "mental", "trans": "精神的な"},
+        {"word": "academic", "trans": "学問的な"},
+        {"word": "scholarly", "trans": "学究的な"}
+      ],
+      "antonyms": [
+        {"word": "emotional", "trans": "感情的な"},
+        {"word": "physical", "trans": "肉体的な"},
+        {"word": "ignorant", "trans": "無知な"}
+      ],
+      "related": [
+        {"word": "intellect", "trans": "名詞：知性"},
+        {"word": "intellectually", "trans": "副詞：知的に"},
+        {"word": "intellectual property", "trans": "名詞：知的財産"}
+      ]
+    },
+    {
+      "number": 4001,
+      "word": "capital",
+      "pos": "名詞、形容詞",
+      "meaning": "【名】①資本（金） ②首都 ③大文字 【形】主要な、死刑に値する",
+      "nuance": "物事の「頭（かしら）」を意味する語源を持ちます。経済では事業の元手、政治では中心都市、文字では先頭を指します。",
+      "example_sections": [
+        {
+          "title": "名詞の例文",
+          "examples": [
+            {
+              "en": "The company needs more capital to expand its business.",
+              "ja": "その会社は事業を拡大するためにより多くの資本を必要としている。",
+              "highlight": "capital"
+            },
+            {
+              "en": "Paris is the capital of France.",
+              "ja": "パリはフランスの首都だ。",
+              "highlight": "capital"
+            },
+            {
+              "en": "Names should always start with a capital letter.",
+              "ja": "名前は常に大文字で始めるべきだ。",
+              "highlight": "capital"
+            }
+          ]
+        },
+        {
+          "title": "形容詞の例文",
+          "examples": [
+            {
+              "en": "In some countries, murder is a capital crime.",
+              "ja": "いくつかの国では、殺人は死刑に値する罪（極刑）である。",
+              "highlight": "capital crime"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 caput（頭）",
+      "synonyms": [
+        {"word": "funds", "trans": "資金"},
+        {"word": "metropolis", "trans": "主要都市"},
+        {"word": "principal", "trans": "主要な"}
+      ],
+      "antonyms": [
+        {"word": "labor", "trans": "労働（資本の対義語として）"},
+        {"word": "lowercase", "trans": "小文字の"}
+      ],
+      "related": [
+        {"word": "capitalism", "trans": "名詞：資本主義"},
+        {"word": "capitalize", "trans": "動詞：～を大文字で書く、～を利用する"}
+      ]
+    },
+    {
+      "number": 4004,
+      "word": "imply",
+      "pos": "動詞",
+      "meaning": "【他】～を暗に意味する、ほのめかす、～を必然的に伴う",
+      "nuance": "言葉で直接言わずに、論理や状況から「行間を読ませる」ように伝えることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Are you implying that I am lying?",
+              "ja": "あなたは私が嘘をついているとほのめかしているのですか？",
+              "highlight": "implying"
+            },
+            {
+              "en": "His silence was taken to imply consent.",
+              "ja": "彼の沈黙は、同意を暗に意味するものと受け取られた。",
+              "highlight": "imply"
+            },
+            {
+              "en": "High profits usually imply high risks.",
+              "ja": "高い利益は、通常高いリスクを必然的に伴う。",
+              "highlight": "imply"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (中に) + plicare (畳む) → 中に包み込む",
+      "synonyms": [
+        {"word": "suggest", "trans": "示唆する"},
+        {"word": "hint", "trans": "ヒントを与える"},
+        {"word": "insinuate", "trans": "（不快なことを）遠回しに言う"}
+      ],
+      "antonyms": [
+        {"word": "state", "trans": "はっきり述べる"},
+        {"word": "express", "trans": "表現する"},
+        {"word": "explicitly say", "trans": "明示的に言う"}
+      ],
+      "related": [
+        {"word": "implication", "trans": "名詞：暗示、影響、含み"}
+      ]
+    },
+    {
+      "number": 4007,
+      "word": "dispute",
+      "pos": "名詞、動詞",
+      "meaning": "【名】論争、紛争 【動】論争する、～に異議を唱える",
+      "nuance": "単なる言い合いではなく、権利や事実関係を巡って、公式・長期的に対立している状態を指します。",
+      "example_sections": [
+        {
+          "title": "名詞の例文",
+          "examples": [
+            {
+              "en": "The two countries are involved in a territorial dispute.",
+              "ja": "その二国は領土紛争（論争）に巻き込まれている。",
+              "highlight": "dispute"
+            }
+          ]
+        },
+        {
+          "title": "動詞の例文",
+          "examples": [
+            {
+              "en": "They disputed the results of the election.",
+              "ja": "彼らは選挙の結果に異議を唱えた。",
+              "highlight": "disputed"
+            },
+            {
+              "en": "The fact is beyond dispute.",
+              "ja": "その事実は論争の余地がない（疑いようがない）。",
+              "highlight": "dispute"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (離れて) + putare (考える) → 別々に考える、議論する",
+      "synonyms": [
+        {"word": "controversy", "trans": "（公的な）論争"},
+        {"word": "conflict", "trans": "衝突"},
+        {"word": "argument", "trans": "議論、口論"}
+      ],
+      "antonyms": [
+        {"word": "agreement", "trans": "合意"},
+        {"word": "peace", "trans": "平和"},
+        {"word": "settlement", "trans": "和解、解決"}
+      ],
+      "related": []
+    },
+    {
+      "number": 4009,
+      "word": "reward",
+      "pos": "名詞、動詞",
+      "meaning": "【名】報償、褒美、報酬 【動】～に報いる、褒美を与える",
+      "nuance": "努力や良い行いに対して「見返り」として与えられるものを指します。犯罪捜査の懸賞金などにも使われます。",
+      "example_sections": [
+        {
+          "title": "名詞の例文",
+          "examples": [
+            {
+              "en": "The teacher gave the student a sticker as a reward for hard work.",
+              "ja": "先生は一生懸命頑張った褒美として生徒にステッカーをあげた。",
+              "highlight": "reward"
+            },
+            {
+              "en": "A substantial reward is offered for the return of the stolen painting.",
+              "ja": "盗まれた絵画の返還に対して、多額の懸賞金（報償）が出されている。",
+              "highlight": "reward"
+            }
+          ]
+        },
+        {
+          "title": "動詞の例文",
+          "examples": [
+            {
+              "en": "He was rewarded for his bravery with a medal.",
+              "ja": "彼は勇敢な行動に対して、勲章で報いられた。",
+              "highlight": "rewarded"
+            }
+          ]
+        }
+      ],
+      "etymology": "re (戻す) + warder (見る、守る) → 相手を見て、お返しをする",
+      "synonyms": [
+        {"word": "prize", "trans": "賞"},
+        {"word": "benefit", "trans": "利益"},
+        {"word": "incentive", "trans": "動機付け、報奨"}
+      ],
+      "antonyms": [
+        {"word": "punishment", "trans": "罰"},
+        {"word": "penalty", "trans": "刑罰、違約金"}
+      ],
+      "related": [
+        {"word": "rewarding", "trans": "形容詞：やりがいのある"}
+      ]
+    },
+    {
+      "number": 4013,
+      "word": "legal",
+      "pos": "形容詞",
+      "meaning": "法的な、法律に関する、合法の",
+      "nuance": "法律の専門分野に関わること、あるいは法律によって許可されている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "You should seek legal advice before signing the contract.",
+              "ja": "契約に署名する前に、法的アドバイス（弁護士の助言）を求めるべきだ。",
+              "highlight": "legal"
+            },
+            {
+              "en": "Is it legal to park your car here?",
+              "ja": "ここに車を停めるのは合法ですか？",
+              "highlight": "legal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 lex（法律）",
+      "synonyms": [
+        {"word": "lawful", "trans": "合法的な"},
+        {"word": "statutory", "trans": "法定の"},
+        {"word": "judicial", "trans": "司法の"}
+      ],
+      "antonyms": [
+        {"word": "illegal", "trans": "違法の"},
+        {"word": "unlawful", "trans": "法に反した"},
+        {"word": "illicit", "trans": "禁じられた"}
+      ],
+      "related": [
+        {"word": "legally", "trans": "副詞：法的に"},
+        {"word": "legalize", "trans": "動詞：～を合法化する"}
+      ]
+    },
+    {
+      "number": 4044,
+      "word": "discipline",
+      "pos": "名詞、動詞",
+      "meaning": "【名】①しつけ、規律 ②訓練 ③学問分野 【動】～を厳しくしつける、訓練する",
+      "nuance": "自分や他人を一定のルールに従わせるための「制約」や「自己管理」、あるいは秩序だった「学問の体系」を指します。",
+      "example_sections": [
+        {
+          "title": "名詞の例文",
+          "examples": [
+            {
+              "en": "Yoga requires a lot of self-discipline.",
+              "ja": "ヨガには多大な自己規律（自制心）が必要だ。",
+              "highlight": "discipline"
+            },
+            {
+              "en": "Parents are responsible for the discipline of their children.",
+              "ja": "親は子供のしつけに対して責任がある。",
+              "highlight": "discipline"
+            },
+            {
+              "en": "Sociology is a relatively new academic discipline.",
+              "ja": "社会学は比較的新しい学問分野だ。",
+              "highlight": "discipline"
+            }
+          ]
+        },
+        {
+          "title": "動詞の例文",
+          "examples": [
+            {
+              "en": "The soldier was disciplined for disobeying orders.",
+              "ja": "その兵士は命令に従わなかったとして、厳しく罰せられた（規律を正された）。",
+              "highlight": "disciplined"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 discipulus（弟子、学ぶ人）",
+      "synonyms": [
+        {"word": "order", "trans": "秩序"},
+        {"word": "training", "trans": "訓練"},
+        {"word": "field", "trans": "分野"}
+      ],
+      "antonyms": [
+        {"word": "chaos", "trans": "混乱"},
+        {"word": "disorder", "trans": "無秩序"},
+        {"word": "indulgence", "trans": "甘やかし"}
+      ],
+      "related": [
+        {"word": "disciplinary", "trans": "形容詞：規律の、懲戒の"}
+      ]
+    },
+    {
+      "number": 4045,
+      "word": "restrict",
+      "pos": "動詞",
+      "meaning": "【他】～を制限する、限定する、束縛する",
+      "nuance": "ある範囲の中に押し込める、あるいは自由な行動を妨げるような壁を作るイメージです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The new law restricts the sale of alcohol to minors.",
+              "ja": "新しい法律は、未成年へのアルコール販売を制限している。",
+              "highlight": "restricts"
+            },
+            {
+              "en": "I try to restrict myself to one cup of coffee a day.",
+              "ja": "コーヒーは一日一杯に自分を制限（限定）するようにしている。",
+              "highlight": "restrict"
+            }
+          ]
+        }
+      ],
+      "etymology": "re (後ろへ) + stringere (締める) → 締め付ける",
+      "synonyms": [
+        {"word": "limit", "trans": "制限する"},
+        {"word": "confine", "trans": "閉じ込める、限定する"},
+        {"word": "curb", "trans": "抑制する"}
+      ],
+      "antonyms": [
+        {"word": "free", "trans": "自由にする"},
+        {"word": "expand", "trans": "拡大する"},
+        {"word": "permit", "trans": "許可する"}
+      ],
+      "related": [
+        {"word": "restriction", "trans": "名詞：制限"},
+        {"word": "restrictive", "trans": "形容詞：制限的な"}
+      ]
+    },
+    {
+      "number": 4048,
+      "word": "detect",
+      "pos": "動詞",
+      "meaning": "【他】～を発見する、感知する、見つけ出す",
+      "nuance": "隠れているものや、かすかな兆候、あるいは間違いなどを、注意深く探したり機器を使ったりして見つけることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The sensor can detect even the smallest smoke particles.",
+              "ja": "そのセンサーは、ごく微細な煙の粒子さえも感知できる。",
+              "highlight": "detect"
+            },
+            {
+              "en": "She detected a slight change in his voice.",
+              "ja": "彼女は彼の声のわずかな変化に気づいた（見出した）。",
+              "highlight": "detected"
+            }
+          ]
+        }
+      ],
+      "etymology": "de (取り除く) + tegere (覆う) → 覆いを取って正体を見せる",
+      "synonyms": [
+        {"word": "discover", "trans": "発見する"},
+        {"word": "notice", "trans": "気づく"},
+        {"word": "spot", "trans": "見つける"}
+      ],
+      "antonyms": [
+        {"word": "miss", "trans": "見逃す"},
+        {"word": "overlook", "trans": "見落とす"},
+        {"word": "hide", "trans": "隠す"}
+      ],
+      "related": [
+        {"word": "detection", "trans": "名詞：発見、探知"},
+        {"word": "detector", "trans": "名詞：探知機、検出器"},
+        {"word": "detective", "trans": "名詞：探偵、刑事"}
+      ]
+    },
+    {
+      "number": 4059,
+      "word": "access",
+      "pos": "名詞、動詞",
+      "meaning": "【名】利用する権利、接近、入手方法 【動】～にアクセスする、～を利用する",
+      "nuance": "場所へ近づくことや、情報・施設などを利用できる「可能性・権利」を指します。",
+      "example_sections": [
+        {
+          "title": "名詞の例文",
+          "examples": [
+            {
+              "en": "Students have free access to the library's online database.",
+              "ja": "学生は図書館のオンラインデータベースを自由に利用する権利がある。",
+              "highlight": "access"
+            },
+            {
+              "en": "The only access to the village is by boat.",
+              "ja": "その村への唯一の接近手段は船だ。",
+              "highlight": "access"
+            }
+          ]
+        },
+        {
+          "title": "動詞の例文",
+          "examples": [
+            {
+              "en": "You need a password to access the file.",
+              "ja": "そのファイルにアクセスする（を利用する）にはパスワードが必要だ。",
+              "highlight": "access"
+            }
+          ]
+        }
+      ],
+      "etymology": "ad (の方へ) + cedere (行く)",
+      "synonyms": [
+        {"word": "entry", "trans": "入り口、入場"},
+        {"word": "approach", "trans": "接近"},
+        {"word": "admission", "trans": "入場、入会許可"}
+      ],
+      "antonyms": [
+        {"word": "exclusion", "trans": "除外、排除"},
+        {"word": "denial", "trans": "拒否"}
+      ],
+      "related": [
+        {"word": "accessible", "trans": "形容詞：近づきやすい、利用可能な"}
+      ]
+    },
+    {
+      "number": 4060,
+      "word": "convention",
+      "pos": "名詞",
+      "meaning": "①大会、会議 ②慣習、しきたり ③協定",
+      "nuance": "人々が「集まる」こと。そこから、集まって行われる「大会」や、集団の中で長年守られてきた「ルール（慣習）」を指します。",
+      "example_sections": [
+        {
+          "title": "「大会・会議」の例文",
+          "examples": [
+            {
+              "en": "The Democratic National Convention was held in Chicago.",
+              "ja": "民主党全国大会がシカゴで開催された。",
+              "highlight": "Convention"
+            }
+          ]
+        },
+        {
+          "title": "「慣習・しきたり」の例文",
+          "examples": [
+            {
+              "en": "Social conventions vary from culture to culture.",
+              "ja": "社会的慣習は文化によって異なる。",
+              "highlight": "conventions"
+            },
+            {
+              "en": "He flouted convention by wearing jeans to the wedding.",
+              "ja": "彼は結婚式にジーンズを履いていくことで、しきたり（慣習）を無視した。",
+              "highlight": "convention"
+            }
+          ]
+        }
+      ],
+      "etymology": "con (共に) + venire (来る) → 集まること",
+      "synonyms": [
+        {"word": "conference", "trans": "会議"},
+        {"word": "custom", "trans": "慣習"},
+        {"word": "tradition", "trans": "伝統"}
+      ],
+      "antonyms": [
+        {"word": "strangeness", "trans": "奇妙さ"},
+        {"word": "innovation", "trans": "革新（慣習の打破）"}
+      ],
+      "related": [
+        {"word": "conventional", "trans": "形容詞：型にはまった、従来の"}
+      ]
+    },
+    {
+      "number": 4061,
+      "word": "plain",
+      "pos": "形容詞、名詞",
+      "meaning": "【形】①明らかな ②簡素な、飾りのない ③平易な 【名】平原、平野",
+      "nuance": "平らで何も邪魔するものがない状態。視界が良ければ「明らか」、飾りがなければ「簡素」、言葉が平らなら「平易」となります。",
+      "example_sections": [
+        {
+          "title": "形容詞の例文",
+          "examples": [
+            {
+              "en": "The meaning of his words was plain to everyone.",
+              "ja": "彼の言葉の意味は誰にとっても明らかだった。",
+              "highlight": "plain"
+            },
+            {
+              "en": "She wore a plain white dress.",
+              "ja": "彼女は飾りのない（簡素な）白いドレスを着ていた。",
+              "highlight": "plain"
+            },
+            {
+              "en": "Please speak in plain English.",
+              "ja": "平易な（わかりやすい）英語で話してください。",
+              "highlight": "plain"
+            }
+          ]
+        },
+        {
+          "title": "名詞の例文",
+          "examples": [
+            {
+              "en": "Large herds of bison used to roam the great plains.",
+              "ja": "かつてバイソンの大群が広大な平原を歩き回っていた。",
+              "highlight": "plains"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 planus（平らな）",
+      "synonyms": [
+        {"word": "clear", "trans": "明確な"},
+        {"word": "simple", "trans": "単純な、簡素な"},
+        {"word": "flatland", "trans": "平地"}
+      ],
+      "antonyms": [
+        {"word": "fancy", "trans": "装飾的な"},
+        {"word": "complex", "trans": "複雑な"},
+        {"word": "vague", "trans": "あいまいな"}
+      ],
+      "related": [
+        {"word": "plainly", "trans": "副詞：はっきりと、質素に"}
+      ]
+    },
+    {
+      "number": 4065,
+      "word": "profound",
+      "pos": "形容詞",
+      "meaning": "深い、深刻な、深遠な",
+      "nuance": "物理的な深さというよりは、影響の大きさ、知性の深さ、感情の激しさなどが「底知れない」ことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The discovery had a profound effect on modern science.",
+              "ja": "その発見は現代科学に深い（多大な）影響を与えた。",
+              "highlight": "profound"
+            },
+            {
+              "en": "He offered a profound apology for his mistake.",
+              "ja": "彼は自らの過ちに対して深い（心からの）謝罪をした。",
+              "highlight": "profound"
+            }
+          ]
+        }
+      ],
+      "etymology": "pro (前へ) + fundus (底) → 底に至るまで",
+      "synonyms": [
+        {"word": "deep", "trans": "深い"},
+        {"word": "intense", "trans": "強烈な"},
+        {"word": "significant", "trans": "重大な"}
+      ],
+      "antonyms": [
+        {"word": "superficial", "trans": "表面的な"},
+        {"word": "slight", "trans": "わずかな"},
+        {"word": "shallow", "trans": "浅い"}
+      ],
+      "related": [
+        {"word": "profoundly", "trans": "副詞：深く、大いに"}
+      ]
+    },
+    {
+      "number": 4067,
+      "word": "physician",
+      "pos": "名詞",
+      "meaning": "内科医、医師",
+      "nuance": "外科医(surgeon)に対して、主に薬物療法などを行う「内科医」を指しますが、一般に「医師」のフォーマルな呼び方としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The family physician has treated us for years.",
+              "ja": "そのかかりつけの内科医は、何年も私たちを診てくれている。",
+              "highlight": "physician"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 physis（自然、肉体の性質）",
+      "synonyms": [
+        {"word": "doctor", "trans": "医者"},
+        {"word": "medical practitioner", "trans": "医療従事者、医師"}
+      ],
+      "antonyms": [
+        {"word": "patient", "trans": "患者"}
+      ],
+      "related": [
+        {"word": "physics", "trans": "名詞：物理学"},
+        {"word": "physical", "trans": "形容詞：身体の、物理的な"}
+      ]
+    },
+    {
+      "number": 4072,
+      "word": "vital",
+      "pos": "形容詞",
+      "meaning": "不可欠の、極めて重要な、生命の、活力に満ちた",
+      "nuance": "「生命(vita)」に関わるほど重要である、という意味。それがないと全体が成り立たなくなるような「核心的な」重要性を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Regular exercise is vital for maintaining good health.",
+              "ja": "定期的な運動は健康維持に不可欠だ。",
+              "highlight": "vital"
+            },
+            {
+              "en": "The police play a vital role in our society.",
+              "ja": "警察は私たちの社会において極めて重要な役割を果たしている。",
+              "highlight": "vital"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vita（生命）",
+      "synonyms": [
+        {"word": "essential", "trans": "不可欠な"},
+        {"word": "crucial", "trans": "決定的な"},
+        {"word": "indispensable", "trans": "なしでは済ませられない"}
+      ],
+      "antonyms": [
+        {"word": "unimportant", "trans": "重要でない"},
+        {"word": "useless", "trans": "役に立たない"},
+        {"word": "trivial", "trans": "些細な"}
+      ],
+      "related": [
+        {"word": "vitality", "trans": "名詞：生命力、活力"},
+        {"word": "vitamin", "trans": "名詞：ビタミン"},
+        {"word": "vital signs", "trans": "名詞：バイタルサイン（心拍・呼吸など）"}
+      ]
+    }
+  ]
+}
