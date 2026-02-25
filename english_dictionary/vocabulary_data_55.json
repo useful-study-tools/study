@@ -1,0 +1,1463 @@
+{
+  "words": [
+    {
+      "number": 4374,
+      "word": "variable",
+      "pos": "形容詞、名詞",
+      "meaning": "変わりやすい、変動する、変数",
+      "nuance": "一定ではなく、状況によって変化する性質を指します。数学やプログラミングでは「変数」という名詞として必須の語彙です。",
+      "example_sections": [
+        {
+          "title": "形容詞：変わりやすい",
+          "examples": [
+            {
+              "en": "The weather here is extremely variable.",
+              "ja": "ここの天候は非常に変わりやすい。",
+              "highlight": "variable"
+            },
+            {
+              "en": "The interest rates are variable depending on the market.",
+              "ja": "金利は市場に応じて変動する。",
+              "highlight": "variable"
+            }
+          ]
+        },
+        {
+          "title": "名詞：変数",
+          "examples": [
+            {
+              "en": "Temperature is a key variable in this experiment.",
+              "ja": "この実験において温度は主要な変数（要因）である。",
+              "highlight": "variable"
+            }
+          ]
+        }
+      ],
+      "etymology": "vary (変わる) + able (できる) → 変えることができる",
+      "synonyms": [
+        {"word": "changeable", "trans": "変わりやすい"},
+        {"word": "shifting", "trans": "変化する"},
+        {"word": "factor", "trans": "要因"}
+      ],
+      "antonyms": [
+        {"word": "constant", "trans": "一定の、不変の"},
+        {"word": "stable", "trans": "安定した"},
+        {"word": "fixed", "trans": "固定された"}
+      ],
+      "related": [
+        {"word": "variation", "trans": "名詞：変化、差異"},
+        {"word": "variety", "trans": "名詞：多様性"},
+        {"word": "various", "trans": "形容詞：様々な"}
+      ]
+    },
+    {
+      "number": 4382,
+      "word": "inherent",
+      "pos": "形容詞",
+      "meaning": "生来の、固有の、本来備わっている",
+      "nuance": "後天的に得たものではなく、そのもの自体が最初から持っている性質を指します。しばしば「避けられないリスク」などの文脈で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Every business has its inherent risks.",
+              "ja": "すべてのビジネスには固有のリスクが伴う。",
+              "highlight": "inherent"
+            },
+            {
+              "en": "Freedom of speech is an inherent right of every citizen.",
+              "ja": "言論の自由はすべての市民に本来備わっている権利である。",
+              "highlight": "inherent"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (中に) + haerere (くっつく) → 内部に張り付いている",
+      "synonyms": [
+        {"word": "innate", "trans": "先天的な"},
+        {"word": "intrinsic", "trans": "本質的な"},
+        {"word": "inborn", "trans": "生まれつきの"}
+      ],
+      "antonyms": [
+        {"word": "acquired", "trans": "獲得した（後天的な）"},
+        {"word": "extrinsic", "trans": "外的な"},
+        {"word": "learned", "trans": "学習による"}
+      ],
+      "related": [
+        {"word": "inherently", "trans": "副詞：本来的に"},
+        {"word": "inhere", "trans": "動詞：本来備わっている"}
+      ]
+    },
+    {
+      "number": 4389,
+      "word": "reinforce",
+      "pos": "動詞",
+      "meaning": "〜を強化する、補強する",
+      "nuance": "建物などの物理的な補強だけでなく、考え、感情、軍隊などの力を強める際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The classroom walls were reinforced with steel.",
+              "ja": "教室の壁は鋼鉄で補強された。",
+              "highlight": "reinforced"
+            },
+            {
+              "en": "The latest evidence reinforces my theory.",
+              "ja": "最新の証拠は私の理論を強化する（裏付ける）。",
+              "highlight": "reinforces"
+            }
+          ]
+        }
+      ],
+      "etymology": "re (再び) + in (中に) + force (力) → 再び力を入れる",
+      "synonyms": [
+        {"word": "strengthen", "trans": "強くする"},
+        {"word": "fortify", "trans": "要塞化する、強める"},
+        {"word": "bolster", "trans": "支持する、高める"}
+      ],
+      "antonyms": [
+        {"word": "weaken", "trans": "弱める"},
+        {"word": "undermine", "trans": "（密かに）弱体化させる"},
+        {"word": "diminish", "trans": "減少させる"}
+      ],
+      "related": [
+        {"word": "reinforcement", "trans": "名詞：補強、増員"},
+        {"word": "force", "trans": "名詞：力"}
+      ]
+    },
+    {
+      "number": 4391,
+      "word": "grip",
+      "pos": "動詞、名詞",
+      "meaning": "〜をしっかりつかむ、握ること、支配力",
+      "nuance": "物理的にぎゅっと握るだけでなく、観衆の心を「引きつける」ことや、恐怖などが人を「襲う」際にも使われます。",
+      "example_sections": [
+        {
+          "title": "動詞：つかむ、引きつける",
+          "examples": [
+            {
+              "en": "She gripped the steering wheel tightly.",
+              "ja": "彼女はハンドルをしっかりと握った。",
+              "highlight": "gripped"
+            },
+            {
+              "en": "The movie gripped the audience from the start.",
+              "ja": "その映画は最初から観客の心をわし掴みにした。",
+              "highlight": "gripped"
+            }
+          ]
+        },
+        {
+          "title": "名詞：握り、支配、理解",
+          "examples": [
+            {
+              "en": "The dictator had a firm grip on the country.",
+              "ja": "独裁者はその国を強固に支配（把握）していた。",
+              "highlight": "grip"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 gripan (つかむ) から",
+      "synonyms": [
+        {"word": "grasp", "trans": "ぎゅっとつかむ"},
+        {"word": "clutch", "trans": "しっかり握る"},
+        {"word": "hold", "trans": "持つ"}
+      ],
+      "antonyms": [
+        {"word": "release", "trans": "放す"},
+        {"word": "loose", "trans": "緩める"},
+        {"word": "drop", "trans": "落とす"}
+      ],
+      "related": [
+        {"word": "gripping", "trans": "形容詞：心を打つ、面白い"},
+        {"word": "grope", "trans": "動詞：手探りする"}
+      ]
+    },
+    {
+      "number": 4392,
+      "word": "savage",
+      "pos": "形容詞、動詞、名詞",
+      "meaning": "野蛮な、残酷な、〜を激しく攻撃する、野蛮人",
+      "nuance": "文明化されていない様子や、動物のように獰猛で残酷な性質を表します。現代のスラングでは「（容赦なくて）かっこいい」という意味で使われることもあります。",
+      "example_sections": [
+        {
+          "title": "形容詞：野蛮な、残酷な",
+          "examples": [
+            {
+              "en": "He was the victim of a savage attack.",
+              "ja": "彼は残酷な攻撃の犠牲者となった。",
+              "highlight": "savage"
+            },
+            {
+              "en": "Savage animals live in this jungle.",
+              "ja": "このジャングルには獰猛な動物が住んでいる。",
+              "highlight": "savage"
+            }
+          ]
+        },
+        {
+          "title": "動詞：激しく攻撃する",
+          "examples": [
+            {
+              "en": "The dog savaged the intruder.",
+              "ja": "その犬は侵入者を激しく襲った。",
+              "highlight": "savaged"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 silvaticus (森の) → 野生の",
+      "synonyms": [
+        {"word": "barbaric", "trans": "野蛮な"},
+        {"word": "brutal", "trans": "冷酷な"},
+        {"word": "vicious", "trans": "獰猛な"}
+      ],
+      "antonyms": [
+        {"word": "civilized", "trans": "文明化された"},
+        {"word": "gentle", "trans": "優しい"},
+        {"word": "tame", "trans": "飼い慣らされた"}
+      ],
+      "related": [
+        {"word": "savagely", "trans": "副詞：残酷に"},
+        {"word": "savagery", "trans": "名詞：野蛮な行為"}
+      ]
+    },
+    {
+      "number": 4395,
+      "word": "intimate",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "親密な、個人的な、親友、〜を暗に伝える",
+      "nuance": "非常に親しい仲、またはプライベートで他人に知られたくないような事柄を指します。動詞では「ほのめかす」という少し硬い意味になります。",
+      "example_sections": [
+        {
+          "title": "形容詞：親密な、個人的な",
+          "examples": [
+            {
+              "en": "They have an intimate relationship.",
+              "ja": "彼らは親密な関係にある。",
+              "highlight": "intimate"
+            },
+            {
+              "en": "The diary contains intimate details of her life.",
+              "ja": "その日記には彼女の生活の個人的な詳細が記されている。",
+              "highlight": "intimate"
+            }
+          ]
+        },
+        {
+          "title": "動詞：ほのめかす",
+          "examples": [
+            {
+              "en": "He intimated that he might resign soon.",
+              "ja": "彼は近く辞職するかもしれないとほのめかした。",
+              "highlight": "intimated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 intimus (最も奥の) → 心の奥に触れる",
+      "synonyms": [
+        {"word": "close", "trans": "近い、親しい"},
+        {"word": "private", "trans": "私的な"},
+        {"word": "hint", "trans": "ほのめかす"}
+      ],
+      "antonyms": [
+        {"word": "distant", "trans": "遠い、よそよそしい"},
+        {"word": "formal", "trans": "形式的な"},
+        {"word": "public", "trans": "公の"}
+      ],
+      "related": [
+        {"word": "intimacy", "trans": "名詞：親密さ"},
+        {"word": "intimately", "trans": "副詞：親密に"}
+      ]
+    },
+    {
+      "number": 4397,
+      "word": "fraction",
+      "pos": "名詞",
+      "meaning": "一部、わずか、分数",
+      "nuance": "全体を壊して分けた「破片」から転じて、ごく小さい部分や数学の分数を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The accident happened in a fraction of a second.",
+              "ja": "その事故は一瞬（1秒の何分の1か）のうちに起きた。",
+              "highlight": "fraction"
+            },
+            {
+              "en": "She managed to save only a small fraction of her income.",
+              "ja": "彼女は収入のごく一部しか貯金することができなかった。",
+              "highlight": "fraction"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 frangere (壊す) → 壊れた破片",
+      "synonyms": [
+        {"word": "portion", "trans": "部分"},
+        {"word": "segment", "trans": "断片"},
+        {"word": "bit", "trans": "少し"}
+      ],
+      "antonyms": [
+        {"word": "whole", "trans": "全体"},
+        {"word": "total", "trans": "合計"},
+        {"word": "entirety", "trans": "全部"}
+      ],
+      "related": [
+        {"word": "fracture", "trans": "名詞：骨折、割れ目"},
+        {"word": "fragile", "trans": "形容詞：壊れやすい"}
+      ]
+    },
+    {
+      "number": 4398,
+      "word": "rigid",
+      "pos": "形容詞",
+      "meaning": "厳しい、硬直した、厳格な",
+      "nuance": "曲がらないほど硬いこと、またはルールや考え方が柔軟性に欠け、非常に厳しい様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The school has a rigid set of rules.",
+              "ja": "その学校には厳格な規則がある。",
+              "highlight": "rigid"
+            },
+            {
+              "en": "He is very rigid in his thinking.",
+              "ja": "彼は考え方が非常に凝り固まっている（柔軟性がない）。",
+              "highlight": "rigid"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 rigere (硬くなる)",
+      "synonyms": [
+        {"word": "strict", "trans": "厳しい"},
+        {"word": "stiff", "trans": "硬い"},
+        {"word": "inflexible", "trans": "融通のきかない"}
+      ],
+      "antonyms": [
+        {"word": "flexible", "trans": "柔軟な"},
+        {"word": "lenient", "trans": "寛大な"},
+        {"word": "soft", "trans": "柔らかい"}
+      ],
+      "related": [
+        {"word": "rigidity", "trans": "名詞：硬さ、厳格"},
+        {"word": "rigor", "trans": "名詞：厳しさ"}
+      ]
+    },
+    {
+      "number": 4409,
+      "word": "scare",
+      "pos": "動詞、名詞",
+      "meaning": "〜をおびえさせる、怖がらせる、恐怖、不安",
+      "nuance": "一時的に「ギョッとさせる」ような恐怖を与えます。名詞では社会的なパニック（食の不安など）を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "動詞：おびえさせる",
+          "examples": [
+            {
+              "en": "You scared me! I didn't see you there.",
+              "ja": "驚かさないでよ！そこにいるのに気づかなかったわ。",
+              "highlight": "scared"
+            },
+            {
+              "en": "The loud noise scared the birds away.",
+              "ja": "大きな音が鳥たちを怖がらせて追い払った。",
+              "highlight": "scared"
+            }
+          ]
+        },
+        {
+          "title": "名詞：恐怖、パニック",
+          "examples": [
+            {
+              "en": "There was a bomb scare at the airport.",
+              "ja": "空港で爆弾騒ぎ（パニック）があった。",
+              "highlight": "scare"
+            }
+          ]
+        }
+      ],
+      "etymology": "北欧語 skirra (追い払う) から",
+      "synonyms": [
+        {"word": "frighten", "trans": "怖がらせる"},
+        {"word": "terrify", "trans": "ひどく怖がらせる"},
+        {"word": "alarm", "trans": "不安にさせる"}
+      ],
+      "antonyms": [
+        {"word": "comfort", "trans": "安心させる"},
+        {"word": "reassure", "trans": "自信を回復させる"},
+        {"word": "soothe", "trans": "なだめる"}
+      ],
+      "related": [
+        {"word": "scary", "trans": "形容詞：怖い"},
+        {"word": "scared", "trans": "形容詞：怖がっている"}
+      ]
+    },
+    {
+      "number": 4416,
+      "word": "tolerate",
+      "pos": "動詞",
+      "meaning": "〜を我慢する、許容する、耐える",
+      "nuance": "「好きではないが、大目に見て許す」というニュアンスが強い我慢です。薬の副作用に耐える際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I cannot tolerate your rude behavior any longer.",
+              "ja": "あなたの失礼な態度はこれ以上我慢できない。",
+              "highlight": "tolerate"
+            },
+            {
+              "en": "The government will not tolerate any violence.",
+              "ja": "政府はいかなる暴力も容認しないだろう。",
+              "highlight": "tolerate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tolerare (運ぶ、耐える)",
+      "synonyms": [
+        {"word": "endure", "trans": "（苦痛に）耐える"},
+        {"word": "put up with", "trans": "〜を我慢する"},
+        {"word": "permit", "trans": "許可する"}
+      ],
+      "antonyms": [
+        {"word": "forbid", "trans": "禁止する"},
+        {"word": "prohibit", "trans": "許さない"},
+        {"word": "reject", "trans": "拒絶する"}
+      ],
+      "related": [
+        {"word": "tolerance", "trans": "名詞：寛容、耐性"},
+        {"word": "tolerant", "trans": "形容詞：寛容な"}
+      ]
+    },
+    {
+      "number": 4418,
+      "word": "privilege",
+      "pos": "名詞、動詞",
+      "meaning": "特権、特典、〜に特権を与える",
+      "nuance": "特定の人やグループだけが持つ、特別な権利や名誉を指します。「〜できて光栄です」という挨拶でもよく使われます。",
+      "example_sections": [
+        {
+          "title": "名詞：特権、名誉",
+          "examples": [
+            {
+              "en": "Education should be a right, not a privilege.",
+              "ja": "教育は特権ではなく権利であるべきだ。",
+              "highlight": "privilege"
+            },
+            {
+              "en": "It is a privilege to meet you, Mr. President.",
+              "ja": "大統領、お目にかかれて光栄（名誉）です。",
+              "highlight": "privilege"
+            }
+          ]
+        }
+      ],
+      "etymology": "privus (個人の) + lex (法) → 個人のための法律",
+      "synonyms": [
+        {"word": "advantage", "trans": "利点"},
+        {"word": "honor", "trans": "名誉"},
+        {"word": "entitlement", "trans": "権利"}
+      ],
+      "antonyms": [
+        {"word": "disadvantage", "trans": "不利"},
+        {"word": "restriction", "trans": "制限"},
+        {"word": "deprivation", "trans": "剥奪"}
+      ],
+      "related": [
+        {"word": "privileged", "trans": "形容詞：特権のある"}
+      ]
+    },
+    {
+      "number": 4421,
+      "word": "transmit",
+      "pos": "動詞",
+      "meaning": "〜を伝達する、送る、伝染させる",
+      "nuance": "信号やデータを送ること、知識を後世に伝えること、または病気をうつすことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The satellite transmits data back to Earth.",
+              "ja": "その衛星はデータを地球に送信する。",
+              "highlight": "transmits"
+            },
+            {
+              "en": "The virus is transmitted through the air.",
+              "ja": "そのウイルスは空気を介して伝染する。",
+              "highlight": "transmitted"
+            }
+          ]
+        }
+      ],
+      "etymology": "trans (越えて) + mittere (送る) → 向こう側へ送る",
+      "synonyms": [
+        {"word": "transfer", "trans": "移す"},
+        {"word": "convey", "trans": "伝える"},
+        {"word": "broadcast", "trans": "放送する"}
+      ],
+      "antonyms": [
+        {"word": "receive", "trans": "受け取る"},
+        {"word": "stop", "trans": "止める"},
+        {"word": "retain", "trans": "保持する"}
+      ],
+      "related": [
+        {"word": "transmission", "trans": "名詞：伝達、変速機"},
+        {"word": "transmitter", "trans": "名詞：送信機"}
+      ]
+    },
+    {
+      "number": 4428,
+      "word": "trivial",
+      "pos": "形容詞",
+      "meaning": "ささいな、取るに足らない",
+      "nuance": "重要性が低く、わざわざ気に留めるほどではないことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Don't waste your time on trivial matters.",
+              "ja": "ささいなことに時間を無駄にするな。",
+              "highlight": "trivial"
+            },
+            {
+              "en": "The problem seemed trivial at first.",
+              "ja": "その問題は最初は取るに足らないものに見えた。",
+              "highlight": "trivial"
+            }
+          ]
+        }
+      ],
+      "etymology": "tri (3つの) + via (道) → 三叉路（みんなが話すようなありふれた場所）",
+      "synonyms": [
+        {"word": "insignificant", "trans": "重要でない"},
+        {"word": "minor", "trans": "小さな"},
+        {"word": "petty", "trans": "わずかな"}
+      ],
+      "antonyms": [
+        {"word": "important", "trans": "重要な"},
+        {"word": "significant", "trans": "重大な"},
+        {"word": "crucial", "trans": "決定的な"}
+      ],
+      "related": [
+        {"word": "trivia", "trans": "名詞：雑学"},
+        {"word": "trivialize", "trans": "動詞：軽視する"}
+      ]
+    },
+    {
+      "number": 4429,
+      "word": "craft",
+      "pos": "名詞、動詞",
+      "meaning": "技術、工芸、船/乗り物、〜を精巧に作る",
+      "nuance": "手先の器用さが必要な「職人技」や、それによって作られた工芸品を指します。また、宇宙船（spacecraft）や航空機などの「乗り物」の意味もあります。",
+      "example_sections": [
+        {
+          "title": "名詞：技術、工芸、乗り物",
+          "examples": [
+            {
+              "en": "She is learning the craft of basket weaving.",
+              "ja": "彼女はカゴ編みの技術を学んでいる。",
+              "highlight": "craft"
+            },
+            {
+              "en": "The landing craft reached the shore.",
+              "ja": "揚陸艇（船）が海岸に到着した。",
+              "highlight": "craft"
+            }
+          ]
+        },
+        {
+          "title": "動詞：精巧に作る",
+          "examples": [
+            {
+              "en": "The speech was carefully crafted to inspire the audience.",
+              "ja": "そのスピーチは聴衆を鼓舞するために注意深く作られていた。",
+              "highlight": "crafted"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 cræft (力、技術) から",
+      "synonyms": [
+        {"word": "skill", "trans": "技能"},
+        {"word": "art", "trans": "芸術、技術"},
+        {"word": "vessel", "trans": "船、器"}
+      ],
+      "antonyms": [
+        {"word": "clumsiness", "trans": "不器用"},
+        {"word": "neglect", "trans": "放置"},
+        {"word": "mass-produce", "trans": "大量生産する（対義的動作）"}
+      ],
+      "related": [
+        {"word": "craftsman", "trans": "名詞：職人"},
+        {"word": "crafty", "trans": "形容詞：ずる賢い"}
+      ]
+    },
+    {
+      "number": 4430,
+      "word": "impatient",
+      "pos": "形容詞",
+      "meaning": "いらいらした、待ちきれない",
+      "nuance": "待つことができずにイライラしている様子や、「早く〜したくてたまらない」というポジティブな焦燥感も表せます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He got impatient with the slow service.",
+              "ja": "彼はサービスの遅さにイライラした。",
+              "highlight": "impatient"
+            },
+            {
+              "en": "The children were impatient to open their presents.",
+              "ja": "子供たちはプレゼントを開けるのが待ちきれなかった。",
+              "highlight": "impatient"
+            }
+          ]
+        }
+      ],
+      "etymology": "im (不) + patient (忍耐強い) → 忍耐がない",
+      "synonyms": [
+        {"word": "restless", "trans": "落ち着きがない"},
+        {"word": "eager", "trans": "熱望して"},
+        {"word": "irritable", "trans": "怒りっぽい"}
+      ],
+      "antonyms": [
+        {"word": "patient", "trans": "忍耐強い"},
+        {"word": "calm", "trans": "冷静な"},
+        {"word": "composed", "trans": "落ち着いた"}
+      ],
+      "related": [
+        {"word": "impatience", "trans": "名詞：焦燥、短気"},
+        {"word": "patiently", "trans": "副詞：根気強く"}
+      ]
+    },
+    {
+      "number": 4433,
+      "word": "sphere",
+      "pos": "名詞",
+      "meaning": "範囲、領域、球体",
+      "nuance": "物理的な「ボールのような形」から転じて、活動の「範囲」や知識の「専門分野」を指すようになりました。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "That matter is outside my sphere of responsibility.",
+              "ja": "その件は私の責任範囲外です。",
+              "highlight": "sphere"
+            },
+            {
+              "en": "The Earth is not a perfect sphere.",
+              "ja": "地球は完全な球体ではない。",
+              "highlight": "sphere"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 sphaira (ボール)",
+      "synonyms": [
+        {"word": "area", "trans": "地域、分野"},
+        {"word": "domain", "trans": "領域"},
+        {"word": "globe", "trans": "球、地球"}
+      ],
+      "antonyms": [
+        {"word": "point", "trans": "点（広がりがない）"},
+        {"word": "boundary", "trans": "境界（範囲そのものではなく縁）"},
+        {"word": "center", "trans": "中心"}
+      ],
+      "related": [
+        {"word": "spherical", "trans": "形容詞：球状の"},
+        {"word": "atmosphere", "trans": "名詞：大気、雰囲気"}
+      ]
+    },
+    {
+      "number": 4436,
+      "word": "insult",
+      "pos": "動詞、名詞",
+      "meaning": "〜を侮辱する、侮辱",
+      "nuance": "言葉や態度で、相手の自尊心を傷つけたり、バカにしたりすることを指します。",
+      "example_sections": [
+        {
+          "title": "動詞：侮辱する",
+          "examples": [
+            {
+              "en": "I didn't mean to insult you.",
+              "ja": "あなたを侮辱するつもりはありませんでした。",
+              "highlight": "insult"
+            }
+          ]
+        },
+        {
+          "title": "名詞：侮辱",
+          "examples": [
+            {
+              "en": "His comments were a direct insult to my intelligence.",
+              "ja": "彼の発言は私の知性に対する直接的な侮辱だった。",
+              "highlight": "insult"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (上に) + salire (跳ぶ) → 相手の上に飛びかかる",
+      "synonyms": [
+        {"word": "offend", "trans": "感情を害する"},
+        {"word": "humiliate", "trans": "恥をかかせる"},
+        {"word": "abuse", "trans": "罵倒する"}
+      ],
+      "antonyms": [
+        {"word": "compliment", "trans": "褒める"},
+        {"word": "praise", "trans": "称賛する"},
+        {"word": "flatter", "trans": "お世辞を言う"}
+      ],
+      "related": [
+        {"word": "insulting", "trans": "形容詞：侮辱的な"}
+      ]
+    },
+    {
+      "number": 4438,
+      "word": "resume",
+      "pos": "動詞、名詞",
+      "meaning": "〜を再開する、再び始める、履歴書（レジュメ）",
+      "nuance": "中断していたことを再び始めることを意味します。名詞では発音が異なり、「履歴書」を指します。",
+      "example_sections": [
+        {
+          "title": "動詞：再開する",
+          "examples": [
+            {
+              "en": "The meeting will resume after lunch.",
+              "ja": "会議は昼食後に再開されます。",
+              "highlight": "resume"
+            },
+            {
+              "en": "She resumed her seat near the window.",
+              "ja": "彼女は再び窓際の席についた。",
+              "highlight": "resumed"
+            }
+          ]
+        },
+        {
+          "title": "名詞：履歴書",
+          "examples": [
+            {
+              "en": "Please send your resume to our HR department.",
+              "ja": "私たちの人事部へ履歴書を送ってください。",
+              "highlight": "resume"
+            }
+          ]
+        }
+      ],
+      "etymology": "re (再び) + sumere (取る) → 再び手に取る",
+      "synonyms": [
+        {"word": "restart", "trans": "再始動する"},
+        {"word": "continue", "trans": "続ける"},
+        {"word": "CV", "trans": "履歴書（イギリス英語的）"}
+      ],
+      "antonyms": [
+        {"word": "suspend", "trans": "一時停止する"},
+        {"word": "interrupt", "trans": "中断する"},
+        {"word": "quit", "trans": "やめる"}
+      ],
+      "related": [
+        {"word": "resumption", "trans": "名詞：再開"}
+      ]
+    },
+    {
+      "number": 4444,
+      "word": "scope",
+      "pos": "名詞",
+      "meaning": "範囲、領域、余地、望遠鏡などの筒",
+      "nuance": "活動や調査が及ぶ「範囲」や、何かができる「機会（余地）」を指します。顕微鏡（microscope）などの語尾にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The project is limited in scope.",
+              "ja": "そのプロジェクトは範囲が限られている。",
+              "highlight": "scope"
+            },
+            {
+              "en": "There is plenty of scope for improvement.",
+              "ja": "改善の余地（機会）が十分にある。",
+              "highlight": "scope"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 skopos (見る者、目標)",
+      "synonyms": [
+        {"word": "range", "trans": "範囲"},
+        {"word": "extent", "trans": "程度、範囲"},
+        {"word": "opportunity", "trans": "機会"}
+      ],
+      "antonyms": [
+        {"word": "limitation", "trans": "制限"},
+        {"word": "confinement", "trans": "限定"},
+        {"word": "narrowness", "trans": "狭さ"}
+      ],
+      "related": [
+        {"word": "microscope", "trans": "名詞：顕微鏡"},
+        {"word": "telescope", "trans": "名詞：望遠鏡"}
+      ]
+    },
+    {
+      "number": 4445,
+      "word": "frost",
+      "pos": "名詞、動詞",
+      "meaning": "霜、結氷、〜を霜で覆う、ケーキを砂糖衣で飾る",
+      "nuance": "空気中の水蒸気が凍って地面や窓に付着したものを指します。料理の文脈ではケーキのデコレーションを指すこともあります。",
+      "example_sections": [
+        {
+          "title": "名詞：霜",
+          "examples": [
+            {
+              "en": "There was a heavy frost this morning.",
+              "ja": "今朝は強い霜が降りた。",
+              "highlight": "frost"
+            }
+          ]
+        },
+        {
+          "title": "動詞：霜で覆う、デコレーションする",
+          "examples": [
+            {
+              "en": "She is frosting the cupcakes with chocolate.",
+              "ja": "彼女はカップケーキをチョコの砂糖衣（フロスティング）で飾っている。",
+              "highlight": "frosting"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 frost (凍ること) から",
+      "synonyms": [
+        {"word": "ice", "trans": "氷"},
+        {"word": "freeze", "trans": "氷点下の寒さ"},
+        {"word": "icing", "trans": "砂糖衣"}
+      ],
+      "antonyms": [
+        {"word": "thaw", "trans": "解ける"},
+        {"word": "melt", "trans": "溶ける"},
+        {"word": "heat", "trans": "熱"}
+      ],
+      "related": [
+        {"word": "frosty", "trans": "形容詞：霜の降りる、冷淡な"}
+      ]
+    },
+    {
+      "number": 4447,
+      "word": "vulnerable",
+      "pos": "形容詞",
+      "meaning": "傷つきやすい、脆弱な、攻撃を受けやすい",
+      "nuance": "物理的な攻撃だけでなく、精神的なショックや経済的な打撃に対して「守りがない」状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The system is vulnerable to cyber attacks.",
+              "ja": "そのシステムはサイバー攻撃に対して脆弱である。",
+              "highlight": "vulnerable"
+            },
+            {
+              "en": "Old people are often vulnerable members of society.",
+              "ja": "高齢者はしばしば社会的に弱い（傷つきやすい）立場にある。",
+              "highlight": "vulnerable"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vulnerare (傷つける) + able (できる)",
+      "synonyms": [
+        {"word": "susceptible", "trans": "影響を受けやすい"},
+        {"word": "weak", "trans": "弱い"},
+        {"word": "defenseless", "trans": "無防備な"}
+      ],
+      "antonyms": [
+        {"word": "invulnerable", "trans": "不死身の、傷つかない"},
+        {"word": "resilient", "trans": "回復力のある"},
+        {"word": "secure", "trans": "安全な"}
+      ],
+      "related": [
+        {"word": "vulnerability", "trans": "名詞：脆弱性"}
+      ]
+    },
+    {
+      "number": 4452,
+      "word": "congress",
+      "pos": "名詞",
+      "meaning": "会議、議会、（特に米国）議会",
+      "nuance": "集まること、または代表者が集まって話し合う組織を指します。米国では上院と下院を合わせた「国会」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Congress passed the new tax law yesterday.",
+              "ja": "昨日、議会は新しい税法を可決した。",
+              "highlight": "Congress"
+            },
+            {
+              "en": "An international congress of doctors was held in Tokyo.",
+              "ja": "東京で医師たちの国際会議が開催された。",
+              "highlight": "congress"
+            }
+          ]
+        }
+      ],
+      "etymology": "com (共に) + gradi (歩く) → 共に歩み寄る、集まる",
+      "synonyms": [
+        {"word": "parliament", "trans": "議会（特に英）"},
+        {"word": "assembly", "trans": "集会"},
+        {"word": "convention", "trans": "大会、会議"}
+      ],
+      "antonyms": [
+        {"word": "separation", "trans": "分離"},
+        {"word": "dissolution", "trans": "解散"},
+        {"word": "individualism", "trans": "個人主義（対義的概念）"}
+      ],
+      "related": [
+        {"word": "congressional", "trans": "形容詞：議会の"},
+        {"word": "congressman", "trans": "名詞：国会議員"}
+      ]
+    },
+    {
+      "number": 4454,
+      "word": "manipulate",
+      "pos": "動詞",
+      "meaning": "〜を操作する、操る、巧みに扱う",
+      "nuance": "手で道具を扱うことだけでなく、情報を自分に都合よく改ざんしたり、他人を思い通りに動かしたりする「ずる賢い」ニュアンスでも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The surgeon manipulated the tools with great skill.",
+              "ja": "外科医は素晴らしい技術で道具を操作した。",
+              "highlight": "manipulated"
+            },
+            {
+              "en": "He was accused of trying to manipulate public opinion.",
+              "ja": "彼は世論を操作しようとしたとして非難された。",
+              "highlight": "manipulate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 manus (手) + plere (満たす) → 手いっぱい、手で扱う",
+      "synonyms": [
+        {"word": "operate", "trans": "操作する"},
+        {"word": "control", "trans": "支配する"},
+        {"word": "influence", "trans": "影響を与える"}
+      ],
+      "antonyms": [
+        {"word": "leave alone", "trans": "そのままにする"},
+        {"word": "obey", "trans": "従う"},
+        {"word": "follow", "trans": "続く"}
+      ],
+      "related": [
+        {"word": "manipulation", "trans": "名詞：操作"},
+        {"word": "manual", "trans": "形容詞：手動の"}
+      ]
+    },
+    {
+      "number": 4455,
+      "word": "arouse",
+      "pos": "動詞",
+      "meaning": "〜を喚起する、刺激する、目覚めさせる",
+      "nuance": "眠っている状態から起こすことや、人々の好奇心や怒りなどの感情を「呼び起こす」際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Her behavior aroused my suspicion.",
+              "ja": "彼女の振る舞いが私の疑念を呼び起こした。",
+              "highlight": "aroused"
+            },
+            {
+              "en": "The speech aroused the crowd's interest.",
+              "ja": "そのスピーチが群衆の関心を刺激した。",
+              "highlight": "aroused"
+            }
+          ]
+        }
+      ],
+      "etymology": "a (強意) + rouse (起こす)",
+      "synonyms": [
+        {"word": "stimulate", "trans": "刺激する"},
+        {"word": "awaken", "trans": "目覚めさせる"},
+        {"word": "provoke", "trans": "引き起こす"}
+      ],
+      "antonyms": [
+        {"word": "calm", "trans": "静める"},
+        {"word": "lull", "trans": "なだめる"},
+        {"word": "suppress", "trans": "抑える"}
+      ],
+      "related": [
+        {"word": "arousal", "trans": "名詞：覚醒、興奮"}
+      ]
+    },
+    {
+      "number": 4456,
+      "word": "ridiculous",
+      "pos": "形容詞",
+      "meaning": "ばかげた、滑稽な、とんでもない",
+      "nuance": "笑ってしまうほど愚かであったり、常識外れで不合理なことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "What a ridiculous idea!",
+              "ja": "なんて馬鹿げたアイデアなんだ！",
+              "highlight": "ridiculous"
+            },
+            {
+              "en": "It's ridiculous that we have to wait so long.",
+              "ja": "こんなに長く待たなければならないなんて、とんでもない（馬鹿げている）。",
+              "highlight": "ridiculous"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ridere (笑う) → 笑われるべき",
+      "synonyms": [
+        {"word": "absurd", "trans": "不条理な"},
+        {"word": "foolish", "trans": "愚かな"},
+        {"word": "silly", "trans": "ひょうきんな、愚かな"}
+      ],
+      "antonyms": [
+        {"word": "sensible", "trans": "賢明な"},
+        {"word": "reasonable", "trans": "妥当な"},
+        {"word": "serious", "trans": "真面目な"}
+      ],
+      "related": [
+        {"word": "ridicule", "trans": "名詞/動詞：嘲笑（する）"},
+        {"word": "risible", "trans": "形容詞：笑える"}
+      ]
+    },
+    {
+      "number": 4457,
+      "word": "heritage",
+      "pos": "名詞",
+      "meaning": "遺産、伝統、継承物",
+      "nuance": "個人が受け継ぐ金銭的な遺産（inheritance）よりも、国や社会が歴史的に受け継いできた文化、伝統、自然などの「価値あるもの」を指すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Japan has a rich cultural heritage.",
+              "ja": "日本には豊かな文化的遺産がある。",
+              "highlight": "heritage"
+            },
+            {
+              "en": "We must preserve our natural heritage for future generations.",
+              "ja": "私たちは将来の世代のために自然遺産を守らなければならない。",
+              "highlight": "heritage"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 heres (相続人)",
+      "synonyms": [
+        {"word": "inheritance", "trans": "相続財産"},
+        {"word": "legacy", "trans": "遺産、受け継いだもの"},
+        {"word": "tradition", "trans": "伝統"}
+      ],
+      "antonyms": [
+        {"word": "innovation", "trans": "革新（対義的概念）"},
+        {"word": "novelty", "trans": "新しさ"},
+        {"word": "modernity", "trans": "現代性"}
+      ],
+      "related": [
+        {"word": "inherit", "trans": "動詞：受け継ぐ"},
+        {"word": "heir", "trans": "名詞：相続人"}
+      ]
+    },
+    {
+      "number": 4458,
+      "word": "exotic",
+      "pos": "形容詞、名詞",
+      "meaning": "異国の、外来の、風変わりな、外来種",
+      "nuance": "単に「外国の(foreign)」というだけでなく、遠く離れた場所から来たために、魅力的で、珍しく、ミステリアスな感じがすることを指します。",
+      "example_sections": [
+        {
+          "title": "形容詞：異国の、風変わりな",
+          "examples": [
+            {
+              "en": "She has exotic tastes in music.",
+              "ja": "彼女は音楽に対して風変わりな（異国風の）趣味を持っている。",
+              "highlight": "exotic"
+            },
+            {
+              "en": "We saw many exotic plants at the botanical garden.",
+              "ja": "私たちは植物園で多くの外来植物（珍しい植物）を見た。",
+              "highlight": "exotic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 exo (外側に) → 外から来た",
+      "synonyms": [
+        {"word": "foreign", "trans": "外国の"},
+        {"word": "alien", "trans": "異質の、外国の"},
+        {"word": "unusual", "trans": "珍しい"}
+      ],
+      "antonyms": [
+        {"word": "native", "trans": "その土地固有の"},
+        {"word": "ordinary", "trans": "普通の"},
+        {"word": "common", "trans": "一般的な"}
+      ],
+      "related": [
+        {"word": "exotically", "trans": "副詞：風変わりな様子で"}
+      ]
+    },
+    {
+      "number": 4459,
+      "word": "conceive",
+      "pos": "動詞",
+      "meaning": "〜を思いつく、考える、想像する、妊娠する",
+      "nuance": "頭の中で新しいアイデアや計画を形作る（産み出す）ことを指します。物理的に「子を宿す」という意味と、比喩的に「考えを宿す」という意味の両方で使われます。",
+      "example_sections": [
+        {
+          "title": "意味1：思いつく、想像する",
+          "examples": [
+            {
+              "en": "I cannot conceive how he could behave so badly.",
+              "ja": "彼がなぜあんなにひどい振る舞いができるのか、私には想像もつかない。",
+              "highlight": "conceive"
+            },
+            {
+              "en": "The architect conceived a new design for the museum.",
+              "ja": "その建築家は美術館の新しいデザインを思いついた。",
+              "highlight": "conceived"
+            }
+          ]
+        },
+        {
+          "title": "意味2：妊娠する",
+          "examples": [
+            {
+              "en": "The couple had been trying to conceive for several years.",
+              "ja": "その夫婦は数年間、子宝に恵まれる（妊娠する）よう努めていた。",
+              "highlight": "conceive"
+            }
+          ]
+        }
+      ],
+      "etymology": "con (完全に) + capere (つかむ/取る) → 心の中に取り込む",
+      "synonyms": [
+        {"word": "imagine", "trans": "想像する"},
+        {"word": "devise", "trans": "考案する"},
+        {"word": "think up", "trans": "考え出す"}
+      ],
+      "antonyms": [
+        {"word": "misunderstand", "trans": "誤解する"},
+        {"word": "destroy", "trans": "破壊する"},
+        {"word": "abort", "trans": "（妊娠を）中絶する、中止する"}
+      ],
+      "related": [
+        {"word": "concept", "trans": "名詞：概念、考え"},
+        {"word": "conception", "trans": "名詞：概念、想像、妊娠"},
+        {"word": "conceivable", "trans": "形容詞：考えられる"}
+      ]
+    },
+    {
+      "number": 4460,
+      "word": "starve",
+      "pos": "動詞",
+      "meaning": "餓死する、ひどく空腹である、〜を飢えさせる",
+      "nuance": "食べ物がなくて死ぬという強い意味だけでなく、日常会話で「めちゃくちゃお腹が空いた」という誇張表現（I'm starving!）としても頻出します。",
+      "example_sections": [
+        {
+          "title": "意味1：餓死する、飢える",
+          "examples": [
+            {
+              "en": "Millions of people are starving in the war-torn region.",
+              "ja": "戦争で荒廃した地域では、数百万人が飢えに苦しんでいる。",
+              "highlight": "starving"
+            },
+            {
+              "en": "They were left to starve in the desert.",
+              "ja": "彼らは砂漠で餓死するままに放置された。",
+              "highlight": "starve"
+            }
+          ]
+        },
+        {
+          "title": "意味2：渇望する（〜に飢えている）",
+          "examples": [
+            {
+              "en": "The lonely child was starving for affection.",
+              "ja": "その孤独な子供は愛情に飢えていた（を渇望していた）。",
+              "highlight": "starving"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 steorfan (死ぬ) → ドイツ語 sterben（死ぬ）と同源",
+      "synonyms": [
+        {"word": "famish", "trans": "飢えさせる"},
+        {"word": "perish", "trans": "（悲惨な死に方で）死ぬ"},
+        {"word": "hunger", "trans": "飢える"}
+      ],
+      "antonyms": [
+        {"word": "feed", "trans": "食べ物を与える"},
+        {"word": "feast", "trans": "宴会をする、満腹になる"},
+        {"word": "satiate", "trans": "十分に満足させる"}
+      ],
+      "related": [
+        {"word": "starvation", "trans": "名詞：飢餓、餓死"}
+      ]
+    },
+    {
+      "number": 4463,
+      "word": "render",
+      "pos": "動詞",
+      "meaning": "〜を（特定の状態に）する、与える、表現する",
+      "nuance": "makeと似ていますが、より形式的な言葉です。「ある状態に変える」という意味のほか、サービスや援助を「提供する」際にもよく使われます。",
+      "example_sections": [
+        {
+          "title": "意味1：〜を（状態に）する",
+          "examples": [
+            {
+              "en": "The explosion rendered the building unsafe.",
+              "ja": "爆発により、その建物は安全ではない状態になった。",
+              "highlight": "rendered"
+            },
+            {
+              "en": "His news rendered her speechless.",
+              "ja": "彼の知らせに、彼女は言葉を失った（言葉が出ない状態にされた）。",
+              "highlight": "rendered"
+            }
+          ]
+        },
+        {
+          "title": "意味2：与える、提供する",
+          "examples": [
+            {
+              "en": "The committee rendered a decision after hours of debate.",
+              "ja": "委員会は数時間の討論の末、決定を下した（与えた）。",
+              "highlight": "rendered"
+            },
+            {
+              "en": "We are ready to render any assistance you need.",
+              "ja": "私たちが必要なあらゆる援助を提供する準備はできています。",
+              "highlight": "render"
+            }
+          ]
+        }
+      ],
+      "etymology": "re (後ろへ) + dare (与える) → お返しに与える",
+      "synonyms": [
+        {"word": "make", "trans": "〜にする"},
+        {"word": "provide", "trans": "提供する"},
+        {"word": "represent", "trans": "表現する、描く"}
+      ],
+      "antonyms": [
+        {"word": "withhold", "trans": "（与えずに）抑える"},
+        {"word": "take", "trans": "取る"},
+        {"word": "receive", "trans": "受け取る"}
+      ],
+      "related": [
+        {"word": "rendering", "trans": "名詞：表現、演出、画像化"},
+        {"word": "rendition", "trans": "名詞：演奏、翻訳"}
+      ]
+    },
+    {
+      "number": 4464,
+      "word": "enlighten",
+      "pos": "動詞",
+      "meaning": "〜を啓蒙する、教える、知らせる",
+      "nuance": "暗闇に「光（light）」を当てるように、無知な状態の人に正しい知識や事実を与えて理解させることを指します。",
+      "example_sections": [
+        {
+          "title": "意味1：啓蒙する、理解させる",
+          "examples": [
+            {
+              "en": "Could you enlighten me on the current situation?",
+              "ja": "現在の状況について私に教えて（詳しく説明して）いただけませんか？",
+              "highlight": "enlighten"
+            },
+            {
+              "en": "Books can enlighten the minds of the youth.",
+              "ja": "本は若者の心を啓蒙（知識を与えて賢く）することができる。",
+              "highlight": "enlighten"
+            }
+          ]
+        }
+      ],
+      "etymology": "en (〜にする) + light (光) + en (〜にする) → 光を当てる",
+      "synonyms": [
+        {"word": "inform", "trans": "知らせる"},
+        {"word": "educate", "trans": "教育する"},
+        {"word": "illuminate", "trans": "照らす、解明する"}
+      ],
+      "antonyms": [
+        {"word": "confuse", "trans": "混乱させる"},
+        {"word": "deceive", "trans": "だます"},
+        {"word": "obscure", "trans": "曖昧にする"}
+      ],
+      "related": [
+        {"word": "enlightenment", "trans": "名詞：啓蒙、悟り"},
+        {"word": "enlightened", "trans": "形容詞：見識のある、悟った"}
+      ]
+    },
+    {
+      "number": 4465,
+      "word": "pile",
+      "pos": "名詞、動詞",
+      "meaning": "（積み重なった）山、積み重ねる",
+      "nuance": "整然と、あるいは無造作に「上に積み上げられたもの」を指します。仕事や借金などが溜まっている様子にも使われます。",
+      "example_sections": [
+        {
+          "title": "名詞：山、積み重なったもの",
+          "examples": [
+            {
+              "en": "There is a pile of dirty laundry on the floor.",
+              "ja": "床に汚れた洗濯物の山がある。",
+              "highlight": "pile"
+            },
+            {
+              "en": "I have a huge pile of work to do this weekend.",
+              "ja": "今週末、やらなければならない仕事が山ほどある。",
+              "highlight": "pile"
+            }
+          ]
+        },
+        {
+          "title": "動詞：積み上げる、押し寄せる",
+          "examples": [
+            {
+              "en": "She piled the books neatly on the desk.",
+              "ja": "彼女は机の上に本をきちんと積み上げた。",
+              "highlight": "piled"
+            },
+            {
+              "en": "The passengers piled into the train.",
+              "ja": "乗客たちは列車の中に（どっと）なだれ込んだ。",
+              "highlight": "piled"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン後 pila (石の柱/積み石)",
+      "synonyms": [
+        {"word": "heap", "trans": "山、積み重ね"},
+        {"word": "stack", "trans": "（整然とした）積み重ね"},
+        {"word": "accumulate", "trans": "蓄積する"}
+      ],
+      "antonyms": [
+        {"word": "scatter", "trans": "まき散らす"},
+        {"word": "disperse", "trans": "分散させる"},
+        {"word": "distribute", "trans": "分配する"}
+      ],
+      "related": [
+        {"word": "piledriver", "trans": "名詞：杭打ち機"}
+      ]
+    },
+    {
+      "number": 4467,
+      "word": "startle",
+      "pos": "動詞",
+      "meaning": "〜を驚かせる、びっくりさせる",
+      "nuance": "不意の出来事で、思わずビクッとしたり飛び上がったりするような「一時的な驚き」を与えます。恐怖というよりは「不意を突かれる」ニュアンスです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The loud noise startled the sleeping cat.",
+              "ja": "大きな音が寝ていた猫を驚かせた。",
+              "highlight": "startled"
+            },
+            {
+              "en": "Sorry, I didn't mean to startle you.",
+              "ja": "ごめんなさい、あなたを驚かせるつもりはなかったんです。",
+              "highlight": "startle"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 steartlian (飛び跳ねる) → start（動き出す）の強調形",
+      "synonyms": [
+        {"word": "surprise", "trans": "驚かせる"},
+        {"word": "frighten", "trans": "怖がらせる"},
+        {"word": "shock", "trans": "衝撃を与える"}
+      ],
+      "antonyms": [
+        {"word": "calm", "trans": "落ち着かせる"},
+        {"word": "soothe", "trans": "なだめる"},
+        {"word": "reassure", "trans": "安心させる"}
+      ],
+      "related": [
+        {"word": "startling", "trans": "形容詞：驚くべき"},
+        {"word": "start", "trans": "動詞：驚いて飛び上がる（名詞：驚き）"}
+      ]
+    },
+    {
+      "number": 4470,
+      "word": "pulse",
+      "pos": "名詞、動詞",
+      "meaning": "脈拍、鼓動、パルス（振動）、脈打つ",
+      "nuance": "心臓の鼓動による血液の拍動を指します。比喩的に音楽の「リズム」や、世論の「動向（feel the pulse）」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "名詞：脈拍、拍動",
+          "examples": [
+            {
+              "en": "The doctor checked the patient's pulse.",
+              "ja": "医者は患者の脈拍を測った。",
+              "highlight": "pulse"
+            },
+            {
+              "en": "Music with a strong pulse is good for dancing.",
+              "ja": "強い拍動（リズム）のある音楽はダンスに向いている。",
+              "highlight": "pulse"
+            }
+          ]
+        },
+        {
+          "title": "動詞：脈打つ、振動する",
+          "examples": [
+            {
+              "en": "The lights were pulsing to the beat of the music.",
+              "ja": "ライトが音楽のビートに合わせて点滅（振動）していた。",
+              "highlight": "pulsing"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 pulsus (打つこと)",
+      "synonyms": [
+        {"word": "beat", "trans": "拍動、打つ"},
+        {"word": "rhythm", "trans": "リズム"},
+        {"word": "vibration", "trans": "振動"}
+      ],
+      "antonyms": [
+        {"word": "stillness", "trans": "静止"},
+        {"word": "silence", "trans": "静寂"},
+        {"word": "stagnation", "trans": "停滞"}
+      ],
+      "related": [
+        {"word": "pulsate", "trans": "動詞：脈打つ、わくわくする"},
+        {"word": "impulse", "trans": "名詞：衝動"}
+      ]
+    }
+  ]
+}
