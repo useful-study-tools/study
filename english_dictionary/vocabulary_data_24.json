@@ -1,0 +1,550 @@
+{
+  "words": [
+    {
+      "number": 617,
+      "word": "inadequate",
+      "pos": "形容詞",
+      "meaning": "不適切な、不十分な、力不足の",
+      "nuance": "量や質が、ある目的を果たすために「足りない」状態を指します。能力が不足していて自信がないという心理的な状態にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The existing facilities are inadequate for the growing population.",
+              "ja": "既存の施設は、増加する人口に対して不十分である。",
+              "highlight": "inadequate"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (否定) + adequate (十分な)",
+      "synonyms": [
+        {"word": "insufficient", "trans": "不十分な"},
+        {"word": "deficient", "trans": "欠乏している"},
+        {"word": "scarce", "trans": "乏しい"}
+      ],
+      "antonyms": [
+        {"word": "adequate", "trans": "十分な"},
+        {"word": "sufficient", "trans": "十分な"},
+        {"word": "ample", "trans": "広い、十分すぎるほどの"}
+      ],
+      "related": [
+        {"word": "adequacy", "trans": "名詞：妥当性、十分なこと"}
+      ]
+    },
+    {
+      "number": "617-2",
+      "word": "adequate",
+      "pos": "形容詞",
+      "meaning": "（目的のために）十分な、適切な、まずまずの",
+      "nuance": "「最高」ではないが、必要とされる基準を「満たしている」というニュアンスです。「ギリギリ足りている」という響きで使われることもあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The solution was adequate for our immediate needs.",
+              "ja": "その解決策は、私たちの当面のニーズには十分（適切）だった。",
+              "highlight": "adequate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad (〜へ) + aequus (等しい) <br>→ 等しくなる、基準に届く",
+      "synonyms": [
+        {"word": "sufficient", "trans": "十分な"},
+        {"word": "enough", "trans": "十分な"},
+        {"word": "satisfactory", "trans": "満足のいく"}
+      ],
+      "antonyms": [
+        {"word": "inadequate", "trans": "不十分な"},
+        {"word": "unsuitable", "trans": "不適当な"}
+      ],
+      "related": [
+        {"word": "equal", "trans": "形容詞：等しい"}
+      ]
+    },
+    {
+      "number": 618,
+      "word": "scrounge",
+      "pos": "動詞",
+      "meaning": "（あちこち探し回って）手に入れる、あさる、ねだる",
+      "nuance": "自分では買わずに、人から借りたり、捨ててあるものを探したりして、なんとか必要なものを「工面する」という少し泥臭いニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He managed to scrounge some spare change from his friends.",
+              "ja": "彼は友人たちからなんとか小銭をかき集めた（ねだった）。",
+              "highlight": "scrounge"
+            }
+          ]
+        }
+      ],
+      "etymology": "方言の scrunge (盗む、くすねる) の変形",
+      "synonyms": [
+        {"word": "forage", "trans": "探し回る、あさる"},
+        {"word": "beg", "trans": "ねだる"},
+        {"word": "hunt", "trans": "探す"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 619,
+      "word": "oblige",
+      "pos": "動詞",
+      "meaning": "〜に義務づける、恩義を施す、願いを聞き入れる",
+      "nuance": "法や規則で強制する意味と、「恩を売る／親切にする」という意味があります。受身形の「be obliged to」で「〜せざるを得ない」または「〜に感謝している」となります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I am much obliged to you for your help.",
+              "ja": "助けていただき、大変感謝しております（恩義を感じています）。",
+              "highlight": "obliged"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ob (〜に対して) + ligare (結ぶ) <br>→ 縛り付ける",
+      "synonyms": [
+        {"word": "force", "trans": "強制する"},
+        {"word": "compel", "trans": "強いる"},
+        {"word": "assist", "trans": "助ける"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "obligation", "trans": "名詞：義務"},
+        {"word": "ligament", "trans": "名詞：靭帯（結びつけるもの）"}
+      ]
+    },
+    {
+      "number": 620,
+      "word": "honor",
+      "pos": "名詞、動詞",
+      "meaning": "名誉、光栄、〜を尊敬する、（約束などを）守る",
+      "nuance": "高い評価や敬意を指します。動詞では、賞賛するだけでなく「契約や約束を果たす（honor the contract）」という意味でビジネスでも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It is a great honor to meet you.",
+              "ja": "お会いできて大変光栄です。",
+              "highlight": "honor"
+            },
+            {
+              "en": "We must honor the terms of the agreement.",
+              "ja": "私たちは合意の条件を守らなければならない。",
+              "highlight": "honor"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 honos (尊厳、評判)",
+      "synonyms": [
+        {"word": "prestige", "trans": "威信"},
+        {"word": "respect", "trans": "尊敬"},
+        {"word": "fulfill", "trans": "果たす"}
+      ],
+      "antonyms": [
+        {"word": "dishonor", "trans": "不名誉"},
+        {"word": "disgrace", "trans": "恥"},
+        {"word": "insult", "trans": "侮辱"}
+      ],
+      "related": [
+        {"word": "honorable", "trans": "形容詞：尊敬すべき"}
+      ]
+    },
+    {
+      "number": 621,
+      "word": "humiliate",
+      "pos": "動詞",
+      "meaning": "〜に恥をかかせる、屈辱を与える",
+      "nuance": "他人の前でプライドを傷つけ、「惨めな思いをさせる」という強い言葉です。語源の「低くする」という通り、相手を地面に這いつくばらせるようなイメージです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was humiliated by the public criticism.",
+              "ja": "彼は公衆の面前での批判により、屈辱を味わわされた。",
+              "highlight": "humiliated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 humus (地面) <br>→ 地面のように低くする",
+      "synonyms": [
+        {"word": "embarrass", "trans": "恥ずかしい思いをさせる"},
+        {"word": "shame", "trans": "恥をかかせる"},
+        {"word": "degrade", "trans": "地位を下げる"}
+      ],
+      "antonyms": [
+        {"word": "exalt", "trans": "高める、褒め称える"},
+        {"word": "honor", "trans": "名誉を与える"}
+      ],
+      "related": [
+        {"word": "humble", "trans": "形容詞：謙虚な、卑しい"},
+        {"word": "human", "trans": "名詞：人間（土から作られたもの）"}
+      ]
+    },
+    {
+      "number": "621-2",
+      "word": "humiliation",
+      "pos": "名詞",
+      "meaning": "屈辱、恥、面目丸つぶれ",
+      "nuance": "プライドが深く傷つき、自分がひどく劣っていると感じさせられる体験や感情そのものを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She couldn't bear the humiliation of being fired.",
+              "ja": "彼女は解雇されるという屈辱に耐えられなかった。",
+              "highlight": "humiliation"
+            }
+          ]
+        }
+      ],
+      "etymology": "humiliateの名詞形",
+      "synonyms": [
+        {"word": "shame", "trans": "恥"},
+        {"word": "disgrace", "trans": "恥辱"},
+        {"word": "indignity", "trans": "冷遇、侮辱"}
+      ],
+      "antonyms": [
+        {"word": "pride", "trans": "誇り"},
+        {"word": "glory", "trans": "栄光"}
+      ],
+      "related": [
+        {"word": "humiliate", "trans": "動詞：屈辱を与える"}
+      ]
+    },
+    {
+      "number": "621-3",
+      "word": "disgrace",
+      "pos": "名詞、動詞",
+      "meaning": "不名誉、恥、〜の泥を塗る",
+      "nuance": "「恩寵（grace）から外れる（dis）」ことが原義で、社会的な地位や信頼を失うような、大きな不名誉を指します。家族の恥（disgrace to the family）などの表現で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His behavior was a disgrace to the profession.",
+              "ja": "彼の行動はその職業に対する恥（不名誉）であった。",
+              "highlight": "disgrace"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (離れて) + grace (優雅、恩寵)",
+      "synonyms": [
+        {"word": "shame", "trans": "恥"},
+        {"word": "dishonor", "trans": "不名誉"},
+        {"word": "scandal", "trans": "醜聞"}
+      ],
+      "antonyms": [
+        {"word": "honor", "trans": "名誉"},
+        {"word": "respect", "trans": "尊敬"}
+      ],
+      "related": [
+        {"word": "grace", "trans": "名詞：優雅、上品"}
+      ]
+    },
+    {
+      "number": 622,
+      "word": "purchase",
+      "pos": "動詞、名詞",
+      "meaning": "〜を購入する、購入（品）",
+      "nuance": "buyよりもフォーマルな言葉です。日常的な買い物だけでなく、企業による買収や、高価なものの購入に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Tickets can be purchased online.",
+              "ja": "チケットはオンラインで購入できます。",
+              "highlight": "purchased"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 pour (〜のために) + chacier (追い求める/狩る) <br>→ 努力して手に入れる",
+      "synonyms": [
+        {"word": "buy", "trans": "買う"},
+        {"word": "acquire", "trans": "手に入れる、獲得する"}
+      ],
+      "antonyms": [
+        {"word": "sell", "trans": "売る"},
+        {"word": "vend", "trans": "売る"}
+      ],
+      "related": [
+        {"word": "chase", "trans": "動詞：追いかける"}
+      ]
+    },
+    {
+      "number": 623,
+      "word": "vend",
+      "pos": "動詞",
+      "meaning": "（商品を）売る、行商する",
+      "nuance": "特に自動販売機（vending machine）や、路上での販売など、比較的小規模な「売り歩き・販売」を指します。日常会話ではあまり動詞単体では使われず、名詞関連で目にすることが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He made a living vending flowers on the street.",
+              "ja": "彼は通りで花を売って生計を立てていた。",
+              "highlight": "vending"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vendere (売る) <br>→ venum (売り物) + dare (与える)",
+      "synonyms": [
+        {"word": "sell", "trans": "売る"},
+        {"word": "peddle", "trans": "行商する"},
+        {"word": "retail", "trans": "小売する"}
+      ],
+      "antonyms": [
+        {"word": "buy", "trans": "買う"},
+        {"word": "purchase", "trans": "購入する"}
+      ],
+      "related": [
+        {"word": "vender / vendor", "trans": "名詞：物売り、業者"},
+        {"word": "vending machine", "trans": "名詞：自動販売機"}
+      ]
+    },
+    {
+      "number": 624,
+      "word": "competence",
+      "pos": "名詞",
+      "meaning": "能力、適性、技能",
+      "nuance": "ある仕事や課題をこなすのに十分な、標準的な「実力」があることを指します。天才的な才能というより、プロとして通用する「有能さ」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The job requires a high level of technical competence.",
+              "ja": "その仕事には、高いレベルの技術的能力が必要だ。",
+              "highlight": "competence"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 com (共に) + petere (求める) <br>→ 競い合えるだけの力がある",
+      "synonyms": [
+        {"word": "ability", "trans": "能力"},
+        {"word": "capability", "trans": "素質、能力"},
+        {"word": "proficiency", "trans": "熟達"}
+      ],
+      "antonyms": [
+        {"word": "incompetence", "trans": "無能"},
+        {"word": "inability", "trans": "無力"}
+      ],
+      "related": [
+        {"word": "compete", "trans": "動詞：競争する"},
+        {"word": "competent", "trans": "形容詞：有能な"}
+      ]
+    },
+    {
+      "number": "624-2",
+      "word": "competent",
+      "pos": "形容詞",
+      "meaning": "有能な、適任の、満足のいく",
+      "nuance": "期待された仕事をしっかりとこなせる「有能さ」がある状態です。法的な文脈では「（裁判などで）証言能力がある」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She is a highly competent lawyer.",
+              "ja": "彼女は非常に有能な弁護士だ。",
+              "highlight": "competent"
+            }
+          ]
+        }
+      ],
+      "etymology": "competenceの形容詞形",
+      "synonyms": [
+        {"word": "capable", "trans": "能力がある"},
+        {"word": "skilled", "trans": "熟練した"},
+        {"word": "efficient", "trans": "効率的な、有能な"}
+      ],
+      "antonyms": [
+        {"word": "incompetent", "trans": "無能な"},
+        {"word": "unskilled", "trans": "未熟な"}
+      ],
+      "related": [
+        {"word": "competition", "trans": "名詞：競争"}
+      ]
+    },
+    {
+      "number": 625,
+      "word": "jeopardize",
+      "pos": "動詞",
+      "meaning": "〜を危うくする、危険にさらす",
+      "nuance": "不注意な行動などによって、成功の可能性や安全な状態、関係などを「台無しにするリスクにさらす」というニュアンスです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "One wrong move could jeopardize the whole project.",
+              "ja": "一つの失策がプロジェクト全体を危うくする可能性がある。",
+              "highlight": "jeopardize"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 jeu parti (五分五分のゲーム、分かれたゲーム) <br>→ 勝ち負けが危うい状態",
+      "synonyms": [
+        {"word": "endanger", "trans": "危険にさらす"},
+        {"word": "threaten", "trans": "脅かす"},
+        {"word": "compromise", "trans": "（評判などを）危うくする"}
+      ],
+      "antonyms": [
+        {"word": "protect", "trans": "保護する"},
+        {"word": "safeguard", "trans": "守る"},
+        {"word": "preserve", "trans": "維持する"}
+      ],
+      "related": [
+        {"word": "jeopardy", "trans": "名詞：危険"}
+      ]
+    },
+    {
+      "number": 626,
+      "word": "obligatory",
+      "pos": "形容詞",
+      "meaning": "義務的な、強制的な、必須の",
+      "nuance": "法律、規則、あるいは社会的な習慣として「しなければならない」ことを指します。また、皮肉っぽく「お決まりの／義務的にやっている」という意味で使われることもあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Attendance at the meeting is obligatory.",
+              "ja": "会議への出席は義務（必須）である。",
+              "highlight": "obligatory"
+            }
+          ]
+        }
+      ],
+      "etymology": "obligeの形容詞形",
+      "synonyms": [
+        {"word": "compulsory", "trans": "強制的な"},
+        {"word": "mandatory", "trans": "義務的な"},
+        {"word": "required", "trans": "必須の"}
+      ],
+      "antonyms": [
+        {"word": "optional", "trans": "任意の"},
+        {"word": "voluntary", "trans": "自発的な"}
+      ],
+      "related": [
+        {"word": "oblige", "trans": "動詞：義務づける"}
+      ]
+    },
+    {
+      "number": 627,
+      "word": "obsess",
+      "pos": "動詞",
+      "meaning": "（考えなどが人に）取りつく、〜を悩ませる、頭から離れない",
+      "nuance": "何かが頭にこびりついて離れず、他のことが考えられない状態にすることを指します。通常は受身形「be obsessed with」で「〜に夢中である、取り憑かれている」と使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is obsessed with video games.",
+              "ja": "彼はビデオゲームに夢中（取り憑かれている）だ。",
+              "highlight": "obsessed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ob (〜に対して) + sedere (座る) <br>→ 前に陣取って動かない（包囲する）",
+      "synonyms": [
+        {"word": "preoccupy", "trans": "心を奪う"},
+        {"word": "haunt", "trans": "つきまとう"},
+        {"word": "fixate", "trans": "固執させる"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "obsession", "trans": "名詞：強迫観念、執着"},
+        {"word": "sedentary", "trans": "形容詞：座りがちな"}
+      ]
+    },
+    {
+      "number": 628,
+      "word": "obsolete",
+      "pos": "形容詞",
+      "meaning": "時代遅れの、廃れた、もはや使われていない",
+      "nuance": "単に古いだけでなく、新しいものに取って代わられて「役に立たなくなった」状態を指します。技術や機械、法律、言葉などについて使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Gas lamps became obsolete after the invention of the light bulb.",
+              "ja": "電球の発明後、ガス灯は時代遅れ（廃れたもの）になった。",
+              "highlight": "obsolete"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ob (離れて) + solere (慣れる、使われる) <br>→ 使い古されて離れていく",
+      "synonyms": [
+        {"word": "outdated", "trans": "時代遅れの"},
+        {"word": "outmoded", "trans": "流行遅れの"},
+        {"word": "archaic", "trans": "古風な、古語の"}
+      ],
+      "antonyms": [
+        {"word": "modern", "trans": "現代的な"},
+        {"word": "current", "trans": "現在の"},
+        {"word": "state-of-the-art", "trans": "最新式の"}
+      ],
+      "related": []
+    },
+    {
+      "number": "628-2",
+      "word": "obstinate",
+      "pos": "形容詞",
+      "meaning": "頑固な、意固地な、（病気などが）治りにくい",
+      "nuance": "他人の意見を聞き入れようとせず、自分の考えややり方にしつこく固執する様子を指します。ネガティブな「わがまま」に近い頑固さです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is too obstinate to admit his mistake.",
+              "ja": "彼はあまりに頑固すぎて、自分の間違いを認めようとしない。",
+              "highlight": "obstinate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ob (〜に対して) + stare (立つ) <br>→ 前に立ちはだかって動かない",
+      "synonyms": [
+        {"word": "stubborn", "trans": "頑固な"},
+        {"word": "headstrong", "trans": "強情な"},
+        {"word": "unyielding", "trans": "屈しない"}
+      ],
+      "antonyms": [
+        {"word": "flexible", "trans": "柔軟な"},
+        {"word": "compliant", "trans": "従順な"},
+        {"word": "yielding", "trans": "譲歩する"}
+      ],
+      "related": [
+        {"word": "stand", "trans": "動詞：立つ"},
+        {"word": "obstacle", "trans": "名詞：障害物（立ちはだかるもの）"}
+      ]
+    }
+  ]
+}
