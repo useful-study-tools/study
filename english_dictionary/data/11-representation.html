@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 representation</title>
+    <style>
+        :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); max-width: 700px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        
+        /* ナビゲーション */
+        .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
+        .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
+        .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
+        .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
+        
+        /* ヘッダー部分 */
+        .back-link { display: inline-block; margin-bottom: 25px; text-decoration: none; color: var(--primary-color); font-weight: bold; }
+        .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
+        .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
+        .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
+        .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
+
+        /* コンテンツ部分 */
+        .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
+        .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
+        
+        .meaning-jp { 
+            font-size: 1.5rem; 
+            font-weight: bold; 
+            display: block;
+            margin-bottom: 15px; 
+            padding: 10px 0;
+            color: var(--text-main);
+            background: transparent;
+        }
+        .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
+
+        /* 例文 */
+        .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
+        .en { display: block; font-weight: 500; color: #444; }
+        .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
+
+        /* リスト */
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
+        .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
+        .list-unit { margin-bottom: 4px; border-bottom: 1px solid #eee; padding-bottom: 2px; }
+        .list-unit:last-child { border-bottom: none; }
+        .word-small { font-weight: bold; color: #444; }
+        .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
+
+        @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
+    </style>
+</head>
+<body>
+
+    <a href="../index.html" class="back-link">← 一覧へ戻る</a>
+
+    <div class="nav-buttons">
+        <a href="10-3-awfully.html" class="nav-button">← 前の単語</a>
+        <a href="11-2-represent.html" class="nav-button">次の単語 →</a>
+    </div>
+
+    <div class="card">
+        <div class="word-header">
+            <span class="word-number"># 11</span>
+            <h1 class="word-title">representation <span class="pos-tag">名詞</span></h1>
+        </div>
+
+        <div class="section-title">主な意味</div>
+        <div class="meaning-jp">表現、描写、代表、代理</div>
+        <div class="nuance-box">
+            <strong>ニュアンス:</strong> 何かを別の形で「表したもの（画像や言葉など）」や、特定の集団を「代表・代弁すること」を指します。政治における「代議制」や、メディアにおける「特定の属性の描かれ方」という文脈でよく使われます。
+        </div>
+
+        <div class="section-title">例文（表現・描写）</div>
+        <div class="example-item">
+            <span class="en">The painting is a realistic <strong>representation</strong> of a rural landscape.</span>
+            <span class="ja">その絵画は、田舎の風景を現実的に描写したものだ。</span>
+        </div>
+        <div class="section-title">例文（代表・代弁）</div>
+        <div class="example-item">
+            <span class="en">Taxation without <strong>representation</strong> was a key issue in the American Revolution.</span>
+            <span class="ja">「代表なくして課税なし（代表権のない課税）」はアメリカ独立戦争における主要な問題だった。</span>
+        </div>
+
+
+        <div class="info-grid">
+            <div class="info-item">
+                <span class="info-label">語源</span>
+                re (再び) + present (提示する) + ation (名詞語尾) <br>→ 目の前に再び提示すること
+            </div>
+            <div class="info-item">
+                <span class="info-label">類義語 (Synonyms)</span>
+                <div class="list-unit"><span class="word-small">depiction</span><span class="trans-small">(描写)</span></div>
+                <div class="list-unit"><span class="word-small">portrayal</span><span class="trans-small">(肖像、表現)</span></div>
+                <div class="list-unit"><span class="word-small">delegation</span><span class="trans-small">(代表派遣)</span></div>
+
+            </div>
+            <div class="info-item">
+                <span class="info-label">対義語 (Antonyms)</span>
+                <div class="list-unit"><span class="word-small">original</span><span class="trans-small">(実物)</span></div>
+                <div class="list-unit"><span class="word-small">misinterpretation</span><span class="trans-small">(誤解、誤った表現)</span></div>
+                <div class="list-unit"><span class="word-small">absence</span><span class="trans-small">(不在、欠如)</span></div>
+
+            </div>
+            <div class="info-item">
+                <span class="info-label">関連語</span>
+                <div class="list-unit"><span class="word-small">represent</span><span class="trans-small">(動詞：代表する)</span></div>
+                <div class="list-unit"><span class="word-small">representative</span><span class="trans-small">(名詞/形容詞：代表者/代表的な)</span></div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

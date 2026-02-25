@@ -1,1 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Dictionary</title>
+    <style>
+        :root { --primary-color: #007bff; --chapter-color: #6c757d; --bg-color: #f4f7f9; }
+        body { font-family: sans-serif; background-color: var(--bg-color); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        h1 { color: var(--primary-color); text-align: center; border-bottom: 3px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 15px; }
+        
+        /* 演習ページへのボタンリンク */
+        .exercise-link {
+            display: block;
+            width: fit-content;
+            margin: 0 auto 30px;
+            padding: 12px 40px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: 0.3s;
+            border: none;
+        }
+        .exercise-link:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
 
+        /* 目次 (TOC) 改良 */
+        .toc { background: white; padding: 20px; border-radius: 10px; margin-bottom: 25px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .toc-group { margin-bottom: 15px; }
+        .toc-group-title { font-size: 0.9rem; font-weight: bold; color: #333; margin-bottom: 8px; border-left: 4px solid var(--primary-color); padding-left: 10px; }
+        .toc-links { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0; }
+        .toc-links a { text-decoration: none; color: var(--primary-color); font-size: 0.8rem; background: #f0f4f8; padding: 5px 10px; border-radius: 4px; transition: 0.2s; border: 1px solid #dce3e9; }
+        .toc-links a:hover { background: var(--primary-color); color: white; border-color: var(--primary-color); }
+
+        .search-box { width: 100%; padding: 15px; font-size: 18px; border: 2px solid #ddd; border-radius: 10px; margin-bottom: 20px; box-sizing: border-box; outline: none; }
+        .search-box:focus { border-color: var(--primary-color); }
+        
+        .word-list { list-style: none; padding: 0; }
+        .chapter-header { background: var(--chapter-color); color: white; padding: 10px 15px; margin: 40px 0 12px 0; border-radius: 5px; font-weight: bold; scroll-margin-top: 20px; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 12px 20px; text-decoration: none; color: #333; align-items: center; }
+        .word-id { font-weight: bold; color: var(--primary-color); min-width: 75px; font-family: monospace; }
+        .word-name { font-size: 1.1em; font-weight: 500; }
+        .word-meaning { font-size: 0.78em; color: #888; margin-left: 12px; font-weight: normal; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 250px; }
+        
+        .sub-word { margin-left: 30px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+        .sub-word .word-id { color: #6a994e; }
+        
+        .word-item.hidden { display: none; }
+        .loading-indicator { text-align: center; padding: 20px; color: var(--chapter-color); }
+
+        /* Back to Top Button */
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: var(--primary-color); color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); display: none;
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>英単語辞書 データベース</h1>
+
+    <a href="exercise.html" class="exercise-link">📝 演習（クイズ）を始める</a>
+
+    <nav class="toc">
+        <div class="toc-group">
+            <div class="toc-group-title">速読英単語</div>
+            <ul class="toc-links">
+                <li><a href="#chapter-1">第1章：人間と動物の違い</a></li>
+                <li><a href="#chapter-341">第13章：暴力はなぜ起きる</a></li>
+                <li><a href="#chapter-369">第14章：謙虚さが教えてくれること⑴</a></li>
+                <li><a href="#chapter-403">第15章：謙虚さが教えてくれること⑵</a></li>
+                <li><a href="#chapter-424">第16章：謙虚さが教えてくれること⑶</a></li>
+                <li><a href="#chapter-441">第17章：人種差別を排除するには⑴</a></li>
+                <li><a href="#chapter-473">第18章：人種差別を排除するには⑵</a></li>
+                <li><a href="#chapter-502">第19章：受刑者に対する実験の是非⑴</a></li>
+                <li><a href="#chapter-523">第20章：受刑者に対する実験の是非⑵</a></li>
+                <li><a href="#chapter-558">第21章：ホーソン効果</a></li>
+                <li><a href="#chapter-579">第22章：ジャンクフードから見る経済格差⑴</a></li>
+                <li><a href="#chapter-594">第23章：ジャンクフードから見る経済格差⑵</a></li>
+                <li><a href="#chapter-617">第24章：ジャンクフードから見る経済格差⑶</a></li>
+                <li><a href="#chapter-629">第25章：ジャンクフードから見る経済格差⑷</a></li>
+                <li><a href="#chapter-646">第26章：適切な塩の摂取量とは⑴</a></li>
+                <li><a href="#chapter-671">第27章：適切な塩の摂取量とは⑵</a></li>
+                <li><a href="#chapter-700">第28章：健康によい運動量の本当の目安⑴</a></li>
+                <li><a href="#chapter-732">第29章：健康によい運動量の本当の目安⑵</a></li>
+                <li><a href="#chapter-743">第30章：健康によい運動量の本当の目安⑶</a></li>
+                <li><a href="#chapter-763">第31章：プラスチックが健康に与える影響⑴</a></li>
+                <li><a href="#chapter-790">第32章：プラスチックが健康に与える影響⑵</a></li>
+                <li><a href="#chapter-826">第33章：プラスチックが健康に与える影響⑶</a></li>
+            </ul>
+        </div>
+        <div class="toc-group">
+            <div class="toc-group-title">東進上級英単語1000</div>
+            <ul class="toc-links">
+                <li><a href="#chapter-3974">ステージ1</a></li>
+                <li><a href="#chapter-4074">ステージ2</a></li>
+                <li><a href="#chapter-4174">ステージ3</a></li>
+                <li><a href="#chapter-4274">ステージ4</a></li>
+                <li><a href="#chapter-4374">ステージ5</a></li>
+                <li><a href="#chapter-4474">ステージ6</a></li>
+                <li><a href="#chapter-4574">ステージ7</a></li>
+                <li><a href="#chapter-4674">ステージ8</a></li>
+                <li><a href="#chapter-4774">ステージ9</a></li>
+                <li><a href="#chapter-4874">ステージ10</a></li>
+            </ul>
+        </div>
+        <div class="toc-group">
+            <div class="toc-group-title">LEAP</div>
+            <ul class="toc-links">
+                <li><a href="#chapter-10001">1〜100</a></li>
+                <li><a href="#chapter-10101">101〜200</a></li>
+                <li><a href="#chapter-10201">201〜300</a></li>
+                <li><a href="#chapter-10301">301〜400</a></li>
+                <li><a href="#chapter-10401">401〜500</a></li>
+                <li><a href="#chapter-10501">501〜600</a></li>
+                <li><a href="#chapter-10601">601〜700</a></li>
+                <li><a href="#chapter-10701">701〜800</a></li>
+                <li><a href="#chapter-10801">801〜900</a></li>
+                <li><a href="#chapter-10901">901〜1000</a></li>
+                <li><a href="#chapter-11001">1001〜1100</a></li>
+                <li><a href="#chapter-11101">1101〜1200</a></li>
+                <li><a href="#chapter-11201">1201〜1300</a></li>
+                <li><a href="#chapter-11301">1301〜1400</a></li>
+                <li><a href="#chapter-11401">1401〜1500</a></li>
+                <li><a href="#chapter-11501">1501〜1600</a></li>
+                <li><a href="#chapter-11601">1601〜1700</a></li>
+                <li><a href="#chapter-11701">1701〜1800</a></li>
+                <li><a href="#chapter-11801">1801〜1900</a></li>
+                <li><a href="#chapter-11901">1901〜1935</a></li>
+            </ul>
+        </div>
+    </nav>
+    <input type="text" id="searchInput" class="search-box" placeholder="単語・番号で検索..." onkeyup="filterList()">
+    <ul class="word-list" id="wordList">
+        <li class="chapter-header" id="chapter-1">【速読英単語】第1章：人間と動物の違い</li>
+        <li class="word-item"><a href="data/1-complexity.html"><span class="word-id">1</span><span class="word-name">complexity</span><span class="word-meaning">複雑さ、複雑なもの</span></a></li>
+        <li class="word-item sub-word"><a href="data/1-2-complex.html"><span class="word-id">1-2</span><span class="word-name">complex</span><span class="word-meaning">複雑な、複合体、コンプレックス</span></a></li>
+        <li class="word-item"><a href="data/2-weave.html"><span class="word-id">2</span><span class="word-name">weave</span><span class="word-meaning">（布を）織る、編む、（物語などを）作り上げる</span></a></li>
+        <li class="word-item sub-word"><a href="data/2-2-spin.html"><span class="word-id">2-2</span><span class="word-name">spin</span><span class="word-meaning">紡ぐ、回転させる、話をでっち上げる</span></a></li>
+        <li class="word-item"><a href="data/3-transmit.html"><span class="word-id">3</span><span class="word-name">transmit</span><span class="word-meaning">送る、伝える、放送する、（病気を）感染させる</span></a></li>
+        <li class="word-item sub-word"><a href="data/3-2-transmission.html"><span class="word-id">3-2</span><span class="word-name">transmission</span><span class="word-meaning">伝達、送信、放送、変速機（トランスミッション）</span></a></li>
+        <li class="word-item"><a href="data/4-diffuse.html"><span class="word-id">4</span><span class="word-name">diffuse</span><span class="word-meaning">普及させる、散らす、広がる、拡散した</span></a></li>
+        <li class="word-item"><a href="data/5-disperse.html"><span class="word-id">5</span><span class="word-name">disperse</span><span class="word-meaning">分散させる、追い散らす、解散する</span></a></li>
+        <li class="word-item"><a href="data/6-nectar.html"><span class="word-id">6</span><span class="word-name">nectar</span><span class="word-meaning">（花の）蜜、甘い飲料、（ギリシャ神話の）神酒</span></a></li>
+        <li class="word-item"><a href="data/7-colony.html"><span class="word-id">7</span><span class="word-name">colony</span><span class="word-meaning">植民地、居留地、（生物の）コロニー・群生</span></a></li>
+        <li class="word-item sub-word"><a href="data/7-2-colonial.html"><span class="word-id">7-2</span><span class="word-name">colonial</span><span class="word-meaning">植民地の、植民地時代の、コロニアル様式の</span></a></li>
+        <li class="word-item"><a href="data/8-remarkable.html"><span class="word-id">8</span><span class="word-name">remarkable</span><span class="word-meaning">注目すべき、並外れた、驚くべき</span></a></li>
+        <li class="word-item sub-word"><a href="data/8-2-remarkably.html"><span class="word-id">8-2</span><span class="word-name">remarkably</span><span class="word-meaning">驚くほど、非常に、目立って</span></a></li>
+        <li class="word-item"><a href="data/9-awesome.html"><span class="word-id">9</span><span class="word-name">awesome</span><span class="word-meaning">素晴らしい、最高の、畏敬の念を抱かせる</span></a></li>
+        <li class="word-item"><a href="data/10-awe.html"><span class="word-id">10</span><span class="word-name">awe</span><span class="word-meaning">畏敬、畏怖、強い感銘</span></a></li>
+        <li class="word-item sub-word"><a href="data/10-2-awful.html"><span class="word-id">10-2</span><span class="word-name">awful</span><span class="word-meaning">ひどい、不快な、恐ろしい</span></a></li>
+        <li class="word-item sub-word"><a href="data/10-3-awfully.html"><span class="word-id">10-3</span><span class="word-name">awfully</span><span class="word-meaning">非常に、大変、ひどく</span></a></li>
+        <li class="word-item"><a href="data/11-representation.html"><span class="word-id">11</span><span class="word-name">representation</span><span class="word-meaning">表現、描写、代表、代理</span></a></li>
+        <li class="word-item sub-word"><a href="data/11-2-represent.html"><span class="word-id">11-2</span><span class="word-name">represent</span><span class="word-meaning">代表する、表す、象徴する、描写する</span></a></li>
+    </ul>
+    <div class="loading-indicator" id="loadingIndicator">スクロールして読み込み...</div>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    const wordList = document.getElementById('wordList');
+    const allItems = Array.from(wordList.children).filter(item => item.classList.contains('word-item'));
+    const backToTopBtn = document.getElementById('backToTop');
+    const margin = 1200;
+
+    function checkVisibleItems() {
+        const triggerLimit = window.innerHeight + window.scrollY + margin;
+        let hasHidden = false;
+        for (let item of allItems) {
+            if (item.classList.contains('hidden')) {
+                if (item.offsetTop < triggerLimit) {
+                    item.classList.remove('hidden');
+                } else {
+                    hasHidden = true;
+                    break;
+                }
+            }
+        }
+        document.getElementById('loadingIndicator').style.display = hasHidden ? 'block' : 'none';
+        backToTopBtn.style.display = window.scrollY > 300 ? 'flex' : 'none';
+    }
+
+    function initializeLazyLoad() {
+        allItems.forEach(item => item.classList.add('hidden'));
+        checkVisibleItems();
+    }
+
+    function loadChapterAndScroll(event, chapterId) {
+        event.preventDefault();
+        const chapterHeader = document.getElementById(chapterId);
+        if (!chapterHeader) return;
+        let nextEl = chapterHeader.nextElementSibling;
+        for (let i = 0; i < 40 && nextEl; i++) {
+            if (nextEl.classList.contains('word-item')) nextEl.classList.remove('hidden');
+            nextEl = nextEl.nextElementSibling;
+        }
+        chapterHeader.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setTimeout(checkVisibleItems, 100);
+    }
+
+    window.addEventListener('scroll', () => window.requestAnimationFrame(checkVisibleItems));
+    backToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.toc-links a').forEach(link => {
+            link.addEventListener('click', (e) => loadChapterAndScroll(e, link.getAttribute('href').substring(1)));
+        });
+        initializeLazyLoad();
+    });
+
+    function filterList() {
+        const filter = document.getElementById('searchInput').value.toLowerCase();
+        for (let item of wordList.getElementsByTagName('li')) {
+            if (item.classList.contains('chapter-header')) {
+                item.style.display = filter === "" ? "" : "none";
+                continue;
+            }
+            if (filter === "") {
+                item.classList.add('hidden');
+                item.style.display = "";
+            } else {
+                const text = item.textContent || item.innerText;
+                item.classList.remove('hidden');
+                item.style.display = text.toLowerCase().includes(filter) ? "" : "none";
+            }
+        }
+        if (filter === "") checkVisibleItems();
+    }
+</script>
+</body>
+</html>
