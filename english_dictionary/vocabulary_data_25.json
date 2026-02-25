@@ -1,0 +1,726 @@
+{
+  "words": [
+    {
+      "number": 629,
+      "word": "abundance",
+      "pos": "名詞",
+      "meaning": "豊富、大量、裕福",
+      "nuance": "必要な量をはるかに超えて、溢れるほどたくさんある状態を指します。自然資源や食べ物、機会などの豊かさによく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The area has an abundance of natural resources.",
+              "ja": "その地域には天然資源が豊富にある。",
+              "highlight": "abundance"
+            }
+          ]
+        }
+      ],
+      "etymology": "ab (離れて) + unda (波) → 波が溢れ出すように多い",
+      "synonyms": [
+        {"word": "plenty", "trans": "たっぷり"},
+        {"word": "wealth", "trans": "富、豊富"},
+        {"word": "profusion", "trans": "豊富、おびただしい数"}
+      ],
+      "antonyms": [
+        {"word": "scarcity", "trans": "不足"},
+        {"word": "lack", "trans": "欠如"},
+        {"word": "shortage", "trans": "不足"}
+      ],
+      "related": [
+        {"word": "abundant", "trans": "形容詞：豊富な"},
+        {"word": "inundate", "trans": "動詞：氾濫させる、殺到する"}
+      ]
+    },
+    {
+      "number": "629-2",
+      "word": "abundant",
+      "pos": "形容詞",
+      "meaning": "豊富な、非常にたくさんの",
+      "nuance": "あり余るほど十分に存在している様子を表します。scientific（科学的）な文脈で供給量などについて語る際にも多用されます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There is abundant evidence to support his theory.",
+              "ja": "彼の理論を裏付ける豊富な証拠がある。",
+              "highlight": "abundant"
+            }
+          ]
+        }
+      ],
+      "etymology": "abundanceの形容詞形",
+      "synonyms": [
+        {"word": "plentiful", "trans": "豊富な"},
+        {"word": "copious", "trans": "大量の"},
+        {"word": "ample", "trans": "十分すぎるほどの"}
+      ],
+      "antonyms": [
+        {"word": "scarce", "trans": "乏しい"},
+        {"word": "meager", "trans": "不十分な、貧弱な"}
+      ],
+      "related": [
+        {"word": "abound", "trans": "動詞：たくさんある"}
+      ]
+    },
+    {
+      "number": 630,
+      "word": "ample",
+      "pos": "形容詞",
+      "meaning": "（広さや量が）十分な、たっぷりとした、広い",
+      "nuance": "「十分すぎるほど（more than enough）」というニュアンスがあり、余裕を感じさせる表現です。スペースや時間、証拠などについて使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There is ample parking space behind the building.",
+              "ja": "建物の裏に十分な駐車場がある。",
+              "highlight": "ample"
+            },
+            {
+              "en": "You will have ample opportunity to ask questions later.",
+              "ja": "後ほど質問する機会はたっぷりあります。",
+              "highlight": "ample"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 amplus (広い、大きい)",
+      "synonyms": [
+        {"word": "sufficient", "trans": "十分な"},
+        {"word": "spacious", "trans": "広々とした"},
+        {"word": "adequate", "trans": "適切な、十分な"}
+      ],
+      "antonyms": [
+        {"word": "insufficient", "trans": "不十分な"},
+        {"word": "limited", "trans": "限られた"},
+        {"word": "cramped", "trans": "窮屈な"}
+      ],
+      "related": [
+        {"word": "amplify", "trans": "動詞：増幅させる"},
+        {"word": "amplitude", "trans": "名詞：振幅、広さ"}
+      ]
+    },
+    {
+      "number": 631,
+      "word": "abound",
+      "pos": "動詞",
+      "meaning": "（数や量が）たくさんある、豊富である",
+      "nuance": "場所を主語にして「（場所が物）に富んでいる（abound in/with）」、または物が主語で「（物が）たくさん存在する」という形で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Wildlife abounds in this national park.",
+              "ja": "この国立公園には野生動物が豊富にいる。",
+              "highlight": "abounds"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 abundare (溢れる) < abundanceと同源",
+      "synonyms": [
+        {"word": "teem", "trans": "（場所が〜で）溢れている"},
+        {"word": "flourish", "trans": "繁栄する"},
+        {"word": "proliferate", "trans": "急増する"}
+      ],
+      "antonyms": [
+        {"word": "lack", "trans": "欠いている"},
+        {"word": "want", "trans": "（古風）〜を欠いている"}
+      ],
+      "related": [
+        {"word": "abundance", "trans": "名詞：豊富"}
+      ]
+    },
+    {
+      "number": 632,
+      "word": "readily",
+      "pos": "副詞",
+      "meaning": "すぐに、容易に、快く",
+      "nuance": "準備が整っていて「すぐに」行われる様子や、抵抗なく「快く」承諾する様子、または「簡単に」できることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Information is readily available on the internet.",
+              "ja": "情報はインターネット上で容易に入手できる。",
+              "highlight": "readily"
+            },
+            {
+              "en": "She readily agreed to help us.",
+              "ja": "彼女は快く助けることを承諾してくれた。",
+              "highlight": "readily"
+            }
+          ]
+        }
+      ],
+      "etymology": "ready + ly (副詞語尾)",
+      "synonyms": [
+        {"word": "easily", "trans": "容易に"},
+        {"word": "willingly", "trans": "快く"},
+        {"word": "promptly", "trans": "即座に"}
+      ],
+      "antonyms": [
+        {"word": "reluctantly", "trans": "しぶしぶ"},
+        {"word": "hardly", "trans": "かろうじて"},
+        {"word": "unwillingly", "trans": "不本意ながら"}
+      ],
+      "related": [
+        {"word": "ready", "trans": "形容詞：準備ができた"}
+      ]
+    },
+    {
+      "number": "632-2",
+      "word": "ready",
+      "pos": "形容詞、動詞",
+      "meaning": "準備ができた、即座の、〜を準備する",
+      "nuance": "形容詞では「準備完了」の状態を、動詞では「準備を整える」という行為を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "Are you ready to order?",
+              "ja": "ご注文の準備はよろしいですか？",
+              "highlight": "ready"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The soldiers readied their weapons for battle.",
+              "ja": "兵士たちは戦闘に向けて武器の準備を整えた。",
+              "highlight": "readied"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 ræde (準備ができた、乗れる状態の)",
+      "synonyms": [
+        {"word": "prepared", "trans": "準備ができた"},
+        {"word": "available", "trans": "利用可能な"},
+        {"word": "set", "trans": "準備が整って"}
+      ],
+      "antonyms": [
+        {"word": "unprepared", "trans": "準備ができていない"},
+        {"word": "unready", "trans": "用意できていない"}
+      ],
+      "related": [
+        {"word": "readiness", "trans": "名詞：準備ができていること、快諾"}
+      ]
+    },
+    {
+      "number": 633,
+      "word": "stomach",
+      "pos": "名詞、動詞",
+      "meaning": "胃、腹部、〜に耐える、〜を我慢する",
+      "nuance": "解剖学的な「胃」だけでなく、動詞では「（嫌なことを）受け入れる、我慢する」という意味があり、主に否定文で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He has a sensitive stomach.",
+              "ja": "彼は胃が弱い（過敏だ）。",
+              "highlight": "stomach"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "I can't stomach his arrogant attitude.",
+              "ja": "彼の傲慢な態度には耐えられない。",
+              "highlight": "stomach"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 stomachos (喉、食道、胃)",
+      "synonyms": [
+        {"word": "belly", "trans": "お腹"},
+        {"word": "abdomen", "trans": "腹部"},
+        {"word": "tolerate", "trans": "我慢する、許容する"}
+      ],
+      "antonyms": [
+        {"word": "reject", "trans": "拒絶する"},
+        {"word": "dislike", "trans": "嫌う"}
+      ],
+      "related": [
+        {"word": "stomachache", "trans": "名詞：胃痛"}
+      ]
+    },
+    {
+      "number": 634,
+      "word": "withhold",
+      "pos": "動詞",
+      "meaning": "〜を与えずにおく、差し控える、（給与から）源泉徴収する",
+      "nuance": "出すべきもの（情報、同意、お金など）を自分の手元に留めて「出さない」ことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They decided to withhold information from the public.",
+              "ja": "彼らは情報を一般に公開せずにおく（差し控える）ことにした。",
+              "highlight": "withhold"
+            },
+            {
+              "en": "Taxes are withheld from your paycheck.",
+              "ja": "税金は給与から源泉徴収されます。",
+              "highlight": "withheld"
+            }
+          ]
+        }
+      ],
+      "etymology": "with (反対に、後ろに) + hold (持つ) → 後ろに持っておく",
+      "synonyms": [
+        {"word": "reserve", "trans": "取っておく"},
+        {"word": "suppress", "trans": "抑える、隠す"},
+        {"word": "detain", "trans": "引き止める"}
+      ],
+      "antonyms": [
+        {"word": "release", "trans": "公開する、放つ"},
+        {"word": "provide", "trans": "提供する"},
+        {"word": "reveal", "trans": "明らかにする"}
+      ],
+      "related": [
+        {"word": "withholding tax", "trans": "名詞：源泉徴収税"}
+      ]
+    },
+    {
+      "number": "634-2",
+      "word": "detain",
+      "pos": "動詞",
+      "meaning": "〜を引き止める、拘束する、留置する",
+      "nuance": "人をどこかに留まらせることを指します。警察が容疑者を「拘束」する場合や、仕事で誰かを「引き止める」場合に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The suspect was detained for questioning.",
+              "ja": "容疑者は尋問のために拘束された。",
+              "highlight": "detained"
+            },
+            {
+              "en": "I'm sorry I'm late; I was detained at the office.",
+              "ja": "遅れてすみません、オフィスで引き止められてしまいました。",
+              "highlight": "detained"
+            }
+          ]
+        }
+      ],
+      "etymology": "de (離れて、完全に) + tenere (保持する) → どこかへ行かせないように持つ",
+      "synonyms": [
+        {"word": "confine", "trans": "閉じ込める"},
+        {"word": "delay", "trans": "遅らせる"},
+        {"word": "hold", "trans": "留める"}
+      ],
+      "antonyms": [
+        {"word": "release", "trans": "解放する"},
+        {"word": "free", "trans": "自由にする"}
+      ],
+      "related": [
+        {"word": "detention", "trans": "名詞：拘束、居残り"},
+        {"word": "retain", "trans": "動詞：保持する"}
+      ]
+    },
+    {
+      "number": "634-3",
+      "word": "detention",
+      "pos": "名詞",
+      "meaning": "拘留、留置、（学校の）放課後の居残り",
+      "nuance": "法的な拘束の状態だけでなく、学校での罰としての「居残り」もこの単語を使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The teacher gave the student detention for being late.",
+              "ja": "先生は遅刻した生徒に放課後の居残りを命じた。",
+              "highlight": "detention"
+            }
+          ]
+        }
+      ],
+      "etymology": "detainの名詞形",
+      "synonyms": [
+        {"word": "custody", "trans": "拘管、保護"},
+        {"word": "confinement", "trans": "監禁"},
+        {"word": "imprisonment", "trans": "投獄"}
+      ],
+      "antonyms": [
+        {"word": "liberation", "trans": "解放"}
+      ],
+      "related": [
+        {"word": "detain", "trans": "動詞：拘束する"}
+      ]
+    },
+    {
+      "number": 635,
+      "word": "instill",
+      "pos": "動詞",
+      "meaning": "（思想や感情を）徐々に教え込む、注入する",
+      "nuance": "一気にではなく、水滴を垂らすように「少しずつ、じわじわと」定着させるイメージです。自信や価値観を植え付ける際によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Parents try to instill good values in their children.",
+              "ja": "親は子供に良い価値観を教え込もう（植え付けよう）とする。",
+              "highlight": "instill"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (中に) + stillare (滴る) → 一滴ずつ垂らし入れる",
+      "synonyms": [
+        {"word": "inculcate", "trans": "説き聞かせる"},
+        {"word": "impart", "trans": "授ける、伝える"},
+        {"word": "inspire", "trans": "奮い立たせる"}
+      ],
+      "antonyms": [
+        {"word": "extract", "trans": "抜き出す"},
+        {"word": "remove", "trans": "取り除く"}
+      ],
+      "related": [
+        {"word": "distill", "trans": "動詞：蒸留する（滴り落とす）"},
+        {"word": "still", "trans": "名詞：蒸留器"}
+      ]
+    },
+    {
+      "number": 636,
+      "word": "willpower",
+      "pos": "名詞",
+      "meaning": "意志の力、自制心",
+      "nuance": "誘惑に負けず、目標を達成しようとする「精神的な強さ」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It takes great willpower to quit smoking.",
+              "ja": "禁煙するには強い意志の力が必要だ。",
+              "highlight": "willpower"
+            }
+          ]
+        }
+      ],
+      "etymology": "will (意志) + power (力)",
+      "synonyms": [
+        {"word": "self-discipline", "trans": "自制心"},
+        {"word": "determination", "trans": "決意"},
+        {"word": "resolve", "trans": "決意"}
+      ],
+      "antonyms": [
+        {"word": "weakness", "trans": "弱さ"},
+        {"word": "indecision", "trans": "優柔不断"}
+      ],
+      "related": [
+        {"word": "will", "trans": "名詞：意志、遺言"},
+        {"word": "powerful", "trans": "形容詞：強力な"}
+      ]
+    },
+    {
+      "number": 637,
+      "word": "copyright",
+      "pos": "名詞、動詞",
+      "meaning": "著作権、版権、〜の著作権を取得する",
+      "nuance": "作品を複製（copy）する権利（right）という意味です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The author holds the copyright to the book.",
+              "ja": "著者がその本の著作権を保持している。",
+              "highlight": "copyright"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "You should copyright your original music.",
+              "ja": "自分のオリジナル曲の著作権を取得すべきだ。",
+              "highlight": "copyright"
+            }
+          ]
+        }
+      ],
+      "etymology": "copy (写し) + right (権利)",
+      "synonyms": [
+        {"word": "intellectual property", "trans": "知的財産"},
+        {"word": "ownership", "trans": "所有権"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "copy", "trans": "名詞：写し"},
+        {"word": "right", "trans": "名詞：権利"}
+      ]
+    },
+    {
+      "number": 638,
+      "word": "cardboard",
+      "pos": "名詞、形容詞",
+      "meaning": "段ボール、厚紙、段ボール製の、薄っぺらな（比喩）",
+      "nuance": "物理的な資材を指すほか、比喩的に「実体がない、非現実的な」という意味で使われることがあります。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Put the old magazines in a cardboard box.",
+              "ja": "古い雑誌を段ボール箱に入れなさい。",
+              "highlight": "cardboard"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The characters in the movie felt like cardboard cutouts.",
+              "ja": "その映画の登場人物は（薄っぺらで）実在感がなかった。",
+              "highlight": "cardboard"
+            }
+          ]
+        }
+      ],
+      "etymology": "card (カード) + board (板)",
+      "synonyms": [
+        {"word": "stiff paper", "trans": "厚紙"},
+        {"word": "carton", "trans": "（紙製）容器"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "card", "trans": "名詞：カード"},
+        {"word": "board", "trans": "名詞：板"}
+      ]
+    },
+    {
+      "number": 639,
+      "word": "craftsman",
+      "pos": "名詞",
+      "meaning": "職人、熟練工、工芸家",
+      "nuance": "手先が器用で、高い技術を持って物を作る人を指します。芸術家（artist）よりも実用的なものを作るニュアンスが強いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The table was handmade by a skilled craftsman.",
+              "ja": "そのテーブルは熟練した職人によって手作りされた。",
+              "highlight": "craftsman"
+            }
+          ]
+        }
+      ],
+      "etymology": "craft (技能、工芸) + man (人)",
+      "synonyms": [
+        {"word": "artisan", "trans": "職人"},
+        {"word": "expert", "trans": "専門家"},
+        {"word": "master", "trans": "巨匠、師匠"}
+      ],
+      "antonyms": [
+        {"word": "amateur", "trans": "素人"},
+        {"word": "novice", "trans": "初心者"}
+      ],
+      "related": [
+        {"word": "craftsmanship", "trans": "名詞：職人の技能"},
+        {"word": "handicraft", "trans": "名詞：手細工"}
+      ]
+    },
+    {
+      "number": 640,
+      "word": "daylight",
+      "pos": "名詞",
+      "meaning": "日光、昼間、夜明け",
+      "nuance": "太陽の光そのものや、太陽が出ている時間帯を指します。「broad daylight（白昼堂々）」というフレーズが有名です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The crime was committed in broad daylight.",
+              "ja": "その犯罪は白昼堂々と行われた。",
+              "highlight": "daylight"
+            }
+          ]
+        }
+      ],
+      "etymology": "day (日) + light (光)",
+      "synonyms": [
+        {"word": "sunlight", "trans": "日光"},
+        {"word": "daytime", "trans": "昼間"}
+      ],
+      "antonyms": [
+        {"word": "darkness", "trans": "暗闇"},
+        {"word": "night", "trans": "夜"}
+      ],
+      "related": [
+        {"word": "daylight saving time", "trans": "名詞：サマータイム"}
+      ]
+    },
+    {
+      "number": 641,
+      "word": "fireplace",
+      "pos": "名詞",
+      "meaning": "暖炉",
+      "nuance": "壁に造り付けられた火を焚く場所を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They sat by the fireplace to keep warm.",
+              "ja": "彼らは暖まるために暖炉のそばに座った。",
+              "highlight": "fireplace"
+            }
+          ]
+        }
+      ],
+      "etymology": "fire (火) + place (場所)",
+      "synonyms": [
+        {"word": "hearth", "trans": "暖炉、炉端"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "fire", "trans": "名詞：火"},
+        {"word": "chimney", "trans": "名詞：煙突"}
+      ]
+    },
+    {
+      "number": 642,
+      "word": "goodwill",
+      "pos": "名詞",
+      "meaning": "好意、親善、（企業の）営業権、のれん代",
+      "nuance": "他人に対する温かい「善意」を指すほか、ビジネスでは長年の実績による「無形の資産価値」を指す専門用語としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The event was organized to promote international goodwill.",
+              "ja": "そのイベントは国際親善を促進するために開催された。",
+              "highlight": "goodwill"
+            }
+          ]
+        }
+      ],
+      "etymology": "good (良い) + will (意志)",
+      "synonyms": [
+        {"word": "benevolence", "trans": "慈悲、善意"},
+        {"word": "friendliness", "trans": "親しみやすさ"},
+        {"word": "kindness", "trans": "親切"}
+      ],
+      "antonyms": [
+        {"word": "hostility", "trans": "敵意"},
+        {"word": "ill will", "trans": "悪意"},
+        {"word": "malice", "trans": "恨み"}
+      ],
+      "related": [
+        {"word": "willing", "trans": "形容詞：〜する気がある"}
+      ]
+    },
+    {
+      "number": 643,
+      "word": "playground",
+      "pos": "名詞",
+      "meaning": "遊び場、運動場、行楽地",
+      "nuance": "公園などの「子供の遊び場」が一般的ですが、金持ちの「遊び場（リゾート地）」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The kids are playing on the school playground.",
+              "ja": "子供たちは学校の校庭（遊び場）で遊んでいる。",
+              "highlight": "playground"
+            }
+          ]
+        }
+      ],
+      "etymology": "play (遊ぶ) + ground (地面)",
+      "synonyms": [
+        {"word": "playing field", "trans": "競技場"},
+        {"word": "park", "trans": "公園"},
+        {"word": "recreation area", "trans": "娯楽区域"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "ground", "trans": "名詞：地面"}
+      ]
+    },
+    {
+      "number": 644,
+      "word": "standpoint",
+      "pos": "名詞",
+      "meaning": "観点、見地、立場",
+      "nuance": "物事を考える際の「土台となる視点」を指します。viewpointとほぼ同義ですが、より「論理的な根拠に基づく立場」という響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "From a financial standpoint, the project is too risky.",
+              "ja": "財政的な観点（見地）からすると、そのプロジェクトはリスクが高すぎる。",
+              "highlight": "standpoint"
+            }
+          ]
+        }
+      ],
+      "etymology": "stand (立つ) + point (点)",
+      "synonyms": [
+        {"word": "perspective", "trans": "視点、見方"},
+        {"word": "point of view", "trans": "見解"},
+        {"word": "angle", "trans": "角度、切り口"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "stand", "trans": "動詞：立つ"}
+      ]
+    },
+    {
+      "number": 645,
+      "word": "viewpoint",
+      "pos": "名詞",
+      "meaning": "見解、見方、観点",
+      "nuance": "個人が持っている特定の「見方」や「意見」を指します。物理的に「景色が見える場所」を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It's important to understand different viewpoints.",
+              "ja": "異なる見解（考え方）を理解することは重要だ。",
+              "highlight": "viewpoints"
+            }
+          ]
+        }
+      ],
+      "etymology": "view (見る) + point (点)",
+      "synonyms": [
+        {"word": "opinion", "trans": "意見"},
+        {"word": "outlook", "trans": "見通し、見解"},
+        {"word": "stance", "trans": "構え、立場"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "view", "trans": "名詞/動詞：景色/見る"}
+      ]
+    }
+  ]
+}
