@@ -1,0 +1,2095 @@
+{
+  "words": [
+    {
+      "number": 502,
+      "word": "professional",
+      "pos": "形容詞/名詞",
+      "meaning": "職業の、専門的な、プロの / 専門家、プロ",
+      "nuance": "特定の職業に関連すること、または高い技能と専門知識を持つことを表します。amateurの対義語として使われます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "She provides professional medical advice.",
+              "ja": "彼女は専門的な医療アドバイスを提供する。",
+              "highlight": "professional"
+            },
+            {
+              "en": "His behavior was always professional.",
+              "ja": "彼の振る舞いは常にプロフェッショナルだった。",
+              "highlight": "professional"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He is a professional in the field of finance.",
+              "ja": "彼は金融分野の専門家だ。",
+              "highlight": "professional"
+            }
+          ]
+        }
+      ],
+      "etymology": "profession (職業) + al (形容詞語尾) <br>→ 職業に関する",
+      "synonyms": [
+        {"word": "expert", "trans": "専門家"},
+        {"word": "skilled", "trans": "熟練した"},
+        {"word": "competent", "trans": "有能な"},
+        {"word": "specialist", "trans": "専門家"}
+      ],
+      "antonyms": [
+        {"word": "amateur", "trans": "素人"},
+        {"word": "unprofessional", "trans": "非専門的な"},
+        {"word": "inexperienced", "trans": "未経験の"}
+      ],
+      "related": [
+        {"word": "profession", "trans": "名詞：職業"},
+        {"word": "professionalism", "trans": "名詞：プロ意識"}
+      ]
+    },
+    {
+      "number": 503,
+      "word": "amateur",
+      "pos": "名詞/形容詞",
+      "meaning": "アマチュア、素人 / アマチュアの、素人の",
+      "nuance": "趣味として活動する人、または専門的な訓練を受けていない人を指します。否定的な意味で「未熟」を示すこともあれば、中立的に「愛好家」を示すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He is an amateur photographer.",
+              "ja": "彼はアマチュアの写真家だ。",
+              "highlight": "amateur"
+            },
+            {
+              "en": "The contest is open to amateurs only.",
+              "ja": "そのコンテストはアマチュアのみに開かれている。",
+              "highlight": "amateurs"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The play was an amateur production.",
+              "ja": "その劇はアマチュアの制作だった。",
+              "highlight": "amateur"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 amateur (愛好家) <br>→ ラテン語 amator (愛する人) から",
+      "synonyms": [
+        {"word": "novice", "trans": "初心者"},
+        {"word": "beginner", "trans": "初心者"},
+        {"word": "hobbyist", "trans": "趣味人"},
+        {"word": "enthusiast", "trans": "愛好家"}
+      ],
+      "antonyms": [
+        {"word": "professional", "trans": "プロ"},
+        {"word": "expert", "trans": "専門家"},
+        {"word": "specialist", "trans": "専門家"}
+      ],
+      "related": [
+        {"word": "amateurish", "trans": "形容詞：素人くさい"}
+      ]
+    },
+    {
+      "number": 504,
+      "word": "aggression",
+      "pos": "名詞",
+      "meaning": "攻撃、侵略、敵対行為",
+      "nuance": "他者や国に対する敵対的な行動や態度を表します。軍事的侵略から、個人の攻撃的な振る舞いまで幅広く使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The country was accused of military aggression.",
+              "ja": "その国は軍事侵略で非難された。",
+              "highlight": "aggression"
+            },
+            {
+              "en": "He showed signs of aggression when confronted.",
+              "ja": "彼は対決したとき攻撃性の兆候を示した。",
+              "highlight": "aggression"
+            },
+            {
+              "en": "The treaty aims to prevent acts of aggression.",
+              "ja": "その条約は侵略行為を防ぐことを目的としている。",
+              "highlight": "aggression"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 aggressio (攻撃) <br>→ aggredi (攻撃する) から",
+      "synonyms": [
+        {"word": "hostility", "trans": "敵意"},
+        {"word": "attack", "trans": "攻撃"},
+        {"word": "assault", "trans": "襲撃"},
+        {"word": "invasion", "trans": "侵略"}
+      ],
+      "antonyms": [
+        {"word": "peace", "trans": "平和"},
+        {"word": "passivity", "trans": "受動性"},
+        {"word": "defense", "trans": "防衛"}
+      ],
+      "related": [
+        {"word": "aggressive", "trans": "形容詞：攻撃的な"},
+        {"word": "aggressor", "trans": "名詞：侵略者"}
+      ]
+    },
+    {
+      "number": 505,
+      "word": "intrusion",
+      "pos": "名詞",
+      "meaning": "侵入、侵害、押しつけがましい行為",
+      "nuance": "許可なく入ること、またはプライバシーや領域に不当に立ち入ることを表します。物理的な侵入から、私生活への干渉まで幅広く使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They apologized for the intrusion.",
+              "ja": "彼らは邪魔をしたことを謝罪した。",
+              "highlight": "intrusion"
+            },
+            {
+              "en": "The security system detected an intrusion.",
+              "ja": "セキュリティシステムが侵入を検知した。",
+              "highlight": "intrusion"
+            },
+            {
+              "en": "She resented the intrusion into her private life.",
+              "ja": "彼女は私生活への侵害に憤慨した。",
+              "highlight": "intrusion"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 intrusio (押し込むこと) <br>→ intrudere (押し込む) から",
+      "synonyms": [
+        {"word": "invasion", "trans": "侵入"},
+        {"word": "encroachment", "trans": "侵害"},
+        {"word": "interference", "trans": "干渉"},
+        {"word": "trespass", "trans": "不法侵入"}
+      ],
+      "antonyms": [
+        {"word": "privacy", "trans": "プライバシー"},
+        {"word": "respect", "trans": "尊重"}
+      ],
+      "related": [
+        {"word": "intrude", "trans": "動詞：侵入する"},
+        {"word": "intrusive", "trans": "形容詞：押しつけがましい"}
+      ]
+    },
+    {
+      "number": "505-2",
+      "word": "intrude",
+      "pos": "動詞",
+      "meaning": "侵入する、じゃまをする、押しつける",
+      "nuance": "許可なく入ること、または歓迎されていない状況に立ち入ることを表します。「intrude on/upon ~（〜を邪魔する）」という形でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I don't want to intrude on your conversation.",
+              "ja": "あなたの会話を邪魔したくありません。",
+              "highlight": "intrude"
+            },
+            {
+              "en": "Someone intruded into the building at night.",
+              "ja": "誰かが夜間に建物に侵入した。",
+              "highlight": "intruded"
+            },
+            {
+              "en": "I hope I'm not intruding.",
+              "ja": "お邪魔でなければいいのですが。",
+              "highlight": "intruding"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 intrudere (押し込む) <br>→ in (中へ) + trudere (押す)",
+      "synonyms": [
+        {"word": "trespass", "trans": "侵入する"},
+        {"word": "invade", "trans": "侵入する"},
+        {"word": "encroach", "trans": "侵害する"},
+        {"word": "interrupt", "trans": "邪魔する"}
+      ],
+      "antonyms": [
+        {"word": "respect", "trans": "尊重する"},
+        {"word": "withdraw", "trans": "引き下がる"}
+      ],
+      "related": [
+        {
+          "word": "intrusion",
+          "trans": "名詞：侵入",
+          "link": "505-intrusion.html"
+        },
+        {
+          "word": "intruder", "trans": "名詞：侵入者"}
+      ]
+    },
+    {
+      "number": "505-3",
+      "word": "invasion",
+      "pos": "名詞",
+      "meaning": "侵略、侵入、侵害",
+      "nuance": "軍隊による他国への侵攻、または大量の人や物が押し寄せることを表します。intrusionよりも大規模で組織的な侵入を示すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The country prepared to resist the invasion.",
+              "ja": "その国は侵略に抵抗する準備をした。",
+              "highlight": "invasion"
+            },
+            {
+              "en": "The invasion of privacy is a serious concern.",
+              "ja": "プライバシーの侵害は深刻な懸念事項だ。",
+              "highlight": "invasion"
+            },
+            {
+              "en": "There was an invasion of tourists during the summer.",
+              "ja": "夏の間、観光客が大挙して押し寄せた。",
+              "highlight": "invasion"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 invasio (侵入) <br>→ invadere (侵入する) から",
+      "synonyms": [
+        {"word": "attack", "trans": "攻撃"},
+        {"word": "incursion", "trans": "侵入"},
+        {"word": "intrusion", "trans": "侵入"},
+        {"word": "aggression", "trans": "侵略"}
+      ],
+      "antonyms": [
+        {"word": "withdrawal", "trans": "撤退"},
+        {"word": "defense", "trans": "防衛"},
+        {"word": "retreat", "trans": "後退"}
+      ],
+      "related": [
+        {
+          "word": "intrude",
+          "trans": "動詞：侵入する",
+          "link": "505-intrusion.html"
+        },
+        {
+          "word": "invade", "trans": "動詞：侵略する"}
+      ]
+    },
+    {
+      "number": "505-4",
+      "word": "invade",
+      "pos": "動詞",
+      "meaning": "〜に侵入する、侵略する、侵害する",
+      "nuance": "軍隊が他国に侵攻すること、または何かが大量に押し寄せることを表します。プライバシーや権利を侵害する比喩的な意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The army invaded the neighboring country.",
+              "ja": "軍隊は隣国を侵略した。",
+              "highlight": "invaded"
+            },
+            {
+              "en": "Tourists invaded the small town.",
+              "ja": "観光客が小さな町に押し寄せた。",
+              "highlight": "invaded"
+            },
+            {
+              "en": "Don't let work invade your personal life.",
+              "ja": "仕事を私生活に侵入させないようにしなさい。",
+              "highlight": "invade"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 invadere (侵入する) <br>→ in (中へ) + vadere (行く)",
+      "synonyms": [
+        {"word": "attack", "trans": "攻撃する"},
+        {"word": "occupy", "trans": "占領する"},
+        {"word": "intrude", "trans": "侵入する"},
+        {"word": "encroach", "trans": "侵害する"}
+      ],
+      "antonyms": [
+        {"word": "withdraw", "trans": "撤退する"},
+        {"word": "evacuate", "trans": "撤退する"},
+        {"word": "defend", "trans": "防衛する"}
+      ],
+      "related": [
+        {
+          "word": "invasion",
+          "trans": "名詞：侵略",
+          "link": "505-intrusion.html"
+        },
+        {
+          "word": "invader", "trans": "名詞：侵略者"}
+      ]
+    },
+    {
+      "number": 506,
+      "word": "piracy",
+      "pos": "名詞",
+      "meaning": "海賊行為、著作権侵害、違法コピー",
+      "nuance": "海上での略奪行為、またはデジタル時代では著作物の違法な複製や配布を指します。現代では後者の意味で頻繁に使われます。",
+      "example_sections": [
+        {
+          "title": "例文（著作権侵害）",
+          "examples": [
+            {
+              "en": "Software piracy costs the industry billions annually.",
+              "ja": "ソフトウェアの違法コピーは業界に年間数十億の損失をもたらしている。",
+              "highlight": "piracy"
+            },
+            {
+              "en": "The company is fighting against digital piracy.",
+              "ja": "その会社はデジタル海賊行為と戦っている。",
+              "highlight": "piracy"
+            }
+          ]
+        },
+        {
+          "title": "例文（海賊行為）",
+          "examples": [
+            {
+              "en": "Piracy off the coast remains a serious problem.",
+              "ja": "沿岸での海賊行為は依然として深刻な問題だ。",
+              "highlight": "Piracy"
+            }
+          ]
+        }
+      ],
+      "etymology": "pirate (海賊) + cy (名詞語尾) <br>→ 海賊行為",
+      "synonyms": [
+        {"word": "theft", "trans": "窃盗"},
+        {"word": "robbery", "trans": "強盗"},
+        {"word": "infringement", "trans": "侵害（著作権）"}
+      ],
+      "antonyms": [
+        {"word": "compliance", "trans": "遵守"},
+        {"word": "legitimacy", "trans": "正当性"}
+      ],
+      "related": [
+        {"word": "pirate", "trans": "名詞/動詞：海賊/違法コピーする"}
+      ]
+    },
+    {
+      "number": "506-2",
+      "word": "pirate",
+      "pos": "名詞/動詞",
+      "meaning": "海賊、著作権侵害者 / 〜を違法コピーする",
+      "nuance": "海上で略奪を行う者、または著作物を違法に複製・配布する者を指します。動詞では違法にコピーすることを表します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Pirates attacked the merchant ship.",
+              "ja": "海賊が商船を襲撃した。",
+              "highlight": "Pirates"
+            },
+            {
+              "en": "Software pirates face legal consequences.",
+              "ja": "ソフトウェアの違法コピー者は法的な結果に直面する。",
+              "highlight": "pirates"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "It is illegal to pirate movies.",
+              "ja": "映画を違法コピーすることは違法だ。",
+              "highlight": "pirate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 peirates (襲撃者) <br>→ peiran (試みる) から",
+      "synonyms": [
+        {"word": "buccaneer", "trans": "海賊"},
+        {"word": "corsair", "trans": "海賊"},
+        {"word": "bootlegger", "trans": "密売人"}
+      ],
+      "antonyms": [],
+      "related": [
+        {
+          "word": "piracy",
+          "trans": "名詞：海賊行為",
+          "link": "506-piracy.html"
+        }
+      ]
+    },
+    {
+      "number": 507,
+      "word": "inmate",
+      "pos": "名詞",
+      "meaning": "受刑者、収容者、入院患者",
+      "nuance": "刑務所や施設に収容されている人を指します。主に刑務所の囚人を意味しますが、病院や福祉施設の入居者を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The prison has over 2,000 inmates.",
+              "ja": "その刑務所には2,000人以上の受刑者がいる。",
+              "highlight": "inmates"
+            },
+            {
+              "en": "Inmates are required to follow strict rules.",
+              "ja": "受刑者は厳格な規則に従うことが求められる。",
+              "highlight": "Inmates"
+            },
+            {
+              "en": "He befriended a fellow inmate.",
+              "ja": "彼は仲間の受刑者と友達になった。",
+              "highlight": "inmate"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (中に) + mate (仲間) <br>→ 中にいる仲間",
+      "synonyms": [
+        {"word": "prisoner", "trans": "囚人"},
+        {"word": "convict", "trans": "受刑者"},
+        {"word": "detainee", "trans": "被拘禁者"}
+      ],
+      "antonyms": [
+        {"word": "guard", "trans": "看守"},
+        {"word": "free person", "trans": "自由人"}
+      ],
+      "related": [
+        {"word": "imprison", "trans": "動詞：投獄する"}
+      ]
+    },
+    {
+      "number": 508,
+      "word": "jail",
+      "pos": "名詞/動詞",
+      "meaning": "刑務所、拘置所 / 〜を投獄する",
+      "nuance": "比較的短期間の拘留施設を指します。prisonよりも軽い犯罪者や裁判前の被告を収容する場所として使われることが多いです。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He spent three months in jail.",
+              "ja": "彼は3ヶ月間刑務所で過ごした。",
+              "highlight": "jail"
+            },
+            {
+              "en": "The suspect was taken to the county jail.",
+              "ja": "容疑者は郡の拘置所に連行された。",
+              "highlight": "jail"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The judge jailed him for two years.",
+              "ja": "裁判官は彼を2年間投獄した。",
+              "highlight": "jailed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 jaiole (檻) <br>→ ラテン語 caveola (小さな洞窟)",
+      "synonyms": [
+        {"word": "prison", "trans": "刑務所"},
+        {"word": "lockup", "trans": "留置場"},
+        {"word": "detention center", "trans": "拘置所"}
+      ],
+      "antonyms": [
+        {"word": "freedom", "trans": "自由"}
+      ],
+      "related": [
+        {"word": "jailer", "trans": "名詞：看守"}
+      ]
+    },
+    {
+      "number": "508-2",
+      "word": "culprit",
+      "pos": "名詞",
+      "meaning": "犯人、加害者、原因",
+      "nuance": "犯罪や問題の責任者を指します。人だけでなく、問題の原因となっているものを比喩的に表すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文（犯人）",
+          "examples": [
+            {
+              "en": "Police arrested the culprit.",
+              "ja": "警察は犯人を逮捕した。",
+              "highlight": "culprit"
+            },
+            {
+              "en": "They finally caught the culprit behind the fraud.",
+              "ja": "彼らはついに詐欺の背後にいる犯人を捕まえた。",
+              "highlight": "culprit"
+            }
+          ]
+        },
+        {
+          "title": "例文（原因）",
+          "examples": [
+            {
+              "en": "Sugar is the main culprit in tooth decay.",
+              "ja": "砂糖は虫歯の主な原因だ。",
+              "highlight": "culprit"
+            }
+          ]
+        }
+      ],
+      "etymology": "英語法律用語 culpable (有罪の) <br>→ ラテン語 culpa (過ち)",
+      "synonyms": [
+        {"word": "offender", "trans": "犯罪者"},
+        {"word": "perpetrator", "trans": "加害者"},
+        {"word": "criminal", "trans": "犯罪者"},
+        {"word": "wrongdoer", "trans": "悪事を働く者"}
+      ],
+      "antonyms": [
+        {"word": "victim", "trans": "被害者"},
+        {"word": "innocent", "trans": "無実の人"}
+      ],
+      "related": [
+        {
+          "word": "jail",
+          "trans": "名詞：刑務所",
+          "link": "508-jail.html"
+        },
+        {
+          "word": "culpable", "trans": "形容詞：有罪の"}
+      ]
+    },
+    {
+      "number": 509,
+      "word": "controversy",
+      "pos": "名詞",
+      "meaning": "論争、議論、物議",
+      "nuance": "意見が大きく分かれる問題や激しい議論を表します。公的な論争や社会的な意見の対立を指すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The decision sparked widespread controversy.",
+              "ja": "その決定は広範な論争を引き起こした。",
+              "highlight": "controversy"
+            },
+            {
+              "en": "The issue remains a subject of controversy.",
+              "ja": "その問題は依然として論争の的だ。",
+              "highlight": "controversy"
+            },
+            {
+              "en": "He avoided controversy by staying silent.",
+              "ja": "彼は沈黙を守ることで論争を避けた。",
+              "highlight": "controversy"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 controversia (論争) <br>→ contra (反対に) + vertere (向ける)",
+      "synonyms": [
+        {"word": "debate", "trans": "討論"},
+        {"word": "dispute", "trans": "論争"},
+        {"word": "disagreement", "trans": "意見の相違"},
+        {"word": "argument", "trans": "議論"}
+      ],
+      "antonyms": [
+        {"word": "agreement", "trans": "合意"},
+        {"word": "consensus", "trans": "総意"},
+        {"word": "harmony", "trans": "調和"}
+      ],
+      "related": [
+        {"word": "controversial", "trans": "形容詞：物議を醸す"}
+      ]
+    },
+    {
+      "number": 510,
+      "word": "contend",
+      "pos": "動詞",
+      "meaning": "主張する、争う、競争する",
+      "nuance": "強く主張すること、または何かを得るために競い合うことを表します。「contend that ~（〜と主張する）」「contend with ~（〜と戦う）」という形でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（主張する）",
+          "examples": [
+            {
+              "en": "He contends that the policy is unfair.",
+              "ja": "彼はその政策が不公平だと主張している。",
+              "highlight": "contends"
+            },
+            {
+              "en": "Scientists contend that climate change is real.",
+              "ja": "科学者たちは気候変動が現実だと主張している。",
+              "highlight": "contend"
+            }
+          ]
+        },
+        {
+          "title": "例文（争う・競争する）",
+          "examples": [
+            {
+              "en": "Several teams will contend for the championship.",
+              "ja": "いくつかのチームが優勝を争うだろう。",
+              "highlight": "contend"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 contendere (努力する) <br>→ con (共に) + tendere (伸ばす)",
+      "synonyms": [
+        {"word": "argue", "trans": "主張する"},
+        {"word": "assert", "trans": "断言する"},
+        {"word": "compete", "trans": "競争する"},
+        {"word": "struggle", "trans": "戦う"}
+      ],
+      "antonyms": [
+        {"word": "agree", "trans": "同意する"},
+        {"word": "concede", "trans": "認める"}
+      ],
+      "related": [
+        {"word": "contention", "trans": "名詞：主張・争い"},
+        {"word": "contender", "trans": "名詞：競争者"}
+      ]
+    },
+    {
+      "number": "510-2",
+      "word": "contention",
+      "pos": "名詞",
+      "meaning": "主張、論点、争い",
+      "nuance": "議論における主張や見解、または人々の間の争いを表します。「bone of contention（争いの種）」という慣用表現でもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His main contention is that taxes should be reduced.",
+              "ja": "彼の主要な主張は税金を減らすべきだというものだ。",
+              "highlight": "contention"
+            },
+            {
+              "en": "There is considerable contention over the issue.",
+              "ja": "その問題をめぐってかなりの論争がある。",
+              "highlight": "contention"
+            },
+            {
+              "en": "Money was a constant bone of contention.",
+              "ja": "お金は常に争いの種だった。",
+              "highlight": "contention"
+            }
+          ]
+        }
+      ],
+      "etymology": "contend (争う) + tion (名詞語尾) <br>→ 争うこと",
+      "synonyms": [
+        {"word": "assertion", "trans": "主張"},
+        {"word": "argument", "trans": "論点"},
+        {"word": "dispute", "trans": "争い"},
+        {"word": "conflict", "trans": "対立"}
+      ],
+      "antonyms": [
+        {"word": "agreement", "trans": "合意"},
+        {"word": "harmony", "trans": "調和"}
+      ],
+      "related": [
+        {
+          "word": "contend",
+          "trans": "動詞：主張する",
+          "link": "510-contend.html"
+        },
+        {
+          "word": "contentious", "trans": "形容詞：論争好きな"}
+      ]
+    },
+    {
+      "number": 511,
+      "word": "reportedly",
+      "pos": "副詞",
+      "meaning": "伝えられるところによれば、報道によると",
+      "nuance": "情報源を明示せずに、伝聞や報道に基づいていることを示します。情報の確実性について慎重な態度を示す言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The CEO reportedly resigned yesterday.",
+              "ja": "伝えられるところによればCEOは昨日辞任した。",
+              "highlight": "reportedly"
+            },
+            {
+              "en": "The accident was reportedly caused by human error.",
+              "ja": "報道によるとその事故は人為的ミスによって引き起こされた。",
+              "highlight": "reportedly"
+            },
+            {
+              "en": "She is reportedly working on a new album.",
+              "ja": "彼女は新しいアルバムに取り組んでいると伝えられている。",
+              "highlight": "reportedly"
+            }
+          ]
+        }
+      ],
+      "etymology": "reported (報告された) + ly (副詞語尾) <br>→ 報告されたように",
+      "synonyms": [
+        {"word": "allegedly", "trans": "申し立てによると"},
+        {"word": "supposedly", "trans": "推定では"},
+        {"word": "apparently", "trans": "どうやら"}
+      ],
+      "antonyms": [
+        {"word": "certainly", "trans": "確実に"},
+        {"word": "definitely", "trans": "間違いなく"}
+      ],
+      "related": [
+        {"word": "report", "trans": "動詞/名詞：報告する/報告"}
+      ]
+    },
+    {
+      "number": 512,
+      "word": "placebo",
+      "pos": "名詞",
+      "meaning": "プラセボ、偽薬、気休め",
+      "nuance": "医学研究で使われる薬効成分を含まない偽の薬、または心理的効果のみを持つものを指します。「placebo effect（プラセボ効果）」という用語で広く知られています。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Half the patients received a placebo.",
+              "ja": "患者の半数がプラセボを受け取った。",
+              "highlight": "placebo"
+            },
+            {
+              "en": "The placebo effect can be surprisingly powerful.",
+              "ja": "プラセボ効果は驚くほど強力なことがある。",
+              "highlight": "placebo"
+            },
+            {
+              "en": "The study used a placebo-controlled trial.",
+              "ja": "その研究はプラセボ対照試験を使用した。",
+              "highlight": "placebo"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 placebo (私は喜ばせるだろう) <br>→ placere (喜ばせる) から",
+      "synonyms": [
+        {"word": "dummy", "trans": "偽物"},
+        {"word": "sugar pill", "trans": "砂糖の錠剤"}
+      ],
+      "antonyms": [
+        {"word": "active drug", "trans": "有効薬"},
+        {"word": "treatment", "trans": "治療"}
+      ],
+      "related": [
+        {"word": "placebo effect", "trans": "名詞句：プラセボ効果"}
+      ]
+    },
+    {
+      "number": 513,
+      "word": "therapeutic",
+      "pos": "形容詞",
+      "meaning": "治療の、治療効果のある、癒しの",
+      "nuance": "病気の治療に関連すること、または心身に良い効果をもたらすことを表します。医学的な治療だけでなく、精神的な癒しについても使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The drug has significant therapeutic benefits.",
+              "ja": "その薬には重要な治療効果がある。",
+              "highlight": "therapeutic"
+            },
+            {
+              "en": "Swimming has a therapeutic effect on stress.",
+              "ja": "水泳はストレスに対して癒しの効果がある。",
+              "highlight": "therapeutic"
+            },
+            {
+              "en": "She finds gardening therapeutic.",
+              "ja": "彼女はガーデニングが癒しになると感じている。",
+              "highlight": "therapeutic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 therapeutikos (治療の) <br>→ therapeuein (治療する) から",
+      "synonyms": [
+        {"word": "healing", "trans": "癒しの"},
+        {"word": "medicinal", "trans": "薬効のある"},
+        {"word": "curative", "trans": "治療効果のある"},
+        {"word": "remedial", "trans": "治療の"}
+      ],
+      "antonyms": [
+        {"word": "harmful", "trans": "有害な"},
+        {"word": "detrimental", "trans": "有害な"}
+      ],
+      "related": [
+        {"word": "therapy", "trans": "名詞：治療"},
+        {"word": "therapist", "trans": "名詞：療法士"}
+      ]
+    },
+    {
+      "number": "513-2",
+      "word": "therapy",
+      "pos": "名詞",
+      "meaning": "治療、療法、セラピー",
+      "nuance": "病気や障害を治療するための方法や過程を指します。物理療法、心理療法など、様々な種類の治療を表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is undergoing physical therapy for his injury.",
+              "ja": "彼は怪我のために理学療法を受けている。",
+              "highlight": "therapy"
+            },
+            {
+              "en": "She started therapy to deal with anxiety.",
+              "ja": "彼女は不安に対処するためにセラピーを始めた。",
+              "highlight": "therapy"
+            },
+            {
+              "en": "Radiation therapy is used to treat cancer.",
+              "ja": "放射線療法はがんの治療に使われる。",
+              "highlight": "therapy"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 therapeia (治療) <br>→ therapeuein (治療する) から",
+      "synonyms": [
+        {"word": "treatment", "trans": "治療"},
+        {"word": "remedy", "trans": "治療法"},
+        {"word": "cure", "trans": "治療"}
+      ],
+      "antonyms": [
+        {"word": "disease", "trans": "病気"},
+        {"word": "illness", "trans": "疾病"}
+      ],
+      "related": [
+        {
+          "word": "therapeutic",
+          "trans": "形容詞：治療の",
+          "link": "513-therapeutic.html"
+        },
+        {
+          "word": "therapist", "trans": "名詞：療法士"}
+      ]
+    },
+    {
+      "number": "513-3",
+      "word": "therapist",
+      "pos": "名詞",
+      "meaning": "療法士、セラピスト",
+      "nuance": "特定の種類の治療を専門とする医療従事者を指します。理学療法士、作業療法士、心理療法士など、様々な専門家を含みます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She works as a physical therapist.",
+              "ja": "彼女は理学療法士として働いている。",
+              "highlight": "therapist"
+            },
+            {
+              "en": "He sees a therapist once a week.",
+              "ja": "彼は週に一度セラピストに診てもらっている。",
+              "highlight": "therapist"
+            },
+            {
+              "en": "The therapist recommended daily exercises.",
+              "ja": "その療法士は毎日の運動を勧めた。",
+              "highlight": "therapist"
+            }
+          ]
+        }
+      ],
+      "etymology": "therapy (治療) + ist (専門家) <br>→ 治療の専門家",
+      "synonyms": [
+        {"word": "counselor", "trans": "カウンセラー"},
+        {"word": "clinician", "trans": "臨床医"},
+        {"word": "practitioner", "trans": "施術者"}
+      ],
+      "antonyms": [
+        {"word": "patient", "trans": "患者"}
+      ],
+      "related": [
+        {
+          "word": "therapy",
+          "trans": "名詞：治療",
+          "link": "513-therapeutic.html"
+        }
+      ]
+    },
+    {
+      "number": "513-4",
+      "word": "curative",
+      "pos": "形容詞/名詞",
+      "meaning": "治療効果のある、治癒力のある / 治療薬",
+      "nuance": "病気を治す力があることを表します。therapeuticよりも「完全に治す」という強い意味合いを持ちます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The herb has curative properties.",
+              "ja": "そのハーブには治癒力がある。",
+              "highlight": "curative"
+            },
+            {
+              "en": "They hoped for a curative treatment.",
+              "ja": "彼らは治癒的な治療を望んだ。",
+              "highlight": "curative"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Scientists are searching for a curative.",
+              "ja": "科学者たちは治療薬を探している。",
+              "highlight": "curative"
+            }
+          ]
+        }
+      ],
+      "etymology": "cure (治療する) + ative (形容詞語尾) <br>→ 治療する性質の",
+      "synonyms": [
+        {"word": "healing", "trans": "治癒の"},
+        {"word": "therapeutic", "trans": "治療効果のある"},
+        {"word": "remedial", "trans": "治療の"},
+        {"word": "restorative", "trans": "回復させる"}
+      ],
+      "antonyms": [
+        {"word": "harmful", "trans": "有害な"},
+        {"word": "damaging", "trans": "損傷を与える"}
+      ],
+      "related": [
+        {
+          "word": "therapist",
+          "trans": "名詞：療法士",
+          "link": "513-therapeutic.html"
+        },
+        {
+          "word": "cure", "trans": "動詞/名詞：治す/治療"}
+      ]
+    },
+    {
+      "number": 514,
+      "word": "direct",
+      "pos": "形容詞/動詞/副詞",
+      "meaning": "直接の、率直な / 〜を指示する、監督する / 直接に",
+      "nuance": "仲介や迂回がないこと、またはまっすぐで率直であることを表します。動詞では何かを特定の方向に向けることや指示することを意味します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "We need a direct approach to solve this problem.",
+              "ja": "この問題を解決するには直接的なアプローチが必要だ。",
+              "highlight": "direct"
+            },
+            {
+              "en": "She gave me direct instructions.",
+              "ja": "彼女は私に率直な指示を与えた。",
+              "highlight": "direct"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "He directed the movie.",
+              "ja": "彼はその映画を監督した。",
+              "highlight": "directed"
+            },
+            {
+              "en": "Please direct all questions to the manager.",
+              "ja": "すべての質問をマネージャーに向けてください。",
+              "highlight": "direct"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 directus (まっすぐな) <br>→ dirigere (導く) から",
+      "synonyms": [
+        {"word": "straight", "trans": "まっすぐな"},
+        {"word": "immediate", "trans": "直接の"},
+        {"word": "frank", "trans": "率直な"},
+        {"word": "guide", "trans": "導く（動詞）"}
+      ],
+      "antonyms": [
+        {"word": "indirect", "trans": "間接的な"},
+        {"word": "devious", "trans": "回りくどい"}
+      ],
+      "related": [
+        {"word": "direction", "trans": "名詞：方向・指示"},
+        {"word": "directly", "trans": "副詞：直接に"},
+        {"word": "director", "trans": "名詞：監督・取締役"}
+      ]
+    },
+    {
+      "number": 515,
+      "word": "upright",
+      "pos": "形容詞/副詞",
+      "meaning": "直立した、垂直の、正直な、高潔な",
+      "nuance": "物理的にまっすぐ立っていること、または道徳的に正しく誠実であることを表します。両方の意味で使われる多義語です。",
+      "example_sections": [
+        {
+          "title": "例文（直立した）",
+          "examples": [
+            {
+              "en": "Please keep the box upright during transport.",
+              "ja": "輸送中は箱を直立させておいてください。",
+              "highlight": "upright"
+            },
+            {
+              "en": "He stood upright with perfect posture.",
+              "ja": "彼は完璧な姿勢で直立していた。",
+              "highlight": "upright"
+            }
+          ]
+        },
+        {
+          "title": "例文（正直な）",
+          "examples": [
+            {
+              "en": "He is known as an upright citizen.",
+              "ja": "彼は高潔な市民として知られている。",
+              "highlight": "upright"
+            }
+          ]
+        }
+      ],
+      "etymology": "up (上に) + right (まっすぐな) <br>→ まっすぐ上に",
+      "synonyms": [
+        {"word": "vertical", "trans": "垂直の"},
+        {"word": "erect", "trans": "直立した"},
+        {"word": "honest", "trans": "正直な"},
+        {"word": "righteous", "trans": "正しい"}
+      ],
+      "antonyms": [
+        {"word": "horizontal", "trans": "水平の"},
+        {"word": "dishonest", "trans": "不正直な"},
+        {"word": "corrupt", "trans": "腐敗した"}
+      ],
+      "related": [
+        {"word": "uprightness", "trans": "名詞：正直さ"}
+      ]
+    },
+    {
+      "number": 516,
+      "word": "pharmacist",
+      "pos": "名詞",
+      "meaning": "薬剤師",
+      "nuance": "薬を調剤し、薬についての助言を提供する専門家を指します。アメリカ英語ではpharmacist、イギリス英語ではchemistとも呼ばれます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The pharmacist explained how to take the medication.",
+              "ja": "薬剤師は薬の飲み方を説明した。",
+              "highlight": "pharmacist"
+            },
+            {
+              "en": "You should consult a pharmacist about drug interactions.",
+              "ja": "薬の相互作用については薬剤師に相談すべきだ。",
+              "highlight": "pharmacist"
+            },
+            {
+              "en": "She works as a pharmacist at the local hospital.",
+              "ja": "彼女は地元の病院で薬剤師として働いている。",
+              "highlight": "pharmacist"
+            }
+          ]
+        }
+      ],
+      "etymology": "pharmacy (薬局) + ist (専門家) <br>→ 薬の専門家",
+      "synonyms": [
+        {"word": "chemist", "trans": "薬剤師（英）"},
+        {"word": "druggist", "trans": "薬剤師"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "pharmacy", "trans": "名詞：薬局"},
+        {"word": "pharmaceutical", "trans": "形容詞：製薬の"}
+      ]
+    },
+    {
+      "number": "516-2",
+      "word": "pharmacy",
+      "pos": "名詞",
+      "meaning": "薬局、薬学",
+      "nuance": "薬を販売する店、または薬学という学問分野を指します。アメリカでは大型チェーン店が多く、イギリスではchemist's shopとも呼ばれます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I need to pick up my prescription at the pharmacy.",
+              "ja": "薬局で処方箋を受け取る必要がある。",
+              "highlight": "pharmacy"
+            },
+            {
+              "en": "She is studying pharmacy at university.",
+              "ja": "彼女は大学で薬学を学んでいる。",
+              "highlight": "pharmacy"
+            },
+            {
+              "en": "The pharmacy is open 24 hours.",
+              "ja": "その薬局は24時間営業している。",
+              "highlight": "pharmacy"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 pharmakon (薬) <br>→ 薬に関する場所・学問",
+      "synonyms": [
+        {"word": "drugstore", "trans": "薬局（米）"},
+        {"word": "chemist's", "trans": "薬局（英）"},
+        {"word": "apothecary", "trans": "薬局（古語）"}
+      ],
+      "antonyms": [],
+      "related": [
+        {
+          "word": "pharmacist",
+          "trans": "名詞：薬剤師",
+          "link": "516-pharmacist.html"
+        }
+      ]
+    },
+    {
+      "number": 517,
+      "word": "prescription",
+      "pos": "名詞",
+      "meaning": "処方箋、処方薬、指示",
+      "nuance": "医師が患者に処方する薬の指示書、またはその薬自体を指します。「prescription drug（処方薬）」として市販薬と区別されます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The doctor wrote me a prescription for antibiotics.",
+              "ja": "医師は私に抗生物質の処方箋を書いた。",
+              "highlight": "prescription"
+            },
+            {
+              "en": "This medication requires a prescription.",
+              "ja": "この薬には処方箋が必要だ。",
+              "highlight": "prescription"
+            },
+            {
+              "en": "I need to refill my prescription.",
+              "ja": "処方薬を補充する必要がある。",
+              "highlight": "prescription"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 praescriptio (書かれたもの) <br>→ praescribere (前もって書く)",
+      "synonyms": [
+        {"word": "medicine order", "trans": "薬の注文"},
+        {"word": "script", "trans": "処方箋（口語）"}
+      ],
+      "antonyms": [
+        {"word": "over-the-counter", "trans": "市販薬"}
+      ],
+      "related": [
+        {"word": "prescribe", "trans": "動詞：処方する"},
+        {"word": "prescriptive", "trans": "形容詞：規定的な"}
+      ]
+    },
+    {
+      "number": "517-2",
+      "word": "prescribe",
+      "pos": "動詞",
+      "meaning": "〜を処方する、規定する、命じる",
+      "nuance": "医師が患者に薬を処方すること、または規則や方法を定めることを表します。医療と規範設定の両方の文脈で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（処方する）",
+          "examples": [
+            {
+              "en": "The doctor prescribed painkillers for her injury.",
+              "ja": "医師は彼女の怪我に対して鎮痛剤を処方した。",
+              "highlight": "prescribed"
+            },
+            {
+              "en": "What medication did the doctor prescribe?",
+              "ja": "医師はどんな薬を処方しましたか？",
+              "highlight": "prescribe"
+            }
+          ]
+        },
+        {
+          "title": "例文（規定する）",
+          "examples": [
+            {
+              "en": "The law prescribes severe penalties for this offense.",
+              "ja": "法律はこの違反に対して厳しい罰則を規定している。",
+              "highlight": "prescribes"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 praescribere (前もって書く) <br>→ prae (前に) + scribere (書く)",
+      "synonyms": [
+        {"word": "order", "trans": "命じる"},
+        {"word": "recommend", "trans": "推奨する"},
+        {"word": "stipulate", "trans": "規定する"},
+        {"word": "dictate", "trans": "指示する"}
+      ],
+      "antonyms": [
+        {"word": "forbid", "trans": "禁じる"}
+      ],
+      "related": [
+        {
+          "word": "prescription",
+          "trans": "名詞：処方箋",
+          "link": "517-prescription.html"
+        }
+      ]
+    },
+    {
+      "number": 518,
+      "word": "pill",
+      "pos": "名詞",
+      "meaning": "錠剤、丸薬、ピル",
+      "nuance": "小さく丸い形の薬を指します。特に「the pill」と定冠詞をつけると経口避妊薬を意味することが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Take one pill twice a day.",
+              "ja": "1日2回1錠ずつ飲んでください。",
+              "highlight": "pill"
+            },
+            {
+              "en": "She has trouble swallowing pills.",
+              "ja": "彼女は錠剤を飲み込むのに苦労している。",
+              "highlight": "pills"
+            },
+            {
+              "en": "The doctor prescribed sleeping pills.",
+              "ja": "医師は睡眠薬を処方した。",
+              "highlight": "pills"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 pilula (小さな球) <br>→ pila (球) の縮小形",
+      "synonyms": [
+        {"word": "tablet", "trans": "錠剤"},
+        {"word": "capsule", "trans": "カプセル"},
+        {"word": "medication", "trans": "薬"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "pillbox", "trans": "名詞：薬入れ"}
+      ]
+    },
+    {
+      "number": "518-2",
+      "word": "tablet",
+      "pos": "名詞",
+      "meaning": "錠剤、タブレット、板",
+      "nuance": "平たく圧縮された固形の薬を指します。pillよりもやや形式的で、医療文書でよく使われます。また、タブレット端末の意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文（錠剤）",
+          "examples": [
+            {
+              "en": "Dissolve the tablet in water before drinking.",
+              "ja": "飲む前に錠剤を水に溶かしてください。",
+              "highlight": "tablet"
+            },
+            {
+              "en": "Take two tablets with meals.",
+              "ja": "食事と一緒に2錠服用してください。",
+              "highlight": "tablets"
+            }
+          ]
+        },
+        {
+          "title": "例文（タブレット端末）",
+          "examples": [
+            {
+              "en": "She uses a tablet for reading.",
+              "ja": "彼女は読書にタブレットを使っている。",
+              "highlight": "tablet"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 tablete (小さな板) <br>→ ラテン語 tabula (板)",
+      "synonyms": [
+        {"word": "pill", "trans": "錠剤"},
+        {"word": "lozenge", "trans": "トローチ"},
+        {"word": "capsule", "trans": "カプセル"}
+      ],
+      "antonyms": [],
+      "related": [
+        {
+          "word": "pill",
+          "trans": "名詞：錠剤",
+          "link": "518-pill.html"
+        }
+      ]
+    },
+    {
+      "number": "518-3",
+      "word": "capsule",
+      "pos": "名詞",
+      "meaning": "カプセル、被包",
+      "nuance": "薬を包むゼラチン製の容器、または何かを包む小さな容器を指します。宇宙カプセルなど、比喩的にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The medicine comes in capsule form.",
+              "ja": "その薬はカプセルの形で提供される。",
+              "highlight": "capsule"
+            },
+            {
+              "en": "Swallow the capsule whole, don't chew it.",
+              "ja": "カプセルは噛まずに丸ごと飲み込んでください。",
+              "highlight": "capsule"
+            },
+            {
+              "en": "The space capsule returned safely to Earth.",
+              "ja": "宇宙カプセルは無事に地球に帰還した。",
+              "highlight": "capsule"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 capsula (小さな箱) <br>→ capsa (箱) の縮小形",
+      "synonyms": [
+        {"word": "pill", "trans": "錠剤"},
+        {"word": "tablet", "trans": "錠剤"},
+        {"word": "shell", "trans": "殻"}
+      ],
+      "antonyms": [],
+      "related": [
+        {
+          "word": "tablet",
+          "trans": "名詞：錠剤",
+          "link": "518-pill.html"
+        },
+        {
+          "word": "encapsulate", "trans": "動詞：カプセル化する"}
+      ]
+    },
+    {
+      "number": "518-4",
+      "word": "ointment",
+      "pos": "名詞",
+      "meaning": "軟膏、塗り薬",
+      "nuance": "皮膚に塗る油性の薬を指します。クリームよりも油分が多く、傷や皮膚疾患の治療に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Apply the ointment to the affected area twice daily.",
+              "ja": "患部に1日2回軟膏を塗ってください。",
+              "highlight": "ointment"
+            },
+            {
+              "en": "The doctor prescribed an antibiotic ointment.",
+              "ja": "医師は抗生物質の軟膏を処方した。",
+              "highlight": "ointment"
+            },
+            {
+              "en": "This ointment helps heal burns.",
+              "ja": "この軟膏は火傷の治癒を助ける。",
+              "highlight": "ointment"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 oignement (塗る) <br>→ ラテン語 unguentum (軟膏)",
+      "synonyms": [
+        {"word": "salve", "trans": "軟膏"},
+        {"word": "cream", "trans": "クリーム"},
+        {"word": "balm", "trans": "香油"}
+      ],
+      "antonyms": [],
+      "related": [
+        {
+          "word": "capsule",
+          "trans": "名詞：カプセル",
+          "link": "518-pill.html"
+        }
+      ]
+    },
+    {
+      "number": 519,
+      "word": "tranquilizer",
+      "pos": "名詞",
+      "meaning": "精神安定剤、鎮静剤",
+      "nuance": "不安や緊張を和らげる薬を指します。イギリス英語ではtranquiliserと綴ります。医療用と獣医用の両方で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The doctor prescribed a mild tranquilizer.",
+              "ja": "医師は軽い精神安定剤を処方した。",
+              "highlight": "tranquilizer"
+            },
+            {
+              "en": "She takes tranquilizers to help with anxiety.",
+              "ja": "彼女は不安を和らげるために精神安定剤を服用している。",
+              "highlight": "tranquilizers"
+            },
+            {
+              "en": "The veterinarian gave the dog a tranquilizer.",
+              "ja": "獣医は犬に鎮静剤を与えた。",
+              "highlight": "tranquilizer"
+            }
+          ]
+        }
+      ],
+      "etymology": "tranquil (穏やかな) + izer (〜するもの) <br>→ 穏やかにするもの",
+      "synonyms": [
+        {"word": "sedative", "trans": "鎮静剤"},
+        {"word": "calming drug", "trans": "鎮静薬"},
+        {"word": "anxiolytic", "trans": "抗不安薬"}
+      ],
+      "antonyms": [
+        {"word": "stimulant", "trans": "刺激剤"}
+      ],
+      "related": [
+        {"word": "tranquil", "trans": "形容詞：穏やかな"},
+        {"word": "tranquilize", "trans": "動詞：鎮静させる"}
+      ]
+    },
+    {
+      "number": "519-2",
+      "word": "antibiotic",
+      "pos": "名詞/形容詞",
+      "meaning": "抗生物質 / 抗生物質の",
+      "nuance": "細菌感染症を治療するために使われる薬を指します。ウイルスには効かないため、適切な使用が重要です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The doctor prescribed antibiotics for the infection.",
+              "ja": "医師は感染症に対して抗生物質を処方した。",
+              "highlight": "antibiotics"
+            },
+            {
+              "en": "You must complete the full course of antibiotics.",
+              "ja": "抗生物質は最後まで飲みきらなければならない。",
+              "highlight": "antibiotics"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "Antibiotic resistance is a growing concern.",
+              "ja": "抗生物質耐性は高まりつつある懸念事項だ。",
+              "highlight": "Antibiotic"
+            }
+          ]
+        }
+      ],
+      "etymology": "anti (反対) + biotic (生命の) <br>→ 生命に反対する（細菌を殺す）",
+      "synonyms": [
+        {"word": "antimicrobial", "trans": "抗菌薬"},
+        {"word": "antibacterial", "trans": "抗菌剤"}
+      ],
+      "antonyms": [
+        {"word": "probiotic", "trans": "プロバイオティクス"}
+      ],
+      "related": [
+        {
+          "word": "tranquilizer",
+          "trans": "名詞：精神安定剤",
+          "link": "519-tranquilizer.html"
+        }
+      ]
+    },
+    {
+      "number": 520,
+      "word": "vaccine",
+      "pos": "名詞",
+      "meaning": "ワクチン、予防接種",
+      "nuance": "病気を予防するために体内に投与される物質を指します。免疫系を刺激して特定の病気に対する抵抗力を作ります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Scientists developed a vaccine for the disease.",
+              "ja": "科学者たちはその病気のワクチンを開発した。",
+              "highlight": "vaccine"
+            },
+            {
+              "en": "Children should receive all recommended vaccines.",
+              "ja": "子供たちは推奨されるすべてのワクチンを受けるべきだ。",
+              "highlight": "vaccines"
+            },
+            {
+              "en": "The vaccine proved to be highly effective.",
+              "ja": "そのワクチンは非常に効果的であることが証明された。",
+              "highlight": "vaccine"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vaccinus (牛の) <br>→ 牛痘から最初のワクチンが開発された",
+      "synonyms": [
+        {"word": "immunization", "trans": "予防接種"},
+        {"word": "inoculation", "trans": "接種"},
+        {"word": "shot", "trans": "注射（口語）"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "vaccinate", "trans": "動詞：予防接種する"},
+        {"word": "vaccination", "trans": "名詞：予防接種"}
+      ]
+    },
+    {
+      "number": "520-2",
+      "word": "vaccination",
+      "pos": "名詞",
+      "meaning": "予防接種、ワクチン接種",
+      "nuance": "ワクチンを投与する行為や過程を指します。vaccineが物質そのものを指すのに対し、vaccinationは接種という行為を表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Vaccination has saved millions of lives.",
+              "ja": "予防接種は何百万もの命を救ってきた。",
+              "highlight": "Vaccination"
+            },
+            {
+              "en": "She received her flu vaccination yesterday.",
+              "ja": "彼女は昨日インフルエンザの予防接種を受けた。",
+              "highlight": "vaccination"
+            },
+            {
+              "en": "Proof of vaccination is required for travel.",
+              "ja": "旅行には予防接種の証明が必要だ。",
+              "highlight": "vaccination"
+            }
+          ]
+        }
+      ],
+      "etymology": "vaccinate (予防接種する) + ion (名詞語尾) <br>→ 予防接種すること",
+      "synonyms": [
+        {"word": "immunization", "trans": "免疫化"},
+        {"word": "inoculation", "trans": "接種"},
+        {"word": "shot", "trans": "注射（口語）"}
+      ],
+      "antonyms": [],
+      "related": [
+        {
+          "word": "vaccine",
+          "trans": "名詞：ワクチン",
+          "link": "520-vaccine.html"
+        },
+        {
+          "word": "vaccinate", "trans": "動詞：予防接種する"}
+      ]
+    },
+    {
+      "number": 521,
+      "word": "remedy",
+      "pos": "名詞/動詞",
+      "meaning": "治療法、救済策 / 〜を治す、改善する",
+      "nuance": "病気や問題を解決する方法を指します。医学的な治療法だけでなく、社会問題や困難な状況の解決策としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "There is no simple remedy for poverty.",
+              "ja": "貧困には簡単な解決策がない。",
+              "highlight": "remedy"
+            },
+            {
+              "en": "Herbal remedies are becoming more popular.",
+              "ja": "ハーブ療法がますます人気になっている。",
+              "highlight": "remedies"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "We must remedy this situation immediately.",
+              "ja": "この状況を直ちに改善しなければならない。",
+              "highlight": "remedy"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 remedium (治療) <br>→ re (再び) + mederi (癒す)",
+      "synonyms": [
+        {"word": "cure", "trans": "治療法"},
+        {"word": "treatment", "trans": "治療"},
+        {"word": "solution", "trans": "解決策"},
+        {"word": "fix", "trans": "修正する（動詞）"}
+      ],
+      "antonyms": [
+        {"word": "disease", "trans": "病気"},
+        {"word": "problem", "trans": "問題"}
+      ],
+      "related": [
+        {"word": "remedial", "trans": "形容詞：治療の・補習の"}
+      ]
+    },
+    {
+      "number": "521-2",
+      "word": "remedial",
+      "pos": "形容詞",
+      "meaning": "治療の、矯正の、補習の",
+      "nuance": "問題を修正したり、遅れを取り戻すための措置を表します。教育分野では「remedial class（補習クラス）」のように使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She takes remedial classes in mathematics.",
+              "ja": "彼女は数学の補習授業を受けている。",
+              "highlight": "remedial"
+            },
+            {
+              "en": "The company took remedial action to address the problem.",
+              "ja": "会社は問題に対処するための是正措置を取った。",
+              "highlight": "remedial"
+            },
+            {
+              "en": "Remedial exercises can help strengthen weak muscles.",
+              "ja": "矯正運動は弱い筋肉を強化するのに役立つ。",
+              "highlight": "Remedial"
+            }
+          ]
+        }
+      ],
+      "etymology": "remedy (治療法) + ial (形容詞語尾) <br>→ 治療に関する",
+      "synonyms": [
+        {"word": "corrective", "trans": "矯正の"},
+        {"word": "therapeutic", "trans": "治療の"},
+        {"word": "restorative", "trans": "回復の"}
+      ],
+      "antonyms": [
+        {"word": "preventive", "trans": "予防の"},
+        {"word": "advanced", "trans": "上級の（教育）"}
+      ],
+      "related": [
+        {
+          "word": "remedy",
+          "trans": "名詞：治療法",
+          "link": "521-remedy.html"
+        }
+      ]
+    },
+    {
+      "number": "521-3",
+      "word": "diagnosis",
+      "pos": "名詞",
+      "meaning": "診断、診断結果",
+      "nuance": "医師が症状を検査して病気を特定すること、またはその結果を指します。医学以外でも、問題の原因を特定する過程を表すことがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The doctor confirmed the diagnosis of pneumonia.",
+              "ja": "医師は肺炎の診断を確定した。",
+              "highlight": "diagnosis"
+            },
+            {
+              "en": "Early diagnosis can improve treatment outcomes.",
+              "ja": "早期診断は治療結果を改善できる。",
+              "highlight": "diagnosis"
+            },
+            {
+              "en": "She received a diagnosis of diabetes.",
+              "ja": "彼女は糖尿病の診断を受けた。",
+              "highlight": "diagnosis"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 diagnosis (識別) <br>→ dia (通して) + gignoskein (知る)",
+      "synonyms": [
+        {"word": "identification", "trans": "特定"},
+        {"word": "determination", "trans": "判定"},
+        {"word": "assessment", "trans": "評価"}
+      ],
+      "antonyms": [
+        {"word": "misdiagnosis", "trans": "誤診"}
+      ],
+      "related": [
+        {
+          "word": "remedial",
+          "trans": "形容詞：治療の",
+          "link": "521-remedy.html"
+        },
+        {
+          "word": "diagnose", "trans": "動詞：診断する"}
+      ]
+    },
+    {
+      "number": "521-4",
+      "word": "diagnose",
+      "pos": "動詞",
+      "meaning": "〜を診断する、〜の原因を突き止める",
+      "nuance": "症状や兆候を調べて病気や問題を特定することを表します。医学的な診断だけでなく、機械の故障診断などにも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The doctor diagnosed her with bronchitis.",
+              "ja": "医師は彼女を気管支炎と診断した。",
+              "highlight": "diagnosed"
+            },
+            {
+              "en": "It took months to diagnose the rare disease.",
+              "ja": "その珍しい病気を診断するのに数ヶ月かかった。",
+              "highlight": "diagnose"
+            },
+            {
+              "en": "The mechanic diagnosed the problem quickly.",
+              "ja": "整備士はすぐに問題を診断した。",
+              "highlight": "diagnosed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 diagignoskein (識別する) <br>→ dia (通して) + gignoskein (知る)",
+      "synonyms": [
+        {"word": "identify", "trans": "特定する"},
+        {"word": "determine", "trans": "判定する"},
+        {"word": "detect", "trans": "検出する"}
+      ],
+      "antonyms": [
+        {"word": "misdiagnose", "trans": "誤診する"}
+      ],
+      "related": [
+        {
+          "word": "diagnosis",
+          "trans": "名詞：診断",
+          "link": "521-remedy.html"
+        },
+        {
+          "word": "diagnostic", "trans": "形容詞：診断の"}
+      ]
+    },
+    {
+      "number": 522,
+      "word": "medication",
+      "pos": "名詞",
+      "meaning": "薬物治療、投薬、薬",
+      "nuance": "治療のために使用される薬、または薬を投与する行為を指します。medicineよりもやや医学的・専門的な響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Are you taking any medication?",
+              "ja": "何か薬を服用していますか？",
+              "highlight": "medication"
+            },
+            {
+              "en": "The medication should relieve your symptoms.",
+              "ja": "その薬はあなたの症状を和らげるはずです。",
+              "highlight": "medication"
+            },
+            {
+              "en": "She is on medication for high blood pressure.",
+              "ja": "彼女は高血圧の薬を服用中です。",
+              "highlight": "medication"
+            }
+          ]
+        }
+      ],
+      "etymology": "medicate (薬を与える) + ion (名詞語尾) <br>→ 薬を与えること",
+      "synonyms": [
+        {"word": "medicine", "trans": "薬"},
+        {"word": "drug", "trans": "薬物"},
+        {"word": "prescription", "trans": "処方薬"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "medicate", "trans": "動詞：薬を投与する"},
+        {"word": "medicinal", "trans": "形容詞：薬用の"}
+      ]
+    },
+    {
+      "number": "522-2",
+      "word": "medicate",
+      "pos": "動詞",
+      "meaning": "〜に薬を投与する、薬物治療する",
+      "nuance": "病気や症状を治療するために薬を与えることを表します。しばしば受動態で「薬を投与されている」という意味で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The patient was heavily medicated.",
+              "ja": "その患者は大量に投薬されていた。",
+              "highlight": "medicated"
+            },
+            {
+              "en": "The doctor decided to medicate the child's fever.",
+              "ja": "医師は子供の熱を薬で治療することに決めた。",
+              "highlight": "medicate"
+            },
+            {
+              "en": "She medicates herself with herbal remedies.",
+              "ja": "彼女はハーブ療法で自己治療している。",
+              "highlight": "medicates"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 medicare (治療する) <br>→ medicus (医師) から",
+      "synonyms": [
+        {"word": "treat", "trans": "治療する"},
+        {"word": "dose", "trans": "投薬する"},
+        {"word": "administer", "trans": "投与する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {
+          "word": "medication",
+          "trans": "名詞：薬物治療",
+          "link": "522-medication.html"
+        }
+      ]
+    },
+    {
+      "number": "522-3",
+      "word": "injection",
+      "pos": "名詞",
+      "meaning": "注射、注入",
+      "nuance": "針を使って薬液を体内に投与すること、または何かを強制的に注入することを指します。医学以外でも資金注入などの比喩的な意味で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（医学的）",
+          "examples": [
+            {
+              "en": "The nurse gave me an injection.",
+              "ja": "看護師が私に注射をした。",
+              "highlight": "injection"
+            },
+            {
+              "en": "He is afraid of injections.",
+              "ja": "彼は注射が怖い。",
+              "highlight": "injections"
+            }
+          ]
+        },
+        {
+          "title": "例文（比喩的）",
+          "examples": [
+            {
+              "en": "The company needs an injection of cash.",
+              "ja": "会社は資金注入が必要だ。",
+              "highlight": "injection"
+            }
+          ]
+        }
+      ],
+      "etymology": "inject (注入する) + ion (名詞語尾) <br>→ 注入すること",
+      "synonyms": [
+        {"word": "shot", "trans": "注射（口語）"},
+        {"word": "inoculation", "trans": "接種"},
+        {"word": "jab", "trans": "注射（英口語）"}
+      ],
+      "antonyms": [
+        {"word": "extraction", "trans": "抽出"}
+      ],
+      "related": [
+        {
+          "word": "medicate",
+          "trans": "動詞：薬を投与する",
+          "link": "522-medication.html"
+        },
+        {
+          "word": "inject", "trans": "動詞：注射する"}
+      ]
+    },
+    {
+      "number": "522-4",
+      "word": "inject",
+      "pos": "動詞",
+      "meaning": "〜を注射する、注入する、投入する",
+      "nuance": "針を使って液体を体内に入れること、または何かを強制的に導入することを表します。物理的な注入から、比喩的な「活気を注入する」まで幅広く使われます。",
+      "example_sections": [
+        {
+          "title": "例文（注射する）",
+          "examples": [
+            {
+              "en": "The doctor injected the vaccine into her arm.",
+              "ja": "医師は彼女の腕にワクチンを注射した。",
+              "highlight": "injected"
+            },
+            {
+              "en": "Insulin must be injected daily.",
+              "ja": "インスリンは毎日注射しなければならない。",
+              "highlight": "injected"
+            }
+          ]
+        },
+        {
+          "title": "例文（投入する）",
+          "examples": [
+            {
+              "en": "She tried to inject some humor into the conversation.",
+              "ja": "彼女は会話にユーモアを注入しようとした。",
+              "highlight": "inject"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 inicere (投げ込む) <br>→ in (中へ) + jacere (投げる)",
+      "synonyms": [
+        {"word": "administer", "trans": "投与する"},
+        {"word": "introduce", "trans": "導入する"},
+        {"word": "insert", "trans": "挿入する"}
+      ],
+      "antonyms": [
+        {"word": "extract", "trans": "抽出する"},
+        {"word": "withdraw", "trans": "引き出す"}
+      ],
+      "related": [
+        {
+          "word": "injection",
+          "trans": "名詞：注射",
+          "link": "522-medication.html"
+        }
+      ]
+    },
+    {
+      "number": "522-5",
+      "word": "rehabilitation",
+      "pos": "名詞",
+      "meaning": "リハビリテーション、社会復帰、復権",
+      "nuance": "病気や怪我からの回復訓練、または犯罪者や薬物依存者の社会復帰支援を指します。名誉の回復という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（医学的）",
+          "examples": [
+            {
+              "en": "She is undergoing physical rehabilitation.",
+              "ja": "彼女は理学療法のリハビリテーションを受けている。",
+              "highlight": "rehabilitation"
+            },
+            {
+              "en": "The rehabilitation process takes several months.",
+              "ja": "リハビリテーションの過程には数ヶ月かかる。",
+              "highlight": "rehabilitation"
+            }
+          ]
+        },
+        {
+          "title": "例文（社会復帰）",
+          "examples": [
+            {
+              "en": "The program focuses on drug rehabilitation.",
+              "ja": "そのプログラムは薬物中毒者の社会復帰に焦点を当てている。",
+              "highlight": "rehabilitation"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 rehabilitare (復権させる) <br>→ re (再び) + habilitare (適格にする)",
+      "synonyms": [
+        {"word": "recovery", "trans": "回復"},
+        {"word": "restoration", "trans": "回復"},
+        {"word": "therapy", "trans": "治療"}
+      ],
+      "antonyms": [
+        {"word": "deterioration", "trans": "悪化"}
+      ],
+      "related": [
+        {
+          "word": "inject",
+          "trans": "動詞：注射する",
+          "link": "522-medication.html"
+        },
+        {
+          "word": "rehabilitate", "trans": "動詞：リハビリする"}
+      ]
+    },
+    {
+      "number": "522-6",
+      "word": "rehabilitate",
+      "pos": "動詞",
+      "meaning": "〜をリハビリする、社会復帰させる、復権させる",
+      "nuance": "病気や怪我から回復させること、または犯罪者などを社会に再適応させることを表します。建物の修復という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The program helps rehabilitate injured athletes.",
+              "ja": "そのプログラムは負傷したアスリートのリハビリを支援する。",
+              "highlight": "rehabilitate"
+            },
+            {
+              "en": "They are working to rehabilitate former prisoners.",
+              "ja": "彼らは元受刑者の社会復帰のために働いている。",
+              "highlight": "rehabilitate"
+            },
+            {
+              "en": "The old building was rehabilitated and turned into apartments.",
+              "ja": "その古い建物は修復されアパートに変わった。",
+              "highlight": "rehabilitated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 rehabilitare (復権させる) <br>→ re (再び) + habilitare (適格にする)",
+      "synonyms": [
+        {"word": "restore", "trans": "回復させる"},
+        {"word": "recover", "trans": "回復する"},
+        {"word": "reintegrate", "trans": "再統合する"}
+      ],
+      "antonyms": [
+        {"word": "disable", "trans": "無力化する"},
+        {"word": "impair", "trans": "損なう"}
+      ],
+      "related": [
+        {
+          "word": "rehabilitation",
+          "trans": "名詞：リハビリテーション",
+          "link": "522-medication.html"
+        }
+      ]
+    }
+  ]
+}
