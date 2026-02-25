@@ -1,0 +1,1275 @@
+{
+  "words": [
+    {
+      "number": 558,
+      "word": "distort",
+      "pos": "動詞",
+      "meaning": "ゆがめる、ねじ曲げる、ひずませる",
+      "nuance": "物理的な形を無理やり変えるだけでなく、事実や真実を自分に都合がいいように「曲げて伝える」際によく使われます。また、音響機器などで音が割れたり変化したりすることも指します。",
+      "example_sections": [
+        {
+          "title": "例文（事実の歪曲）",
+          "examples": [
+            {
+              "en": "The newspaper was accused of distorting the facts.",
+              "ja": "その新聞社は事実を歪曲したとして非難された。",
+              "highlight": "distorting"
+            }
+          ]
+        },
+        {
+          "title": "例文（物理的・視覚的）",
+          "examples": [
+            {
+              "en": "The mirror distorted her reflection.",
+              "ja": "鏡が彼女の姿をゆがめて映し出した。",
+              "highlight": "distorted"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (離れて/完全に) + torquere (ねじる) <br>→ ひどくねじ曲げる",
+      "synonyms": [
+        {"word": "misrepresent", "trans": "誤って伝える"},
+        {"word": "twist", "trans": "ねじる、曲解する"},
+        {"word": "warp", "trans": "反らせる、ゆがめる"}
+      ],
+      "antonyms": [
+        {"word": "clarify", "trans": "明確にする"},
+        {"word": "straighten", "trans": "真っ直ぐにする"},
+        {"word": "preserve", "trans": "（ありのまま）保存する"}
+      ],
+      "related": [
+        {"word": "distortion", "trans": "名詞：ゆがみ"},
+        {"word": "torture", "trans": "名詞/動詞：拷問（語源：ねじり上げる）"}
+      ]
+    },
+    {
+      "number": 559,
+      "word": "distortion",
+      "pos": "名詞",
+      "meaning": "ゆがみ、歪曲、ひずみ",
+      "nuance": "形や音が本来の状態から崩れていること、または情報が正しく伝わっていない状態そのものを指します。ギターの音をわざとひずませるエフェクター（ディストーション）の名前でもお馴染みです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The story was a complete distortion of the truth.",
+              "ja": "その話は真実を完全に歪曲したものだった。",
+              "highlight": "distortion"
+            },
+            {
+              "en": "Wide-angle lenses can cause some image distortion.",
+              "ja": "広角レンズは画像にいくらかのゆがみを生じさせることがある。",
+              "highlight": "distortion"
+            }
+          ]
+        }
+      ],
+      "etymology": "distortの名詞形",
+      "synonyms": [
+        {"word": "deformation", "trans": "変形"},
+        {"word": "perversion", "trans": "曲解、悪用"},
+        {"word": "falsification", "trans": "偽造、歪曲"}
+      ],
+      "antonyms": [
+        {"word": "accuracy", "trans": "正確さ"},
+        {"word": "fidelity", "trans": "忠実度、再現性"},
+        {"word": "truth", "trans": "真実"}
+      ],
+      "related": [
+        {"word": "distort", "trans": "動詞：ゆがめる"}
+      ]
+    },
+    {
+      "number": 560,
+      "word": "experimental",
+      "pos": "形容詞",
+      "meaning": "実験的な、実験の、試行的な",
+      "nuance": "単に科学実験に関することだけでなく、音楽や芸術において「新しい試みをする（前衛的な）」という意味でも使われます。まだ確立されていない、テスト段階であるというニュアンスを含みます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The drug is still in the experimental stage.",
+              "ja": "その薬はまだ実験段階にある。",
+              "highlight": "experimental"
+            },
+            {
+              "en": "The band is known for their experimental music.",
+              "ja": "そのバンドは実験的な（独創的な試みの）音楽で知られている。",
+              "highlight": "experimental"
+            }
+          ]
+        }
+      ],
+      "etymology": "experiment + al (形容詞語尾) <br>→ 試みる段階の",
+      "synonyms": [
+        {"word": "trial", "trans": "試行の"},
+        {"word": "innovative", "trans": "革新的な"},
+        {"word": "tentative", "trans": "仮の、試験的な"}
+      ],
+      "antonyms": [
+        {"word": "proven", "trans": "証明済みの"},
+        {"word": "established", "trans": "確立された"},
+        {"word": "traditional", "trans": "伝統的な"}
+      ],
+      "related": [
+        {"word": "experiment", "trans": "名詞/動詞：実験"},
+        {"word": "experimentation", "trans": "名詞：実験すること"}
+      ]
+    },
+    {
+      "number": "560-2",
+      "word": "experiment",
+      "pos": "名詞、動詞",
+      "meaning": "実験、試み、実験する",
+      "nuance": "新しい事実を発見したり、仮説を証明したりするために行う活動です。名詞としては「do/conduct an experiment」という形でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We performed an experiment to test the theory.",
+              "ja": "私たちはその理論を検証するために実験を行った。",
+              "highlight": "experiment"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 experiri (試みる、経験する)",
+      "synonyms": [
+        {"word": "test", "trans": "試験"},
+        {"word": "trial", "trans": "試行"},
+        {"word": "research", "trans": "研究"}
+      ],
+      "antonyms": [
+        {"word": "theory", "trans": "理論（実践に対して）"},
+        {"word": "neglect", "trans": "放置"}
+      ],
+      "related": [
+        {"word": "experimental", "trans": "形容詞：実験的な"},
+        {"word": "expert", "trans": "名詞：専門家（経験を積んだ人）"}
+      ]
+    },
+    {
+      "number": 561,
+      "word": "empirical",
+      "pos": "形容詞",
+      "meaning": "経験的な、実証的な、経験主義の",
+      "nuance": "理論や理屈だけではなく、実際に観察したり実験したりして得られた「データや事実に基づいている」ことを強調する際に使われます。科学論文で非常に重要な単語です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There is no empirical evidence to support this claim.",
+              "ja": "この主張を裏付ける実証的な（経験に基づいた）証拠はない。",
+              "highlight": "empirical"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 empeirikos (経験のある) <br>→ en (中に) + peira (試み)",
+      "synonyms": [
+        {"word": "factual", "trans": "事実に基づいた"},
+        {"word": "observational", "trans": "観察による"},
+        {"word": "practical", "trans": "実践的な"}
+      ],
+      "antonyms": [
+        {"word": "theoretical", "trans": "理論上の"},
+        {"word": "speculative", "trans": "推測的な"},
+        {"word": "hypothetical", "trans": "仮説上の"}
+      ],
+      "related": [
+        {"word": "empiricism", "trans": "名詞：経験主義"},
+        {"word": "empirically", "trans": "副詞：実証的に"}
+      ]
+    },
+    {
+      "number": "561-2",
+      "word": "theoretical",
+      "pos": "形容詞",
+      "meaning": "理論上の、理論的な、理屈の",
+      "nuance": "実際の経験や応用ではなく、原理や法則に基づいた「頭の中での組み立て」を指します。「現実にはまだ起こっていないが、理屈では可能」といった文脈でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The research provides a theoretical framework for the study.",
+              "ja": "その研究はこの調査のための理論的枠組みを提供している。",
+              "highlight": "theoretical"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 theoria (観照、沈思黙考) <br>→ じっと見ること",
+      "synonyms": [
+        {"word": "abstract", "trans": "抽象的な"},
+        {"word": "academic", "trans": "学問的な、非実用的な"},
+        {"word": "conceptual", "trans": "概念上の"}
+      ],
+      "antonyms": [
+        {"word": "practical", "trans": "実践的な"},
+        {"word": "applied", "trans": "応用された"},
+        {"word": "empirical", "trans": "実証的な"}
+      ],
+      "related": [
+        {"word": "theory", "trans": "名詞：理論"},
+        {"word": "theorize", "trans": "動詞：理論を立てる"}
+      ]
+    },
+    {
+      "number": 562,
+      "word": "hypothesis",
+      "pos": "名詞",
+      "meaning": "仮説、仮定、前提",
+      "nuance": "まだ証明されていないが、実験や観察の出発点となる「仮の説明」のことです。複数形は hypotheses ($hypotheses$) となります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The scientists are working to test their hypothesis.",
+              "ja": "科学者たちは自分たちの仮説を検証するために取り組んでいる。",
+              "highlight": "hypothesis"
+            }
+          ]
+        }
+      ],
+      "etymology": "hypo (下に) + thesis (置くこと) <br>→ 議論の土台として下に置くもの",
+      "synonyms": [
+        {"word": "theory", "trans": "理論（しばしば仮説の意）"},
+        {"word": "assumption", "trans": "想定"},
+        {"word": "supposition", "trans": "推測、仮定"}
+      ],
+      "antonyms": [
+        {"word": "fact", "trans": "事実"},
+        {"word": "proof", "trans": "証明"},
+        {"word": "certainty", "trans": "確実なこと"}
+      ],
+      "related": [
+        {"word": "hypothetical", "trans": "形容詞：仮説の"},
+        {"word": "thesis", "trans": "名詞：命題、論文"}
+      ]
+    },
+    {
+      "number": 563,
+      "word": "hypothetical",
+      "pos": "形容詞",
+      "meaning": "仮説に基づいた、仮定の、もしもの",
+      "nuance": "現実には起こっていない、あるいは事実かどうかわからないが、検討のために「もし〜だったら」と仮定して考える様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Let's look at a hypothetical situation.",
+              "ja": "仮定の話（もしもの状況）を考えてみましょう。",
+              "highlight": "hypothetical"
+            }
+          ]
+        }
+      ],
+      "etymology": "hypothesis + ical (形容詞語尾)",
+      "synonyms": [
+        {"word": "imaginary", "trans": "架空の"},
+        {"word": "theoretical", "trans": "理論上の"},
+        {"word": "supposed", "trans": "想定された"}
+      ],
+      "antonyms": [
+        {"word": "actual", "trans": "実際の"},
+        {"word": "real", "trans": "現実の"},
+        {"word": "factual", "trans": "事実に基づく"}
+      ],
+      "related": [
+        {"word": "hypothesis", "trans": "名詞：仮説"}
+      ]
+    },
+    {
+      "number": 564,
+      "word": "illumination",
+      "pos": "名詞",
+      "meaning": "照明、照らすこと、解明、啓蒙",
+      "nuance": "物理的に光を当てることだけでなく、難解な問題をわかりやすく説明して「明らかにする（解明する）」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（物理的）",
+          "examples": [
+            {
+              "en": "The street lights provided little illumination.",
+              "ja": "街灯はほとんど照明の用をなしていなかった（暗かった）。",
+              "highlight": "illumination"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (中へ/上に) + lumen (光) <br>→ 光を投げ入れること",
+      "synonyms": [
+        {"word": "lighting", "trans": "照明"},
+        {"word": "enlightenment", "trans": "啓蒙、悟り"},
+        {"word": "clarification", "trans": "解明"}
+      ],
+      "antonyms": [
+        {"word": "darkness", "trans": "暗闇"},
+        {"word": "obscurity", "trans": "不明瞭"},
+        {"word": "shadow", "trans": "影"}
+      ],
+      "related": [
+        {"word": "illuminate", "trans": "動詞：照らす"},
+        {"word": "luminous", "trans": "形容詞：光り輝く"}
+      ]
+    },
+    {
+      "number": "564-2",
+      "word": "illuminate",
+      "pos": "動詞",
+      "meaning": "照らす、解明する、明らかにする",
+      "nuance": "暗い場所を明るくすることから転じて、理解しにくい事実や理論に「光を当てて」分かりやすく説明することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A single candle illuminated the room.",
+              "ja": "一本のろうそくが部屋を照らした。",
+              "highlight": "illuminated"
+            },
+            {
+              "en": "The report helps to illuminate the causes of the crisis.",
+              "ja": "その報告書は危機の原因を解明するのに役立つ。",
+              "highlight": "illuminate"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (上に) + luminare (光を当てる)",
+      "synonyms": [
+        {"word": "light up", "trans": "照らす"},
+        {"word": "clarify", "trans": "明らかにする"},
+        {"word": "explain", "trans": "説明する"}
+      ],
+      "antonyms": [
+        {"word": "darken", "trans": "暗くする"},
+        {"word": "obscure", "trans": "曖昧にする"},
+        {"word": "confuse", "trans": "混乱させる"}
+      ],
+      "related": [
+        {"word": "illumination", "trans": "名詞：照明"}
+      ]
+    },
+    {
+      "number": "564-3",
+      "word": "illuminative",
+      "pos": "形容詞",
+      "meaning": "照らす、解明に役立つ、啓発的な",
+      "nuance": "物事をはっきりさせる性質を持っていることを指します。特に、知的な理解を助けるような説明や例えについて使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The professor gave an illuminative lecture on modern art.",
+              "ja": "教授は現代美術について啓発的な（理解を助ける）講義を行った。",
+              "highlight": "illuminative"
+            }
+          ]
+        }
+      ],
+      "etymology": "illuminate + ive (形容詞語尾)",
+      "synonyms": [
+        {"word": "enlightening", "trans": "啓蒙的な"},
+        {"word": "informative", "trans": "有益な"},
+        {"word": "revealing", "trans": "（事実を）明らかにするような"}
+      ],
+      "antonyms": [
+        {"word": "confusing", "trans": "混乱させる"},
+        {"word": "unclear", "trans": "不明瞭な"}
+      ],
+      "related": [
+        {"word": "illuminate", "trans": "動詞：照らす"}
+      ]
+    },
+    {
+      "number": 565,
+      "word": "inspect",
+      "pos": "動詞",
+      "meaning": "検査する、点検する、詳しく調べる",
+      "nuance": "不備や問題がないかを確認するために、注意深く「中をのぞき込む（見る）」ことを指します。公的な調査や品質管理などでよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The customs officer inspected my luggage.",
+              "ja": "税関職員が私の手荷物を検査した。",
+              "highlight": "inspected"
+            }
+          ]
+        }
+      ],
+      "etymology": "in (中を) + specere (見る) <br>→ 中を詳しく見る",
+      "synonyms": [
+        {"word": "examine", "trans": "調査する"},
+        {"word": "scrutinize", "trans": "綿密に調べる"},
+        {"word": "check", "trans": "確認する"}
+      ],
+      "antonyms": [
+        {"word": "ignore", "trans": "無視する"},
+        {"word": "overlook", "trans": "見逃す"},
+        {"word": "neglect", "trans": "怠る"}
+      ],
+      "related": [
+        {"word": "inspection", "trans": "名詞：点検"},
+        {"word": "inspector", "trans": "名詞：検査官"}
+      ]
+    },
+    {
+      "number": "565-2",
+      "word": "inspection",
+      "pos": "名詞",
+      "meaning": "検査、点検、視察",
+      "nuance": "機械のメンテナンス、工場の安全確認、あるいは軍の閲兵など、組織的・公式に行われる「精査」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The building underwent a safety inspection last month.",
+              "ja": "その建物は先月、安全点検を受けた。",
+              "highlight": "inspection"
+            }
+          ]
+        }
+      ],
+      "etymology": "inspectの名詞形",
+      "synonyms": [
+        {"word": "examination", "trans": "調査"},
+        {"word": "review", "trans": "再点検、審査"},
+        {"word": "audit", "trans": "監査"}
+      ],
+      "antonyms": [
+        {"word": "negligence", "trans": "怠慢、見過ごし"}
+      ],
+      "related": [
+        {"word": "inspect", "trans": "動詞：検査する"}
+      ]
+    },
+    {
+      "number": "565-3",
+      "word": "inspector",
+      "pos": "名詞",
+      "meaning": "検査官、調査官、警部",
+      "nuance": "検査を行う職種の人を指します。警察の階級（警部）や、教育現場の「督学官（視学官）」としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The health inspector visited the restaurant to check for cleanliness.",
+              "ja": "衛生検査官が清潔さを確認するためにレストランを訪れた。",
+              "highlight": "inspector"
+            }
+          ]
+        }
+      ],
+      "etymology": "inspect + or (〜する人)",
+      "synonyms": [
+        {"word": "examiner", "trans": "試験官、調査員"},
+        {"word": "scrutinizer", "trans": "精査する人"},
+        {"word": "officer", "trans": "（警察などの）役人"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "inspect", "trans": "動詞：検査する"}
+      ]
+    },
+    {
+      "number": "565-4",
+      "word": "perspective",
+      "pos": "名詞",
+      "meaning": "見方、視点、遠近法、展望",
+      "nuance": "物理的な「眺め」だけでなく、経験や価値観に基づいた「物事の捉え方（大局的な視点）」を指します。「keep things in perspective」で「大局的に見る（感情に流されず冷静に判断する）」という重要な表現になります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Traveling gives you a new perspective on life.",
+              "ja": "旅行は人生に対する新しい視点を与えてくれる。",
+              "highlight": "perspective"
+            },
+            {
+              "en": "From a historical perspective, this event is quite significant.",
+              "ja": "歴史的観点から見れば、この出来事は非常に重要だ。",
+              "highlight": "perspective"
+            }
+          ]
+        }
+      ],
+      "etymology": "per (通して) + specere (見る) <br>→ 先まで見通すこと",
+      "synonyms": [
+        {"word": "viewpoint", "trans": "観点"},
+        {"word": "outlook", "trans": "展望、考え方"},
+        {"word": "angle", "trans": "角度、切り口"}
+      ],
+      "antonyms": [
+        {"word": "narrow-mindedness", "trans": "視野の狭さ"},
+        {"word": "bias", "trans": "偏見"}
+      ],
+      "related": [
+        {"word": "spectacle", "trans": "名詞：光景"},
+        {"word": "spectator", "trans": "名詞：観客"}
+      ]
+    },
+    {
+      "number": 566,
+      "word": "probe",
+      "pos": "動詞、名詞",
+      "meaning": "（真相などを）突き止める、厳密に調べる、探査機",
+      "nuance": "表面的な調査ではなく、奥深くまで「探りを入れる」というニュアンスです。警察の捜査や科学的な探査、あるいは傷口を細い棒で探るような物理的な動作から転じています。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The committee began to probe the cause of the accident.",
+              "ja": "委員会はその事故の原因を突き止めるために調査を開始した。",
+              "highlight": "probe"
+            },
+            {
+              "en": "NASA launched a space probe to Mars.",
+              "ja": "NASAは火星に向けて宇宙探査機を打ち上げた。",
+              "highlight": "probe"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 probare (試す、証明する) <br>→ 正しさを確かめるために探る",
+      "synonyms": [
+        {"word": "investigate", "trans": "調査する"},
+        {"word": "explore", "trans": "探検する、探る"},
+        {"word": "examine", "trans": "調べる"}
+      ],
+      "antonyms": [
+        {"word": "ignore", "trans": "無視する"},
+        {"word": "overlook", "trans": "見落とす"}
+      ],
+      "related": [
+        {"word": "probation", "trans": "名詞：試験期間"},
+        {"word": "probable", "trans": "形容詞：ありそうな"}
+      ]
+    },
+    {
+      "number": "566-2",
+      "word": "scrutinize",
+      "pos": "動詞",
+      "meaning": "細かく調べる、精査する、吟味する",
+      "nuance": "不備や間違いがないか、非常に注意深く「穴が開くほどじっくり見る」というニュアンスです。契約書、証拠、表情などを詳細に観察する際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He scrutinized the contract before signing it.",
+              "ja": "彼は署名する前に契約書を細かく調べた（精査した）。",
+              "highlight": "scrutinized"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 scruta (ぼろきれ、がらくた) <br>→ がらくたの中から価値のあるものを探す",
+      "synonyms": [
+        {"word": "examine", "trans": "調べる"},
+        {"word": "inspect", "trans": "点検する"},
+        {"word": "pore over", "trans": "熟読する"}
+      ],
+      "antonyms": [
+        {"word": "glance", "trans": "ちらりと見る"},
+        {"word": "skim", "trans": "ざっと目を通す"}
+      ],
+      "related": [
+        {"word": "scrutiny", "trans": "名詞：精密な調査"}
+      ]
+    },
+    {
+      "number": "566-3",
+      "word": "scrutiny",
+      "pos": "名詞",
+      "meaning": "精密な調査、じろじろ見ること、監視",
+      "nuance": "厳しい監視下にある状態や、世間の鋭い注目を浴びている状態を指す際によく使われます。「under close scrutiny（厳しい監視・精査を受けて）」という表現が典型的です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The politician's private life came under public scrutiny.",
+              "ja": "その政治家の私生活は世間の厳しい監視の目にさらされた。",
+              "highlight": "scrutiny"
+            }
+          ]
+        }
+      ],
+      "etymology": "scrutinizeの名詞形",
+      "synonyms": [
+        {"word": "inspection", "trans": "検査"},
+        {"word": "examination", "trans": "調査"},
+        {"word": "observation", "trans": "観察"}
+      ],
+      "antonyms": [
+        {"word": "neglect", "trans": "無視、怠慢"},
+        {"word": "inattention", "trans": "不注意"}
+      ],
+      "related": [
+        {"word": "scrutinize", "trans": "動詞：精査する"}
+      ]
+    },
+    {
+      "number": "566-4",
+      "word": "audit",
+      "pos": "名詞、動詞",
+      "meaning": "（会計などの）監査、検査、監査する、（授業を）聴講する",
+      "nuance": "主に公式な会計検査を指します。第三者が帳簿を厳しくチェックするイメージです。また、大学などで単位を取らずに「授業を聴く（聴講する）」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company underwent an annual financial audit.",
+              "ja": "その会社は年次の財務監査を受けた。",
+              "highlight": "audit"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 audire (聞く) <br>→ 昔、会計報告は口頭で行われ、それを「聞いた」ことに由来",
+      "synonyms": [
+        {"word": "inspection", "trans": "検査"},
+        {"word": "review", "trans": "審査"},
+        {"word": "check", "trans": "点検"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "auditor", "trans": "名詞：会計監査員"},
+        {"word": "audience", "trans": "名詞：聴衆"},
+        {"word": "audio", "trans": "形容詞：音声の"}
+      ]
+    },
+    {
+      "number": 567,
+      "word": "relay",
+      "pos": "動詞、名詞",
+      "meaning": "（情報を）伝える、中継する、リレー競技",
+      "nuance": "受け取ったものを次の人へ「渡す」イメージです。情報やメッセージを次々に伝達することや、電気信号の「継ぎ手（リレー）」、競技のリレーを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please relay this message to the manager.",
+              "ja": "このメッセージをマネージャーに伝えて（つないで）ください。",
+              "highlight": "relay"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 relayer (交代で休む) <br>→ 狩猟で新しい犬を解き放ち、疲れた犬と交代させること",
+      "synonyms": [
+        {"word": "pass on", "trans": "伝える"},
+        {"word": "transmit", "trans": "送る、放送する"},
+        {"word": "communicate", "trans": "伝達する"}
+      ],
+      "antonyms": [
+        {"word": "keep", "trans": "留めておく"},
+        {"word": "withhold", "trans": "（情報を）出さない"}
+      ],
+      "related": [
+        {"word": "layer", "trans": "名詞：層"}
+      ]
+    },
+    {
+      "number": 568,
+      "word": "coil",
+      "pos": "名詞、動詞",
+      "meaning": "（ひも状のものの）輪、巻き、ぐるぐる巻く",
+      "nuance": "ロープ、ワイヤー、ヘビなどが円状に重なっている状態を指します。動詞では、自分自身を丸める際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The snake coiled itself around the branch.",
+              "ja": "ヘビが枝に体を巻き付けた。",
+              "highlight": "coiled"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 colligere (集める) <br>→ 散らばったものを一箇所にまとめる（巻く）",
+      "synonyms": [
+        {"word": "curl", "trans": "巻く"},
+        {"word": "twist", "trans": "ねじる"},
+        {"word": "roll", "trans": "転がす、巻く"}
+      ],
+      "antonyms": [
+        {"word": "unwind", "trans": "（巻きを）解く"},
+        {"word": "straighten", "trans": "真っ直ぐにする"}
+      ],
+      "related": [
+        {"word": "collect", "trans": "動詞：集める"}
+      ]
+    },
+    {
+      "number": "568-2",
+      "word": "loop",
+      "pos": "名詞、動詞",
+      "meaning": "輪、ループ、繰り返しの回路、輪にする",
+      "nuance": "紐を結んで作った「輪」や、同じことを繰り返すサイクルを指します。「keep someone in the loop」で「（プロジェクトなどの）最新情報を常に伝えておく」という慣用句が有名です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please keep me in the loop regarding the progress.",
+              "ja": "進捗状況について、常に私にも情報を共有してください。",
+              "highlight": "loop"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世英語 (詳しい語源は不明だが、結び目に関連)",
+      "synonyms": [
+        {"word": "circle", "trans": "円、周期"},
+        {"word": "ring", "trans": "指輪、輪"},
+        {"word": "cycle", "trans": "周期"}
+      ],
+      "antonyms": [
+        {"word": "line", "trans": "線"},
+        {"word": "end", "trans": "終わり、末端"}
+      ],
+      "related": [
+        {"word": "loophole", "trans": "名詞：（法の）抜け穴"}
+      ]
+    },
+    {
+      "number": 569,
+      "word": "decrease",
+      "pos": "動詞、名詞",
+      "meaning": "減少する、〜を減らす、減少",
+      "nuance": "数量、程度、価値などが「減る」ことを表す最も一般的な言葉です。徐々に、あるいは計画的に減る場合にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The population is projected to decrease over the next decade.",
+              "ja": "人口は今後10年間で減少すると予測されている。",
+              "highlight": "decrease"
+            }
+          ]
+        }
+      ],
+      "etymology": "de (離れて/下へ) + crescere (成長する) <br>→ 成長しなくなる = 減少する",
+      "synonyms": [
+        {"word": "reduce", "trans": "減らす"},
+        {"word": "decline", "trans": "衰退する、減少する"},
+        {"word": "lessen", "trans": "少なくする"}
+      ],
+      "antonyms": [
+        {"word": "increase", "trans": "増加する"},
+        {"word": "expand", "trans": "拡大する"},
+        {"word": "grow", "trans": "成長する"}
+      ],
+      "related": [
+        {"word": "crescent", "trans": "名詞：三日月（成長する月）"}
+      ]
+    },
+    {
+      "number": 570,
+      "word": "dwindle",
+      "pos": "動詞",
+      "meaning": "だんだん減少する、縮小する、衰える",
+      "nuance": "何かが「じわじわと」「次第に」小さくなったり消えていったりするイメージです。資源、貯金、希望、人数などが「先細りになる」ときによく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The town's resources began to dwindle after the mine closed.",
+              "ja": "鉱山が閉鎖された後、その町の資源は次第に底をつき始めた（減少した）。",
+              "highlight": "dwindle"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 dwine (衰える、消える)",
+      "synonyms": [
+        {"word": "diminish", "trans": "減少する"},
+        {"word": "shrink", "trans": "縮む"},
+        {"word": "fade", "trans": "消えていく、衰える"}
+      ],
+      "antonyms": [
+        {"word": "flourish", "trans": "繁栄する"},
+        {"word": "proliferate", "trans": "急増する"},
+        {"word": "swell", "trans": "膨らむ"}
+      ],
+      "related": []
+    },
+    {
+      "number": 571,
+      "word": "erosion",
+      "pos": "名詞",
+      "meaning": "浸食、腐食、侵食、（信頼などの）低下",
+      "nuance": "雨風によって土壌が削られる物理的な「侵食」のほか、価値、権利、信頼などが「少しずつ削り取られていく」比喩的な意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Coastal erosion is a serious problem in this area.",
+              "ja": "海岸の侵食はこの地域において深刻な問題である。",
+              "highlight": "erosion"
+            }
+          ]
+        }
+      ],
+      "etymology": "e (外へ) + rodere (かじる) <br>→ 外側からかじり取る = 侵食する",
+      "synonyms": [
+        {"word": "corrosion", "trans": "腐食"},
+        {"word": "deterioration", "trans": "悪化"},
+        {"word": "wear", "trans": "摩耗"}
+      ],
+      "antonyms": [
+        {"word": "accretion", "trans": "付着、増大"},
+        {"word": "accumulation", "trans": "蓄積"}
+      ],
+      "related": [
+        {"word": "erode", "trans": "動詞：侵食する"},
+        {"word": "rodent", "trans": "名詞：齧歯類（ネズミなど：かじる動物）"}
+      ]
+    },
+    {
+      "number": "571-2",
+      "word": "erosive",
+      "pos": "形容詞",
+      "meaning": "侵食する、腐食性の",
+      "nuance": "表面を徐々に削り取ったり、悪化させたりする性質を持っていることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The erosive action of the wind shaped these rocks over millions of years.",
+              "ja": "風の侵食作用が、何百万年もかけてこれらの岩を形成した。",
+              "highlight": "erosive"
+            }
+          ]
+        }
+      ],
+      "etymology": "erosion + ive (形容詞語尾)",
+      "synonyms": [
+        {"word": "corrosive", "trans": "腐食性の"},
+        {"word": "caustic", "trans": "腐食性の、辛辣な"}
+      ],
+      "antonyms": [
+        {"word": "constructive", "trans": "建設的な"},
+        {"word": "preservative", "trans": "保存する"}
+      ],
+      "related": [
+        {"word": "erosion", "trans": "名詞：侵食"}
+      ]
+    },
+    {
+      "number": "571-3",
+      "word": "diminish",
+      "pos": "動詞",
+      "meaning": "減少する、〜を減らす、過小評価する",
+      "nuance": "サイズ、重要性、力などが「目に見えて小さくなる」ことを表します。価値を低く見積もる（けなす）という文脈でも使われます。dwindleよりも「結果として小さくなる」点に重みがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His influence in the company began to diminish.",
+              "ja": "社内における彼の影響力は衰え（減り）始めた。",
+              "highlight": "diminish"
+            }
+          ]
+        }
+      ],
+      "etymology": "di (完全に/離れて) + minus (より小さい) <br>→ どんどん小さくする",
+      "synonyms": [
+        {"word": "decrease", "trans": "減少する"},
+        {"word": "dwindle", "trans": "だんだん減る"},
+        {"word": "belittle", "trans": "軽視する、けなす"}
+      ],
+      "antonyms": [
+        {"word": "enhance", "trans": "高める、高揚させる"},
+        {"word": "augment", "trans": "増大させる"},
+        {"word": "magnify", "trans": "拡大する"}
+      ],
+      "related": [
+        {"word": "minus", "trans": "形容詞：マイナスの"},
+        {"word": "minimum", "trans": "名詞/形容詞：最小限"}
+      ]
+    },
+    {
+      "number": 572,
+      "word": "gradual",
+      "pos": "形容詞",
+      "meaning": "徐々の、段階的な、緩やかな",
+      "nuance": "急激な変化ではなく、時間をかけて少しずつ進んでいく様子を指します。坂道がなだらかな場合にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We noticed a gradual improvement in his health.",
+              "ja": "私たちは彼の健康状態が徐々に改善していることに気づいた。",
+              "highlight": "gradual"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 gradus (ステップ、階段) <br>→ 一歩ずつの",
+      "synonyms": [
+        {"word": "slow", "trans": "遅い"},
+        {"word": "steady", "trans": "着実な"},
+        {"word": "step-by-step", "trans": "一歩ずつの"}
+      ],
+      "antonyms": [
+        {"word": "sudden", "trans": "突然の"},
+        {"word": "abrupt", "trans": "急激な"},
+        {"word": "steep", "trans": "険しい、急な"}
+      ],
+      "related": [
+        {"word": "grade", "trans": "名詞：学年、等級"},
+        {"word": "graduation", "trans": "名詞：卒業、段階的変化"}
+      ]
+    },
+    {
+      "number": "572-2",
+      "word": "gradually",
+      "pos": "副詞",
+      "meaning": "徐々に、次第に、だんだんと",
+      "nuance": "何かが一気ではなく、プロセスを経て進行する様子を強調します。文章で変化を描写する際に非常に便利な言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The sun gradually disappeared behind the mountains.",
+              "ja": "太陽は次第に山の向こうへ隠れていった。",
+              "highlight": "gradually"
+            }
+          ]
+        }
+      ],
+      "etymology": "gradual + ly (副詞語尾)",
+      "synonyms": [
+        {"word": "slowly", "trans": "ゆっくりと"},
+        {"word": "bit by bit", "trans": "少しずつ"},
+        {"word": "progressively", "trans": "進歩的に、次第に"}
+      ],
+      "antonyms": [
+        {"word": "immediately", "trans": "直ちに"},
+        {"word": "sharply", "trans": "急激に"},
+        {"word": "overnight", "trans": "一晩で、急に"}
+      ],
+      "related": [
+        {"word": "gradual", "trans": "形容詞：徐々の"}
+      ]
+    },
+    {
+      "number": 573,
+      "word": "steep",
+      "pos": "形容詞",
+      "meaning": "（坂などが）急な、険しい、（値段が）法外な",
+      "nuance": "傾斜が垂直に近いことだけでなく、物事の変化（急上昇・急落）が激しい場合や、価格・要求が「高すぎて受け入れがたい」場合にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（傾斜）",
+          "examples": [
+            {
+              "en": "The path up the mountain is very steep.",
+              "ja": "その山に登る道は非常に険しい。",
+              "highlight": "steep"
+            }
+          ]
+        },
+        {
+          "title": "例文（価格）",
+          "examples": [
+            {
+              "en": "The price of the tickets was a bit steep.",
+              "ja": "チケットの価格は少し法外（高すぎ）だった。",
+              "highlight": "steep"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 steap (高い、そびえ立つ)",
+      "synonyms": [
+        {"word": "abrupt", "trans": "急激な"},
+        {"word": "sharp", "trans": "鋭い、急な"},
+        {"word": "excessive", "trans": "過度の（価格など）"}
+      ],
+      "antonyms": [
+        {"word": "gradual", "trans": "緩やかな"},
+        {"word": "flat", "trans": "平らな"},
+        {"word": "reasonable", "trans": "妥当な（価格など）"}
+      ],
+      "related": [
+        {"word": "steepen", "trans": "動詞：急になる"}
+      ]
+    },
+    {
+      "number": 574,
+      "word": "apparently",
+      "pos": "副詞",
+      "meaning": "見たところでは、どうやら〜らしい",
+      "nuance": "外見や聞いた情報から判断するとそのように見える、という状況を指します。真実かどうかは100%確実ではないが、状況証拠からはそう思える、というニュアンスが含まれます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Apparently, the meeting has been canceled.",
+              "ja": "どうやら会議は中止になったらしい。",
+              "highlight": "Apparently"
+            },
+            {
+              "en": "He was apparently happy with the results.",
+              "ja": "彼は見たところ、その結果に満足しているようだった。",
+              "highlight": "apparently"
+            }
+          ]
+        }
+      ],
+      "etymology": "apparent + ly (副詞語尾) <br>→ はっきりと見える状態で",
+      "synonyms": [
+        {"word": "seemingly", "trans": "見たところ"},
+        {"word": "evidently", "trans": "明らかに、見たところ"},
+        {"word": "supposedly", "trans": "たぶん、建前では"}
+      ],
+      "antonyms": [
+        {"word": "actually", "trans": "実際は"},
+        {"word": "really", "trans": "本当に"},
+        {"word": "certainly", "trans": "確実に"}
+      ],
+      "related": [
+        {"word": "apparent", "trans": "形容詞：明白な、見たところの"}
+      ]
+    },
+    {
+      "number": "574-2",
+      "word": "apparent",
+      "pos": "形容詞",
+      "meaning": "明白な、はっきり見える、見た目上の",
+      "nuance": "「誰の目にも明らかな（obvious）」という意味と、「（実際はともかく）表面上はそのように見える」という2つのニュアンスがあります。文脈によって「確信」か「推測」かが分かれます。",
+      "example_sections": [
+        {
+          "title": "例文（明白な）",
+          "examples": [
+            {
+              "en": "It became apparent that they had made a mistake.",
+              "ja": "彼らが間違いを犯したことは明白になった。",
+              "highlight": "apparent"
+            }
+          ]
+        },
+        {
+          "title": "例文（見た目上の）",
+          "examples": [
+            {
+              "en": "Their apparent confidence hid their nervousness.",
+              "ja": "彼らの見た目上の自信は、その緊張を隠していた。",
+              "highlight": "apparent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ad (〜へ) + parere (現れる) <br>→ 目に見えるところに現れている",
+      "synonyms": [
+        {"word": "obvious", "trans": "明白な"},
+        {"word": "clear", "trans": "明らかな"},
+        {"word": "outward", "trans": "外見上の"}
+      ],
+      "antonyms": [
+        {"word": "hidden", "trans": "隠れた"},
+        {"word": "obscure", "trans": "不明瞭な"},
+        {"word": "internal", "trans": "内面的な"}
+      ],
+      "related": [
+        {"word": "appear", "trans": "動詞：現れる"},
+        {"word": "appearance", "trans": "名詞：外見、出現"}
+      ]
+    },
+    {
+      "number": 575,
+      "word": "superficial",
+      "pos": "形容詞",
+      "meaning": "表面的な、浅薄な、（傷などが）浅い",
+      "nuance": "物事の表面（surface）だけに関わっており、本質や深みに欠けることを指します。人の知識が浅い場合や、怪我が皮膚の表面だけである場合などに使われます（多くは否定的な評価）。",
+      "example_sections": [
+        {
+          "title": "例文（知識・態度）",
+          "examples": [
+            {
+              "en": "He has only a superficial knowledge of the subject.",
+              "ja": "彼はその主題について表面的な知識しか持っていない。",
+              "highlight": "superficial"
+            }
+          ]
+        },
+        {
+          "title": "例文（傷）",
+          "examples": [
+            {
+              "en": "The injury was only superficial.",
+              "ja": "その怪我は単なるかすり傷（表面的なもの）だった。",
+              "highlight": "superficial"
+            }
+          ]
+        }
+      ],
+      "etymology": "super (上に) + facies (顔、表面) <br>→ 表面上の",
+      "synonyms": [
+        {"word": "shallow", "trans": "浅い"},
+        {"word": "surface", "trans": "表面の"},
+        {"word": "cursory", "trans": "大急ぎの、雑な"}
+      ],
+      "antonyms": [
+        {"word": "profound", "trans": "深い、深遠な"},
+        {"word": "deep", "trans": "深い"},
+        {"word": "thorough", "trans": "徹底的な"}
+      ],
+      "related": [
+        {"word": "surface", "trans": "名詞：表面"}
+      ]
+    },
+    {
+      "number": 576,
+      "word": "leading",
+      "pos": "形容詞",
+      "meaning": "主要な、第一流の、首位の、誘導する",
+      "nuance": "特定の分野でトップに立っていること、あるいは最も重要な役割を果たしていることを指します。「leading role（主役）」や「leading company（大手企業）」のように使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She is a leading expert in the field of genetics.",
+              "ja": "彼女は遺伝学の分野における第一流の（主要な）専門家だ。",
+              "highlight": "leading"
+            },
+            {
+              "en": "Avoid asking leading questions during the interview.",
+              "ja": "インタビュー中は誘導尋問（答えを誘導する質問）を避けてください。",
+              "highlight": "leading"
+            }
+          ]
+        }
+      ],
+      "etymology": "lead (導く) + ing (現在分詞) <br>→ 前に立って導いている",
+      "synonyms": [
+        {"word": "main", "trans": "主な"},
+        {"word": "primary", "trans": "主要な"},
+        {"word": "foremost", "trans": "真っ先の、主要な"}
+      ],
+      "antonyms": [
+        {"word": "minor", "trans": "重要でない"},
+        {"word": "secondary", "trans": "二次的な"},
+        {"word": "subordinate", "trans": "下位の"}
+      ],
+      "related": [
+        {"word": "lead", "trans": "動詞：導く"},
+        {"word": "leader", "trans": "名詞：指導者"}
+      ]
+    },
+    {
+      "number": 577,
+      "word": "staple",
+      "pos": "名詞、形容詞",
+      "meaning": "主食、主要産物、主要な要素、主要な",
+      "nuance": "生活や産業において欠かせない「基本となるもの」を指します。米やパンなどの「主食（staple food）」が代表例ですが、ホッチキスの針（針で留める）という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文（主食）",
+          "examples": [
+            {
+              "en": "Rice is the staple food in many Asian countries.",
+              "ja": "米は多くの地アジア諸国の主食である。",
+              "highlight": "staple"
+            }
+          ]
+        },
+        {
+          "title": "例文（主要な）",
+          "examples": [
+            {
+              "en": "Action movies are a staple of the summer box office.",
+              "ja": "アクション映画は夏の興行収入の定番（主要なもの）だ。",
+              "highlight": "staple"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世オランダ語 stapel (柱、市場) <br>→ 商品が集まる中心地",
+      "synonyms": [
+        {"word": "principal", "trans": "主要な"},
+        {"word": "basic", "trans": "基本的な"},
+        {"word": "standard", "trans": "標準の、定番の"}
+      ],
+      "antonyms": [
+        {"word": "luxury", "trans": "贅沢品、必須でないもの"},
+        {"word": "extra", "trans": "余分なもの"}
+      ],
+      "related": [
+        {"word": "stapler", "trans": "名詞：ホッチキス"}
+      ]
+    },
+    {
+      "number": 578,
+      "word": "potent",
+      "pos": "形容詞",
+      "meaning": "（薬などが）強力な、効力のある、影響力のある",
+      "nuance": "力（power）が内包されており、強い効果や影響を及ぼすことができる状態を指します。特に薬の効き目や、象徴的なシンボルの持つ力、あるいは説得力のある議論などについて使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "This is a very potent drug with many side effects.",
+              "ja": "これは非常に強力な（効き目の強い）薬で、多くの副作用がある。",
+              "highlight": "potent"
+            },
+            {
+              "en": "He presented a potent argument for change.",
+              "ja": "彼は変革に向けた説得力のある（強力な）議論を提示した。",
+              "highlight": "potent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 potens (力のある) <br>→ 可能性がある、力を持っている",
+      "synonyms": [
+        {"word": "powerful", "trans": "強力な"},
+        {"word": "effective", "trans": "効果的な"},
+        {"word": "influential", "trans": "影響力のある"}
+      ],
+      "antonyms": [
+        {"word": "impotent", "trans": "無力な"},
+        {"word": "weak", "trans": "弱い"},
+        {"word": "ineffective", "trans": "効果のない"}
+      ],
+      "related": [
+        {"word": "potential", "trans": "名詞/形容詞：可能性/潜在的な"},
+        {"word": "potency", "trans": "名詞：効力、権力"}
+      ]
+    }
+  ]
+}
