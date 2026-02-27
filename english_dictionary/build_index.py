@@ -74,6 +74,7 @@ def generate_index():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Dictionary</title>
+    <link rel="icon" href="image/logo.png">
     <style>
         :root { --primary-color: #007bff; --chapter-color: #6c757d; --bg-color: #f4f7f9; }
         body { font-family: sans-serif; background-color: var(--bg-color); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
