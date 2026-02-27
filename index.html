@@ -68,49 +68,55 @@
             box-shadow: 0 6px 12px rgba(0,0,0,0.15);
         }
 
-        .character-container {
+        .chat-container {
             display: flex;
-            align-items: flex-start;
-            gap: 20px;
-            padding: 50px;
-            font-family: sans-serif;
-        }
-        .character {
-            width: 120px; /* サイズはお好みで */
-            height: auto;
+            align-items: center; /* 上下中央揃え（お好みで flex-start に変更可） */
+            gap: 20px;           /* キャラクターと吹き出しの間隔 */
+            padding: 20px;
         }
 
-        /* 吹き出しの本体 */
-        .balloon {
+        /* キャラクター画像 */
+        .character-img {
+            width: 150px;
+            height: auto;
+            flex-shrink: 0;      /* 画面が狭くなっても画像が潰れないように固定 */
+        }
+
+        /* 吹き出し本体 */
+        .speech-bubble {
             position: relative;
-            padding: 20px;
-            background-color: #ffffff;
+            background: #fff;
             border: 3px solid #333;
             border-radius: 15px;
-            max-width: 300px;
+            padding: 15px 20px;
+            font-family: "Helvetica Neue", Arial, sans-serif;
             font-weight: bold;
-            box-shadow: 5px 5px 0px rgba(0,0,0,0.1);
+            box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+            min-width: 100px;
         }
 
-        /* 吹き出しの三角形（しっぽ）部分 */
-        .balloon::before {
+        /* 吹き出しの三角形（外枠：黒） */
+        .speech-bubble::before {
             content: "";
             position: absolute;
-            top: 30px;
-            left: -20px; /* 左側に突き出す */
+            top: 50%;
+            left: -20px;        /* 左側に突き出す */
+            margin-top: -10px;  /* 三角形の高さの半分だけ上にずらして中央へ */
             border-style: solid;
             border-width: 10px 20px 10px 0;
-            border-color: transparent #333 transparent transparent;
+            border-color: transparent #333 transparent transparent; /* 右側だけ色をつける */
         }
 
-        .balloon::after {
+        /* 吹き出しの三角形（内側：白） */
+        .speech-bubble::after {
             content: "";
             position: absolute;
-            top: 30px;
-            left: -15px; /* 枠線の中に白い三角を重ねて穴をあける */
+            top: 50%;
+            left: -15px;        /* 外枠より少し右に配置して枠線を表現 */
+            margin-top: -10px;
             border-style: solid;
             border-width: 10px 20px 10px 0;
-            border-color: transparent #ffffff transparent transparent;
+            border-color: transparent #fff transparent transparent;
         }
     </style>
 </head>
