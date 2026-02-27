@@ -79,6 +79,7 @@ def generate_index():
         body { font-family: sans-serif; background-color: var(--bg-color); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
         .container { width: 100%; max-width: 800px; }
         h1 { color: var(--primary-color); text-align: center; border-bottom: 3px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 15px; }
+        .header-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
         
         /* 演習ページへのボタンリンク */
         .exercise-link {
@@ -141,7 +142,7 @@ def generate_index():
 <div class="container">
     <h1>英単語辞書 データベース</h1>
 
-    <a href="exercise.html" class="exercise-link">📝 演習（クイズ）を始める</a>
+    <a href="exercise.html" class="exercise-link">演習を始める</a>
 
     <nav class="toc">
 """
