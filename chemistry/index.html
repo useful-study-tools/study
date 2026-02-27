@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>化学 | メインメニュー</title>
+    <style>
+        :root { --primary-color: #007bff; --chapter-color: #6c757d; --bg-color: #f4f7f9; }
+        body { font-family: sans-serif; background-color: var(--bg-color); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        h1 { color: var(--primary-color); text-align: center; border-bottom: 3px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 30px; }
+        
+        /* ジャンル別の見出し */
+        .category-header { 
+            background: var(--chapter-color); 
+            color: white; 
+            padding: 10px 15px; 
+            margin: 30px 0 15px 0; 
+            border-radius: 5px; 
+            font-weight: bold; 
+        }
+
+        /* ツール一覧 */
+        .tool-list { list-style: none; padding: 0; }
+        
+        /* ツール項目 */
+        .tool-item { 
+            background: white; 
+            margin-bottom: 12px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+            transition: 0.2s; 
+            border-left: 5px solid var(--primary-color);
+        }
+        .tool-item:hover { transform: translateY(-3px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        
+        .tool-item a { 
+            display: flex; 
+            padding: 18px 20px; 
+            text-decoration: none; 
+            color: #333; 
+            align-items: center; 
+            justify-content: space-between;
+        }
+        
+        .tool-name { font-size: 1.1em; font-weight: bold; color: #333; min-width: 100px; }
+        .tool-description { font-size: 0.85em; color: #666; margin-left: 15px; flex-grow: 1; }
+        .arrow { color: var(--primary-color); font-weight: bold; margin-left: 10px; }
+
+        /* 特設ボタン */
+        .special-link {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 12px 40px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: 0.3s;
+            text-align: center;
+        }
+        .special-link:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>無機化学：元素別解説</h1>
+
+    <div class="category-header">非金属元素</div>
+    <ul class="tool-list">
+        <li class="tool-item">
+            <a href="hydrogen.html">
+                <span class="tool-name">水素 (H)</span>
+                <span class="tool-description">宇宙で最も豊富な元素。還元剤としての性質など。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+        <li class="tool-item">
+            <a href="oxygen.html">
+                <span class="tool-name">酸素 (O)</span>
+                <span class="tool-description">酸化物やオゾンの性質、同素体の違いについて。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+    </ul>
+
+    <div class="category-header">典型金属元素</div>
+    <ul class="tool-list">
+        <li class="tool-item">
+            <a href="sodium.html">
+                <span class="tool-name">ナトリウム (Na)</span>
+                <span class="tool-description">アルカリ金属。炎色反応や水との激しい反応。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+        <li class="tool-item">
+            <a href="aluminum.html">
+                <span class="tool-name">アルミニウム (Al)</span>
+                <span class="tool-description">両性元素の代表格。テルミット反応や不動態。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+    </ul>
+
+    <div class="category-header">遷移金属元素</div>
+    <ul class="tool-list">
+        <li class="tool-item">
+            <a href="iron.html">
+                <span class="tool-name">鉄 (Fe)</span>
+                <span class="tool-description">酸化数による色の変化、錯イオンの形成。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+        <li class="tool-item">
+            <a href="silver.html">
+                <span class="tool-name">銀 (Ag)</span>
+                <span class="tool-description">ハロゲン化銀の感光性やアンモニア錯体の性質。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+        <li class="tool-item">
+            <a href="copper.html">
+                <span class="tool-name">銅 (Cu)</span>
+                <span class="tool-description">青色の硫酸銅(II)水溶液や合金（青銅・黄銅）。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+    </ul>
+
+    <div class="category-header">その他</div>
+    <p style="text-align: center; color: #666; font-size: 0.9em;">※随時、新しい元素を追加予定です。</p>
+
+</div>
+
+</body>
+</html>
