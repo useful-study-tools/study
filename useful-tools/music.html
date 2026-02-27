@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="originalTitle">ランダム音声再生ツール</title>
-    <!-- Tailwind CSSを読み込み -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -24,7 +23,6 @@
 
         .header-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
         
-        /* 再生されていない時にオーディオコントロールを非表示 */
         #audioPlayer:not([src]) {
             display: none;
         }
@@ -41,9 +39,8 @@
         .btn-home:hover { background: #5a6268; }
     </style>
 </head>
-<!-- モバイルでコンテンツが中央に集まるよう、p-4 (全体のパディング) を維持 -->
+
 <body class="p-4 font-sans"> 
-    <!-- メインコンテナの最大幅を max-w-sm (約384px) に縮小し、パディングをp-4に変更 -->
     <div class="max-w-sm mx-auto p-4 rounded-lg space-y-4 border border-gray-200 bg-white/90 backdrop-blur-sm">
         <div class="header-nav">
             <a href="index.html" class="btn-home">便利ツールトップ</a>
