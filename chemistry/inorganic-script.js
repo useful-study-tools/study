@@ -1,22 +1,30 @@
-// 空欄の表示切り替え
 function reveal(element) {
-    const blank = element.querySelector('.blank');
-    if (blank) {
-        blank.classList.toggle('revealed');
-    }
+    element.classList.toggle('revealed');
 }
 
-// スムーズスクロール
-function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
 
-// ボタンの表示制御
-window.onscroll = function() {
-    const btn = document.getElementById("backToTop");
-    if (document.documentElement.scrollTop > 300) {
-        btn.style.display = "flex";
-    } else {
-        btn.style.display = "none";
-    }
-};
+    const blanks = document.querySelectorAll('.blank-container');
+    blanks.forEach(blank => {
+        blank.addEventListener('mouseenter', function() {
+            if (!this.classList.contains('revealed')) {
+                this.style.opacity = '0.8';
+            }
+        });
+        blank.addEventListener('mouseleave', function() {
+            this.style.opacity = '1';
+        });
+    });
+});
