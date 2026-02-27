@@ -43,7 +43,10 @@ https://useful-study-tools.github.io/study/
 ## 🗂️ ファイル構成
 
 ```
-study-tools/
+study/
+├── .github/
+│   └── workflows/
+│       └── generate.yml              # GitHub Actions 自動生成ワークフロー
 ├── index.html                        # トップページ
 ├── english-dictionary/               # 英単語帳ページ
 │   ├── index.html
