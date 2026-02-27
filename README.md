@@ -19,15 +19,15 @@ https://useful-study-tools.github.io/study/
 
 ### 📖 英単語帳ページ
 
-英単語を単語番号で引けるページです。複数の単語帳データをJSONファイルで管理しています。
+英単語を単語番号で引けるページです。複数の単語帳データをJSONファイルで管理しています。`/exercise.html` では単語の演習も行えます。
 
 | 単語番号 | JSONファイル番号 | 対応単語帳 |
 |---|---|---|
-| 1 〜 2000 | `english-dictionary/vocabulary_data.json` 〜 `data__48.json` | 速読英単語 |
+| 1 〜 2000 | `english-dictionary/vocabulary_data_01.json` 〜 `_48.json` | 速読英単語 |
 | 3974 〜 4973 | `english-dictionary/vocabulary_data_51.json` 〜 `_60.json` | 東進上級英単語 |
 | 10001 〜 11935 | `english-dictionary/vocabulary_data_100.json` 〜 `_119.json` | LEAP |
 
-> JSONファイル名の番号は単語帳の通し番号ではなく、ファイル管理用の番号です（例：`vocabulary_data_51.json`）。
+> JSONファイル名の番号は単語帳の通し番号ではなく、ファイル管理用の番号です（例：`vocabulary_data_01.json`）。
 
 ---
 
@@ -47,6 +47,7 @@ study-tools/
 ├── index.html                        # トップページ
 ├── english-dictionary/               # 英単語帳ページ
 │   ├── index.html
+│   ├── exercise.html                 # 演習ページ
 │   ├── vocabulary_data_01.json       # 速読英単語（単語番号 1〜）
 │   ├── vocabulary_data_02.json
 │   ├── ...
@@ -58,7 +59,9 @@ study-tools/
 │   ├── ...
 │   └── vocabulary_data_119.json      # LEAP（〜単語番号 11935）
 ├── tools/                            # 便利ツールまとめページ
-│   └── index.html
+│   ├── index.html                    # ツール一覧
+│   ├── pdf.html                      # PDF編集ツール
+│   └── music.html                    # 音楽再生ツール
 └── README.md
 ```
 
@@ -67,7 +70,22 @@ study-tools/
 ## 🛠️ 使用技術
 
 ```
-HTML / CSS / JavaScript /  Python
+HTML / CSS / JavaScript / Python
+```
+
+---
+
+## 🚀 ローカルで動かす方法
+
+```bash
+# リポジトリをクローン
+git clone https://github.com/useful-study-tools/study.git
+
+# ディレクトリに移動
+cd study
+
+# ブラウザで開く（静的サイトの場合）
+open index.html
 ```
 
 ---
@@ -78,22 +96,18 @@ HTML / CSS / JavaScript /  Python
 
 - **Issue** を立てる（GitHub をお使いの場合）
 - **Pull Request** を送る
-- お問い合わせフォームから連絡する
 
 ---
 
 ## 📌 注意事項
 
 - 掲載しているツールの情報は執筆時点のものです。最新情報は各サービスの公式サイトをご確認ください。
-- 当サイトはアフィリエイト広告を含む場合があります。
 
 ---
 
 ## 👤 作者
 
-- **名前**：your name
-- **Twitter / X**：[@yourhandle](https://twitter.com/yourhandle)
-- **サイト**：https://example.com
+- **名前**：secret🥰
 
 ---
 
