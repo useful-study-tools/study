@@ -159,6 +159,11 @@ def generate_index():
     </style>
 </head>
 <body>
+
+<div class="header-nav">
+    <a href="index.html" class="btn btn-home">ホームに戻る</a>
+</div>
+    
 <div class="container">
     <h1>英単語辞書 データベース</h1>
 
