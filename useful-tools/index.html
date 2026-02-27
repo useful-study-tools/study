@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>勉強ツールまとめ</title>
+    <style>
+        :root { --primary-color: #007bff; --chapter-color: #6c757d; --bg-color: #f4f7f9; }
+        body { font-family: sans-serif; background-color: var(--bg-color); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        h1 { color: var(--primary-color); text-align: center; border-bottom: 3px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 30px; }
+        
+        /* ジャンル別の見出し（既存のchapter-headerを流用） */
+        .category-header { 
+            background: var(--chapter-color); 
+            color: white; 
+            padding: 10px 15px; 
+            margin: 30px 0 15px 0; 
+            border-radius: 5px; 
+            font-weight: bold; 
+        }
+
+        /* ツール一覧（既存のword-listを流用） */
+        .tool-list { list-style: none; padding: 0; }
+        
+        /* ツール項目（既存のword-itemを流用） */
+        .tool-item { 
+            background: white; 
+            margin-bottom: 12px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+            transition: 0.2s; 
+            border-left: 5px solid var(--primary-color);
+        }
+        .tool-item:hover { transform: translateY(-3px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        
+        .tool-item a { 
+            display: flex; 
+            padding: 18px 20px; 
+            text-decoration: none; 
+            color: #333; 
+            align-items: center; 
+            justify-content: space-between;
+        }
+        
+        .tool-name { font-size: 1.1em; font-weight: bold; color: #333; }
+        .tool-description { font-size: 0.85em; color: #666; margin-left: 15px; flex-grow: 1; }
+        .arrow { color: var(--primary-color); font-weight: bold; margin-left: 10px; }
+
+        /* 特設ボタン（演習ページなど目立たせたいもの） */
+        .special-link {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 12px 40px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .special-link:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        /* フッター付近 */
+        footer { margin-top: 50px; text-align: center; color: #888; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>勉強ツールまとめ</h1>
+
+    <div class="category-header">英語</div>
+    <div class="tool-list">
+        <div class="tool-item">
+            <a href="english_dictionary/index.html">
+                <span class="tool-name">英単語帳</span>
+                <span class="tool-description">速単　LEAP etc…</span>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="category-header">？？</div>
+    <div class="tool-list">
+        <div class="tool-item">
+            <a href="#">
+                <span class="tool-name">？？</span>
+                <span class="tool-description">coming soon</span>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="category-header">その他</div>
+    <a href="#" class="special-link">ランダム演習モード</a>
+
+</div>
+
+</body>
+</html>
