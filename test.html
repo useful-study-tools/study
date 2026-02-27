@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <style>
+        /* キャラクターと吹き出しのコンテナ */
+        .container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 50px;
+            font-family: sans-serif;
+        }
+
+        /* キャラクター画像 */
+        .character {
+            width: 200px; /* サイズはお好みで */
+            height: auto;
+        }
+
+        /* 吹き出しの本体 */
+        .balloon {
+            position: relative;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 3px solid #333;
+            border-radius: 15px;
+            max-width: 300px;
+            font-weight: bold;
+            box-shadow: 5px 5px 0px rgba(0,0,0,0.1);
+        }
+
+        /* 吹き出しの三角形（しっぽ）部分 */
+        .balloon::before {
+            content: "";
+            position: absolute;
+            top: 30px;
+            left: -20px; /* 左側に突き出す */
+            border-style: solid;
+            border-width: 10px 20px 10px 0;
+            border-color: transparent #333 transparent transparent;
+        }
+
+        .balloon::after {
+            content: "";
+            position: absolute;
+            top: 30px;
+            left: -15px; /* 枠線の中に白い三角を重ねて穴をあける */
+            border-style: solid;
+            border-width: 10px 20px 10px 0;
+            border-color: transparent #ffffff transparent transparent;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="IMG_8365.jpg" alt="character" class="character">
+    
+    <div class="balloon">
+        test message test message test message
+    </div>
+</div>
+
+</body>
+</html>
