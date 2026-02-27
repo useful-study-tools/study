@@ -1,16 +1,10 @@
-## 編集中だからまたあとで見てね👋
-
----
-
-## 📚 勉強ツールまとめ
+# 📚 勉強ツールまとめ
 
 学習効率を上げるためのツール・サービスを厳選してまとめたサイトです。
 
----
-
 ## 🌐 サイトURL
 
-https://useful-study-tools.github.io/study/
+https://example.com （※ご自身のURLに変更してください）
 
 ---
 
@@ -21,14 +15,58 @@ https://useful-study-tools.github.io/study/
 
 ---
 
-## 📂 カテゴリ一覧
+## 📂 ページ構成
 
-- **フラッシュカード・暗記系** — Anki、Quizlet など
-- **タイマー・集中管理系** — Pomodoro Timer、Forest など
-- **ノート・メモ系** — Notion、Obsidian、Evernote など
-- **問題集・学習コンテンツ系** — Khan Academy、スタディサプリ など
-- **語学学習系** — Duolingo、Anki、HelloTalk など
-- **スケジュール・進捗管理系** — Studyplus、Toggl など
+### 📖 英単語帳ページ
+
+英単語を単語番号で引けるページです。複数の単語帳データをJSONファイルで管理しています。
+
+| 単語番号 | JSONファイル番号 | 対応単語帳 |
+|---|---|---|
+| 1 〜 2000 | `english-dictionary/vocabulary_data_01.json` 〜 `_48.json` | 速読英単語 |
+| 3974 〜 4973 | `english-dictionary/vocabulary_data_51.json` 〜 `_60.json` | 東進上級英単語 |
+| 10001 〜 11935 | `english-dictionary/vocabulary_data_100.json` 〜 `_119.json` | LEAP |
+
+> JSONファイル名の番号は単語帳の通し番号ではなく、ファイル管理用の番号です（例：`vocabulary_data_01.json`）。
+
+---
+
+### 🛠️ 便利ツールまとめページ
+
+日常の学習・作業で役立つWebツールをまとめたページです。
+
+- **PDF編集ツール** — PDFの結合・分割・圧縮・変換などができるツールを紹介
+- **音楽再生ツール** — 作業BGMや集中用ミュージックを手軽に流せるツールを紹介
+
+---
+
+## 🗂️ ファイル構成
+
+```
+study-tools/
+├── index.html                        # トップページ
+├── english-dictionary/               # 英単語帳ページ
+│   ├── index.html
+│   ├── vocabulary_data_01.json       # 速読英単語（単語番号 1〜）
+│   ├── vocabulary_data_02.json
+│   ├── ...
+│   ├── vocabulary_data_48.json       # 速読英単語（〜単語番号 2000）
+│   ├── vocabulary_data_51.json       # 東進上級英単語（単語番号 3974〜）
+│   ├── ...
+│   ├── vocabulary_data_60.json       # 東進上級英単語（〜単語番号 4973）
+│   ├── vocabulary_data_100.json      # LEAP（単語番号 10001〜）
+│   ├── ...
+│   └── vocabulary_data_119.json      # LEAP（〜単語番号 11935）
+├── tools/                            # 便利ツールまとめページ
+│   └── index.html
+├── css/                              # スタイルシート
+│   └── style.css
+├── js/                               # JavaScript
+│   └── main.js
+└── README.md
+```
+
+> ※ 実際のファイル構成に合わせて適宜修正してください。
 
 ---
 
@@ -86,17 +124,9 @@ open index.html
 
 このリポジトリのコードは [MIT License](LICENSE) のもとで公開しています。  
 掲載コンテンツ（文章・画像）の無断転載はご遠慮ください。
-<!--
-**useful-study-tools/useful-study-tools** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🕒 最終更新
+
+2026年2月27日
