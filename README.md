@@ -23,11 +23,11 @@ https://useful-study-tools.github.io/study/
 
 | 単語番号 | JSONファイル番号 | 対応単語帳 |
 |---|---|---|
-| 1 〜 2000 | `english-dictionary/vocabulary_data_01.json` 〜 `_48.json` | 速読英単語 |
+| 1 〜 2000 | `english-dictionary/vocabulary_data.json` 〜 `data__48.json` | 速読英単語 |
 | 3974 〜 4973 | `english-dictionary/vocabulary_data_51.json` 〜 `_60.json` | 東進上級英単語 |
 | 10001 〜 11935 | `english-dictionary/vocabulary_data_100.json` 〜 `_119.json` | LEAP |
 
-> JSONファイル名の番号は単語帳の通し番号ではなく、ファイル管理用の番号です（例：`vocabulary_data_01.json`）。
+> JSONファイル名の番号は単語帳の通し番号ではなく、ファイル管理用の番号です（例：`vocabulary_data_51.json`）。
 
 ---
 
@@ -59,38 +59,15 @@ study-tools/
 │   └── vocabulary_data_119.json      # LEAP（〜単語番号 11935）
 ├── tools/                            # 便利ツールまとめページ
 │   └── index.html
-├── css/                              # スタイルシート
-│   └── style.css
-├── js/                               # JavaScript
-│   └── main.js
 └── README.md
 ```
-
-> ※ 実際のファイル構成に合わせて適宜修正してください。
 
 ---
 
 ## 🛠️ 使用技術
 
 ```
-HTML / CSS / JavaScript
-```
-
-（※実際の技術スタックに合わせて変更してください）
-
----
-
-## 🚀 ローカルで動かす方法
-
-```bash
-# リポジトリをクローン
-git clone https://github.com/yourusername/study-tools.git
-
-# ディレクトリに移動
-cd study-tools
-
-# ブラウザで開く（静的サイトの場合）
-open index.html
+HTML / CSS / JavaScript /  Python
 ```
 
 ---
@@ -117,13 +94,6 @@ open index.html
 - **名前**：your name
 - **Twitter / X**：[@yourhandle](https://twitter.com/yourhandle)
 - **サイト**：https://example.com
-
----
-
-## 📄 ライセンス
-
-このリポジトリのコードは [MIT License](LICENSE) のもとで公開しています。  
-掲載コンテンツ（文章・画像）の無断転載はご遠慮ください。
 
 ---
 
