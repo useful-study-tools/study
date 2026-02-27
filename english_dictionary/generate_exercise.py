@@ -99,14 +99,34 @@ def generate_html():
         .blank-input.correct {{ color: var(--success); border-color: var(--success); }}
         .blank-input.wrong {{ color: var(--danger); border-color: var(--danger); }}
         .feedback {{ margin-top: 15px; font-weight: bold; font-size: 1.1rem; min-height: 1.5em; text-align: center; }}
+        .header-top { width: 100%; display: flex; justify-content: flex-start; margin-bottom: 15px; }
+
+.btn-home {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #6c757d;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.btn-home:hover {
+    background-color: #5a6268;
+    transform: translateY(-1px);
+}
     </style>
 </head>
 <body>
 
 <div class="container">
+    <div class="header-top">
+        <a href="index.html" class="btn-home">ホームに戻る</a>
+    </div>
     <div class="header">
         <h1>単語演習</h1>
-        <a href="index.html" class="home-link">🏠 ホームへ戻る</a>
     </div>
 
     <div id="loadingStatus" style="text-align:center; padding: 40px; color: var(--primary);">
