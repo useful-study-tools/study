@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>銀(Ag)の化学的性質</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-nav">
+            <a href="../index.html" class="btn btn-home">化学</a>
+        </div>
+
+        <h1>銀(Ag)の化学的性質</h1>
+
+        <section id="basics">
+            <h2>基本情報</h2>
+            <ul>
+                <li><strong>元素記号:</strong> Ag (ラテン語 Argentum より)</li>
+                <li><strong>原子番号:</strong> 47</li>
+                <li><strong>電子配置:</strong> [Kr]4d¹⁰5s¹</li>
+                <li><strong>酸化数:</strong> +1(銀イオン Ag⁺)が主</li>
+                <li><strong>常温での状態:</strong> 銀白色の金属(金属光沢が最も強い)</li>
+            </ul>
+        </section>
+
+        <section id="production">
+            <h2>銀の製法</h2>
+            <p style="font-size: 14px; color: #666; margin-bottom: 15px;">※ 各項目をクリックすると反応式が表示されます</p>
+            
+            <h3>1. 乾式製錬法</h3>
+            <ul class="quiz-list">
+                <li onclick="reveal(this)">
+                    <span class="blank-container">
+                        <span class="number">(1)</span> 硫化銀の焙焼: 
+                        <span class="blank">2Ag₂S + 3O₂ → 2Ag₂O + 2SO₂</span>
+                    </span>
+                </li>
+                <li onclick="reveal(this)">
+                    <span class="blank-container">
+                        <span class="number">(2)</span> 酸化銀の熱分解: 
+                        <span class="blank">2Ag₂O → 4Ag + O₂</span>
+                    </span>
+                </li>
+            </ul>
+
+            <h3>2. 青化法(シアン化法)</h3>
+            <ul class="quiz-list">
+                <li onclick="reveal(this)">
+                    <span class="blank-container">
+                        <span class="number">(4)</span> 銀の溶解: 
+                        <span class="blank">4Ag + 8NaCN + O₂ + 2H₂O → 4Na[Ag(CN)₂] + 4NaOH</span>
+                    </span>
+                </li>
+                <li onclick="reveal(this)">
+                    <span class="blank-container">
+                        <span class="number">(5)</span> 亜鉛による還元: 
+                        <span class="blank">2[Ag(CN)₂]⁻ + Zn → [Zn(CN)₄]²⁻ + 2Ag</span>
+                    </span>
+                </li>
+            </ul>
+        </section>
+
+        
+
+        <section id="precipitates">
+            <h2>銀イオンの沈殿反応</h2>
+            <ul class="quiz-list">
+                <li onclick="reveal(this)">
+                    <span class="blank-container">
+                        <span class="number">(25)</span> Ag⁺ + Cl⁻: 
+                        <span class="blank">AgCl↓ (白色沈殿)</span>
+                    </span>
+                </li>
+                <li onclick="reveal(this)">
+                    <span class="blank-container">
+                        <span class="number">(26)</span> Ag⁺ + Br⁻: 
+                        <span class="blank">AgBr↓ (淡黄色沈殿)</span>
+                    </span>
+                </li>
+                <li onclick="reveal(this)">
+                    <span class="blank-container">
+                        <span class="number">(27)</span> Ag⁺ + I⁻: 
+                        <span class="blank">AgI↓ (黄色沈殿)</span>
+                    </span>
+                </li>
+            </ul>
+        </section>
+
+        
+
+        <section id="compounds">
+            <h2>銀鏡反応</h2>
+            <p>アルデヒドの還元性を利用した重要な検出反応です。</p>
+            <ul class="quiz-list">
+                <li onclick="reveal(this)">
+                    <span class="blank-container">
+                        <span class="number">(35)</span> 反応式: 
+                        <span class="blank">RCHO + 2[Ag(NH₃)₂]⁺ + 2OH⁻ → RCOO⁻ + 2Ag↓ + 4NH₃ + H₂O</span>
+                    </span>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <button id="backToTop" onclick="scrollToTop()">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
