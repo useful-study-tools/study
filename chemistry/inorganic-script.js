@@ -1,7 +1,4 @@
-/**
- * 空欄をクリックした際に、中身を表示・非表示にする関数
- * @param {HTMLElement} element - クリックされたli要素
- */
+// 空欄の表示切り替え
 function reveal(element) {
     const blank = element.querySelector('.blank');
     if (blank) {
@@ -9,24 +6,17 @@ function reveal(element) {
     }
 }
 
-/**
- * ページトップへスムーズにスクロールする関数
- */
+// スムーズスクロール
 function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-/**
- * スクロール位置に応じて「トップへ戻る」ボタンの表示を切り替え
- */
+// ボタンの表示制御
 window.onscroll = function() {
-    const topButton = document.getElementById("backToTop");
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        topButton.style.display = "flex";
+    const btn = document.getElementById("backToTop");
+    if (document.documentElement.scrollTop > 300) {
+        btn.style.display = "flex";
     } else {
-        topButton.style.display = "none";
+        btn.style.display = "none";
     }
 };
