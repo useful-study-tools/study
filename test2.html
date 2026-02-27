@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title id="originalTitle">ランダム音声再生ツール</title>
+<link rel="icon" href="../image/logo.png">
+
+<style>
+
+:root{
+--primary-color:#007bff;
+--bg-color:#f4f7f9;
+}
+
+body{
+font-family:sans-serif;
+background:var(--bg-color);
+margin:0;
+padding:20px;
+display:flex;
+justify-content:center;
+}
+
+.container{
+width:100%;
+max-width:800px;
+}
+
+h1{
+color:var(--primary-color);
+border-bottom:3px solid var(--primary-color);
+padding-bottom:10px;
+}
+
+.btn-home{
+display:inline-block;
+margin-bottom:20px;
+padding:8px 20px;
+background:#6c757d;
+color:white;
+text-decoration:none;
+border-radius:20px;
+font-weight:bold;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 2px 4px rgba(0,0,0,.05);
+}
+
+button{
+padding:8px 14px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
+}
+
+#playButton{
+background:var(--primary-color);
+color:white;
+}
+
+#status{
+background:#eef5ff;
+border:1px solid #cfe2ff;
+padding:8px;
+margin:10px 0;
+border-radius:6px;
+text-align:center;
+}
+
+audio{
+width:100%;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<a href="index.html" class="btn-home">便利ツールへ戻る</a>
+
+<div class="card">
+
+<h1>音声再生ツール</h1>
+
+<input type="file" id="fileInput" multiple accept="audio/*">
+
+<select id="playMode">
+<option value="sequential">並び替え順</option>
+<option value="random">完全ランダム</option>
+</select>
+
+<br><br>
+
+<button id="playButton" disabled>
+<span id="playButtonText">連続再生開始</span>
+</button>
+
+<button id="stopButton" disabled>停止</button>
+
+<div id="status">ファイルを選択してください。</div>
+
+<audio id="audioPlayer" controls playsinline></audio>
+
+</div>
+</div>
+
+<script>
+
+/* ========= 基本変数 ========= */
+
+const fileInput=document.getElementById('fileInput');
+const playButton=document.getElementById('playButton');
+const stopButton=document.getElementById('stopButton');
+const playModeSelect=document.getElementById('playMode');
+const status=document.getElementById('status');
+const audioPlayer=document.getElementById('audioPlayer');
+const playButtonText=document.getElementById('playButtonText');
+const originalTitleElement=document.getElementById('originalTitle');
+
+let audioFiles=[];
+let playbackList=[];
+let currentIndex=0;
+let isPlaying=false;
+let playMode='sequential';
+
+const appTitle=originalTitleElement.textContent;
+
+/* ========= ファイル読込 ========= */
+
+fileInput.addEventListener('change',e=>{
+
+audioFiles=[...e.target.files];
+
+if(audioFiles.length){
+playButton.disabled=false;
+status.textContent=`${audioFiles.length}個読み込みました`;
+}else{
+resetState();
+}
+
+});
+
+/* ========= MediaSession登録 ========= */
+
+function registerMediaSession(file){
+
+if(!('mediaSession'in navigator))return;
+
+navigator.mediaSession.metadata=
+new MediaMetadata({
+title:file.name,
+artist:"音声再生ツール"
+});
+
+navigator.mediaSession.setActionHandler('play',()=>{
+audioPlayer.play();
+});
+
+navigator.mediaSession.setActionHandler('pause',()=>{
+audioPlayer.pause();
+});
+
+navigator.mediaSession.setActionHandler('nexttrack',()=>{
+nextTrack();
+});
+
+navigator.mediaSession.setActionHandler('previoustrack',()=>{
+currentIndex=
+(currentIndex-1+playbackList.length)%playbackList.length;
+playCurrent();
+});
+
+}
+
+/* ========= 再生 ========= */
+
+function playCurrent(){
+
+if(!isPlaying)return;
+
+const file=playbackList[currentIndex];
+
+/* ⭐ Blob URL完全禁止 */
+audioPlayer.srcObject=null;
+audioPlayer.src=URL.createObjectURL(file);
+
+audioPlayer.play().then(()=>{
+
+status.textContent=
+`再生中 ${file.name}`;
+
+document.title=`▶ ${file.name}`;
+
+registerMediaSession(file);
+
+}).catch(()=>{});
+
+}
+
+/* ========= 次曲 ========= */
+
+function nextTrack(){
+
+currentIndex++;
+
+if(currentIndex>=playbackList.length){
+
+currentIndex=0;
+
+if(playMode==='random'){
+playbackList=
+[...audioFiles].sort(()=>Math.random()-0.5);
+}
+
+}
+
+playCurrent();
+}
+
+audioPlayer.addEventListener('ended',nextTrack);
+
+/* ========= iOS復帰対策 ========= */
+
+document.addEventListener('visibilitychange',()=>{
+if(!document.hidden&&isPlaying){
+audioPlayer.play().catch(()=>{});
+}
+});
+
+/* ========= 再生開始 ========= */
+
+playButton.onclick=()=>{
+
+playbackList=
+playMode==='random'
+?[...audioFiles].sort(()=>Math.random()-0.5)
+:[...audioFiles];
+
+currentIndex=0;
+isPlaying=true;
+
+playButton.disabled=true;
+stopButton.disabled=false;
+
+playCurrent();
+};
+
+/* ========= 停止 ========= */
+
+stopButton.onclick=resetState;
+
+function resetState(){
+
+isPlaying=false;
+
+audioPlayer.pause();
+audioPlayer.removeAttribute('src');
+audioPlayer.load();
+
+document.title=appTitle;
+
+playButton.disabled=audioFiles.length===0;
+stopButton.disabled=true;
+
+status.textContent="停止しました";
+}
+
+/* ========= iOS Audio Freeze完全防止 ========= */
+
+audioPlayer.addEventListener('play',()=>{
+audioPlayer.play().catch(()=>{});
+});
+
+</script>
+
+</body>
+</html>
