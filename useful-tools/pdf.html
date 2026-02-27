@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF編集ツール</title>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .upload-section { border: 2px dashed #007bff; background: #fff; padding: 20px; text-align: center; border-radius: 10px; margin-bottom: 20px; }
+        #pageContainer { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; }
+        
+        .page-card { 
+            background: white; border-radius: 8px; padding: 10px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: relative;
+            touch-action: none; 
+        }
+        .page-card canvas { width: 100%; border: 1px solid #eee; pointer-events: none; }
+        
+        .drag-handle {
+            background: #eee; text-align: center; cursor: grab;
+            padding: 5px; margin-bottom: 8px; border-radius: 4px;
+            font-weight: bold; color: #666; font-size: 18px;
+        }
+
+        .controls { position: sticky; top: 10px; z-index: 100; text-align: center; margin-bottom: 20px; display: none; background: rgba(240,242,245,0.9); padding: 10px; }
+        .btn { padding: 12px 20px; border: none; border-radius: 25px; cursor: pointer; font-weight: bold; margin: 0 5px; }
+        .btn-save { background: #007bff; color: white; }
+        .btn-undo { background: #6c757d; color: white; }
+        .btn-undo:disabled { background: #ccc; cursor: not-allowed; }
+        .btn-delete { background: #ff4d4d; color: white; border-radius: 5px; width: 100%; margin-top: 5px; }
+        
+        .sortable-ghost { opacity: 0.3; }
+    </style>
+</head>
+<body>
+
+    <div class="upload-section">
+        <h3>PDF 編集ツール</h3>
+        <input type="file" id="pdfInput" accept="application/pdf" multiple>
+    </div>
+
+    <div class="controls" id="controls">
+        <button class="btn btn-undo" id="undoBtn" disabled>↩ 元に戻す</button>
+        <button class="btn btn-save" id="downloadBtn">PDFを保存</button>
+    </div>
+
+    <div id="pageContainer"></div>
+
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js';
+
+        const pageContainer = document.getElementById('pageContainer');
+        const controls = document.getElementById('controls');
+        const undoBtn = document.getElementById('undoBtn');
+        
+        let allPageData = {}; // IDをキーにデータを保持
+        let historyStack = []; // 並び順の履歴スタック
+
+        // 状態を保存
+        function saveState() {
+            const currentOrder = [...pageContainer.querySelectorAll('.page-card')].map(c => c.dataset.id);
+            // 直近と同じ状態なら保存しない
+            if (historyStack.length > 0 && JSON.stringify(historyStack[historyStack.length - 1]) === JSON.stringify(currentOrder)) return;
+            
+            historyStack.push(currentOrder);
+            if (historyStack.length > 20) historyStack.shift(); // 最大20回まで保存
+            undoBtn.disabled = historyStack.length <= 1;
+        }
+
+        // 並び替えライブラリ
+        new Sortable(pageContainer, {
+            handle: '.drag-handle',
+            animation: 150,
+            ghostClass: 'sortable-ghost',
+            onEnd: () => saveState() // ドラッグ終了時に保存
+        });
+
+        // ファイル読み込み
+        document.getElementById('pdfInput').addEventListener('change', async (e) => {
+            const files = Array.from(e.target.files);
+            for (const file of files) {
+                const arrayBuffer = await file.arrayBuffer();
+                const pdfLibDoc = await PDFLib.PDFDocument.load(arrayBuffer);
+                const pdfJsDoc = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+
+                for (let i = 1; i <= pdfJsDoc.numPages; i++) {
+                    const page = await pdfJsDoc.getPage(i);
+                    const viewport = page.getViewport({ scale: 0.2 });
+                    const canvas = document.createElement('canvas');
+                    await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
+
+                    const pageId = 'id-' + Math.random().toString(36).substr(2, 9);
+                    allPageData[pageId] = { pdfLibDoc, pageIndex: i - 1, canvas };
+
+                    addPageToDOM(pageId, i);
+                }
+            }
+            saveState();
+            controls.style.display = 'block';
+        });
+
+        function addPageToDOM(id, labelNum) {
+            const data = allPageData[id];
+            const card = document.createElement('div');
+            card.className = 'page-card';
+            card.dataset.id = id;
+            card.innerHTML = `
+                <div class="drag-handle">⠿</div>
+                <div style="font-size:10px; margin-bottom:5px;">P.${labelNum}</div>
+                <button class="btn-delete" onclick="removeCard('${id}')">削除</button>
+            `;
+            card.prepend(data.canvas.cloneNode(true)); // 表示用にコピー
+            pageContainer.appendChild(card);
+        }
+
+        window.removeCard = (id) => {
+            const card = document.querySelector(`[data-id="${id}"]`);
+            if (card) {
+                card.remove();
+                saveState();
+            }
+        };
+
+        // Undo機能
+        undoBtn.addEventListener('click', () => {
+            if (historyStack.length <= 1) return;
+            
+            historyStack.pop(); // 現在の状態を捨てる
+            const previousOrder = historyStack[historyStack.length - 1];
+            
+            // DOMを一度空にして再構築
+            pageContainer.innerHTML = '';
+            previousOrder.forEach(id => {
+                // 元々のページ番号を特定（簡易的）
+                addPageToDOM(id, "?"); 
+            });
+            
+            undoBtn.disabled = historyStack.length <= 1;
+        });
+
+        // 保存
+        document.getElementById('downloadBtn').addEventListener('click', async () => {
+            const mergedPdf = await PDFLib.PDFDocument.create();
+            const cards = [...pageContainer.querySelectorAll('.page-card')];
+            
+            for (const card of cards) {
+                const data = allPageData[card.dataset.id];
+                const [copiedPage] = await mergedPdf.copyPages(data.pdfLibDoc, [data.pageIndex]);
+                mergedPdf.addPage(copiedPage);
+            }
+
+            const pdfBytes = await mergedPdf.save();
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(new Blob([pdfBytes], { type: 'application/pdf' }));
+            link.download = 'edited.pdf';
+            link.click();
+        });
+    </script>
+</body>
+</html>
