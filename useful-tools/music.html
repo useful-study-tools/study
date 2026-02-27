@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,74 +8,38 @@
 
     <style>
 
-        html {
-            -webkit-text-size-adjust: 100%;
+        :root {
+            --primary-color: #007bff;
+            --chapter-color: #6c757d;
+            --bg-color: #f4f7f9;
         }
 
         body {
-            font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN', Meiryo, メイリオ, sans-serif;
-            line-height: 1.5;
+            font-family: sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
             padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .container {
+            width: 100%;
             max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
 
         h1 {
-            color: #007bff;
+            color: var(--primary-color);
             text-align: center;
-            border-bottom: 3px solid #007bff;
+            border-bottom: 3px solid var(--primary-color);
             padding-bottom: 10px;
-            margin-bottom: 25px;
-        }
-
-        label {
-            font-weight: bold;
-        }
-
-        input,
-        select,
-        button {
-            font-family: inherit;
-            padding: 8px;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-            margin-top: 5px;
-        }
-
-        button {
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        button:hover {
-            transform: translateY(-1px);
-        }
-
-        .btn-primary {
-            background-color: #007bff;
-            color: white;
-            border: none;
-        }
-
-        .btn-primary:hover {
-            background-color: #0056b3;
-        }
-
-        .btn-secondary {
-            background-color: #e0e0e0;
+            margin-bottom: 20px;
         }
 
         .btn-home {
             display: inline-block;
+            margin-bottom: 20px;
             padding: 8px 20px;
             background-color: #6c757d;
             color: white;
@@ -86,29 +49,90 @@
             font-size: 0.9rem;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             transition: 0.3s;
-            margin-bottom: 15px;
         }
 
         .btn-home:hover {
             background-color: #5a6268;
+            transform: translateY(-1px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
 
-        #status {
-            margin-top: 15px;
-            padding: 10px;
-            background-color: #eef5ff;
-            border: 1px solid #c8ddff;
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            padding: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 12px;
+        }
+
+        input[type="file"],
+        select {
+            width: 100%;
+            padding: 8px;
             border-radius: 6px;
+            border: 1px solid #ccc;
+            margin-top: 5px;
+        }
+
+        button {
+            padding: 8px 14px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        #playButton {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        #playButton:hover {
+            background: #0062cc;
+        }
+
+        #stopButton {
+            background: #e0e0e0;
+        }
+
+        #stopButton:hover {
+            background: #cfcfcf;
+        }
+
+        #status {
             text-align: center;
+            background: #eef5ff;
+            border: 1px solid #cfe2ff;
+            padding: 8px;
+            border-radius: 6px;
+            margin: 12px 0;
+            font-size: 0.9rem;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
         }
 
         #playlistDiv {
-            margin-top: 20px;
-            border: 1px solid #ccc;
-            border-radius: 6px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
             padding: 15px;
-            background-color: #fafafa;
+            margin-top: 10px;
+        }
+
+        #playlist-ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            max-height: 200px;
+            overflow-y: auto;
         }
 
         #playlist-ul li {
@@ -116,24 +140,30 @@
             justify-content: space-between;
             align-items: center;
             padding: 8px;
-            border-bottom: 1px solid #ddd;
+            border-radius: 6px;
+            border: 1px solid #eee;
+            margin-bottom: 6px;
+            background: white;
         }
 
         .move-btn {
-            padding: 4px 8px;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-            background: #f0f0f0;
-            margin-left: 4px;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: #f1f1f1;
         }
 
         .move-btn:hover {
-            background: #ddd;
+            background: #e0e0e0;
         }
 
-        audio {
-            width: 100%;
-            margin-top: 15px;
+        .sort-buttons {
+            text-align: right;
+            margin-top: 10px;
+        }
+
+        #audioPlayer:not([src]) {
+            display: none;
         }
 
     </style>
@@ -141,52 +171,255 @@
 
 <body>
 
-<a href="index.html" class="btn-home">便利ツールへ戻る</a>
-
 <div class="container">
 
-    <h1>音声再生ツール</h1>
+    <a href="index.html" class="btn-home">便利ツールへ戻る</a>
 
-    <p>
-        ファイルを選択し、モードを選択後、「再生開始」を押してください。
-        リストはボタンで並び替え可能です。
-    </p>
+    <div class="card">
 
-    <label for="fileInput">音声ファイルを選択:</label><br>
-    <input type="file" id="fileInput" multiple accept=".mp3,.wav,.ogg,.m4a,audio/*">
+        <h1>音声再生ツール</h1>
 
-    <br><br>
+        <p>
+            ファイルを選択し、モードを選択後、「再生開始」を押してください。
+            リストはボタンで並び替え可能です。
+        </p>
 
-    <label>モード:</label><br>
-    <select id="playMode">
-        <option value="sequential">並び替え順</option>
-        <option value="random">完全ランダム</option>
-    </select>
+        <label for="fileInput">音声ファイルを選択:</label>
+        <input type="file" id="fileInput" multiple accept=".mp3,.wav,.ogg,.m4a,audio/*">
 
-    <br><br>
+        <label for="playMode">モード:</label>
+        <select id="playMode">
+            <option value="sequential">並び替え順</option>
+            <option value="random">完全ランダム</option>
+        </select>
 
-    <button id="playButton" class="btn-primary" disabled>
-        <span id="playButtonText">連続再生開始</span>
-    </button>
+        <div style="display:flex; gap:10px; margin-top:12px;">
+            <button id="playButton" disabled>
+                <span id="playButtonText">連続再生開始</span>
+            </button>
 
-    <button id="stopButton" class="btn-secondary" disabled>
-        停止
-    </button>
+            <button id="stopButton" disabled>
+                停止
+            </button>
+        </div>
 
-    <div id="status">
-        ファイルを選択してください。
-    </div>
+        <div id="status">
+            ファイルを選択してください。
+        </div>
 
-    <audio id="audioPlayer" controls></audio>
+        <audio id="audioPlayer" controls></audio>
 
-    <div style="margin-top:15px;">
-        <button id="sortAlpha" class="btn-secondary">名前順ソート</button>
-        <button id="sortOriginal" class="btn-secondary">選択順に戻す</button>
-    </div>
+        <div class="sort-buttons">
+            <button id="sortAlpha">名前順ソート</button>
+            <button id="sortOriginal">選択順に戻す</button>
+        </div>
 
-    <div id="playlistDiv">
-        <h3>プレイリスト:</h3>
-        <ul id="playlist-ul"></ul>
+        <div id="playlistDiv">
+            <h3>プレイリスト:</h3>
+            <ul id="playlist-ul"></ul>
+        </div>
+
     </div>
 
 </div>
+
+<script>
+const fileInput = document.getElementById('fileInput');
+const playButton = document.getElementById('playButton');
+const stopButton = document.getElementById('stopButton');
+const playModeSelect = document.getElementById('playMode');
+const sortAlphaButton = document.getElementById('sortAlpha');
+const sortOriginalButton = document.getElementById('sortOriginal');
+const status = document.getElementById('status');
+const audioPlayer = document.getElementById('audioPlayer');
+const playlistUl = document.getElementById('playlist-ul');
+const playButtonText = document.getElementById('playButtonText');
+const originalTitleElement = document.getElementById('originalTitle');
+
+let audioFiles = [];
+let originalOrder = [];
+let playbackList = [];
+let currentIndex = 0;
+let isPlaying = false;
+let playMode = 'sequential';
+const appTitle = originalTitleElement.textContent;
+
+fileInput.addEventListener('change', function(event) {
+    audioFiles = Array.from(event.target.files);
+    originalOrder = [...audioFiles];
+
+    if (audioFiles.length > 0) {
+        playButton.disabled = false;
+        status.textContent = `${audioFiles.length}個のファイルを選択しました。`;
+        updatePlaylist();
+        playButtonText.textContent = '連続再生開始';
+    } else {
+        resetState();
+    }
+});
+
+function resetState() {
+    isPlaying = false;
+    currentIndex = 0;
+    audioPlayer.pause();
+    audioPlayer.currentTime = 0;
+
+    if (audioPlayer.src) {
+        URL.revokeObjectURL(audioPlayer.src);
+        audioPlayer.src = '';
+    }
+
+    document.title = appTitle;
+
+    playButton.disabled = audioFiles.length === 0;
+    stopButton.disabled = true;
+    status.textContent =
+        audioFiles.length > 0
+            ? `${audioFiles.length}個のファイルが読み込まれました。`
+            : 'ファイルを選択してください。';
+
+    if (audioFiles.length === 0) {
+        playlistUl.innerHTML = '';
+    }
+
+    playButtonText.textContent = '連続再生開始';
+}
+
+function moveItem(fromIndex, toIndex) {
+    if (
+        fromIndex < 0 ||
+        fromIndex >= audioFiles.length ||
+        toIndex < 0 ||
+        toIndex >= audioFiles.length
+    ) return;
+
+    [audioFiles[fromIndex], audioFiles[toIndex]] =
+        [audioFiles[toIndex], audioFiles[fromIndex]];
+
+    updatePlaylist();
+    status.textContent = 'プレイリストの順序を変更しました。';
+}
+
+function updatePlaylist() {
+    playlistUl.innerHTML = '';
+
+    audioFiles.forEach((file, index) => {
+
+        const li = document.createElement('li');
+
+        const fileInfo = document.createElement('div');
+        fileInfo.style.flex = '1';
+        fileInfo.textContent = `${index + 1}. ${file.name}`;
+
+        const controls = document.createElement('div');
+
+        const up = document.createElement('button');
+        up.className = 'move-btn';
+        up.textContent = '↑';
+        up.disabled = index === 0;
+        up.onclick = () => moveItem(index, index - 1);
+
+        const down = document.createElement('button');
+        down.className = 'move-btn';
+        down.textContent = '↓';
+        down.disabled = index === audioFiles.length - 1;
+        down.onclick = () => moveItem(index, index + 1);
+
+        controls.appendChild(up);
+        controls.appendChild(down);
+
+        li.appendChild(fileInfo);
+        li.appendChild(controls);
+
+        playlistUl.appendChild(li);
+    });
+}
+
+sortAlphaButton.onclick = () => {
+    audioFiles.sort((a, b) => a.name.localeCompare(b.name, 'ja'));
+    updatePlaylist();
+    status.textContent = 'ファイル名順にソートしました。';
+};
+
+sortOriginalButton.onclick = () => {
+    audioFiles = originalOrder.map(f =>
+        audioFiles.find(x => x === f)
+    );
+    updatePlaylist();
+    status.textContent = '元の選択順に戻しました。';
+};
+
+playModeSelect.onchange = function() {
+    playMode = this.value;
+};
+
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
+function playNext() {
+    if (!isPlaying || playbackList.length === 0) return;
+
+    const selectedFile = playbackList[currentIndex];
+    const url = URL.createObjectURL(selectedFile);
+
+    if (audioPlayer.src) URL.revokeObjectURL(audioPlayer.src);
+
+    audioPlayer.src = url;
+
+    audioPlayer.play().then(() => {
+        status.textContent =
+            `再生中: ${selectedFile.name} (${currentIndex + 1}/${playbackList.length})`;
+        document.title = `▶ ${selectedFile.name}`;
+    });
+}
+
+function handleTrackEnd() {
+    currentIndex++;
+
+    if (currentIndex >= playbackList.length) {
+        currentIndex = 0;
+        if (playMode === 'random')
+            playbackList = shuffleArray([...audioFiles]);
+    }
+
+    if (isPlaying) playNext();
+}
+
+audioPlayer.addEventListener('ended', handleTrackEnd);
+
+playButton.onclick = () => {
+    playbackList =
+        playMode === 'random'
+            ? shuffleArray([...audioFiles])
+            : [...audioFiles];
+
+    currentIndex = 0;
+    isPlaying = true;
+    playButton.disabled = true;
+    stopButton.disabled = false;
+
+    playNext();
+};
+
+stopButton.onclick = () => {
+    resetState();
+    status.textContent = '再生を停止しました。';
+};
+
+window.addEventListener('beforeunload', () => {
+    if (audioPlayer.src)
+        URL.revokeObjectURL(audioPlayer.src);
+});
+
+updatePlaylist();
+resetState();
+</script>
+
+</body>
+</html>
