@@ -8,9 +8,13 @@
         :root { --primary-color: #007bff; --chapter-color: #6c757d; --bg-color: #f4f7f9; }
         body { font-family: sans-serif; background-color: var(--bg-color); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
         .container { width: 100%; max-width: 800px; }
+        
+        /* ヘッダーエリアのレイアウト調整 */
+        .header-top { width: 100%; display: flex; justify-content: flex-start; margin-bottom: 10px; }
+        
         h1 { color: var(--primary-color); text-align: center; border-bottom: 3px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 30px; }
         
-        /* ジャンル別の見出し（既存のchapter-headerを流用） */
+        /* ジャンル別の見出し */
         .category-header { 
             background: var(--chapter-color); 
             color: white; 
@@ -20,10 +24,10 @@
             font-weight: bold; 
         }
 
-        /* ツール一覧（既存のword-listを流用） */
+        /* ツール一覧 */
         .tool-list { list-style: none; padding: 0; }
         
-        /* ツール項目（既存のword-itemを流用） */
+        /* ツール項目 */
         .tool-item { 
             background: white; 
             margin-bottom: 12px; 
@@ -47,42 +51,43 @@
         .tool-description { font-size: 0.85em; color: #666; margin-left: 15px; flex-grow: 1; }
         .arrow { color: var(--primary-color); font-weight: bold; margin-left: 10px; }
 
-        /* 特設ボタン（演習ページなど目立たせたいもの） */
-        .special-link {
-            display: block;
-            width: fit-content;
-            margin: 20px auto;
-            padding: 12px 40px;
-            background-color: #28a745;
+        /* ホームに戻るボタン（special-linkをベースに調整） */
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
             color: white;
             text-decoration: none;
-            border-radius: 30px;
+            border-radius: 20px;
             font-weight: bold;
-            font-size: 1.1rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             transition: 0.3s;
         }
-        .special-link:hover {
-            background-color: #218838;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
 
-        /* フッター付近 */
         footer { margin-top: 50px; text-align: center; color: #888; font-size: 0.8rem; }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <div class="header-top">
+        <a href="../index.html" class="btn-home">ホームに戻る</a>
+    </div>
+
     <h1>勉強ツールまとめ</h1>
 
-    <div class="category-header">英語</div>
+    <div class="category-header">便利ツール</div>
     <div class="tool-list">
         <div class="tool-item">
             <a href="pdf.html">
-                <span class="tool-name">英単語帳</span>
-                <span class="tool-description">速単　LEAP etc…</span>
+                <span class="tool-name">PDF編集</span>
+                <span class="tool-description">並び替え、削除、保存</span>
                 <span class="arrow">→</span>
             </a>
         </div>
@@ -98,9 +103,6 @@
             </a>
         </div>
     </div>
-
-    <div class="category-header">ホームに戻る</div>
-    <a href="../index.html" class="special-link">ホームへ戻る</a>
 
 </div>
 
