@@ -136,6 +136,26 @@ def generate_index():
             cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); display: none;
             align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
         }
+
+        /* ホームに戻るボタン（special-linkをベースに調整） */
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
     </style>
 </head>
 <body>
