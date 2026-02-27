@@ -161,7 +161,7 @@ def generate_index():
 <body>
 
 <div class="header-nav">
-    <a href="index.html" class="btn btn-home">ホームに戻る</a>
+    <a href="../index.html" class="btn btn-home">ホームに戻る</a>
 </div>
     
 <div class="container">
