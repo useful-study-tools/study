@@ -1,11 +1,11 @@
-## Hi there 👋
+### 編集中だからまたあとでね👋
 # 📚 勉強ツールまとめ
 
 学習効率を上げるためのツール・サービスを厳選してまとめたサイトです。
 
 ## 🌐 サイトURL
 
-https://example.com （※ご自身のURLに変更してください）
+https://useful-study-tools.github.io/study/
 
 ---
 
