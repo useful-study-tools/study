@@ -141,6 +141,7 @@ def generate_index():
         /* ホームに戻るボタン（special-linkをベースに調整） */
         .btn-home {
             display: inline-block;
+            margin-bottom: 20px;
             padding: 8px 20px;
             background-color: #6c757d;
             color: white;
@@ -160,12 +161,9 @@ def generate_index():
     </style>
 </head>
 <body>
-
-<div class="header-nav">
-    <a href="../index.html" class="btn btn-home">ホームに戻る</a>
-</div>
     
 <div class="container">
+    <a href="../index.html" class="btn btn-home">ホームに戻る</a>
     <h1>英単語辞書 データベース</h1>
 
     <a href="exercise.html" class="exercise-link">演習を始める</a>
