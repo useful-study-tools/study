@@ -1,179 +1,203 @@
-/* --- 変数設定（ご提示のスタイルに準拠） --- */
-:root {
-    --primary-color: #007bff;
-    --chapter-color: #6c757d;
-    --bg-color: #f4f7f9;
-    --text-color: #333;
-    --container-width: 800px;
-    --accent-red: #e63946; /* クイズ番号・強調用 */
-}
-
-/* --- 全体レイアウト --- */
-body {
-    font-family: sans-serif;
-    background-color: var(--bg-color);
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: var(--text-color);
+/* =========================================
+   基本レイアウト（PDF編集ツールのスタイルを継承）
+   ========================================= */
+body { 
+    font-family: sans-serif; 
+    padding: 20px; 
+    background-color: #f8f9fa; 
+    margin: 0; 
+    color: #333;
     line-height: 1.6;
 }
 
-.container {
-    width: 100%;
-    max-width: var(--container-width);
+.container { 
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
-/* --- ヘッダー・ナビゲーション --- */
-h1 {
-    color: var(--primary-color);
-    text-align: center;
-    border-bottom: 3px solid var(--primary-color);
-    padding-bottom: 10px;
-    margin-bottom: 30px;
+/* ヘッダー・ナビゲーションエリア */
+.header-nav { 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    margin-bottom: 20px; 
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-nav ul li a {
-    display: inline-block;
-    padding: 8px 20px;
-    background-color: var(--chapter-color);
-    color: white;
-    text-decoration: none;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 0.9rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+/* =========================================
+   ボタン・コントロール
+   ========================================= */
+.btn { 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 14px; 
     transition: 0.3s;
 }
 
-nav ul li a:hover {
-    background-color: #5a6268;
+/* ホーム・戻るボタン（PDFツールと同一仕様） */
+.btn-home { 
+    background: #6c757d; 
+    color: white; 
+}
+
+.btn-home:hover { 
+    background: #5a6268; 
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
-/* --- セクション・カードデザイン --- */
-section {
-    background: white;
-    margin-bottom: 25px;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+/* トップへ戻るボタン */
+#backToTop { 
+    position: fixed; 
+    bottom: 30px; 
+    right: 30px; 
+    width: 50px; 
+    height: 50px; 
+    background: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 50%; 
+    display: none; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 24px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+    z-index: 1000;
 }
 
-h2 {
-    font-size: 1.25rem;
-    font-weight: bold;
+/* =========================================
+   コンテンツ・セクション（カードデザイン）
+   ========================================= */
+h1 { 
+    color: #007bff; 
+    text-align: center; 
+    border-bottom: 3px solid #007bff; 
+    padding-bottom: 10px; 
+    margin-bottom: 30px; 
+}
+
+section { 
+    background: white; 
+    border-radius: 10px; 
+    padding: 25px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+    margin-bottom: 25px; 
+}
+
+h2 { 
+    border-left: 5px solid #007bff; 
+    padding-left: 12px; 
+    margin-bottom: 15px; 
+    font-size: 1.25rem; 
     color: #333;
-    margin-top: 0;
-    margin-bottom: 15px;
-    border-left: 5px solid var(--primary-color);
-    padding-left: 12px;
 }
 
-h3 {
-    color: var(--primary-color);
-    font-size: 1.1rem;
-    margin-top: 20px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 5px;
+h3 { 
+    color: #6c757d; 
+    font-size: 1.1rem; 
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 5px; 
+    margin-top: 25px;
 }
 
-h4 {
-    color: var(--chapter-color);
-    margin-bottom: 8px;
+/* リストスタイル */
+ul { padding-left: 20px; }
+li { margin-bottom: 10px; }
+strong { color: #007bff; }
+
+/* =========================================
+   クイズ（空欄補充）機能
+   ========================================= */
+.quiz-list { 
+    list-style: none; 
+    padding: 0; 
 }
 
-/* --- リスト・テキスト --- */
-ul {
-    padding-left: 20px;
+/* 各質問項目をカード風に */
+.quiz-list li { 
+    background: #fdfdfd; 
+    border: 1px solid #f0f2f5; 
+    padding: 15px; 
+    border-radius: 8px; 
+    margin-bottom: 12px; 
+    cursor: pointer; 
+    transition: 0.2s; 
+    display: flex;
+    align-items: center;
 }
 
-li {
-    margin-bottom: 10px;
-}
-
-strong {
-    color: var(--primary-color);
-}
-
-/* --- クイズ(空欄)部分：単語リストのアイテム風 --- */
-.quiz-list {
-    list-style: none;
-    padding: 0;
-}
-
-.quiz-list li {
-    background: #f8f9fa;
-    margin-bottom: 8px;
-    padding: 12px 15px;
-    border-radius: 8px;
-    border-left: 4px solid #dce3e9;
-    font-size: 0.95rem;
+.quiz-list li:hover { 
+    background: #f8f9fa; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .blank-container {
-    cursor: pointer;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 5px;
 }
 
-.number {
+/* 番号バッジ */
+.number { 
+    color: white; 
+    background: #ff4d4d; 
+    border-radius: 50%; 
+    min-width: 24px; 
+    height: 24px; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 12px; 
     font-weight: bold;
-    color: white;
-    background-color: var(--accent-red);
-    min-width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.75rem;
+    margin-right: 10px; 
+}
+
+/* 空欄（隠し文字） */
+.blank { 
+    background: #ffebeb; 
+    color: transparent; 
+    padding: 2px 10px; 
+    border-radius: 4px; 
+    border-bottom: 2px solid #ff4d4d; 
+    transition: all 0.3s ease; 
     font-family: monospace;
+    font-weight: bold;
+    user-select: none; /* 隠れている時はコピー不可 */
 }
 
-.blank {
-    background-color: #ffe5e5; /* 隠れている時の色 */
-    color: transparent;
-    padding: 2px 10px;
-    border-radius: 4px;
-    border-bottom: 2px solid var(--accent-red);
-    transition: 0.2s;
-    user-select: none;
-}
-
-/* クリックで表示された時 */
-.blank.revealed {
-    background-color: #fff0f0;
-    color: var(--accent-red);
+/* クリックして表示された時の状態 */
+.blank.revealed { 
+    color: #ff4d4d; 
+    background: #fffafa; 
     user-select: auto;
 }
 
-/* --- 特設メッセージボックス --- */
-div[style*="background-color: #e8f4f8"] {
-    background-color: #f0f4f8 !important;
-    border: 1px solid #dce3e9 !important;
-    color: var(--primary-color) !important;
-    border-radius: 10px !important;
-    font-size: 0.9rem;
+/* 画像用プレースホルダー */
+.image-placeholder {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid #eee;
 }
 
-/* --- レスポンシブ --- */
+/* =========================================
+   レスポンシブ対応
+   ========================================= */
 @media (max-width: 600px) {
     body { padding: 10px; }
     section { padding: 15px; }
-    .blank { display: block; margin-top: 5px; min-width: 100%; box-sizing: border-box; }
+    .blank { 
+        display: block; 
+        margin-top: 5px; 
+        min-width: 100%; 
+        box-sizing: border-box; 
+    }
 }
