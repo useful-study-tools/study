@@ -150,7 +150,6 @@ def generate_html():
         
         <div style="display:flex; gap:10px; margin-top:20px;">
             <button class="btn" style="background:#6c757d; flex:1;" onclick="location.reload()">演習をやり直す</button>
-            <a href="index.html" class="btn" style="background:#444; flex:1; text-decoration:none; text-align:center; line-height:1.2;">ホームに戻る</a>
         </div>
     </div>
 </div>
