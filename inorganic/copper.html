@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>銅(Cu)の化学的性質</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">元素別解説に戻る</a>
+    <main>
+            <h1>銅(Cu)の化学的性質</h1>
+
+            <section id="basics">
+                <h2>基本情報</h2>
+                <ul>
+                    <li><strong>元素記号:</strong> Cu</li>
+                    <li><strong>原子番号:</strong> 29</li>
+                    <li><strong>電子配置:</strong> [Ar]3d¹⁰4s¹</li>
+                    <li><strong>酸化数:</strong> +1(銅(I)イオン Cu⁺)、+2(銅(II)イオン Cu²⁺)</li>
+                    <li><strong>常温での状態:</strong> 赤褐色(赤色)の金属</li>
+                    <li><strong>特徴:</strong> 遷移元素、展性・延性に富む、電気伝導性・熱伝導性が優れている、比較的イオン化傾向が小さい</li>
+                </ul>
+            </section>
+
+            <section id="production">
+                <h2>銅の製法</h2>
+                
+                <h3>1. 乾式製錬法(粗銅の製造)</h3>
+                <p>銅鉱石(主に硫化銅)を焙焼・溶融して粗銅を得る方法。</p>
+                
+                <h4>使用する鉱石</h4>
+                <ul>
+                    <li>黄銅鉱(CuFeS₂)</li>
+                    <li>輝銅鉱(Cu₂S)</li>
+                    <li>斑銅鉱(Cu₅FeS₄)</li>
+                </ul>
+
+                <h4>製錬の流れ(黄銅鉱の場合)</h4>
+                <div class="quiz-list">
+                    <li>① 焙焼(部分酸化): <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">2CuFeS₂ + 4O₂ → Cu₂S + 2FeO + 3SO₂</span></span></li>
+                    <li>② 溶融(SiO₂を加えてFeOを除去): <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">FeO + SiO₂ → FeSiO₃</span></span> (スラグとして除去)</li>
+                    <li>③ 転炉で空気を吹き込む: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">2Cu₂S + 3O₂ → 2Cu₂O + 2SO₂</span></span></li>
+                    <li>④ Cu₂O と Cu₂S の反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">2Cu₂O + Cu₂S → 6Cu + SO₂</span></span></li>
+                </ul>
+                <p><strong>生成物:</strong> 粗銅(純度約98~99%)</p>
+
+                <h3>2. 電解精錬(純銅の製造)</h3>
+                <p>粗銅を陽極、純銅板を陰極とし、硫酸酸性硫酸銅水溶液中で電気分解して純銅を得る。</p>
+                <ul class="quiz-list">
+                    <li>陽極(粗銅): <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">Cu → Cu²⁺ + 2e⁻</span></span></li>
+                    <li>陰極(純銅板): <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">Cu²⁺ + 2e⁻ → Cu</span></span></li>
+                </ul>
+                <p><strong>注意:</strong> 粗銅中の不純物(Ag, Au, Pt など)は陽極下に沈殿(陽極泥)として回収される。</p>
+            </section>
+
+            <section id="reactions">
+                <h2>銅の化学反応</h2>
+
+                <h3>1. 酸素・空気との反応</h3>
+                <ul class="quiz-list">
+                    <li>常温の乾燥空気中: ほとんど変化しない</li>
+                    <li>湿った空気中(長期間): 表面に緑青(塩基性炭酸銅)を生じる</li>
+                    <li>　主成分: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">CuCO₃·Cu(OH)₂</span></span> または Cu₂(OH)₂CO₃</li>
+                    <li>高温で酸素と反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">2Cu + O₂ → 2CuO</span></span> (酸化銅(II)、黒色)</li>
+                </ul>
+
+                <h3>2. 水との反応</h3>
+                <ul>
+                    <li>常温・高温ともに水とは反応しない(イオン化傾向が水素より小さい)</li>
+                </ul>
+
+                <h3>3. 酸との反応</h3>
+                <p>銅はイオン化傾向が水素より小さいため、希硫酸や希塩酸とは反応しない。</p>
+                
+                <h4>希硫酸・希塩酸</h4>
+                <ul>
+                    <li>反応しない(イオン化傾向: Cu < H₂)</li>
+                </ul>
+
+                <h4>酸化力のある酸との反応</h4>
+                <ul class="quiz-list">
+                    <li>希硝酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">3Cu + 8HNO₃(希) → 3Cu(NO₃)₂ + 2NO↑ + 4H₂O</span></span></li>
+                    <li>濃硝酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">Cu + 4HNO₃(濃) → Cu(NO₃)₂ + 2NO₂↑ + 2H₂O</span></span></li>
+                    <li>熱濃硫酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">Cu + 2H₂SO₄(熱濃) → CuSO₄ + SO₂↑ + 2H₂O</span></span></li>
+                </ul>
+
+                <h3>4. ハロゲンとの反応</h3>
+                <ul class="quiz-list">
+                    <li>塩素との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">Cu + Cl₂ → CuCl₂</span></span> (塩化銅(II)、褐色)</li>
+                    <li>ヨウ素との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">2Cu + I₂ → 2CuI</span></span> (ヨウ化銅(I)、白色)</li>
+                </ul>
+
+                <h3>5. 硫黄との反応</h3>
+                <ul class="quiz-list">
+                    <li>加熱した銅と硫黄: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">2Cu + S → Cu₂S</span></span> (硫化銅(I)、黒色)</li>
+                </ul>
+
+                <h3>6. 銀イオンとの反応(イオン化傾向)</h3>
+                <p>Cu は Ag⁺ よりイオン化傾向が大きいため、銀イオンを還元する。</p>
+                <ul class="quiz-list">
+                    <li>硝酸銀水溶液に銅を浸す: <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag</span></span></li>
+                    <li>イオン反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">Cu + 2Ag⁺ → Cu²⁺ + 2Ag</span></span></li>
+                </ul>
+            </section>
+
+            <section id="compounds">
+                <h2>銅の化合物</h2>
+
+                <h3>1. 銅(I)イオン Cu⁺ の性質</h3>
+                <ul>
+                    <li><strong>安定性:</strong> 水溶液中では不安定(不均化反応を起こす)</li>
+                    <li><strong>色:</strong> 化合物は多く無色または白色</li>
+                </ul>
+                
+                <h4>Cu⁺ の不均化反応</h4>
+                <ul class="quiz-list">
+                    <li>水溶液中: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">2Cu⁺ → Cu²⁺ + Cu</span></span></li>
+                </ul>
+
+                <h3>2. 銅(II)イオン Cu²⁺ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 水溶液は青色(水和イオン [Cu(H₂O)₄]²⁺ の色)</li>
+                    <li><strong>安定性:</strong> Cu⁺ より安定</li>
+                    <li><strong>酸化性:</strong> 弱い酸化性を示す</li>
+                </ul>
+
+                <h4>Cu²⁺ の還元反応</h4>
+                <ul class="quiz-list">
+                    <li>ヨウ化カリウムとの反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">2Cu²⁺ + 4I⁻ → 2CuI↓ + I₂</span></span></li>
+                    <li>(白色沈殿のヨウ化銅(I)とヨウ素が生成)</li>
+                </ul>
+
+                <h3>3. 酸化銅の性質</h3>
+                <ul>
+                    <li><strong>酸化銅(I) Cu₂O:</strong> 赤色、半導体</li>
+                    <li><strong>酸化銅(II) CuO:</strong> 黒色</li>
+                </ul>
+
+                <h4>酸化銅(II)の反応</h4>
+                <ul class="quiz-list">
+                    <li>酸との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">CuO + 2HCl → CuCl₂ + H₂O</span></span></li>
+                    <li>水素による還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">CuO + H₂ → Cu + H₂O</span></span></li>
+                    <li>炭素による還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">2CuO + C → 2Cu + CO₂</span></span></li>
+                </ul>
+
+                <h3>4. 水酸化銅(II) Cu(OH)₂ の性質</h3>
+                <ul class="quiz-list">
+                    <li>生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">Cu²⁺ + 2OH⁻ → Cu(OH)₂↓</span></span> (青白色沈殿)</li>
+                    <li>加熱による分解: <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">Cu(OH)₂ → CuO + H₂O</span></span></li>
+                </ul>
+
+                <h3>5. アンミン錯イオンの形成</h3>
+                <p>銅(II)イオンはアンモニアと錯イオンを形成し、特徴的な深青色を示す。</p>
+                <ul class="quiz-list">
+                    <li>少量のアンモニア水: <span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">Cu²⁺ + 2NH₃ + 2H₂O → Cu(OH)₂↓ + 2NH₄⁺</span></span></li>
+                    <li>過剰のアンモニア水: <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">Cu(OH)₂ + 4NH₃ → [Cu(NH₃)₄]²⁺ + 2OH⁻</span></span></li>
+                    <li>　　　　　　　　　(テトラアンミン銅(II)イオン、深青色)</li>
+                    <li>または直接: <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">Cu²⁺ + 4NH₃ → [Cu(NH₃)₄]²⁺</span></span></li>
+                </ul>
+
+                <h3>6. 主な銅化合物</h3>
+                <ul>
+                    <li><strong>硫酸銅(II) CuSO₄:</strong> 白色(無水)、水溶液は青色</li>
+                    <li><strong>硫酸銅(II)五水和物 CuSO₄·5H₂O:</strong> 青色結晶、風解性</li>
+                    <li><strong>塩化銅(II) CuCl₂:</strong> 褐色、水溶液は青緑色</li>
+                    <li><strong>硝酸銅(II) Cu(NO₃)₂:</strong> 青色、潮解性</li>
+                    <li><strong>塩化銅(I) CuCl:</strong> 白色</li>
+                    <li><strong>ヨウ化銅(I) CuI:</strong> 白色</li>
+                    <li><strong>硫化銅(I) Cu₂S:</strong> 黒色(輝銅鉱)</li>
+                    <li><strong>硫化銅(II) CuS:</strong> 黒色</li>
+                </ul>
+            </section>
+
+            <section id="precipitates">
+                <h2>銅イオンの沈殿反応と検出</h2>
+
+                <h3>1. 水酸化物の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>Cu²⁺ + 水酸化ナトリウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(27)</span> <span class="blank">Cu²⁺ + 2OH⁻ → Cu(OH)₂↓</span></span> (青白色沈殿)</li>
+                    <li>※ 過剰の水酸化ナトリウムを加えても溶けない(両性でない)</li>
+                </ul>
+
+                <h3>2. 硫化物の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>Cu²⁺ + 硫化水素(酸性): <span class="blank-container" onclick="reveal(this)"><span class="number">(28)</span> <span class="blank">Cu²⁺ + H₂S → CuS↓ + 2H⁺</span></span> (黒色沈殿)</li>
+                    <li>※ 硫化銅(II)は酸性でも沈殿する(溶解度積が非常に小さい)</li>
+                </ul>
+
+                <h3>3. 炭酸塩</h3>
+                <ul class="quiz-list">
+                    <li>Cu²⁺ + 炭酸ナトリウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(29)</span> <span class="blank">2Cu²⁺ + 2CO₃²⁻ + H₂O → Cu₂(OH)₂CO₃↓ + CO₂</span></span></li>
+                    <li>　　　　　　　　　　　(塩基性炭酸銅、緑色沈殿)</li>
+                </ul>
+
+                <h3>4. ヘキサシアノ鉄(II)酸カリウムによる検出</h3>
+                <ul class="quiz-list">
+                    <li>Cu²⁺ + K₄[Fe(CN)₆]: <span class="blank-container" onclick="reveal(this)"><span class="number">(30)</span> <span class="blank">2Cu²⁺ + K₄[Fe(CN)₆] → Cu₂[Fe(CN)₆]↓ + 4K⁺</span></span></li>
+                    <li>　　　　　　　　　　(赤褐色沈殿)</li>
+                </ul>
+
+                <h3>5. アンモニア水による検出</h3>
+                <p>銅(II)イオンの最も特徴的な検出反応</p>
+                <ul class="quiz-list">
+                    <li>過剰のアンモニア水を加える → <strong>深青色</strong>の [Cu(NH₃)₄]²⁺ を生成</li>
+                </ul>
+
+                <h3>6. 銅イオンの分離</h3>
+                <p>硫化水素による系統分離では、銅は酸性で沈殿する第2属に分類される。</p>
+                <ul>
+                    <li><strong>第2属:</strong> Cu²⁺, Pb²⁺, Hg²⁺, Cd²⁺, Bi³⁺, As³⁺, Sb³⁺, Sn²⁺ など</li>
+                    <li>酸性(HCl酸性)で H₂S を通じると CuS として沈殿</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>銅の還元性を利用した検出反応</h2>
+
+                <h3>1. フェーリング反応</h3>
+                <p>アルデヒドの検出に用いられる。銅(II)イオンが還元されて酸化銅(I)の赤色沈殿を生じる。</p>
+                
+                <h4>フェーリング液の調製</h4>
+                <ul>
+                    <li>A液: 硫酸銅(II)水溶液</li>
+                    <li>B液: 酒石酸ナトリウムカリウム + 水酸化ナトリウム水溶液</li>
+                    <li>使用直前にA液とB液を混合(銅(II)イオンの錯イオンを形成)</li>
+                </ul>
+
+                <h4>反応</h4>
+                <ul class="quiz-list">
+                    <li>アルデヒド(RCHO)を加えて加熱:</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(31)</span> <span class="blank">RCHO + 2Cu²⁺ + 5OH⁻ → RCOO⁻ + Cu₂O↓ + 3H₂O</span></span></li>
+                    <li>(赤色沈殿)</li>
+                </ul>
+
+                <h3>2. ベネジクト反応</h3>
+                <p>フェーリング反応と同様の原理で、還元糖の検出に用いられる。</p>
+                <ul>
+                    <li>ベネジクト液: 硫酸銅(II) + クエン酸ナトリウム + 炭酸ナトリウム</li>
+                    <li>還元糖を加えて加熱 → 酸化銅(I)の赤色沈殿を生じる</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>その他の重要事項</h2>
+                
+                <h3>イオン化傾向</h3>
+                <p>K > Ca > Na > Mg > Al > Zn > Fe > Ni > Sn > Pb > (H₂) > <strong>Cu</strong> > Hg > Ag > Pt > Au</p>
+                <ul>
+                    <li>銅は水素よりイオン化傾向が小さいため、希酸とは反応しない</li>
+                    <li>酸化力のある酸(硝酸、熱濃硫酸)とは反応する</li>
+                </ul>
+
+                <h3>銅の用途</h3>
+                <ul>
+                    <li><strong>電線・導線:</strong> 優れた電気伝導性</li>
+                    <li><strong>合金:</strong> 青銅(Cu + Sn)、真鍮(黄銅、Cu + Zn)、白銅(Cu + Ni)、洋銀(Cu + Zn + Ni)</li>
+                    <li><strong>硫酸銅:</strong> めっき、農薬(ボルドー液)、殺菌剤</li>
+                    <li><strong>酸化銅:</strong> 触媒、顔料</li>
+                </ul>
+
+                <h3>銅の合金</h3>
+                <ul>
+                    <li><strong>青銅(ブロンズ):</strong> Cu + Sn、古代から使用、硬い</li>
+                    <li><strong>真鍮(黄銅、ブラス):</strong> Cu + Zn、金色、加工しやすい</li>
+                    <li><strong>白銅:</strong> Cu + Ni、銀白色、硬貨に使用</li>
+                    <li><strong>洋銀(洋白):</strong> Cu + Zn + Ni、銀白色、装飾品</li>
+                </ul>
+
+                <h3>ダニエル電池</h3>
+                <p>銅と亜鉛を用いた代表的な電池</p>
+                <ul class="quiz-list">
+                    <li>負極(Zn): <span class="blank-container" onclick="reveal(this)"><span class="number">(32)</span> <span class="blank">Zn → Zn²⁺ + 2e⁻</span></span></li>
+                    <li>正極(Cu): <span class="blank-container" onclick="reveal(this)"><span class="number">(33)</span> <span class="blank">Cu²⁺ + 2e⁻ → Cu</span></span></li>
+                    <li>全反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(34)</span> <span class="blank">Zn + Cu²⁺ → Zn²⁺ + Cu</span></span></li>
+                </ul>
+
+                <h3>緑青(ろくしょう)の生成</h3>
+                <p>銅が湿った空気中で長期間放置されると、表面に緑色の錆(緑青)を生じる。</p>
+                <ul>
+                    <li><strong>主成分:</strong> 塩基性炭酸銅 CuCO₃·Cu(OH)₂ または Cu₂(OH)₂CO₃</li>
+                    <li><strong>生成要因:</strong> 空気中の酸素、水、二酸化炭素</li>
+                    <li><strong>例:</strong> 銅像、十円硬貨、銅屋根</li>
+                </ul>
+            </section>
+   
+    </main>
+</div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
