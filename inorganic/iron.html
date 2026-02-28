@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鉄(Fe)の化学的性質</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">元素別解説に戻る</a>
+    <main>
+            <h1>鉄(Fe)の化学的性質</h1>
+
+            <section id="basics">
+                <h2>基本情報</h2>
+                <ul>
+                    <li><strong>元素記号:</strong> Fe</li>
+                    <li><strong>原子番号:</strong> 26</li>
+                    <li><strong>電子配置:</strong> [Ar]3d⁶4s²</li>
+                    <li><strong>酸化数:</strong> +2(鉄(II)イオン Fe²⁺), +3(鉄(III)イオン Fe³⁺)</li>
+                    <li><strong>常温での状態:</strong> 銀白色の金属</li>
+                    <li><strong>特徴:</strong> 遷移元素、強磁性体、展性・延性に富む</li>
+                </ul>
+            </section>
+
+            <section id="production">
+                <h2>鉄の製法</h2>
+                
+                <h3>1. 高炉法(溶鉱炉法)</h3>
+                <p>鉄鉱石(主に酸化鉄)をコークスと石灰石とともに高炉に入れ、還元して鉄を得る方法。</p>
+                
+                <h4>使用する原料</h4>
+                <ul>
+                    <li>鉄鉱石: 赤鉄鉱(Fe₂O₃)、磁鉄鉱(Fe₃O₄)など</li>
+                    <li>コークス(C): 還元剤および燃料</li>
+                    <li>石灰石(CaCO₃): 融剤(不純物除去)</li>
+                </ul>
+
+                <h4>主な反応式</h4>
+                <div class="quiz-list">
+                    <li>① コークスの燃焼: <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">2C + O₂ → 2CO</span></span></li>
+                    <li>② 一酸化炭素による還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">3CO + Fe₂O₃ → 2Fe + 3CO₂</span></span></li>
+                    <li>③ 炭素による直接還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">2C + Fe₂O₃ → 2Fe + 2CO₂</span></span></li>
+                    <li>④ 石灰石の分解: <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">CaCO₃ → CaO + CO₂</span></span></li>
+                    <li>⑤ 不純物(SiO₂)の除去: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">CaO + SiO₂ → CaSiO₃</span></span> (スラグ)</li>
+                </ul>
+                <p><strong>生成物:</strong> 銑鉄(炭素約4%含む)→ 製鋼により鋼(炭素0.02~2%)に</p>
+            </section>
+
+            <section id="reactions">
+                <h2>鉄の化学反応</h2>
+
+                <h3>1. 酸素との反応</h3>
+                <ul class="quiz-list">
+                    <li>高温で酸素と反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">3Fe + 2O₂ → Fe₃O₄</span></span> (四酸化三鉄、黒色)</li>
+                    <li>常温で湿った空気中: 徐々に酸化されて赤褐色の錆(水酸化鉄(III))を生じる</li>
+                </ul>
+
+                <h3>2. 水との反応</h3>
+                <ul class="quiz-list">
+                    <li>高温の水蒸気と反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">3Fe + 4H₂O → Fe₃O₄ + 4H₂</span></span></li>
+                </ul>
+
+                <h3>3. 酸との反応</h3>
+                <ul class="quiz-list">
+                    <li>希硫酸・希塩酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">Fe + H₂SO₄ → FeSO₄ + H₂↑</span></span></li>
+                    <li>　　　　　　　: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">Fe + 2HCl → FeCl₂ + H₂↑</span></span></li>
+                    <li>希硝酸(冷): <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">3Fe + 8HNO₃(希) → 3Fe(NO₃)₂ + 2NO↑ + 4H₂O</span></span></li>
+                    <li>濃硝酸・濃硫酸(冷): 不動態を形成して反応しない</li>
+                </ul>
+
+                <h3>4. 塩素との反応</h3>
+                <ul class="quiz-list">
+                    <li>加熱した鉄と塩素: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">2Fe + 3Cl₂ → 2FeCl₃</span></span> (塩化鉄(III)、褐色)</li>
+                </ul>
+
+                <h3>5. 硫黄との反応</h3>
+                <ul class="quiz-list">
+                    <li>加熱した鉄と硫黄: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">Fe + S → FeS</span></span> (硫化鉄(II)、黒色)</li>
+                </ul>
+
+                <h3>6. 金属イオンとの反応(イオン化傾向)</h3>
+                <p>Fe は Cu²⁺ よりイオン化傾向が大きいため、銅イオンを還元する。</p>
+                <ul class="quiz-list">
+                    <li>硫酸銅水溶液に鉄を浸す: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">Fe + CuSO₄ → FeSO₄ + Cu</span></span></li>
+                </ul>
+            </section>
+
+            <section id="compounds">
+                <h2>鉄の化合物</h2>
+
+                <h3>1. 鉄(II)イオン Fe²⁺ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 水溶液は淡緑色</li>
+                    <li><strong>還元性:</strong> Fe²⁺ は酸化されて Fe³⁺ になりやすい</li>
+                </ul>
+                
+                <h4>Fe²⁺ の酸化反応</h4>
+                <ul class="quiz-list">
+                    <li>空気中での酸化: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">4Fe²⁺ + O₂ + 4H⁺ → 4Fe³⁺ + 2H₂O</span></span></li>
+                    <li>硝酸との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">3Fe²⁺ + 4H⁺ + NO₃⁻ → 3Fe³⁺ + NO↑ + 2H₂O</span></span></li>
+                    <li>過マンガン酸カリウムによる酸化(硫酸酸性): <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O</span></span></li>
+                </ul>
+
+                <h3>2. 鉄(III)イオン Fe³⁺ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 水溶液は黄褐色</li>
+                    <li><strong>酸化性:</strong> Fe³⁺ は還元されて Fe²⁺ になることがある</li>
+                </ul>
+
+                <h4>Fe³⁺ の還元反応</h4>
+                <ul class="quiz-list">
+                    <li>ヨウ化カリウムとの反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">2Fe³⁺ + 2I⁻ → 2Fe²⁺ + I₂</span></span></li>
+                </ul>
+
+                <h3>3. 主な鉄化合物</h3>
+                <ul>
+                    <li><strong>硫酸鉄(II) FeSO₄:</strong> 淡緑色結晶、水溶液は淡緑色</li>
+                    <li><strong>塩化鉄(II) FeCl₂:</strong> 淡緑色</li>
+                    <li><strong>塩化鉄(III) FeCl₃:</strong> 褐色、水溶液は黄褐色</li>
+                    <li><strong>硫酸鉄(III) Fe₂(SO₄)₃:</strong> 黄褐色</li>
+                    <li><strong>酸化鉄(II) FeO:</strong> 黒色</li>
+                    <li><strong>酸化鉄(III) Fe₂O₃:</strong> 赤褐色(赤鉄鉱、ベンガラ)</li>
+                    <li><strong>四酸化三鉄 Fe₃O₄:</strong> 黒色(磁鉄鉱)、FeO·Fe₂O₃ とも書ける</li>
+                </ul>
+            </section>
+
+            <section id="precipitates">
+                <h2>鉄イオンの沈殿反応</h2>
+
+                <h3>1. 水酸化物の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>Fe²⁺ + 水酸化ナトリウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">Fe²⁺ + 2OH⁻ → Fe(OH)₂↓</span></span> (水酸化鉄(II)、白色→空気中で緑色→赤褐色)</li>
+                    <li>Fe³⁺ + 水酸化ナトリウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">Fe³⁺ + 3OH⁻ → Fe(OH)₃↓</span></span> (水酸化鉄(III)、赤褐色)</li>
+                    <li>水酸化鉄(II)の空気酸化: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">4Fe(OH)₂ + O₂ + 2H₂O → 4Fe(OH)₃</span></span></li>
+                </ul>
+
+                <h3>2. 硫化物の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>Fe²⁺ + 硫化水素(塩基性): <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">Fe²⁺ + S²⁻ → FeS↓</span></span> (硫化鉄(II)、黒色)</li>
+                    <li>※ Fe³⁺ は硫化水素で還元される: <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">2Fe³⁺ + H₂S → 2Fe²⁺ + S↓ + 2H⁺</span></span></li>
+                </ul>
+
+                <h3>3. ヘキサシアニド鉄酸塩による呈色反応</h3>
+                <p>鉄イオンの検出に用いられる重要な反応</p>
+                
+                <h4>Fe²⁺ の検出</h4>
+                <ul class="quiz-list">
+                    <li>ヘキサシアニド鉄(III)酸カリウム K₃[Fe(CN)₆] を加える:</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">3Fe²⁺ + 2[Fe(CN)₆]³⁻ → Fe₃[Fe(CN)₆]₂↓</span></span> (濃青色沈殿、<strong>ターンブル青</strong>)</li>
+                </ul>
+
+                <h4>Fe³⁺ の検出</h4>
+                <ul class="quiz-list">
+                    <li>ヘキサシアニド鉄(II)酸カリウム K₄[Fe(CN)₆] を加える:</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">4Fe³⁺ + 3[Fe(CN)₆]⁴⁻ → Fe₄[Fe(CN)₆]₃↓</span></span> (濃青色沈殿、<strong>プルシアンブルー</strong>または<strong>紺青</strong>)</li>
+                </ul>
+
+                <h4>チオシアン酸イオンによる検出</h4>
+                <ul class="quiz-list">
+                    <li>Fe³⁺ + チオシアン酸カリウム KSCN: <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">Fe³⁺ + SCN⁻ → [Fe(SCN)]²⁺</span></span> (血赤色の錯イオン)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>その他の重要事項</h2>
+                
+                <h3>イオン化傾向</h3>
+                <p>K > Ca > Na > Mg > Al > Zn > <strong>Fe</strong> > Ni > Sn > Pb > (H₂) > Cu > Hg > Ag > Pt > Au</p>
+                <ul>
+                    <li>鉄は水素よりイオン化傾向が大きいため、希酸と反応して水素を発生</li>
+                    <li>濃硝酸や濃硫酸(冷)では不動態を形成</li>
+                </ul>
+
+                <h3>鉄の錆(腐食)</h3>
+                <p>鉄は湿った空気中で酸化され、赤褐色の錆を生じる。錆の主成分は水酸化鉄(III) Fe(OH)₃ や酸化鉄(III) Fe₂O₃·nH₂O。</p>
+                <ul>
+                    <li><strong>防錆法:</strong> めっき(亜鉛めっき=トタン、スズめっき=ブリキ)、塗装、合金化(ステンレス鋼など)</li>
+                </ul>
+
+                <h3>合金</h3>
+                <ul>
+                    <li><strong>鋼:</strong> Fe + C(0.02~2%)</li>
+                    <li><strong>ステンレス鋼:</strong> Fe + Cr + Ni(耐食性)</li>
+                    <li><strong>フェロクロム:</strong> Fe + Cr</li>
+                </ul>
+            </section>
+   
+    </main>
+</div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
