@@ -57,7 +57,7 @@ def generate_html():
     <style>
         :root {{ --primary: #007bff; --success: #28a745; --danger: #dc3545; --bg: #f4f7f9; --text: #333; }}
         body {{ font-family: 'Helvetica Neue', Arial, sans-serif; background: var(--bg); margin: 0; padding: 20px; color: var(--text); display: flex; flex-direction: column; align-items: center; }}
-        .container {{ width: 100%; max-width: 650px; background: white; padding: 25px; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); position: relative; }}
+        .container {{ width: 100%; max-width: 800px; }}
         
         .header {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #eee; padding-bottom: 15px; }}
         h1 {{ margin: 0; font-size: 1.5rem; color: var(--primary); }}
