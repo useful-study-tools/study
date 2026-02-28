@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金(Au)の化学的性質</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">元素別解説に戻る</a>
+    <main>
+            <h1>金(Au)の化学的性質</h1>
+
+            <section id="basics">
+                <h2>基本情報</h2>
+                <ul>
+                    <li><strong>元素記号:</strong> Au (ラテン語 Aurum より)</li>
+                    <li><strong>原子番号:</strong> 79</li>
+                    <li><strong>電子配置:</strong> [Xe]4f¹⁴5d¹⁰6s¹</li>
+                    <li><strong>酸化数:</strong> +1(金(I)イオン Au⁺)、+3(金(III)イオン Au³⁺)</li>
+                    <li><strong>常温での状態:</strong> 黄金色(金色)の金属</li>
+                    <li><strong>特徴:</strong> 遷移元素、展性・延性に極めて富む(最も延ばせる金属)、化学的に非常に安定、イオン化傾向が最も小さい、貴金属</li>
+                </ul>
+            </section>
+
+            <section id="production">
+                <h2>金の製法</h2>
+                
+                <h3>1. 自然金からの採取</h3>
+                <p>金は自然界に単体(自然金)として存在することが多い。</p>
+                <ul>
+                    <li><strong>砂金:</strong> 川や海岸の砂の中に含まれる金粒</li>
+                    <li><strong>金鉱石:</strong> 石英などの岩石中に含まれる金</li>
+                    <li><strong>採取法:</strong> 比重選鉱(金の比重が大きいことを利用)</li>
+                </ul>
+
+                <h3>2. 青化法(シアン化法)</h3>
+                <p>金鉱石をシアン化ナトリウム水溶液で処理し、錯イオンとして溶出させて金を得る方法。</p>
+                <div class="quiz-list">
+                    <li>① 金の溶解(錯イオン形成): <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">4Au + 8NaCN + O₂ + 2H₂O → 4Na[Au(CN)₂] + 4NaOH</span></span></li>
+                    <li>　　または: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">4Au + 8CN⁻ + O₂ + 2H₂O → 4[Au(CN)₂]⁻ + 4OH⁻</span></span></li>
+                    <li>② 亜鉛による還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">2[Au(CN)₂]⁻ + Zn → [Zn(CN)₄]²⁻ + 2Au</span></span></li>
+                </ul>
+
+                <h3>3. 水銀アマルガム法</h3>
+                <p>水銀と金が合金(アマルガム)を作る性質を利用する古い方法。</p>
+                <ul>
+                    <li>金鉱石を水銀と混合 → 金と水銀のアマルガムを形成</li>
+                    <li>アマルガムを加熱 → 水銀が蒸発して金が残る</li>
+                    <li>※ 環境汚染の問題があり、現在はほとんど使われない</li>
+                </ul>
+
+                <h3>4. 電解精錬</h3>
+                <p>粗金を陽極、純金板を陰極として電気分解し、純度を高める。</p>
+                <ul class="quiz-list">
+                    <li>陽極(粗金): <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">Au → Au³⁺ + 3e⁻</span></span> または Au → Au⁺ + e⁻</li>
+                    <li>陰極(純金板): <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">Au³⁺ + 3e⁻ → Au</span></span> または Au⁺ + e⁻ → Au</li>
+                </ul>
+            </section>
+
+            <section id="reactions">
+                <h2>金の化学反応</h2>
+
+                <h3>1. 酸素・空気との反応</h3>
+                <ul>
+                    <li>常温・高温ともに酸素とは反応しない</li>
+                    <li>空気中で変色しない(化学的に極めて安定)</li>
+                </ul>
+
+                <h3>2. 水との反応</h3>
+                <ul>
+                    <li>常温・高温ともに水とは反応しない</li>
+                </ul>
+
+                <h3>3. 酸との反応</h3>
+                <p>金はイオン化傾向が最も小さく、単独の酸にはほとんど溶けない。</p>
+                
+                <h4>希硫酸・希塩酸・希硝酸・濃硝酸</h4>
+                <ul>
+                    <li>反応しない(イオン化傾向が最も小さい)</li>
+                </ul>
+
+                <h4>王水による溶解(最重要)</h4>
+                <p>濃塩酸と濃硝酸の混合物(体積比 3:1)である王水には溶ける。</p>
+                <ul class="quiz-list">
+                    <li>王水との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">Au + 3HCl + HNO₃ → HAuCl₄ + NO↑ + 2H₂O</span></span></li>
+                    <li>　　　　　　　(テトラクロロ金(III)酸、黄色)</li>
+                    <li>イオン反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">Au + 4Cl⁻ + 3H⁺ + NO₃⁻ → [AuCl₄]⁻ + NO↑ + 2H₂O</span></span></li>
+                </ul>
+                <p><strong>王水の作用:</strong> 硝酸が酸化剤、塩酸が錯イオン形成剤として働く</p>
+
+                <h4>熱濃硫酸</h4>
+                <ul>
+                    <li>ほとんど反応しない(わずかに溶ける程度)</li>
+                </ul>
+
+                <h3>4. ハロゲンとの反応</h3>
+                <ul class="quiz-list">
+                    <li>塩素との反応(加熱): <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">2Au + 3Cl₂ → 2AuCl₃</span></span> (塩化金(III)、赤褐色)</li>
+                    <li>臭素との反応(加熱): <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">2Au + 3Br₂ → 2AuBr₃</span></span> (臭化金(III)、暗褐色)</li>
+                </ul>
+
+                <h3>5. シアン化物との反応</h3>
+                <p>シアン化ナトリウム水溶液に空気(酸素)を通じると溶ける。</p>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">4Au + 8CN⁻ + O₂ + 2H₂O → 4[Au(CN)₂]⁻ + 4OH⁻</span></span></li>
+                    <li>(ジシアノ金(I)酸イオン)</li>
+                </ul>
+
+                <h3>6. アルカリとの反応</h3>
+                <ul>
+                    <li>水酸化ナトリウムなどの強塩基とは反応しない(両性でない)</li>
+                </ul>
+            </section>
+
+            <section id="compounds">
+                <h2>金の化合物</h2>
+
+                <h3>1. 金(I)イオン Au⁺ の性質</h3>
+                <ul>
+                    <li><strong>安定性:</strong> 水溶液中では不安定(不均化反応を起こす)</li>
+                    <li><strong>色:</strong> 化合物は多く淡色</li>
+                </ul>
+                
+                <h4>Au⁺ の不均化反応</h4>
+                <ul class="quiz-list">
+                    <li>水溶液中: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">3Au⁺ → Au³⁺ + 2Au</span></span></li>
+                </ul>
+
+                <h3>2. 金(III)イオン Au³⁺ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 水溶液は黄色</li>
+                    <li><strong>安定性:</strong> Au⁺ より安定</li>
+                    <li><strong>酸化性:</strong> 強い酸化性を示す</li>
+                </ul>
+
+                <h3>3. 塩化金(III) AuCl₃ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 赤褐色</li>
+                    <li><strong>溶解性:</strong> 水に溶けて加水分解</li>
+                </ul>
+                <ul class="quiz-list">
+                    <li>加水分解: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">AuCl₃ + H₂O → AuOHCl₂ + HCl</span></span></li>
+                </ul>
+
+                <h3>4. テトラクロロ金(III)酸 HAuCl₄ の性質</h3>
+                <p>王水に金を溶かすと生成する。</p>
+                <ul>
+                    <li><strong>色:</strong> 黄色</li>
+                    <li><strong>溶解性:</strong> 水に易溶</li>
+                    <li><strong>用途:</strong> 金メッキ、金コロイドの製造</li>
+                </ul>
+
+                <h3>5. 錯イオンの形成</h3>
+                <h4>シアノ錯イオン</h4>
+                <ul class="quiz-list">
+                    <li>金(I)の錯イオン: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">Au⁺ + 2CN⁻ → [Au(CN)₂]⁻</span></span></li>
+                    <li>　　　　　　　　(ジシアノ金(I)酸イオン)</li>
+                </ul>
+
+                <h4>クロロ錯イオン</h4>
+                <ul class="quiz-list">
+                    <li>金(III)の錯イオン: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">Au³⁺ + 4Cl⁻ → [AuCl₄]⁻</span></span></li>
+                    <li>　　　　　　　　(テトラクロロ金(III)酸イオン、黄色)</li>
+                </ul>
+
+                <h3>6. 金(III)イオンの還元</h3>
+                <p>金(III)イオンは強い酸化性を持ち、容易に還元されて金を析出する。</p>
+                <ul class="quiz-list">
+                    <li>硫酸鉄(II)による還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">Au³⁺ + 3Fe²⁺ → Au + 3Fe³⁺</span></span></li>
+                    <li>シュウ酸による還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">2Au³⁺ + 3H₂C₂O₄ → 2Au + 6CO₂ + 6H⁺</span></span></li>
+                    <li>過酸化水素による還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">2Au³⁺ + 3H₂O₂ → 2Au + 3O₂ + 6H⁺</span></span></li>
+                </ul>
+
+                <h3>7. 主な金化合物</h3>
+                <ul>
+                    <li><strong>塩化金(I) AuCl:</strong> 黄色</li>
+                    <li><strong>塩化金(III) AuCl₃:</strong> 赤褐色</li>
+                    <li><strong>臭化金(III) AuBr₃:</strong> 暗褐色</li>
+                    <li><strong>酸化金(III) Au₂O₃:</strong> 褐色、不安定</li>
+                    <li><strong>テトラクロロ金(III)酸 HAuCl₄:</strong> 黄色、水に易溶</li>
+                </ul>
+            </section>
+
+            <section id="uses">
+                <h2>金の用途と重要事項</h2>
+                
+                <h3>イオン化傾向</h3>
+                <p>K > Ca > Na > Mg > Al > Zn > Fe > Ni > Sn > Pb > (H₂) > Cu > Hg > Ag > Pt > <strong>Au</strong></p>
+                <ul>
+                    <li>金はイオン化傾向が最も小さい</li>
+                    <li>単独の酸にはほとんど溶けない</li>
+                    <li>王水(濃塩酸+濃硝酸)にのみ溶ける</li>
+                    <li>化学的に極めて安定で、変質・変色しない</li>
+                </ul>
+
+                <h3>金の特性</h3>
+                <ul>
+                    <li><strong>展性・延性:</strong> 全金属中で最も延ばせる(1gで約3000mの金線)</li>
+                    <li><strong>電気伝導性:</strong> 銀・銅に次いで高い</li>
+                    <li><strong>熱伝導性:</strong> 優れている</li>
+                    <li><strong>反射性:</strong> 赤外線をよく反射する</li>
+                    <li><strong>比重:</strong> 19.3(非常に大きい)</li>
+                    <li><strong>融点:</strong> 1064℃</li>
+                </ul>
+
+                <h3>金の用途</h3>
+                <ul>
+                    <li><strong>装飾品:</strong> 宝飾品、アクセサリー</li>
+                    <li><strong>通貨・投資:</strong> 金貨、金地金(インゴット)</li>
+                    <li><strong>電子部品:</strong> 接点、配線(腐食しないため信頼性が高い)</li>
+                    <li><strong>歯科材料:</strong> 金歯、金合金の充填材</li>
+                    <li><strong>めっき:</strong> 金メッキ(装飾、防食)</li>
+                    <li><strong>ガラス:</strong> 着色剤(ルビーガラス)</li>
+                    <li><strong>医薬品:</strong> 金コロイド(関節リウマチの治療)</li>
+                    <li><strong>宇宙開発:</strong> 人工衛星の熱遮蔽材</li>
+                </ul>
+
+                <h3>金の純度表示</h3>
+                <ul>
+                    <li><strong>24金(K24):</strong> 純金(99.99%以上)</li>
+                    <li><strong>22金(K22):</strong> 91.7%の金</li>
+                    <li><strong>18金(K18):</strong> 75%の金(宝飾品に多い)</li>
+                    <li><strong>14金(K14):</strong> 58.5%の金</li>
+                    <li><strong>10金(K10):</strong> 41.7%の金</li>
+                </ul>
+                <p>※ 純金は柔らかすぎるため、通常は銀や銅を加えて合金にする</p>
+
+                <h3>金の合金</h3>
+                <ul>
+                    <li><strong>ホワイトゴールド:</strong> Au + Ni または Au + Pd、銀白色</li>
+                    <li><strong>ピンクゴールド:</strong> Au + Cu、ピンク色</li>
+                    <li><strong>グリーンゴールド:</strong> Au + Ag、緑がかった色</li>
+                    <li><strong>青金:</strong> Au + Fe、青色</li>
+                    <li><strong>歯科用金合金:</strong> Au + Ag + Cu + Pd</li>
+                </ul>
+
+                <h3>金の検出と分析</h3>
+                <h4>王水による溶解試験</h4>
+                <ul>
+                    <li>金かどうかを確認する最も確実な方法</li>
+                    <li>王水に溶ければ金(またはプラチナ)</li>
+                </ul>
+
+                <h4>塩化スズ(II)による検出</h4>
+                <ul class="quiz-list">
+                    <li>HAuCl₄ 水溶液に SnCl₂ を加える:</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">2[AuCl₄]⁻ + 3Sn²⁺ → 2Au + 3Sn⁴⁺ + 8Cl⁻</span></span></li>
+                    <li>(紫色の金コロイド「カシウスの紫」を生成)</li>
+                </ul>
+
+                <h3>金コロイド</h3>
+                <p>金の微粒子が水中に分散したもの。</p>
+                <ul>
+                    <li><strong>色:</strong> 赤色~紫色(粒子の大きさによる)</li>
+                    <li><strong>製法:</strong> 塩化金酸を還元剤で還元</li>
+                    <li><strong>用途:</strong> ルビーガラスの着色、試薬、医薬品</li>
+                </ul>
+
+                <h3>金の埋蔵と産出</h3>
+                <ul>
+                    <li><strong>主要産出国:</strong> 中国、オーストラリア、ロシア、アメリカ、カナダ</li>
+                    <li><strong>産出形態:</strong> 自然金(単体)、金鉱脈、砂金</li>
+                    <li><strong>随伴鉱物:</strong> 石英、黄鉄鉱など</li>
+                    <li><strong>海水中の金:</strong> 海水1トンあたり約0.01mg(採取は困難)</li>
+                </ul>
+
+                <h3>金の歴史的重要性</h3>
+                <ul>
+                    <li>古代から価値ある金属として珍重</li>
+                    <li>通貨としての歴史(金本位制)</li>
+                    <li>不変性・希少性から「価値の保存手段」</li>
+                    <li>錬金術の究極目標(卑金属を金に変える)</li>
+                </ul>
+
+                <h3>王水の性質</h3>
+                <p>濃塩酸と濃硝酸を体積比 3:1 で混合した強力な酸化性混合物</p>
+                <ul class="quiz-list">
+                    <li>王水中での反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">HNO₃ + 3HCl → NOCl + Cl₂ + 2H₂O</span></span></li>
+                    <li>発生する塩素や塩化ニトロシル(NOCl)が強い酸化力を示す</li>
+                </ul>
+                <ul>
+                    <li><strong>溶かせる金属:</strong> Au, Pt</li>
+                    <li><strong>名前の由来:</strong> 金(王の金属)を溶かすことができる酸</li>
+                    <li><strong>注意:</strong> 非常に腐食性が強く危険</li>
+                </ul>
+
+                <h3>環境と金</h3>
+                <ul>
+                    <li><strong>リサイクル:</strong> 電子機器から金を回収(都市鉱山)</li>
+                    <li><strong>採掘の環境問題:</strong> 水銀汚染、シアン化物の使用</li>
+                    <li><strong>持続可能性:</strong> リサイクル金の利用推進</li>
+                </ul>
+            </section>
+   
+    </main>
+</div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
