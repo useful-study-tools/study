@@ -108,7 +108,7 @@ def generate_html():
 <body>
 
 <div class="container">
-        <a href="index.html" class="btn-home">ホームに戻る</a>
+        <a href="index.html" class="btn-home">英単語帳に戻る</a>
     <div class="header">
         <h1>単語演習</h1>
     </div>
