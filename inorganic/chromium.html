@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鉄(Fe)の化学的性質</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">元素別解説に戻る</a>
+    <main>
+            <h1>クロム(Cr)の化学的性質</h1>
+
+            <section id="basics">
+                <h2>基本情報</h2>
+                <ul>
+                    <li><strong>元素記号:</strong> Cr</li>
+                    <li><strong>原子番号:</strong> 24</li>
+                    <li><strong>電子配置:</strong> [Ar]3d⁵4s¹</li>
+                    <li><strong>酸化数:</strong> +2(Cr²⁺)、+3(Cr³⁺)、+6(CrO₄²⁻、Cr₂O₇²⁻)</li>
+                    <li><strong>常温での状態:</strong> 銀白色の硬い金属(光沢が美しい)</li>
+                    <li><strong>特徴:</strong> 遷移元素、両性元素、不動態を形成、耐食性が高い</li>
+                </ul>
+            </section>
+
+            <section id="production">
+                <h2>クロムの製法</h2>
+                
+                <h3>1. テルミット法(アルミニウム還元法)</h3>
+                <p>酸化クロム(III)をアルミニウムで還元してクロムを得る方法。</p>
+                <div class="quiz-list">
+                    <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">Cr₂O₃ + 2Al → 2Cr + Al₂O₃</span></span></li>
+                    <li>※ 強い発熱反応(テルミット反応)</li>
+                </ul>
+
+                <h3>2. 炭素還元法</h3>
+                <p>酸化クロム(III)を炭素で還元する方法。</p>
+                <div class="quiz-list">
+                    <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">Cr₂O₃ + 3C → 2Cr + 3CO</span></span></li>
+                </ul>
+
+                <h3>3. 電解法</h3>
+                <p>クロム酸または二クロム酸の水溶液を電気分解してクロムを得る方法(クロムめっき)。</p>
+                <ul class="quiz-list">
+                    <li>陰極: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">Cr³⁺ + 3e⁻ → Cr</span></span> または</li>
+                    <li>　　　<span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">CrO₄²⁻ + 4H₂O + 6e⁻ → Cr + 8OH⁻</span></span></li>
+                </ul>
+
+                <h3>4. フェロクロムの製造</h3>
+                <p>鉄鋼工業で使用される鉄とクロムの合金。</p>
+                <ul>
+                    <li>クロム鉄鉱(FeO·Cr₂O₃)をコークスで還元</li>
+                    <li>ステンレス鋼の製造に使用</li>
+                </ul>
+            </section>
+
+            <section id="reactions">
+                <h2>クロムの化学反応</h2>
+
+                <h3>1. 酸素・空気との反応</h3>
+                <ul>
+                    <li>常温の空気中: 表面に緻密な酸化皮膜(Cr₂O₃)を形成し、内部を保護(不動態)</li>
+                    <li>高温での反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">4Cr + 3O₂ → 2Cr₂O₃</span></span> (酸化クロム(III)、緑色)</li>
+                </ul>
+
+                <h3>2. 水との反応</h3>
+                <ul>
+                    <li>常温の水: 反応しない(不動態により保護)</li>
+                    <li>高温の水蒸気: わずかに反応</li>
+                </ul>
+
+                <h3>3. 酸との反応(両性元素の性質)</h3>
+                <p>クロムは両性元素であり、酸とも塩基とも反応する。</p>
+                
+                <h4>希硫酸・希塩酸との反応</h4>
+                <ul class="quiz-list">
+                    <li>希硫酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">Cr + H₂SO₄ → CrSO₄ + H₂↑</span></span></li>
+                    <li>希塩酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">2Cr + 6HCl → 2CrCl₃ + 3H₂↑</span></span></li>
+                    <li>※ 純粋なクロムは希酸と反応するが、不純物があると不動態を形成しやすい</li>
+                </ul>
+
+                <h4>硝酸・濃硫酸との反応</h4>
+                <ul>
+                    <li>濃硝酸・濃硫酸(冷): 不動態を形成して反応しない</li>
+                </ul>
+
+                <h3>4. 塩基との反応(両性元素の性質)</h3>
+                <ul>
+                    <li>クロムは両性元素なので、強塩基と反応する</li>
+                    <li>ただし、反応は遅い</li>
+                </ul>
+
+                <h3>5. ハロゲンとの反応</h3>
+                <ul class="quiz-list">
+                    <li>塩素との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">2Cr + 3Cl₂ → 2CrCl₃</span></span> (塩化クロム(III)、紫色)</li>
+                </ul>
+            </section>
+
+            <section id="compounds">
+                <h2>クロムの化合物</h2>
+
+                <h3>1. クロム(II)イオン Cr²⁺ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 水溶液は青色</li>
+                    <li><strong>安定性:</strong> 不安定(空気中で容易に酸化される)</li>
+                    <li><strong>還元性:</strong> 強い還元性を示す</li>
+                </ul>
+
+                <h4>Cr²⁺ の酸化反応</h4>
+                <ul class="quiz-list">
+                    <li>空気酸化: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">4Cr²⁺ + O₂ + 4H⁺ → 4Cr³⁺ + 2H₂O</span></span></li>
+                </ul>
+
+                <h3>2. クロム(III)イオン Cr³⁺ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 水溶液は緑色または紫色(配位子による)</li>
+                    <li><strong>安定性:</strong> 最も安定な酸化状態</li>
+                    <li><strong>両性:</strong> 酸にも塩基にも溶ける</li>
+                </ul>
+
+                <h3>3. 酸化クロム(III) Cr₂O₃ の性質</h3>
+                <p>両性酸化物であり、酸にも塩基にも溶ける。</p>
+                <ul class="quiz-list">
+                    <li>酸との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">Cr₂O₃ + 6HCl → 2CrCl₃ + 3H₂O</span></span></li>
+                    <li>塩基との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">Cr₂O₃ + 2NaOH → 2NaCrO₂ + H₂O</span></span></li>
+                    <li>　　　　　　　　(クロム(III)酸ナトリウム)</li>
+                    <li>または: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">Cr₂O₃ + 2OH⁻ → 2CrO₂⁻ + H₂O</span></span></li>
+                </ul>
+                <p><strong>色:</strong> 緑色</p>
+                <p><strong>用途:</strong> 緑色顔料、研磨剤</p>
+
+                <h3>4. 水酸化クロム(III) Cr(OH)₃ の性質</h3>
+                <p>両性水酸化物であり、酸にも塩基にも溶ける。</p>
+                <ul class="quiz-list">
+                    <li>生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">Cr³⁺ + 3OH⁻ → Cr(OH)₃↓</span></span> (灰緑色沈殿)</li>
+                    <li>酸との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">Cr(OH)₃ + 3HCl → CrCl₃ + 3H₂O</span></span></li>
+                    <li>塩基との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">Cr(OH)₃ + NaOH → Na[Cr(OH)₄]</span></span></li>
+                    <li>　　　　　　　　(テトラヒドロキソクロム(III)酸ナトリウム)</li>
+                    <li>イオン反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">Cr(OH)₃ + OH⁻ → [Cr(OH)₄]⁻</span></span></li>
+                </ul>
+
+                <h3>5. クロム酸イオン CrO₄²⁻ の性質</h3>
+                <ul>
+                    <li><strong>酸化数:</strong> +6</li>
+                    <li><strong>色:</strong> 黄色</li>
+                    <li><strong>安定性:</strong> 塩基性で安定</li>
+                    <li><strong>酸化性:</strong> 酸化剤として働く</li>
+                </ul>
+
+                <h4>クロム酸カリウム K₂CrO₄ の性質</h4>
+                <ul>
+                    <li><strong>色:</strong> 黄色結晶</li>
+                    <li><strong>溶解性:</strong> 水に易溶</li>
+                    <li><strong>用途:</strong> 試薬、顔料</li>
+                </ul>
+
+                <h3>6. 二クロム酸イオン Cr₂O₇²⁻ の性質(最重要)</h3>
+                <p>クロムの化合物で最も重要な酸化剤。</p>
+                <ul>
+                    <li><strong>酸化数:</strong> +6</li>
+                    <li><strong>色:</strong> 橙赤色(オレンジ色)</li>
+                    <li><strong>安定性:</strong> 酸性で安定</li>
+                    <li><strong>酸化性:</strong> 強力な酸化剤として働く</li>
+                </ul>
+
+                <h4>二クロム酸カリウム K₂Cr₂O₇ の性質</h4>
+                <ul>
+                    <li><strong>色:</strong> 橙赤色結晶</li>
+                    <li><strong>溶解性:</strong> 水に溶ける</li>
+                    <li><strong>用途:</strong> 酸化剤、試薬</li>
+                </ul>
+
+                <h3>7. クロム酸イオンと二クロム酸イオンの平衡</h3>
+                <p>pH により相互変換する。</p>
+                <ul class="quiz-list">
+                    <li>酸性にする(H⁺を加える): <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">2CrO₄²⁻ + 2H⁺ ⇌ Cr₂O₇²⁻ + H₂O</span></span></li>
+                    <li>　　　　　　　　　　　　(黄色) → (橙赤色)</li>
+                    <li>塩基性にする(OH⁻を加える): <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">Cr₂O₇²⁻ + 2OH⁻ ⇌ 2CrO₄²⁻ + H₂O</span></span></li>
+                    <li>　　　　　　　　　　　　(橙赤色) → (黄色)</li>
+                </ul>
+
+                <h3>8. Cr₂O₇²⁻ の酸化剤としての反応</h3>
+                <p><strong>酸性溶液中(硫酸酸性):</strong> Cr³⁺(緑色)に還元される</p>
+                <ul class="quiz-list">
+                    <li>半反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O</span></span></li>
+                </ul>
+
+                <h4>二クロム酸カリウムによる酸化反応の例</h4>
+                <ul class="quiz-list">
+                    <li>鉄(II)イオンの酸化(硫酸酸性):</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O</span></span></li>
+                    <li>硫化水素の酸化(硫酸酸性):</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">Cr₂O₇²⁻ + 3H₂S + 8H⁺ → 2Cr³⁺ + 3S↓ + 7H₂O</span></span></li>
+                    <li>エタノールの酸化(硫酸酸性):</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">Cr₂O₇²⁻ + 3C₂H₅OH + 8H⁺ → 2Cr³⁺ + 3CH₃CHO + 7H₂O</span></span></li>
+                    <li>　　　　　　　　　　　　　　　　　　(アセトアルデヒド)</li>
+                </ul>
+
+                <h3>9. Cr³⁺ から Cr₂O₇²⁻ への酸化</h3>
+                <ul class="quiz-list">
+                    <li>過酸化水素による酸化(塩基性):</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">2Cr(OH)₃ + 3H₂O₂ + 4OH⁻ → 2CrO₄²⁻ + 8H₂O</span></span></li>
+                    <li>または融解酸化:</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">Cr₂O₃ + 3KNO₃ + 2K₂CO₃ → 2K₂CrO₄ + 3KNO₂ + 2CO₂</span></span></li>
+                </ul>
+
+                <h3>10. 主なクロム化合物</h3>
+                <ul>
+                    <li><strong>塩化クロム(III) CrCl₃:</strong> 紫色または緑色</li>
+                    <li><strong>硫酸クロム(III) Cr₂(SO₄)₃:</strong> 紫色または緑色</li>
+                    <li><strong>クロムミョウバン KCr(SO₄)₂·12H₂O:</strong> 紫色結晶</li>
+                    <li><strong>酸化クロム(III) Cr₂O₃:</strong> 緑色、顔料</li>
+                    <li><strong>三酸化クロム CrO₃:</strong> 赤色、強い酸化剤(危険)</li>
+                </ul>
+            </section>
+
+            <section id="precipitates">
+                <h2>クロムイオンの沈殿反応と検出</h2>
+
+                <h3>1. 水酸化物の沈殿(両性)</h3>
+                <ul class="quiz-list">
+                    <li>Cr³⁺ + 水酸化ナトリウム(少量): <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">Cr³⁺ + 3OH⁻ → Cr(OH)₃↓</span></span> (灰緑色沈殿)</li>
+                    <li>過剰の水酸化ナトリウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">Cr(OH)₃ + OH⁻ → [Cr(OH)₄]⁻</span></span> (沈殿が溶解)</li>
+                </ul>
+
+                <h3>2. 硫化物</h3>
+                <ul>
+                    <li>Cr³⁺は硫化水素で沈殿しない(加水分解により水酸化物が沈殿)</li>
+                </ul>
+
+                <h3>3. クロム酸塩の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>鉛イオン + クロム酸イオン: <span class="blank-container" onclick="reveal(this)"><span class="number">(27)</span> <span class="blank">Pb²⁺ + CrO₄²⁻ → PbCrO₄↓</span></span> (クロム酸鉛、黄色沈殿)</li>
+                    <li>銀イオン + クロム酸イオン: <span class="blank-container" onclick="reveal(this)"><span class="number">(28)</span> <span class="blank">2Ag⁺ + CrO₄²⁻ → Ag₂CrO₄↓</span></span> (クロム酸銀、赤褐色沈殿)</li>
+                    <li>バリウムイオン + クロム酸イオン: <span class="blank-container" onclick="reveal(this)"><span class="number">(29)</span> <span class="blank">Ba²⁺ + CrO₄²⁻ → BaCrO₄↓</span></span> (クロム酸バリウム、黄色沈殿)</li>
+                </ul>
+
+                <h3>4. クロム(III)イオンの検出</h3>
+                <h4>過酸化水素による酸化(塩基性)</h4>
+                <ul class="quiz-list">
+                    <li>Cr(OH)₃ に過酸化水素と水酸化ナトリウムを加えて加熱:</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(30)</span> <span class="blank">2Cr(OH)₃ + 3H₂O₂ + 4OH⁻ → 2CrO₄²⁻ + 8H₂O</span></span></li>
+                    <li>(黄色の CrO₄²⁻ を生成)</li>
+                </ul>
+
+                <h4>クロムの炎色反応</h4>
+                <ul>
+                    <li><strong>色:</strong> 緑色</li>
+                    <li>※ あまり明瞭ではない</li>
+                </ul>
+
+                <h3>5. クロムイオンの分離</h3>
+                <p>硫化水素による系統分離では、クロムは第3属に分類される。</p>
+                <ul>
+                    <li><strong>第3属:</strong> Al³⁺, Cr³⁺, Fe³⁺ など</li>
+                    <li>アンモニア水で水酸化物として沈殿</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>その他の重要事項</h2>
+                
+                <h3>イオン化傾向</h3>
+                <p>K > Ca > Na > Mg > Al > Zn > <strong>Cr</strong> > Fe > Ni > Sn > Pb > (H₂) > Cu > Hg > Ag > Pt > Au</p>
+                <ul>
+                    <li>クロムは亜鉛と鉄の間のイオン化傾向</li>
+                    <li>希酸と反応して水素を発生(不動態がなければ)</li>
+                    <li>濃硝酸・濃硫酸では不動態を形成</li>
+                </ul>
+
+                <h3>クロムの酸化数の変化</h3>
+                <ul>
+                    <li><strong>+2:</strong> Cr²⁺(青色)、不安定、強い還元性</li>
+                    <li><strong>+3:</strong> Cr³⁺(緑色)、最も安定、両性</li>
+                    <li><strong>+6:</strong> CrO₄²⁻(黄色)、Cr₂O₇²⁻(橙赤色)、強い酸化性</li>
+                </ul>
+
+                <h3>不動態の形成</h3>
+                <p>クロムは濃硝酸や濃硫酸で不動態を形成する。</p>
+                <ul>
+                    <li>表面に緻密な酸化クロム(III)の皮膜を形成</li>
+                    <li>この性質がステンレス鋼の耐食性の基礎</li>
+                </ul>
+
+                <h3>クロムの用途</h3>
+                <ul>
+                    <li><strong>ステンレス鋼:</strong> Fe + Cr(12~18%) + Ni、耐食性が非常に高い</li>
+                    <li><strong>クロムめっき:</strong> 装飾めっき、硬質めっき(耐摩耗性)</li>
+                    <li><strong>顔料:</strong> 酸化クロム(III)(緑色)、クロム酸鉛(黄色)</li>
+                    <li><strong>なめし剤:</strong> 皮革のなめし(クロムなめし)</li>
+                    <li><strong>耐火材:</strong> クロム鉱石(クロマイト)</li>
+                    <li><strong>触媒:</strong> 有機合成反応</li>
+                </ul>
+
+                <h3>ステンレス鋼</h3>
+                <p>クロムの最も重要な用途</p>
+                <ul>
+                    <li><strong>組成:</strong> Fe + Cr(12~18%) + Ni(8~10%)</li>
+                    <li><strong>特徴:</strong> 錆びない、耐食性が極めて高い</li>
+                    <li><strong>原理:</strong> クロムが不動態(Cr₂O₃皮膜)を形成</li>
+                    <li><strong>用途:</strong> 食器、流し台、建築材料、化学プラント</li>
+                </ul>
+
+                <h3>二クロム酸カリウムの滴定</h3>
+                <ul>
+                    <li><strong>酸化還元滴定:</strong> Fe²⁺ などの定量</li>
+                    <li><strong>指示薬:</strong> ジフェニルアミンスルホン酸ナトリウム</li>
+                    <li><strong>特徴:</strong> 硫酸酸性で使用</li>
+                </ul>
+
+                <h3>クロムの毒性</h3>
+                <ul>
+                    <li><strong>六価クロム(Cr⁶⁺):</strong> 有毒、発がん性あり</li>
+                    <li><strong>三価クロム(Cr³⁺):</strong> 毒性は低い、必須微量元素</li>
+                    <li>環境規制により六価クロムの使用は制限されている</li>
+                </ul>
+
+                <h3>クロムの鉱石</h3>
+                <ul>
+                    <li><strong>クロム鉄鉱(クロマイト):</strong> FeO·Cr₂O₃または FeCr₂O₄</li>
+                    <li><strong>紅鉛鉱:</strong> PbCrO₄(クロム酸鉛)</li>
+                </ul>
+
+                <h3>注意すべき反応</h3>
+                <ul>
+                    <li><strong>色の変化:</strong> CrO₄²⁻(黄色) ⇌ Cr₂O₇²⁻(橙赤色) → Cr³⁺(緑色)</li>
+                    <li><strong>両性:</strong> Cr(OH)₃は酸にも塩基にも溶ける</li>
+                    <li><strong>硫酸酸性の使用:</strong> 二クロム酸カリウムは硫酸酸性で使用</li>
+                    <li><strong>pH依存性:</strong> クロム酸と二クロム酸はpHで相互変換</li>
+                </ul>
+
+                <h3>飲酒検知とクロム</h3>
+                <p>かつての飲酒検知器(風船式)で使用された。</p>
+                <ul class="quiz-list">
+                    <li>エタノールによる還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(31)</span> <span class="blank">Cr₂O₇²⁻ + 3C₂H₅OH + 8H⁺ → 2Cr³⁺ + 3CH₃CHO + 7H₂O</span></span></li>
+                    <li>橙赤色 → 緑色に変化することで検知</li>
+                </ul>
+            </section>
+   
+    </main>
+</div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
