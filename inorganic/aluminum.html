@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鉄(Fe)の化学的性質</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">元素別解説に戻る</a>
+    <main>
+            <h1>アルミニウム(Al)の化学的性質</h1>
+
+            <section id="basics">
+                <h2>基本情報</h2>
+                <ul>
+                    <li><strong>元素記号:</strong> Al</li>
+                    <li><strong>原子番号:</strong> 13</li>
+                    <li><strong>電子配置:</strong> [Ne]3s²3p¹</li>
+                    <li><strong>酸化数:</strong> +3(アルミニウムイオン Al³⁺)</li>
+                    <li><strong>常温での状態:</strong> 銀白色の軽い金属</li>
+                    <li><strong>特徴:</strong> 典型元素(13族)、両性元素、展性・延性に富む、電気・熱の良導体、密度が小さい(2.7 g/cm³)</li>
+                </ul>
+            </section>
+
+            <section id="production">
+                <h2>アルミニウムの製法</h2>
+                
+                <h3>1. ホール・エルー法(融解塩電解法)</h3>
+                <p>アルミニウムの工業的製法。酸化アルミニウムを融解して電気分解する。</p>
+                
+                <h4>原料の準備</h4>
+                <ul>
+                    <li>ボーキサイト(Al₂O₃·nH₂O)から酸化アルミニウム(アルミナ Al₂O₃)を精製</li>
+                    <li>バイヤー法: ボーキサイトを水酸化ナトリウム水溶液で処理</li>
+                </ul>
+
+                <h4>バイヤー法の反応</h4>
+                <div class="quiz-list">
+                    <li>① 溶解: <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O</span></span></li>
+                    <li>　　　　(または Al₂O₃ + 2OH⁻ → 2AlO₂⁻ + H₂O)</li>
+                    <li>② 希釈・加水分解: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">NaAlO₂ + 2H₂O → Al(OH)₃↓ + NaOH</span></span></li>
+                    <li>③ 加熱脱水: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">2Al(OH)₃ → Al₂O₃ + 3H₂O</span></span></li>
+                </ul>
+
+                <h4>融解塩電解(ホール・エルー法)</h4>
+                <p>氷晶石(Na₃AlF₆)を加えて融点を下げ(約1000℃)、酸化アルミニウムを電気分解。</p>
+                <ul class="quiz-list">
+                    <li>陰極(炭素): <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">Al³⁺ + 3e⁻ → Al</span></span></li>
+                    <li>陽極(炭素): <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">2O²⁻ → O₂ + 4e⁻</span></span></li>
+                    <li>　　　　　　<span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">C + O₂ → CO₂</span></span> (陽極の炭素が消耗)</li>
+                    <li>全体: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">2Al₂O₃ + 3C → 4Al + 3CO₂</span></span></li>
+                </ul>
+                <p><strong>注意:</strong> 大量の電力を消費するため、「電気の缶詰」と呼ばれる</p>
+
+                <h3>2. アルミニウムのリサイクル</h3>
+                <ul>
+                    <li>アルミ缶などを溶解して再利用</li>
+                    <li>新地金製造の約3%のエネルギーで済む</li>
+                    <li>環境負荷が小さく、経済的</li>
+                </ul>
+            </section>
+
+            <section id="reactions">
+                <h2>アルミニウムの化学反応</h2>
+
+                <h3>1. 酸素・空気との反応</h3>
+                <ul class="quiz-list">
+                    <li>常温の空気中: 表面に緻密な酸化アルミニウム(Al₂O₃)の皮膜を形成</li>
+                    <li>　　　　　　　<span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">4Al + 3O₂ → 2Al₂O₃</span></span></li>
+                    <li>※ この酸化皮膜が内部を保護(不動態)</li>
+                    <li>アルミニウム粉末: 空気中で激しく燃焼</li>
+                </ul>
+
+                <h3>2. 水との反応</h3>
+                <ul>
+                    <li>常温の水: 酸化皮膜により反応しない</li>
+                    <li>酸化皮膜を除去した場合: 水と反応して水素を発生</li>
+                </ul>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">2Al + 6H₂O → 2Al(OH)₃ + 3H₂↑</span></span></li>
+                </ul>
+
+                <h3>3. 酸との反応(両性元素の性質)</h3>
+                <p>アルミニウムは両性元素であり、酸とも塩基とも反応する。</p>
+                
+                <h4>希硫酸・希塩酸との反応</h4>
+                <ul class="quiz-list">
+                    <li>希硫酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">2Al + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂↑</span></span></li>
+                    <li>希塩酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">2Al + 6HCl → 2AlCl₃ + 3H₂↑</span></span></li>
+                </ul>
+
+                <h4>硝酸との反応</h4>
+                <ul class="quiz-list">
+                    <li>希硝酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">8Al + 30HNO₃(希) → 8Al(NO₃)₃ + 3NH₄NO₃ + 9H₂O</span></span></li>
+                    <li>濃硝酸: 不動態を形成して反応しない</li>
+                </ul>
+
+                <h3>4. 塩基との反応(両性元素の性質)</h3>
+                <p>アルミニウムは強塩基とも反応して水素を発生する。</p>
+                <ul class="quiz-list">
+                    <li>水酸化ナトリウム水溶液: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">2Al + 2NaOH + 6H₂O → 2Na[Al(OH)₄] + 3H₂↑</span></span></li>
+                    <li>　　　　　　　　　　　(テトラヒドロキソアルミン酸ナトリウム)</li>
+                    <li>イオン反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">2Al + 2OH⁻ + 6H₂O → 2[Al(OH)₄]⁻ + 3H₂↑</span></span></li>
+                </ul>
+
+                <h3>5. ハロゲンとの反応</h3>
+                <ul class="quiz-list">
+                    <li>塩素との反応(加熱): <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">2Al + 3Cl₂ → 2AlCl₃</span></span> (塩化アルミニウム、白色)</li>
+                    <li>臭素との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">2Al + 3Br₂ → 2AlBr₃</span></span> (臭化アルミニウム)</li>
+                </ul>
+
+                <h3>6. 硫黄との反応</h3>
+                <ul class="quiz-list">
+                    <li>加熱した場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">2Al + 3S → Al₂S₃</span></span> (硫化アルミニウム、黄色)</li>
+                </ul>
+
+                <h3>7. 金属酸化物の還元(テルミット反応)</h3>
+                <p>アルミニウムの強い還元性を利用した反応。</p>
+                <ul class="quiz-list">
+                    <li>酸化鉄(III)の還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">Fe₂O₃ + 2Al → 2Fe + Al₂O₃</span></span></li>
+                    <li>酸化クロム(III)の還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">Cr₂O₃ + 2Al → 2Cr + Al₂O₃</span></span></li>
+                    <li>酸化マンガン(IV)の還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">3MnO₂ + 4Al → 3Mn + 2Al₂O₃</span></span></li>
+                </ul>
+                <p><strong>特徴:</strong> 強い発熱反応(約3000℃)、鉄道レールの溶接などに利用</p>
+            </section>
+
+            <section id="compounds">
+                <h2>アルミニウムの化合物</h2>
+
+                <h3>1. アルミニウムイオン Al³⁺ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 水溶液は無色</li>
+                    <li><strong>酸化数:</strong> +3 のみ</li>
+                    <li><strong>加水分解:</strong> 水溶液は弱酸性(加水分解による)</li>
+                </ul>
+
+                <h4>Al³⁺ の加水分解</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">Al³⁺ + 3H₂O ⇌ Al(OH)₃ + 3H⁺</span></span></li>
+                    <li>または: <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">[Al(H₂O)₆]³⁺ ⇌ [Al(H₂O)₅(OH)]²⁺ + H⁺</span></span></li>
+                </ul>
+
+                <h3>2. 酸化アルミニウム Al₂O₃ の性質</h3>
+                <p>両性酸化物であり、酸にも塩基にも溶ける。</p>
+                <ul class="quiz-list">
+                    <li>酸との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">Al₂O₃ + 6HCl → 2AlCl₃ + 3H₂O</span></span></li>
+                    <li>塩基との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O</span></span></li>
+                    <li>イオン反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">Al₂O₃ + 2OH⁻ → 2AlO₂⁻ + H₂O</span></span></li>
+                </ul>
+                <p><strong>色:</strong> 白色</p>
+                <p><strong>用途:</strong> 研磨剤、耐火物、吸着剤、触媒担体</p>
+                <p><strong>天然鉱物:</strong> コランダム(不純物により色が変わる)</p>
+                <ul>
+                    <li>ルビー: Cr³⁺を含む(赤色)</li>
+                    <li>サファイア: Fe²⁺、Ti⁴⁺を含む(青色)</li>
+                </ul>
+
+                <h3>3. 水酸化アルミニウム Al(OH)₃ の性質</h3>
+                <p>両性水酸化物であり、酸にも塩基にも溶ける。</p>
+                <ul class="quiz-list">
+                    <li>生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">Al³⁺ + 3OH⁻ → Al(OH)₃↓</span></span> (白色ゼラチン状沈殿)</li>
+                    <li>酸との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(27)</span> <span class="blank">Al(OH)₃ + 3HCl → AlCl₃ + 3H₂O</span></span></li>
+                    <li>塩基との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(28)</span> <span class="blank">Al(OH)₃ + NaOH → Na[Al(OH)₄]</span></span></li>
+                    <li>イオン反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(29)</span> <span class="blank">Al(OH)₃ + OH⁻ → [Al(OH)₄]⁻</span></span></li>
+                    <li>加熱による脱水: <span class="blank-container" onclick="reveal(this)"><span class="number">(30)</span> <span class="blank">2Al(OH)₃ → Al₂O₃ + 3H₂O</span></span></li>
+                </ul>
+
+                <h3>4. 硫酸アルミニウム Al₂(SO₄)₃ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 白色結晶</li>
+                    <li><strong>溶解性:</strong> 水に溶ける</li>
+                    <li><strong>加水分解:</strong> 水溶液は酸性</li>
+                    <li><strong>用途:</strong> 浄水剤(凝集剤)、媒染剤</li>
+                </ul>
+
+                <h3>5. ミョウバン(明礬)</h3>
+                <p>複塩の一種で、一般式は M⁺Al³⁺(SO₄)₂·12H₂O</p>
+                <ul>
+                    <li><strong>カリミョウバン:</strong> KAl(SO₄)₂·12H₂O(最も一般的)</li>
+                    <li><strong>アンモニウムミョウバン:</strong> NH₄Al(SO₄)₂·12H₂O</li>
+                </ul>
+                <p><strong>性質:</strong></p>
+                <ul class="quiz-list">
+                    <li>無色透明な正八面体結晶</li>
+                    <li>水に溶けやすい</li>
+                    <li>水溶液は酸性(Al³⁺の加水分解)</li>
+                    <li>加熱すると結晶水を失う: <span class="blank-container" onclick="reveal(this)"><span class="number">(31)</span> <span class="blank">KAl(SO₄)₂·12H₂O → KAl(SO₄)₂ + 12H₂O</span></span></li>
+                </ul>
+                <p><strong>用途:</strong> 媒染剤、防水剤、消火剤、収れん剤</p>
+
+                <h3>6. 塩化アルミニウム AlCl₃ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 白色</li>
+                    <li><strong>潮解性:</strong> 空気中で潮解</li>
+                    <li><strong>加水分解:</strong> 水と激しく反応</li>
+                </ul>
+                <ul class="quiz-list">
+                    <li>加水分解: <span class="blank-container" onclick="reveal(this)"><span class="number">(32)</span> <span class="blank">AlCl₃ + 3H₂O → Al(OH)₃ + 3HCl</span></span></li>
+                </ul>
+                <p><strong>用途:</strong> フリーデル・クラフツ反応の触媒</p>
+
+                <h3>7. その他の主なアルミニウム化合物</h3>
+                <ul>
+                    <li><strong>硫化アルミニウム Al₂S₃:</strong> 黄色、水と反応して硫化水素を発生</li>
+                </ul>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(33)</span> <span class="blank">Al₂S₃ + 6H₂O → 2Al(OH)₃ + 3H₂S↑</span></span></li>
+                </ul>
+                <ul>
+                    <li><strong>炭化アルミニウム Al₄C₃:</strong> 水と反応してメタンを発生</li>
+                </ul>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(34)</span> <span class="blank">Al₄C₃ + 12H₂O → 4Al(OH)₃ + 3CH₄↑</span></span></li>
+                </ul>
+            </section>
+
+            <section id="precipitates">
+                <h2>アルミニウムイオンの沈殿反応と検出</h2>
+
+                <h3>1. 水酸化物の沈殿(両性)</h3>
+                <ul class="quiz-list">
+                    <li>Al³⁺ + 水酸化ナトリウム(少量): <span class="blank-container" onclick="reveal(this)"><span class="number">(35)</span> <span class="blank">Al³⁺ + 3OH⁻ → Al(OH)₃↓</span></span> (白色ゼラチン状沈殿)</li>
+                    <li>過剰の水酸化ナトリウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(36)</span> <span class="blank">Al(OH)₃ + OH⁻ → [Al(OH)₄]⁻</span></span> (沈殿が溶解)</li>
+                    <li>Al³⁺ + アンモニア水: <span class="blank-container" onclick="reveal(this)"><span class="number">(37)</span> <span class="blank">Al³⁺ + 3NH₃ + 3H₂O → Al(OH)₃↓ + 3NH₄⁺</span></span></li>
+                    <li>※ 過剰のアンモニア水を加えても溶けない(AlO₂⁻の錯イオンを形成しない)</li>
+                </ul>
+
+                <h3>2. 硫化物</h3>
+                <ul>
+                    <li>Al³⁺は硫化水素で沈殿しない(加水分解により水酸化物が沈殿)</li>
+                </ul>
+
+                <h3>3. アルミノンによる検出</h3>
+                <p>アルミニウムイオンの特異的な検出試薬。</p>
+                <ul>
+                    <li>Al³⁺ + アルミノン + アンモニア水 → 赤色のキレート化合物(レーキ)を生成</li>
+                    <li>この反応はアルミニウムイオンに特有</li>
+                </ul>
+
+                <h3>4. アルミニウムイオンの分離</h3>
+                <p>硫化水素による系統分離では、アルミニウムは第3属に分類される。</p>
+                <ul>
+                    <li><strong>第3属:</strong> Al³⁺, Cr³⁺, Fe³⁺ など</li>
+                    <li>アンモニア水で水酸化物として沈殿</li>
+                    <li>Al(OH)₃とCr(OH)₃は水酸化ナトリウムに溶ける(両性)</li>
+                    <li>Fe(OH)₃は溶けない → 分離可能</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>その他の重要事項</h2>
+                
+                <h3>イオン化傾向</h3>
+                <p>K > Ca > Na > Mg > <strong>Al</strong> > Zn > Cr > Fe > Ni > Sn > Pb > (H₂) > Cu > Hg > Ag > Pt > Au</p>
+                <ul>
+                    <li>アルミニウムはイオン化傾向が大きい(マグネシウムの次)</li>
+                    <li>希酸と反応して水素を発生</li>
+                    <li>濃硝酸では不動態を形成</li>
+                    <li>強い還元剤として働く(テルミット反応)</li>
+                </ul>
+
+                <h3>両性元素としてのアルミニウム</h3>
+                <p>アルミニウムは代表的な両性元素。</p>
+                <ul>
+                    <li><strong>酸との反応:</strong> Al³⁺ を生成</li>
+                    <li><strong>塩基との反応:</strong> [Al(OH)₄]⁻ を生成</li>
+                    <li>※ 同様に両性を示す元素: Zn, Sn, Pb, Cr など</li>
+                </ul>
+
+                <h3>不動態の形成</h3>
+                <p>アルミニウムは空気中や濃硝酸中で不動態を形成。</p>
+                <ul>
+                    <li>表面に緻密な Al₂O₃ の皮膜を形成</li>
+                    <li>厚さ約10 nm程度の薄い膜</li>
+                    <li>内部の金属を腐食から保護</li>
+                </ul>
+
+                <h3>アルマイト(陽極酸化処理)</h3>
+                <p>人工的に酸化皮膜を厚くする処理。</p>
+                <ul>
+                    <li>アルミニウムを陽極として希硫酸中で電気分解</li>
+                    <li>数μm~数十μmの厚い Al₂O₃ 皮膜を形成</li>
+                    <li>耐食性、耐摩耗性が向上</li>
+                    <li>着色も可能(染料を吸着させる)</li>
+                </ul>
+
+                <h3>アルミニウムの用途</h3>
+                <ul>
+                    <li><strong>軽量材料:</strong> 航空機、自動車、建築材料(密度が小さい)</li>
+                    <li><strong>導電材料:</strong> 電線(銅より軽く安価)</li>
+                    <li><strong>包装材料:</strong> アルミ箔、アルミ缶</li>
+                    <li><strong>合金:</strong> ジュラルミン(Al + Cu + Mg + Mn)、超超ジュラルミン</li>
+                    <li><strong>還元剤:</strong> テルミット反応</li>
+                    <li><strong>化学工業:</strong> 触媒、脱水剤</li>
+                    <li><strong>日用品:</strong> 鍋、やかん、1円硬貨</li>
+                </ul>
+
+                <h3>アルミニウムの合金</h3>
+                <ul>
+                    <li><strong>ジュラルミン:</strong> Al + Cu(4%) + Mg + Mn、軽くて強い</li>
+                    <li><strong>超ジュラルミン:</strong> Cu含有量が多い(5~6%)</li>
+                    <li><strong>超超ジュラルミン:</strong> さらにCu含有量が多い、航空機材料</li>
+                    <li><strong>アルミニウム青銅:</strong> Cu + Al、耐食性が高い</li>
+                </ul>
+
+                <h3>アルミニウムの鉱石</h3>
+                <ul>
+                    <li><strong>ボーキサイト:</strong> Al₂O₃·nH₂O(水酸化アルミニウム鉱物の混合物)</li>
+                    <li><strong>コランダム:</strong> Al₂O₃(酸化アルミニウム)</li>
+                    <li><strong>氷晶石:</strong> Na₃AlF₆(融解塩電解の融剤)</li>
+                </ul>
+
+                <h3>浄水とアルミニウム</h3>
+                <p>硫酸アルミニウムは浄水剤として使用される。</p>
+                <ul class="quiz-list">
+                    <li>加水分解して水酸化アルミニウムのゲル状沈殿を生成:</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(38)</span> <span class="blank">Al₂(SO₄)₃ + 6H₂O → 2Al(OH)₃↓ + 3H₂SO₄</span></span></li>
+                    <li>Al(OH)₃のゲルが水中の微粒子や不純物を吸着して沈降</li>
+                </ul>
+
+                <h3>アルミニウムの特性</h3>
+                <ul>
+                    <li><strong>密度:</strong> 2.7 g/cm³(鉄の約1/3)</li>
+                    <li><strong>融点:</strong> 660℃</li>
+                    <li><strong>電気伝導性:</strong> 銅の約60%(軽さを考慮すると有利)</li>
+                    <li><strong>熱伝導性:</strong> 高い(調理器具に適する)</li>
+                    <li><strong>展性・延性:</strong> 優れている(薄い箔にできる)</li>
+                    <li><strong>反射性:</strong> 可視光や赤外線をよく反射</li>
+                </ul>
+
+                <h3>環境とアルミニウム</h3>
+                <ul>
+                    <li><strong>リサイクル性:</strong> 何度でもリサイクル可能</li>
+                    <li><strong>省エネルギー:</strong> リサイクルは新地金製造の約3%のエネルギー</li>
+                    <li><strong>資源循環:</strong> アルミ缶のリサイクル率は高い</li>
+                    <li><strong>地殻存在度:</strong> 地殻中で3番目に多い元素(約8%)</li>
+                </ul>
+
+                <h3>注意すべき反応</h3>
+                <ul>
+                    <li><strong>両性:</strong> Al(OH)₃とAl₂O₃は酸にも塩基にも溶ける</li>
+                    <li><strong>不動態:</strong> 濃硝酸で不動態を形成して反応しない</li>
+                    <li><strong>加水分解:</strong> Al³⁺水溶液は弱酸性</li>
+                    <li><strong>アンモニア水:</strong> Al(OH)₃は過剰のアンモニア水に溶けない(Znとの違い)</li>
+                    <li><strong>テルミット反応:</strong> 強い発熱反応、高温を発生</li>
+                </ul>
+            </section>
+   
+    </main>
+</div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
