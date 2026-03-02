@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>鉄(Fe)の化学的性質</title>
+    <title>金属の錯イオンと沈殿まとめ</title>
     <style>
         html {
             -webkit-text-size-adjust: 100%;
@@ -104,6 +104,54 @@
             display: none; 
             align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
         }
+        /* テーブルの基本スタイル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    font-size: 0.85rem;
+}
+.reagent { background-color: #e9ecef; font-weight: bold; }
+
+/* 沈殿色の色分け（例） */
+.precipitate-red-brown { background-color: #a52a2a; color: white; }
+.precipitate-green-white { background-color: #f0fff0; }
+.complex-deep-blue { background-color: #00008b; color: white; }
+
+/* フラッシュカードの制御 */
+.hidden { display: none !important; }
+.flashcard {
+    background: white;
+    border: 2px solid #007bff;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    margin: 20px 0;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.word-display { font-size: 1.5rem; font-weight: bold; }
+.meaning-display { font-size: 1.2rem; color: #d9534f; margin-top: 10px; }
+
+/* ボタン */
+.btn, .btn-inline {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-secondary { background-color: #6c757d; }
+.error-msg { color: #d9534f; font-size: 0.9rem; margin-left: 10px; }
     </style>
 </head>
 <body>
@@ -416,6 +464,20 @@
     <button id="backToTop">↑</button>
 
     <script>
+        // スクロール時のボタン表示制御
+window.addEventListener('scroll', () => {
+    const btn = document.getElementById('backToTop');
+    if (window.scrollY > 300) {
+        btn.style.display = 'flex';
+    } else {
+        btn.style.display = 'none';
+    }
+});
+
+// クリック時にスムーズにトップへ
+document.getElementById('backToTop').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 document.addEventListener('DOMContentLoaded', () => {
     const blankContainers = document.querySelectorAll('.blank-container');
     
