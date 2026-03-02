@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,22 @@
         html {
             -webkit-text-size-adjust: 100%;
         }
-        body { 
-            font-family: sans-serif; 
+
+        body {
+            font-family: sans-serif;
             background-color: #f4f7f9;
-            margin: 0; padding: 20px; 
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; 
-             }
-        .container { 
-            width: 100%; 
-            max-width: 800px; 
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+        }
+
         h1 {
             color: #007bff;
             text-align: center;
@@ -27,30 +32,36 @@
             padding-bottom: 10px;
             margin-bottom: 30px;
         }
+
         h2 {
             border-left: 5px solid #0056b3;
             padding-left: 10px;
             color: #0056b3;
         }
+
         h3 {
             border-bottom: 2px solid #ddd;
             padding-bottom: 5px;
             color: #555;
         }
+
         ul {
             list-style-type: none;
-            padding-left: 0; 
+            padding-left: 0;
         }
+
         .blank-container {
             display: inline-block;
             cursor: pointer;
             position: relative;
             margin: 0 5px;
         }
+
         .blank-container .number {
             font-weight: bold;
             color: #d9534f;
         }
+
         .blank-container .blank {
             color: transparent;
             background-color: #ccc;
@@ -58,26 +69,30 @@
             padding: 0 5px;
             transition: color 0.3s, background-color 0.3s;
         }
+
         .blank-container.revealed .blank {
             font-size: inherit;
             color: #333;
             background-color: transparent;
             border-bottom: 2px solid #007bff;
         }
+
         .quiz-list {
             list-style: none;
             padding: 0;
             margin: 20px 0;
         }
+
         .quiz-list li {
             margin-bottom: 12px;
         }
-        
+
         main {
             max-width: 800px;
             margin: 20px auto;
             padding: 0 20px;
         }
+
         .btn-home {
             display: inline-block;
             padding: 8px 20px;
@@ -87,77 +102,127 @@
             border-radius: 20px;
             font-weight: bold;
             font-size: 0.9rem;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             transition: 0.3s;
         }
+
         .btn-home:hover {
             background-color: #5a6268;
             transform: translateY(-1px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
         }
 
         #backToTop {
-            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
-            background-color: #007bff; 
-            color: white; border: none; border-radius: 50%;
-            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
-            display: none; 
-            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            z-index: 1000;
         }
+
         /* テーブルの基本スタイル */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-}
-th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: center;
-    font-size: 0.85rem;
-}
-.reagent { background-color: #e9ecef; font-weight: bold; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
 
-/* 沈殿色の色分け（例） */
-.precipitate-red-brown { background-color: #a52a2a; color: white; }
-.precipitate-green-white { background-color: #f0fff0; }
-.complex-deep-blue { background-color: #00008b; color: white; }
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+            font-size: 0.85rem;
+        }
 
-/* フラッシュカードの制御 */
-.hidden { display: none !important; }
-.flashcard {
-    background: white;
-    border: 2px solid #007bff;
-    border-radius: 15px;
-    padding: 40px;
-    text-align: center;
-    margin: 20px 0;
-    min-height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: pointer;
-}
-.word-display { font-size: 1.5rem; font-weight: bold; }
-.meaning-display { font-size: 1.2rem; color: #d9534f; margin-top: 10px; }
+        .reagent {
+            background-color: #e9ecef;
+            font-weight: bold;
+        }
 
-/* ボタン */
-.btn, .btn-inline {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.btn-secondary { background-color: #6c757d; }
-.error-msg { color: #d9534f; font-size: 0.9rem; margin-left: 10px; }
+        /* 沈殿色の色分け（例） */
+        .precipitate-red-brown {
+            background-color: #a52a2a;
+            color: white;
+        }
+
+        .precipitate-green-white {
+            background-color: #f0fff0;
+        }
+
+        .complex-deep-blue {
+            background-color: #00008b;
+            color: white;
+        }
+
+        /* フラッシュカードの制御 */
+        .hidden {
+            display: none !important;
+        }
+
+        .flashcard {
+            background: white;
+            border: 2px solid #007bff;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            margin: 20px 0;
+            min-height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .word-display {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .meaning-display {
+            font-size: 1.2rem;
+            color: #d9534f;
+            margin-top: 10px;
+        }
+
+        /* ボタン */
+        .btn,
+        .btn-inline {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+
+        .error-msg {
+            color: #d9534f;
+            font-size: 0.9rem;
+            margin-left: 10px;
+        }
     </style>
 </head>
+
 <body>
-<div class="container">
-    <a href="index.html" class="btn-home">元素別解説に戻る</a>
-    <main>
+    <div class="container">
+        <a href="index.html" class="btn-home">元素別解説に戻る</a>
+        <main>
             <h1>金属の錯イオンと沈殿</h1>
 
             <section id="table">
@@ -303,40 +368,66 @@ th, td {
 
                 <h3>水酸化物の沈殿</h3>
                 <ul class="quiz-list">
-                    <li>Fe(OH)₂: <span class="blank-container"><span class="number">(1)</span><span class="blank">緑白色</span></span></li>
-                    <li>Fe(OH)₃: <span class="blank-container"><span class="number">(2)</span><span class="blank">赤褐色</span></span></li>
-                    <li>Cu(OH)₂: <span class="blank-container"><span class="number">(3)</span><span class="blank">青白色</span></span></li>
-                    <li>Zn(OH)₂: <span class="blank-container"><span class="number">(4)</span><span class="blank">白色</span></span></li>
-                    <li>Al(OH)₃: <span class="blank-container"><span class="number">(5)</span><span class="blank">白色</span></span></li>
-                    <li>Cr(OH)₃: <span class="blank-container"><span class="number">(6)</span><span class="blank">灰緑色</span></span></li>
-                    <li>Ni(OH)₂: <span class="blank-container"><span class="number">(7)</span><span class="blank">緑色</span></span></li>
-                    <li>Co(OH)₂: <span class="blank-container"><span class="number">(8)</span><span class="blank">桃色</span></span></li>
-                    <li>Mn(OH)₂: <span class="blank-container"><span class="number">(9)</span><span class="blank">淡桃色</span></span></li>
-                    <li>Ag₂O (AgOHは不安定): <span class="blank-container"><span class="number">(10)</span><span class="blank">褐色</span></span></li>
+                    <li>Fe(OH)₂: <span class="blank-container"><span class="number">(1)</span><span
+                                class="blank">緑白色</span></span></li>
+                    <li>Fe(OH)₃: <span class="blank-container"><span class="number">(2)</span><span
+                                class="blank">赤褐色</span></span></li>
+                    <li>Cu(OH)₂: <span class="blank-container"><span class="number">(3)</span><span
+                                class="blank">青白色</span></span></li>
+                    <li>Zn(OH)₂: <span class="blank-container"><span class="number">(4)</span><span
+                                class="blank">白色</span></span></li>
+                    <li>Al(OH)₃: <span class="blank-container"><span class="number">(5)</span><span
+                                class="blank">白色</span></span></li>
+                    <li>Cr(OH)₃: <span class="blank-container"><span class="number">(6)</span><span
+                                class="blank">灰緑色</span></span></li>
+                    <li>Ni(OH)₂: <span class="blank-container"><span class="number">(7)</span><span
+                                class="blank">緑色</span></span></li>
+                    <li>Co(OH)₂: <span class="blank-container"><span class="number">(8)</span><span
+                                class="blank">桃色</span></span></li>
+                    <li>Mn(OH)₂: <span class="blank-container"><span class="number">(9)</span><span
+                                class="blank">淡桃色</span></span></li>
+                    <li>Ag₂O (AgOHは不安定): <span class="blank-container"><span class="number">(10)</span><span
+                                class="blank">褐色</span></span></li>
                 </ul>
 
                 <h3>硫化物の沈殿</h3>
                 <ul class="quiz-list">
-                    <li>CuS: <span class="blank-container"><span class="number">(11)</span><span class="blank">黒色</span></span></li>
-                    <li>PbS: <span class="blank-container"><span class="number">(12)</span><span class="blank">黒色</span></span></li>
-                    <li>HgS: <span class="blank-container"><span class="number">(13)</span><span class="blank">黒色</span></span></li>
-                    <li>CdS: <span class="blank-container"><span class="number">(14)</span><span class="blank">黄色</span></span></li>
-                    <li>ZnS: <span class="blank-container"><span class="number">(15)</span><span class="blank">白色</span></span></li>
-                    <li>FeS: <span class="blank-container"><span class="number">(16)</span><span class="blank">黒色</span></span></li>
-                    <li>MnS: <span class="blank-container"><span class="number">(17)</span><span class="blank">淡桃色</span></span></li>
-                    <li>NiS: <span class="blank-container"><span class="number">(18)</span><span class="blank">黒色</span></span></li>
+                    <li>CuS: <span class="blank-container"><span class="number">(11)</span><span
+                                class="blank">黒色</span></span></li>
+                    <li>PbS: <span class="blank-container"><span class="number">(12)</span><span
+                                class="blank">黒色</span></span></li>
+                    <li>HgS: <span class="blank-container"><span class="number">(13)</span><span
+                                class="blank">黒色</span></span></li>
+                    <li>CdS: <span class="blank-container"><span class="number">(14)</span><span
+                                class="blank">黄色</span></span></li>
+                    <li>ZnS: <span class="blank-container"><span class="number">(15)</span><span
+                                class="blank">白色</span></span></li>
+                    <li>FeS: <span class="blank-container"><span class="number">(16)</span><span
+                                class="blank">黒色</span></span></li>
+                    <li>MnS: <span class="blank-container"><span class="number">(17)</span><span
+                                class="blank">淡桃色</span></span></li>
+                    <li>NiS: <span class="blank-container"><span class="number">(18)</span><span
+                                class="blank">黒色</span></span></li>
                 </ul>
 
                 <h3>その他の沈殿</h3>
                 <ul class="quiz-list">
-                    <li>AgCl: <span class="blank-container"><span class="number">(19)</span><span class="blank">白色</span></span></li>
-                    <li>AgBr: <span class="blank-container"><span class="number">(20)</span><span class="blank">淡黄色</span></span></li>
-                    <li>AgI: <span class="blank-container"><span class="number">(21)</span><span class="blank">黄色</span></span></li>
-                    <li>PbCl₂: <span class="blank-container"><span class="number">(22)</span><span class="blank">白色</span></span></li>
-                    <li>PbI₂: <span class="blank-container"><span class="number">(23)</span><span class="blank">黄色</span></span></li>
-                    <li>BaSO₄: <span class="blank-container"><span class="number">(24)</span><span class="blank">白色</span></span></li>
-                    <li>CaSO₄: <span class="blank-container"><span class="number">(25)</span><span class="blank">白色</span></span></li>
-                    <li>CaCO₃: <span class="blank-container"><span class="number">(26)</span><span class="blank">白色</span></span></li>
+                    <li>AgCl: <span class="blank-container"><span class="number">(19)</span><span
+                                class="blank">白色</span></span></li>
+                    <li>AgBr: <span class="blank-container"><span class="number">(20)</span><span
+                                class="blank">淡黄色</span></span></li>
+                    <li>AgI: <span class="blank-container"><span class="number">(21)</span><span
+                                class="blank">黄色</span></span></li>
+                    <li>PbCl₂: <span class="blank-container"><span class="number">(22)</span><span
+                                class="blank">白色</span></span></li>
+                    <li>PbI₂: <span class="blank-container"><span class="number">(23)</span><span
+                                class="blank">黄色</span></span></li>
+                    <li>BaSO₄: <span class="blank-container"><span class="number">(24)</span><span
+                                class="blank">白色</span></span></li>
+                    <li>CaSO₄: <span class="blank-container"><span class="number">(25)</span><span
+                                class="blank">白色</span></span></li>
+                    <li>CaCO₃: <span class="blank-container"><span class="number">(26)</span><span
+                                class="blank">白色</span></span></li>
                 </ul>
             </section>
 
@@ -345,56 +436,78 @@ th, td {
 
                 <h3>銅(Cu)の錯イオン</h3>
                 <ul class="quiz-list">
-                    <li>[Cu(NH₃)₄]²⁺ (テトラアンミン銅(II)イオン): <span class="blank-container"><span class="number">(27)</span><span class="blank">深青色</span></span></li>
-                    <li>[Cu(OH)₄]²⁻ (テトラヒドロキソ銅(II)イオン): <span class="blank-container"><span class="number">(28)</span><span class="blank">深青色</span></span></li>
-                    <li>Cu(H₂O)₆²⁺ (水和イオン): <span class="blank-container"><span class="number">(29)</span><span class="blank">青色</span></span></li>
+                    <li>[Cu(NH₃)₄]²⁺ (テトラアンミン銅(II)イオン): <span class="blank-container"><span
+                                class="number">(27)</span><span class="blank">深青色</span></span></li>
+                    <li>[Cu(OH)₄]²⁻ (テトラヒドロキソ銅(II)イオン): <span class="blank-container"><span
+                                class="number">(28)</span><span class="blank">深青色</span></span></li>
+                    <li>Cu(H₂O)₆²⁺ (水和イオン): <span class="blank-container"><span class="number">(29)</span><span
+                                class="blank">青色</span></span></li>
                 </ul>
 
                 <h3>銀(Ag)の錯イオン</h3>
                 <ul class="quiz-list">
-                    <li>[Ag(NH₃)₂]⁺ (ジアンミン銀(I)イオン): <span class="blank-container"><span class="number">(30)</span><span class="blank">無色</span></span></li>
-                    <li>[Ag(S₂O₃)₂]³⁻ (ジチオ硫酸銀(I)イオン): <span class="blank-container"><span class="number">(31)</span><span class="blank">無色</span></span></li>
-                    <li>[Ag(CN)₂]⁻ (ジシアノ銀(I)イオン): <span class="blank-container"><span class="number">(32)</span><span class="blank">無色</span></span></li>
+                    <li>[Ag(NH₃)₂]⁺ (ジアンミン銀(I)イオン): <span class="blank-container"><span class="number">(30)</span><span
+                                class="blank">無色</span></span></li>
+                    <li>[Ag(S₂O₃)₂]³⁻ (ジチオ硫酸銀(I)イオン): <span class="blank-container"><span
+                                class="number">(31)</span><span class="blank">無色</span></span></li>
+                    <li>[Ag(CN)₂]⁻ (ジシアノ銀(I)イオン): <span class="blank-container"><span class="number">(32)</span><span
+                                class="blank">無色</span></span></li>
                 </ul>
 
                 <h3>亜鉛(Zn)の錯イオン</h3>
                 <ul class="quiz-list">
-                    <li>[Zn(NH₃)₄]²⁺ (テトラアンミン亜鉛(II)イオン): <span class="blank-container"><span class="number">(33)</span><span class="blank">無色</span></span></li>
-                    <li>[Zn(OH)₄]²⁻ (テトラヒドロキソ亜鉛(II)イオン): <span class="blank-container"><span class="number">(34)</span><span class="blank">無色</span></span></li>
+                    <li>[Zn(NH₃)₄]²⁺ (テトラアンミン亜鉛(II)イオン): <span class="blank-container"><span
+                                class="number">(33)</span><span class="blank">無色</span></span></li>
+                    <li>[Zn(OH)₄]²⁻ (テトラヒドロキソ亜鉛(II)イオン): <span class="blank-container"><span
+                                class="number">(34)</span><span class="blank">無色</span></span></li>
                 </ul>
 
                 <h3>アルミニウム(Al)の錯イオン</h3>
                 <ul class="quiz-list">
-                    <li>[Al(OH)₄]⁻ (テトラヒドロキソアルミン(III)イオン): <span class="blank-container"><span class="number">(35)</span><span class="blank">無色</span></span></li>
+                    <li>[Al(OH)₄]⁻ (テトラヒドロキソアルミン(III)イオン): <span class="blank-container"><span
+                                class="number">(35)</span><span class="blank">無色</span></span></li>
                 </ul>
 
                 <h3>クロム(Cr)の錯イオン</h3>
                 <ul class="quiz-list">
-                    <li>CrO₄²⁻ (クロム酸イオン): <span class="blank-container"><span class="number">(36)</span><span class="blank">黄色</span></span></li>
-                    <li>Cr₂O₇²⁻ (二クロム酸イオン): <span class="blank-container"><span class="number">(37)</span><span class="blank">橙色</span></span></li>
-                    <li>Cr³⁺ (クロム(III)イオン): <span class="blank-container"><span class="number">(38)</span><span class="blank">緑色</span></span></li>
+                    <li>CrO₄²⁻ (クロム酸イオン): <span class="blank-container"><span class="number">(36)</span><span
+                                class="blank">黄色</span></span></li>
+                    <li>Cr₂O₇²⁻ (二クロム酸イオン): <span class="blank-container"><span class="number">(37)</span><span
+                                class="blank">橙色</span></span></li>
+                    <li>Cr³⁺ (クロム(III)イオン): <span class="blank-container"><span class="number">(38)</span><span
+                                class="blank">緑色</span></span></li>
                 </ul>
 
                 <h3>鉄(Fe)の錯イオンと呈色反応</h3>
                 <ul class="quiz-list">
-                    <li>Fe²⁺ + [Fe(CN)₆]³⁻ → 濃青色沈殿 <span class="blank-container"><span class="number">(39)</span><span class="blank">ターンブルブルー</span></span></li>
-                    <li>Fe³⁺ + [Fe(CN)₆]⁴⁻ → 濃青色沈殿 <span class="blank-container"><span class="number">(40)</span><span class="blank">ヘキサシアノ鉄(II)酸鉄(III) (紺青)</span></span></li>
-                    <li>Fe³⁺ + SCN⁻ → <span class="blank-container"><span class="number">(41)</span><span class="blank">血赤色</span></span></li>
-                    <li>Fe³⁺ + フェノール → <span class="blank-container"><span class="number">(42)</span><span class="blank">紫色</span></span></li>
+                    <li>Fe²⁺ + [Fe(CN)₆]³⁻ → 濃青色沈殿 <span class="blank-container"><span class="number">(39)</span><span
+                                class="blank">ターンブルブルー</span></span></li>
+                    <li>Fe³⁺ + [Fe(CN)₆]⁴⁻ → 濃青色沈殿 <span class="blank-container"><span class="number">(40)</span><span
+                                class="blank">ヘキサシアノ鉄(II)酸鉄(III) (紺青)</span></span></li>
+                    <li>Fe³⁺ + SCN⁻ → <span class="blank-container"><span class="number">(41)</span><span
+                                class="blank">血赤色</span></span></li>
+                    <li>Fe³⁺ + フェノール → <span class="blank-container"><span class="number">(42)</span><span
+                                class="blank">紫色</span></span></li>
                 </ul>
 
                 <h3>コバルト(Co)の錯イオン</h3>
                 <ul class="quiz-list">
-                    <li>Co²⁺ (水和イオン): <span class="blank-container"><span class="number">(43)</span><span class="blank">桃色</span></span></li>
-                    <li>[Co(NH₃)₆]³⁺ (ヘキサアンミンコバルト(III)イオン): <span class="blank-container"><span class="number">(44)</span><span class="blank">黄褐色</span></span></li>
-                    <li>CoCl₄²⁻ (テトラクロロコバルト(II)イオン): <span class="blank-container"><span class="number">(45)</span><span class="blank">青色</span></span></li>
+                    <li>Co²⁺ (水和イオン): <span class="blank-container"><span class="number">(43)</span><span
+                                class="blank">桃色</span></span></li>
+                    <li>[Co(NH₃)₆]³⁺ (ヘキサアンミンコバルト(III)イオン): <span class="blank-container"><span
+                                class="number">(44)</span><span class="blank">黄褐色</span></span></li>
+                    <li>CoCl₄²⁻ (テトラクロロコバルト(II)イオン): <span class="blank-container"><span
+                                class="number">(45)</span><span class="blank">青色</span></span></li>
                 </ul>
 
                 <h3>ニッケル(Ni)の錯イオン</h3>
                 <ul class="quiz-list">
-                    <li>Ni²⁺ (水和イオン): <span class="blank-container"><span class="number">(46)</span><span class="blank">緑色</span></span></li>
-                    <li>[Ni(NH₃)₆]²⁺ (ヘキサアンミンニッケル(II)イオン): <span class="blank-container"><span class="number">(47)</span><span class="blank">青紫色</span></span></li>
-                    <li>Ni²⁺ + ジメチルグリオキシム → <span class="blank-container"><span class="number">(48)</span><span class="blank">赤色沈殿</span></span></li>
+                    <li>Ni²⁺ (水和イオン): <span class="blank-container"><span class="number">(46)</span><span
+                                class="blank">緑色</span></span></li>
+                    <li>[Ni(NH₃)₆]²⁺ (ヘキサアンミンニッケル(II)イオン): <span class="blank-container"><span
+                                class="number">(47)</span><span class="blank">青紫色</span></span></li>
+                    <li>Ni²⁺ + ジメチルグリオキシム → <span class="blank-container"><span class="number">(48)</span><span
+                                class="blank">赤色沈殿</span></span></li>
                 </ul>
             </section>
 
@@ -403,35 +516,46 @@ th, td {
 
                 <h3>両性元素(酸・塩基両方に溶ける)</h3>
                 <ul class="quiz-list">
-                    <li>Zn(OH)₂ + <span class="blank-container"><span class="number">(49)</span><span class="blank">2OH⁻ → [Zn(OH)₄]²⁻</span></span></li>
-                    <li>Al(OH)₃ + <span class="blank-container"><span class="number">(50)</span><span class="blank">OH⁻ → [Al(OH)₄]⁻</span></span></li>
-                    <li>Cr(OH)₃ + <span class="blank-container"><span class="number">(51)</span><span class="blank">3OH⁻ → [Cr(OH)₆]³⁻</span></span></li>
+                    <li>Zn(OH)₂ + <span class="blank-container"><span class="number">(49)</span><span class="blank">2OH⁻
+                                → [Zn(OH)₄]²⁻</span></span></li>
+                    <li>Al(OH)₃ + <span class="blank-container"><span class="number">(50)</span><span class="blank">OH⁻
+                                → [Al(OH)₄]⁻</span></span></li>
+                    <li>Cr(OH)₃ + <span class="blank-container"><span class="number">(51)</span><span class="blank">3OH⁻
+                                → [Cr(OH)₆]³⁻</span></span></li>
                 </ul>
 
                 <h3>ハロゲン化銀の溶解性</h3>
                 <ul class="quiz-list">
-                    <li>AgCl: <span class="blank-container"><span class="number">(52)</span><span class="blank">NH₃に可溶</span></span></li>
-                    <li>AgBr: <span class="blank-container"><span class="number">(53)</span><span class="blank">濃NH₃に可溶</span></span></li>
-                    <li>AgI: <span class="blank-container"><span class="number">(54)</span><span class="blank">NH₃に不溶</span></span></li>
+                    <li>AgCl: <span class="blank-container"><span class="number">(52)</span><span
+                                class="blank">NH₃に可溶</span></span></li>
+                    <li>AgBr: <span class="blank-container"><span class="number">(53)</span><span
+                                class="blank">濃NH₃に可溶</span></span></li>
+                    <li>AgI: <span class="blank-container"><span class="number">(54)</span><span
+                                class="blank">NH₃に不溶</span></span></li>
                 </ul>
 
                 <h3>クロム酸と二クロム酸の平衡</h3>
                 <ul class="quiz-list">
-                    <li>2CrO₄²⁻ + 2H⁺ ⇄ <span class="blank-container"><span class="number">(55)</span><span class="blank">Cr₂O₇²⁻ + H₂O</span></span></li>
-                    <li>酸性: <span class="blank-container"><span class="number">(56)</span><span class="blank">橙色 (Cr₂O₇²⁻)</span></span></li>
-                    <li>塩基性: <span class="blank-container"><span class="number">(57)</span><span class="blank">黄色 (CrO₄²⁻)</span></span></li>
+                    <li>2CrO₄²⁻ + 2H⁺ ⇄ <span class="blank-container"><span class="number">(55)</span><span
+                                class="blank">Cr₂O₇²⁻ + H₂O</span></span></li>
+                    <li>酸性: <span class="blank-container"><span class="number">(56)</span><span class="blank">橙色
+                                (Cr₂O₇²⁻)</span></span></li>
+                    <li>塩基性: <span class="blank-container"><span class="number">(57)</span><span class="blank">黄色
+                                (CrO₄²⁻)</span></span></li>
                 </ul>
 
                 <h3>過マンガン酸カリウムの反応</h3>
                 <ul class="quiz-list">
-                    <li>MnO₄⁻ (酸性溶液): <span class="blank-container"><span class="number">(58)</span><span class="blank">赤紫色 → Mn²⁺ (淡桃色)</span></span></li>
-                    <li>MnO₄⁻ (中性・塩基性): <span class="blank-container"><span class="number">(59)</span><span class="blank">MnO₂ (黒褐色沈殿)</span></span></li>
+                    <li>MnO₄⁻ (酸性溶液): <span class="blank-container"><span class="number">(58)</span><span
+                                class="blank">赤紫色 → Mn²⁺ (淡桃色)</span></span></li>
+                    <li>MnO₄⁻ (中性・塩基性): <span class="blank-container"><span class="number">(59)</span><span
+                                class="blank">MnO₂ (黒褐色沈殿)</span></span></li>
                 </ul>
             </section>
 
             <section id="flashcards">
                 <h2>フラッシュカード練習</h2>
-                
+
                 <div class="config-area">
                     <div class="input-group">
                         <label>開始番号: <input type="number" id="startNum" value="1" min="1" max="59"></label>
@@ -457,196 +581,198 @@ th, td {
                     </div>
                 </div>
             </section>
-   
-    </main>
-</div>
+
+        </main>
+    </div>
 
     <button id="backToTop">↑</button>
 
     <script>
         // スクロール時のボタン表示制御
-window.addEventListener('scroll', () => {
-    const btn = document.getElementById('backToTop');
-    if (window.scrollY > 300) {
-        btn.style.display = 'flex';
-    } else {
-        btn.style.display = 'none';
-    }
-});
-
-// クリック時にスムーズにトップへ
-document.getElementById('backToTop').addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-});
-document.addEventListener('DOMContentLoaded', () => {
-    const blankContainers = document.querySelectorAll('.blank-container');
-    
-    blankContainers.forEach(container => {
-        container.addEventListener('click', () => {
-            container.classList.toggle('revealed');
+        window.addEventListener('scroll', () => {
+            const btn = document.getElementById('backToTop');
+            if (window.scrollY > 300) {
+                btn.style.display = 'flex';
+            } else {
+                btn.style.display = 'none';
+            }
         });
-    });
 
-    const flashcardData = [
-        { id: 1, question: 'Fe(OH)₂の色', answer: '緑白色' },
-        { id: 2, question: 'Fe(OH)₃の色', answer: '赤褐色' },
-        { id: 3, question: 'Cu(OH)₂の色', answer: '青白色' },
-        { id: 4, question: 'Zn(OH)₂の色', answer: '白色' },
-        { id: 5, question: 'Al(OH)₃の色', answer: '白色' },
-        { id: 6, question: 'Cr(OH)₃の色', answer: '灰緑色' },
-        { id: 7, question: 'Ni(OH)₂の色', answer: '緑色' },
-        { id: 8, question: 'Co(OH)₂の色', answer: '桃色' },
-        { id: 9, question: 'Mn(OH)₂の色', answer: '淡桃色' },
-        { id: 10, question: 'Ag₂Oの色', answer: '褐色' },
-        { id: 11, question: 'CuSの色', answer: '黒色' },
-        { id: 12, question: 'PbSの色', answer: '黒色' },
-        { id: 13, question: 'HgSの色', answer: '黒色' },
-        { id: 14, question: 'CdSの色', answer: '黄色' },
-        { id: 15, question: 'ZnSの色', answer: '白色' },
-        { id: 16, question: 'FeSの色', answer: '黒色' },
-        { id: 17, question: 'MnSの色', answer: '淡桃色' },
-        { id: 18, question: 'NiSの色', answer: '黒色' },
-        { id: 19, question: 'AgClの色', answer: '白色' },
-        { id: 20, question: 'AgBrの色', answer: '淡黄色' },
-        { id: 21, question: 'AgIの色', answer: '黄色' },
-        { id: 22, question: 'PbCl₂の色', answer: '白色' },
-        { id: 23, question: 'PbI₂の色', answer: '黄色' },
-        { id: 24, question: 'BaSO₄の色', answer: '白色' },
-        { id: 25, question: 'CaSO₄の色', answer: '白色' },
-        { id: 26, question: 'CaCO₃の色', answer: '白色' },
-        { id: 27, question: '[Cu(NH₃)₄]²⁺の色', answer: '深青色' },
-        { id: 28, question: '[Cu(OH)₄]²⁻の色', answer: '深青色' },
-        { id: 29, question: 'Cu(H₂O)₆²⁺の色', answer: '青色' },
-        { id: 30, question: '[Ag(NH₃)₂]⁺の色', answer: '無色' },
-        { id: 31, question: '[Ag(S₂O₃)₂]³⁻の色', answer: '無色' },
-        { id: 32, question: '[Ag(CN)₂]⁻の色', answer: '無色' },
-        { id: 33, question: '[Zn(NH₃)₄]²⁺の色', answer: '無色' },
-        { id: 34, question: '[Zn(OH)₄]²⁻の色', answer: '無色' },
-        { id: 35, question: '[Al(OH)₄]⁻の色', answer: '無色' },
-        { id: 36, question: 'CrO₄²⁻の色', answer: '黄色' },
-        { id: 37, question: 'Cr₂O₇²⁻の色', answer: '橙色' },
-        { id: 38, question: 'Cr³⁺の色', answer: '緑色' },
-        { id: 39, question: 'Fe²⁺ + [Fe(CN)₆]³⁻の沈殿名', answer: 'ターンブルブルー' },
-        { id: 40, question: 'Fe³⁺ + [Fe(CN)₆]⁴⁻の沈殿名', answer: 'ヘキサシアノ鉄(II)酸鉄(III) (紺青)' },
-        { id: 41, question: 'Fe³⁺ + SCN⁻の色', answer: '血赤色' },
-        { id: 42, question: 'Fe³⁺ + フェノールの色', answer: '紫色' },
-        { id: 43, question: 'Co²⁺ (水和イオン)の色', answer: '桃色' },
-        { id: 44, question: '[Co(NH₃)₆]³⁺の色', answer: '黄褐色' },
-        { id: 45, question: 'CoCl₄²⁻の色', answer: '青色' },
-        { id: 46, question: 'Ni²⁺ (水和イオン)の色', answer: '緑色' },
-        { id: 47, question: '[Ni(NH₃)₆]²⁺の色', answer: '青紫色' },
-        { id: 48, question: 'Ni²⁺ + ジメチルグリオキシムの色', answer: '赤色沈殿' },
-        { id: 49, question: 'Zn(OH)₂ + 塩基の反応式', answer: '2OH⁻ → [Zn(OH)₄]²⁻' },
-        { id: 50, question: 'Al(OH)₃ + 塩基の反応式', answer: 'OH⁻ → [Al(OH)₄]⁻' },
-        { id: 51, question: 'Cr(OH)₃ + 塩基の反応式', answer: '3OH⁻ → [Cr(OH)₆]³⁻' },
-        { id: 52, question: 'AgClの溶解性', answer: 'NH₃に可溶' },
-        { id: 53, question: 'AgBrの溶解性', answer: '濃NH₃に可溶' },
-        { id: 54, question: 'AgIの溶解性', answer: 'NH₃に不溶' },
-        { id: 55, question: '2CrO₄²⁻ + 2H⁺ ⇄ ?', answer: 'Cr₂O₇²⁻ + H₂O' },
-        { id: 56, question: 'クロム酸イオン、酸性溶液での色', answer: '橙色 (Cr₂O₇²⁻)' },
-        { id: 57, question: 'クロム酸イオン、塩基性溶液での色', answer: '黄色 (CrO₄²⁻)' },
-        { id: 58, question: 'MnO₄⁻が酸性溶液で還元されると?', answer: '赤紫色 → Mn²⁺ (淡桃色)' },
-        { id: 59, question: 'MnO₄⁻が中性・塩基性溶液で還元されると?', answer: 'MnO₂ (黒褐色沈殿)' }
-    ];
+        // クリック時にスムーズにトップへ
+        document.getElementById('backToTop').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
 
-    let currentCards = [];
-    let currentIndex = 0;
-    let isRevealed = false;
+        document.addEventListener('DOMContentLoaded', () => {
+            const blankContainers = document.querySelectorAll('.blank-container');
 
-    const startBtn = document.getElementById('startBtn');
-    const flashcardArea = document.getElementById('flashcardArea');
-    const flashcard = document.getElementById('flashcard');
-    const wordDisplay = document.getElementById('wordDisplay');
-    const meaningDisplay = document.getElementById('meaningDisplay');
-    const progressText = document.getElementById('progressText');
-    const prevBtn = document.getElementById('prevBtn');
-    const nextBtn = document.getElementById('nextBtn');
-    const revealBtn = document.getElementById('revealBtn');
-    const errorMsg = document.getElementById('errorMsg');
+            blankContainers.forEach(container => {
+                container.addEventListener('click', () => {
+                    container.classList.toggle('revealed');
+                });
+            });
 
-    startBtn.addEventListener('click', startPractice);
-    flashcard.addEventListener('click', toggleReveal);
-    revealBtn.addEventListener('click', toggleReveal);
-    prevBtn.addEventListener('click', showPrevCard);
-    nextBtn.addEventListener('click', showNextCard);
+            const flashcardData = [
+                { id: 1, question: 'Fe(OH)₂の色', answer: '緑白色' },
+                { id: 2, question: 'Fe(OH)₃の色', answer: '赤褐色' },
+                { id: 3, question: 'Cu(OH)₂の色', answer: '青白色' },
+                { id: 4, question: 'Zn(OH)₂の色', answer: '白色' },
+                { id: 5, question: 'Al(OH)₃の色', answer: '白色' },
+                { id: 6, question: 'Cr(OH)₃の色', answer: '灰緑色' },
+                { id: 7, question: 'Ni(OH)₂の色', answer: '緑色' },
+                { id: 8, question: 'Co(OH)₂の色', answer: '桃色' },
+                { id: 9, question: 'Mn(OH)₂の色', answer: '淡桃色' },
+                { id: 10, question: 'Ag₂Oの色', answer: '褐色' },
+                { id: 11, question: 'CuSの色', answer: '黒色' },
+                { id: 12, question: 'PbSの色', answer: '黒色' },
+                { id: 13, question: 'HgSの色', answer: '黒色' },
+                { id: 14, question: 'CdSの色', answer: '黄色' },
+                { id: 15, question: 'ZnSの色', answer: '白色' },
+                { id: 16, question: 'FeSの色', answer: '黒色' },
+                { id: 17, question: 'MnSの色', answer: '淡桃色' },
+                { id: 18, question: 'NiSの色', answer: '黒色' },
+                { id: 19, question: 'AgClの色', answer: '白色' },
+                { id: 20, question: 'AgBrの色', answer: '淡黄色' },
+                { id: 21, question: 'AgIの色', answer: '黄色' },
+                { id: 22, question: 'PbCl₂の色', answer: '白色' },
+                { id: 23, question: 'PbI₂の色', answer: '黄色' },
+                { id: 24, question: 'BaSO₄の色', answer: '白色' },
+                { id: 25, question: 'CaSO₄の色', answer: '白色' },
+                { id: 26, question: 'CaCO₃の色', answer: '白色' },
+                { id: 27, question: '[Cu(NH₃)₄]²⁺の色', answer: '深青色' },
+                { id: 28, question: '[Cu(OH)₄]²⁻の色', answer: '深青色' },
+                { id: 29, question: 'Cu(H₂O)₆²⁺の色', answer: '青色' },
+                { id: 30, question: '[Ag(NH₃)₂]⁺の色', answer: '無色' },
+                { id: 31, question: '[Ag(S₂O₃)₂]³⁻の色', answer: '無色' },
+                { id: 32, question: '[Ag(CN)₂]⁻の色', answer: '無色' },
+                { id: 33, question: '[Zn(NH₃)₄]²⁺の色', answer: '無色' },
+                { id: 34, question: '[Zn(OH)₄]²⁻の色', answer: '無色' },
+                { id: 35, question: '[Al(OH)₄]⁻の色', answer: '無色' },
+                { id: 36, question: 'CrO₄²⁻の色', answer: '黄色' },
+                { id: 37, question: 'Cr₂O₇²⁻の色', answer: '橙色' },
+                { id: 38, question: 'Cr³⁺の色', answer: '緑色' },
+                { id: 39, question: 'Fe²⁺ + [Fe(CN)₆]³⁻の沈殿名', answer: 'ターンブルブルー' },
+                { id: 40, question: 'Fe³⁺ + [Fe(CN)₆]⁴⁻の沈殿名', answer: 'ヘキサシアノ鉄(II)酸鉄(III) (紺青)' },
+                { id: 41, question: 'Fe³⁺ + SCN⁻の色', answer: '血赤色' },
+                { id: 42, question: 'Fe³⁺ + フェノールの色', answer: '紫色' },
+                { id: 43, question: 'Co²⁺ (水和イオン)の色', answer: '桃色' },
+                { id: 44, question: '[Co(NH₃)₆]³⁺の色', answer: '黄褐色' },
+                { id: 45, question: 'CoCl₄²⁻の色', answer: '青色' },
+                { id: 46, question: 'Ni²⁺ (水和イオン)の色', answer: '緑色' },
+                { id: 47, question: '[Ni(NH₃)₆]²⁺の色', answer: '青紫色' },
+                { id: 48, question: 'Ni²⁺ + ジメチルグリオキシムの色', answer: '赤色沈殿' },
+                { id: 49, question: 'Zn(OH)₂ + 塩基の反応式', answer: '2OH⁻ → [Zn(OH)₄]²⁻' },
+                { id: 50, question: 'Al(OH)₃ + 塩基の反応式', answer: 'OH⁻ → [Al(OH)₄]⁻' },
+                { id: 51, question: 'Cr(OH)₃ + 塩基の反応式', answer: '3OH⁻ → [Cr(OH)₆]³⁻' },
+                { id: 52, question: 'AgClの溶解性', answer: 'NH₃に可溶' },
+                { id: 53, question: 'AgBrの溶解性', answer: '濃NH₃に可溶' },
+                { id: 54, question: 'AgIの溶解性', answer: 'NH₃に不溶' },
+                { id: 55, question: '2CrO₄²⁻ + 2H⁺ ⇄ ?', answer: 'Cr₂O₇²⁻ + H₂O' },
+                { id: 56, question: 'クロム酸イオン、酸性溶液での色', answer: '橙色 (Cr₂O₇²⁻)' },
+                { id: 57, question: 'クロム酸イオン、塩基性溶液での色', answer: '黄色 (CrO₄²⁻)' },
+                { id: 58, question: 'MnO₄⁻が酸性溶液で還元されると?', answer: '赤紫色 → Mn²⁺ (淡桃色)' },
+                { id: 59, question: 'MnO₄⁻が中性・塩基性溶液で還元されると?', answer: 'MnO₂ (黒褐色沈殿)' }
+            ];
 
-    function startPractice() {
-        const startNum = parseInt(document.getElementById('startNum').value);
-        const endNum = parseInt(document.getElementById('endNum').value);
-        const shouldShuffle = document.getElementById('shuffleCheck').checked;
+            let currentCards = [];
+            let currentIndex = 0;
+            let isRevealed = false;
 
-        if (startNum < 1 || endNum > 59 || startNum > endNum) {
-            errorMsg.textContent = '範囲が正しくありません (1〜59)';
-            return;
-        }
+            const startBtn = document.getElementById('startBtn');
+            const flashcardArea = document.getElementById('flashcardArea');
+            const flashcard = document.getElementById('flashcard');
+            const wordDisplay = document.getElementById('wordDisplay');
+            const meaningDisplay = document.getElementById('meaningDisplay');
+            const progressText = document.getElementById('progressText');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const revealBtn = document.getElementById('revealBtn');
+            const errorMsg = document.getElementById('errorMsg');
 
-        errorMsg.textContent = '';
+            startBtn.addEventListener('click', startPractice);
+            flashcard.addEventListener('click', toggleReveal);
+            revealBtn.addEventListener('click', toggleReveal);
+            prevBtn.addEventListener('click', showPrevCard);
+            nextBtn.addEventListener('click', showNextCard);
 
-        currentCards = flashcardData.filter(card => card.id >= startNum && card.id <= endNum);
+            function startPractice() {
+                const startNum = parseInt(document.getElementById('startNum').value);
+                const endNum = parseInt(document.getElementById('endNum').value);
+                const shouldShuffle = document.getElementById('shuffleCheck').checked;
 
-        if (shouldShuffle) {
-            currentCards = shuffleArray([...currentCards]);
-        }
+                if (startNum < 1 || endNum > 59 || startNum > endNum) {
+                    errorMsg.textContent = '範囲が正しくありません (1〜59)';
+                    return;
+                }
 
-        currentIndex = 0;
-        flashcardArea.classList.remove('hidden');
-        showCard();
-        
-        flashcardArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+                errorMsg.textContent = '';
 
-    function showCard() {
-        if (currentCards.length === 0) return;
+                currentCards = flashcardData.filter(card => card.id >= startNum && card.id <= endNum);
 
-        const card = currentCards[currentIndex];
-        wordDisplay.textContent = card.question;
-        meaningDisplay.textContent = card.answer;
-        meaningDisplay.classList.add('hidden');
-        isRevealed = false;
+                if (shouldShuffle) {
+                    currentCards = shuffleArray([...currentCards]);
+                }
 
-        progressText.textContent = `${currentIndex + 1} / ${currentCards.length}`;
-        revealBtn.textContent = '答えを表示';
+                currentIndex = 0;
+                flashcardArea.classList.remove('hidden');
+                showCard();
 
-        prevBtn.disabled = currentIndex === 0;
-        nextBtn.disabled = currentIndex === currentCards.length - 1;
-    }
+                flashcardArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
 
-    function toggleReveal() {
-        if (currentCards.length === 0) return;
+            function showCard() {
+                if (currentCards.length === 0) return;
 
-        isRevealed = !isRevealed;
-        if (isRevealed) {
-            meaningDisplay.classList.remove('hidden');
-            revealBtn.textContent = '答えを隠す';
-        } else {
-            meaningDisplay.classList.add('hidden');
-            revealBtn.textContent = '答えを表示';
-        }
-    }
+                const card = currentCards[currentIndex];
+                wordDisplay.textContent = card.question;
+                meaningDisplay.textContent = card.answer;
+                meaningDisplay.classList.add('hidden');
+                isRevealed = false;
 
-    function showPrevCard() {
-        if (currentIndex > 0) {
-            currentIndex--;
-            showCard();
-        }
-    }
+                progressText.textContent = `${currentIndex + 1} / ${currentCards.length}`;
+                revealBtn.textContent = '答えを表示';
 
-    function showNextCard() {
-        if (currentIndex < currentCards.length - 1) {
-            currentIndex++;
-            showCard();
-        }
-    }
+                prevBtn.disabled = currentIndex === 0;
+                nextBtn.disabled = currentIndex === currentCards.length - 1;
+            }
 
-    function shuffleArray(array) {
-        const newArray = [...array];
-        for (let i = newArray.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-        }
-        return newArray;
-    }
-});
+            function toggleReveal() {
+                if (currentCards.length === 0) return;
+
+                isRevealed = !isRevealed;
+                if (isRevealed) {
+                    meaningDisplay.classList.remove('hidden');
+                    revealBtn.textContent = '答えを隠す';
+                } else {
+                    meaningDisplay.classList.add('hidden');
+                    revealBtn.textContent = '答えを表示';
+                }
+            }
+
+            function showPrevCard() {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    showCard();
+                }
+            }
+
+            function showNextCard() {
+                if (currentIndex < currentCards.length - 1) {
+                    currentIndex++;
+                    showCard();
+                }
+            }
+
+            function shuffleArray(array) {
+                const newArray = [...array];
+                for (let i = newArray.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+                }
+                return newArray;
+            }
+        });
     </script>
 </body>
+
 </html>
