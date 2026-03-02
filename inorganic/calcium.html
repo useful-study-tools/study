@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鉄(Fe)の化学的性質</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">元素別解説に戻る</a>
+    <main>
+            <h1>カルシウム(Ca)の化学的性質</h1>
+
+            <section id="basics">
+                <h2>基本情報</h2>
+                <ul>
+                    <li><strong>元素記号:</strong> Ca</li>
+                    <li><strong>原子番号:</strong> 20</li>
+                    <li><strong>電子配置:</strong> [Ar]4s²</li>
+                    <li><strong>酸化数:</strong> +2(カルシウムイオン Ca²⁺)</li>
+                    <li><strong>常温での状態:</strong> 銀白色の柔らかい金属</li>
+                    <li><strong>特徴:</strong> 典型元素(2族、アルカリ土類金属)、イオン化傾向が非常に大きい、反応性が高い</li>
+                </ul>
+            </section>
+
+            <section id="production">
+                <h2>カルシウムの製法</h2>
+                
+                <h3>1. 融解塩電解法</h3>
+                <p>塩化カルシウムを融解して電気分解する方法。</p>
+                <div class="quiz-list">
+                    <li>陰極: <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">Ca²⁺ + 2e⁻ → Ca</span></span></li>
+                    <li>陽極: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">2Cl⁻ → Cl₂ + 2e⁻</span></span></li>
+                    <li>全体: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">CaCl₂ → Ca + Cl₂</span></span></li>
+                </ul>
+
+                <h3>2. アルミニウム還元法</h3>
+                <p>酸化カルシウムをアルミニウムで還元する方法。</p>
+                <div class="quiz-list">
+                    <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">3CaO + 2Al → 3Ca + Al₂O₃</span></span></li>
+                </ul>
+            </section>
+
+            <section id="reactions">
+                <h2>カルシウムの化学反応</h2>
+
+                <h3>1. 酸素・空気との反応</h3>
+                <ul class="quiz-list">
+                    <li>常温の空気中: 表面が酸化されて変色</li>
+                    <li>加熱した場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">2Ca + O₂ → 2CaO</span></span> (酸化カルシウム、白色)</li>
+                    <li>高温で激しく燃焼(赤橙色の炎)</li>
+                </ul>
+
+                <h3>2. 水との反応</h3>
+                <p>カルシウムは水と反応して水素を発生する。</p>
+                <ul class="quiz-list">
+                    <li>冷水: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">Ca + 2H₂O → Ca(OH)₂ + H₂↑</span></span></li>
+                    <li>※ マグネシウムより激しく反応するが、ナトリウムほど激しくない</li>
+                </ul>
+
+                <h3>3. 酸との反応</h3>
+                <p>カルシウムはイオン化傾向が大きいため、酸と激しく反応する。</p>
+                <ul class="quiz-list">
+                    <li>希硫酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">Ca + H₂SO₄ → CaSO₄ + H₂↑</span></span></li>
+                    <li>希塩酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">Ca + 2HCl → CaCl₂ + H₂↑</span></span></li>
+                    <li>希硝酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">4Ca + 10HNO₃(希) → 4Ca(NO₃)₂ + NH₄NO₃ + 3H₂O</span></span></li>
+                </ul>
+
+                <h3>4. ハロゲンとの反応</h3>
+                <ul class="quiz-list">
+                    <li>塩素との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">Ca + Cl₂ → CaCl₂</span></span> (塩化カルシウム、白色)</li>
+                </ul>
+
+                <h3>5. 窒素との反応</h3>
+                <ul class="quiz-list">
+                    <li>高温で窒素と反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">3Ca + N₂ → Ca₃N₂</span></span> (窒化カルシウム)</li>
+                </ul>
+
+                <h3>6. 水素との反応</h3>
+                <ul class="quiz-list">
+                    <li>高温で水素と反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">Ca + H₂ → CaH₂</span></span> (水素化カルシウム)</li>
+                </ul>
+
+                <h3>7. 炎色反応</h3>
+                <ul>
+                    <li><strong>色:</strong> 橙赤色(非常に特徴的)</li>
+                    <li>カルシウムイオンの検出に利用</li>
+                </ul>
+            </section>
+
+            <section id="compounds">
+                <h2>カルシウムの化合物</h2>
+
+                <h3>1. カルシウムイオン Ca²⁺ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 水溶液は無色</li>
+                    <li><strong>酸化数:</strong> +2 のみ</li>
+                    <li><strong>硬水の原因:</strong> Ca²⁺やMg²⁺を多く含む水は硬水</li>
+                </ul>
+
+                <h3>2. 酸化カルシウム CaO の性質(生石灰)</h3>
+                <ul>
+                    <li><strong>色:</strong> 白色</li>
+                    <li><strong>塩基性酸化物:</strong> 水と反応して強塩基を生じる</li>
+                </ul>
+                
+                <h4>水との反応</h4>
+                <ul class="quiz-list">
+                    <li>消化(吸熱反応ではなく発熱): <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">CaO + H₂O → Ca(OH)₂</span></span></li>
+                    <li>※ 強い発熱反応</li>
+                </ul>
+
+                <h4>酸との反応</h4>
+                <ul class="quiz-list">
+                    <li>塩酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">CaO + 2HCl → CaCl₂ + H₂O</span></span></li>
+                </ul>
+
+                <h4>乾燥剤としての使用</h4>
+                <ul>
+                    <li>水と反応するため、強力な乾燥剤として使用</li>
+                    <li>アンモニアなどの塩基性気体の乾燥に適する</li>
+                </ul>
+
+                <h3>3. 水酸化カルシウム Ca(OH)₂ の性質(消石灰)</h3>
+                <ul>
+                    <li><strong>色:</strong> 白色粉末</li>
+                    <li><strong>溶解性:</strong> 水に少し溶ける</li>
+                    <li><strong>水溶液:</strong> 石灰水(強塩基性)</li>
+                </ul>
+
+                <h4>二酸化炭素との反応</h4>
+                <ul class="quiz-list">
+                    <li>石灰水に二酸化炭素を通じる: <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O</span></span></li>
+                    <li>　　　　　　　　　　　　　　(白濁)</li>
+                    <li>さらに二酸化炭素を通じる: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">CaCO₃ + H₂O + CO₂ → Ca(HCO₃)₂</span></span></li>
+                    <li>　　　　　　　　　　　　　(炭酸水素カルシウム、水に可溶、白濁が消える)</li>
+                </ul>
+
+                <h4>加熱による分解</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">Ca(OH)₂ → CaO + H₂O</span></span></li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>建築材料(漆喰、モルタル)</li>
+                    <li>土壌改良剤(酸性土壌の中和)</li>
+                    <li>二酸化炭素の検出試薬</li>
+                </ul>
+
+                <h3>4. 炭酸カルシウム CaCO₃ の性質</h3>
+                <p>カルシウムの最も重要な化合物。</p>
+                <ul>
+                    <li><strong>色:</strong> 白色</li>
+                    <li><strong>溶解性:</strong> 水に難溶</li>
+                    <li><strong>天然鉱物:</strong> 石灰石、大理石、方解石、貝殻、サンゴ、卵の殻</li>
+                </ul>
+
+                <h4>加熱による分解</h4>
+                <ul class="quiz-list">
+                    <li>強熱(約900℃): <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">CaCO₃ → CaO + CO₂</span></span></li>
+                </ul>
+
+                <h4>酸との反応</h4>
+                <ul class="quiz-list">
+                    <li>塩酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂↑</span></span></li>
+                    <li>酢酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">CaCO₃ + 2CH₃COOH → Ca(CH₃COO)₂ + H₂O + CO₂↑</span></span></li>
+                </ul>
+
+                <h4>二酸化炭素を含む水との反応</h4>
+                <ul class="quiz-list">
+                    <li>鍾乳洞の形成: <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">CaCO₃ + H₂O + CO₂ ⇌ Ca(HCO₃)₂</span></span></li>
+                    <li>可逆反応であり、CO₂が抜けると再びCaCO₃が析出(鍾乳石)</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>セメント・ガラスの原料</li>
+                    <li>建築材料(大理石)</li>
+                    <li>製鉄の融剤</li>
+                    <li>肥料、土壌改良剤</li>
+                    <li>チョーク、炭酸カルシウム製剤(胃薬)</li>
+                </ul>
+
+                <h3>5. 塩化カルシウム CaCl₂ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 白色</li>
+                    <li><strong>溶解性:</strong> 水に易溶(溶解時に発熱)</li>
+                    <li><strong>潮解性:</strong> 空気中で潮解(水分を吸収)</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>乾燥剤(強力な吸湿性)</li>
+                    <li>融雪剤・凍結防止剤(道路)</li>
+                    <li>冷却剤(氷と混ぜて寒剤)</li>
+                    <li>豆腐の凝固剤(にがり成分の一つ)</li>
+                </ul>
+
+                <h3>6. 硫酸カルシウム CaSO₄ の性質</h3>
+                <ul>
+                    <li><strong>色:</strong> 白色</li>
+                    <li><strong>溶解性:</strong> 水に難溶</li>
+                    <li><strong>天然鉱物:</strong> 石膏(CaSO₄·2H₂O)</li>
+                </ul>
+
+                <h4>石膏の性質と用途</h4>
+                <ul class="quiz-list">
+                    <li>加熱(約150℃): <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">CaSO₄·2H₂O → CaSO₄·½H₂O + 1.5H₂O</span></span></li>
+                    <li>　　　　　　　(焼石膏)</li>
+                    <li>焼石膏に水を加える: <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">CaSO₄·½H₂O + 1.5H₂O → CaSO₄·2H₂O</span></span></li>
+                    <li>　　　　　　　　　　　(固まる、発熱)</li>
+                </ul>
+                <p><strong>用途:</strong> ギプス、彫刻材料、建築材料</p>
+
+                <h3>7. 炭化カルシウム CaC₂ の性質(カーバイド)</h3>
+                <ul class="quiz-list">
+                    <li>生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">CaO + 3C → CaC₂ + CO</span></span> (電気炉で約2000℃)</li>
+                    <li>水との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">CaC₂ + 2H₂O → Ca(OH)₂ + C₂H₂↑</span></span></li>
+                    <li>　　　　　　(アセチレンを発生)</li>
+                </ul>
+                <p><strong>用途:</strong> アセチレンの製造(かつてのカーバイドランプ)</p>
+
+                <h3>8. 次亜塩素酸カルシウム Ca(ClO)₂ の性質(さらし粉)</h3>
+                <ul class="quiz-list">
+                    <li>生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">2Ca(OH)₂ + 2Cl₂ → Ca(ClO)₂ + CaCl₂ + 2H₂O</span></span></li>
+                    <li>または: <span class="blank-container" onclick="reveal(this)"><span class="number">(27)</span> <span class="blank">Ca(OH)₂ + Cl₂ → CaCl(ClO) + H₂O</span></span></li>
+                </ul>
+                <p><strong>性質:</strong></p>
+                <ul class="quiz-list">
+                    <li>白色粉末、塩素臭</li>
+                    <li>酸化剤、漂白剤として働く</li>
+                    <li>酸と反応して塩素を発生: <span class="blank-container" onclick="reveal(this)"><span class="number">(28)</span> <span class="blank">Ca(ClO)₂ + 2HCl → CaCl₂ + H₂O + Cl₂↑</span></span></li>
+                    <li>二酸化炭素と反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(29)</span> <span class="blank">Ca(ClO)₂ + CO₂ → CaCO₃ + Cl₂</span></span></li>
+                </ul>
+                <p><strong>用途:</strong> 漂白剤、殺菌剤、消毒剤</p>
+
+                <h3>9. その他の主なカルシウム化合物</h3>
+                <ul>
+                    <li><strong>硝酸カルシウム Ca(NO₃)₂:</strong> 潮解性、肥料</li>
+                    <li><strong>リン酸カルシウム Ca₃(PO₄)₂:</strong> 骨・歯の主成分、肥料原料</li>
+                    <li><strong>フッ化カルシウム CaF₂:</strong> 蛍石、光学材料</li>
+                </ul>
+            </section>
+
+            <section id="precipitates">
+                <h2>カルシウムイオンの沈殿反応と検出</h2>
+
+                <h3>1. 炭酸塩の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>Ca²⁺ + 炭酸ナトリウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(30)</span> <span class="blank">Ca²⁺ + CO₃²⁻ → CaCO₃↓</span></span> (白色沈殿)</li>
+                    <li>※ 最も重要な沈殿反応</li>
+                </ul>
+
+                <h3>2. 硫酸塩の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>Ca²⁺ + 硫酸ナトリウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(31)</span> <span class="blank">Ca²⁺ + SO₄²⁻ → CaSO₄↓</span></span> (白色沈殿)</li>
+                    <li>※ 水に難溶だが、完全には不溶ではない</li>
+                </ul>
+
+                <h3>3. シュウ酸塩の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>Ca²⁺ + シュウ酸アンモニウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(32)</span> <span class="blank">Ca²⁺ + C₂O₄²⁻ → CaC₂O₄↓</span></span> (シュウ酸カルシウム、白色沈殿)</li>
+                    <li>※ カルシウムイオンの定量に利用</li>
+                </ul>
+
+                <h3>4. リン酸塩の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>Ca²⁺ + リン酸ナトリウム(塩基性): <span class="blank-container" onclick="reveal(this)"><span class="number">(33)</span> <span class="blank">3Ca²⁺ + 2PO₄³⁻ → Ca₃(PO₄)₂↓</span></span> (白色沈殿)</li>
+                </ul>
+
+                <h3>5. 炎色反応による検出</h3>
+                <ul>
+                    <li><strong>色:</strong> 橙赤色</li>
+                    <li>カルシウムイオンの最も簡便な検出法</li>
+                    <li>ストロンチウム(深紅色)と区別が必要</li>
+                </ul>
+
+                <h3>6. カルシウムイオンの分離</h3>
+                <p>硫化水素による系統分離では、カルシウムは第5属に分類される。</p>
+                <ul>
+                    <li><strong>第5属:</strong> Ca²⁺, Ba²⁺, Sr²⁺ など(アルカリ土類金属)</li>
+                    <li>炭酸アンモニウムで炭酸塩として沈殿</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>その他の重要事項</h2>
+                
+                <h3>イオン化傾向</h3>
+                <p>K > <strong>Ca</strong> > Na > Mg > Al > Zn > Cr > Fe > Ni > Sn > Pb > (H₂) > Cu > Hg > Ag > Pt > Au</p>
+                <ul>
+                    <li>カルシウムはイオン化傾向が非常に大きい(カリウムの次)</li>
+                    <li>常温の水と反応して水素を発生</li>
+                    <li>強い還元剤として働く</li>
+                </ul>
+
+                <h3>アルカリ土類金属</h3>
+                <p>カルシウムは2族元素(アルカリ土類金属)に属する。</p>
+                <ul>
+                    <li><strong>Be, Mg, Ca, Sr, Ba, Ra</strong></li>
+                    <li>+2の酸化数を取る</li>
+                    <li>反応性は下に行くほど大きい(Ca < Sr < Ba)</li>
+                    <li>硫酸塩・炭酸塩は水に難溶</li>
+                </ul>
+
+                <h3>硬水と軟水</h3>
+                <p>Ca²⁺やMg²⁺を多く含む水を硬水という。</p>
+                <ul>
+                    <li><strong>一時硬水:</strong> Ca(HCO₃)₂、Mg(HCO₃)₂を含む(煮沸で軟化)</li>
+                </ul>
+                <ul class="quiz-list">
+                    <li>煮沸: <span class="blank-container" onclick="reveal(this)"><span class="number">(34)</span> <span class="blank">Ca(HCO₃)₂ → CaCO₃↓ + H₂O + CO₂↑</span></span></li>
+                </ul>
+                <ul>
+                    <li><strong>永久硬水:</strong> CaSO₄、MgSO₄を含む(煮沸では軟化しない)</li>
+                    <li><strong>軟水化:</strong> 炭酸ナトリウムやイオン交換樹脂で軟化</li>
+                </ul>
+
+                <h3>セメント</h3>
+                <p>カルシウムの重要な用途</p>
+                <ul class="quiz-list">
+                    <li>原料: 石灰石(CaCO₃) + 粘土(SiO₂、Al₂O₃)</li>
+                    <li>製造: 約1500℃で焼成 → クリンカー → 粉砕</li>
+                    <li>主成分: ケイ酸カルシウム、アルミン酸カルシウム</li>
+                    <li>硬化: 水と反応して固化(水和反応)</li>
+                </ul>
+
+                <h3>生体内でのカルシウム</h3>
+                <ul>
+                    <li><strong>骨・歯:</strong> リン酸カルシウムCa₃(PO₄)₂が主成分</li>
+                    <li><strong>血液凝固:</strong> Ca²⁺が必要</li>
+                    <li><strong>筋肉収縮:</strong> Ca²⁺が関与</li>
+                    <li><strong>神経伝達:</strong> Ca²⁺が重要な役割</li>
+                    <li>人体に最も多く含まれる金属元素(約1kg)</li>
+                </ul>
+
+                <h3>鍾乳洞の形成</h3>
+                <ul class="quiz-list">
+                    <li>①地下水にCO₂が溶解: <span class="blank-container" onclick="reveal(this)"><span class="number">(35)</span> <span class="blank">CaCO₃ + H₂O + CO₂ → Ca(HCO₃)₂</span></span></li>
+                    <li>②地下空洞でCO₂が抜ける: <span class="blank-container" onclick="reveal(this)"><span class="number">(36)</span> <span class="blank">Ca(HCO₃)₂ → CaCO₃↓ + H₂O + CO₂</span></span></li>
+                    <li>長い年月をかけて鍾乳石・石筍が成長</li>
+                </ul>
+
+                <h3>カルシウムの用途</h3>
+                <ul>
+                    <li><strong>建築材料:</strong> セメント、石灰、石膏、大理石</li>
+                    <li><strong>製鉄:</strong> 融剤(不純物の除去)</li>
+                    <li><strong>化学工業:</strong> 炭化カルシウム(アセチレン製造)</li>
+                    <li><strong>農業:</strong> 肥料、土壌改良剤</li>
+                    <li><strong>食品:</strong> 凝固剤、栄養補助</li>
+                    <li><strong>脱酸剤:</strong> 金属精錬</li>
+                </ul>
+
+                <h3>カルシウムの鉱石</h3>
+                <ul>
+                    <li><strong>石灰石:</strong> CaCO₃(最も重要)</li>
+                    <li><strong>大理石:</strong> CaCO₃(変成岩)</li>
+                    <li><strong>石膏:</strong> CaSO₄·2H₂O</li>
+                    <li><strong>蛍石:</strong> CaF₂</li>
+                    <li><strong>リン灰石:</strong> Ca₃(PO₄)₂</li>
+                </ul>
+
+                <h3>注意すべき反応</h3>
+                <ul>
+                    <li><strong>石灰水と二酸化炭素:</strong> 白濁 → さらにCO₂で透明(可逆)</li>
+                    <li><strong>生石灰と水:</strong> 強い発熱反応(消化)</li>
+                    <li><strong>炭酸カルシウムの熱分解:</strong> 約900℃で分解</li>
+                    <li><strong>硬水:</strong> Ca²⁺、Mg²⁺を含む、一時硬水は煮沸で軟化</li>
+                    <li><strong>炎色反応:</strong> 橙赤色(検出に利用)</li>
+                </ul>
+
+                <h3>石灰の種類</h3>
+                <ul>
+                    <li><strong>生石灰(きせっかい):</strong> CaO(酸化カルシウム)</li>
+                    <li><strong>消石灰(しょうせっかい):</strong> Ca(OH)₂(水酸化カルシウム)</li>
+                    <li><strong>石灰石:</strong> CaCO₃(炭酸カルシウム)</li>
+                    <li><strong>石灰水:</strong> Ca(OH)₂の水溶液</li>
+                    <li><strong>石灰乳:</strong> Ca(OH)₂の懸濁液</li>
+                </ul>
+            </section>
+   
+    </main>
+</div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
