@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鉄(Fe)の化学的性質</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">元素別解説に戻る</a>
+    <main>
+            <h1>ハロゲン元素の化学的性質</h1>
+
+            <section id="basics">
+                <h2>基本情報</h2>
+
+                <h3>ハロゲンとは</h3>
+                <p>周期表の17族元素で、F, Cl, Br, I, At の5元素。</p>
+                <ul>
+                    <li><strong>フッ素(F):</strong> 原子番号9</li>
+                    <li><strong>塩素(Cl):</strong> 原子番号17</li>
+                    <li><strong>臭素(Br):</strong> 原子番号35</li>
+                    <li><strong>ヨウ素(I):</strong> 原子番号53</li>
+                    <li><strong>アスタチン(At):</strong> 原子番号85(放射性、極めて稀)</li>
+                </ul>
+
+                <h3>語源</h3>
+                <ul>
+                    <li><strong>ハロゲン(halogen):</strong> ギリシャ語で「塩を作るもの」</li>
+                    <li>金属と反応して塩(えん)を作ることから</li>
+                </ul>
+
+                <h3>電子配置の特徴</h3>
+                <ul>
+                    <li>最外殻に電子7個(ns²np⁵)</li>
+                    <li>F: [He]2s²2p⁵</li>
+                    <li>Cl: [Ne]3s²3p⁵</li>
+                    <li>Br: [Ar]3d¹⁰4s²4p⁵</li>
+                    <li>I: [Kr]4d¹⁰5s²5p⁵</li>
+                    <li>At: [Xe]4f¹⁴5d¹⁰6s²6p⁵</li>
+                    <li>※ あと1個で閉殻構造(オクテット)</li>
+                </ul>
+
+                <h3>主な特徴</h3>
+                <ul>
+                    <li><strong>分子式:</strong> X₂(二原子分子)</li>
+                    <li><strong>酸化数:</strong> -1(ハロゲン化物イオン X⁻)、0(単体 X₂)、正の酸化数も可能</li>
+                    <li><strong>反応性:</strong> 非常に高い(特にF₂)</li>
+                    <li><strong>酸化力:</strong> 強い酸化剤</li>
+                    <li><strong>電気陰性度:</strong> 非常に大きい(Fが最大)</li>
+                    <li><strong>色:</strong> すべて有色</li>
+                </ul>
+            </section>
+
+            <section id="properties">
+                <h2>ハロゲンの共通性質</h2>
+
+                <h3>物理的性質の周期性</h3>
+                <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+                    <tr style="background-color: #f0f0f0;">
+                        <th style="border: 1px solid #ddd; padding: 8px;">元素</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">状態(常温)</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">色</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">融点(℃)</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">沸点(℃)</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">電気陰性度</th>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">F₂</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">気体</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">淡黄色</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-220</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-188</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">4.0</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Cl₂</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">気体</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">黄緑色</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-101</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-34</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">3.0</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Br₂</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">液体</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">赤褐色</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-7</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">59</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2.8</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">I₂</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">固体</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">黒紫色</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">114</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">184</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2.5</td>
+                    </tr>
+                </table>
+
+                <h3>周期性のまとめ</h3>
+                <p>原子番号が大きくなると...</p>
+                <ul>
+                    <li><strong>融点・沸点:</strong> 高くなる(分子間力が増大)</li>
+                    <li><strong>色:</strong> 淡色 → 濃色(淡黄→黄緑→赤褐→黒紫)</li>
+                    <li><strong>状態:</strong> 気体 → 液体 → 固体</li>
+                    <li><strong>電気陰性度:</strong> 小さくなる(F > Cl > Br > I)</li>
+                    <li><strong>酸化力:</strong> 弱くなる(F₂ > Cl₂ > Br₂ > I₂)</li>
+                    <li><strong>反応性:</strong> 低くなる</li>
+                    <li><strong>イオン半径:</strong> 大きくなる(F⁻ < Cl⁻ < Br⁻ < I⁻)</li>
+                </ul>
+
+                <h3>ハロゲン化物イオン X⁻</h3>
+                <ul>
+                    <li><strong>電子配置:</strong> 貴ガス型(閉殻構造)</li>
+                    <li><strong>F⁻:</strong> Ne型、無色</li>
+                    <li><strong>Cl⁻:</strong> Ar型、無色</li>
+                    <li><strong>Br⁻:</strong> Kr型、無色</li>
+                    <li><strong>I⁻:</strong> Xe型、無色</li>
+                    <li><strong>還元性:</strong> F⁻ < Cl⁻ < Br⁻ < I⁻(I⁻が最も強い)</li>
+                </ul>
+
+                <h3>酸化力の大小関係</h3>
+                <p><strong>F₂ > Cl₂ > Br₂ > I₂</strong></p>
+                <ul>
+                    <li>フッ素が最も強い酸化剤</li>
+                    <li>上位のハロゲンは下位のハロゲン化物イオンを酸化できる</li>
+                </ul>
+            </section>
+
+            <section id="reactions">
+                <h2>ハロゲンの化学反応</h2>
+
+                <h3>1. 金属との反応</h3>
+                <p>ハロゲンは金属と反応してハロゲン化物(塩)を生成。</p>
+
+                <h4>一般式</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">2M + nX₂ → 2MXₙ</span></span></li>
+                </ul>
+
+                <h4>具体例</h4>
+                <ul class="quiz-list">
+                    <li>ナトリウムと塩素: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">2Na + Cl₂ → 2NaCl</span></span></li>
+                    <li>鉄と塩素: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">2Fe + 3Cl₂ → 2FeCl₃</span></span></li>
+                    <li>銅と塩素: <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">Cu + Cl₂ → CuCl₂</span></span></li>
+                </ul>
+
+                <h3>2. 水素との反応</h3>
+
+                <h4>フッ素</h4>
+                <ul class="quiz-list">
+                    <li>暗所でも激しく反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">H₂ + F₂ → 2HF</span></span></li>
+                </ul>
+
+                <h4>塩素</h4>
+                <ul class="quiz-list">
+                    <li>光で爆発的に反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">H₂ + Cl₂ → 2HCl</span></span></li>
+                </ul>
+
+                <h4>臭素</h4>
+                <ul class="quiz-list">
+                    <li>高温で反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">H₂ + Br₂ → 2HBr</span></span></li>
+                </ul>
+
+                <h4>ヨウ素</h4>
+                <ul class="quiz-list">
+                    <li>高温でも不完全(可逆): <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">H₂ + I₂ ⇌ 2HI</span></span></li>
+                </ul>
+
+                <h3>3. 水との反応</h3>
+
+                <h4>フッ素</h4>
+                <ul class="quiz-list">
+                    <li>激しく反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">2F₂ + 2H₂O → 4HF + O₂</span></span></li>
+                </ul>
+
+                <h4>塩素</h4>
+                <ul class="quiz-list">
+                    <li>一部が反応(不均化): <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">Cl₂ + H₂O ⇌ HCl + HClO</span></span></li>
+                    <li>(塩酸と次亜塩素酸)</li>
+                </ul>
+
+                <h4>臭素・ヨウ素</h4>
+                <ul>
+                    <li>わずかに溶けるが、ほとんど反応しない</li>
+                </ul>
+
+                <h3>4. ハロゲン間の置換反応(重要)</h3>
+                <p>酸化力の強いハロゲンが弱いハロゲン化物イオンを酸化。</p>
+
+                <h4>塩素と臭化物イオン</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂</span></span></li>
+                    <li>無色 → 赤褐色</li>
+                </ul>
+
+                <h4>塩素とヨウ化物イオン</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">Cl₂ + 2I⁻ → 2Cl⁻ + I₂</span></span></li>
+                    <li>無色 → 褐色(ヨウ素)</li>
+                </ul>
+
+                <h4>臭素とヨウ化物イオン</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">Br₂ + 2I⁻ → 2Br⁻ + I₂</span></span></li>
+                </ul>
+
+                <h3>5. アルカリとの反応(不均化)</h3>
+
+                <h4>塩素と水酸化ナトリウム(冷)</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">Cl₂ + 2NaOH → NaCl + NaClO + H₂O</span></span></li>
+                    <li>(次亜塩素酸ナトリウムを生成)</li>
+                </ul>
+
+                <h4>塩素と水酸化ナトリウム(熱)</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">3Cl₂ + 6NaOH → 5NaCl + NaClO₃ + 3H₂O</span></span></li>
+                    <li>(塩素酸ナトリウムを生成)</li>
+                </ul>
+
+                <h3>6. 有機化合物との反応</h3>
+
+                <h4>置換反応</h4>
+                <ul class="quiz-list">
+                    <li>メタンと塩素(光): <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">CH₄ + Cl₂ → CH₃Cl + HCl</span></span></li>
+                </ul>
+
+                <h4>付加反応</h4>
+                <ul class="quiz-list">
+                    <li>エチレンと臭素: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">C₂H₄ + Br₂ → C₂H₄Br₂</span></span></li>
+                    <li>不飽和化合物の検出に利用(脱色)</li>
+                </ul>
+            </section>
+
+            <section id="individual">
+                <h2>各ハロゲン元素</h2>
+
+                <h3>フッ素(F₂)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>最も反応性が高い元素</li>
+                    <li>電気陰性度が最大(4.0)</li>
+                    <li>最も強い酸化剤</li>
+                    <li>淡黄色の気体、刺激臭</li>
+                    <li>猛毒</li>
+                </ul>
+
+                <h4>製法</h4>
+                <ul class="quiz-list">
+                    <li>フッ化水素カリウムの融解塩電解:</li>
+                    <li>陽極: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">2F⁻ → F₂ + 2e⁻</span></span></li>
+                </ul>
+
+                <h4>反応性</h4>
+                <ul>
+                    <li>常温で水、ガラス、多くの金属と反応</li>
+                    <li>水と激しく反応して酸素を発生</li>
+                    <li>白金やニッケルとも反応するが、表面にフッ化物の保護膜を形成</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>フッ素樹脂(テフロン)の原料</li>
+                    <li>ウラン濃縮(UF₆)</li>
+                    <li>フッ素化合物の製造</li>
+                </ul>
+
+                <h3>塩素(Cl₂)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>黄緑色の気体、刺激臭</li>
+                    <li>工業的に最も重要なハロゲン</li>
+                    <li>強い酸化剤</li>
+                    <li>有毒</li>
+                </ul>
+
+                <h4>製法</h4>
+                <h5>実験室</h5>
+                <ul class="quiz-list">
+                    <li>酸化マンガン(IV)と濃塩酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">MnO₂ + 4HCl → MnCl₂ + Cl₂↑ + 2H₂O</span></span></li>
+                    <li>さらし粉と希塩酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">CaCl(ClO) + 2HCl → CaCl₂ + Cl₂↑ + H₂O</span></span></li>
+                </ul>
+
+                <h5>工業的</h5>
+                <ul class="quiz-list">
+                    <li>食塩水の電気分解(陽イオン交換膜法):</li>
+                    <li>陽極: <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">2Cl⁻ → Cl₂ + 2e⁻</span></span></li>
+                    <li>陰極: <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">2H₂O + 2e⁻ → H₂ + 2OH⁻</span></span></li>
+                    <li>※ 同時にNaOHとH₂も生成(ソーダ工業)</li>
+                </ul>
+
+                <h4>性質</h4>
+                <ul>
+                    <li>水に溶けて塩素水(酸化力・漂白作用)</li>
+                    <li>強い酸化剤</li>
+                    <li>漂白作用(色素を酸化分解)</li>
+                    <li>殺菌作用</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>上水道の殺菌</li>
+                    <li>漂白剤(紙・パルプ)</li>
+                    <li>塩化ビニル(PVC)の原料</li>
+                    <li>塩酸の製造</li>
+                    <li>有機塩素化合物の製造</li>
+                </ul>
+
+                <h3>臭素(Br₂)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>常温で液体の唯一の非金属元素</li>
+                    <li>赤褐色の液体、刺激臭</li>
+                    <li>揮発性が高い</li>
+                    <li>有毒、腐食性</li>
+                </ul>
+
+                <h4>製法</h4>
+                <ul class="quiz-list">
+                    <li>海水中の臭化物イオンを塩素で酸化:</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">2Br⁻ + Cl₂ → Br₂ + 2Cl⁻</span></span></li>
+                </ul>
+
+                <h4>溶解性</h4>
+                <ul>
+                    <li>水: わずかに溶ける(臭素水、黄褐色)</li>
+                    <li>有機溶媒: よく溶ける(褐色~赤褐色)</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>写真の感光材(臭化銀)</li>
+                    <li>医薬品の原料</li>
+                    <li>農薬(臭化メチル、現在は規制)</li>
+                    <li>難燃剤</li>
+                </ul>
+
+                <h3>ヨウ素(I₂)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>黒紫色(金属光沢)の固体</li>
+                    <li>昇華しやすい(加熱すると紫色の蒸気)</li>
+                    <li>ハロゲンの中で最も酸化力が弱い</li>
+                </ul>
+
+                <h4>製法</h4>
+                <ul class="quiz-list">
+                    <li>海藻の灰や地下かん水中のヨウ化物イオンを酸化:</li>
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">2I⁻ + Cl₂ → I₂ + 2Cl⁻</span></span></li>
+                </ul>
+
+                <h4>溶解性と色</h4>
+                <ul>
+                    <li>水: わずかに溶ける(ヨウ素水、褐色)</li>
+                    <li>ヨウ化カリウム水溶液: よく溶ける(褐色)</li>
+                </ul>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">I₂ + I⁻ → I₃⁻</span></span> (三ヨウ化物イオン)</li>
+                </ul>
+                <ul>
+                    <li>有機溶媒:</li>
+                    <li>　ヘキサンなど: 紫色</li>
+                    <li>　エタノールなど: 褐色</li>
+                </ul>
+
+                <h4>ヨウ素デンプン反応(検出反応)</h4>
+                <ul>
+                    <li>デンプンと反応して青紫色を呈する</li>
+                    <li>ヨウ素の検出に利用</li>
+                    <li>非常に鋭敏な反応</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>ヨードチンキ(消毒剤)</li>
+                    <li>造影剤(医療)</li>
+                    <li>うがい薬</li>
+                    <li>写真の感光材</li>
+                    <li>栄養補助(甲状腺ホルモンの原料)</li>
+                </ul>
+
+                <h3>アスタチン(At)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>極めて希少な放射性元素</li>
+                    <li>全同位体が放射性</li>
+                    <li>最も安定な同位体でも半減期8.1時間</li>
+                    <li>性質はヨウ素に類似すると推測</li>
+                    <li>研究は限定的</li>
+                </ul>
+            </section>
+
+            <section id="compounds">
+                <h2>ハロゲンの化合物</h2>
+
+                <h3>1. ハロゲン化水素 HX</h3>
+
+                <h4>フッ化水素 HF</h4>
+                <ul class="quiz-list">
+                    <li>製法: <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">CaF₂ + H₂SO₄(濃) → CaSO₄ + 2HF↑</span></span></li>
+                    <li><strong>性質:</strong> 弱酸(水中で部分解離)、ガラスを侵す</li>
+                </ul>
+                <ul class="quiz-list">
+                    <li>ガラスとの反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(27)</span> <span class="blank">SiO₂ + 4HF → SiF₄↑ + 2H₂O</span></span></li>
+                </ul>
+                <ul>
+                    <li><strong>フッ化水素酸:</strong> HFの水溶液、弱酸だが危険</li>
+                    <li><strong>用途:</strong> ガラスのエッチング、フッ素化合物の製造</li>
+                </ul>
+
+                <h4>塩化水素 HCl</h4>
+                <ul class="quiz-list">
+                    <li>製法(実験室): <span class="blank-container" onclick="reveal(this)"><span class="number">(28)</span> <span class="blank">NaCl + H₂SO₄(濃) → NaHSO₄ + HCl↑</span></span></li>
+                    <li>製法(工業): <span class="blank-container" onclick="reveal(this)"><span class="number">(29)</span> <span class="blank">H₂ + Cl₂ → 2HCl</span></span></li>
+                    <li><strong>性質:</strong> 無色の刺激臭、空気中で白煙</li>
+                    <li><strong>塩酸:</strong> HClの水溶液、強酸</li>
+                    <li><strong>用途:</strong> 化学工業の基礎原料、金属の洗浄</li>
+                </ul>
+
+                <h4>臭化水素 HBr・ヨウ化水素 HI</h4>
+                <ul>
+                    <li>いずれも水溶液は強酸</li>
+                    <li><strong>還元性:</strong> HCl < HBr < HI(HI が最も強い)</li>
+                </ul>
+
+                <h3>2. オキソ酸とその塩</h3>
+
+                <h4>次亜塩素酸 HClO</h4>
+                <ul class="quiz-list">
+                    <li>生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(30)</span> <span class="blank">Cl₂ + H₂O ⇌ HCl + HClO</span></span></li>
+                    <li><strong>性質:</strong> 弱酸、不安定、強い酸化力、漂白作用</li>
+                </ul>
+
+                <h4>次亜塩素酸ナトリウム NaClO</h4>
+                <ul class="quiz-list">
+                    <li>製法: <span class="blank-container" onclick="reveal(this)"><span class="number">(31)</span> <span class="blank">Cl₂ + 2NaOH → NaCl + NaClO + H₂O</span></span></li>
+                    <li><strong>用途:</strong> 漂白剤(ハイター)、殺菌剤</li>
+                </ul>
+
+                <h4>塩素酸カリウム KClO₃</h4>
+                <ul class="quiz-list">
+                    <li>製法: <span class="blank-container" onclick="reveal(this)"><span class="number">(32)</span> <span class="blank">3Cl₂ + 6KOH → 5KCl + KClO₃ + 3H₂O</span></span></li>
+                    <li>加熱分解: <span class="blank-container" onclick="reveal(this)"><span class="number">(33)</span> <span class="blank">2KClO₃ → 2KCl + 3O₂↑</span></span></li>
+                    <li><strong>用途:</strong> 酸素の発生(MnO₂触媒)、酸化剤、マッチ・花火</li>
+                </ul>
+
+                <h4>過塩素酸 HClO₄</h4>
+                <ul>
+                    <li>最も強い酸の一つ</li>
+                    <li>強い酸化剤</li>
+                </ul>
+
+                <h3>3. さらし粉</h3>
+                <ul class="quiz-list">
+                    <li>組成: CaCl(ClO) または Ca(ClO)₂とCaCl₂の混合物</li>
+                    <li>製法: <span class="blank-container" onclick="reveal(this)"><span class="number">(34)</span> <span class="blank">Ca(OH)₂ + Cl₂ → CaCl(ClO) + H₂O</span></span></li>
+                    <li><strong>性質:</strong> 白色粉末、塩素臭、空気・湿気で分解</li>
+                    <li>酸化剤・漂白剤として働く</li>
+                </ul>
+                <ul class="quiz-list">
+                    <li>酸との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(35)</span> <span class="blank">CaCl(ClO) + 2HCl → CaCl₂ + Cl₂↑ + H₂O</span></span></li>
+                    <li>二酸化炭素との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(36)</span> <span class="blank">CaCl(ClO) + CO₂ → CaCO₃ + Cl₂</span></span></li>
+                </ul>
+                <ul>
+                    <li><strong>用途:</strong> 漂白剤、殺菌剤、消毒剤</li>
+                </ul>
+
+                <h3>4. ハロゲン化銀</h3>
+                <ul>
+                    <li><strong>塩化銀 AgCl:</strong> 白色、光で黒変</li>
+                    <li><strong>臭化銀 AgBr:</strong> 淡黄色、光で黒変、写真感光材</li>
+                    <li><strong>ヨウ化銀 AgI:</strong> 黄色、光で黒変</li>
+                    <li>すべて水に難溶、光で分解して銀を析出</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>その他の重要事項</h2>
+
+                <h3>ハロゲンの製法まとめ</h3>
+                <ul>
+                    <li><strong>F₂:</strong> フッ化水素カリウムの融解塩電解</li>
+                    <li><strong>Cl₂:</strong> 食塩水の電気分解、MnO₂ + 濃HCl</li>
+                    <li><strong>Br₂:</strong> 海水中のBr⁻をCl₂で酸化</li>
+                    <li><strong>I₂:</strong> 海藻やかん水中のI⁻をCl₂で酸化</li>
+                </ul>
+
+                <h3>ハロゲンの検出</h3>
+                <ul>
+                    <li><strong>塩素:</strong> 黄緑色、漂白作用</li>
+                    <li><strong>臭素:</strong> 赤褐色、有機溶媒に溶ける</li>
+                    <li><strong>ヨウ素:</strong> デンプン反応(青紫色)、昇華</li>
+                </ul>
+
+                <h3>ハロゲン化物イオンの検出</h3>
+                <ul class="quiz-list">
+                    <li>硝酸銀による沈殿:</li>
+                    <li>Cl⁻: <span class="blank-container" onclick="reveal(this)"><span class="number">(37)</span> <span class="blank">Ag⁺ + Cl⁻ → AgCl↓</span></span> (白色)</li>
+                    <li>Br⁻: <span class="blank-container" onclick="reveal(this)"><span class="number">(38)</span> <span class="blank">Ag⁺ + Br⁻ → AgBr↓</span></span> (淡黄色)</li>
+                    <li>I⁻: <span class="blank-container" onclick="reveal(this)"><span class="number">(39)</span> <span class="blank">Ag⁺ + I⁻ → AgI↓</span></span> (黄色)</li>
+                </ul>
+
+                <h3>ハロゲンの用途まとめ</h3>
+                <ul>
+                    <li><strong>F₂:</strong> フッ素樹脂、ウラン濃縮</li>
+                    <li><strong>Cl₂:</strong> 上水道殺菌、漂白、PVC、塩酸</li>
+                    <li><strong>Br₂:</strong> 写真感光材、医薬品</li>
+                    <li><strong>I₂:</strong> 消毒剤、うがい薬、造影剤</li>
+                </ul>
+
+                <h3>環境とハロゲン</h3>
+                <ul>
+                    <li><strong>塩素:</strong> 上水道の殺菌に不可欠</li>
+                    <li><strong>臭素:</strong> 臭化メチル(オゾン層破壊)は規制</li>
+                    <li><strong>CFC:</strong> フロン(オゾン層破壊)は全廃</li>
+                    <li><strong>ダイオキシン:</strong> 塩素化合物の燃焼で生成、有害</li>
+                </ul>
+
+                <h3>生体とハロゲン</h3>
+                <ul>
+                    <li><strong>塩素:</strong> 胃酸(HCl)、体液の浸透圧調節</li>
+                    <li><strong>ヨウ素:</strong> 甲状腺ホルモン(チロキシン)の成分</li>
+                    <li><strong>フッ素:</strong> 歯のエナメル質強化(フッ素イオン)</li>
+                </ul>
+
+                <h3>ハロゲンの酸化数</h3>
+                <ul>
+                    <li><strong>-1:</strong> ハロゲン化物 X⁻</li>
+                    <li><strong>0:</strong> 単体 X₂</li>
+                    <li><strong>+1:</strong> 次亜ハロゲン酸 HXO</li>
+                    <li><strong>+3:</strong> 亜ハロゲン酸 HXO₂</li>
+                    <li><strong>+5:</strong> ハロゲン酸 HXO₃</li>
+                    <li><strong>+7:</strong> 過ハロゲン酸 HXO₄</li>
+                    <li>※ フッ素は-1と0のみ(最も電気陰性度が大きいため)</li>
+                </ul>
+
+                <h3>注意すべき性質</h3>
+                <ul>
+                    <li><strong>毒性:</strong> すべて有毒、取り扱いに注意</li>
+                    <li><strong>腐食性:</strong> 金属や皮膚を侵す</li>
+                    <li><strong>酸化力:</strong> F₂ > Cl₂ > Br₂ > I₂</li>
+                    <li><strong>還元性:</strong> F⁻ < Cl⁻ < Br⁻ < I⁻</li>
+                    <li><strong>酸の強さ:</strong> HF(弱酸) < HCl, HBr, HI(強酸)</li>
+                </ul>
+
+                <h3>工業的重要性</h3>
+                <ul>
+                    <li><strong>塩素:</strong> ソーダ工業(Cl₂, NaOH, H₂)の中心</li>
+                    <li><strong>塩化ビニル:</strong> プラスチック(PVC)の原料</li>
+                    <li><strong>漂白・殺菌:</strong> 衛生管理に不可欠</li>
+                </ul>
+
+                <h3>ハロゲンの歴史</h3>
+                <ul>
+                    <li>1774年: Cl₂発見(Scheele)</li>
+                    <li>1811年: I₂発見(Courtois)</li>
+                    <li>1826年: Br₂発見(Balard)</li>
+                    <li>1886年: F₂単離(Moissan)</li>
+                    <li>1940年: At発見(人工的に合成)</li>
+                </ul>
+            </section>
+   
+    </main>
+</div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
