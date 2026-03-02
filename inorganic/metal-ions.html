@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鉄(Fe)の化学的性質</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">元素別解説に戻る</a>
+    <main>
+            <h1>金属の錯イオンと沈殿</h1>
+
+            <section id="table">
+                <h2>金属イオンの反応表</h2>
+                <div style="overflow-x: auto; margin: 20px 0;">
+                    <table id="reactionTable">
+                        <thead>
+                            <tr>
+                                <th>試薬 / 金属イオン</th>
+                                <th>Fe²⁺</th>
+                                <th>Fe³⁺</th>
+                                <th>Cu²⁺</th>
+                                <th>Ag⁺</th>
+                                <th>Zn²⁺</th>
+                                <th>Al³⁺</th>
+                                <th>Cr³⁺</th>
+                                <th>Ni²⁺</th>
+                                <th>Co²⁺</th>
+                                <th>Mn²⁺</th>
+                                <th>Pb²⁺</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="reagent">NaOH (少量)</td>
+                                <td class="precipitate-green-white">Fe(OH)₂<br>緑白色↓</td>
+                                <td class="precipitate-red-brown">Fe(OH)₃<br>赤褐色↓</td>
+                                <td class="precipitate-blue-white">Cu(OH)₂<br>青白色↓</td>
+                                <td class="precipitate-brown">Ag₂O<br>褐色↓</td>
+                                <td class="precipitate-white">Zn(OH)₂<br>白色↓</td>
+                                <td class="precipitate-white">Al(OH)₃<br>白色↓</td>
+                                <td class="precipitate-gray-green">Cr(OH)₃<br>灰緑色↓</td>
+                                <td class="precipitate-green">Ni(OH)₂<br>緑色↓</td>
+                                <td class="precipitate-pink">Co(OH)₂<br>桃色↓</td>
+                                <td class="precipitate-pale-pink">Mn(OH)₂<br>淡桃色↓</td>
+                                <td class="precipitate-white">Pb(OH)₂<br>白色↓</td>
+                            </tr>
+                            <tr>
+                                <td class="reagent">NaOH (過剰)</td>
+                                <td>変化なし</td>
+                                <td>変化なし</td>
+                                <td>変化なし</td>
+                                <td>変化なし</td>
+                                <td class="complex-colorless">[Zn(OH)₄]²⁻<br>無色</td>
+                                <td class="complex-colorless">[Al(OH)₄]⁻<br>無色</td>
+                                <td class="complex-colorless">[Cr(OH)₆]³⁻<br>無色</td>
+                                <td>変化なし</td>
+                                <td>変化なし</td>
+                                <td>変化なし</td>
+                                <td class="complex-colorless">[Pb(OH)₄]²⁻<br>無色</td>
+                            </tr>
+                            <tr>
+                                <td class="reagent">NH₃ (少量)</td>
+                                <td class="precipitate-green-white">Fe(OH)₂<br>緑白色↓</td>
+                                <td class="precipitate-red-brown">Fe(OH)₃<br>赤褐色↓</td>
+                                <td class="precipitate-blue-white">Cu(OH)₂<br>青白色↓</td>
+                                <td class="precipitate-brown">Ag₂O<br>褐色↓</td>
+                                <td class="precipitate-white">Zn(OH)₂<br>白色↓</td>
+                                <td class="precipitate-white">Al(OH)₃<br>白色↓</td>
+                                <td class="precipitate-gray-green">Cr(OH)₃<br>灰緑色↓</td>
+                                <td class="precipitate-green">Ni(OH)₂<br>緑色↓</td>
+                                <td class="precipitate-pink">Co(OH)₂<br>桃色↓</td>
+                                <td class="precipitate-pale-pink">Mn(OH)₂<br>淡桃色↓</td>
+                                <td class="precipitate-white">Pb(OH)₂<br>白色↓</td>
+                            </tr>
+                            <tr>
+                                <td class="reagent">NH₃ (過剰)</td>
+                                <td>変化なし</td>
+                                <td>変化なし</td>
+                                <td class="complex-deep-blue">[Cu(NH₃)₄]²⁺<br>深青色</td>
+                                <td class="complex-colorless">[Ag(NH₃)₂]⁺<br>無色</td>
+                                <td class="complex-colorless">[Zn(NH₃)₄]²⁺<br>無色</td>
+                                <td>変化なし</td>
+                                <td>変化なし</td>
+                                <td class="complex-blue-purple">[Ni(NH₃)₆]²⁺<br>青紫色</td>
+                                <td class="complex-yellow-brown">[Co(NH₃)₆]²⁺<br>淡黄褐色</td>
+                                <td>変化なし</td>
+                                <td>変化なし</td>
+                            </tr>
+                            <tr>
+                                <td class="reagent">H₂S (酸性)</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td class="precipitate-black">CuS<br>黒色↓</td>
+                                <td class="precipitate-black">Ag₂S<br>黒色↓</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td class="precipitate-black">PbS<br>黒色↓</td>
+                            </tr>
+                            <tr>
+                                <td class="reagent">H₂S (塩基性)</td>
+                                <td class="precipitate-black">FeS<br>黒色↓</td>
+                                <td>FeS<br>黒色↓</td>
+                                <td class="precipitate-black">CuS<br>黒色↓</td>
+                                <td class="precipitate-black">Ag₂S<br>黒色↓</td>
+                                <td class="precipitate-white">ZnS<br>白色↓</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td class="precipitate-black">NiS<br>黒色↓</td>
+                                <td class="precipitate-black">CoS<br>黒色↓</td>
+                                <td class="precipitate-pale-pink">MnS<br>淡桃色↓</td>
+                                <td class="precipitate-black">PbS<br>黒色↓</td>
+                            </tr>
+                            <tr>
+                                <td class="reagent">HCl / Cl⁻</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td class="precipitate-white">AgCl<br>白色↓</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td class="precipitate-white">PbCl₂<br>白色↓</td>
+                            </tr>
+                            <tr>
+                                <td class="reagent">KI / I⁻</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td class="precipitate-yellow">AgI<br>黄色↓</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td>沈殿なし</td>
+                                <td class="precipitate-yellow">PbI₂<br>黄色↓</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="precipitation">
+                <h2>沈殿の色</h2>
+
+                <h3>水酸化物の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>Fe(OH)₂: <span class="blank-container"><span class="number">(1)</span><span class="blank">緑白色</span></span></li>
+                    <li>Fe(OH)₃: <span class="blank-container"><span class="number">(2)</span><span class="blank">赤褐色</span></span></li>
+                    <li>Cu(OH)₂: <span class="blank-container"><span class="number">(3)</span><span class="blank">青白色</span></span></li>
+                    <li>Zn(OH)₂: <span class="blank-container"><span class="number">(4)</span><span class="blank">白色</span></span></li>
+                    <li>Al(OH)₃: <span class="blank-container"><span class="number">(5)</span><span class="blank">白色</span></span></li>
+                    <li>Cr(OH)₃: <span class="blank-container"><span class="number">(6)</span><span class="blank">灰緑色</span></span></li>
+                    <li>Ni(OH)₂: <span class="blank-container"><span class="number">(7)</span><span class="blank">緑色</span></span></li>
+                    <li>Co(OH)₂: <span class="blank-container"><span class="number">(8)</span><span class="blank">桃色</span></span></li>
+                    <li>Mn(OH)₂: <span class="blank-container"><span class="number">(9)</span><span class="blank">淡桃色</span></span></li>
+                    <li>Ag₂O (AgOHは不安定): <span class="blank-container"><span class="number">(10)</span><span class="blank">褐色</span></span></li>
+                </ul>
+
+                <h3>硫化物の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>CuS: <span class="blank-container"><span class="number">(11)</span><span class="blank">黒色</span></span></li>
+                    <li>PbS: <span class="blank-container"><span class="number">(12)</span><span class="blank">黒色</span></span></li>
+                    <li>HgS: <span class="blank-container"><span class="number">(13)</span><span class="blank">黒色</span></span></li>
+                    <li>CdS: <span class="blank-container"><span class="number">(14)</span><span class="blank">黄色</span></span></li>
+                    <li>ZnS: <span class="blank-container"><span class="number">(15)</span><span class="blank">白色</span></span></li>
+                    <li>FeS: <span class="blank-container"><span class="number">(16)</span><span class="blank">黒色</span></span></li>
+                    <li>MnS: <span class="blank-container"><span class="number">(17)</span><span class="blank">淡桃色</span></span></li>
+                    <li>NiS: <span class="blank-container"><span class="number">(18)</span><span class="blank">黒色</span></span></li>
+                </ul>
+
+                <h3>その他の沈殿</h3>
+                <ul class="quiz-list">
+                    <li>AgCl: <span class="blank-container"><span class="number">(19)</span><span class="blank">白色</span></span></li>
+                    <li>AgBr: <span class="blank-container"><span class="number">(20)</span><span class="blank">淡黄色</span></span></li>
+                    <li>AgI: <span class="blank-container"><span class="number">(21)</span><span class="blank">黄色</span></span></li>
+                    <li>PbCl₂: <span class="blank-container"><span class="number">(22)</span><span class="blank">白色</span></span></li>
+                    <li>PbI₂: <span class="blank-container"><span class="number">(23)</span><span class="blank">黄色</span></span></li>
+                    <li>BaSO₄: <span class="blank-container"><span class="number">(24)</span><span class="blank">白色</span></span></li>
+                    <li>CaSO₄: <span class="blank-container"><span class="number">(25)</span><span class="blank">白色</span></span></li>
+                    <li>CaCO₃: <span class="blank-container"><span class="number">(26)</span><span class="blank">白色</span></span></li>
+                </ul>
+            </section>
+
+            <section id="complex">
+                <h2>錯イオンの色</h2>
+
+                <h3>銅(Cu)の錯イオン</h3>
+                <ul class="quiz-list">
+                    <li>[Cu(NH₃)₄]²⁺ (テトラアンミン銅(II)イオン): <span class="blank-container"><span class="number">(27)</span><span class="blank">深青色</span></span></li>
+                    <li>[Cu(OH)₄]²⁻ (テトラヒドロキソ銅(II)イオン): <span class="blank-container"><span class="number">(28)</span><span class="blank">深青色</span></span></li>
+                    <li>Cu(H₂O)₆²⁺ (水和イオン): <span class="blank-container"><span class="number">(29)</span><span class="blank">青色</span></span></li>
+                </ul>
+
+                <h3>銀(Ag)の錯イオン</h3>
+                <ul class="quiz-list">
+                    <li>[Ag(NH₃)₂]⁺ (ジアンミン銀(I)イオン): <span class="blank-container"><span class="number">(30)</span><span class="blank">無色</span></span></li>
+                    <li>[Ag(S₂O₃)₂]³⁻ (ジチオ硫酸銀(I)イオン): <span class="blank-container"><span class="number">(31)</span><span class="blank">無色</span></span></li>
+                    <li>[Ag(CN)₂]⁻ (ジシアノ銀(I)イオン): <span class="blank-container"><span class="number">(32)</span><span class="blank">無色</span></span></li>
+                </ul>
+
+                <h3>亜鉛(Zn)の錯イオン</h3>
+                <ul class="quiz-list">
+                    <li>[Zn(NH₃)₄]²⁺ (テトラアンミン亜鉛(II)イオン): <span class="blank-container"><span class="number">(33)</span><span class="blank">無色</span></span></li>
+                    <li>[Zn(OH)₄]²⁻ (テトラヒドロキソ亜鉛(II)イオン): <span class="blank-container"><span class="number">(34)</span><span class="blank">無色</span></span></li>
+                </ul>
+
+                <h3>アルミニウム(Al)の錯イオン</h3>
+                <ul class="quiz-list">
+                    <li>[Al(OH)₄]⁻ (テトラヒドロキソアルミン(III)イオン): <span class="blank-container"><span class="number">(35)</span><span class="blank">無色</span></span></li>
+                </ul>
+
+                <h3>クロム(Cr)の錯イオン</h3>
+                <ul class="quiz-list">
+                    <li>CrO₄²⁻ (クロム酸イオン): <span class="blank-container"><span class="number">(36)</span><span class="blank">黄色</span></span></li>
+                    <li>Cr₂O₇²⁻ (二クロム酸イオン): <span class="blank-container"><span class="number">(37)</span><span class="blank">橙色</span></span></li>
+                    <li>Cr³⁺ (クロム(III)イオン): <span class="blank-container"><span class="number">(38)</span><span class="blank">緑色</span></span></li>
+                </ul>
+
+                <h3>鉄(Fe)の錯イオンと呈色反応</h3>
+                <ul class="quiz-list">
+                    <li>Fe²⁺ + [Fe(CN)₆]³⁻ → 濃青色沈殿 <span class="blank-container"><span class="number">(39)</span><span class="blank">ターンブルブルー</span></span></li>
+                    <li>Fe³⁺ + [Fe(CN)₆]⁴⁻ → 濃青色沈殿 <span class="blank-container"><span class="number">(40)</span><span class="blank">ヘキサシアノ鉄(II)酸鉄(III) (紺青)</span></span></li>
+                    <li>Fe³⁺ + SCN⁻ → <span class="blank-container"><span class="number">(41)</span><span class="blank">血赤色</span></span></li>
+                    <li>Fe³⁺ + フェノール → <span class="blank-container"><span class="number">(42)</span><span class="blank">紫色</span></span></li>
+                </ul>
+
+                <h3>コバルト(Co)の錯イオン</h3>
+                <ul class="quiz-list">
+                    <li>Co²⁺ (水和イオン): <span class="blank-container"><span class="number">(43)</span><span class="blank">桃色</span></span></li>
+                    <li>[Co(NH₃)₆]³⁺ (ヘキサアンミンコバルト(III)イオン): <span class="blank-container"><span class="number">(44)</span><span class="blank">黄褐色</span></span></li>
+                    <li>CoCl₄²⁻ (テトラクロロコバルト(II)イオン): <span class="blank-container"><span class="number">(45)</span><span class="blank">青色</span></span></li>
+                </ul>
+
+                <h3>ニッケル(Ni)の錯イオン</h3>
+                <ul class="quiz-list">
+                    <li>Ni²⁺ (水和イオン): <span class="blank-container"><span class="number">(46)</span><span class="blank">緑色</span></span></li>
+                    <li>[Ni(NH₃)₆]²⁺ (ヘキサアンミンニッケル(II)イオン): <span class="blank-container"><span class="number">(47)</span><span class="blank">青紫色</span></span></li>
+                    <li>Ni²⁺ + ジメチルグリオキシム → <span class="blank-container"><span class="number">(48)</span><span class="blank">赤色沈殿</span></span></li>
+                </ul>
+            </section>
+
+            <section id="reactions">
+                <h2>重要な反応まとめ</h2>
+
+                <h3>両性元素(酸・塩基両方に溶ける)</h3>
+                <ul class="quiz-list">
+                    <li>Zn(OH)₂ + <span class="blank-container"><span class="number">(49)</span><span class="blank">2OH⁻ → [Zn(OH)₄]²⁻</span></span></li>
+                    <li>Al(OH)₃ + <span class="blank-container"><span class="number">(50)</span><span class="blank">OH⁻ → [Al(OH)₄]⁻</span></span></li>
+                    <li>Cr(OH)₃ + <span class="blank-container"><span class="number">(51)</span><span class="blank">3OH⁻ → [Cr(OH)₆]³⁻</span></span></li>
+                </ul>
+
+                <h3>ハロゲン化銀の溶解性</h3>
+                <ul class="quiz-list">
+                    <li>AgCl: <span class="blank-container"><span class="number">(52)</span><span class="blank">NH₃に可溶</span></span></li>
+                    <li>AgBr: <span class="blank-container"><span class="number">(53)</span><span class="blank">濃NH₃に可溶</span></span></li>
+                    <li>AgI: <span class="blank-container"><span class="number">(54)</span><span class="blank">NH₃に不溶</span></span></li>
+                </ul>
+
+                <h3>クロム酸と二クロム酸の平衡</h3>
+                <ul class="quiz-list">
+                    <li>2CrO₄²⁻ + 2H⁺ ⇄ <span class="blank-container"><span class="number">(55)</span><span class="blank">Cr₂O₇²⁻ + H₂O</span></span></li>
+                    <li>酸性: <span class="blank-container"><span class="number">(56)</span><span class="blank">橙色 (Cr₂O₇²⁻)</span></span></li>
+                    <li>塩基性: <span class="blank-container"><span class="number">(57)</span><span class="blank">黄色 (CrO₄²⁻)</span></span></li>
+                </ul>
+
+                <h3>過マンガン酸カリウムの反応</h3>
+                <ul class="quiz-list">
+                    <li>MnO₄⁻ (酸性溶液): <span class="blank-container"><span class="number">(58)</span><span class="blank">赤紫色 → Mn²⁺ (淡桃色)</span></span></li>
+                    <li>MnO₄⁻ (中性・塩基性): <span class="blank-container"><span class="number">(59)</span><span class="blank">MnO₂ (黒褐色沈殿)</span></span></li>
+                </ul>
+            </section>
+
+            <section id="flashcards">
+                <h2>フラッシュカード練習</h2>
+                
+                <div class="config-area">
+                    <div class="input-group">
+                        <label>開始番号: <input type="number" id="startNum" value="1" min="1" max="59"></label>
+                        <label>終了番号: <input type="number" id="endNum" value="59" min="1" max="59"></label>
+                    </div>
+                    <div class="shuffle-group">
+                        <label><input type="checkbox" id="shuffleCheck"> ランダムに表示</label>
+                    </div>
+                    <button class="btn" id="startBtn">練習開始</button>
+                    <span class="error-msg" id="errorMsg"></span>
+                </div>
+
+                <div id="flashcardArea" class="hidden">
+                    <div class="progress-text" id="progressText"></div>
+                    <div class="flashcard" id="flashcard">
+                        <div class="word-display" id="wordDisplay"></div>
+                        <div class="meaning-display hidden" id="meaningDisplay"></div>
+                    </div>
+                    <div class="nav-controls">
+                        <button class="btn-inline btn-secondary" id="prevBtn">← 前へ</button>
+                        <button class="btn-inline" id="revealBtn">答えを表示</button>
+                        <button class="btn-inline btn-secondary" id="nextBtn">次へ →</button>
+                    </div>
+                </div>
+            </section>
+   
+    </main>
+</div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
