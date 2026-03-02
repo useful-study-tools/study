@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鉄(Fe)の化学的性質</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">元素別解説に戻る</a>
+    <main>
+            <h1>アルカリ金属元素の化学的性質</h1>
+
+            <section id="basics">
+                <h2>基本情報</h2>
+
+                <h3>アルカリ金属とは</h3>
+                <p>周期表の1族元素(水素を除く)で、Li, Na, K, Rb, Cs, Fr の6元素。</p>
+                <ul>
+                    <li><strong>リチウム(Li):</strong> 原子番号3</li>
+                    <li><strong>ナトリウム(Na):</strong> 原子番号11</li>
+                    <li><strong>カリウム(K):</strong> 原子番号19</li>
+                    <li><strong>ルビジウム(Rb):</strong> 原子番号37</li>
+                    <li><strong>セシウム(Cs):</strong> 原子番号55</li>
+                    <li><strong>フランシウム(Fr):</strong> 原子番号87(放射性、極めて稀)</li>
+                </ul>
+
+                <h3>電子配置の特徴</h3>
+                <ul>
+                    <li>最外殻に電子1個(ns¹)</li>
+                    <li>Li: [He]2s¹</li>
+                    <li>Na: [Ne]3s¹</li>
+                    <li>K: [Ar]4s¹</li>
+                    <li>Rb: [Kr]5s¹</li>
+                    <li>Cs: [Xe]6s¹</li>
+                    <li>Fr: [Rn]7s¹</li>
+                </ul>
+
+                <h3>主な特徴</h3>
+                <ul>
+                    <li><strong>酸化数:</strong> +1のみ</li>
+                    <li><strong>イオン化傾向:</strong> 非常に大きい(最大級)</li>
+                    <li><strong>反応性:</strong> 極めて高い</li>
+                    <li><strong>単体の色:</strong> 銀白色(金属光沢)</li>
+                    <li><strong>硬さ:</strong> 柔らかい(ナイフで切れる)</li>
+                    <li><strong>密度:</strong> 小さい(Li, Na, Kは水より軽い)</li>
+                </ul>
+            </section>
+
+            <section id="properties">
+                <h2>アルカリ金属の共通性質</h2>
+
+                <h3>物理的性質の周期性</h3>
+                <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+                    <tr style="background-color: #f0f0f0;">
+                        <th style="border: 1px solid #ddd; padding: 8px;">元素</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">密度(g/cm³)</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">融点(℃)</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">沸点(℃)</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">炎色反応</th>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Li</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">0.53</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">181</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">1342</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">赤(深紅)</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Na</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">0.97</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">98</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">883</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">黄</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">K</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">0.86</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">64</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">759</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">紫</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Rb</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">1.53</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">39</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">688</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">赤紫</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Cs</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">1.87</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">28</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">671</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">青</td>
+                    </tr>
+                </table>
+
+                <h3>周期性のまとめ</h3>
+                <p>原子番号が大きくなると...</p>
+                <ul>
+                    <li><strong>融点・沸点:</strong> 低くなる(金属結合が弱くなる)</li>
+                    <li><strong>密度:</strong> 大きくなる(Kを除く)</li>
+                    <li><strong>反応性:</strong> 高くなる(イオン化エネルギーが小さくなる)</li>
+                    <li><strong>イオン半径:</strong> 大きくなる</li>
+                    <li><strong>還元性:</strong> 強くなる</li>
+                </ul>
+
+                <h3>イオン化傾向</h3>
+                <p><strong>K > Ca > Na</strong> > Mg > Al > Zn > Cr > Fe > Ni > Sn > Pb > (H₂) > Cu > Hg > Ag > Pt > Au</p>
+                <ul>
+                    <li>アルカリ金属は最もイオン化傾向が大きい</li>
+                    <li>K > Na の順(実際にはRb, Csはさらに大きい)</li>
+                </ul>
+            </section>
+
+            <section id="reactions">
+                <h2>アルカリ金属の化学反応</h2>
+
+                <h3>1. 水との反応(最重要)</h3>
+                <p>アルカリ金属は水と激しく反応して水素を発生し、強塩基(水酸化物)を生成する。</p>
+                
+                <h4>一般式</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">2M + 2H₂O → 2MOH + H₂↑</span></span></li>
+                    <li>(M = Li, Na, K など)</li>
+                </ul>
+
+                <h4>各元素の反応</h4>
+                <ul class="quiz-list">
+                    <li>リチウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">2Li + 2H₂O → 2LiOH + H₂↑</span></span></li>
+                    <li>　　　　　穏やかに反応、水面を浮遊</li>
+                    <li>ナトリウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">2Na + 2H₂O → 2NaOH + H₂↑</span></span></li>
+                    <li>　　　　　激しく反応、発熱で溶融、水面を動き回る、発火することも</li>
+                    <li>カリウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">2K + 2H₂O → 2KOH + H₂↑</span></span></li>
+                    <li>　　　　　非常に激しく反応、紫色の炎を出して燃焼</li>
+                </ul>
+
+                <p><strong>反応性の順序:</strong> Li < Na < K < Rb < Cs(下に行くほど激しい)</p>
+
+                <h3>2. 酸素との反応</h3>
+                <p>空気中で容易に酸化されるため、石油中に保存する。</p>
+
+                <h4>リチウムの反応</h4>
+                <ul class="quiz-list">
+                    <li>通常の酸化: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">4Li + O₂ → 2Li₂O</span></span> (酸化リチウム、白色)</li>
+                </ul>
+
+                <h4>ナトリウムの反応</h4>
+                <ul class="quiz-list">
+                    <li>少量の酸素: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">4Na + O₂ → 2Na₂O</span></span> (酸化ナトリウム、白色)</li>
+                    <li>過剰の酸素: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">2Na + O₂ → Na₂O₂</span></span> (過酸化ナトリウム、淡黄色)</li>
+                </ul>
+
+                <h4>カリウムの反応</h4>
+                <ul class="quiz-list">
+                    <li>酸素中: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">K + O₂ → KO₂</span></span> (超酸化カリウム、橙黄色)</li>
+                </ul>
+
+                <h3>3. ハロゲンとの反応</h3>
+                <p>ハロゲンと激しく反応してハロゲン化物を生成。</p>
+                <ul class="quiz-list">
+                    <li>塩素との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">2M + Cl₂ → 2MCl</span></span></li>
+                    <li>例(ナトリウム): <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">2Na + Cl₂ → 2NaCl</span></span> (塩化ナトリウム)</li>
+                </ul>
+
+                <h3>4. 水素との反応</h3>
+                <ul class="quiz-list">
+                    <li>高温: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">2M + H₂ → 2MH</span></span> (水素化物)</li>
+                    <li>例: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">2Na + H₂ → 2NaH</span></span> (水素化ナトリウム)</li>
+                </ul>
+
+                <h3>5. 窒素との反応</h3>
+                <ul class="quiz-list">
+                    <li>リチウムのみ反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">6Li + N₂ → 2Li₃N</span></span> (窒化リチウム)</li>
+                </ul>
+
+                <h3>6. 炎色反応(検出)</h3>
+                <p>アルカリ金属イオンの検出に利用される重要な反応。</p>
+                <ul>
+                    <li><strong>Li⁺:</strong> 赤(深紅色)</li>
+                    <li><strong>Na⁺:</strong> 黄色(最も顕著)</li>
+                    <li><strong>K⁺:</strong> 紫色</li>
+                    <li><strong>Rb⁺:</strong> 赤紫色</li>
+                    <li><strong>Cs⁺:</strong> 青色</li>
+                </ul>
+            </section>
+
+            <section id="individual">
+                <h2>各アルカリ金属元素</h2>
+
+                <h3>リチウム(Li)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>最も軽い金属(密度0.53 g/cm³)</li>
+                    <li>融点が比較的高い(181℃)</li>
+                    <li>窒素と反応する唯一のアルカリ金属</li>
+                    <li>イオン半径が小さい</li>
+                </ul>
+
+                <h4>製法</h4>
+                <ul class="quiz-list">
+                    <li>融解塩電解: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">LiCl → Li + 1/2Cl₂</span></span></li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>リチウムイオン電池(最重要)</li>
+                    <li>合金の添加剤</li>
+                    <li>医薬品(双極性障害治療)</li>
+                    <li>乾燥剤(塩化リチウム)</li>
+                </ul>
+
+                <h3>ナトリウム(Na)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>地殻に豊富に存在(6番目)</li>
+                    <li>海水中に多量に含まれる(Na⁺として)</li>
+                    <li>工業的に最も重要なアルカリ金属</li>
+                </ul>
+
+                <h4>製法</h4>
+                <ul class="quiz-list">
+                    <li>ダウンズ法(融解塩電解):</li>
+                    <li>陰極: <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">Na⁺ + e⁻ → Na</span></span></li>
+                    <li>陽極: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">2Cl⁻ → Cl₂ + 2e⁻</span></span></li>
+                    <li>全体: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">2NaCl → 2Na + Cl₂</span></span></li>
+                    <li>※ CaCl₂を加えて融点を下げる(約600℃)</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>還元剤(金属の製造)</li>
+                    <li>ナトリウムランプ(黄色光)</li>
+                    <li>冷却剤(原子炉)</li>
+                    <li>有機合成の試薬</li>
+                </ul>
+
+                <h3>カリウム(K)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>水より軽い(密度0.86 g/cm³)</li>
+                    <li>融点が低い(64℃)</li>
+                    <li>ナトリウムより反応性が高い</li>
+                </ul>
+
+                <h4>製法</h4>
+                <ul class="quiz-list">
+                    <li>融解塩電解または: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">KCl + Na → NaCl + K</span></span></li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>カリウム化合物の原料</li>
+                    <li>超酸化カリウムの製造(呼吸装置の酸素源)</li>
+                </ul>
+
+                <h3>ルビジウム(Rb)・セシウム(Cs)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>希少元素</li>
+                    <li>反応性が非常に高い</li>
+                    <li>Csは融点28℃(手で溶ける)</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>光電管</li>
+                    <li>原子時計(Cs)</li>
+                    <li>研究用途</li>
+                </ul>
+            </section>
+
+            <section id="compounds">
+                <h2>アルカリ金属の化合物</h2>
+
+                <h3>1. 水酸化物 MOH</h3>
+                <p>強塩基として働く。</p>
+
+                <h4>水酸化ナトリウム NaOH(苛性ソーダ)</h4>
+                <ul>
+                    <li><strong>製法:</strong> 陽イオン交換膜法(食塩水の電気分解)</li>
+                </ul>
+                <ul class="quiz-list">
+                    <li>陰極: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">2H₂O + 2e⁻ → H₂ + 2OH⁻</span></span></li>
+                    <li>陽極: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">2Cl⁻ → Cl₂ + 2e⁻</span></span></li>
+                </ul>
+                <ul>
+                    <li><strong>性質:</strong> 白色固体、潮解性、水に溶けて強い発熱</li>
+                    <li><strong>用途:</strong> 化学工業の基礎原料、石鹸、紙パルプ</li>
+                </ul>
+
+                <h4>水酸化カリウム KOH</h4>
+                <ul>
+                    <li>水酸化ナトリウムより潮解性が強い</li>
+                    <li>用途: アルカリ電池の電解液</li>
+                </ul>
+
+                <h3>2. 塩化物 MCl</h3>
+                
+                <h4>塩化ナトリウム NaCl(食塩)</h4>
+                <ul>
+                    <li><strong>天然:</strong> 岩塩、海水</li>
+                    <li><strong>用途:</strong> 調味料、Na・NaOH・Cl₂の原料</li>
+                </ul>
+
+                <h4>塩化カリウム KCl</h4>
+                <ul>
+                    <li>肥料として重要</li>
+                </ul>
+
+                <h3>3. 炭酸塩 M₂CO₃</h3>
+
+                <h4>炭酸ナトリウム Na₂CO₃(ソーダ灰)</h4>
+                <ul class="quiz-list">
+                    <li>製法(ソルベー法・アンモニアソーダ法):</li>
+                    <li>① <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">NaCl + NH₃ + CO₂ + H₂O → NaHCO₃↓ + NH₄Cl</span></span></li>
+                    <li>② <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">2NaHCO₃ → Na₂CO₃ + H₂O + CO₂</span></span></li>
+                </ul>
+                <ul>
+                    <li><strong>水和物:</strong> Na₂CO₃·10H₂O(結晶、風解性)</li>
+                    <li><strong>用途:</strong> ガラス、洗剤、化学工業</li>
+                </ul>
+
+                <h4>炭酸カリウム K₂CO₃</h4>
+                <ul>
+                    <li>潮解性あり</li>
+                    <li>ガラス原料</li>
+                </ul>
+
+                <h3>4. 炭酸水素塩 MHCO₃</h3>
+
+                <h4>炭酸水素ナトリウム NaHCO₃(重曹)</h4>
+                <ul class="quiz-list">
+                    <li>加熱分解: <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">2NaHCO₃ → Na₂CO₃ + H₂O + CO₂↑</span></span></li>
+                    <li>酸との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">NaHCO₃ + HCl → NaCl + H₂O + CO₂↑</span></span></li>
+                </ul>
+                <ul>
+                    <li><strong>用途:</strong> ベーキングパウダー、胃薬、消火剤</li>
+                </ul>
+
+                <h3>5. 硝酸塩 MNO₃</h3>
+
+                <h4>硝酸ナトリウム NaNO₃(チリ硝石)</h4>
+                <ul>
+                    <li>天然に産出</li>
+                    <li>肥料</li>
+                </ul>
+
+                <h4>硝酸カリウム KNO₃(硝石)</h4>
+                <ul>
+                    <li>肥料、酸化剤</li>
+                    <li>黒色火薬の原料</li>
+                </ul>
+
+                <h3>6. 過酸化物と超酸化物</h3>
+
+                <h4>過酸化ナトリウム Na₂O₂</h4>
+                <ul class="quiz-list">
+                    <li>水との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">2Na₂O₂ + 2H₂O → 4NaOH + O₂↑</span></span></li>
+                    <li>二酸化炭素との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">2Na₂O₂ + 2CO₂ → 2Na₂CO₃ + O₂</span></span></li>
+                </ul>
+                <ul>
+                    <li><strong>用途:</strong> 酸素発生剤、漂白剤</li>
+                </ul>
+
+                <h4>超酸化カリウム KO₂</h4>
+                <ul class="quiz-list">
+                    <li>二酸化炭素との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(27)</span> <span class="blank">4KO₂ + 2CO₂ → 2K₂CO₃ + 3O₂</span></span></li>
+                </ul>
+                <ul>
+                    <li><strong>用途:</strong> 呼吸装置の酸素源(潜水艦、宇宙船)</li>
+                </ul>
+
+                <h3>7. その他の重要化合物</h3>
+                <ul>
+                    <li><strong>水素化ナトリウム NaH:</strong> 強塩基、還元剤</li>
+                    <li><strong>アミド化ナトリウム NaNH₂:</strong> 強塩基</li>
+                    <li><strong>硫酸ナトリウム Na₂SO₄:</strong> 芒硝(Na₂SO₄·10H₂O)</li>
+                    <li><strong>チオ硫酸ナトリウム Na₂S₂O₃:</strong> ハイポ(写真の定着液)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>その他の重要事項</h2>
+
+                <h3>アルカリ金属の保存</h3>
+                <ul>
+                    <li>空気中で酸化されやすい</li>
+                    <li>水と激しく反応する</li>
+                    <li><strong>保存法:</strong> 石油中に保存(空気・水分との接触を防ぐ)</li>
+                </ul>
+
+                <h3>イオンの性質</h3>
+                <ul>
+                    <li><strong>色:</strong> すべて無色</li>
+                    <li><strong>1価陽イオン:</strong> M⁺</li>
+                    <li><strong>水和:</strong> 水中で水和イオンを形成</li>
+                    <li><strong>溶解性:</strong> ほとんどの塩が水に可溶</li>
+                </ul>
+
+                <h3>生体内での役割</h3>
+                <ul>
+                    <li><strong>Na⁺:</strong> 細胞外液の主要陽イオン、神経伝達</li>
+                    <li><strong>K⁺:</strong> 細胞内液の主要陽イオン、筋肉収縮</li>
+                    <li><strong>ナトリウムポンプ:</strong> Na⁺とK⁺の濃度勾配を維持</li>
+                </ul>
+
+                <h3>工業的重要性</h3>
+                <ul>
+                    <li><strong>ナトリウム化合物:</strong> 化学工業の基礎(NaOH, Na₂CO₃, NaCl)</li>
+                    <li><strong>カリウム化合物:</strong> 肥料として重要</li>
+                    <li><strong>リチウム:</strong> 電池産業で急成長</li>
+                </ul>
+
+                <h3>環境と資源</h3>
+                <ul>
+                    <li><strong>海水:</strong> Na⁺とK⁺が豊富</li>
+                    <li><strong>岩塩:</strong> NaClの主要資源</li>
+                    <li><strong>カリ鉱石:</strong> KClの資源</li>
+                    <li><strong>リチウム:</strong> 塩湖、鉱石(リチア輝石など)</li>
+                </ul>
+
+                <h3>注意すべき性質</h3>
+                <ul>
+                    <li><strong>取り扱い:</strong> 単体は非常に危険(水と激しく反応)</li>
+                    <li><strong>酸化数:</strong> +1のみ(最外殻電子1個)</li>
+                    <li><strong>反応性:</strong> Li < Na < K < Rb < Cs(下に行くほど増大)</li>
+                    <li><strong>炎色反応:</strong> イオンの検出に利用</li>
+                    <li><strong>塩の溶解性:</strong> ほぼすべて水に可溶(例外は少ない)</li>
+                </ul>
+
+                <h3>アルカリ金属の特異性</h3>
+                <ul>
+                    <li><strong>リチウムの特異性:</strong> イオン半径が小さい、窒素と反応、炭酸塩が熱分解</li>
+                    <li><strong>対角線関係:</strong> LiとMgは性質が似る</li>
+                    <li><strong>ナトリウムの重要性:</strong> 工業的に最も重要</li>
+                </ul>
+
+                <h3>アルカリ金属化合物の溶解性</h3>
+                <p>ほとんどすべての塩が水に易溶だが、以下は例外:</p>
+                <ul>
+                    <li><strong>Li₂CO₃:</strong> 水に難溶(熱分解しやすい)</li>
+                    <li><strong>その他:</strong> ほぼすべて水に可溶</li>
+                </ul>
+
+                <h3>リチウムの特異性の詳細</h3>
+                <ul class="quiz-list">
+                    <li>炭酸リチウムの熱分解: <span class="blank-container" onclick="reveal(this)"><span class="number">(28)</span> <span class="blank">Li₂CO₃ → Li₂O + CO₂</span></span></li>
+                    <li>※ 他のアルカリ金属の炭酸塩は熱分解しない</li>
+                    <li>窒素との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(29)</span> <span class="blank">6Li + N₂ → 2Li₃N</span></span></li>
+                    <li>※ 他のアルカリ金属は窒素と反応しない</li>
+                </ul>
+
+                <h3>ソルベー法(アンモニアソーダ法)の詳細</h3>
+                <p>炭酸ナトリウムの工業的製法</p>
+                <ul class="quiz-list">
+                    <li>全体反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(30)</span> <span class="blank">2NaCl + CaCO₃ → Na₂CO₃ + CaCl₂</span></span></li>
+                </ul>
+                <p><strong>工程:</strong></p>
+                <ul class="quiz-list">
+                    <li>① 炭酸水素ナトリウムの沈殿</li>
+                    <li>② 加熱分解で炭酸ナトリウムを得る</li>
+                    <li>③ 塩化アンモニウムを石灰と反応させてアンモニアを回収</li>
+                    <li>　<span class="blank-container" onclick="reveal(this)"><span class="number">(31)</span> <span class="blank">2NH₄Cl + Ca(OH)₂ → 2NH₃ + CaCl₂ + 2H₂O</span></span></li>
+                </ul>
+
+                <h3>電気陰性度</h3>
+                <ul>
+                    <li>アルカリ金属は電気陰性度が最も小さい</li>
+                    <li>Li: 1.0、Na: 0.9、K: 0.8</li>
+                    <li>イオン結合を作りやすい</li>
+                </ul>
+            </section>
+   
+    </main>
+</div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
