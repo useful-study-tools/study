@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鉄(Fe)の化学的性質</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">元素別解説に戻る</a>
+    <main>
+            <h1>貴ガス元素(希ガス元素)の化学的性質</h1>
+
+            <section id="basics">
+                <h2>基本情報</h2>
+
+                <h3>貴ガス(希ガス)とは</h3>
+                <p>周期表の18族元素で、He, Ne, Ar, Kr, Xe, Rn の6元素。</p>
+                <ul>
+                    <li><strong>ヘリウム(He):</strong> 原子番号2</li>
+                    <li><strong>ネオン(Ne):</strong> 原子番号10</li>
+                    <li><strong>アルゴン(Ar):</strong> 原子番号18</li>
+                    <li><strong>クリプトン(Kr):</strong> 原子番号36</li>
+                    <li><strong>キセノン(Xe):</strong> 原子番号54</li>
+                    <li><strong>ラドン(Rn):</strong> 原子番号86(放射性)</li>
+                </ul>
+
+                <h3>電子配置の特徴</h3>
+                <ul>
+                    <li>最外殻電子が満たされている(閉殻構造)</li>
+                    <li>He: 1s²(2個)</li>
+                    <li>Ne: [He]2s²2p⁶(8個)</li>
+                    <li>Ar: [Ne]3s²3p⁶(8個)</li>
+                    <li>Kr: [Ar]3d¹⁰4s²4p⁶(8個)</li>
+                    <li>Xe: [Kr]4d¹⁰5s²5p⁶(8個)</li>
+                    <li>Rn: [Xe]4f¹⁴5d¹⁰6s²6p⁶(8個)</li>
+                    <li>※ オクテット則(8個の電子)を満たす安定な電子配置</li>
+                </ul>
+
+                <h3>名称について</h3>
+                <ul>
+                    <li><strong>貴ガス(noble gas):</strong> 反応性が低く「高貴」という意味</li>
+                    <li><strong>希ガス(rare gas):</strong> かつて希少と考えられた(実際にはArは豊富)</li>
+                    <li><strong>不活性ガス(inert gas):</strong> 化学的に不活性</li>
+                    <li>現在は「貴ガス」が標準的</li>
+                </ul>
+
+                <h3>主な特徴</h3>
+                <ul>
+                    <li><strong>単原子分子:</strong> He, Ne, Ar, Kr, Xe, Rn(分子を作らない)</li>
+                    <li><strong>無色・無臭・無味:</strong> すべて無色透明</li>
+                    <li><strong>化学的に安定:</strong> 極めて反応性が低い</li>
+                    <li><strong>イオン化エネルギー:</strong> 非常に大きい</li>
+                    <li><strong>電気陰性度:</strong> 定義されない(化合物をほとんど作らない)</li>
+                    <li><strong>沸点・融点:</strong> 非常に低い</li>
+                </ul>
+            </section>
+
+            <section id="properties">
+                <h2>貴ガスの共通性質</h2>
+
+                <h3>物理的性質の周期性</h3>
+                <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+                    <tr style="background-color: #f0f0f0;">
+                        <th style="border: 1px solid #ddd; padding: 8px;">元素</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">融点(℃)</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">沸点(℃)</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">密度(g/L)</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">空気中の存在比</th>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">He</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-272.2</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-268.9</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">0.18</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">0.0005%</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Ne</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-248.6</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-246.0</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">0.90</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">0.0018%</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Ar</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-189.4</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-185.9</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">1.78</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">0.93%</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Kr</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-157.4</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-153.2</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">3.74</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">0.0001%</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Xe</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-111.8</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-108.1</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">5.90</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">0.00009%</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Rn</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-71</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">-61.7</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">9.73</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">極微量</td>
+                    </tr>
+                </table>
+
+                <h3>周期性のまとめ</h3>
+                <p>原子番号が大きくなると...</p>
+                <ul>
+                    <li><strong>融点・沸点:</strong> 高くなる(分子間力が増大)</li>
+                    <li><strong>密度:</strong> 大きくなる</li>
+                    <li><strong>原子半径:</strong> 大きくなる</li>
+                    <li><strong>イオン化エネルギー:</strong> 小さくなる</li>
+                    <li><strong>反応性:</strong> わずかに高くなる(Xe, Rnは化合物を作る)</li>
+                </ul>
+
+                <h3>化学的不活性の理由</h3>
+                <ul>
+                    <li><strong>閉殻構造:</strong> 最外殻電子が満たされている</li>
+                    <li><strong>安定な電子配置:</strong> 電子を失う・受け取る傾向がない</li>
+                    <li><strong>高いイオン化エネルギー:</strong> イオンになりにくい</li>
+                    <li><strong>小さい電子親和力:</strong> 電子を受け取りにくい</li>
+                    <li>→ イオン結合も共有結合も作りにくい</li>
+                </ul>
+
+                <h3>分子間力</h3>
+                <ul>
+                    <li>単原子分子間にはファンデルワールス力(分散力)のみ</li>
+                    <li>原子番号が大きいほど分子間力が大きい</li>
+                    <li>→ 沸点・融点が高くなる</li>
+                </ul>
+            </section>
+
+            <section id="individual">
+                <h2>各貴ガス元素</h2>
+
+                <h3>ヘリウム(He)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>最も軽い貴ガス(水素に次いで軽い元素)</li>
+                    <li>沸点が最も低い物質(-268.9℃)</li>
+                    <li>液体ヘリウムは超流動を示す</li>
+                    <li>化合物は存在しない</li>
+                </ul>
+
+                <h4>存在</h4>
+                <ul>
+                    <li>宇宙で2番目に豊富な元素(水素の次)</li>
+                    <li>太陽の核融合で生成</li>
+                    <li>地球大気中にわずか</li>
+                    <li>天然ガス中に含まれる(アメリカの天然ガス田)</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>気球・飛行船(不燃性、軽い)</li>
+                    <li>低温実験(液体ヘリウム)</li>
+                    <li>超伝導磁石の冷却</li>
+                    <li>MRIの冷却材</li>
+                    <li>深海潜水の呼吸用ガス(窒素酔いを防ぐ)</li>
+                    <li>不活性雰囲気(溶接など)</li>
+                </ul>
+
+                <h3>ネオン(Ne)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>化合物は存在しない</li>
+                    <li>放電により赤橙色の光を発する</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li><strong>ネオンサイン:</strong> 広告灯、装飾灯(赤橙色)</li>
+                    <li>レーザー(He-Neレーザー)</li>
+                    <li>低温実験</li>
+                </ul>
+
+                <h3>アルゴン(Ar)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>大気中で3番目に多い成分(約0.93%)</li>
+                    <li>貴ガスの中で最も豊富</li>
+                    <li>化合物は存在しない</li>
+                </ul>
+
+                <h4>製法</h4>
+                <ul>
+                    <li>空気の分留(液体空気の分留)</li>
+                    <li>沸点: N₂(-196℃) < Ar(-186℃) < O₂(-183℃)</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li><strong>白熱電球の封入ガス:</strong> フィラメントの酸化防止</li>
+                    <li><strong>溶接の不活性雰囲気:</strong> アーク溶接</li>
+                    <li><strong>半導体製造:</strong> 不活性雰囲気</li>
+                    <li>金属精錬</li>
+                </ul>
+
+                <h3>クリプトン(Kr)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>空気中にわずかに存在</li>
+                    <li>一部の化合物が知られる(不安定)</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>高性能電球(クリプトン電球)</li>
+                    <li>写真用フラッシュランプ</li>
+                    <li>レーザー(エキシマレーザー)</li>
+                </ul>
+
+                <h3>キセノン(Xe)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li>空気中にわずかに存在</li>
+                    <li>化合物を作る(フッ化キセノンなど)</li>
+                    <li>貴ガスの中で最も反応性が高い(Rnを除く)</li>
+                </ul>
+
+                <h4>化合物</h4>
+                <ul class="quiz-list">
+                    <li><strong>四フッ化キセノン XeF₄:</strong> 1962年に初めて合成された貴ガス化合物</li>
+                    <li><strong>六フッ化キセノン XeF₆:</strong> 強い酸化力</li>
+                    <li><strong>二フッ化キセノン XeF₂:</strong> 酸化剤</li>
+                    <li><strong>三酸化キセノン XeO₃:</strong> 爆発性</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li><strong>キセノンランプ:</strong> 自動車のヘッドライト、映写機</li>
+                    <li>麻酔薬(医療用)</li>
+                    <li>イオンエンジン(宇宙船の推進)</li>
+                    <li>プラズマディスプレイ</li>
+                </ul>
+
+                <h3>ラドン(Rn)</h3>
+                <h4>特徴</h4>
+                <ul>
+                    <li><strong>放射性元素:</strong> すべての同位体が放射性</li>
+                    <li>最も安定な同位体: ²²²Rn(半減期3.8日)</li>
+                    <li>ウラン・トリウムの崩壊系列で生成</li>
+                    <li>α線を放出</li>
+                </ul>
+
+                <h4>存在</h4>
+                <ul>
+                    <li>地殻中のウラン・トリウムの崩壊で生成</li>
+                    <li>地下から湧出</li>
+                    <li>温泉に含まれる(ラドン温泉)</li>
+                </ul>
+
+                <h4>健康への影響</h4>
+                <ul>
+                    <li>吸入すると肺がんのリスク増加</li>
+                    <li>建物内に蓄積する場合がある</li>
+                    <li>換気が重要</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>地震予知の研究(地震前にラドン濃度が変化)</li>
+                    <li>放射線治療(かつて使用)</li>
+                </ul>
+            </section>
+
+            <section id="compounds">
+                <h2>貴ガスの化合物</h2>
+
+                <h3>化合物形成の可能性</h3>
+                <ul>
+                    <li><strong>He, Ne, Ar:</strong> 化合物を作らない</li>
+                    <li><strong>Kr:</strong> ごくわずかな化合物(不安定)</li>
+                    <li><strong>Xe:</strong> フッ素や酸素と化合物を作る</li>
+                    <li><strong>Rn:</strong> 化合物の可能性(放射性のため研究困難)</li>
+                </ul>
+
+                <h3>キセノン化合物</h3>
+
+                <h4>1. フッ化キセノン</h4>
+                <ul class="quiz-list">
+                    <li>二フッ化キセノン: <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">Xe + F₂ → XeF₂</span></span></li>
+                    <li>四フッ化キセノン: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">Xe + 2F₂ → XeF₄</span></span></li>
+                    <li>六フッ化キセノン: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">Xe + 3F₂ → XeF₆</span></span></li>
+                </ul>
+                <p><strong>特徴:</strong></p>
+                <ul>
+                    <li>XeF₂: 直線型分子</li>
+                    <li>XeF₄: 平面正方形型分子</li>
+                    <li>XeF₆: 歪んだ八面体型</li>
+                    <li>すべて強い酸化剤</li>
+                </ul>
+
+                <h4>2. 酸化キセノン</h4>
+                <ul class="quiz-list">
+                    <li>三酸化キセノン: XeO₃(爆発性、強い酸化剤)</li>
+                    <li>四酸化キセノン: XeO₄(極めて不安定)</li>
+                </ul>
+
+                <h4>3. その他の化合物</h4>
+                <ul>
+                    <li>キセノン酸: H₂XeO₄、H₄XeO₆</li>
+                    <li>塩: Na₄XeO₆など</li>
+                </ul>
+
+                <h3>化合物形成の理由</h3>
+                <ul>
+                    <li>Xeは原子半径が大きい → イオン化エネルギーが比較的小さい</li>
+                    <li>Fは電気陰性度が最大 → Xeの電子を引きつける</li>
+                    <li>Xe原子のd軌道の利用(拡張オクテット)</li>
+                </ul>
+
+                <h3>歴史的意義</h3>
+                <ul>
+                    <li>1962年、Neil Bartlettが初の貴ガス化合物を合成</li>
+                    <li>PtF₆とXeの反応 → Xe⁺[PtF₆]⁻</li>
+                    <li>「貴ガスは絶対に化合物を作らない」という常識を覆した</li>
+                </ul>
+            </section>
+
+            <section id="uses">
+                <h2>貴ガスの用途まとめ</h2>
+
+                <h3>照明・ディスプレイ</h3>
+                <ul>
+                    <li><strong>ネオンサイン:</strong> Ne(赤橙色)</li>
+                    <li><strong>白熱電球:</strong> Ar(封入ガス)</li>
+                    <li><strong>クリプトン電球:</strong> Kr(高効率)</li>
+                    <li><strong>キセノンランプ:</strong> Xe(強い白色光)</li>
+                    <li><strong>蛍光灯:</strong> Ar + Hg蒸気</li>
+                </ul>
+
+                <h3>低温・冷却</h3>
+                <ul>
+                    <li><strong>液体ヘリウム:</strong> 超伝導磁石、MRI、低温実験</li>
+                    <li><strong>液体ネオン:</strong> 低温実験</li>
+                </ul>
+
+                <h3>不活性雰囲気</h3>
+                <ul>
+                    <li><strong>アルゴン:</strong> 溶接、金属精錬、半導体製造</li>
+                    <li><strong>ヘリウム:</strong> 溶接、アーク溶接</li>
+                </ul>
+
+                <h3>その他</h3>
+                <ul>
+                    <li><strong>気球・飛行船:</strong> He(軽くて不燃)</li>
+                    <li><strong>深海潜水:</strong> He(窒素酔い防止)</li>
+                    <li><strong>レーザー:</strong> He-Neレーザー、エキシマレーザー(Kr)</li>
+                    <li><strong>麻酔:</strong> Xe</li>
+                    <li><strong>宇宙推進:</strong> Xe(イオンエンジン)</li>
+                </ul>
+
+                <h3>製法</h3>
+                <ul>
+                    <li><strong>空気の分留:</strong> Ar, Ne, Kr, Xe</li>
+                    <li><strong>天然ガス:</strong> He(主要な供給源)</li>
+                    <li><strong>放射性崩壊:</strong> Rn</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>その他の重要事項</h2>
+
+                <h3>発見の歴史</h3>
+                <ul>
+                    <li>1868年: He(太陽のスペクトルで発見)</li>
+                    <li>1894年: Ar(William Ramsay)</li>
+                    <li>1898年: Ne, Kr, Xe(Ramsay)</li>
+                    <li>1900年: Rn(Dorn)</li>
+                    <li>周期表の新しい族(18族)の発見</li>
+                </ul>
+
+                <h3>オクテット則と貴ガス</h3>
+                <ul>
+                    <li>原子は最外殻に8個の電子を持つと安定(He以外)</li>
+                    <li>貴ガスの電子配置が最も安定</li>
+                    <li>他の原子はイオンや共有結合で貴ガス型電子配置を目指す</li>
+                    <li>例: Na → Na⁺(Ne型)、Cl → Cl⁻(Ar型)</li>
+                </ul>
+
+                <h3>声の変化</h3>
+                <ul>
+                    <li><strong>ヘリウムガス:</strong> 吸うと声が高くなる</li>
+                    <li>理由: Heは軽く、音速が速い</li>
+                    <li>※ 安全性: 純粋なHeは危険(酸欠)、必ず酸素を含むものを使用</li>
+                </ul>
+
+                <h3>環境中の貴ガス</h3>
+                <ul>
+                    <li><strong>大気組成:</strong> N₂(78%) > O₂(21%) > Ar(0.93%)</li>
+                    <li>Arは空気中で3番目に多い</li>
+                    <li>He, Ne, Kr, Xeは微量</li>
+                    <li>Rnは放射性崩壊で生成</li>
+                </ul>
+
+                <h3>同位体</h3>
+                <ul>
+                    <li><strong>³He:</strong> 核融合燃料として研究</li>
+                    <li><strong>⁴He:</strong> 通常のヘリウム</li>
+                    <li><strong>⁴⁰Ar:</strong> ⁴⁰Kの崩壊で生成、地質年代測定に利用</li>
+                    <li><strong>²²²Rn:</strong> 最も安定なラドン同位体</li>
+                </ul>
+
+                <h3>貴ガスの経済性</h3>
+                <ul>
+                    <li><strong>ヘリウム:</strong> 希少資源、枯渇の懸念</li>
+                    <li><strong>アルゴン:</strong> 豊富で比較的安価</li>
+                    <li><strong>その他:</strong> 希少で高価</li>
+                </ul>
+
+                <h3>貴ガスの名前の由来</h3>
+                <ul>
+                    <li><strong>He(ヘリウム):</strong> ギリシャ語「helios(太陽)」</li>
+                    <li><strong>Ne(ネオン):</strong> ギリシャ語「neos(新しい)」</li>
+                    <li><strong>Ar(アルゴン):</strong> ギリシャ語「argos(不活性)」</li>
+                    <li><strong>Kr(クリプトン):</strong> ギリシャ語「kryptos(隠れた)」</li>
+                    <li><strong>Xe(キセノン):</strong> ギリシャ語「xenos(見知らぬ)」</li>
+                    <li><strong>Rn(ラドン):</strong> ラジウム(radium)に由来</li>
+                </ul>
+
+                <h3>注意すべき性質</h3>
+                <ul>
+                    <li><strong>窒息の危険:</strong> 無色無臭で気づかない、換気が重要</li>
+                    <li><strong>高圧ガス:</strong> ボンベの取り扱いに注意</li>
+                    <li><strong>液化ガス:</strong> 極低温、凍傷の危険</li>
+                    <li><strong>ラドン:</strong> 放射性、健康被害の可能性</li>
+                </ul>
+            </section>
+   
+    </main>
+</div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
