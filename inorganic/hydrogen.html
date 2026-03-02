@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鉄(Fe)の化学的性質</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">元素別解説に戻る</a>
+    <main>
+            <h1>水素(H)の化学的性質</h1>
+
+            <section id="basics">
+                <h2>基本情報</h2>
+                <ul>
+                    <li><strong>元素記号:</strong> H</li>
+                    <li><strong>原子番号:</strong> 1</li>
+                    <li><strong>電子配置:</strong> 1s¹</li>
+                    <li><strong>酸化数:</strong> +1(H⁺)、-1(H⁻)、0(H₂)</li>
+                    <li><strong>常温での状態:</strong> 無色・無臭・無味の気体</li>
+                    <li><strong>分子式:</strong> H₂(二原子分子)</li>
+                    <li><strong>特徴:</strong> 宇宙で最も豊富な元素、最も軽い元素、非金属</li>
+                </ul>
+
+                <h3>水素の特性</h3>
+                <ul>
+                    <li><strong>密度:</strong> 0.0899 g/L(標準状態)、気体中で最も軽い</li>
+                    <li><strong>融点:</strong> -259℃</li>
+                    <li><strong>沸点:</strong> -253℃</li>
+                    <li><strong>溶解性:</strong> 水にわずかに溶ける</li>
+                    <li><strong>拡散速度:</strong> 非常に速い(最も軽いため)</li>
+                </ul>
+
+                <h3>周期表での位置</h3>
+                <ul>
+                    <li>1族1周期</li>
+                    <li>アルカリ金属の上に位置するが、性質は大きく異なる</li>
+                    <li>非金属元素</li>
+                    <li>最外殻電子1個(アルカリ金属と共通)</li>
+                </ul>
+            </section>
+
+            <section id="production">
+                <h2>水素の製法</h2>
+
+                <h3>1. 実験室での製法</h3>
+
+                <h4>金属と酸の反応(最も一般的)</h4>
+                <ul class="quiz-list">
+                    <li>亜鉛と希硫酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">Zn + H₂SO₄ → ZnSO₄ + H₂↑</span></span></li>
+                    <li>亜鉛と希塩酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">Zn + 2HCl → ZnCl₂ + H₂↑</span></span></li>
+                    <li>鉄と希硫酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">Fe + H₂SO₄ → FeSO₄ + H₂↑</span></span></li>
+                    <li>※ イオン化傾向が水素より大きい金属と希酸を反応させる</li>
+                </ul>
+
+                <h4>アルミニウムと水酸化ナトリウム</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">2Al + 2NaOH + 6H₂O → 2Na[Al(OH)₄] + 3H₂↑</span></span></li>
+                </ul>
+
+                <h4>水の電気分解</h4>
+                <ul class="quiz-list">
+                    <li>陰極: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">2H⁺ + 2e⁻ → H₂</span></span></li>
+                    <li>または: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">2H₂O + 2e⁻ → H₂ + 2OH⁻</span></span></li>
+                    <li>陽極: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">2H₂O → O₂ + 4H⁺ + 4e⁻</span></span></li>
+                    <li>全体: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">2H₂O → 2H₂ + O₂</span></span></li>
+                    <li>※ 電解質として希硫酸や水酸化ナトリウムを加える</li>
+                    <li>※ H₂:O₂ = 2:1(体積比)で発生</li>
+                </ul>
+
+                <h3>2. 工業的製法</h3>
+
+                <h4>水蒸気改質法(最も重要)</h4>
+                <p>天然ガス(メタン)から水素を製造する方法。</p>
+                <ul class="quiz-list">
+                    <li>メタンと水蒸気: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">CH₄ + H₂O → CO + 3H₂</span></span></li>
+                    <li>一酸化炭素と水蒸気: <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">CO + H₂O → CO₂ + H₂</span></span></li>
+                    <li>※ ニッケル触媒、高温(700~1000℃)</li>
+                </ul>
+
+                <h4>石油の分解</h4>
+                <ul>
+                    <li>石油精製の副産物として水素を得る</li>
+                </ul>
+
+                <h4>水の電気分解(工業的)</h4>
+                <ul>
+                    <li>純度の高い水素が得られる</li>
+                    <li>電力コストが高い</li>
+                </ul>
+
+                <h4>コークス炉ガス</h4>
+                <ul>
+                    <li>石炭の乾留で得られるガスから水素を分離</li>
+                </ul>
+
+                <h3>水素の精製</h3>
+                <ul>
+                    <li>硫酸銅(II)水溶液に通す(硫化水素を除去)</li>
+                    <li>加熱した酸化銅(II)に通す(不純物を酸化)</li>
+                    <li>塩化カルシウムや濃硫酸で乾燥</li>
+                </ul>
+            </section>
+
+            <section id="reactions">
+                <h2>水素の化学反応</h2>
+
+                <h3>1. 酸素との反応(燃焼)</h3>
+                <p>水素の最も重要な反応。</p>
+
+                <h4>通常の燃焼</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">2H₂ + O₂ → 2H₂O</span></span></li>
+                    <li>淡青色の炎を出して燃焼</li>
+                    <li>大きな熱を発生(発熱反応)</li>
+                </ul>
+
+                <h4>爆発</h4>
+                <ul>
+                    <li>水素と酸素の混合気体(2:1)に点火すると爆発的に反応</li>
+                    <li><strong>爆鳴気:</strong> H₂とO₂の混合気体</li>
+                    <li>爆発範囲: H₂が4~75%(体積比)で空気と混合すると爆発</li>
+                </ul>
+
+                <h4>検出反応</h4>
+                <ul>
+                    <li>試験管に集めた水素に火を近づける → 爆発音(ポンという音)</li>
+                    <li>水素の存在を確認する方法</li>
+                </ul>
+
+                <h3>2. ハロゲンとの反応</h3>
+
+                <h4>塩素との反応</h4>
+                <ul class="quiz-list">
+                    <li>直接反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">H₂ + Cl₂ → 2HCl</span></span></li>
+                    <li>光により爆発的に反応(光化学反応)</li>
+                </ul>
+
+                <h4>その他のハロゲン</h4>
+                <ul class="quiz-list">
+                    <li>臭素: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">H₂ + Br₂ → 2HBr</span></span></li>
+                    <li>ヨウ素: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">H₂ + I₂ ⇌ 2HI</span></span> (可逆反応)</li>
+                </ul>
+
+                <h3>3. 窒素との反応</h3>
+                <p>ハーバー・ボッシュ法によるアンモニアの合成。</p>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">N₂ + 3H₂ ⇌ 2NH₃</span></span></li>
+                    <li>※ 鉄触媒、高温(400~600℃)、高圧(200~1000気圧)</li>
+                    <li>可逆反応、発熱反応</li>
+                </ul>
+
+                <h3>4. 金属酸化物の還元(重要)</h3>
+                <p>水素は還元剤として働く。</p>
+
+                <h4>酸化銅(II)の還元</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">CuO + H₂ → Cu + H₂O</span></span></li>
+                    <li>黒色のCuOが赤色のCuに変化</li>
+                </ul>
+
+                <h4>酸化鉄(III)の還元</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">Fe₂O₃ + 3H₂ → 2Fe + 3H₂O</span></span></li>
+                </ul>
+
+                <h4>酸化タングステン(VI)の還元</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">WO₃ + 3H₂ → W + 3H₂O</span></span></li>
+                    <li>タングステンの製造</li>
+                </ul>
+
+                <h3>5. 不飽和炭化水素への付加</h3>
+
+                <h4>エチレンへの付加</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">C₂H₄ + H₂ → C₂H₆</span></span></li>
+                    <li>※ ニッケル触媒、加熱</li>
+                </ul>
+
+                <h4>油脂の硬化</h4>
+                <ul class="quiz-list">
+                    <li>不飽和脂肪酸 + H₂ → 飽和脂肪酸</li>
+                    <li>液体の油が固体の脂肪に変化</li>
+                    <li>マーガリンの製造</li>
+                </ul>
+
+                <h3>6. 一酸化炭素との反応</h3>
+
+                <h4>メタノールの合成</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">CO + 2H₂ → CH₃OH</span></span></li>
+                    <li>※ 銅-亜鉛触媒、高温高圧</li>
+                </ul>
+
+                <h3>7. 塩素との置換反応</h3>
+                <ul class="quiz-list">
+                    <li>過酸化水素の漂白作用の還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">H₂O₂ + H₂ → 2H₂O</span></span></li>
+                </ul>
+            </section>
+
+            <section id="compounds">
+                <h2>水素の化合物</h2>
+
+                <h3>1. 水 H₂O(最重要)</h3>
+                <ul>
+                    <li><strong>構造:</strong> 折れ線型(結合角104.5°)</li>
+                    <li><strong>極性:</strong> 極性分子</li>
+                    <li><strong>水素結合:</strong> 分子間に強い水素結合</li>
+                    <li><strong>異常な性質:</strong> 沸点が高い、密度の異常(4℃で最大)</li>
+                </ul>
+
+                <h4>水の電離</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">H₂O ⇌ H⁺ + OH⁻</span></span></li>
+                    <li>または: <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">2H₂O ⇌ H₃O⁺ + OH⁻</span></span></li>
+                    <li>イオン積: [H⁺][OH⁻] = 1.0×10⁻¹⁴ (25℃)</li>
+                </ul>
+
+                <h3>2. 過酸化水素 H₂O₂</h3>
+                <ul>
+                    <li><strong>構造:</strong> 折れ線型(非平面)</li>
+                    <li><strong>酸化数:</strong> -1</li>
+                    <li><strong>性質:</strong> 無色の液体、不安定</li>
+                </ul>
+
+                <h4>分解</h4>
+                <ul class="quiz-list">
+                    <li><span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">2H₂O₂ → 2H₂O + O₂↑</span></span></li>
+                    <li>※ MnO₂触媒で分解が促進</li>
+                </ul>
+
+                <h4>酸化剤としての反応</h4>
+                <ul class="quiz-list">
+                    <li>ヨウ化カリウムの酸化: <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">H₂O₂ + 2I⁻ + 2H⁺ → I₂ + 2H₂O</span></span></li>
+                    <li>硫化水素の酸化: <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">H₂O₂ + H₂S → S↓ + 2H₂O</span></span></li>
+                </ul>
+
+                <h4>還元剤としての反応</h4>
+                <ul class="quiz-list">
+                    <li>過マンガン酸カリウムの還元(酸性): <span class="blank-container" onclick="reveal(this)"><span class="number">(27)</span> <span class="blank">2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂↑ + 8H₂O</span></span></li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>漂白剤(紙、繊維)</li>
+                    <li>消毒剤(オキシドール)</li>
+                    <li>ロケット燃料の酸化剤</li>
+                </ul>
+
+                <h3>3. 水素化物</h3>
+
+                <h4>イオン性水素化物</h4>
+                <p>活性な金属(アルカリ金属、アルカリ土類金属)との化合物。</p>
+                <ul class="quiz-list">
+                    <li>水素化ナトリウム: <span class="blank-container" onclick="reveal(this)"><span class="number">(28)</span> <span class="blank">2Na + H₂ → 2NaH</span></span></li>
+                    <li>H⁻(ヒドリドイオン)を含む</li>
+                    <li>強い還元剤</li>
+                </ul>
+
+                <h4>共有結合性水素化物</h4>
+                <ul>
+                    <li><strong>アンモニア NH₃:</strong> 塩基性</li>
+                    <li><strong>メタン CH₄:</strong> 中性</li>
+                    <li><strong>塩化水素 HCl:</strong> 酸性</li>
+                    <li><strong>硫化水素 H₂S:</strong> 弱酸性</li>
+                </ul>
+
+                <h3>4. 酸と塩基</h3>
+
+                <h4>酸(アレニウスの定義)</h4>
+                <ul>
+                    <li>水溶液中でH⁺(H₃O⁺)を生じる物質</li>
+                    <li>例: HCl, H₂SO₄, HNO₃, CH₃COOH</li>
+                </ul>
+
+                <h4>塩基(アレニウスの定義)</h4>
+                <ul>
+                    <li>水溶液中でOH⁻を生じる物質</li>
+                    <li>例: NaOH, KOH, Ca(OH)₂, NH₃(弱塩基)</li>
+                </ul>
+
+                <h4>ブレンステッド・ローリーの定義</h4>
+                <ul>
+                    <li><strong>酸:</strong> H⁺(プロトン)を与える物質</li>
+                    <li><strong>塩基:</strong> H⁺(プロトン)を受け取る物質</li>
+                </ul>
+            </section>
+
+            <section id="isotopes">
+                <h2>水素の同位体</h2>
+
+                <h3>1. 軽水素(プロチウム)¹H</h3>
+                <ul>
+                    <li><strong>陽子:</strong> 1個</li>
+                    <li><strong>中性子:</strong> 0個</li>
+                    <li><strong>存在比:</strong> 99.985%</li>
+                    <li>通常の水素</li>
+                </ul>
+
+                <h3>2. 重水素(デューテリウム)²H または D</h3>
+                <ul>
+                    <li><strong>陽子:</strong> 1個</li>
+                    <li><strong>中性子:</strong> 1個</li>
+                    <li><strong>存在比:</strong> 0.015%</li>
+                    <li><strong>記号:</strong> D</li>
+                </ul>
+
+                <h4>重水 D₂O</h4>
+                <ul>
+                    <li>普通の水より約10%重い</li>
+                    <li>原子炉の減速材として使用</li>
+                    <li>化学反応が通常の水よりわずかに遅い</li>
+                </ul>
+
+                <h3>3. 三重水素(トリチウム)³H または T</h3>
+                <ul>
+                    <li><strong>陽子:</strong> 1個</li>
+                    <li><strong>中性子:</strong> 2個</li>
+                    <li><strong>存在比:</strong> 極微量</li>
+                    <li><strong>放射性:</strong> β崩壊(半減期12.3年)</li>
+                    <li><strong>記号:</strong> T</li>
+                </ul>
+
+                <h4>用途</h4>
+                <ul>
+                    <li>核融合反応の燃料</li>
+                    <li>トレーサー(追跡子)</li>
+                </ul>
+
+                <h3>核融合反応</h3>
+                <ul class="quiz-list">
+                    <li>重水素と三重水素の核融合: <span class="blank-container" onclick="reveal(this)"><span class="number">(29)</span> <span class="blank">²H + ³H → ⁴He + n + エネルギー</span></span></li>
+                    <li>太陽のエネルギー源</li>
+                    <li>将来のクリーンエネルギー源として研究</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>その他の重要事項</h2>
+
+                <h3>水素の用途</h3>
+                <ul>
+                    <li><strong>アンモニア合成:</strong> ハーバー・ボッシュ法(最大の用途)</li>
+                    <li><strong>メタノール合成:</strong> 化学工業原料</li>
+                    <li><strong>石油精製:</strong> 水素化脱硫、水素化分解</li>
+                    <li><strong>油脂の硬化:</strong> マーガリン製造</li>
+                    <li><strong>金属の還元:</strong> 金属製造</li>
+                    <li><strong>燃料:</strong> ロケット燃料、燃料電池</li>
+                    <li><strong>気球:</strong> かつて使用(現在はヘリウム)</li>
+                </ul>
+
+                <h3>燃料電池</h3>
+                <p>水素と酸素から電気エネルギーを取り出す装置。</p>
+                <ul class="quiz-list">
+                    <li>負極: <span class="blank-container" onclick="reveal(this)"><span class="number">(30)</span> <span class="blank">H₂ + 2OH⁻ → 2H₂O + 2e⁻</span></span></li>
+                    <li>正極: <span class="blank-container" onclick="reveal(this)"><span class="number">(31)</span> <span class="blank">O₂ + 2H₂O + 4e⁻ → 4OH⁻</span></span></li>
+                    <li>全体: <span class="blank-container" onclick="reveal(this)"><span class="number">(32)</span> <span class="blank">2H₂ + O₂ → 2H₂O</span></span></li>
+                </ul>
+                <ul>
+                    <li>クリーンなエネルギー(生成物は水のみ)</li>
+                    <li>燃料電池自動車に応用</li>
+                </ul>
+
+                <h3>水素社会</h3>
+                <ul>
+                    <li>水素をエネルギー源とする社会の構想</li>
+                    <li>クリーンエネルギー(燃焼生成物は水のみ)</li>
+                    <li>課題: 製造、貯蔵、輸送</li>
+                </ul>
+
+                <h3>水素結合</h3>
+                <ul>
+                    <li>H原子が電気陰性度の大きい原子(F, O, N)と結合している場合に生じる</li>
+                    <li>分子間力の一種(通常の分子間力より強い)</li>
+                    <li>水の異常な性質の原因</li>
+                    <li>生体分子(DNA、タンパク質)の構造維持に重要</li>
+                </ul>
+
+                <h3>イオン化傾向と水素</h3>
+                <p>K > Ca > Na > Mg > Al > Zn > Cr > Fe > Ni > Sn > Pb > <strong>(H₂)</strong> > Cu > Hg > Ag > Pt > Au</p>
+                <ul>
+                    <li>イオン化傾向が水素より大きい金属: 希酸と反応してH₂発生</li>
+                    <li>イオン化傾向が水素より小さい金属: 希酸とは反応しない</li>
+                </ul>
+
+                <h3>水素イオン濃度とpH</h3>
+                <ul>
+                    <li><strong>pH:</strong> -log₁₀[H⁺]</li>
+                    <li><strong>中性:</strong> pH = 7([H⁺] = [OH⁻] = 1.0×10⁻⁷ mol/L)</li>
+                    <li><strong>酸性:</strong> pH < 7([H⁺] > [OH⁻])</li>
+                    <li><strong>塩基性:</strong> pH > 7([H⁺] < [OH⁻])</li>
+                </ul>
+
+                <h3>水素の安全性</h3>
+                <ul>
+                    <li><strong>爆発性:</strong> 空気と混合すると爆発(4~75%)</li>
+                    <li><strong>軽い:</strong> 漏れると上方に拡散</li>
+                    <li><strong>無色無臭:</strong> 漏れを検知しにくい</li>
+                    <li><strong>取り扱い:</strong> 火気厳禁、換気</li>
+                </ul>
+
+                <h3>環境と水素</h3>
+                <ul>
+                    <li>燃焼生成物は水のみ(CO₂を発生しない)</li>
+                    <li>クリーンエネルギーとして注目</li>
+                    <li>再生可能エネルギーからの製造が課題</li>
+                </ul>
+            </section>
+   
+    </main>
+</div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
