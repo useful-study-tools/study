@@ -723,6 +723,425 @@
         {"word": "pleasant", "trans": "心地よい"}
       ],
       "related": []
+    },
+    {
+      "number": 435,
+      "word": "overconfident",
+      "pos": "形容詞",
+      "meaning": "自信過剰な、うぬぼれた",
+      "nuance": "自分の能力を実際よりも高く評価しすぎている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The team lost the game because they were overconfident.",
+              "ja": "そのチームは自信過剰だったために試合に負けた。",
+              "highlight": "overconfident"
+            },
+            {
+              "en": "Don't get overconfident just because you won the first round.",
+              "ja": "第1ラウンドに勝ったからといって、うぬぼれてはいけない。",
+              "highlight": "overconfident"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（過剰に）+ confident（自信がある）",
+      "synonyms": [
+        {"word": "cocky", "trans": "気取った、うぬぼれた"},
+        {"word": "arrogant", "trans": "傲慢な"},
+        {"word": "conceited", "trans": "うぬぼれ強い"}
+      ],
+      "antonyms": [
+        {"word": "humble", "trans": "謙虚な"},
+        {"word": "modest", "trans": "控えめな"},
+        {"word": "insecure", "trans": "自信のない"}
+      ],
+      "related": [
+        {"word": "confidence", "trans": "名詞：自信、信頼"}
+      ]
+    },
+    {
+      "number": "435-2",
+      "word": "overconfidence",
+      "pos": "名詞",
+      "meaning": "過信、自信過剰",
+      "nuance": "過度の自信が失敗を招く文脈でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His downfall was caused by sheer overconfidence.",
+              "ja": "彼の没落は、全くの過信が原因だった。",
+              "highlight": "overconfidence"
+            }
+          ]
+        }
+      ],
+      "etymology": "overconfident の名詞形",
+      "synonyms": [
+        {"word": "hubris", "trans": "（破滅を招くような）傲慢"},
+        {"word": "presumption", "trans": "うぬぼれ、推測"}
+      ],
+      "antonyms": [
+        {"word": "modesty", "trans": "謙虚"},
+        {"word": "diffidence", "trans": "気後れ、自信のなさ"}
+      ],
+      "related": []
+    },
+    {
+      "number": 436,
+      "word": "overflow",
+      "pos": "動詞、名詞",
+      "meaning": "（水などが）あふれる、〜に満ちあふれる、氾濫、あふれ出たもの",
+      "nuance": "容器や川から液体が外へ出る様子。比喩的に感情があふれる際にも使います。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The river overflowed its banks after the heavy rain.",
+              "ja": "大雨の後、川は堤防からあふれ出した。",
+              "highlight": "overflowed"
+            },
+            {
+              "en": "She was overflowing with happiness.",
+              "ja": "彼女は幸せで胸がいっぱい（あふれんばかり）だった。",
+              "highlight": "overflowing"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The hotel set up extra beds to handle the overflow of guests.",
+              "ja": "ホテルは収容しきれなかった（あふれた）客に対応するため、エキストラベッドを用意した。",
+              "highlight": "overflow"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（上を超えて）+ flow（流れる）",
+      "synonyms": [
+        {"word": "spill over", "trans": "こぼれ落ちる"},
+        {"word": "flood", "trans": "氾濫する"},
+        {"word": "brim", "trans": "縁まで満ちる"}
+      ],
+      "antonyms": [
+        {"word": "drain", "trans": "排出する"},
+        {"word": "dry up", "trans": "干上がる"}
+      ],
+      "related": []
+    },
+    {
+      "number": 437,
+      "word": "overlap",
+      "pos": "動詞、名詞",
+      "meaning": "重なり合う、重複する、共通点がある、重複部分",
+      "nuance": "物理的に重なること（瓦など）や、時間・内容が重なることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Our vacations overlap by two days.",
+              "ja": "私たちの休暇は2日間重なっている。",
+              "highlight": "overlap"
+            },
+            {
+              "en": "The duties of the two departments overlap in some areas.",
+              "ja": "その二つの部署の職務は、いくつかの分野で重複している。",
+              "highlight": "overlap"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（上に）+ lap（重ねる、包む）",
+      "synonyms": [
+        {"word": "intersect", "trans": "交差する"},
+        {"word": "coincide", "trans": "同時に起こる"},
+        {"word": "duplicate", "trans": "二重にする"}
+      ],
+      "antonyms": [
+        {"word": "separate", "trans": "分離する"},
+        {"word": "differ", "trans": "異なる"}
+      ],
+      "related": []
+    },
+    {
+      "number": 438,
+      "word": "overstate",
+      "pos": "動詞",
+      "meaning": "〜を大げさに言う、誇張する",
+      "nuance": "事実を実際よりも重要、あるいは大きく語ることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The importance of this discovery cannot be overstated.",
+              "ja": "この発見の重要性は、いくら強調してもしすぎる（大げさに言う）ことはない。",
+              "highlight": "overstated"
+            },
+            {
+              "en": "He tends to overstate his own accomplishments.",
+              "ja": "彼は自分の業績を誇張する傾向がある。",
+              "highlight": "overstate"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（超えて）+ state（述べる）",
+      "synonyms": [
+        {"word": "exaggerate", "trans": "誇張する"},
+        {"word": "magnify", "trans": "拡大して見せる"},
+        {"word": "hype", "trans": "大げさに宣伝する"}
+      ],
+      "antonyms": [
+        {"word": "understate", "trans": "控えめに言う"},
+        {"word": "minimize", "trans": "最小限に評価する"},
+        {"word": "play down", "trans": "軽視する"}
+      ],
+      "related": [
+        {"word": "overstatement", "trans": "名詞：誇張表現"}
+      ]
+    },
+    {
+      "number": 439,
+      "word": "overtake",
+      "pos": "動詞",
+      "meaning": "〜を追い越す、〜を上回る、（不幸などが）不意に襲う",
+      "nuance": "車が前の車を抜く物理的な動作や、統計などで他を抜くこと、また災難が降りかかる様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He accelerated to overtake the slow-moving truck.",
+              "ja": "彼は加速して、ゆっくり走るトラックを追い越した。",
+              "highlight": "overtake"
+            },
+            {
+              "en": "The climbers were overtaken by a sudden snowstorm.",
+              "ja": "登山者たちは突然の吹雪に見舞われた（不意に襲われた）。",
+              "highlight": "overtaken"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（超えて）+ take（取る、つかまえる）",
+      "synonyms": [
+        {"word": "surpass", "trans": "上回る"},
+        {"word": "outstrip", "trans": "追い越す"},
+        {"word": "pass", "trans": "通り過ぎる"}
+      ],
+      "antonyms": [
+        {"word": "fall behind", "trans": "遅れをとる"},
+        {"word": "lag", "trans": "停滞する"}
+      ],
+      "related": []
+    },
+    {
+      "number": 440,
+      "word": "overthrow",
+      "pos": "動詞、名詞",
+      "meaning": "（政府・体制などを）打倒する、転覆させる、打倒、転覆",
+      "nuance": "力ずくで権力の座から引きずり下ろすという、政治的・歴史的な文脈で多用されます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The rebels plotted to overthrow the military government.",
+              "ja": "反乱軍は軍事政権を打倒しようと計画した。",
+              "highlight": "overthrow"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（向こう側へ）+ throw（投げる）→ 投げ飛ばす",
+      "synonyms": [
+        {"word": "topple", "trans": "倒す"},
+        {"word": "oust", "trans": "追放する"},
+        {"word": "subvert", "trans": "転覆させる"}
+      ],
+      "antonyms": [
+        {"word": "establish", "trans": "設立する"},
+        {"word": "uphold", "trans": "支持する、維持する"},
+        {"word": "restore", "trans": "復元する"}
+      ],
+      "related": []
+    },
+    {
+      "number": "440-2",
+      "word": "overburden",
+      "pos": "動詞",
+      "meaning": "〜に重すぎる荷を負わせる、〜に過度の負担をかける",
+      "nuance": "物理的な荷物だけでなく、仕事量や精神的なプレッシャーに対しても使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The staff are overburdened with paperwork.",
+              "ja": "スタッフは事務作業の過重な負担に苦しんでいる。",
+              "highlight": "overburdened"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（過剰に）+ burden（負担、重荷）",
+      "synonyms": [
+        {"word": "overtax", "trans": "重い負荷をかける"},
+        {"word": "overload", "trans": "詰め込みすぎる"},
+        {"word": "strain", "trans": "酷使する"}
+      ],
+      "antonyms": [
+        {"word": "relieve", "trans": "和らげる"},
+        {"word": "ease", "trans": "楽にする"}
+      ],
+      "related": [
+        {"word": "burden", "trans": "名詞：重荷"}
+      ]
+    },
+    {
+      "number": "440-3",
+      "word": "overcast",
+      "pos": "形容詞、名詞",
+      "meaning": "一面に曇った、どんよりした、曇り",
+      "nuance": "空が雲で完全に覆われている天気を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The sky was overcast, and it looked like rain.",
+              "ja": "空はどんよりと曇り、雨が降りそうだった。",
+              "highlight": "overcast"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（上に）+ cast（投げる、広げる）→ 上に広げられたもの（雲）",
+      "synonyms": [
+        {"word": "cloudy", "trans": "曇った"},
+        {"word": "gloomy", "trans": "薄暗い、陰気な"},
+        {"word": "leaden", "trans": "鉛色の（重苦しい）"}
+      ],
+      "antonyms": [
+        {"word": "clear", "trans": "晴れた"},
+        {"word": "sunny", "trans": "日の当たる"},
+        {"word": "bright", "trans": "明るい"}
+      ],
+      "related": []
+    },
+    {
+      "number": "440-4",
+      "word": "overestimate",
+      "pos": "動詞、名詞",
+      "meaning": "〜を過大評価する、高く見積もりすぎる、過大評価",
+      "nuance": "数、価値、重要性を実際よりも高く見積もること。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Never overestimate your opponent's weakness.",
+              "ja": "相手の弱さを決して過大評価してはいけない。",
+              "highlight": "overestimate"
+            },
+            {
+              "en": "The cost of the project was overestimated by millions.",
+              "ja": "そのプロジェクトの費用は数百万ドルも高く見積もられていた。",
+              "highlight": "overestimated"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（過剰に）+ estimate（見積もる）",
+      "synonyms": [
+        {"word": "overrate", "trans": "高く評価しすぎる"},
+        {"word": "overvalue", "trans": "過大評価する"}
+      ],
+      "antonyms": [
+        {"word": "underestimate", "trans": "過小評価する"},
+        {"word": "underrate", "trans": "低く見積もる"}
+      ],
+      "related": [
+        {"word": "estimation", "trans": "名詞：見積もり、評価"}
+      ]
+    },
+    {
+      "number": "440-5",
+      "word": "overhear",
+      "pos": "動詞",
+      "meaning": "〜をふと耳にする、立ち聞きする",
+      "nuance": "意図せず聞こえてしまう場合と、こっそり聞く場合の両方に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I overheard them discussing the secret plan.",
+              "ja": "彼らが秘密の計画を話しているのを、ふと耳にした。",
+              "highlight": "overheard"
+            },
+            {
+              "en": "She managed to overhear the conversation through the thin wall.",
+              "ja": "彼女は薄い壁越しにその会話を立ち聞きすることができた。",
+              "highlight": "overhear"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（上から、越えて）+ hear（聞く）→ 境界を越えて聞こえる",
+      "synonyms": [
+        {"word": "eavesdrop", "trans": "（意図的に）立ち聞きする"},
+        {"word": "catch", "trans": "聞き取る"}
+      ],
+      "antonyms": [
+        {"word": "ignore", "trans": "無視する"},
+        {"word": "mishear", "trans": "聞き間違える"}
+      ],
+      "related": []
+    },
+    {
+      "number": "440-6",
+      "word": "overturn",
+      "pos": "動詞、名詞",
+      "meaning": "〜をひっくり返す、〜を覆す（判決など）、横転",
+      "nuance": "物理的なものを裏返すことと、法律上の判決や決定を無効にすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The car hit a tree and overturned.",
+              "ja": "車は木に衝突して横転した（ひっくり返った）。",
+              "highlight": "overturned"
+            },
+            {
+              "en": "The Supreme Court may overturn the previous ruling.",
+              "ja": "最高裁判所は以前の判決を覆すかもしれない。",
+              "highlight": "overturn"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（ひっくり返して）+ turn（回す）",
+      "synonyms": [
+        {"word": "capsize", "trans": "（船が）転覆する"},
+        {"word": "reverse", "trans": "逆転させる"},
+        {"word": "invalidate", "trans": "無効にする"}
+      ],
+      "antonyms": [
+        {"word": "uphold", "trans": "支持する、維持する"},
+        {"word": "confirm", "trans": "確認する、承認する"}
+      ],
+      "related": []
     }
   ]
 }
