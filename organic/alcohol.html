@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アルコール｜高校化学の有機化学</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">有機化学トップへ</a>
+    
+    <div class="nav-links">
+        <span style="color: #6c757d;">← 前のページ</span>
+        <span style="color: #6c757d;">次のページ エーテル →</span>
+    </div>
+    
+    <main>
+        <h1>アルコール</h1>
+        
+        <section id="introduction">
+            <h2>1. アルコールとは</h2>
+            <p>アルコールは、炭化水素基にヒドロキシ基(-OH)が直接結合した化合物の総称である。一般式は R-OH で表され、Rはアルキル基または置換アルキル基を示す。</p>
+            <ul>
+                <li><strong>官能基:</strong> ヒドロキシ基 (-OH)</li>
+                <li><strong>特徴:</strong> 極性分子であり、分子間で水素結合を形成するため、同程度の分子量の炭化水素と比べて沸点が著しく高い。</li>
+                <li><strong>命名法:</strong> 対応する炭化水素の語尾の「e」を「ol」に変える。例：メタン→メタノール、エタン→エタノール</li>
+            </ul>
+        </section>
+
+        <section id="classification">
+            <h2>2. アルコールの分類</h2>
+            
+            <h3>2.1 ヒドロキシ基の数による分類</h3>
+            <ul>
+                <li><strong>1価アルコール:</strong> ヒドロキシ基を1つ含む (例: メタノール CH₃OH、エタノール C₂H₅OH)</li>
+                <li><strong>2価アルコール:</strong> ヒドロキシ基を2つ含む (例: エチレングリコール HOCH₂CH₂OH)</li>
+                <li><strong>3価アルコール:</strong> ヒドロキシ基を3つ含む (例: グリセリン C₃H₅(OH)₃)</li>
+            </ul>
+            
+            <h3>2.2 ヒドロキシ基の結合する炭素の種類による分類</h3>
+            <ul>
+                <li><strong>第一級アルコール(1°):</strong> -OH基が結合している炭素に、アルキル基が1つ結合している (R-CH₂OH)
+                    <br>例: エタノール、1-プロパノール</li>
+                <li><strong>第二級アルコール(2°):</strong> -OH基が結合している炭素に、アルキル基が2つ結合している (R¹R²CH-OH)
+                    <br>例: 2-プロパノール(イソプロピルアルコール)</li>
+                <li><strong>第三級アルコール(3°):</strong> -OH基が結合している炭素に、アルキル基が3つ結合している (R¹R²R³C-OH)
+                    <br>例: 2-メチル-2-プロパノール(tert-ブチルアルコール)</li>
+            </ul>
+            <p>※この分類は酸化反応や脱水反応の反応性に大きく影響する。</p>
+        </section>
+
+        <section id="physical-properties">
+            <h2>3. 物理的性質</h2>
+            
+            <h3>3.1 沸点</h3>
+            <ul>
+                <li>アルコールは分子間で水素結合を形成するため、同じ分子量の炭化水素やエーテルよりも沸点が高い。</li>
+                <li>例: エタノール(C₂H₅OH) 沸点78.3℃、ジメチルエーテル(CH₃OCH₃) 沸点-24.8℃</li>
+                <li>分子量が大きくなるほど沸点は上昇するが、水素結合の効果は相対的に小さくなる。</li>
+            </ul>
+            
+            <h3>3.2 溶解度</h3>
+            <ul>
+                <li>低級アルコール(メタノール、エタノール、プロパノール)は水と任意の割合で混ざる。</li>
+                <li>炭素数が増えると疎水性部分(アルキル基)が大きくなり、水への溶解度は低下する。</li>
+                <li>ブタノール(C₄)以上になると水に溶けにくくなる。</li>
+            </ul>
+            
+            <h3>3.3 水素結合の影響</h3>
+            <ul>
+                <li>アルコール分子は、-OH基の水素原子と酸素原子の間で分子間水素結合を形成する。</li>
+                <li>このため、アルコールは比較的高い沸点と融点を示す。</li>
+                <li>また、水とも水素結合を形成できるため、低級アルコールは水に溶けやすい。</li>
+            </ul>
+        </section>
+
+        <section id="preparation">
+            <h2>4. アルコールの製法</h2>
+            
+            <h3>4.1 発酵法</h3>
+            <ul class="quiz-list">
+                <li>糖類(グルコース)を酵母により発酵させてエタノールを生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂</span></span></li>
+            </ul>
+            
+            <h3>4.2 アルケンへの水和</h3>
+            <ul class="quiz-list">
+                <li>エチレンに水を付加するとエタノールが得られる。酸触媒(リン酸など)を用いる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">CH₂=CH₂ + H₂O → C₂H₅OH</span></span></li>
+            </ul>
+            
+            <h3>4.3 ハロゲン化アルキルの加水分解</h3>
+            <ul class="quiz-list">
+                <li>ハロゲン化アルキルを水酸化ナトリウム水溶液などと反応させる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">R-X + NaOH → R-OH + NaX</span></span></li>
+            </ul>
+            
+            <h3>4.4 カルボニル化合物の還元</h3>
+            <ul class="quiz-list">
+                <li>アルデヒドを還元すると第一級アルコール、ケトンを還元すると第二級アルコールが得られる。</li>
+                <li>還元剤: 水素化ホウ素ナトリウム(NaBH₄)や水素化アルミニウムリチウム(LiAlH₄)</li>
+                <li>アルデヒドの還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">R-CHO + 2[H] → R-CH₂OH</span></span></li>
+                <li>ケトンの還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">R¹-CO-R² + 2[H] → R¹-CH(OH)-R²</span></span></li>
+            </ul>
+            
+            <h3>4.5 グリニャール反応</h3>
+            <ul class="quiz-list">
+                <li>グリニャール試薬(RMgBr)とカルボニル化合物の反応でアルコールを合成する。</li>
+                <li>ホルムアルデヒド → 第一級アルコール: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">RMgBr + HCHO → R-CH₂OH</span></span></li>
+                <li>他のアルデヒド → 第二級アルコール: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">RMgBr + R'-CHO → R'-CH(OH)-R</span></span></li>
+                <li>ケトン → 第三級アルコール: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">RMgBr + R¹-CO-R² → R¹R²C(OH)R</span></span></li>
+            </ul>
+        </section>
+
+        <section id="reactions">
+            <h2>5. アルコールの化学反応</h2>
+            
+            <h3>5.1 O-H結合の反応 (酸としての性質)</h3>
+            <ul class="quiz-list">
+                <li>アルカリ金属との反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">2ROH + 2Na → 2RONa + H₂↑</span></span> (アルコキシド生成)</li>
+                <li>例(エタノール): <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂↑</span></span></li>
+                <li>アルコールの酸性度: 水と同程度(pKa約15-18)で、カルボン酸より弱い酸。</li>
+            </ul>
+            
+            <h3>5.2 塩基としての性質</h3>
+            <ul class="quiz-list">
+                <li>強酸と反応してオキソニウムイオンを形成: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">ROH + H⁺ ⇄ ROH₂⁺</span></span></li>
+            </ul>
+            
+            <h3>5.3 エステル化反応</h3>
+            <ul class="quiz-list">
+                <li>カルボン酸と酸触媒下で反応しエステルを生成(フィッシャーエステル化反応)。</li>
+                <li>一般式: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">RCOOH + R'OH ⇄ RCOOR' + H₂O</span></span></li>
+                <li>例(酢酸エチル): <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O</span></span></li>
+            </ul>
+            
+            <h3>5.4 無機酸エステルの生成</h3>
+            <ul class="quiz-list">
+                <li>硫酸エステル: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">ROH + H₂SO₄ → ROSO₃H + H₂O</span></span> (硫酸水素アルキル)</li>
+                <li>硝酸エステル(ニトログリセリン): <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">C₃H₅(OH)₃ + 3HNO₃ → C₃H₅(ONO₂)₃ + 3H₂O</span></span></li>
+            </ul>
+            
+            <h3>5.5 ハロゲン化水素との反応</h3>
+            <ul class="quiz-list">
+                <li>ハロゲン化アルキルの生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">ROH + HX → RX + H₂O</span></span></li>
+                <li>反応速度: 第三級 > 第二級 > 第一級アルコール</li>
+                <li>ルーカス試薬(濃塩酸 + ZnCl₂): 第三級アルコールは室温で瞬時に白濁、第二級は数分で白濁、第一級はほとんど反応しない。</li>
+            </ul>
+            
+            <h3>5.6 脱水反応</h3>
+            <ul class="quiz-list">
+                <li><strong>分子内脱水(アルケン生成):</strong> 濃硫酸と加熱(170℃程度)</li>
+                <li>エタノールの場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">C₂H₅OH → CH₂=CH₂ + H₂O</span></span></li>
+                <li>反応性: 第三級 > 第二級 > 第一級アルコール(ザイツェフ則に従う)</li>
+                <li><strong>分子間脱水(エーテル生成):</strong> 濃硫酸とやや低温(130℃程度)</li>
+                <li>エタノールの場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">2C₂H₅OH → C₂H₅OC₂H₅ + H₂O</span></span></li>
+            </ul>
+            
+            <h3>5.7 酸化反応</h3>
+            <p>酸化剤: 二クロム酸カリウム(K₂Cr₂O₇) / H⁺、過マンガン酸カリウム(KMnO₄)など</p>
+            <ul class="quiz-list">
+                <li><strong>第一級アルコール:</strong> アルデヒド → カルボン酸</li>
+                <li>エタノールの酸化: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">CH₃CH₂OH + [O] → CH₃CHO + H₂O</span></span></li>
+                <li>さらに酸化: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">CH₃CHO + [O] → CH₃COOH</span></span></li>
+                <li><strong>第二級アルコール:</strong> ケトン(それ以上酸化されにくい)</li>
+                <li>2-プロパノールの酸化: <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">CH₃CH(OH)CH₃ + [O] → CH₃COCH₃ + H₂O</span></span></li>
+                <li><strong>第三級アルコール:</strong> 通常の酸化剤では酸化されにくい(強力な条件でC-C開裂)</li>
+            </ul>
+            
+            <h3>5.8 ヨードホルム反応</h3>
+            <ul class="quiz-list">
+                <li>アセトアルデヒドやメチルケトン、または酸化されてこれらになるアルコール(エタノール、イソプロピルアルコールなど)の検出反応。</li>
+                <li>エタノールの場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">C₂H₅OH + 4I₂ + 6NaOH → CHI₃↓ + HCOONa + 5NaI + 5H₂O</span></span></li>
+                <li>ヨードホルム(CHI₃)は特異な臭いのある黄色沈殿。</li>
+            </ul>
+        </section>
+
+        <section id="important-compounds">
+            <h2>6. 重要なアルコールとその性質</h2>
+            
+            <h3>6.1 メタノール (CH₃OH)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、特有の臭い、沸点64.7℃</li>
+                <li><strong>毒性:</strong> 強い毒性。体内でホルムアルデヒド→ギ酸に酸化され、アシドーシス・失明・死亡の原因となる。</li>
+                <li><strong>用途:</strong> ホルムアルデヒド原料、燃料、溶剤</li>
+                <li><strong>木精:</strong> 木材の乾留で得られたことから木精とも呼ばれる。</li>
+            </ul>
+            
+            <h3>6.2 エタノール (C₂H₅OH)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、アルコール臭、沸点78.3℃</li>
+                <li><strong>飲酒:</strong> 酒精成分。適量の摂取は陶酔感をもたらすが、多量摂取は急性アルコール中毒を起こす。</li>
+                <li><strong>変性アルコール:</strong> 飲用を防ぐためメタノールなどを添加した工業用エタノール。</li>
+                <li><strong>用途:</strong> 飲料、消毒薬(70%程度が最も殺菌力が高い)、溶剤、燃料(バイオエタノール)</li>
+            </ul>
+            
+            <h3>6.3 エチレングリコール (HOCH₂CH₂OH)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色粘ちょうな液体、甘味がある。沸点197℃</li>
+                <li><strong>毒性:</strong> 強い毒性。体内でシュウ酸に代謝され、腎臓障害を起こす。</li>
+                <li><strong>用途:</strong> 不凍液(冷却水の凍結防止)、ポリエステル(ポリエチレンテレフタレート)の原料</li>
+            </ul>
+            
+            <h3>6.4 グリセリン (C₃H₅(OH)₃)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色粘ちょうな液体、甘味がある。沸点290℃(分解)</li>
+                <li><strong>用途:</strong> 保湿剤、化粧品、ニトログリセリン(炸药・医薬)の原料</li>
+                <li><strong>脂肪酸とのエステル:</strong> 油脂の構成成分</li>
+            </ul>
+            
+            <h3>6.5 その他のアルコール</h3>
+            <ul>
+                <li><strong>1-プロパノール (C₃H₇OH):</strong> 第一級アルコール、沸点97℃</li>
+                <li><strong>2-プロパノール (イソプロピルアルコール, IPA):</strong> 第二級アルコール、沸点82℃、消毒薬として使用</li>
+                <li><strong>tert-ブチルアルコール ((CH₃)₃COH):</strong> 第三級アルコール、沸点83℃、常温で固体に近い</li>
+            </ul>
+        </section>
+
+        <section id="identification">
+            <h2>7. アルコールの検出・確認方法</h2>
+            
+            <h3>7.1 ルーカス試験</h3>
+            <ul>
+                <li>試薬: 濃塩酸 + 無水塩化亜鉛(ルーカス試薬)</li>
+                <li>第一級・第二級・第三級アルコールの区別に用いられる。</li>
+                <li>第三級アルコール: 室温で瞬時に白濁(塩化アルキルが析出)</li>
+                <li>第二級アルコール: 数分で白濁</li>
+                <li>第一級アルコール: 室温ではほとんど反応せず、加熱が必要</li>
+                <li>※炭素数6以下のアルコールに有効</li>
+            </ul>
+            
+            <h3>7.2 酸化による検出</h3>
+            <ul>
+                <li>二クロム酸カリウム(橙赤色)を酸性条件下でアルコールに加える。</li>
+                <li>第一級・第二級アルコール: 酸化され、Cr⁶⁺(橙赤色)がCr³⁺(緑色)に還元される。</li>
+                <li>第三級アルコール: 酸化されず、色の変化がない。</li>
+            </ul>
+            
+            <h3>7.3 ヨードホルム反応</h3>
+            <ul>
+                <li>エタノールやイソプロピルアルコール(酸化されてメチルケトンになるもの)が陽性。</li>
+                <li>メタノール、1-プロパノールなどは陰性。</li>
+            </ul>
+            
+            <h3>7.4 赤外吸収スペクトル(IR)</h3>
+            <ul>
+                <li>O-H伸縮振動: 3600-3200 cm⁻¹に幅広い吸収(水素結合によりブロード化)</li>
+                <li>C-O伸縮振動: 1000-1200 cm⁻¹に吸収</li>
+            </ul>
+            
+            <h3>7.5 核磁気共鳴スペクトル(NMR)</h3>
+            <ul>
+                <li>OH基のプロトン: 1-5 ppm付近にブロードなシグナル(水素交換によりピーク形状が変化)</li>
+            </ul>
+        </section>
+
+        <section id="applications">
+            <h2>8. アルコールの応用・工業的利用</h2>
+            
+            <h3>8.1 溶剤として</h3>
+            <ul>
+                <li>塗料、インク、洗浄剤、抽出溶媒など幅広く使用される。</li>
+                <li>エタノールは水とも有機溶媒とも混ざるため、汎用性が高い。</li>
+            </ul>
+            
+            <h3>8.2 燃料として</h3>
+            <ul>
+                <li>バイオエタノール: サトウキビやトウモロコシなどを発酵させて製造。ガソリンに混合して使用(ガソホール)。</li>
+                <li>メタノール: 燃料電池の燃料としても利用。</li>
+            </ul>
+            
+            <h3>8.3 化学原料として</h3>
+            <ul>
+                <li>酢酸、エステル、エーテル、合成樹脂などの製造原料。</li>
+                <li>エチレングリコール: ポリエステル繊維・樹脂の原料。</li>
+                <li>グリセリン: ニトログリセリン(医薬・爆薬)の原料。</li>
+            </ul>
+            
+            <h3>8.4 消毒・殺菌</h3>
+            <ul>
+                <li>エタノール(70%程度)はタンパク質変性作用により殺菌効果を示す。</li>
+                <li>イソプロピルアルコールも消毒薬として使用される。</li>
+            </ul>
+            
+            <h3>8.5 飲料</h3>
+            <ul>
+                <li>エタノールを含む酒類: ビール、ワイン、日本酒、ウイスキーなど。</li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>9. 重要反応のまとめ(暗記用)</h2>
+            <ul class="quiz-list">
+                <li>アルコール + Na → <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">アルコキシド + H₂</span></span></li>
+                <li>第一級アルコールの酸化 → <span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">アルデヒド → カルボン酸</span></span></li>
+                <li>第二級アルコールの酸化 → <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">ケトン</span></span></li>
+                <li>アルコールの分子内脱水 → <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">アルケン</span></span></li>
+                <li>アルコールの分子間脱水 → <span class="blank-container" onclick="reveal(this)"><span class="number">(27)</span> <span class="blank">エーテル</span></span></li>
+                <li>アルコール + カルボン酸(酸触媒) → <span class="blank-container" onclick="reveal(this)"><span class="number">(28)</span> <span class="blank">エステル + 水</span></span></li>
+                <li>エタノール + ヨウ素 + 水酸化ナトリウム → <span class="blank-container" onclick="reveal(this)"><span class="number">(29)</span> <span class="blank">ヨードホルム(黄色沈殿)</span></span></li>
+                <li>第三級アルコール + ルーカス試薬 → <span class="blank-container" onclick="reveal(this)"><span class="number">(30)</span> <span class="blank">室温で瞬時に白濁</span></span></li>
+            </ul>
+        </section>
+
+        <section id="exercises">
+            <h2>10. 確認問題</h2>
+            <ol style="list-style-type: decimal; padding-left: 20px;">
+                <li>エタノールとナトリウムの反応を化学反応式で示せ。</li>
+                <li>第一級、第二級、第三級アルコールの酸化生成物をそれぞれ答えよ。</li>
+                <li>エタノールからエチレンを得る反応の名称と反応条件を答えよ。</li>
+                <li>エタノールと酢酸から酢酸エチルを生成する反応の名称を答えよ。</li>
+                <li>ルーカス試験で第三級アルコールが室温で瞬時に白濁する理由を説明せよ。</li>
+                <li>ヨードホルム反応を示すアルコールを2つ挙げよ。</li>
+                <li>グリセリンの構造式と用途を述べよ。</li>
+                <li>エチレングリコールが不凍液として使用される理由を、水素結合の観点から説明せよ。</li>
+            </ol>
+        </section>
+        
+        <div class="nav-links" style="margin-top: 40px;">
+            <span style="color: #6c757d;">← 前のページ</span>
+            <span style="color: #6c757d;">次のページ エーテル →</span>
+        </div>
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
