@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アルデヒド｜高校化学の有機化学</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">有機化学トップへ</a>
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← エーテル</a>
+        <a href="#" class="nav-link">ケトン →</a>
+    </div>
+    
+    <main>
+        <h1>アルデヒド</h1>
+        
+        <section id="introduction">
+            <h2>1. アルデヒドとは</h2>
+            <p>アルデヒドは、ホルミル基(-CHO)を持つ有機化合物の総称である。ホルミル基はカルボニル基(C=O)に水素原子が結合した構造を持つ。</p>
+            <ul>
+                <li><strong>官能基:</strong> ホルミル基 (-CHO) またはアルデヒド基</li>
+                <li><strong>一般式:</strong> R-CHO (Rはアルキル基またはアリール基、Hの場合はホルムアルデヒド)</li>
+                <li><strong>特徴:</strong> カルボニル基の極性により、特有の反応性を示す。還元性が強く、各種の検出反応がある。</li>
+                <li><strong>命名法:</strong> 対応するアルカンの語尾「e」を「al」に変える。
+                    <br>例：H-CHO → メタナール(ホルムアルデヒド)
+                    <br>CH₃-CHO → エタナール(アセトアルデヒド)
+                    <br>C₆H₅-CHO → ベンズアルデヒド</li>
+            </ul>
+        </section>
+
+        <section id="structure">
+            <h2>2. 構造と結合</h2>
+            <ul>
+                <li><strong>カルボニル基の構造:</strong> C=Oは二重結合で、炭素はsp²混成軌道をとる。</li>
+                <li><strong>結合角:</strong> 約120°の平面構造。</li>
+                <li><strong>分極:</strong> 酸素の電気陰性度が高いため、C=O結合は分極している(Cδ+ - Oδ-)。</li>
+                <li><strong>反応性:</strong> 炭素が求電子中心、酸素が求核中心として働く。</li>
+            </ul>
+        </section>
+
+        <section id="physical-properties">
+            <h2>3. 物理的性質</h2>
+            
+            <h3>3.1 沸点</h3>
+            <ul>
+                <li>アルデヒドは分子間水素結合を持たないが、双極子-双極子相互作用により、同分子量の炭化水素より沸点が高い。</li>
+                <li>しかし、水素結合を持つアルコールよりは沸点が低い。</li>
+                <li>例: エタナール(アセトアルデヒド) 沸点20.8℃、エタノール 沸点78.3℃</li>
+                <li>低級アルデヒド(ホルムアルデヒド、アセトアルデヒド)は常温で気体または揮発性の液体。</li>
+            </ul>
+            
+            <h3>3.2 溶解度</h3>
+            <ul>
+                <li>低級アルデヒド(ホルムアルデヒド、アセトアルデヒド)は水と任意の割合で混ざる。</li>
+                <li>これは、水中で水和物(ジェミナルジオール)を形成するため。</li>
+                <li>炭素数が増えると疎水性部分が大きくなり、水への溶解度は低下する。</li>
+            </ul>
+            
+            <h3>3.3 臭い</h3>
+            <ul>
+                <li>低級アルデヒドは刺激臭を持つ(ホルムアルデヒド: 催涙性、アセトアルデヒド: 青臭い刺激臭)。</li>
+                <li>中級アルデヒド(C8-C12)は果実様の香りを持ち、香料として利用される。</li>
+                <li>ベンズアルデヒドはアーモンドのような香り。</li>
+            </ul>
+        </section>
+
+        <section id="preparation">
+            <h2>4. アルデヒドの製法</h2>
+            
+            <h3>4.1 第一級アルコールの酸化</h3>
+            <ul class="quiz-list">
+                <li>第一級アルコールを適切な酸化剤で酸化するとアルデヒドが得られる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">R-CH₂OH + [O] → R-CHO + H₂O</span></span></li>
+                <li>酸化剤: 二クロム酸カリウム(K₂Cr₂O₇/H⁺)、過マンガン酸カリウム(KMnO₄)など</li>
+                <li>注意: 過剰に酸化するとカルボン酸まで酸化されるため、生成したアルデヒドを反応系から留去するなどの工夫が必要。</li>
+            </ul>
+            
+            <h3>4.2 特定の酸化剤によるアルコールの酸化</h3>
+            <ul class="quiz-list">
+                <li><strong>ピリジニウムクロロクロマート(PCC):</strong> 第一級アルコールをアルデヒドまでで止める酸化剤。</li>
+                <li><strong>デス-マーチン酸化:</strong> 同様にアルデヒドまで酸化する。</li>
+            </ul>
+            
+            <h3>4.3 アルキンの水和</h3>
+            <ul class="quiz-list">
+                <li>末端アルキンに水を付加すると、エノールを経てアルデヒドが生成する(ただし、実際にはケトンが主生成物になることが多い)。</li>
+                <li>反応例(特別な条件下): <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">HC≡CH + H₂O → CH₃-CHO</span></span></li>
+                <li>通常のアルキンの水和(水銀(II)塩触媒)では、末端アルキンからもメチルケトンが生成する。</li>
+            </ul>
+            
+            <h3>4.4 オゾン分解</h3>
+            <ul class="quiz-list">
+                <li>アルケンのオゾン分解によってアルデヒドまたはケトンを得ることができる。</li>
+                <li>末端アルケンの場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">R-CH=CH₂ + O₃ → R-CHO + HCHO</span></span></li>
+            </ul>
+            
+            <h3>4.5 ギ酸エステルの還元</h3>
+            <ul>
+                <li>工業的には、ギ酸エステルの接触還元などでも製造される。</li>
+            </ul>
+            
+            <h3>4.6 特別な製法</h3>
+            <ul>
+                <li><strong>ホルムアルデヒド:</strong> メタノールの酸化脱水素反応で工業的に製造される。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">CH₃OH + 1/2 O₂ → HCHO + H₂O</span></span></li>
+            </ul>
+        </section>
+
+        <section id="reactions">
+            <h2>5. アルデヒドの化学反応</h2>
+            
+            <h3>5.1 酸化反応(還元性)</h3>
+            <p>アルデヒドは非常に酸化されやすく、さまざまな酸化剤によってカルボン酸に酸化される。この性質を利用した検出反応が多い。</p>
+            
+            <ul class="quiz-list">
+                <li><strong>空気酸化:</strong> 空気中の酸素によって徐々にカルボン酸に酸化される。</li>
+                <li><strong>二クロム酸カリウム:</strong> <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">R-CHO + [O] → R-COOH</span></span> (橙赤色→緑色)</li>
+                <li><strong>銀鏡反応(アンモニア性硝酸銀溶液):</strong> 
+                    <br><span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">R-CHO + 2[Ag(NH₃)₂]⁺ + 2OH⁻ → R-COONH₄ + 2Ag↓ + 3NH₃ + H₂O</span></span>
+                    <br>試験管の内壁に銀が析出する。</li>
+                <li><strong>フェーリング反応(硫酸銅(II) + 酒石酸ナトリウムカリウム + NaOH):</strong>
+                    <br><span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">R-CHO + 2Cu²⁺ + 5OH⁻ → R-COO⁻ + Cu₂O↓ + 3H₂O</span></span>
+                    <br>赤色沈殿(酸化銅(I))が生じる。</li>
+                <li><strong>ベネジクト反応(クエン酸銅(II)溶液):</strong> フェーリング反応と同様、還元糖の検出に用いられる。</li>
+            </ul>
+            
+            <h3>5.2 還元反応</h3>
+            <ul class="quiz-list">
+                <li>アルデヒドを還元すると第一級アルコールが得られる。</li>
+                <li>還元剤: 水素化ホウ素ナトリウム(NaBH₄)、水素化アルミニウムリチウム(LiAlH₄)、接触水素化</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">R-CHO + 2[H] → R-CH₂OH</span></span></li>
+            </ul>
+            
+            <h3>5.3 求核付加反応</h3>
+            <p>アルデヒドのカルボニル炭素は求電子性が高く、さまざまな求核剤が付加する。</p>
+            
+            <h4>シアン化水素の付加(シアノヒドリン生成)</h4>
+            <ul class="quiz-list">
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">R-CHO + HCN → R-CH(OH)-CN</span></span></li>
+                <li>生成物はシアノヒドリンと呼ばれ、加水分解するとα-ヒドロキシ酸が得られる。</li>
+            </ul>
+            
+            <h4>亜硫酸水素ナトリウムの付加</h4>
+            <ul class="quiz-list">
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">R-CHO + NaHSO₃ → R-CH(OH)-SO₃Na</span></span></li>
+                <li>付加物は結晶性で、アルデヒドの精製に利用される。</li>
+            </ul>
+            
+            <h4>グリニャール試薬の付加</h4>
+            <ul class="quiz-list">
+                <li>アルデヒドにグリニャール試薬(R'MgBr)が付加すると、第二級アルコールが生成する。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">R-CHO + R'MgBr → R-CH(OH)-R' (後処理で)</span></span></li>
+            </ul>
+            
+            <h4>アルコールの付加(ヘミアセタール・アセタール生成)</h4>
+            <ul class="quiz-list">
+                <li>アルデヒドはアルコールと反応してヘミアセタールを生成し、さらに酸触媒下でアセタールを与える。</li>
+                <li>ヘミアセタール: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">R-CHO + R'OH ⇄ R-CH(OH)(OR')</span></span></li>
+                <li>アセタール: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">R-CH(OH)(OR') + R'OH ⇄ R-CH(OR')₂ + H₂O</span></span></li>
+                <li>アセタールはカルボニル基の保護基として重要。</li>
+            </ul>
+            
+            <h4>アンモニアおよびアミンとの反応</h4>
+            <ul class="quiz-list">
+                <li>アンモニアと反応してアルデヒドアンモニア(付加体)を経て、環状三量体(ヘキサメチレンテトラミンなど)を与える。</li>
+                <li>第一級アミンと反応してイミン(シッフ塩基)を生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">R-CHO + R'NH₂ → R-CH=N-R' + H₂O</span></span></li>
+            </ul>
+            
+            <h3>5.4 アルドール反応</h3>
+            <ul class="quiz-list">
+                <li>塩基存在下で、一方のアルデヒドのα-水素が引き抜かれ、エノラートイオンが生成し、別のアルデヒドのカルボニル炭素に求核攻撃する。</li>
+                <li>アセトアルデヒドの場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">2CH₃CHO → CH₃-CH(OH)-CH₂-CHO</span></span> (3-ヒドロキシブタナール)</li>
+                <li>生成物はβ-ヒドロキシアルデヒド(アルドール)で、加熱すると脱水されてα,β-不飽和アルデヒドとなる。</li>
+            </ul>
+            
+            <h3>5.5 ハロホルム反応</h3>
+            <ul class="quiz-list">
+                <li>アセトアルデヒド(およびメチルケトン)はハロゲンと塩基でハロホルム反応を示す。</li>
+                <li>ヨードホルム反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">CH₃CHO + 3I₂ + 4NaOH → CHI₃↓ + HCOONa + 3NaI + 3H₂O</span></span></li>
+            </ul>
+            
+            <h3>5.6 カニッツァーロ反応</h3>
+            <ul class="quiz-list">
+                <li>α-水素を持たないアルデヒド(ホルムアルデヒド、ベンズアルデヒドなど)を濃塩基で処理すると、一方が酸化され、他方が還元される反応。</li>
+                <li>ベンズアルデヒドの場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">2C₆H₅-CHO + NaOH → C₆H₅-CH₂OH + C₆H₅-COONa</span></span></li>
+            </ul>
+        </section>
+
+        <section id="important-compounds">
+            <h2>6. 重要なアルデヒドとその性質</h2>
+            
+            <h3>6.1 ホルムアルデヒド (HCHO, メタナール)</h3>
+            <ul>
+                <li><strong>性状:</strong> 常温で無色の気体、刺激臭、沸点-19℃。水によく溶ける(37%水溶液はホルマリンと呼ばれる)。</li>
+                <li><strong>反応性:</strong> 還元性が強く、アンモニアと反応してヘキサメチレンテトラミン(ウロトロピン)を生成。</li>
+                <li><strong>用途:</strong> 殺菌・消毒剤(ホルマリン)、合成樹脂(フェノール樹脂、尿素樹脂、メラミン樹脂)の原料。</li>
+                <li><strong>毒性:</strong> 強い毒性・発がん性が指摘されている。</li>
+            </ul>
+            
+            <h3>6.2 アセトアルデヒド (CH₃CHO, エタナール)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の揮発性液体、刺激臭、沸点20.8℃。水と任意に混ざる。</li>
+                <li><strong>反応性:</strong> 各種付加反応、アルドール反応、銀鏡反応など典型的なアルデヒドの反応を示す。</li>
+                <li><strong>用途:</strong> 酢酸、酢酸エチル、合成樹脂などの原料。</li>
+                <li><strong>生体内:</strong> エタノールの代謝中間体であり、悪酔いの原因物質。</li>
+            </ul>
+            
+            <h3>6.3 ベンズアルデヒド (C₆H₅-CHO)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、アーモンドのような香り、沸点179℃。</li>
+                <li><strong>反応性:</strong> α-水素を持たないため、アルドール反応は起こさないが、カニッツァーロ反応を示す。</li>
+                <li><strong>用途:</strong> 香料、染料、医薬品の中間体。</li>
+            </ul>
+            
+            <h3>6.4 アクロレイン (CH₂=CH-CHO, プロペナール)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、強い催涙性と刺激臭、沸点52℃。</li>
+                <li><strong>生成:</strong> グリセリンを脱水すると生成する。油脂の加熱分解でも発生。</li>
+                <li><strong>用途:</strong> 合成樹脂、医薬品の中間体。</li>
+            </ul>
+            
+            <h3>6.5 シンナムアルデヒド (C₆H₅-CH=CH-CHO)</h3>
+            <ul>
+                <li><strong>性状:</strong> 黄色の粘ちょうな液体、シナモンの香り。</li>
+                <li><strong>用途:</strong> 香料(シナモン、ニッキの香りの主成分)。</li>
+            </ul>
+            
+            <h3>6.6 バニリン</h3>
+            <ul>
+                <li><strong>構造:</strong> 4-ヒドロキシ-3-メトキシベンズアルデヒド</li>
+                <li><strong>性状:</strong> 白色結晶、バニラの香り。</li>
+                <li><strong>用途:</strong> 香料(バニラエッセンスの主成分)。</li>
+            </ul>
+        </section>
+
+        <section id="identification">
+            <h2>7. アルデヒドの検出・確認方法</h2>
+            
+            <h3>7.1 銀鏡反応</h3>
+            <ul>
+                <li>アンモニア性硝酸銀溶液にアルデヒドを加えて温めると、試験管内壁に銀鏡が生じる。</li>
+                <li>ケトンはこの反応を示さないため、アルデヒドとケトンの区別に用いられる。</li>
+            </ul>
+            
+            <h3>7.2 フェーリング反応</h3>
+            <ul>
+                <li>フェーリング液(硫酸銅(II) + 酒石酸ナトリウムカリウム + NaOH)にアルデヒドを加えて加熱すると、赤色沈殿(Cu₂O)が生じる。</li>
+                <li>芳香族アルデヒドは反応しにくい場合がある。</li>
+            </ul>
+            
+            <h3>7.3 シッフ試薬</h3>
+            <ul>
+                <li>亜硫酸で脱色したフクシン溶液(シッフ試薬)にアルデヒドを加えると赤紫色を呈する。</li>
+                <li>ケトンは呈色しない。ホルムアルデヒドとアセトアルデヒドの区別にも使われる(反応速度の違い)。</li>
+            </ul>
+            
+            <h3>7.4 赤外吸収スペクトル(IR)</h3>
+            <ul>
+                <li>C=O伸縮振動: 1720-1740 cm⁻¹に強い吸収。</li>
+                <li>アルデヒドのC-H伸縮振動: 2700-2800 cm⁻¹に特徴的な2本の吸収(倍音との相互作用)。</li>
+            </ul>
+            
+            <h3>7.5 核磁気共鳴スペクトル(NMR)</h3>
+            <ul>
+                <li>¹H-NMR: アルデヒドのプロトン(-CHO)は9-10 ppmに特徴的なシグナルを示す。</li>
+                <li>¹³C-NMR: カルボニル炭素は190-200 ppmにシグナルを示す。</li>
+            </ul>
+            
+            <h3>7.6 2,4-ジニトロフェニルヒドラジン試験</h3>
+            <ul>
+                <li>2,4-ジニトロフェニルヒドラジン(2,4-DNP)溶液にアルデヒドを加えると、橙～赤色の沈殿(ヒドラゾン)を生じる。</li>
+                <li>ケトンも同様の反応を示すため、カルボニル化合物の確認に用いられる。</li>
+            </ul>
+        </section>
+
+        <section id="applications">
+            <h2>8. アルデヒドの応用・工業的利用</h2>
+            
+            <h3>8.1 樹脂原料</h3>
+            <ul>
+                <li><strong>ホルムアルデヒド:</strong> フェノール樹脂(ベークライト)、尿素樹脂、メラミン樹脂の原料。</li>
+                <li><strong>アセトアルデヒド:</strong> 合成樹脂、酢酸ビニルなどの原料。</li>
+            </ul>
+            
+            <h3>8.2 香料</h3>
+            <ul>
+                <li>ベンズアルデヒド(アーモンド)、シンナムアルデヒド(シナモン)、バニリン(バニラ)など、多くのアルデヒドが香料として利用される。</li>
+                <li>高級アルデヒド(C8-C12)は石鹸や化粧品の香料に用いられる。</li>
+            </ul>
+            
+            <h3>8.3 医薬品・農薬</h3>
+            <ul>
+                <li>アルデヒド基を持つ化合物は医薬品中間体として重要。</li>
+                <li>グリオキサールなどは繊維処理剤として使用。</li>
+            </ul>
+            
+            <h3>8.4 殺菌・消毒</h3>
+            <ul>
+                <li>ホルマリン(ホルムアルデヒド水溶液)は生物標本の保存、消毒・殺菌に用いられる。</li>
+                <li>グルタルアルデヒドは医療機器の消毒に使用。</li>
+            </ul>
+            
+            <h3>8.5 化学工業原料</h3>
+            <ul>
+                <li>アセトアルデヒド: 酢酸、無水酢酸、酢酸エチルなどの製造原料。</li>
+                <li>ブチルアルデヒド: ブタノール、2-エチルヘキサノール(可塑剤原料)の合成中間体。</li>
+            </ul>
+        </section>
+
+        <section id="comparison">
+            <h2>9. アルデヒドとケトンの比較</h2>
+            <table>
+                <tr>
+                    <th>性質</th>
+                    <th>アルデヒド</th>
+                    <th>ケトン</th>
+                </tr>
+                <tr>
+                    <td><strong>官能基</strong></td>
+                    <td>-CHO (末端)</td>
+                    <td>>C=O (内部)</td>
+                </tr>
+                <tr>
+                    <td><strong>一般式</strong></td>
+                    <td>R-CHO</td>
+                    <td>R¹-CO-R²</td>
+                </tr>
+                <tr>
+                    <td><strong>酸化されやすさ</strong></td>
+                    <td>非常に酸化されやすい</td>
+                    <td>酸化されにくい</td>
+                </tr>
+                <tr>
+                    <td><strong>銀鏡反応</strong></td>
+                    <td>陽性</td>
+                    <td>陰性</td>
+                </tr>
+                <tr>
+                    <td><strong>フェーリング反応</strong></td>
+                    <td>陽性(脂肪族)</td>
+                    <td>陰性</td>
+                </tr>
+                <tr>
+                    <td><strong>2,4-DNP反応</strong></td>
+                    <td>陽性(橙赤色沈殿)</td>
+                    <td>陽性(橙赤色沈殿)</td>
+                </tr>
+                <tr>
+                    <td><strong>求核付加反応</strong></td>
+                    <td>反応性が高い</td>
+                    <td>アルデヒドより低い</td>
+                </tr>
+                <tr>
+                    <td><strong>α-水素の酸性度</strong></td>
+                    <td>pKa ≈ 16-20</td>
+                    <td>pKa ≈ 20(若干低い)</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="safety">
+            <h2>10. アルデヒドの毒性と取り扱い</h2>
+            
+            <h3>10.1 毒性</h3>
+            <ul>
+                <li><strong>ホルムアルデヒド:</strong> 強い刺激性、発がん性が疑われる(国際がん研究機関IARC: グループ1(ヒトに対する発がん性が認められる))。</li>
+                <li><strong>アセトアルデヒド:</strong> 刺激性、国際がん研究機関IARC: グループ2B(発がん性の可能性あり)。</li>
+                <li><strong>アクロレイン:</strong> 強い催涙性、毒性。</li>
+            </ul>
+            
+            <h3>10.2 安全な取り扱い</h3>
+            <ul>
+                <li>ドラフト内で使用し、蒸気の吸入を避ける。</li>
+                <li>皮膚や目との接触を避け、保護手袋・保護メガネを着用。</li>
+                <li>ホルムアルデヒドは発がん性物質として規制されているため、適切な廃棄処理が必要。</li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>11. 重要反応のまとめ(暗記用)</h2>
+            <ul class="quiz-list">
+                <li>第一級アルコールの酸化(アルデヒド): <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">R-CH₂OH + [O] → R-CHO + H₂O</span></span></li>
+                <li>銀鏡反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">R-CHO + 2[Ag(NH₃)₂]⁺ + 2OH⁻ → R-COONH₄ + 2Ag↓ + 3NH₃ + H₂O</span></span></li>
+                <li>フェーリング反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">R-CHO + 2Cu²⁺ + 5OH⁻ → R-COO⁻ + Cu₂O↓ + 3H₂O</span></span></li>
+                <li>アルデヒドの還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">R-CHO + 2[H] → R-CH₂OH</span></span></li>
+                <li>シアノヒドリン生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">R-CHO + HCN → R-CH(OH)-CN</span></span></li>
+                <li>グリニャール反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">R-CHO + R'MgBr → R-CH(OH)-R'</span></span></li>
+                <li>アセタール生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">R-CHO + 2R'OH → R-CH(OR')₂ + H₂O</span></span></li>
+                <li>アルドール反応(アセトアルデヒド): <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">2CH₃CHO → CH₃-CH(OH)-CH₂-CHO</span></span></li>
+                <li>カニッツァーロ反応(ベンズアルデヒド): <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">2C₆H₅-CHO + NaOH → C₆H₅-CH₂OH + C₆H₅-COONa</span></span></li>
+            </ul>
+        </section>
+
+        <section id="exercises">
+            <h2>12. 確認問題</h2>
+            <ol style="list-style-type: decimal; padding-left: 20px;">
+                <li>アセトアルデヒドとベンズアルデヒドの銀鏡反応の結果を比較し、その理由を説明せよ。</li>
+                <li>アセトアルデヒドのアルドール反応の生成物を示し、反応機構を簡潔に説明せよ。</li>
+                <li>エタノールからアセトアルデヒドを経て酢酸を合成する反応式を示せ。</li>
+                <li>ホルムアルデヒドとベンズアルデヒドをそれぞれ濃水酸化ナトリウム水溶液で処理したときの反応を化学反応式で示し、両者の違いを説明せよ。</li>
+                <li>アルデヒドとケトンの検出法として共通するものと、アルデヒドに特有のものをそれぞれ挙げよ。</li>
+                <li>アセトアルデヒドにシアン化水素を付加させた後、加水分解すると何が得られるか。</li>
+                <li>ホルムアルデヒドの水溶液(ホルマリン)の主な用途を3つ挙げよ。</li>
+                <li>アルデヒドのIRスペクトルとNMRスペクトルの特徴を述べよ。</li>
+            </ol>
+        </section>
+        
+        <div class="nav-links" style="margin-top: 40px;">
+            <a href="#" class="nav-link">← エーテル</a>
+            <a href="#" class="nav-link">ケトン →</a>
+        </div>
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
