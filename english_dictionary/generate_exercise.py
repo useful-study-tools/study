@@ -218,6 +218,9 @@ function startExercise() {{
     let thresholds = Object.values(GROUPED_CHAPTERS).flat().map(ch => parseInt(ch.id)).sort((a,b)=>a-b);
 
     quizWords = ALL_WORDS.filter(w => {{
+        if (basicOnly && w.n.includes('-')) {
+            return false;
+        }
         const n = parseInt(w.n.split('-')[0]);
         const chapterId = thresholds.slice().reverse().find(t => n >= t);
         return selected.includes(chapterId);
