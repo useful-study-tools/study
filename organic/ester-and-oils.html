@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>エステルと油脂｜高校化学の有機化学</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">有機化学トップへ</a>
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← カルボン酸</a>
+        <span style="color: #6c757d;">次のページ 索引 →</span>
+    </div>
+    
+    <main>
+        <h1>エステルと油脂</h1>
+        
+        <section id="introduction">
+            <h2>1. エステルとは</h2>
+            <p>エステルは、カルボン酸とアルコールが脱水縮合して生成する化合物の総称である。一般式は R-COO-R' で表される。</p>
+            <ul>
+                <li><strong>官能基:</strong> エステル結合 (-COO-)</li>
+                <li><strong>一般式:</strong> R-COO-R' (Rはカルボン酸由来のアルキル基、R'はアルコール由来のアルキル基)</li>
+                <li><strong>特徴:</strong> 低級エステルは果実様の香りを持つ。加水分解によりカルボン酸とアルコールに戻る。</li>
+                <li><strong>命名法:</strong> 「カルボン酸名」の「酸」を「酸〜」とし、アルコール名を前に付ける。
+                    <br>例：CH₃COOC₂H₅ → 酢酸エチル
+                    <br>HCOOCH₃ → ギ酸メチル
+                    <br>C₆H₅COOCH₃ → 安息香酸メチル</li>
+            </ul>
+        </section>
+
+        <section id="esters-preparation">
+            <h2>2. エステルの製法</h2>
+            
+            <h3>2.1 フィッシャーエステル化反応</h3>
+            <ul class="quiz-list">
+                <li>カルボン酸とアルコールを酸触媒存在下で加熱すると、エステルが生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">R-COOH + R'OH ⇄ R-COOR' + H₂O</span></span></li>
+                <li>触媒: 濃硫酸、塩化水素など</li>
+                <li>可逆反応のため、エステルを高収率で得るには、水を除去するか、アルコールを大過剰用いる。</li>
+                <li>例(酢酸エチル): <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O</span></span></li>
+            </ul>
+            
+            <h3>2.2 酸塩化物とアルコールからの合成</h3>
+            <ul class="quiz-list">
+                <li>酸塩化物(R-COCl)とアルコールを反応させると、エステルが生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">R-COCl + R'OH → R-COOR' + HCl</span></span></li>
+                <li>この方法は不可逆的で、収率が高い。</li>
+            </ul>
+            
+            <h3>2.3 酸無水物とアルコールからの合成</h3>
+            <ul class="quiz-list">
+                <li>酸無水物((R-CO)₂O)とアルコールを反応させてもエステルが得られる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">(R-CO)₂O + R'OH → R-COOR' + R-COOH</span></span></li>
+            </ul>
+            
+            <h3>2.4 エステル交換反応</h3>
+            <ul class="quiz-list">
+                <li>一方のエステルと別のアルコールを反応させると、エステル交換が起こる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">R-COOR' + R''OH ⇄ R-COOR'' + R'OH</span></span></li>
+                <li>触媒: 酸または塩基</li>
+                <li>工業的に重要(バイオディーゼル製造など)。</li>
+            </ul>
+        </section>
+
+        <section id="esters-properties">
+            <h2>3. エステルの物理的性質</h2>
+            
+            <h3>3.1 沸点</h3>
+            <ul>
+                <li>エステルは分子間水素結合を持たないため、同じ分子量のカルボン酸やアルコールより沸点が低い。</li>
+                <li>例: 酢酸エチル(CH₃COOC₂H₅) 沸点77℃、酢酸(CH₃COOH) 沸点118℃、ブタノール(C₄H₉OH) 沸点117℃</li>
+                <li>低級エステルは揮発性で、蒸気を吸入しやすい。</li>
+            </ul>
+            
+            <h3>3.2 溶解度</h3>
+            <ul>
+                <li>低級エステルは水にわずかに溶けるが、大部分は水と分離する。</li>
+                <li>有機溶媒(エーテル、アルコールなど)にはよく溶ける。</li>
+            </ul>
+            
+            <h3>3.3 香り</h3>
+            <ul>
+                <li>低級エステルは果実様の香りを持ち、香料として利用される。</li>
+                <li>例:
+                    <br>ギ酸エチル → ラム酒様の香り
+                    <br>酢酸エチル → 果実様の香り(シンナー臭とも)
+                    <br>酢酸イソアミル → バナナの香り
+                    <br>酪酸エチル → パイナップルの香り
+                    <br>サリチル酸メチル → 冬緑油の香り</li>
+            </ul>
+        </section>
+
+        <section id="esters-reactions">
+            <h2>4. エステルの化学反応</h2>
+            
+            <h3>4.1 加水分解</h3>
+            <ul class="quiz-list">
+                <li><strong>酸触媒加水分解:</strong> 酸存在下で水と反応し、カルボン酸とアルコールに戻る(エステル化の逆反応)。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">R-COOR' + H₂O ⇄ R-COOH + R'OH</span></span></li>
+                <li><strong>塩基触媒加水分解(鹸化):</strong> 水酸化ナトリウムなどの塩基で加水分解すると、カルボン酸塩とアルコールが生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">R-COOR' + NaOH → R-COONa + R'OH</span></span></li>
+                <li>この反応は不可逆的で、石鹸製造(油脂の鹸化)に利用される。</li>
+            </ul>
+            
+            <h3>4.2 アンモノリシス(アミドの生成)</h3>
+            <ul class="quiz-list">
+                <li>エステルにアンモニアを反応させると、アミドとアルコールが生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">R-COOR' + NH₃ → R-CONH₂ + R'OH</span></span></li>
+            </ul>
+            
+            <h3>4.3 還元反応</h3>
+            <ul class="quiz-list">
+                <li>エステルを強力な還元剤(水素化アルミニウムリチウム LiAlH₄)で還元すると、2つのアルコールが得られる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">R-COOR' + 4[H] → R-CH₂OH + R'OH</span></span></li>
+            </ul>
+            
+            <h3>4.4 グリニャール反応</h3>
+            <ul class="quiz-list">
+                <li>エステルに過剰のグリニャール試薬を反応させると、第三級アルコールが生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">R-COOR' + 2R''MgBr → R-C(OH)(R'')₂ + R'OMgBr</span></span></li>
+            </ul>
+            
+            <h3>4.5 クライゼン縮合</h3>
+            <ul class="quiz-list">
+                <li>エステル(特に酢酸エチル)を塩基存在下で反応させると、β-ケトエステルが生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">2CH₃COOC₂H₅ + C₂H₅ONa → CH₃COCH₂COOC₂H₅ + 2C₂H₅OH</span></span></li>
+            </ul>
+        </section>
+
+        <section id="important-esters">
+            <h2>5. 重要なエステルとその用途</h2>
+            
+            <h3>5.1 代表的なエステル</h3>
+            <table>
+                <tr>
+                    <th>エステル名</th>
+                    <th>化学式</th>
+                    <th>香り・特徴</th>
+                    <th>主な用途</th>
+                </tr>
+                <tr>
+                    <td>酢酸エチル</td>
+                    <td>CH₃COOC₂H₅</td>
+                    <td>果実様の香り</td>
+                    <td>溶剤(塗料、接着剤、インク)、抽出溶媒</td>
+                </tr>
+                <tr>
+                    <td>酢酸ブチル</td>
+                    <td>CH₃COOC₄H₉</td>
+                    <td>果実様の香り</td>
+                    <td>溶剤(ラッカー、塗料)</td>
+                </tr>
+                <tr>
+                    <td>酢酸イソアミル</td>
+                    <td>CH₃COOC₅H₁₁</td>
+                    <td>バナナの香り</td>
+                    <td>香料(バナナエッセンス)</td>
+                </tr>
+                <tr>
+                    <td>酪酸エチル</td>
+                    <td>C₃H₇COOC₂H₅</td>
+                    <td>パイナップルの香り</td>
+                    <td>香料</td>
+                </tr>
+                <tr>
+                    <td>ギ酸エチル</td>
+                    <td>HCOOC₂H₅</td>
+                    <td>ラム酒様の香り</td>
+                    <td>香料、溶剤</td>
+                </tr>
+                <tr>
+                    <td>安息香酸メチル</td>
+                    <td>C₆H₅COOCH₃</td>
+                    <td>強い甘い香り</td>
+                    <td>香料</td>
+                </tr>
+                <tr>
+                    <td>サリチル酸メチル</td>
+                    <td>o-HOC₆H₄COOCH₃</td>
+                    <td>冬緑油の香り</td>
+                    <td>外用消炎鎮痛薬、香料</td>
+                </tr>
+                <tr>
+                    <td>フタル酸エステル</td>
+                    <td>C₆H₄(COOR)₂</td>
+                    <td>無臭</td>
+                    <td>可塑剤(プラスチックの柔軟性向上)</td>
+                </tr>
+                <tr>
+                    <td>メタクリル酸メチル</td>
+                    <td>CH₂=C(CH₃)COOCH₃</td>
+                    <td>刺激臭</td>
+                    <td>アクリル樹脂(有機ガラス)の原料</td>
+                </tr>
+                <tr>
+                    <td>テレフタル酸ジメチル</td>
+                    <td>p-C₆H₄(COOCH₃)₂</td>
+                    <td>無臭</td>
+                    <td>ポリエステル(PET)の原料</td>
+                </tr>
+            </table>
+            
+            <h3>5.2 エステルの用途まとめ</h3>
+            <ul>
+                <li><strong>溶剤:</strong> 酢酸エチル、酢酸ブチルなど(塗料、接着剤、インク、洗浄剤)</li>
+                <li><strong>香料:</strong> 果実様の香りを活かした食品香料、化粧品香料</li>
+                <li><strong>可塑剤:</strong> フタル酸エステル(ポリ塩化ビニルの柔軟性向上)</li>
+                <li><strong>高分子原料:</strong> メタクリル酸メチル(アクリル樹脂)、テレフタル酸ジメチル(ポリエステル)</li>
+                <li><strong>医薬品:</strong> サリチル酸メチル(外用消炎薬)、アスピリン(アセチルサリチル酸)もエステル結合を持つ</li>
+            </ul>
+        </section>
+
+        <section id="oils-fats">
+            <h2>6. 油脂とは</h2>
+            <p>油脂は、グリセリン(グリセロール)と高級脂肪酸とのエステル(トリグリセリド)の総称である。常温で液体のものを油、固体のものを脂肪と呼ぶ。</p>
+            <ul>
+                <li><strong>一般式:</strong> グリセリンの3つのOH基に脂肪酸がエステル結合した構造</li>
+                <li><strong>構成成分:</strong> グリセリン + 3分子の高級脂肪酸</li>
+                <li><strong>特徴:</strong> 疎水性で水に溶けない。加水分解でグリセリンと脂肪酸に分解される。</li>
+            </ul>
+            
+            <h3>6.1 油脂の構造</h3>
+            <ul class="quiz-list">
+                <li>油脂の一般式: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">CH₂-O-CO-R¹</span></span></li>
+                <li style="list-style: none; margin-left: 40px;"><span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">CH-O-CO-R²</span></span></li>
+                <li style="list-style: none; margin-left: 40px;"><span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">CH₂-O-CO-R³</span></span></li>
+                <li>R¹, R², R³は高級脂肪酸の炭化水素基(同じ場合も異なる場合もある)。</li>
+            </ul>
+        </section>
+
+        <section id="fatty-acids">
+            <h2>7. 高級脂肪酸</h2>
+            <p>油脂を構成する脂肪酸は、炭素数12〜20程度の長鎖カルボン酸である。</p>
+            
+            <h3>7.1 飽和脂肪酸(二重結合なし)</h3>
+            <table>
+                <tr>
+                    <th>名称</th>
+                    <th>炭素数</th>
+                    <th>化学式</th>
+                    <th>融点(℃)</th>
+                    <th>主な油脂</th>
+                </tr>
+                <tr>
+                    <td>ラウリン酸</td>
+                    <td>12</td>
+                    <td>C₁₁H₂₃COOH</td>
+                    <td>44</td>
+                    <td>ヤシ油、パーム核油</td>
+                </tr>
+                <tr>
+                    <td>ミリスチン酸</td>
+                    <td>14</td>
+                    <td>C₁₃H₂₇COOH</td>
+                    <td>54</td>
+                    <td>ナツメグ、ヤシ油</td>
+                </tr>
+                <tr>
+                    <td>パルミチン酸</td>
+                    <td>16</td>
+                    <td>C₁₅H₃₁COOH</td>
+                    <td>63</td>
+                    <td>パーム油、動物性脂肪</td>
+                </tr>
+                <tr>
+                    <td>ステアリン酸</td>
+                    <td>18</td>
+                    <td>C₁₇H₃₅COOH</td>
+                    <td>70</td>
+                    <td>牛脂、バター、カカオ脂</td>
+                </tr>
+                <tr>
+                    <td>アラキジン酸</td>
+                    <td>20</td>
+                    <td>C₁₉H₃₉COOH</td>
+                    <td>75</td>
+                    <td>ピーナッツ油</td>
+                </tr>
+            </table>
+            
+            <h3>7.2 不飽和脂肪酸(二重結合あり)</h3>
+            <table>
+                <tr>
+                    <th>名称</th>
+                    <th>炭素数</th>
+                    <th>二重結合数</th>
+                    <th>化学式</th>
+                    <th>融点(℃)</th>
+                    <th>主な油脂</th>
+                </tr>
+                <tr>
+                    <td>オレイン酸</td>
+                    <td>18</td>
+                    <td>1 (シス)</td>
+                    <td>C₁₇H₃₃COOH</td>
+                    <td>13</td>
+                    <td>オリーブ油、牛脂</td>
+                </tr>
+                <tr>
+                    <td>リノール酸</td>
+                    <td>18</td>
+                    <td>2 (シス,シス)</td>
+                    <td>C₁₇H₃₁COOH</td>
+                    <td>-5</td>
+                    <td>大豆油、コーン油</td>
+                </tr>
+                <tr>
+                    <td>α-リノレン酸</td>
+                    <td>18</td>
+                    <td>3 (シス,シス,シス)</td>
+                    <td>C₁₇H₂₉COOH</td>
+                    <td>-11</td>
+                    <td>アマニ油、エゴマ油</td>
+                </tr>
+                <tr>
+                    <td>エルカ酸</td>
+                    <td>22</td>
+                    <td>1</td>
+                    <td>C₂₁H₄₁COOH</td>
+                    <td>34</td>
+                    <td>菜種油</td>
+                </tr>
+            </table>
+            
+            <h3>7.3 必須脂肪酸</h3>
+            <ul>
+                <li>体内で合成できないため、食事から摂取する必要がある脂肪酸。</li>
+                <li>リノール酸、α-リノレン酸など。</li>
+            </ul>
+        </section>
+
+        <section id="oils-properties">
+            <h2>8. 油脂の物理的性質</h2>
+            
+            <h3>8.1 融点と状態</h3>
+            <ul>
+                <li>構成する脂肪酸の種類によって融点が異なる。</li>
+                <li><strong>飽和脂肪酸が多い:</strong> 融点が高く、常温で固体(脂肪)。例: 牛脂、バター</li>
+                <li><strong>不飽和脂肪酸が多い:</strong> 融点が低く、常温で液体(油)。例: オリーブ油、サラダ油</li>
+                <li>二重結合が多いほど融点が低くなる(シス型のため分子が折れ曲がり、密な充填ができない)。</li>
+            </ul>
+            
+            <h3>8.2 比重</h3>
+            <ul>
+                <li>油脂の比重は0.9〜0.95程度で、水より軽い。</li>
+            </ul>
+            
+            <h3>8.3 溶解性</h3>
+            <ul>
+                <li>水に溶けない。有機溶媒(エーテル、ベンゼン、クロロホルムなど)に溶ける。</li>
+            </ul>
+        </section>
+
+        <section id="oils-reactions">
+            <h2>9. 油脂の化学反応</h2>
+            
+            <h3>9.1 加水分解(鹸化)</h3>
+            <ul class="quiz-list">
+                <li>油脂を水酸化ナトリウムなどの塩基で加水分解すると、グリセリンと脂肪酸のナトリウム塩(石鹸)が生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">油脂 + 3NaOH → グリセリン + 3R-COONa</span></span></li>
+                <li>この反応を鹸化(けんか)という。生成した脂肪酸ナトリウムが石鹸の主成分。</li>
+                <li>酸加水分解では脂肪酸とグリセリンが得られる。</li>
+            </ul>
+            
+            <h3>9.2 硬化油の製造(水素添加)</h3>
+            <ul class="quiz-list">
+                <li>不飽和脂肪酸を含む油脂に水素を付加(ニッケル触媒)すると、二重結合が飽和され、融点が上昇する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">-CH=CH- + H₂ → -CH₂-CH₂-</span></span></li>
+                <li>これにより、液体油から固体脂(マーガリン、ショートニング)が製造される。</li>
+                <li>部分硬化ではトランス脂肪酸が生成することがある。</li>
+            </ul>
+            
+            <h3>9.3 乾性油の性質</h3>
+            <ul>
+                <li>空気中で酸化・重合して固化する性質を持つ油を乾性油という。</li>
+                <li>共役二重結合や多くの二重結合を持つ脂肪酸(リノール酸、リノレン酸など)を含む油脂が乾性を示す。</li>
+                <li>例: アマニ油、キリ油 → 塗料(ペンキ、ワニス)として利用。</li>
+            </ul>
+            
+            <h3>9.4 ヨウ素価</h3>
+            <ul class="quiz-list">
+                <li>油脂100gに付加するヨウ素のg数。不飽和度の指標。</li>
+                <li>ヨウ素価が高いほど不飽和脂肪酸が多い。</li>
+                <li>乾性油: ヨウ素価130以上(アマニ油など)</li>
+                <li>半乾性油: ヨウ素価100-130(大豆油など)</li>
+                <li>不乾性油: ヨウ素価100以下(オリーブ油など)</li>
+            </ul>
+            
+            <h3>9.5 けん化価</h3>
+            <ul class="quiz-list">
+                <li>油脂1gをけん化するのに必要な水酸化カリウムのmg数。</li>
+                <li>油脂の平均分子量の逆数に関係する(分子量が小さいほどけん化価は大きい)。</li>
+            </ul>
+            
+            <h3>9.6 酸価</h3>
+            <ul>
+                <li>油脂1g中の遊離脂肪酸を中和するのに必要な水酸化カリウムのmg数。</li>
+                <li>油脂の劣化度の指標。</li>
+            </ul>
+        </section>
+
+        <section id="soap">
+            <h2>10. 石鹸と洗剤</h2>
+            
+            <h3>10.1 石鹸の構造と性質</h3>
+            <ul>
+                <li>石鹸は高級脂肪酸のナトリウム塩(固体石鹸)またはカリウム塩(液体石鹸)。</li>
+                <li>分子構造: 長い炭化水素鎖(疎水性部分)と親水性のカルボキシラート基(-COO⁻)からなる。</li>
+                <li>この構造により、界面活性作用を示す(親水基と疎水基を持つ)。</li>
+            </ul>
+            
+            <h3>10.2 石鹸の洗浄作用</h3>
+            <ul>
+                <li>水中で石鹸はミセルを形成し、疎水性部分が油汚れを取り囲み、親水性部分が外側に向くことで、油滴を水中に分散させる(乳化)。</li>
+                <li>これにより、水に溶けない油汚れが洗い流せるようになる。</li>
+            </ul>
+            
+            <h3>10.3 石鹸の欠点</h3>
+            <ul>
+                <li>硬水中ではカルシウムイオンやマグネシウムイオンと反応して、水に溶けないスカム(金属石鹸)を生成する。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">2R-COONa + Ca²⁺ → (R-COO)₂Ca↓ + 2Na⁺</span></span></li>
+                <li>このため、硬水では洗浄力が低下する。</li>
+            </ul>
+            
+            <h3>10.4 合成洗剤</h3>
+            <ul>
+                <li>石油などを原料として合成された界面活性剤。</li>
+                <li><strong>アルキルベンゼンスルホン酸ナトリウム(ABS, LAS):</strong> 代表的な合成洗剤。硬水でもスカムを生じない。</li>
+                <li>生分解性の良いLAS(直鎖アルキルベンゼンスルホン酸ナトリウム)が現在は主流。</li>
+            </ul>
+            
+            <h3>10.5 石鹸と合成洗剤の比較</h3>
+            <table>
+                <tr>
+                    <th>項目</th>
+                    <th>石鹸</th>
+                    <th>合成洗剤</th>
+                </tr>
+                <tr>
+                    <td>原料</td>
+                    <td>天然油脂</td>
+                    <td>石油化学製品</td>
+                </tr>
+                <tr>
+                    <td>硬水中での性質</td>
+                    <td>スカムを生成(洗浄力低下)</td>
+                    <td>スカムを生成しない</td>
+                </tr>
+                <tr>
+                    <td>生分解性</td>
+                    <td>良い</td>
+                    <td>種類による(LASは良い)</td>
+                </tr>
+                <tr>
+                    <td>洗浄力</td>
+                    <td>弱アルカリ性で良い</td>
+                    <td>中性でも強い</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="important-oils">
+            <h2>11. 代表的な油脂</h2>
+            
+            <h3>11.1 植物性油脂</h3>
+            <table>
+                <tr>
+                    <th>名称</th>
+                    <th>主な脂肪酸</th>
+                    <th>特徴・用途</th>
+                </tr>
+                <tr>
+                    <td>オリーブ油</td>
+                    <td>オレイン酸(多い)</td>
+                    <td>不乾性油。サラダ油、調理用</td>
+                </tr>
+                <tr>
+                    <td>大豆油</td>
+                    <td>リノール酸、オレイン酸</td>
+                    <td>半乾性油。サラダ油、マーガリン原料</td>
+                </tr>
+                <tr>
+                    <td>菜種油(キャノーラ油)</td>
+                    <td>オレイン酸、リノール酸</td>
+                    <td>半乾性油。サラダ油、調理用</td>
+                </tr>
+                <tr>
+                    <td>コーン油</td>
+                    <td>リノール酸</td>
+                    <td>半乾性油。サラダ油</td>
+                </tr>
+                <tr>
+                    <td>アマニ油</td>
+                    <td>α-リノレン酸</td>
+                    <td>乾性油。塗料、ワニス</td>
+                </tr>
+                <tr>
+                    <td>キリ油</td>
+                    <td>エレオステアリン酸</td>
+                    <td>乾性油。塗料、ワニス</td>
+                </tr>
+                <tr>
+                    <td>ヤシ油</td>
+                    <td>ラウリン酸、ミリスチン酸</td>
+                    <td>飽和脂肪酸多い。石鹸原料</td>
+                </tr>
+                <tr>
+                    <td>パーム油</td>
+                    <td>パルミチン酸、オレイン酸</td>
+                    <td>飽和脂肪酸多い。マーガリン、石鹸原料</td>
+                </tr>
+                <tr>
+                    <td>カカオ脂</td>
+                    <td>ステアリン酸、パルミチン酸</td>
+                    <td>融点が体温付近。チョコレート原料</td>
+                </tr>
+            </table>
+            
+            <h3>11.2 動物性油脂</h3>
+            <table>
+                <tr>
+                    <th>名称</th>
+                    <th>主な脂肪酸</th>
+                    <th>特徴・用途</th>
+                </tr>
+                <tr>
+                    <td>牛脂</td>
+                    <td>パルミチン酸、ステアリン酸、オレイン酸</td>
+                    <td>脂肪。石鹸原料、食用</td>
+                </tr>
+                <tr>
+                    <td>豚脂(ラード)</td>
+                    <td>パルミチン酸、ステアリン酸、オレイン酸</td>
+                    <td>脂肪。食用、石鹸原料</td>
+                </tr>
+                <tr>
+                    <td>バター</td>
+                    <td>酪酸(特徴的)、パルミチン酸など</td>
+                    <td>乳脂肪。食用</td>
+                </tr>
+                <tr>
+                    <td>魚油</td>
+                    <td>エイコサペンタエン酸(EPA)、ドコサヘキサエン酸(DHA)</td>
+                    <td>高度不飽和脂肪酸を含む。健康食品</td>
+                </tr>
+                <tr>
+                    <td>鯨油</td>
+                    <td>不飽和脂肪酸</td>
+                    <td>かつては灯油、マーガリン原料(現在は商業捕鯨禁止)</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="oils-applications">
+            <h2>12. 油脂の応用・工業的利用</h2>
+            
+            <h3>12.1 食用</h3>
+            <ul>
+                <li>サラダ油、天ぷら油、バター、マーガリン、ショートニング</li>
+                <li>マヨネーズ、ドレッシング(乳化食品)</li>
+                <li>チョコレート(カカオ脂の性質を利用)</li>
+            </ul>
+            
+            <h3>12.2 石鹸・洗剤原料</h3>
+            <ul>
+                <li>鹸化による石鹸製造</li>
+                <li>高級アルコール(還元による) → 合成洗剤原料</li>
+            </ul>
+            
+            <h3>12.3 塗料・インク</h3>
+            <ul>
+                <li>乾性油(アマニ油、キリ油)はペンキ、ワニス、印刷インクの原料</li>
+            </ul>
+            
+            <h3>12.4 化粧品</h3>
+            <ul>
+                <li>クリーム、リップスティック、乳液などの基剤</li>
+            </ul>
+            
+            <h3>12.5 工業原料</h3>
+            <ul>
+                <li>グリセリン: 油脂の加水分解で得られる。医薬品、化粧品、食品添加物、ニトログリセリン(火薬・医薬)の原料</li>
+                <li>高級脂肪酸: ろうそく、潤滑剤、可塑剤</li>
+                <li>バイオディーゼル: 油脂とメタノールのエステル交換反応で製造</li>
+            </ul>
+        </section>
+
+        <section id="detection">
+            <h2>13. エステル・油脂の検出・確認方法</h2>
+            
+            <h3>13.1 エステルの確認</h3>
+            <ul>
+                <li><strong>香り:</strong> 低級エステルは果実様の香りを持つ。エステル化反応後の香りで確認できる。</li>
+                <li><strong>加水分解:</strong> 塩基性条件下で加水分解し、生成物を確認する。</li>
+            </ul>
+            
+            <h3>13.2 油脂の確認</h3>
+            <ul>
+                <li><strong>ヨウ素価の測定:</strong> 不飽和度の確認。</li>
+                <li><strong>けん化価の測定:</strong> 平均分子量の推定。</li>
+                <li><strong>アクロレイン試験:</strong> 油脂を硫酸水素カリウムと共に加熱すると、グリセリン由来のアクロレイン(刺激臭)が発生する。</li>
+            </ul>
+            
+            <h3>13.3 赤外吸収スペクトル(IR)</h3>
+            <ul>
+                <li>エステルのC=O伸縮振動: 1735-1750 cm⁻¹(カルボン酸より高波数)。</li>
+                <li>C-O伸縮振動: 1000-1300 cm⁻¹に特徴的な吸収。</li>
+            </ul>
+            
+            <h3>13.4 核磁気共鳴スペクトル(NMR)</h3>
+            <ul>
+                <li>¹H-NMR: エステルの-O-CH₃基は3.6-3.8 ppm、-O-CH₂-基は4.0-4.3 ppmにシグナル。</li>
+            </ul>
+        </section>
+
+        <section id="comparison">
+            <h2>14. 油脂の分類(乾性油・半乾性油・不乾性油)</h2>
+            <table>
+                <tr>
+                    <th>分類</th>
+                    <th>ヨウ素価</th>
+                    <th>特徴</th>
+                    <th>代表例</th>
+                </tr>
+                <tr>
+                    <td>乾性油</td>
+                    <td>130以上</td>
+                    <td>空気中で酸化重合して固化する。塗料に適する。</td>
+                    <td>アマニ油、キリ油、エゴマ油</td>
+                </tr>
+                <tr>
+                    <td>半乾性油</td>
+                    <td>100-130</td>
+                    <td>空気中で徐々に固まる。固化しにくい。</td>
+                    <td>大豆油、菜種油、綿実油</td>
+                </tr>
+                <tr>
+                    <td>不乾性油</td>
+                    <td>100以下</td>
+                    <td>空気中で固化しない。</td>
+                    <td>オリーブ油、ヤシ油、落花生油</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="nutrition">
+            <h2>15. 油脂と栄養</h2>
+            
+            <h3>15.1 脂肪酸の種類と健康</h3>
+            <ul>
+                <li><strong>飽和脂肪酸:</strong> 摂り過ぎると血中コレステロールを上昇させる(動脈硬化のリスク)。</li>
+                <li><strong>一価不飽和脂肪酸(オレイン酸):</strong> 善玉コレステロールを維持し、悪玉コレステロールを減らす(地中海食)。</li>
+                <li><strong>多価不飽和脂肪酸(リノール酸、α-リノレン酸):</strong> 必須脂肪酸。適量摂取が必要。</li>
+                <li><strong>トランス脂肪酸:</strong> 部分硬化油に含まれる。悪玉コレステロール増加、善玉コレステロール減少のリスク。</li>
+            </ul>
+            
+            <h3>15.2 必須脂肪酸</h3>
+            <ul>
+                <li>体内で合成できないため、食事から摂取する必要がある。</li>
+                <li>リノール酸(オメガ6系)、α-リノレン酸(オメガ3系)</li>
+                <li>これらのバランスが重要。</li>
+            </ul>
+            
+            <h3>15.3 油脂の酸化劣化</h3>
+            <ul>
+                <li>空気中の酸素により酸化され、過酸化物を生成→さらに分解して低分子化合物(臭いの原因)になる。</li>
+                <li>光、熱、金属イオンで促進される。</li>
+                <li>酸化防止剤(ビタミンE、BHTなど)が添加されることがある。</li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>16. 重要反応のまとめ(暗記用)</h2>
+            <ul class="quiz-list">
+                <li>エステル化反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">R-COOH + R'OH ⇄ R-COOR' + H₂O</span></span></li>
+                <li>エステルの酸加水分解: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">R-COOR' + H₂O → R-COOH + R'OH</span></span></li>
+                <li>エステルの鹸化(塩基加水分解): <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">R-COOR' + NaOH → R-COONa + R'OH</span></span></li>
+                <li>油脂の鹸化(石鹸製造): <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">油脂 + 3NaOH → グリセリン + 3R-COONa</span></span></li>
+                <li>硬化油の製造(水素添加): <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">-CH=CH- + H₂ → -CH₂-CH₂-</span></span></li>
+                <li>硬水での石鹸の反応(スカム生成): <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">2R-COONa + Ca²⁺ → (R-COO)₂Ca↓ + 2Na⁺</span></span></li>
+                <li>エステル交換反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">R-COOR' + R''OH ⇄ R-COOR'' + R'OH</span></span></li>
+            </ul>
+        </section>
+
+        <section id="exercises">
+            <h2>17. 確認問題</h2>
+            <ol style="list-style-type: decimal; padding-left: 20px;">
+                <li>酢酸とエタノールから酢酸エチルを合成する反応式を示し、反応条件を述べよ。</li>
+                <li>油脂の鹸化について、反応式を用いて説明せよ。また、生成物の名称と用途を述べよ。</li>
+                <li>硬化油とは何か。その製造法と目的を説明せよ。</li>
+                <li>石鹸の洗浄作用を、界面活性剤の構造と関連付けて説明せよ。</li>
+                <li>硬水で石鹸を使用したときの問題点と、その化学反応式を示せ。</li>
+                <li>乾性油、半乾性油、不乾性油の違いを、ヨウ素価と関連付けて説明せよ。</li>
+                <li>次のエステルの香りと用途を答えよ: (a)酢酸イソアミル (b)酪酸エチル (c)サリチル酸メチル</li>
+                <li>油脂を構成する高級脂肪酸のうち、飽和脂肪酸と不飽和脂肪酸をそれぞれ2つずつ挙げ、その特徴を述べよ。</li>
+                <li>エステル交換反応とは何か。バイオディーゼル製造における利用を説明せよ。</li>
+                <li>必須脂肪酸とは何か。具体例を挙げて説明せよ。</li>
+            </ol>
+        </section>
+        
+        <div class="nav-links" style="margin-top: 40px;">
+            <a href="#" class="nav-link">← カルボン酸</a>
+            <span style="color: #6c757d;">次のページ 索引 →</span>
+        </div>
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
