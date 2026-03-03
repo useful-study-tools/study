@@ -1,0 +1,591 @@
+{
+  "words": [
+    {
+      "number": 369,
+      "word": "humility",
+      "pos": "名詞",
+      "meaning": "謙虚、謙遜",
+      "nuance": "自分の能力や地位を誇示せず、控えめであるという徳性を指します。卑下するのではなく、高ぶらないというポジティブな意味合いが強いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He accepted the award with great humility.",
+              "ja": "彼は非常に謙虚な態度でその賞を受け取った。",
+              "highlight": "humility"
+            },
+            {
+              "en": "True greatness is often accompanied by humility.",
+              "ja": "真の偉大さには、しばしば謙虚さが伴うものである。",
+              "highlight": "humility"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 humilis（低い、地面の）",
+      "synonyms": [
+        {"word": "modesty", "trans": "控えめさ"},
+        {"word": "meekness", "trans": "従順さ、柔和"},
+        {"word": "lowliness", "trans": "卑下、謙遜"}
+      ],
+      "antonyms": [
+        {"word": "pride", "trans": "傲慢、プライド"},
+        {"word": "arrogance", "trans": "尊大さ"},
+        {"word": "vanity", "trans": "虚栄心"}
+      ],
+      "related": [
+        {"word": "humble", "trans": "形容詞：謙虚な"},
+        {"word": "humiliate", "trans": "動詞：〜に恥をかかせる"}
+      ]
+    },
+    {
+      "number": 370,
+      "word": "confident",
+      "pos": "形容詞",
+      "meaning": "自信がある、確信している",
+      "nuance": "自分の能力を信じている状態、またはある事柄が正しいと強く信じている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She is a confident speaker who handles pressure well.",
+              "ja": "彼女はプレッシャーをうまくこなす、自信に満ちた話し手だ。",
+              "highlight": "confident"
+            },
+            {
+              "en": "I am confident that we will win the game.",
+              "ja": "私たちは試合に勝つと確信している。",
+              "highlight": "confident"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 confidere（強く信じる）",
+      "synonyms": [
+        {"word": "assured", "trans": "確信した"},
+        {"word": "certain", "trans": "確実な"},
+        {"word": "positive", "trans": "確信を持って"}
+      ],
+      "antonyms": [
+        {"word": "diffident", "trans": "自信のない、内気な"},
+        {"word": "insecure", "trans": "不安な"},
+        {"word": "doubtful", "trans": "疑わしい"}
+      ],
+      "related": [
+        {"word": "confidence", "trans": "名詞：自信"},
+        {"word": "confide", "trans": "動詞：信頼して打ち明ける"}
+      ]
+    },
+    {
+      "number": "370-2",
+      "word": "confidence",
+      "pos": "名詞",
+      "meaning": "自信、信頼、秘密",
+      "nuance": "自分への信頼（自信）だけでなく、他者への「信頼」、さらには「秘密（打ち明け話）」という意味も持ちます。",
+      "example_sections": [
+        {
+          "title": "例文（自信・信頼）",
+          "examples": [
+            {
+              "en": "His performance boosted the team's confidence.",
+              "ja": "彼のパフォーマンスはチームの自信を高めた。",
+              "highlight": "confidence"
+            }
+          ]
+        },
+        {
+          "title": "例文（秘密）",
+          "examples": [
+            {
+              "en": "She told me the news in strict confidence.",
+              "ja": "彼女は厳重な秘密としてそのニュースを教えてくれた。",
+              "highlight": "confidence"
+            }
+          ]
+        }
+      ],
+      "etymology": "confident と同語源",
+      "synonyms": [
+        {"word": "self-assurance", "trans": "自信"},
+        {"word": "trust", "trans": "信頼"},
+        {"word": "secret", "trans": "秘密"}
+      ],
+      "antonyms": [
+        {"word": "distrust", "trans": "不信"},
+        {"word": "doubt", "trans": "疑い"}
+      ],
+      "related": []
+    },
+    {
+      "number": "370-3",
+      "word": "confidential",
+      "pos": "形容詞",
+      "meaning": "機密の、秘密の、親任の",
+      "nuance": "外部に漏らしてはいけない公的な機密事項や、プライベートな秘密を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "These documents contain highly confidential information.",
+              "ja": "これらの書類には極めて機密性の高い情報が含まれている。",
+              "highlight": "confidential"
+            },
+            {
+              "en": "He works as a confidential advisor to the president.",
+              "ja": "彼は大統領の親任の（腹心の）顧問として働いている。",
+              "highlight": "confidential"
+            }
+          ]
+        }
+      ],
+      "etymology": "confidence + ial",
+      "synonyms": [
+        {"word": "secret", "trans": "秘密の"},
+        {"word": "private", "trans": "私的な"},
+        {"word": "classified", "trans": "機密扱いの"}
+      ],
+      "antonyms": [
+        {"word": "public", "trans": "公の"},
+        {"word": "open", "trans": "開かれた"}
+      ],
+      "related": [
+        {"word": "confidentiality", "trans": "名詞：守秘義務"}
+      ]
+    },
+    {
+      "number": 371,
+      "word": "skeptical",
+      "pos": "形容詞",
+      "meaning": "懐疑的な、疑い深い",
+      "nuance": "物事をそのまま信じず、本当かどうか疑う態度を指します。批判的思考に近いニュアンスです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Many people are skeptical about the government's new plan.",
+              "ja": "多くの人々が政府の新計画に対して懐疑的だ。",
+              "highlight": "skeptical"
+            },
+            {
+              "en": "He gave me a skeptical look when I told him the story.",
+              "ja": "私がその話をすると、彼は疑わしそうな目を私に向けた。",
+              "highlight": "skeptical"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 skeptikos（よく見る、考える）",
+      "synonyms": [
+        {"word": "doubtful", "trans": "疑わしい"},
+        {"word": "dubious", "trans": "半信半疑の"},
+        {"word": "cynical", "trans": "冷笑的な、皮肉な"}
+      ],
+      "antonyms": [
+        {"word": "credulous", "trans": "信じやすい"},
+        {"word": "optimistic", "trans": "楽観的な"},
+        {"word": "trusting", "trans": "信じきっている"}
+      ],
+      "related": [
+        {"word": "skeptic", "trans": "名詞：懐疑論者"}
+      ]
+    },
+    {
+      "number": "371-2",
+      "word": "skeptic",
+      "pos": "名詞",
+      "meaning": "懐疑論者、疑い深い人",
+      "nuance": "一般的に信じられていることに対して疑問を呈する人を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "As a climate skeptic, he refuses to believe in global warming.",
+              "ja": "懐疑論者として、彼は地球温暖化を信じるのを拒んでいる。",
+              "highlight": "skeptic"
+            }
+          ]
+        }
+      ],
+      "etymology": "skeptical と同語源",
+      "synonyms": [
+        {"word": "doubter", "trans": "疑う人"},
+        {"word": "cynic", "trans": "皮肉屋"},
+        {"word": "disbeliever", "trans": "信じない人"}
+      ],
+      "antonyms": [
+        {"word": "believer", "trans": "信者"},
+        {"word": "disciple", "trans": "門下生、信奉者"}
+      ],
+      "related": []
+    },
+    {
+      "number": "371-3",
+      "word": "skepticism",
+      "pos": "名詞",
+      "meaning": "懐疑的な態度、懐疑論",
+      "nuance": "疑いを持つ心の状態や、哲学的な立場を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The proposal was met with deep skepticism from the board.",
+              "ja": "その提案は取締役会から強い懐疑の目で見られた。",
+              "highlight": "skepticism"
+            }
+          ]
+        }
+      ],
+      "etymology": "skeptical + ism",
+      "synonyms": [
+        {"word": "doubt", "trans": "疑い"},
+        {"word": "disbelief", "trans": "不信感"}
+      ],
+      "antonyms": [
+        {"word": "faith", "trans": "信頼、信仰"},
+        {"word": "conviction", "trans": "確信"}
+      ],
+      "related": []
+    },
+    {
+      "number": 372,
+      "word": "trustworthy",
+      "pos": "形容詞",
+      "meaning": "信頼できる、当てになる",
+      "nuance": "誠実で、期待を裏切らない、信頼するに値する性質を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We need a trustworthy person to manage the finances.",
+              "ja": "財務を管理するために、信頼できる人物が必要だ。",
+              "highlight": "trustworthy"
+            },
+            {
+              "en": "The source of the information is highly trustworthy.",
+              "ja": "その情報の出所は非常に信頼が置ける。",
+              "highlight": "trustworthy"
+            }
+          ]
+        }
+      ],
+      "etymology": "trust（信頼）+ worthy（価値がある）",
+      "synonyms": [
+        {"word": "reliable", "trans": "頼りになる"},
+        {"word": "dependable", "trans": "当てになる"},
+        {"word": "honest", "trans": "正直な"}
+      ],
+      "antonyms": [
+        {"word": "unreliable", "trans": "信頼できない"},
+        {"word": "deceitful", "trans": "人を欺く"},
+        {"word": "shady", "trans": "怪しい"}
+      ],
+      "related": [
+        {"word": "trust", "trans": "名詞/動詞：信頼（する）"},
+        {"word": "worthiness", "trans": "名詞：価値があること"}
+      ]
+    },
+    {
+      "number": 373,
+      "word": "modest",
+      "pos": "形容詞",
+      "meaning": "控えめな、謙虚な、（数量などが）わずかな",
+      "nuance": "自分の能力を誇らない「謙虚さ」のほか、価格や規模が「欲張っていない（中程度、控えめ）」という意味でもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（謙虚な）",
+          "examples": [
+            {
+              "en": "She is very modest about her achievements.",
+              "ja": "彼女は自分の成し遂げたことに対して非常に謙虚だ。",
+              "highlight": "modest"
+            }
+          ]
+        },
+        {
+          "title": "例文（わずかな・控えめな）",
+          "examples": [
+            {
+              "en": "They live in a modest house in the suburbs.",
+              "ja": "彼らは郊外の質素な（大きくない）家に住んでいる。",
+              "highlight": "modest"
+            },
+            {
+              "en": "The company reported a modest increase in profits.",
+              "ja": "会社は利益のわずかな増加を報告した。",
+              "highlight": "modest"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 modus（尺度、適度）",
+      "synonyms": [
+        {"word": "humble", "trans": "謙虚な"},
+        {"word": "moderate", "trans": "適度な"},
+        {"word": "unpretentious", "trans": "気取らない"}
+      ],
+      "antonyms": [
+        {"word": "boastful", "trans": "自慢げな"},
+        {"word": "extravagant", "trans": "派手な、法外な"},
+        {"word": "immense", "trans": "巨大な"}
+      ],
+      "related": [
+        {"word": "modesty", "trans": "名詞：謙遜"}
+      ]
+    },
+    {
+      "number": "373-2",
+      "word": "modesty",
+      "pos": "名詞",
+      "meaning": "謙遜、控えめさ、しとやかさ",
+      "nuance": "謙虚な態度や、振る舞いの上品さを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Her natural modesty prevents her from bragging.",
+              "ja": "彼女の生まれつきの控えめさが、彼女を自慢から遠ざけている。",
+              "highlight": "modesty"
+            }
+          ]
+        }
+      ],
+      "etymology": "modest と同語源",
+      "synonyms": [
+        {"word": "humility", "trans": "謙虚"},
+        {"word": "shyness", "trans": "内気"}
+      ],
+      "antonyms": [
+        {"word": "arrogance", "trans": "傲慢"},
+        {"word": "boldness", "trans": "大胆さ、図太さ"}
+      ],
+      "related": []
+    },
+    {
+      "number": 374,
+      "word": "humble",
+      "pos": "形容詞、動詞",
+      "meaning": "謙虚な、質素な、身分が低い、〜を謙虚にさせる",
+      "nuance": "humilityの形容詞。地位などが高くない（質素な）という意味もあり、動詞では鼻をへし折って「謙虚にさせる」という意味になります。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "In my humble opinion, we should wait.",
+              "ja": "私のつまらない（謙虚な）意見ですが、私たちは待つべきです。",
+              "highlight": "humble"
+            },
+            {
+              "en": "He came from a humble background.",
+              "ja": "彼は貧しい（身分の低い）家庭の出身だ。",
+              "highlight": "humble"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The defeat humbled the arrogant champion.",
+              "ja": "その敗北が、傲慢な王者を謙虚にさせた。",
+              "highlight": "humbled"
+            }
+          ]
+        }
+      ],
+      "etymology": "humility と同語源（地面に近い）",
+      "synonyms": [
+        {"word": "modest", "trans": "控えめな"},
+        {"word": "plain", "trans": "質素な"},
+        {"word": "lowly", "trans": "身分の低い"}
+      ],
+      "antonyms": [
+        {"word": "proud", "trans": "誇り高い"},
+        {"word": "noble", "trans": "高貴な"},
+        {"word": "haughty", "trans": "高慢な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 375,
+      "word": "frugal",
+      "pos": "形容詞",
+      "meaning": "質素な、節約する",
+      "nuance": "無駄を省き、慎ましく生活する様子。ポジティブな「賢い節約」のイメージです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He leads a frugal lifestyle to save money for his children's education.",
+              "ja": "彼は子供の教育費を貯めるために、質素な生活を送っている。",
+              "highlight": "frugal"
+            },
+            {
+              "en": "The dinner was frugal but delicious.",
+              "ja": "夕食は質素だったが、とても美味しかった。",
+              "highlight": "frugal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 frugalis（実りのある、節約の）",
+      "synonyms": [
+        {"word": "economical", "trans": "経済的な"},
+        {"word": "sparing", "trans": "切り詰めた"},
+        {"word": "thrifty", "trans": "倹約な"}
+      ],
+      "antonyms": [
+        {"word": "extravagant", "trans": "贅沢な"},
+        {"word": "wasteful", "trans": "無駄の多い"},
+        {"word": "lavish", "trans": "豪華な"}
+      ],
+      "related": [
+        {"word": "frugality", "trans": "名詞：倹約"}
+      ]
+    },
+    {
+      "number": 376,
+      "word": "thrifty",
+      "pos": "形容詞",
+      "meaning": "倹約な、やりくりのうまい",
+      "nuance": "frugalとほぼ同じですが、特にお金の管理をうまくして「繁栄（thrive）」を目指すという前向きな響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A thrifty housewife knows how to cut down on expenses.",
+              "ja": "やりくりのうまい主婦は、出費を削る方法を知っている。",
+              "highlight": "thrifty"
+            }
+          ]
+        }
+      ],
+      "etymology": "thrive（繁栄する）+ ty",
+      "synonyms": [
+        {"word": "frugal", "trans": "質素な"},
+        {"word": "prudent", "trans": "慎重な、賢明な"}
+      ],
+      "antonyms": [
+        {"word": "extravagant", "trans": "浪費する"},
+        {"word": "improvident", "trans": "先見の明のない、不経済な"}
+      ],
+      "related": [
+        {"word": "thrift", "trans": "名詞：倹約"},
+        {"word": "thrive", "trans": "動詞：繁栄する"}
+      ]
+    },
+    {
+      "number": 377,
+      "word": "stingy",
+      "pos": "形容詞",
+      "meaning": "けちな、出し惜しみする",
+      "nuance": "お金を出すべき時にも出さない、ネガティブな「ケチ」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Don't be so stingy with the tip.",
+              "ja": "チップをそんなに出し惜しみしないで。",
+              "highlight": "stingy"
+            },
+            {
+              "en": "He is stingy when it comes to helping others.",
+              "ja": "彼は他人を助けることとなるとケチになる。",
+              "highlight": "stingy"
+            }
+          ]
+        }
+      ],
+      "etymology": "古語 sting（刺す）に関連か？（不快な様子）",
+      "synonyms": [
+        {"word": "mean", "trans": "（英）けちな、意地悪な"},
+        {"word": "miserly", "trans": "守銭奴のような"},
+        {"word": "parsimonious", "trans": "極度にけちな（硬い語）"}
+      ],
+      "antonyms": [
+        {"word": "generous", "trans": "寛大な、気前の良い"},
+        {"word": "liberal", "trans": "気前の良い"},
+        {"word": "charitable", "trans": "慈善の心がある"}
+      ],
+      "related": []
+    },
+    {
+      "number": 378,
+      "word": "greedy",
+      "pos": "形容詞",
+      "meaning": "強欲な、貪欲な、食い意地の張った",
+      "nuance": "お金、力、食べ物などをもっともっと欲しがる飽くなき欲望を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The greedy businessman wanted to control the entire market.",
+              "ja": "その強欲な実業家は市場全体を支配したがっていた。",
+              "highlight": "greedy"
+            },
+            {
+              "en": "She is greedy for fame.",
+              "ja": "彼女は名声に飢えている（貪欲だ）。",
+              "highlight": "greedy"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 gredig（飢えた）",
+      "synonyms": [
+        {"word": "avaricious", "trans": "強欲な"},
+        {"word": "insatiable", "trans": "飽くなき"},
+        {"word": "covetous", "trans": "切望する"}
+      ],
+      "antonyms": [
+        {"word": "content", "trans": "満足している"},
+        {"word": "altruistic", "trans": "利他的な"},
+        {"word": "satisfied", "trans": "満ち足りた"}
+      ],
+      "related": [
+        {"word": "greed", "trans": "名詞：欲"}
+      ]
+    },
+    {
+      "number": "378-2",
+      "word": "greed",
+      "pos": "名詞",
+      "meaning": "強欲、どん欲",
+      "nuance": "必要以上のものを欲しがる利己的な欲望です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Corporate greed led to the financial crisis.",
+              "ja": "企業の強欲が金融危機を招いた。",
+              "highlight": "greed"
+            }
+          ]
+        }
+      ],
+      "etymology": "greedy の名詞形",
+      "synonyms": [
+        {"word": "avarice", "trans": "強欲"},
+        {"word": "cupidity", "trans": "物欲"}
+      ],
+      "antonyms": [
+        {"word": "generosity", "trans": "気前の良さ"},
+        {"word": "selflessness", "trans": "無私、献身"}
+      ],
+      "related": []
+    }
+  ]
+}
