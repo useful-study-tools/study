@@ -722,6 +722,664 @@
       ]
     },
     {
+      "number": 417,
+      "word": "defendant",
+      "pos": "名詞",
+      "meaning": "被告（人）",
+      "nuance": "民事訴訟で訴えられた側、または刑事裁判で起訴された側を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The defendant pleaded not guilty to all charges.",
+              "ja": "被告はすべての罪状に対して無罪を主張した。",
+              "highlight": "defendant"
+            },
+            {
+              "en": "The jury found the defendant liable for the damages.",
+              "ja": "陪審員団は被告に損害賠償の責任があると判断した。",
+              "highlight": "defendant"
+            }
+          ]
+        }
+      ],
+      "etymology": "defend（守る）+ ant（人）",
+      "synonyms": [
+        {"word": "accused", "trans": "被告人（刑事）"},
+        {"word": "respondent", "trans": "被告（民事）"}
+      ],
+      "antonyms": [
+        {"word": "plaintiff", "trans": "原告"},
+        {"word": "accuser", "trans": "告発者"}
+      ],
+      "related": [
+        {"word": "defense", "trans": "名詞：弁護、守備"}
+      ]
+    },
+    {
+      "number": "417-2",
+      "word": "plaintiff",
+      "pos": "名詞",
+      "meaning": "原告、起訴人",
+      "nuance": "主に民事裁判において、訴えを提起した側の当事者を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The plaintiff is seeking $1 million in damages.",
+              "ja": "原告は100万ドルの損害賠償を求めている。",
+              "highlight": "plaintiff"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 plainte（不平、苦情）",
+      "synonyms": [
+        {"word": "accuser", "trans": "告発者"},
+        {"word": "complainant", "trans": "告訴人"}
+      ],
+      "antonyms": [
+        {"word": "defendant", "trans": "被告"}
+      ],
+      "related": [
+        {"word": "complain", "trans": "動詞：不平を言う"}
+      ]
+    },
+    {
+      "number": 418,
+      "word": "attorney",
+      "pos": "名詞",
+      "meaning": "弁護士、代理人",
+      "nuance": "特にアメリカ英語で、法廷で代理人を務める資格のある専門家を指します。広く「代理人（attorney-in-fact）」を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She hired a prominent defense attorney for her trial.",
+              "ja": "彼女は裁判のために有名な弁理士（弁護士）を雇った。",
+              "highlight": "attorney"
+            },
+            {
+              "en": "He was granted power of attorney to sign the documents.",
+              "ja": "彼は書類に署名するための委任状（代理権）を与えられた。",
+              "highlight": "attorney"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 atorner（割り当てる、任命する）",
+      "synonyms": [
+        {"word": "lawyer", "trans": "弁護士"},
+        {"word": "counsel", "trans": "弁護人"},
+        {"word": "solicitor", "trans": "事務弁護士（英）"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "District Attorney", "trans": "地方検事"}
+      ]
+    },
+    {
+      "number": "418-2",
+      "word": "jury",
+      "pos": "名詞",
+      "meaning": "陪審（員団）、審査員団",
+      "nuance": "有罪・無罪や事実認定を判断するために選出された市民のグループです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The jury reached a unanimous verdict.",
+              "ja": "陪審員団は全員一致の評決に達した。",
+              "highlight": "jury"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 jurare（誓う）",
+      "synonyms": [
+        {"word": "panel", "trans": "陪審員名簿、選考委員会"},
+        {"word": "judges", "trans": "審査員（コンテスト等）"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "juror", "trans": "名詞：個々の陪審員"}
+      ]
+    },
+    {
+      "number": "418-3",
+      "word": "indictment",
+      "pos": "名詞",
+      "meaning": "（大陪審による）起訴、告発、非難のしるし",
+      "nuance": "検察が裁判所に提出する公式の起訴状、または社会的な欠陥を示す「象徴」としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The grand jury handed down an indictment for fraud.",
+              "ja": "大陪審は詐欺罪での起訴状を出した。",
+              "highlight": "indictment"
+            },
+            {
+              "en": "The state of our schools is a terrible indictment of the current government.",
+              "ja": "わが国の学校の現状は、現政府に対する恐ろしい非難の材料（告発）である。",
+              "highlight": "indictment"
+            }
+          ]
+        }
+      ],
+      "etymology": "indict の名詞形",
+      "synonyms": [
+        {"word": "charge", "trans": "告発"},
+        {"word": "accusation", "trans": "非難"},
+        {"word": "prosecution", "trans": "起訴"}
+      ],
+      "antonyms": [
+        {"word": "acquittal", "trans": "無罪放免"},
+        {"word": "exoneration", "trans": "潔白の証明"}
+      ],
+      "related": []
+    },
+    {
+      "number": "418-4",
+      "word": "indict",
+      "pos": "動詞",
+      "meaning": "〜を起訴する、〜を告発する",
+      "nuance": "公式に罪を問い、裁判にかけることを決定すること。発音は /ɪnˈdaɪt/（インダイト）である点に注意。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was indicted on charges of corruption.",
+              "ja": "彼は汚職の罪で起訴された。",
+              "highlight": "indicted"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（向かって）+ dicere（言う）",
+      "synonyms": [
+        {"word": "charge", "trans": "告発する"},
+        {"word": "accuse", "trans": "責める"},
+        {"word": "prosecute", "trans": "訴追する"}
+      ],
+      "antonyms": [
+        {"word": "acquit", "trans": "無罪にする"},
+        {"word": "exonerate", "trans": "免責する"}
+      ],
+      "related": []
+    },
+    {
+      "number": "418-5",
+      "word": "prosecution",
+      "pos": "名詞",
+      "meaning": "起訴、訴追、検察側、遂行",
+      "nuance": "刑事事件で罪を追及するプロセス、または法廷における「検察側」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The prosecution called its first witness to the stand.",
+              "ja": "検察側は最初の証人を証言台に呼んだ。",
+              "highlight": "prosecution"
+            },
+            {
+              "en": "The prosecution of the war continued for several years.",
+              "ja": "戦争の遂行（実行）は数年間続いた。",
+              "highlight": "prosecution"
+            }
+          ]
+        }
+      ],
+      "etymology": "pro（前へ）+ sequi（従う、追う）",
+      "synonyms": [
+        {"word": "indictment", "trans": "起訴"},
+        {"word": "pursuit", "trans": "追求、遂行"}
+      ],
+      "antonyms": [
+        {"word": "defense", "trans": "弁護側"}
+      ],
+      "related": [
+        {"word": "prosecutor", "trans": "名詞：検察官"}
+      ]
+    },
+    {
+      "number": "418-6",
+      "word": "prosecute",
+      "pos": "動詞",
+      "meaning": "〜を起訴する、〜を訴追する、〜を遂行する",
+      "nuance": "法律に従って刑事責任を追及することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Trespassers will be prosecuted.",
+              "ja": "不法侵入者は起訴されます（掲示板などでよく使われる表現）。",
+              "highlight": "prosecuted"
+            }
+          ]
+        }
+      ],
+      "etymology": "prosecution と同語源",
+      "synonyms": [
+        {"word": "indict", "trans": "起訴する"},
+        {"word": "sue", "trans": "（主に民事で）訴える"},
+        {"word": "carry out", "trans": "遂行する"}
+      ],
+      "antonyms": [
+        {"word": "defend", "trans": "弁護する"}
+      ],
+      "related": []
+    },
+    {
+      "number": "418-7",
+      "word": "prosecutor",
+      "pos": "名詞",
+      "meaning": "検察官、検事",
+      "nuance": "国家を代表して犯罪を起訴し、有罪を証明する公務員です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The prosecutor argued that the evidence was overwhelming.",
+              "ja": "検察官は証拠が圧倒的であると主張した。",
+              "highlight": "prosecutor"
+            }
+          ]
+        }
+      ],
+      "etymology": "prosecute + or（人）",
+      "synonyms": [
+        {"word": "District Attorney", "trans": "地方検事"},
+        {"word": "prosecuting attorney", "trans": "起訴検事"}
+      ],
+      "antonyms": [
+        {"word": "defense lawyer", "trans": "弁護士"}
+      ],
+      "related": []
+    },
+    {
+      "number": "418-8",
+      "word": "magistrate",
+      "pos": "名詞",
+      "meaning": "治安判事、行政官",
+      "nuance": "比較的軽微な事件を扱う裁判官、または下級の司法官を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He appeared before a magistrate to answer the charges.",
+              "ja": "彼は罪状に答えるために治安判事の前に出頭した。",
+              "highlight": "magistrate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 magister（修士、主人）",
+      "synonyms": [
+        {"word": "judge", "trans": "裁判官"},
+        {"word": "justice", "trans": "判事"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "majesty", "trans": "名詞：威厳"}
+      ]
+    },
+    {
+      "number": 419,
+      "word": "testimony",
+      "pos": "名詞",
+      "meaning": "証言、証拠",
+      "nuance": "法廷などで宣誓の上で行われる公式な発言、または事実を証明するものを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The witness provided crucial testimony during the trial.",
+              "ja": "証人は裁判中に決定的な証言を行った。",
+              "highlight": "testimony"
+            },
+            {
+              "en": "Her success is a testimony to her hard work.",
+              "ja": "彼女の成功は、彼女の努力の証（証拠）である。",
+              "highlight": "testimony"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 testis（証人）",
+      "synonyms": [
+        {"word": "evidence", "trans": "証拠"},
+        {"word": "deposition", "trans": "供述（録）"},
+        {"word": "proof", "trans": "証明"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "testify", "trans": "動詞：証言する"}
+      ]
+    },
+    {
+      "number": "419-2",
+      "word": "witness",
+      "pos": "名詞、動詞",
+      "meaning": "証人、目撃者、〜を目撃する、〜を証言する",
+      "nuance": "出来事を直接見た人、または法廷で話す人を指します。動詞では重大な出来事に出会うことも指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The police are looking for witnesses to the accident.",
+              "ja": "警察はその事故の目撃者を探している。",
+              "highlight": "witnesses"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The 20th century witnessed two world wars.",
+              "ja": "20世紀は2つの世界大戦を目撃した（が起きた）。",
+              "highlight": "witnessed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 wit（知恵、知ること）+ ness",
+      "synonyms": [
+        {"word": "onlooker", "trans": "傍観者"},
+        {"word": "observer", "trans": "観察者"},
+        {"word": "testify to", "trans": "〜を証言する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "eyewitness", "trans": "名詞：目撃者"}
+      ]
+    },
+    {
+      "number": 420,
+      "word": "summon",
+      "pos": "動詞",
+      "meaning": "〜を召喚する、〜を呼び出す、〜を奮い起こす",
+      "nuance": "権力によって公式に呼び出すこと、または勇気などを自分の中から引き出す際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was summoned to appear in court as a witness.",
+              "ja": "彼は証人として法廷に出頭するよう召喚された。",
+              "highlight": "summoned"
+            },
+            {
+              "en": "She managed to summon the courage to speak the truth.",
+              "ja": "彼女はどうにか勇気を振り絞って真実を話した。",
+              "highlight": "summon"
+            }
+          ]
+        }
+      ],
+      "etymology": "sub（下に）+ monere（警告する、注意を促す）",
+      "synonyms": [
+        {"word": "call", "trans": "呼ぶ"},
+        {"word": "subpoena", "trans": "召喚状を出す"},
+        {"word": "gather", "trans": "集める"}
+      ],
+      "antonyms": [
+        {"word": "dismiss", "trans": "解散させる"},
+        {"word": "ignore", "trans": "無視する"}
+      ],
+      "related": [
+        {"word": "summons", "trans": "名詞：召喚状"}
+      ]
+    },
+    {
+      "number": "420-2",
+      "word": "sentence",
+      "pos": "名詞、動詞",
+      "meaning": "判決、刑、文、〜に判決を下す",
+      "nuance": "裁判官が言い渡す最終的な罰を指します。日常的には「文章」の意味でおなじみです。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He is serving a five-year prison sentence.",
+              "ja": "彼は5年の禁固刑に服している。",
+              "highlight": "sentence"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The judge sentenced him to life in prison.",
+              "ja": "裁判官は彼に終身刑を言い渡した。",
+              "highlight": "sentenced"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sentire（感じる、思う）",
+      "synonyms": [
+        {"word": "judgment", "trans": "判決"},
+        {"word": "verdict", "trans": "評決"},
+        {"word": "punishment", "trans": "罰"}
+      ],
+      "antonyms": [
+        {"word": "acquittal", "trans": "無罪判決"}
+      ],
+      "related": []
+    },
+    {
+      "number": "420-3",
+      "word": "guilt",
+      "pos": "名詞",
+      "meaning": "罪、有罪、罪悪感",
+      "nuance": "法的な「有罪」という事実と、精神的な「申し訳ない」という感情の両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The prosecution failed to prove his guilt.",
+              "ja": "検察側は彼の有罪を証明できなかった。",
+              "highlight": "guilt"
+            },
+            {
+              "en": "He was overwhelmed by feelings of guilt.",
+              "ja": "彼は罪悪感に苛まれた。",
+              "highlight": "guilt"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 gylt（過ち、罪）",
+      "synonyms": [
+        {"word": "culpability", "trans": "有罪性"},
+        {"word": "remorse", "trans": "後悔、自責の念"}
+      ],
+      "antonyms": [
+        {"word": "innocence", "trans": "無実、潔白"}
+      ],
+      "related": [
+        {"word": "guilty", "trans": "形容詞：有罪の"}
+      ]
+    },
+    {
+      "number": "420-4",
+      "word": "innocence",
+      "pos": "名詞",
+      "meaning": "無実、潔白、純真",
+      "nuance": "罪を犯していない状態、または世間擦れしていない「純真さ」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He maintained his innocence throughout the trial.",
+              "ja": "彼は裁判の間ずっと無実を主張し続けた。",
+              "highlight": "innocence"
+            },
+            {
+              "en": "The child's innocence was charming.",
+              "ja": "その子の純真さは魅力的だった。",
+              "highlight": "innocence"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（否定）+ nocere（害する）→ 害のないこと",
+      "synonyms": [
+        {"word": "purity", "trans": "純粋"},
+        {"word": "guiltlessness", "trans": "無実"}
+      ],
+      "antonyms": [
+        {"word": "guilt", "trans": "有罪"},
+        {"word": "corruption", "trans": "堕落"}
+      ],
+      "related": [
+        {"word": "innocent", "trans": "形容詞：無実の、無邪気な"}
+      ]
+    },
+    {
+      "number": "420-5",
+      "word": "punishment",
+      "pos": "名詞",
+      "meaning": "罰、刑罰、懲らしめ",
+      "nuance": "過ちや犯罪に対して課される負の報いを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Capital punishment is still practiced in some countries.",
+              "ja": "死刑（資本罰）は今でも一部の国で行われている。",
+              "highlight": "punishment"
+            }
+          ]
+        }
+      ],
+      "etymology": "punish（罰する）+ ment",
+      "synonyms": [
+        {"word": "penalty", "trans": "刑罰、罰金"},
+        {"word": "discipline", "trans": "しつけ、規律"},
+        {"word": "sanction", "trans": "制裁"}
+      ],
+      "antonyms": [
+        {"word": "reward", "trans": "報酬"},
+        {"word": "pardon", "trans": "許し、特赦"}
+      ],
+      "related": [
+        {"word": "punish", "trans": "動詞：罰する"}
+      ]
+    },
+    {
+      "number": 421,
+      "word": "mediate",
+      "pos": "動詞",
+      "meaning": "調停する、仲裁する、〜を介在させる",
+      "nuance": "争っている二者の間に入って、合意を助けることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The UN tried to mediate between the two warring nations.",
+              "ja": "国連は交戦中の二国間の仲裁を試みた。",
+              "highlight": "mediate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 medius（真ん中の）",
+      "synonyms": [
+        {"word": "arbitrate", "trans": "裁定する、仲裁する"},
+        {"word": "intercede", "trans": "とりなす"},
+        {"word": "negotiate", "trans": "交渉する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "mediator", "trans": "名詞：仲裁人"},
+        {"word": "medium", "trans": "名詞：媒介物"}
+      ]
+    },
+    {
+      "number": "421-2",
+      "word": "mediation",
+      "pos": "名詞",
+      "meaning": "調停、仲裁、媒介",
+      "nuance": "裁判外で合意に達するための紛争解決プロセスを指すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The dispute was settled through mediation.",
+              "ja": "その紛争は調停を通じて解決した。",
+              "highlight": "mediation"
+            }
+          ]
+        }
+      ],
+      "etymology": "mediate の名詞形",
+      "synonyms": [
+        {"word": "arbitration", "trans": "仲裁"},
+        {"word": "reconciliation", "trans": "和解"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "421-3",
+      "word": "settlement",
+      "pos": "名詞",
+      "meaning": "和解、解決、合意、定住地",
+      "nuance": "裁判を途中でやめて合意に達すること、あるいは未開の地に住み着くことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The two sides reached an out-of-court settlement.",
+              "ja": "両者は示談（裁判外の和解）に至った。",
+              "highlight": "settlement"
+            },
+            {
+              "en": "Archaeologists found an ancient Viking settlement.",
+              "ja": "考古学者たちは古代バイキングの定住地を発見した。",
+              "highlight": "settlement"
+            }
+          ]
+        }
+      ],
+      "etymology": "settle（落ち着かせる）+ ment",
+      "synonyms": [
+        {"word": "agreement", "trans": "合意"},
+        {"word": "colony", "trans": "植民地、集落"},
+        {"word": "resolution", "trans": "解決"}
+      ],
+      "antonyms": [
+        {"word": "conflict", "trans": "紛争"},
+        {"word": "disagreement", "trans": "不一致"}
+      ],
+      "related": [
+        {"word": "settle", "trans": "動詞：解決する、定住する"}
+      ]
+    },
+    {
       "number": 422,
       "word": "degrade",
       "pos": "動詞",
