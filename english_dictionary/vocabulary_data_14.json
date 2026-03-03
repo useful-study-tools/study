@@ -1095,6 +1095,473 @@
       "related": [
         {"word": "stinger", "trans": "名詞：刺すもの（針）"}
       ]
+    },
+    {
+      "number": 386,
+      "word": "downfall",
+      "pos": "名詞",
+      "meaning": "（政府などの）転覆、没落、破滅、（突然の）大雨",
+      "nuance": "輝かしい地位や権力から一気に転落することを指します。原因となる「致命的な弱点」を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Greed was the primary cause of his downfall.",
+              "ja": "強欲が彼の没落の主な原因だった。",
+              "highlight": "downfall"
+            },
+            {
+              "en": "The empire's downfall began after the long war.",
+              "ja": "その帝国の滅亡（没落）は長い戦争の後に始まった。",
+              "highlight": "downfall"
+            }
+          ]
+        }
+      ],
+      "etymology": "down（下に）+ fall（落ちる）",
+      "synonyms": [
+        {"word": "ruin", "trans": "破滅"},
+        {"word": "collapse", "trans": "崩壊"},
+        {"word": "undoing", "trans": "失敗の原因、破滅"}
+      ],
+      "antonyms": [
+        {"word": "rise", "trans": "上昇、台頭"},
+        {"word": "success", "trans": "成功"},
+        {"word": "triumph", "trans": "勝利"}
+      ],
+      "related": []
+    },
+    {
+      "number": 387,
+      "word": "breakdown",
+      "pos": "名詞",
+      "meaning": "（機械の）故障、（交渉などの）決裂、（心身の）衰弱、内訳",
+      "nuance": "何かが機能しなくなる「停止」の状態や、詳しく「細分化」して説明する際の内訳を指します。",
+      "example_sections": [
+        {
+          "title": "例文（故障・決裂）",
+          "examples": [
+            {
+              "en": "A sudden breakdown of the heating system made the house freezing.",
+              "ja": "暖房システムの突然の故障で、家の中が凍えるほど寒くなった。",
+              "highlight": "breakdown"
+            },
+            {
+              "en": "There was a breakdown in communication between the two departments.",
+              "ja": "二つの部署の間でコミュニケーションの決裂（不通）があった。",
+              "highlight": "breakdown"
+            }
+          ]
+        },
+        {
+          "title": "例文（内訳）",
+          "examples": [
+            {
+              "en": "Can you give me a breakdown of the costs?",
+              "ja": "費用の内訳を教えてもらえますか？",
+              "highlight": "breakdown"
+            }
+          ]
+        }
+      ],
+      "etymology": "break（壊れる）+ down（完全に、下に）",
+      "synonyms": [
+        {"word": "failure", "trans": "失敗、故障"},
+        {"word": "analysis", "trans": "分析"},
+        {"word": "collapse", "trans": "崩壊"}
+      ],
+      "antonyms": [
+        {"word": "repair", "trans": "修理"},
+        {"word": "agreement", "trans": "合意"},
+        {"word": "recovery", "trans": "回復"}
+      ],
+      "related": [
+        {"word": "break down", "trans": "動詞：壊れる、詳しく説明する"}
+      ]
+    },
+    {
+      "number": 388,
+      "word": "inflate",
+      "pos": "動詞",
+      "meaning": "〜を膨らませる、〜を（誇張して）大きく見せる、インフレ（物価上昇）を起こさせる",
+      "nuance": "空気を入れて物理的に膨らませることや、価値や価格を吊り上げることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He inflated the tires before the long bike trip.",
+              "ja": "彼は長い自転車旅行の前にタイヤを膨らませた。",
+              "highlight": "inflated"
+            },
+            {
+              "en": "The author tends to inflate the importance of his own role.",
+              "ja": "その著者は自分の役割の重要性を誇張する傾向がある。",
+              "highlight": "inflate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in（中に）+ flare（吹く）",
+      "synonyms": [
+        {"word": "expand", "trans": "拡大する"},
+        {"word": "exaggerate", "trans": "誇張する"},
+        {"word": "swell", "trans": "膨らむ"}
+      ],
+      "antonyms": [
+        {"word": "deflate", "trans": "空気を抜く、しぼませる"},
+        {"word": "compress", "trans": "圧縮する"}
+      ],
+      "related": [
+        {"word": "inflation", "trans": "名詞：インフレ、膨張"}
+      ]
+    },
+    {
+      "number": "388-2",
+      "word": "inflation",
+      "pos": "名詞",
+      "meaning": "インフレーション、物価の上昇、膨張",
+      "nuance": "経済用語としての物価高騰や、空間・物体の広がりを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "High inflation has reduced the purchasing power of the dollar.",
+              "ja": "高いインフレがドルの購買力を低下させた。",
+              "highlight": "inflation"
+            }
+          ]
+        }
+      ],
+      "etymology": "inflate の名詞形",
+      "synonyms": [
+        {"word": "expansion", "trans": "拡大"},
+        {"word": "increase", "trans": "増加"}
+      ],
+      "antonyms": [
+        {"word": "deflation", "trans": "デフレ、収縮"}
+      ],
+      "related": []
+    },
+    {
+      "number": "388-3",
+      "word": "deflate",
+      "pos": "動詞",
+      "meaning": "〜の空気を抜く、〜を意気消沈させる、デフレ（物価下落）を起こさせる",
+      "nuance": "物理的にしぼむだけでなく、人の自信を失わせたり、誇張された話を否定したりする際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The balloon deflated slowly over a few days.",
+              "ja": "風船は数日かけてゆっくりとしぼんだ。",
+              "highlight": "deflated"
+            },
+            {
+              "en": "His sharp criticism deflated my confidence.",
+              "ja": "彼の鋭い批判が私の自信を奪った（しぼませた）。",
+              "highlight": "deflated"
+            }
+          ]
+        }
+      ],
+      "etymology": "de（離れて、反対）+ flare（吹く）",
+      "synonyms": [
+        {"word": "puncture", "trans": "穴をあける"},
+        {"word": "humble", "trans": "謙虚にさせる"},
+        {"word": "shrink", "trans": "縮む"}
+      ],
+      "antonyms": [
+        {"word": "inflate", "trans": "膨らませる"}
+      ],
+      "related": [
+        {"word": "deflation", "trans": "名詞：デフレ、収縮"}
+      ]
+    },
+    {
+      "number": "388-4",
+      "word": "deflation",
+      "pos": "名詞",
+      "meaning": "デフレーション、通貨収縮、収縮",
+      "nuance": "経済全体で物価が下がり続ける現象、または物体が縮むことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Deflation can lead to a decrease in consumer spending.",
+              "ja": "デフレは個人消費の減少につながる可能性がある。",
+              "highlight": "deflation"
+            }
+          ]
+        }
+      ],
+      "etymology": "deflate の名詞形",
+      "synonyms": [
+        {"word": "contraction", "trans": "収縮"},
+        {"word": "reduction", "trans": "削減"}
+      ],
+      "antonyms": [
+        {"word": "inflation", "trans": "インフレ"}
+      ],
+      "related": []
+    },
+    {
+      "number": 389,
+      "word": "swell",
+      "pos": "動詞、名詞",
+      "meaning": "膨らむ、腫れる、〜を増大させる、（波の）うねり、増大",
+      "nuance": "怪我で腫れる（物理）ことや、予算や人口が増える（抽象）ことを指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "My ankle began to swell after I tripped.",
+              "ja": "つまずいた後、足首が腫れ始めた。",
+              "highlight": "swell"
+            },
+            {
+              "en": "The crowd swelled to thousands as the protest continued.",
+              "ja": "抗議が続くにつれ、群衆は数千人にまで膨れ上がった。",
+              "highlight": "swelled"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 swellan（膨らむ）",
+      "synonyms": [
+        {"word": "expand", "trans": "拡大する"},
+        {"word": "bulge", "trans": "膨らむ、突き出る"},
+        {"word": "enlarge", "trans": "大きくする"}
+      ],
+      "antonyms": [
+        {"word": "shrink", "trans": "縮む"},
+        {"word": "contract", "trans": "収縮する"}
+      ],
+      "related": [
+        {"word": "swollen", "trans": "形容詞：腫れた"}
+      ]
+    },
+    {
+      "number": 390,
+      "word": "magnify",
+      "pos": "動詞",
+      "meaning": "〜を拡大する、〜を誇張する",
+      "nuance": "レンズなどで大きく見せること。また、問題などを実際より深刻に捉えたり語ったりすることも指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The microscope magnifies objects up to 1,000 times.",
+              "ja": "その顕微鏡は物体を1,000倍まで拡大する。",
+              "highlight": "magnifies"
+            },
+            {
+              "en": "Fear can magnify a small problem into a crisis.",
+              "ja": "恐怖は小さな問題を危機へと拡大させてしまうことがある。",
+              "highlight": "magnify"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 magnus（大きい）+ fy（〜にする）",
+      "synonyms": [
+        {"word": "enlarge", "trans": "拡大する"},
+        {"word": "amplify", "trans": "増幅する"},
+        {"word": "overstate", "trans": "大げさに言う"}
+      ],
+      "antonyms": [
+        {"word": "minimize", "trans": "最小限にする"},
+        {"word": "reduce", "trans": "縮小する"}
+      ],
+      "related": [
+        {"word": "magnificent", "trans": "形容詞：壮大な"},
+        {"word": "magnifying glass", "trans": "名詞：虫眼鏡"}
+      ]
+    },
+    {
+      "number": 391,
+      "word": "ego",
+      "pos": "名詞",
+      "meaning": "自我、自尊心、うぬぼれ",
+      "nuance": "自分自身に対する意識。特に「エゴが強い」と言う場合は、自信過剰や自己中心的な面を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Winning the prize was a great boost to his ego.",
+              "ja": "その賞を獲得したことは、彼の自尊心を大いに高めた。",
+              "highlight": "ego"
+            },
+            {
+              "en": "She has a huge ego and never listens to anyone else.",
+              "ja": "彼女は非常にうぬぼれが強く（自我が強く）、誰の意見も聞かない。",
+              "highlight": "ego"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ego（私）",
+      "synonyms": [
+        {"word": "self-esteem", "trans": "自尊心"},
+        {"word": "conceit", "trans": "うぬぼれ"},
+        {"word": "individuality", "trans": "個性"}
+      ],
+      "antonyms": [
+        {"word": "humility", "trans": "謙虚"},
+        {"word": "selflessness", "trans": "無私、献身"}
+      ],
+      "related": [
+        {"word": "egotistical", "trans": "形容詞：利己的な、うぬぼれた"}
+      ]
+    },
+    {
+      "number": 392,
+      "word": "civility",
+      "pos": "名詞",
+      "meaning": "丁寧さ、礼儀正しい行動（言葉）",
+      "nuance": "単なるマナーというより、社会生活を円滑にするための「最低限の礼儀」という響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They treated each other with civility despite their differences.",
+              "ja": "意見の相違はあったが、彼らはお互いに礼儀正しく接した。",
+              "highlight": "civility"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 civilis（市民の）",
+      "synonyms": [
+        {"word": "politeness", "trans": "丁寧さ"},
+        {"word": "courtesy", "trans": "礼儀"},
+        {"word": "decorum", "trans": "端正な振る舞い"}
+      ],
+      "antonyms": [
+        {"word": "rudeness", "trans": "無礼"},
+        {"word": "incivility", "trans": "不作法"},
+        {"word": "impoliteness", "trans": "失礼"}
+      ],
+      "related": [
+        {"word": "civil", "trans": "形容詞：市民の、礼儀正しい"}
+      ]
+    },
+    {
+      "number": 393,
+      "word": "courteous",
+      "pos": "形容詞",
+      "meaning": "礼儀正しい、丁寧な",
+      "nuance": "洗練された、思いやりのある礼儀正しさを指します（宮廷(court)にふさわしい態度が語源）。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The hotel staff were extremely courteous and helpful.",
+              "ja": "ホテルのスタッフは非常に礼儀正しく、親切だった。",
+              "highlight": "courteous"
+            }
+          ]
+        }
+      ],
+      "etymology": "court（宮廷）+ eous → 宮廷にふさわしい",
+      "synonyms": [
+        {"word": "polite", "trans": "丁寧な"},
+        {"word": "well-mannered", "trans": "行儀の良い"},
+        {"word": "civil", "trans": "礼儀正しい"}
+      ],
+      "antonyms": [
+        {"word": "rude", "trans": "失礼な"},
+        {"word": "discourteous", "trans": "無作法な"},
+        {"word": "abrupt", "trans": "ぶっきらぼうな"}
+      ],
+      "related": [
+        {"word": "courtesy", "trans": "名詞：礼儀"}
+      ]
+    },
+    {
+      "number": "393-2",
+      "word": "courtesy",
+      "pos": "名詞、形容詞",
+      "meaning": "礼儀、親切、優待、無料の",
+      "nuance": "マナーとしての礼儀のほか、ホテルなどの「無料送迎（courtesy bus）」のように「特別に親切で行う無料のサービス」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文（礼儀）",
+          "examples": [
+            {
+              "en": "He didn't even have the courtesy to say goodbye.",
+              "ja": "彼はさよならを言う礼儀（配慮）すら持ち合わせていなかった。",
+              "highlight": "courtesy"
+            }
+          ]
+        },
+        {
+          "title": "例文（無料・優待）",
+          "examples": [
+            {
+              "en": "The hotel provides a courtesy shuttle to the airport.",
+              "ja": "ホテルは空港までの無料シャトルバスを提供している。",
+              "highlight": "courtesy"
+            }
+          ]
+        }
+      ],
+      "etymology": "courteous と同語源",
+      "synonyms": [
+        {"word": "politeness", "trans": "丁寧"},
+        {"word": "favor", "trans": "親切な行為"},
+        {"word": "complimentary", "trans": "無料の、賞賛の"}
+      ],
+      "antonyms": [
+        {"word": "rudeness", "trans": "無礼"}
+      ],
+      "related": []
+    },
+    {
+      "number": 394,
+      "word": "decency",
+      "pos": "名詞",
+      "meaning": "良識、上品さ、きちんとしていること、品位",
+      "nuance": "社会的に「まとも」とされる最低限の道徳感や、ふさわしい振る舞いを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He didn't have the common decency to apologize.",
+              "ja": "彼には謝罪するという最低限の良識（マナー）もなかった。",
+              "highlight": "decency"
+            },
+            {
+              "en": "Her parents taught her the importance of decency and hard work.",
+              "ja": "両親は彼女に、品位と勤勉の重要性を教えた。",
+              "highlight": "decency"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 decet（ふさわしい）",
+      "synonyms": [
+        {"word": "properness", "trans": "適切さ"},
+        {"word": "modesty", "trans": "謙虚、慎み"},
+        {"word": "integrity", "trans": "誠実さ、品位"}
+      ],
+      "antonyms": [
+        {"word": "indecency", "trans": "下品、みだらさ"},
+        {"word": "vulgarity", "trans": "低俗、下品"}
+      ],
+      "related": [
+        {"word": "decent", "trans": "形容詞：きちんとした、まともな"}
+      ]
     }
   ]
 }
