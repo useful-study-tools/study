@@ -158,7 +158,7 @@ def generate_html():
 </div>
 
 <script>
-const GROUPED_CHAPTERS = {chapters_js};
+const GROUPED_CHAPTERS = {chapters_js}; 
 const JSON_FILES = {json_files_js};
 let ALL_WORDS = [];
 
