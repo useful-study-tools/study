@@ -127,6 +127,9 @@ def generate_html():
             <label class="group-label">2. 出題順序</label>
             <label style="margin-right:20px; cursor:pointer;"><input type="radio" name="orderType" value="random" checked> ランダム</label>
             <label style="cursor:pointer;"><input type="radio" name="orderType" value="sequential"> 番号順</label>
+            <label style="cursor:pointer; color: var(--danger); font-weight: bold;">
+            <input type="checkbox" id="basicOnly"> 基本語のみ出題
+            </label>
         </div>
 
         <div class="option-group">
