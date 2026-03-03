@@ -1,0 +1,728 @@
+{
+  "words": [
+    {
+      "number": 424,
+      "word": "misfortune",
+      "pos": "名詞",
+      "meaning": "不幸、不運、災難",
+      "nuance": "運が悪いこと、またはそれによってもたらされる具体的な災難を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He bore his misfortunes with great courage.",
+              "ja": "彼は大変な勇気をもって自らの不幸に耐えた。",
+              "highlight": "misfortunes"
+            },
+            {
+              "en": "It was her misfortune to be born into a poor family.",
+              "ja": "貧しい家庭に生まれたことは彼女の不運だった。",
+              "highlight": "misfortune"
+            }
+          ]
+        }
+      ],
+      "etymology": "mis（悪い）+ fortune（運）",
+      "synonyms": [
+        {"word": "adversity", "trans": "逆境"},
+        {"word": "bad luck", "trans": "不運"},
+        {"word": "calamity", "trans": "災難"}
+      ],
+      "antonyms": [
+        {"word": "fortune", "trans": "幸運"},
+        {"word": "blessing", "trans": "恵み"}
+      ],
+      "related": [
+        {"word": "fortunate", "trans": "形容詞：幸運な"}
+      ]
+    },
+    {
+      "number": "424-2",
+      "word": "fortune",
+      "pos": "名詞",
+      "meaning": "運、幸運、富、財産",
+      "nuance": "単なる「運」だけでなく、一生かかっても使い切れないような「巨万の富」を指す際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Fortune favors the bold.",
+              "ja": "運命は勇者に味方する（格言）。",
+              "highlight": "Fortune"
+            },
+            {
+              "en": "He made a fortune in the stock market.",
+              "ja": "彼は株式市場で一財産を築いた。",
+              "highlight": "fortune"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 fortuna（運、偶然）",
+      "synonyms": [
+        {"word": "luck", "trans": "運"},
+        {"word": "wealth", "trans": "富"},
+        {"word": "destiny", "trans": "運命"}
+      ],
+      "antonyms": [
+        {"word": "misfortune", "trans": "不運"},
+        {"word": "poverty", "trans": "貧困"}
+      ],
+      "related": [
+        {"word": "fortunate", "trans": "形容詞：運の良い"},
+        {"word": "unfortunate", "trans": "形容詞：不運な"}
+      ]
+    },
+    {
+      "number": "424-3",
+      "word": "fortunate",
+      "pos": "形容詞",
+      "meaning": "幸運な、運の良い、ありがたい",
+      "nuance": "望ましい状況に恵まれていることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I am fortunate to have such supportive friends.",
+              "ja": "そのような支え合える友人がいて、私は幸運だ。",
+              "highlight": "fortunate"
+            }
+          ]
+        }
+      ],
+      "etymology": "fortune + ate（形容詞語尾）",
+      "synonyms": [
+        {"word": "lucky", "trans": "運が良い"},
+        {"word": "favored", "trans": "恵まれた"},
+        {"word": "prosperous", "trans": "繁栄している"}
+      ],
+      "antonyms": [
+        {"word": "unfortunate", "trans": "不運な"},
+        {"word": "unlucky", "trans": "運が悪い"}
+      ],
+      "related": []
+    },
+    {
+      "number": 425,
+      "word": "doom",
+      "pos": "名詞、動詞",
+      "meaning": "（悲惨な）運命、破滅、死、〜を運命づける",
+      "nuance": "避けられない悪い結末、特に死や崩壊といった暗い運命を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The main character met his doom at the end of the movie.",
+              "ja": "主人公は映画の終盤で破滅（死）を迎えた。",
+              "highlight": "doom"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The plan was doomed to failure from the start.",
+              "ja": "その計画は最初から失敗する運命にあった。",
+              "highlight": "doomed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 dom（法、判断）",
+      "synonyms": [
+        {"word": "destiny", "trans": "運命（中立〜負）"},
+        {"word": "fate", "trans": "宿命"},
+        {"word": "ruin", "trans": "破滅"}
+      ],
+      "antonyms": [
+        {"word": "salvation", "trans": "救済"},
+        {"word": "hope", "trans": "希望"}
+      ],
+      "related": [
+        {"word": "Doomsday", "trans": "名詞：最後の審判の日、終末"}
+      ]
+    },
+    {
+      "number": 426,
+      "word": "lottery",
+      "pos": "名詞",
+      "meaning": "宝くじ、抽選、運任せの事柄",
+      "nuance": "ランダムに選ばれる仕組みや、予測不可能な運次第の状況を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He won the national lottery and became a millionaire.",
+              "ja": "彼は全国宝くじに当たり、大富豪になった。",
+              "highlight": "lottery"
+            },
+            {
+              "en": "Life is a bit of a lottery.",
+              "ja": "人生は少しばかり運任せなところがある。",
+              "highlight": "lottery"
+            }
+          ]
+        }
+      ],
+      "etymology": "lot（分け前、くじ）+ ery",
+      "synonyms": [
+        {"word": "raffle", "trans": "福引き"},
+        {"word": "draw", "trans": "抽選"},
+        {"word": "gamble", "trans": "賭け"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "lot", "trans": "名詞：くじ、運命、一区画の土地"}
+      ]
+    },
+    {
+      "number": 427,
+      "word": "overshadow",
+      "pos": "動詞",
+      "meaning": "〜に影を落とす、〜を曇らせる、〜を影の薄いものにする",
+      "nuance": "物理的に影にするだけでなく、悪い出来事が喜びを台無しにしたり、ある人が目立ちすぎて他人が目立たなくなる状況を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The joy of the victory was overshadowed by the captain's injury.",
+              "ja": "勝利の喜びはキャプテンの怪我によって曇らされた（影を落とされた）。",
+              "highlight": "overshadowed"
+            },
+            {
+              "en": "She was always overshadowed by her famous older sister.",
+              "ja": "彼女は常に有名な姉の陰に隠れて（影を薄くされて）いた。",
+              "highlight": "overshadowed"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（超えて）+ shadow（影）",
+      "synonyms": [
+        {"word": "eclipse", "trans": "〜を凌駕する、影を投げかける"},
+        {"word": "dim", "trans": "〜を暗くする"},
+        {"word": "dwarf", "trans": "〜を小さく見せる"}
+      ],
+      "antonyms": [
+        {"word": "highlight", "trans": "〜を際立たせる"},
+        {"word": "illuminate", "trans": "〜を照らす"}
+      ],
+      "related": []
+    },
+    {
+      "number": 428,
+      "word": "patronizing",
+      "pos": "形容詞",
+      "meaning": "恩着せがましい、見下すような",
+      "nuance": "相手を自分より低い立場だと決めつけ、親切を装いながら馬鹿にした態度を取る様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I find his patronizing tone very offensive.",
+              "ja": "彼の恩着せがましい（見下すような）口調は非常に不快だ。",
+              "highlight": "patronizing"
+            }
+          ]
+        }
+      ],
+      "etymology": "patronize の現在分詞形",
+      "synonyms": [
+        {"word": "condescending", "trans": "見下すような"},
+        {"word": "arrogant", "trans": "傲慢な"},
+        {"word": "snobbish", "trans": "お高い"}
+      ],
+      "antonyms": [
+        {"word": "humble", "trans": "謙虚な"},
+        {"word": "respectful", "trans": "敬意を払う"}
+      ],
+      "related": [
+        {"word": "patron", "trans": "名詞：後援者、顧客"}
+      ]
+    },
+    {
+      "number": "428-2",
+      "word": "patronize",
+      "pos": "動詞",
+      "meaning": "〜に恩着せがましい態度を取る、〜をひいきにする、〜の顧客になる",
+      "nuance": "「見下す」という悪い意味と、「店を利用する」という中立的な意味の二面性があります。",
+      "example_sections": [
+        {
+          "title": "例文（見下す）",
+          "examples": [
+            {
+              "en": "Don't patronize me; I know exactly what I'm doing.",
+              "ja": "馬鹿にしないで。自分が何をしているかは分かっているわ。",
+              "highlight": "patronize"
+            }
+          ]
+        },
+        {
+          "title": "例文（ひいきにする）",
+          "examples": [
+            {
+              "en": "The local library is patronized by many students.",
+              "ja": "その地元の図書館は多くの学生に利用されている（ひいきにされている）。",
+              "highlight": "patronized"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 patronus（守護者、父のような人）",
+      "synonyms": [
+        {"word": "talk down to", "trans": "〜を見下して話す"},
+        {"word": "support", "trans": "支持する"},
+        {"word": "frequent", "trans": "（店などに）しばしば通う"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 429,
+      "word": "boast",
+      "pos": "動詞、名詞",
+      "meaning": "自慢する、（場所などが〜を）誇りにしている、自慢話",
+      "nuance": "自分の能力などを鼻にかける様子。また、施設などが素晴らしい特徴を「備えている」という意味のポジティブな用法もあります。",
+      "example_sections": [
+        {
+          "title": "例文（自慢する）",
+          "examples": [
+            {
+              "en": "He is always boasting about how much money he earns.",
+              "ja": "彼はいつも自分がどれだけ稼いでいるかを自慢している。",
+              "highlight": "boasting"
+            }
+          ]
+        },
+        {
+          "title": "例文（備えている）",
+          "examples": [
+            {
+              "en": "The hotel boasts a beautiful view of the ocean.",
+              "ja": "そのホテルは美しい海の景色を誇っている（備えている）。",
+              "highlight": "boasts"
+            }
+          ]
+        }
+      ],
+      "etymology": "中英語 bosten（騒ぐ、自慢する）",
+      "synonyms": [
+        {"word": "brag", "trans": "自慢する（やや下品）"},
+        {"word": "show off", "trans": "見せびらかす"},
+        {"word": "pride oneself on", "trans": "〜を誇りに思う"}
+      ],
+      "antonyms": [
+        {"word": "be modest", "trans": "謙遜する"},
+        {"word": "belittle", "trans": "卑下する、軽んじる"}
+      ],
+      "related": [
+        {"word": "boastful", "trans": "形容詞：自慢げな"}
+      ]
+    },
+    {
+      "number": 430,
+      "word": "impatience",
+      "pos": "名詞",
+      "meaning": "短気、焦り、もどかしさ",
+      "nuance": "待つことができないこと、あるいは何かが起こるのを待ちきれない焦燥感を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He showed signs of impatience as the meeting dragged on.",
+              "ja": "会議が長引くにつれ、彼はイライラした（焦りの）様子を見せた。",
+              "highlight": "impatience"
+            }
+          ]
+        }
+      ],
+      "etymology": "im（否定）+ patience（忍耐）",
+      "synonyms": [
+        {"word": "restlessness", "trans": "落ち着きのなさ"},
+        {"word": "eagerness", "trans": "（待ちきれないほどの）熱望"},
+        {"word": "irritation", "trans": "いら立ち"}
+      ],
+      "antonyms": [
+        {"word": "patience", "trans": "忍耐"},
+        {"word": "endurance", "trans": "辛抱"}
+      ],
+      "related": [
+        {"word": "impatient", "trans": "形容詞：短気な"}
+      ]
+    },
+    {
+      "number": "430-2",
+      "word": "impatient",
+      "pos": "形容詞",
+      "meaning": "短気な、待ちきれない、いらいらしている",
+      "nuance": "遅れに対して怒っている状態や、楽しみで早くしたいと思っている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Don't be so impatient; the bus will be here soon.",
+              "ja": "そんなにイライラしないで。バスはすぐに来るから。",
+              "highlight": "impatient"
+            },
+            {
+              "en": "They were impatient to start their vacation.",
+              "ja": "彼らは休暇を始めるのが待ちきれなかった。",
+              "highlight": "impatient"
+            }
+          ]
+        }
+      ],
+      "etymology": "impatience の形容詞形",
+      "synonyms": [
+        {"word": "anxious", "trans": "切望して、不安な"},
+        {"word": "irritable", "trans": "怒りっぽい"},
+        {"word": "eager", "trans": "しきりに〜したがっている"}
+      ],
+      "antonyms": [
+        {"word": "patient", "trans": "忍耐強い"}
+      ],
+      "related": []
+    },
+    {
+      "number": "430-3",
+      "word": "patience",
+      "pos": "名詞",
+      "meaning": "忍耐、根気、我慢強さ",
+      "nuance": "困難な状況や遅れに対して、落ち着いて耐える能力を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Teaching children requires a lot of patience.",
+              "ja": "子供に教えるには多大な忍耐が必要だ。",
+              "highlight": "patience"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 pati（苦しむ、耐える）",
+      "synonyms": [
+        {"word": "forbearance", "trans": "自制、堪忍"},
+        {"word": "tolerance", "trans": "寛容"},
+        {"word": "perseverance", "trans": "根気"}
+      ],
+      "antonyms": [
+        {"word": "impatience", "trans": "短気"}
+      ],
+      "related": [
+        {"word": "patient", "trans": "形容詞/名詞：忍耐強い/患者"}
+      ]
+    },
+    {
+      "number": 431,
+      "word": "short-tempered",
+      "pos": "形容詞",
+      "meaning": "怒りっぽい、短気な",
+      "nuance": "すぐに怒り出す性格であることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is a short-tempered man who yells at his employees.",
+              "ja": "彼は従業員に怒鳴り散らす短気な男だ。",
+              "highlight": "short-tempered"
+            }
+          ]
+        }
+      ],
+      "etymology": "short（短い）+ tempered（気質の）",
+      "synonyms": [
+        {"word": "hot-headed", "trans": "せっかちな、激しやすい"},
+        {"word": "irascible", "trans": "怒りっぽい"},
+        {"word": "quick-tempered", "trans": "短気な"}
+      ],
+      "antonyms": [
+        {"word": "easy-going", "trans": "のんきな"},
+        {"word": "calm", "trans": "穏やかな"},
+        {"word": "placid", "trans": "落ち着いた"}
+      ],
+      "related": []
+    },
+    {
+      "number": "431-2",
+      "word": "temper",
+      "pos": "名詞、動詞",
+      "meaning": "気質、機嫌、怒り、〜を和らげる、〜を鍛える（鋼などを）",
+      "nuance": "心の状態を指すと同時に、強すぎるものを「適度に調整する（和らげる・鍛える）」という意味も持ちます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He has a violent temper.",
+              "ja": "彼は激しい気性（怒りっぽい性格）の持ち主だ。",
+              "highlight": "temper"
+            },
+            {
+              "en": "She was in a good temper this morning.",
+              "ja": "彼女は今朝、上機嫌だった。",
+              "highlight": "temper"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Justice should be tempered with mercy.",
+              "ja": "正義は慈悲によって和らげられるべきだ。",
+              "highlight": "tempered"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 temperare（混ぜ合わせる、調整する）",
+      "synonyms": [
+        {"word": "disposition", "trans": "気質"},
+        {"word": "mood", "trans": "気分"},
+        {"word": "moderate", "trans": "和らげる"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "temperament", "trans": "名詞：気質、気性"}
+      ]
+    },
+    {
+      "number": 432,
+      "word": "annoyance",
+      "pos": "名詞",
+      "meaning": "いら立ち、困惑、悩みの種",
+      "nuance": "わずらわしいことで少し怒っている感情、またはその原因となる物・人を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He bit his lip in annoyance.",
+              "ja": "彼はいら立ちのあまり唇を噛んだ。",
+              "highlight": "annoyance"
+            },
+            {
+              "en": "The mosquitoes were a constant annoyance during the trip.",
+              "ja": "旅行中、蚊が常に悩みの種だった。",
+              "highlight": "annoyance"
+            }
+          ]
+        }
+      ],
+      "etymology": "annoy（悩ませる）+ ance",
+      "synonyms": [
+        {"word": "irritation", "trans": "いら立ち"},
+        {"word": "nuisance", "trans": "迷惑なもの"},
+        {"word": "vexation", "trans": "いら立ち"}
+      ],
+      "antonyms": [
+        {"word": "pleasure", "trans": "喜び"},
+        {"word": "delight", "trans": "楽しみ"}
+      ],
+      "related": [
+        {"word": "annoy", "trans": "動詞：悩ませる、いらいらさせる"}
+      ]
+    },
+    {
+      "number": "432-2",
+      "word": "annoyed",
+      "pos": "形容詞",
+      "meaning": "いらいらした、腹を立てた",
+      "nuance": "何かのせいで不快な気分になっている状態です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I was annoyed by his constant complaining.",
+              "ja": "彼の絶え間ない不平に私はイライラした。",
+              "highlight": "annoyed"
+            }
+          ]
+        }
+      ],
+      "etymology": "annoy の過去分詞形",
+      "synonyms": [
+        {"word": "irritated", "trans": "いらついた"},
+        {"word": "bothered", "trans": "困惑した、悩まされた"},
+        {"word": "peeved", "trans": "じりじりした"}
+      ],
+      "antonyms": [
+        {"word": "pleased", "trans": "喜んだ"},
+        {"word": "satisfied", "trans": "満足した"}
+      ],
+      "related": []
+    },
+    {
+      "number": 433,
+      "word": "nuisance",
+      "pos": "名詞",
+      "meaning": "迷惑なもの（人）、やっかいなこと",
+      "nuance": "法律用語では「公害・不法妨害」を指すこともありますが、日常的には「めんどくさいこと、邪魔なもの」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It's a nuisance having to go all the way back home.",
+              "ja": "わざわざ家まで戻らなければならないのは厄介なことだ。",
+              "highlight": "nuisance"
+            },
+            {
+              "en": "Stop being a nuisance and let me work.",
+              "ja": "邪魔（迷惑）をしないで、仕事をさせてくれ。",
+              "highlight": "nuisance"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 nuire（害する）",
+      "synonyms": [
+        {"word": "bother", "trans": "悩みの種"},
+        {"word": "trouble", "trans": "困難、面倒"},
+        {"word": "inconvenience", "trans": "不便"}
+      ],
+      "antonyms": [
+        {"word": "blessing", "trans": "ありがたいもの"},
+        {"word": "help", "trans": "助け"}
+      ],
+      "related": []
+    },
+    {
+      "number": 434,
+      "word": "worthless",
+      "pos": "形容詞",
+      "meaning": "価値のない、役に立たない、卑劣な",
+      "nuance": "金銭的な価値がゼロであること、あるいは人としての品格が欠如していることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The stolen paintings were actually worthless copies.",
+              "ja": "盗まれた絵画は、実は価値のない複製品だった。",
+              "highlight": "worthless"
+            },
+            {
+              "en": "He felt worthless after losing his job.",
+              "ja": "仕事を失った後、彼は自分には価値がないと感じた。",
+              "highlight": "worthless"
+            }
+          ]
+        }
+      ],
+      "etymology": "worth（価値）+ less（ない）",
+      "synonyms": [
+        {"word": "useless", "trans": "役に立たない"},
+        {"word": "valueless", "trans": "無価値な"},
+        {"word": "insignificant", "trans": "取るに足らない"}
+      ],
+      "antonyms": [
+        {"word": "valuable", "trans": "価値のある"},
+        {"word": "precious", "trans": "貴重な"},
+        {"word": "worthy", "trans": "価値がある、立派な"}
+      ],
+      "related": []
+    },
+    {
+      "number": "434-2",
+      "word": "wicked",
+      "pos": "形容詞",
+      "meaning": "邪悪な、いたずらな、ひどい、最高な（口語）",
+      "nuance": "道徳的に非常に悪いことを指しますが、現代の若者言葉では「ヤバい（すごい）」というポジティブな意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（邪悪な）",
+          "examples": [
+            {
+              "en": "The story is about a wicked witch.",
+              "ja": "その物語は邪悪な魔女についてだ。",
+              "highlight": "wicked"
+            }
+          ]
+        },
+        {
+          "title": "例文（最高な）",
+          "examples": [
+            {
+              "en": "That guitar solo was wicked!",
+              "ja": "あのギターソロ、最高だった（ヤバかった）ぜ！",
+              "highlight": "wicked"
+            }
+          ]
+        }
+      ],
+      "etymology": "中英語 wicke（悪い）+ ed",
+      "synonyms": [
+        {"word": "evil", "trans": "邪悪な"},
+        {"word": "sinful", "trans": "罪深い"},
+        {"word": "mischievous", "trans": "いたずら好きな"}
+      ],
+      "antonyms": [
+        {"word": "virtuous", "trans": "徳の高い"},
+        {"word": "pious", "trans": "敬虔な"},
+        {"word": "righteous", "trans": "正義の"}
+      ],
+      "related": []
+    },
+    {
+      "number": "434-3",
+      "word": "foul",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "汚い、不快な、反則の、反則、〜を汚す",
+      "nuance": "悪臭がしたり、天気がひどかったり、スポーツで反則をしたりと「汚さ・不快さ・不正」を広く指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The air in the room was foul and stale.",
+              "ja": "部屋の空気は汚れ（悪臭がし）、よどんでいた。",
+              "highlight": "foul"
+            },
+            {
+              "en": "The referee called a foul on the defender.",
+              "ja": "レフェリーはディフェンダーにファウル（反則）を宣告した。",
+              "highlight": "foul"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Industrial waste has fouled the river.",
+              "ja": "産業廃棄物が川を汚した。",
+              "highlight": "fouled"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 ful（不潔な）",
+      "synonyms": [
+        {"word": "filthy", "trans": "不潔な"},
+        {"word": "nasty", "trans": "不快な"},
+        {"word": "unfair", "trans": "不正な"}
+      ],
+      "antonyms": [
+        {"word": "clean", "trans": "清潔な"},
+        {"word": "fair", "trans": "公正な"},
+        {"word": "pleasant", "trans": "心地よい"}
+      ],
+      "related": []
+    }
+  ]
+}
