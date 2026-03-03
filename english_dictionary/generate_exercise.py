@@ -214,6 +214,8 @@ let isFlipped = false;
 function startExercise() {{
     const selected = Array.from(document.querySelectorAll('input[name="chapters"]:checked')).map(cb => parseInt(cb.value));
     if(selected.length === 0) {{ alert("チャプターを選択してください"); return; }}
+
+    const basicOnly = document.getElementById('basicOnly').checked;
     
     let thresholds = Object.values(GROUPED_CHAPTERS).flat().map(ch => parseInt(ch.id)).sort((a,b)=>a-b);
 
