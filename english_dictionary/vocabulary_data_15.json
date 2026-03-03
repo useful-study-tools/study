@@ -1,7 +1,468 @@
 {
   "words": [
-    
-    
+    {
+      "number": 403,
+      "word": "tan",
+      "pos": "名詞、動詞、形容詞",
+      "meaning": "日焼け、小麦色の肌、日焼けする、〜を日焼けさせる、黄褐色の",
+      "nuance": "日光によって肌が茶色くなることを指します。ポジティブな意味での「小麦色の肌」として使われることが多いです。",
+      "example_sections": [
+        {
+          "title": "例文（名詞・形容詞）",
+          "examples": [
+            {
+              "en": "She has a beautiful tan after her vacation in Hawaii.",
+              "ja": "ハワイでの休暇の後、彼女は美しい日焼け（小麦色の肌）をしていた。",
+              "highlight": "tan"
+            },
+            {
+              "en": "He wore a tan summer suit to the party.",
+              "ja": "彼はパーティーに黄褐色の夏用スーツを着ていった。",
+              "highlight": "tan"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "My skin tans easily in the summer.",
+              "ja": "私の肌は夏になると日焼けしやすい。",
+              "highlight": "tans"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世ラテン語 tannare（皮をなめす）※皮を茶色くする工程から",
+      "synonyms": [
+        {"word": "sunburn", "trans": "日焼け（ひりひりする状態）"},
+        {"word": "brown", "trans": "茶色くする"},
+        {"word": "bronze", "trans": "青銅色にする"}
+      ],
+      "antonyms": [
+        {"word": "pale", "trans": "青白い"},
+        {"word": "fair", "trans": "（肌が）白い、明るい"}
+      ],
+      "related": [
+        {"word": "suntan", "trans": "名詞：日焼け"},
+        {"word": "tannin", "trans": "名詞：タンニン（渋み成分）"}
+      ]
+    },
+    {
+      "number": 404,
+      "word": "athletic",
+      "pos": "形容詞",
+      "meaning": "運動競技の、競技が得意な、たくましい",
+      "nuance": "スポーツに関連すること、あるいは身体が引き締まっていて運動能力が高い様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The school offers a wide range of athletic programs.",
+              "ja": "その学校は幅広い運動競技プログラムを提供している。",
+              "highlight": "athletic"
+            },
+            {
+              "en": "She has an athletic build because she swims every day.",
+              "ja": "彼女は毎日泳いでいるので、たくましい（スポーツ選手のような）体格をしている。",
+              "highlight": "athletic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 athlon（賞、競技）",
+      "synonyms": [
+        {"word": "sporty", "trans": "スポーツ好きの"},
+        {"word": "muscular", "trans": "筋肉質の"},
+        {"word": "fit", "trans": "健康で引き締まった"}
+      ],
+      "antonyms": [
+        {"word": "unathletic", "trans": "運動の苦手な"},
+        {"word": "weak", "trans": "弱い、虚弱な"}
+      ],
+      "related": [
+        {"word": "athletics", "trans": "名詞：運動競技、陸上競技"},
+        {"word": "athlete", "trans": "名詞：運動選手"}
+      ]
+    },
+    {
+      "number": "404-2",
+      "word": "athlete",
+      "pos": "名詞",
+      "meaning": "運動選手、アスリート、スポーツが得意な人",
+      "nuance": "プロ・アマ問わず、競技に参加する人や高い身体能力を持つ人を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is a natural athlete who excels at both soccer and tennis.",
+              "ja": "彼はサッカーもテニスも得意な、生まれついてのスポーツマンだ。",
+              "highlight": "athlete"
+            }
+          ]
+        }
+      ],
+      "etymology": "athletic と同語源",
+      "synonyms": [
+        {"word": "sportsman", "trans": "スポーツマン"},
+        {"word": "player", "trans": "選手"},
+        {"word": "competitor", "trans": "競技者"}
+      ],
+      "antonyms": [
+        {"word": "spectator", "trans": "観客"},
+        {"word": "non-athlete", "trans": "非競技者"}
+      ],
+      "related": []
+    },
+    {
+      "number": 405,
+      "word": "model",
+      "pos": "名詞、動詞、形容詞",
+      "meaning": "模型、手本、モデル、〜をモデル化する、〜を手本にする、模範的な",
+      "nuance": "形を模したもの（模型）だけでなく、人が真似るべき「理想像」や、服を見せる専門職などを幅広く指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "They built a scale model of the new airport.",
+              "ja": "彼らは新しい空港の縮尺模型を作った。",
+              "highlight": "model"
+            },
+            {
+              "en": "She is a role model for many young scientists.",
+              "ja": "彼女は多くの若い科学者にとっての手本（ロールモデル）だ。",
+              "highlight": "model"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞・形容詞）",
+          "examples": [
+            {
+              "en": "The design was modeled on a classic sports car.",
+              "ja": "そのデザインは古典的なスポーツカーをモデルにしていた。",
+              "highlight": "modeled"
+            },
+            {
+              "en": "He is a model student who never misses a class.",
+              "ja": "彼は一度も授業を休まない、模範的な学生だ。",
+              "highlight": "model"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 modulus（小さな尺度）",
+      "synonyms": [
+        {"word": "example", "trans": "手本"},
+        {"word": "replica", "trans": "複製"},
+        {"word": "prototype", "trans": "試作品"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "modeling", "trans": "名詞：模型製作、モデル業"}
+      ]
+    },
+    {
+      "number": "405-2",
+      "word": "mold",
+      "pos": "名詞、動詞",
+      "meaning": "型、鋳型、カビ、〜を型に入れて作る、〜を形成する",
+      "nuance": "物理的な「型」に流し込んで形を作るイメージから、子供の性格などを「形作る」際にも使われます。また「カビ」という意味も重要です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The jelly was poured into a star-shaped mold.",
+              "ja": "ゼリーは星型の型に流し込まれた。",
+              "highlight": "mold"
+            },
+            {
+              "en": "There was green mold growing on the bread.",
+              "ja": "パンに緑カビが生えていた。",
+              "highlight": "mold"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The experience helped mold his character.",
+              "ja": "その経験が彼の性格を形成する（作り上げる）のに役立った。",
+              "highlight": "mold"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 modulus（尺度）※modelと同根",
+      "synonyms": [
+        {"word": "shape", "trans": "形作る"},
+        {"word": "frame", "trans": "枠組み"},
+        {"word": "fungus", "trans": "菌類（カビ）"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "molding", "trans": "名詞：成形、繰り形"}
+      ]
+    },
+    {
+      "number": 406,
+      "word": "lively",
+      "pos": "形容詞",
+      "meaning": "元気な、活気のある、にぎやかな",
+      "nuance": "場所が活気に満ちている様子や、人の動作・性格が生き生きとしていることを表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The meeting ended with a lively discussion.",
+              "ja": "会議は活発な（熱のこもった）議論で幕を閉じた。",
+              "highlight": "lively"
+            },
+            {
+              "en": "She gave a lively performance on stage.",
+              "ja": "彼女はステージで生き生きとしたパフォーマンスを披露した。",
+              "highlight": "lively"
+            }
+          ]
+        }
+      ],
+      "etymology": "life + ly（〜のような）",
+      "synonyms": [
+        {"word": "energetic", "trans": "精力的な"},
+        {"word": "animated", "trans": "活気に満ちた"},
+        {"word": "vibrant", "trans": "響き渡る、活気のある"}
+      ],
+      "antonyms": [
+        {"word": "dull", "trans": "退屈な、どんよりした"},
+        {"word": "lifeless", "trans": "活気のない"},
+        {"word": "quiet", "trans": "静かな"}
+      ],
+      "related": [
+        {"word": "life", "trans": "名詞：命、生活"},
+        {"word": "alive", "trans": "形容詞：生きている"}
+      ]
+    },
+    {
+      "number": 407,
+      "word": "animate",
+      "pos": "動詞、形容詞",
+      "meaning": "〜を活気づける、〜をアニメにする、生命のある、生き生きとした",
+      "nuance": "命を吹き込む、あるいは動かなかったものを動かすというニュアンスです。形容詞（アニミット）の発音に注意。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "A smile suddenly animated her face.",
+              "ja": "微笑みが突然彼女の顔を活気づけた（パッと明るくした）。",
+              "highlight": "animated"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "We had a long discussion about animate versus inanimate objects.",
+              "ja": "私たちは生物（生命あるもの）対無生物について長い議論をした。",
+              "highlight": "animate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 anima（息、魂）",
+      "synonyms": [
+        {"word": "enliven", "trans": "活気づける"},
+        {"word": "inspire", "trans": "鼓舞する"},
+        {"word": "living", "trans": "生きている"}
+      ],
+      "antonyms": [
+        {"word": "inanimate", "trans": "無生物の、活気のない"},
+        {"word": "dead", "trans": "死んだ"}
+      ],
+      "related": [
+        {"word": "animation", "trans": "名詞：アニメーション、活気"},
+        {"word": "animal", "trans": "名詞：動物"}
+      ]
+    },
+    {
+      "number": 408,
+      "word": "lawsuit",
+      "pos": "名詞",
+      "meaning": "訴訟、裁判",
+      "nuance": "個人や団体が、民事上の争いを解決するために裁判所に提訴することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company filed a lawsuit against its former partner.",
+              "ja": "その会社は以前のパートナーに対して訴訟を起こした。",
+              "highlight": "lawsuit"
+            },
+            {
+              "en": "They settled the lawsuit out of court.",
+              "ja": "彼らはその訴訟を裁判外で和解させた。",
+              "highlight": "lawsuit"
+            }
+          ]
+        }
+      ],
+      "etymology": "law（法）+ suit（追求、一揃い）",
+      "synonyms": [
+        {"word": "litigation", "trans": "訴訟行為"},
+        {"word": "case", "trans": "案件、裁判"},
+        {"word": "action", "trans": "法的手段"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "suitor", "trans": "名詞：訴えを起こす人、求婚者"}
+      ]
+    },
+    {
+      "number": 409,
+      "word": "suit",
+      "pos": "名詞、動詞",
+      "meaning": "スーツ、訴訟、〜に似合う、〜に好都合である、〜を適合させる",
+      "nuance": "上下揃いの服から始まり、相手に「ぴったり合う（似合う・都合が良い）」、さらには法的に相手を「追い詰める（訴訟）」という意味まで広がっています。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He wore a dark blue suit for the interview.",
+              "ja": "彼は面接のために濃紺のスーツを着た。",
+              "highlight": "suit"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "That hairstyle really suits you.",
+              "ja": "その髪型、あなたに本当によく似合っているわ。",
+              "highlight": "suits"
+            },
+            {
+              "en": "Seven o'clock would suit me fine.",
+              "ja": "7時なら私には好都合です。",
+              "highlight": "suit"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sequi（続く、追う）※一連の服、一連の手続き",
+      "synonyms": [
+        {"word": "fit", "trans": "（サイズが）合う"},
+        {"word": "match", "trans": "調和する"},
+        {"word": "satisfy", "trans": "満足させる、満たす"}
+      ],
+      "antonyms": [
+        {"word": "clash", "trans": "衝突する、似合わない"}
+      ],
+      "related": [
+        {"word": "suitable", "trans": "形容詞：適した"},
+        {"word": "suitcase", "trans": "名詞：スーツケース"}
+      ]
+    },
+    {
+      "number": 410,
+      "word": "breakup",
+      "pos": "名詞",
+      "meaning": "破局、解散、別れ、分裂",
+      "nuance": "恋人同士の別れだけでなく、組織の解体や、氷が割れてバラバラになることなどにも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They decided to stay friends after their breakup.",
+              "ja": "彼らは破局した後も友達でいることに決めた。",
+              "highlight": "breakup"
+            },
+            {
+              "en": "The breakup of the Soviet Union changed global history.",
+              "ja": "ソビエト連邦の崩壊（分裂）は世界の歴史を変えた。",
+              "highlight": "breakup"
+            }
+          ]
+        }
+      ],
+      "etymology": "break（壊す）+ up（完全に）",
+      "synonyms": [
+        {"word": "split", "trans": "分裂、別れ"},
+        {"word": "separation", "trans": "分離"},
+        {"word": "dissolution", "trans": "解散、解消"}
+      ],
+      "antonyms": [
+        {"word": "union", "trans": "結合、同盟"},
+        {"word": "marriage", "trans": "結婚"},
+        {"word": "formation", "trans": "結成"}
+      ],
+      "related": [
+        {"word": "break up", "trans": "句動詞：別れる、バラバラにする"}
+      ]
+    },
+    {
+      "number": 411,
+      "word": "strain",
+      "pos": "名詞、動詞",
+      "meaning": "負担、緊張、過労、〜を痛める、〜を最大限に働かせる、〜を濾（こ）す",
+      "nuance": "紐をピンと引っ張るイメージです。精神的な「ストレス」や、筋肉を「違える（捻挫に近い）」、あるいは「濾し器で濾す」といった意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The long commute is putting a strain on my health.",
+              "ja": "長距離通勤が私の健康に負担をかけている。",
+              "highlight": "strain"
+            },
+            {
+              "en": "The bridge collapsed under the strain of heavy trucks.",
+              "ja": "その橋は大型トラックの重圧（過重）で崩落した。",
+              "highlight": "strain"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "I strained my back while lifting the heavy box.",
+              "ja": "重い箱を持ち上げた時に背中を痛めた。",
+              "highlight": "strained"
+            },
+            {
+              "en": "He strained his eyes to see the sign in the distance.",
+              "ja": "彼は遠くの看板を見ようと目を凝らした（目を酷使した）。",
+              "highlight": "strained"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 stringere（きつく締める）",
+      "synonyms": [
+        {"word": "pressure", "trans": "圧力"},
+        {"word": "stress", "trans": "ストレス"},
+        {"word": "filter", "trans": "濾す（動詞の意味）"}
+      ],
+      "antonyms": [
+        {"word": "relaxation", "trans": "緩和、リラックス"},
+        {"word": "ease", "trans": "楽にすること"}
+      ],
+      "related": [
+        {"word": "strained", "trans": "形容詞：緊張した、不自然な"},
+        {"word": "strainer", "trans": "名詞：水切り、濾し器"}
+      ]
+    },
     {
       "number": 422,
       "word": "degrade",
