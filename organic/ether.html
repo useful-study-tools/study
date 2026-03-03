@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>エーテル｜高校化学の有機化学</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">有機化学トップへ</a>
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← アルコール</a>
+        <a href="#" class="nav-link">アルデヒド →</a>
+    </div>
+    
+    <main>
+        <h1>エーテル</h1>
+        
+        <section id="introduction">
+            <h2>1. エーテルとは</h2>
+            <p>エーテルは、酸素原子を介して2つの炭化水素基が結合した化合物の総称である。一般式は R-O-R' で表され、RとR'はアルキル基またはアリール基を示す。</p>
+            <ul>
+                <li><strong>官能基:</strong> エーテル結合 (-O-)</li>
+                <li><strong>特徴:</strong> 極性を持つが、O-H結合がないため分子間水素結合を形成しない。このため、同分子量のアルコールより沸点が低い。</li>
+                <li><strong>命名法:</strong> 2つの炭化水素基をアルファベット順に並べ、「エーテル」をつける。
+                    <br>例：CH₃-O-CH₃ → ジメチルエーテル
+                    <br>CH₃-O-C₂H₅ → メチルエチルエーテル</li>
+                <li><strong>IUPAC命名法:</strong> アルコキシ基(RO-)として扱う。
+                    <br>例：CH₃-O-CH₃ → メトキシメタン
+                    <br>CH₃-O-C₂H₅ → メトキシエタン</li>
+            </ul>
+        </section>
+
+        <section id="classification">
+            <h2>2. エーテルの分類</h2>
+            
+            <h3>2.1 対称エーテルと非対称エーテル</h3>
+            <ul>
+                <li><strong>対称エーテル:</strong> R = R' (例: ジエチルエーテル C₂H₅-O-C₂H₅)</li>
+                <li><strong>非対称エーテル(混合エーテル):</strong> R ≠ R' (例: メチルエチルエーテル CH₃-O-C₂H₅)</li>
+            </ul>
+            
+            <h3>2.2 環状エーテル</h3>
+            <ul>
+                <li><strong>エポキシド(オキシラン):</strong> 3員環エーテル。反応性が高く、開環反応を起こしやすい。</li>
+                <li><strong>テトラヒドロフラン(THF):</strong> 5員環エーテル。広く溶媒として使用される。</li>
+                <li><strong>1,4-ジオキサン:</strong> 6員環で2つの酸素原子を持つエーテル。</li>
+            </ul>
+        </section>
+
+        <section id="physical-properties">
+            <h2>3. 物理的性質</h2>
+            
+            <h3>3.1 沸点</h3>
+            <ul>
+                <li>エーテルは分子間で水素結合を形成しないため、同じ分子量のアルコールよりも沸点が著しく低い。</li>
+                <li>例: ジエチルエーテル(C₂H₅OC₂H₅) 沸点34.6℃、対応するアルコール(ブタノール) 沸点117℃</li>
+                <li>分子量が増加すると沸点は上昇するが、アルコールとの差は大きい。</li>
+            </ul>
+            
+            <h3>3.2 溶解度</h3>
+            <ul>
+                <li>エーテルは極性を持つが、水素結合供与体ではないため、水への溶解度は限られる。</li>
+                <li>低分子量のエーテル(ジエチルエーテルなど)は水にやや溶ける(約6g/100mL水)。</li>
+                <li>多くの有機溶媒と混ざりやすく、優れた抽出溶媒として利用される。</li>
+            </ul>
+            
+            <h3>3.3 揮発性と引火性</h3>
+            <ul>
+                <li>エーテルは沸点が低く、非常に揮発性が高い。</li>
+                <li>引火性が極めて高く、空気と爆発性混合気を形成しやすいため、取り扱いに注意が必要。</li>
+                <li>ジエチルエーテルは長期間放置すると空気酸化されて過酸化物を生成し、濃縮時に爆発の危険がある。</li>
+            </ul>
+            
+            <h3>3.4 双極子モーメント</h3>
+            <ul>
+                <li>C-O-Cの結合角は約110°で、各C-O結合は極性を持つが、分子全体としてはある程度の双極子モーメントを示す。</li>
+                <li>例: ジメチルエーテルの双極子モーメント 1.30 D</li>
+            </ul>
+        </section>
+
+        <section id="preparation">
+            <h2>4. エーテルの製法</h2>
+            
+            <h3>4.1 アルコールの分子間脱水(ウィリアムソン合成以外)</h3>
+            <ul class="quiz-list">
+                <li>2分子のアルコールを濃硫酸と加熱(約130℃)すると、分子間脱水が起こりエーテルが生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">2ROH → R-O-R + H₂O</span></span></li>
+                <li>例(ジエチルエーテル): <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">2C₂H₅OH → C₂H₅-O-C₂H₅ + H₂O</span></span></li>
+                <li>この方法は対称エーテルの合成に限られる。温度が高すぎると(170℃以上)分子内脱水が起こりアルケンが生成する。</li>
+            </ul>
+            
+            <h3>4.2 ウィリアムソン合成</h3>
+            <ul class="quiz-list">
+                <li>アルコキシド(またはフェノキシド)とハロゲン化アルキルを反応させてエーテルを得る方法。</li>
+                <li>一般式: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">R-ONa + R'-X → R-O-R' + NaX</span></span></li>
+                <li>対称エーテル・非対称エーテルの両方の合成に適用できる。</li>
+                <li>例(メチルエチルエーテル): <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">CH₃ONa + C₂H₅Br → CH₃-O-C₂H₅ + NaBr</span></span></li>
+                <li>注意: 第三級ハロゲン化アルキルを用いると脱離反応が優先するため、第一級ハロゲン化アルキルを用いるのが一般的。</li>
+            </ul>
+            
+            <h3>4.3 アルケンへのアルコール付加</h3>
+            <ul class="quiz-list">
+                <li>酸触媒下でアルケンにアルコールを付加させるとエーテルが生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">R-CH=CH₂ + R'OH → R-CH(OR')-CH₃</span></span></li>
+                <li>マルコフニコフ則に従い、アルコキシ基はより置換度の高い炭素に結合する。</li>
+            </ul>
+        </section>
+
+        <section id="reactions">
+            <h2>5. エーテルの化学反応</h2>
+            <p>エーテルは比較的安定な化合物だが、いくつかの特徴的な反応を示す。</p>
+            
+            <h3>5.1 酸による開裂反応</h3>
+            <ul class="quiz-list">
+                <li>強酸(HI, HBrなど)と加熱すると、エーテル結合が開裂してハロゲン化アルキルとアルコールを生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">R-O-R' + HI → R-I + R'-OH</span></span></li>
+                <li>さらに過剰のHI存在下では、生成したアルコールもハロゲン化される。</li>
+                <li>反応機構: プロトン化されたエーテルに対するハロゲン化物イオンの求核置換反応(S_N1またはS_N2)。</li>
+                <li>反応性: HI > HBr > HCl (濃硫酸でも開裂可能)</li>
+            </ul>
+            
+            <h3>5.2 過酸化物の生成(自動酸化)</h3>
+            <ul class="quiz-list">
+                <li>エーテル(特にジエチルエーテル)は空気中の酸素と反応して、不安定な過酸化物を生成する。</li>
+                <li>生成物: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">R-O-O-R' などの過酸化物</span></span></li>
+                <li>過酸化物は加熱や衝撃で爆発する危険性があるため、エーテルは長期間保存せず、使用前に過酸化物の有無を確認する必要がある。</li>
+                <li>検出法: ヨウ化カリウムデンプン紙(過酸化物があるとI₂が生成し青変)。</li>
+                <li>防止法: 安定剤(BHTなど)の添加、遮光・低温保存。</li>
+            </ul>
+            
+            <h3>5.3 ルイス酸との錯形成</h3>
+            <ul class="quiz-list">
+                <li>エーテルの酸素原子は非共有電子対を持つため、ルイス酸と錯体を形成する。</li>
+                <li>例: BF₃とジエチルエーテルの錯体 <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">(C₂H₅)₂O: → BF₃</span></span></li>
+                <li>グリニャール試薬はエーテル溶媒中で調製・安定化される。これはエーテルがMg原子に配位して安定化するため。</li>
+            </ul>
+            
+            <h3>5.4 フェノール性エーテルの開裂</h3>
+            <ul class="quiz-list">
+                <li>アリールアルキルエーテル(例: アニソール CH₃-O-C₆H₅)をHIなどで処理すると、アルキル側が開裂してフェノールとヨウ化アルキルを生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">C₆H₅-O-CH₃ + HI → C₆H₅-OH + CH₃I</span></span></li>
+            </ul>
+            
+            <h3>5.5 クラウンエーテルの特性</h3>
+            <ul>
+                <li>クラウンエーテルは環状のエーテルで、特定の金属イオンを選択的に包接する性質を持つ。</li>
+                <li>相間移動触媒として、無機塩を有機溶媒に可溶化するのに利用される。</li>
+            </ul>
+        </section>
+
+        <section id="important-compounds">
+            <h2>6. 重要なエーテルとその性質</h2>
+            
+            <h3>6.1 ジエチルエーテル (C₂H₅-O-C₂H₅)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色透明の液体、特有の甘い香り、沸点34.6℃</li>
+                <li><strong>歴史的用途:</strong> 最初の全身麻酔薬として使用された(1846年)。現在は引火性・爆発性のためほとんど使われない。</li>
+                <li><strong>現在の用途:</strong> 実験室での抽出溶媒、グリニャール反応の溶媒</li>
+                <li><strong>注意点:</strong> 非常に揮発性が高く引火性が強い。過酸化物を生成しやすい。</li>
+            </ul>
+            
+            <h3>6.2 ジメチルエーテル (CH₃-O-CH₃)</h3>
+            <ul>
+                <li><strong>性状:</strong> 常温で無色の気体、沸点-24.8℃</li>
+                <li><strong>用途:</strong> 噴霧剤(スプレーの噴射剤)、クーラント、燃料</li>
+                <li>ディーゼル燃料の代替としても注目されている(セタン価が高い)。</li>
+            </ul>
+            
+            <h3>6.3 テトラヒドロフラン (THF, (CH₂)₄O)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色透明の液体、沸点66℃、水と混ざる</li>
+                <li><strong>構造:</strong> 5員環の環状エーテル</li>
+                <li><strong>用途:</strong> 優れた非プロトン性極性溶媒。多くの有機反応(グリニャール反応、水素化リチウムアルミニウム還元など)の溶媒として広く使用される。</li>
+            </ul>
+            
+            <h3>6.4 1,4-ジオキサン (C₄H₈O₂)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色透明の液体、沸点101℃、水と任意の割合で混ざる</li>
+                <li><strong>構造:</strong> 6員環に2つの酸素原子が向かい合って位置する</li>
+                <li><strong>用途:</strong> 溶媒、特に塩素化溶媒の安定剤</li>
+                <li><strong>毒性:</strong> 発がん性が疑われているため取り扱いに注意</li>
+            </ul>
+            
+            <h3>6.5 アニソール (メトキシベンゼン, C₆H₅-O-CH₃)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、芳香のある香り、沸点154℃</li>
+                <li><strong>用途:</strong> 香料、フェロモン、医薬品の中間体</li>
+            </ul>
+            
+            <h3>6.6 エポキシド(オキシラン)</h3>
+            <ul>
+                <li><strong>エチレンオキシド:</strong> 最も単純なエポキシド。殺菌剤、エチレングリコールの原料。</li>
+                <li>3員環のひずみが大きく、求核試薬と容易に開環反応を起こす。</li>
+            </ul>
+        </section>
+
+        <section id="identification">
+            <h2>7. エーテルの検出・確認方法</h2>
+            
+            <h3>7.1 物理的性質による確認</h3>
+            <ul>
+                <li>特有の甘い香り(ジエチルエーテルなど)</li>
+                <li>低沸点・揮発性</li>
+                <li>水との混和性が限られている</li>
+            </ul>
+            
+            <h3>7.2 過酸化物の検出</h3>
+            <ul>
+                <li>ヨウ化カリウムデンプン紙: 過酸化物があるとI⁻がI₂に酸化され、デンプンが青紫色に変色する。</li>
+                <li>硫酸鉄(II)チオシアン酸法: 過酸化物によってFe²⁺がFe³⁺に酸化され、チオシアン酸鉄の赤色を呈する。</li>
+            </ul>
+            
+            <h3>7.3 赤外吸収スペクトル(IR)</h3>
+            <ul>
+                <li>C-O-C 伸縮振動: 1000-1300 cm⁻¹ に特徴的な吸収(エーテル結合の存在を示す)。</li>
+                <li>アルコールのようなO-Hの幅広い吸収(3600-3200 cm⁻¹)がないことが特徴。</li>
+            </ul>
+            
+            <h3>7.4 核磁気共鳴スペクトル(NMR)</h3>
+            <ul>
+                <li>¹H-NMR: O-CH₃基のプロトンは3.3-4.0 ppmにシグナルを示す。</li>
+                <li>¹³C-NMR: O-CH₃基の炭素は50-70 ppmにシグナルを示す。</li>
+            </ul>
+            
+            <h3>7.5 化学的確認法</h3>
+            <ul>
+                <li>濃硫酸との反応: エーテルは濃硫酸に溶解する(プロトン化による)。</li>
+                <li>HIとの反応: 加熱するとハロゲン化アルキルを生成する(開裂反応)。生成物を確認することでエーテルの存在を間接的に確認できる。</li>
+            </ul>
+        </section>
+
+        <section id="applications">
+            <h2>8. エーテルの応用・工業的利用</h2>
+            
+            <h3>8.1 溶媒として</h3>
+            <ul>
+                <li>抽出溶媒: ジエチルエーテルは有機化合物の抽出に広く使用される(水と分離しやすく、沸点が低く除去しやすい)。</li>
+                <li>反応溶媒: THF、ジオキサン、ジエチルエーテルはグリニャール反応、水素化物還元など多くの有機反応の溶媒として使用される。</li>
+                <li>非プロトン性極性溶媒: THFやジオキサンは非プロトン性でありながら極性が高く、多くの反応に適する。</li>
+            </ul>
+            
+            <h3>8.2 麻酔薬</h3>
+            <ul>
+                <li>ジエチルエーテルは19世紀から20世紀半ばまで吸入麻酔薬として広く使用された。</li>
+                <li>現在は引火性・副作用のため、より安全な麻酔薬に取って代わられている。</li>
+            </ul>
+            
+            <h3>8.3 燃料・噴射剤</h3>
+            <ul>
+                <li>ジメチルエーテル: ディーゼル燃料の代替、噴霧剤(エアゾールスプレー)、冷媒として使用。</li>
+                <li>ジエチルエーテル: エンジンの始動補助剤(特に寒冷時)として使用されることがある。</li>
+            </ul>
+            
+            <h3>8.4 化学工業原料</h3>
+            <ul>
+                <li>エチレンオキシド: エチレングリコール(不凍液、ポリエステル原料)の製造原料。</li>
+                <li>MTBE(メチルtert-ブチルエーテル): ガソリンのオクタン価向上剤(環境問題から使用が制限されている地域もある)。</li>
+            </ul>
+            
+            <h3>8.5 相間移動触媒</h3>
+            <ul>
+                <li>クラウンエーテルは相間移動触媒として、無機塩を有機相に可溶化し、反応を促進する。</li>
+            </ul>
+        </section>
+
+        <section id="safety">
+            <h2>9. エーテルの危険性と取り扱い</h2>
+            
+            <h3>9.1 引火性・爆発性</h3>
+            <ul>
+                <li>ほとんどのエーテルは引火点が非常に低く(ジエチルエーテルは-45℃)、常温で蒸気を発しやすい。</li>
+                <li>空気と爆発性混合気を形成するため、火気厳禁・静電気対策が必要。</li>
+                <li>実験室ではドラフト内で使用し、炎・火花を避ける。</li>
+            </ul>
+            
+            <h3>9.2 過酸化物の危険性</h3>
+            <ul>
+                <li>エーテル(特にジエチルエーテル、THF、ジオキサン)は空気酸化されて過酸化物を生成する。</li>
+                <li>過酸化物は濃縮時(蒸留など)に爆発する危険性がある。</li>
+                <li>エーテルは長期間保存せず、開封後はできるだけ早く使用する。</li>
+                <li>過酸化物の確認: ヨウ化カリウムデンプン紙でチェックする。</li>
+                <li>過酸化物の除去: 還元剤(硫酸鉄(II)など)で処理するか、アルミナカラムを通す。</li>
+            </ul>
+            
+            <h3>9.3 健康への影響</h3>
+            <ul>
+                <li>エーテル蒸気の吸入: 麻酔作用、めまい、意識喪失。</li>
+                <li>皮膚からの吸収: 脱脂作用による皮膚炎。</li>
+                <li>長期的暴露: 健康影響が懸念されるため、適切な換気が必要。</li>
+            </ul>
+            
+            <h3>9.4 安全な取り扱い方法</h3>
+            <ul>
+                <li>遮光した気密容器に保存し、熱・炎・火花を避ける。</li>
+                <li>使用後は速やかに容器を密閉する。</li>
+                <li>廃棄は専門業者に委託する(過酸化物を含む可能性があるため)。</li>
+            </ul>
+        </section>
+
+        <section id="comparison">
+            <h2>10. アルコールとエーテルの比較</h2>
+            <table style="width:100%; border-collapse: collapse; margin:20px 0;">
+                <tr style="background-color:#007bff; color:white;">
+                    <th style="padding:8px; border:1px solid #ddd;">性質</th>
+                    <th style="padding:8px; border:1px solid #ddd;">アルコール</th>
+                    <th style="padding:8px; border:1px solid #ddd;">エーテル</th>
+                </tr>
+                <tr>
+                    <td style="padding:8px; border:1px solid #ddd;"><strong>官能基</strong></td>
+                    <td style="padding:8px; border:1px solid #ddd;">-OH</td>
+                    <td style="padding:8px; border:1px solid #ddd;">-O-</td>
+                </tr>
+                <tr>
+                    <td style="padding:8px; border:1px solid #ddd;"><strong>分子間水素結合</strong></td>
+                    <td style="padding:8px; border:1px solid #ddd;">あり</td>
+                    <td style="padding:8px; border:1px solid #ddd;">なし</td>
+                </tr>
+                <tr>
+                    <td style="padding:8px; border:1px solid #ddd;"><strong>沸点(同分子量)</strong></td>
+                    <td style="padding:8px; border:1px solid #ddd;">高い</td>
+                    <td style="padding:8px; border:1px solid #ddd;">低い</td>
+                </tr>
+                <tr>
+                    <td style="padding:8px; border:1px solid #ddd;"><strong>水溶性</strong></td>
+                    <td style="padding:8px; border:1px solid #ddd;">低級は任意混和</td>
+                    <td style="padding:8px; border:1px solid #ddd;">限られる</td>
+                </tr>
+                <tr>
+                    <td style="padding:8px; border:1px solid #ddd;"><strong>反応性</strong></td>
+                    <td style="padding:8px; border:1px solid #ddd;">多様な反応(酸化、エステル化など)</td>
+                    <td style="padding:8px; border:1px solid #ddd;">比較的不活性(酸開裂、過酸化物生成)</td>
+                </tr>
+                <tr>
+                    <td style="padding:8px; border:1px solid #ddd;"><strong>ナトリウムとの反応</strong></td>
+                    <td style="padding:8px; border:1px solid #ddd;">反応してH₂発生</td>
+                    <td style="padding:8px; border:1px solid #ddd;">反応しない</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="summary">
+            <h2>11. 重要反応のまとめ(暗記用)</h2>
+            <ul class="quiz-list">
+                <li>アルコールの分子間脱水(対称エーテル): <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">2ROH → R-O-R + H₂O</span></span></li>
+                <li>ウィリアムソン合成: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">R-ONa + R'-X → R-O-R' + NaX</span></span></li>
+                <li>エーテルの酸開裂: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">R-O-R' + HI → R-I + R'-OH</span></span></li>
+                <li>エーテルの過酸化物生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">R-O-R' + O₂ → 過酸化物</span></span></li>
+                <li>アニソールの開裂: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">C₆H₅-O-CH₃ + HI → C₆H₅-OH + CH₃I</span></span></li>
+            </ul>
+        </section>
+
+        <section id="exercises">
+            <h2>12. 確認問題</h2>
+            <ol style="list-style-type: decimal; padding-left: 20px;">
+                <li>ジエチルエーテルの沸点は34.6℃であり、同分子量のブタノール(117℃)よりはるかに低い。その理由を説明せよ。</li>
+                <li>エタノールからジエチルエーテルを合成する反応式を示し、反応条件(温度・触媒)を答えよ。</li>
+                <li>ウィリアムソン合成によってメチルエチルエーテルを合成する方法を、化学反応式で示せ。</li>
+                <li>エーテルを長期間保存する際の危険性と、その対策を述べよ。</li>
+                <li>ジエチルエーテルにヨウ化水素を加えて加熱したときの反応を化学反応式で示せ。</li>
+                <li>THF(テトラヒドロフラン)の構造式と主な用途を述べよ。</li>
+                <li>エーテルとアルコールの物理的性質の違いを3つ挙げよ。</li>
+                <li>エーテルの過酸化物を検出する方法を説明せよ。</li>
+            </ol>
+        </section>
+        
+        <div class="nav-links" style="margin-top: 40px;">
+            <a href="#" class="nav-link">← アルコール</a>
+            <a href="#" class="nav-link">アルデヒド →</a>
+        </div>
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
