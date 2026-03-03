@@ -464,6 +464,264 @@
       ]
     },
     {
+      "number": 412,
+      "word": "bankruptcy",
+      "pos": "名詞",
+      "meaning": "破産、倒産、破綻",
+      "nuance": "法的に支払不能と宣言される状態を指します。経済的な破綻だけでなく、「道徳的破綻(moral bankruptcy)」のように比喩的にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company filed for bankruptcy after years of losses.",
+              "ja": "数年にわたる赤字の後、その会社は破産を申請した。",
+              "highlight": "bankruptcy"
+            },
+            {
+              "en": "The war led the country to the brink of economic bankruptcy.",
+              "ja": "戦争はその国を経済的破綻の寸前まで追い込んだ。",
+              "highlight": "bankruptcy"
+            }
+          ]
+        }
+      ],
+      "etymology": "bank（銀行・机）+ rupt（壊れた）",
+      "synonyms": [
+        {"word": "insolvency", "trans": "支払い不能"},
+        {"word": "failure", "trans": "（事業の）失敗"},
+        {"word": "ruin", "trans": "破滅"}
+      ],
+      "antonyms": [
+        {"word": "solvency", "trans": "支払い能力があること"},
+        {"word": "prosperity", "trans": "繁栄"},
+        {"word": "wealth", "trans": "富"}
+      ],
+      "related": [
+        {"word": "bankrupt", "trans": "形容詞/動詞：破産した/破産させる"}
+      ]
+    },
+    {
+      "number": "412-2",
+      "word": "bankrupt",
+      "pos": "形容詞、動詞、名詞",
+      "meaning": "破産した、欠乏している、〜を破産させる、破産者",
+      "nuance": "形容詞として「お金がない」状態を指すほか、動詞として相手を「一文無しにする」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The city went bankrupt due to poor management.",
+              "ja": "その市は不適切な管理のために破産した。",
+              "highlight": "bankrupt"
+            },
+            {
+              "en": "He is morally bankrupt and cannot be trusted.",
+              "ja": "彼は道徳的に破綻しており、信用できない。",
+              "highlight": "bankrupt"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "High medical bills could bankrupt the family.",
+              "ja": "高額な医療費がその家族を破産させかねない。",
+              "highlight": "bankrupt"
+            }
+          ]
+        }
+      ],
+      "etymology": "bankruptcy と同語源",
+      "synonyms": [
+        {"word": "broke", "trans": "一文無しの（口語）"},
+        {"word": "penniless", "trans": "一文無しの"},
+        {"word": "impoverish", "trans": "貧困にする（動詞）"}
+      ],
+      "antonyms": [
+        {"word": "solvent", "trans": "支払い能力がある"},
+        {"word": "rich", "trans": "裕福な"},
+        {"word": "enrich", "trans": "豊かにする（動詞）"}
+      ],
+      "related": []
+    },
+    {
+      "number": 413,
+      "word": "asset",
+      "pos": "名詞",
+      "meaning": "資産、財産、強み、有利なもの",
+      "nuance": "現金や不動産などの「有形資産」だけでなく、才能や経験といった「無形の強み」を指す際にも非常に頻出します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Her ability to speak three languages is a major asset to the company.",
+              "ja": "3ヶ国語を話せる能力は、会社にとって大きな強み（資産）だ。",
+              "highlight": "asset"
+            },
+            {
+              "en": "The bank froze all of his assets during the investigation.",
+              "ja": "調査の間、銀行は彼の全資産を凍結した。",
+              "highlight": "assets"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 assez（十分な） ※負債を払うのに十分な財産",
+      "synonyms": [
+        {"word": "property", "trans": "財産"},
+        {"word": "advantage", "trans": "利点"},
+        {"word": "resource", "trans": "資源"}
+      ],
+      "antonyms": [
+        {"word": "liability", "trans": "負債、お荷物"},
+        {"word": "disadvantage", "trans": "不利な点"},
+        {"word": "debt", "trans": "借金"}
+      ],
+      "related": [
+        {"word": "fixed assets", "trans": "固定資産"}
+      ]
+    },
+    {
+      "number": 414,
+      "word": "deposit",
+      "pos": "名詞、動詞",
+      "meaning": "預金、手付金、堆積物、〜を置く、〜を預ける、〜を堆積させる",
+      "nuance": "「ある場所に何かを置いていく」というコアイメージがあります。銀行に金を置けば「預金」、川が砂を置けば「堆積」となります。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "We had to pay a one-month deposit for the apartment.",
+              "ja": "アパートのために1ヶ月分の保証金（手付金）を払わなければならなかった。",
+              "highlight": "deposit"
+            },
+            {
+              "en": "Rich mineral deposits were found in the mountains.",
+              "ja": "その山々で豊かな鉱物資源の堆積（埋蔵）が見つかった。",
+              "highlight": "deposits"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Please deposit your bags at the counter.",
+              "ja": "バッグはカウンターに預けて（置いて）ください。",
+              "highlight": "deposit"
+            },
+            {
+              "en": "I need to deposit this check into my savings account.",
+              "ja": "この小切手を普通預金口座に預け入れる必要がある。",
+              "highlight": "deposit"
+            }
+          ]
+        }
+      ],
+      "etymology": "de（下に）+ posit（置く）",
+      "synonyms": [
+        {"word": "savings", "trans": "蓄え"},
+        {"word": "down payment", "trans": "頭金"},
+        {"word": "accumulate", "trans": "蓄積させる"}
+      ],
+      "antonyms": [
+        {"word": "withdrawal", "trans": "引き出し（名詞）"},
+        {"word": "withdraw", "trans": "引き出す（動詞）"}
+      ],
+      "related": [
+        {"word": "depositor", "trans": "名詞：預金者"},
+        {"word": "deposition", "trans": "名詞：堆積、免職"}
+      ]
+    },
+    {
+      "number": 415,
+      "word": "stake",
+      "pos": "名詞、動詞",
+      "meaning": "利害関係、懸け金、杭（くい）、〜を賭ける、〜を杭で支える",
+      "nuance": "もともとは地面に打つ「杭」ですが、境界を示すことから「権利・所有」、さらに処刑柱や賭け事の的へと意味が広がりました。at stake（賭けられて＝危うくなって）は重要表現です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The company holds a 40% stake in the joint venture.",
+              "ja": "その会社は合弁事業の40%の利害（株）を持っている。",
+              "highlight": "stake"
+            },
+            {
+              "en": "Thousands of lives are at stake in this peace negotiation.",
+              "ja": "この和平交渉には数千人の命が懸かっている（危うくなっている）。",
+              "highlight": "at stake"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "He decided to stake all his savings on the new business.",
+              "ja": "彼は全貯金を新しいビジネスに賭けることに決めた。",
+              "highlight": "stake"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 staca（杭、棒）",
+      "synonyms": [
+        {"word": "interest", "trans": "利害、関心"},
+        {"word": "share", "trans": "分け前、株"},
+        {"word": "bet", "trans": "賭ける"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "stakeholder", "trans": "名詞：利害関係者"}
+      ]
+    },
+    {
+      "number": 416,
+      "word": "intact",
+      "pos": "形容詞",
+      "meaning": "損なわれていない、そのままの、完全な",
+      "nuance": "何かに触れられて（tact）いない、つまりダメージを受けずに元のままの状態を保っていることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Most of the city remained intact despite the heavy bombing.",
+              "ja": "激しい爆撃にもかかわらず、市の大部分は損なわれずに（無傷で）残った。",
+              "highlight": "intact"
+            },
+            {
+              "en": "He survived the accident with his sense of humor intact.",
+              "ja": "彼はユーモアのセンスを失わずに（そのままに）その事故を生き延びた。",
+              "highlight": "intact"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（否定）+ tactus（触れられた）",
+      "synonyms": [
+        {"word": "undamaged", "trans": "無傷の"},
+        {"word": "unharmed", "trans": "害を受けていない"},
+        {"word": "complete", "trans": "完全な"}
+      ],
+      "antonyms": [
+        {"word": "damaged", "trans": "損傷した"},
+        {"word": "broken", "trans": "壊れた"},
+        {"word": "incomplete", "trans": "不完全な"}
+      ],
+      "related": [
+        {"word": "tactile", "trans": "形容詞：触覚の"},
+        {"word": "contact", "trans": "名詞/動詞：接触"}
+      ]
+    },
+    {
       "number": 422,
       "word": "degrade",
       "pos": "動詞",
