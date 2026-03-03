@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ケトン｜高校化学の有機化学</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">有機化学トップへ</a>
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← アルデヒド</a>
+        <a href="#" class="nav-link">カルボン酸 →</a>
+    </div>
+    
+    <main>
+        <h1>ケトン</h1>
+        
+        <section id="introduction">
+            <h2>1. ケトンとは</h2>
+            <p>ケトンは、カルボニル基(C=O)に2つの炭化水素基が結合した構造を持つ有機化合物の総称である。</p>
+            <ul>
+                <li><strong>官能基:</strong> ケト基 (>C=O) またはカルボニル基</li>
+                <li><strong>一般式:</strong> R¹-CO-R² (R¹, R²はアルキル基またはアリール基)</li>
+                <li><strong>特徴:</strong> アルデヒドと異なり末端にないため、酸化されにくい。求核付加反応を示すが、アルデヒドより反応性は低い。</li>
+                <li><strong>命名法:</strong> 対応するアルカンの語尾「e」を「one」に変える。または、置換基として「オキソ」を用いる。
+                    <br>例：CH₃-CO-CH₃ → プロパノン(アセトン)
+                    <br>CH₃-CO-C₂H₅ → ブタノン(メチルエチルケトン, MEK)
+                    <br>C₆H₅-CO-CH₃ → アセトフェノン</li>
+            </ul>
+        </section>
+
+        <section id="structure">
+            <h2>2. 構造と結合</h2>
+            <ul>
+                <li><strong>カルボニル基の構造:</strong> C=Oは二重結合で、炭素はsp²混成軌道をとる。</li>
+                <li><strong>結合角:</strong> 約120°の平面構造。R¹-C-R²の結合角は約118°。</li>
+                <li><strong>分極:</strong> 酸素の電気陰性度が高いため、C=O結合は強く分極している(Cδ+ - Oδ-)。</li>
+                <li><strong>双極子モーメント:</strong> アセトンで約2.9 D。</li>
+                <li><strong>共鳴:</strong> カルボニル基は双性イオン構造の共鳴寄与を持つ。</li>
+            </ul>
+        </section>
+
+        <section id="physical-properties">
+            <h2>3. 物理的性質</h2>
+            
+            <h3>3.1 沸点</h3>
+            <ul>
+                <li>ケトンは分子間水素結合を持たないが、双極子-双極子相互作用により、同分子量の炭化水素やエーテルより沸点が高い。</li>
+                <li>しかし、水素結合を持つアルコールよりは沸点が低い。</li>
+                <li>例: アセトン(CH₃COCH₃) 沸点56.1℃、対応するアルコール(プロパノール) 沸点97℃</li>
+                <li>低級ケトン(アセトンなど)は揮発性の液体。</li>
+            </ul>
+            
+            <h3>3.2 溶解度</h3>
+            <ul>
+                <li>低級ケトン(アセトン、メチルエチルケトンなど)は水と任意の割合で混ざる。</li>
+                <li>これは、カルボニル基の酸素が水と水素結合を形成できるため。</li>
+                <li>炭素数が増えると疎水性部分が大きくなり、水への溶解度は低下する。</li>
+            </ul>
+            
+            <h3>3.3 臭い</h3>
+            <ul>
+                <li>低級ケトンは特有の甘い香りを持つ(アセトン: 甘い刺激臭)。</li>
+                <li>中級ケトンは果実様の香りを持ち、香料として利用される。</li>
+            </ul>
+        </section>
+
+        <section id="preparation">
+            <h2>4. ケトンの製法</h2>
+            
+            <h3>4.1 第二級アルコールの酸化</h3>
+            <ul class="quiz-list">
+                <li>第二級アルコールを酸化するとケトンが得られる。第一級アルコールと異なり、過剰酸化されにくい。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">R¹-CH(OH)-R² + [O] → R¹-CO-R² + H₂O</span></span></li>
+                <li>酸化剤: 二クロム酸カリウム(K₂Cr₂O₇/H⁺)、過マンガン酸カリウム(KMnO₄)、PCCなど</li>
+                <li>例(2-プロパノールの酸化): <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">CH₃-CH(OH)-CH₃ + [O] → CH₃-CO-CH₃ + H₂O</span></span></li>
+            </ul>
+            
+            <h3>4.2 アルキンの水和</h3>
+            <ul class="quiz-list">
+                <li>末端アルキンを水和させるとメチルケトンが得られる(水銀(II)塩触媒、希硫酸)。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">RC≡CH + H₂O → R-CO-CH₃</span></span></li>
+                <li>内部アルキンの場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">RC≡CR' + H₂O → R-CO-CH₂R' と R'-CO-CH₂R の混合物</span></span></li>
+                <li>機構: エノールを経由する互変異性でケトンとなる。</li>
+            </ul>
+            
+            <h3>4.3 オゾン分解</h3>
+            <ul class="quiz-list">
+                <li>アルケンのオゾン分解によってケトンが得られることがある。</li>
+                <li>例: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">R¹R²C=CR³R⁴ + O₃ → R¹R²C=O + R³R⁴C=O</span></span></li>
+            </ul>
+            
+            <h3>4.4 フリーデル・クラフツアシル化</h3>
+            <ul class="quiz-list">
+                <li>芳香族化合物に酸塩化物を反応させると、芳香族ケトンが得られる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">C₆H₆ + CH₃COCl → C₆H₅-CO-CH₃ + HCl</span></span></li>
+                <li>触媒: AlCl₃などのルイス酸</li>
+            </ul>
+            
+            <h3>4.5 カルボン酸塩の熱分解</h3>
+            <ul class="quiz-list">
+                <li>カルボン酸のカルシウム塩やバリウム塩を乾留すると、対称ケトンが得られる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">(RCOO)₂Ca → R-CO-R + CaCO₃</span></span></li>
+                <li>異なるカルボン酸塩の混合物を用いると、非対称ケトンも得られる。</li>
+            </ul>
+        </section>
+
+        <section id="reactions">
+            <h2>5. ケトンの化学反応</h2>
+            
+            <h3>5.1 酸化反応</h3>
+            <ul>
+                <li>ケトンはアルデヒドと異なり、通常の酸化剤では酸化されにくい。</li>
+                <li><strong>激しい条件での酸化:</strong> 強力な酸化剤(過マンガン酸カリウム、加熱)で処理すると、C-C結合が開裂してカルボン酸の混合物を与える。</li>
+                <li>例: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">CH₃-CO-CH₃ + 強酸化剤 → CH₃COOH + CO₂ + H₂O</span></span></li>
+                <li>メチルケトンはハロホルム反応を示す(後述)。</li>
+            </ul>
+            
+            <h3>5.2 還元反応</h3>
+            <ul class="quiz-list">
+                <li>ケトンを還元すると第二級アルコールが得られる。</li>
+                <li>還元剤: 水素化ホウ素ナトリウム(NaBH₄)、水素化アルミニウムリチウム(LiAlH₄)、接触水素化</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">R¹-CO-R² + 2[H] → R¹-CH(OH)-R²</span></span></li>
+                <li><strong>クレメンセン還元:</strong> 亜鉛アマルガムと濃塩酸で還元すると、カルボニル基がメチレン基(CH₂)に変わる。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">R¹-CO-R² + 4[H] → R¹-CH₂-R² + H₂O</span></span></li>
+                <li><strong>ウォルフ・キッシュナー還元:</strong> ヒドラジンと強塩基で同様の還元が起こる。</li>
+            </ul>
+            
+            <h3>5.3 求核付加反応</h3>
+            <p>ケトンのカルボニル炭素は求電子性が高く、さまざまな求核剤が付加する。ただし、立体障害と電子効果により、アルデヒドより反応性は低い。</p>
+            
+            <h4>シアン化水素の付加(シアノヒドリン生成)</h4>
+            <ul class="quiz-list">
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">R¹-CO-R² + HCN → R¹R²C(OH)-CN</span></span></li>
+                <li>アルデヒドより反応は遅い。</li>
+            </ul>
+            
+            <h4>亜硫酸水素ナトリウムの付加</h4>
+            <ul class="quiz-list">
+                <li>メチルケトン(特に立体障害の少ないもの)は付加物を形成するが、アルデヒドほど容易ではない。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">R-CO-CH₃ + NaHSO₃ → R-C(OH)(CH₃)-SO₃Na</span></span></li>
+            </ul>
+            
+            <h4>グリニャール試薬の付加</h4>
+            <ul class="quiz-list">
+                <li>ケトンにグリニャール試薬(R''MgBr)が付加すると、第三級アルコールが生成する。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">R¹-CO-R² + R''MgBr → R¹R²R''C-OH (後処理で)</span></span></li>
+            </ul>
+            
+            <h4>アルコールの付加(ケタール生成)</h4>
+            <ul class="quiz-list">
+                <li>ケトンはアルコールと酸触媒下で反応し、ケタールを生成する(アセタールのケトン版)。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">R¹-CO-R² + 2R'OH ⇄ R¹R²C(OR')₂ + H₂O</span></span></li>
+                <li>カルボニル基の保護基として重要。</li>
+            </ul>
+            
+            <h4>アミンとの反応</h4>
+            <ul class="quiz-list">
+                <li>第一級アミンと反応してイミン(シッフ塩基)を生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">R¹-CO-R² + R'NH₂ → R¹R²C=N-R' + H₂O</span></span></li>
+                <li>ヒドロキシルアミンと反応してオキシムを生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">R¹-CO-R² + NH₂OH → R¹R²C=N-OH + H₂O</span></span></li>
+                <li>ヒドラジンと反応してヒドラゾンを生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">R¹-CO-R² + NH₂NH₂ → R¹R²C=N-NH₂ + H₂O</span></span></li>
+            </ul>
+            
+            <h3>5.4 アルドール反応</h3>
+            <ul class="quiz-list">
+                <li>ケトンもα-水素を持てば、塩基存在下でアルドール反応を起こす。</li>
+                <li>アセトンの場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">2CH₃-CO-CH₃ ⇄ CH₃-C(OH)(CH₃)-CH₂-CO-CH₃</span></span> (ジアセトンアルコール)</li>
+                <li>平衡は左に偏っているが、生成物を反応系から除くと収率が上がる。</li>
+                <li>アルデヒドとケトンの交差アルドール反応も可能。</li>
+            </ul>
+            
+            <h3>5.5 ハロホルム反応</h3>
+            <ul class="quiz-list">
+                <li>メチルケトン(CH₃-CO-R)はハロゲンと塩基でハロホルム反応を示す。</li>
+                <li>ヨードホルム反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">CH₃-CO-R + 3I₂ + 4NaOH → CHI₃↓ + R-COONa + 3NaI + 3H₂O</span></span></li>
+                <li>ヨードホルム(CHI₃)は黄色沈殿。メチルケトンの検出に用いられる。</li>
+                <li>エタノールや第二級アルコールでも、酸化されてメチルケトンになるものは陽性。</li>
+            </ul>
+            
+            <h3>5.6 ハロゲン化反応(α-ハロゲン化)</h3>
+            <ul class="quiz-list">
+                <li>酸または塩基触媒下で、α位の水素がハロゲンで置換される。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">R-CO-CH₃ + X₂ → R-CO-CH₂X + HX</span></span></li>
+                <li>ハロホルム反応は、この反応が繰り返されて起こる。</li>
+            </ul>
+            
+            <h3>5.7 ヨードホルム反応の条件</h3>
+            <ul>
+                <li>陽性を示す化合物:
+                    <ol>
+                        <li>アセトアルデヒド (CH₃CHO)</li>
+                        <li>メチルケトン (CH₃-CO-R)</li>
+                        <li>エタノール (酸化されてアセトアルデヒドになる)</li>
+                        <li>第二級アルコールでCH₃-CH(OH)-R型のもの (酸化されてメチルケトンになる)</li>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+
+        <section id="important-compounds">
+            <h2>6. 重要なケトンとその性質</h2>
+            
+            <h3>6.1 アセトン (CH₃-CO-CH₃, プロパノン)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の揮発性液体、甘い刺激臭、沸点56.1℃。水と任意の割合で混ざる。</li>
+                <li><strong>反応性:</strong> 典型的なケトンの反応を示す。ヨードホルム反応陽性。</li>
+                <li><strong>用途:</strong> 優れた溶剤(アセトンは「有機溶媒の女王」とも呼ばれる)、アクリル樹脂(メタクリル酸メチル)の原料、除光液、実験器具の洗浄。</li>
+                <li><strong>生体内:</strong> 糖尿病などで血中に蓄積し、アセトン臭(甘酸っぱい息)の原因となる。</li>
+            </ul>
+            
+            <h3>6.2 メチルエチルケトン (CH₃-CO-C₂H₅, MEK, ブタノン)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、アセトンに似た臭い、沸点79.6℃。</li>
+                <li><strong>用途:</strong> 溶剤(塗料、接着剤)、合成原料。アセトンより揮発性が低く、溶解力が強い。</li>
+            </ul>
+            
+            <h3>6.3 シクロヘキサノン (C₆H₁₀O)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、ペパーミント様の香り、沸点155℃。</li>
+                <li><strong>構造:</strong> 6員環の環状ケトン。</li>
+                <li><strong>用途:</strong> ナイロン(6,6-ナイロン)の原料(アジピン酸の前駆体)。</li>
+            </ul>
+            
+            <h3>6.4 アセトフェノン (C₆H₅-CO-CH₃)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体(室温で固体に近い)、甘い香り、沸点202℃。</li>
+                <li><strong>用途:</strong> 香料、医薬品中間体、催眠薬(かつて使用)。</li>
+            </ul>
+            
+            <h3>6.5 ベンゾフェノン ((C₆H₅)₂C=O)</h3>
+            <ul>
+                <li><strong>性状:</strong> 白色結晶、バラのような香り、融点48℃。</li>
+                <li><strong>用途:</strong> 香料、紫外線吸収剤、医薬品中間体。</li>
+            </ul>
+            
+            <h3>6.6 アセチルアセトン (CH₃-CO-CH₂-CO-CH₃, 2,4-ペンタンジオン)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、エノール型とケト型の互変異性を示す。</li>
+                <li><strong>用途:</strong> 金属キレート試薬、触媒。</li>
+            </ul>
+            
+            <h3>6.7 樟脳(カンフル, C₁₀H₁₆O)</h3>
+            <ul>
+                <li><strong>性状:</strong> 白色結晶、特有の香り、昇華性。</li>
+                <li><strong>構造:</strong> ビシクロ[2.2.1]ヘプタン骨格を持つケトン(天然物)。</li>
+                <li><strong>用途:</strong> 防虫剤、医薬品(外用薬)、香料。</li>
+            </ul>
+        </section>
+
+        <section id="identification">
+            <h2>7. ケトンの検出・確認方法</h2>
+            
+            <h3>7.1 2,4-ジニトロフェニルヒドラジン試験(2,4-DNP試験)</h3>
+            <ul>
+                <li>2,4-ジニトロフェニルヒドラジン溶液にケトンを加えると、橙～赤色の沈殿(ヒドラゾン)を生じる。</li>
+                <li>アルデヒドも同様の反応を示すため、カルボニル化合物の確認に用いられる。</li>
+            </ul>
+            
+            <h3>7.2 ヨードホルム反応</h3>
+            <ul>
+                <li>メチルケトン(CH₃-CO-R)に限り、ヨウ素と水酸化ナトリウムでヨードホルム(黄色沈殿)を生成する。</li>
+                <li>アセトン、メチルエチルケトンなどが陽性。</li>
+            </ul>
+            
+            <h3>7.3 銀鏡反応・フェーリング反応</h3>
+            <ul>
+                <li>ケトンはこれらの反応を示さない(アルデヒドとの重要な区別点)。</li>
+            </ul>
+            
+            <h3>7.4 赤外吸収スペクトル(IR)</h3>
+            <ul>
+                <li>C=O伸縮振動: 1715 cm⁻¹付近に強い吸収(アルデヒドよりやや低波数)。</li>
+                <li>共役系が拡がると低波数シフト(アセトフェノン: 約1685 cm⁻¹)。</li>
+                <li>アルデヒドのような2700 cm⁻¹のC-H吸収はない。</li>
+            </ul>
+            
+            <h3>7.5 核磁気共鳴スペクトル(NMR)</h3>
+            <ul>
+                <li>¹H-NMR: α位のプロトンは2.0-2.5 ppmにシグナル。</li>
+                <li>¹³C-NMR: カルボニル炭素は190-220 ppmにシグナル(アルデヒドよりやや高磁場)。</li>
+            </ul>
+            
+            <h3>7.6 オキシムの生成</h3>
+            <ul>
+                <li>ヒドロキシルアミンと反応させてオキシムを生成し、融点測定で同定する方法も用いられる。</li>
+            </ul>
+        </section>
+
+        <section id="applications">
+            <h2>8. ケトンの応用・工業的利用</h2>
+            
+            <h3>8.1 溶剤として</h3>
+            <ul>
+                <li><strong>アセトン:</strong> 塗料、インク、プラスチック(アクリルなど)の溶剤。アセチレンの貯蔵溶媒としても使用。</li>
+                <li><strong>メチルエチルケトン(MEK):</strong> 塗料、接着剤、印刷インクの溶剤。アセトンより蒸発が遅く、溶解力が強い。</li>
+                <li><strong>シクロヘキサノン:</strong> 樹脂、油脂の溶剤。</li>
+            </ul>
+            
+            <h3>8.2 化学工業原料</h3>
+            <ul>
+                <li><strong>アセトン:</strong> メタクリル酸メチル(アクリル樹脂原料)、ビスフェノールA(ポリカーボネート樹脂原料)の合成原料。</li>
+                <li><strong>シクロヘキサノン:</strong> ナイロン(6,6-ナイロン)の原料(アジピン酸の前駆体)。</li>
+                <li><strong>メチルイソブチルケトン(MIBK):</strong> 溶剤、抽出剤。</li>
+            </ul>
+            
+            <h3>8.3 香料・医薬品</h3>
+            <ul>
+                <li>アセトフェノン、ベンゾフェノン、イオノン(香料、ビタミンA原料)など。</li>
+                <li>麝香(ジャコウ)系香料として大環状ケトン(ムスコンなど)が使用される。</li>
+                <li>ステロイドホルモン(テストステロン、プロゲステロンなど)もケトン構造を含む。</li>
+            </ul>
+            
+            <h3>8.4 抽出剤</h3>
+            <ul>
+                <li>MIBKは液-液抽出剤として、金属イオンの分離などに用いられる。</li>
+            </ul>
+        </section>
+
+        <section id="comparison">
+            <h2>9. アルデヒドとケトンの比較</h2>
+            <table>
+                <tr>
+                    <th>性質</th>
+                    <th>アルデヒド</th>
+                    <th>ケトン</th>
+                </tr>
+                <tr>
+                    <td><strong>官能基</strong></td>
+                    <td>-CHO (末端)</td>
+                    <td>>C=O (内部)</td>
+                </tr>
+                <tr>
+                    <td><strong>一般式</strong></td>
+                    <td>R-CHO</td>
+                    <td>R¹-CO-R²</td>
+                </tr>
+                <tr>
+                    <td><strong>酸化されやすさ</strong></td>
+                    <td>非常に酸化されやすい</td>
+                    <td>酸化されにくい(激しい条件で開裂)</td>
+                </tr>
+                <tr>
+                    <td><strong>銀鏡反応</strong></td>
+                    <td>陽性</td>
+                    <td>陰性</td>
+                </tr>
+                <tr>
+                    <td><strong>フェーリング反応</strong></td>
+                    <td>陽性(脂肪族)</td>
+                    <td>陰性</td>
+                </tr>
+                <tr>
+                    <td><strong>2,4-DNP反応</strong></td>
+                    <td>陽性(橙赤色沈殿)</td>
+                    <td>陽性(橙赤色沈殿)</td>
+                </tr>
+                <tr>
+                    <td><strong>ヨードホルム反応</strong></td>
+                    <td>アセトアルデヒドのみ陽性</td>
+                    <td>メチルケトンのみ陽性</td>
+                </tr>
+                <tr>
+                    <td><strong>求核付加反応の速度</strong></td>
+                    <td>速い(立体障害小、電子求引性大)</td>
+                    <td>遅い(立体障害大、電子供与性)</td>
+                </tr>
+                <tr>
+                    <td><strong>α-水素の酸性度</strong></td>
+                    <td>pKa ≈ 16-17</td>
+                    <td>pKa ≈ 19-20</td>
+                </tr>
+                <tr>
+                    <td><strong>IR: C=O伸縮振動</strong></td>
+                    <td>1725-1740 cm⁻¹</td>
+                    <td>1710-1720 cm⁻¹</td>
+                </tr>
+                <tr>
+                    <td><strong>NMR: CHOプロトン</strong></td>
+                    <td>9-10 ppm</td>
+                    <td>なし</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="keto-enol">
+            <h2>10. ケト-エノール互変異性</h2>
+            <ul>
+                <li>ケトンはα-水素を持つ場合、酸または塩基触媒下でエノールと平衡状態にある(ケト-エノール互変異性)。</li>
+                <li>通常はケトン型が圧倒的に安定(平衡は左に偏る)。</li>
+                <li>アセトンの場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">CH₃-CO-CH₃ ⇄ CH₂=C(OH)-CH₃</span></span></li>
+                <li>エノール型は求核性が高く、ハロゲン化反応などの中間体として重要。</li>
+                <li>β-ジケトン(アセチルアセトンなど)ではエノール型が安定化される。</li>
+            </ul>
+        </section>
+
+        <section id="safety">
+            <h2>11. ケトンの毒性と取り扱い</h2>
+            
+            <h3>11.1 毒性</h3>
+            <ul>
+                <li><strong>アセトン:</strong> 比較的毒性は低いが、高濃度蒸気の吸入は麻酔作用、頭痛、めまいを引き起こす。脱脂作用により皮膚炎を起こすことがある。</li>
+                <li><strong>メチルエチルケトン:</strong> アセトンより毒性が強く、吸入による神経毒性が報告されている。</li>
+                <li><strong>シクロヘキサノン:</strong> 刺激性、吸入毒性。</li>
+            </ul>
+            
+            <h3>11.2 安全な取り扱い</h3>
+            <ul>
+                <li>引火性が高いため、火気厳禁。</li>
+                <li>ドラフト内で使用し、蒸気の吸入を避ける。</li>
+                <li>皮膚や目との接触を避け、保護手袋・保護メガネを着用。</li>
+                <li>密栓して冷暗所に保存。</li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>12. 重要反応のまとめ(暗記用)</h2>
+            <ul class="quiz-list">
+                <li>第二級アルコールの酸化(ケトン): <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">R¹-CH(OH)-R² + [O] → R¹-CO-R² + H₂O</span></span></li>
+                <li>ケトンの還元(第二級アルコール): <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">R¹-CO-R² + 2[H] → R¹-CH(OH)-R²</span></span></li>
+                <li>クレメンセン還元(炭化水素): <span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">R¹-CO-R² + 4[H] → R¹-CH₂-R² + H₂O</span></span></li>
+                <li>メチルケトンのヨードホルム反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">CH₃-CO-R + 3I₂ + 4NaOH → CHI₃↓ + R-COONa + 3NaI + 3H₂O</span></span></li>
+                <li>グリニャール反応(第三級アルコール): <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">R¹-CO-R² + R''MgBr → R¹R²R''C-OH</span></span></li>
+                <li>シアノヒドリン生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(27)</span> <span class="blank">R¹-CO-R² + HCN → R¹R²C(OH)-CN</span></span></li>
+                <li>ケタール生成(保護基): <span class="blank-container" onclick="reveal(this)"><span class="number">(28)</span> <span class="blank">R¹-CO-R² + 2R'OH → R¹R²C(OR')₂ + H₂O</span></span></li>
+                <li>オキシム生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(29)</span> <span class="blank">R¹-CO-R² + NH₂OH → R¹R²C=N-OH + H₂O</span></span></li>
+                <li>2,4-DNP反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(30)</span> <span class="blank">R¹-CO-R² + H₂N-NH-C₆H₃(NO₂)₂ → R¹R²C=N-NH-C₆H₃(NO₂)₂ + H₂O</span></span></li>
+                <li>アセトンのアルドール反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(31)</span> <span class="blank">2CH₃-CO-CH₃ ⇄ CH₃-C(OH)(CH₃)-CH₂-CO-CH₃</span></span></li>
+                <li>ケト-エノール互変異性: <span class="blank-container" onclick="reveal(this)"><span class="number">(32)</span> <span class="blank">-CO-CH₂- ⇄ -C(OH)=CH-</span></span></li>
+            </ul>
+        </section>
+
+        <section id="exercises">
+            <h2>13. 確認問題</h2>
+            <ol style="list-style-type: decimal; padding-left: 20px;">
+                <li>2-プロパノールからアセトンを合成する反応式を示せ。</li>
+                <li>アセトンとベンズアルデヒドの銀鏡反応の結果を比較し、その理由を説明せよ。</li>
+                <li>メチルエチルケトン(ブタノン)にヨウ素と水酸化ナトリウムを加えて加熱したときの反応を化学反応式で示せ。</li>
+                <li>アセトンにグリニャール試薬(メチルマグネシウムブロミド)を反応させ、その後希酸で処理すると何が得られるか。化学反応式で示せ。</li>
+                <li>アセトンにシアン化水素を付加させた後、加水分解すると何が得られるか。</li>
+                <li>ケトンとアルデヒドの2,4-DNP試験の結果は同じだが、その後の区別法を2つ挙げよ。</li>
+                <li>アセトンの工業的用途を3つ挙げよ。</li>
+                <li>シクロヘキサノンの構造式と主な用途を述べよ。</li>
+                <li>ヨードホルム反応陽性を示すケトンの構造的特徴を説明し、具体例を2つ挙げよ。</li>
+                <li>ケト-エノール互変異性について、アセトンを例に説明せよ。</li>
+            </ol>
+        </section>
+        
+        <div class="nav-links" style="margin-top: 40px;">
+            <a href="#" class="nav-link">← アルデヒド</a>
+            <a href="#" class="nav-link">カルボン酸 →</a>
+        </div>
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
