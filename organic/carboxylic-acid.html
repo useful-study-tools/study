@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カルボン酸｜高校化学の有機化学</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">有機化学トップへ</a>
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← ケトン</a>
+        <a href="#" class="nav-link">エステル・油脂 →</a>
+    </div>
+    
+    <main>
+        <h1>カルボン酸</h1>
+        
+        <section id="introduction">
+            <h2>1. カルボン酸とは</h2>
+            <p>カルボン酸は、カルボキシ基(-COOH)を持つ有機化合物の総称である。カルボキシ基はカルボニル基(C=O)とヒドロキシ基(-OH)が結合した構造を持つ。</p>
+            <ul>
+                <li><strong>官能基:</strong> カルボキシ基 (-COOH)</li>
+                <li><strong>一般式:</strong> R-COOH (Rはアルキル基またはアリール基、Hの場合はギ酸)</li>
+                <li><strong>特徴:</strong> 酸性を示す。水素結合により会合し、二量体を形成しやすい。</li>
+                <li><strong>命名法:</strong> 対応するアルカンの語尾「e」を「oic acid」に変える。日本語では「-酸」。
+                    <br>例：H-COOH → メタン酸(ギ酸)
+                    <br>CH₃-COOH → エタン酸(酢酸)
+                    <br>C₆H₅-COOH → 安息香酸</li>
+            </ul>
+        </section>
+
+        <section id="structure">
+            <h2>2. 構造と結合</h2>
+            <ul>
+                <li><strong>カルボキシ基の構造:</strong> 炭素はsp²混成軌道をとり、平面構造。</li>
+                <li><strong>共鳴:</strong> カルボキシ基は共鳴安定化されており、O-H結合の分極が大きくなっている。</li>
+                <li><strong>二量体形成:</strong> カルボン酸は分子間で水素結合による環状二量体を形成しやすい。このため、沸点が高くなる。</li>
+                <li><strong>結合距離:</strong> C=O結合は約1.20Å、C-OH結合は約1.36Åで、通常のC-O結合より短い(共鳴のため)。</li>
+            </ul>
+        </section>
+
+        <section id="physical-properties">
+            <h2>3. 物理的性質</h2>
+            
+            <h3>3.1 沸点</h3>
+            <ul>
+                <li>カルボン酸は分子間で強い水素結合(二量体形成)をするため、同じ分子量のアルコールよりも沸点が高い。</li>
+                <li>例: 酢酸(CH₃COOH) 沸点118℃、エタノール(C₂H₅OH) 沸点78℃、プロパン(C₃H₈) 沸点-42℃</li>
+                <li>低級カルボン酸(ギ酸、酢酸)は水素結合のため比較的高い沸点を持つ。</li>
+            </ul>
+            
+            <h3>3.2 溶解度</h3>
+            <ul>
+                <li>低級カルボン酸(ギ酸、酢酸、プロピオン酸)は水と任意の割合で混ざる。</li>
+                <li>これは、カルボキシ基が水と水素結合を形成できるため。</li>
+                <li>炭素数が増えると疎水性部分が大きくなり、水への溶解度は低下する。炭素数5以上のカルボン酸は油状または固体で水に溶けにくい。</li>
+            </ul>
+            
+            <h3>3.3 臭い</h3>
+            <ul>
+                <li>低級カルボン酸(C1〜C4)は強い刺激臭を持つ(ギ酸: 刺激臭、酢酸: 酸っぱい臭い、酪酸: 不快な腐敗臭)。</li>
+                <li>中級カルボン酸(C6〜C10)は不快な臭い(ヤギ臭など)を持つ。</li>
+                <li>高級カルボン酸(脂肪酸)はほとんど無臭。</li>
+            </ul>
+            
+            <h3>3.4 融点</h3>
+            <ul>
+                <li>飽和脂肪酸は炭素数が偶数のものと奇数のもので融点が異なる(偶数炭素の方が高い)。</li>
+                <li>不飽和脂肪酸はシス型だと融点が低い(液体)。</li>
+            </ul>
+        </section>
+
+        <section id="acidity">
+            <h2>4. 酸性度</h2>
+            
+            <h3>4.1 酸性の理由</h3>
+            <ul>
+                <li>カルボン酸が酸性を示すのは、カルボキシ基の共鳴安定化による。</li>
+                <li>カルボン酸が解離すると、カルボン酸イオン(R-COO⁻)は2つの酸素原子に負電荷が非局在化し、安定化される。</li>
+            </ul>
+            
+            <h3>4.2 pKa値</h3>
+            <ul class="quiz-list">
+                <li>一般的なカルボン酸のpKa: 約4〜5(酢酸のpKa = 4.76)</li>
+                <li>ギ酸(HCOOH): pKa = <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">3.75</span></span> (酢酸より強い)</li>
+                <li>安息香酸(C₆H₅COOH): pKa = <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">4.20</span></span></li>
+                <li>シュウ酸(HOOC-COOH): pKa₁ = 1.23, pKa₂ = 4.19 (二塩基酸)</li>
+            </ul>
+            
+            <h3>4.3 酸性度に影響する要因</h3>
+            <ul>
+                <li><strong>電子求引性基:</strong> ハロゲンなど電子求引性基がα位に付くと、酸性度が強くなる。
+                    <br>例: クロロ酢酸(pKa=2.86) > 酢酸(pKa=4.76)</li>
+                <li><strong>電子供与性基:</strong> アルキル基など電子供与性基があると、酸性度が弱くなる。
+                    <br>例: 酢酸 > プロピオン酸</li>
+                <li><strong>置換基の位置:</strong> 電子求引性基がカルボキシ基に近いほど効果が大きい。</li>
+                <li><strong>芳香環:</strong> 安息香酸は安息香酸イオンが共鳴安定化されるが、脂肪族カルボン酸と同程度の酸性度。</li>
+            </ul>
+        </section>
+
+        <section id="preparation">
+            <h2>5. カルボン酸の製法</h2>
+            
+            <h3>5.1 第一級アルコールの酸化</h3>
+            <ul class="quiz-list">
+                <li>第一級アルコールを酸化すると、アルデヒドを経てカルボン酸が得られる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">R-CH₂OH + 2[O] → R-COOH + H₂O</span></span></li>
+                <li>酸化剤: 二クロム酸カリウム(K₂Cr₂O₇/H⁺)、過マンガン酸カリウム(KMnO₄)など</li>
+                <li>例(エタノールの酸化): <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">CH₃CH₂OH + 2[O] → CH₃COOH + H₂O</span></span></li>
+            </ul>
+            
+            <h3>5.2 アルデヒドの酸化</h3>
+            <ul class="quiz-list">
+                <li>アルデヒドは容易に酸化されてカルボン酸になる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">R-CHO + [O] → R-COOH</span></span></li>
+                <li>銀鏡反応やフェーリング反応はこの酸化反応を利用している。</li>
+            </ul>
+            
+            <h3>5.3 アルキルの酸化</h3>
+            <ul class="quiz-list">
+                <li>アルキルベンゼン(トルエンなど)を酸化すると、安息香酸が得られる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">C₆H₅-CH₃ + 3[O] → C₆H₅-COOH + H₂O</span></span></li>
+                <li>酸化剤: 過マンガン酸カリウム、二クロム酸カリウムなど</li>
+            </ul>
+            
+            <h3>5.4 グリニャール反応と二酸化炭素</h3>
+            <ul class="quiz-list">
+                <li>グリニャール試薬(RMgBr)に二酸化炭素(CO₂)を反応させ、その後加水分解するとカルボン酸が得られる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">RMgBr + CO₂ → R-COOMgBr → (H⁺/H₂O) R-COOH</span></span></li>
+                <li>この方法で炭素鎖を1つ伸ばしたカルボン酸が合成できる。</li>
+            </ul>
+            
+            <h3>5.5 加水分解</h3>
+            <ul class="quiz-list">
+                <li><strong>エステルの加水分解:</strong> エステルを酸または塩基で加水分解するとカルボン酸が得られる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">R-COOR' + H₂O → R-COOH + R'OH</span></span></li>
+                <li><strong>ニトリルの加水分解:</strong> ニトリルを加水分解してもカルボン酸が得られる。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">R-CN + 2H₂O → R-COOH + NH₃</span></span></li>
+            </ul>
+            
+            <h3>5.6 特別な製法</h3>
+            <ul>
+                <li><strong>ギ酸:</strong> 一酸化炭素と水酸化ナトリウムから合成(工業的)。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">CO + NaOH → HCOONa → (H⁺) HCOOH</span></span></li>
+                <li><strong>酢酸:</strong> メタノールと一酸化炭素から合成(メタノールのカルボニル化、工業的)。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">CH₃OH + CO → CH₃COOH</span></span></li>
+            </ul>
+        </section>
+
+        <section id="reactions">
+            <h2>6. カルボン酸の化学反応</h2>
+            
+            <h3>6.1 酸としての反応(塩の生成)</h3>
+            <ul class="quiz-list">
+                <li>カルボン酸は塩基と反応してカルボン酸塩を生成する。</li>
+                <li>水酸化ナトリウムとの反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">R-COOH + NaOH → R-COONa + H₂O</span></span></li>
+                <li>炭酸水素ナトリウムとの反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">R-COOH + NaHCO₃ → R-COONa + CO₂↑ + H₂O</span></span></li>
+                <li>この反応は、フェノール(炭酸水素ナトリウムと反応しない)との区別に用いられる。</li>
+                <li>炭酸ナトリウムとの反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">2R-COOH + Na₂CO₃ → 2R-COONa + CO₂↑ + H₂O</span></span></li>
+            </ul>
+            
+            <h3>6.2 エステル化反応(フィッシャーエステル化)</h3>
+            <ul class="quiz-list">
+                <li>カルボン酸は酸触媒存在下でアルコールと反応し、エステルを生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">R-COOH + R'OH ⇄ R-COOR' + H₂O</span></span></li>
+                <li>触媒: 濃硫酸、塩化水素など</li>
+                <li>可逆反応のため、エステルを高収率で得るには、水を除去するか、アルコールを大過剰用いる。</li>
+                <li>例(酢酸エチル): <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O</span></span></li>
+            </ul>
+            
+            <h3>6.3 塩化チオニルなどによる酸塩化物の生成</h3>
+            <ul class="quiz-list">
+                <li>カルボン酸を塩化チオニル(SOCl₂)や三塩化リン(PCl₃)などと反応させると、酸塩化物(R-COCl)が得られる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">R-COOH + SOCl₂ → R-COCl + SO₂↑ + HCl↑</span></span></li>
+                <li>酸塩化物は反応性が高く、エステル化やアミド化などに用いられる。</li>
+            </ul>
+            
+            <h3>6.4 無水カルボン酸の生成</h3>
+            <ul class="quiz-list">
+                <li>カルボン酸を脱水剤(無水酢酸など)と反応させるか、2分子のカルボン酸から水を奪うと、酸無水物が生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">2R-COOH → (R-CO)₂O + H₂O</span></span></li>
+                <li>無水酢酸は工業的に重要な酸無水物。</li>
+            </ul>
+            
+            <h3>6.5 アミドの生成</h3>
+            <ul class="quiz-list">
+                <li>カルボン酸にアンモニアを反応させると、一旦アンモニウム塩が生成し、加熱すると脱水してアミドになる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">R-COOH + NH₃ → R-COONH₄ → (加熱) R-CONH₂ + H₂O</span></span></li>
+                <li>酸塩化物や無水物からアミドを作る方が一般的。</li>
+            </ul>
+            
+            <h3>6.6 還元反応</h3>
+            <ul class="quiz-list">
+                <li>カルボン酸を強力な還元剤(水素化アルミニウムリチウム LiAlH₄)で還元すると、第一級アルコールが得られる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">R-COOH + 4[H] → R-CH₂OH + H₂O</span></span></li>
+                <li>水素化ホウ素ナトリウム(NaBH₄)では還元されにくい。</li>
+            </ul>
+            
+            <h3>6.7 ハロゲン化(ヘル・ホールド法)</h3>
+            <ul class="quiz-list">
+                <li>赤リン存在下でカルボン酸に臭素を反応させると、α位がハロゲン化される(ヘル・ホールド法)。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">R-CH₂-COOH + Br₂ → R-CH(Br)-COOH + HBr</span></span></li>
+            </ul>
+            
+            <h3>6.8 脱炭酸反応</h3>
+            <ul class="quiz-list">
+                <li>カルボン酸を加熱すると、二酸化炭素が脱離することがある(脱炭酸)。</li>
+                <li>特にβ-ケト酸やマロン酸誘導体は容易に脱炭酸する。</li>
+                <li>アセト酢酸の場合: <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">CH₃-CO-CH₂-COOH → CH₃-CO-CH₃ + CO₂↑</span></span></li>
+            </ul>
+            
+            <h3>6.9 二量化(還元的二量化)</h3>
+            <ul>
+                <li>カルボン酸の電解還元(コルベ電解)により、二量体(炭化水素)が得られる。</li>
+            </ul>
+        </section>
+
+        <section id="important-compounds">
+            <h2>7. 重要なカルボン酸とその性質</h2>
+            
+            <h3>7.1 飽和モノカルボン酸</h3>
+            
+            <h4>ギ酸 (HCOOH, メタン酸)</h4>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、刺激臭、沸点101℃。水と任意に混ざる。</li>
+                <li><strong>特徴:</strong> 最も簡単なカルボン酸。アルデヒド基も持つ構造のため、還元性を示す(銀鏡反応陽性)。</li>
+                <li><strong>反応:</strong> 濃硫酸で脱水され、一酸化炭素を発生: HCOOH → CO + H₂O</li>
+                <li><strong>用途:</strong> 染色、皮革工業、殺菌剤。</li>
+            </ul>
+            
+            <h4>酢酸 (CH₃COOH, エタン酸)</h4>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、刺激臭(酢の香り)、沸点118℃。水と任意に混ざる。</li>
+                <li><strong>特徴:</strong> 純粋な酢酸は低温(16.7℃以下)で凍結し、氷のような結晶になる(氷酢酸)。</li>
+                <li><strong>用途:</strong> 食酢(3-5%水溶液)、化学工業原料(酢酸ビニル、酢酸エチル、無水酢酸など)。</li>
+            </ul>
+            
+            <h4>プロピオン酸 (C₂H₅COOH, プロパン酸)</h4>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、刺激臭、沸点141℃。</li>
+                <li><strong>用途:</strong> 防腐剤、香料、医薬品原料。</li>
+            </ul>
+            
+            <h4>酪酸 (C₃H₇COOH, ブタン酸)</h4>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、不快な腐敗臭(バターの腐敗臭)、沸点164℃。</li>
+                <li><strong>特徴:</strong> バターに含まれる(名前の由来)。</li>
+                <li><strong>用途:</strong> 香料(エステルとして)、医薬品。</li>
+            </ul>
+            
+            <h4>高級脂肪酸 (C12〜C20)</h4>
+            <ul>
+                <li><strong>パルミチン酸 (C₁₅H₃₁COOH):</strong> 炭素数16の飽和脂肪酸。パーム油などに含まれる。融点63℃。</li>
+                <li><strong>ステアリン酸 (C₁₇H₃₅COOH):</strong> 炭素数18の飽和脂肪酸。動物性脂肪に含まれる。融点70℃。</li>
+                <li><strong>アラキジン酸 (C₁₉H₃₉COOH):</strong> 炭素数20の飽和脂肪酸。</li>
+            </ul>
+            
+            <h3>7.2 不飽和カルボン酸</h3>
+            
+            <h4>アクリル酸 (CH₂=CH-COOH, プロペン酸)</h4>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、刺激臭、沸点141℃。</li>
+                <li><strong>用途:</strong> アクリル樹脂(ポリアクリル酸、アクリル酸エステル)の原料。</li>
+            </ul>
+            
+            <h4>メタクリル酸 (CH₂=C(CH₃)-COOH)</h4>
+            <ul>
+                <li><strong>用途:</strong> メタクリル酸メチル(アクリル樹脂、有機ガラス)の原料。</li>
+            </ul>
+            
+            <h4>オレイン酸 (C₁₇H₃₃COOH, シス-9-オクタデセン酸)</h4>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、融点13℃。不飽和脂肪酸の代表。</li>
+                <li><strong>特徴:</strong> 二重結合を1つ持つ(シス型)。オリーブ油などに含まれる。</li>
+            </ul>
+            
+            <h4>リノール酸 (C₁₇H₃₁COOH)</h4>
+            <ul>
+                <li><strong>特徴:</strong> 二重結合を2つ持つ(シス,シス-9,12-オクタデカジエン酸)。必須脂肪酸。</li>
+            </ul>
+            
+            <h4>リノレン酸 (C₁₇H₂₉COOH)</h4>
+            <ul>
+                <li><strong>特徴:</strong> 二重結合を3つ持つ。α-リノレン酸はオメガ3脂肪酸の一種。</li>
+            </ul>
+            
+            <h3>7.3 二塩基酸(ジカルボン酸)</h3>
+            
+            <h4>シュウ酸 (HOOC-COOH, エタン二酸)</h4>
+            <ul>
+                <li><strong>性状:</strong> 無色結晶、二水和物が一般的。有毒。</li>
+                <li><strong>特徴:</strong> 最も簡単なジカルボン酸。還元性があり、過マンガン酸カリウムを脱色する。</li>
+                <li><strong>用途:</strong> さび取り、漂白剤、分析試薬。</li>
+            </ul>
+            
+            <h4>マロン酸 (HOOC-CH₂-COOH, プロパン二酸)</h4>
+            <ul>
+                <li><strong>特徴:</strong> 加熱すると容易に脱炭酸して酢酸になる。</li>
+            </ul>
+            
+            <h4>コハク酸 (HOOC-(CH₂)₂-COOH, ブタン二酸)</h4>
+            <ul>
+                <li><strong>性状:</strong> 無色結晶、融点185℃。</li>
+                <li><strong>用途:</strong> 医薬品、食品添加物。</li>
+            </ul>
+            
+            <h4>アジピン酸 (HOOC-(CH₂)₄-COOH, ヘキサン二酸)</h4>
+            <ul>
+                <li><strong>用途:</strong> ナイロン(6,6-ナイロン)の原料。</li>
+            </ul>
+            
+            <h4>フタル酸 (o-C₆H₄(COOH)₂)</h4>
+            <ul>
+                <li><strong>性状:</strong> 芳香族ジカルボン酸(オルト体)。</li>
+                <li><strong>用途:</strong> 可塑剤(フタル酸エステル)の原料。</li>
+            </ul>
+            
+            <h3>7.4 ヒドロキシ酸</h3>
+            
+            <h4>乳酸 (CH₃-CH(OH)-COOH, 2-ヒドロキシプロパン酸)</h4>
+            <ul>
+                <li><strong>性状:</strong> 無色結晶またはシロップ状液体。</li>
+                <li><strong>特徴:</strong> 筋肉疲労の原因物質。発酵乳製品に含まれる。</li>
+                <li><strong>用途:</strong> 食品添加物、生分解性プラスチック(ポリ乳酸)の原料。</li>
+            </ul>
+            
+            <h4>リンゴ酸 (HOOC-CH(OH)-CH₂-COOH)</h4>
+            <ul>
+                <li><strong>特徴:</strong> 果物(リンゴなど)に含まれる。</li>
+            </ul>
+            
+            <h4>酒石酸 (HOOC-CH(OH)-CH(OH)-COOH)</h4>
+            <ul>
+                <li><strong>特徴:</strong> ブドウに含まれる。ワインの沈殿物(酒石)の主成分。</li>
+                <li><strong>用途:</strong> フェーリング液の成分、ベーキングパウダー。</li>
+            </ul>
+            
+            <h4>クエン酸 (HOOC-CH₂-C(OH)(COOH)-CH₂-COOH)</h4>
+            <ul>
+                <li><strong>性状:</strong> 無色結晶、爽やかな酸味。</li>
+                <li><strong>特徴:</strong> 柑橘類に含まれる。三塩基酸。</li>
+                <li><strong>用途:</strong> 食品添加物(酸味料)、清涼飲料水、金属イオンのキレート剤。</li>
+            </ul>
+            
+            <h3>7.5 芳香族カルボン酸</h3>
+            
+            <h4>安息香酸 (C₆H₅-COOH, ベンゼンカルボン酸)</h4>
+            <ul>
+                <li><strong>性状:</strong> 白色結晶、昇華性、融点122℃。水に溶けにくい。</li>
+                <li><strong>用途:</strong> 防腐剤(安息香酸ナトリウムとして)、医薬品、染料原料。</li>
+            </ul>
+            
+            <h4>サリチル酸 (o-HO-C₆H₄-COOH, 2-ヒドロキシ安息香酸)</h4>
+            <ul>
+                <li><strong>性状:</strong> 白色結晶。</li>
+                <li><strong>特徴:</strong> フェノール性OHとカルボキシ基を持つ。</li>
+                <li><strong>用途:</strong> アスピリン(アセチルサリチル酸)の原料、外用薬(角質軟化剤)。</li>
+            </ul>
+            
+            <h4>アスピリン (アセチルサリチル酸, o-CH₃COO-C₆H₄-COOH)</h4>
+            <ul>
+                <li><strong>性状:</strong> 白色結晶。</li>
+                <li><strong>用途:</strong> 解熱鎮痛薬。</li>
+            </ul>
+        </section>
+
+        <section id="identification">
+            <h2>8. カルボン酸の検出・確認方法</h2>
+            
+            <h3>8.1 酸性の確認</h3>
+            <ul>
+                <li>リトマス紙: 酸性で赤色に変色。</li>
+                <li>pH指示薬: 酸性を示す。</li>
+            </ul>
+            
+            <h3>8.2 炭酸水素ナトリウム試験</h3>
+            <ul class="quiz-list">
+                <li>炭酸水素ナトリウム(NaHCO₃)水溶液にカルボン酸を加えると、CO₂の気泡を発生する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">R-COOH + NaHCO₃ → R-COONa + CO₂↑ + H₂O</span></span></li>
+                <li>この反応はフェノール(炭酸より弱い酸)との区別に重要(フェノールはNaHCO₃と反応しない)。</li>
+            </ul>
+            
+            <h3>8.3 エステルの生成(香りによる確認)</h3>
+            <ul>
+                <li>カルボン酸とアルコールを濃硫酸と共に加熱すると、エステルが生成する。低級エステルは果実様の香りを持つため、確認に利用できる。</li>
+                <li>例: 酢酸 + エタノール → 酢酸エチル(果実様の香り)</li>
+            </ul>
+            
+            <h3>8.4 赤外吸収スペクトル(IR)</h3>
+            <ul>
+                <li>C=O伸縮振動: 1710-1720 cm⁻¹に強い吸収(二量体で低波数シフト)。</li>
+                <li>O-H伸縮振動: 2500-3500 cm⁻¹に非常に幅広い吸収(水素結合のため)。</li>
+                <li>C-O伸縮振動: 1200-1300 cm⁻¹。</li>
+            </ul>
+            
+            <h3>8.5 核磁気共鳴スペクトル(NMR)</h3>
+            <ul>
+                <li>¹H-NMR: カルボキシ基のプロトンは10-13 ppmに特徴的なブロードなシグナル。</li>
+                <li>¹³C-NMR: カルボニル炭素は170-185 ppmにシグナル。</li>
+            </ul>
+            
+            <h3>8.6 誘導体の作成</h3>
+            <ul>
+                <li>p-ブロモフェナシルエステルなどの誘導体を作り、融点測定で同定する方法もある。</li>
+            </ul>
+        </section>
+
+        <section id="applications">
+            <h2>9. カルボン酸の応用・工業的利用</h2>
+            
+            <h3>9.1 食品</h3>
+            <ul>
+                <li><strong>酢酸:</strong> 食酢(調味料、保存料)。</li>
+                <li><strong>クエン酸:</strong> 清涼飲料水の酸味料、食品添加物。</li>
+                <li><strong>乳酸:</strong> 食品添加物(酸味料、保存料)。</li>
+                <li><strong>酒石酸:</strong> ベーキングパウダーの成分。</li>
+                <li><strong>ソルビン酸:</strong> 保存料(ソルビン酸カリウムとして)。</li>
+            </ul>
+            
+            <h3>9.2 高分子原料</h3>
+            <ul>
+                <li><strong>アジピン酸:</strong> ナイロン(6,6-ナイロン)の原料。</li>
+                <li><strong>テレフタル酸:</strong> ポリエステル(ポリエチレンテレフタレート, PET)の原料。</li>
+                <li><strong>アクリル酸・メタクリル酸:</strong> アクリル樹脂の原料。</li>
+                <li><strong>乳酸:</strong> 生分解性プラスチック(ポリ乳酸)の原料。</li>
+            </ul>
+            
+            <h3>9.3 医薬品</h3>
+            <ul>
+                <li><strong>アスピリン(アセチルサリチル酸):</strong> 解熱鎮痛薬。</li>
+                <li><strong>サリチル酸:</strong> 外用薬(角質軟化剤)。</li>
+                <li><strong>安息香酸:</strong> 医薬品原料、防腐剤。</li>
+                <li><strong>プロピオン酸:</strong> 医薬品原料。</li>
+            </ul>
+            
+            <h3>9.4 化粧品・石鹸</h3>
+            <ul>
+                <li><strong>高級脂肪酸(ステアリン酸など):</strong> 石鹸の原料(脂肪酸ナトリウム)。</li>
+                <li><strong>グリコール酸:</strong> 化粧品(ピーリング剤)。</li>
+            </ul>
+            
+            <h3>9.5 工業薬品</h3>
+            <ul>
+                <li><strong>ギ酸:</strong> 染色、皮革工業、殺菌剤。</li>
+                <li><strong>シュウ酸:</strong> さび取り、漂白剤。</li>
+                <li><strong>フタル酸:</strong> 可塑剤(フタル酸エステル)の原料。</li>
+            </ul>
+        </section>
+
+        <section id="comparison">
+            <h2>10. カルボン酸とフェノールの酸性度比較</h2>
+            <table>
+                <tr>
+                    <th>性質</th>
+                    <th>カルボン酸</th>
+                    <th>フェノール</th>
+                </tr>
+                <tr>
+                    <td><strong>pKa</strong></td>
+                    <td>約4-5</td>
+                    <td>約10</td>
+                </tr>
+                <tr>
+                    <td><strong>NaHCO₃との反応</strong></td>
+                    <td>CO₂を発生する</td>
+                    <td>反応しない(CO₂発生なし)</td>
+                </tr>
+                <tr>
+                    <td><strong>NaOHとの反応</strong></td>
+                    <td>反応する</td>
+                    <td>反応する</td>
+                </tr>
+                <tr>
+                    <td><strong>Na₂CO₃との反応</strong></td>
+                    <td>CO₂を発生する</td>
+                    <td>反応するがCO₂発生なし</td>
+                </tr>
+                <tr>
+                    <td><strong>FeCl₃呈色反応</strong></td>
+                    <td>通常呈色しない</td>
+                    <td>呈色する(紫〜赤紫)</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="derivatives">
+            <h2>11. カルボン酸誘導体</h2>
+            
+            <h3>11.1 主な誘導体と反応性の順序</h3>
+            <ul>
+                <li>反応性(求核置換反応のされやすさ):
+                    <br>酸塩化物 > 酸無水物 > エステル > アミド
+                </li>
+            </ul>
+            
+            <h3>11.2 各誘導体の特徴</h3>
+            <ul>
+                <li><strong>酸塩化物(R-COCl):</strong> 反応性が高く、加水分解されやすい。アミドやエステル合成に用いられる。</li>
+                <li><strong>酸無水物((R-CO)₂O):</strong> 酸塩化物ほどではないが反応性が高い。無水酢酸が代表的。</li>
+                <li><strong>エステル(R-COOR'):</strong> 果実様の香りを持つものがある。加水分解でカルボン酸とアルコールに戻る。</li>
+                <li><strong>アミド(R-CONH₂):</strong> 比較的安定。加水分解でカルボン酸とアンモニアに戻る。</li>
+            </ul>
+        </section>
+
+        <section id="safety">
+            <h2>12. カルボン酸の毒性と取り扱い</h2>
+            
+            <h3>12.1 毒性</h3>
+            <ul>
+                <li><strong>ギ酸:</strong> 強い刺激性、腐食性。皮膚に付着すると水疱を生じる。</li>
+                <li><strong>酢酸:</strong> 濃厚なものは皮膚に対して腐食性。蒸気の吸入は気道を刺激する。</li>
+                <li><strong>シュウ酸:</strong> 有毒。経口摂取で腎障害、吐血を引き起こす。</li>
+                <li><strong>安息香酸:</strong> 比較的低毒性だが、大量摂取は健康に影響。</li>
+            </ul>
+            
+            <h3>12.2 安全な取り扱い</h3>
+            <ul>
+                <li>濃厚なカルボン酸は皮膚に対して腐食性があるため、保護手袋・保護メガネを着用。</li>
+                <li>蒸気の吸入を避けるため、ドラフト内で使用。</li>
+                <li>皮膚に付着した場合は多量の水で洗い流す。</li>
+                <li>シュウ酸など毒性の強いものは特に注意。</li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>13. 重要反応のまとめ(暗記用)</h2>
+            <ul class="quiz-list">
+                <li>カルボン酸の生成(第一級アルコールの酸化): <span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">R-CH₂OH + 2[O] → R-COOH + H₂O</span></span></li>
+                <li>カルボン酸の生成(アルデヒドの酸化): <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">R-CHO + [O] → R-COOH</span></span></li>
+                <li>カルボン酸の生成(グリニャール反応): <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">RMgBr + CO₂ → R-COOH</span></span></li>
+                <li>カルボン酸とNaHCO₃: <span class="blank-container" onclick="reveal(this)"><span class="number">(27)</span> <span class="blank">R-COOH + NaHCO₃ → R-COONa + CO₂↑ + H₂O</span></span></li>
+                <li>エステル化反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(28)</span> <span class="blank">R-COOH + R'OH ⇄ R-COOR' + H₂O</span></span></li>
+                <li>酸塩化物の生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(29)</span> <span class="blank">R-COOH + SOCl₂ → R-COCl + SO₂↑ + HCl↑</span></span></li>
+                <li>アミドの生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(30)</span> <span class="blank">R-COOH + NH₃ → R-COONH₄ → (加熱) R-CONH₂ + H₂O</span></span></li>
+                <li>カルボン酸の還元: <span class="blank-container" onclick="reveal(this)"><span class="number">(31)</span> <span class="blank">R-COOH + 4[H] → R-CH₂OH + H₂O</span></span></li>
+                <li>ギ酸の脱水: <span class="blank-container" onclick="reveal(this)"><span class="number">(32)</span> <span class="blank">HCOOH → CO↑ + H₂O</span></span></li>
+                <li>シュウ酸の脱炭酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(33)</span> <span class="blank">(COOH)₂ → HCOOH + CO₂↑</span></span></li>
+            </ul>
+        </section>
+
+        <section id="exercises">
+            <h2>14. 確認問題</h2>
+            <ol style="list-style-type: decimal; padding-left: 20px;">
+                <li>酢酸とエタノールから酢酸エチルを合成する反応式を示し、反応条件を述べよ。</li>
+                <li>カルボン酸とフェノールの酸性度の違いを、炭酸水素ナトリウムを用いて区別する方法を説明せよ。</li>
+                <li>ギ酸が銀鏡反応を示す理由を説明せよ。</li>
+                <li>トルエンから安息香酸を合成する反応式を示せ。</li>
+                <li>シュウ酸の性質と用途を2つずつ挙げよ。</li>
+                <li>クエン酸の構造式と特徴的な用途を述べよ。</li>
+                <li>カルボン酸のIRスペクトルの特徴を2つ挙げよ。</li>
+                <li>酢酸に塩化チオニルを作用させたときの反応式を示せ。</li>
+                <li>サリチル酸からアスピリンを合成する反応式を示せ。</li>
+                <li>高級脂肪酸(ステアリン酸など)の石鹸としての利用を化学的に説明せよ。</li>
+            </ol>
+        </section>
+        
+        <div class="nav-links" style="margin-top: 40px;">
+            <a href="#" class="nav-link">← ケトン</a>
+            <a href="#" class="nav-link">エステル・油脂 →</a>
+        </div>
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
