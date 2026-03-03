@@ -1562,6 +1562,431 @@
       "related": [
         {"word": "decent", "trans": "形容詞：きちんとした、まともな"}
       ]
+    },
+    {
+      "number": 395,
+      "word": "grace",
+      "pos": "名詞、動詞",
+      "meaning": "優雅さ、気品、慈しみ、（神の）恵み、〜を飾る、〜に光栄を与える",
+      "nuance": "身のこなしの美しさ、心の広さ、そして神聖な恩寵など、多層的な「美徳」を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "She danced with natural grace and poise.",
+              "ja": "彼女は天性の優雅さと落ち着きを持って踊った。",
+              "highlight": "grace"
+            },
+            {
+              "en": "He had the grace to admit his mistake.",
+              "ja": "彼には自分の間違いを認める潔さ（潔い気品）があった。",
+              "highlight": "grace"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The princess graced the event with her presence.",
+              "ja": "王女はその場に出席することで、イベントに光を添えた（光栄を与えた）。",
+              "highlight": "graced"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 gratia（好意、感謝、美しさ）",
+      "synonyms": [
+        {"word": "elegance", "trans": "優雅"},
+        {"word": "refinement", "trans": "上品、洗練"},
+        {"word": "mercy", "trans": "慈悲"}
+      ],
+      "antonyms": [
+        {"word": "awkwardness", "trans": "不器用、無様"},
+        {"word": "clumsiness", "trans": "不格好"}
+      ],
+      "related": [
+        {"word": "gracious", "trans": "形容詞：親切な、丁重な"},
+        {"word": "grateful", "trans": "形容詞：感謝している"}
+      ]
+    },
+    {
+      "number": "395-2",
+      "word": "graceful",
+      "pos": "形容詞",
+      "meaning": "優雅な、しとやかな、潔い",
+      "nuance": "形や動きが美しいこと、または態度が立派であることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The swan made a graceful movement across the water.",
+              "ja": "白鳥は水面を優雅に移動した。",
+              "highlight": "graceful"
+            },
+            {
+              "en": "He made a graceful exit from the stage.",
+              "ja": "彼は潔く（鮮やかに）舞台を去った。",
+              "highlight": "graceful"
+            }
+          ]
+        }
+      ],
+      "etymology": "grace + ful（〜に満ちた）",
+      "synonyms": [
+        {"word": "elegant", "trans": "気品のある"},
+        {"word": "fluid", "trans": "滑らかな"},
+        {"word": "supple", "trans": "しなやかな"}
+      ],
+      "antonyms": [
+        {"word": "graceless", "trans": "不作法な"},
+        {"word": "clumsy", "trans": "ぎこちない"}
+      ],
+      "related": []
+    },
+    {
+      "number": "395-3",
+      "word": "gracefully",
+      "pos": "副詞",
+      "meaning": "優雅に、しとやかに、潔く",
+      "nuance": "動作や対応が美しく行われる様子を記述します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She accepted her defeat gracefully.",
+              "ja": "彼女は自らの敗北を潔く受け入れた。",
+              "highlight": "gracefully"
+            }
+          ]
+        }
+      ],
+      "etymology": "graceful + ly",
+      "synonyms": [
+        {"word": "elegantly", "trans": "優雅に"},
+        {"word": "smoothly", "trans": "円滑に"}
+      ],
+      "antonyms": [
+        {"word": "awkwardly", "trans": "不格好に"}
+      ],
+      "related": []
+    },
+    {
+      "number": "395-4",
+      "word": "graceless",
+      "pos": "形容詞",
+      "meaning": "品のない、不作法な、ぶかっこうな",
+      "nuance": "優雅さや礼儀、あるいは道徳的な美しさが欠如している状態です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His graceless remarks offended many guests.",
+              "ja": "彼の品のない発言は、多くの客を怒らせた。",
+              "highlight": "graceless"
+            }
+          ]
+        }
+      ],
+      "etymology": "grace + less（〜がない）",
+      "synonyms": [
+        {"word": "clumsy", "trans": "不器用な"},
+        {"word": "unrefined", "trans": "洗練されていない"},
+        {"word": "tactless", "trans": "機転のきかない"}
+      ],
+      "antonyms": [
+        {"word": "graceful", "trans": "優雅な"},
+        {"word": "polished", "trans": "洗練された"}
+      ],
+      "related": []
+    },
+    {
+      "number": 396,
+      "word": "poke",
+      "pos": "動詞、名詞",
+      "meaning": "〜を突つく、〜を突き出す、突き、小突くこと",
+      "nuance": "指や棒などで軽く突く動作。比喩的に「干渉する(poke one's nose into)」という使い方も一般的です。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Stop poking me with your elbow!",
+              "ja": "肘で私を突くのはやめて！",
+              "highlight": "poking"
+            },
+            {
+              "en": "She poked her head out of the window.",
+              "ja": "彼女は窓からひょいと顔を出した。",
+              "highlight": "poked"
+            }
+          ]
+        }
+      ],
+      "etymology": "中英語 poken（突く）",
+      "synonyms": [
+        {"word": "prod", "trans": "突く、駆り立てる"},
+        {"word": "jab", "trans": "鋭く突く"},
+        {"word": "nudge", "trans": "（肘で）軽く突く"}
+      ],
+      "antonyms": [
+        {"word": "pull", "trans": "引く"}
+      ],
+      "related": []
+    },
+    {
+      "number": 397,
+      "word": "breed",
+      "pos": "動詞、名詞",
+      "meaning": "〜を飼育する、〜を繁殖させる、〜を引き起こす、（動植物の）品種、種類",
+      "nuance": "生き物を育てることだけでなく、「悪循環を生む(breed cycle)」のように抽象的なものを発生させる意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "They breed cattle on this farm.",
+              "ja": "この農場では牛を飼育している。",
+              "highlight": "breed"
+            },
+            {
+              "en": "Familiarity breeds contempt.",
+              "ja": "（格言）親しみが過ぎると軽蔑を招く。",
+              "highlight": "breeds"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "This is a rare breed of dog.",
+              "ja": "これは珍しい種類の犬だ。",
+              "highlight": "breed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 bredan（育てる、温める）",
+      "synonyms": [
+        {"word": "rear", "trans": "育てる"},
+        {"word": "reproduce", "trans": "繁殖する"},
+        {"word": "generate", "trans": "生み出す"}
+      ],
+      "antonyms": [
+        {"word": "exterminate", "trans": "根絶する"},
+        {"word": "destroy", "trans": "破壊する"}
+      ],
+      "related": [
+        {"word": "breeding", "trans": "名詞：繁殖、しつけ"}
+      ]
+    },
+    {
+      "number": 398,
+      "word": "cherish",
+      "pos": "動詞",
+      "meaning": "〜を心に抱く、〜を慈しむ、〜を大切にする",
+      "nuance": "物理的なケアよりも、愛着を持って「心の中で大切に保つ」という感情的な側面が強い言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I will always cherish the memories of our time together.",
+              "ja": "一緒に過ごした思い出を、私はずっと大切にします。",
+              "highlight": "cherish"
+            },
+            {
+              "en": "She cherished the hope that he was still alive.",
+              "ja": "彼女は彼がまだ生きているという希望を抱き続けた。",
+              "highlight": "cherished"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 cher（親愛なる）",
+      "synonyms": [
+        {"word": "treasure", "trans": "大事にする"},
+        {"word": "value", "trans": "価値を置く"},
+        {"word": "prize", "trans": "重んじる"}
+      ],
+      "antonyms": [
+        {"word": "neglect", "trans": "無視する、放置する"},
+        {"word": "abandon", "trans": "捨てる"},
+        {"word": "scorn", "trans": "軽蔑する"}
+      ],
+      "related": []
+    },
+    {
+      "number": 399,
+      "word": "nourish",
+      "pos": "動詞",
+      "meaning": "〜に栄養を与える、〜を養う、〜を助長する",
+      "nuance": "健康や成長に必要な糧を与えること。比喩的に才能や希望を「育む」際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The soil is rich enough to nourish the plants.",
+              "ja": "その土壌は植物に栄養を与えるのに十分なほど豊かだ。",
+              "highlight": "nourish"
+            },
+            {
+              "en": "Reading books nourishes the mind.",
+              "ja": "読書は心を豊かにする（養う）。",
+              "highlight": "nourishes"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 nutrire（乳を飲ませる、養う）",
+      "synonyms": [
+        {"word": "nurture", "trans": "養育する"},
+        {"word": "feed", "trans": "食べ物を与える"},
+        {"word": "sustain", "trans": "維持する"}
+      ],
+      "antonyms": [
+        {"word": "starve", "trans": "飢えさせる"},
+        {"word": "deprive", "trans": "奪う"}
+      ],
+      "related": [
+        {"word": "nourishment", "trans": "名詞：栄養物"}
+      ]
+    },
+    {
+      "number": "399-2",
+      "word": "nourishment",
+      "pos": "名詞",
+      "meaning": "食物、栄養、養育",
+      "nuance": "成長や生命維持に必要な物質、または精神的な糧を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Plants draw nourishment from the earth.",
+              "ja": "植物は大気と大地から栄養を取り入れる。",
+              "highlight": "nourishment"
+            }
+          ]
+        }
+      ],
+      "etymology": "nourish + ment",
+      "synonyms": [
+        {"word": "nutrition", "trans": "栄養"},
+        {"word": "food", "trans": "食べ物"},
+        {"word": "sustenance", "trans": "糧"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 400,
+      "word": "nurture",
+      "pos": "動詞、名詞",
+      "meaning": "〜を養育する、〜を育てる、養育、教育",
+      "nuance": "環境を整えて、成長を促すように大切に育てることを指します。「Nature vs Nurture（氏か育ちか）」というフレーズが有名です。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "She carefully nurtured the young seedlings.",
+              "ja": "彼女は若い苗を注意深く育てた。",
+              "highlight": "nurtured"
+            },
+            {
+              "en": "The teacher helped to nurture his talent for music.",
+              "ja": "先生は彼の音楽の才能を伸ばす（育む）手助けをした。",
+              "highlight": "nurture"
+            }
+          ]
+        }
+      ],
+      "etymology": "nourish と同語源（ラテン語 nutrire）",
+      "synonyms": [
+        {"word": "raise", "trans": "育てる"},
+        {"word": "cultivate", "trans": "耕す、育む"},
+        {"word": "foster", "trans": "促進する、里親として育てる"}
+      ],
+      "antonyms": [
+        {"word": "neglect", "trans": "放っておく"},
+        {"word": "hinder", "trans": "妨げる"}
+      ],
+      "related": []
+    },
+    {
+      "number": 401,
+      "word": "nursing",
+      "pos": "名詞、形容詞",
+      "meaning": "看護、保育、授乳、看護の",
+      "nuance": "病人の世話や乳幼児のケア全般を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She decided to enter the nursing profession.",
+              "ja": "彼女は看護の職業に就くことを決めた。",
+              "highlight": "nursing"
+            },
+            {
+              "en": "A nursing mother needs a healthy diet.",
+              "ja": "授乳中の母親には健康的な食生活が必要だ。",
+              "highlight": "nursing"
+            }
+          ]
+        }
+      ],
+      "etymology": "nurse の現在分詞形",
+      "synonyms": [
+        {"word": "care", "trans": "世話"},
+        {"word": "attendance", "trans": "付き添い"},
+        {"word": "breastfeeding", "trans": "授乳"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "nurse", "trans": "名詞/動詞：看護師/看護する"}
+      ]
+    },
+    {
+      "number": 402,
+      "word": "nursery",
+      "pos": "名詞",
+      "meaning": "託児所、保育園、子供部屋、苗床",
+      "nuance": "幼い子供をケアする場所、または植物を育てるための場所を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The children are playing in the nursery.",
+              "ja": "子供たちは子供部屋（または保育園）で遊んでいる。",
+              "highlight": "nursery"
+            },
+            {
+              "en": "We bought some rose bushes at the local nursery.",
+              "ja": "私たちは地元の苗木屋（園芸店）でバラの低木を買った。",
+              "highlight": "nursery"
+            }
+          ]
+        }
+      ],
+      "etymology": "nurse + ery（場所を表す語尾）",
+      "synonyms": [
+        {"word": "daycare", "trans": "託児所"},
+        {"word": "preschool", "trans": "幼稚園"},
+        {"word": "garden center", "trans": "園芸店"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "nursery rhyme", "trans": "童謡（マザーグースなど）"}
+      ]
     }
   ]
 }
