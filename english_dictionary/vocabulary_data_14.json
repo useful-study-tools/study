@@ -586,6 +586,515 @@
         {"word": "selflessness", "trans": "無私、献身"}
       ],
       "related": []
+    },
+    {
+      "number": 379,
+      "word": "limitation",
+      "pos": "名詞",
+      "meaning": "制限、限定、限界、欠点",
+      "nuance": "能力の限界や、法的な制約、あるいは物事の不十分な点を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We must acknowledge the limitations of this new technology.",
+              "ja": "私たちはこの新技術の限界（欠点）を認めなければならない。",
+              "highlight": "limitations"
+            },
+            {
+              "en": "There are strict limitations on how the money can be used.",
+              "ja": "そのお金の使い方には厳格な制限がある。",
+              "highlight": "limitations"
+            }
+          ]
+        }
+      ],
+      "etymology": "limit + ation",
+      "synonyms": [
+        {"word": "restriction", "trans": "制限"},
+        {"word": "boundary", "trans": "境界"},
+        {"word": "constraint", "trans": "制約"}
+      ],
+      "antonyms": [
+        {"word": "freedom", "trans": "自由"},
+        {"word": "infinity", "trans": "無限"}
+      ],
+      "related": [
+        {"word": "limit", "trans": "動詞：制限する"}
+      ]
+    },
+    {
+      "number": "379-2",
+      "word": "limit",
+      "pos": "動詞、名詞",
+      "meaning": "〜を制限する、限定する、限界、限度",
+      "nuance": "範囲を定める行為、またはその境界線を指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Please limit your speech to five minutes.",
+              "ja": "スピーチは5分以内に制限してください。",
+              "highlight": "limit"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "There is a limit to my patience.",
+              "ja": "私の忍耐にも限度がある。",
+              "highlight": "limit"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 limes（小道、境界）",
+      "synonyms": [
+        {"word": "confine", "trans": "閉じ込める、限定する"},
+        {"word": "curtail", "trans": "削減する"},
+        {"word": "maximum", "trans": "最大限度"}
+      ],
+      "antonyms": [
+        {"word": "extend", "trans": "広げる"},
+        {"word": "exceed", "trans": "超える"}
+      ],
+      "related": []
+    },
+    {
+      "number": 380,
+      "word": "arrogance",
+      "pos": "名詞",
+      "meaning": "傲慢、尊大さ",
+      "nuance": "自分が他人より優れていると思い込み、他人の意見を軽視する態度のことです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His arrogance made him very unpopular with his colleagues.",
+              "ja": "彼の傲慢さは、同僚の間で彼を非常に不人気にした。",
+              "highlight": "arrogance"
+            }
+          ]
+        }
+      ],
+      "etymology": "ar（〜に向かって）+ rogare（求める、要求する）",
+      "synonyms": [
+        {"word": "haughtiness", "trans": "高慢"},
+        {"word": "pride", "trans": "自尊心、傲慢"},
+        {"word": "insolence", "trans": "横柄"}
+      ],
+      "antonyms": [
+        {"word": "humility", "trans": "謙虚"},
+        {"word": "modesty", "trans": "控えめさ"}
+      ],
+      "related": [
+        {"word": "arrogant", "trans": "形容詞：傲慢な"}
+      ]
+    },
+    {
+      "number": "380-2",
+      "word": "arrogant",
+      "pos": "形容詞",
+      "meaning": "傲慢な、横柄な",
+      "nuance": "人を見下したような態度をとる様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It was arrogant of him to assume he would get the job.",
+              "ja": "自分がその仕事に就けると決めつけるとは、彼は傲慢だった。",
+              "highlight": "arrogant"
+            }
+          ]
+        }
+      ],
+      "etymology": "arrogance の形容詞形",
+      "synonyms": [
+        {"word": "pompous", "trans": "もったいぶった"},
+        {"word": "overbearing", "trans": "威圧的な"}
+      ],
+      "antonyms": [
+        {"word": "humble", "trans": "謙虚な"},
+        {"word": "meek", "trans": "柔和な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 381,
+      "word": "naughty",
+      "pos": "形容詞",
+      "meaning": "（子供が）いたずらな、わんぱくな、下品な（口語）",
+      "nuance": "主に子供が言うことを聞かない時に使われます。大人が使うと「ちょっとエッチな（際どい）」というニュアンスになることがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The naughty boy broke the window with a ball.",
+              "ja": "そのわんぱくな少年はボールで窓を割った。",
+              "highlight": "naughty"
+            },
+            {
+              "en": "Stop being naughty and eat your vegetables.",
+              "ja": "いたずら（わがまま）はやめて、野菜を食べなさい。",
+              "highlight": "naughty"
+            }
+          ]
+        }
+      ],
+      "etymology": "naught（ゼロ、無）+ y → 価値のない、行儀の悪い",
+      "synonyms": [
+        {"word": "mischievous", "trans": "いたずら好きな"},
+        {"word": "disobedient", "trans": "反抗的な"},
+        {"word": "bad", "trans": "悪い"}
+      ],
+      "antonyms": [
+        {"word": "well-behaved", "trans": "行儀の良い"},
+        {"word": "obedient", "trans": "従順な"}
+      ],
+      "related": []
+    },
+    {
+      "number": "381-2",
+      "word": "conceited",
+      "pos": "形容詞",
+      "meaning": "うぬぼれた、自惚れ強い",
+      "nuance": "自分の容姿や能力を鼻にかけている様子を指します。arrogantよりも「自意識過剰」な面が強いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He's so conceited that he thinks everyone is in love with him.",
+              "ja": "彼はとてもうぬぼれているので、誰もが自分に恋をしていると思っている。",
+              "highlight": "conceited"
+            }
+          ]
+        }
+      ],
+      "etymology": "conceit（思い上がり）+ ed",
+      "synonyms": [
+        {"word": "vain", "trans": "虚栄心の強い"},
+        {"word": "narcissistic", "trans": "自己愛的な"},
+        {"word": "egoistic", "trans": "利己的な"}
+      ],
+      "antonyms": [
+        {"word": "modest", "trans": "控えめな"},
+        {"word": "unassuming", "trans": "気取らない"}
+      ],
+      "related": [
+        {"word": "conceit", "trans": "名詞：うぬぼれ"}
+      ]
+    },
+    {
+      "number": "381-3",
+      "word": "conceit",
+      "pos": "名詞",
+      "meaning": "うぬぼれ、思い上がり、（文学上の）奇抜な発想",
+      "nuance": "過剰な自己評価を指すほか、詩などで使われる凝った比喩（奇想）という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His conceit knows no bounds.",
+              "ja": "彼のうぬぼれには際限がない。",
+              "highlight": "conceit"
+            }
+          ]
+        }
+      ],
+      "etymology": "conceive（心に抱く）の名詞形",
+      "synonyms": [
+        {"word": "vanity", "trans": "虚栄心"},
+        {"word": "narcissism", "trans": "自己愛"}
+      ],
+      "antonyms": [
+        {"word": "humility", "trans": "謙虚"}
+      ],
+      "related": []
+    },
+    {
+      "number": "381-4",
+      "word": "haughty",
+      "pos": "形容詞",
+      "meaning": "高慢な、お高くとまった",
+      "nuance": "特権階級のような意識を持ち、他人を自分より劣るものとして扱う冷ややかな傲慢さを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She threw him a haughty glance and walked away.",
+              "ja": "彼女は彼に高慢な視線を投げかけ、立ち去った。",
+              "highlight": "haughty"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 haut（高い）",
+      "synonyms": [
+        {"word": "snobbish", "trans": "お高くとまった"},
+        {"word": "disdainful", "trans": "軽蔑的な"},
+        {"word": "supercilious", "trans": "横柄な"}
+      ],
+      "antonyms": [
+        {"word": "friendly", "trans": "友好的な"},
+        {"word": "approachable", "trans": "親しみやすい"}
+      ],
+      "related": []
+    },
+    {
+      "number": "381-5",
+      "word": "presumptuous",
+      "pos": "形容詞",
+      "meaning": "厚かましい、おこがましい、図々しい",
+      "nuance": "許可も得ずに勝手なことをしたり、身分をわきまえない行動をとったりすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It would be presumptuous of me to give you advice.",
+              "ja": "私があなたに助言をするのはおこがましいでしょう。",
+              "highlight": "presumptuous"
+            }
+          ]
+        }
+      ],
+      "etymology": "pre（あらかじめ）+ sumere（取る）→ 勝手に決め込む",
+      "synonyms": [
+        {"word": "impudent", "trans": "生意気な"},
+        {"word": "brazen", "trans": "図々しい"},
+        {"word": "audacious", "trans": "大胆不敵な"}
+      ],
+      "antonyms": [
+        {"word": "polite", "trans": "礼儀正しい"},
+        {"word": "deferential", "trans": "敬意を表する"}
+      ],
+      "related": [
+        {"word": "presume", "trans": "動詞：推定する、あえて〜する"}
+      ]
+    },
+    {
+      "number": 382,
+      "word": "dose",
+      "pos": "名詞、動詞",
+      "meaning": "（薬の）1回分の服用量、（不快なことの）1回、〜に投薬する",
+      "nuance": "物理的な薬の量だけでなく、「手痛い経験(a dose of reality)」のように比喩的にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The doctor prescribed a low dose of the medication.",
+              "ja": "医者はその薬の低用量を処方した。",
+              "highlight": "dose"
+            },
+            {
+              "en": "He got a heavy dose of criticism for his remarks.",
+              "ja": "彼は発言に対して激しい（大量の）批判を受けた。",
+              "highlight": "dose"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 dosis（与えること）",
+      "synonyms": [
+        {"word": "dosage", "trans": "用量"},
+        {"word": "amount", "trans": "量"},
+        {"word": "portion", "trans": "一部、分け前"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 383,
+      "word": "enlighten",
+      "pos": "動詞",
+      "meaning": "〜を啓発する、教え導く、〜に説明する",
+      "nuance": "暗闇に光（light）を当てるように、無知な状態の人に知識や真実を与えることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Could you enlighten me on the details of the project?",
+              "ja": "そのプロジェクトの詳細について教えて（説明して）いただけますか？",
+              "highlight": "enlighten"
+            },
+            {
+              "en": "The seminar aimed to enlighten students about environmental issues.",
+              "ja": "そのセミナーは、環境問題について学生を啓発することを目的としていた。",
+              "highlight": "enlighten"
+            }
+          ]
+        }
+      ],
+      "etymology": "en（〜にする）+ light（光）+ en（〜にする）",
+      "synonyms": [
+        {"word": "inform", "trans": "知らせる"},
+        {"word": "educate", "trans": "教育する"},
+        {"word": "illuminate", "trans": "照らす、解明する"}
+      ],
+      "antonyms": [
+        {"word": "confuse", "trans": "混乱させる"},
+        {"word": "mislead", "trans": "誤導する"}
+      ],
+      "related": [
+        {"word": "enlightenment", "trans": "名詞：啓蒙、悟り"}
+      ]
+    },
+    {
+      "number": "383-2",
+      "word": "enlightenment",
+      "pos": "名詞",
+      "meaning": "啓蒙、啓発、悟り、文明化",
+      "nuance": "高い知性や精神的な理解に達した状態を指します。歴史的には「啓蒙主義(the Enlightenment)」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Meditation can lead to spiritual enlightenment.",
+              "ja": "瞑想は精神的な悟りへと導くことがある。",
+              "highlight": "enlightenment"
+            }
+          ]
+        }
+      ],
+      "etymology": "enlighten の名詞形",
+      "synonyms": [
+        {"word": "insight", "trans": "洞察"},
+        {"word": "awareness", "trans": "意識、自覚"},
+        {"word": "wisdom", "trans": "知恵"}
+      ],
+      "antonyms": [
+        {"word": "ignorance", "trans": "無知"}
+      ],
+      "related": []
+    },
+    {
+      "number": 384,
+      "word": "acquaint",
+      "pos": "動詞",
+      "meaning": "〜を知らせる、〜を慣れさせる、〜を紹介する",
+      "nuance": "「〜に熟知させる」という意味で、be acquainted with（〜と知り合いである/〜をよく知っている）の形でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "You should acquaint yourself with the rules of the house.",
+              "ja": "あなたはその家のルールを熟知しておくべきだ。",
+              "highlight": "acquaint"
+            },
+            {
+              "en": "Allow me to acquaint you with my colleague.",
+              "ja": "同僚をあなたに紹介させてください。",
+              "highlight": "acquaint"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad（〜に）+ cognoscere（知る）",
+      "synonyms": [
+        {"word": "familiarize", "trans": "慣れさせる"},
+        {"word": "introduce", "trans": "紹介する"},
+        {"word": "notify", "trans": "通知する"}
+      ],
+      "antonyms": [
+        {"word": "ignore", "trans": "無視する"}
+      ],
+      "related": [
+        {"word": "acquaintance", "trans": "名詞：知人"}
+      ]
+    },
+    {
+      "number": "384-2",
+      "word": "preach",
+      "pos": "動詞",
+      "meaning": "説教する、講釈を垂れる、熱心に勧める",
+      "nuance": "宗教的な説教のほか、日常的に「ああだこうだとうるさく教え込む」という、ややおせっかいなニュアンスも含みます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The priest preached a sermon on forgiveness.",
+              "ja": "司祭は許しについての説教を行った。",
+              "highlight": "preached"
+            },
+            {
+              "en": "Don't preach at me; I can make my own decisions.",
+              "ja": "私にお説教しないで。自分で決めることができるから。",
+              "highlight": "preach"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 prae（前に）+ dicare（宣言する）",
+      "synonyms": [
+        {"word": "lecture", "trans": "講義する、説教する"},
+        {"word": "advocate", "trans": "提唱する"},
+        {"word": "sermonize", "trans": "お説教する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "preacher", "trans": "名詞：説教者"}
+      ]
+    },
+    {
+      "number": 385,
+      "word": "sting",
+      "pos": "動詞、名詞",
+      "meaning": "（針などで）刺す、〜をひりひりさせる、（良心などが）痛む、刺し傷、痛み",
+      "nuance": "蜂などが物理的に刺すことと、心ない言葉が精神的に突き刺さる（心を傷つける）ことの両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "A bee stung me on the arm.",
+              "ja": "蜂に腕を刺された。",
+              "highlight": "stung"
+            },
+            {
+              "en": "Her harsh words still sting.",
+              "ja": "彼女の厳しい言葉が今でも胸に刺さる（痛む）。",
+              "highlight": "sting"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The sting of the ointment will pass in a minute.",
+              "ja": "軟膏のヒリヒリした痛みはすぐに収まるだろう。",
+              "highlight": "sting"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 stingan（刺す）",
+      "synonyms": [
+        {"word": "prick", "trans": "チクリと刺す"},
+        {"word": "smart", "trans": "ズキズキ痛む"},
+        {"word": "hurt", "trans": "痛む"}
+      ],
+      "antonyms": [
+        {"word": "soothe", "trans": "なだめる、和らげる"}
+      ],
+      "related": [
+        {"word": "stinger", "trans": "名詞：刺すもの（針）"}
+      ]
     }
   ]
 }
