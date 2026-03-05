@@ -875,6 +875,757 @@
         {"word": "object", "trans": "名詞/動詞：物体/反対する"},
         {"word": "objectivity", "trans": "名詞：客観性"}
       ]
+    },
+    {
+      "number": 361,
+      "word": "software",
+      "pos": "名詞",
+      "meaning": "ソフトウェア、ソフト",
+      "nuance": "コンピュータを動かすプログラムや手順の総称。形のないデジタルな実体を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We need to update the security software on all office computers.",
+              "ja": "すべてのオフィスのコンピュータのセキュリティソフトを更新する必要がある。",
+              "highlight": "software"
+            },
+            {
+              "en": "He works as a software engineer for a tech giant.",
+              "ja": "彼は巨大テック企業のソフトウェアエンジニアとして働いている。",
+              "highlight": "software"
+            }
+          ]
+        }
+      ],
+      "etymology": "soft（柔らかい、形のない）+ ware（品物、製品）",
+      "synonyms": [
+        {"word": "program", "trans": "プログラム"},
+        {"word": "application", "trans": "アプリケーション"}
+      ],
+      "antonyms": [
+        {"word": "hardware", "trans": "ハードウェア"}
+      ],
+      "related": []
+    },
+    {
+      "number": "361-2",
+      "word": "hardware",
+      "pos": "名詞",
+      "meaning": "ハードウェア、機材、金物",
+      "nuance": "コンピュータの物理的な部品（回路、画面など）や、工具・金属製品を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The new software is too heavy for this old hardware.",
+              "ja": "新しいソフトはこの古いハードウェア（機材）で動かすには重すぎる。",
+              "highlight": "hardware"
+            },
+            {
+              "en": "You can buy nails and hammers at the local hardware store.",
+              "ja": "地元の金物屋で釘やハンマーを買うことができる。",
+              "highlight": "hardware"
+            }
+          ]
+        }
+      ],
+      "etymology": "hard（固い、形のある）+ ware（製品）",
+      "synonyms": [
+        {"word": "equipment", "trans": "装置"},
+        {"word": "machinery", "trans": "機械類"},
+        {"word": "ironmongery", "trans": "金物類"}
+      ],
+      "antonyms": [
+        {"word": "software", "trans": "ソフトウェア"}
+      ],
+      "related": []
+    },
+    {
+      "number": 362,
+      "word": "resentful",
+      "pos": "形容詞",
+      "meaning": "憤慨している、腹を立てている",
+      "nuance": "不公平な扱いや侮辱に対し、根に持っているような、静かな怒りを含んだ状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She felt resentful about being passed over for promotion.",
+              "ja": "彼女は昇進を見送られたことに対して憤慨していた。",
+              "highlight": "resentful"
+            }
+          ]
+        }
+      ],
+      "etymology": "resent + ful",
+      "synonyms": [
+        {"word": "bitter", "trans": "苦々しく思っている"},
+        {"word": "indignant", "trans": "憤った"},
+        {"word": "aggrieved", "trans": "虐げられたと感じる"}
+      ],
+      "antonyms": [
+        {"word": "content", "trans": "満足している"},
+        {"word": "forgiving", "trans": "寛大な"}
+      ],
+      "related": [
+        {"word": "resent", "trans": "動詞：憤慨する"}
+      ]
+    },
+    {
+      "number": "362-2",
+      "word": "resent",
+      "pos": "動詞",
+      "meaning": "〜に憤慨する、〜を腹立たしく思う",
+      "nuance": "（しばしば他人の言動によって）不快な思いをし、それを心の中で怒ることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I bitterly resent your criticism of my work.",
+              "ja": "私の仕事に対するあなたの批判を、私はひどく腹立たしく思う。",
+              "highlight": "resent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 re（強意）+ sentire（感じる）→ 強く感じる",
+      "synonyms": [
+        {"word": "grudge", "trans": "恨む"},
+        {"word": "dislike", "trans": "嫌う"}
+      ],
+      "antonyms": [
+        {"word": "appreciate", "trans": "感謝する"},
+        {"word": "welcome", "trans": "歓迎する"}
+      ],
+      "related": [
+        {"word": "resentment", "trans": "名詞：憤慨"}
+      ]
+    },
+    {
+      "number": 363,
+      "word": "endanger",
+      "pos": "動詞",
+      "meaning": "〜を危険にさらす",
+      "nuance": "何かが損なわれたり死んだりする可能性のある危険な状態に置くことです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Pollution is endangering the lives of many sea animals.",
+              "ja": "汚染が多くの海洋生物の命を危険にさらしている。",
+              "highlight": "endangering"
+            }
+          ]
+        }
+      ],
+      "etymology": "en（〜の状態にする）+ danger（危険）",
+      "synonyms": [
+        {"word": "jeopardize", "trans": "危うくする"},
+        {"word": "imperil", "trans": "危険にさらす"},
+        {"word": "threaten", "trans": "脅かす"}
+      ],
+      "antonyms": [
+        {"word": "protect", "trans": "保護する"},
+        {"word": "safeguard", "trans": "守る"}
+      ],
+      "related": [
+        {"word": "endangered species", "trans": "絶滅危惧種"}
+      ]
+    },
+    {
+      "number": "363-2",
+      "word": "enlarge",
+      "pos": "動詞",
+      "meaning": "〜を拡大する、大きくする",
+      "nuance": "物理的なサイズを大きくする、または写真などを引き延ばすことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We decided to enlarge our kitchen last year.",
+              "ja": "私たちは昨年、キッチンを広げることにした。",
+              "highlight": "enlarge"
+            },
+            {
+              "en": "Could you enlarge this photo for me?",
+              "ja": "この写真を大きく（引き延ばして）もらえますか？",
+              "highlight": "enlarge"
+            }
+          ]
+        }
+      ],
+      "etymology": "en（〜にする）+ large（大きい）",
+      "synonyms": [
+        {"word": "expand", "trans": "拡大する"},
+        {"word": "extend", "trans": "拡張する"},
+        {"word": "magnify", "trans": "拡大する（レンズなどで）"}
+      ],
+      "antonyms": [
+        {"word": "shrink", "trans": "縮む"},
+        {"word": "reduce", "trans": "減らす"},
+        {"word": "narrow", "trans": "狭める"}
+      ],
+      "related": [
+        {"word": "enlargement", "trans": "名詞：拡大"}
+      ]
+    },
+    {
+      "number": "363-3",
+      "word": "enrich",
+      "pos": "動詞",
+      "meaning": "〜を豊かにする、〜に栄養を与える",
+      "nuance": "質、価値、量、または栄養などを高めることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Travel will enrich your life with new experiences.",
+              "ja": "旅は新しい経験であなたの人生を豊かにしてくれるだろう。",
+              "highlight": "enrich"
+            },
+            {
+              "en": "This cereal is enriched with vitamins and minerals.",
+              "ja": "このシリアルはビタミンとミネラルで強化（栄養添加）されている。",
+              "highlight": "enriched"
+            }
+          ]
+        }
+      ],
+      "etymology": "en（〜にする）+ rich（豊かな）",
+      "synonyms": [
+        {"word": "enhance", "trans": "高める"},
+        {"word": "improve", "trans": "改善する"},
+        {"word": "supplement", "trans": "補う"}
+      ],
+      "antonyms": [
+        {"word": "deplete", "trans": "枯渇させる"},
+        {"word": "impoverish", "trans": "貧しくする"}
+      ],
+      "related": [
+        {"word": "rich", "trans": "形容詞：豊かな"}
+      ]
+    },
+    {
+      "number": 364,
+      "word": "fasten",
+      "pos": "動詞",
+      "meaning": "〜を締める、固定する",
+      "nuance": "シートベルトを締めたり、ボタンを留めたり、動かないようにしっかり固定することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please fasten your seat belt before takeoff.",
+              "ja": "離陸前にシートベルトをお締めください。",
+              "highlight": "fasten"
+            },
+            {
+              "en": "He fastened the key to his belt.",
+              "ja": "彼は鍵をベルトに固定した。",
+              "highlight": "fastened"
+            }
+          ]
+        }
+      ],
+      "etymology": "fast（しっかりした、固定された）+ en（〜にする）",
+      "synonyms": [
+        {"word": "secure", "trans": "固定する"},
+        {"word": "attach", "trans": "取り付ける"},
+        {"word": "tighten", "trans": "締める"}
+      ],
+      "antonyms": [
+        {"word": "unfasten", "trans": "外す、緩める"},
+        {"word": "loose", "trans": "解く"}
+      ],
+      "related": [
+        {"word": "fastener", "trans": "名詞：留め具（ファスナーなど）"}
+      ]
+    },
+    {
+      "number": 365,
+      "word": "soften",
+      "pos": "動詞",
+      "meaning": "〜を柔らかくする、和らげる、柔らかくなる",
+      "nuance": "物理的な硬さを取るだけでなく、態度や声、市場の状況などが穏やかになることも含みます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Use a moisturizer to soften your skin.",
+              "ja": "肌を柔らかくするために保湿剤を使いなさい。",
+              "highlight": "soften"
+            },
+            {
+              "en": "The bank may soften its stance on lending rules.",
+              "ja": "銀行は貸付規則についての姿勢を和らげるかもしれない。",
+              "highlight": "soften"
+            }
+          ]
+        }
+      ],
+      "etymology": "soft + en",
+      "synonyms": [
+        {"word": "moderate", "trans": "和らげる"},
+        {"word": "relax", "trans": "緩める"},
+        {"word": "mellow", "trans": "熟成させる、和らぐ"}
+      ],
+      "antonyms": [
+        {"word": "harden", "trans": "固くする"},
+        {"word": "stiffen", "trans": "硬直させる"}
+      ],
+      "related": []
+    },
+    {
+      "number": "365-2",
+      "word": "awaken",
+      "pos": "動詞",
+      "meaning": "〜を目覚めさせる、〜を呼び起こす、目が覚める",
+      "nuance": "眠りから覚めること、あるいは感情や興味を刺激して引き出すことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The music awakened old memories in her heart.",
+              "ja": "その音楽が彼女の心に古い記憶を呼び起こした。",
+              "highlight": "awakened"
+            }
+          ]
+        }
+      ],
+      "etymology": "awake + en",
+      "synonyms": [
+        {"word": "arouse", "trans": "刺激する、目覚めさせる"},
+        {"word": "stimulate", "trans": "刺激する"},
+        {"word": "wake", "trans": "起こす"}
+      ],
+      "antonyms": [
+        {"word": "soothe", "trans": "なだめる"},
+        {"word": "calm", "trans": "落ち着かせる"}
+      ],
+      "related": []
+    },
+    {
+      "number": "365-3",
+      "word": "lengthen",
+      "pos": "動詞",
+      "meaning": "〜を長くする、長くなる",
+      "nuance": "長さや時間を延ばすことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The days begin to lengthen in the spring.",
+              "ja": "春になると日が長くなり始める。",
+              "highlight": "lengthen"
+            }
+          ]
+        }
+      ],
+      "etymology": "length（長さ）+ en",
+      "synonyms": [
+        {"word": "extend", "trans": "延長する"},
+        {"word": "elongate", "trans": "引き延ばす"},
+        {"word": "prolong", "trans": "長引かせる"}
+      ],
+      "antonyms": [
+        {"word": "shorten", "trans": "短くする"},
+        {"word": "abbreviate", "trans": "省略する"}
+      ],
+      "related": []
+    },
+    {
+      "number": "365-4",
+      "word": "ripen",
+      "pos": "動詞",
+      "meaning": "熟す、〜を熟成させる",
+      "nuance": "果実などが食べ頃になること。比喩的に計画などが「機が熟す」ときにも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "These tomatoes need a few more days to ripen.",
+              "ja": "これらのトマトが熟すにはあと数日必要だ。",
+              "highlight": "ripen"
+            }
+          ]
+        }
+      ],
+      "etymology": "ripe（熟した）+ en",
+      "synonyms": [
+        {"word": "mature", "trans": "成熟する"},
+        {"word": "develop", "trans": "発達する"}
+      ],
+      "antonyms": [
+        {"word": "decay", "trans": "腐る"},
+        {"word": "wither", "trans": "しおれる"}
+      ],
+      "related": []
+    },
+    {
+      "number": "365-5",
+      "word": "strengthen",
+      "pos": "動詞",
+      "meaning": "〜を強化する、強くなる",
+      "nuance": "力、構造、結びつきなどをより強固にすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Exercises can help to strengthen your muscles.",
+              "ja": "運動は筋肉を強化するのに役立つ。",
+              "highlight": "strengthen"
+            },
+            {
+              "en": "The two companies strengthened their partnership.",
+              "ja": "その二社はパートナーシップを強化した。",
+              "highlight": "strengthened"
+            }
+          ]
+        }
+      ],
+      "etymology": "strength（力）+ en",
+      "synonyms": [
+        {"word": "reinforce", "trans": "補強する"},
+        {"word": "bolster", "trans": "支持する、強化する"},
+        {"word": "fortify", "trans": "要塞化する、強化する"}
+      ],
+      "antonyms": [
+        {"word": "weaken", "trans": "弱める"},
+        {"word": "undermine", "trans": "（密かに）弱体化させる"}
+      ],
+      "related": []
+    },
+    {
+      "number": "365-6",
+      "word": "toughen",
+      "pos": "動詞",
+      "meaning": "〜をたくましくする、〜を頑丈にする、強硬になる",
+      "nuance": "物理的に壊れにくくすることや、精神的に打たれ強くすること、あるいは規制を厳しくすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Hard experiences in childhood can toughen a person.",
+              "ja": "子供時代の辛い経験は、人をたくましくすることがある。",
+              "highlight": "toughen"
+            },
+            {
+              "en": "The government is toughening its stance on crime.",
+              "ja": "政府は犯罪に対する姿勢を強硬にしている（厳しくしている）。",
+              "highlight": "toughening"
+            }
+          ]
+        }
+      ],
+      "etymology": "tough（強い、たくましい）+ en",
+      "synonyms": [
+        {"word": "harden", "trans": "硬くする、冷酷にする"},
+        {"word": "solidify", "trans": "固める"}
+      ],
+      "antonyms": [
+        {"word": "soften", "trans": "和らげる"}
+      ],
+      "related": []
+    },
+    {
+      "number": "365-7",
+      "word": "worsen",
+      "pos": "動詞",
+      "meaning": "悪化する、〜を悪化させる",
+      "nuance": "状態や状況がさらに悪い方向へ進むことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The weather began to worsen in the afternoon.",
+              "ja": "午後に天気が悪化し始めた。",
+              "highlight": "worsen"
+            }
+          ]
+        }
+      ],
+      "etymology": "worse（より悪い）+ en",
+      "synonyms": [
+        {"word": "deteriorate", "trans": "悪化する"},
+        {"word": "degenerate", "trans": "退化する、悪化する"},
+        {"word": "aggravate", "trans": "悪化させる"}
+      ],
+      "antonyms": [
+        {"word": "improve", "trans": "改善する"},
+        {"word": "better", "trans": "良くする"}
+      ],
+      "related": []
+    },
+    {
+      "number": 366,
+      "word": "merciful",
+      "pos": "形容詞",
+      "meaning": "慈悲深い、情け深い",
+      "nuance": "力のある者が、罰せられるべき者や弱者に対して示す、優しさや許しを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The king was merciful and spared the prisoner's life.",
+              "ja": "王は慈悲深く、囚人の命を助けた。",
+              "highlight": "merciful"
+            }
+          ]
+        }
+      ],
+      "etymology": "mercy + ful",
+      "synonyms": [
+        {"word": "compassionate", "trans": "思いやりのある"},
+        {"word": "lenient", "trans": "寛大な"},
+        {"word": "charitable", "trans": "慈悲深い"}
+      ],
+      "antonyms": [
+        {"word": "merciless", "trans": "無慈悲な"},
+        {"word": "cruel", "trans": "残酷な"},
+        {"word": "ruthless", "trans": "冷酷な"}
+      ],
+      "related": [
+        {"word": "mercy", "trans": "名詞：慈悲"}
+      ]
+    },
+    {
+      "number": "366-2",
+      "word": "mercy",
+      "pos": "名詞",
+      "meaning": "慈悲、情け、幸運",
+      "nuance": "他人の苦痛を和らげたり、許したりする行為そのものを指します。「At the mercy of ~（〜のなすがままに）」という熟語が重要です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The lost hikers were at the mercy of the elements.",
+              "ja": "道に迷ったハイカーたちは、自然の猛威のなすがままだった。",
+              "highlight": "mercy"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 merces（報酬、賃金）→ 神からの報酬としての「恩寵」",
+      "synonyms": [
+        {"word": "pity", "trans": "哀れみ"},
+        {"word": "clemency", "trans": "（刑罰の）寛大さ"},
+        {"word": "grace", "trans": "恩寵、優雅"}
+      ],
+      "antonyms": [
+        {"word": "vengeance", "trans": "復讐"},
+        {"word": "cruelty", "trans": "残酷"}
+      ],
+      "related": []
+    },
+    {
+      "number": 367,
+      "word": "skillful",
+      "pos": "形容詞",
+      "meaning": "熟練した、上手な",
+      "nuance": "特別な訓練や経験によって得られた高い能力を持っていることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The surgeon performed a skillful operation.",
+              "ja": "その外科医は熟練した手術を行った。",
+              "highlight": "skillful"
+            }
+          ]
+        }
+      ],
+      "etymology": "skill + ful",
+      "synonyms": [
+        {"word": "adept", "trans": "熟達した"},
+        {"word": "proficient", "trans": "堪能な"},
+        {"word": "expert", "trans": "専門的な"}
+      ],
+      "antonyms": [
+        {"word": "clumsy", "trans": "不器用な"},
+        {"word": "inept", "trans": "無能な"},
+        {"word": "unskilled", "trans": "未熟な"}
+      ],
+      "related": [
+        {"word": "skillfully", "trans": "副詞：上手に"}
+      ]
+    },
+    {
+      "number": 368,
+      "word": "sorrowful",
+      "pos": "形容詞",
+      "meaning": "悲しみに満ちた、悲しい",
+      "nuance": "深い悲しみを感じている、あるいはそれを引き起こすような様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The funeral was a sorrowful occasion.",
+              "ja": "葬儀は悲しみに満ちた出来事だった。",
+              "highlight": "sorrowful"
+            }
+          ]
+        }
+      ],
+      "etymology": "sorrow + ful",
+      "synonyms": [
+        {"word": "mournful", "trans": "嘆き悲しむ"},
+        {"word": "sad", "trans": "悲しい"},
+        {"word": "melancholy", "trans": "憂鬱な"}
+      ],
+      "antonyms": [
+        {"word": "joyful", "trans": "喜ばしい"},
+        {"word": "cheerful", "trans": "陽気な"}
+      ],
+      "related": [
+        {"word": "sorrow", "trans": "名詞：悲しみ"}
+      ]
+    },
+    {
+      "number": "368-2",
+      "word": "distasteful",
+      "pos": "形容詞",
+      "meaning": "嫌な、不快な、まずい",
+      "nuance": "道徳的に受け入れられなかったり、感覚的に不快だったりすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I found his joke very distasteful.",
+              "ja": "彼のジョークは非常に不快（悪趣味）だと思った。",
+              "highlight": "distasteful"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis（否定）+ taste（好み、味）+ ful",
+      "synonyms": [
+        {"word": "unpleasant", "trans": "不快な"},
+        {"word": "offensive", "trans": "嫌な、攻撃的な"},
+        {"word": "revolting", "trans": "胸が悪くなるような"}
+      ],
+      "antonyms": [
+        {"word": "pleasant", "trans": "心地よい"},
+        {"word": "tasty", "trans": "美味しい"}
+      ],
+      "related": []
+    },
+    {
+      "number": "368-3",
+      "word": "lawful",
+      "pos": "形容詞",
+      "meaning": "法にかなった、適法な",
+      "nuance": "法律によって認められていること。しばしば「合法的な(legal)」と同義で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The police had a lawful reason to search the car.",
+              "ja": "警察には車を捜索する法的な理由があった。",
+              "highlight": "lawful"
+            }
+          ]
+        }
+      ],
+      "etymology": "law + ful",
+      "synonyms": [
+        {"word": "legal", "trans": "合法の"},
+        {"word": "legitimate", "trans": "正当な"}
+      ],
+      "antonyms": [
+        {"word": "unlawful", "trans": "不法な"},
+        {"word": "illegal", "trans": "違法な"}
+      ],
+      "related": []
+    },
+    {
+      "number": "368-4",
+      "word": "peaceful",
+      "pos": "形容詞",
+      "meaning": "平和な、穏やかな",
+      "nuance": "戦争や暴力がない状態、あるいは騒音がなく心が安まっている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The protesters were asked to remain peaceful.",
+              "ja": "抗議者たちは平和的な（暴力的でない）ままでいるよう求められた。",
+              "highlight": "peaceful"
+            },
+            {
+              "en": "I love the peaceful atmosphere of the countryside.",
+              "ja": "私は田舎の穏やかな雰囲気が大好きだ。",
+              "highlight": "peaceful"
+            }
+          ]
+        }
+      ],
+      "etymology": "peace + ful",
+      "synonyms": [
+        {"word": "tranquil", "trans": "静かな"},
+        {"word": "serene", "trans": "穏やかな"},
+        {"word": "calm", "trans": "静かな"}
+      ],
+      "antonyms": [
+        {"word": "violent", "trans": "暴力的な"},
+        {"word": "chaotic", "trans": "混沌とした"},
+        {"word": "turbulent", "trans": "荒れ狂う"}
+      ],
+      "related": []
+    },
+    {
+      "number": "368-5",
+      "word": "regretful",
+      "pos": "形容詞",
+      "meaning": "後悔している、残念に思っている",
+      "nuance": "過去の行為を悔やんでいたり、悲しんでいたりする「主観的な感情」を指します。※相手に謝罪の意を伝える「残念な（申し訳ない）」は regrettable を使うことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He gave a regretful sigh as he closed the old book.",
+              "ja": "彼は古い本を閉じながら、後悔の念のこもった溜息をついた。",
+              "highlight": "regretful"
+            }
+          ]
+        }
+      ],
+      "etymology": "regret + ful",
+      "synonyms": [
+        {"word": "remorseful", "trans": "悔恨の情に満ちた"},
+        {"word": "apologetic", "trans": "申し訳なく思っている"},
+        {"word": "repentant", "trans": "悔い改めている"}
+      ],
+      "antonyms": [
+        {"word": "unrepentant", "trans": "後悔していない"},
+        {"word": "satisfied", "trans": "満足した"}
+      ],
+      "related": [
+        {"word": "regret", "trans": "動詞/名詞：後悔（する）"}
+      ]
     }
   ]
 }
