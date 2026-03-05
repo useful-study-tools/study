@@ -460,6 +460,421 @@
       "related": [
         {"word": "meaning", "trans": "名詞：意味"}
       ]
+    },
+    {
+      "number": 351,
+      "word": "hollow",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "中空の、うつろな、（音が）こもった、くぼみ、〜をくり抜く",
+      "nuance": "中身が空っぽであることを指します。物理的な空間だけでなく、言葉の「虚しさ(hollow words)」など精神的な空虚さにも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The squirrel hid its nuts in a hollow tree trunk.",
+              "ja": "リスは中空になった木の幹に木の実を隠した。",
+              "highlight": "hollow"
+            },
+            {
+              "en": "Victory felt hollow after so many people had died.",
+              "ja": "非常に多くの人が亡くなった後の勝利は、虚しく感じられた。",
+              "highlight": "hollow"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "They hollowed out a log to make a canoe.",
+              "ja": "彼らはカヌーを作るために丸太をくり抜いた。",
+              "highlight": "hollowed out"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 holh（穴、くぼみ）",
+      "synonyms": [
+        {"word": "empty", "trans": "空の"},
+        {"word": "void", "trans": "空虚な"},
+        {"word": "sunken", "trans": "くぼんだ"}
+      ],
+      "antonyms": [
+        {"word": "solid", "trans": "中身の詰まった"},
+        {"word": "full", "trans": "満ちた"},
+        {"word": "convex", "trans": "凸状の"}
+      ],
+      "related": [
+        {"word": "hole", "trans": "名詞：穴"}
+      ]
+    },
+    {
+      "number": 352,
+      "word": "rip",
+      "pos": "動詞、名詞",
+      "meaning": "〜を引き裂く、〜をはぎ取る、裂け目、切り傷",
+      "nuance": "強い力で一気に、あるいは荒っぽく裂く動作を指します。比喩的に「激しく非難する」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "I accidentally ripped my jeans on the fence.",
+              "ja": "うっかりフェンスでジーンズを裂いてしまった。",
+              "highlight": "ripped"
+            },
+            {
+              "en": "He ripped the envelope open to read the letter.",
+              "ja": "彼は手紙を読むために封筒をびりっと破って開けた。",
+              "highlight": "ripped"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世オランダ語 reppen（急いで動く）に関連か",
+      "synonyms": [
+        {"word": "tear", "trans": "引き裂く"},
+        {"word": "shred", "trans": "細かく裂く"},
+        {"word": "split", "trans": "割る、裂く"}
+      ],
+      "antonyms": [
+        {"word": "mend", "trans": "修繕する"},
+        {"word": "sew", "trans": "縫う"},
+        {"word": "join", "trans": "つなぐ"}
+      ],
+      "related": [
+        {"word": "ripped", "trans": "形容詞：裂けた、（俗）筋肉がバキバキの"}
+      ]
+    },
+    {
+      "number": 353,
+      "word": "psychic",
+      "pos": "形容詞、名詞",
+      "meaning": "超能力のある、精神の、心霊の、霊能者、超能力者",
+      "nuance": "物理的ではない、心や霊的な次元の能力や現象を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "She claims to have psychic powers that allow her to see the future.",
+              "ja": "彼女は未来を見ることができる超能力を持っていると主張している。",
+              "highlight": "psychic"
+            },
+            {
+              "en": "The trauma caused deep psychic scars.",
+              "ja": "そのトラウマは深い精神的な傷跡を残した。",
+              "highlight": "psychic"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He went to see a psychic to contact his late grandfather.",
+              "ja": "彼は亡くなった祖父と交信するために霊能者に会いに行った。",
+              "highlight": "psychic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 psyche（魂、心）",
+      "synonyms": [
+        {"word": "spiritual", "trans": "精神的な、霊的な"},
+        {"word": "mental", "trans": "心の"},
+        {"word": "clairvoyant", "trans": "透視能力のある"}
+      ],
+      "antonyms": [
+        {"word": "physical", "trans": "物理的な"},
+        {"word": "material", "trans": "物質的な"}
+      ],
+      "related": [
+        {"word": "psychology", "trans": "名詞：心理学"},
+        {"word": "psyche", "trans": "名詞：精神、プシュケ"}
+      ]
+    },
+    {
+      "number": 354,
+      "word": "mass",
+      "pos": "名詞、形容詞、動詞",
+      "meaning": "かたまり、集団、質量、大衆、大規模な、〜を集める",
+      "nuance": "形がはっきりしない大きな集まりや、物理的な重さの概念を指します。「Mass production（大量生産）」などのように大規模さを強調します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：かたまり・多数）",
+          "examples": [
+            {
+              "en": "The clouds formed a dark mass on the horizon.",
+              "ja": "雲が地平線上に暗いかたまりを作った。",
+              "highlight": "mass"
+            },
+            {
+              "en": "There is a mass of information available on the internet.",
+              "ja": "インターネット上には膨大な量の情報がある。",
+              "highlight": "mass"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞：大規模な）",
+          "examples": [
+            {
+              "en": "Mass media has a huge influence on public opinion.",
+              "ja": "マスメディア（大衆媒体）は世論に大きな影響を与える。",
+              "highlight": "Mass"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 massa（練り粉、かたまり）",
+      "synonyms": [
+        {"word": "bulk", "trans": "大部分、巨体"},
+        {"word": "cluster", "trans": "群れ、集団"},
+        {"word": "magnitude", "trans": "大きさ、重要度"}
+      ],
+      "antonyms": [
+        {"word": "individual", "trans": "個人"},
+        {"word": "atom", "trans": "微粒子"},
+        {"word": "fragment", "trans": "破片"}
+      ],
+      "related": [
+        {"word": "massive", "trans": "形容詞：巨大な"},
+        {"word": "massacre", "trans": "名詞：大虐殺"}
+      ]
+    },
+    {
+      "number": 355,
+      "word": "lump",
+      "pos": "名詞、動詞",
+      "meaning": "（不格好な）かたまり、こぶ、腫れ、〜をひとまとめにする",
+      "nuance": "massよりは小さく、不規則な形をした固体のかたまりを指します。角砂糖(lump of sugar)や体のしこりなどに使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He has a painful lump on his shoulder.",
+              "ja": "彼は肩に痛むしこり（こぶ）がある。",
+              "highlight": "lump"
+            },
+            {
+              "en": "I’ll have two lumps of sugar in my tea, please.",
+              "ja": "紅茶に角砂糖を2つ入れてください。",
+              "highlight": "lumps"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "We can't just lump all these different problems together.",
+              "ja": "これらすべての異なる問題をひとまとめに扱うことはできない。",
+              "highlight": "lump"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世英語 lumpe（かたまり）",
+      "synonyms": [
+        {"word": "chunk", "trans": "大きなかたまり"},
+        {"word": "clot", "trans": "（血液などの）凝固したかたまり"},
+        {"word": "bump", "trans": "こぶ、隆起"}
+      ],
+      "antonyms": [
+        {"word": "particle", "trans": "粒子"},
+        {"word": "slice", "trans": "薄切り"}
+      ],
+      "related": [
+        {"word": "lumpy", "trans": "形容詞：でこぼこの、ダマになった"}
+      ]
+    },
+    {
+      "number": 356,
+      "word": "humankind",
+      "pos": "名詞",
+      "meaning": "人類、人間（全体）",
+      "nuance": "生物学的な種としての「人間」全体を指す包括的な言葉です。mankindのジェンダー中立な表現としてよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The discovery of fire changed the history of humankind.",
+              "ja": "火の発見は人類の歴史を変えた。",
+              "highlight": "humankind"
+            },
+            {
+              "en": "We must act together for the benefit of all humankind.",
+              "ja": "私たちは全人類の利益のために共に行動しなければならない。",
+              "highlight": "humankind"
+            }
+          ]
+        }
+      ],
+      "etymology": "human（人間）+ kind（種類）",
+      "synonyms": [
+        {"word": "humanity", "trans": "人類、人間性"},
+        {"word": "mankind", "trans": "人類（男性中心的な響きがある）"},
+        {"word": "the human race", "trans": "人類"}
+      ],
+      "antonyms": [
+        {"word": "animal", "trans": "動物"},
+        {"word": "nature", "trans": "自然"}
+      ],
+      "related": [
+        {"word": "human", "trans": "形容詞/名詞：人間の/人間"}
+      ]
+    },
+    {
+      "number": 357,
+      "word": "humanitarian",
+      "pos": "形容詞、名詞",
+      "meaning": "人道的な、人道主義の、人道主義者",
+      "nuance": "苦しんでいる人々を助け、福祉を増進させようとする活動や態度を指します。紛争地への支援などでよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The UN sent humanitarian aid to the earthquake victims.",
+              "ja": "国連は地震の被災者に人道支援を送った。",
+              "highlight": "humanitarian"
+            },
+            {
+              "en": "He was released from prison on humanitarian grounds.",
+              "ja": "彼は人道的見地から釈放された。",
+              "highlight": "humanitarian"
+            }
+          ]
+        }
+      ],
+      "etymology": "humanity + arian（〜の人）",
+      "synonyms": [
+        {"word": "charitable", "trans": "慈悲深い"},
+        {"word": "philanthropic", "trans": "博愛主義の"},
+        {"word": "benevolent", "trans": "善意ある"}
+      ],
+      "antonyms": [
+        {"word": "inhumane", "trans": "非人道的な"},
+        {"word": "cruel", "trans": "残酷な"},
+        {"word": "selfish", "trans": "利己的な"}
+      ],
+      "related": [
+        {"word": "humanity", "trans": "名詞：慈愛、人間性"}
+      ]
+    },
+    {
+      "number": 358,
+      "word": "amphibian",
+      "pos": "名詞、形容詞",
+      "meaning": "両生類、水陸両用車、水陸両生の",
+      "nuance": "カエルやサンショウウオのように、水辺と陸の両方で生活する生物、または機械を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Frogs and toads are the most common amphibians.",
+              "ja": "カエルやヒキガエルは、最も一般的な両生類だ。",
+              "highlight": "amphibians"
+            },
+            {
+              "en": "The rescue team used an amphibian vehicle to reach the flooded area.",
+              "ja": "救助隊は浸水地域に到達するために水陸両用車を使用した。",
+              "highlight": "amphibian"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 amphi（両方の）+ bios（命）",
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        {"word": "amphibious", "trans": "形容詞：水陸両生の"}
+      ]
+    },
+    {
+      "number": 359,
+      "word": "reptile",
+      "pos": "名詞",
+      "meaning": "爬虫類",
+      "nuance": "ヘビ、トカゲ、カメなどの、鱗があり冷血な脊椎動物を指します。比喩的に「卑劣な人間」を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Dinosaurs were a type of giant reptile that ruled the Earth.",
+              "ja": "恐竜は地球を支配していた巨大な爬虫類の一種だった。",
+              "highlight": "reptile"
+            },
+            {
+              "en": "Snakes are legless reptiles.",
+              "ja": "ヘビは足のない爬虫類だ。",
+              "highlight": "reptiles"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 reptilis（這うもの）",
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        {"word": "reptilian", "trans": "形容詞：爬虫類のような、冷酷な"}
+      ]
+    },
+    {
+      "number": 360,
+      "word": "objective",
+      "pos": "形容詞、名詞",
+      "meaning": "客観的な、公平な、目標、目的、的、対物レンズ",
+      "nuance": "形容詞としては個人の感情を排除した「客観性」を、名詞としては努力して達成しようとする「具体的な目標」を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "A judge must remain objective and not take sides.",
+              "ja": "裁判官は客観的であり続け、どちらの側にも立ってはいけない。",
+              "highlight": "objective"
+            },
+            {
+              "en": "We need an objective analysis of the data.",
+              "ja": "私たちはそのデータの客観的な分析を必要としている。",
+              "highlight": "objective"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The main objective of this meeting is to finalize the budget.",
+              "ja": "この会議の主な目的は、予算を確定させることだ。",
+              "highlight": "objective"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 objectum（前に置かれたもの）",
+      "synonyms": [
+        {"word": "impartial", "trans": "偏りのない"},
+        {"word": "unbiased", "trans": "先入観のない"},
+        {"word": "goal", "trans": "目標"},
+        {"word": "target", "trans": "標的"}
+      ],
+      "antonyms": [
+        {"word": "subjective", "trans": "主観的な"},
+        {"word": "biased", "trans": "偏った"},
+        {"word": "prejudiced", "trans": "偏見のある"}
+      ],
+      "related": [
+        {"word": "object", "trans": "名詞/動詞：物体/反対する"},
+        {"word": "objectivity", "trans": "名詞：客観性"}
+      ]
     }
   ]
 }
