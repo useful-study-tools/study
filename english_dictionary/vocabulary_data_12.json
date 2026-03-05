@@ -1,0 +1,871 @@
+{
+  "words": [
+    {
+      "number": 303,
+      "word": "moderate",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "適度な、並の、穏健な、穏健な人、〜を和らげる、節制する",
+      "nuance": "極端に走らず、中くらいであることを指します。政治的な「穏健派」や、痛みが「和らぐ」際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "Moderate exercise is good for your health.",
+              "ja": "適度な運動は健康に良い。",
+              "highlight": "Moderate"
+            },
+            {
+              "en": "The politician is known for his moderate views.",
+              "ja": "その政治家は穏健な見解で知られている。",
+              "highlight": "moderate"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The wind began to moderate in the evening.",
+              "ja": "夕方になると風が和らぎ始めた。",
+              "highlight": "moderate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 moderari（制限する、測る）",
+      "synonyms": [
+        {"word": "reasonable", "trans": "妥当な"},
+        {"word": "temperate", "trans": "節度のある"},
+        {"word": "modest", "trans": "控えめな"}
+      ],
+      "antonyms": [
+        {"word": "extreme", "trans": "極端な"},
+        {"word": "excessive", "trans": "過度の"},
+        {"word": "radical", "trans": "急進的な"}
+      ],
+      "related": [
+        {"word": "moderation", "trans": "名詞：中庸、節度"}
+      ]
+    },
+    {
+      "number": 304,
+      "word": "commonplace",
+      "pos": "形容詞、名詞",
+      "meaning": "ありふれた、平凡な、当たり前のこと、陳腐な言葉",
+      "nuance": "どこにでもあるような、珍しくない状態を指します。日常的で目立たないニュアンスです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Smartphones have become commonplace in our daily lives.",
+              "ja": "スマートフォンは私たちの日常生活において当たり前のものになった。",
+              "highlight": "commonplace"
+            },
+            {
+              "en": "Electric cars will soon be a commonplace sight.",
+              "ja": "電気自動車はすぐにありふれた光景になるだろう。",
+              "highlight": "commonplace"
+            }
+          ]
+        }
+      ],
+      "etymology": "common（共通の）+ place（場所）",
+      "synonyms": [
+        {"word": "ordinary", "trans": "普通の"},
+        {"word": "unremarkable", "trans": "目立たない"},
+        {"word": "routine", "trans": "日常的な"}
+      ],
+      "antonyms": [
+        {"word": "extraordinary", "trans": "並外れた"},
+        {"word": "rare", "trans": "珍しい"},
+        {"word": "unique", "trans": "独特な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 305,
+      "word": "neutral",
+      "pos": "形容詞、名詞",
+      "meaning": "中立の、公平な、はっきりしない、（ギヤの）ニュートラル",
+      "nuance": "どちらの側にもつかない、または特徴的な色や性質を持たない状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Switzerland remained neutral during the war.",
+              "ja": "スイスは戦時中、中立を保った。",
+              "highlight": "neutral"
+            },
+            {
+              "en": "The walls were painted in a neutral color like beige.",
+              "ja": "壁はベージュのような中立的な（目立たない）色で塗られていた。",
+              "highlight": "neutral"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ne（〜ない）+ uter（どちらか一方）→ どちらでもない",
+      "synonyms": [
+        {"word": "impartial", "trans": "公平な"},
+        {"word": "unbiased", "trans": "偏見のない"},
+        {"word": "indifferent", "trans": "無関心な、どっちつかずの"}
+      ],
+      "antonyms": [
+        {"word": "biased", "trans": "偏った"},
+        {"word": "partisan", "trans": "党派心の強い"},
+        {"word": "prejudiced", "trans": "偏見のある"}
+      ],
+      "related": [
+        {"word": "neutrality", "trans": "名詞：中立"}
+      ]
+    },
+    {
+      "number": "305-2",
+      "word": "neutrality",
+      "pos": "名詞",
+      "meaning": "中立、中立性、不偏不党",
+      "nuance": "争い事や議論において、特定の立場をとらない性質や状態です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The journalist maintained strict neutrality throughout the report.",
+              "ja": "そのジャーナリストは報道全体を通して厳格な中立性を維持した。",
+              "highlight": "neutrality"
+            }
+          ]
+        }
+      ],
+      "etymology": "neutral + ity",
+      "synonyms": [
+        {"word": "objectivity", "trans": "客観性"},
+        {"word": "detachment", "trans": "客観的態度"}
+      ],
+      "antonyms": [
+        {"word": "bias", "trans": "偏り"},
+        {"word": "partiality", "trans": "不公平"}
+      ],
+      "related": []
+    },
+    {
+      "number": "305-3",
+      "word": "neutralize",
+      "pos": "動詞",
+      "meaning": "〜を中和する、〜を無効にする、〜を中立化させる",
+      "nuance": "対立する力を打ち消して、効力をなくすことを指します。化学の中和や、脅威を取り除く際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The medicine helps to neutralize stomach acid.",
+              "ja": "その薬は胃酸を中和するのを助ける。",
+              "highlight": "neutralize"
+            },
+            {
+              "en": "The enemy radar was neutralized by the air strike.",
+              "ja": "敵のレーダーは空爆によって無効化（無力化）された。",
+              "highlight": "neutralized"
+            }
+          ]
+        }
+      ],
+      "etymology": "neutral + ize（〜にする）",
+      "synonyms": [
+        {"word": "counteract", "trans": "対抗して打ち消す"},
+        {"word": "nullify", "trans": "無効にする"},
+        {"word": "offset", "trans": "相殺する"}
+      ],
+      "antonyms": [
+        {"word": "activate", "trans": "活性化させる"},
+        {"word": "strengthen", "trans": "強化する"}
+      ],
+      "related": []
+    },
+    {
+      "number": 306,
+      "word": "bout",
+      "pos": "名詞",
+      "meaning": "（病気・活動などの）期間、ひとしきり、短い期間、（ボクシングなどの）試合",
+      "nuance": "特定の活動や状態が一時的に続くことを指します。病気の発作的な継続期間によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He suffered a severe bout of flu last winter.",
+              "ja": "彼は昨冬、ひどいインフルエンザ（の期間）に苦しんだ。",
+              "highlight": "bout"
+            },
+            {
+              "en": "After a brief bout of exercise, she felt refreshed.",
+              "ja": "少しばかりの運動をした後、彼女は気分がすっきりした。",
+              "highlight": "bout"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世英語 bought（曲がり、折り返し）",
+      "synonyms": [
+        {"word": "spell", "trans": "（短い）期間"},
+        {"word": "session", "trans": "会期、集まり"},
+        {"word": "period", "trans": "期間"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 307,
+      "word": "markedly",
+      "pos": "副詞",
+      "meaning": "著しく、際立って、明らかに",
+      "nuance": "変化や違いが非常に大きく、誰の目にもはっきりわかる様子を表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The patient's condition has improved markedly.",
+              "ja": "患者の状態は著しく改善した。",
+              "highlight": "markedly"
+            },
+            {
+              "en": "Prices have risen markedly over the past few months.",
+              "ja": "ここ数ヶ月で物価が際立って上昇した。",
+              "highlight": "markedly"
+            }
+          ]
+        }
+      ],
+      "etymology": "marked（印を付けられた）+ ly",
+      "synonyms": [
+        {"word": "significantly", "trans": "かなり、著しく"},
+        {"word": "notably", "trans": "顕著に"},
+        {"word": "strikingly", "trans": "驚くほどに"}
+      ],
+      "antonyms": [
+        {"word": "slightly", "trans": "わずかに"},
+        {"word": "imperceptibly", "trans": "気づかないほどに"},
+        {"word": "minimally", "trans": "最小限に"}
+      ],
+      "related": [
+        {"word": "mark", "trans": "名詞/動詞：印（をつける）"}
+      ]
+    },
+    {
+      "number": "307-2",
+      "word": "marked",
+      "pos": "形容詞",
+      "meaning": "際立った、著しい、印のついた",
+      "nuance": "はっきりとした特徴や変化があることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There has been a marked increase in sales this year.",
+              "ja": "今年は売上が著しく増加している。",
+              "highlight": "marked"
+            }
+          ]
+        }
+      ],
+      "etymology": "mark + ed",
+      "synonyms": [
+        {"word": "noticeable", "trans": "目立つ"},
+        {"word": "distinct", "trans": "はっきりした"}
+      ],
+      "antonyms": [
+        {"word": "faint", "trans": "かすかな"},
+        {"word": "obscure", "trans": "曖昧な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 308,
+      "word": "susceptible",
+      "pos": "形容詞",
+      "meaning": "影響を受けやすい、感受性が強い、〜に感染しやすい",
+      "nuance": "外部からの刺激や病気、誘惑などに対して弱く、すぐに反応してしまう性質を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Elderly people are more susceptible to the cold.",
+              "ja": "高齢者はより寒さの影響を受けやすい（弱い）。",
+              "highlight": "susceptible"
+            },
+            {
+              "en": "She is susceptible to flattery.",
+              "ja": "彼女はお世辞に弱い（お世辞に乗りやすい）。",
+              "highlight": "susceptible"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sub（下に）+ capere（取る）→ 下で受け取る",
+      "synonyms": [
+        {"word": "vulnerable", "trans": "脆弱な"},
+        {"word": "prone", "trans": "〜しがちな"},
+        {"word": "sensitive", "trans": "敏感な"}
+      ],
+      "antonyms": [
+        {"word": "resistant", "trans": "耐性のある"},
+        {"word": "immune", "trans": "免疫のある、免れた"},
+        {"word": "insensitive", "trans": "鈍感な"}
+      ],
+      "related": [
+        {"word": "susceptibility", "trans": "名詞：感受性、影響を受けやすいこと"}
+      ]
+    },
+    {
+      "number": 309,
+      "word": "featureless",
+      "pos": "形容詞",
+      "meaning": "特徴のない、平坦な、面白みのない",
+      "nuance": "目立つ部分や変化が全くなく、単調な様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We drove across a featureless landscape for hours.",
+              "ja": "私たちは何時間も特徴のない（単調な）風景の中をドライブした。",
+              "highlight": "featureless"
+            }
+          ]
+        }
+      ],
+      "etymology": "feature（特徴）+ less（ない）",
+      "synonyms": [
+        {"word": "bland", "trans": "薄味の、特徴のない"},
+        {"word": "monotonous", "trans": "単調な"},
+        {"word": "drab", "trans": "くすんだ、単調な"}
+      ],
+      "antonyms": [
+        {"word": "distinctive", "trans": "独特の"},
+        {"word": "striking", "trans": "際立った"}
+      ],
+      "related": []
+    },
+    {
+      "number": "309-2",
+      "word": "feature",
+      "pos": "名詞、動詞",
+      "meaning": "特徴、顔立ち、主要なもの、〜を呼び物にする、〜を大きく扱う",
+      "nuance": "何かの重要な、あるいは目立つ部分を指します。映画や雑誌の「特集」としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The most striking feature of the building is its glass roof.",
+              "ja": "その建物の最も際立った特徴はガラスの屋根だ。",
+              "highlight": "feature"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The magazine features an interview with the director.",
+              "ja": "その雑誌はその監督へのインタビューを大きく扱っている（呼び物にしている）。",
+              "highlight": "features"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 facere（作る）",
+      "synonyms": [
+        {"word": "characteristic", "trans": "特性"},
+        {"word": "aspect", "trans": "側面"},
+        {"word": "highlight", "trans": "目玉、強調する"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "309-3",
+      "word": "trivial",
+      "pos": "形容詞",
+      "meaning": "些細な、取るに足らない、ありふれた",
+      "nuance": "重要性が低く、わざわざ議論したり気にしたりする価値がないことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Don't waste your time on trivial matters.",
+              "ja": "些細なことに時間を無駄にするな。",
+              "highlight": "trivial"
+            },
+            {
+              "en": "It might seem trivial to you, but it's important to me.",
+              "ja": "あなたには些細に見えるかもしれないが、私には重要なんだ。",
+              "highlight": "trivial"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tri（3つの）+ via（道）→ 辻に集まるような、ありふれたもの",
+      "synonyms": [
+        {"word": "insignificant", "trans": "重要でない"},
+        {"word": "trifling", "trans": "つまらない"},
+        {"word": "minor", "trans": "小さい、重要でない"}
+      ],
+      "antonyms": [
+        {"word": "significant", "trans": "重要な"},
+        {"word": "crucial", "trans": "決定的な"},
+        {"word": "vital", "trans": "極めて重要な"}
+      ],
+      "related": [
+        {"word": "trivia", "trans": "名詞：雑学、豆知識"}
+      ]
+    },
+    {
+      "number": "309-4",
+      "word": "mediocre",
+      "pos": "形容詞",
+      "meaning": "並みの、平凡な、良くも悪くもない、二流の",
+      "nuance": "期待されたレベルに達していない、あるいは「可もなく不可もない」という、しばしば否定的な意味合いを含みます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The performance was mediocre at best.",
+              "ja": "その演奏は良く言っても平凡（並）だった。",
+              "highlight": "mediocre"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 medius（真ん中）+ ocris（険しい山）→ 山の中腹（頂上ではない）",
+      "synonyms": [
+        {"word": "average", "trans": "平均的な"},
+        {"word": "ordinary", "trans": "普通の"},
+        {"word": "second-rate", "trans": "二流の"}
+      ],
+      "antonyms": [
+        {"word": "excellent", "trans": "優れた"},
+        {"word": "outstanding", "trans": "傑出した"},
+        {"word": "superior", "trans": "上質の"}
+      ],
+      "related": [
+        {"word": "mediocrity", "trans": "名詞：平凡、凡庸"}
+      ]
+    },
+    {
+      "number": 310,
+      "word": "nervousness",
+      "pos": "名詞",
+      "meaning": "神経質、緊張、不安",
+      "nuance": "何かに直面してドキドキしたり、落ち着きがなくなったりする心理状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He hid his nervousness with a smile.",
+              "ja": "彼は微笑みで緊張を隠した。",
+              "highlight": "nervousness"
+            }
+          ]
+        }
+      ],
+      "etymology": "nervous（神経の）+ ness",
+      "synonyms": [
+        {"word": "anxiety", "trans": "不安、心配"},
+        {"word": "tension", "trans": "緊張"},
+        {"word": "apprehension", "trans": "不安、懸念"}
+      ],
+      "antonyms": [
+        {"word": "calmness", "trans": "冷静"},
+        {"word": "confidence", "trans": "自信"}
+      ],
+      "related": [
+        {"word": "nerve", "trans": "名詞：神経、度胸"}
+      ]
+    },
+    {
+      "number": "310-2",
+      "word": "nervous",
+      "pos": "形容詞",
+      "meaning": "緊張している、不安な、神経質な、神経の",
+      "nuance": "一時的に不安を感じている状態（大事な発表の前など）によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I was very nervous before the job interview.",
+              "ja": "採用面接の前、私はとても緊張していた。",
+              "highlight": "nervous"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 nervus（筋、腱、神経）",
+      "synonyms": [
+        {"word": "anxious", "trans": "心配な"},
+        {"word": "edgy", "trans": "いらいらした、過敏な"},
+        {"word": "jittery", "trans": "びくびくしている"}
+      ],
+      "antonyms": [
+        {"word": "relaxed", "trans": "リラックスした"},
+        {"word": "composed", "trans": "落ち着いた"}
+      ],
+      "related": [
+        {"word": "nervous system", "trans": "神経系"}
+      ]
+    },
+    {
+      "number": 311,
+      "word": "coward",
+      "pos": "名詞",
+      "meaning": "臆病者、腰抜け",
+      "nuance": "勇気がなく、困難や危険からすぐに逃げ出してしまう人を指す、侮蔑的な言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was called a coward because he refused to fight.",
+              "ja": "彼は戦うのを拒んだため、臆病者と呼ばれた。",
+              "highlight": "coward"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 coue（尾）→ 尻尾を巻いて逃げる動物",
+      "synonyms": [
+        {"word": "weakling", "trans": "弱虫"},
+        {"word": "craven", "trans": "卑怯者"}
+      ],
+      "antonyms": [
+        {"word": "hero", "trans": "英雄"},
+        {"word": "daredevil", "trans": "向こう見ずな人"}
+      ],
+      "related": [
+        {"word": "cowardly", "trans": "形容詞：臆病な"}
+      ]
+    },
+    {
+      "number": "311-2",
+      "word": "cowardice",
+      "pos": "名詞",
+      "meaning": "臆病、卑怯",
+      "nuance": "勇気の欠如。道徳的に非難されるべき弱さを指すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The general was accused of cowardice in the face of the enemy.",
+              "ja": "その将軍は、敵を前にしての臆病な振る舞いを非難された。",
+              "highlight": "cowardice"
+            }
+          ]
+        }
+      ],
+      "etymology": "coward + ice",
+      "synonyms": [
+        {"word": "timidity", "trans": "臆病"},
+        {"word": "fearfulness", "trans": "恐れること"}
+      ],
+      "antonyms": [
+        {"word": "bravery", "trans": "勇敢"},
+        {"word": "courage", "trans": "勇気"},
+        {"word": "valor", "trans": "武勇"}
+      ],
+      "related": []
+    },
+    {
+      "number": 312,
+      "word": "timid",
+      "pos": "形容詞",
+      "meaning": "臆病な、気が弱い、内気な",
+      "nuance": "cowardほど攻撃的なニュアンスはなく、自信がなかったり恥ずかしがり屋だったりする性質を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She was too timid to ask a question in class.",
+              "ja": "彼女は気が弱くて、クラスで質問することができなかった。",
+              "highlight": "timid"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 timere（恐れる）",
+      "synonyms": [
+        {"word": "shy", "trans": "恥ずかしがりな"},
+        {"word": "bashful", "trans": "はにかんだ"},
+        {"word": "fearful", "trans": "恐る恐るの"}
+      ],
+      "antonyms": [
+        {"word": "bold", "trans": "大胆な"},
+        {"word": "confident", "trans": "自信に満ちた"},
+        {"word": "adventurous", "trans": "冒険好きな"}
+      ],
+      "related": [
+        {"word": "timidity", "trans": "名詞：臆病、内気"}
+      ]
+    },
+    {
+      "number": "312-2",
+      "word": "timidity",
+      "pos": "名詞",
+      "meaning": "臆病、内気、気の弱さ",
+      "nuance": "自信のなさからくる、消極的な態度を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His natural timidity made it hard for him to make new friends.",
+              "ja": "生まれつきの内気さのせいで、彼は新しい友達を作るのが難しかった。",
+              "highlight": "timidity"
+            }
+          ]
+        }
+      ],
+      "etymology": "timid + ity",
+      "synonyms": [
+        {"word": "shyness", "trans": "内気"},
+        {"word": "diffidence", "trans": "遠慮、気後れ"}
+      ],
+      "antonyms": [
+        {"word": "audacity", "trans": "厚かましさ、大胆さ"},
+        {"word": "boldness", "trans": "大胆"}
+      ],
+      "related": []
+    },
+    {
+      "number": 313,
+      "word": "unease",
+      "pos": "名詞",
+      "meaning": "不安、心配、不快感",
+      "nuance": "何か嫌なことが起こりそうな、漠然とした落ち着かない感覚を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There is a growing sense of unease about the economy.",
+              "ja": "経済に対する不安感が強まっている。",
+              "highlight": "unease"
+            }
+          ]
+        }
+      ],
+      "etymology": "un（否定）+ ease（安心、容易）",
+      "synonyms": [
+        {"word": "discomfort", "trans": "不快、不安"},
+        {"word": "restlessness", "trans": "そわそわすること"},
+        {"word": "worry", "trans": "心配"}
+      ],
+      "antonyms": [
+        {"word": "contentment", "trans": "満足"},
+        {"word": "peace", "trans": "平和、安心"},
+        {"word": "ease", "trans": "安心、たやすさ"}
+      ],
+      "related": []
+    },
+    {
+      "number": "313-2",
+      "word": "uneasy",
+      "pos": "形容詞",
+      "meaning": "不安な、落ち着かない、ぎこちない",
+      "nuance": "心配事があってリラックスできない状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I had an uneasy feeling that I was being watched.",
+              "ja": "私は誰かに見られているような、落ち着かない（不気味な）感じがした。",
+              "highlight": "uneasy"
+            }
+          ]
+        }
+      ],
+      "etymology": "un + easy",
+      "synonyms": [
+        {"word": "anxious", "trans": "不安な"},
+        {"word": "restless", "trans": "落ち着かない"},
+        {"word": "disturbed", "trans": "心が乱れた"}
+      ],
+      "antonyms": [
+        {"word": "comfortable", "trans": "快適な、安心した"},
+        {"word": "calm", "trans": "冷静な"}
+      ],
+      "related": []
+    },
+    {
+      "number": "313-3",
+      "word": "ease",
+      "pos": "名詞、動詞",
+      "meaning": "容易さ、気楽さ、安心、〜を和らげる、〜を楽にする",
+      "nuance": "苦労や苦痛がない状態、またはそれを軽減させる動作を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He passed the exam with ease.",
+              "ja": "彼はたやすく（容易に）試験に合格した。",
+              "highlight": "ease"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The medicine eased the pain in her back.",
+              "ja": "その薬は彼女の腰の痛みを和らげた。",
+              "highlight": "eased"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 aise（便利、安心）",
+      "synonyms": [
+        {"word": "comfort", "trans": "快適、安心"},
+        {"word": "facility", "trans": "容易さ、施設"},
+        {"word": "alleviate", "trans": "和らげる"}
+      ],
+      "antonyms": [
+        {"word": "difficulty", "trans": "困難"},
+        {"word": "effort", "trans": "努力"},
+        {"word": "aggravate", "trans": "悪化させる"}
+      ],
+      "related": [
+        {"word": "easy", "trans": "形容詞：簡単な、気楽な"}
+      ]
+    },
+    {
+      "number": 314,
+      "word": "apprehension",
+      "pos": "名詞",
+      "meaning": "不安、懸念、理解、逮捕",
+      "nuance": "未来に対する不安（こうなったら嫌だなという気持ち）や、物事を捉えること（理解・逮捕）を指します。",
+      "example_sections": [
+        {
+          "title": "例文（不安）",
+          "examples": [
+            {
+              "en": "She felt a sense of apprehension about her upcoming surgery.",
+              "ja": "彼女は今度の手術に対して不安を感じていた。",
+              "highlight": "apprehension"
+            }
+          ]
+        },
+        {
+          "title": "例文（逮捕）",
+          "examples": [
+            {
+              "en": "The police are optimistic about the apprehension of the suspect.",
+              "ja": "警察は容疑者の逮捕について楽観視している。",
+              "highlight": "apprehension"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad（〜へ）+ prehendere（掴む）→ 捉える、心で捉える",
+      "synonyms": [
+        {"word": "anxiety", "trans": "不安"},
+        {"word": "dread", "trans": "恐れ"},
+        {"word": "arrest", "trans": "逮捕"},
+        {"word": "grasp", "trans": "把握、理解"}
+      ],
+      "antonyms": [
+        {"word": "confidence", "trans": "自信"},
+        {"word": "comprehension", "trans": "理解（※「理解」の意味の対義語ではなく、文脈によりますが「誤解」などが対になります）"}
+      ],
+      "related": [
+        {"word": "apprehend", "trans": "動詞：理解する、逮捕する、懸念する"}
+      ]
+    },
+    {
+      "number": "314-2",
+      "word": "apprehensive",
+      "pos": "形容詞",
+      "meaning": "不安な、懸念している、恐れている",
+      "nuance": "悪いことが起きるのではないかとビクビクしている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Many people are apprehensive about the future of the economy.",
+              "ja": "多くの人々が経済の先行きに不安を抱いている。",
+              "highlight": "apprehensive"
+            }
+          ]
+        }
+      ],
+      "etymology": "apprehension の形容詞形",
+      "synonyms": [
+        {"word": "anxious", "trans": "心配な"},
+        {"word": "fearful", "trans": "恐れている"},
+        {"word": "concerned", "trans": "懸念している"}
+      ],
+      "antonyms": [
+        {"word": "confident", "trans": "自信がある"},
+        {"word": "assured", "trans": "確信している"}
+      ],
+      "related": []
+    },
+    {
+      "number": "314-3",
+      "word": "apprehend",
+      "pos": "動詞",
+      "meaning": "〜を逮捕する、〜を理解する、〜を懸念する",
+      "nuance": "物理的に「捕まえる」こと、頭で「捕まえる（理解する）」こと、そして心で「捕まえる（不安に思う）」ことをすべて含みます。",
+      "example_sections": [
+        {
+          "title": "例文（逮捕）",
+          "examples": [
+            {
+              "en": "The thief was finally apprehended by the police.",
+              "ja": "泥棒はついに警察によって逮捕された。",
+              "highlight": "apprehended"
+            }
+          ]
+        },
+        {
+          "title": "例文（理解）",
+          "examples": [
+            {
+              "en": "I fail to fully apprehend the subtle nuances of his argument.",
+              "ja": "私は彼の主張の微妙なニュアンスを完全には理解できない。",
+              "highlight": "apprehend"
+            }
+          ]
+        }
+      ],
+      "etymology": "apprehension と同語源",
+      "synonyms": [
+        {"word": "arrest", "trans": "逮捕する"},
+        {"word": "comprehend", "trans": "理解する"},
+        {"word": "fear", "trans": "恐れる"}
+      ],
+      "antonyms": [
+        {"word": "release", "trans": "釈放する"},
+        {"word": "misunderstand", "trans": "誤解する"}
+      ],
+      "related": [
+        {"word": "comprehend", "trans": "動詞：理解する（comは「完全に」）"}
+      ]
+    }
+  ]
+}
