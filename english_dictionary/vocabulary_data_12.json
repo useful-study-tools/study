@@ -866,6 +866,907 @@
       "related": [
         {"word": "comprehend", "trans": "動詞：理解する（comは「完全に」）"}
       ]
+    },
+    {
+      "number": 315,
+      "word": "insecurity",
+      "pos": "名詞",
+      "meaning": "不安、不安定、自信のなさ",
+      "nuance": "物理的な安全が脅かされている状態だけでなく、自分自身に対する自信のなさや精神的な不安定さを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Economic insecurity is a major concern for young families.",
+              "ja": "経済的な不安定さは、若い家族にとっての大きな懸念事項だ。",
+              "highlight": "insecurity"
+            },
+            {
+              "en": "His arrogance is just a mask for his deep-seated insecurity.",
+              "ja": "彼の傲慢さは、心の奥底にある自信のなさの裏返しに過ぎない。",
+              "highlight": "insecurity"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（否定）+ security（安全、安心）",
+      "synonyms": [
+        {"word": "instability", "trans": "不安定"},
+        {"word": "uncertainty", "trans": "不確実さ"},
+        {"word": "self-doubt", "trans": "自信喪失"}
+      ],
+      "antonyms": [
+        {"word": "security", "trans": "安全、安心"},
+        {"word": "confidence", "trans": "自信"},
+        {"word": "stability", "trans": "安定"}
+      ],
+      "related": [
+        {"word": "insecure", "trans": "形容詞：不安な、不安定な"}
+      ]
+    },
+    {
+      "number": "315-2",
+      "word": "unrest",
+      "pos": "名詞",
+      "meaning": "（社会的な）不安、動揺、不穏な状態",
+      "nuance": "特に政治的・社会的な不満による抗議活動や暴動などが起きそうな「不穏な空気」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The government is trying to prevent further civil unrest.",
+              "ja": "政府はこれ以上の市民の動揺（暴動）を防ごうとしている。",
+              "highlight": "unrest"
+            }
+          ]
+        }
+      ],
+      "etymology": "un（否定）+ rest（休息、平穏）",
+      "synonyms": [
+        {"word": "turmoil", "trans": "騒乱"},
+        {"word": "agitation", "trans": "動揺、扇動"},
+        {"word": "disturbance", "trans": "妨害、騒動"}
+      ],
+      "antonyms": [
+        {"word": "peace", "trans": "平和"},
+        {"word": "calm", "trans": "静穏"},
+        {"word": "order", "trans": "秩序"}
+      ],
+      "related": []
+    },
+    {
+      "number": 316,
+      "word": "batter",
+      "pos": "動詞、名詞",
+      "meaning": "〜を乱打する、打ちのめす、（揚げ物の）衣、バッター",
+      "nuance": "何度も繰り返し強く叩くことを指します。嵐が海岸を襲う、あるいは虐待などの文脈でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "High waves continued to batter the coast during the storm.",
+              "ja": "嵐の間、高い波が海岸を打ちのめし続けた。",
+              "highlight": "batter"
+            },
+            {
+              "en": "The team was battered by a series of injuries.",
+              "ja": "そのチームは相次ぐ怪我人によって打ちのめされた。",
+              "highlight": "battered"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Dip the fish in the batter before frying it.",
+              "ja": "揚げる前に、魚を衣（小麦粉などを水で溶いたもの）にくぐらせなさい。",
+              "highlight": "batter"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 battuere（叩く）",
+      "synonyms": [
+        {"word": "pound", "trans": "叩く"},
+        {"word": "beat", "trans": "打つ"},
+        {"word": "assault", "trans": "襲撃する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "battery", "trans": "名詞：電池、一連のもの、暴行"}
+      ]
+    },
+    {
+      "number": 317,
+      "word": "demolish",
+      "pos": "動詞",
+      "meaning": "（建物を）取り壊す、解体する、（理論などを）覆す",
+      "nuance": "建物を意図的に、完全に壊すことを指します。比喩的に「相手の主張を完膚なきまでに論破する」際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The old factory was demolished to make way for a shopping mall.",
+              "ja": "古い工場はショッピングモールを作るために取り壊された。",
+              "highlight": "demolished"
+            },
+            {
+              "en": "She demolished his argument in just a few minutes.",
+              "ja": "彼女はわずか数分で彼の主張を覆した（論破した）。",
+              "highlight": "demolished"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（引き離す）+ moliri（建てる）",
+      "synonyms": [
+        {"word": "destroy", "trans": "破壊する"},
+        {"word": "raze", "trans": "（町などを）壊滅させる"},
+        {"word": "tear down", "trans": "取り壊す"}
+      ],
+      "antonyms": [
+        {"word": "construct", "trans": "建設する"},
+        {"word": "build", "trans": "建てる"},
+        {"word": "create", "trans": "創造する"}
+      ],
+      "related": [
+        {"word": "demolition", "trans": "名詞：取り壊し"}
+      ]
+    },
+    {
+      "number": "317-2",
+      "word": "demolition",
+      "pos": "名詞",
+      "meaning": "（建物の）破壊、取り壊し、爆破",
+      "nuance": "物理的な解体作業そのものを指すことが多い言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The demolition of the stadium is scheduled for next month.",
+              "ja": "スタジアムの解体は来月に予定されている。",
+              "highlight": "demolition"
+            }
+          ]
+        }
+      ],
+      "etymology": "demolish の名詞形",
+      "synonyms": [
+        {"word": "destruction", "trans": "破壊"},
+        {"word": "dismantling", "trans": "解体"}
+      ],
+      "antonyms": [
+        {"word": "construction", "trans": "建設"}
+      ],
+      "related": []
+    },
+    {
+      "number": 318,
+      "word": "smash",
+      "pos": "動詞、名詞",
+      "meaning": "〜を粉砕する、激突する、大成功、粉砕",
+      "nuance": "強い力で粉々に壊すこと、あるいは激しくぶつかることを指します。非常に大きな成功（スマッシュヒット）の意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "He smashed the window with a brick.",
+              "ja": "彼はレンガで窓を粉砕した。",
+              "highlight": "smashed"
+            },
+            {
+              "en": "The car smashed into a tree.",
+              "ja": "車が木に激突した。",
+              "highlight": "smashed"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Her new movie was a box-office smash.",
+              "ja": "彼女の新作映画は興行的に大成功（スマッシュヒット）だった。",
+              "highlight": "smash"
+            }
+          ]
+        }
+      ],
+      "etymology": "擬音語的な起源（擬声語）",
+      "synonyms": [
+        {"word": "shatter", "trans": "粉々にする"},
+        {"word": "crush", "trans": "押しつぶす"},
+        {"word": "collision", "trans": "衝突（名詞）"}
+      ],
+      "antonyms": [
+        {"word": "fix", "trans": "直す"},
+        {"word": "repair", "trans": "修理する"}
+      ],
+      "related": []
+    },
+    {
+      "number": "318-2",
+      "word": "devastate",
+      "pos": "動詞",
+      "meaning": "〜を壊滅させる、〜を途方に暮れさせる",
+      "nuance": "土地や建物を徹底的に破壊すること、または人を精神的に打ちのめす（強いショックを与える）ことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The earthquake devastated the entire city.",
+              "ja": "地震は都市全体を壊滅させた。",
+              "highlight": "devastated"
+            },
+            {
+              "en": "The news of his death devastated his family.",
+              "ja": "彼の死の知らせは、家族を途方に暮れさせた（打ちのめした）。",
+              "highlight": "devastated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（強意）+ vastare（空にする）",
+      "synonyms": [
+        {"word": "wreck", "trans": "破壊する"},
+        {"word": "ruin", "trans": "台無しにする"},
+        {"word": "overwhelm", "trans": "圧倒する、打ちのめす"}
+      ],
+      "antonyms": [
+        {"word": "restore", "trans": "復元する"},
+        {"word": "rehabilitate", "trans": "修復する"}
+      ],
+      "related": [
+        {"word": "devastating", "trans": "形容詞：壊滅的な"},
+        {"word": "devastation", "trans": "名詞：壊滅"}
+      ]
+    },
+    {
+      "number": "318-3",
+      "word": "devastating",
+      "pos": "形容詞",
+      "meaning": "壊滅的な、衝撃的な、圧倒的な",
+      "nuance": "被害が甚大であること、あるいは精神的なショックが極めて強いことを表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The hurricane had a devastating effect on the local economy.",
+              "ja": "ハリケーンは地域経済に壊滅的な影響を及ぼした。",
+              "highlight": "devastating"
+            }
+          ]
+        }
+      ],
+      "etymology": "devastate の現在分詞形",
+      "synonyms": [
+        {"word": "disastrous", "trans": "悲惨な"},
+        {"word": "catastrophic", "trans": "大惨事の"}
+      ],
+      "antonyms": [
+        {"word": "beneficial", "trans": "有益な"},
+        {"word": "encouraging", "trans": "励みになる"}
+      ],
+      "related": []
+    },
+    {
+      "number": "318-4",
+      "word": "devastation",
+      "pos": "名詞",
+      "meaning": "壊滅、惨状、ひどいショック",
+      "nuance": "破壊された後のひどい状態そのものを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The aerial photos showed the full extent of the devastation.",
+              "ja": "航空写真は、惨状の全容を映し出していた。",
+              "highlight": "devastation"
+            }
+          ]
+        }
+      ],
+      "etymology": "devastate の名詞形",
+      "synonyms": [
+        {"word": "ruin", "trans": "廃墟、破滅"},
+        {"word": "destruction", "trans": "破壊"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 319,
+      "word": "actively",
+      "pos": "副詞",
+      "meaning": "積極的に、活発に",
+      "nuance": "自ら進んで行動を起こす様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is actively looking for a new job.",
+              "ja": "彼は積極的に新しい仕事を探している。",
+              "highlight": "actively"
+            }
+          ]
+        }
+      ],
+      "etymology": "active（活動的な）+ ly",
+      "synonyms": [
+        {"word": "energetically", "trans": "精力的に"},
+        {"word": "vigorously", "trans": "力強く、活発に"},
+        {"word": "eagerly", "trans": "熱心に"}
+      ],
+      "antonyms": [
+        {"word": "passively", "trans": "受動的に"},
+        {"word": "lazily", "trans": "怠惰に"}
+      ],
+      "related": [
+        {"word": "activity", "trans": "名詞：活動"}
+      ]
+    },
+    {
+      "number": "319-2",
+      "word": "active",
+      "pos": "形容詞",
+      "meaning": "活動的な、積極的な、現役の、（火山が）活発な",
+      "nuance": "動きがあること、あるいは意欲的に取り組んでいることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Despite his age, he remains very active.",
+              "ja": "年齢にもかかわらず、彼は非常に活動的だ。",
+              "highlight": "active"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 agere（行う）",
+      "synonyms": [
+        {"word": "dynamic", "trans": "動的な"},
+        {"word": "vibrant", "trans": "活気のある"}
+      ],
+      "antonyms": [
+        {"word": "passive", "trans": "受動的な"},
+        {"word": "inactive", "trans": "不活発な"},
+        {"word": "dormant", "trans": "休眠状態の"}
+      ],
+      "related": [
+        {"word": "activate", "trans": "動詞：作動させる"}
+      ]
+    },
+    {
+      "number": 320,
+      "word": "hence",
+      "pos": "副詞",
+      "meaning": "それゆえに、したがって、今から〜後に",
+      "nuance": "前の文の内容から論理的に導き出される結果を示します。thereforeよりも硬く、文の途中で使われることも多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The cost of transport is high, hence the high prices of goods.",
+              "ja": "輸送費が高い。それゆえに商品の価格も高いのだ。",
+              "highlight": "hence"
+            },
+            {
+              "en": "The festival will begin two weeks hence.",
+              "ja": "祭りは今から2週間後に始まる（文語的表現）。",
+              "highlight": "hence"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世英語 hennes（ここから）",
+      "synonyms": [
+        {"word": "therefore", "trans": "したがって"},
+        {"word": "consequently", "trans": "結果として"},
+        {"word": "accordingly", "trans": "それに応じて"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "320-2",
+      "word": "therefore",
+      "pos": "副詞",
+      "meaning": "それゆえに、したがって",
+      "nuance": "最も一般的で明快な「理由→結果」を示す接続副詞です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I think; therefore I am.",
+              "ja": "我思う、ゆえに我あり。",
+              "highlight": "therefore"
+            }
+          ]
+        }
+      ],
+      "etymology": "there（そこ）+ fore（〜のために）",
+      "synonyms": [
+        {"word": "so", "trans": "だから"},
+        {"word": "thus", "trans": "このようにして"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "320-3",
+      "word": "thus",
+      "pos": "副詞",
+      "meaning": "このように、したがって、このようにして",
+      "nuance": "「このようにして（In this way）」という方法を示す意味と、「それゆえに」という結果を示す意味の両方があります。硬い表現です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The oil leaked, thus causing the engine to fail.",
+              "ja": "オイルが漏れ、その結果エンジンが故障した。",
+              "highlight": "thus"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 thæs（この）",
+      "synonyms": [
+        {"word": "in this manner", "trans": "このようにして"},
+        {"word": "as a result", "trans": "結果として"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 321,
+      "word": "contented",
+      "pos": "形容詞",
+      "meaning": "（現状に）満足している、満ち足りた",
+      "nuance": "特に大きな不満がなく、心が穏やかに落ち着いている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He led a contented life in the country.",
+              "ja": "彼は田舎で満ち足りた生活を送った。",
+              "highlight": "contented"
+            }
+          ]
+        }
+      ],
+      "etymology": "content + ed",
+      "synonyms": [
+        {"word": "satisfied", "trans": "満足した"},
+        {"word": "pleased", "trans": "喜んでいる"}
+      ],
+      "antonyms": [
+        {"word": "discontented", "trans": "不満な"},
+        {"word": "dissatisfied", "trans": "不満を感じている"}
+      ],
+      "related": [
+        {"word": "contentment", "trans": "名詞：満足感"}
+      ]
+    },
+    {
+      "number": "321-2",
+      "word": "content",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "満足している、内容、目次、〜を満足させる",
+      "nuance": "形容詞として使われる場合は「満足している」ですが、名詞では「中身（コンテンツ）」という意味になります。アクセントの位置が変わる（形容詞・動詞は後ろ、名詞は前）ので注意が必要です。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "Are you content with your current salary?",
+              "ja": "現在の給料に満足していますか？",
+              "highlight": "content"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The content of the book was very informative.",
+              "ja": "その本の内容は非常に有益だった。",
+              "highlight": "content"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 continere（中に含む）",
+      "synonyms": [
+        {"word": "happy", "trans": "幸せな"},
+        {"word": "substance", "trans": "実体、内容"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 322,
+      "word": "desolate",
+      "pos": "形容詞、動詞",
+      "meaning": "荒涼とした、寂れた、心細い、〜を荒廃させる",
+      "nuance": "住む人がおらず、荒れ果てた場所を指します。また、人が強い孤独感や絶望を感じている状態にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The landscape was desolate and rocky.",
+              "ja": "その風景は荒涼としていて、岩だらけだった。",
+              "highlight": "desolate"
+            },
+            {
+              "en": "She felt desolate after her best friend moved away.",
+              "ja": "親友が引っ越してしまい、彼女はひどく寂しく感じた。",
+              "highlight": "desolate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（完全に）+ solus（一人の）",
+      "synonyms": [
+        {"word": "barren", "trans": "不毛の"},
+        {"word": "bleak", "trans": "荒涼とした、暗い"},
+        {"word": "abandoned", "trans": "見捨てられた"}
+      ],
+      "antonyms": [
+        {"word": "populous", "trans": "人口の多い"},
+        {"word": "cheerful", "trans": "陽気な"},
+        {"word": "cultivated", "trans": "耕作された"}
+      ],
+      "related": [
+        {"word": "solitude", "trans": "名詞：孤独、独りきり"}
+      ]
+    },
+    {
+      "number": "322-2",
+      "word": "dreary",
+      "pos": "形容詞",
+      "meaning": "（天候や場所が）物寂しい、どんよりした、退屈な",
+      "nuance": "暗くて、元気や希望が湧いてこないような、陰気な様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It was another dreary, rainy day in London.",
+              "ja": "ロンドンでは、またしてもどんよりした雨の一日だった。",
+              "highlight": "dreary"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 dreorig（血の流れるような、悲しい）",
+      "synonyms": [
+        {"word": "gloomy", "trans": "暗い、陰気な"},
+        {"word": "dull", "trans": "退屈な、鈍い"},
+        {"word": "depressing", "trans": "憂鬱な"}
+      ],
+      "antonyms": [
+        {"word": "bright", "trans": "明るい"},
+        {"word": "vibrant", "trans": "活気のある"},
+        {"word": "exciting", "trans": "エキサイティングな"}
+      ],
+      "related": []
+    },
+    {
+      "number": "322-3",
+      "word": "isolated",
+      "pos": "形容詞",
+      "meaning": "孤立した、遠く離れた、唯一の",
+      "nuance": "他の場所や人々から物理的、あるいは社会的に切り離されている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The village is very isolated in the mountains.",
+              "ja": "その村は山奥で非常に孤立している。",
+              "highlight": "isolated"
+            },
+            {
+              "en": "This was not an isolated incident; it has happened before.",
+              "ja": "これは一度きりの事件ではなく、以前にも起きたことがある。",
+              "highlight": "isolated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 insula（島）→ 島のように切り離された",
+      "synonyms": [
+        {"word": "remote", "trans": "遠隔の"},
+        {"word": "solitary", "trans": "唯一の、孤独な"},
+        {"word": "detached", "trans": "切り離された"}
+      ],
+      "antonyms": [
+        {"word": "accessible", "trans": "近づきやすい"},
+        {"word": "integrated", "trans": "統合された"}
+      ],
+      "related": [
+        {"word": "isolation", "trans": "名詞：孤立"}
+      ]
+    },
+    {
+      "number": "322-4",
+      "word": "isolate",
+      "pos": "動詞",
+      "meaning": "〜を孤立させる、分離する、隔離する",
+      "nuance": "原因を特定するために特定の要素を取り出したり、病気の感染を防ぐために患者を分けたりすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Scientists managed to isolate the virus responsible for the disease.",
+              "ja": "科学者たちはその病気の原因となるウイルスを特定（分離）することに成功した。",
+              "highlight": "isolate"
+            }
+          ]
+        }
+      ],
+      "etymology": "isolated と同語源",
+      "synonyms": [
+        {"word": "separate", "trans": "分ける"},
+        {"word": "quarantine", "trans": "隔離する"},
+        {"word": "segregate", "trans": "差別・分離する"}
+      ],
+      "antonyms": [
+        {"word": "connect", "trans": "つなぐ"},
+        {"word": "combine", "trans": "結合する"},
+        {"word": "include", "trans": "含める"}
+      ],
+      "related": []
+    },
+    {
+      "number": "322-5",
+      "word": "uninhabited",
+      "pos": "形容詞",
+      "meaning": "人が住んでいない、無人の",
+      "nuance": "家や土地に誰も居住していない状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They landed on an uninhabited island.",
+              "ja": "彼らは無人島に上陸した。",
+              "highlight": "uninhabited"
+            }
+          ]
+        }
+      ],
+      "etymology": "un（否定）+ inhabit（住む）+ ed",
+      "synonyms": [
+        {"word": "vacant", "trans": "空いている"},
+        {"word": "unoccupied", "trans": "占有されていない"},
+        {"word": "empty", "trans": "空の"}
+      ],
+      "antonyms": [
+        {"word": "inhabited", "trans": "住居のある"},
+        {"word": "populated", "trans": "人が住んでいる"}
+      ],
+      "related": []
+    },
+    {
+      "number": "322-6",
+      "word": "inhabit",
+      "pos": "動詞",
+      "meaning": "〜に住んでいる、居住している",
+      "nuance": "特定の場所（家、地域、環境）に定住している状態を表します。liveよりもやや硬い言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Various rare animals inhabit these forests.",
+              "ja": "これらの森には様々な珍しい動物が住んでいる。",
+              "highlight": "inhabit"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in（中に）+ habitare（住む）",
+      "synonyms": [
+        {"word": "dwell", "trans": "住む"},
+        {"word": "reside", "trans": "居住する"},
+        {"word": "occupy", "trans": "占める、居住する"}
+      ],
+      "antonyms": [
+        {"word": "vacate", "trans": "立ち退く"},
+        {"word": "leave", "trans": "去る"}
+      ],
+      "related": [
+        {"word": "inhabitant", "trans": "名詞：住民"},
+        {"word": "habitat", "trans": "名詞：生息地"}
+      ]
+    },
+    {
+      "number": 323,
+      "word": "symptom",
+      "pos": "名詞",
+      "meaning": "症状、兆候、しるし",
+      "nuance": "病気の肉体的な現れだけでなく、社会問題などの背後にある「予兆」を指す際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Common symptoms of the cold include a cough and fever.",
+              "ja": "風邪の一般的な症状には咳や発熱が含まれる。",
+              "highlight": "symptoms"
+            },
+            {
+              "en": "The rise in crime is a symptom of deeper social problems.",
+              "ja": "犯罪の増加は、より深い社会問題の兆候である。",
+              "highlight": "symptom"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 syn（共に）+ piptein（落ちる）→ 同時に起こる現象",
+      "synonyms": [
+        {"word": "indication", "trans": "指示、兆候"},
+        {"word": "sign", "trans": "しるし"},
+        {"word": "manifestation", "trans": "現れ"}
+      ],
+      "antonyms": [
+        {"word": "cause", "trans": "原因"}
+      ],
+      "related": [
+        {"word": "symptomatic", "trans": "形容詞：症状を示す"}
+      ]
+    },
+    {
+      "number": 324,
+      "word": "deprivation",
+      "pos": "名詞",
+      "meaning": "欠乏、剥奪、喪失",
+      "nuance": "生活に必要なものが不足している状態や、権利を奪われることを指します。特に「睡眠不足（sleep deprivation）」などの表現で頻出します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Sleep deprivation can lead to serious health issues.",
+              "ja": "睡眠不足は深刻な健康問題を引き起こす可能性がある。",
+              "highlight": "deprivation"
+            },
+            {
+              "en": "They suffered from social deprivation in the poor neighborhood.",
+              "ja": "彼らは貧しい地域で社会的剥奪（不遇）に苦しんだ。",
+              "highlight": "deprivation"
+            }
+          ]
+        }
+      ],
+      "etymology": "deprive の名詞形",
+      "synonyms": [
+        {"word": "lack", "trans": "不足"},
+        {"word": "deficiency", "trans": "欠乏"},
+        {"word": "hardship", "trans": "困窮"}
+      ],
+      "antonyms": [
+        {"word": "abundance", "trans": "豊富"},
+        {"word": "surplus", "trans": "余剰"},
+        {"word": "provision", "trans": "供給"}
+      ],
+      "related": []
+    },
+    {
+      "number": "324-2",
+      "word": "deprive",
+      "pos": "動詞",
+      "meaning": "〜から（必要なものを）奪う、剥奪する",
+      "nuance": "「deprive A of B」の形で「AからBを奪う」という意味で非常によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The dictator deprived the citizens of their basic rights.",
+              "ja": "独裁者は市民から基本的人権を奪った。",
+              "highlight": "deprived"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（完全に）+ privare（奪う、個人にする）",
+      "synonyms": [
+        {"word": "strip", "trans": "剥ぎ取る"},
+        {"word": "rob", "trans": "奪う"},
+        {"word": "divest", "trans": "剥奪する"}
+      ],
+      "antonyms": [
+        {"word": "provide", "trans": "供給する"},
+        {"word": "bestow", "trans": "授ける"},
+        {"word": "endow", "trans": "授ける、寄付する"}
+      ],
+      "related": []
+    },
+    {
+      "number": 325,
+      "word": "plunder",
+      "pos": "動詞、名詞",
+      "meaning": "（戦時などに）〜を略奪する、盗む、略奪、略奪品",
+      "nuance": "暴力や戦争に乗じて、場所から価値のあるものを根こそぎ盗むという、荒っぽいニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The invading army plundered the city of all its gold.",
+              "ja": "侵攻軍は都市からすべての金を略奪した。",
+              "highlight": "plundered"
+            }
+          ]
+        }
+      ],
+      "etymology": "ドイツ語 plündern（略奪する、ガラクタを持ち出す）",
+      "synonyms": [
+        {"word": "loot", "trans": "略奪する"},
+        {"word": "pillage", "trans": "（戦時略奪として）奪う"},
+        {"word": "raid", "trans": "急襲して奪う"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 326,
+      "word": "fragile",
+      "pos": "形容詞",
+      "meaning": "壊れやすい、もろい、虚弱な",
+      "nuance": "物理的に割れやすいもの（ガラスなど）だけでなく、壊れやすい関係や、繊細な健康状態などにも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please be careful with that vase; it's very fragile.",
+              "ja": "その花瓶を慎重に扱ってください。とても壊れやすいです。",
+              "highlight": "fragile"
+            },
+            {
+              "en": "The peace agreement between the two nations remains fragile.",
+              "ja": "両国間の和平合意は依然として不安定（もろい状態）だ。",
+              "highlight": "fragile"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 frangere（壊す）",
+      "synonyms": [
+        {"word": "delicate", "trans": "繊細な、もろい"},
+        {"word": "brittle", "trans": "（硬いが）もろい"},
+        {"word": "frail", "trans": "虚弱な"}
+      ],
+      "antonyms": [
+        {"word": "sturdy", "trans": "頑丈な"},
+        {"word": "robust", "trans": "たくましい、強健な"},
+        {"word": "durable", "trans": "耐久性のある"}
+      ],
+      "related": [
+        {"word": "fragment", "trans": "名詞：破片"},
+        {"word": "fragility", "trans": "名詞：もろさ"}
+      ]
     }
   ]
 }
