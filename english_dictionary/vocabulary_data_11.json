@@ -680,6 +680,648 @@
       ],
       "antonyms": [],
       "related": []
+    },
+    {
+      "number": 283,
+      "word": "goad",
+      "pos": "動詞、名詞",
+      "meaning": "〜を駆り立てる、追い立てる、かり立てる棒",
+      "nuance": "もともとは牛を追う棒のことで、比喩的に人を突っついて無理に何かをさせる、あるいは怒らせて行動させることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She goaded him into losing his temper.",
+              "ja": "彼女は彼を挑発して（突っついて）激怒させた。",
+              "highlight": "goaded"
+            },
+            {
+              "en": "The coach goaded the players to work harder.",
+              "ja": "コーチは選手たちをより懸命に練習するよう駆り立てた。",
+              "highlight": "goaded"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 gād（尖った棒）",
+      "synonyms": [
+        {"word": "provoke", "trans": "挑発する"},
+        {"word": "spur", "trans": "拍車をかける"},
+        {"word": "egg on", "trans": "けしかける"}
+      ],
+      "antonyms": [
+        {"word": "restrain", "trans": "制止する"},
+        {"word": "deter", "trans": "思いとどまらせる"}
+      ],
+      "related": []
+    },
+    {
+      "number": 284,
+      "word": "corrective",
+      "pos": "形容詞、名詞",
+      "meaning": "正すための、修正の、是正措置",
+      "nuance": "悪い状態や間違いを修正するために導入される対策などを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The government took corrective action to stabilize the economy.",
+              "ja": "政府は経済を安定させるために是正措置（修正行動）をとった。",
+              "highlight": "corrective"
+            }
+          ]
+        }
+      ],
+      "etymology": "correct + ive",
+      "synonyms": [
+        {"word": "remedial", "trans": "治療的な、是正の"},
+        {"word": "rectifying", "trans": "改正する"}
+      ],
+      "antonyms": [
+        {"word": "harmful", "trans": "有害な"},
+        {"word": "damaging", "trans": "損害を与える"}
+      ],
+      "related": [
+        {"word": "correct", "trans": "動詞：修正する、形容詞：正しい"}
+      ]
+    },
+    {
+      "number": "284-2",
+      "word": "correct",
+      "pos": "形容詞、動詞",
+      "meaning": "正しい、適切な、〜を訂正する、添削する",
+      "nuance": "事実に基づいた「正しさ」と、間違いを「直す」動作の両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "Please make sure all the information is correct.",
+              "ja": "すべての情報が正しいか確認してください。",
+              "highlight": "correct"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The teacher corrected the students' essays.",
+              "ja": "教師は生徒の作文を添削（修正）した。",
+              "highlight": "corrected"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（完全に）+ regere（導く、支配する）",
+      "synonyms": [
+        {"word": "accurate", "trans": "正確な"},
+        {"word": "right", "trans": "正しい"},
+        {"word": "amend", "trans": "修正する"}
+      ],
+      "antonyms": [
+        {"word": "incorrect", "trans": "間違った"},
+        {"word": "wrong", "trans": "誤った"}
+      ],
+      "related": [
+        {"word": "correctly", "trans": "副詞：正しく"}
+      ]
+    },
+    {
+      "number": "284-3",
+      "word": "correction",
+      "pos": "名詞",
+      "meaning": "訂正、修正、添削、矯正",
+      "nuance": "間違いを直す行為、または直された箇所を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I made a few minor corrections to the report.",
+              "ja": "レポートにいくつか小さな修正を加えた。",
+              "highlight": "corrections"
+            }
+          ]
+        }
+      ],
+      "etymology": "correct の名詞形",
+      "synonyms": [
+        {"word": "amendment", "trans": "改正"},
+        {"word": "revision", "trans": "改訂"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "284-4",
+      "word": "correctness",
+      "pos": "名詞",
+      "meaning": "正確さ、正しさ、妥当性",
+      "nuance": "間違いがない状態そのものを指します。「政治的正しさ(Political Correctness)」という言葉でも有名です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He doubted the correctness of the data.",
+              "ja": "彼はそのデータの正確性を疑った。",
+              "highlight": "correctness"
+            }
+          ]
+        }
+      ],
+      "etymology": "correct + ness",
+      "synonyms": [
+        {"word": "accuracy", "trans": "正確さ"},
+        {"word": "precision", "trans": "精密さ"}
+      ],
+      "antonyms": [
+        {"word": "inaccuracy", "trans": "不正確さ"}
+      ],
+      "related": []
+    },
+    {
+      "number": "284-5",
+      "word": "amend",
+      "pos": "動詞",
+      "meaning": "（法律などを）改正する、修正する、改める",
+      "nuance": "法律や規則、正式な文書の一部をより良くするために変更することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The constitution was amended to grant women the right to vote.",
+              "ja": "女性参政権を認めるために憲法が改正された。",
+              "highlight": "amended"
+            },
+            {
+              "en": "You should amend your behavior if you want to stay here.",
+              "ja": "ここに留まりたいなら、素行を改めるべきだ。",
+              "highlight": "amend"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 e（外へ）+ menda（欠点）→ 欠点を取り除く",
+      "synonyms": [
+        {"word": "modify", "trans": "修正する"},
+        {"word": "revise", "trans": "改訂する"},
+        {"word": "improve", "trans": "改善する"}
+      ],
+      "antonyms": [
+        {"word": "worsen", "trans": "悪化させる"},
+        {"word": "corrupt", "trans": "堕落させる"}
+      ],
+      "related": [
+        {"word": "amendment", "trans": "名詞：改正（案）"}
+      ]
+    },
+    {
+      "number": "284-6",
+      "word": "amendment",
+      "pos": "名詞",
+      "meaning": "改正、修正、修正条項",
+      "nuance": "正式な手続きを経て変更された内容を指します。アメリカ憲法の「修正第◯条」などでよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The First Amendment protects freedom of speech.",
+              "ja": "修正第1条は言論の自由を保護している。",
+              "highlight": "Amendment"
+            }
+          ]
+        }
+      ],
+      "etymology": "amend の名詞形",
+      "synonyms": [
+        {"word": "alteration", "trans": "変更"},
+        {"word": "modification", "trans": "修正"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 285,
+      "word": "notify",
+      "pos": "動詞",
+      "meaning": "〜に通知する、知らせる",
+      "nuance": "公式な形で、誰かに情報を伝えることを指します。「notify A of B（AにBを知らせる）」という語法が一般的です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We will notify you of the results by email.",
+              "ja": "結果はメールで通知いたします。",
+              "highlight": "notify"
+            },
+            {
+              "en": "Please notify the police immediately if you see anything suspicious.",
+              "ja": "不審なものを見かけたら、すぐに警察に知らせてください。",
+              "highlight": "notify"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 notus（知られた）+ facere（作る）",
+      "synonyms": [
+        {"word": "inform", "trans": "知らせる"},
+        {"word": "announce", "trans": "発表する"},
+        {"word": "report", "trans": "報告する"}
+      ],
+      "antonyms": [
+        {"word": "conceal", "trans": "隠す"},
+        {"word": "hide", "trans": "秘密にする"}
+      ],
+      "related": [
+        {"word": "notification", "trans": "名詞：通知"}
+      ]
+    },
+    {
+      "number": 286,
+      "word": "affectionate",
+      "pos": "形容詞",
+      "meaning": "愛情のこもった、優しい",
+      "nuance": "家族や友人、恋人に対して、温かい愛情を示す様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He gave his daughter an affectionate hug.",
+              "ja": "彼は娘に愛情を込めたハグをした。",
+              "highlight": "affectionate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 affectio（心に影響を与えること）",
+      "synonyms": [
+        {"word": "loving", "trans": "愛情に満ちた"},
+        {"word": "tender", "trans": "優しい"},
+        {"word": "warm", "trans": "温かい"}
+      ],
+      "antonyms": [
+        {"word": "cold", "trans": "冷淡な"},
+        {"word": "distant", "trans": "よそよそしい"}
+      ],
+      "related": [
+        {"word": "affection", "trans": "名詞：愛情"}
+      ]
+    },
+    {
+      "number": 287,
+      "word": "collectively",
+      "pos": "副詞",
+      "meaning": "集合的に、共同で、一括して",
+      "nuance": "個々ではなく、全体としてひとまとめに扱う様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "These three companies are collectively known as the ABC Group.",
+              "ja": "これら3社は、総称して（一括して）ABCグループとして知られている。",
+              "highlight": "collectively"
+            }
+          ]
+        }
+      ],
+      "etymology": "collective + ly",
+      "synonyms": [
+        {"word": "together", "trans": "一緒に"},
+        {"word": "jointly", "trans": "共同で"},
+        {"word": "combined", "trans": "組み合わさって"}
+      ],
+      "antonyms": [
+        {"word": "individually", "trans": "個別に"},
+        {"word": "separately", "trans": "別々に"}
+      ],
+      "related": []
+    },
+    {
+      "number": "287-2",
+      "word": "collective",
+      "pos": "形容詞、名詞",
+      "meaning": "集団の、共同の、蓄積された、共同事業体",
+      "nuance": "グループ全体で共有される責任や努力などを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It was a collective decision made by the whole team.",
+              "ja": "それはチーム全体で下された共同の決定だった。",
+              "highlight": "collective"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ legere（集める）",
+      "synonyms": [
+        {"word": "group", "trans": "グループの"},
+        {"word": "joint", "trans": "共同の"}
+      ],
+      "antonyms": [
+        {"word": "individual", "trans": "個人の"}
+      ],
+      "related": [
+        {"word": "collect", "trans": "動詞：集める"}
+      ]
+    },
+    {
+      "number": 288,
+      "word": "relationship",
+      "pos": "名詞",
+      "meaning": "関係、親族関係、恋愛関係",
+      "nuance": "二人以上の人や物事の間にある結びつきを広く指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They have a good working relationship.",
+              "ja": "彼らは良好な仕事上の関係を築いている。",
+              "highlight": "relationship"
+            },
+            {
+              "en": "The relationship between diet and health is well known.",
+              "ja": "食事と健康の関係はよく知られている。",
+              "highlight": "relationship"
+            }
+          ]
+        }
+      ],
+      "etymology": "relation + ship（状態）",
+      "synonyms": [
+        {"word": "connection", "trans": "つながり"},
+        {"word": "bond", "trans": "絆"},
+        {"word": "association", "trans": "関連"}
+      ],
+      "antonyms": [
+        {"word": "separation", "trans": "分離"},
+        {"word": "estrangement", "trans": "疎遠"}
+      ],
+      "related": [
+        {"word": "relation", "trans": "名詞：関係"}
+      ]
+    },
+    {
+      "number": 289,
+      "word": "linkage",
+      "pos": "名詞",
+      "meaning": "連鎖、結合、関連性、リンケージ",
+      "nuance": "物事が互いにどのようにつながっているか、その「仕組み」や「状態」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There is a strong linkage between education and income level.",
+              "ja": "教育と所得水準の間には強い関連性（連鎖）がある。",
+              "highlight": "linkage"
+            }
+          ]
+        }
+      ],
+      "etymology": "link + age（集合・状態）",
+      "synonyms": [
+        {"word": "link", "trans": "つながり"},
+        {"word": "connection", "trans": "接続"},
+        {"word": "coupling", "trans": "連結"}
+      ],
+      "antonyms": [
+        {"word": "detachment", "trans": "分離"},
+        {"word": "disconnection", "trans": "断絶"}
+      ],
+      "related": []
+    },
+    {
+      "number": 290,
+      "word": "separation",
+      "pos": "名詞",
+      "meaning": "分離、離脱、別居",
+      "nuance": "一つだったものが分かれること、または距離を置いて離れることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The separation of church and state is a fundamental principle.",
+              "ja": "政教分離（教会と国家の分離）は基本原則である。",
+              "highlight": "separation"
+            },
+            {
+              "en": "The couple decided on a legal separation.",
+              "ja": "その夫婦は法的な別居を決めた。",
+              "highlight": "separation"
+            }
+          ]
+        }
+      ],
+      "etymology": "separate の名詞形",
+      "synonyms": [
+        {"word": "division", "trans": "分割"},
+        {"word": "detachment", "trans": "切り離し"},
+        {"word": "split", "trans": "分裂"}
+      ],
+      "antonyms": [
+        {"word": "union", "trans": "結合"},
+        {"word": "connection", "trans": "接続"},
+        {"word": "merger", "trans": "合併"}
+      ],
+      "related": []
+    },
+    {
+      "number": "290-2",
+      "word": "separate",
+      "pos": "動詞、形容詞",
+      "meaning": "〜を分ける、分かれる、離れた、別々の",
+      "nuance": "物理的、あるいは概念的に境界線を引いて分けることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "They separated the garbage into recyclables and non-recyclables.",
+              "ja": "彼らはゴミを資源ゴミと燃えないゴミに分けた。",
+              "highlight": "separated"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The children sleep in separate rooms.",
+              "ja": "子供たちは別々の部屋で寝ている。",
+              "highlight": "separate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 se（離れて）+ parare（用意する）",
+      "synonyms": [
+        {"word": "divide", "trans": "分割する"},
+        {"word": "isolate", "trans": "孤立させる"},
+        {"word": "individual", "trans": "個別の"}
+      ],
+      "antonyms": [
+        {"word": "join", "trans": "つなぐ"},
+        {"word": "combine", "trans": "結合する"},
+        {"word": "united", "trans": "団結した"}
+      ],
+      "related": []
+    },
+    {
+      "number": 291,
+      "word": "diverge",
+      "pos": "動詞",
+      "meaning": "（道などが）分岐する、（意見などが）分かれる、それる",
+      "nuance": "一つの地点から始まり、異なる方向へ離れていく様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The road diverges at the end of the village.",
+              "ja": "道は村の外れで二股に分かれている。",
+              "highlight": "diverges"
+            },
+            {
+              "en": "Their opinions diverged on the best way to solve the problem.",
+              "ja": "問題を解決する最善の方法について、彼らの意見は分かれた。",
+              "highlight": "diverged"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 di（離れて）+ vergere（向く）",
+      "synonyms": [
+        {"word": "split", "trans": "分かれる"},
+        {"word": "branch off", "trans": "枝分かれする"},
+        {"word": "deviate", "trans": "それる"}
+      ],
+      "antonyms": [
+        {"word": "converge", "trans": "一点に集まる"},
+        {"word": "merge", "trans": "合流する"}
+      ],
+      "related": [
+        {"word": "divergence", "trans": "名詞：分岐、相違"}
+      ]
+    },
+    {
+      "number": 292,
+      "word": "upheaval",
+      "pos": "名詞",
+      "meaning": "（社会・情勢などの）大激変、動乱、押し上げ",
+      "nuance": "地殻変動のように、下から突き上げるような大きな混乱や変化を指します。秩序がひっくり返るようなイメージです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The French Revolution caused a major political upheaval.",
+              "ja": "フランス革命は政治的な大激変を引き起こした。",
+              "highlight": "upheaval"
+            }
+          ]
+        }
+      ],
+      "etymology": "up（上へ）+ heave（持ち上げる）",
+      "synonyms": [
+        {"word": "turmoil", "trans": "騒乱"},
+        {"word": "disturbance", "trans": "動揺、障害"},
+        {"word": "revolution", "trans": "革命"}
+      ],
+      "antonyms": [
+        {"word": "stability", "trans": "安定"},
+        {"word": "calm", "trans": "平穏"}
+      ],
+      "related": []
+    },
+    {
+      "number": "292-2",
+      "word": "conversion",
+      "pos": "名詞",
+      "meaning": "転換、変換、改造、改宗",
+      "nuance": "ある形や状態から、全く別のものへ作り変えること、または考え方や信仰を変えることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The conversion of the old warehouse into luxury apartments took two years.",
+              "ja": "古い倉庫を高級マンションに改造するのに2年かかった。",
+              "highlight": "conversion"
+            },
+            {
+              "en": "Her conversion to Buddhism surprised her friends.",
+              "ja": "彼女が仏教に改宗したことは、友人たちを驚かせた。",
+              "highlight": "conversion"
+            }
+          ]
+        }
+      ],
+      "etymology": "convert の名詞形",
+      "synonyms": [
+        {"word": "transformation", "trans": "変形"},
+        {"word": "adaptation", "trans": "適応、改造"},
+        {"word": "change", "trans": "変化"}
+      ],
+      "antonyms": [
+        {"word": "persistence", "trans": "持続"},
+        {"word": "maintenance", "trans": "維持"}
+      ],
+      "related": []
+    },
+    {
+      "number": "292-3",
+      "word": "convert",
+      "pos": "動詞、名詞",
+      "meaning": "〜を転換する、変える、改宗させる、改宗者",
+      "nuance": "形、機能、目的、あるいは信念を変えることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Can you help me convert these dollars into yen?",
+              "ja": "このドルを円に両替（変換）するのを手伝ってくれますか？",
+              "highlight": "convert"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He is a recent convert to vegetarianism.",
+              "ja": "彼は最近ベジタリアンになった人（転向者）だ。",
+              "highlight": "convert"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（完全に）+ vertere（回す、向ける）",
+      "synonyms": [
+        {"word": "transform", "trans": "変える"},
+        {"word": "exchange", "trans": "交換する"},
+        {"word": "remodel", "trans": "リフォームする"}
+      ],
+      "antonyms": [
+        {"word": "keep", "trans": "保つ"},
+        {"word": "remain", "trans": "ままでいる"}
+      ],
+      "related": [
+        {"word": "converter", "trans": "名詞：変換器"}
+      ]
     }
   ]
 }
