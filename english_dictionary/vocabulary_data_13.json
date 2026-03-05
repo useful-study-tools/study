@@ -1,0 +1,465 @@
+{
+  "words": [
+    {
+      "number": 341,
+      "word": "impotence",
+      "pos": "名詞",
+      "meaning": "無力、無能、性的不能",
+      "nuance": "物事を変える力や影響力を持っていない状態、あるいは肉体的な能力の欠如を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The citizens felt a sense of impotence against the corrupt government.",
+              "ja": "市民たちは腐敗した政府に対して無力感を感じた。",
+              "highlight": "impotence"
+            },
+            {
+              "en": "Economic impotence can lead to social unrest.",
+              "ja": "経済的な無力（停滞）は社会不安を招く可能性がある。",
+              "highlight": "impotence"
+            }
+          ]
+        }
+      ],
+      "etymology": "im（否定）+ potence（力）",
+      "synonyms": [
+        {"word": "powerlessness", "trans": "無力"},
+        {"word": "helplessness", "trans": "どうしようもない状態"},
+        {"word": "weakness", "trans": "弱さ"}
+      ],
+      "antonyms": [
+        {"word": "potency", "trans": "効力、権力"},
+        {"word": "strength", "trans": "強さ"},
+        {"word": "power", "trans": "力"}
+      ],
+      "related": [
+        {"word": "impotent", "trans": "形容詞：無力な"}
+      ]
+    },
+    {
+      "number": "341-2",
+      "word": "impotent",
+      "pos": "形容詞",
+      "meaning": "無力な、無能な",
+      "nuance": "必要な力や手段を欠いており、状況を改善できない様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was impotent to stop the changes happening in his company.",
+              "ja": "彼は会社で起きている変化を止めるには無力だった。",
+              "highlight": "impotent"
+            }
+          ]
+        }
+      ],
+      "etymology": "impotence と同語源",
+      "synonyms": [
+        {"word": "powerless", "trans": "力のない"},
+        {"word": "ineffective", "trans": "効果のない"}
+      ],
+      "antonyms": [
+        {"word": "powerful", "trans": "強力な"},
+        {"word": "potent", "trans": "有力な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 342,
+      "word": "incompetent",
+      "pos": "形容詞、名詞",
+      "meaning": "無能な、不適格な、能力のない、無能な人",
+      "nuance": "特定の仕事や任務を遂行するためのスキルや知識が不足していることを指します。しばしば厳しい批判として使われます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The project failed due to incompetent management.",
+              "ja": "そのプロジェクトは無能な経営陣のせいで失敗した。",
+              "highlight": "incompetent"
+            },
+            {
+              "en": "He is legally incompetent to stand trial.",
+              "ja": "彼は裁判を受ける法的能力がない（と判断されている）。",
+              "highlight": "incompetent"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The office was run by a bunch of incompetents.",
+              "ja": "その事務所は無能な連中によって運営されていた。",
+              "highlight": "incompetents"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（否定）+ competent（有能な）",
+      "synonyms": [
+        {"word": "unskilled", "trans": "未熟な"},
+        {"word": "inept", "trans": "不適当な、無能な"},
+        {"word": "incapable", "trans": "能力を欠いた"}
+      ],
+      "antonyms": [
+        {"word": "competent", "trans": "有能な"},
+        {"word": "capable", "trans": "能力がある"},
+        {"word": "proficient", "trans": "熟達した"}
+      ],
+      "related": [
+        {"word": "competence", "trans": "名詞：能力、適格"}
+      ]
+    },
+    {
+      "number": 343,
+      "word": "loss",
+      "pos": "名詞",
+      "meaning": "紛失、喪失、損失、死、赤字",
+      "nuance": "何かを失うこと全般。金銭的なマイナスから、身近な人の死（喪失感）まで幅広く使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company reported a heavy financial loss this year.",
+              "ja": "その会社は今年、多額の財務的損失を報告した。",
+              "highlight": "loss"
+            },
+            {
+              "en": "We are very sorry for your loss.",
+              "ja": "お悔やみ申し上げます（あなたの喪失＝身近な人の死に対して）。",
+              "highlight": "loss"
+            }
+          ]
+        }
+      ],
+      "etymology": "lose（失う）の名詞形",
+      "synonyms": [
+        {"word": "deprivation", "trans": "剥奪、喪失"},
+        {"word": "deficit", "trans": "赤字"},
+        {"word": "bereavement", "trans": "死別"}
+      ],
+      "antonyms": [
+        {"word": "gain", "trans": "利益、獲得"},
+        {"word": "profit", "trans": "利益"},
+        {"word": "recovery", "trans": "回収"}
+      ],
+      "related": [
+        {"word": "lose", "trans": "動詞：失う"}
+      ]
+    },
+    {
+      "number": 344,
+      "word": "calamity",
+      "pos": "名詞",
+      "meaning": "大惨事、災難、大きな不幸",
+      "nuance": "深刻な被害や苦痛をもたらす出来事。catastropheよりはやや古風、または文学的な響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The earthquake was a calamity for the entire nation.",
+              "ja": "その地震は国家全体にとっての大惨事だった。",
+              "highlight": "calamity"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 calamitas（打撃、災難）",
+      "synonyms": [
+        {"word": "disaster", "trans": "災害"},
+        {"word": "catastrophe", "trans": "大惨事"},
+        {"word": "misfortune", "trans": "不幸"}
+      ],
+      "antonyms": [
+        {"word": "blessing", "trans": "恵み"},
+        {"word": "boon", "trans": "恩恵"},
+        {"word": "success", "trans": "成功"}
+      ],
+      "related": [
+        {"word": "calamitous", "trans": "形容詞：悲惨な"}
+      ]
+    },
+    {
+      "number": 345,
+      "word": "casualty",
+      "pos": "名詞",
+      "meaning": "（事故・戦争の）死傷者、犠牲者、不慮の事故",
+      "nuance": "事故や紛争によって命を落としたり負傷したりした「人数」や「人々」を指します。病院の「救急外来」を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Both sides suffered heavy casualties in the battle.",
+              "ja": "その戦闘で両軍ともに多数の死傷者を出した。",
+              "highlight": "casualties"
+            },
+            {
+              "en": "Small businesses were the first casualties of the economic crisis.",
+              "ja": "中小企業は、経済危機の最初の犠牲者となった（比喩的表現）。",
+              "highlight": "casualties"
+            }
+          ]
+        }
+      ],
+      "etymology": "casual（不意の）+ ty → 偶然起きた悪い出来事",
+      "synonyms": [
+        {"word": "victim", "trans": "被害者"},
+        {"word": "fatality", "trans": "死亡者数"},
+        {"word": "loss", "trans": "損失（人員の）"}
+      ],
+      "antonyms": [
+        {"word": "survivor", "trans": "生存者"}
+      ],
+      "related": []
+    },
+    {
+      "number": 346,
+      "word": "catastrophe",
+      "pos": "名詞",
+      "meaning": "大惨事、破滅、壊滅的な失敗",
+      "nuance": "突然起こる大規模な災害や、取り返しのつかない大失敗。演劇の「大詰め」が語源です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Environmentalists warn of an ecological catastrophe.",
+              "ja": "環境保護主義者たちは、生態系の破滅（大惨事）を警告している。",
+              "highlight": "catastrophe"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 kata（下に）+ strephein（回す）→ 転覆",
+      "synonyms": [
+        {"word": "disaster", "trans": "災害"},
+        {"word": "holocaust", "trans": "大虐殺、大破壊"},
+        {"word": "fiasco", "trans": "大失敗"}
+      ],
+      "antonyms": [
+        {"word": "miracle", "trans": "奇跡"},
+        {"word": "benefit", "trans": "利益"}
+      ],
+      "related": [
+        {"word": "catastrophic", "trans": "形容詞：壊滅的な"}
+      ]
+    },
+    {
+      "number": "346-2",
+      "word": "catastrophic",
+      "pos": "形容詞",
+      "meaning": "壊滅的な、悲惨な",
+      "nuance": "損害が極めて大きく、回復が困難な様子を表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A flood would have catastrophic effects on the local economy.",
+              "ja": "洪水が起きれば、地域経済に壊滅的な影響を与えるだろう。",
+              "highlight": "catastrophic"
+            }
+          ]
+        }
+      ],
+      "etymology": "catastrophe の形容詞形",
+      "synonyms": [
+        {"word": "devastating", "trans": "破壊的な"},
+        {"word": "disastrous", "trans": "悲惨な"},
+        {"word": "ruinous", "trans": "破滅的な"}
+      ],
+      "antonyms": [
+        {"word": "beneficial", "trans": "有益な"},
+        {"word": "harmless", "trans": "無害な"}
+      ],
+      "related": []
+    },
+    {
+      "number": "346-3",
+      "word": "toll",
+      "pos": "名詞、動詞",
+      "meaning": "（事故などの）死傷者数、犠牲、通行料、（鐘が）鳴る",
+      "nuance": "何らかの対価として支払うもの。災害の文脈では「失われたものの合計（Death tollなど）」として使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The death toll from the tornado has risen to fifty.",
+              "ja": "竜巻による死者数は50人に達した。",
+              "highlight": "toll"
+            },
+            {
+              "en": "Years of hard work took a toll on his health.",
+              "ja": "長年の重労働が彼の健康に悪影響を及ぼした（犠牲を強いた）。",
+              "highlight": "toll"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 telos（税、完成）",
+      "synonyms": [
+        {"word": "count", "trans": "合計数"},
+        {"word": "fee", "trans": "料金"},
+        {"word": "damage", "trans": "損害"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 347,
+      "word": "ensure",
+      "pos": "動詞",
+      "meaning": "〜を確実にする、保証する",
+      "nuance": "ある結果が必ず起こるように手配したり、安全を確認したりすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please ensure that all the windows are closed.",
+              "ja": "すべての窓が閉まっているか確認（確実に）してください。",
+              "highlight": "ensure"
+            },
+            {
+              "en": "The government took steps to ensure the safety of the passengers.",
+              "ja": "政府は乗客の安全を確保するための措置を講じた。",
+              "highlight": "ensure"
+            }
+          ]
+        }
+      ],
+      "etymology": "en（〜にする）+ sure（確実な）",
+      "synonyms": [
+        {"word": "guarantee", "trans": "保証する"},
+        {"word": "secure", "trans": "確保する"},
+        {"word": "make sure", "trans": "確かめる"}
+      ],
+      "antonyms": [
+        {"word": "endanger", "trans": "危険にさらす"},
+        {"word": "neglect", "trans": "放置する"}
+      ],
+      "related": [
+        {"word": "sure", "trans": "形容詞：確信して"}
+      ]
+    },
+    {
+      "number": 348,
+      "word": "ascertain",
+      "pos": "動詞",
+      "meaning": "（事実などを）確かめる、突き止める",
+      "nuance": "調査や点検を通じて、不明だった事実を「はっきりとさせる」という硬い表現です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It is difficult to ascertain the exact cause of the fire.",
+              "ja": "出火の正確な原因を突き止めるのは困難だ。",
+              "highlight": "ascertain"
+            },
+            {
+              "en": "We must ascertain whether the news is true or not.",
+              "ja": "そのニュースが本当かどうかを確かめなければならない。",
+              "highlight": "ascertain"
+            }
+          ]
+        }
+      ],
+      "etymology": "ad（〜に）+ certain（確実な）",
+      "synonyms": [
+        {"word": "confirm", "trans": "確認する"},
+        {"word": "determine", "trans": "特定する"},
+        {"word": "verify", "trans": "検証する"}
+      ],
+      "antonyms": [
+        {"word": "guess", "trans": "推測する"},
+        {"word": "overlook", "trans": "見落とす"}
+      ],
+      "related": []
+    },
+    {
+      "number": 349,
+      "word": "quest",
+      "pos": "名詞、動詞",
+      "meaning": "探求、追求、〜を深く捜し求める",
+      "nuance": "単なる探し物ではなく、真理や幸福、伝説のアイテムなどを求める「長く困難な旅・追求」というロマンチックまたは哲学的な響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The scientists are on a quest for a cure for the disease.",
+              "ja": "科学者たちはその病気の治療法の探求を続けている。",
+              "highlight": "quest"
+            },
+            {
+              "en": "He went on a quest to find the meaning of life.",
+              "ja": "彼は人生の意味を見つけるための探求の旅に出た。",
+              "highlight": "quest"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 quaerere（探す、問う）",
+      "synonyms": [
+        {"word": "pursuit", "trans": "追求"},
+        {"word": "search", "trans": "探索"},
+        {"word": "expedition", "trans": "遠征、探検"}
+      ],
+      "antonyms": [
+        {"word": "retreat", "trans": "退却"},
+        {"word": "abandonment", "trans": "放棄"}
+      ],
+      "related": [
+        {"word": "question", "trans": "名詞/動詞：質問（する）"}
+      ]
+    },
+    {
+      "number": 350,
+      "word": "meaningless",
+      "pos": "形容詞",
+      "meaning": "無意味な、価値のない",
+      "nuance": "目的や重要性が欠けている状態、あるいは理解不可能な内容を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Winning is meaningless if you don't play fair.",
+              "ja": "公平にプレーしないのであれば、勝つことは無意味だ。",
+              "highlight": "meaningless"
+            },
+            {
+              "en": "The statistics are meaningless without proper context.",
+              "ja": "適切な文脈がなければ、その統計データは無意味だ。",
+              "highlight": "meaningless"
+            }
+          ]
+        }
+      ],
+      "etymology": "meaning（意味）+ less（ない）",
+      "synonyms": [
+        {"word": "pointless", "trans": "無駄な"},
+        {"word": "futile", "trans": "無益な"},
+        {"word": "insignificant", "trans": "取るに足らない"}
+      ],
+      "antonyms": [
+        {"word": "meaningful", "trans": "意味のある"},
+        {"word": "significant", "trans": "重要な"},
+        {"word": "purposeful", "trans": "目的のある"}
+      ],
+      "related": [
+        {"word": "meaning", "trans": "名詞：意味"}
+      ]
+    }
+  ]
+}
