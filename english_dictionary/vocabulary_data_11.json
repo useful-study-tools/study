@@ -1322,6 +1322,931 @@
       "related": [
         {"word": "converter", "trans": "名詞：変換器"}
       ]
+    },
+    {
+      "number": 293,
+      "word": "adore",
+      "pos": "動詞",
+      "meaning": "〜を崇拝する、〜が大好きである",
+      "nuance": "神のように崇める、あるいは非常に深い愛情を持って大切に思うことを指します。日常会話では「超お気に入り」くらいの軽い意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She adores her grandchildren and visits them every weekend.",
+              "ja": "彼女は孫たちを溺愛しており、毎週末に会いに行く。",
+              "highlight": "adores"
+            },
+            {
+              "en": "I simply adore this chocolate cake; it's the best I've ever had.",
+              "ja": "このチョコケーキがとにかく大好きです。今までで一番だわ。",
+              "highlight": "adore"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad（〜へ）+ orare（祈る・話す）",
+      "synonyms": [
+        {"word": "worship", "trans": "崇拝する"},
+        {"word": "cherish", "trans": "慈しむ"},
+        {"word": "love", "trans": "愛する"}
+      ],
+      "antonyms": [
+        {"word": "abhor", "trans": "忌み嫌う"},
+        {"word": "hate", "trans": "憎む"},
+        {"word": "despise", "trans": "軽蔑する"}
+      ],
+      "related": [
+        {"word": "adorable", "trans": "形容詞：可愛らしい"}
+      ]
+    },
+    {
+      "number": "293-2",
+      "word": "charity",
+      "pos": "名詞",
+      "meaning": "慈善（行為）、慈善団体、思いやり",
+      "nuance": "困っている人を助けるための寄付や活動、またはキリスト教的な「博愛」の精神を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The proceeds from the concert will go to charity.",
+              "ja": "コンサートの収益は慈善活動に寄付される。",
+              "highlight": "charity"
+            },
+            {
+              "en": "He doesn't want to live on charity; he wants to find a job.",
+              "ja": "彼は施し（慈善）を受けて暮らしたくない。仕事を見つけたいのだ。",
+              "highlight": "charity"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 caritas（高価なこと、愛情）",
+      "synonyms": [
+        {"word": "philanthropy", "trans": "博愛、慈善活動"},
+        {"word": "benevolence", "trans": "慈悲心"}
+      ],
+      "antonyms": [
+        {"word": "selfishness", "trans": "利己主義"},
+        {"word": "malice", "trans": "悪意"}
+      ],
+      "related": [
+        {"word": "charitable", "trans": "形容詞：慈悲深い"}
+      ]
+    },
+    {
+      "number": "293-3",
+      "word": "patriot",
+      "pos": "名詞",
+      "meaning": "愛国者",
+      "nuance": "自分の国を深く愛し、忠誠を誓う人を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was a true patriot who fought for his country's freedom.",
+              "ja": "彼は自国の自由のために戦った真の愛国者だった。",
+              "highlight": "patriot"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 patrios（父の、祖国の）",
+      "synonyms": [
+        {"word": "nationalist", "trans": "国家主義者"},
+        {"word": "loyalist", "trans": "忠誠心のある人"}
+      ],
+      "antonyms": [
+        {"word": "traitor", "trans": "裏切り者"},
+        {"word": "renegade", "trans": "背教者、反逆者"}
+      ],
+      "related": [
+        {"word": "patriotic", "trans": "形容詞：愛国的な"},
+        {"word": "patriotism", "trans": "名詞：愛国心"}
+      ]
+    },
+    {
+      "number": "293-4",
+      "word": "patriotic",
+      "pos": "形容詞",
+      "meaning": "愛国的な、愛国心に満ちた",
+      "nuance": "自国を誇りに思う様子や、国への愛に基づいた行動を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The crowd sang a patriotic song.",
+              "ja": "群衆は愛国歌を歌った。",
+              "highlight": "patriotic"
+            }
+          ]
+        }
+      ],
+      "etymology": "patriot + ic",
+      "synonyms": [
+        {"word": "loyal", "trans": "忠誠な"},
+        {"word": "nationalistic", "trans": "国家主義的な"}
+      ],
+      "antonyms": [
+        {"word": "treasonous", "trans": "反逆的な"},
+        {"word": "disloyal", "trans": "不忠な"}
+      ],
+      "related": []
+    },
+    {
+      "number": "293-5",
+      "word": "patriotism",
+      "pos": "名詞",
+      "meaning": "愛国心",
+      "nuance": "自分の国に対する強い愛や誇りです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Patriotism should not be confused with narrow-minded nationalism.",
+              "ja": "愛国心は、心の狭いナショナリズムと混同されるべきではない。",
+              "highlight": "Patriotism"
+            }
+          ]
+        }
+      ],
+      "etymology": "patriot + ism",
+      "synonyms": [
+        {"word": "loyalty", "trans": "忠誠"},
+        {"word": "devotion", "trans": "献身、熱愛"}
+      ],
+      "antonyms": [
+        {"word": "treason", "trans": "反逆罪"},
+        {"word": "disloyalty", "trans": "不忠"}
+      ],
+      "related": []
+    },
+    {
+      "number": 294,
+      "word": "tender",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "優しい、柔らかい、入札、〜を提出する",
+      "nuance": "感情的に「優しい」だけでなく、肉が「柔らかい」、あるいは公式に書類を「差し出す」といった多様な意味があります。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The steak was incredibly tender.",
+              "ja": "そのステーキは信じられないほど柔らかかった。",
+              "highlight": "tender"
+            },
+            {
+              "en": "He spoke in a tender voice to the baby.",
+              "ja": "彼は赤ちゃんに優しい声で話しかけた。",
+              "highlight": "tender"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "He formally tendered his resignation.",
+              "ja": "彼は正式に辞表を提出した。",
+              "highlight": "tendered"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tendere（伸ばす）",
+      "synonyms": [
+        {"word": "gentle", "trans": "穏やかな"},
+        {"word": "soft", "trans": "柔らかい"},
+        {"word": "submit", "trans": "提出する"}
+      ],
+      "antonyms": [
+        {"word": "tough", "trans": "硬い"},
+        {"word": "harsh", "trans": "厳しい"},
+        {"word": "withdraw", "trans": "撤回する"}
+      ],
+      "related": [
+        {"word": "tenderness", "trans": "名詞：優しさ"}
+      ]
+    },
+    {
+      "number": 295,
+      "word": "yearn",
+      "pos": "動詞",
+      "meaning": "切望する、あこがれる、懐かしく思う",
+      "nuance": "手に入りにくいもの、あるいは失われたものを、切なくなるほど強く求める状態です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "After many years abroad, he yearned for his home country.",
+              "ja": "長年の海外生活の後、彼は母国を懐かしく（切なく）思った。",
+              "highlight": "yearned"
+            },
+            {
+              "en": "She yearns to see her family again.",
+              "ja": "彼女は家族に再会することを切望している。",
+              "highlight": "yearns"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 giernan（切望する）",
+      "synonyms": [
+        {"word": "long for", "trans": "〜を切望する"},
+        {"word": "crave", "trans": "強く欲する"},
+        {"word": "desire", "trans": "望む"}
+      ],
+      "antonyms": [
+        {"word": "disdain", "trans": "軽蔑する"},
+        {"word": "loathe", "trans": "ひどく嫌う"}
+      ],
+      "related": [
+        {"word": "yearning", "trans": "名詞：切望、憧れ"}
+      ]
+    },
+    {
+      "number": 296,
+      "word": "hatred",
+      "pos": "名詞",
+      "meaning": "憎しみ、憎悪",
+      "nuance": "人や物事に対する非常に強く、持続的な「嫌い」という感情です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The war left a legacy of hatred and distrust.",
+              "ja": "戦争は憎しみと不信感という遺産を残した。",
+              "highlight": "hatred"
+            }
+          ]
+        }
+      ],
+      "etymology": "hate + red（古期英語の接尾辞）",
+      "synonyms": [
+        {"word": "animosity", "trans": "敵意"},
+        {"word": "hostility", "trans": "敵対心"},
+        {"word": "enmity", "trans": "憎しみ"}
+      ],
+      "antonyms": [
+        {"word": "love", "trans": "愛"},
+        {"word": "affection", "trans": "慈しみ"}
+      ],
+      "related": [
+        {"word": "hate", "trans": "動詞：憎む"}
+      ]
+    },
+    {
+      "number": 297,
+      "word": "abhor",
+      "pos": "動詞",
+      "meaning": "〜をひどく嫌う、忌み嫌う",
+      "nuance": "道徳的な理由などで、ぞっとするほど嫌悪感を持つことを指します。フォーマルな言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Most people abhor violence against children.",
+              "ja": "ほとんどの人は子供への暴力を忌み嫌う。",
+              "highlight": "abhor"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ab（〜から離れて）+ horrere（震える）→ 震えて遠ざかる",
+      "synonyms": [
+        {"word": "detest", "trans": "ひどく嫌う"},
+        {"word": "loathe", "trans": "嫌悪する"},
+        {"word": "abominate", "trans": "忌み嫌う"}
+      ],
+      "antonyms": [
+        {"word": "adore", "trans": "崇拝する"},
+        {"word": "admire", "trans": "賞賛する"},
+        {"word": "love", "trans": "愛する"}
+      ],
+      "related": [
+        {"word": "abhorrence", "trans": "名詞：嫌悪"},
+        {"word": "abhorrent", "trans": "形容詞：嫌悪すべき"}
+      ]
+    },
+    {
+      "number": "297-2",
+      "word": "abhorrence",
+      "pos": "名詞",
+      "meaning": "嫌悪、憎悪",
+      "nuance": "何かが絶対に許せないと感じるような強い拒絶感です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She has a profound abhorrence of cruelty.",
+              "ja": "彼女は残酷なことに対して深い嫌悪感を抱いている。",
+              "highlight": "abhorrence"
+            }
+          ]
+        }
+      ],
+      "etymology": "abhor の名詞形",
+      "synonyms": [
+        {"word": "loathing", "trans": "嫌悪"},
+        {"word": "revulsion", "trans": "強い嫌悪"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "297-3",
+      "word": "abhorrent",
+      "pos": "形容詞",
+      "meaning": "忌まわしい、嫌悪すべき",
+      "nuance": "受け入れがたく、道徳に反していると感じる様子を表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Racism is abhorrent to all civilized people.",
+              "ja": "人種差別は、すべての文明人にとって忌まわしいものである。",
+              "highlight": "abhorrent"
+            }
+          ]
+        }
+      ],
+      "etymology": "abhor + ent",
+      "synonyms": [
+        {"word": "repulsive", "trans": "不快な"},
+        {"word": "detestable", "trans": "憎むべき"}
+      ],
+      "antonyms": [
+        {"word": "attractive", "trans": "魅力的な"},
+        {"word": "appealing", "trans": "好ましい"}
+      ],
+      "related": []
+    },
+    {
+      "number": 298,
+      "word": "jealous",
+      "pos": "形容詞",
+      "meaning": "嫉妬深い、焼きもち焼きの、妬んで",
+      "nuance": "自分が持っている大切なものを失うことを恐れる、あるいは他人の成功を見て「自分だって」と憤る感情です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She was jealous of his success.",
+              "ja": "彼女は彼の成功を妬んでいた。",
+              "highlight": "jealous"
+            },
+            {
+              "en": "He gets jealous when his girlfriend talks to other men.",
+              "ja": "彼は彼女が他の男と話すと焼きもちを焼く。",
+              "highlight": "jealous"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 zelos（熱意、嫉妬）",
+      "synonyms": [
+        {"word": "envious", "trans": "うらやんで"},
+        {"word": "suspicious", "trans": "疑い深い"}
+      ],
+      "antonyms": [
+        {"word": "trusting", "trans": "信頼している"},
+        {"word": "generous", "trans": "寛大な"}
+      ],
+      "related": [
+        {"word": "jealousy", "trans": "名詞：嫉妬"}
+      ]
+    },
+    {
+      "number": "298-2",
+      "word": "jealousy",
+      "pos": "名詞",
+      "meaning": "嫉妬、焼きもち、羨望",
+      "nuance": "他人の幸運への不満や、独占欲からくる不安を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The murder was committed out of professional jealousy.",
+              "ja": "その殺人は仕事上の嫉妬から行われた。",
+              "highlight": "jealousy"
+            }
+          ]
+        }
+      ],
+      "etymology": "jealous の名詞形",
+      "synonyms": [
+        {"word": "envy", "trans": "羨望"},
+        {"word": "resentment", "trans": "憤慨"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 299,
+      "word": "envious",
+      "pos": "形容詞",
+      "meaning": "うらやましそうな、妬んでいる",
+      "nuance": "他人が持っているもの（才能や富など）を「いいなぁ、自分も欲しい」と思う気持ちです。jealousより「欲求」に焦点があります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She cast an envious look at her friend's new dress.",
+              "ja": "彼女は友人の新しいドレスをうらやましそうな目で見た。",
+              "highlight": "envious"
+            }
+          ]
+        }
+      ],
+      "etymology": "envy + ous",
+      "synonyms": [
+        {"word": "jealous", "trans": "嫉妬した"},
+        {"word": "covetous", "trans": "強欲な、切望する"}
+      ],
+      "antonyms": [
+        {"word": "contented", "trans": "満足した"}
+      ],
+      "related": [
+        {"word": "envy", "trans": "動詞/名詞：うらやむ、羨望"}
+      ]
+    },
+    {
+      "number": "299-2",
+      "word": "envy",
+      "pos": "名詞、動詞",
+      "meaning": "羨望、うらやむ、〜を妬ましく思う",
+      "nuance": "「羨望の的(the envy of ...)」というフレーズでもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Their wealth made them the envy of the neighborhood.",
+              "ja": "彼らの富は、近所の人たちから羨望の的となっていた。",
+              "highlight": "envy"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "I don't envy him his new job; it sounds very stressful.",
+              "ja": "彼の新しい仕事がうらやましいとは思わない。すごくストレスが多そうだ。",
+              "highlight": "envy"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 invidere（悪意を持って見る）",
+      "synonyms": [
+        {"word": "begrudge", "trans": "うらやむ"},
+        {"word": "covet", "trans": "切望する"}
+      ],
+      "antonyms": [
+        {"word": "satisfaction", "trans": "満足"}
+      ],
+      "related": []
+    },
+    {
+      "number": 300,
+      "word": "submit",
+      "pos": "動詞",
+      "meaning": "〜を提出する、服従する、屈する",
+      "nuance": "公式に書類を出すという意味と、権威や力に負けて従うという意味があります。",
+      "example_sections": [
+        {
+          "title": "例文（提出する）",
+          "examples": [
+            {
+              "en": "Please submit your application by Friday.",
+              "ja": "金曜日までに申請書を提出してください。",
+              "highlight": "submit"
+            }
+          ]
+        },
+        {
+          "title": "例文（服従する）",
+          "examples": [
+            {
+              "en": "They refused to submit to the enemy's demands.",
+              "ja": "彼らは敵の要求に屈することを拒んだ。",
+              "highlight": "submit"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sub（下に）+ mittere（送る）",
+      "synonyms": [
+        {"word": "hand in", "trans": "提出する"},
+        {"word": "surrender", "trans": "降伏する"},
+        {"word": "yield", "trans": "屈する"}
+      ],
+      "antonyms": [
+        {"word": "resist", "trans": "抵抗する"},
+        {"word": "withhold", "trans": "差し控える"}
+      ],
+      "related": [
+        {"word": "submission", "trans": "名詞：提出、服従"}
+      ]
+    },
+    {
+      "number": "300-2",
+      "word": "submission",
+      "pos": "名詞",
+      "meaning": "提出（物）、服従、謙虚",
+      "nuance": "提出されたレポートなどの「物」を指す場合と、屈服する「状態」を指す場合があります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The deadline for the submission of abstracts is May 1st.",
+              "ja": "要旨の提出期限は5月1日です。",
+              "highlight": "submission"
+            }
+          ]
+        }
+      ],
+      "etymology": "submit の名詞形",
+      "synonyms": [
+        {"word": "entry", "trans": "応募作"},
+        {"word": "compliance", "trans": "遵守、服従"}
+      ],
+      "antonyms": [
+        {"word": "defiance", "trans": "反抗"}
+      ],
+      "related": []
+    },
+    {
+      "number": 301,
+      "word": "subtract",
+      "pos": "動詞",
+      "meaning": "〜を引く、控除する",
+      "nuance": "数学の引き算や、合計から特定の部分を差し引くことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "If you subtract 5 from 10, you get 5.",
+              "ja": "10から5を引くと、5になる。",
+              "highlight": "subtract"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sub（下に）+ trahere（引く）",
+      "synonyms": [
+        {"word": "deduct", "trans": "差し引く"},
+        {"word": "take away", "trans": "取り除く"}
+      ],
+      "antonyms": [
+        {"word": "add", "trans": "足す"}
+      ],
+      "related": [
+        {"word": "subtraction", "trans": "名詞：引き算"}
+      ]
+    },
+    {
+      "number": "301-2",
+      "word": "subordinate",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "従属する、部下、〜を従属させる",
+      "nuance": "階級が下であること、あるいは主たるものに対して「おまけ」であることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "All other issues are subordinate to the safety of our passengers.",
+              "ja": "他のすべての問題は、乗客の安全に比べれば従属的なもの（二の次）だ。",
+              "highlight": "subordinate"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He treats his subordinates with respect.",
+              "ja": "彼は部下たちを尊敬を持って扱う。",
+              "highlight": "subordinates"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sub（下に）+ ordinare（順序付ける）",
+      "synonyms": [
+        {"word": "inferior", "trans": "劣った"},
+        {"word": "secondary", "trans": "二次的な"},
+        {"word": "junior", "trans": "年下の、下位の"}
+      ],
+      "antonyms": [
+        {"word": "superior", "trans": "上位の"},
+        {"word": "boss", "trans": "上司"},
+        {"word": "primary", "trans": "主要な"}
+      ],
+      "related": []
+    },
+    {
+      "number": "301-3",
+      "word": "subsidy",
+      "pos": "名詞",
+      "meaning": "補助金、助成金",
+      "nuance": "政府や団体が、産業や個人の活動を支援するために出すお金です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The government provided a subsidy for farmers.",
+              "ja": "政府は農家に補助金を提供した。",
+              "highlight": "subsidy"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sub（後ろに）+ sedere（座る）→ 後ろで控えている予備兵（支援）",
+      "synonyms": [
+        {"word": "grant", "trans": "助成金"},
+        {"word": "allowance", "trans": "手当"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "subsidize", "trans": "動詞：助成金を出す"}
+      ]
+    },
+    {
+      "number": 302,
+      "word": "clarify",
+      "pos": "動詞",
+      "meaning": "〜を明らかにする、明確にする",
+      "nuance": "混乱や不明点を取り除き、わかりやすく説明することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Could you please clarify your last statement?",
+              "ja": "先ほどの発言を明確にしていただけますか？",
+              "highlight": "clarify"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 clarus（明るい）+ -ify（〜化する）",
+      "synonyms": [
+        {"word": "explain", "trans": "説明する"},
+        {"word": "elucidate", "trans": "解明する"}
+      ],
+      "antonyms": [
+        {"word": "confuse", "trans": "混乱させる"},
+        {"word": "obscure", "trans": "曖昧にする"}
+      ],
+      "related": [
+        {"word": "clarification", "trans": "名詞：解明"}
+      ]
+    },
+    {
+      "number": "302-2",
+      "word": "intensify",
+      "pos": "動詞",
+      "meaning": "〜を強める、激しくなる",
+      "nuance": "強さ、程度、速さなどがさらに増大することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Fighting has intensified in the region.",
+              "ja": "その地域での戦闘が激化した。",
+              "highlight": "intensified"
+            }
+          ]
+        }
+      ],
+      "etymology": "intense + -ify",
+      "synonyms": [
+        {"word": "strengthen", "trans": "強くする"},
+        {"word": "escalate", "trans": "拡大する"}
+      ],
+      "antonyms": [
+        {"word": "weaken", "trans": "弱める"},
+        {"word": "lessen", "trans": "減らす"}
+      ],
+      "related": [
+        {"word": "intensity", "trans": "名詞：強烈さ"}
+      ]
+    },
+    {
+      "number": "302-3",
+      "word": "specify",
+      "pos": "動詞",
+      "meaning": "〜を明確に述べる、指定する、詳述する",
+      "nuance": "具体的に「これ」と指し示したり、詳細な条件を挙げたりすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please specify which color you want.",
+              "ja": "どの色が欲しいか指定してください。",
+              "highlight": "specify"
+            },
+            {
+              "en": "The contract specifies that the work must be finished by June.",
+              "ja": "契約書には、仕事は6月までに完了しなければならないと明記（指定）されている。",
+              "highlight": "specifies"
+            }
+          ]
+        }
+      ],
+      "etymology": "specific + -ify",
+      "synonyms": [
+        {"word": "detail", "trans": "詳述する"},
+        {"word": "stipulate", "trans": "規定する"}
+      ],
+      "antonyms": [
+        {"word": "generalize", "trans": "一般化する"}
+      ],
+      "related": [
+        {"word": "specific", "trans": "形容詞：具体的な"}
+      ]
+    },
+    {
+      "number": "302-4",
+      "word": "testify",
+      "pos": "動詞",
+      "meaning": "（法廷などで）証言する、証明する",
+      "nuance": "自分が知っている事実が真実であることを公式に述べることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He agreed to testify against his former boss.",
+              "ja": "彼はかつての上司に不利な証言をすることに同意した。",
+              "highlight": "testify"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 testis（証人）+ -ify",
+      "synonyms": [
+        {"word": "witness", "trans": "目撃する、証言する"},
+        {"word": "attest", "trans": "証明する"}
+      ],
+      "antonyms": [
+        {"word": "deny", "trans": "否定する"}
+      ],
+      "related": [
+        {"word": "testimony", "trans": "名詞：証言"}
+      ]
+    },
+    {
+      "number": "302-5",
+      "word": "unify",
+      "pos": "動詞",
+      "meaning": "〜を統合する、統一する",
+      "nuance": "バラバラだったものを一つにまとめることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The leader worked hard to unify the country.",
+              "ja": "その指導者は国の統一のために尽力した。",
+              "highlight": "unify"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 unus（一つ）+ -ify",
+      "synonyms": [
+        {"word": "unite", "trans": "合体させる"},
+        {"word": "integrate", "trans": "統合する"},
+        {"word": "combine", "trans": "結合する"}
+      ],
+      "antonyms": [
+        {"word": "divide", "trans": "分ける"},
+        {"word": "separate", "trans": "分離する"}
+      ],
+      "related": [
+        {"word": "union", "trans": "名詞：結合、連邦"}
+      ]
+    },
+    {
+      "number": "302-6",
+      "word": "verify",
+      "pos": "動詞",
+      "meaning": "（正しいことを）確かめる、検証する、立証する",
+      "nuance": "証拠や調査によって、ある情報が「真実であること」を確認することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please verify your email address to complete the registration.",
+              "ja": "登録を完了するために、メールアドレスを認証（確認）してください。",
+              "highlight": "verify"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 verus（真実の）+ -ify",
+      "synonyms": [
+        {"word": "confirm", "trans": "確認する"},
+        {"word": "check", "trans": "チェックする"},
+        {"word": "substantiate", "trans": "実証する"}
+      ],
+      "antonyms": [
+        {"word": "disprove", "trans": "反証する"},
+        {"word": "falsify", "trans": "偽造する"}
+      ],
+      "related": [
+        {"word": "verification", "trans": "名詞：確認、認証"}
+      ]
+    },
+    {
+      "number": "302-7",
+      "word": "exemplify",
+      "pos": "動詞",
+      "meaning": "〜を例証する、〜の典型である",
+      "nuance": "具体的な例を挙げて説明したり、ある性質を完璧に体現していることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "This building exemplifies the architectural style of the period.",
+              "ja": "この建物はその時代の建築様式を典型的に表している（例証している）。",
+              "highlight": "exemplifies"
+            }
+          ]
+        }
+      ],
+      "etymology": "example + -ify",
+      "synonyms": [
+        {"word": "illustrate", "trans": "説明する、例示する"},
+        {"word": "embody", "trans": "具現化する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "example", "trans": "名詞：例"}
+      ]
+    },
+    {
+      "number": "302-8",
+      "word": "amplify",
+      "pos": "動詞",
+      "meaning": "〜を増幅させる、詳しく述べる",
+      "nuance": "音量を上げたり、情報を付け加えて内容を豊かにすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The speaker used a microphone to amplify his voice.",
+              "ja": "話し手は声を増幅させるためにマイクを使った。",
+              "highlight": "amplify"
+            },
+            {
+              "en": "Could you amplify on your proposal?",
+              "ja": "あなたの提案について詳しく説明していただけますか？",
+              "highlight": "amplify"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 amplus（広い、大きい）+ -ify",
+      "synonyms": [
+        {"word": "expand", "trans": "拡大する"},
+        {"word": "magnify", "trans": "拡大する"},
+        {"word": "elaborate", "trans": "詳しく述べる"}
+      ],
+      "antonyms": [
+        {"word": "reduce", "trans": "減らす"},
+        {"word": "summarize", "trans": "要約する"}
+      ],
+      "related": [
+        {"word": "amplifier", "trans": "名詞：アンプ"}
+      ]
     }
   ]
 }
