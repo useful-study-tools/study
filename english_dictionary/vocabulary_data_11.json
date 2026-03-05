@@ -1,0 +1,685 @@
+{
+  "words": [
+    {
+      "number": 272,
+      "word": "dehydrate",
+      "pos": "動詞",
+      "meaning": "〜を脱水させる、〜を乾燥させる、脱水症状になる",
+      "nuance": "体内の水分が失われることや、食品から水分を抜くことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Running a marathon in this heat will dehydrate you quickly.",
+              "ja": "この暑さの中でマラソンをすると、すぐに脱水状態になるだろう。",
+              "highlight": "dehydrate"
+            },
+            {
+              "en": "The campers used a machine to dehydrate meat for the journey.",
+              "ja": "キャンパーたちは旅のために肉を乾燥させる（干し肉にする）機械を使った。",
+              "highlight": "dehydrate"
+            }
+          ]
+        }
+      ],
+      "etymology": "de（取り除く）+ Greek 'hydor'（水）",
+      "synonyms": [
+        {"word": "dry out", "trans": "乾燥させる"},
+        {"word": "desiccate", "trans": "乾かす"}
+      ],
+      "antonyms": [
+        {"word": "hydrate", "trans": "水分を補給する"}
+      ],
+      "related": [
+        {"word": "dehydration", "trans": "名詞：脱水症状"}
+      ]
+    },
+    {
+      "number": "272-2",
+      "word": "hydrate",
+      "pos": "動詞、名詞",
+      "meaning": "〜に水を与える、水分を補給する、水和物",
+      "nuance": "特に運動中などに意識的に水分を摂る際によく使われる表現です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It is important to hydrate yourself before and after exercise.",
+              "ja": "運動の前後で水分を補給することが重要だ。",
+              "highlight": "hydrate"
+            }
+          ]
+        }
+      ],
+      "etymology": "Greek 'hydor'（水）",
+      "synonyms": [
+        {"word": "moisten", "trans": "湿らせる"},
+        {"word": "water", "trans": "水をやる"}
+      ],
+      "antonyms": [
+        {"word": "dehydrate", "trans": "脱水させる"}
+      ],
+      "related": [
+        {"word": "hydration", "trans": "名詞：水分補給"}
+      ]
+    },
+    {
+      "number": 273,
+      "word": "moist",
+      "pos": "形容詞",
+      "meaning": "湿り気のある、しっとりした",
+      "nuance": "不快な湿り気ではなく、ケーキがしっとりしている、あるいは肌が潤っているといったポジティブな文脈でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The cake was delicious and moist.",
+              "ja": "そのケーキは美味しくてしっとりしていた。",
+              "highlight": "moist"
+            },
+            {
+              "en": "Keep the soil moist but not soaking wet.",
+              "ja": "土は湿った状態を保ち、びしょ濡れにはしないでください。",
+              "highlight": "moist"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 moiste（湿った）",
+      "synonyms": [
+        {"word": "damp", "trans": "湿っぽい"},
+        {"word": "humid", "trans": "湿気の多い"},
+        {"word": "succulent", "trans": "多汁の"}
+      ],
+      "antonyms": [
+        {"word": "dry", "trans": "乾いた"},
+        {"word": "arid", "trans": "不毛の、乾燥した"}
+      ],
+      "related": [
+        {"word": "moisture", "trans": "名詞：水分、湿気"}
+      ]
+    },
+    {
+      "number": "273-2",
+      "word": "moisture",
+      "pos": "名詞",
+      "meaning": "水分、湿気、潤い",
+      "nuance": "空気中や物体に含まれる少量の水分を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "This cream helps your skin retain moisture.",
+              "ja": "このクリームは肌の水分（潤い）を保つのを助けます。",
+              "highlight": "moisture"
+            }
+          ]
+        }
+      ],
+      "etymology": "moist + ure（名詞化）",
+      "synonyms": [
+        {"word": "humidity", "trans": "湿度"},
+        {"word": "wetness", "trans": "湿り"}
+      ],
+      "antonyms": [
+        {"word": "dryness", "trans": "乾燥"}
+      ],
+      "related": [
+        {"word": "moisturizer", "trans": "名詞：保湿剤"}
+      ]
+    },
+    {
+      "number": 274,
+      "word": "humid",
+      "pos": "形容詞",
+      "meaning": "（気候が）湿気の多い、むしむしする",
+      "nuance": "空気中に大量の水蒸気が含まれている状態で、特に日本の夏のような「蒸し暑い」不快感を伴うことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Tokyo is very hot and humid in August.",
+              "ja": "東京の8月はとても暑くて湿気が多い（蒸し暑い）。",
+              "highlight": "humid"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 humidus（湿った）",
+      "synonyms": [
+        {"word": "muggy", "trans": "蒸し暑い"},
+        {"word": "sticky", "trans": "ベタベタする、蒸し暑い"},
+        {"word": "sultry", "trans": "蒸し暑い"}
+      ],
+      "antonyms": [
+        {"word": "dry", "trans": "乾燥した"},
+        {"word": "arid", "trans": "極めて乾燥した"}
+      ],
+      "related": [
+        {"word": "humidity", "trans": "名詞：湿度"}
+      ]
+    },
+    {
+      "number": "274-2",
+      "word": "humidity",
+      "pos": "名詞",
+      "meaning": "湿度、湿気",
+      "nuance": "空気中の水分の割合を数値的、あるいは概念的に指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The humidity today is over 80%.",
+              "ja": "今日の湿度は80%を超えている。",
+              "highlight": "humidity"
+            }
+          ]
+        }
+      ],
+      "etymology": "humid + ity",
+      "synonyms": [
+        {"word": "moistness", "trans": "湿っぽさ"},
+        {"word": "dampness", "trans": "湿り気"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "274-3",
+      "word": "damp",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "湿っぽい、じめじめした、湿気、〜を湿らせる、〜（熱意など）を削ぐ",
+      "nuance": "やや不快な、冷たくて湿っている状態を指すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The clothes are still a bit damp.",
+              "ja": "服がまだ少し湿っている。",
+              "highlight": "damp"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The bad news damped our spirits.",
+              "ja": "悪い知らせが私たちの気分を沈ませた（削いだ）。",
+              "highlight": "damped"
+            }
+          ]
+        }
+      ],
+      "etymology": "ゲルマン語源（蒸気、煙）",
+      "synonyms": [
+        {"word": "clammy", "trans": "冷たくてベタつく"},
+        {"word": "soggy", "trans": "水浸しの"},
+        {"word": "discourage", "trans": "落胆させる"}
+      ],
+      "antonyms": [
+        {"word": "dry", "trans": "乾いた"}
+      ],
+      "related": [
+        {"word": "damper", "trans": "名詞：勢いを削ぐもの"}
+      ]
+    },
+    {
+      "number": 275,
+      "word": "drought",
+      "pos": "名詞",
+      "meaning": "干ばつ、日照り、（長期の）不足",
+      "nuance": "雨が降らずに水不足に陥る自然災害を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The crops failed because of the severe drought.",
+              "ja": "深刻な干ばつのために作物がダメになった。",
+              "highlight": "drought"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 drugath（乾燥）",
+      "synonyms": [
+        {"word": "dry spell", "trans": "乾燥期間"},
+        {"word": "shortage", "trans": "不足"}
+      ],
+      "antonyms": [
+        {"word": "flood", "trans": "洪水"}
+      ],
+      "related": []
+    },
+    {
+      "number": 276,
+      "word": "noxious",
+      "pos": "形容詞",
+      "meaning": "有害な、有毒な、不快な",
+      "nuance": "物理的に毒性がある（煙やガスなど）だけでなく、精神的に有害な影響を与えるものにも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Noxious fumes were escaping from the factory.",
+              "ja": "工場から有毒な煙が漏れていた。",
+              "highlight": "Noxious"
+            },
+            {
+              "en": "They were trying to get rid of the noxious influence of the cult.",
+              "ja": "彼らはそのカルト教団の有害な影響を排除しようとしていた。",
+              "highlight": "noxious"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 noxa（害）",
+      "synonyms": [
+        {"word": "toxic", "trans": "有毒な"},
+        {"word": "harmful", "trans": "有害な"},
+        {"word": "poisonous", "trans": "毒のある"}
+      ],
+      "antonyms": [
+        {"word": "harmless", "trans": "無害な"},
+        {"word": "beneficial", "trans": "有益な"},
+        {"word": "innocuous", "trans": "無害な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 277,
+      "word": "hazardous",
+      "pos": "形容詞",
+      "meaning": "危険な、冒険的な",
+      "nuance": "特に健康や安全に対する「リスク」がある状況を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Disposing of hazardous waste requires special care.",
+              "ja": "有害廃棄物の処理には特別な注意が必要だ。",
+              "highlight": "hazardous"
+            }
+          ]
+        }
+      ],
+      "etymology": "hazard（サイコロ遊び、危険）+ ous",
+      "synonyms": [
+        {"word": "dangerous", "trans": "危険な"},
+        {"word": "perilous", "trans": "極めて危険な"},
+        {"word": "risky", "trans": "際どい"}
+      ],
+      "antonyms": [
+        {"word": "safe", "trans": "安全な"},
+        {"word": "secure", "trans": "確かな"}
+      ],
+      "related": [
+        {"word": "hazard", "trans": "名詞：危険（源）"}
+      ]
+    },
+    {
+      "number": "277-2",
+      "word": "hazard",
+      "pos": "名詞、動詞",
+      "meaning": "危険、障害物、〜を危険にさらす、思い切って〜する",
+      "nuance": "危険そのもの、または危険を引き起こす原因を指します。ゴルフのバンカーなどもハザードと呼びます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Ice on the road is a serious hazard to drivers.",
+              "ja": "道路上の氷は、運転手にとって深刻な危険だ。",
+              "highlight": "hazard"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "I would hazard a guess that he's about 40.",
+              "ja": "あえて推測するなら、彼は40歳くらいだろう。",
+              "highlight": "hazard"
+            }
+          ]
+        }
+      ],
+      "etymology": "アラビア語 az-zahr（サイコロ）",
+      "synonyms": [
+        {"word": "danger", "trans": "危険"},
+        {"word": "risk", "trans": "リスク"},
+        {"word": "venture", "trans": "思い切ってやる"}
+      ],
+      "antonyms": [
+        {"word": "safety", "trans": "安全"}
+      ],
+      "related": []
+    },
+    {
+      "number": 278,
+      "word": "unpleasant",
+      "pos": "形容詞",
+      "meaning": "不快な、嫌な、愛想の悪い",
+      "nuance": "感覚的に嫌だと感じるものや、人の態度が悪いことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The medicine had an unpleasant taste.",
+              "ja": "その薬は嫌な味がした。",
+              "highlight": "unpleasant"
+            },
+            {
+              "en": "He was quite unpleasant to the waiter.",
+              "ja": "彼はウェイターに対してかなり愛想が悪かった。",
+              "highlight": "unpleasant"
+            }
+          ]
+        }
+      ],
+      "etymology": "un（否定）+ pleasant",
+      "synonyms": [
+        {"word": "disagreeable", "trans": "不愉快な"},
+        {"word": "offensive", "trans": "不快な、攻撃的な"},
+        {"word": "nasty", "trans": "ひどい"}
+      ],
+      "antonyms": [
+        {"word": "pleasant", "trans": "心地よい"},
+        {"word": "agreeable", "trans": "感じの良い"}
+      ],
+      "related": []
+    },
+    {
+      "number": "278-2",
+      "word": "pleasant",
+      "pos": "形容詞",
+      "meaning": "心地よい、楽しい、感じの良い",
+      "nuance": "人や物事が好ましく、満足感を与える様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We had a pleasant evening together.",
+              "ja": "私たちは一緒に楽しい晩を過ごした。",
+              "highlight": "pleasant"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 plaisir（喜ばせる）",
+      "synonyms": [
+        {"word": "enjoyable", "trans": "楽しい"},
+        {"word": "delightful", "trans": "とても素晴らしい"},
+        {"word": "amiable", "trans": "愛想の良い"}
+      ],
+      "antonyms": [
+        {"word": "unpleasant", "trans": "不快な"}
+      ],
+      "related": [
+        {"word": "please", "trans": "動詞：喜ばせる"}
+      ]
+    },
+    {
+      "number": 279,
+      "word": "cozy",
+      "pos": "形容詞",
+      "meaning": "（暖かくて）心地よい、こぢんまりして落ち着く",
+      "nuance": "単に広いのではなく、適度な狭さと暖かさがあり、リラックスできる空間を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "This is a cozy little room.",
+              "ja": "ここはこぢんまりとして落ち着く部屋だ。",
+              "highlight": "cozy"
+            }
+          ]
+        }
+      ],
+      "etymology": "スコットランド語（不明確だが、'comfortable'に近い）",
+      "synonyms": [
+        {"word": "comfortable", "trans": "快適な"},
+        {"word": "snug", "trans": "ぬくぬくした"},
+        {"word": "homely", "trans": "家庭的な"}
+      ],
+      "antonyms": [
+        {"word": "uncomfortable", "trans": "不快な"},
+        {"word": "cold", "trans": "冷え冷えとした"}
+      ],
+      "related": []
+    },
+    {
+      "number": 280,
+      "word": "subjective",
+      "pos": "形容詞",
+      "meaning": "主観的な、個人的な",
+      "nuance": "客観的な事実に基づかず、個人の感情や意見に左右される判断を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Beauty is subjective.",
+              "ja": "美しさは主観的なものだ（人それぞれだ）。",
+              "highlight": "subjective"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 subjectivus（下に投げられた→支配下にある）",
+      "synonyms": [
+        {"word": "personal", "trans": "個人の"},
+        {"word": "biased", "trans": "偏った"}
+      ],
+      "antonyms": [
+        {"word": "objective", "trans": "客観的な"}
+      ],
+      "related": [
+        {"word": "subject", "trans": "名詞：主語、主題、国民"}
+      ]
+    },
+    {
+      "number": "280-2",
+      "word": "objective",
+      "pos": "形容詞、名詞",
+      "meaning": "客観的な、公平な、目的、目標",
+      "nuance": "感情を入れず事実に基づいていること、または達成すべき「的（まと）」を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "A judge must remain objective at all times.",
+              "ja": "裁判官は常に客観的（公平）でなければならない。",
+              "highlight": "objective"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Our main objective is to reduce costs.",
+              "ja": "私たちの主な目標はコストを削減することだ。",
+              "highlight": "objective"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 objectum（前に置かれたもの）",
+      "synonyms": [
+        {"word": "impartial", "trans": "公平な"},
+        {"word": "goal", "trans": "目標"},
+        {"word": "target", "trans": "標的"}
+      ],
+      "antonyms": [
+        {"word": "subjective", "trans": "主観的な"}
+      ],
+      "related": [
+        {"word": "object", "trans": "名詞：物体、対象"}
+      ]
+    },
+    {
+      "number": 281,
+      "word": "thirst",
+      "pos": "名詞、動詞",
+      "meaning": "喉の渇き、渇望、渇望する",
+      "nuance": "飲み物が欲しいという生理的欲求だけでなく、知識や成功を強く求める心にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She has an insatiable thirst for knowledge.",
+              "ja": "彼女は飽くなき知識への渇望を持っている。",
+              "highlight": "thirst"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 thursh（乾燥）",
+      "synonyms": [
+        {"word": "craving", "trans": "切望"},
+        {"word": "desire", "trans": "欲求"},
+        {"word": "hunger", "trans": "飢え、切望"}
+      ],
+      "antonyms": [
+        {"word": "satisfaction", "trans": "満足"}
+      ],
+      "related": [
+        {"word": "thirsty", "trans": "形容詞：喉が渇いた"}
+      ]
+    },
+    {
+      "number": "281-2",
+      "word": "thirsty",
+      "pos": "形容詞",
+      "meaning": "喉が渇いた、切望して",
+      "nuance": "水分を必要としている状態です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I'm so thirsty; can I have some water?",
+              "ja": "とても喉が渇きました。お水をいただけますか？",
+              "highlight": "thirsty"
+            }
+          ]
+        }
+      ],
+      "etymology": "thirst + y",
+      "synonyms": [
+        {"word": "parched", "trans": "からからに乾いた"},
+        {"word": "eager", "trans": "熱心な"}
+      ],
+      "antonyms": [
+        {"word": "quenched", "trans": "（渇きが）癒された"}
+      ],
+      "related": []
+    },
+    {
+      "number": "281-3",
+      "word": "aspire",
+      "pos": "動詞",
+      "meaning": "〜を熱望する、〜を目指す",
+      "nuance": "高い目標や地位などを手に入れようと、野心を持って努力することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He aspires to become a world-class chef.",
+              "ja": "彼は世界的なシェフになることを熱望している。",
+              "highlight": "aspires"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad（〜へ）+ spirare（呼吸する）→ 〜に向かって息をつく",
+      "synonyms": [
+        {"word": "aim", "trans": "狙う"},
+        {"word": "strive", "trans": "努力する"},
+        {"word": "desire", "trans": "望む"}
+      ],
+      "antonyms": [
+        {"word": "despair", "trans": "絶望する"},
+        {"word": "give up", "trans": "諦める"}
+      ],
+      "related": [
+        {"word": "aspiration", "trans": "名詞：熱望、志"}
+      ]
+    },
+    {
+      "number": "281-4",
+      "word": "aspiration",
+      "pos": "名詞",
+      "meaning": "熱望、向上心、大きな目標",
+      "nuance": "将来の夢や高い志を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She has high aspirations for her career.",
+              "ja": "彼女は自身のキャリアに対して高い志を持っている。",
+              "highlight": "aspirations"
+            }
+          ]
+        }
+      ],
+      "etymology": "aspire + ation",
+      "synonyms": [
+        {"word": "ambition", "trans": "野心"},
+        {"word": "dream", "trans": "夢"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 282,
+      "word": "pant",
+      "pos": "動詞、名詞",
+      "meaning": "あえぐ、息を切らす、渇望する、あえぎ",
+      "nuance": "運動後や暑さで「ハァハァ」と短く激しい息をすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The dog was panting in the hot sun.",
+              "ja": "その犬は暑い日差しの中でハァハァと息を切らしていた。",
+              "highlight": "panting"
+            },
+            {
+              "en": "He was panting for breath after the sprint.",
+              "ja": "彼は全速力で走った後、息を切らしていた（あえいでいた）。",
+              "highlight": "panting"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 pantois（息が切れた）",
+      "synonyms": [
+        {"word": "gasp", "trans": "ハッとする、あえぐ"},
+        {"word": "puff", "trans": "ぷっと吹く、息を切らす"}
+      ],
+      "antonyms": [],
+      "related": []
+    }
+  ]
+}
