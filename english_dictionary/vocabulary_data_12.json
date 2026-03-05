@@ -1767,6 +1767,855 @@
         {"word": "fragment", "trans": "名詞：破片"},
         {"word": "fragility", "trans": "名詞：もろさ"}
       ]
+    },
+    {
+      "number": 327,
+      "word": "naive",
+      "pos": "形容詞",
+      "meaning": "世間知らずな、うぶな、単純な",
+      "nuance": "経験不足からくる「純真さ」や、物事を簡単に信じてしまう「甘さ」を指します。日本語の「ナイーブ（繊細な）」とは異なり、批判的に使われることが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It was naive of him to believe that they would keep their promise.",
+              "ja": "彼らが約束を守ると信じるなんて、彼は世間知らずだった。",
+              "highlight": "naive"
+            },
+            {
+              "en": "She has a naive view of world politics.",
+              "ja": "彼女は国際政治に対して単純な見方をしている。",
+              "highlight": "naive"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 naif（生まれたままの、自然な）",
+      "synonyms": [
+        {"word": "innocent", "trans": "無邪気な"},
+        {"word": "gullible", "trans": "騙されやすい"},
+        {"word": "inexperienced", "trans": "経験不足な"}
+      ],
+      "antonyms": [
+        {"word": "sophisticated", "trans": "洗練された、世慣れた"},
+        {"word": "shrewd", "trans": "抜け目のない"},
+        {"word": "experienced", "trans": "経験豊富な"}
+      ],
+      "related": [
+        {"word": "naivety", "trans": "名詞：うぶなこと、単純さ"}
+      ]
+    },
+    {
+      "number": 328,
+      "word": "vulnerable",
+      "pos": "形容詞",
+      "meaning": "（攻撃や批判に）弱い、脆弱な、傷つきやすい",
+      "nuance": "物理的、精神的、あるいは社会的に守りが弱く、ダメージを受けやすい状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Small children are particularly vulnerable to the effects of air pollution.",
+              "ja": "小さな子供は、大気汚染の影響を特に受けやすい（脆弱だ）。",
+              "highlight": "vulnerable"
+            },
+            {
+              "en": "The army was in a vulnerable position after the defeat.",
+              "ja": "敗北後、軍は脆弱な立場に置かれていた。",
+              "highlight": "vulnerable"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vulnus（傷）+ able（できる）",
+      "synonyms": [
+        {"word": "susceptible", "trans": "影響を受けやすい"},
+        {"word": "defenseless", "trans": "無防備な"},
+        {"word": "weak", "trans": "弱い"}
+      ],
+      "antonyms": [
+        {"word": "invulnerable", "trans": "不死身の、攻撃できない"},
+        {"word": "resilient", "trans": "回復力のある"},
+        {"word": "robust", "trans": "強靭な"}
+      ],
+      "related": [
+        {"word": "vulnerability", "trans": "名詞：脆弱性"}
+      ]
+    },
+    {
+      "number": "328-2",
+      "word": "vulnerability",
+      "pos": "名詞",
+      "meaning": "脆弱性、弱さ、弱点",
+      "nuance": "守られていない性質や、攻撃の隙となる部分を指します。IT用語の「セキュリティホール」の意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The hacker exploited a vulnerability in the software.",
+              "ja": "ハッカーはソフトウェアの脆弱性を突いた。",
+              "highlight": "vulnerability"
+            }
+          ]
+        }
+      ],
+      "etymology": "vulnerable の名詞形",
+      "synonyms": [
+        {"word": "weakness", "trans": "弱点"},
+        {"word": "susceptibility", "trans": "感受性、影響を受けやすいこと"}
+      ],
+      "antonyms": [
+        {"word": "security", "trans": "安全性"},
+        {"word": "resistance", "trans": "耐性"}
+      ],
+      "related": []
+    },
+    {
+      "number": 329,
+      "word": "liable",
+      "pos": "形容詞",
+      "meaning": "〜しがちな、責めを負うべき、法的な責任がある",
+      "nuance": "好ましくないことが起こる可能性が高い状態、あるいは損害賠償などの義務を負う状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文（〜しがちな）",
+          "examples": [
+            {
+              "en": "This glass is liable to break if you drop it.",
+              "ja": "このガラスは落とすと割れやすい（割れがちだ）。",
+              "highlight": "liable"
+            }
+          ]
+        },
+        {
+          "title": "例文（責任がある）",
+          "examples": [
+            {
+              "en": "The company is liable for any damage caused by its products.",
+              "ja": "その企業は、自社製品によって引き起こされたいかなる損害に対しても責任を負う。",
+              "highlight": "liable"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ligare（縛る）",
+      "synonyms": [
+        {"word": "prone", "trans": "〜しがちな"},
+        {"word": "responsible", "trans": "責任がある"},
+        {"word": "accountable", "trans": "説明責任がある"}
+      ],
+      "antonyms": [
+        {"word": "unlikely", "trans": "そうしそうにない"},
+        {"word": "immune", "trans": "免除された"}
+      ],
+      "related": [
+        {"word": "liability", "trans": "名詞：法的責任、負債"}
+      ]
+    },
+    {
+      "number": "329-2",
+      "word": "liability",
+      "pos": "名詞",
+      "meaning": "法的責任、負債、お荷物（厄介者）",
+      "nuance": "法律上の義務や借金だけでなく、「足手まといになるもの・人」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The startup's liabilities far exceed its assets.",
+              "ja": "そのスタートアップの負債は資産をはるかに上回っている。",
+              "highlight": "liabilities"
+            },
+            {
+              "en": "The scandal made the politician a liability to his party.",
+              "ja": "スキャンダルにより、その政治家は党にとってのお荷物となった。",
+              "highlight": "liability"
+            }
+          ]
+        }
+      ],
+      "etymology": "liable の名詞形",
+      "synonyms": [
+        {"word": "debt", "trans": "借金"},
+        {"word": "burden", "trans": "重荷"},
+        {"word": "obligation", "trans": "義務"}
+      ],
+      "antonyms": [
+        {"word": "asset", "trans": "資産、利点"}
+      ],
+      "related": []
+    },
+    {
+      "number": 330,
+      "word": "prone",
+      "pos": "形容詞",
+      "meaning": "（好ましくない傾向に）〜しがちな、うつ伏せの",
+      "nuance": "病気、事故、間違いなど、マイナスの状況に陥りやすい傾向を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is prone to headaches when he is stressed.",
+              "ja": "彼はストレスを感じると頭痛になりやすい。",
+              "highlight": "prone"
+            },
+            {
+              "en": "The area is prone to flooding during the rainy season.",
+              "ja": "その地域は雨季に洪水が起きやすい。",
+              "highlight": "prone"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 pronus（前に傾いた）",
+      "synonyms": [
+        {"word": "susceptible", "trans": "影響を受けやすい"},
+        {"word": "inclined", "trans": "〜したいと思う、しがちな"},
+        {"word": "disposed", "trans": "〜する傾向がある"}
+      ],
+      "antonyms": [
+        {"word": "immune", "trans": "免疫がある"},
+        {"word": "resistant", "trans": "耐性がある"},
+        {"word": "supine", "trans": "仰向けの"}
+      ],
+      "related": []
+    },
+    {
+      "number": 331,
+      "word": "apt",
+      "pos": "形容詞",
+      "meaning": "〜しがちな、適切な、利発な",
+      "nuance": "「〜しがち(be apt to do)」という一般的な傾向や、表現などが場に「ふさわしい」ことを指します。",
+      "example_sections": [
+        {
+          "title": "例文（〜しがちな）",
+          "examples": [
+            {
+              "en": "Small kids are apt to forget their umbrellas.",
+              "ja": "小さな子供は傘を忘れがちだ。",
+              "highlight": "apt"
+            }
+          ]
+        },
+        {
+          "title": "例文（適切な）",
+          "examples": [
+            {
+              "en": "That was an apt description of the situation.",
+              "ja": "それは状況を適切に表した描写だった。",
+              "highlight": "apt"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 aptus（結びついた、適した）",
+      "synonyms": [
+        {"word": "likely", "trans": "〜しそうな"},
+        {"word": "appropriate", "trans": "適切な"},
+        {"word": "suitable", "trans": "ふさわしい"}
+      ],
+      "antonyms": [
+        {"word": "inappropriate", "trans": "不適切な"},
+        {"word": "unlikely", "trans": "ありそうにない"}
+      ],
+      "related": [
+        {"word": "aptitude", "trans": "名詞：適性、才能"}
+      ]
+    },
+    {
+      "number": 332,
+      "word": "inclined",
+      "pos": "形容詞",
+      "meaning": "〜したいと思う、〜する傾向がある、傾斜した",
+      "nuance": "「be inclined to do」で、心がある方向に傾いている（〜したい気がする）状態を表します。proneよりは個人の意思が関わることが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I'm inclined to believe his story.",
+              "ja": "私は彼の話を信じたい気がしている。",
+              "highlight": "inclined"
+            },
+            {
+              "en": "He is artistically inclined.",
+              "ja": "彼は芸術的な傾向（才能）がある。",
+              "highlight": "inclined"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（中に）+ clinare（曲げる、傾ける）",
+      "synonyms": [
+        {"word": "disposed", "trans": "〜する気がある"},
+        {"word": "tending", "trans": "〜する傾向がある"}
+      ],
+      "antonyms": [
+        {"word": "disinclined", "trans": "〜する気がしない"},
+        {"word": "unwilling", "trans": "気が進まない"}
+      ],
+      "related": [
+        {"word": "incline", "trans": "動詞：傾ける"},
+        {"word": "inclination", "trans": "名詞：傾向、好み"}
+      ]
+    },
+    {
+      "number": "332-2",
+      "word": "incline",
+      "pos": "動詞、名詞",
+      "meaning": "〜を傾ける、〜したいと思わせる、傾斜、坂",
+      "nuance": "物理的に傾くことと、心が特定の方向に動くことの両方を表します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "I incline toward the view that we should wait.",
+              "ja": "私は待つべきだという意見に傾いている。",
+              "highlight": "incline"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The car struggled to go up the steep incline.",
+              "ja": "車はその急な坂を登るのに苦労した。",
+              "highlight": "incline"
+            }
+          ]
+        }
+      ],
+      "etymology": "inclined と同語源",
+      "synonyms": [
+        {"word": "slope", "trans": "坂、傾斜"},
+        {"word": "lean", "trans": "傾く"},
+        {"word": "tilt", "trans": "傾ける"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "332-3",
+      "word": "inclination",
+      "pos": "名詞",
+      "meaning": "傾向、好み、意向、傾斜",
+      "nuance": "何かに引き寄せられる心の動きや、特定の性質を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He has a natural inclination toward music.",
+              "ja": "彼には音楽に対する天性の好み（素質）がある。",
+              "highlight": "inclination"
+            }
+          ]
+        }
+      ],
+      "etymology": "inclined の名詞形",
+      "synonyms": [
+        {"word": "tendency", "trans": "傾向"},
+        {"word": "preference", "trans": "好み"},
+        {"word": "leaning", "trans": "偏愛、傾向"}
+      ],
+      "antonyms": [
+        {"word": "aversion", "trans": "嫌悪"},
+        {"word": "dislike", "trans": "嫌い"}
+      ],
+      "related": []
+    },
+    {
+      "number": 333,
+      "word": "cough",
+      "pos": "名詞、動詞",
+      "meaning": "咳、咳をする",
+      "nuance": "風邪やアレルギーなどで肺から空気を激しく出す動作です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He has a dry cough that won't go away.",
+              "ja": "彼はなかなか治らない乾いた咳をしている。",
+              "highlight": "cough"
+            }
+          ]
+        }
+      ],
+      "etymology": "擬音語的な起源",
+      "synonyms": [],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "333-2",
+      "word": "influenza",
+      "pos": "名詞",
+      "meaning": "インフルエンザ、流感",
+      "nuance": "ウイルスによる急性の呼吸器感染症。日常会話では通常「flu」と略されます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The influenza outbreak closed several schools.",
+              "ja": "インフルエンザの流行により、いくつかの学校が休校になった。",
+              "highlight": "influenza"
+            }
+          ]
+        }
+      ],
+      "etymology": "イタリア語 influenza（影響）※星の影響で病気になると信じられていたため",
+      "synonyms": [
+        {"word": "flu", "trans": "インフルエンザ（略称）"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "333-3",
+      "word": "diarrhea",
+      "pos": "名詞",
+      "meaning": "下痢",
+      "nuance": "消化不良や感染症などにより便が液体状になる症状です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Travelers often suffer from diarrhea due to contaminated water.",
+              "ja": "旅行者は汚染された水のせいで下痢に悩まされることが多い。",
+              "highlight": "diarrhea"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 dia（突き抜けて）+ rheein（流れる）",
+      "synonyms": [],
+      "antonyms": [
+        {"word": "constipation", "trans": "便秘"}
+      ],
+      "related": []
+    },
+    {
+      "number": "333-4",
+      "word": "diabetes",
+      "pos": "名詞",
+      "meaning": "糖尿病",
+      "nuance": "血液中の糖分（血糖値）が高くなる慢性疾患です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He manages his diabetes with insulin injections.",
+              "ja": "彼はインスリン注射で糖尿病をコントロールしている。",
+              "highlight": "diabetes"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 diabetes（サイフォン）※尿がどんどん出る様子から",
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        {"word": "diabetic", "trans": "名詞/形容詞：糖尿病患者/糖尿病の"}
+      ]
+    },
+    {
+      "number": 334,
+      "word": "tumor",
+      "pos": "名詞",
+      "meaning": "腫瘍",
+      "nuance": "体内の細胞が異常に増殖した「かたまり」です。良性(benign)と悪性(malignant)があります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The doctors found a small tumor in her brain.",
+              "ja": "医師たちは彼女の脳に小さな腫瘍を見つけた。",
+              "highlight": "tumor"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tumere（腫れる）",
+      "synonyms": [
+        {"word": "growth", "trans": "増殖物、腫瘍"},
+        {"word": "lump", "trans": "しこり"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "334-2",
+      "word": "bruise",
+      "pos": "名詞、動詞",
+      "meaning": "打ち身、あざ、〜にあざを作る、〜（自尊心など）を傷つける",
+      "nuance": "ぶつけて皮膚の下で内出血した状態です。精神的なダメージにも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I have a big bruise on my leg from the fall.",
+              "ja": "転んだせいで足に大きなあざがある。",
+              "highlight": "bruise"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 brysan（砕く）",
+      "synonyms": [
+        {"word": "contusion", "trans": "打撲（医学用語）"},
+        {"word": "injury", "trans": "怪我"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "334-3",
+      "word": "sprain",
+      "pos": "動詞、名詞",
+      "meaning": "〜を捻挫する、捻挫",
+      "nuance": "関節をひねって靭帯を傷めることです。特に足首(ankle)によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She sprained her ankle while running.",
+              "ja": "彼女は走っている時に足首を捻挫した。",
+              "highlight": "sprained"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 espraindre（絞る、押し出す）",
+      "synonyms": [
+        {"word": "twist", "trans": "ひねる"},
+        {"word": "wrench", "trans": "ねじる"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "334-4",
+      "word": "dementia",
+      "pos": "名詞",
+      "meaning": "認知症",
+      "nuance": "記憶、思考、行動などに支障をきたす脳の病気の総称です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Caring for a relative with dementia can be very challenging.",
+              "ja": "認知症の親族を介護することは非常に大変な場合がある。",
+              "highlight": "dementia"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（離れて）+ mens（心、精神）",
+      "synonyms": [
+        {"word": "senility", "trans": "老衰、呆け"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "Alzheimer's disease", "trans": "アルツハイマー病"}
+      ]
+    },
+    {
+      "number": 335,
+      "word": "syndrome",
+      "pos": "名詞",
+      "meaning": "症候群、シンドローム",
+      "nuance": "共通の原因から起こる一連の症状の集まりを指します。また、特定の社会現象（〜症候群）としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Down syndrome is a genetic condition.",
+              "ja": "ダウン症候群は遺伝的な疾患である。",
+              "highlight": "syndrome"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 syn（共に）+ dromos（走る）→ 共に走る（現れる）もの",
+      "synonyms": [
+        {"word": "condition", "trans": "状態、疾患"},
+        {"word": "disorder", "trans": "障害、不調"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 336,
+      "word": "chronic",
+      "pos": "形容詞",
+      "meaning": "（病気が）慢性の、長期にわたる、常習的な",
+      "nuance": "一時的ではなく、長い間ずっと続いている状態を指します。特に深刻な問題について使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He suffers from chronic back pain.",
+              "ja": "彼は慢性の腰痛に苦しんでいる。",
+              "highlight": "chronic"
+            },
+            {
+              "en": "The city faces a chronic shortage of housing.",
+              "ja": "その都市は慢性的な住宅不足に直面している。",
+              "highlight": "chronic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 chronos（時間）",
+      "synonyms": [
+        {"word": "persistent", "trans": "しつこい、持続的な"},
+        {"word": "long-term", "trans": "長期の"},
+        {"word": "inveterate", "trans": "常習的な"}
+      ],
+      "antonyms": [
+        {"word": "acute", "trans": "急性の"},
+        {"word": "temporary", "trans": "一時的な"}
+      ],
+      "related": [
+        {"word": "chronological", "trans": "形容詞：年代順の"}
+      ]
+    },
+    {
+      "number": 337,
+      "word": "ceaseless",
+      "pos": "形容詞",
+      "meaning": "絶え間ない、ひっきりなしの",
+      "nuance": "終わることなくずっと続いている様子を表します。少し強調した響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We worked under the ceaseless noise of the machines.",
+              "ja": "私たちは機械の絶え間ない騒音の中で働いた。",
+              "highlight": "ceaseless"
+            }
+          ]
+        }
+      ],
+      "etymology": "cease（終わる）+ less（ない）",
+      "synonyms": [
+        {"word": "endless", "trans": "終わりのない"},
+        {"word": "constant", "trans": "絶え間ない"},
+        {"word": "perpetual", "trans": "永久の"}
+      ],
+      "antonyms": [
+        {"word": "intermittent", "trans": "断続的な"},
+        {"word": "brief", "trans": "短い"},
+        {"word": "temporary", "trans": "一時的な"}
+      ],
+      "related": [
+        {"word": "cease", "trans": "動詞：やめる、終わる"}
+      ]
+    },
+    {
+      "number": 338,
+      "word": "helpless",
+      "pos": "形容詞",
+      "meaning": "どうすることもできない、無力な",
+      "nuance": "自分一人では状況を変えられず、他人の助けを必要とする弱々しい状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I felt helpless as I watched the house burn down.",
+              "ja": "家が焼け落ちるのを見ているとき、私はどうすることもできない（無力な）と感じた。",
+              "highlight": "helpless"
+            }
+          ]
+        }
+      ],
+      "etymology": "help + less",
+      "synonyms": [
+        {"word": "powerless", "trans": "無力な"},
+        {"word": "defenseless", "trans": "無防備な"}
+      ],
+      "antonyms": [
+        {"word": "resourceful", "trans": "機知に富む、自力で解決できる"},
+        {"word": "independent", "trans": "独立した"},
+        {"word": "strong", "trans": "強い"}
+      ],
+      "related": []
+    },
+    {
+      "number": 339,
+      "word": "reckless",
+      "pos": "形容詞",
+      "meaning": "無謀な、向こう見ずな",
+      "nuance": "結果や危険を顧みずに、乱暴に行動することを指します。特に「reckless driving（無謀運転）」が典型的です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was arrested for reckless driving.",
+              "ja": "彼は無謀運転で逮捕された。",
+              "highlight": "reckless"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 reccan（気にかける）+ less",
+      "synonyms": [
+        {"word": "rash", "trans": "軽率な"},
+        {"word": "careless", "trans": "不注意な"},
+        {"word": "daring", "trans": "大胆すぎる、向こう見ずな"}
+      ],
+      "antonyms": [
+        {"word": "cautious", "trans": "慎重な"},
+        {"word": "prudent", "trans": "分別のある"},
+        {"word": "careful", "trans": "注意深い"}
+      ],
+      "related": []
+    },
+    {
+      "number": 340,
+      "word": "restless",
+      "pos": "形容詞",
+      "meaning": "落ち着かない、そわそわした、眠れない",
+      "nuance": "じっとしていられなかったり、心配事などで心が休まらなかったりする状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The audience was becoming restless during the long speech.",
+              "ja": "長いスピーチの間、聴衆はそわそわし始めた（落ち着きがなくなった）。",
+              "highlight": "restless"
+            },
+            {
+              "en": "I had a restless night before the exam.",
+              "ja": "試験の前夜、私は落ち着かない夜を過ごした（よく眠れなかった）。",
+              "highlight": "restless"
+            }
+          ]
+        }
+      ],
+      "etymology": "rest（休息）+ less",
+      "synonyms": [
+        {"word": "uneasy", "trans": "不安な"},
+        {"word": "fidgety", "trans": "そわそわした"},
+        {"word": "agitated", "trans": "動揺した"}
+      ],
+      "antonyms": [
+        {"word": "calm", "trans": "落ち着いた"},
+        {"word": "peaceful", "trans": "平和な"},
+        {"word": "relaxed", "trans": "リラックスした"}
+      ],
+      "related": []
+    },
+    {
+      "number": "340-2",
+      "word": "powerless",
+      "pos": "形容詞",
+      "meaning": "無力な、権力のない",
+      "nuance": "力や影響力がなく、状況をコントロールできない状態です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The police were powerless to stop the riot.",
+              "ja": "警察はその暴動を止めるには無力だった。",
+              "highlight": "powerless"
+            }
+          ]
+        }
+      ],
+      "etymology": "power + less",
+      "synonyms": [
+        {"word": "helpless", "trans": "どうすることもできない"},
+        {"word": "impotent", "trans": "無力な"}
+      ],
+      "antonyms": [
+        {"word": "powerful", "trans": "強力な"},
+        {"word": "influential", "trans": "影響力のある"}
+      ],
+      "related": []
+    },
+    {
+      "number": "340-3",
+      "word": "ruthless",
+      "pos": "形容詞",
+      "meaning": "無慈悲な、冷酷な、断固とした",
+      "nuance": "目的を達成するために、他人の感情や苦しみを全く顧みない様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is a ruthless businessman who will do anything to win.",
+              "ja": "彼は勝つためには何でもする、無慈悲な実業家だ。",
+              "highlight": "ruthless"
+            }
+          ]
+        }
+      ],
+      "etymology": "ruth（慈悲、後悔）+ less",
+      "synonyms": [
+        {"word": "merciless", "trans": "無慈悲な"},
+        {"word": "cruel", "trans": "残酷な"},
+        {"word": "relentless", "trans": "情け容赦のない"}
+      ],
+      "antonyms": [
+        {"word": "merciful", "trans": "慈悲深い"},
+        {"word": "compassionate", "trans": "思いやりのある"},
+        {"word": "kind", "trans": "優しい"}
+      ],
+      "related": []
+    },
+    {
+      "number": "340-4",
+      "word": "thoughtless",
+      "pos": "形容詞",
+      "meaning": "不注意な、思いやりのない、考えなしの",
+      "nuance": "深く考えずに行動し、結果として他人に迷惑をかけたり傷つけたりする様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It was thoughtless of you to make such a loud noise while others were sleeping.",
+              "ja": "他の人が寝ている時にそんな大きな音を立てるなんて、あなたは思いやりがなかった（考えが足りなかった）。",
+              "highlight": "thoughtless"
+            }
+          ]
+        }
+      ],
+      "etymology": "thought（考え）+ less",
+      "synonyms": [
+        {"word": "inconsiderate", "trans": "思いやりのない"},
+        {"word": "careless", "trans": "不注意な"},
+        {"word": "heedless", "trans": "注意を払わない"}
+      ],
+      "antonyms": [
+        {"word": "thoughtful", "trans": "思いやりのある、考え深い"},
+        {"word": "considerate", "trans": "思いやりのある"}
+      ],
+      "related": []
     }
   ]
 }
