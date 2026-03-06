@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>芳香族カルボン酸｜高校化学の有機化学</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">有機化学トップへ</a>
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← フェノール</a>
+        <a href="#" class="nav-link">芳香族アミン →</a>
+    </div>
+    
+    <main>
+        <h1>芳香族カルボン酸</h1>
+        
+        <section id="introduction">
+            <h2>1. 芳香族カルボン酸とは</h2>
+            <p>芳香族カルボン酸は、芳香環(ベンゼン環など)に直接カルボキシ基(-COOH)が結合した化合物の総称である。</p>
+            <ul>
+                <li><strong>一般式:</strong> Ar-COOH (Arはアリール基)</li>
+                <li><strong>最も簡単な化合物:</strong> 安息香酸 (C₆H₅COOH)</li>
+                <li><strong>特徴:</strong> 脂肪族カルボン酸と同様に酸性を示すが、芳香環の共鳴効果により若干酸性度が異なる。また、芳香環特有の反応(置換反応)も示す。</li>
+                <li><strong>命名法:</strong> 対応する芳香族炭化水素の名前に「カルボン酸」または「酸」をつける。
+                    <br>例：C₆H₅COOH → 安息香酸(ベンゼンカルボン酸)
+                    <br>o-, m-, p-フタル酸 (ベンゼンジカルボン酸の異性体)
+                    <br>サリチル酸 (o-ヒドロキシ安息香酸)</li>
+            </ul>
+        </section>
+
+        <section id="benzoic-acid">
+            <h2>2. 安息香酸 (C₆H₅COOH)</h2>
+            
+            <h3>2.1 物理的性質</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の針状結晶または板状結晶。昇華性がある。</li>
+                <li><strong>融点:</strong> 122℃、<strong>沸点:</strong> 249℃</li>
+                <li><strong>溶解性:</strong> 水に溶けにくい(冷水に0.17g/100mL、熱水には溶けやすい)。エタノール、エーテルなどの有機溶媒に易溶。</li>
+                <li><strong>臭い:</strong> 無臭またはわずかに安息香様の香り。</li>
+            </ul>
+            
+            <h3>2.2 化学的性質</h3>
+            <ul class="quiz-list">
+                <li><strong>酸性:</strong> pKa = <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">4.20</span></span> (酢酸のpKa 4.76よりやや強い)。</li>
+                <li>NaOH, Na₂CO₃, NaHCO₃と反応して安息香酸ナトリウム(水溶性)を生成する。</li>
+                <li>反応式(NaOH): <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">C₆H₅COOH + NaOH → C₆H₅COONa + H₂O</span></span></li>
+                <li>反応式(NaHCO₃): <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂↑ + H₂O</span></span></li>
+            </ul>
+            
+            <h3>2.3 安息香酸の製法</h3>
+            <ul class="quiz-list">
+                <li><strong>トルエンの酸化:</strong> 最も一般的な工業的製法。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O</span></span></li>
+                <li>酸化剤: 過マンガン酸カリウム(KMnO₄)や二クロム酸カリウム(K₂Cr₂O₇)、または空気酸化(工業的)。</li>
+                <li><strong>フタル酸の脱炭酸:</strong> フタル酸を加熱すると脱炭酸して安息香酸が得られる。</li>
+                <li><strong>ベンズアルデヒドの酸化:</strong> ベンズアルデヒドを空気酸化しても得られる。</li>
+            </ul>
+            
+            <h3>2.4 安息香酸の反応</h3>
+            <ul class="quiz-list">
+                <li><strong>エステル化:</strong> アルコールと酸触媒でエステルを生成。</li>
+                <li>例(安息香酸エチル): <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">C₆H₅COOH + C₂H₅OH ⇄ C₆H₅COOC₂H₅ + H₂O</span></span></li>
+                <li><strong>塩化ベンゾイルの生成:</strong> 塩化チオニルなどと反応。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">C₆H₅COOH + SOCl₂ → C₆H₅COCl + SO₂↑ + HCl↑</span></span></li>
+                <li><strong>ベンゼン環の置換反応:</strong> カルボキシ基はメタ配向性。</li>
+                <li>ニトロ化: m-ニトロ安息香酸が主生成物。</li>
+                <li>スルホン化: m-スルホ安息香酸が主生成物。</li>
+                <li>ハロゲン化: m-ハロゲン安息香酸が主生成物。</li>
+            </ul>
+            
+            <h3>2.5 安息香酸の用途</h3>
+            <ul>
+                <li><strong>防腐剤:</strong> 安息香酸ナトリウムとして清涼飲料水、醤油、マーガリンなどの保存料に使用。</li>
+                <li><strong>医薬品原料:</strong> 軟膏(サリチル酸など)の原料。</li>
+                <li><strong>染料中間体:</strong> 各種染料の合成原料。</li>
+                <li><strong>可塑剤:</strong> 安息香酸エステルとして。</li>
+            </ul>
+        </section>
+
+        <section id="phthalic-acids">
+            <h2>3. フタル酸 (ベンゼンジカルボン酸)</h2>
+            <p>ベンゼン環に2つのカルボキシ基が結合した化合物で、3種類の異性体がある。</p>
+            
+            <h3>3.1 フタル酸 (o-フタル酸, 1,2-ベンゼンジカルボン酸)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の結晶。加熱すると脱水して無水フタル酸になる。</li>
+                <li><strong>融点:</strong> 191℃(分解して無水物になる)。</li>
+                <li><strong>無水フタル酸:</strong> フタル酸を加熱して得られる。工業的に重要。</li>
+                <li class="quiz-list">反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">o-C₆H₄(COOH)₂ → o-C₆H₄(CO)₂O + H₂O</span></span></li>
+                <li><strong>用途:</strong> 可塑剤(フタル酸エステル)、染料(フェノールフタレイン)、アルキド樹脂の原料。</li>
+            </ul>
+            
+            <h3>3.2 イソフタル酸 (m-フタル酸, 1,3-ベンゼンジカルボン酸)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の結晶。無水物を作りにくい。</li>
+                <li><strong>融点:</strong> 348℃(昇華)。</li>
+                <li><strong>用途:</strong> ポリエステル樹脂、アルキド樹脂の原料。</li>
+            </ul>
+            
+            <h3>3.3 テレフタル酸 (p-フタル酸, 1,4-ベンゼンジカルボン酸)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の結晶。昇華性。水に難溶。</li>
+                <li><strong>融点:</strong> 427℃(昇華、密閉管では300℃で融解)。</li>
+                <li><strong>製法:</strong> p-キシレンの酸化。</li>
+                <li class="quiz-list">反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">p-CH₃C₆H₄CH₃ + 6[O] → p-C₆H₄(COOH)₂ + 2H₂O</span></span></li>
+                <li><strong>用途:</strong> ポリエステル(PET)の最も重要な原料。テレフタル酸ジメチル(DMT)としてエチレングリコールと重合。</li>
+            </ul>
+            
+            <h3>3.4 フタル酸エステル(可塑剤)</h3>
+            <ul>
+                <li>フタル酸と高級アルコールのエステル。ポリ塩化ビニル(PVC)などの可塑剤として大量に使用される。</li>
+                <li>代表例: フタル酸ジ-2-エチルヘキシル(DEHP, DOP)</li>
+                <li>環境ホルモン問題などから使用が制限されているものもある。</li>
+            </ul>
+        </section>
+
+        <section id="hydroxybenzoic">
+            <h2>4. ヒドロキシ安息香酸</h2>
+            <p>ベンゼン環にOH基とCOOH基を持つ化合物。3種類の異性体がある。</p>
+            
+            <h3>4.1 サリチル酸 (o-ヒドロキシ安息香酸)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の針状結晶。融点159℃。</li>
+                <li><strong>溶解性:</strong> 水に難溶、エタノール、エーテルに可溶。</li>
+                <li><strong>特徴:</strong> 分子内水素結合を形成するため、o-体はm-体、p-体と性質が異なる。</li>
+                <li>FeCl₃呈色反応: 赤紫色(フェノール性OHの反応)。</li>
+                <li>加熱すると脱炭酸してフェノールになる。</li>
+                <li class="quiz-list">反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">o-HOC₆H₄COOH → C₆H₅OH + CO₂↑</span></span></li>
+            </ul>
+            
+            <h4>サリチル酸の製法</h4>
+            <ul class="quiz-list">
+                <li><strong>コルベ・シュミット反応:</strong> フェノキシドナトリウムに二酸化炭素を加圧下で反応させる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">C₆H₅ONa + CO₂ → o-HOC₆H₄COONa</span></span></li>
+                <li>その後、酸で中和してサリチル酸を得る。</li>
+            </ul>
+            
+            <h4>サリチル酸の反応と誘導体</h4>
+            <ul class="quiz-list">
+                <li><strong>アセチル化(アスピリン合成):</strong> 無水酢酸と反応。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">o-HOC₆H₄COOH + (CH₃CO)₂O → o-CH₃COOC₆H₄COOH + CH₃COOH</span></span></li>
+                <li>生成物: アセチルサリチル酸(アスピリン) - 解熱鎮痛薬。</li>
+                <li><strong>メチル化(サリチル酸メチル):</strong> メタノールとエステル化。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">o-HOC₆H₄COOH + CH₃OH → o-HOC₆H₄COOCH₃ + H₂O</span></span></li>
+                <li>生成物: サリチル酸メチル - 冬緑油の香り、外用消炎鎮痛薬。</li>
+                <li><strong>フェニルエステル(サロール):</strong> フェノールとエステル化。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">o-HOC₆H₄COOH + C₆H₅OH → o-HOC₆H₄COOC₆H₅ + H₂O</span></span></li>
+                <li>サロールは腸溶性の薬剤(かつて使用)。</li>
+            </ul>
+            
+            <h4>サリチル酸の用途</h4>
+            <ul>
+                <li>アスピリン(解熱鎮痛薬)の原料</li>
+                <li>外用薬(いぼ、たこ、うおのめ治療薬) - 角質軟化作用</li>
+                <li>サリチル酸メチル(外用消炎鎮痛薬、香料)</li>
+                <li>染料、殺菌剤の原料</li>
+            </ul>
+            
+            <h3>4.2 m-ヒドロキシ安息香酸</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色結晶、融点202℃。</li>
+                <li>分子間水素結合のため、o-体より融点が高い。</li>
+                <li>FeCl₃呈色反応: 赤紫色。</li>
+            </ul>
+            
+            <h3>4.3 p-ヒドロキシ安息香酸</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色結晶、融点214℃(分解)。</li>
+                <li><strong>エステル(パラベン):</strong> p-ヒドロキシ安息香酸エステルは防腐剤(パラベン)として広く使用される。</li>
+                <li>メチルパラベン、エチルパラベン、プロピルパラベンなど。</li>
+                <li>化粧品、食品、医薬品の防腐剤。</li>
+            </ul>
+        </section>
+
+        <section id="other-aromatic-acids">
+            <h2>5. その他の重要な芳香族カルボン酸</h2>
+            
+            <h3>5.1 ケイ皮酸 (シンナム酸, C₆H₅-CH=CH-COOH)</h3>
+            <ul>
+                <li><strong>構造:</strong> アクリル酸のフェニル置換体。トランス体が主。</li>
+                <li><strong>性状:</strong> 無色結晶、融点133℃。シンナモンの香り。</li>
+                <li><strong>用途:</strong> 香料、医薬品原料。</li>
+            </ul>
+            
+            <h3>5.2 没食子酸 (ガリック酸, 3,4,5-トリヒドロキシ安息香酸)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色結晶。</li>
+                <li><strong>特徴:</strong> タンニンの加水分解で得られる。強い還元性。</li>
+                <li><strong>用途:</strong> インクの原料(没食子酸鉄インク)、写真現像液。</li>
+            </ul>
+            
+            <h3>5.3 マンデル酸 (C₆H₅-CH(OH)-COOH)</h3>
+            <ul>
+                <li><strong>構造:</strong> α-ヒドロキシ酸。不斉炭素を持つ。</li>
+                <li><strong>用途:</strong> 医薬品中間体、尿路感染症治療薬。</li>
+            </ul>
+            
+            <h3>5.4 ナフトエ酸 (C₁₀H₇-COOH)</h3>
+            <ul>
+                <li>1-ナフトエ酸と2-ナフトエ酸がある。</li>
+                <li>染料中間体など。</li>
+            </ul>
+        </section>
+
+        <section id="aromatic-acid-reactions">
+            <h2>6. 芳香族カルボン酸の一般的反応</h2>
+            
+            <h3>6.1 カルボキシ基の反応</h3>
+            <ul>
+                <li><strong>塩の生成:</strong> 塩基と反応して水溶性の塩になる。</li>
+                <li><strong>エステル化:</strong> アルコールと酸触媒でエステル生成。</li>
+                <li><strong>酸塩化物の生成:</strong> SOCl₂, PCl₃, PCl₅などと反応。</li>
+                <li><strong>アミドの生成:</strong> アンモニアと反応後、加熱。</li>
+                <li><strong>還元:</strong> LiAlH₄などで還元するとベンジルアルコール誘導体になる。</li>
+            </ul>
+            
+            <h3>6.2 ベンゼン環の反応</h3>
+            <ul>
+                <li>カルボキシ基はメタ配向性の弱い不活性化基。</li>
+                <li>ニトロ化、スルホン化、ハロゲン化ではメタ置換体が主生成物。</li>
+                <li>フリーデル・クラフツ反応は、カルボキシ基が触媒と反応するため通常困難。</li>
+            </ul>
+            
+            <h3>6.3 脱炭酸反応</h3>
+            <ul class="quiz-list">
+                <li>o-位にOH基やNH₂基があると脱炭酸しやすい。</li>
+                <li>サリチル酸の脱炭酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">o-HOC₆H₄COOH → C₆H₅OH + CO₂↑</span></span></li>
+                <li>アントラニル酸(o-アミノ安息香酸)も脱炭酸しやすい。</li>
+            </ul>
+        </section>
+
+        <section id="identification">
+            <h2>7. 芳香族カルボン酸の検出・確認方法</h2>
+            
+            <h3>7.1 酸性の確認</h3>
+            <ul>
+                <li>リトマス紙: 酸性で赤色に変色。</li>
+                <li>炭酸水素ナトリウム試験: CO₂の気泡発生(フェノールとの区別)。</li>
+            </ul>
+            
+            <h3>7.2 塩化鉄(III)反応</h3>
+            <ul>
+                <li>サリチル酸などフェノール性OHを持つものは呈色(赤紫色)。</li>
+                <li>安息香酸などフェノール性OHを持たないものは呈色しない(ただし安息香酸は褐色の沈殿?)。</li>
+            </ul>
+            
+            <h3>7.3 エステルの生成(香り)</h3>
+            <ul>
+                <li>メタノールと濃硫酸で加熱し、エステルの香りを確認。</li>
+                <li>安息香酸メチルは強い甘い香り。</li>
+            </ul>
+            
+            <h3>7.4 赤外吸収スペクトル(IR)</h3>
+            <ul>
+                <li>C=O伸縮振動: 1680-1710 cm⁻¹(共役のため低波数シフト)</li>
+                <li>O-H伸縮振動: 2500-3300 cm⁻¹(広幅)</li>
+                <li>芳香環の吸収: 1600, 1500 cm⁻¹</li>
+            </ul>
+            
+            <h3>7.5 核磁気共鳴スペクトル(NMR)</h3>
+            <ul>
+                <li>¹H-NMR: COOHプロトンは11-13 ppm(ブロード)</li>
+                <li>芳香族プロトンは7-8 ppm</li>
+            </ul>
+        </section>
+
+        <section id="applications">
+            <h2>8. 芳香族カルボン酸の応用・工業的利用</h2>
+            
+            <h3>8.1 高分子原料</h3>
+            <ul>
+                <li><strong>テレフタル酸:</strong> ポリエステル(PET)の原料。PETボトル、ポリエステル繊維。</li>
+                <li><strong>イソフタル酸:</strong> 高機能ポリエステル、アルキド樹脂。</li>
+                <li><strong>フタル酸:</strong> アルキド樹脂(塗料)、不飽和ポリエステル樹脂。</li>
+            </ul>
+            
+            <h3>8.2 可塑剤</h3>
+            <ul>
+                <li>フタル酸エステル: ポリ塩化ビニル(PVC)の可塑剤として大量使用。</li>
+                <li>DEHP(DOP), DINP, DIDPなど。</li>
+            </ul>
+            
+            <h3>8.3 医薬品</h3>
+            <ul>
+                <li><strong>アスピリン(アセチルサリチル酸):</strong> 解熱鎮痛薬。</li>
+                <li><strong>サリチル酸:</strong> 外用薬(角質軟化剤)。</li>
+                <li><strong>サリチル酸メチル:</strong> 外用消炎鎮痛薬。</li>
+                <li><strong>p-アミノサリチル酸:</strong> 抗結核薬。</li>
+            </ul>
+            
+            <h3>8.4 防腐剤・保存料</h3>
+            <ul>
+                <li><strong>安息香酸ナトリウム:</strong> 食品保存料(清涼飲料水、醤油など)。</li>
+                <li><strong>パラベン(p-ヒドロキシ安息香酸エステル):</strong> 化粧品、食品、医薬品の防腐剤。</li>
+            </ul>
+            
+            <h3>8.5 染料・顔料</h3>
+            <ul>
+                <li>フェノールフタレイン(指示薬)</li>
+                <li>フルオレセイン(蛍光色素)</li>
+                <li>アリザリン(赤色染料) - 1,2-ジヒドロキシアントラキノン</li>
+            </ul>
+            
+            <h3>8.6 その他</h3>
+            <ul>
+                <li>ケイ皮酸: 香料</li>
+                <li>没食子酸: インク、写真現像液</li>
+            </ul>
+        </section>
+
+        <section id="comparison">
+            <h2>9. 安息香酸とその誘導体の性質比較</h2>
+            <table>
+                <tr>
+                    <th>化合物</th>
+                    <th>構造</th>
+                    <th>融点(℃)</th>
+                    <th>pKa</th>
+                    <th>特徴・用途</th>
+                </tr>
+                <tr>
+                    <td>安息香酸</td>
+                    <td>C₆H₅COOH</td>
+                    <td>122</td>
+                    <td>4.20</td>
+                    <td>防腐剤(ナトリウム塩)</td>
+                </tr>
+                <tr>
+                    <td>サリチル酸</td>
+                    <td>o-HOC₆H₄COOH</td>
+                    <td>159</td>
+                    <td>2.98</td>
+                    <td>アスピリン原料、外用薬</td>
+                </tr>
+                <tr>
+                    <td>m-ヒドロキシ安息香酸</td>
+                    <td>m-HOC₆H₄COOH</td>
+                    <td>202</td>
+                    <td>4.08</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>p-ヒドロキシ安息香酸</td>
+                    <td>p-HOC₆H₄COOH</td>
+                    <td>214</td>
+                    <td>4.58</td>
+                    <td>パラベン(防腐剤)の原料</td>
+                </tr>
+                <tr>
+                    <td>o-トルイル酸</td>
+                    <td>o-CH₃C₆H₄COOH</td>
+                    <td>106</td>
+                    <td>3.91</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>m-トルイル酸</td>
+                    <td>m-CH₃C₆H₄COOH</td>
+                    <td>111</td>
+                    <td>4.27</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>p-トルイル酸</td>
+                    <td>p-CH₃C₆H₄COOH</td>
+                    <td>180</td>
+                    <td>4.38</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>o-ニトロ安息香酸</td>
+                    <td>o-NO₂C₆H₄COOH</td>
+                    <td>147</td>
+                    <td>2.17</td>
+                    <td>強い酸性</td>
+                </tr>
+                <tr>
+                    <td>m-ニトロ安息香酸</td>
+                    <td>m-NO₂C₆H₄COOH</td>
+                    <td>142</td>
+                    <td>3.45</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td>p-ニトロ安息香酸</td>
+                    <td>p-NO₂C₆H₄COOH</td>
+                    <td>242</td>
+                    <td>3.41</td>
+                    <td>—</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="safety">
+            <h2>10. 芳香族カルボン酸の毒性と取り扱い</h2>
+            
+            <h3>10.1 毒性</h3>
+            <ul>
+                <li><strong>安息香酸:</strong> 比較的低毒性。大量摂取で健康影響の可能性。</li>
+                <li><strong>サリチル酸:</strong> 外用薬として使用されるが、経口摂取は毒性(サリチル酸中毒)。アスピリン過敏症。</li>
+                <li><strong>フタル酸エステル:</strong> 一部は内分泌かく乱物質(環境ホルモン)として疑われている。生殖毒性が指摘されるものもある。</li>
+                <li><strong>ニトロ安息香酸:</strong> 毒性が強いものもある。</li>
+            </ul>
+            
+            <h3>10.2 安全な取り扱い</h3>
+            <ul>
+                <li>粉じん吸入を避ける(防じんマスク)。</li>
+                <li>皮膚・目との接触を避ける(保護手袋・保護メガネ)。</li>
+                <li>換気の良い場所で使用。</li>
+                <li>適切な廃棄処理(化学物質として)。</li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>11. 重要反応のまとめ(暗記用)</h2>
+            <ul class="quiz-list">
+                <li>安息香酸の生成(トルエンの酸化): <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O</span></span></li>
+                <li>安息香酸 + NaHCO₃: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂↑ + H₂O</span></span></li>
+                <li>安息香酸のエステル化: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">C₆H₅COOH + ROH ⇄ C₆H₅COOR + H₂O</span></span></li>
+                <li>フタル酸の脱水: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">o-C₆H₄(COOH)₂ → o-C₆H₄(CO)₂O + H₂O</span></span></li>
+                <li>テレフタル酸の生成(p-キシレンの酸化): <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">p-CH₃C₆H₄CH₃ + 6[O] → p-C₆H₄(COOH)₂ + 2H₂O</span></span></li>
+                <li>コルベ・シュミット反応(サリチル酸合成): <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">C₆H₅ONa + CO₂ → o-HOC₆H₄COONa</span></span></li>
+                <li>アスピリン合成: <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">o-HOC₆H₄COOH + (CH₃CO)₂O → o-CH₃COOC₆H₄COOH + CH₃COOH</span></span></li>
+                <li>サリチル酸の脱炭酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">o-HOC₆H₄COOH → C₆H₅OH + CO₂↑</span></span></li>
+                <li>安息香酸のニトロ化: <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">m-ニトロ安息香酸(主生成物)</span></span></li>
+            </ul>
+        </section>
+
+        <section id="exercises">
+            <h2>12. 確認問題</h2>
+            <ol style="list-style-type: decimal; padding-left: 20px;">
+                <li>トルエンから安息香酸を合成する反応式を示せ。また、この反応に用いられる酸化剤を2つ挙げよ。</li>
+                <li>安息香酸とフェノールの酸性度の違いを、炭酸水素ナトリウムを用いて区別する方法を説明せよ。</li>
+                <li>サリチル酸からアスピリンを合成する反応式を示せ。</li>
+                <li>フタル酸、イソフタル酸、テレフタル酸の構造式を示し、それぞれの主な用途を述べよ。</li>
+                <li>コルベ・シュミット反応について説明し、生成物を答えよ。</li>
+                <li>安息香酸に混酸(濃硝酸+濃硫酸)を作用させたときの生成物の構造式と名称を答えよ。また、なぜその位置に置換するか説明せよ。</li>
+                <li>テレフタル酸とエチレングリコールから合成される高分子化合物の名称と用途を述べよ。</li>
+                <li>p-ヒドロキシ安息香酸エステル(パラベン)の用途を述べよ。</li>
+                <li>サリチル酸を加熱したときの反応式を示し、生成物を答えよ。</li>
+                <li>安息香酸ナトリウムの食品保存料としての利用について説明せよ。</li>
+            </ol>
+        </section>
+        
+        <div class="nav-links" style="margin-top: 40px;">
+            <a href="#" class="nav-link">← フェノール</a>
+            <a href="#" class="nav-link">芳香族アミン →</a>
+        </div>
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
