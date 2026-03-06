@@ -97,6 +97,30 @@
             transform: translateY(-1px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
         .nav-links {
             display: flex;
             justify-content: space-between;
@@ -126,7 +150,10 @@
 </head>
 <body>
 <div class="container">
-    <a href="index.html" class="btn-home">歴史トップへ</a>
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
+    </div>
     
     <div class="nav-links">
         <a href="#" class="nav-link">← 前の範囲</a>
@@ -304,6 +331,22 @@
         // ボタンクリックで上に戻る
         backToTopBtn.addEventListener('click', function() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
         });
     });
 </script>
