@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史 第7章 ②幕府の衰退と庶民の台頭</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+
+```
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    .btn-home {
+        display: inline-block;
+        padding: 8px 20px;
+        background-color: #6c757d;
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        transition: 0.3s;
+    }
+    .btn-home:hover {
+        background-color: #5a6268;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    /* 追加した一斉表示ボタンのスタイル */
+    .btn-toggle-all {
+        display: inline-block;
+        padding: 8px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        transition: 0.3s;
+    }
+    .btn-toggle-all:hover {
+        background-color: #0056b3;
+        transform: translateY(-1px);
+    }
+    .header-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .nav-links {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    .nav-link {
+        padding: 8px 16px;
+        background-color: #e9ecef;
+        color: #495057;
+        text-decoration: none;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .nav-link:hover {
+        background-color: #dee2e6;
+    }
+
+    #backToTop {
+        position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+        background-color: #007bff; 
+        color: white; border: none; border-radius: 50%;
+        cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+        display: none; 
+        align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+    }
+</style>
+```
+
+</head>
+<body>
+<div class="container">
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
+    </div>
+
+```
+<div class="nav-links">
+    <a href="#" class="nav-link">← 前の範囲</a>
+    <a href="#" class="nav-link">次の範囲 →</a>
+</div>
+
+<main>
+```
+
+<div class="container">
+    <h2>第7章　幕府の衰退と庶民の台頭</h2>
+
+```
+<h3>②幕府の衰退と庶民の台頭</h3>
+
+<h4>惣村の形成</h4>
+<ul>
+    <li>鎌倉後期〜生産力の高まった近畿地方の農村で自治を行う村が登場（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">惣・惣村</span></span>）</li>
+    <li>：惣村内の有力農民（名主）に加え小農民も（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">惣百姓</span></span>）として自治に参加</li>
+    <li>：会議（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">寄合</span></span>）で諸事を決定、村の鎮守での祭祀も（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">宮座</span></span>）に所属する惣百姓が行い、地域で強い結びつきを形成</li>
+    <li>＊「よそ者」への強い警戒感や秩序維持のための湯起請などもみられる</li>
+    <li>村の指導者（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">おとな／長・乙名／沙汰人</span></span>）が自治の中心</li>
+    <li>共同作業や共有地（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">入会地</span></span>）・用水の管理</li>
+    <li>戦乱に対する自衛</li>
+    <li>村内の規約（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">惣掟・村法</span></span>）による警察権の行使（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">地下検断・自検断</span></span>）</li>
+    <li>領主への一括した年貢納入（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">地下請・村請・百姓請</span></span>）などを行う</li>
+</ul>
+
+<ul>
+    <li>強い結束を土台に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">一揆</span></span>）を結び、荘園領主へ対して（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">強訴</span></span>）や（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">逃散</span></span>）などの実力行使を行うこともあり、荘園領主や地頭などの支配は次第に困難になる</li>
+    <li>＊一揆＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">特定の目的</span></span>）を達成するため結成された集団のこと。地縁的結合で利害関係を共にするものが（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">神仏に誓約した起請文を灰にして混ぜた神水を飲む「一味同心・神水」</span></span>）を行い結束を強める。</li>
+    <li>武士の一揆＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">国人一揆</span></span>）、土民（庶民）の一揆＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">土一揆</span></span>）</li>
+    <li>両者の結合したもの＝国一揆</li>
+    <li>強訴＝集団で年貢減免や地頭の罷免などを訴える</li>
+    <li>逃散＝要求が認められなかった場合に村ごと山中や他村へ（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">一時的に退去</span></span>）する抵抗方法</li>
+    <li>村内の有力者の中には、地縁的結合を求めて守護などと主従関係を結ぶものも登場（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">地侍と呼ぶ</span></span>）</li>
+</ul>
+
+<h4>幕府の動揺と土一揆　＊「第２の将軍」である鎌倉公方の存在が歴代将軍を脅かす</h4>
+<ul>
+    <li>≪４代将軍（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">足利義持</span></span>）の政治≫　＊日明貿易中断</li>
+    <li>父義満への反発から畠山満家ら有力守護大名の合議制で政治を行う（弟義嗣を殺害）</li>
+    <li>上杉氏憲の反乱（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">上杉禅秀の乱</span></span>）を鎮圧し「中世で最も平和な時代」が現出</li>
+    <li>５代義量の早世（1425）後は後継者を決定せず（1428 石清水八幡宮でのくじ引きで決定）</li>
+</ul>
+
+<ul>
+    <li>≪６代将軍（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">足利義教</span></span>）の政治≫　＊日明貿易再開</li>
+    <li>父義満を理想とし専制的な神権政治を行う（守護大名家の家督相続などにも介入）</li>
+    <li>1438〜39（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">永享の乱</span></span>）：関東管領（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">上杉憲実</span></span>）と結び、将軍職を狙う鎌倉公方（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">足利持氏</span></span>）を討伐</li>
+    <li>1440（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">結城合戦</span></span>）：持氏遺臣の結城氏朝が、持氏遺子を擁して挙兵するも鎮圧される</li>
+    <li>1441（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">嘉吉の変</span></span>）：有力守護（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">赤松満祐</span></span>）が義教を殺害、子の義勝（8歳）が将軍に就任</li>
+    <li>＊以後将軍権威は大きく低下し、庶民（土民）による「土一揆」の要求が頻発</li>
+</ul>
+
+<h4>代表的な土一揆（徳政一揆）</h4>
+<ul>
+    <li>14（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">28</span></span>）（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">正長の徳政一揆</span></span>）</li>
+    <li>：『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">大乗院日記目録</span></span>』（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">31.</span> <span class="blank">尋尊</span></span>：興福寺大乗院門跡、一条兼良の子）がまとめた年代記に記される</li>
+    <li>「一天下の土民蜂起す。徳政と号し、<strong>酒屋、土倉、寺院</strong>等を破却せしめ、雑物等恣に之を取り、借銭等悉く之を破る。管領（畠山満家）之を成敗す。凡そ亡国の基、之に過ぐべからず。<strong>日本開白以来、土民蜂起、是れ初めなり。</strong>」</li>
+    <li>近江坂本の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">馬借</span></span>）の動きから始まり京都・大和など周辺諸国でも、「代始めの徳政」を要求する庶民の動きが起こり（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33.</span> <span class="blank">土倉・酒屋・寺院</span></span>）などを襲撃し私徳政が実施された</li>
+    <li>大和の「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">34.</span> <span class="blank">柳生徳政碑文</span></span>」に徳政による負債破棄が記される</li>
+    <li>「<strong>正長元年</strong>よりさきは、神戸四箇郷に<strong>負目あるべからず</strong>」</li>
+    <li>1429　播磨の土一揆：正長の徳政一揆が波及する中、赤松氏家臣を追放する政治的要求が出される「侍をして国中にあらしむべからず」</li>
+</ul>
+
+<ul>
+    <li>14（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">35.</span> <span class="blank">41</span></span>）（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">36.</span> <span class="blank">嘉吉の徳政一揆</span></span>）</li>
+    <li>：「今土民ら、代始めにこの沙汰は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37.</span> <span class="blank">先例</span></span>）と称すと云々…定む　徳政の事…」　『建内記』</li>
+    <li>嘉吉の乱後に７代将軍（義勝）への代替わりが行われることを口実に「代始めの徳政」を要求、幕府は混乱の中で徳政令を山城国に発出</li>
+</ul>
+
+<ul>
+    <li>＊以後は幕府の衰退もあり、度々徳政を要求する一揆が発生。これに対し幕府は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">38.</span> <span class="blank">分一銭</span></span>）の納入を求めるようになり、徳政令が乱発される事態となる</li>
+</ul>
+
+<h4>応仁の乱</h4>
+<ul>
+    <li>８代将軍（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">39.</span> <span class="blank">足利義政</span></span>）の時代に、後継者を巡る将軍家内の対立（弟の<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">40.</span> <span class="blank">義視</span></span>↔妻の<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">41.</span> <span class="blank">日野富子</span></span>・子の<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">42.</span> <span class="blank">義尚</span></span>）と、有力守護家内の家督相続争い（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">43.</span> <span class="blank">畠山・斯波両家</span></span>）に加え中央政治の実権を巡る争い（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">44.</span> <span class="blank">細川勝元</span></span>　↔<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">45.</span> <span class="blank">山名持豊</span></span>）が発生</li>
+    <li>1467（応仁元）〜1477（文明９）に断続的に京都で戦乱が続きその影響は多方面に及ぶ</li>
+    <li>①諸大名が東軍（細川方）と西軍（山名方）に分かれ京都で戦闘</li>
+    <li>→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">46.</span> <span class="blank">足軽</span></span>）が略奪を繰り返したこともあり（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">47.</span> <span class="blank">京都は著しく荒廃</span></span>）</li>
+    <li>「足がるといふ者長く停止せらるべき事。…此のたびはじめて出来たる足がるは、<strong>超過したる悪党</strong>なり。」</li>
+    <li>『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">48.</span> <span class="blank">樵談治要</span></span>』（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">49.</span> <span class="blank">一条兼良</span></span>）</li>
+    <li>「計ラズモ万歳期セシ花ノ都、今何ンゾ狐狼ノ伏土トナラントハ、適残ル東寺、北野サヘ灰土トナルヲ。…応仁ノ一変ハ仏法王法トモニ破滅シ、諸宗皆悉ク絶ハテヌルヲ感歎ニ堪ヘズ、飯尾彦六左衛門尉、一首ノ歌ヲ詠ジケル。　次ヤシル都ハ野辺ノタ雲雀アガルヲ見テモ落ルナミダハ」『応仁記』</li>
+    <li>②公家・僧侶などの知識人は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">50.</span> <span class="blank">戦乱を避けて疎開</span></span>）</li>
+    <li>→守護大名が文化人を保護し（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">51.</span> <span class="blank">地方へ都の文化が広まる</span></span>）：山口（雪舟）など</li>
+    <li>③守護大名が不在→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">52.</span> <span class="blank">守護代</span></span>）などが実権を獲得し（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">53.</span> <span class="blank">下剋上</span></span>）が各地で発生</li>
+    <li>④長引く戦乱に疲れた守護大名は京都から任国へ→連合政権としての（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">54.</span> <span class="blank">室町幕府が解体</span></span>）</li>
+    <li>⑤旧勢力の没落→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">55.</span> <span class="blank">荘園制の解体</span></span>）が進展</li>
+</ul>
+
+<h4>国一揆　＊国人一揆＋土一揆。近畿各地でみられる（伊賀惣国一揆、甲賀郡中惣）</h4>
+<ul>
+    <li>14（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">56.</span> <span class="blank">85</span></span>）（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">57.</span> <span class="blank">山城の国一揆</span></span>）</li>
+    <li>：争いを続ける両畠山軍を追放し、36人の月行事を中心に８年間にわたる自治を行う</li>
+    <li>「一、今日山城の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">58.</span> <span class="blank">国人</span></span>）集会す。上ハ六十歳、下ハ十五六歳と云云。<strong>同じく一国中の土民等群集す。</strong>今度両陣の時宜を申しめんが為の故と云云。然るべきか。但し又（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">59.</span> <span class="blank">下極上の至</span></span>）なり。両陣の返事問答の様如何、未だ聞かず。…一、今日山城国人、平等院に於て会合す。<strong>国中の掟法、猶以てこれを定むべし</strong>と云云。凡そ神妙なり。但し興成せしめば天下の為しかるべからざる事か。」『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">60.</span> <span class="blank">大乗院寺社雑事記</span></span>』（尋尊ら3代の日記）</li>
+</ul>
+
+<ul>
+    <li>14（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">61.</span> <span class="blank">88</span></span>）（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">62.</span> <span class="blank">加賀の一向一揆</span></span>）</li>
+    <li>：本願寺の８代（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">63.</span> <span class="blank">蓮如</span></span>）により各地に信者が増加、加賀では門徒と国人により守護の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">64.</span> <span class="blank">富樫政親</span></span>）が倒され約１世紀にわたる自治が行われる</li>
+    <li>「百姓トリ立テ富樫ニテ候アヒダ、百姓ノウチツヨク成テ、近年ハ（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">65.</span> <span class="blank">百姓ノ持タル国</span></span>）ノヤウニナリ行キ候コトニテ候」『実悟記拾遺』</li>
+</ul>
+
+<h4>農業の発達</h4>
+<ul>
+    <li>日本の農業の特徴である（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">66.</span> <span class="blank">集約化・多角化</span></span>）が進展</li>
+    <li>畿内では（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">67.</span> <span class="blank">三毛作</span></span>）がみられる</li>
+    <li>水稲の品種改良に成功（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">68.</span> <span class="blank">早稲・中稲・晩稲</span></span>）</li>
+    <li>肥料として刈敷・草木灰・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">69.</span> <span class="blank">下肥</span></span>）を使用</li>
+    <li>手工業の原料（苧・桑・楮・<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">70.</span> <span class="blank">漆・藍・茶</span></span>）が盛んに取引される</li>
+    <li>＊地下請の進展なども背景に畿内の農村では高利貸への借財も広まる（→徳政一揆要求）</li>
+</ul>
+
+<h4>商工業の発達</h4>
+<ul>
+    <li>全国各地で特産品の生産が盛んとなる</li>
+    <li>：絹織物（加賀・丹後・<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">71.</span> <span class="blank">西陣織</span></span>）、和紙（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">72.</span> <span class="blank">美濃紙、杉原紙：播磨</span></span>）、陶器（美濃、尾張）、刀（備前＊日明貿易の重要輸出品）、釜（能登・筑前）、鍋（河内）、酒造（京都・河内・大和・摂津）、製塩（揚浜塩田→古式入浜塩田）など</li>
+    <li>市：全国的に<strong>三斎市</strong>がみられる</li>
+    <li>応仁の乱は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">73.</span> <span class="blank">六斎市</span></span>）が一般化</li>
+    <li>行商人：連雀商人・振売・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">74.</span> <span class="blank">大原女</span></span>）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">75.</span> <span class="blank">桂女</span></span>）など　＊女性が多い</li>
+    <li>座：手工業者や商人が同業者団体を結成、大寺社や天皇家などに保護され全国的な活動をみせるものも　＊由緒書が多数偽造される</li>
+    <li>㊉蔵人所灯炉供御人（鋳物師）、大山崎離宮八幡宮（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">76.</span> <span class="blank">油座</span></span>）、北野神社麹座、祇園社綿座</li>
+    <li>貨幣経済の進展：宋銭に加え（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">77.</span> <span class="blank">明銭</span></span>：永楽通宝など）を使用</li>
+    <li>→貨幣不足や貨幣の劣化により粗悪な私鋳銭や欠銭が流通</li>
+    <li>→良銭を選んで使用する（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">78.</span> <span class="blank">撰銭</span></span>）行為が問題に</li>
+    <li>→幕府や大名によって一定の決まりを定める（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">79.</span> <span class="blank">撰銭令</span></span>）が出される</li>
+    <li>＊貨幣不足は解消せず、西日本では（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">80.</span> <span class="blank">米や銀</span></span>）を貨幣として使用</li>
+    <li>高利貸：土倉・酒屋</li>
+    <li>遠隔地取引：為替手形（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">81.</span> <span class="blank">割符</span></span>　とよばれる）を利用</li>
+    <li>運送業者：京都への物資搬入は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">82.</span> <span class="blank">馬借・車借</span></span>）が担い、その他交通の要地では（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">83.</span> <span class="blank">問屋が物流を担う</span></span>）　＊「兵庫北関入船納帳」には兵庫湊に多くの船が入港したことが記される</li>
+</ul>
+```
+
+</div>
+    <div class="nav-links">
+        <a href="#" class="nav-link">← 前の範囲</a>
+        <a href="#" class="nav-link">次の範囲 →</a>
+    </div>
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
+        });
+    });
+</script>
+
+</body>
+</html>
