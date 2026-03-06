@@ -111,7 +111,7 @@ open index.html
 ## 👤 作者
 
 - **名前**：secret🥰
-
+- **居住地**：JAPAN
 ---
 
 ## 🕒 最終更新
