@@ -3,338 +3,352 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF編集ツール</title>
+    <title>歴史 第3章 ④律令国家の変容</title>
     <link rel="icon" href="../image/logo.png">
-
-    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
-
     <style>
-        :root {
-            --primary-color: #007bff;
-            --chapter-color: #6c757d;
-            --bg-color: #f4f7f9;
+        html {
+            -webkit-text-size-adjust: 100%;
         }
-
-        body {
-            font-family: sans-serif;
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
         }
-
-        .container {
-            width: 100%;
-            max-width: 800px;
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
         }
-
         h1 {
-            color: var(--primary-color);
+            color: #007bff;
             text-align: center;
-            border-bottom: 3px solid var(--primary-color);
+            border-bottom: 3px solid #007bff;
             padding-bottom: 10px;
             margin-bottom: 30px;
         }
-
-        /* ===== ボタン ===== */
-        .btn {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            font-weight: bold;
-            margin: 0 5px;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
         }
-
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
         .btn-home {
             display: inline-block;
-            margin-bottom: 20px;
-            background: #6c757d;
+            padding: 8px 20px;
+            background-color: #6c757d;
             color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             transition: 0.3s;
         }
-
         .btn-home:hover {
-            background: #5a6268;
+            background-color: #5a6268;
             transform: translateY(-1px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
-
-        .btn-save { background: var(--primary-color); color: white; }
-        .btn-undo { background: #f0ad4e; color: white; }
-
-        .btn-undo:disabled {
-            background: #ccc;
-            cursor: not-allowed;
-        }
-
-        .btn-delete {
-            background: #ff4d4d;
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
             color: white;
-            border-radius: 5px;
-            width: 100%;
-            margin-top: 5px;
-            font-size: 12px;
-            padding: 5px;
-        }
-
-        /* ===== PDF UI ===== */
-        .upload-section {
-            border: 2px dashed var(--primary-color);
-            background: #fff;
-            padding: 20px;
-            text-align: center;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-
-        #pageContainer {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-            gap: 15px;
-        }
-
-        .page-card {
-            background: white;
-            border-radius: 8px;
-            padding: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            position: relative;
-            touch-action: none;
-        }
-
-        .page-card canvas {
-            width: 100%;
-            border: 1px solid #eee;
-            pointer-events: none;
-        }
-
-        .drag-handle {
-            background: #eee;
-            text-align: center;
-            cursor: grab;
-            padding: 5px;
-            margin-bottom: 8px;
-            border-radius: 4px;
+            border: none;
+            border-radius: 20px;
             font-weight: bold;
-            color: #666;
-            font-size: 18px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
         }
 
-        .controls {
-            position: sticky;
-            top: 10px;
-            z-index: 100;
-            text-align: center;
-            margin-bottom: 20px;
-            display: none;
-            background: rgba(240,242,245,0.9);
-            padding: 10px;
-            border-radius: 15px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-
-        .sortable-ghost {
-            opacity: 0.3;
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
         }
     </style>
 </head>
-
 <body>
-
-    <div class="container">
-
-        <a href="index.html" class="btn btn-home">便利ツールへ戻る</a>
-
-        <div class="upload-section">
-            <h3>PDF 編集ツール</h3>
-            <p style="font-size:12px;color:#666;">
-                複数のPDFを選択して結合・並び替え・削除ができます
-            </p>
-            <input type="file" id="pdfInput" accept="application/pdf" multiple>
-        </div>
-
-        <div class="controls" id="controls">
-            <button class="btn btn-undo" id="undoBtn" disabled>
-                ↩ 元に戻す
-            </button>
-            <button class="btn btn-save" id="downloadBtn">
-                PDFを保存・ダウンロード
-            </button>
-        </div>
-
-        <div id="pageContainer"></div>
-
+<div class="container">
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
     </div>
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← 前の範囲</a>
+        <a href="#" class="nav-link">次の範囲 →</a>
+    </div>
+    
+    <main>
+<div class="container">
+    <h2>第3章　律令国家の形成</h2>
 
-    <script>
-        pdfjsLib.GlobalWorkerOptions.workerSrc =
-            'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js';
+    <h3>④律令国家の変容</h3>
 
-        const pageContainer = document.getElementById('pageContainer');
-        const controls = document.getElementById('controls');
-        const undoBtn = document.getElementById('undoBtn');
+    <h4>平安遷都</h4>
+    <ul>
+        <li>781 光仁皇子の渡来系氏族の血を引く (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">桓武天皇</span></span>) 即位</li>
+        <li>784 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">長岡京</span></span>)へ遷都：仏教政治からの転換、天皇権力強化を目的に</li>
+        <li>→桓武天皇の腹心 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">藤原種継</span></span>)が暗殺される</li>
+        <li>→皇太子 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">早良親王</span></span>)が首謀者とされ、大伴氏・佐伯氏らとともに失脚</li>
+        <li>→怨霊の祟り発生</li>
+        <li>794 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">平安京</span></span>)へ再遷都、（山背→）山城国と改称、～1185? 平安時代</li>
+    </ul>
 
-        let allPageData = {};
-        let historyStack = [];
+    <h4>蝦夷との戦い</h4>
+    <ul>
+        <li>奈良時代に続き、東北地方の支配を拡大</li>
+        <li>関東地方から入植させた農民 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">柵戸</span></span>)に現地の開発を行わせる</li>
+        <li>⇔代わりに帰属した蝦夷 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">俘囚</span></span>)が関東以西へ</li>
+        <li>しかし各地で蝦夷や俘囚の反乱がおこり、中央政府が派兵</li>
+        <li>780 （光仁朝）（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">伊治呰麻呂(いじのあざまろ)</span></span>)が多賀城を襲う</li>
+        <li>789 （桓武朝）(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">紀古佐美(きのこさみ)</span></span>)を征東大使に任じ胆沢地方へ進出するも (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">阿弖流為(アテルイ)</span></span>)により大敗</li>
+        <li>802 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">征夷大将軍</span></span>)に任じられた (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">坂上田村麻呂</span></span>)が(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">阿弖流為</span></span>)をおさえ、(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">胆沢城</span></span>)を築城、多賀城から(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">胆沢城</span></span>)へ鎮守府を移す</li>
+        <li>803 志波城築城、前進拠点とする</li>
+        <li>桓武朝の「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">軍事と造作</span></span>」(東北遠征＋新都造営)は大きな負担となり (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">徳政相論</span></span>)の結果二大事業は打ち切られる</li>
+        <li>徳政相論：(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">藤原緒嗣</span></span>)議して云く「方今、天下の苦しむ所、<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">軍事と造作</span></span>となり。此の両事を停め、百姓安ぜんぜん」と。(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">菅野真道</span></span>) 、異議を確執して肯て聴かず。</li>
+    </ul>
 
-        function saveState() {
-            const currentOrder = [...pageContainer.querySelectorAll('.page-card')]
-                .map(c => c.dataset.id);
+    <h4>平安時代初期の政治改革</h4>
+    <ul>
+        <li>9世紀=律令体制再建を目指す</li>
+        <li>＜桓武朝＞　定員外の国司・郡司の廃止</li>
+        <li>国司を監視する (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">勘解由使</span></span>)を新設 ＊(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">令外官</span></span>)の1つ</li>
+        <li>：新任国司が前任国司へ(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">解由状</span></span>)を与える際に審査</li>
+        <li>要地以外の軍団・兵士の廃止、志願制の(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">健児(こんでい)</span></span>)による軍事制度を新設</li>
+        <li>＜嵯峨朝＞　天皇の秘書官長(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">蔵人頭(くろうどのとう)</span></span>)を新設 ＊初代巨勢野足・(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">藤原冬嗣</span></span>)</li>
+        <li>都を管轄下に置く警察(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">検非違使(けびいし)</span></span>)を新設</li>
+        <li>：犯人検挙、訴訟、裁判を行う重要職に</li>
+        <li>810 平城太上天皇が(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">式家 藤原仲成・薬子</span></span>)と結び平城京への再遷都を画策</li>
+        <li>嵯峨天皇との対立は「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25-2.</span> <span class="blank">二所朝廷</span></span>」と呼ばれるも、嵯峨天皇が(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">北家</span></span>)藤原冬嗣と結び勝利（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26-2.</span> <span class="blank">平城太上天皇の変／薬子の変</span></span>）、この際に蔵人頭が新設される</li>
+        <li>社会の変化に合わせた法制の整備(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">弘仁格式</span></span>)</li>
+        <li>：(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">格＝律令の補足修正</span></span>）と (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">式＝施行細則</span></span>）を編集（冬嗣ら）</li>
+        <li>＊清和朝で(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">貞観</span></span>)格式、醍醐朝で(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">31.</span> <span class="blank">延喜</span></span>)格式成立</li>
+        <li>=(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">三代格式</span></span>)</li>
+        <li>同時期に「令」についての注釈書も編纂される</li>
+        <li>：官撰『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33.</span> <span class="blank">令義解(りょうのぎげ)</span></span>』(清原夏野)、私撰『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33-2.</span> <span class="blank">令集解(りょうのしゅうげ)</span></span>』(惟宗直本)</li>
+    </ul>
 
-            if (
-                historyStack.length > 0 &&
-                JSON.stringify(historyStack[historyStack.length - 1]) ===
-                JSON.stringify(currentOrder)
-            ) return;
+    <h4>地方と貴族社会の変容</h4>
+    <ul>
+        <li>実情と律令に定められた土地・税制度の乖離が問題に</li>
+        <li>①浮浪・逃亡 ②(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">34.</span> <span class="blank">偽籍</span></span>) ③班田収授の不履行 ④税の未納 ⑤兵士の質低下</li>
+        <li>→現状に対応する諸政策が実施される</li>
+        <li>①公出挙の利息を5→3割へ、雑徭を60→30日に</li>
+        <li>③班田期間を6→12年へ(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">34-2.</span> <span class="blank">一紀一班</span></span>、桓武朝)</li>
+        <li>④直営地の経営：大宰府の収入源＝(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">35.</span> <span class="blank">公営田(くえいでん)</span></span>)、諸官庁＝(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">36.</span> <span class="blank">元慶官田(がんぎょうかんでん)</span></span>)</li>
+        <li>＊やがて天皇は (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37.</span> <span class="blank">勅旨田</span></span>)、皇族は賜田、各官庁は請司田、官人は墾田をそれぞれ所有し財源とするようになる。天皇の龍臣は「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37-2.</span> <span class="blank">院宮王臣家</span></span>」と呼ばれ勢力を築く</li>
+        <li>⑤(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">健児(こんでい)</span></span>)の新設</li>
+    </ul>
 
-            historyStack.push(currentOrder);
-            if (historyStack.length > 20) historyStack.shift();
+    <h3>唐風文化と平安仏教(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">弘仁・貞観文化</span></span>：9世紀）</h3>
+    <ul>
+        <li>中国の強い影響を受けた貴族文化、(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">文章経国思想</span></span>「文章は経国の大業なり」）が特徴</li>
+        <li>＜漢詩文＞(＊最初の漢詩集（私撰）は天平文化の『懐風藻』)</li>
+        <li>(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">勅撰漢詩集</span></span>)『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">凌雲集</span></span>』『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">文華秀麗集</span></span>』嵯峨朝／『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">経国集</span></span>』淳和朝</li>
+        <li>空海（漢詩集）『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">性霊集（遍照発揮性霊集）</span></span>』／（漢詩論）『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">文鏡秘府論</span></span>』</li>
+        <li>＜文人＞＊文人貴族が政治に参加</li>
+        <li>(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">三筆</span></span>)（唐様）（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">嵯峨</span></span>）天皇・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">橘逸勢</span></span>）・空海（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">風信帖</span></span>）</li>
+        <li>(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">菅原道真</span></span>『菅家文草』)や小野篁らが藤原氏に対抗する勢力として政界でも活躍</li>
+        <li>＜<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">大学別曹</span></span>＞＊大学に通う子弟の寄宿舎として各氏族が設置</li>
+        <li>(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">弘文院</span></span>：和気氏／(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">勧学院</span></span>)：藤原氏／(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">奨学院</span></span>)：在原氏や皇族／(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17-2.</span> <span class="blank">学館院</span></span>)：橘氏</li>
+        <li>大学では「紀伝道(文章道)=中国の歴史や漢文学」が特に重視される</li>
+        <li>＜<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">綜芸種智院</span></span>＞（828）</li>
+        <li>密教（平安新仏教）↔︎顕教</li>
+        <li>＊南都仏教へ対抗する観点からも強い支持を受け、(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">現世利益</span></span>)を求める皇族や貴族の依頼により盛んに (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">加持祈祷</span></span>)が行われる</li>
+        <li>＜<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">天台宗</span></span>＞比叡山で修業した (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">最澄</span></span>)が天台の教え（6世紀成立）をもたらす</li>
+        <li>桓武天皇に支持され (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">延暦寺</span></span>)を創設、新戒壇の創設を求めるも南都仏教から批判される（死後公認される／大乗戒壇）：『山家学生式』『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">顕戒論</span></span>』</li>
+        <li>＜<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">真言宗</span></span>＞讃岐から出た空海が当初大学で学ぶも仏教の道を選ぶ：『三教指帰』</li>
+        <li>長安で(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25-2.</span> <span class="blank">恵果</span></span>)に学び体系的な密教を初めて日本へもたらす (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">東密</span></span>)</li>
+        <li>嵯峨天皇に支持され (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">教王護国寺／東寺</span></span>)および (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">金剛峯寺</span></span>)を設立</li>
+        <li>＊天台宗の密教化は (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">円仁・円珍</span></span>)の入唐により実現 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">台密</span></span>)</li>
+        <li>円仁：『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">31.</span> <span class="blank">入唐求法(にっとうぐほう)巡礼行記</span></span>』を記す（東寺で発見された唐研究の重要資料）</li>
+        <li>10世紀以降両派が対立：円仁派＝山門派、円珍派＝寺門派（園城寺）</li>
+    </ul>
 
-            undoBtn.disabled = historyStack.length <= 1;
-        }
+    <h4>仏教の定着</h4>
+    <ul>
+        <li>＜<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">修験道</span></span>＞</li>
+        <li>平安新仏教では厳しい山岳での修行により呪力を体得することが目指される</li>
+        <li>→在来の山岳信仰と結びつき、吉野大峰山、北陸白山、出羽三山(羽黒山、月山、湯殿山)などで山伏が活動</li>
+        <li>＜<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32-2.</span> <span class="blank">神仏習合</span></span>＞神社境内に神宮寺、寺院境内に神を祀る社が各地で建設される</li>
+    </ul>
 
-        new Sortable(pageContainer, {
-            handle: '.drag-handle',
-            animation: 150,
-            ghostClass: 'sortable-ghost',
-            onEnd: () => saveState()
-        });
+    <h4>密教芸術</h4>
+    <ul>
+        <li>＜建築＞</li>
+        <li>(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33.</span> <span class="blank">室生寺</span></span>)（奈良県）＊山間の地形に合わせた (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">34.</span> <span class="blank">自由な伽藍配置</span></span>)</li>
+        <li>：「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">35.</span> <span class="blank">女人高野</span></span>」と呼ばれ、女性の参拝が許された真言宗寺院</li>
+        <li>＜彫刻＞(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">36.</span> <span class="blank">一木造</span></span>)・(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37.</span> <span class="blank">翻波(ほんぱ)</span></span>)式が特徴</li>
+        <li>密教仏：神護寺薬師如来像／室生寺弥勒堂薬師如来像／(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">38.</span> <span class="blank">観心寺如意輪観音像</span></span>)／(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">39.</span> <span class="blank">教王護国寺不動明王像</span></span>)</li>
+        <li>神像仏：薬師寺 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">40.</span> <span class="blank">僧形八幡神像</span></span>) ／神功皇后像</li>
+        <li>＜仏画＞（密教絵画）</li>
+        <li>(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">41.</span> <span class="blank">曼荼羅</span></span>)：教王護国寺 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">42.</span> <span class="blank">両界曼荼羅</span></span>)（金剛界・胎蔵界）</li>
+        <li>(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">43.</span> <span class="blank">園城寺不動明王像</span></span>)（黄不動）/高野山不動明王像（赤不動）</li>
+        <li>＜説話＞</li>
+        <li>『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">44.</span> <span class="blank">日本霊異記</span></span>』：薬師寺の僧 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">45.</span> <span class="blank">景戒</span></span>)が、仏教思想による因果応報譚などを記す。日本最古の仏教説話集</li>
+    </ul>
 
-        document.getElementById('pdfInput').addEventListener('change', async (e) => {
-            const files = Array.from(e.target.files);
 
-            for (const file of files) {
-                const arrayBuffer = await file.arrayBuffer();
+</div>
+    <div class="nav-links">
+        <a href="#" class="nav-link">← 前の範囲</a>
+        <a href="#" class="nav-link">次の範囲 →</a>
+    </div>
+    </main>
+</div>
 
-                const pdfLibDoc = await PDFLib.PDFDocument.load(arrayBuffer);
-                const pdfJsDoc = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+<button id="backToTop">↑</button>
 
-                for (let i = 1; i <= pdfJsDoc.numPages; i++) {
-                    const page = await pdfJsDoc.getPage(i);
-                    const viewport = page.getViewport({ scale: 0.3 });
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
 
-                    const canvas = document.createElement('canvas');
-                    const context = canvas.getContext('2d');
-
-                    canvas.height = viewport.height;
-                    canvas.width = viewport.width;
-
-                    await page.render({
-                        canvasContext: context,
-                        viewport
-                    }).promise;
-
-                    const pageId =
-                        'id-' + Math.random().toString(36).substr(2, 9);
-
-                    allPageData[pageId] = {
-                        pdfLibDoc,
-                        pageIndex: i - 1,
-                        canvas
-                    };
-
-                    addPageToDOM(pageId, i);
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
                 }
-            }
-
-            saveState();
-            controls.style.display = 'block';
-        });
-
-        function addPageToDOM(id, labelNum) {
-            const data = allPageData[id];
-
-            const card = document.createElement('div');
-            card.className = 'page-card';
-            card.dataset.id = id;
-
-            card.innerHTML = `
-                <div class="drag-handle">⠿</div>
-                <div style="font-size:10px;margin-bottom:5px;color:#666;">
-                    P.${labelNum}
-                </div>
-                <button class="btn btn-delete" onclick="removeCard('${id}')">
-                    削除
-                </button>
-            `;
-
-            const thumbCanvas = document.createElement('canvas');
-            thumbCanvas.width = data.canvas.width;
-            thumbCanvas.height = data.canvas.height;
-
-            thumbCanvas
-                .getContext('2d')
-                .drawImage(data.canvas, 0, 0);
-
-            card.prepend(thumbCanvas);
-            pageContainer.appendChild(card);
-        }
-
-        window.removeCard = (id) => {
-            const card = document.querySelector(`[data-id="${id}"]`);
-            if (card) {
-                card.remove();
-                saveState();
-            }
-        };
-
-        undoBtn.addEventListener('click', () => {
-            if (historyStack.length <= 1) return;
-
-            historyStack.pop();
-            const previousOrder = historyStack[historyStack.length - 1];
-
-            pageContainer.innerHTML = '';
-
-            previousOrder.forEach(id => {
-                addPageToDOM(id, "復元");
             });
-
-            undoBtn.disabled = historyStack.length <= 1;
         });
 
-        document.getElementById('downloadBtn')
-            .addEventListener('click', async () => {
-
-            const mergedPdf = await PDFLib.PDFDocument.create();
-            const cards = [...pageContainer.querySelectorAll('.page-card')];
-
-            if (cards.length === 0) {
-                alert("編集するページがありません。");
-                return;
-            }
-
-            for (const card of cards) {
-                const data = allPageData[card.dataset.id];
-
-                const [copiedPage] =
-                    await mergedPdf.copyPages(
-                        data.pdfLibDoc,
-                        [data.pageIndex]
-                    );
-
-                mergedPdf.addPage(copiedPage);
-            }
-
-            const pdfBytes = await mergedPdf.save();
-
-            const link = document.createElement('a');
-            link.href = URL.createObjectURL(
-                new Blob([pdfBytes], { type: 'application/pdf' })
-            );
-            link.download = 'edited_pdf.pdf';
-            link.click();
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
         });
-    </script>
 
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
+        });
+    });
+</script>
 </body>
 </html>
