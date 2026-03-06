@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>フェノール類｜高校化学の有機化学</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">有機化学トップへ</a>
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← ベンゼン</a>
+        <a href="#" class="nav-link">芳香族カルボン酸 →</a>
+    </div>
+    
+    <main>
+        <h1>フェノール類</h1>
+        
+        <section id="introduction">
+            <h2>1. フェノール類とは</h2>
+            <p>フェノール類は、芳香環(ベンゼン環)に直接ヒドロキシ基(-OH)が結合した化合物の総称である。</p>
+            <ul>
+                <li><strong>一般式:</strong> Ar-OH (Arはアリール基)</li>
+                <li><strong>最も簡単な化合物:</strong> フェノール (C₆H₅OH)</li>
+                <li><strong>特徴:</strong> 弱酸性を示す。アルコールとは異なる性質(酸性、配向性など)を持つ。</li>
+                <li><strong>命名法:</strong> ベンゼン環にOH基が直接結合していることを示す。
+                    <br>例：C₆H₅OH → フェノール
+                    <br>o-, m-, p-クレゾール (メチルフェノール)
+                    <br>カテコール (1,2-ジヒドロキシベンゼン)
+                    <br>レゾルシノール (1,3-ジヒドロキシベンゼン)
+                    <br>ハイドロキノン (1,4-ジヒドロキシベンゼン)</li>
+            </ul>
+        </section>
+
+        <section id="phenol-structure">
+            <h2>2. フェノールの構造と特性</h2>
+            
+            <h3>2.1 構造的特徴</h3>
+            <ul>
+                <li>OH基がベンゼン環に直接結合している。</li>
+                <li>酸素の非共有電子対がベンゼン環のπ電子系と共鳴し、安定化されている。</li>
+                <li>この共鳴のため、O-H結合の分極が大きくなり、酸性を示す。</li>
+            </ul>
+            
+            <h3>2.2 物理的性質</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の針状結晶(空気酸化で赤色に変色)、特有の刺激臭。</li>
+                <li><strong>融点:</strong> 43℃、<strong>沸点:</strong> 182℃</li>
+                <li><strong>溶解性:</strong> 水にやや溶ける(約8g/100mL, 60℃以上で任意混和)。エタノール、エーテルなどの有機溶媒に易溶。</li>
+                <li><strong>毒性:</strong> 強い毒性・腐食性を持つ(フェノールはタンパク質変性作用)。</li>
+            </ul>
+        </section>
+
+        <section id="acidity">
+            <h2>3. フェノールの酸性</h2>
+            
+            <h3>3.1 酸性を示す理由</h3>
+            <ul class="quiz-list">
+                <li>フェノールは弱酸性を示す(pKa = <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">10</span></span> 程度)。</li>
+                <li>フェノキシドイオン(C₆H₅O⁻)は、酸素の負電荷がベンゼン環全体に非局在化(共鳴安定化)するため、安定である。</li>
+                <li>アルコール(エタノールのpKa約16)より強い酸性を示す。</li>
+                <li>しかし、カルボン酸(pKa約4-5)よりは弱い酸性。</li>
+            </ul>
+            
+            <h3>3.2 酸性度の比較</h3>
+            <table>
+                <tr>
+                    <th>化合物</th>
+                    <th>pKa</th>
+                    <th>酸性の強さ</th>
+                </tr>
+                <tr>
+                    <td>酢酸 (CH₃COOH)</td>
+                    <td>4.76</td>
+                    <td>強い</td>
+                </tr>
+                <tr>
+                    <td>フェノール (C₆H₅OH)</td>
+                    <td>10.0</td>
+                    <td>中程度</td>
+                </tr>
+                <tr>
+                    <td>エタノール (C₂H₅OH)</td>
+                    <td>16</td>
+                    <td>弱い(ほとんど中性)</td>
+                </tr>
+                <tr>
+                    <td>水 (H₂O)</td>
+                    <td>14</td>
+                    <td>—</td>
+                </tr>
+            </table>
+            
+            <h3>3.3 置換基効果</h3>
+            <ul>
+                <li><strong>電子求引性基(-NO₂, -CN, -CHOなど):</strong> フェノールの酸性度を強める。
+                    <br>例: p-ニトロフェノール(pKa 7.2) > フェノール(pKa 10.0)</li>
+                <li><strong>電子供与性基(-CH₃, -OCH₃など):</strong> フェノールの酸性度を弱める。</li>
+                <li>特にo-位やp-位のニトロ基は効果が大きい(ピクリン酸: 2,4,6-トリニトロフェノールは強酸)。</li>
+            </ul>
+            
+            <h3>3.4 塩基との反応</h3>
+            <ul class="quiz-list">
+                <li>フェノールは水酸化ナトリウム(NaOH)と反応して、フェノキシドナトリウム(水溶性)を生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">C₆H₅OH + NaOH → C₆H₅ONa + H₂O</span></span></li>
+                <li>しかし、炭酸水素ナトリウム(NaHCO₃)とは反応しない(カルボン酸との区別点)。</li>
+                <li>炭酸ナトリウム(Na₂CO₃)とは反応してフェノキシドを生成するが、CO₂の発生はない。</li>
+            </ul>
+        </section>
+
+        <section id="preparation">
+            <h2>4. フェノールの製法</h2>
+            
+            <h3>4.1 クメン法(工業的製造法)</h3>
+            <ul class="quiz-list">
+                <li>現在最も重要な工業的製造法。ベンゼンとプロピレンからフェノールとアセトンを同時に製造する。</li>
+                <li><strong>工程1:</strong> ベンゼンとプロピレンからクメン(イソプロピルベンゼン)を合成。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">C₆H₆ + CH₃CH=CH₂ → C₆H₅CH(CH₃)₂</span></span></li>
+                <li><strong>工程2:</strong> クメンを空気酸化してクメンヒドロペルオキシドにする。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">C₆H₅CH(CH₃)₂ + O₂ → C₆H₅C(CH₃)₂OOH</span></span></li>
+                <li><strong>工程3:</strong> 希硫酸で分解すると、フェノールとアセトンが得られる。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">C₆H₅C(CH₃)₂OOH → C₆H₅OH + (CH₃)₂C=O</span></span></li>
+            </ul>
+            
+            <h3>4.2 ベンゼンスルホン酸のアルカリ融解</h3>
+            <ul class="quiz-list">
+                <li>古くから用いられた方法。ベンゼンをスルホン化してベンゼンスルホン酸とし、水酸化ナトリウムと共に融解(アルカリ融解)する。</li>
+                <li><strong>工程1:</strong> ベンゼンのスルホン化: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">C₆H₆ + H₂SO₄ → C₆H₅SO₃H + H₂O</span></span></li>
+                <li><strong>工程2:</strong> アルカリ融解: <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">C₆H₅SO₃H + 2NaOH → C₆H₅ONa + Na₂SO₃ + H₂O</span></span></li>
+                <li><strong>工程3:</strong> 酸で中和: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">2C₆H₅ONa + H₂SO₄ → 2C₆H₅OH + Na₂SO₄</span></span></li>
+            </ul>
+            
+            <h3>4.3 クロロベンゼンの加水分解</h3>
+            <ul class="quiz-list">
+                <li>クロロベンゼンを高温高圧下で水酸化ナトリウムと反応させる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">C₆H₅Cl + 2NaOH → C₆H₅ONa + NaCl + H₂O</span></span></li>
+                <li>その後、酸で中和してフェノールを得る。</li>
+            </ul>
+            
+            <h3>4.4 その他のフェノール類の合成</h3>
+            <ul>
+                <li><strong>レゾルシノール:</strong> ベンゼン-1,3-ジスルホン酸のアルカリ融解。</li>
+                <li><strong>ハイドロキノン:</strong> p-ベンゾキノンの還元。</li>
+                <li><strong>クレゾール:</strong> トルエンスルホン酸のアルカリ融解など。</li>
+            </ul>
+        </section>
+
+        <section id="reactions">
+            <h2>5. フェノールの化学反応</h2>
+            
+            <h3>5.1 ベンゼン環の求電子置換反応</h3>
+            <p>OH基は強いオルト・パラ配向性基であり、ベンゼン環を活性化する(電子供与性のため)。</p>
+            
+            <h4>ニトロ化</h4>
+            <ul class="quiz-list">
+                <li>希硝酸でニトロ化され、主にo-ニトロフェノールとp-ニトロフェノールを生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">C₆H₅OH + HNO₃ → o-,p-NO₂C₆H₄OH + H₂O</span></span></li>
+                <li>o-体は水蒸気蒸留で分離できる(分子内水素結合のため)。</li>
+            </ul>
+            
+            <h4>スルホン化</h4>
+            <ul class="quiz-list">
+                <li>濃硫酸と反応し、主にo-フェノールスルホン酸とp-フェノールスルホン酸を生成。</li>
+                <li>温度によって生成比が変化する(低温でo-体、高温でp-体が主生成物)。</li>
+            </ul>
+            
+            <h4>ハロゲン化</h4>
+            <ul class="quiz-list">
+                <li>触媒なしで臭素水と反応し、2,4,6-トリブロモフェノール(白色沈殿)を生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">C₆H₅OH + 3Br₂ → Br₃C₆H₂OH↓ + 3HBr</span></span></li>
+                <li>この反応はフェノールの定性反応に利用される。</li>
+            </ul>
+            
+            <h4>フリーデル・クラフツ反応</h4>
+            <ul>
+                <li>OH基がAlCl₃と反応するため、通常の条件ではフリーデル・クラフツ反応は起こりにくい。</li>
+            </ul>
+            
+            <h3>5.2 OH基の反応</h3>
+            
+            <h4>エステル化</h4>
+            <ul class="quiz-list">
+                <li>カルボン酸との直接エステル化は困難(フェノールのOH基の反応性が低いため)。</li>
+                <li>酸塩化物や酸無水物とは反応してエステルを生成する。</li>
+                <li>例(サリチル酸のアセチル化): <span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">o-HOC₆H₄COOH + (CH₃CO)₂O → o-CH₃COOC₆H₄COOH + CH₃COOH</span></span>(アスピリン合成)</li>
+            </ul>
+            
+            <h4>エーテル化(ウィリアムソン合成)</h4>
+            <ul class="quiz-list">
+                <li>フェノキシドとハロゲン化アルキルからエーテルを合成。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">C₆H₅ONa + R-X → C₆H₅OR + NaX</span></span></li>
+                <li>例: アニソール(メトキシベンゼン)の合成。</li>
+            </ul>
+            
+            <h3>5.3 特異な反応</h3>
+            
+            <h4>塩化鉄(III)呈色反応</h4>
+            <ul class="quiz-list">
+                <li>フェノール類は塩化鉄(III)水溶液と反応して、赤紫〜青紫色を呈する。</li>
+                <li>これはフェノール類の定性反応として重要。</li>
+                <li>反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">3C₆H₅OH + FeCl₃ → [Fe(OC₆H₅)₆]³⁻ 錯体(呈色)</span></span></li>
+            </ul>
+            
+            <h4>フタレイン反応</h4>
+            <ul class="quiz-list">
+                <li>フェノールと無水フタル酸を濃硫酸と共に加熱すると、フタレイン系色素を生成する。</li>
+                <li>例: フェノールフタレイン(酸塩基指示薬)の合成。</li>
+            </ul>
+            
+            <h4>アゾカップリング</h4>
+            <ul class="quiz-list">
+                <li>フェノールはジアゾニウム塩とカップリングしてアゾ色素を生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">C₆H₅OH + Ar-N₂⁺ → HO-C₆H₄-N=N-Ar + H⁺</span></span></li>
+                <li>主にp-位にアゾ基が結合する。</li>
+            </ul>
+            
+            <h4>酸化反応</h4>
+            <ul class="quiz-list">
+                <li>フェノールは酸化されやすく、空気酸化で赤色〜褐色に変色する。</li>
+                <li>強力な酸化剤で処理すると、p-ベンゾキノンなどを生成する。</li>
+                <li>ハイドロキノンは可逆的に酸化され、p-ベンゾキノンになる(写真の現像液)。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">C₆H₄(OH)₂ ⇄ C₆H₄O₂ + 2H⁺ + 2e⁻</span></span></li>
+            </ul>
+        </section>
+
+        <section id="important-phenols">
+            <h2>6. 重要なフェノール類</h2>
+            
+            <h3>6.1 一価フェノール</h3>
+            <table>
+                <tr>
+                    <th>名称</th>
+                    <th>構造式</th>
+                    <th>融点(℃)</th>
+                    <th>特徴・用途</th>
+                </tr>
+                <tr>
+                    <td>フェノール</td>
+                    <td>C₆H₅OH</td>
+                    <td>43</td>
+                    <td>フェノール樹脂原料、消毒剤</td>
+                </tr>
+                <tr>
+                    <td>o-クレゾール</td>
+                    <td>o-CH₃C₆H₄OH</td>
+                    <td>30</td>
+                    <td>消毒剤(クレゾール石鹸液)、合成原料</td>
+                </tr>
+                <tr>
+                    <td>m-クレゾール</td>
+                    <td>m-CH₃C₆H₄OH</td>
+                    <td>11</td>
+                    <td>消毒剤、合成原料</td>
+                </tr>
+                <tr>
+                    <td>p-クレゾール</td>
+                    <td>p-CH₃C₆H₄OH</td>
+                    <td>35</td>
+                    <td>消毒剤、合成原料</td>
+                </tr>
+                <tr>
+                    <td>チモール</td>
+                    <td>2-イソプロピル-5-メチルフェノール</td>
+                    <td>51</td>
+                    <td>香料(タイム)、防腐剤、殺菌剤</td>
+                </tr>
+            </table>
+            
+            <h3>6.2 二価フェノール</h3>
+            <table>
+                <tr>
+                    <th>名称</th>
+                    <th>構造式</th>
+                    <th>融点(℃)</th>
+                    <th>特徴・用途</th>
+                </tr>
+                <tr>
+                    <td>カテコール(1,2-ジヒドロキシベンゼン)</td>
+                    <td>o-C₆H₄(OH)₂</td>
+                    <td>105</td>
+                    <td>還元性、写真現像液、医薬品中間体</td>
+                </tr>
+                <tr>
+                    <td>レゾルシノール(1,3-ジヒドロキシベンゼン)</td>
+                    <td>m-C₆H₄(OH)₂</td>
+                    <td>110</td>
+                    <td>防腐剤、染料中間体</td>
+                </tr>
+                <tr>
+                    <td>ハイドロキノン(1,4-ジヒドロキシベンゼン)</td>
+                    <td>p-C₆H₄(OH)₂</td>
+                    <td>172</td>
+                    <td>還元性、写真現像液、酸化防止剤</td>
+                </tr>
+            </table>
+            
+            <h3>6.3 三価フェノール</h3>
+            <table>
+                <tr>
+                    <th>名称</th>
+                    <th>構造式</th>
+                    <th>融点(℃)</th>
+                    <th>特徴・用途</th>
+                </tr>
+                <tr>
+                    <td>ピロガロール(1,2,3-トリヒドロキシベンゼン)</td>
+                    <td>1,2,3-C₆H₃(OH)₃</td>
+                    <td>133</td>
+                    <td>強還元性、写真現像液、ガス分析(O₂吸収剤)</td>
+                </tr>
+                <tr>
+                    <td>ヒドロキシヒドロキノン(1,2,4-トリヒドロキシベンゼン)</td>
+                    <td>1,2,4-C₆H₃(OH)₃</td>
+                    <td>140</td>
+                    <td>染料中間体</td>
+                </tr>
+                <tr>
+                    <td>フロログルシン(1,3,5-トリヒドロキシベンゼン)</td>
+                    <td>1,3,5-C₆H₃(OH)₃</td>
+                    <td>219</td>
+                    <td>染料中間体、分析試薬</td>
+                </tr>
+            </table>
+            
+            <h3>6.4 その他の重要なフェノール誘導体</h3>
+            <ul>
+                <li><strong>サリチル酸 (o-ヒドロキシ安息香酸):</strong> アスピリンの原料、外用薬。</li>
+                <li><strong>p-アミノフェノール:</strong> 写真現像液(メトール)の原料。</li>
+                <li><strong>ピクリン酸 (2,4,6-トリニトロフェノール):</strong> 黄色結晶、爆薬、強酸。</li>
+                <li><strong>ビスフェノールA:</strong> ポリカーボネート樹脂、エポキシ樹脂の原料。</li>
+                <li><strong>フェノールフタレイン:</strong> 酸塩基指示薬(無色⇄赤紫色)。</li>
+                <li><strong>チモールフタレイン:</strong> 酸塩基指示薬。</li>
+            </ul>
+        </section>
+
+        <section id="identification">
+            <h2>7. フェノール類の検出・確認方法</h2>
+            
+            <h3>7.1 塩化鉄(III)呈色反応</h3>
+            <ul>
+                <li>フェノール類に塩化鉄(III)水溶液を加えると、赤紫〜青紫色を呈する。</li>
+                <li>フェノール: 赤紫色、クレゾール: 青色、サリチル酸: 赤紫色など。</li>
+                <li>エノール型を持つ化合物(アセチルアセトンなど)も呈色する。</li>
+            </ul>
+            
+            <h3>7.2 臭素水反応</h3>
+            <ul>
+                <li>フェノールに臭素水を加えると、2,4,6-トリブロモフェノールの白色沈殿を生じる。</li>
+                <li>アニリンも同様の反応を示す(2,4,6-トリブロモアニリンの沈殿)。</li>
+            </ul>
+            
+            <h3>7.3 炭酸水素ナトリウム試験</h3>
+            <ul>
+                <li>フェノールはNaHCO₃と反応しない(カルボン酸との区別)。</li>
+                <li>ピクリン酸(強酸性)は例外として反応する。</li>
+            </ul>
+            
+            <h3>7.4 赤外吸収スペクトル(IR)</h3>
+            <ul>
+                <li>O-H伸縮振動: 3200-3500 cm⁻¹(広幅、水素結合)</li>
+                <li>C-O伸縮振動: 1200-1300 cm⁻¹(アルコールより高波数)</li>
+                <li>芳香環の吸収: 1600, 1500 cm⁻¹</li>
+            </ul>
+            
+            <h3>7.5 核磁気共鳴スペクトル(NMR)</h3>
+            <ul>
+                <li>¹H-NMR: OHプロトンは4-8 ppm(濃度・温度により変動)</li>
+                <li>芳香族プロトンはOH基の影響でシフト</li>
+            </ul>
+        </section>
+
+        <section id="applications">
+            <h2>8. フェノール類の応用・工業的利用</h2>
+            
+            <h3>8.1 樹脂原料</h3>
+            <ul>
+                <li><strong>フェノール樹脂(ベークライト):</strong> フェノールとホルムアルデヒドの重縮合物。耐熱性、電気絶縁性に優れる。電化製品、食器、接着剤。</li>
+                <li><strong>ポリカーボネート:</strong> ビスフェノールAとホスゲンの重縮合物。透明性、耐衝撃性に優れる。CD、DVD、眼鏡レンズ。</li>
+                <li><strong>エポキシ樹脂:</strong> ビスフェノールAとエピクロロヒドリンの重合物。接着剤、塗料。</li>
+            </ul>
+            
+            <h3>8.2 医薬品・殺菌剤</h3>
+            <ul>
+                <li><strong>フェノール:</strong> 消毒剤(石炭酸)。現在は希釈して使用。</li>
+                <li><strong>クレゾール:</strong> クレゾール石鹸液(消毒剤)。</li>
+                <li><strong>サリチル酸:</strong> 外用薬(角質軟化剤)、アスピリン原料。</li>
+                <li><strong>チモール:</strong> 殺菌剤、うがい薬、歯磨き粉。</li>
+                <li><strong>ヘキサクロロフェン:</strong> 殺菌剤(かつて石鹸に配合)。</li>
+            </ul>
+            
+            <h3>8.3 染料・色素原料</h3>
+            <ul>
+                <li>フェノールフタレイン(指示薬)</li>
+                <li>アゾ染料(フェノールとジアゾニウム塩のカップリング)</li>
+                <li>フルオレセイン(蛍光色素)</li>
+            </ul>
+            
+            <h3>8.4 写真現像液</h3>
+            <ul>
+                <li>ハイドロキノン、カテコール、ピロガロール(還元性を利用)。</li>
+                <li>メトール(p-メチルアミノフェノール硫酸塩)。</li>
+            </ul>
+            
+            <h3>8.5 酸化防止剤</h3>
+            <ul>
+                <li>ハイドロキノン、BHT(ブチルヒドロキシトルエン)などがゴム、プラスチック、食品の酸化防止剤として使用される。</li>
+            </ul>
+            
+            <h3>8.6 その他</h3>
+            <ul>
+                <li><strong>ピクリン酸:</strong> 爆薬(かつて)、染料。</li>
+                <li><strong>カプサイシン:</strong> トウガラシの辛味成分(フェノール性OHを持つ)。</li>
+                <li><strong>ウルシオール:</strong> 漆の主成分(カテコール誘導体)。</li>
+            </ul>
+        </section>
+
+        <section id="comparison">
+            <h2>9. アルコール・フェノール・カルボン酸の比較</h2>
+            <table>
+                <tr>
+                    <th>性質</th>
+                    <th>アルコール (R-OH)</th>
+                    <th>フェノール (Ar-OH)</th>
+                    <th>カルボン酸 (R-COOH)</th>
+                </tr>
+                <tr>
+                    <td><strong>pKa</strong></td>
+                    <td>約16</td>
+                    <td>約10</td>
+                    <td>約4-5</td>
+                </tr>
+                <tr>
+                    <td><strong>NaOHとの反応</strong></td>
+                    <td>反応する</td>
+                    <td>反応する</td>
+                    <td>反応する</td>
+                </tr>
+                <tr>
+                    <td><strong>NaHCO₃との反応</strong></td>
+                    <td>反応しない</td>
+                    <td>反応しない(ピクリン酸除く)</td>
+                    <td>CO₂発生</td>
+                </tr>
+                <tr>
+                    <td><strong>FeCl₃呈色反応</strong></td>
+                    <td>なし</td>
+                    <td>呈色(紫〜赤紫)</td>
+                    <td>なし(ギ酸・酢酸は褐色)</td>
+                </tr>
+                <tr>
+                    <td><strong>臭素水反応</strong></td>
+                    <td>なし</td>
+                    <td>白色沈殿(トリブロモ体)</td>
+                    <td>なし</td>
+                </tr>
+                <tr>
+                    <td><strong>エステル化</strong></td>
+                    <td>酸触媒で容易</td>
+                    <td>酸触媒では困難</td>
+                    <td>アルコールと反応</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="environmental">
+            <h2>10. 環境問題と毒性</h2>
+            
+            <h3>10.1 毒性</h3>
+            <ul>
+                <li><strong>フェノール:</strong> 強い毒性・腐食性。皮膚に付着すると火傷様の傷害。経口摂取で致死。</li>
+                <li><strong>クレゾール:</strong> フェノールと同様の毒性。</li>
+                <li><strong>ハイドロキノン:</strong> 皮膚刺激性、経口毒性。</li>
+                <li><strong>ピロガロール:</strong> 毒性が強い。</li>
+                <li><strong>ビスフェノールA:</strong> 内分泌かく乱物質(環境ホルモン)として疑われている。</li>
+            </ul>
+            
+            <h3>10.2 環境基準</h3>
+            <ul>
+                <li>フェノール類は水質汚濁物質として環境基準が定められている。</li>
+                <li>水道水の水質基準: フェノール類として0.005 mg/L以下。</li>
+            </ul>
+            
+            <h3>10.3 安全な取り扱い</h3>
+            <ul>
+                <li>ドラフト内で使用し、皮膚への接触を避ける(保護手袋・保護メガネ必須)。</li>
+                <li>皮膚に付着した場合は多量の水で洗い流し、ポリエチレングリコールで処理する。</li>
+                <li>適切な廃棄処理(有害廃棄物として)。</li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>11. 重要反応のまとめ(暗記用)</h2>
+            <ul class="quiz-list">
+                <li>フェノール + NaOH: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">C₆H₅OH + NaOH → C₆H₅ONa + H₂O</span></span></li>
+                <li>フェノール + 臭素水: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">C₆H₅OH + 3Br₂ → Br₃C₆H₂OH↓ + 3HBr</span></span></li>
+                <li>フェノール + FeCl₃: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">赤紫色呈色</span></span></li>
+                <li>フェノール + 希硝酸: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">o-ニトロフェノール + p-ニトロフェノール</span></span></li>
+                <li>フェノール + ジアゾニウム塩: <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">アゾ色素(橙〜赤色)</span></span></li>
+                <li>フェノキシド + ハロゲン化アルキル(ウィリアムソン合成): <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">C₆H₅ONa + R-X → C₆H₅OR + NaX</span></span></li>
+                <li>クメン法(全体): <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">C₆H₆ + CH₃CH=CH₂ → クメン → クメンヒドロペルオキシド → C₆H₅OH + (CH₃)₂C=O</span></span></li>
+                <li>ハイドロキノンの酸化: <span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">C₆H₄(OH)₂ ⇄ C₆H₄O₂ + 2H⁺ + 2e⁻</span></span></li>
+            </ul>
+        </section>
+
+        <section id="exercises">
+            <h2>12. 確認問題</h2>
+            <ol style="list-style-type: decimal; padding-left: 20px;">
+                <li>フェノールがアルコールよりも強い酸性を示す理由を、共鳴を用いて説明せよ。</li>
+                <li>フェノールとエタノールの性質の違いを、次の項目について比較せよ。(a)酸性 (b)塩化鉄(III)反応 (c)臭素水反応</li>
+                <li>フェノールに臭素水を加えたときの反応式を示し、生成物の色と状態を答えよ。</li>
+                <li>クメン法によるフェノールの工業的製造法を、化学反応式を用いて説明せよ。</li>
+                <li>フェノールと炭酸水素ナトリウム、炭酸ナトリウム、水酸化ナトリウムとの反応をそれぞれ説明せよ。</li>
+                <li>ハイドロキノンの性質と用途を述べよ。また、酸化生成物の名称と構造式を示せ。</li>
+                <li>サリチル酸からアスピリンを合成する反応式を示せ。</li>
+                <li>フェノール類の検出法を2つ挙げ、その原理を説明せよ。</li>
+                <li>ビスフェノールAの構造式と主な用途を述べよ。</li>
+                <li>フェノールとホルムアルデヒドから合成される樹脂の名称と特徴を述べよ。</li>
+            </ol>
+        </section>
+        
+        <div class="nav-links" style="margin-top: 40px;">
+            <a href="#" class="nav-link">← ベンゼン</a>
+            <a href="#" class="nav-link">芳香族カルボン酸 →</a>
+        </div>
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
