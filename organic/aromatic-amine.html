@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>芳香族アミン｜高校化学の有機化学</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">有機化学トップへ</a>
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← 芳香族カルボン酸</a>
+        <span style="color: #6c757d;">有機化学 完</span>
+    </div>
+    
+    <main>
+        <h1>芳香族アミン</h1>
+        
+        <section id="introduction">
+            <h2>1. 芳香族アミンとは</h2>
+            <p>芳香族アミンは、芳香環(ベンゼン環など)に直接アミノ基(-NH₂)が結合した化合物の総称である。</p>
+            <ul>
+                <li><strong>一般式:</strong> Ar-NH₂ (Arはアリール基)</li>
+                <li><strong>最も簡単な化合物:</strong> アニリン (C₆H₅NH₂)</li>
+                <li><strong>特徴:</strong> 塩基性を示すが、脂肪族アミンより弱い。アミノ基は強いオルト・パラ配向性で、ベンゼン環を活性化する。</li>
+                <li><strong>命名法:</strong> 芳香族炭化水素の名前に「アミン」をつけるか、「アミノ」を前置する。
+                    <br>例：C₆H₅NH₂ → アニリン(ベンゼンアミン)
+                    <br>o-, m-, p-トルイジン (メチルアニリン)
+                    <br>o-フェニレンジアミン (1,2-ジアミノベンゼン)</li>
+            </ul>
+        </section>
+
+        <section id="aniline">
+            <h2>2. アニリン (C₆H₅NH₂)</h2>
+            
+            <h3>2.1 物理的性質</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の油状液体(空気酸化で赤褐色に変色)、特有の芳香臭。</li>
+                <li><strong>融点:</strong> -6℃、<strong>沸点:</strong> 184℃</li>
+                <li><strong>溶解性:</strong> 水にやや溶ける(約3.4g/100mL)。エタノール、エーテル、ベンゼンなどの有機溶媒に易溶。</li>
+                <li><strong>毒性:</strong> 強い毒性を持つ。吸入・経皮吸収に注意。</li>
+            </ul>
+            
+            <h3>2.2 塩基性</h3>
+            <ul class="quiz-list">
+                <li>アニリンは弱い塩基性を示す。pKb = <span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">9.4</span></span> (対応する酸の共役酸pKa = 4.6)。</li>
+                <li>脂肪族アミン(例: メチルアミン pKb 3.4)より弱い塩基。</li>
+                <li>理由: 窒素の非共有電子対がベンゼン環と共鳴し、非局在化するため。</li>
+                <li>酸と反応して塩を生成する: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">C₆H₅NH₂ + HCl → C₆H₅NH₃⁺Cl⁻</span></span> (アニリン塩酸塩)</li>
+                <li>アニリン塩酸塩は水溶性の結晶。</li>
+            </ul>
+            
+            <h3>2.3 アニリンの製法</h3>
+            <ul class="quiz-list">
+                <li><strong>ニトロベンゼンの還元:</strong> 最も一般的な工業的製法。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O</span></span></li>
+                <li>還元剤: 鉄と塩酸(ベッチェン法)、スズと塩酸、接触水素化(工業的)など。</li>
+                <li>実験室的には、スズと塩酸を用いる方法が代表的。</li>
+            </ul>
+        </section>
+
+        <section id="aniline-reactions">
+            <h2>3. アニリンの化学反応</h2>
+            
+            <h3>3.1 アミノ基の反応</h3>
+            
+            <h4>塩の生成</h4>
+            <ul class="quiz-list">
+                <li>酸と反応してアニリン塩(水溶性)を生成。</li>
+                <li>アニリン塩酸塩: <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">C₆H₅NH₂ + HCl → C₆H₅NH₃Cl</span></span></li>
+                <li>アニリン硫酸塩: <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">2C₆H₅NH₂ + H₂SO₄ → (C₆H₅NH₃)₂SO₄</span></span></li>
+            </ul>
+            
+            <h4>アシル化(アセチル化)</h4>
+            <ul class="quiz-list">
+                <li>無水酢酸や塩化アセチルと反応してアセトアニリドを生成。</li>
+                <li>反応式(無水酢酸): <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">C₆H₅NH₂ + (CH₃CO)₂O → C₆H₅NHCOCH₃ + CH₃COOH</span></span></li>
+                <li>反応式(塩化アセチル): <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">C₆H₅NH₂ + CH₃COCl → C₆H₅NHCOCH₃ + HCl</span></span></li>
+                <li>アセトアニリドは融点114℃の結晶。アミノ基の保護に利用される。</li>
+            </ul>
+            
+            <h4>アルキル化</h4>
+            <ul>
+                <li>ハロゲン化アルキルと反応して、第二級、第三級アミンを生成。</li>
+                <li>過剰に反応させると四級アンモニウム塩になる。</li>
+            </ul>
+            
+            <h4>アニリンと亜硝酸の反応(ジアゾ化)</h4>
+            <ul class="quiz-list">
+                <li>最も重要な反応の一つ。亜硝酸(亜硝酸ナトリウム+塩酸)と低温(0〜5℃)で反応させると、ベンゼンジアゾニウム塩を生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">C₆H₅NH₂ + HNO₂ + HCl → C₆H₅N₂⁺Cl⁻ + 2H₂O</span></span></li>
+                <li>ジアゾニウム塩は不安定で、低温でのみ存在。乾燥させると爆発する危険性がある。</li>
+            </ul>
+            
+            <h3>3.2 ベンゼン環の反応</h3>
+            <p>アミノ基は強いオルト・パラ配向性で、ベンゼン環を著しく活性化する。</p>
+            
+            <h4>ハロゲン化</h4>
+            <ul class="quiz-list">
+                <li>アニリンに臭素水を加えると、2,4,6-トリブロモアニリンの白色沈殿を生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">C₆H₅NH₂ + 3Br₂ → Br₃C₆H₂NH₂↓ + 3HBr</span></span></li>
+                <li>この反応はアニリンの定性反応として重要。</li>
+            </ul>
+            
+            <h4>ニトロ化</h4>
+            <ul>
+                <li>直接ニトロ化すると、アミノ基が酸化されたり、強酸と塩を作ったりするため、通常はアセチル化して保護した後ニトロ化する。</li>
+                <li>アセトアニリドのニトロ化では、主にp-ニトロアセトアニリドが生成し、加水分解するとp-ニトロアニリンが得られる。</li>
+            </ul>
+            
+            <h4>スルホン化</h4>
+            <ul>
+                <li>アニリンを濃硫酸と加熱すると、スルファニル酸(p-アミノベンゼンスルホン酸)が生成する。</li>
+                <li>スルファニル酸は双性イオンとして存在する。</li>
+            </ul>
+        </section>
+
+        <section id="diazonium">
+            <h2>4. ジアゾニウム塩の反応</h2>
+            <p>ベンゼンジアゾニウム塩は、様々な芳香族化合物の合成中間体として極めて重要である。</p>
+            
+            <h3>4.1 ジアゾニウム塩の生成</h3>
+            <ul>
+                <li>第一級芳香族アミンを亜硝酸ナトリウムと塩酸で0〜5℃に冷却して処理する(ジアゾ化)。</li>
+                <li>生成したジアゾニウム塩は溶液中でのみ安定。乾燥すると爆発性。</li>
+            </ul>
+            
+            <h3>4.2 アゾカップリング(アゾ色素の合成)</h3>
+            <ul class="quiz-list">
+                <li>ジアゾニウム塩は、フェノールや芳香族アミンとカップリングしてアゾ化合物を生成する。</li>
+                <li>フェノールとの反応(弱アルカリ性): <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">C₆H₅N₂⁺ + C₆H₅OH → HO-C₆H₄-N=N-C₆H₅ + H⁺</span></span></li>
+                <li>芳香族アミンとの反応(弱酸性): <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">C₆H₅N₂⁺ + C₆H₅NH₂ → H₂N-C₆H₄-N=N-C₆H₅ + H⁺</span></span></li>
+                <li>生成するアゾ化合物は、橙〜赤色の色素(アゾ色素)で、染料として重要。</li>
+                <li>代表例: メチルオレンジ(pH指示薬)、コンゴーレッド(染料)、アゾベンゼンなど。</li>
+            </ul>
+            
+            <h3>4.3 置換反応(ジアゾ基の置換)</h3>
+            <p>ジアゾニウム塩の -N₂⁺ 基は、様々な求核剤で置換され、多様な芳香族化合物を合成できる。</p>
+            
+            <ul class="quiz-list">
+                <li><strong>フェノールの合成:</strong> ジアゾニウム塩水溶液を加熱すると、フェノールが生成する。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">C₆H₅N₂⁺ + H₂O → C₆H₅OH + N₂↑ + H⁺</span></span></li>
+                <li><strong>ヨウ化ベンゼンの合成:</strong> ヨウ化カリウムと反応。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">C₆H₅N₂⁺ + KI → C₆H₅I + N₂↑ + K⁺</span></span></li>
+                <li><strong>ベンゾニトリルの合成:</strong> シアン化銅(I)と反応。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">C₆H₅N₂⁺ + CuCN → C₆H₅CN + N₂↑ + Cu⁺</span></span></li>
+                <li><strong>ベンゼンの合成(還元):</strong> 次亜リン酸などで還元。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">C₆H₅N₂⁺ + H₃PO₂ + H₂O → C₆H₆ + N₂↑ + H₃PO₃ + H⁺</span></span></li>
+                <li><strong>クロロベンゼン・ブロモベンゼンの合成:</strong> 塩化銅(I)・臭化銅(I)と反応(ザンドマイヤー反応)。</li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">C₆H₅N₂⁺ + CuCl → C₆H₅Cl + N₂↑ + Cu⁺</span></span></li>
+                <li><span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">C₆H₅N₂⁺ + CuBr → C₆H₅Br + N₂↑ + Cu⁺</span></span></li>
+            </ul>
+        </section>
+
+        <section id="important-amines">
+            <h2>5. 重要な芳香族アミン</h2>
+            
+            <h3>5.1 アニリン誘導体</h3>
+            <table>
+                <tr>
+                    <th>名称</th>
+                    <th>構造式</th>
+                    <th>融点(℃)</th>
+                    <th>特徴・用途</th>
+                </tr>
+                <tr>
+                    <td>アニリン</td>
+                    <td>C₆H₅NH₂</td>
+                    <td>-6</td>
+                    <td>染料中間体、医薬品原料</td>
+                </tr>
+                <tr>
+                    <td>o-トルイジン</td>
+                    <td>o-CH₃C₆H₄NH₂</td>
+                    <td>-24</td>
+                    <td>染料中間体</td>
+                </tr>
+                <tr>
+                    <td>m-トルイジン</td>
+                    <td>m-CH₃C₆H₄NH₂</td>
+                    <td>-30</td>
+                    <td>染料中間体</td>
+                </tr>
+                <tr>
+                    <td>p-トルイジン</td>
+                    <td>p-CH₃C₆H₄NH₂</td>
+                    <td>45</td>
+                    <td>染料中間体</td>
+                </tr>
+                <tr>
+                    <td>o-ニトロアニリン</td>
+                    <td>o-NO₂C₆H₄NH₂</td>
+                    <td>71</td>
+                    <td>橙色結晶、染料中間体</td>
+                </tr>
+                <tr>
+                    <td>m-ニトロアニリン</td>
+                    <td>m-NO₂C₆H₄NH₂</td>
+                    <td>114</td>
+                    <td>黄色結晶、染料中間体</td>
+                </tr>
+                <tr>
+                    <td>p-ニトロアニリン</td>
+                    <td>p-NO₂C₆H₄NH₂</td>
+                    <td>148</td>
+                    <td>黄色結晶、染料中間体</td>
+                </tr>
+                <tr>
+                    <td>N-メチルアニリン</td>
+                    <td>C₆H₅NHCH₃</td>
+                    <td>-57</td>
+                    <td>第二級アミン、染料中間体</td>
+                </tr>
+                <tr>
+                    <td>N,N-ジメチルアニリン</td>
+                    <td>C₆H₅N(CH₃)₂</td>
+                    <td>2</td>
+                    <td>第三級アミン、染料中間体、メチルオレンジ原料</td>
+                </tr>
+            </table>
+            
+            <h3>5.2 ジアミン</h3>
+            <table>
+                <tr>
+                    <th>名称</th>
+                    <th>構造式</th>
+                    <th>融点(℃)</th>
+                    <th>特徴・用途</th>
+                </tr>
+                <tr>
+                    <td>o-フェニレンジアミン</td>
+                    <td>1,2-C₆H₄(NH₂)₂</td>
+                    <td>102</td>
+                    <td>染料中間体</td>
+                </tr>
+                <tr>
+                    <td>m-フェニレンジアミン</td>
+                    <td>1,3-C₆H₄(NH₂)₂</td>
+                    <td>63</td>
+                    <td>染料中間体、エポキシ樹脂硬化剤</td>
+                </tr>
+                <tr>
+                    <td>p-フェニレンジアミン</td>
+                    <td>1,4-C₆H₄(NH₂)₂</td>
+                    <td>140</td>
+                    <td>染料(毛髪染料)、アラミド繊維原料</td>
+                </tr>
+                <tr>
+                    <td>ベンジジン</td>
+                    <td>p,p'-C₆H₄-C₆H₄-(NH₂)₂</td>
+                    <td>128</td>
+                    <td>染料中間体(現在は発がん性のため使用制限)</td>
+                </tr>
+            </table>
+            
+            <h3>5.3 その他の重要な芳香族アミン</h3>
+            <ul>
+                <li><strong>アセトアニリド (C₆H₅NHCOCH₃):</strong> アニリンのアセチル化物。解熱鎮痛薬(かつて使用)、アニリンの保護基。</li>
+                <li><strong>スルファニル酸 (p-NH₂C₆H₄SO₃H):</strong> 双性イオン。サルファ剤の原料。</li>
+                <li><strong>スルファミン酸 (スルファニルアミド, p-NH₂C₆H₄SO₂NH₂):</strong> サルファ剤(抗菌薬)の一種。</li>
+                <li><strong>p-アミノフェノール (p-HOC₆H₄NH₂):</strong> 写真現像液(メトール)の原料、アセトアミノフェン(解熱鎮痛薬)の原料。</li>
+                <li><strong>アントラニル酸 (o-NH₂C₆H₄COOH):</strong> o-アミノ安息香酸。染料・医薬品中間体。</li>
+                <li><strong>α-ナフチルアミン (C₁₀H₇NH₂):</strong> 染料中間体(発がん性あり)。</li>
+                <li><strong>β-ナフチルアミン (C₁₀H₇NH₂):</strong> 染料中間体(強い発がん性のため現在は使用禁止)。</li>
+            </ul>
+        </section>
+
+        <section id="diazo-dyes">
+            <h2>6. アゾ色素と染料</h2>
+            
+            <h3>6.1 アゾ色素の特徴</h3>
+            <ul>
+                <li>-N=N- アゾ基を持つ化合物。多くが黄〜赤〜青色を示す。</li>
+                <li>芳香族アミンのジアゾ化とカップリングで合成される。</li>
+                <li>合成が容易で、多様な色調が得られるため、合成染料の約半数を占める。</li>
+            </ul>
+            
+            <h3>6.2 代表的なアゾ色素</h3>
+            <table>
+                <tr>
+                    <th>名称</th>
+                    <th>成分</th>
+                    <th>色</th>
+                    <th>用途</th>
+                </tr>
+                <tr>
+                    <td>メチルオレンジ</td>
+                    <td>p-ジメチルアミノアゾベンゼン-p'-スルホン酸ナトリウム</td>
+                    <td>橙(酸で赤)</td>
+                    <td>pH指示薬(変色域3.1〜4.4)</td>
+                </tr>
+                <tr>
+                    <td>メチルレッド</td>
+                    <td>p-ジメチルアミノアゾベンゼン-o'-カルボン酸</td>
+                    <td>赤(酸で赤)</td>
+                    <td>pH指示薬(変色域4.4〜6.2)</td>
+                </tr>
+                <tr>
+                    <td>コンゴーレッド</td>
+                    <td>ベンジジン誘導体のアゾ色素</td>
+                    <td>赤</td>
+                    <td>染料、pH指示薬(酸で青)</td>
+                </tr>
+                <tr>
+                    <td>アゾベンゼン</td>
+                    <td>C₆H₅-N=N-C₆H₅</td>
+                    <td>橙赤色</td>
+                    <td>モデル化合物</td>
+                </tr>
+                <tr>
+                    <td>p-アミノアゾベンゼン</td>
+                    <td>H₂N-C₆H₄-N=N-C₆H₅</td>
+                    <td>黄色</td>
+                    <td>染料(アニリンイエロー)</td>
+                </tr>
+            </ul>
+            
+            <h3>6.3 その他の染料</h3>
+            <ul>
+                <li><strong>インジゴ(インディゴ):</strong> 藍色染料。天然には藍から得られる。現在は合成。</li>
+                <li><strong>アリザリン:</strong> 赤色染料。セイヨウアカネの根から得られる。現在は合成。</li>
+                <li><strong>フタロシアニン:</strong> 銅フタロシアニンは鮮やかな青色顔料。</li>
+            </ul>
+        </section>
+
+        <section id="identification">
+            <h2>7. 芳香族アミンの検出・確認方法</h2>
+            
+            <h3>7.1 塩基性の確認</h3>
+            <ul>
+                <li>酸に溶けて塩を生成する。</li>
+                <li>アニリンは希塩酸に溶ける(塩酸アニリンの生成)。</li>
+            </ul>
+            
+            <h3>7.2 臭素水反応</h3>
+            <ul>
+                <li>アニリンに臭素水を加えると、2,4,6-トリブロモアニリンの白色沈殿を生じる。</li>
+                <li>フェノール類も同様の反応を示す。</li>
+            </ul>
+            
+            <h3>7.3 ジアゾ化とカップリング</h3>
+            <ul>
+                <li>第一級芳香族アミンを亜硝酸ナトリウム+塩酸で処理(0〜5℃)した後、β-ナフトールのアルカリ溶液を加えると、赤〜橙色のアゾ色素を生成する。</li>
+                <li>この反応は第一級芳香族アミンの特異的な検出法。</li>
+            </ul>
+            
+            <h3>7.4 アセチル化</h3>
+            <ul>
+                <li>無水酢酸と反応させ、アセチル化物の融点測定で同定できる。</li>
+                <li>アセトアニリド(融点114℃)など。</li>
+            </ul>
+            
+            <h3>7.5 赤外吸収スペクトル(IR)</h3>
+            <ul>
+                <li>N-H伸縮振動: 3300-3500 cm⁻¹(二重ピーク: 第一級アミン)</li>
+                <li>N-H変角振動: 1600 cm⁻¹付近</li>
+                <li>C-N伸縮振動: 1250-1350 cm⁻¹</li>
+            </ul>
+            
+            <h3>7.6 核磁気共鳴スペクトル(NMR)</h3>
+            <ul>
+                <li>¹H-NMR: NH₂プロトンは3-5 ppm(交換性ブロード)</li>
+                <li>芳香族プロトンはアミノ基の影響で高磁場シフト</li>
+            </ul>
+        </section>
+
+        <section id="applications">
+            <h2>8. 芳香族アミンの応用・工業的利用</h2>
+            
+            <h3>8.1 染料・顔料原料</h3>
+            <ul>
+                <li>アゾ染料: 全合成染料の約50%を占める。メチルオレンジ、コンゴーレッドなど。</li>
+                <li>インジゴ: 藍色染料(ジーンズなど)。</li>
+                <li>アニリンブラック: 繊維の黒色染料。</li>
+                <li>p-フェニレンジアミン: 毛髪染料(酸化染毛剤)。</li>
+            </ul>
+            
+            <h3>8.2 医薬品</h3>
+            <ul>
+                <li><strong>サルファ剤(スルファミン):</strong> スルファニルアミド。最初の合成抗菌薬。</li>
+                <li><strong>アセトアミノフェン:</strong> p-アミノフェノールから合成される解熱鎮痛薬。</li>
+                <li><strong>リドカイン:</strong> 局所麻酔薬(アミド型)。</li>
+                <li><strong>プロカイン:</strong> 局所麻酔薬。</li>
+            </ul>
+            
+            <h3>8.3 高分子原料</h3>
+            <ul>
+                <li><strong>ポリウレタン:</strong> ジイソシアネート(芳香族アミンから誘導)とポリオールの重合。</li>
+                <li><strong>アラミド繊維:</strong> p-フェニレンジアミンとテレフタル酸クロリドから合成。ケブラー、ノーメックスなど高強度繊維。</li>
+                <li><strong>エポキシ樹脂硬化剤:</strong> m-フェニレンジアミンなど。</li>
+            </ul>
+            
+            <h3>8.4 写真現像液</h3>
+            <ul>
+                <li>p-アミノフェノール(メトール)、ハイドロキノンとの併用。</li>
+            </ul>
+            
+            <h3>8.5 ゴム加硫促進剤</h3>
+            <ul>
+                <li>アニリン誘導体がゴムの加硫促進剤として使用される。</li>
+            </ul>
+            
+            <h3>8.6 分析試薬</h3>
+            <ul>
+                <li>メチルオレンジ、メチルレッドなどのpH指示薬。</li>
+            </ul>
+        </section>
+
+        <section id="comparison">
+            <h2>9. 脂肪族アミンと芳香族アミンの比較</h2>
+            <table>
+                <tr>
+                    <th>性質</th>
+                    <th>脂肪族アミン (例: メチルアミン)</th>
+                    <th>芳香族アミン (例: アニリン)</th>
+                </tr>
+                <tr>
+                    <td><strong>pKb</strong></td>
+                    <td>約3.4 (強い塩基)</td>
+                    <td>約9.4 (弱い塩基)</td>
+                </tr>
+                <tr>
+                    <td><strong>臭気</strong></td>
+                    <td>アンモニア臭、魚臭</td>
+                    <td>特有の芳香臭</td>
+                </tr>
+                <tr>
+                    <td><strong>水への溶解度</strong></td>
+                    <td>低級は易溶</td>
+                    <td>やや溶ける</td>
+                </tr>
+                <tr>
+                    <td><strong>酸との反応</strong></td>
+                    <td>塩を生成</td>
+                    <td>塩を生成</td>
+                </tr>
+                <tr>
+                    <td><strong>アシル化</strong></td>
+                    <td>容易</td>
+                    <td>容易</td>
+                </tr>
+                <tr>
+                    <td><strong>ジアゾ化</strong></td>
+                    <td>起こらない(脂肪族ジアゾニウム塩は不安定)</td>
+                    <td>起こる(芳香族ジアゾニウム塩は比較的安定)</td>
+                </tr>
+                <tr>
+                    <td><strong>ベンゼン環の置換反応</strong></td>
+                    <td>—</td>
+                    <td>アミノ基が環を活性化</td>
+                </tr>
+                <tr>
+                    <td><strong>毒性</strong></td>
+                    <td>比較的低毒性</td>
+                    <td>強い毒性(メトヘモグロビン血症)</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="safety">
+            <h2>10. 芳香族アミンの毒性と環境問題</h2>
+            
+            <h3>10.1 毒性</h3>
+            <ul>
+                <li><strong>アニリン:</strong> 強い毒性。吸入・経皮吸収で中毒(メトヘモグロビン血症)を起こす。血液中のヘモグロビンが酸化されて酸素運搬能を失う。</li>
+                <li><strong>o-トルイジン:</strong> 発がん性が疑われる。</li>
+                <li><strong>ベンジジン:</strong> 強い発がん性(膀胱がん)。現在は使用禁止。</li>
+                <li><strong>β-ナフチルアミン:</strong> 強い発がん性。現在は使用禁止。</li>
+                <li><strong>p-フェニレンジアミン:</strong> アレルギー性皮膚炎(毛染めかぶれ)の原因。</li>
+                <li><strong>ニトロアニリン:</strong> 毒性が強い。</li>
+            </ul>
+            
+            <h3>10.2 安全な取り扱い</h3>
+            <ul>
+                <li>ドラフト内で使用し、蒸気・粉じんの吸入を避ける。</li>
+                <li>皮膚への接触を避ける(保護手袋・保護メガネ必須)。アニリンは経皮吸収されやすい。</li>
+                <li>皮膚に付着した場合は多量の水と石鹸で洗い流す。</li>
+                <li>適切な廃棄処理(有害廃棄物として)。</li>
+                <li>発がん性物質は特別な管理が必要。</li>
+            </ul>
+            
+            <h3>10.3 環境基準</h3>
+            <ul>
+                <li>アニリンなどは水質汚濁物質として規制対象。</li>
+                <li>ベンジジン、β-ナフチルアミンは製造・使用が禁止されている。</li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>11. 重要反応のまとめ(暗記用)</h2>
+            <ul class="quiz-list">
+                <li>アニリンの塩酸塩生成: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">C₆H₅NH₂ + HCl → C₆H₅NH₃Cl</span></span></li>
+                <li>アニリンのアセチル化(無水酢酸): <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">C₆H₅NH₂ + (CH₃CO)₂O → C₆H₅NHCOCH₃ + CH₃COOH</span></span></li>
+                <li>アニリンの臭素化: <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">C₆H₅NH₂ + 3Br₂ → Br₃C₆H₂NH₂↓ + 3HBr</span></span></li>
+                <li>ニトロベンゼンの還元(アニリン合成): <span class="blank-container" onclick="reveal(this)"><span class="number">(21)</span> <span class="blank">C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O</span></span></li>
+                <li>ジアゾ化反応: <span class="blank-container" onclick="reveal(this)"><span class="number">(22)</span> <span class="blank">C₆H₅NH₂ + HNO₂ + HCl → C₆H₅N₂⁺Cl⁻ + 2H₂O</span></span></li>
+                <li>アゾカップリング(フェノール): <span class="blank-container" onclick="reveal(this)"><span class="number">(23)</span> <span class="blank">C₆H₅N₂⁺ + C₆H₅OH → HO-C₆H₄-N=N-C₆H₅</span></span></li>
+                <li>ジアゾニウム塩の加水分解(フェノール合成): <span class="blank-container" onclick="reveal(this)"><span class="number">(24)</span> <span class="blank">C₆H₅N₂⁺ + H₂O → C₆H₅OH + N₂↑ + H⁺</span></span></li>
+                <li>ザンドマイヤー反応(クロロベンゼン): <span class="blank-container" onclick="reveal(this)"><span class="number">(25)</span> <span class="blank">C₆H₅N₂⁺ + CuCl → C₆H₅Cl + N₂↑ + Cu⁺</span></span></li>
+                <li>ジアゾニウム塩のヨウ素化: <span class="blank-container" onclick="reveal(this)"><span class="number">(26)</span> <span class="blank">C₆H₅N₂⁺ + KI → C₆H₅I + N₂↑ + K⁺</span></span></li>
+            </ul>
+        </section>
+
+        <section id="exercises">
+            <h2>12. 確認問題</h2>
+            <ol style="list-style-type: decimal; padding-left: 20px;">
+                <li>アニリンが脂肪族アミンよりも弱い塩基性を示す理由を、共鳴を用いて説明せよ。</li>
+                <li>ニトロベンゼンからアニリンを合成する方法を、化学反応式で示せ。</li>
+                <li>アニリンに臭素水を加えたときの反応式を示し、生成物の色と状態を答えよ。</li>
+                <li>アニリンを無水酢酸と反応させると何が生成するか。反応式を示し、この反応の目的を述べよ。</li>
+                <li>アニリンからベンゼンジアゾニウム塩を生成する反応(ジアゾ化)の条件と反応式を示せ。</li>
+                <li>ベンゼンジアゾニウム塩とフェノールの反応(アゾカップリング)について説明し、生成物の名称と特徴を述べよ。</li>
+                <li>ベンゼンジアゾニウム塩からフェノールを合成する反応式を示せ。</li>
+                <li>ザンドマイヤー反応とは何か。具体例を挙げて説明せよ。</li>
+                <li>メチルオレンジの構造式とpH指示薬としての性質を説明せよ。</li>
+                <li>芳香族アミンの毒性について、アニリンを例に説明せよ。また、特に発がん性が強いため使用禁止となっている芳香族アミンを2つ挙げよ。</li>
+            </ol>
+        </section>
+        
+        <div class="nav-links" style="margin-top: 40px;">
+            <a href="#" class="nav-link">← 芳香族カルボン酸</a>
+            <span style="color: #007bff; font-weight: bold;">有機化学 完</span>
+        </div>
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
