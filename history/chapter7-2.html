@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>歴史 第7章 ②幕府の衰退と庶民の台頭</title>
+    <title>歴史 第3章 ④律令国家の変容</title>
     <link rel="icon" href="../image/logo.png">
     <style>
         html {
@@ -75,82 +74,79 @@
         .quiz-list li {
             margin-bottom: 12px;
         }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
 
-```
-    main {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 0 20px;
-    }
-    .btn-home {
-        display: inline-block;
-        padding: 8px 20px;
-        background-color: #6c757d;
-        color: white;
-        text-decoration: none;
-        border-radius: 20px;
-        font-weight: bold;
-        font-size: 0.9rem;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        transition: 0.3s;
-    }
-    .btn-home:hover {
-        background-color: #5a6268;
-        transform: translateY(-1px);
-        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-    }
-    /* 追加した一斉表示ボタンのスタイル */
-    .btn-toggle-all {
-        display: inline-block;
-        padding: 8px 20px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 20px;
-        font-weight: bold;
-        font-size: 0.9rem;
-        cursor: pointer;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        transition: 0.3s;
-    }
-    .btn-toggle-all:hover {
-        background-color: #0056b3;
-        transform: translateY(-1px);
-    }
-    .header-actions {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 10px;
-    }
-    .nav-links {
-        display: flex;
-        justify-content: space-between;
-        margin: 20px 0;
-    }
-    .nav-link {
-        padding: 8px 16px;
-        background-color: #e9ecef;
-        color: #495057;
-        text-decoration: none;
-        border-radius: 20px;
-        font-weight: bold;
-    }
-    .nav-link:hover {
-        background-color: #dee2e6;
-    }
-
-    #backToTop {
-        position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
-        background-color: #007bff; 
-        color: white; border: none; border-radius: 50%;
-        cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
-        display: none; 
-        align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
-    }
-</style>
-```
-
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
@@ -158,20 +154,16 @@
         <a href="index.html" class="btn-home">歴史トップへ</a>
         <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
     </div>
-
-```
-<div class="nav-links">
-    <a href="#" class="nav-link">← 前の範囲</a>
-    <a href="#" class="nav-link">次の範囲 →</a>
-</div>
-
-<main>
-```
-
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← 前の範囲</a>
+        <a href="#" class="nav-link">次の範囲 →</a>
+    </div>
+    
+    <main>
 <div class="container">
     <h2>第7章　幕府の衰退と庶民の台頭</h2>
 
-```
 <h3>②幕府の衰退と庶民の台頭</h3>
 
 <h4>惣村の形成</h4>
@@ -292,7 +284,7 @@
     <li>遠隔地取引：為替手形（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">81.</span> <span class="blank">割符</span></span>　とよばれる）を利用</li>
     <li>運送業者：京都への物資搬入は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">82.</span> <span class="blank">馬借・車借</span></span>）が担い、その他交通の要地では（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">83.</span> <span class="blank">問屋が物流を担う</span></span>）　＊「兵庫北関入船納帳」には兵庫湊に多くの船が入港したことが記される</li>
 </ul>
-```
+
 
 </div>
     <div class="nav-links">
@@ -373,6 +365,5 @@
         });
     });
 </script>
-
 </body>
 </html>
