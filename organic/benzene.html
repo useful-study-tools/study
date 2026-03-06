@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ベンゼン｜高校化学の有機化学</title>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" class="btn-home">有機化学トップへ</a>
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← エステル・油脂</a>
+        <a href="#" class="nav-link">フェノール →</a>
+    </div>
+    
+    <main>
+        <h1>ベンゼンと芳香族炭化水素</h1>
+        
+        <section id="introduction">
+            <h2>1. 芳香族化合物とは</h2>
+            <p>芳香族化合物は、ベンゼン環に代表される芳香環を持つ化合物の総称である。特徴的な芳香臭を持つものが多いことからこの名がある。</p>
+            <ul>
+                <li><strong>定義:</strong> ベンゼン環のような芳香族性(共鳴安定化)を示す環状構造を持つ化合物</li>
+                <li><strong>脂肪族化合物との違い:</strong> 不飽和度が高いが、付加反応より置換反応を起こしやすい</li>
+                <li><strong>代表例:</strong> ベンゼン(C₆H₆)、トルエン(C₆H₅CH₃)、キシレン(C₆H₄(CH₃)₂)</li>
+            </ul>
+        </section>
+
+        <section id="benzene-structure">
+            <h2>2. ベンゼンの構造</h2>
+            
+            <h3>2.1 ケクレ構造</h3>
+            <ul>
+                <li>1865年、ケクレが提案した構造: 6員環で単結合と二重結合が交互に並んだ構造</li>
+                <li>しかし、この構造では二重結合の位置が2通り考えられる(共鳴)。</li>
+            </ul>
+            
+            <h3>2.2 現代の構造(共鳴理論)</h3>
+            <ul class="quiz-list">
+                <li>ベンゼンは6個の炭素原子が正六角形に配置され、すべてのC-C結合は等価(長さ1.39Å)。</li>
+                <li>これは単結合(C-C 1.54Å)と二重結合(C=C 1.34Å)の中間の長さ。</li>
+                <li>6個のπ電子が環全体に非局在化(非局在化)している。</li>
+                <li>この安定化を<span class="blank-container" onclick="reveal(this)"><span class="number">(1)</span> <span class="blank">芳香族性(芳香性)</span></span>という。</li>
+                <li>共鳴エネルギー: 約150 kJ/mol(非常に安定)。</li>
+            </ul>
+            
+            <h3>2.3 分子軌道</h3>
+            <ul>
+                <li>各炭素はsp²混成軌道をとり、平面構造。</li>
+                <li>残ったp軌道が環の上下で重なり合い、π電子雲を形成。</li>
+                <li>ヒュッケル則: 4n+2個のπ電子を持つ環状共役系は芳香族性を示す(ベンゼンはn=1で6個)。</li>
+            </ul>
+        </section>
+
+        <section id="benzene-properties">
+            <h2>3. ベンゼンの物理的性質</h2>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、特有の芳香臭、沸点80.1℃、融点5.5℃</li>
+                <li><strong>比重:</strong> 0.879(水より軽い)</li>
+                <li><strong>溶解性:</strong> 水に不溶。有機溶媒(エーテル、アルコール、アセトンなど)に溶ける。</li>
+                <li><strong>毒性:</strong> 発がん性(ベンゼンは白血病の原因となる)があるため、取り扱いに注意。</li>
+            </ul>
+        </section>
+
+        <section id="benzene-reactions">
+            <h2>4. ベンゼンの化学反応(置換反応)</h2>
+            <p>ベンゼンは付加反応より置換反応を起こしやすい。これは、付加反応では芳香族性が失われるのに対し、置換反応では芳香族性が保たれるため。</p>
+            
+            <h3>4.1 ニトロ化</h3>
+            <ul class="quiz-list">
+                <li>濃硝酸と濃硫酸の混酸で処理すると、ニトロベンゼンが生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(2)</span> <span class="blank">C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O</span></span></li>
+                <li>濃硫酸の役割: ニトロニウムイオン(NO₂⁺)を発生させる。</li>
+                <li>生成物: ニトロベンゼン(淡黄色の液体、アーモンド臭)。</li>
+            </ul>
+            
+            <h3>4.2 スルホン化</h3>
+            <ul class="quiz-list">
+                <li>濃硫酸または発煙硫酸で処理すると、ベンゼンスルホン酸が生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(3)</span> <span class="blank">C₆H₆ + H₂SO₄ → C₆H₅SO₃H + H₂O</span></span></li>
+                <li>可逆反応で、希硫酸と加熱すると加水分解されてベンゼンに戻る。</li>
+                <li>生成物: ベンゼンスルホン酸(固体、水に溶ける)。</li>
+            </ul>
+            
+            <h3>4.3 ハロゲン化</h3>
+            <ul class="quiz-list">
+                <li>鉄(III)塩(FeCl₃, FeBr₃)やアルミニウム塩(AlCl₃)などの触媒存在下で、ハロゲンと反応しハロゲン化ベンゼンが生成する。</li>
+                <li>反応式(塩素): <span class="blank-container" onclick="reveal(this)"><span class="number">(4)</span> <span class="blank">C₆H₆ + Cl₂ → C₆H₅Cl + HCl</span></span></li>
+                <li>反応式(臭素): <span class="blank-container" onclick="reveal(this)"><span class="number">(5)</span> <span class="blank">C₆H₆ + Br₂ → C₆H₅Br + HBr</span></span></li>
+                <li>触媒の役割: ハロゲンを分極させ、求電子種(Cl⁺など)を発生させる。</li>
+                <li>生成物: クロロベンゼン(液体)、ブロモベンゼン(液体)。</li>
+            </ul>
+            
+            <h3>4.4 フリーデル・クラフツ反応</h3>
+            <h4>アルキル化</h4>
+            <ul class="quiz-list">
+                <li>ハロゲン化アルキルとAlCl₃などの触媒を用いて、アルキル基を導入する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(6)</span> <span class="blank">C₆H₆ + R-Cl → C₆H₅-R + HCl</span></span></li>
+                <li>例(トルエン): <span class="blank-container" onclick="reveal(this)"><span class="number">(7)</span> <span class="blank">C₆H₆ + CH₃Cl → C₆H₅CH₃ + HCl</span></span></li>
+                <li>多置換されやすい(さらに反応が進む)欠点がある。</li>
+            </ul>
+            <h4>アシル化</h4>
+            <ul class="quiz-list">
+                <li>酸塩化物(R-COCl)とAlCl₃を用いて、アシル基を導入する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(8)</span> <span class="blank">C₆H₆ + R-COCl → C₆H₅-CO-R + HCl</span></span></li>
+                <li>例(アセトフェノン): <span class="blank-container" onclick="reveal(this)"><span class="number">(9)</span> <span class="blank">C₆H₆ + CH₃COCl → C₆H₅COCH₃ + HCl</span></span></li>
+            </ul>
+            
+            <h3>4.5 付加反応(特殊な条件下)</h3>
+            <ul class="quiz-list">
+                <li><strong>水素添加:</strong> ニッケル触媒などで高温高圧下で水素を付加すると、シクロヘキサンになる。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(10)</span> <span class="blank">C₆H₆ + 3H₂ → C₆H₁₂</span></span></li>
+                <li><strong>塩素の付加:</strong> 光照射下で塩素を付加すると、BHC(ベンゼンヘキサクロリド, 殺虫剤)が生成する。</li>
+                <li>反応式: <span class="blank-container" onclick="reveal(this)"><span class="number">(11)</span> <span class="blank">C₆H₆ + 3Cl₂ → C₆H₆Cl₆</span></span></li>
+            </ul>
+        </section>
+
+        <section id="orientation">
+            <h2>5. 置換基の配向性</h2>
+            <p>ベンゼン環にすでに置換基がある場合、次の置換基の導入位置は既存の置換基によって決まる。</p>
+            
+            <h3>5.1 オルト・パラ配向性基</h3>
+            <ul>
+                <li>オルト位とパラ位を活性化し、そこに置換基が入りやすくなる。</li>
+                <li><strong>電子供与性基:</strong> -OH, -OCH₃, -NH₂, -NHR, -NR₂, -CH₃, -C₂H₅など(アルキル基)</li>
+                <li>理由: これらの基はベンゼン環に電子を供与し、オルト位とパラ位の電子密度を高める。</li>
+            </ul>
+            
+            <h3>5.2 メタ配向性基</h3>
+            <ul>
+                <li>メタ位を活性化(またはオルト・パラ位を不活性化)し、メタ位に置換基が入りやすくなる。</li>
+                <li><strong>電子求引性基:</strong> -NO₂, -CN, -SO₃H, -CHO, -COR, -COOH, -COOR, -CONH₂など</li>
+                <li>理由: これらの基はベンゼン環から電子を引き抜き、オルト位とパラ位の電子密度を特に低下させる。</li>
+            </ul>
+            
+            <h3>5.3 配向性のまとめ</h3>
+            <table>
+                <tr>
+                    <th>配向性</th>
+                    <th>置換基の例</th>
+                    <th>特徴</th>
+                </tr>
+                <tr>
+                    <td>オルト・パラ配向性</td>
+                    <td>-OH, -OCH₃, -NH₂, -CH₃, -C₂H₅, -Cl, -Br, -I(ハロゲンは特殊)</td>
+                    <td>反応を促進(ハロゲンは除く)</td>
+                </tr>
+                <tr>
+                    <td>メタ配向性</td>
+                    <td>-NO₂, -CN, -SO₃H, -CHO, -COOH, -COOR</td>
+                    <td>反応を抑制</td>
+                </tr>
+            </table>
+            <p>※ハロゲン(-Cl, -Br, -I)はオルト・パラ配向性だが、環を不活性化する(電子求引性)。</p>
+        </section>
+
+        <section id="alkylbenzenes">
+            <h2>6. アルキルベンゼン</h2>
+            
+            <h3>6.1 トルエン (C₆H₅CH₃)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、沸点111℃。ベンゼンに似た臭い。</li>
+                <li><strong>製法:</strong> ベンゼンのフリーデル・クラフツアルキル化、または石油の改質。</li>
+                <li><strong>反応:</strong> 
+                    <ul>
+                        <li>側鎖の酸化: 過マンガン酸カリウムなどで酸化すると安息香酸になる。</li>
+                        <li class="quiz-list"><span class="blank-container" onclick="reveal(this)"><span class="number">(12)</span> <span class="blank">C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O</span></span></li>
+                        <li>ニトロ化: 混酸で処理すると、主にo-ニトロトルエンとp-ニトロトルエンの混合物ができる。</li>
+                        <li>スルホン化: 主にo-トルエンスルホン酸とp-トルエンスルホン酸ができる。</li>
+                    </ul>
+                </li>
+                <li><strong>用途:</strong> 溶剤、安息香酸の原料、TNT(トリニトロトルエン)の原料、ガソリンのオクタン価向上剤。</li>
+            </ul>
+            
+            <h3>6.2 キシレン (C₆H₄(CH₃)₂)</h3>
+            <ul>
+                <li>3種類の異性体がある。</li>
+                <li><strong>o-キシレン(1,2-ジメチルベンゼン):</strong> 沸点144℃</li>
+                <li><strong>m-キシレン(1,3-ジメチルベンゼン):</strong> 沸点139℃</li>
+                <li><strong>p-キシレン(1,4-ジメチルベンゼン):</strong> 沸点138℃、融点13℃</li>
+                <li><strong>用途:</strong> p-キシレンはテレフタル酸の原料(ポリエステル繊維)。溶剤としても使用。</li>
+            </ul>
+            
+            <h3>6.3 クメン (イソプロピルベンゼン, C₆H₅CH(CH₃)₂)</h3>
+            <ul>
+                <li><strong>用途:</strong> クメン法(フェノールとアセトンの製造)の中間体。</li>
+            </ul>
+            
+            <h3>6.4 スチレン (C₆H₅CH=CH₂, ビニルベンゼン)</h3>
+            <ul>
+                <li><strong>性状:</strong> 無色の液体、沸点145℃。</li>
+                <li><strong>製法:</strong> エチルベンゼンの脱水素。</li>
+                <li><strong>用途:</strong> ポリスチレン(発泡スチロール、プラスチック)の原料。合成ゴム(SBR)の原料。</li>
+            </ul>
+        </section>
+
+        <section id="polycyclic">
+            <h2>7. 多環芳香族炭化水素</h2>
+            
+            <h3>7.1 ナフタレン (C₁₀H₈)</h3>
+            <ul>
+                <li><strong>構造:</strong> 2つのベンゼン環が縮合した構造。</li>
+                <li><strong>性状:</strong> 白色の板状結晶、特有の臭い(防虫剤の臭い)、融点80℃、昇華性。</li>
+                <li><strong>反応:</strong> ベンゼンより反応性が高い。ニトロ化やスルホン化は主にα位(1位)に起こる。</li>
+                <li><strong>用途:</strong> 防虫剤(パラジクロロベンゼンに置き換えられつつある)、染料中間体、合成樹脂原料。</li>
+            </ul>
+            
+            <h3>7.2 アントラセン (C₁₄H₁₀)</h3>
+            <ul>
+                <li><strong>構造:</strong> 3つのベンゼン環が直線状に縮合。</li>
+                <li><strong>性状:</strong> 無色の板状結晶、紫外線で青紫色の蛍光を発する。</li>
+            </ul>
+            
+            <h3>7.3 フェナントレン (C₁₄H₁₀)</h3>
+            <ul>
+                <li><strong>構造:</strong> 3つのベンゼン環が角型に縮合。</li>
+            </ul>
+            
+            <h3>7.4 発がん性物質</h3>
+            <ul>
+                <li>ベンゾ[a]ピレンなど、一部の多環芳香族炭化水素は発がん性を持つ。</li>
+                <li>タバコの煙、排気ガス、焼け焦げた食品などに含まれる。</li>
+            </ul>
+        </section>
+
+        <section id="preparation">
+            <h2>8. ベンゼン・芳香族炭化水素の工業的製法</h2>
+            
+            <h3>8.1 コールタールからの分離</h3>
+            <ul>
+                <li>石炭の乾留(コークス製造)の際に副生するコールタールを分留して得る。</li>
+                <li>ベンゼン、トルエン、キシレン、ナフタレンなどを含む。</li>
+            </ul>
+            
+            <h3>8.2 石油化学からの合成</h3>
+            <ul>
+                <li><strong>接触改質:</strong> ナフサ(石油留分)を触媒存在下で加熱・脱水素し、芳香族炭化水素を生成。</li>
+                <li><strong>熱分解:</strong> エチレン製造時の副生成物としても得られる。</li>
+            </ul>
+            
+            <h3>8.3 アルキルベンゼンの合成</h3>
+            <ul>
+                <li>ベンゼンのフリーデル・クラフツアルキル化。</li>
+                <li>エチルベンゼン: ベンゼンとエチレンから合成(スチレン原料)。</li>
+                <li>クメン: ベンゼンとプロピレンから合成(フェノール原料)。</li>
+            </ul>
+        </section>
+
+        <section id="important-compounds">
+            <h2>9. 重要な芳香族化合物(誘導体)</h2>
+            
+            <h3>9.1 ニトロ化合物</h3>
+            <ul>
+                <li><strong>ニトロベンゼン (C₆H₅NO₂):</strong> 淡黄色液体、アーモンド臭。アニリン(染料中間体)の原料。</li>
+                <li><strong>トリニトロトルエン (TNT, C₆H₂CH₃(NO₂)₃):</strong> 黄色結晶、爆薬。トルエンのニトロ化で合成。</li>
+            </ul>
+            
+            <h3>9.2 スルホン酸</h3>
+            <ul>
+                <li><strong>ベンゼンスルホン酸 (C₆H₅SO₃H):</strong> 固体、水溶性。染料中間体、フェノール合成原料。</li>
+                <li><strong>p-トルエンスルホン酸 (CH₃C₆H₄SO₃H):</strong> 有機合成の触媒、染料中間体。</li>
+            </ul>
+            
+            <h3>9.3 ハロゲン化物</h3>
+            <ul>
+                <li><strong>クロロベンゼン (C₆H₅Cl):</strong> 液体。フェノール、アニリン、DDTの原料。</li>
+                <li><strong>ブロモベンゼン (C₆H₅Br):</strong> 液体。有機合成中間体。</li>
+                <li><strong>p-ジクロロベンゼン (p-C₆H₄Cl₂):</strong> 白色結晶。防虫剤(衣類用)、消臭剤。</li>
+            </ul>
+            
+            <h3>9.4 その他</h3>
+            <ul>
+                <li><strong>ベンズアルデヒド (C₆H₅CHO):</strong> アーモンド様の香り。香料、染料原料。</li>
+                <li><strong>アセトフェノン (C₆H₅COCH₃):</strong> 催眠薬(かつて)、香料、医薬品中間体。</li>
+                <li><strong>ベンゾフェノン ((C₆H₅)₂C=O):</strong> 香料、紫外線吸収剤。</li>
+            </ul>
+        </section>
+
+        <section id="identification">
+            <h2>10. 芳香族化合物の検出・確認方法</h2>
+            
+            <h3>10.1 紫外吸収スペクトル(UV)</h3>
+            <ul>
+                <li>ベンゼン環は230-270 nmに特徴的な吸収(π→π*遷移)を示す。</li>
+            </ul>
+            
+            <h3>10.2 赤外吸収スペクトル(IR)</h3>
+            <ul>
+                <li>芳香族C-H伸縮: 3030 cm⁻¹付近</li>
+                <li>芳香環C=C伸縮: 1600, 1500 cm⁻¹付近</li>
+                <li>置換様式による吸収: 900-700 cm⁻¹(面外変角振動)で置換パターンの判定が可能</li>
+            </ul>
+            
+            <h3>10.3 核磁気共鳴スペクトル(NMR)</h3>
+            <ul>
+                <li>芳香族プロトン: 6.5-8.0 ppmにシグナル</li>
+                <li>置換基の影響でシフトが変化</li>
+            </ul>
+            
+            <h3>10.4 化学的確認法</h3>
+            <ul>
+                <li><strong>ニトロ化:</strong> 黄色のニトロ化合物の生成</li>
+                <li><strong>スルホン化:</strong> 水溶性のスルホン酸の生成</li>
+                <li><strong>ハロゲン化:</strong> ハロゲン化水素の発生</li>
+            </ul>
+        </section>
+
+        <section id="applications">
+            <h2>11. 芳香族化合物の応用・工業的利用</h2>
+            
+            <h3>11.1 プラスチック・合成繊維原料</h3>
+            <ul>
+                <li><strong>スチレン:</strong> ポリスチレン(発泡スチロール、透明プラスチック)、ABS樹脂、合成ゴム(SBR)</li>
+                <li><strong>p-キシレン:</strong> テレフタル酸 → ポリエステル(PETボトル、繊維)</li>
+                <li><strong>フェノール:</strong> フェノール樹脂(ベークライト)</li>
+                <li><strong>アニリン:</strong> ポリウレタン原料</li>
+            </ul>
+            
+            <h3>11.2 染料・顔料</h3>
+            <ul>
+                <li>アニリンから合成されるアゾ染料</li>
+                <li>フタロシアニン顔料(青色、緑色)</li>
+                <li>アリザリン(赤色染料)</li>
+            </ul>
+            
+            <h3>11.3 医薬品・農薬</h3>
+            <ul>
+                <li>アスピリン(アセチルサリチル酸)</li>
+                <li>サルファ剤(スルファニルアミド)</li>
+                <li>除草剤(2,4-Dなど)</li>
+            </ul>
+            
+            <h3>11.4 溶剤</h3>
+            <ul>
+                <li>トルエン、キシレン: 塗料、インク、接着剤の溶剤</li>
+            </ul>
+            
+            <h3>11.5 爆薬</h3>
+            <ul>
+                <li>TNT(トリニトロトルエン)、ピクリン酸(トリニトロフェノール)</li>
+            </ul>
+        </section>
+
+        <section id="safety">
+            <h2>12. 芳香族化合物の毒性と環境問題</h2>
+            
+            <h3>12.1 毒性</h3>
+            <ul>
+                <li><strong>ベンゼン:</strong> 発がん性(IARCグループ1、白血病の原因)。骨髄毒性。</li>
+                <li><strong>トルエン:</strong> ベンゼンより毒性は低いが、吸入による神経毒性(シンナー遊び)。</li>
+                <li><strong>キシレン:</strong> 吸入毒性、皮膚刺激性。</li>
+                <li><strong>ニトロベンゼン:</strong> 吸入・経皮吸収で中毒(メトヘモグロビン血症)。</li>
+                <li><strong>アニリン:</strong> 毒性強く、経皮吸収に注意。</li>
+                <li><strong>多環芳香族炭化水素:</strong> 発がん性を持つものがある(ベンゾ[a]ピレンなど)。</li>
+            </ul>
+            
+            <h3>12.2 環境問題</h3>
+            <ul>
+                <li>揮発性有機化合物(VOC)として大気汚染の原因。</li>
+                <li>光化学スモッグの原因物質。</li>
+                <li>地下水汚染(ガソリンスタンドなどからの漏洩)。</li>
+                <li>ベンゼンの法的規制: 労働安全衛生法、大気汚染防止法などで厳しく規制。</li>
+            </ul>
+            
+            <h3>12.3 安全な取り扱い</h3>
+            <ul>
+                <li>ドラフト内で使用し、蒸気の吸入を避ける。</li>
+                <li>保護手袋・保護メガネを着用。</li>
+                <li>火気厳禁(引火性が高い)。</li>
+                <li>適切な廃棄処理(有害廃棄物として)。</li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>13. 重要反応のまとめ(暗記用)</h2>
+            <ul class="quiz-list">
+                <li>ベンゼンのニトロ化: <span class="blank-container" onclick="reveal(this)"><span class="number">(13)</span> <span class="blank">C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O</span></span></li>
+                <li>ベンゼンのスルホン化: <span class="blank-container" onclick="reveal(this)"><span class="number">(14)</span> <span class="blank">C₆H₆ + H₂SO₄ → C₆H₅SO₃H + H₂O</span></span></li>
+                <li>ベンゼンのハロゲン化(塩素): <span class="blank-container" onclick="reveal(this)"><span class="number">(15)</span> <span class="blank">C₆H₆ + Cl₂ → C₆H₅Cl + HCl</span></span></li>
+                <li>フリーデル・クラフツアルキル化: <span class="blank-container" onclick="reveal(this)"><span class="number">(16)</span> <span class="blank">C₆H₆ + R-Cl → C₆H₅-R + HCl</span></span></li>
+                <li>フリーデル・クラフツアシル化: <span class="blank-container" onclick="reveal(this)"><span class="number">(17)</span> <span class="blank">C₆H₆ + R-COCl → C₆H₅-CO-R + HCl</span></span></li>
+                <li>トルエンの酸化: <span class="blank-container" onclick="reveal(this)"><span class="number">(18)</span> <span class="blank">C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O</span></span></li>
+                <li>ベンゼンの水素添加: <span class="blank-container" onclick="reveal(this)"><span class="number">(19)</span> <span class="blank">C₆H₆ + 3H₂ → C₆H₁₂</span></span></li>
+                <li>ベンゼンの塩素付加(光): <span class="blank-container" onclick="reveal(this)"><span class="number">(20)</span> <span class="blank">C₆H₆ + 3Cl₂ → C₆H₆Cl₆</span></span></li>
+            </ul>
+        </section>
+
+        <section id="exercises">
+            <h2>14. 確認問題</h2>
+            <ol style="list-style-type: decimal; padding-left: 20px;">
+                <li>ベンゼンの構造について、ケクレ構造と実際の構造の違いを説明せよ。</li>
+                <li>ベンゼンのニトロ化反応の反応式を示し、濃硫酸の役割を説明せよ。</li>
+                <li>トルエンを過マンガン酸カリウムで酸化すると何が得られるか。反応式を示せ。</li>
+                <li>フリーデル・クラフツアルキル化反応について、ベンゼンと塩化メチルを例に反応式を示せ。</li>
+                <li>ベンゼン環の置換基の配向性について、オルト・パラ配向性基とメタ配向性基をそれぞれ3つずつ挙げ、その理由を簡単に説明せよ。</li>
+                <li>ベンゼンとトルエンのニトロ化で得られる生成物の違いを説明せよ。</li>
+                <li>ナフタレンの性質と用途を述べよ。</li>
+                <li>ベンゼンの工業的製法を2つ挙げよ。</li>
+                <li>スチレンの構造式と主な用途を述べよ。</li>
+                <li>芳香族化合物の毒性について、ベンゼンを例に説明せよ。</li>
+            </ol>
+        </section>
+        
+        <div class="nav-links" style="margin-top: 40px;">
+            <a href="#" class="nav-link">← エステル・油脂</a>
+            <a href="#" class="nav-link">フェノール →</a>
+        </div>
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
