@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史 第7章 ④戦国大名の登場</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333 !important; 
+            background-color: transparent !important; 
+            border-bottom: 2px solid #007bff;
+            opacity: 1 !important; 
+        }
+
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
+    </div>
+    
+    <div class="nav-links">
+        <a href="chapter7-3.html" class="nav-link">← 前の範囲</a>
+        <a href="chapter8-1.html" class="nav-link">次の範囲 →</a>
+    </div>
+    
+    <main>
+
+<div class="container">
+    <h2>第7章　中世社会の展開</h2>
+
+    <h3>④戦国大名の登場</h3>
+
+    <h4>戦国大名</h4>
+    <p>応仁の乱後、幕府が近畿における一地方政権化し、各地で将軍権力に依存しない新しい支配者が登場し、(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">領国</span></span>)を支配（＝戦国大名）</p>
+    <p>下剋上をともなう激しい権力闘争によって、経済力・統治力が磨かれ、近世の社会基盤が形成される。</p>
+
+    <ul>
+        <li>〈幕府〉：細川氏が (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">明応の政変</span></span> 1493) で将軍をすげ替える</li>
+        <li>　　　　→細川氏の家臣 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">三好長慶</span></span>) が実権を奪う</li>
+        <li>　　　　→さらにその家臣 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">松永久秀</span></span>) へ権力が移行</li>
+        <li>〈関東〉：(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">享徳の乱</span></span> 1454～78) → (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">古河公方：成氏</span></span>) ⇔ (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">堀越公方：政知</span></span>)</li>
+        <li>　　　　　山内上杉氏　⇔　扇谷上杉氏</li>
+    </ul>
+
+    <ul>
+        <li>15世紀末に (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">北条早雲</span></span> / 伊勢宗瑞) が堀越公方を滅ぼし (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">小田原</span></span>) を拠点に。</li>
+        <li>　　　　→氏綱→氏康　＊後北条氏／分国法「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">早雲寺殿二十一箇条</span></span>」</li>
+        <li>〈越後〉：長尾景虎 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">上杉謙信</span></span>) が山内上杉氏から関東管領職を譲られ、勢力を拡大。</li>
+        <li>〈甲斐〉：(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">武田信玄</span></span>) が父を追放し勢力を拡大。上杉氏と川中島などで交戦。</li>
+        <li>　　　　／「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">甲州法度之次第</span></span>」（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">喧嘩両成敗</span></span>）を定める。</li>
+        <li>〈東海〉：(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">今川義元</span></span>) ／「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">今川仮名目録</span></span>」（氏親、私婚禁止）</li>
+        <li>〈東北〉：伊達政宗 ／「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">塵芥集</span></span>」</li>
+        <li>〈北陸〉：(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">朝倉義景</span></span>) ／「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">朝倉孝景条々</span></span>」：(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">一乗谷</span></span>) への集住を命じる。</li>
+        <li>〈近江〉：六角氏 ／「六角氏式目」は (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">家臣団</span></span>) が主導し大名に認めさせたもの。</li>
+        <li>〈中国〉：大内義隆（「大内氏掟書」）→ (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">陶晴賢</span></span>)</li>
+        <li>　　　　→ (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">毛利元就</span></span>：国人) が尼子氏と争い勢力を拡大。</li>
+        <li>〈四国〉：(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">長宗我部元親</span></span>) がほぼ平定／「長宗我部氏掟書」</li>
+        <li>〈九州〉：(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">大友義鎮</span></span> / 宗麟) が九州北部で勢力を拡大。(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">キリシタン大名</span></span>)として南蛮貿易を進める。南部の名族 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">島津貴久</span></span>) などと争う。</li>
+    </ul>
+
+    <h4>領国統治</h4>
+    <ul>
+        <li>(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">分国法</span></span>) の制定：幕府法や国人一揆の規約等を吸収、中世法の集大成。</li>
+        <li>(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">貫高制</span></span>) の採用：関東などで (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">軍役</span></span>) を付加する基準とする。</li>
+        <li>(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">31.</span> <span class="blank">寄親・寄子制</span></span>)：地侍を有力家臣団に預け組織化。</li>
+        <li>(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">指出検地</span></span>)：家臣や農民に面積・収入額を自己申告させ、(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33.</span> <span class="blank">検地帳</span></span>) に登録。</li>
+        <li>＊その他 (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">34.</span> <span class="blank">城下町</span></span>) の建設・鉱山開発（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">35.</span> <span class="blank">石見銀山</span></span>、甲斐金山：武田）・治水工事（信玄堤）・灌漑事業・(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">36.</span> <span class="blank">関所</span></span>) 廃止・市場の開設・宿駅や (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37.</span> <span class="blank">伝馬</span></span>) の整備などを行い、富国強兵を目指す。</li>
+    </ul>
+
+    <h4>都市の発展と町衆</h4>
+    <ul>
+        <li>〈門前町〉：寺社の門前に発展／長野・(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">38.</span> <span class="blank">宇治・山田</span></span>)・奈良・坂本など</li>
+        <li>〈寺内町〉：一向宗や日蓮宗の寺院を中心に形成／富田林・石山・山科・吉崎など</li>
+        <li>〈港町〉：堺（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">40.</span> <span class="blank">会合衆</span></span>）・博多（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">41.</span> <span class="blank">年行司</span></span>）・坊津・敦賀・大湊・草戸千軒町など</li>
+        <li>　　　　「ベニス市の如く」（ガスパル＝ヴィレラ、『耶蘇会士日本通信』）</li>
+    </ul>
+
+    <p>＊多くの都市は (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">42.</span> <span class="blank">楽市</span></span>) として存在。</p>
+    <p>京都は (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">43.</span> <span class="blank">町衆</span></span>) を中心に (<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">44.</span> <span class="blank">町法</span></span>) を定め、(<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">45.</span> <span class="blank">月行事</span></span>) により自治。</p>
+    <p>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">46.</span> <span class="blank">祇園祭</span></span>）の復興を担う（1500）。</p>
+
+    <p>〈城下町〉：春日山（上杉氏）、一乗谷（朝倉氏）、小田原（北条氏）、府中（駿府）、府内（大友氏）、鹿児島（島津氏）</p>
+
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.7';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+            blank.addEventListener('click', function() {
+                this.style.opacity = '1'; 
+            });
+
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
+        });
+    });
+</script>
+</body>
+</html>
