@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史 第8章 ①織豊政権</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333 !important; 
+            background-color: transparent !important; 
+            border-bottom: 2px solid #007bff;
+            opacity: 1 !important; 
+        }
+
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
+    </div>
+    
+    <div class="nav-links">
+        <a href="chapter7-4.html" class="nav-link">← 前の範囲</a>
+        <a href="chapter8-2.html" class="nav-link">次の範囲 →</a>
+    </div>
+    
+    <main>
+
+    <h2>第8章　近世の幕開け</h2>
+
+    <h3>①織豊政権</h3>
+
+    <h4>銀の交易と鉄砲伝来</h4>
+    <ul>
+        <li>1530年代〜灰吹法の導入により銀が増産される：石見銀山など</li>
+        <li>中国へ大量に銀が流入（明：税の銀納化）、生糸（白糸）が日本へ</li>
+        <li>＊海禁政策による取り締まりを逃れ、後期倭寇（武装した中国人中心）が活動</li>
+    </ul>
+
+    <h4>ヨーロッパ人の東アジア進出（香辛料貿易・カトリックの布教）</h4>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">大航海時代</span></span>）の到来（15世紀後半〜）</li>
+        <li>ポルトガル：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">ゴア</span></span>：印）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">マラッカ</span></span>：マレーシア）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">マカオ</span></span>：中）</li>
+        <li>スペイン：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">マニラ</span></span>：比）</li>
+        <li>両国は東アジアの貿易拠点をおき、中継貿易に参入</li>
+    </ul>
+
+    <h4>キリスト教と南蛮貿易</h4>
+    <ul>
+        <li>15（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">43</span></span>）ポルトガル人が倭寇船で（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">種子島</span></span>）に漂着　＊1542年説あり</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">種子島時尭</span></span>）が鉄砲を入手、製造方法が解明される</li>
+        <li>＊すぐに（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">堺</span></span>）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">国友</span></span>：近江）・根来・雑賀（紀伊）で量産化</li>
+        <li>以後ポルトガル人との貿易が九州諸港を中心に盛んに（＝南蛮貿易）、キリシタン大名増加</li>
+        <li>＊スペインは1584年来航</li>
+        <li>《日本》（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">銀</span></span>）⇔《南蛮船》（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">生糸</span></span>：白糸）・絹織物・鉄砲・火薬など</li>
+        <li>＊博多商人神谷寿貞が「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">灰吹法</span></span>」を伝えたことで飛躍的に増産。</li>
+        <li>1549 フランシスコ＝ザビエルが鹿児島に来航</li>
+        <li>以後（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">イエズス会</span></span>）宣教師らが貿易船に乗って来航、九州を中心に信者が急増</li>
+        <li>＊（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">南蛮寺</span></span>：教会堂）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">コレジオ</span></span>：宣教師養成）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">セミナリオ</span></span>：神学校）が設立される。</li>
+        <li>1582〜90（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">天正遣欧使節</span></span>）：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">ヴァリニャーニ</span></span>）の勧めで、キリシタン大名（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">大友義鎮</span></span>・有馬晴信・大村純忠）がローマへ（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">伊東マンショ</span></span>）らを派遣</li>
+    </ul>
+
+    <h4>織田政権</h4>
+    <ul>
+        <li>1534 尾張守護代の重臣の家に生まれる。</li>
+        <li>1560（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">桶狭間の戦い</span></span>）：今川義元を破る。</li>
+        <li>1567 美濃斎藤氏を滅ぼし「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">天下布武</span></span>」の印判使用開始。</li>
+        <li>1568（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">足利義昭</span></span>：15代）を奉じて入京。</li>
+        <li>1570（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">姉川の戦い</span></span>）：浅井氏・朝倉氏を破る。</li>
+        <li>1571（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">比叡山延暦寺焼討ち</span></span>）</li>
+        <li>1573 室町幕府滅亡：足利義昭を追放。</li>
+        <li>1574 伊勢長島の一向一揆を平定。</li>
+        <li>1575（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">長篠合戦</span></span>）：騎馬隊中心の武田勝頼を鉄砲を用いて破る。</li>
+        <li>1576（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">安土城</span></span>）築城開始。</li>
+        <li>1580 加賀の一向一揆・石山本願寺を屈服させる（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">石山戦争</span></span>）</li>
+        <li>：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">正親町天皇</span></span>）仲介、顕如が石山から退去（1591 京都へ）</li>
+        <li>1582（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">31.</span> <span class="blank">本能寺の変</span></span>）：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">明智光秀</span></span>）に背かれ敗死。</li>
+        <li>＊城下に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33.</span> <span class="blank">楽市令</span></span>）を出し、商工業者を保護（徳政免除）。堺を支配下に入れ、検地・関所撤廃政策実施。仏教にかわる信仰としてキリスト教に興味を持つ。</li>
+    </ul>
+
+    <h4>豊臣秀吉の全国統一</h4>
+    <ul>
+        <li>1582（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">34.</span> <span class="blank">山崎の合戦</span></span>）：本能寺の変を受け毛利氏と和睦。天王山で明智光秀を滅ぼす。</li>
+        <li>：清州会議で織田家の後見人となる。</li>
+        <li>1583（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">35.</span> <span class="blank">賤ヶ岳の戦い</span></span>）：柴田勝家を破る。（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">36.</span> <span class="blank">大坂城</span></span>）築城開始。</li>
+        <li>1584（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37.</span> <span class="blank">小牧・長久手の戦い</span></span>）：織田信雄・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">38.</span> <span class="blank">徳川家康</span></span>）と引き分け、和睦。</li>
+        <li>1585 紀伊・四国平定。（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">39.</span> <span class="blank">関白</span></span>）となり、九州に停戦命令（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">40.</span> <span class="blank">惣無事令</span></span>）</li>
+        <li>1586 太政大臣就任。（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">41.</span> <span class="blank">後陽成天皇</span></span>）より（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">42.</span> <span class="blank">豊臣</span></span>）の姓を与えられる。</li>
+        <li>1587 九州平定し、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">43.</span> <span class="blank">伴天連追放令</span></span>）を出す。京都に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">44.</span> <span class="blank">聚楽第</span></span>）を築城。</li>
+        <li>＊翌年天皇を招き歓待（同時に諸大名に忠誠を誓わせる）</li>
+        <li>1588（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">45.</span> <span class="blank">刀狩令</span></span>）：方広寺の大仏鋳造に使用すると説明。百姓か武士かの身分選択を迫る。</li>
+        <li>：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">46.</span> <span class="blank">海賊取締令</span></span>）：後期倭寇の活動を禁止し、朱印船貿易を奨励。</li>
+        <li>＊キリスト教取締りは不徹底に終わる。</li>
+        <li>1590（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">47.</span> <span class="blank">小田原攻め</span></span>）：奥州平定により全国統一達成</li>
+        <li>1591（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">48.</span> <span class="blank">人掃令</span></span>）：刀狩令と相まって兵農分離が進み、近代的身分制度が確立。身分統制令ともよばれる。（武家奉公人・町人・百姓の別で戸数・人数を調査。）</li>
+        <li>＊晩年に、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">49.</span> <span class="blank">五大老</span></span>）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">50.</span> <span class="blank">五奉行</span></span>）の制度が成立するも、統治制度は未熟。</li>
+        <li>五大老：徳川家康・前田利家・毛利輝元・（小早川隆景）・宇喜多秀家・上杉景勝</li>
+        <li>五奉行：浅野長政・増田長盛・石田三成・前田玄以・長束正家</li>
+    </ul>
+
+    <h4>豊臣政権の土地・身分政策　＊太閤＝前関白に対する尊称</h4>
+    <ul>
+        <li>統一政権として度量衡を統一、全国を統一基準によって検地し検地帳へ登録することを目指す。</li>
+        <li>：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">51.</span> <span class="blank">京枡</span></span>）の使用／町・段・畝・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">52.</span> <span class="blank">歩</span></span>）の統一、1段＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">53.</span> <span class="blank">300</span></span>）歩に改訂</li>
+        <li>全国の田畑・屋敷地の石高が定められ検地帳に登録される（＝「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">54.</span> <span class="blank">天正の石直し</span></span>」）</li>
+        <li>＊1段当りの生産力（＝<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">55.</span> <span class="blank">石盛</span></span>）×面積＝石高</li>
+        <li>これにより最終的に荘園制が崩壊し、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">56.</span> <span class="blank">一地一作人の原則</span></span>）が成立。</li>
+        <li>1591 全国の大名に対して、検地帳（御前帳）と（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">57.</span> <span class="blank">国絵図</span></span>）の提出を命じる。</li>
+        <li>→統一政権として強力な経済基盤を確立。</li>
+        <li>：莫大な（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">58.</span> <span class="blank">蔵入地</span></span>：220万石）や主要鉱山（直轄化、<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">59.</span> <span class="blank">天正大判</span></span>鋳造）からの収入、豪商・重要都市の利用により、圧倒的な経済力をほこる</li>
+    </ul>
+
+    <h4>対外政策と朝鮮侵略</h4>
+    <ul>
+        <li>〈キリスト教弾圧〉</li>
+        <li>1596（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">60.</span> <span class="blank">サン＝フェリペ号事件</span></span>）：スペイン船が土佐に漂着、乗組員の証言からスペインの野心に疑いを持った秀吉が宣教師の弾圧を指示</li>
+        <li>→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">61.</span> <span class="blank">26聖人殉教</span></span>）：スペイン系フランシスコ会の宣教師・信者らを長崎で処刑</li>
+        <li>〈対外侵略〉</li>
+        <li>明の国力低下を受け、日本がそれに代わる東アジアの中心となることを志す。</li>
+        <li>＊ゴア（葡）、マニラ（西）、高山国（台湾）などへ服属・入貢を求める</li>
+        <li>朝鮮には宗氏（対馬）を介して要求を伝えるも拒否される。</li>
+        <li>→1592（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">62.</span> <span class="blank">文禄の役</span></span>／壬辰倭乱）：肥前（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">63.</span> <span class="blank">名護屋</span></span>）を本陣として15万を派兵。ソウル（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">64.</span> <span class="blank">漢城</span></span>）・ピョンヤン（平壌）を占領するも、長期戦となり次第に不利となる。</li>
+        <li>＊（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">65.</span> <span class="blank">李舜臣</span></span>）率いる朝鮮水軍（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">66.</span> <span class="blank">亀甲船</span></span>）や義兵・明軍が活躍。</li>
+        <li>現地で休戦交渉が進むも、秀吉は再出兵を命じる。</li>
+        <li>→1597（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">67.</span> <span class="blank">慶長の役</span></span>／丁酉倭乱）：苦戦し秀吉の病没により撤兵（1598）</li>
+        <li>＊朝鮮に甚大な被害を与え、多くの捕虜が日本などへ連行される。</li>
+        <li>豊臣政権も分裂（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">68.</span> <span class="blank">吏僚派</span></span> ⇔ 武断派）。捕虜により進んだ文化技術が伝来（お国焼き、<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">69.</span> <span class="blank">慶長勅版</span></span>＝活字印刷術、朱子学＝姜沆から藤原惺窩へ）</li>
+    </ul>
+
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.7';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+            blank.addEventListener('click', function() {
+                this.style.opacity = '1'; 
+            });
+
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
+        });
+    });
+</script>
+</body>
+</html>
