@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史 第9章 ⑤元禄文化</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333 !important; 
+            background-color: transparent !important; 
+            border-bottom: 2px solid #007bff;
+            opacity: 1 !important; 
+        }
+
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
+    </div>
+    
+    <div class="nav-links">
+        <a href="chapter9-4.html" class="nav-link">← 前の範囲</a>
+        <a href="chapter10-1.html" class="nav-link">次の範囲 →</a>
+    </div>
+    
+    <main>
+
+    <h2>第10章　幕藩体制の動揺</h2>
+
+    <h3>①幕政の改革</h3>
+
+    <h4>享保の改革</h4>
+    <ul>
+        <li>1716　7代将軍家継死去、三家の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">紀伊</span></span>）藩主である徳川（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">吉宗</span></span>）が8代将軍に就任　死去するまで（〜51）長期にわたる改革に成功（幕府中興の祖とされる）</li>
+        <li>①側用人による側近政治を廃止（御用取次を新設）</li>
+        <li>②有能な人材を登用：在職期間中のみ基準の役高より低い禄高の者には不足分を給付する（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">足高</span></span>）の制を導入</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">田中丘隅</span></span>）地方書『民間省要』で地方政治について将軍に意見</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">大岡忠相</span></span>）江戸町奉行として『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">公事方</span></span>）御定書』を編纂、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">小石川</span></span>）養生所や町火消制度を設ける</li>
+        <li>荻生徂徠、室鳩巣も侍講として活躍</li>
+        <li>青木昆陽（甘藷の栽培）、野呂元丈・青木（蘭語の習得）　＊蘭学の基礎となる</li>
+        <li>③財政改革</li>
+        <li>倹約令：将軍自ら範を示す</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">上げ米</span></span>）：大名から石高1万石につき100石を臨時に上納させる（1722〜30）　参勤交代の江戸滞在期間が半減される</li>
+        <li>「…今年ニ至りて御切米等も相渡し難く、御仕置筋の御用も御手支の事ニ候。…万石以上の面面より八木差し上げ候様ニ仰せ付けらるべしと思し召し、左候ハねば御家人の内、数百人御扶持を召し放さるべきより外は之無く候故、<strong>御恥辱</strong>を顧みられず、仰せ出され候。<strong>高壱万石ニ付き八木百石</strong>積り差し上げらるべく候。…之に依りて<strong>在江戸半年充御免成</strong>され候間、緩緩休息いたし候様ニ仰せ出され候。」</li>
+        <li>幕領の代官の綱紀粛正</li>
+        <li>年貢率の引き上げ（五公五民）、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">定免</span></span>）法を適用　＊「米公方」の異名</li>
+        <li>新田開発：町人請負新田が盛んに　例）紫雲寺潟新田、武蔵野新田、見沼代用水新田</li>
+        <li>堂島米市場を公認：米価を安定させる　＊株仲間の公認（統制のため）</li>
+        <li>商品作物の栽培を奨励：<strong>甘藷</strong>（サツマイモ）・さとうきび（甘蔗）・<strong>櫨</strong>・朝鮮人参など</li>
+        <li>＊朝鮮人参の国産化に成功し、朝鮮との貿易で良質の銀が大量に流出していた問題を解決。また実学を重視し中国からの（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">漢訳洋書輸入制限</span></span>）の緩和を実施</li>
+        <li>商品作物の生産が盛んになった畑地からの年貢増徴</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">相対済し</span></span>）令：幕府の裁判所で金銀貸借に関する裁判（金公事）を受け付けず、当事者間で解決させる</li>
+        <li>＊当時裁判所の扱う訴訟の多くが金公事（90%超）で、裁判所の業務が停滞</li>
+        <li>④江戸の都市政策（公共政策的視点の登場、大岡忠相による）</li>
+        <li>防火施設（広小路、火除地など）の設置</li>
+        <li>町人の自発的消防組織である（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">町火消</span></span>）を組織させる：町人足役として　＊すぐに鳶人足（鳶職を雇用）に移行</li>
+        <li>評定所前の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">目安箱</span></span>）で庶民の直訴を受け入れ</li>
+        <li>→医療施設の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">小石川養生所</span></span>）が新設される</li>
+        <li>⑤国家制度の充実</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">公事方御定書</span></span>）の制定：裁判を判例に基づき合理的に行う</li>
+        <li>御触書寛保集成の編纂：1615年以降の幕府の御触れを類別にまとめる</li>
+        <li>⑥<strong>三卿</strong>の創設：2人の子に田安家・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">一橋</span></span>）家をおこさせる</li>
+        <li>＊9代将軍の子が清水家をおこし、三卿とよばれる（三家とともに将軍の後継者に）</li>
+    </ul>
+
+    <h4>社会の変容と人々の抵抗（一揆・打ちこわし）</h4>
+    <p>《農村》享保の改革で、農村に重い負担が加わる</p>
+    <ul>
+        <li>一部の有力な農民は、地主（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">手作</span></span>）に加えて困窮農民から質にとった土地を集積</li>
+        <li>領主は<strong>地主</strong>などの有力農民（<strong>豪農</strong>）を支配に組み込み、体制の安定をはかる</li>
+        <li>＊享保期に「質流し禁令」が出されるも、各地で貧農の土地返還を求める訴えが起こったことに驚いた幕府は、逆に土地の質流しを黙認</li>
+        <li>農村の階層分化が進展、村役人（豪農）と小百姓・小作人との間に対立発生</li>
+        <li>このころから村役人の不正等を糾弾する（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">村方騒動</span></span>）が多発</li>
+    </ul>
+    <ul>
+        <li>百姓一揆の発生（年貢増徴・新税への抵抗、藩による専売制の撤廃などを要求）</li>
+        <li>17世紀　代表者が直訴する（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">代表越訴型</span></span>）一揆：代表者が処刑され、地域で「義民」として祀られることも</li>
+        <li>例）佐倉惣五郎（下総）、磔茂左衛門（上野）</li>
+        <li>広域な地域が協力する（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">惣百姓</span></span>）一揆　例）嘉助騒動（信濃本）、元文一揆（陸奥磐城平）</li>
+        <li>18世紀〜飢饉が発生すると全国で百姓一揆が発生</li>
+        <li>1732〜（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">享保</span></span>）の飢饉、1782〜（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">天明</span></span>）の飢饉、1832〜（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">天保</span></span>）の飢饉</li>
+    </ul>
+    <p>《都市》三井家など巨大な資本力を持った大商人が多くの土地を集積</p>
+    <ul>
+        <li>零細な職人などが没落し、家持町人が激減</li>
+        <li>裏長屋などには、農村部から流入してきた人々なども含め多くの貧しい人々が密集して暮らす</li>
+        <li>わずかな貨幣収入で生活するため、火災・飢饉・物価の急上昇などが起こると再起困難に</li>
+        <li>享保の飢饉で江戸で初めて大規模な（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">打ちこわし</span></span>）が発生し、幕府に衝撃を与える</li>
+        <li>また、天明の飢饉に対応できなかった<strong>田沼意次</strong>が失脚し、全国各地の都市では激しい打ちこわしが発生</li>
+        <li>＊天保の飢饉では、江戸で窮民の救済事業が行われる</li>
+    </ul>
+
+    <h4>田沼時代</h4>
+    <ul>
+        <li>9代家重・10代家治の時代は、再び側近である（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">田沼意次</span></span>）が老中となり政治を担当</li>
+        <li>享保期の年貢増徴政策が限界にきたため（百姓一揆多発）、商業活動からの徴税強化を目指す</li>
+        <li>①（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">株仲間</span></span>）を積極的に公認し、営業税（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">運上・冥加</span></span>）を増収</li>
+        <li>②金中心の貨幣制度へ一本化をはかる：計数銀貨である（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">南鐐二朱銀</span></span>）を鋳造</li>
+        <li>＊秤量貨幣である銀貨を計数貨幣に改め、金（江戸）中心の経済に一本化したい　結果的には幕末まで東の金遣い、西の銀遣いが続く</li>
+        <li>③幕府による専売：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">銅</span></span>）座・真鍮座・朝鮮人参座など</li>
+        <li>④商業資本を利用した新田開発：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">印旛沼・手賀沼</span></span>）の干拓工事　＊利根川の洪水で失敗</li>
+        <li>⑤蝦夷地開発：仙台の医師（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">31.</span> <span class="blank">工藤平助</span></span>）が意見書（『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">赤蝦夷風説考</span></span>』）を受け（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33.</span> <span class="blank">最上徳内</span></span>）を派遣、開発やロシア人（赤蝦夷）との交易の可能性を探る</li>
+        <li>また、蝦夷地で俵物を多く生産し、中国へ輸出、代わりに金銀の輸入を行う</li>
+        <li>幕府内では重商主義的な政策に反発した人々が「士風の退廃」だと批判、実際に賄賂や縁故政治も見られるように（重農主義的考えの強い幕府内で重商主義的な政策は異例）</li>
+        <li>1784　子の若年寄意知が佐野政言に暗殺されると、民衆は佐野を「世直し大明神」ともてはやす</li>
+        <li>＊1782〜の<strong>天明の飢饉</strong>（＋浅間山の噴火）に田沼が無策のため不満が高まっていた</li>
+        <li>1786　10代将軍の死去により田沼が失脚、多くの政策が中止となる</li>
+    </ul>
+
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.7';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+            blank.addEventListener('click', function() {
+                this.style.opacity = '1'; 
+            });
+
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
+        });
+    });
+</script>
+</body>
+</html>
