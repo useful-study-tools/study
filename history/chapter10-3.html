@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史 第10章 ③幕府の衰退と近代への道</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333 !important; 
+            background-color: transparent !important; 
+            border-bottom: 2px solid #007bff;
+            opacity: 1 !important; 
+        }
+
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
+    </div>
+    
+    <div class="nav-links">
+        <a href="chapter10-1.html" class="nav-link">← 前の範囲</a>
+        <a href="chapter10-4.html" class="nav-link">次の範囲 →</a>
+    </div>
+    
+    <main>
+
+    <h2>第10章　幕藩体制の動揺</h2>
+
+    <h3>③幕府の衰退と近代への道</h3>
+
+    <h4>寛政の改革</h4>
+    <ul>
+        <li>1787　全国主要都市で打ちこわしが多発（<strong>天明の打ちこわし</strong>）</li>
+        <li>危機感が強まる名が、藩政改革に成功した白川藩主（田安家出身）の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">34.</span> <span class="blank">松平定信</span></span>）が11代将軍（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">35.</span> <span class="blank">家斉</span></span>）（位1787〜37）の補佐役として老中に就任</li>
+        <li>①農村再興：陸奥や北関東での出稼ぎ禁止</li>
+        <li>全国的に公金を貸付け、荒れ地を復旧させる</li>
+        <li>飢饉に備えて各地の倉（社倉・義倉）に米穀を蓄えさせる（＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">36.</span> <span class="blank">囲米</span></span>））</li>
+        <li>②江戸の都市政策：10人の豪商を<strong>勘定所御用達</strong>として政治的に利用</li>
+        <li>江戸に流入した没落農民に資金を与え出身地に戻ることを奨励（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37.</span> <span class="blank">旧里帰農令</span></span>）</li>
+        <li>生活に困窮する無宿人を強制的に石川島の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">38.</span> <span class="blank">人足寄場</span></span>）に収容　＊職業訓練を施し、自活できるように支援</li>
+        <li>町の自治費用の節約を命じ、節約分のうち7割を積み立て（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">39.</span> <span class="blank">七分積金</span></span>）、江戸町会所が積金を運用し増殖　＊飢饉・災害時の窮民救済などに使用される。後東京市に移管。</li>
+        <li>③武士救済：旗本・御家人が（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">40.</span> <span class="blank">札差</span></span>）から借りている借金を破棄させる（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">41.</span> <span class="blank">棄捐</span></span>）令を出す</li>
+        <li>＊札差とは、浅草御蔵において蔵米取の旗本・御家人の代理として手数料をとって米を換金する商人のこと。俸禄米を担保に困窮する武士に金銀を貸付け、巨額の利益を得ていた。100人程度で株仲間を結成。</li>
+        <li>④士風の引締め：旗本たちに武芸を奨励</li>
+        <li>朱子学を正学とし、湯島聖堂学問所で朱子学以外の学問（異学）を禁止（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">42.</span> <span class="blank">寛政異学の禁</span></span>）。また、学問所に優秀な学者を集める（「寛政の三博士」＝柴野栗山・尾藤二洲・岡田寒泉、のち岡田が抜けて、古賀精里が任じられる）</li>
+        <li>＊学問所は後に官立となり、<strong>昌平坂学問所</strong>と呼ばれる（→東京大学）</li>
+        <li>⑤出版統制令：田沼時代には自由な雰囲気の中様々な出版物が庶民に読まれたが、寛政期には幕政批判や「風俗を乱す」とされた作品が厳しく弾圧される</li>
+        <li>代表例）（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">43.</span> <span class="blank">林子平</span></span>）：『三国通覧図説』・『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">44.</span> <span class="blank">海国兵談</span></span>』</li>
+        <li>洒落本作家の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">45.</span> <span class="blank">山東京伝</span></span>）：『仕懸文庫』など</li>
+        <li>黄表紙作家の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">46.</span> <span class="blank">恋川春町</span></span>）：『金々先生栄華夢』など</li>
+        <li>出版社の蔦屋重三郎：耕書堂で人気作家を育て、写楽らの浮世絵を販売</li>
+        <li>吉宗の政治を理想とする改革は一時的に成功したが、庶民の反発をまねく</li>
+        <li>白河の（＝白河藩、定信）清さに魚のすみかれて　もとの濁りの<strong>田沼</strong>こひしき　世の中に蚊ほどうるさきものはなし（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">47.</span> <span class="blank">ぶんぶといふて夜もねられず</span></span>）</li>
+        <li>さらに朝廷と将軍家斉との対立が発生し、1793年に失脚</li>
+        <li>＊閑院宮家から天皇になった（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">48.</span> <span class="blank">光格</span></span>）天皇が、実父典仁親王に「太上天皇」の尊号を与える許可を幕府に求める→定信が認めず、武家伝奏を処分、朝廷内に反発高まる（この一連の事件を「（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">49.</span> <span class="blank">尊号一件</span></span>）」という）</li>
+        <li>当時、一橋家から将軍となった家斉は、実父（一橋治済）に「大御所」の尊号を与えたいと考えていたが、認めることができなくなり将軍との関係が悪化</li>
+        <li>＊引退後の定信の作品：『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">50.</span> <span class="blank">宇下人言</span></span>』（自叙伝）、『花月草紙』（随筆）</li>
+    </ul>
+
+    <h4>寛政期の藩政改革（図p.190/197）</h4>
+    <p>≪特徴≫藩主自ら倹約・統制をはかる</p>
+    <p>農村復興に力を入れ、特産物の生産を奨励（藩による<strong>専売制</strong>も）</p>
+    <p>藩校を設立し、人材育成を重視</p>
+
+    <table style="border-collapse:collapse; width:100%; margin:16px 0;">
+        <thead>
+            <tr>
+                <th style="border:1px solid #ccc; padding:6px;"></th>
+                <th style="border:1px solid #ccc; padding:6px;">熊本</th>
+                <th style="border:1px solid #ccc; padding:6px;">米沢</th>
+                <th style="border:1px solid #ccc; padding:6px;">秋田</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border:1px solid #ccc; padding:6px;">藩主</td>
+                <td style="border:1px solid #ccc; padding:6px;">（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">51.</span> <span class="blank">細川重賢</span></span>）</td>
+                <td style="border:1px solid #ccc; padding:6px;">（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">53.</span> <span class="blank">上杉治憲</span></span>）</td>
+                <td style="border:1px solid #ccc; padding:6px;">佐竹義和（よしまさ）</td>
+            </tr>
+            <tr>
+                <td style="border:1px solid #ccc; padding:6px;">政策</td>
+                <td style="border:1px solid #ccc; padding:6px;">藩校の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">52.</span> <span class="blank">時習</span></span>）館を設立、産業振興をはかる</td>
+                <td style="border:1px solid #ccc; padding:6px;">米沢織を育て、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">54.</span> <span class="blank">興譲</span></span>）館を再興</td>
+                <td style="border:1px solid #ccc; padding:6px;">（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">55.</span> <span class="blank">明徳</span></span>）館を設立、農・林業や繊維産業を育成</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h4>鎖国の動揺</h4>
+    <p>寛永期〜蝦夷地の支配やロシアとの外交問題が発生</p>
+    <ul>
+        <li>1789　クナシリ・メナシの蜂起（国後島や目梨地域のアイヌの人々は和人に対して蜂起）</li>
+        <li>＊ロシア人が択捉島などに来航し、アイヌの人々と交易していたため、両者の連携を危惧</li>
+        <li>1792　ロシア使節（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">ラクスマン</span></span>）が根室に来航</li>
+        <li>：日本人漂流民（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">大黒屋光太夫</span></span>）らの送還と、通商を要求</li>
+        <li>幕府は通商を拒絶し、長崎への入航を認める信牌を与え追い返す</li>
+        <li>＊江戸湾への入航も要求されたため、蝦夷地と江戸湾の海防を強化</li>
+        <li>光太夫の話を聞いた蘭学者桂川甫周が『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">北槎聞略</span></span>』を著す</li>
+        <li>1798　幕命により択捉島を探査した（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">近藤重蔵・最上徳内</span></span>）は「大日本恵登呂府」の標柱をたて、国境を意識</li>
+        <li>以後、蝦夷地に武士を入植させたり、東蝦夷地を直轄化して国防を強化</li>
+        <li>＊アイヌの人々は「和人」とされ、同化政策がとられた</li>
+        <li>1804　ロシア使節（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">レザノフ</span></span>）が信牌を持参し長崎に来航するも幕府が追い返したため、帰国途中に樺太や択捉島を攻撃</li>
+        <li>→大きな衝撃を受けた幕府は全蝦夷地を直轄化、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">松前</span></span>）奉行が支配し、沿岸を東北諸藩に警備させる</li>
+        <li>1808　幕命により樺太とその対岸の調査を行った（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">間宮林蔵</span></span>）が間宮海峡を発見</li>
+        <li>1811　（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">ゴローウニン</span></span>）事件発生、ロシアとの緊張関係が最も高まる</li>
+        <li>国後島に上陸したゴローウニンを日本側が監禁→報復として日本人商人（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">高田屋嘉兵衛</span></span>）がロシア側に抑留される</li>
+        <li>1813　高田屋嘉兵衛の尽力で日ロ間の関係が一気に改善し、幕府は蝦夷地を松前藩へ戻す</li>
+    </ul>
+    <p>イギリス・アメリカとの接触</p>
+    <ul>
+        <li>1808　英軍艦（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">フェートン</span></span>）号が蘭船を追って長崎湾に侵入、薪水・食料を奪って退去（＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">フェートン号事件</span></span>）、幕府に衝撃が走る（「祖法」守りトラブル発生!!）</li>
+        <li>＊当時ナポレオン戦争で仏の支配下にはいった蘭の植民地に英が進出　警備を担当した長崎奉行は自刃、佐賀藩主も幕府によって処罰される</li>
+        <li>＊以後も、日本近海に英・米船が出没したため、幕府は当初薪水給与令（燃料・食料を給与）で対応→相次ぐトラブルに姿勢を硬化させ（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">異国船打払令/無二念打払令</span></span>）を出す（1825）</li>
+        <li>1837　米商船モリソン号が浦賀沖に接近、漂流民の返還と交易を求めるも撃退される（＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">モリソン号事件</span></span>））</li>
+        <li>→翌年蘭学者が批判（渡辺崋山『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">慎機論</span></span>』・高野長英『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">戊戌夢物語</span></span>』））</li>
+        <li>1839　2人を含む尚歯会に属する開明的知識人が弾圧される（＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">蛮社の獄</span></span>））　崋山・長英は後に自刃</li>
+    </ul>
+
+    <h4>文化・文政時代</h4>
+    <ul>
+        <li>11代将軍（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">家斉</span></span>）の政治（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">大御所</span></span>）政治：1793〜1841）</li>
+        <li>当初寛政の改革の路線が続くも、後半は将軍・大奥が派手で贅沢な生活を送る</li>
+        <li>＊品位の劣る金銀貨を大量に鋳造し、出目などで莫大な収入を得る</li>
+        <li>政治的にはほぼ無策だが、江戸周辺の農村の治安悪化に対応する（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">関東取締出役</span></span>）を設置し関八州を巡回、無宿人・博徒を取り締まる</li>
+        <li>＊1827農村内で治安維持を図るため、地域毎に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">寄場組合</span></span>）が組織させられる</li>
+    </ul>
+
+    <h4>大塩の乱</h4>
+    <ul>
+        <li>1832〜（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">天保</span></span>）の飢饉：百姓一揆・打ちこわし続発</li>
+        <li>大御所政治が行われる幕府では有効な策がとられず、幕領で大規模な一揆が発生</li>
+        <li>1836　（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">郡内</span></span>）騒動（甲斐）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">加茂</span></span>）一揆（三河）</li>
+        <li>1837　餓死者の増加する大坂で、町奉行が窮民の救済をせず米を江戸に送っていることに憤慨した元与力の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">大塩平八郎</span></span>）が武装蜂起（江戸では「お救い小屋」で貧民救済）</li>
+        <li>＊隠居後に陽明学を家塾（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">洗心洞</span></span>）で教える</li>
+        <li>大塩の乱は半日で鎮圧されるが、その影響は全国に及ぶ（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">生田万の乱：越後柏崎</span></span>）</li>
+        <li>1839　水戸藩主徳川斉昭（慶喜父）が幕府に「<strong>戊戌封事</strong>」を提出、「<strong>内憂外患</strong>」に対応する改革を要求</li>
+    </ul>
+
+    <h4>天保の改革</h4>
+    <ul>
+        <li>1841　家斉死去、12代将軍家慶のもとで（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">水野忠邦</span></span>）が（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">天保の改革</span></span>）を行う（〜43）</li>
+        <li>倹約令や庶民の娯楽を取り締まる（風俗取締令）</li>
+        <li>：高価な菓子・料理（大御所時代に発達）の禁止、江戸の寄席を15軒に（←211）、歌舞伎の芝居小屋を場末（浅草）に移転、人気役者に編笠、人気作家を弾圧（<strong>為永春水・柳亭種彦</strong>）</li>
+        <li>江戸に流入した貧民を強制的に帰郷させる（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">人返しの法</span></span>）</li>
+        <li>：百姓の出稼ぎを禁止し、農村の復興をはかる（東日本では人口が急減）　結果的に江戸を追われた貧民や無宿人らが周辺の農村に入り、治安はさらに悪化</li>
+        <li>印旛沼の干拓工事</li>
+        <li>物価引下げを期待して（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">株仲間</span></span>）を解散</li>
+        <li>：株仲間が商品の流通を独占しているために江戸に送られる商品の流通量が減少し物価が上がっていると考え、株仲間を解散させた。（自由な取引が在郷商人などによって行われれば物価が下がり流通量も回復すると期待。）実際には逆に流通量が減少し、物価が更に上昇。その背景には、<strong>商品流通の基本ルートが壊され、大坂にこれまで通り商品が集まらなくなっていた</strong>ところに株仲間を解散させたので、<strong>流通がさらに混乱</strong>したことが考えられる。　＊1851年株仲間再興</li>
+        <li>棄捐令：旗本・御家人救済のため</li>
+        <li>財政安定・対外防備強化のため（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">31.</span> <span class="blank">上知令：江戸・大坂周辺の50万石を直轄化</span></span>）を出す</li>
+        <li>→家斉が1840年に命じた（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">三方領知替え：川越藩→庄内藩→長岡藩</span></span>）とともに上知令も反対され、幕府権威が低下、水野忠邦は失脚（1843）</li>
+    </ul>
+
+    <h4>経済の変化</h4>
+    <ul>
+        <li>西高東低：常陸・下野で人口30%減、周防・薩摩で60%増加</li>
+        <li>畿内では百姓や在郷商人がより自由な経済活動を求めて「国訴」を行う</li>
+        <li>幕藩体制を維持するために農村復興の活動が奨励されるが、社会は大きく変化</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33.</span> <span class="blank">二宮尊徳</span></span>）：勤労・倹約を中心とする（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">34.</span> <span class="blank">報徳仕法</span></span>）を広める</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">35.</span> <span class="blank">大原幽学</span></span>）：道徳と経済の調和に基づく（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">36.</span> <span class="blank">性学</span></span>）を説き、先祖株組合を組織</li>
+        <li>問屋制手工業に加え、<strong>工場制手工業</strong>（マニュファクチュア）が綿織物や絹織物生産で行われるようになっていく（19世紀半ば〜）</li>
+        <li>一部の藩においても、<strong>藩営工業や専売制</strong>が行われ、藩財政の改善がみられる</li>
+    </ul>
+
+    <h4>朝廷と雄藩の浮上　＊「内憂外患」が改革を生む</h4>
+    <p>19世紀に改革に成功した藩を（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37.</span> <span class="blank">雄藩</span></span>）とよび、「<strong>薩長土肥</strong>」に代表される</p>
+    <p>〈薩摩〉藩主島津重豪・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">38.</span> <span class="blank">斉彬</span></span>）らのもとで下級藩士（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">39.</span> <span class="blank">調所広郷</span></span>）が改革（1827〜）</p>
+    <ul>
+        <li>①商人からの借財を棚上げ</li>
+        <li>②奄美三島特産の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">40.</span> <span class="blank">黒砂糖</span></span>）の専売を強化</li>
+        <li>③（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">41.</span> <span class="blank">琉球王国</span></span>）との貿易：蝦夷地から長崎に向かう船から買い上げた俵物を、琉球王国を利用して清に売る「密貿易」で莫大な収益</li>
+        <li>④近代工場：集成館（反射炉・溶鉱炉・兵器工場・ガラス製造など）＊斉彬</li>
+        <li>⑤洋式武器購入：英人グラヴァーより</li>
+    </ul>
+    <p>〈長州〉藩主毛利敬親のもとで（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">42.</span> <span class="blank">村田清風</span></span>）が改革に成功</p>
+    <ul>
+        <li>①商人からの借財を返済</li>
+        <li>②紙・蝋の専売制強化</li>
+        <li>③下関においた役所（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">43.</span> <span class="blank">越荷方</span></span>）で商品（越荷）を購入・委託販売し莫大な収益</li>
+    </ul>
+    <p>〈肥前〉藩主（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">44.</span> <span class="blank">鍋島直正</span></span>）が（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">45.</span> <span class="blank">均田制</span></span>）を実施、本百姓体制の再建をはかる　陶磁器の専売制</p>
+    <ul>
+        <li>日本で最初に<strong>反射炉</strong>を築き、<strong>大砲を製造</strong></li>
+    </ul>
+    <p>〈土佐〉改革派「おこぜ組」が財政再建</p>
+    <p>〈水戸〉藩主（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">46.</span> <span class="blank">徳川斉昭</span></span>）の改革が挫折</p>
+    <ul>
+        <li>＊宇和島藩（伊達宗城）、越前藩（<strong>松平慶永／春嶽</strong>）らも活躍</li>
+    </ul>
+    <p>〈幕府〉（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">47.</span> <span class="blank">江川太郎左衛門/坦庵</span></span>）が伊豆韮山に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">48.</span> <span class="blank">反射炉</span></span>）を築く（1854〜）</p>
+
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.7';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+            blank.addEventListener('click', function() {
+                this.style.opacity = '1'; 
+            });
+
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
+        });
+    });
+</script>
+</body>
+</html>
