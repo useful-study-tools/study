@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史 第9章 ①幕藩体制の成立</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333 !important; 
+            background-color: transparent !important; 
+            border-bottom: 2px solid #007bff;
+            opacity: 1 !important; 
+        }
+
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
+    </div>
+    
+    <div class="nav-links">
+        <a href="chapter9-1.html" class="nav-link">← 前の範囲</a>
+        <a href="#" class="nav-link">次の範囲 →</a>
+    </div>
+    
+    <main>
+
+    <h2>第9章　幕藩体制の成立と展開</h2>
+
+    <h3>②幕藩社会の構造</h3>
+
+    <h4>身分と社会</h4>
+    <p>≪支配身分≫武士・天皇家・公家・（上層）僧侶・（上層）神職</p>
+    <p>：<strong>苗字・帯刀</strong>などの特権</p>
+    <p>≪被支配身分≫（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">百姓：農民・漁民・山民など</span></span>）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">職人</span></span>）・商人を中心に多様な周縁身分（一般僧侶・神職、儒者、医者、人形遣い、役者、講釈師、日用、かわた、非人など）が存在</p>
+    <p>＊それぞれ団体や集団ごとに長が決められて組織化、これにより幕府の命令が末端まで伝達される（個人＜家・家長＜所属集団＜幕府・藩）</p>
+
+    <h4>「被差別身分」　＊著しい身分差別を受け、今日まで問題が継続</h4>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">かわた・長吏</span></span>）：城下町近くに集住させられる</li>
+        <li>農業のほかに、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">皮革産業：牛馬の皮を使用した製品を製造</span></span>）・わら細工など手工業を担う</li>
+        <li>領主が死牛馬の処理・行刑役を担わせたことから、「えた/穢多」の蔑称も</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">非人</span></span>）：集団化した乞食らが町・村の番人、諸芸能、掃除、物乞いを行う</li>
+        <li>＊何れの人々も、居住地や衣服等で他の身分と区別され、賤視の対象に</li>
+    </ul>
+
+    <h4>村と百姓（農村・漁村・山村の他に、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">在郷町</span></span>）も）</h4>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">本百姓/高持</span></span>）が自治を行う</li>
+        <li>＊（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">水呑：耕作地を持たない</span></span>）や名子・被官ら隷属する者は参加出来ず</li>
+        <li>中心は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">村方三役</span></span>）＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">名主・組頭・百姓代</span></span>）</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">入会地</span></span>）や用水の利用、治安や防災、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">結・もやい：共同作業</span></span>）などを行い、必要経費（村入用）を負担し合う</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">村法</span></span>）に背くと制裁が加えられる</li>
+        <li>年貢は村でまとめて納入（＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">村請制</span></span>））</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">五人組</span></span>）で連帯責任を負う</li>
+    </ul>
+
+    <h4>領主による農村統制</h4>
+    <p>≪税負担≫　＊秀吉政権では「二公一民」が原則</p>
+    <ul>
+        <li>①年貢（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">本途物成</span></span>）：四公六民（のち五公五民）が一般的</li>
+        <li>＊年貢率（＝免）は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">検見法：毎年変化</span></span>）か（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">定免法：一定期間同じ</span></span>）で決定される</li>
+        <li>②（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">小物成</span></span>）：山野河海の利用や副業に対する税</li>
+        <li>③その他の税（臨時、地域限定のものも多い）</li>
+        <li>高掛物：村高に対して課される税（全体で負担）</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">国役</span></span>）：一国単位で課される夫役</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">伝馬役</span></span>）：公用交通に人や馬を提供</li>
+        <li>＊農村の税負担は大きく、領主への上訴などが初期からみられる</li>
+    </ul>
+    <p>≪農業法令≫</p>
+    <ul>
+        <li>1641〜寛永の飢饉発生→その反省から様々な農村関係の法令が幕府や藩から出る</li>
+        <li>＊かつて「寛永の（御）触書」が1649年に出されたとされたが、現在は疑問視</li>
+        <li>同様に、「田畑勝手作りの禁」も近年見直しが進む</li>
+        <li>1643　（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">田畑永代売買の禁止令</span></span>）〜1872</li>
+        <li>1673　（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">分地制限令</span></span>）：分割相続による細分化を防ぐため基準を明示</li>
+        <li>◎飢饉に備えて、商品作物（たばこ、木綿、菜種など）の栽培を制限し、日常の生活に及ぶまで細かく指示をすることで、農民の生活と年貢の納入を安定させようとした</li>
+    </ul>
+
+    <h4>町の構成</h4>
+    <p>城下町には武士と商人・手工業者が集住、商人らの税負担は農村に比べて軽い</p>
+    <ul>
+        <li>：武家地・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">寺社地</span></span>）・町人地・かわた町村・遊郭などが明確に区分される</li>
+        <li>城郭と武家地が町の面積の大半を占める</li>
+    </ul>
+
+    <h4>町人の自治</h4>
+    <ul>
+        <li>町人地に多数の小共同体である町が存在し、村と類似した組織で自治を行う</li>
+        <li>自治の構成員は、町内に屋敷を持つ者（＝家持町人）のみ</li>
+        <li>代表者である町年寄・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">町名主</span></span>）らを中心に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">町法</span></span>）に基づいて運営される</li>
+        <li>町の清掃・防火・治安維持などにあたる（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">町人足役</span></span>）＊後に金納し専門の者を雇用</li>
+        <li>土地を借りて家屋を建てて住む（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">地借</span></span>）や、家屋を借りて暮らす（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">借家・店借</span></span>）、住み込みの奉公人などは自治に参加できず</li>
+        <li>商人・職人はそれぞれの職種ごとに団体である仲間を形成</li>
+        <li>権力から当初は黙認されていたが、18世紀以降は積極的に公認され営業税（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">運上・冥加</span></span>）を納入</li>
+    </ul>
+
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        // JSのホバー処理部分を以下のように修正
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                // 「まだ開いていない」かつ「すべて表示状態でもない」時だけ薄くする
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+    
+            blank.addEventListener('mouseleave', function() {
+                // 離れたら必ず 1 に戻す
+                this.style.opacity = '1';
+            });
+    
+            // クリック時の処理
+            blank.addEventListener('click', function() {
+                this.classList.toggle('revealed');
+                // クリックして開いた瞬間、強制的に opacity を 1 に戻す
+                if (this.classList.contains('revealed')) {
+                    this.style.opacity = '1';
+                }
+                });
+        });
+
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
+        });
+    });
+</script>
+</body>
+</html>
