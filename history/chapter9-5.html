@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史 第9章 ⑤元禄文化</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333 !important; 
+            background-color: transparent !important; 
+            border-bottom: 2px solid #007bff;
+            opacity: 1 !important; 
+        }
+
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
+    </div>
+    
+    <div class="nav-links">
+        <a href="chapter9-4.html" class="nav-link">← 前の範囲</a>
+        <a href="chapter10-1.html" class="nav-link">次の範囲 →</a>
+    </div>
+    
+    <main>
+
+    <h2>第9章　幕藩体制の成立と展開</h2>
+
+    <h3>⑤元禄文化</h3>
+
+    <h4>特徴</h4>
+    <ul>
+        <li>経済の発展を背景に、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">上方：京都・大坂</span></span>）の庶民や武士によって担われた文化</li>
+        <li>人間とその社会を現実主義や実証主義でとらえる傾向が強い</li>
+        <li>背景①鎖国状態における日本独自の文化　②文治主義による学問の重視　③出版物が広く流通</li>
+    </ul>
+
+    <h4>元禄期の文学</h4>
+    <p>≪（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">浮世</span></span>）草子≫江戸初期に刊行された教訓を主とする<strong>仮名草子</strong>から発展、「浮き世」（：狭義は歌舞伎と遊里、さらには好色の意味ともなる）を描く　＊以前は「憂き世」</p>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">井原西鶴</span></span>）が西山宗因の談林俳諧で注目され、小説に転じる</li>
+        <li>〈好色物〉1682年の『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">好色一代男</span></span>』に始まり、他に『好色五人女』など</li>
+        <li>〈町人物〉『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">日本永代蔵</span></span>』・『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">世間胸算用</span></span>』など町人の経済生活を描写</li>
+        <li>〈武家物〉『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">武道伝来記</span></span>』（武家社会の矛盾を描く）など</li>
+    </ul>
+    <p>≪俳諧≫連歌の発句から発展</p>
+    <ul>
+        <li><strong>貞門俳諧</strong>：寛永期に<strong>松永貞徳</strong>が規則を整え、連歌から独立させた</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">談林</span></span>）俳諧：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">西山宗因</span></span>）が形式主義を脱し自由な用語を使用、上方町人に流行</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">蕉風</span></span>）俳諧：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">松尾芭蕉</span></span>）が俳諧を和歌と対等な芸術へ引き上げる</li>
+        <li>『猿蓑』、『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">奥の細道</span></span>』（弟子曽良と東北地方へ）、『笈の古文』（関西地域を旅した際に記した俳諧紀行文）など</li>
+    </ul>
+    <p>≪人形浄瑠璃≫古浄瑠璃から発展</p>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">近松門左衛門</span></span>）の脚本が人気（義理人情への葛藤に悩む人々を描く）</li>
+        <li>〈世話物〉町人社会の出来事を題材に、『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">曽根崎心中</span></span>』・『心中天網島』・『冥土の飛脚』</li>
+        <li>〈時代物〉歴史上の事件を題材に、『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">国性（姓）爺合戦</span></span>』（明の遺臣鄭芝竜と日本人妻との子和藤内（鄭成功）が明再興に活躍）など</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">竹本義太夫</span></span>）が大坂に竹本座を興し<strong>辰松八郎兵衛</strong>（人形遣い）と組んで成功、独特の語りである（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">義太夫</span></span>）節を創始</li>
+    </ul>
+    <p>≪歌舞伎≫女歌舞伎→若衆歌舞伎→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">野郎</span></span>）歌舞伎</p>
+    <ul>
+        <li>演劇中心の舞台芸術となり、女性を演じる<strong>女形</strong>も登場</li>
+        <li>常設の<strong>芝居小屋</strong>で演じられ、後には庶民の演劇として人形浄瑠璃をしのぐ人気に</li>
+        <li>〈名優〉（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">市川団十郎</span></span>）：江戸で勇猛な立ち廻りを主とする（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">荒事</span></span>）を演じ人気</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">坂田藤十郎</span></span>）：上方で色男役を得意とする（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">和事</span></span>）の名手</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">芳沢あやめ</span></span>）：上方の女形で、その芸を大成</li>
+    </ul>
+
+    <h4>儒学の興隆</h4>
+    <p>≪朱子学≫封建社会を維持する<strong>官学</strong>として支配者に重んじられる</p>
+    <ul>
+        <li>〈京学〉<strong>藤原惺窩</strong>を祖とする</li>
+        <li>〈林家〉<strong>林羅山</strong>→林鵞峰（春斎）：父羅山と『<strong>本朝通鑑</strong>』編集　＊北宋の司馬光の『資治通鑑』に習う</li>
+        <li>→<strong>林信篤（鳳岡）</strong>：大学頭となり聖堂学問所で儒仏分離を推進</li>
+        <li>〈木門派〉（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">木下順庵</span></span>）：加賀藩主前田綱紀に招かれ、のち5代将軍綱吉の侍講に</li>
+        <li>→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">新井白石</span></span>）：6・7代将軍のもとで「正徳の政治」</li>
+        <li>『読史余論』（「本朝天下の大勢九変して武家の代となり、武家の代また五変して当代に及ぶ」とし徳川政権の正統性を述べる）・『古史通』・『折たく柴の記』・『藩翰譜』（家宣の命で337家の大名の系譜や伝記を収集）・『西洋紀聞』など</li>
+        <li>→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">室鳩巣</span></span>）：前田綱紀・8代将軍吉宗に仕える（『六諭衍義大意』）</li>
+        <li>〈（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">南学／海南学派</span></span>〉土佐で谷時中が確立、弟子を養成</li>
+        <li>→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">野中兼山</span></span>）：土佐藩の家老として藩政改革を推進</li>
+        <li>〈崎門学派〉（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">山崎闇斎</span></span>）：谷時中に学び、保科正之に献策　神儒融合の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">垂加</span></span>）神道を創始、多くの弟子を養成</li>
+    </ul>
+    <p>≪陽明学≫明の王陽明が創始、実践を重視。時世批判の傾向が強く、幕府に圧迫される</p>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">31.</span> <span class="blank">中江藤樹</span></span>）：日本陽明学の祖、近江安曇川に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">藤樹書院</span></span>）を開く（近江聖人）</li>
+        <li>→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33.</span> <span class="blank">熊沢蕃山</span></span>）：岡山藩主池田光政に仕えるも、幕府により下総古河に幽閉される</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">大学或問</span></span>』重農主義的立場から<strong>武士土着論</strong>（帰農・参勤交代緩和）を主張</li>
+    </ul>
+    <p>≪（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">35.</span> <span class="blank">古学</span></span>）派≫孔子・孟子の古典に直接立ち返ることを目指す</p>
+    <ul>
+        <li>〈聖学〉（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">36.</span> <span class="blank">山鹿素行</span></span>）：実用の学を提唱し、朱子学を批判したため赤穂へ配流される　儒教理念に基づく武士道の確立に努める</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37.</span> <span class="blank">聖教要録</span></span>』儒教古典の朱子学的解釈を批判（配流の原因に）</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">38.</span> <span class="blank">中朝事実</span></span>』日本を「中朝」・「中華」とみなし、日本主義を主張</li>
+        <li>〈堀川（古義）学派〉京都堀川に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">39.</span> <span class="blank">古義堂／堀川塾</span></span>）が開かれる</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">40.</span> <span class="blank">伊藤仁斎</span></span>）：『論語』などの原典研究により、直接聖人の道を理解しようとする</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">41.</span> <span class="blank">伊藤東涯</span></span>）：仁斎の子、古義学派を大成</li>
+        <li>〈古文辞（蘐園）学派〉</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">43.</span> <span class="blank">荻生徂徠</span></span>）：古文辞学を創始、江戸茅場町に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">44.</span> <span class="blank">蘐園</span></span>）塾を開く　享保の改革で政治顧問として活躍</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">45.</span> <span class="blank">政談</span></span>』吉宗の諮問に答え、武士の窮乏の原因が参勤交代などによるとして、武士の帰農による幕藩体制維持を説く</li>
+        <li>→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">46.</span> <span class="blank">太宰春台</span></span>）：経済学（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">47.</span> <span class="blank">経世論</span></span>）を専門とし、統治の具体策を説く</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">48.</span> <span class="blank">経済録</span></span>』幕藩体制への改善策を提唱　『経済録拾遺』藩専売制を提唱</li>
+    </ul>
+
+    <h4>諸学問の発達</h4>
+    <p>≪自然科学≫</p>
+    <ul>
+        <li>〈（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">49.</span> <span class="blank">本草学</span></span>〉中国発祥の薬用動植鉱物を研究する学問が博物学に発展</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">50.</span> <span class="blank">大和本草</span></span>』（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">51.</span> <span class="blank">貝原益軒</span></span>）が1362種の動物や植物などを分類、解説</li>
+        <li>＊益軒は他に『和俗童子訓』（早期教育の重要性を説く啓蒙的学問論）や『女大学』（女性教訓書、益軒著とされるが不明）なども著したとされる</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">52.</span> <span class="blank">庶物類纂</span></span>』（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">53.</span> <span class="blank">稲生若水</span></span>）が加賀藩（前田綱紀）の保護下に研究し、生前362巻完成（吉宗の命で弟子により1000巻として完成）</li>
+        <li>〈和算〉中国数学から発展した日本独自のもの（各地の神社などに算額が残る）</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">54.</span> <span class="blank">塵劫記</span></span>』（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">55.</span> <span class="blank">吉田光由</span></span>）による入門書、吉田は算盤も広める</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">56.</span> <span class="blank">発微算法</span></span>』和算を大成した（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">57.</span> <span class="blank">関孝和</span></span>）による和算書、関は筆算代数式や円周率などを研究</li>
+        <li>〈天文・暦学〉5代綱吉の時に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">58.</span> <span class="blank">渋川春海／安井算哲</span></span>）が（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">59.</span> <span class="blank">天文</span></span>）方に任じられ発展</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">60.</span> <span class="blank">貞享暦</span></span>』1684、元の『授時暦』を参考に天体観測の結果によって平安以来の『宣明暦』を修正</li>
+    </ul>
+    <p>≪人文学≫</p>
+    <ul>
+        <li>〈国文学〉国学発展への基礎が築かれる</li>
+        <li>戸田茂睡：和歌の改革を提唱（古今伝授や「制の詞」による拘束を批判）</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">61.</span> <span class="blank">契沖</span></span>）：『万葉集』・『古今和歌集』・伊勢物語』などを研究</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">62.</span> <span class="blank">万葉代匠記</span></span>』（徳川光圀の命により著された万葉集の注釈書）</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">63.</span> <span class="blank">北村季吟</span></span>）：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">64.</span> <span class="blank">歌学</span></span>）方に就任し、『源氏物語』・『枕草子』などを研究</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">65.</span> <span class="blank">源氏物語湖月抄</span></span>』（源氏物語の注釈書）</li>
+    </ul>
+
+    <h4>元禄美術</h4>
+    <p>≪絵画≫</p>
+    <ul>
+        <li>〈土佐派〉土佐（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">66.</span> <span class="blank">光起</span></span>）・光成が朝廷絵師となり活躍（『秋郊鳴鶉図』）</li>
+        <li>〈住吉派〉土佐派から分派、幕府の御用絵師となり住吉（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">67.</span> <span class="blank">如慶・具慶</span></span>）が活躍（『洛中洛外図巻』）</li>
+        <li>〈琳派〉（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">68.</span> <span class="blank">尾形光琳</span></span>）が本阿弥光悦・俵屋宗達の影響を受け、著名な作品を残す（『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">69.</span> <span class="blank">紅白梅図屏風</span></span>』・『燕子花図屏風』・『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">70.</span> <span class="blank">八橋蒔絵螺鈿硯箱</span></span>』）</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">71.</span> <span class="blank">菱川師宣</span></span>）：<strong>浮世絵</strong>を大成、これまで本の挿絵であった版画の絵を独立した芸術に　『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">72.</span> <span class="blank">見返り美人図</span></span>』肉筆の美人画で流行の髪形などを描く</li>
+    </ul>
+    <p>≪陶器≫</p>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">73.</span> <span class="blank">野々村仁清</span></span>）が<strong>上絵付</strong>をもとに（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">74.</span> <span class="blank">色絵</span></span>）を完成、<strong>京焼</strong>の祖とされる　『色絵月梅文茶壺』・『色絵藤花文茶壺』・『色絵雉香炉』</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">75.</span> <span class="blank">尾形乾山</span></span>）：光琳の弟で、野々村仁清に学び傑作を残す</li>
+    </ul>
+    <p>≪彫刻≫円空や木喰が全国を巡り、各地に素朴な仏像彫刻を残す</p>
+    <p>≪染物≫（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">76.</span> <span class="blank">宮崎友禅</span></span>）が友禅染を創始</p>
+    <p>≪建築≫</p>
+    <ul>
+        <li>東大寺大仏殿：1567年に三好・松永の兵乱により消失、1692年再建、国宝</li>
+        <li>善光寺本堂：長野市の浄土・天台宗寺院、古来数度消失、1707年再建、国宝</li>
+    </ul>
+    <p>≪庭園≫</p>
+    <ul>
+        <li>後楽園：水戸藩の江戸藩邸</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">77.</span> <span class="blank">六義園</span></span>）：柳沢吉保の屋敷</li>
+    </ul>
+
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.7';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+            blank.addEventListener('click', function() {
+                this.style.opacity = '1'; 
+            });
+
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
+        });
+    });
+</script>
+</body>
+</html>
