@@ -326,13 +326,14 @@
                 blanks.forEach(blank => {
                     blank.addEventListener('mouseenter', function() {
                         if (!this.classList.contains('revealed')) {
-                            this.style.opacity = '0.7'; 
+                            this.style.opacity = '0.7';
                         }
                     });
                     blank.addEventListener('mouseleave', function() {
-                        this.style.opacity = '1';
+                        this.style.opacity = '1'; // revealed状態でも必ず1に戻す
                     });
                 });
+
             });
             blank.addEventListener('mouseleave', function() {
                 this.style.opacity = '1';
