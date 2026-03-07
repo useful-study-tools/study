@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史 | トップページ</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        :root { --primary-color: #007bff; --chapter-color: #6c757d; --bg-color: #f4f7f9; }
+        body { font-family: sans-serif; background-color: var(--bg-color); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        h1 { color: var(--primary-color); text-align: center; border-bottom: 3px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 30px; }
+        .header-top { width: 100%; display: flex; justify-content: flex-start; margin-bottom: 10px; }
+        
+        /* ジャンル別の見出し */
+        .category-header { 
+            background: var(--chapter-color); 
+            color: white; 
+            padding: 10px 15px; 
+            margin: 30px 0 15px 0; 
+            border-radius: 5px; 
+            font-weight: bold; 
+        }
+
+        /* ツール一覧 */
+        .tool-list { list-style: none; padding: 0; }
+        
+        /* ツール項目 */
+        .tool-item { 
+            background: white; 
+            margin-bottom: 12px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+            transition: 0.2s; 
+            border-left: 5px solid var(--primary-color);
+        }
+        .tool-item:hover { transform: translateY(-3px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        
+        .tool-item a { 
+            display: flex; 
+            padding: 18px 20px; 
+            text-decoration: none; 
+            color: #333; 
+            align-items: center; 
+            justify-content: space-between;
+        }
+        
+        .tool-name { font-size: 1.1em; font-weight: bold; color: #333; min-width: 100px; }
+        .tool-description { font-size: 0.85em; color: #666; margin-left: 15px; flex-grow: 1; }
+        .arrow { color: var(--primary-color); font-weight: bold; margin-left: 10px; }
+
+        /* 特設ボタン */
+        .special-link {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 12px 40px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: 0.3s;
+            text-align: center;
+        }
+        .special-link:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header-top">
+        <a href="../index.html" class="btn-home">ホームに戻る</a>
+    </div>
+    
+    <h1>有機化学：官能基別解説</h1>
+
+    <div class="category-header">アルコールとエーテル</div>
+    <ul class="tool-list">
+        <li class="tool-item">
+            <a href="alcohol.html">
+                <span class="tool-name">アルコール</span>
+                <span class="tool-description">ヒドロキシ基(-OH)を持つ化合物。酸化によりアルデヒドやカルボン酸に。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+        <li class="tool-item">
+            <a href="ether.html">
+                <span class="tool-name">エーテル</span>
+                <span class="tool-description">酸素原子を挟んで2つの炭素鎖が結合。不活性で溶媒として利用。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+    </ul>
+
+    <div class="category-header">アルデヒドとケトン</div>
+    <ul class="tool-list">
+        <li class="tool-item">
+            <a href="aldehyde.html">
+                <span class="tool-name">アルデヒド</span>
+                <span class="tool-description">ホルミル基(-CHO)を持つ。還元性があり、銀鏡反応を示す。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+        <li class="tool-item">
+            <a href="ketone.html">
+                <span class="tool-name">ケトン</span>
+                <span class="tool-description">カルボニル基(C=O)を持つ。最も単純なものはアセトン。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+    </ul>
+
+    <div class="category-header">カルボン酸とその誘導体</div>
+    <ul class="tool-list">
+        <li class="tool-item">
+            <a href="carboxylic-acid.html">
+                <span class="tool-name">カルボン酸</span>
+                <span class="tool-description">カルボキシ基(-COOH)を持つ。酸性を示し、エステルを形成。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+        <li class="tool-item">
+            <a href="ester-and-oils.html">
+                <span class="tool-name">エステルと油脂</span>
+                <span class="tool-description">カルボン酸とアルコールの縮合生成物。油脂は高級脂肪酸のエステル。</span>
+                <span class="arrow">→</span>
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+</body>
+</html>
