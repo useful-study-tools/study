@@ -320,16 +320,16 @@
         const blanks = document.querySelectorAll('.blank-container');
         blanks.forEach(blank => {
             blank.addEventListener('mouseenter', function() {
-    if (!this.classList.contains('revealed')) {
-        this.style.opacity = '0.7';
-    }
-});
-blank.addEventListener('mouseleave', function() {
-    this.style.opacity = '1';
-});
-blank.addEventListener('click', function() {
-    this.style.opacity = '1'; // ← クリック時に即座にopacityをリセット
-});
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.7';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+            blank.addEventListener('click', function() {
+                this.style.opacity = '1'; 
+            });
 
             blank.addEventListener('mouseleave', function() {
                 this.style.opacity = '1';
