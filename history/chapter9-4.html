@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史 第9章 ③幕政の安定</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333 !important; 
+            background-color: transparent !important; 
+            border-bottom: 2px solid #007bff;
+            opacity: 1 !important; 
+        }
+
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
+    </div>
+    
+    <div class="nav-links">
+        <a href="chapter9-2.html" class="nav-link">← 前の範囲</a>
+        <a href="chapter9-4.html" class="nav-link">次の範囲 →</a>
+    </div>
+    
+    <main>
+
+    <h2>第9章　幕藩体制の成立と展開</h2>
+
+    <h3>④経済の発展</h3>
+
+    <h4>農業生産の進展</h4>
+    <p>≪新田開発≫鉱山開発の技術が転用され、大規模な治水・灌漑工事が進む</p>
+    <p>：17世紀初頭から18世紀初頭までに耕地は約<strong>2倍</strong>に（164→297万町歩）</p>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">箱根</span></span>）用水（1670）：�根芦ノ湖の水を利用。名主と江戸の豪商が協力</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">見沼代</span></span>）用水（1728）：武蔵国の見沼新田開発のために利根川から引く</li>
+        <li>有明海、備前児島湾、下総（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">椿海</span></span>）：下総。江戸町人の請負、幕府の支援により1673完成</li>
+    </ul>
+    <p>≪開発の類型≫</p>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">町人請負</span></span>）新田：豪商が開発を請け負う　鴻池新田（河内、18世紀初頭）、越後（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">紫雲寺潟</span></span>）新田、摂津川口新田など</li>
+        <li>代官見立新田：享保期に奨励される</li>
+        <li>村請新田：1村ないし複数村で開発</li>
+    </ul>
+    <p>≪農具の改良≫</p>
+    <ul>
+        <li>風呂鍬→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">備中鍬</span></span>）：中期〜、深耕用</li>
+        <li>こき箸→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">千歯扱</span></span>）（別名「後家倒し」）：脱穀具</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">殻（唐）竿</span></span>）：麦や豆類などの脱穀</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">千石簁</span></span>）：穀粒の選別農具</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">唐箕</span></span>）：中期〜、風で籾殻などを飛ばす選別農具</li>
+        <li>竜骨車・なげつるべ→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">踏車</span></span>）</li>
+    </ul>
+
+    <h4>商品作物の生産　（図説332〜336頁も参照のこと）</h4>
+    <p>各地で「（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">四木三草</span></span>」（桑・漆・茶・楮／麻・藍・紅花）などの栽培が盛んに</p>
+    <p>→栽培方法を教示する「農書」が広く読まれ、栽培に必要な「金肥」が大量に使用される</p>
+    <p>≪農書≫　＊農村に広く普及</p>
+    <ul>
+        <li>金　『清良記』：新しい栽培技術などを紹介</li>
+        <li>『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">農業全書</span></span>』：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">宮崎安貞</span></span>）が明の徐光啓『農政全書』に学び著した最初の体系的農書（1697）、ベストセラーに</li>
+        <li>銀　武蔵川崎宿の名主である（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">田中丘隅</span></span>）が8代将軍吉宗に取り立てられ、意見書『民間省要』を提出</li>
+        <li>銅　『農具便利論』・『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">広益国産考</span></span>』：諸国を巡り見聞を深めた（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">大蔵永常</span></span>）が著す</li>
+    </ul>
+    <p>≪金肥（金銭で購入する肥料）の使用≫　＊商品作物の栽培に不可欠、蝦夷地などで生産</p>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">干鰯</span></span>）：鰯・鯨の日干しで、畿内では綿作に加え稲作でも使用</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">〆粕</span></span>）：鰯・鯨やゴマなどから油を絞った粕で、商品作物の栽培に利用</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">油粕</span></span>）：菜種油・綿実油の絞り粕で、家畜の飼料・農作物の肥料</li>
+        <li>＊これまで一般的な肥料であった刈敷は、新田開発が進んだため不足し、都市周辺部では下肥が利用される</li>
+    </ul>
+    <p>≪主な特産物≫　（図説167頁参照）</p>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">紅花</span></span>）：出羽</li>
+        <li>茶：宇治、駿河</li>
+        <li>藺草：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">備後</span></span>）</li>
+        <li>藍：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">阿波</span></span>）</li>
+        <li>砂糖：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">薩摩</span></span>）、讃岐</li>
+        <li>高級紙（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">奉書</span></span>）紙：鳥の子紙、播磨杉原紙、讃岐檀紙　＊日用紙も多く生産される（美濃紙）。楮を主な原料とし<strong>流漉</strong>の技術で生産される</li>
+        <li>たばこ：薩摩、肥後</li>
+        <li>葡萄：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">甲斐</span></span>）</li>
+        <li>蜜柑：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">紀伊</span></span>）</li>
+        <li>木綿：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">三河</span></span>）、河内、尾張、久留米絣、小倉織　＊簡単な<strong>地機</strong>で生産</li>
+        <li>麻織物：越前縮・近江麻・奈良晒</li>
+        <li>絹：足利絹（栃木）、桐生絹（群馬）、西陣織（高度な技術の<strong>高機</strong>という織り機を当初独占）、丹後縮緬、上田紬（長野）、黄八丈（伊豆八丈島）、結城紬（茨城）</li>
+        <li>漆：会津</li>
+    </ul>
+
+    <h4>林業</h4>
+    <ul>
+        <li>藩が直轄する山林から伐り出された（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">木曽</span></span>）檜や（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">秋田</span></span>）杉などが商品化される</li>
+        <li>江戸中期には陸奥・出羽・蝦夷地にまで材木問屋が進出</li>
+        <li>薪・炭は都市近郊で生産され、大量に販売される</li>
+    </ul>
+
+    <h4>漁業</h4>
+    <ul>
+        <li>上方（瀬戸内・熊野地方中心）では多様な網漁が発達：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">31.</span> <span class="blank">地曳</span></span>）網・船曳網・定置網など</li>
+        <li>各地に上方漁法が広まり、多様に発展</li>
+        <li>鰯漁：房総（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">九十九里浜</span></span>）の地曳網・伊予の船曳網など、干鰯に加工</li>
+        <li>捕鯨：紀伊・土佐・長門・肥前など</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33.</span> <span class="blank">鰹漁</span></span>）：土佐、鰹節に加工</li>
+        <li>鮭漁：肥前五島</li>
+        <li>鰊・昆布漁：松前、鰊は金肥用。また中国への輸出品として昆布や（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">34.</span> <span class="blank">俵物：干し鮑・いりこ・ふかひれなど</span></span>）の生産盛んに</li>
+    </ul>
+
+    <h4>製塩業</h4>
+    <ul>
+        <li>高度な土木技術が用いられた（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">35.</span> <span class="blank">入浜</span></span>）塩田が瀬戸内などで発達</li>
+    </ul>
+
+    <h4>陶磁器</h4>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">36.</span> <span class="blank">伊万里</span></span>）焼：肥前有田、伊万里港から出荷、長崎貿易の主要な輸出品となる</li>
+        <li>九谷焼：加賀、伊万里より学ぶ</li>
+        <li>京焼：楽焼以外の京都産の総称（清水焼など）</li>
+        <li>＊瀬戸や多治見では、藩の保護によって安価な陶磁器が大量に生産される</li>
+    </ul>
+
+    <h4>醸造業</h4>
+    <ul>
+        <li>酒：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37.</span> <span class="blank">伏見</span></span>）・灘・伊丹など　樽を使用することにより、高級酒として江戸へ（下り酒）</li>
+        <li>醤油：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">38.</span> <span class="blank">野田・銚子</span></span>）などで大量に生産</li>
+    </ul>
+
+    <h4>鉱山業　＊17世紀後半に金銀の産出量は激減し、代わって銅の産出量が増加</h4>
+    <ul>
+        <li>金　佐渡相川金山（新潟）・伊豆金山（静岡）・甲斐金山（山梨）</li>
+        <li>銀　但馬生野銀山（兵庫）・石見大森銀山（島根）・院内銀山（秋田）</li>
+        <li>銅　（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">39.</span> <span class="blank">足尾</span></span>）銅山（栃木）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">40.</span> <span class="blank">別子</span></span>）銅山（愛媛）・阿仁銅山（秋田）　＊銅は17世紀後半以降、長崎貿易における最大の輸出品に</li>
+    </ul>
+
+    <h4>製鉄</h4>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">41.</span> <span class="blank">たたら精錬</span></span>）：砂鉄を採集し中国地方などで盛んに　これにより製造された<strong>玉鋼</strong>が全国に普及</li>
+        <li>＊鉄鉱石による製鉄は、釜石鉄山の鉄鉱石を使用した1857年以降のこと</li>
+    </ul>
+
+    <h4>交通の整備と発達</h4>
+    <p>≪街道≫　江戸の日本橋を起点とする幹線道路が整備される</p>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">42.</span> <span class="blank">東海道</span></span>）：江戸・京都間で品川〜大津の53宿</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">43.</span> <span class="blank">中山道</span></span>）：江戸・草津間で板橋〜守山の67宿</li>
+        <li><strong>甲州道中・日光道中・奥州道中</strong>を合わせて（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">44.</span> <span class="blank">五街道</span></span>）と呼び、幕府の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">45.</span> <span class="blank">道中</span></span>）奉行が管理</li>
+        <li>それ以外に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">46.</span> <span class="blank">脇</span></span>）街道が全国で整備される</li>
+        <li>：伊勢街道・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">47.</span> <span class="blank">北国</span></span>）街道（江戸-佐渡）・中国街道（＝山陽道）・長崎街道（小倉-長崎）等</li>
+        <li>街道には、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">48.</span> <span class="blank">宿駅</span></span>）が2〜3里ごとに置かれ、<strong>宿場町</strong>として繁栄</li>
+        <li>：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">49.</span> <span class="blank">問屋場</span></span>）で宿役人が諸業務（伝馬役の管理・継飛脚など）を行う</li>
+        <li>大名などの利用する（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">50.</span> <span class="blank">本陣・脇本陣</span></span>）や、庶民の利用する（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">51.</span> <span class="blank">旅籠屋</span></span>）も整備</li>
+        <li>＊幕府や大名などの御用通行は、周辺の百姓らの負担する（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">52.</span> <span class="blank">伝馬</span></span>）役によって支えられる　伝馬役を補うために人や馬を徴発される村もあり、その負担を<strong>助郷役</strong>とよぶ</li>
+    </ul>
+    <p>他に以下の施設・制度も整備される</p>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">53.</span> <span class="blank">一里</span></span>）塚：幕府が江戸（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">54.</span> <span class="blank">日本橋</span></span>）を起点に約4km毎に塚を築く</li>
+        <li>関所：幕府が約50ヵ所設置　（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">55.</span> <span class="blank">箱根</span></span>）関（「入鉄砲に出女」を厳しく取り締まる）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">56.</span> <span class="blank">新居</span></span>）関（浜名湖）・碓氷関（上野国）・木曽福島関など</li>
+        <li>飛脚：手紙・金銀など小貨物を運ぶ</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">57.</span> <span class="blank">継飛脚</span></span>）：幕府公用の飛脚、1590年の家康関東入府より設置（東海道、約68時間）</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">58.</span> <span class="blank">大名飛脚</span></span>）：大名が江戸と国元間に置く</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">59.</span> <span class="blank">町飛脚</span></span>）：1663年に三都間の飛脚業が開始、飛脚問屋による民営</li>
+    </ul>
+    <p>≪水運≫　遠隔地を結ぶ重要な交通であり、鉄道が開通するまで機能</p>
+    <ul>
+        <li>淀川水運：京都・伏見と大坂を結ぶ、朝鮮通信使も利用</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">60.</span> <span class="blank">保津川</span></span>）水運：丹波・京都間の輸送水路、1606年に豪商の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">61.</span> <span class="blank">角倉了以</span></span>）が開削　＊角倉了以は他に高瀬川や富士川なども開削</li>
+        <li>全国規模の会場交通網は、17世紀後半に豪商（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">62.</span> <span class="blank">河村瑞賢</span></span>）が整備</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">63.</span> <span class="blank">東廻り</span></span>）海運：東北地方の日本海沿岸と江戸を津軽海峡経由で結ぶ</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">64.</span> <span class="blank">西廻り</span></span>）海運：蝦夷地の松前から下関経由で大坂まで結ぶ</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">65.</span> <span class="blank">北前船</span></span>）が東北や蝦夷地の物資を大坂まで輸送</li>
+        <li>江戸-大坂間は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">66.</span> <span class="blank">南海</span></span>）路とよばれ、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">67.</span> <span class="blank">菱垣</span></span>）廻船や（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">68.</span> <span class="blank">樽</span></span>）廻船が就航　当初大型の菱垣廻船が主流、後に船足の速い樽廻船が安価に輸送し中心となる</li>
+    </ul>
+
+    <h4>貨幣と金融</h4>
+    <p>≪貨幣鋳造≫</p>
+    <ul>
+        <li>1600　（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">69.</span> <span class="blank">慶長金銀</span></span>）〜慶長大判・小判、慶長（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">70.</span> <span class="blank">丁銀</span></span>）・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">71.</span> <span class="blank">豆板銀</span></span>）を大量に鋳造</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">72.</span> <span class="blank">金</span></span>）座：当初江戸と京都におかれ（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">73.</span> <span class="blank">後藤庄三郎</span></span>）が小判などの（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">74.</span> <span class="blank">計数</span></span>）貨幣を鋳造、金貨は4進法（1両＝4分、1分＝4朱）</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">75.</span> <span class="blank">銀</span></span>）座：当初伏見と駿府→江戸におかれ、丁銀などの（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">76.</span> <span class="blank">秤量</span></span>）貨幣を鋳造　＊重さや品質を吟味して価値を決める</li>
+        <li>1636〜　（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">77.</span> <span class="blank">銭</span></span>）座が江戸と近江坂本などにおかれ、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">78.</span> <span class="blank">寛永通宝</span></span>）を大量に鋳造</li>
+        <li>ようやく17世紀半ばに（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">79.</span> <span class="blank">三貨：金銀銅貨の総称</span></span>）が全国に普及</li>
+        <li>しかし、幕末まで東日本では（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">80.</span> <span class="blank">金</span></span>）遣い、西日本では（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">81.</span> <span class="blank">銀</span></span>）遣いであり、貨幣制度は統一されず（1871〈明治4〉新貨条例で統一）</li>
+        <li>＊17世紀後半〜各藩内のみで通用する（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">82.</span> <span class="blank">藩札</span></span>）も発行される</li>
+        <li>商人が手数料をとって両替を行い（<strong>両替商</strong>）、なかでも有力な商人は幕府や藩の公金管理、貸付などの銀行業務を行い（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">83.</span> <span class="blank">本両替</span></span>）とよばれる</li>
+        <li>：三井家（三井高利）、天王寺屋、平野屋、鴻池、三谷、鹿島屋など</li>
+    </ul>
+
+    <h4>三都の発展　＊世界でも有数の大都市に成長</h4>
+    <p>≪江戸≫18世紀に人口100万人、「将軍のお膝元」といわれる</p>
+    <ul>
+        <li>主要な卸売市場：<strong>日本橋</strong>の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">84.</span> <span class="blank">魚</span></span>）市、<strong>神田</strong>の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">85.</span> <span class="blank">青物</span></span>）市</li>
+    </ul>
+    <p>≪大坂≫大坂城代により幕府が直轄、人口40万人、「天下の台所」といわれる</p>
+    <ul>
+        <li>中之島には、諸藩の倉庫兼取引所である（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">86.</span> <span class="blank">蔵屋敷</span></span>）が並ぶ</li>
+        <li>蔵屋敷では商人（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">87.</span> <span class="blank">蔵元・掛屋</span></span>）が年貢米などの（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">88.</span> <span class="blank">蔵物</span></span>）を販売し貨幣を大名へ</li>
+        <li>民間商人が各地から買い集めた（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">89.</span> <span class="blank">納屋物</span></span>）の取引も大坂で行われる</li>
+        <li>主要な卸売市場：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">90.</span> <span class="blank">堂島</span></span>）米市場、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">91.</span> <span class="blank">雑喉場</span></span>）魚市、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">92.</span> <span class="blank">天満</span></span>）青物市</li>
+    </ul>
+    <p>≪京都≫京都所司代により幕府が直轄、人口40万人</p>
+    <ul>
+        <li>高級手工業（<strong>西陣織、京染、京焼</strong>など）が発達し、三井家など大商人の本拠地となる</li>
+    </ul>
+
+    <h4>商業の展開</h4>
+    <p>≪（初期）豪商≫</p>
+    <ul>
+        <li>権力と結び朱印船貿易などで巨大な富、流通が未発達な17世紀前半に全国的な物流を担い莫大な富を形成</li>
+        <li>：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">93.</span> <span class="blank">角倉了以</span></span>）（京都）、茶屋四郎次郎（京都）、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">94.</span> <span class="blank">末吉孫左衛門</span></span>）（摂津平野）、今井宗薫（堺）</li>
+        <li>初期豪商は鎖国と全国的流通網の確立で急速に衰え、元禄期に大商人が登場</li>
+        <li>：鴻池家、三井家（越後屋）、住友家、紀伊国屋文左衛門など</li>
+    </ul>
+    <p>≪株仲間の形成≫</p>
+    <ul>
+        <li>17世紀後半〜　（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">95.</span> <span class="blank">問屋</span></span>）や仲買が同業者団体である（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">96.</span> <span class="blank">仲間</span></span>）を形成</li>
+        <li>独自の法である（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">97.</span> <span class="blank">仲間掟</span></span>）を定め、営業独占を図る</li>
+        <li>＊問屋：中世の問・問丸の発展したもの。倉庫業を兼ねる。</li>
+        <li>生産者⇔問屋⇔（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">98.</span> <span class="blank">仲買</span></span>）⇔（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">99.</span> <span class="blank">小売</span></span>）商人：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">100.</span> <span class="blank">振売</span></span>）など、零細な商人も多い</li>
+        <li>代表的株仲間　江戸：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">101.</span> <span class="blank">十</span></span>）組問屋、大坂：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">102.</span> <span class="blank">二十四</span></span>）組問屋</li>
+        <li>江戸・大坂間の荷物運送の安全、海損の共同保障、流通の独占をめざし、複数の問屋仲間が連合組織を形成</li>
+    </ul>
+
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.7';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+            blank.addEventListener('click', function() {
+                this.style.opacity = '1'; 
+            });
+
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
+        });
+    });
+</script>
+</body>
+</html>
