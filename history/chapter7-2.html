@@ -321,23 +321,30 @@
 
         // ホバーエフェクト
         const blanks = document.querySelectorAll('.blank-container');
+        // JSのホバー処理部分を以下のように修正
         blanks.forEach(blank => {
             blank.addEventListener('mouseenter', function() {
-    if (!this.classList.contains('revealed')) {
-        this.style.opacity = '0.7';
-    }
-});
-blank.addEventListener('mouseleave', function() {
-    this.style.opacity = '1';
-});
-blank.addEventListener('click', function() {
-    this.style.opacity = '1'; // ← クリック時に即座にopacityをリセット
-});
-
+                // 「まだ開いていない」かつ「すべて表示状態でもない」時だけ薄くする
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+    
             blank.addEventListener('mouseleave', function() {
+                // 離れたら必ず 1 に戻す
                 this.style.opacity = '1';
             });
+    
+            // クリック時の処理
+            blank.addEventListener('click', function() {
+                this.classList.toggle('revealed');
+                // クリックして開いた瞬間、強制的に opacity を 1 に戻す
+                if (this.classList.contains('revealed')) {
+                    this.style.opacity = '1';
+                }
+                });
         });
+
 
         // 一番下にスクロールしたときのみボタンを表示する処理
         const backToTopBtn = document.getElementById('backToTop');
