@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史 第9章 ③幕政の安定</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333 !important; 
+            background-color: transparent !important; 
+            border-bottom: 2px solid #007bff;
+            opacity: 1 !important; 
+        }
+
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
+    </div>
+    
+    <div class="nav-links">
+        <a href="chapter9-2.html" class="nav-link">← 前の範囲</a>
+        <a href="chapter9-4.html" class="nav-link">次の範囲 →</a>
+    </div>
+    
+    <main>
+
+    <h2>第9章　幕藩体制の成立と展開</h2>
+
+    <h3>③幕政の安定</h3>
+
+    <h4>平和と秩序の確立（武断政治から文治政治への転換）</h4>
+    <ul>
+        <li>1651（慶安4）3代将軍家光死去、11歳の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">家綱</span></span>）が4代将軍に就任</li>
+        <li>叔父の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">保科正之：会津藩主</span></span>）や譜代大名らが支え、社会秩序は安定</li>
+        <li>↑これまでの政治（＝「武断政治」）で大量に生み出された「牢人」や、太平の世に不満を持つ「（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">かぶき者</span></span>）」が幕政を批判し、クーデタを計画</li>
+        <li>：7月（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">由井正雪の乱・慶安の変</span></span>）発生　＊兵学者由井（比）正雪が牢人らと計画</li>
+    </ul>
+    <p>幕政に衝撃を与え、政策の大転換が進む（＝「文治政治」）</p>
+    <p>≪改革≫①江戸の牢人やかぶき者の取り締まり強化</p>
+    <ul>
+        <li>②牢人を増やさないために、武家諸法度を緩和（改易処分となる大名家が減少）</li>
+        <li>：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">末期養子の禁止</span></span>）を緩和し、50歳未満の大名は末期（＝死の直前）に養子（相続人）を決めることが可能に</li>
+        <li>＊相続人がいない大名家は改易されるが、末期の養子は大名家に混乱を招くとしてこれまでほとんど認められなかったため多くの家が改易された</li>
+        <li>③大名人質（証人）の廃止　＊大名の支配が安定するために重臣を江戸で人質とした</li>
+    </ul>
+    <ul>
+        <li>1657（明暦3）（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">明暦の大火</span></span>）発生、江戸城と市街に甚大な被害、復興にあたる</li>
+        <li>1663（寛文3）武家諸法度（寛文令）発布、この時諸大名に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">殉死の禁止</span></span>）を命じる</li>
+        <li>＊殉死は戦国時代にはみられなかった風習だが、17世紀になってから、家臣が主人への忠誠心を示すために多発。これは個人的な主従関係であり、家綱はそれを否定し、主家に仕え続けるよう要求した。</li>
+        <li>1665　諸宗寺院法度・諸社禰宜神主法度発布</li>
+        <li>1673　分地制限令発布</li>
+    </ul>
+
+    <h4>諸藩の改革</h4>
+    <p>＊幕政の改革に影響され、藩政の安定と経済の発展をはかる</p>
+    <p>藩政も「文治政治」に転換、朱子学など学問が重んじられる</p>
+    <p>藩主自ら学問に励み、著名な学者を招く</p>
+    <p>次の4藩が初期の改革例として有名</p>
+
+    <table style="border-collapse:collapse; width:100%; margin:16px 0;">
+        <thead>
+            <tr>
+                <th style="border:1px solid #ccc; padding:6px;"></th>
+                <th style="border:1px solid #ccc; padding:6px;">岡山</th>
+                <th style="border:1px solid #ccc; padding:6px;">会津</th>
+                <th style="border:1px solid #ccc; padding:6px;">水戸</th>
+                <th style="border:1px solid #ccc; padding:6px;">加賀</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border:1px solid #ccc; padding:6px;">藩主</td>
+                <td style="border:1px solid #ccc; padding:6px;">（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">池田光政</span></span>）</td>
+                <td style="border:1px solid #ccc; padding:6px;">保科正之</td>
+                <td style="border:1px solid #ccc; padding:6px;">（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">徳川光圀</span></span>）</td>
+                <td style="border:1px solid #ccc; padding:6px;">（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">前田綱紀</span></span>）</td>
+            </tr>
+            <tr>
+                <td style="border:1px solid #ccc; padding:6px;">学者</td>
+                <td style="border:1px solid #ccc; padding:6px;">（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">熊沢蕃山</span></span>）：陽明学</td>
+                <td style="border:1px solid #ccc; padding:6px;">（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">山崎闇斎</span></span>）：朱子学</td>
+                <td style="border:1px solid #ccc; padding:6px;">（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">朱舜水</span></span>）：明から亡命</td>
+                <td style="border:1px solid #ccc; padding:6px;">（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">木下順庵</span></span>）：朱子学</td>
+            </tr>
+            <tr>
+                <td style="border:1px solid #ccc; padding:6px;">政策</td>
+                <td style="border:1px solid #ccc; padding:6px;">郷学（地域の学校）として（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">閑谷</span></span>）学校を設立、蕃山は私塾として（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">花畠教場</span></span>）を設立</td>
+                <td style="border:1px solid #ccc; padding:6px;">藩主自ら朱子学を学び、多くの書物を著す</td>
+                <td style="border:1px solid #ccc; padding:6px;">江戸に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">彰考</span></span>）館を設け、歴史書『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">大日本史</span></span>）』の編纂を開始</td>
+                <td style="border:1px solid #ccc; padding:6px;">農政を改革、古文書整理（尊経閣文庫として今日まで残る）</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h4>「天和（てんな）の政治」</h4>
+    <ul>
+        <li>1680　4代将軍死去、5代に弟の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">綱吉：元館林藩主</span></span>）が就任</li>
+        <li>大老の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">堀田正俊</span></span>）が補佐、厳しい政治が行われる（→84に暗殺される）</li>
+        <li>綱吉は朱子学者の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">木下順庵</span></span>）に学び、文治政治を実践</li>
+        <li>1683（天和3）武家諸法度（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">天和</span></span>）令において、内容が大きく改定される</li>
+        <li>「文武（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">忠孝</span></span>）を励し、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">礼儀</span></span>）を正すべき事」←「文武弓馬の道、専ら相嗜むべき事」</li>
+        <li>加えて、末期養子を認め、殉死を禁止することを明文化</li>
+    </ul>
+
+    <h4>元禄時代　＊1684〜</h4>
+    <ul>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">側用人：将軍と老中を結ぶ役職</span></span>）の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">柳沢吉保</span></span>）が重用される</li>
+        <li>孔子を祀る（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">湯島聖堂</span></span>）を建立　＊林家が上野忍ヶ岡に設けた孔子廟を移転</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">聖堂学問所</span></span>）の大学頭（塾頭）に朱子学者（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">林鳳岡・信篤：林家3代目</span></span>）を任命</li>
+        <li>＊他に歌学方（北村季吟）、天文方（渋川春海）を任じ学問を奨励</li>
+        <li>朝廷政策の見直し：1万石加増、大嘗会や葵祭などが再興される</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">生類憐みの令</span></span>）：生類全ての殺生を禁止（仏教の影響）→戦国の遺風が断ち切られる</li>
+        <li>＊綱吉生母も深く仏教に帰依し、護国寺を造営、寛永寺を改築</li>
+        <li>戌年の綱吉に跡継ぎが誕生しないため、特に犬を保護（犬公方と批判される）</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">31.</span> <span class="blank">服忌令</span></span>）：近親者が死去した際の忌引きの日数等を規定（神道の影響）</li>
+        <li>→死や血を忌み嫌い、穢れを強く意識するように（その結果、死牛馬の処理や行刑役を担う「かわた」の人々などは、さらに強い差別意識にさらされる）</li>
+        <li>＊そもそも死や血を極端に忌避したのは、朝廷・天皇であった。1505年に家屋敷に死の穢れが及ぶことを恐れて瀕死の下女を屋敷の外にすてさせた貴族の話が残る。この意識が元禄期に日本社会全体に浸透。</li>
+        <li>財政再建：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">鉱山</span></span>）収入の激減と明暦の大火後の再建費用に加え、元禄期の寺社造営費や生類憐みの令などの支出により、幕府の財政が破たん</li>
+        <li>→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33.</span> <span class="blank">勘定吟味</span></span>）役に就任した（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">34.</span> <span class="blank">荻原重秀</span></span>）が貨幣改鋳を実施</li>
+        <li>良質な慶長金銀の質を落として、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">35.</span> <span class="blank">元禄</span></span>）金銀に改鋳することで多額の改鋳益金（出目）を得て、財政を補てん</li>
+        <li>→貨幣価値の下落により経済は混乱し人々の生活は圧迫されるも、成長する市場に多量の貨幣が投入される</li>
+        <li>富士山噴火（1707）後の復興に充てるため「諸国高（国）役金」を全国に一律課す　＊幕政史で最初の試み（100石につき2両）</li>
+    </ul>
+    <p>＊赤穂事件（朝幕関係が見直される中で発生）</p>
+    <ul>
+        <li>：高家（武家の中でも特に家柄が良く、朝廷との間での儀式を統括）の吉良義央が、勅使接待役の赤穂藩主（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">36.</span> <span class="blank">浅野長矩</span></span>）に斬りつけられる</li>
+        <li>→浅野は切腹、浅野家は改易</li>
+        <li>→翌年赤穂浪士が吉良を討ち復讐を遂げたのち切腹を命じられる</li>
+        <li>「太平の世」に起こった事件は当時から人々の関心を呼び、芝居等の題材となり話題となる</li>
+    </ul>
+
+    <h4>「正徳（しょうとく）の政治」</h4>
+    <ul>
+        <li>5代将軍綱吉は跡継ぎなく1709年に死去、すぐに生類憐みの令は廃止される</li>
+        <li>綱吉の兄弟である綱重の子（綱豊）が改名し、6代将軍（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37.</span> <span class="blank">家宣</span></span>）となる（位09〜12）</li>
+        <li>短命のため、後継者の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">38.</span> <span class="blank">家継</span></span>）は幼少で7代将軍に就任（位12〜16）</li>
+        <li>この間の政治は、朱子学者（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">39.</span> <span class="blank">新井白石</span></span>）と、側用人（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">40.</span> <span class="blank">間部詮房</span></span>）が担当</li>
+        <li>将軍権威高揚のため、天皇家との関係を強化</li>
+        <li>：家継と皇女との婚約、幕府が支援し（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">41.</span> <span class="blank">閑院宮</span></span>）家を創設</li>
+        <li>武士社会の序列化：衣服の制度を整える→将軍を頂点とした家格・身分が明確に</li>
+        <li>貨幣改鋳により、金貨・銀貨の品位（質）を戻す：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">42.</span> <span class="blank">正徳</span></span>）小判など</li>
+        <li>＊物価の高騰を抑えようとするも、社会は再び混乱</li>
+        <li>海外に流出する金銀量をおさえるため（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">43.</span> <span class="blank">海舶互市新例／長崎新令/正徳新令</span></span>）を出す</li>
+        <li>＊中国（清）：年間30隻・6000貫まで、蘭：2隻・3000貫までとする</li>
+        <li>朝鮮通信使の待遇を（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">44.</span> <span class="blank">簡素</span></span>）化：朝鮮を日本より「下位」とみなす</li>
+        <li>＊これまで通信使との交流は、「進んだ」朝鮮文化を学ぶ貴重な機会であり、各地で文化人による篤いもてなしが行われていた</li>
+        <li>朝鮮に要求し、将軍の称号を「日本国大君殿下」→「日本（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">45.</span> <span class="blank">国王</span></span>）」に改めさせる</li>
+        <li>＊白石は、朝鮮において「大君」は地位の低い称号であるため（朝鮮国王より上の）将軍の称号として不相応だと主張</li>
+        <li>◎白石は優秀な学者であったが、政治を担当すると理想と現実の間に混乱も（自伝『折たく柴の記』、シドッチを尋問して著した『西洋紀聞』、歴史書『（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">46.</span> <span class="blank">読史余論</span></span>）』等残す）</li>
+    </ul>
+
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        // JSのホバー処理部分を以下のように修正
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                // 「まだ開いていない」かつ「すべて表示状態でもない」時だけ薄くする
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.8';
+                }
+            });
+    
+            blank.addEventListener('mouseleave', function() {
+                // 離れたら必ず 1 に戻す
+                this.style.opacity = '1';
+            });
+    
+            // クリック時の処理
+            blank.addEventListener('click', function() {
+                this.classList.toggle('revealed');
+                // クリックして開いた瞬間、強制的に opacity を 1 に戻す
+                if (this.classList.contains('revealed')) {
+                    this.style.opacity = '1';
+                }
+                });
+        });
+
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
+        });
+    });
+</script>
+</body>
+</html>
