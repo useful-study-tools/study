@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>16 電磁誘導（図解入り）</title>
+
+<style>
+html{
+-webkit-text-size-adjust:100%;
+}
+
+body{
+font-family:sans-serif;
+background-color:#f4f7f9;
+margin:0;
+padding:20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+.container{
+width:100%;
+max-width:900px;
+background-color:white;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
+padding:30px;
+border-radius:12px;
+}
+
+h1{
+color:#007bff;
+text-align:center;
+border-bottom:3px solid #007bff;
+padding-bottom:10px;
+margin-bottom:30px;
+}
+
+h2{
+border-left:5px solid #0056b3;
+padding-left:10px;
+color:#0056b3;
+margin-top:30px;
+}
+
+h3{
+border-bottom:2px solid #ddd;
+padding-bottom:5px;
+color:#555;
+}
+
+ul{
+list-style-type:none;
+padding-left:0;
+}
+
+li{
+margin-bottom:8px;
+}
+
+.figure-box{
+background-color:#f9f9fc;
+border:1px solid #ccc;
+border-radius:10px;
+padding:20px;
+margin:20px 0;
+text-align:center;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}
+
+.figure-caption{
+font-style:italic;
+color:#555;
+margin-top:10px;
+}
+
+svg{
+max-width:100%;
+height:auto;
+}
+
+.btn-home{
+display:inline-block;
+padding:8px 20px;
+background-color:#6c757d;
+color:white;
+text-decoration:none;
+border-radius:20px;
+font-weight:bold;
+font-size:0.9rem;
+box-shadow:0 2px 4px rgba(0,0,0,0.1);
+transition:0.3s;
+margin-top:20px;
+}
+
+.btn-home:hover{
+background-color:#5a6268;
+transform:translateY(-1px);
+box-shadow:0 4px 8px rgba(0,0,0,0.15);
+}
+
+#backToTop{
+position:fixed;
+bottom:30px;
+right:30px;
+width:50px;
+height:50px;
+background-color:#007bff;
+color:white;
+border:none;
+border-radius:50%;
+cursor:pointer;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+display:none;
+align-items:center;
+justify-content:center;
+font-size:24px;
+z-index:1000;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>16 電磁誘導</h1>
+
+<h2>1. 電磁誘導の法則</h2>
+
+<ul>
+
+<li><strong>電磁誘導</strong>：コイルを貫く磁場が時間とともに変化するとき、コイルに電流が流れ、起電力が生じる現象。</li>
+
+<li>
+<strong>磁束</strong>：
+
+\[
+\Phi = BS
+\]
+
+</li>
+
+<li>
+<strong>誘導起電力</strong>
+
+\[
+V=-\frac{\Delta\Phi}{\Delta t}
+\]
+
+</li>
+
+<li>
+N巻き
+
+\[
+V=-N\frac{\Delta\Phi}{\Delta t}
+\]
+
+</li>
+
+</ul>
+
+<h2>3. 自己誘導と相互誘導</h2>
+
+<ul>
+
+<li>
+
+\[
+V=-L\frac{\Delta I}{\Delta t}
+\]
+
+</li>
+
+<li>
+
+\[
+U=\frac12LI^2
+\]
+
+</li>
+
+</ul>
+
+<div class="figure-box">
+
+<h3 style="margin-top:0;">図2: 相互誘導のコイル対</h3>
+
+<svg width="450" height="200" viewBox="0 0 450 200" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="450" height="200" fill="white"/>
+
+<path d="M80 80 Q100 60 120 80 Q140 100 160 80 Q180 60 200 80 Q220 100 240 80 Q260 60 280 80"
+stroke="#00a" stroke-width="3" fill="none"/>
+
+<path d="M80 120 Q100 100 120 120 Q140 140 160 120 Q180 100 200 120 Q220 140 240 120 Q260 100 280 120"
+stroke="#00a" stroke-width="3" fill="none"/>
+
+<path d="M320 80 Q340 60 360 80 Q380 100 400 80 Q420 60 440 80"
+stroke="#a00" stroke-width="3" fill="none"/>
+
+<path d="M320 120 Q340 100 360 120 Q380 140 400 120 Q420 100 440 120"
+stroke="#a00" stroke-width="3" fill="none"/>
+
+<!-- ★変更① SVG内のTeXを通常文字に変更 -->
+
+<text x="250" y="180" fill="#000" font-size="16">
+V₂ = −M ΔI₁ / Δt
+</text>
+
+</svg>
+
+<div class="figure-caption">
+コイル1の電流変化がコイル2に起電力を誘導
+</div>
+
+</div>
+
+</div>
+
+<button id="backToTop"
+onclick="window.scrollTo({top:0,behavior:'smooth'});">↑</button>
+
+<script>
+
+window.addEventListener('scroll',function(){
+
+var btn=document.getElementById('backToTop');
+
+if(window.pageYOffset>300){
+btn.style.display='flex';
+}
+else{
+btn.style.display='none';
+}
+
+});
+
+document.getElementById('backToTop').style.display='none';
+
+</script>
+
+
+<!-- ★変更② MathJax設定追加 -->
+
+<script>
+window.MathJax = {
+tex:{
+inlineMath:[['\\(','\\)']],
+displayMath:[['\\[','\\]']]
+}
+};
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+</body>
+</html>
