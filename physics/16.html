@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>物理　16 電磁誘導</title>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['\\(','\\)']],
+                displayMath: [['\\[','\\]']]
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+             }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="btn-home">物理トップに戻る</a>
+        <main>
+            <h1>16 電磁誘導</h1>
+
+            <h2>1. 電磁誘導の法則</h2>
+            <ul>
+                <li><strong>電磁誘導</strong>：コイルを貫く磁場が時間とともに変化するとき、コイルに電流が流れ、起電力が生じる現象。起電力を<strong>誘導起電力</strong>、流れる電流を<strong>誘導電流</strong>という。</li>
+                <li><strong>磁束</strong>：磁束密度 \( B(T) \) の一様な磁場中で、磁場に垂直な断面積 \( S(m^2) \) を考える。このとき、\( B \) と \( S \) の積 \( \Phi \) を磁束という。
+                    \[ \Phi = BS \quad \cdots (1) \]
+                </li>
+                <li><strong>ファラデーの電磁誘導の法則</strong>：電磁誘導は次のように説明される。(a),(b)をあわせて、ファラデーの電磁誘導の法則という。
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                        <li>(a) <strong>誘導起電力は、誘導電流のつくる磁束が、コイルを貫く磁束の変化を妨げる向きに生じる（レンツの法則）</strong>。</li>
+                        <li>(b) <strong>誘導起電力の大きさは、コイルを貫く磁束の単位時間あたりの変化量に比例する</strong>。</li>
+                    </ul>
+                </li>
+                <li><strong>誘導起電力の式</strong>：1巻きのコイルを貫く磁束が、時間 \( t(s) \) の間に \( \Delta \Phi(Wb) \) だけ変化するとき、コイルに生じる誘導起電力 \( V(V) \) は、
+                    \[ V = -\frac{\Delta \Phi}{\Delta t} \quad \cdots (2) \]
+                </li>
+                <li><strong>巻数 \( N \) の場合</strong>：
+                    \[ V = -N \frac{\Delta \Phi}{\Delta t} \quad \cdots (3) \]
+                </li>
+                <li>式(2),(3)の負の符号は、誘導起電力が磁束の変化を妨げる向きであることを示している。</li>
+                <li><strong>コイルに生じる誘導起電力</strong>：コイルに誘導起電力が生じるとき、コイルを電池に置き換えて考えるとよい。誘導電流が流れ出す方の端子が高電位であり、電池の正極に相当する。</li>
+                <li><strong>磁場中を動く導体に生じる誘導起電力</strong>
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                        <li><strong>電磁誘導の法則による考え方</strong>：磁束密度 \( B(T) \) の一様な磁場中で、長さ \( L(m) \) の導体を平行導線の上に垂直に渡し、磁場に垂直な方向に速さ \( v(m/s) \) で移動させる。図において、回路 PQRS の面積は \( \Delta t(s) \) の間に \( \Delta S(m^2) \) 変化する。磁束の変化 \( \Delta \Phi \) と誘導起電力の大きさ \( V(V) \) は、
+                            \[ V = -\frac{\Delta \Phi}{\Delta t} = vBL \quad \cdots (5) \]
+                        </li>
+                        <li>PQ は起電力 \( V = vBL \) の電池とみなせる。</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>2. ローレンツ力による考え方</h2>
+            <ul>
+                <li>導体中の電子（電気量 \( e \)）が磁場から受けるローレンツ力の大きさ \( f(N) \)は、
+                    \[ f = e v B \] 
+                </li>
+                <li>この力を受けて移動した電子によって、導体中に電場が生じる。電場からの力とローレンツ力のつりあいの状態になると電子の移動が止まる。このとき、
+                    \[ eE = e v B \quad \Rightarrow \quad E = v B \quad \cdots (7) \]
+                </li>
+                <li>PQ間の電位差は、
+                    \[ V = EL = v B L \quad \cdots (8) \]
+                </li>
+            </ul>
+
+            <h3>誘導電流とエネルギー保存</h3>
+            <p>式(5)の状況設定において、導体を速さ \( v(m/s) \)で移動させるとき、PQに誘導電流が流れ、PQは磁場から速度と逆方向の力を受ける。PQを一定の速さ \( v(m/s) \)で引き続けるには、速度の向きに一定の大きさの外力を加え続ける必要がある。このとき、外力がする仕事は、導体と導線との間の摩擦などが無視できるとき、抵抗でジュール熱となって消費されており、エネルギー保存の法則が成り立っている。</p>
+
+            <h3>漏電流</h3>
+            <p>金属板のような導体を置く磁場が時間とともに変化すると、その変化を妨げる磁場が生じるように、導体に漏れの誘導電流（漏電流）が流れる。</p>
+
+            <h3>誘導電場</h3>
+            <p>磁場が変化する空間に生じる電場を<strong>誘導電場</strong>という。電磁誘導は、誘導電場によって誘導電流が流れていると考えることができる。</p>
+            
+            <h2>3. 自己誘導と相互誘導</h2>
+
+            <h3>自己誘導</h3>
+            <ul>
+                <li>コイルを流れる電流を変化させるとき、コイルに、電流の変化を妨げる向きに起電力（逆起電力）が発生する現象。</li>
+                <li>コイルに流れる電流が \( \Delta t(s) \)の間に \( \Delta I(A) \)変化するとき、自己誘導による起電力 \( V \) は、
+                    \[ V = -L \frac{\Delta I}{\Delta t} \quad \cdots (9) \]
+                </li>
+                <li>比例定数 \( L \) を<strong>自己インダクタンス</strong>といい、単位は<strong>ヘンリー（記号 H）</strong>。</li>
+                <li>コイルを流れる電流：図の回路では、コイルの自己誘導のため、スイッチを入れても電流はすぐに増加せず、切ってもすぐに減少しない。</li>
+            </ul>
+
+
+            <svg width="100%" style="max-width:500px" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+
+                <!-- 左端子 -->
+                <circle cx="20" cy="150" r="6" fill="black"/>
+
+                <!-- 右端子 -->
+                <circle cx="480" cy="150" r="6" fill="black"/>
+
+                <!-- 左線 -->
+                <line x1="20" y1="150" x2="110" y2="150" stroke="black" stroke-width="3"/>
+
+                <!-- 抵抗 -->
+                <rect x="110" y="130" width="90" height="40" fill="none" stroke="black" stroke-width="3"/>
+
+                <!-- 抵抗ラベル -->
+                <text x="155" y="120" text-anchor="middle" font-size="20" font-family="Arial, Helvetica, sans-serif">R</text>
+
+                <!-- 抵抗→コイル -->
+                <line x1="200" y1="150" x2="250" y2="150" stroke="black" stroke-width="3"/>
+
+                <!-- コイル（右へ移動） -->
+                <path d=" M250 150 a10 20 0 0 1 20 0 a10 20 0 0 1 20 0 a10 20 0 0 1 20 0 a10 20 0 0 1 20 0 a10 20 0 0 1 20 0" fill="none" stroke="black" stroke-width="3"/>
+
+                <!-- コイルラベル -->
+                <text x="300" y="120" text-anchor="middle" font-size="20" font-family="Arial, Helvetica, sans-serif">コイル</text>
+
+                <!-- コイル→右端子 -->
+                <line x1="350" y1="150" x2="480" y2="150" stroke="black" stroke-width="3"/>
+
+                <!-- 下回路 -->
+                <polyline points="20,150 20,260 200,260" stroke="black" stroke-width="3" fill="none"/>
+
+                <!-- 下の抵抗 -->
+                <rect x="200" y="240" width="90" height="40" fill="none" stroke="black" stroke-width="3"/>
+
+                <!-- 下抵抗→右 -->
+                <polyline points="290,260 480,260 480,150" stroke="black" stroke-width="3" fill="none"/>
+
+                <!-- 電池 -->
+                <line x1="240" y1="40" x2="240" y2="80" stroke="black" stroke-width="3"/>
+                <line x1="260" y1="20" x2="260" y2="100" stroke="black" stroke-width="3"/>
+
+                <!-- 電池配線 -->
+                <polyline points="240,60 20,60 20,95" stroke="black" stroke-width="3" fill="none"/>
+
+                <polyline points="20,120 20,150" stroke="black" stroke-width="3" fill="none"/>
+
+                <polyline points="260,60 480,60 480,150" stroke="black" stroke-width="3" fill="none"/>
+
+                <!-- スイッチ接点 -->
+                <circle cx="20" cy="95" r="4" fill="black"/>
+                <circle cx="20" cy="120" r="4" fill="black"/>
+
+                <!-- スイッチレバー -->
+                <line x1="20" y1="95" x2="40" y2="110" stroke="black" stroke-width="3"/>
+
+            </svg>
+            
+
+            <h3>コイルにたくわえられるエネルギー</h3>
+            <p>自己インダクタンス \( L(H) \) のコイルに、\( I(A) \) の電流が流れているとき、コイルにたくわえられているエネルギー \( U(J) \) は、
+                \[ U = \frac{1}{2} L I^2 \quad \cdots (10) \]
+            </p>
+            <p>コイルに流れる電流を増加させるには、誘導起電力に逆らって仕事をしなければならない。この仕事が、磁場のエネルギー \( U(J) \) としてコイルにたくわえられる。</p>
+
+            <h3>相互誘導</h3>
+            <ul>
+                <li>接近した２つのコイルにおいて、一方のコイルを流れる電流を変化させるとき、もう一方のコイルを貫く磁束も変化し、もう一方のコイルに誘導起電力が生じる現象。誘導起電力は、磁束の変化を妨げる向きに生じる。</li>
+                <li>コイル１を流れる電流が、\( \Delta t(s) \) の間に \( \Delta I_1(A) \) だけ変化するとき、コイル２に生じる誘導起電力 \( V_2(V) \) は、
+                    \[ V_2 = -M \frac{\Delta I_1}{\Delta t} \quad \cdots (11) \]
+                </li>
+                <li>比例定数 \( M \) を<strong>相互インダクタンス</strong>といい、単位は<strong>ヘンリー（記号 H）</strong>。</li>
+            </ul>
+            
+        </main>
+    </div>
+
+    <button id="backToTop">↑</button>
+
+    <script>
+        // クリックで表示/非表示の切り替え
+        function reveal(element) {
+            element.classList.toggle('revealed');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // スムーズスクロール
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // ホバーエフェクト
+            const blanks = document.querySelectorAll('.blank-container');
+            blanks.forEach(blank => {
+                blank.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('revealed')) {
+                        this.style.opacity = '0.8';
+                    }
+                });
+                blank.addEventListener('mouseleave', function() {
+                    this.style.opacity = '1';
+                });
+            });
+
+            // 一番下にスクロールしたときのみボタンを表示する処理
+            const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
