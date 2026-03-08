@@ -119,7 +119,40 @@
     <div class="container">
         <main>
             <h1>16 電磁誘導</h1>
+<svg width="500" height="220" viewBox="0 0 500 220" xmlns="http://www.w3.org/2000/svg">
 
+  <!-- 左端子 -->
+  <circle cx="40" cy="110" r="7" fill="black"/>
+
+  <!-- 右端子 -->
+  <circle cx="460" cy="110" r="7" fill="black"/>
+
+  <!-- 左端子から抵抗までの導線 -->
+  <line x1="40" y1="110" x2="120" y2="110" stroke="black" stroke-width="3"/>
+
+  <!-- 抵抗（長方形） -->
+  <rect x="120" y="90" width="80" height="40"
+        fill="none" stroke="black" stroke-width="3"/>
+
+  <!-- 抵抗からコイルまでの導線 -->
+  <line x1="200" y1="110" x2="240" y2="110" stroke="black" stroke-width="3"/>
+
+  <!-- コイル（半円を連続させた形） -->
+  <path d="
+      M240 110
+      a10 20 0 0 1 20 0
+      a10 20 0 0 1 20 0
+      a10 20 0 0 1 20 0
+      a10 20 0 0 1 20 0
+      a10 20 0 0 1 20 0
+      a10 20 0 0 1 20 0
+  "
+  fill="none" stroke="black" stroke-width="3"/>
+
+  <!-- コイルから右端子までの導線 -->
+  <line x1="360" y1="110" x2="460" y2="110" stroke="black" stroke-width="3"/>
+
+</svg>
             <!-- セクション1: 電磁誘導の法則 (IMG_8373) -->
             <h2>1. 電磁誘導の法則</h2>
             <ul>
