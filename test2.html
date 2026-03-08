@@ -188,65 +188,20 @@
                 <li>コイルを流れる電流：図の回路では、コイルの自己誘導のため、スイッチを入れても電流はすぐに増加せず、切ってもすぐに減少しない。</li>
             </ul>
 
-            
-<svg width="500" height="350" viewBox="-50 -50 500 350" xmlns="http://www.w3.org/2000/svg" class="rl-circuit-container">
-  <style>
-    .rl-circuit-line { fill: none; stroke: black; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-    .rl-circuit-label { font-family: 'Times New Roman', serif; font-style: italic; font-size: 18px; fill: black; }
-    .rl-circuit-dot { fill: black; }
-  </style>
+            < svg width="500" height="350" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+                <line x1="238" y1="28" x2="238" y2="52" stroke="black" stroke-width="3" />
+                <line x1="262" y1="4" x2="262" y2="76" stroke="black" stroke-width="3" />
+                <line x1="10" y1="81" x2="13" y2="124" stroke="black" stroke-width="5" />
 
-  <defs>
-    <symbol id="rl-circuit-resistor">
-      <path d="M 0,0 L 10,0 L 15,-10 L 25,10 L 35,-10 L 45,10 L 55,-10 L 65,10 L 70,0 L 80,0" class="rl-circuit-line"/>
-    </symbol>
+                <polyline points="238,40 10,40 10,67" stroke="black" stroke-width="3" fill="none" />
+                <polyline points="10,122 10,310 190,310" stroke="black" stroke-width="3" fill="none" />
+                <polyline points="190,328 310,328 310,292 190,292 190,328" stroke="black" stroke-width="3" fill="none" />
+                <polyline points="310,310 490,310 490,40 262,40" stroke="black" stroke-width="3" fill="none" />
 
-    <symbol id="rl-circuit-inductor">
-      <path d="M 0,0 L 10,0 
-               Q 15,-15 20,0 Q 25,-15 30,0 Q 35,-15 40,0 Q 45,-15 50,0 
-               L 60,0" class="rl-circuit-line"/>
-    </symbol>
-
-    <symbol id="rl-circuit-battery">
-      <line x1="0" y1="0" x2="15" y2="0" class="rl-circuit-line" />
-      <line x1="15" y1="-10" x2="15" y2="10" class="rl-circuit-line" />
-      <line x1="25" y1="-20" x2="25" y2="20" class="rl-circuit-line" />
-      <line x1="25" y1="0" x2="40" y2="0" class="rl-circuit-line" />
-    </symbol>
-
-    <symbol id="rl-circuit-switch">
-      <line x1="0" y1="0" x2="0" y2="15" class="rl-circuit-line" />
-      <circle cx="0" cy="15" r="2" class="rl-circuit-dot" />
-      <line x1="0" y1="15" x2="15" y2="55" class="rl-circuit-line" />
-      <circle cx="0" cy="65" r="2" class="rl-circuit-dot" />
-      <line x1="0" y1="65" x2="0" y2="80" class="rl-circuit-line" />
-    </symbol>
-  </defs>
-
-  <path d="M 0,80 L 0,0 H 400 V 240 H 0 V 160" class="rl-circuit-line" />
-  <line x1="400" y1="80" x2="400" y2="160" class="rl-circuit-line" />
-
-  <use href="#rl-circuit-battery" x="180" y="0" />
-  <text x="200" y="-30" class="rl-circuit-label" text-anchor="middle">E</text>
-
-  <line x1="0" y1="80" x2="80" y2="80" class="rl-circuit-line" />
-  <use href="#rl-circuit-resistor" x="80" y="80" />
-  <text x="120" y="60" class="rl-circuit-label" text-anchor="middle">R</text>
-  
-  <line x1="160" y1="80" x2="240" y2="80" class="rl-circuit-line" />
-  <use href="#rl-circuit-inductor" x="240" y="80" />
-  <text x="270" y="60" class="rl-circuit-label" text-anchor="middle">L</text>
-  
-  <line x1="300" y1="80" x2="400" y2="80" class="rl-circuit-line" />
-
-  <use href="#rl-circuit-resistor" x="160" y="240" />
-
-  <use href="#rl-circuit-switch" x="0" y="80" />
-
-  <circle cx="0" cy="80" r="4" class="rl-circuit-dot" />
-  <circle cx="400" cy="80" r="4" class="rl-circuit-dot" />
-
-</svg>
+                <circle cx="10" cy="74" r="7" stroke="black" stroke-width="2" fill="none" />
+                <circle cx="10" cy="175" r="7" stroke="black" stroke-width="2" fill="black" />
+                <circle cx="490" cy="175" r="7" stroke="black" stroke-width="2" fill="black" />
+            </svg>
 
 
             <h3>コイルにたくわえられるエネルギー</h3>
