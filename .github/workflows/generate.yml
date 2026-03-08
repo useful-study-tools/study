@@ -1,12 +1,13 @@
-name: Generate Vocabulary HTML Files
-# vocabulary_data*.json が変更されたときに実行
+name: Generate Vocabulary HTML Files (English & Classical Japanese)
+
 on:
   push:
     branches:
       - main
     paths:
-      - 'english_dictionary/vocabulary_data*.json' # パスを変更
-  workflow_dispatch:  # 手動実行も可能
+      - 'english_dictionary/vocabulary_data*.json'
+      - 'classical_japanese_dictionary/vocabulary_data*.json' # 古文の監視パスを追加
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -16,51 +17,48 @@ jobs:
       contents: write
     
     steps:
-      # 1. リポジトリをチェックアウト
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
       
-      # 2. Pythonをセットアップ
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
-      # 3. dataフォルダを作成（english_dictionaryの下に作成）
-      - name: Create data directory
-        run: mkdir -p english_dictionary/data
-      
-      # 4. 単語HTMLファイルを生成
-      - name: Generate vocabulary HTML files
+      # ==========================================
+      # 1. 英単語辞書の処理 (既存機能の維持)
+      # ==========================================
+      - name: Process English Dictionary
         run: |
-          echo "🔧 Generating HTML files..."
+          echo "🔧 Processing English Dictionary..."
+          mkdir -p english_dictionary/data
           python english_dictionary/generate_vocab.py
-          echo ""
-          echo "📁 Files in data/ directory (最初の20件):"
-          ls -lh english_dictionary/data/ | head -20
-          echo ""
-          echo "📊 Total HTML files:"
-          ls -1 english_dictionary/data/*.html 2>/dev/null | wc -l
-      
-      # 5. index.htmlを更新
-      - name: Update index.html
-        run: |
           python english_dictionary/build_index.py
-          echo "✅ index.html updated"
-
-      # 5.5. exercise.htmlを更新
-      - name: Update exercise.html
-        run: |
           python english_dictionary/generate_exercise.py
-          echo "✅ exercise.html updated"
+          echo "✅ English Dictionary updated"
+
+      # ==========================================
+      # 2. 古文単語辞書の処理 (新規追加)
+      # ==========================================
+      - name: Process Classical Japanese Dictionary
+        run: |
+          echo "🌸 Processing Classical Japanese Dictionary..."
+          mkdir -p classical_japanese_dictionary/data
+          python classical_japanese_dictionary/generate_vocab.py
+          python classical_japanese_dictionary/build_index.py
+          python classical_japanese_dictionary/generate_exercise.py
+          echo "✅ Classical Japanese Dictionary updated"
       
-      # 6. 変更があるかチェック (監視パスを english_dictionary/ 内に変更)
+      # ==========================================
+      # 3. 変更チェックとコミット
+      # ==========================================
       - name: Check for changes
         id: check_changes
         run: |
-          TARGET_PATHS="english_dictionary/data/ english_dictionary/index.html english_dictionary/exercise.html"
+          # 英単語と古文単語の両方のパスを監視
+          TARGET_PATHS="english_dictionary/ classical_japanese_dictionary/"
           if [ -n "$(git status --porcelain $TARGET_PATHS)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
             git status --porcelain $TARGET_PATHS
@@ -68,33 +66,37 @@ jobs:
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
       
-      # 7. 生成されたファイルをコミット＆プッシュ
       - name: Commit and push changes
         if: steps.check_changes.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 正しいパスでadd
+          # 両方のディレクトリの変更をステージング
           git add english_dictionary/data/*.html
           git add english_dictionary/index.html
           git add english_dictionary/exercise.html
+          git add classical_japanese_dictionary/data/*.html
+          git add classical_japanese_dictionary/index.html
+          git add classical_japanese_dictionary/exercise.html
           
-          git commit -m "🤖 Auto-generate vocabulary HTML files [skip ci]"
+          git commit -m "🤖 Auto-generate vocab HTML files (EN & JP) [skip ci]"
           git push
       
-      # 8. 完了サマリー
+      # ==========================================
+      # 4. 完了サマリー (両方の統計を表示)
+      # ==========================================
       - name: Job summary
         run: |
           echo "## 📊 Generation Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          # フォルダ移動してカウント
+          
+          echo "### 🇺🇸 English Dictionary" >> $GITHUB_STEP_SUMMARY
           cd english_dictionary
-          for file in vocabulary_data*.json; do
-            if [ -f "$file" ]; then
-              count=$(python3 -c "import json; print(len(json.load(open('$file'))['words']))" 2>/dev/null || echo "0")
-              echo "- \`$file\`: $count words" >> $GITHUB_STEP_SUMMARY
-            fi
-          done
-          total=$(ls -1 data/*.html 2>/dev/null | wc -l)
-          echo "- Total: **$total HTML files** in \`data/\` directory" >> $GITHUB_STEP_SUMMARY
+          total_en=$(ls -1 data/*.html 2>/dev/null | wc -l)
+          echo "- Total: **$total_en HTML files**" >> $GITHUB_STEP_SUMMARY
+          cd ..
+          
+          echo "### 🌸 Classical Japanese Dictionary" >> $GITHUB_STEP_SUMMARY
+          cd classical_japanese_dictionary
+          total_jp=$(ls -1 data/*.html 2>/dev/null | wc -l)
+          echo "- Total: **$total_jp HTML files**" >> $GITHUB_STEP_SUMMARY
