@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 見す</title>
+    <style>
+        :root { 
+            --primary-color: #a33c3a; /* 茜色 */
+            --bg-color: #f8f4e6;      /* 生成り色 */
+            --card-bg: #ffffff;
+            --text-main: #2c2c2c;
+            --text-sub: #555;
+            --accent-soft: #e9e4d1;
+        }
+        body { font-family: "Sawarabi Mincho", "Hiragino Mincho ProN", serif; line-height: 1.8; color: var(--text-main); max-width: 700px; margin: 0 auto; padding: 30px 20px; background-color: var(--bg-color); }
+        .card { background: var(--card-bg); padding: 40px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); border: 1px solid #e0d9c1; }
+        
+        .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
+        .nav-button { flex: 1; padding: 10px; border: 1px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 4px; font-weight: bold; text-align: center; font-size: 0.9rem; transition: 0.3s; }
+        .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
+        .nav-button.disabled { opacity: 0.3; cursor: not-allowed; }
+        
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: var(--text-sub); font-size: 0.9rem; }
+        .word-header { border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 25px; }
+        .word-number { font-size: 0.9rem; color: var(--primary-color); font-weight: bold; }
+        .word-title { font-size: 2.8rem; margin: 5px 0; font-weight: bold; display: flex; align-items: baseline; }
+        .pos-tag { font-size: 0.9rem; background: var(--primary-color); color: white; padding: 2px 10px; border-radius: 3px; margin-left: 15px; }
+        .conj-tag { font-size: 0.9rem; border: 1px solid var(--primary-color); color: var(--primary-color); padding: 1px 8px; border-radius: 3px; margin-left: 8px; }
+
+        .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 30px; border-left: 4px solid var(--primary-color); padding-left: 10px; }
+        
+        .meaning-jp { font-size: 1.4rem; font-weight: bold; margin: 15px 0; color: #000; }
+        .nuance-box { background: var(--accent-soft); padding: 15px; border-radius: 5px; font-size: 0.95rem; line-height: 1.6; border-left: 4px solid #ccc; }
+
+        .example-item { margin-bottom: 20px; padding: 10px 15px; background: #fafafa; border-radius: 4px; }
+        .ex-text { display: block; font-weight: bold; font-size: 1.1rem; color: #333; }
+        .ex-trans { display: block; color: var(--text-sub); font-size: 0.95rem; margin-top: 5px; }
+        .ex-source { display: block; text-align: right; font-size: 0.8rem; color: #999; font-style: italic; }
+
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 30px; }
+        .info-item { background: #fdfdfd; padding: 12px; border: 1px solid #eee; border-radius: 4px; }
+        .info-label { display: block; font-weight: bold; color: var(--primary-color); font-size: 0.8rem; margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="back-link">← 目次へ戻る</a>
+    <div class="nav-buttons">
+        <a href="1-見る.html" class="nav-button">← 前の単語</a>
+        <a href="3-見ゆ.html" class="nav-button">次の単語 →</a>
+    </div>
+
+    <div class="card">
+        <div class="word-header">
+            <span class="word-number">第 2 番</span>
+            <h1 class="word-title">見す 
+                <span class="pos-tag">サ行下二段活用</span>
+                
+            </h1>
+        </div>
+
+        <div class="section-title">現代語訳</div>
+        <div class="meaning-jp">①見せる・(様子を)見させる ②結婚させる</div>
+        
+        <div class="nuance-box">
+            <strong>【解釈のポイント】</strong><br>「見す」は「見」＋「す（使役）」の構成で、相手に見えるようにする、つまり「見せる」や「（娘を男に）結婚させる」という意味になります。
+        </div>
+
+        <div class="section-title">例文</div>
+        
+        <div class="example-item">
+            <span class="ex-text">宮仕へに次ぎては、親たちにこそは見せ奉らめ。</span>
+            <span class="ex-trans">宮仕えに次いでは、親たちに〔見せ〕申し上げよう。</span>
+            <span class="ex-source">― 出典不明</span>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-item">
+                <span class="info-label">語源・成り立ち</span>
+                記載なし
+            </div>
+            <div class="info-item">
+                <span class="info-label">類義の語</span>
+                なし
+            </div>
+            <div class="info-item">
+                <span class="info-label">反対の語</span>
+                なし
+            </div>
+            <div class="info-item">
+                <span class="info-label">関連知識</span>
+                なし
+            </div>
+        </div>
+    </div>
+</body>
+</html>

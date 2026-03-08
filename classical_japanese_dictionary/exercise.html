@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>古文単語演習</title>
+    <style>
+        :root { 
+            --primary: #a33c3a; /* 茜色 */
+            --success: #6a994e; /* 抹茶色 */
+            --danger: #c94b4b; 
+            --bg: #f8f4e6;      /* 生成り色 */
+            --text: #333; 
+        }
+        body { font-family: "Sawarabi Mincho", serif; background: var(--bg); margin: 0; padding: 20px; color: var(--text); display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid var(--primary); padding-bottom: 10px; }
+        h1 { margin: 0; font-size: 1.5rem; color: var(--primary); }
+        
+        .btn-home { text-decoration: none; color: white; background: #6c757d; padding: 8px 15px; border-radius: 5px; font-size: 0.85rem; }
+
+        .setup-section, .quiz-section { display: none; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .active { display: block; }
+        
+        .chapter-container { max-height: 250px; overflow-y: auto; border: 1px solid #ddd; padding: 15px; background: #fff; margin-bottom: 15px; }
+        .chapter-group-title { font-weight: bold; color: var(--primary); border-left: 4px solid var(--primary); padding-left: 10px; margin: 15px 0 5px 0; }
+        
+        .btn { background: var(--primary); color: white; border: none; padding: 15px; border-radius: 5px; cursor: pointer; width: 100%; font-size: 1.1rem; font-weight: bold; margin-top: 10px; }
+        
+        .card { border: 2px solid var(--primary); padding: 40px 20px; border-radius: 10px; text-align: center; font-size: 2.2rem; font-weight: bold; background: white; margin-bottom: 20px; cursor: pointer; }
+        .card.flipped { border-color: var(--success); color: var(--success); }
+        
+        .option-btn { background: white; border: 1px solid #ddd; padding: 15px; border-radius: 5px; cursor: pointer; font-size: 1rem; text-align: left; transition: 0.2s; margin-bottom: 10px; width: 100%; }
+        .option-btn:hover { border-color: var(--primary); background: #fffcfc; }
+
+        .fill-blank-area { background: #fdfdfd; padding: 20px; border-radius: 8px; border: 1px solid #eee; }
+        .sentence-ja { font-size: 0.9rem; color: #666; margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        .sentence-en { font-size: 1.4rem; font-weight: bold; line-height: 1.8; }
+        .blank-input { border: none; border-bottom: 2px solid var(--primary); outline: none; background: transparent; font-size: 1.4rem; text-align: center; color: var(--primary); width: 150px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>古文単語演習</h1>
+        <a href="index.html" class="btn-home">辞書に戻る</a>
+    </div>
+
+    <div id="loadingStatus" style="text-align:center; padding: 40px;">データを読み込んでいます...</div>
+
+    <div id="setup" class="setup-section">
+        <label style="font-weight:bold;">1. 出題範囲を選択</label>
+        <div class="chapter-container" id="chapterList"></div>
+
+        <div style="margin: 20px 0;">
+            <label style="font-weight:bold;">2. 出題設定</label><br>
+            <label><input type="radio" name="orderType" value="random" checked> ランダム</label>
+            <label style="margin-left:15px;"><input type="radio" name="orderType" value="sequential"> 番号順</label>
+            <label style="margin-left:15px; color: var(--primary);"><input type="checkbox" id="basicOnly"> 基本語のみ</label>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <label style="font-weight:bold;">3. 演習モード</label>
+            <select id="mode" style="width:100%; padding:10px; margin-top:5px;">
+                <option value="card-ko-ja">暗記カード (古文 → 現代語)</option>
+                <option value="card-ja-ko">暗記カード (現代語 → 古文)</option>
+                <option value="quiz-ko-ja">4択問題 (古文 → 現代語)</option>
+                <option value="fill-blank">例文穴埋め (スペリング入力)</option>
+            </select>
+        </div>
+
+        <button id="startBtn" class="btn" onclick="startExercise()" disabled>準備中...</button>
+    </div>
+
+    <div id="quiz" class="quiz-section">
+        <div id="progressText" style="text-align:center; color:#888; margin-bottom:10px;"></div>
+        <div id="quizContainer"></div>
+        <button id="mainActionBtn" class="btn" style="display:none;"></button>
+        <button class="btn" style="background:#6c757d; margin-top:20px;" onclick="location.reload()">設定に戻る</button>
+    </div>
+</div>
+
+<script>
+const GROUPED_CHAPTERS = {"一段": [{"id": 1, "label": "動詞の基本"}], "二段": [{"id": 100, "label": "形容詞・形容動詞"}]}; 
+const JSON_FILES = ["vocabulary_data.json"];
+let ALL_WORDS = [];
+
+async function loadAllData() {
+    try {
+        const results = await Promise.all(JSON_FILES.map(file => fetch(file).then(r => r.json())));
+        results.forEach(data => {
+            if (data.words) {
+                data.words.forEach(w => {
+                    ALL_WORDS.push({ 
+                        n: String(w.number), 
+                        w: w.word, 
+                        m: w.meaning,
+                        examples: w.examples || []
+                    });
+                });
+            }
+        });
+        document.getElementById('loadingStatus').style.display = 'none';
+        document.getElementById('setup').classList.add('active');
+        document.getElementById('startBtn').disabled = false;
+        document.getElementById('startBtn').innerText = '演習開始！';
+    } catch (e) { 
+        document.getElementById('loadingStatus').innerText = "エラー：読み込み失敗";
+    }
+}
+
+// チャプターリスト構築
+const chapterListDiv = document.getElementById('chapterList');
+for (const [group, chapters] of Object.entries(GROUPED_CHAPTERS)) {
+    const title = document.createElement('div');
+    title.className = 'chapter-group-title';
+    title.innerText = group;
+    chapterListDiv.appendChild(title);
+    chapters.forEach(ch => {
+        const label = document.createElement('label');
+        label.style.display = 'block';
+        label.innerHTML = `<input type="checkbox" name="chapters" value="${ch.id}"> ${ch.label}`;
+        chapterListDiv.appendChild(label);
+    });
+}
+
+let quizWords = [];
+let currentIndex = 0;
+
+function startExercise() {
+    const selected = Array.from(document.querySelectorAll('input[name="chapters"]:checked')).map(cb => parseInt(cb.value));
+    if(selected.length === 0) { alert("範囲を選択してください"); return; }
+
+    const basicOnly = document.getElementById('basicOnly').checked;
+    let thresholds = Object.values(GROUPED_CHAPTERS).flat().map(ch => parseInt(ch.id)).sort((a,b)=>a-b);
+
+    quizWords = ALL_WORDS.filter(w => {
+        if (basicOnly && w.n.includes('-')) return false;
+        const n = parseInt(w.n.split('-')[0]);
+        const chapterId = thresholds.slice().reverse().find(t => n >= t);
+        return selected.includes(chapterId);
+    });
+
+    if(document.querySelector('input[name="orderType"]:checked').value === 'random') {
+        quizWords.sort(() => Math.random() - 0.5);
+    }
+
+    currentIndex = 0;
+    document.getElementById('setup').classList.remove('active');
+    document.getElementById('quiz').classList.add('active');
+    showQuestion();
+}
+
+function showQuestion() {
+    const word = quizWords[currentIndex];
+    const mode = document.getElementById('mode').value;
+    const container = document.getElementById('quizContainer');
+    const mainBtn = document.getElementById('mainActionBtn');
+    
+    document.getElementById('progressText').innerText = `第 ${currentIndex + 1} 問 / ${quizWords.length} (No.${word.n})`;
+    container.innerHTML = '';
+    mainBtn.style.display = 'none';
+
+    if(mode === 'fill-blank') {
+        showFillBlank(word);
+    } else if(mode.startsWith('card')) {
+        showCard(word, mode);
+    } else {
+        showQuiz(word, mode);
+    }
+}
+
+function showCard(word, mode) {
+    const container = document.getElementById('quizContainer');
+    let isFlipped = false;
+    container.innerHTML = `<div id="card" class="card">${mode === 'card-ko-ja' ? word.w : word.m}</div>`;
+    const card = document.getElementById('card');
+    card.onclick = () => {
+        if(!isFlipped) {
+            card.innerText = mode === 'card-ko-ja' ? word.m : word.w;
+            card.classList.add('flipped');
+            isFlipped = true;
+            mainBtn.style.display = 'block';
+            mainBtn.innerText = '次の単語へ';
+        } else {
+            currentIndex++; checkEnd();
+        }
+    };
+    const mainBtn = document.getElementById('mainActionBtn');
+    mainBtn.onclick = () => card.click();
+}
+
+function showQuiz(word, mode) {
+    const container = document.getElementById('quizContainer');
+    container.innerHTML = `<div class="card" style="font-size:1.8rem;">${word.w}</div><div id="options"></div>`;
+    
+    let choices = [word];
+    while(choices.length < 4) {
+        const r = ALL_WORDS[Math.floor(Math.random() * ALL_WORDS.length)];
+        if(!choices.find(o => o.n === r.n)) choices.push(r);
+    }
+    choices.sort(() => Math.random() - 0.5);
+    
+    choices.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerText = opt.m;
+        btn.onclick = () => {
+            if(opt.n === word.n) {
+                btn.style.background = '#e8f5e9';
+                setTimeout(() => { currentIndex++; checkEnd(); }, 400);
+            } else {
+                btn.style.background = '#ffebee';
+                btn.disabled = true;
+            }
+        };
+        document.getElementById('options').appendChild(btn);
+    });
+}
+
+function showFillBlank(word) {
+    if(!word.examples || word.examples.length === 0) { currentIndex++; showQuestion(); return; }
+    const ex = word.examples[Math.floor(Math.random() * word.examples.length)];
+    const container = document.getElementById('quizContainer');
+    // 古文の「w（単語）」を穴埋めターゲットにする
+    const target = word.w;
+    const parts = ex.text.split(new RegExp(`(${target})`, 'g'));
+
+    container.innerHTML = `
+        <div class="fill-blank-area">
+            <div class="sentence-ja">${ex.translation}</div>
+            <div class="sentence-en" id="sentenceEn"></div>
+            <div id="feedback" style="margin-top:10px; font-weight:bold; text-align:center;"></div>
+        </div>
+    `;
+
+    const sentenceEn = document.getElementById('sentenceEn');
+    parts.forEach(p => {
+        if(p === target) {
+            const input = document.createElement('input');
+            input.className = 'blank-input';
+            input.onkeypress = (e) => { if(e.key === 'Enter') checkAns(input, target); };
+            sentenceEn.appendChild(input);
+            setTimeout(() => input.focus(), 100);
+        } else {
+            sentenceEn.appendChild(document.createTextNode(p));
+        }
+    });
+}
+
+function checkAns(input, target) {
+    const fb = document.getElementById('feedback');
+    if(input.value.trim() === target) {
+        fb.innerText = "✨ 正解！"; fb.style.color = "var(--success)";
+        setTimeout(() => { currentIndex++; checkEnd(); }, 800);
+    } else {
+        fb.innerText = "❌ 正解は：「" + target + "」"; fb.style.color = "var(--danger)";
+    }
+}
+
+function checkEnd() { if(currentIndex < quizWords.length) showQuestion(); else { alert("終了しました！"); location.reload(); } }
+
+loadAllData();
+</script>
+</body>
+</html>
