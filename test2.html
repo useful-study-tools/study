@@ -120,50 +120,79 @@
         <main>
             <h1>16 電磁誘導</h1>
 
-            <svg width="100%" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-                   <!-- 左端子（元の位置に一致） -->
-  <circle cx="10" cy="175" r="7" fill="black"/>
+<svg width="100%" style="max-width:500px" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- 右端子（元の位置に一致） -->
-  <circle cx="490" cy="175" r="7" fill="black"/>
+<!-- 左端子 -->
+<circle cx="20" cy="150" r="6" fill="black"/>
 
-  <!-- 左端子から抵抗まで -->
-  <line x1="10" y1="175" x2="101.4" y2="175" stroke="black" stroke-width="3"/>
+<!-- 右端子 -->
+<circle cx="480" cy="150" r="6" fill="black"/>
 
-  <!-- 抵抗 -->
-  <rect x="101.4" y="152.1" width="91.4" height="45.7"
-        fill="none" stroke="black" stroke-width="3"/>
+<!-- 左線 -->
+<line x1="20" y1="150" x2="110" y2="150" stroke="black" stroke-width="3"/>
 
-  <!-- 抵抗からコイル -->
-  <line x1="192.8" y1="175" x2="238.5" y2="175" stroke="black" stroke-width="3"/>
+<!-- 抵抗 -->
+<rect x="110" y="130" width="90" height="40"
+      fill="none" stroke="black" stroke-width="3"/>
 
-  <!-- コイル -->
-  <path d="
-      M238.5 175
-      a11.4 22.8 0 0 1 22.8 0
-      a11.4 22.8 0 0 1 22.8 0
-      a11.4 22.8 0 0 1 22.8 0
-      a11.4 22.8 0 0 1 22.8 0
-      a11.4 22.8 0 0 1 22.8 0
-      a11.4 22.8 0 0 1 22.8 0
-  "
-  fill="none" stroke="black" stroke-width="3"/>
+<!-- 抵抗ラベル -->
+<text x="155" y="120" text-anchor="middle" font-size="20" font-family="sans-serif">R</text>
 
-  <!-- コイルから右端子 -->
-  <line x1="375.7" y1="175" x2="490" y2="175" stroke="black" stroke-width="3"/>
-                <line x1="238" y1="28" x2="238" y2="52" stroke="black" stroke-width="3" />
-                <line x1="262" y1="4" x2="262" y2="76" stroke="black" stroke-width="3" />
-                <line x1="10" y1="81" x2="13" y2="124" stroke="black" stroke-width="5" />
+<!-- 抵抗→コイル -->
+<line x1="200" y1="150" x2="250" y2="150" stroke="black" stroke-width="3"/>
 
-                <polyline points="238,40 10,40 10,67" stroke="black" stroke-width="3" fill="none" />
-                <polyline points="10,122 10,310 190,310" stroke="black" stroke-width="3" fill="none" />
-                <polyline points="190,328 310,328 310,292 190,292 190,328" stroke="black" stroke-width="3" fill="none" />
-                <polyline points="310,310 490,310 490,40 262,40" stroke="black" stroke-width="3" fill="none" />
+<!-- コイル（右へ移動） -->
+<path d="
+M250 150
+a10 20 0 0 1 20 0
+a10 20 0 0 1 20 0
+a10 20 0 0 1 20 0
+a10 20 0 0 1 20 0
+a10 20 0 0 1 20 0
+"
+fill="none" stroke="black" stroke-width="3"/>
 
-                <circle cx="10" cy="74" r="7" stroke="black" stroke-width="2" fill="none" />
-                <circle cx="10" cy="175" r="7" stroke="black" stroke-width="2" fill="black" />
-                <circle cx="490" cy="175" r="7" stroke="black" stroke-width="2" fill="black" />
-            </svg>
+<!-- コイルラベル -->
+<text x="300" y="120" text-anchor="middle" font-size="20" font-family="sans-serif">L</text>
+
+<!-- コイル→右端子 -->
+<line x1="350" y1="150" x2="480" y2="150" stroke="black" stroke-width="3"/>
+
+<!-- 下回路 -->
+<polyline points="20,150 20,260 200,260"
+stroke="black" stroke-width="3" fill="none"/>
+
+<!-- 下の抵抗 -->
+<rect x="200" y="240" width="90" height="40"
+fill="none" stroke="black" stroke-width="3"/>
+
+<!-- 下抵抗→右 -->
+<polyline points="290,260 480,260 480,150"
+stroke="black" stroke-width="3" fill="none"/>
+
+<!-- 電池 -->
+<line x1="240" y1="40" x2="240" y2="80" stroke="black" stroke-width="3"/>
+<line x1="260" y1="20" x2="260" y2="100" stroke="black" stroke-width="3"/>
+
+<!-- 電池配線 -->
+<polyline points="240,60 20,60 20,95"
+stroke="black" stroke-width="3" fill="none"/>
+
+<polyline points="20,120 20,150"
+stroke="black" stroke-width="3" fill="none"/>
+
+<polyline points="260,60 480,60 480,150"
+stroke="black" stroke-width="3" fill="none"/>
+
+<!-- スイッチ接点 -->
+<circle cx="20" cy="95" r="4" fill="black"/>
+<circle cx="20" cy="120" r="4" fill="black"/>
+
+<!-- スイッチレバー -->
+<line x1="20" y1="95" x2="40" y2="110"
+stroke="black" stroke-width="3"/>
+
+</svg>
 
 <svg width="100%" style="max-width:500px" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
 
