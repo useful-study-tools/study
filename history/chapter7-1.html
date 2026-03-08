@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歴史 第7章 ①室町幕府の成立</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f4f7f9;
+            margin: 0; padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            color: #0056b3;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0; 
+        }
+        .blank-container {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            margin: 0 5px;
+        }
+        .blank-container .number {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .blank-container .blank {
+            color: transparent;
+            background-color: #ccc;
+            border-bottom: 2px dashed #999;
+            padding: 0 5px;
+        }
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333 !important; 
+            background-color: transparent !important; 
+            border-bottom: 2px solid #007bff;
+            opacity: 1 !important; 
+        }
+
+        .blank-container.revealed .blank {
+            font-size: inherit;
+            color: #333;
+            background-color: transparent;
+            border-bottom: 2px solid #007bff;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .quiz-list li {
+            margin-bottom: 12px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        /* 追加した一斉表示ボタンのスタイル */
+        .btn-toggle-all {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-toggle-all:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .nav-link {
+            padding: 8px 16px;
+            background-color: #e9ecef;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            background-color: #dee2e6;
+        }
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: #007bff; 
+            color: white; border: none; border-radius: 50%;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+            display: none; 
+            align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header-actions">
+        <a href="index.html" class="btn-home">歴史トップへ</a>
+        <button id="toggleAllBtn" class="btn-toggle-all">すべて表示</button>
+    </div>
+    
+    <div class="nav-links">
+        <a href="#" class="nav-link">← 前の範囲</a>
+        <a href="chapter7-2.html" class="nav-link">次の範囲 →</a>
+    </div>
+    
+    <main>
+
+    <h2>第7章　武家社会の成長</h2>
+    <h3>①室町幕府の成立</h3>
+    <h4>鎌倉幕府の滅亡</h4>
+    <ul>
+        <li>後嵯峨院の死後（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">後深草</span></span>）上皇の系統と（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">亀山</span></span>）天皇の系統が対立</li>
+        <li>後深草＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">長講堂</span></span>）領を相続し、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">持明院</span></span>のち北朝）統の祖</li>
+        <li>父後嵯峨院の決定に不満で（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">幕府への働きかけを強める</span></span>）</li>
+        <li>亀山＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">八条院</span></span>）領を相続し、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">大覚寺</span></span>のち南朝）統の祖</li>
+        <li>自律的に皇位継承者を決定できず幕府の関与により（両統が交代で皇位につく<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">両統迭立</span></span>）が実施される</li>
+        <li>↓</li>
+        <li>1318 大覚寺統の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">後醍醐</span></span>）天皇が即位、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">天皇親政</span></span>）を行い、幕府の干渉に反発</li>
+        <li>＊当時鎌倉幕府は執権（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">北条高時</span></span>）のもとで内管領（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">長崎高資</span></span>）が賄賂政治を行い、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">得宗専制政治</span></span>）への不満が有力御家人内においても高まる</li>
+        <li>1324 後醍醐天皇の1度目の討幕計画が失敗＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">正中の変</span></span>）</li>
+        <li>→側近の日野資朝が佐渡へ配流される</li>
+        <li>1331 後醍醐天皇の2度目の討幕計画である（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">元弘の変</span></span>）が失敗し、幕府により持明院統の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">光厳天皇</span></span>）が即位、後醍醐天皇は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">隠岐</span></span>）へ配流される</li>
+        <li>↓</li>
+        <li>後醍醐天皇の皇子（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">護良親王</span></span>）や（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">楠木正成</span></span>）らが反幕府勢力を結集し、後醍醐天皇は隠岐から脱出し有力御家人の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">足利高氏</span></span>）が離反し六波羅探題を攻略、鎌倉では（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">新田義貞</span></span>）が北条高時らを滅ぼし、鎌倉幕府は滅亡（1333）</li>
+    </ul>
+
+    <hr>
+
+    <h4>建武の新政</h4>
+    <ul>
+        <li>後醍醐天皇は公家中心の復古主義的な新政治＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">建武の新政</span></span>）を開始</li>
+        <li>：光厳天皇を廃し大内裏造営や銅銭・紙幣の発行を計画</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">延喜・天暦の治</span></span>）を理想化し、後漢光武帝の年号（建武）を採用</li>
+        <li>全ての土地所有権を天皇が出す（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">綸旨</span></span>）によって決定する方針を打ち出す</li>
+    <hr>
+        <li>《中央組織》</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">記録所</span></span>）：重要政務、天皇側近が就任</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">恩賞方</span></span>）：恩賞事務</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">雑訴決断所</span></span>）：所領関係の裁判</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">武者所</span></span>）：警備、新田義貞が就任</li>
+        <li>《地方組織》</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">鎌倉将軍府</span></span>）：尊氏の弟である（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">30.</span> <span class="blank">足利直義</span></span>）らが派遣される</li>
+        <li>陸奥将軍府　＊関東の実体は旧幕府</li>
+        <li>各国に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">31.</span> <span class="blank">国司と守護</span></span>）を併置する</li>
+        <li>公武合体の政治は当初から混乱、武士にとって不変の法とされたものが適用されないなど、武士の不満が高まる（庶民も重税に不満）</li>
+        <li>1334（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">32.</span> <span class="blank">建武元</span></span>）「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">33.</span> <span class="blank">二条河原落書</span></span>」に風刺・批判される</li>
+        <li>1335 鎌倉で北条高時の子である時行が反乱を起こす＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">34.</span> <span class="blank">中先代の乱</span></span>）</li>
+        <li>→鎮圧のために関東へ向かった（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">35.</span> <span class="blank">足利尊氏</span></span>）が建武の新政へ反旗を翻す</li>
+    </ul>
+
+    <hr>
+
+    <h4>南北朝の動乱</h4>
+    <ul>
+        <li>1336 尊氏が楠木正成を破り入京、持明院統の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">36.</span> <span class="blank">光明天皇</span></span>）を擁立し院政を復活させる＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">37.</span> <span class="blank">北朝</span></span>）</li>
+        <li>尊氏、京都に幕府を開く上での施政方針である（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">38.</span> <span class="blank">建武式目</span></span>）を発表</li>
+        <li>：1338（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">39.</span> <span class="blank">征夷大将軍</span></span>）に就任、弟の直義と政務を分担</li>
+        <li>一方、後醍醐天皇は奈良吉野山中で政治を行う（＝南朝）</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">40.</span> <span class="blank">北畠親房</span></span>）が中心となり九州など各地に南朝の拠点が築かれる</li>
+        <li>以後（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">41.</span> <span class="blank">1392</span></span>）に再統一されるまで南北朝の動乱が長期にわたり続く</li>
+        <li>《動乱長期化の背景》</li>
+        <li>①幕府の内部分裂</li>
+        <li>1350（観応元）～52二頭政治が破綻</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">42.</span> <span class="blank">旧勢力</span></span>が支持する直義派）と尊氏の執事（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">43.</span> <span class="blank">高師直</span></span>）に代表される（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">44.</span> <span class="blank">新興勢力</span></span>が支持する尊氏派）が軍事衝突（＝<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">45.</span> <span class="blank">観応の擾乱</span></span>）</li>
+        <li>②武士社会の変質</li>
+        <li>分割相続から（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">46.</span> <span class="blank">単独相続</span></span>）への移行により（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">47.</span> <span class="blank">惣領制</span></span>）が解体</li>
+        <li>一族内部で分裂が発生、一方が北朝につけばもう一方は南朝方へ</li>
+        <li>混乱が収束するまで長期の時間を要する</li>
+        <li>＊動乱期には（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">48.</span> <span class="blank">血縁的</span></span>）結合は意味を失い、武士は生き残りをかけて（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">49.</span> <span class="blank">地縁的</span></span>）結合を重視するように→（強い力を持つリーダーが多くの部下を集めて地域で有力者に成長）</li>
+    </ul>
+
+    <hr>
+
+    <h4>守護大名と国人一揆</h4>
+    <ul>
+        <li>幕府は地方武士を動員するため、各国で武士を束ねる（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">50.</span> <span class="blank">守護</span></span>）の権力を強大化</li>
+        <li>従来の大犯三カ条に加えて…</li>
+        <li>＋（土地を巡る紛争の際に自身の所有権を主張して実力行使する<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">51.</span> <span class="blank">刈田狼藉</span></span>の取り締まり）</li>
+        <li>＋（幕府判決を強制執行する<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">52.</span> <span class="blank">使節遵行</span></span></li>
+        <li>＋（軍事費調達のため一国の年貢の半分を徴発する権限を認める<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">53.</span> <span class="blank">半済令</span></span>）</li>
+        <li>＊1352（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">54.</span> <span class="blank">近江・美濃・尾張</span></span>）に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">55.</span> <span class="blank">1年</span></span>）限定で→やがて全国で（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">56.</span> <span class="blank">土地の分割を永続的に認める</span></span>）</li>
+        <li>→大きな権限をえた守護は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">57.</span> <span class="blank">守護大名</span></span>）とよばれ広域を支配下に置くものも登場</li>
+        <li>動乱期の幕府は守護の力に依存する（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">58.</span> <span class="blank">連合政権</span></span>）の性格が強い</li>
+        <li>＊一方地方在住武士（国人）同士が一揆を結び（国人一揆）、守護権力に抵抗することも畿内などでみられた（しかし守護は力を強め、守護請を行ったり、守護段銭を徴発する様に）</li>
+    </ul>
+
+    <hr>
+
+    <h4>室町幕府</h4>
+    <ul>
+        <li>1368 3代将軍（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">59.</span> <span class="blank">足利義満</span></span>）が将軍に就任</li>
+        <li>＊この頃より全国的な動乱は鎮静化し、将軍の下に様々な権力が統一される</li>
+        <li>幼年で就任した義満を足利一門の細川氏らが補佐（＝<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">60.</span> <span class="blank">管領</span></span>）</li>
+        <li>管領は3氏から交代で任じられる（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">61.</span> <span class="blank">三管領</span></span>＝<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">62.</span> <span class="blank">細川・斯波・畠山</span></span>）</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">63.</span> <span class="blank">1392</span></span>）義満の斡旋により（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">64.</span> <span class="blank">南北朝の合体</span></span>）が実現</li>
+        <li>：北（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">65.</span> <span class="blank">後小松</span></span>）天皇←南（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">66.</span> <span class="blank">後亀山</span></span>）天皇 ＊合体後も後南朝が続く</li>
+        <li>幕府は朝廷から様々な権力を吸収</li>
+        <li>：京都の市政権〈警察権・民事裁判権・（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">67.</span> <span class="blank">土倉役・酒屋役</span></span>）の徴収権〉</li>
+        <li>→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">68.</span> <span class="blank">侍所</span></span>）が京都内外の警備や裁判を担当、所司は4氏から任命される</li>
+        <li>＊4氏＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">69.</span> <span class="blank">四職</span></span>）＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">70.</span> <span class="blank">赤松・山名・一色・京極</span></span>）</li>
+        <li>諸国に課す（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">71.</span> <span class="blank">段銭・棟別銭</span></span>）の徴収権</li>
+        <li>強大化した外様の守護大名の勢力を削減し、義満が室町殿（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">72.</span> <span class="blank">花の御所</span></span>）で全国的な統一政権として政治を行う（＝室町幕府）</li>
+        <li>1390（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">73.</span> <span class="blank">土岐康行の乱</span></span>）：美濃・尾張・伊勢の守護を兼任、追討され衰退</li>
+        <li>1391（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">74.</span> <span class="blank">明徳の乱</span></span>）：西国11か国の守護を兼ねる（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">75.</span> <span class="blank">山名氏清</span></span>）らを追討</li>
+        <li>＊「六分の一衆」と呼ばれ権勢を誇るも一時衰退</li>
+        <li>1399（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">76.</span> <span class="blank">応永の乱</span></span>）：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">77.</span> <span class="blank">大内義弘</span></span>）が鎌倉公方と呼応して堺で挙兵し敗死</li>
+        <li>＊長門・石見・豊前・和泉・紀伊の守護を兼ね（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">78.</span> <span class="blank">朝鮮</span></span>）との貿易も行う</li>
+        <li>将軍職を辞任後は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">79.</span> <span class="blank">太政大臣</span></span>）に就任し、出家後北山殿に移るも絶大な権力を握り続ける（～1408、没後朝廷より「太上天皇」の尊号を贈られるも<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">80.</span> <span class="blank">義持</span></span>が辞退）</li>
+        <li>《中央組織》守護大名は領国を（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">81.</span> <span class="blank">守護代</span></span>）に任せ、自らは在京し幕府の役職を分担</li>
+        <li>管領：三管領から任じされ、将軍を補佐</li>
+        <li>侍所：四職から任じられ、京都の警備・刑事裁判などを担当</li>
+        <li>政所：将軍家の家政・財政</li>
+        <li>評定衆ー引付：所領の訴訟を審査</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">82.</span> <span class="blank">奉公衆</span></span>）：諸代の家臣、守護の一族、有力地方武士からなる直轄軍（約300人）</li>
+        <li>《財政》</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">83.</span> <span class="blank">御料所</span></span>）：諸国に散在する将軍の直轄領、奉公衆が管理</li>
+        <li>守護の分担金</li>
+        <li>段銭・棟別銭：国家的な行事に際して守護を通じて全国へ課税</li>
+        <li>土倉役・酒屋役：京都の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">84.</span> <span class="blank">土倉・酒屋</span></span>＝高利貸）への営業税</li>
+        <li>五山官銭：幕府の保護のもと特権を持つ五山（臨済宗）への課税</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">85.</span> <span class="blank">関銭・津料</span></span>）：交通の要所で交通税を徴収</li>
+        <li>日明貿易による収益</li>
+        <li>徳政令による収益（分一銭）</li>
+        <li>《地方組織》</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">86.</span> <span class="blank">鎌倉府</span></span>）：尊氏の子（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">87.</span> <span class="blank">基氏</span></span>）が初代（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">88.</span> <span class="blank">鎌倉公方</span></span>）に就任</li>
+        <li>補佐役の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">89.</span> <span class="blank">関東管領</span></span>）は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">90.</span> <span class="blank">上杉氏</span></span>）が世襲</li>
+        <li>＊10か国を統括し、管内の守護は鎌倉府に出仕。大きな権限を持ち、京都の将軍と対立も</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">91.</span> <span class="blank">九州探題</span></span>）：九州を統括、義満によって派遣された（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">92.</span> <span class="blank">今川了俊／貞世</span></span>）が南朝勢力を制圧 ＊後に了俊義満により解任され『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">93.</span> <span class="blank">難太平記</span></span>』を著す</li>
+        <li>奥州探題：奥州の軍事・民政</li>
+        <li>羽州探題：出羽の軍事・民政</li>
+        <li>守護ー地頭</li>
+    </ul>
+
+    <hr>
+
+    <h4>東アジアとの交易</h4>
+    <ul>
+        <li>《倭寇の活発化》</li>
+        <li>南北朝の動乱期に、海域世界では（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">94.</span> <span class="blank">前期倭寇</span></span>）が（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">95.</span> <span class="blank">高麗</span></span>）や中国沿岸（元1368～）を襲い甚大な影響を与える</li>
+        <li>＊前期倭寇は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">96.</span> <span class="blank">対馬・壱岐・肥前松浦地方</span></span>）の住民が中心（後期倭寇は中国人中心）</li>
+        <li>襲撃地で捕虜の連行・米穀の収奪などを行い、高麗などの国勢を衰えさせる。</li>
+        <li>高麗は日本へ使者を派遣し倭寇禁圧を求めるも、動乱期のため成功せず</li>
+        <li>《幕府による私貿易》</li>
+        <li>1325 鎌倉幕府が建長寺再建のために貿易船を派遣（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">97.</span> <span class="blank">建長寺船</span></span>）</li>
+        <li>1342 足利尊氏・直義兄弟が（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">98.</span> <span class="blank">夢窓疎石</span></span>）の勧めで後醍醐天皇の菩提を弔うため天龍寺を建立、その造営費用調達のため（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">99.</span> <span class="blank">天龍寺船</span></span>）が派遣される</li>
+        <li>＊博多商人の請負による私貿易の形態をとり、1976 に韓国新安沖で発見された新安沈船も同様に有力者が仕立てた貿易船であると考えられる</li>
+        <li>《明との交易》</li>
+        <li>1368（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">100.</span> <span class="blank">朱元璋</span></span>：太祖洪武帝）が漢民族の国である明を建国</li>
+        <li>伝統的華夷秩序の回復をめざし、諸国と関係を築く（→日明貿易 1401～）</li>
+        <li>南朝の支配する九州へ倭寇禁圧を求めるも、義満の治世まで実現せず</li>
+        <li>1401 義満の使者が明に派遣される：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">101.</span> <span class="blank">祖阿</span></span>：側近）、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">102.</span> <span class="blank">肥富</span></span>：博多商人）</li>
+        <li>明から「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">103.</span> <span class="blank">日本国王源道義</span></span>」宛の国書と（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">104.</span> <span class="blank">暦</span></span>）が与えられ国交開かれる</li>
+        <li>日明貿易は（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">105.</span> <span class="blank">朝貢形式</span></span>）で行われ、明から交付された（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">106.</span> <span class="blank">勘合</span></span>）を持参</li>
+        <li>1411 朝貢形式への反発から 4代将軍（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">107.</span> <span class="blank">足利義持</span></span>）が国交を中断</li>
+        <li>1432 6代将軍（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">108.</span> <span class="blank">足利義教</span></span>）が再開</li>
+        <li>以後は幕府から勘合を与えられた守護大名が貿易商と結び貿易を請け負う</li>
+        <li>：（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">109.</span> <span class="blank">細川氏</span></span>）＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">110.</span> <span class="blank">堺商人</span></span>）、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">111.</span> <span class="blank">大内氏</span></span>）＝（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">112.</span> <span class="blank">博多商人</span></span>）</li>
+        <li>1523 両者が利益をめぐり対立（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">113.</span> <span class="blank">寧波の乱</span></span>）</li>
+        <li>細川氏の不正が発覚し、以後（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">114.</span> <span class="blank">大内氏が貿易を独占</span></span>）</li>
+        <li>＊1547 最後の遣明船が派遣される（直後に大内氏が滅亡）</li>
+        <li>以後（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">115.</span> <span class="blank">後期倭寇</span></span>）の活動が活発化</li>
+        <li>1588 豊臣秀吉が（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">116.</span> <span class="blank">海賊取締令</span></span>）を出し、海上の秩序が回復</li>
+        <li>【交易品】＊朝貢形式のため滞在費・運搬費などすべて明側が負担、莫大な利益をもたらす</li>
+        <li>（明→日）（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">117.</span> <span class="blank">永楽通宝などの明銭／銅線</span></span>）、生糸、織物、陶磁器、書画等（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">118.</span> <span class="blank">唐物</span></span>）</li>
+        <li>（日→明）（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">119.</span> <span class="blank">刀剣</span></span>）・槍などの武具、工芸品、（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">120.</span> <span class="blank">銅</span></span>）・硫黄</li>
+        <li>《朝鮮との交易》</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">1.</span> <span class="blank">1392</span></span>）倭寇撃退に活躍した（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">2.</span> <span class="blank">李成桂</span></span>）が高麗を倒し建国（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">3.</span> <span class="blank">李氏朝鮮</span></span>）</li>
+        <li>倭寇禁圧を目的に国交が開かれ（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">4.</span> <span class="blank">日朝貿易</span></span>）が盛んになる</li>
+        <li>日朝貿易のために（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">5.</span> <span class="blank">三浦＝富山浦・乃而浦・塩浦</span></span>）が開かれ、三浦と漢城に（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">6.</span> <span class="blank">倭館</span></span>）が置かれる</li>
+        <li>貿易には（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">7.</span> <span class="blank">守護大名・国人・商人</span></span>）が参加</li>
+        <li>朝鮮は対馬の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">8.</span> <span class="blank">宗氏</span></span>）に貿易統制を行わせる</li>
+        <li>1419（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">9.</span> <span class="blank">応永の外寇</span></span>）：宗氏の代替わりで一時的に活発化、朝鮮軍が対馬に襲来</li>
+        <li>1420（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">10.</span> <span class="blank">宋希璟</span></span>）が来日、両国間の関係が回復し、再び貿易が盛んに</li>
+        <li>＊『<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">11.</span> <span class="blank">老松堂日本行録</span></span>』を著す（尼崎での<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">12.</span> <span class="blank">三毛作</span></span>の記事が有名）</li>
+        <li>1510（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">13.</span> <span class="blank">三浦の乱</span></span>）：三浦に居住する日本人が特権縮小に反発して暴動起こす</li>
+        <li>→（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">14.</span> <span class="blank">以後しだいに貿易は衰退</span></span>）</li>
+        <li>【交易品】</li>
+        <li>（朝→日）（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">15.</span> <span class="blank">木綿</span></span>）・大蔵経（一切経）</li>
+        <li>（日→朝）銅・硫黄・工芸品・蘇木・香木</li>
+    </ul>
+
+    <hr>
+
+    <h4>琉球と蝦夷ヶ島</h4>
+    <ul>
+        <li>《琉球》</li>
+        <li>1429 三山（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">16.</span> <span class="blank">北山・中山・南山</span></span>）の抗争を治めた（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">17.</span> <span class="blank">尚巴志</span></span>）が（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">18.</span> <span class="blank">琉球王国</span></span>）を建国：都（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">19.</span> <span class="blank">首里</span></span>）、港（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">20.</span> <span class="blank">那覇</span></span>）</li>
+        <li>明や日本と国交を結び、東アジア諸国間の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">21.</span> <span class="blank">中継貿易</span></span>）で繁栄</li>
+        <li>「舟楫をもって万国の津梁（架け橋）となし」（「<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">22.</span> <span class="blank">万国津梁之鐘</span></span>」の銘文）</li>
+        <li>《蝦夷ヶ島》</li>
+        <li>（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">23.</span> <span class="blank">十三湊</span></span>）で交易を行う「和人」（安東氏が支配）が（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">24.</span> <span class="blank">蝦夷ヶ島</span></span>）の南部に進出</li>
+        <li>各地に港や館を築く（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">25.</span> <span class="blank">志苔館</span></span>などをあわせて<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">26.</span> <span class="blank">道南十二館</span></span>と呼ぶ）</li>
+        <li>漁労・狩猟・交易を行う（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">27.</span> <span class="blank">アイヌ</span></span>）の人々が和人の進出に圧迫され衝突が発生</li>
+        <li>：1457（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">28.</span> <span class="blank">コシャマインの戦い</span></span>）</li>
+        <li>和人の（<span class="blank-container" onclick="this.classList.toggle('revealed')"><span class="number">29.</span> <span class="blank">蠣崎氏</span></span>）が蜂起を制圧し、以後蠣崎氏が道南の支配者に成長</li>
+    </ul>
+
+    </main>
+</div>
+
+<button id="backToTop">↑</button>
+
+<script>
+    // クリックで表示/非表示の切り替え
+    function reveal(element) {
+        element.classList.toggle('revealed');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ホバーエフェクト
+        const blanks = document.querySelectorAll('.blank-container');
+        blanks.forEach(blank => {
+            blank.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('revealed')) {
+                    this.style.opacity = '0.7';
+                }
+            });
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+            blank.addEventListener('click', function() {
+                this.style.opacity = '1'; 
+            });
+
+            blank.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+            });
+        });
+
+        // 一番下にスクロールしたときのみボタンを表示する処理
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            const bodyHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= bodyHeight - 5) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックで上に戻る
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // --- 追加機能: 一斉表示/非表示ボタン ---
+        const toggleAllBtn = document.getElementById('toggleAllBtn');
+        let allRevealed = false;
+
+        toggleAllBtn.addEventListener('click', function() {
+            allRevealed = !allRevealed;
+            blanks.forEach(blank => {
+                if (allRevealed) {
+                    blank.classList.add('revealed');
+                } else {
+                    blank.classList.remove('revealed');
+                }
+            });
+            this.textContent = allRevealed ? 'すべて隠す' : 'すべて表示';
+        });
+    });
+</script>
+</body>
+</html>
