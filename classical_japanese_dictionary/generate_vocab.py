@@ -80,18 +80,6 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
 
         <div class="info-grid">
             <div class="info-item">
-                <span class="info-label">語源・成り立ち</span>
-                {etymology}
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義の語</span>
-                {synonyms}
-            </div>
-            <div class="info-item">
-                <span class="info-label">反対の語</span>
-                {antonyms}
-            </div>
-            <div class="info-item">
                 <span class="info-label">関連知識</span>
                 {related}
             </div>
@@ -152,9 +140,6 @@ def generate_html(data, current_index, sorted_words):
         meaning=data['meaning'],
         nuance=data['nuance'],
         examples_html=examples_html,
-        etymology=data.get('etymology', '記載なし'),
-        synonyms=list_to_text(data.get('synonyms', [])),
-        antonyms=list_to_text(data.get('antonyms', [])),
         related=list_to_text(data.get('related', [])),
         prev_button=prev_button,
         next_button=next_button
