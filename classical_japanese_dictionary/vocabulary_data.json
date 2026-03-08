@@ -27,7 +27,7 @@
         }
       ],
       "related": [
-        { "number": 2, "branch": 1, "word": "見せ奉る" }
+        { "number": 2, "branch": 1, "word": "見せ奉る", "trans": "お見せ申し上げる" }
       ]
     },
     {
@@ -43,7 +43,7 @@
         }
       ],
       "related": [
-        { "number": 3, "branch": 1, "word": "見ゆ" }
+        { "number": 3, "branch": 1, "word": "見ゆ", "trans": "(男性から)見られる・結婚する" }
       ]
     },
     {
@@ -59,8 +59,7 @@
         }
       ],
       "related": [
-        { "number": 4, "branch": 1, "word": "かいまみ" },
-        { "number": 4, "branch": 2, "word": "かいまみ" }
+        { "number": 4, "branch": 1, "word": "かいまみ", "trans": "のぞき見ること" }
       ]
     },
     {
@@ -76,7 +75,7 @@
         }
       ],
       "related": [
-        { "number": 5, "branch": 1, "word": "くどく" }
+        { "number": 5, "branch": 1, "word": "口説く", "trans": "口説く・求婚する" }
       ]
     },
     {
@@ -92,8 +91,8 @@
         }
       ],
       "related": [
-        { "number": 6, "branch": 1, "word": "すき" },
-        { "number": 6, "branch": 2, "word": "好き好きし" }
+        { "number": 6, "branch": 1, "word": "すき", "trans": "風流・色道" },
+        { "number": 6, "branch": 2, "word": "好き好きし", "trans": "風流だ・色好みだ" }
       ]
     },
     {
@@ -109,8 +108,7 @@
         }
       ],
       "related": [
-        { "number": 7, "branch": 1, "word": "わたす" },
-        { "number": 7, "branch": 2, "word": "移す" }
+        { "number": 7, "branch": 1, "word": "わたす", "trans": "移す・渡す" }
       ]
     },
     {
@@ -140,7 +138,7 @@
         }
       ],
       "related": [
-        { "number": 9, "branch": 1, "word": "おこなひ" }
+        { "number": 9, "branch": 1, "word": "おこなひ", "trans": "仏道修行・勤行" }
       ]
     }
   ]
