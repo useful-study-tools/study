@@ -272,15 +272,25 @@
     <button id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'});" style="display: flex;">↑</button>
 
     <script>
-        // トップに戻るボタンの表示/非表示（任意）
-        window.addEventListener('scroll', function() {
-            var btn = document.getElementById('backToTop');
-            if (window.pageYOffset > 300) {
-                btn.style.display = 'flex';
-            } else {
-                btn.style.display = 'none';
-            }
-        });
+        const backToTopBtn = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                // 現在のスクロール位置 + ウィンドウの高さ
+                const scrollPosition = window.innerHeight + window.pageYOffset;
+                // ドキュメント全体の高さ
+                const bodyHeight = document.documentElement.scrollHeight;
+
+                // 最下部（ボディの高さ付近）に到達したか判定
+                if (scrollPosition >= bodyHeight - 5) {
+                    backToTopBtn.style.display = 'flex';
+                } else {
+                    backToTopBtn.style.display = 'none';
+                }
+            });
+
+            // ボタンクリックで上に戻る
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
     </script>
 </body>
 </html>
