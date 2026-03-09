@@ -21,22 +21,48 @@
             margin: 0 auto; 
             padding: 30px 20px; 
             background-color: var(--bg-color); 
+            display: flex;          /* 前者に合わせるための追加 */
+            flex-direction: column; /* 前者に合わせるための追加 */
+            align-items: flex-start; /* ボタンを左寄せにするため */
         }
+        
+        /* 前者のコードから移植・調整したスタイル */
+        .btn-home { 
+            display: inline-block; 
+            padding: 8px 20px; 
+            background-color: var(--primary-color); 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 20px; 
+            font-weight: bold; 
+            font-size: 0.9rem; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+            transition: 0.3s; 
+            margin-bottom: 20px; /* 下との間隔 */
+        }
+        .btn-home:hover { 
+            background-color: #c78a88; 
+            transform: translateY(-1px); 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15); 
+        }
+
         .card { 
             background: var(--card-bg); 
             padding: 40px; 
             border-radius: 8px; 
             box-shadow: 0 2px 15px rgba(0,0,0,0.05); 
             border: 1px solid #e0d9c1; 
+            width: 100%; /* 横幅いっぱい */
+            box-sizing: border-box;
         }
         .nav-buttons { 
             display: flex; 
             justify-content: space-between; 
             margin-bottom: 20px; 
             gap: 10px; 
+            width: 100%; /* 横幅いっぱい */
         }
         .nav-button { 
-            margin-top: 20px;
             flex: 1; 
             padding: 10px; 
             border: 1px solid var(--primary-color); 
@@ -58,31 +84,6 @@
             cursor: not-allowed; 
         }
         
-        .back-link { 
-            display: inline-block; 
-            margin-bottom: 20px; 
-            text-decoration: none; 
-            color: var(--text-sub); 
-            font-size: 0.9rem; 
-        }
-
-        .btn-home {
-            display: inline-block;
-            padding: 8px 20px;
-            background-color: var(--primary-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 20px;
-            font-weight: bold;
-            font-size: 0.9rem;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            transition: 0.3s;
-        }
-        .btn-home:hover {
-            background-color: #c78a88;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-        }
         .word-header { 
             border-bottom: 2px solid var(--primary-color); 
             padding-bottom: 10px; 
@@ -190,6 +191,7 @@
 </head>
 <body>
     <a href="../index.html" class="btn-home">辞書へ戻る</a>
+    
     <div class="nav-buttons">
         <a href="12-おくる.html" class="nav-button">← 前の単語</a>
         <a href="14-ときめく.html" class="nav-button">次の単語 →</a>
