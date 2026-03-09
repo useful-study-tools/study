@@ -45,6 +45,7 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
             gap: 10px; 
         }}
         .nav-button {{ 
+            margin-top: 20px;
             flex: 1; 
             padding: 10px; 
             border: 1px solid var(--primary-color); 
