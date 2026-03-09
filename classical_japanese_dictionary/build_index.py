@@ -165,13 +165,13 @@ def generate_index():
 </div>
 <button id="backToTop">↑</button>
 <script>
-    /* JSロジックは英単語版と同じ（LazyLoadとFilter） */
     const wordList = document.getElementById('wordList');
     const allItems = Array.from(wordList.children).filter(item => item.classList.contains('word-item'));
     const backToTopBtn = document.getElementById('backToTop');
+    const margin = 1200;
 
     function checkVisibleItems() {
-        const triggerLimit = window.innerHeight + window.scrollY + 1000;
+        const triggerLimit = window.innerHeight + window.scrollY + margin;
         let hasHidden = false;
         for (let item of allItems) {
             if (item.classList.contains('hidden')) {
@@ -187,6 +187,34 @@ def generate_index():
         backToTopBtn.style.display = window.scrollY > 300 ? 'flex' : 'none';
     }
 
+    function initializeLazyLoad() {
+        allItems.forEach(item => item.classList.add('hidden'));
+        checkVisibleItems();
+    }
+
+    function loadChapterAndScroll(event, chapterId) {
+        event.preventDefault();
+        const chapterHeader = document.getElementById(chapterId);
+        if (!chapterHeader) return;
+        let nextEl = chapterHeader.nextElementSibling;
+        for (let i = 0; i < 40 && nextEl; i++) {
+            if (nextEl.classList.contains('word-item')) nextEl.classList.remove('hidden');
+            nextEl = nextEl.nextElementSibling;
+        }
+        chapterHeader.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setTimeout(checkVisibleItems, 100);
+    }
+
+    window.addEventListener('scroll', () => window.requestAnimationFrame(checkVisibleItems));
+    backToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.toc-links a').forEach(link => {
+            link.addEventListener('click', (e) => loadChapterAndScroll(e, link.getAttribute('href').substring(1)));
+        });
+        initializeLazyLoad();
+    });
+
     function filterList() {
         const filter = document.getElementById('searchInput').value.toLowerCase();
         for (let item of wordList.getElementsByTagName('li')) {
@@ -194,23 +222,17 @@ def generate_index():
                 item.style.display = filter === "" ? "" : "none";
                 continue;
             }
-            const text = item.textContent.toLowerCase();
             if (filter === "") {
                 item.classList.add('hidden');
                 item.style.display = "";
             } else {
+                const text = item.textContent || item.innerText;
                 item.classList.remove('hidden');
-                item.style.display = text.includes(filter) ? "" : "none";
+                item.style.display = text.toLowerCase().includes(filter) ? "" : "none";
             }
         }
         if (filter === "") checkVisibleItems();
     }
-
-    window.addEventListener('scroll', () => window.requestAnimationFrame(checkVisibleItems));
-    document.addEventListener('DOMContentLoaded', () => {
-        allItems.forEach(item => item.classList.add('hidden'));
-        checkVisibleItems();
-    });
 </script>
 </body>
 </html>"""
