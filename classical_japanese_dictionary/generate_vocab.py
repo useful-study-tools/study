@@ -22,20 +22,25 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
             --text-sub: #555;
             --accent-soft: #e9e4d1;
         }}
+        /* 前者の body スタイルを継承 */
         body {{ 
             font-family: "Sawarabi Mincho", "Hiragino Mincho ProN", serif; 
-            line-height: 1.8; 
-            color: var(--text-main); 
-            max-width: 700px; 
-            margin: 0 auto; 
-            padding: 30px 20px; 
             background-color: var(--bg-color); 
-            display: flex;          /* 前者に合わせるための追加 */
-            flex-direction: column; /* 前者に合わせるための追加 */
-            align-items: flex-start; /* ボタンを左寄せにするため */
+            margin: 0; 
+            padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            color: var(--text-main); 
         }}
         
-        /* 前者のコードから移植・調整したスタイル */
+        /* 前者の container スタイルを適用 */
+        .container {{ 
+            width: 100%; 
+            max-width: 700px; 
+        }}
+
+        /* 「戻る」ボタン：前者の .btn-home と完全に一致 */
         .btn-home {{ 
             display: inline-block; 
             padding: 8px 20px; 
@@ -47,7 +52,7 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
             font-size: 0.9rem; 
             box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
             transition: 0.3s; 
-            margin-bottom: 20px; /* 下との間隔 */
+            margin-bottom: 20px;
         }}
         .btn-home:hover {{ 
             background-color: #c78a88; 
@@ -61,15 +66,12 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
             border-radius: 8px; 
             box-shadow: 0 2px 15px rgba(0,0,0,0.05); 
             border: 1px solid #e0d9c1; 
-            width: 100%; /* 横幅いっぱい */
-            box-sizing: border-box;
         }}
         .nav-buttons {{ 
             display: flex; 
             justify-content: space-between; 
             margin-bottom: 20px; 
             gap: 10px; 
-            width: 100%; /* 横幅いっぱい */
         }}
         .nav-button {{ 
             flex: 1; 
@@ -199,41 +201,45 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    
-    <div class="nav-buttons">
-        {prev_button}
-        {next_button}
-    </div>
-
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number">第 {number} 番</span>
-            <h1 class="word-title">{word} 
-                <span class="pos-tag">{pos}</span>
-                {conj_html}
-            </h1>
-        </div>
-
-        <div class="section-title">現代語訳</div>
-        <div class="meaning-jp">{meaning}</div>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
         
-        <div class="nuance-box">
-            <strong>【解釈のポイント】</strong><br>{nuance}
+        <div class="nav-buttons">
+            {prev_button}
+            {next_button}
         </div>
 
-        <div class="section-title">例文</div>
-        {examples_html}
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number">第 {number} 番</span>
+                <h1 class="word-title">{word} 
+                    <span class="pos-tag">{pos}</span>
+                    {conj_html}
+                </h1>
+            </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">関連知識・類義語など</span>
-                {related}
+            <div class="section-title">現代語訳</div>
+            <div class="meaning-jp">{meaning}</div>
+            
+            <div class="nuance-box">
+                <strong>【解釈のポイント】</strong><br>{nuance}
+            </div>
+
+            <div class="section-title">例文</div>
+            {examples_html}
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">関連知識・類義語など</span>
+                    {related}
+                </div>
             </div>
         </div>
     </div>
 </body>
 </html>"""
+
+# （以下の関数群は変更なし）
 
 def load_all_vocabulary_files():
     all_words = []
