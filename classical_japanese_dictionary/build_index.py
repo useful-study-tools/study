@@ -73,7 +73,7 @@ def generate_index():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>古文単語 データベース</title>
-    <link rel="icon" href=/image/logo.png">
+    <link rel="icon" href="/image/logo.png">
     <style>
         :root {{ 
             --primary-color: #a33c3a; /* 茜色 - 古文らしい赤 */
@@ -86,7 +86,7 @@ def generate_index():
         h1 {{ margin-top: 10px; color: var(--primary-color); text-align: center; border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; font-weight: bold; }}
         
         .btn-home {{ display: inline-block; padding: 8px 20px; background-color: var(--primary-color); color: white; text-decoration: none; border-radius: 20px; font-weight: bold; font-size: 0.9rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: 0.3s; }}
-        .btn-home:hover {{ background-color: #c78a88 transform: translateY(-1px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }}
+        .btn-home:hover {{ background-color: #c78a88; transform: translateY(-1px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }}
         
         .exercise-link {{ display: block; width: fit-content; margin: 0 auto 30px; padding: 12px 40px; background-color: var(--primary-color); color: white; text-decoration: none; border-radius: 20px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: 0.3s; }}
 
