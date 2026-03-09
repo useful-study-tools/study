@@ -127,7 +127,7 @@ def generate_index():
         html_content += f'        </ul></div>\n'
 
     html_content += """    </nav>
-    <input type="text" id="searchInput" class="search-box" placeholder="単語・現代語訳・活用で検索..." onkeyup="filterList()">
+    <input type="text" id="searchInput" class="search-box" placeholder="単語・現代語訳で検索..." onkeyup="filterList()">
     <ul class="word-list" id="wordList">
 """
 
