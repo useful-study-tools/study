@@ -37,7 +37,7 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
         /* 前者の container スタイルを適用 */
         .container {{ 
             width: 100%; 
-            max-width: 700px; 
+            max-width: 800px; 
         }}
 
         /* 「戻る」ボタン：前者の .btn-home と完全に一致 */
