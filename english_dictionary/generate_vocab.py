@@ -3,7 +3,7 @@ import os
 import re
 from pathlib import Path
 from glob import glob
-from config import CHAPTER_MAP  # config.py から出典マップをインポート
+from config import CHAPTER_MAP 
 
 # ==========================================
 # 1. HTMLテンプレート (メイン単語用)
@@ -17,7 +17,8 @@ HTML_TEMPLATE_MAIN = """<!DOCTYPE html>
     <link rel="icon" href="../image/logo.png">
     <style>
         :root {{ --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }}
-        body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }}
+        body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }}
+        .container {{ width: 100%; max-width: 800px; }}
         .card {{ background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }}
         .nav-buttons {{ display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }}
         .nav-button {{ flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }}
@@ -52,38 +53,40 @@ HTML_TEMPLATE_MAIN = """<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        {prev_button}
-        {next_button}
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># {number}</span>
-            <h1 class="word-title">{word} <span class="pos-tag">{pos}</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            {prev_button}
+            {next_button}
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">{meaning}</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> {nuance}
-        </div>
-{examples_sections}
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                {etymology}
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># {number}</span>
+                <h1 class="word-title">{word} <span class="pos-tag">{pos}</span></h1>
             </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-{synonyms}
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">{meaning}</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> {nuance}
             </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-{antonyms}
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-{related}
+            {examples_sections}
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    {etymology}
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    {synonyms}
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    {antonyms}
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    {related}
+                </div>
             </div>
         </div>
     </div>
