@@ -22,34 +22,159 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
             --text-sub: #555;
             --accent-soft: #e9e4d1;
         }}
-        body {{ font-family: "Sawarabi Mincho", "Hiragino Mincho ProN", serif; line-height: 1.8; color: var(--text-main); max-width: 700px; margin: 0 auto; padding: 30px 20px; background-color: var(--bg-color); }}
-        .card {{ background: var(--card-bg); padding: 40px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); border: 1px solid #e0d9c1; }}
-        
-        .nav-buttons {{ display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }}
-        .nav-button {{ flex: 1; padding: 10px; border: 1px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 4px; font-weight: bold; text-align: center; font-size: 0.9rem; transition: 0.3s; }}
-        .nav-button:hover:not(.disabled) {{ background: var(--primary-color); color: white; }}
-        .nav-button.disabled {{ opacity: 0.3; cursor: not-allowed; }}
-        
-        .back-link {{ display: inline-block; margin-bottom: 20px; text-decoration: none; color: var(--text-sub); font-size: 0.9rem; }}
-        .word-header {{ border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 25px; }}
-        .word-number {{ font-size: 0.9rem; color: var(--primary-color); font-weight: bold; }}
-        .word-title {{ font-size: 2.8rem; margin: 5px 0; font-weight: bold; display: flex; align-items: baseline; }}
-        .pos-tag {{ font-size: 0.9rem; background: var(--primary-color); color: white; padding: 2px 10px; border-radius: 3px; margin-left: 15px; }}
-        .conj-tag {{ font-size: 0.9rem; border: 1px solid var(--primary-color); color: var(--primary-color); padding: 1px 8px; border-radius: 3px; margin-left: 8px; }}
-
-        .section-title {{ font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 30px; border-left: 4px solid var(--primary-color); padding-left: 10px; }}
-        
-        .meaning-jp {{ font-size: 1.4rem; font-weight: bold; margin: 15px 0; color: #000; }}
-        .nuance-box {{ background: var(--accent-soft); padding: 15px; border-radius: 5px; font-size: 0.95rem; line-height: 1.6; border-left: 4px solid #ccc; }}
-
-        .example-item {{ margin-bottom: 20px; padding: 10px 15px; background: #fafafa; border-radius: 4px; }}
-        .ex-text {{ display: block; font-weight: bold; font-size: 1.1rem; color: #333; }}
-        .ex-trans {{ display: block; color: var(--text-sub); font-size: 0.95rem; margin-top: 5px; }}
-        .ex-source {{ display: block; text-align: right; font-size: 0.8rem; color: #999; font-style: italic; }}
-
-        .info-grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 30px; }}
-        .info-item {{ background: #fdfdfd; padding: 12px; border: 1px solid #eee; border-radius: 4px; }}
-        .info-label {{ display: block; font-weight: bold; color: var(--primary-color); font-size: 0.8rem; margin-bottom: 5px; }}
+        body {{ 
+            font-family: "Sawarabi Mincho", "Hiragino Mincho ProN", serif; 
+            line-height: 1.8; 
+            color: var(--text-main); 
+            max-width: 700px; 
+            margin: 0 auto; 
+            padding: 30px 20px; 
+            background-color: var(--bg-color); 
+        }}
+        .card {{ 
+            background: var(--card-bg); 
+            padding: 40px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05); 
+            border: 1px solid #e0d9c1; 
+        }}
+        .nav-buttons {{ 
+            display: flex; 
+            justify-content: space-between; 
+            margin-bottom: 20px; 
+            gap: 10px; 
+        }}
+        .nav-button {{ 
+            flex: 1; 
+            padding: 10px; 
+            border: 1px solid var(--primary-color); 
+            background: white; 
+            color: var(--primary-color); 
+            text-decoration: none; 
+            border-radius: 4px; 
+            font-weight: bold; 
+            text-align: center; 
+            font-size: 0.9rem; 
+            transition: 0.3s; 
+        }}
+        .nav-button:hover:not(.disabled) {{ 
+            background: var(--primary-color); 
+            color: white; 
+        }}
+        .nav-button.disabled {{ 
+            opacity: 0.3; 
+            cursor: not-allowed; 
+        }}
+        .back-link {{ 
+            display: inline-block; 
+            margin-bottom: 20px; 
+            text-decoration: none; 
+            color: var(--text-sub); 
+            font-size: 0.9rem; 
+        }}
+        .word-header {{ 
+            border-bottom: 2px solid var(--primary-color); 
+            padding-bottom: 10px; 
+            margin-bottom: 25px; 
+        }}
+        .word-number {{ 
+            font-size: 0.9rem; 
+            color: var(--primary-color); 
+            font-weight: bold; 
+        }}
+        .word-title {{ 
+            font-size: 2.8rem; 
+            margin: 5px 0; 
+            font-weight: bold; 
+            display: flex; 
+            align-items: baseline; 
+        }}
+        .pos-tag {{ 
+            font-size: 0.9rem; 
+            background: var(--primary-color); 
+            color: white; 
+            padding: 2px 10px; 
+            border-radius: 3px; 
+            margin-left: 15px; 
+        }}
+        .conj-tag {{ 
+            font-size: 0.9rem; 
+            border: 1px solid var(--primary-color); 
+            color: var(--primary-color); 
+            padding: 1px 8px; 
+            border-radius: 3px; 
+            margin-left: 8px; 
+        }}
+        .section-title {{ 
+            font-size: 1.1rem; 
+            font-weight: bold; 
+            color: var(--primary-color); 
+            margin-top: 30px; 
+            border-left: 4px solid var(--primary-color); 
+            padding-left: 10px; 
+        }}
+        .meaning-jp {{ 
+            font-size: 1.4rem; 
+            font-weight: bold; 
+            margin: 15px 0; 
+            color: #000; 
+        }}
+        .nuance-box {{ 
+            background: var(--accent-soft); 
+            padding: 15px; 
+            border-radius: 5px; 
+            font-size: 0.95rem; 
+            line-height: 1.6; 
+            border-left: 4px solid #ccc; 
+        }}
+        .example-item {{ 
+            margin-bottom: 20px; 
+            padding: 10px 15px; 
+            background: #fafafa; 
+            border-radius: 4px; 
+        }}
+        .ex-text {{ 
+            display: block; 
+            font-weight: bold; 
+            font-size: 1.1rem; 
+            color: #333; 
+        }}
+        .ex-trans {{ 
+            display: block; 
+            color: var(--text-sub); 
+            font-size: 0.95rem; 
+            margin-top: 5px; 
+        }}
+        .ex-source {{ 
+            display: block; 
+            text-align: right; 
+            font-size: 0.8rem; 
+            color: #999; 
+            font-style: italic; 
+        }}
+        .info-grid {{ 
+            display: block; 
+            margin-top: 30px; 
+        }}
+        .info-item {{ 
+            background: #fdfdfd; 
+            padding: 20px; 
+            border: 1px solid #eee; 
+            border-radius: 8px; 
+            line-height: 1.7; 
+        }}
+        .info-label {{ 
+            display: block; 
+            font-weight: bold; 
+            color: var(--primary-color); 
+            font-size: 1rem; 
+            margin-bottom: 12px; 
+            border-bottom: 1px dashed var(--primary-color); 
+            padding-bottom: 5px; 
+        }}
+        .related-entry {{ 
+            margin-bottom: 8px; 
+        }}
     </style>
 </head>
 <body>
@@ -80,7 +205,7 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
 
         <div class="info-grid">
             <div class="info-item">
-                <span class="info-label">関連知識</span>
+                <span class="info-label">関連知識・類義語など</span>
                 {related}
             </div>
         </div>
@@ -103,7 +228,6 @@ def load_all_vocabulary_files():
     return all_words
 
 def generate_html(data, current_index, sorted_words):
-    # ナビゲーションボタン生成 (英単語版のロジックを流用)
     def get_btn(idx, label_prefix):
         if 0 <= idx < len(sorted_words):
             target = sorted_words[idx]
@@ -114,7 +238,6 @@ def generate_html(data, current_index, sorted_words):
     prev_button = get_btn(current_index - 1, "← 前の単語")
     next_button = get_btn(current_index + 1, "次の単語 →")
 
-    # 例文HTMLの生成
     examples_html = ""
     for ex in data.get('examples', []):
         examples_html += f"""
@@ -124,13 +247,15 @@ def generate_html(data, current_index, sorted_words):
             <span class="ex-source">― {ex.get('source', '出典不明')}</span>
         </div>"""
 
-    # 活用HTMLの生成
     conj_html = f'<span class="conj-tag">{data["conjugation"]}</span>' if 'conjugation' in data else ""
 
-    # リスト系項目の生成 (英単語版の generate_word_list を簡略化)
     def list_to_text(items):
-        if not items: return "なし"
-        return "、".join([f"{i['word']}({i['trans']})" for i in items])
+        if not items:
+            return "なし"
+        html_list = []
+        for i in items:
+            html_list.append(f'<div class="related-entry">・<strong>{i["word"]}</strong>（{i["trans"]}）</div>')
+        return "".join(html_list)
 
     return HTML_TEMPLATE_KOBUN.format(
         number=data['number'],
@@ -147,9 +272,9 @@ def generate_html(data, current_index, sorted_words):
 
 def main():
     all_words = load_all_vocabulary_files()
-    if not all_words: return
+    if not all_words: 
+        return
 
-    # 番号順にソート
     sorted_words = sorted(all_words, key=lambda w: float(str(w['number']).replace('-', '.')))
     
     output_dir = Path('classical_japanese_dictionary/data')
