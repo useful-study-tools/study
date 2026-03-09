@@ -21,6 +21,7 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
             --text-main: #2c2c2c;
             --text-sub: #555;
             --accent-soft: #e9e4d1;
+            --background-color: #f4f7f9;
         }}
         body {{ 
             font-family: "Sawarabi Mincho", "Hiragino Mincho ProN", serif; 
@@ -29,10 +30,10 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
             max-width: 700px; 
             margin: 0 auto; 
             padding: 30px 20px; 
-            background-color: var(--bg-color); 
+            background-color: var(--background-color); 
         }}
         .card {{ 
-            background: var(--card-bg); 
+            background: var(--bg-color); 
             padding: 40px; 
             border-radius: 8px; 
             box-shadow: 0 2px 15px rgba(0,0,0,0.05); 
@@ -48,7 +49,7 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
             flex: 1; 
             padding: 10px; 
             border: 1px solid var(--primary-color); 
-            background: white; 
+            background: var(--bg-color); 
             color: var(--primary-color); 
             text-decoration: none; 
             border-radius: 4px; 
@@ -59,7 +60,7 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
         }}
         .nav-button:hover:not(.disabled) {{ 
             background: var(--primary-color); 
-            color: white; 
+            color: var(--bg-color); 
         }}
         .nav-button.disabled {{ 
             opacity: 0.3; 
