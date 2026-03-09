@@ -78,8 +78,8 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
         .btn-home {{
             display: inline-block;
             padding: 8px 20px;
-            background-color: #eeeeee;
-            color: 444444;
+            background-color: var(--primary-color);
+            color: white;
             text-decoration: none;
             border-radius: 20px;
             font-weight: bold;
@@ -88,7 +88,7 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
             transition: 0.3s;
         }}
         .btn-home:hover {{
-            background-color: #eeeeee;
+            background-color: #c78a88;
             transform: translateY(-1px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }}
