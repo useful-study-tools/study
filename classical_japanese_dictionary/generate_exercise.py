@@ -79,6 +79,7 @@ def generate_html():
         .nav-buttons {{ display: flex; gap: 10px; margin-top: 10px; }}
         .btn-prev {{ background: #6c757d; flex: 1; }}
         .btn-next {{ background: var(--primary); flex: 2; }}
+        .btn:disabled {{ background: #ccc !important; color: #888 !important; cursor: not-allowed; border-color: #bbb !important; }}
     </style>
 </head>
 
@@ -120,7 +121,7 @@ def generate_html():
         <div id="progressText" style="text-align:center; color:#888; margin-bottom:10px;"></div>
         <div id="quizContainer"></div>
         <div id="cardControls" class="nav-buttons" style="display:none;">
-            <button id="prevBtn" class="btn btn-prev">← 前へ</button>
+            <button id="prevBtn" class="btn btn-prev" disabled>← 前へ</button>
             <button id="mainActionBtn" class="btn btn-next"></button>
         </div>
         <button id="quizNextBtn" class="btn" style="display:none;"></button>
@@ -229,7 +230,9 @@ function showCard(word, mode) {{
     
     cardControls.style.display = 'flex';
     mainBtn.innerText = '答えを見る';
-    prevBtn.style.visibility = currentIndex > 0 ? 'visible' : 'hidden';
+    
+    // 修正箇所：currentIndexが0の時はボタンを無効化（グレーアウト）
+    prevBtn.disabled = (currentIndex === 0);
 
     const card = document.getElementById('card');
     
