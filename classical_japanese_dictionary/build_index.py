@@ -113,7 +113,7 @@ def generate_index():
 </head>
 <body>
 <div class="container">
-    <a href="../index.html" class="btn btn-home">← 戻る</a>
+    <a href="../index.html" class="btn-home">← 戻る</a>
     <h1>古文単語 辞書目次</h1>
     <a href="exercise.html" class="exercise-link">単語演習</a>
     <nav class="toc">
