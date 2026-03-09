@@ -81,8 +81,8 @@ def generate_html():
         .btn-next {{ background: var(--primary); flex: 2; }}
     </style>
 </head>
-<body>
 <a href="index.html" class="btn-home">辞書に戻る</a>
+<body>
 <div class="container">
     <div class="header">
         <h1>古文単語演習</h1>
