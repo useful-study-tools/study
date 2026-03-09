@@ -75,10 +75,9 @@ def generate_html():
         .option-btn {{ background: white; border: 1px solid #ddd; padding: 15px; border-radius: 5px; cursor: pointer; font-size: 1rem; text-align: left; transition: 0.2s; margin-bottom: 10px; width: 100%; }}
         .option-btn:hover {{ border-color: var(--primary); background: #fffcfc; }}
 
-        .fill-blank-area {{ background: #fdfdfd; padding: 20px; border-radius: 8px; border: 1px solid #eee; }}
-        .sentence-ja {{ font-size: 0.9rem; color: #666; margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; }}
-        .sentence-en {{ font-size: 1.4rem; font-weight: bold; line-height: 1.8; }}
-        .blank-input {{ border: none; border-bottom: 2px solid var(--primary); outline: none; background: transparent; font-size: 1.4rem; text-align: center; color: var(--primary); width: 150px; }}
+        .nav-buttons {{ display: flex; gap: 10px; margin-top: 10px; }}
+        .btn-prev {{ background: #6c757d; flex: 1; }}
+        .btn-next {{ background: var(--primary); flex: 2; }}
     </style>
 </head>
 <body>
@@ -108,7 +107,7 @@ def generate_html():
                 <option value="card-ko-ja">暗記カード (古文 → 現代語)</option>
                 <option value="card-ja-ko">暗記カード (現代語 → 古文)</option>
                 <option value="quiz-ko-ja">4択問題 (古文 → 現代語)</option>
-                <option value="fill-blank">例文穴埋め (スペリング入力)</option>
+                <option value="quiz-ja-ko">4択問題 (現代語 → 古文)</option>
             </select>
         </div>
 
@@ -118,7 +117,11 @@ def generate_html():
     <div id="quiz" class="quiz-section">
         <div id="progressText" style="text-align:center; color:#888; margin-bottom:10px;"></div>
         <div id="quizContainer"></div>
-        <button id="mainActionBtn" class="btn" style="display:none;"></button>
+        <div id="cardControls" class="nav-buttons" style="display:none;">
+            <button id="prevBtn" class="btn btn-prev">← 前へ</button>
+            <button id="mainActionBtn" class="btn btn-next"></button>
+        </div>
+        <button id="quizNextBtn" class="btn" style="display:none;"></button>
         <button class="btn" style="background:#6c757d; margin-top:20px;" onclick="location.reload()">設定に戻る</button>
     </div>
 </div>
@@ -198,15 +201,15 @@ function showQuestion() {{
     const word = quizWords[currentIndex];
     const mode = document.getElementById('mode').value;
     const container = document.getElementById('quizContainer');
-    const mainBtn = document.getElementById('mainActionBtn');
+    const cardControls = document.getElementById('cardControls');
+    const quizNextBtn = document.getElementById('quizNextBtn');
     
     document.getElementById('progressText').innerText = `第 ${{currentIndex + 1}} 問 / ${{quizWords.length}} (No.${{word.n}})`;
     container.innerHTML = '';
-    mainBtn.style.display = 'none';
+    cardControls.style.display = 'none';
+    quizNextBtn.style.display = 'none';
 
-    if(mode === 'fill-blank') {{
-        showFillBlank(word);
-    }} else if(mode.startsWith('card')) {{
+    if(mode.startsWith('card')) {{
         showCard(word, mode);
     }} else {{
         showQuiz(word, mode);
@@ -215,27 +218,39 @@ function showQuestion() {{
 
 function showCard(word, mode) {{
     const container = document.getElementById('quizContainer');
+    const cardControls = document.getElementById('cardControls');
+    const mainBtn = document.getElementById('mainActionBtn');
+    const prevBtn = document.getElementById('prevBtn');
+    
     let isFlipped = false;
     container.innerHTML = `<div id="card" class="card">${{mode === 'card-ko-ja' ? word.w : word.m}}</div>`;
+    
+    cardControls.style.display = 'flex';
+    mainBtn.innerText = '答えを見る';
+    prevBtn.style.visibility = currentIndex > 0 ? 'visible' : 'hidden';
+
     const card = document.getElementById('card');
-    card.onclick = () => {{
+    
+    const flipAction = () => {{
         if(!isFlipped) {{
             card.innerText = mode === 'card-ko-ja' ? word.m : word.w;
             card.classList.add('flipped');
             isFlipped = true;
-            mainBtn.style.display = 'block';
             mainBtn.innerText = '次の単語へ';
         }} else {{
             currentIndex++; checkEnd();
         }}
     }};
-    const mainBtn = document.getElementById('mainActionBtn');
-    mainBtn.onclick = () => card.click();
+
+    card.onclick = flipAction;
+    mainBtn.onclick = flipAction;
+    prevBtn.onclick = () => {{ if(currentIndex > 0) {{ currentIndex--; showQuestion(); }} }};
 }}
 
 function showQuiz(word, mode) {{
     const container = document.getElementById('quizContainer');
-    container.innerHTML = `<div class="card" style="font-size:1.8rem;">${{word.w}}</div><div id="options"></div>`;
+    const questionText = mode === 'quiz-ko-ja' ? word.w : word.m;
+    container.innerHTML = `<div class="card" style="font-size:1.8rem;">${{questionText}}</div><div id="options"></div>`;
     
     let choices = [word];
     while(choices.length < 4) {{
@@ -247,58 +262,20 @@ function showQuiz(word, mode) {{
     choices.forEach(opt => {{
         const btn = document.createElement('button');
         btn.className = 'option-btn';
-        btn.innerText = opt.m;
+        btn.innerText = mode === 'quiz-ko-ja' ? opt.m : opt.w;
         btn.onclick = () => {{
             if(opt.n === word.n) {{
                 btn.style.background = '#e8f5e9';
+                btn.style.borderColor = 'var(--success)';
                 setTimeout(() => {{ currentIndex++; checkEnd(); }}, 400);
             }} else {{
                 btn.style.background = '#ffebee';
+                btn.style.borderColor = 'var(--danger)';
                 btn.disabled = true;
             }}
         }};
         document.getElementById('options').appendChild(btn);
     }});
-}}
-
-function showFillBlank(word) {{
-    if(!word.examples || word.examples.length === 0) {{ currentIndex++; showQuestion(); return; }}
-    const ex = word.examples[Math.floor(Math.random() * word.examples.length)];
-    const container = document.getElementById('quizContainer');
-    // 古文の「w（単語）」を穴埋めターゲットにする
-    const target = word.w;
-    const parts = ex.text.split(new RegExp(`(${{target}})`, 'g'));
-
-    container.innerHTML = `
-        <div class="fill-blank-area">
-            <div class="sentence-ja">${{ex.translation}}</div>
-            <div class="sentence-en" id="sentenceEn"></div>
-            <div id="feedback" style="margin-top:10px; font-weight:bold; text-align:center;"></div>
-        </div>
-    `;
-
-    const sentenceEn = document.getElementById('sentenceEn');
-    parts.forEach(p => {{
-        if(p === target) {{
-            const input = document.createElement('input');
-            input.className = 'blank-input';
-            input.onkeypress = (e) => {{ if(e.key === 'Enter') checkAns(input, target); }};
-            sentenceEn.appendChild(input);
-            setTimeout(() => input.focus(), 100);
-        }} else {{
-            sentenceEn.appendChild(document.createTextNode(p));
-        }}
-    }});
-}}
-
-function checkAns(input, target) {{
-    const fb = document.getElementById('feedback');
-    if(input.value.trim() === target) {{
-        fb.innerText = "✨ 正解！"; fb.style.color = "var(--success)";
-        setTimeout(() => {{ currentIndex++; checkEnd(); }}, 800);
-    }} else {{
-        fb.innerText = "❌ 正解は：「" + target + "」"; fb.style.color = "var(--danger)";
-    }}
 }}
 
 function checkEnd() {{ if(currentIndex < quizWords.length) showQuestion(); else {{ alert("終了しました！"); location.reload(); }} }}
