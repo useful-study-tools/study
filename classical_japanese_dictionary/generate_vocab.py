@@ -13,7 +13,7 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{number} {word}</title>
-    <link rel="icon" href="/image/logo.png">
+    <link rel="icon" href="../../image/logo.png">
     <style>
         :root {{ 
             --primary-color: #a33c3a; /* 茜色 */
