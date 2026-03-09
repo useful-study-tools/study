@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #28a745; --accent-color: #f4faf6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,48 +43,50 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="404-athletic.html" class="nav-button">← 前の単語</a>
-        <a href="405-model.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 404-2</span>
-            <h1 class="word-title">athlete <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="404-athletic.html" class="nav-button">← 前の単語</a>
+            <a href="405-model.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">運動選手、アスリート、スポーツが得意な人</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> プロ・アマ問わず、競技に参加する人や高い身体能力を持つ人を指します。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 404-2</span>
+                <h1 class="word-title">athlete <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">運動選手、アスリート、スポーツが得意な人</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> プロ・アマ問わず、競技に参加する人や高い身体能力を持つ人を指します。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">He is a natural <strong>athlete</strong> who excels at both soccer and tennis.</span>
             <span class="ja">彼はサッカーもテニスも得意な、生まれついてのスポーツマンだ。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                athletic と同語源
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">sportsman</span><span class="trans-small">(スポーツマン)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    athletic と同語源
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">sportsman</span><span class="trans-small">(スポーツマン)</span></div>
 <div class="list-unit"><span class="word-small">player</span><span class="trans-small">(選手)</span></div>
 <div class="list-unit"><span class="word-small">competitor</span><span class="trans-small">(競技者)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">spectator</span><span class="trans-small">(観客)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">spectator</span><span class="trans-small">(観客)</span></div>
 <div class="list-unit"><span class="word-small">non-athlete</span><span class="trans-small">(非競技者)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    
+                </div>
             </div>
         </div>
     </div>

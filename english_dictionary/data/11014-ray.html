@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="11013-recite.html" class="nav-button">← 前の単語</a>
-        <a href="11015-radiation.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 11014</span>
-            <h1 class="word-title">ray <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="11013-recite.html" class="nav-button">← 前の単語</a>
+            <a href="11015-radiation.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">①光線 ②放射線 ③（a ray of）一縷の、わずかな</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 光の筋や放射線を指す。比喩的に「希望の光」などにも使われる。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 11014</span>
+                <h1 class="word-title">ray <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">①光線 ②放射線 ③（a ray of）一縷の、わずかな</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 光の筋や放射線を指す。比喩的に「希望の光」などにも使われる。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">A <strong>ray</strong> of sunlight came through the window.</span>
             <span class="ja">一筋の太陽光が窓から差し込んだ。</span>
@@ -71,29 +73,30 @@
             <span class="ja">彼女の笑顔は私に一縷の希望を与えた。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ラテン語 radius（光線、棒）
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">beam</span><span class="trans-small">(光線)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ラテン語 radius（光線、棒）
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">beam</span><span class="trans-small">(光線)</span></div>
 <div class="list-unit"><span class="word-small">shine</span><span class="trans-small">(光)</span></div>
 <div class="list-unit"><a href="11015-radiation.html"><span class="word-small">radiation</span></a> <span class="trans-small">(放射線)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">darkness</span><span class="trans-small">(暗闇)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">darkness</span><span class="trans-small">(暗闇)</span></div>
 <div class="list-unit"><span class="word-small">shadow</span><span class="trans-small">(影)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">rayon</span><span class="trans-small">(名詞：レーヨン（語源が同じ）)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">rayon</span><span class="trans-small">(名詞：レーヨン（語源が同じ）)</span></div>
 <div class="list-unit"><span class="word-small">radiate</span><span class="trans-small">(動詞：放射する)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

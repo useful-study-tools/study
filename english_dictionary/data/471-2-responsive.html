@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #28a745; --accent-color: #f4faf6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="471-responsiveness.html" class="nav-button">← 前の単語</a>
-        <a href="472-richness.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 471-2</span>
-            <h1 class="word-title">responsive <span class="pos-tag">形容詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="471-responsiveness.html" class="nav-button">← 前の単語</a>
+            <a href="472-richness.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">反応の良い、敏感な、応答性のある</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 刺激や要求に対して迅速に適切な反応を示すことを表します。「responsive to ~（〜に反応する）」という形でよく使われます。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 471-2</span>
+                <h1 class="word-title">responsive <span class="pos-tag">形容詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">反応の良い、敏感な、応答性のある</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 刺激や要求に対して迅速に適切な反応を示すことを表します。「responsive to ~（〜に反応する）」という形でよく使われます。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">The company is very <strong>responsive</strong> to customer feedback.</span>
             <span class="ja">その会社は顧客のフィードバックに非常に反応が良い。</span>
@@ -71,30 +73,31 @@
             <span class="ja">そのウェブサイトはすべてのデバイスで機能するレスポンシブデザインを持っている。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                respond (応答する) + ive (形容詞語尾) <br>→ 応答する性質の
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">sensitive</span><span class="trans-small">(敏感な)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    respond (応答する) + ive (形容詞語尾) <br>→ 応答する性質の
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">sensitive</span><span class="trans-small">(敏感な)</span></div>
 <div class="list-unit"><span class="word-small">reactive</span><span class="trans-small">(反応する)</span></div>
 <div class="list-unit"><span class="word-small">attentive</span><span class="trans-small">(注意深い)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">unresponsive</span><span class="trans-small">(無反応な)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">unresponsive</span><span class="trans-small">(無反応な)</span></div>
 <div class="list-unit"><a href="499-5-insensitive.html"><span class="word-small">insensitive</span></a> <span class="trans-small">(鈍感な)</span></div>
 <div class="list-unit"><a href="498-indifferent.html"><span class="word-small">indifferent</span></a> <span class="trans-small">(無関心な)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="471-responsiveness.html"><span class="word-small">responsiveness</span></a><span class="trans-small">(名詞：反応の良さ)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="471-responsiveness.html"><span class="word-small">responsiveness</span></a><span class="trans-small">(名詞：反応の良さ)</span></div>
 <div class="list-unit"><span class="word-small">respond</span><span class="trans-small">(動詞：応答する)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

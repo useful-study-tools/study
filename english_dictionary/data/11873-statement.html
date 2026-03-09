@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="11872-draft.html" class="nav-button">← 前の単語</a>
-        <a href="11874-paradox.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 11873</span>
-            <h1 class="word-title">statement <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="11872-draft.html" class="nav-button">← 前の単語</a>
+            <a href="11874-paradox.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">①声明、述べたこと ②明細書</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 公式に意見を述べること、または銀行などの公式な記録（明細）を指します。
-        </div>
-        <div class="section-title">「声明」の例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 11873</span>
+                <h1 class="word-title">statement <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">①声明、述べたこと ②明細書</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 公式に意見を述べること、または銀行などの公式な記録（明細）を指します。
+            </div>
+                    <div class="section-title">「声明」の例文</div>
         <div class="example-item">
             <span class="en">The president issued a formal <strong>statement</strong> today.</span>
             <span class="ja">大統領は今日、公式声明を出した。</span>
@@ -72,28 +74,29 @@
             <span class="ja">間違いがないか、月次の銀行明細書を確認しなさい。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                state (述べる) + ment (こと)
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">announcement</span><span class="trans-small">(発表)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    state (述べる) + ment (こと)
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">announcement</span><span class="trans-small">(発表)</span></div>
 <div class="list-unit"><span class="word-small">declaration</span><span class="trans-small">(宣言)</span></div>
 <div class="list-unit"><span class="word-small">report</span><span class="trans-small">(報告書、明細)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">silence</span><span class="trans-small">(沈黙)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">silence</span><span class="trans-small">(沈黙)</span></div>
 <div class="list-unit"><span class="word-small">denial</span><span class="trans-small">(否定)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">state</span><span class="trans-small">(動詞：述べる)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">state</span><span class="trans-small">(動詞：述べる)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

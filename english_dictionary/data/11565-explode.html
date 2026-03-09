@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="11564-hinder.html" class="nav-button">← 前の単語</a>
-        <a href="11566-collide.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 11565</span>
-            <h1 class="word-title">explode <span class="pos-tag">動詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="11564-hinder.html" class="nav-button">← 前の単語</a>
+            <a href="11566-collide.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">【自】①爆発する ②爆発的に増加する</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 溜まっていたエネルギーが一気に放出されるイメージです。人口や人気が急増する際にも使われます。
-        </div>
-        <div class="section-title">「爆発する」の例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 11565</span>
+                <h1 class="word-title">explode <span class="pos-tag">動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">【自】①爆発する ②爆発的に増加する</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 溜まっていたエネルギーが一気に放出されるイメージです。人口や人気が急増する際にも使われます。
+            </div>
+                    <div class="section-title">「爆発する」の例文</div>
         <div class="example-item">
             <span class="en">The bomb <strong>exploded</strong> in the middle of the street.</span>
             <span class="ja">爆弾が通りの中央で爆発した。</span>
@@ -68,30 +70,31 @@
             <span class="ja">電気自動車の需要が最近爆発的に増えている。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ex (外へ) + plaudere (拍手する) → 舞台から追い出すほどの大きな音
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">burst</span><span class="trans-small">(破裂する)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ex (外へ) + plaudere (拍手する) → 舞台から追い出すほどの大きな音
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">burst</span><span class="trans-small">(破裂する)</span></div>
 <div class="list-unit"><a href="610-blast.html"><span class="word-small">blast</span></a> <span class="trans-small">(爆破する)</span></div>
 <div class="list-unit"><span class="word-small">mushroom</span><span class="trans-small">(急成長する)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><a href="4284-collapse.html"><span class="word-small">collapse</span><span class="source-tag">東進上級英単語1000</span></a> <a href="11589-collapse.html"><span class="word-small">collapse</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(崩壊する)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><a href="4284-collapse.html"><span class="word-small">collapse</span><span class="source-tag">東進上級英単語1000</span></a> <a href="11589-collapse.html"><span class="word-small">collapse</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(崩壊する)</span></div>
 <div class="list-unit"><span class="word-small">implode</span><span class="trans-small">(内側に爆発する)</span></div>
 <div class="list-unit"><a href="11581-shrink.html"><span class="word-small">shrink</span></a> <span class="trans-small">(縮む)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">explosion</span><span class="trans-small">(名詞：爆発)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">explosion</span><span class="trans-small">(名詞：爆発)</span></div>
 <div class="list-unit"><span class="word-small">explosive</span><span class="trans-small">(形容詞：爆発的な／名詞：爆薬)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

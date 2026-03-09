@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="11001-propose.html" class="nav-button">← 前の単語</a>
-        <a href="11003-desire.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 11002</span>
-            <h1 class="word-title">demand <span class="pos-tag">動詞・名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="11001-propose.html" class="nav-button">← 前の単語</a>
+            <a href="11003-desire.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">①（強く）要求する ②要求，需要</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 強い口調での要求を表す。名詞では「需要」の意味も非常に一般的。
-        </div>
-        <div class="section-title">例文（動詞）</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 11002</span>
+                <h1 class="word-title">demand <span class="pos-tag">動詞・名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">①（強く）要求する ②要求，需要</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 強い口調での要求を表す。名詞では「需要」の意味も非常に一般的。
+            </div>
+                    <div class="section-title">例文（動詞）</div>
         <div class="example-item">
             <span class="en">The workers <strong>demanded</strong> higher wages.</span>
             <span class="ja">労働者たちはより高い賃金を要求した。</span>
@@ -72,29 +74,30 @@
             <span class="ja">電気自動車の需要は高い。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                de（完全に）＋ mandare（命じる）→ 強く命じる
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">require</span><span class="trans-small">(要求する)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    de（完全に）＋ mandare（命じる）→ 強く命じる
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">require</span><span class="trans-small">(要求する)</span></div>
 <div class="list-unit"><span class="word-small">insist</span><span class="trans-small">(強く主張する)</span></div>
 <div class="list-unit"><span class="word-small">request</span><span class="trans-small">(要請する)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">offer</span><span class="trans-small">(提供する)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">offer</span><span class="trans-small">(提供する)</span></div>
 <div class="list-unit"><a href="11429-yield.html"><span class="word-small">yield</span></a> <span class="trans-small">(譲る)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="11343-command.html"><span class="word-small">command</span></a> <span class="trans-small">(動詞：命じる)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="11343-command.html"><span class="word-small">command</span></a> <span class="trans-small">(動詞：命じる)</span></div>
 <div class="list-unit"><a href="534-mandatory.html"><span class="word-small">mandatory</span></a> <span class="trans-small">(形容詞：義務的な)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

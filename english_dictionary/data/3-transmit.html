@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="2-2-spin.html" class="nav-button">← 前の単語</a>
-        <a href="3-2-transmission.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 3</span>
-            <h1 class="word-title">transmit <span class="pos-tag">動詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="2-2-spin.html" class="nav-button">← 前の単語</a>
+            <a href="3-2-transmission.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">送る、伝える、放送する、（病気を）感染させる</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 信号や情報を送る、光や熱を通す、あるいは病気や遺伝子を次世代や他者に「受け渡す」際に使われます。一方通行の「伝達」や「透過」のニュアンスが強いです。
-        </div>
-        <div class="section-title">例文（情報・通信）</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 3</span>
+                <h1 class="word-title">transmit <span class="pos-tag">動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">送る、伝える、放送する、（病気を）感染させる</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 信号や情報を送る、光や熱を通す、あるいは病気や遺伝子を次世代や他者に「受け渡す」際に使われます。一方通行の「伝達」や「透過」のニュアンスが強いです。
+            </div>
+                    <div class="section-title">例文（情報・通信）</div>
         <div class="example-item">
             <span class="en">The satellite <strong>transmits</strong> data back to Earth.</span>
             <span class="ja">その人工衛星は地球にデータを送信する。</span>
@@ -68,30 +70,31 @@
             <span class="ja">その病気は蚊によって媒介（感染）される。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                trans (越えて) + mittere (送る) <br>→ 向こう側へ送る
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">transfer</span><span class="trans-small">(移す)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    trans (越えて) + mittere (送る) <br>→ 向こう側へ送る
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">transfer</span><span class="trans-small">(移す)</span></div>
 <div class="list-unit"><span class="word-small">broadcast</span><span class="trans-small">(放送する)</span></div>
 <div class="list-unit"><span class="word-small">convey</span><span class="trans-small">(運ぶ、伝える)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">receive</span><span class="trans-small">(受け取る)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">receive</span><span class="trans-small">(受け取る)</span></div>
 <div class="list-unit"><span class="word-small">block</span><span class="trans-small">(遮断する)</span></div>
 <div class="list-unit"><a href="11185-retain.html"><span class="word-small">retain</span></a> <span class="trans-small">(保持する)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="3-2-transmission.html"><span class="word-small">transmission</span></a> <span class="trans-small">(名詞：伝達、送信)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="3-2-transmission.html"><span class="word-small">transmission</span></a> <span class="trans-small">(名詞：伝達、送信)</span></div>
 <div class="list-unit"><span class="word-small">transmitter</span><span class="trans-small">(名詞：送信機)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

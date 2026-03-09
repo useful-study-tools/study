@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="454-3-righteous.html" class="nav-button">← 前の単語</a>
-        <a href="456-dominant.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 455</span>
-            <h1 class="word-title">blindness <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="454-3-righteous.html" class="nav-button">← 前の単語</a>
+            <a href="456-dominant.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">盲目、失明、無知、無視</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 視覚的に見えない状態だけでなく、比喩的に「事実や真実に気づかないこと」「意図的に無視すること」も表します。
-        </div>
-        <div class="section-title">例文（視覚的な盲目）</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 455</span>
+                <h1 class="word-title">blindness <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">盲目、失明、無知、無視</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 視覚的に見えない状態だけでなく、比喩的に「事実や真実に気づかないこと」「意図的に無視すること」も表します。
+            </div>
+                    <div class="section-title">例文（視覚的な盲目）</div>
         <div class="example-item">
             <span class="en">The disease can cause permanent <strong>blindness</strong> if left untreated.</span>
             <span class="ja">その病気は治療しないと永久的な失明を引き起こす可能性がある。</span>
@@ -76,30 +78,31 @@
             <span class="ja">道徳的な盲目が彼らが真実を見ることを妨げた。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                blind (盲目の) + ness (名詞語尾) <br>→ 盲目の状態
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">sightlessness</span><span class="trans-small">(視力喪失)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    blind (盲目の) + ness (名詞語尾) <br>→ 盲目の状態
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">sightlessness</span><span class="trans-small">(視力喪失)</span></div>
 <div class="list-unit"><span class="word-small">ignorance</span><span class="trans-small">(無知（比喩）)</span></div>
 <div class="list-unit"><span class="word-small">unawareness</span><span class="trans-small">(気づかないこと)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">sight</span><span class="trans-small">(視力)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">sight</span><span class="trans-small">(視力)</span></div>
 <div class="list-unit"><a href="11051-vision.html"><span class="word-small">vision</span></a> <span class="trans-small">(視覚)</span></div>
 <div class="list-unit"><span class="word-small">awareness</span><span class="trans-small">(気づき)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="441-2-blind.html"><span class="word-small">blind</span></a> <span class="trans-small">(形容詞：盲目の)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="441-2-blind.html"><span class="word-small">blind</span></a> <span class="trans-small">(形容詞：盲目の)</span></div>
 <div class="list-unit"><a href="441-color-blind.html"><span class="word-small">color-blind</span></a> <span class="trans-small">(形容詞：色覚異常の)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

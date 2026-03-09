@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="770-leader.html" class="nav-button">← 前の単語</a>
-        <a href="772-second-hand.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 771</span>
-            <h1 class="word-title">leadership <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="770-leader.html" class="nav-button">← 前の単語</a>
+            <a href="772-second-hand.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">指導力、リーダーシップ、指導部</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 集団を率いる「能力」そのもの、あるいは組織の「幹部（指導層）」全体を指すこともあります。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 771</span>
+                <h1 class="word-title">leadership <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">指導力、リーダーシップ、指導部</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 集団を率いる「能力」そのもの、あるいは組織の「幹部（指導層）」全体を指すこともあります。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">The company failed due to a lack of strong <strong>leadership</strong>.</span>
             <span class="ja">その会社は強力な指導力の欠如により失敗した。</span>
@@ -67,25 +69,26 @@
             <span class="ja">党の指導部が今日会合を開く。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                leader + ship（状態、性質）
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">guidance</span><span class="trans-small">(指導)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    leader + ship（状態、性質）
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">guidance</span><span class="trans-small">(指導)</span></div>
 <div class="list-unit"><span class="word-small">management</span><span class="trans-small">(経営、管理)</span></div>
 <div class="list-unit"><span class="word-small">direction</span><span class="trans-small">(指揮)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    
+                </div>
             </div>
         </div>
     </div>

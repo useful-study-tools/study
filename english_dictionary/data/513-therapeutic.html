@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="512-placebo.html" class="nav-button">← 前の単語</a>
-        <a href="513-2-therapy.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 513</span>
-            <h1 class="word-title">therapeutic <span class="pos-tag">形容詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="512-placebo.html" class="nav-button">← 前の単語</a>
+            <a href="513-2-therapy.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">治療の、治療効果のある、癒しの</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 病気の治療に関連すること、または心身に良い効果をもたらすことを表します。医学的な治療だけでなく、精神的な癒しについても使われます。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 513</span>
+                <h1 class="word-title">therapeutic <span class="pos-tag">形容詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">治療の、治療効果のある、癒しの</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 病気の治療に関連すること、または心身に良い効果をもたらすことを表します。医学的な治療だけでなく、精神的な癒しについても使われます。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">The drug has significant <strong>therapeutic</strong> benefits.</span>
             <span class="ja">その薬には重要な治療効果がある。</span>
@@ -71,30 +73,31 @@
             <span class="ja">彼女はガーデニングが癒しになると感じている。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ギリシャ語 therapeutikos (治療の) <br>→ therapeuein (治療する) から
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">healing</span><span class="trans-small">(癒しの)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ギリシャ語 therapeutikos (治療の) <br>→ therapeuein (治療する) から
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">healing</span><span class="trans-small">(癒しの)</span></div>
 <div class="list-unit"><span class="word-small">medicinal</span><span class="trans-small">(薬効のある)</span></div>
 <div class="list-unit"><a href="513-4-curative.html"><span class="word-small">curative</span></a> <span class="trans-small">(治療効果のある)</span></div>
 <div class="list-unit"><a href="521-2-remedial.html"><span class="word-small">remedial</span></a> <span class="trans-small">(治療の)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">harmful</span><span class="trans-small">(有害な)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">harmful</span><span class="trans-small">(有害な)</span></div>
 <div class="list-unit"><span class="word-small">detrimental</span><span class="trans-small">(有害な)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="513-2-therapy.html"><span class="word-small">therapy</span><span class="source-tag">速読英単語</span></a> <a href="11436-therapy.html"><span class="word-small">therapy</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(名詞：治療)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="513-2-therapy.html"><span class="word-small">therapy</span><span class="source-tag">速読英単語</span></a> <a href="11436-therapy.html"><span class="word-small">therapy</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(名詞：治療)</span></div>
 <div class="list-unit"><a href="513-3-therapist.html"><span class="word-small">therapist</span></a> <span class="trans-small">(名詞：療法士)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="11024-satellite.html" class="nav-button">← 前の単語</a>
-        <a href="11026-launch.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 11025</span>
-            <h1 class="word-title">orbit <span class="pos-tag">名詞・他動詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="11024-satellite.html" class="nav-button">← 前の単語</a>
+            <a href="11026-launch.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">①軌道〔名〕 ②（惑星などが）～を周回する〔他〕</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> ①天体や人工衛星が描く楕円状の経路。②比喩的に「ある人や組織の影響圏内にある」という意味でも使われます（within the orbit of: ～の勢力範囲内に）。
-        </div>
-        <div class="section-title">①軌道（名詞）</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 11025</span>
+                <h1 class="word-title">orbit <span class="pos-tag">名詞・他動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">①軌道〔名〕 ②（惑星などが）～を周回する〔他〕</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> ①天体や人工衛星が描く楕円状の経路。②比喩的に「ある人や組織の影響圏内にある」という意味でも使われます（within the orbit of: ～の勢力範囲内に）。
+            </div>
+                    <div class="section-title">①軌道（名詞）</div>
         <div class="example-item">
             <span class="en">The International Space Station travels in low Earth <strong>orbit</strong>.</span>
             <span class="ja">国際宇宙ステーションは低地球軌道を飛行している。</span>
@@ -76,30 +78,31 @@
             <span class="ja">火星を周回するためにいくつかの宇宙船が送られた。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ラテン語 orbita（車輪の跡、軌道）← orbis（円）
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">trajectory</span><span class="trans-small">(弾道、軌道)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ラテン語 orbita（車輪の跡、軌道）← orbis（円）
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">trajectory</span><span class="trans-small">(弾道、軌道)</span></div>
 <div class="list-unit"><a href="11225-path.html"><span class="word-small">path</span></a> <span class="trans-small">(経路)</span></div>
 <div class="list-unit"><a href="11076-revolution.html"><span class="word-small">revolution</span></a> <span class="trans-small">(公転)</span></div>
 <div class="list-unit"><span class="word-small">circuit</span><span class="trans-small">(周回)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="11024-satellite.html"><span class="word-small">satellite</span></a> <span class="trans-small">(名詞：衛星)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="11024-satellite.html"><span class="word-small">satellite</span></a> <span class="trans-small">(名詞：衛星)</span></div>
 <div class="list-unit"><span class="word-small">revolve</span><span class="trans-small">(動詞：公転する)</span></div>
 <div class="list-unit"><a href="742-16-rotate.html"><span class="word-small">rotate</span></a> <span class="trans-small">(動詞：自転する)</span></div>
 <div class="list-unit"><span class="word-small">gravitational</span><span class="trans-small">(形容詞：重力の)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

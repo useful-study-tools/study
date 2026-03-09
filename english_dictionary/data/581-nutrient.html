@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,48 +43,50 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="580-2-nutrition.html" class="nav-button">← 前の単語</a>
-        <a href="582-disparity.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 581</span>
-            <h1 class="word-title">nutrient <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="580-2-nutrition.html" class="nav-button">← 前の単語</a>
+            <a href="582-disparity.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">栄養素、栄養分</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> タンパク質、ビタミン、ミネラルなど、食物に含まれる個々の「成分」を指します。科学的な文脈でよく使われます。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 581</span>
+                <h1 class="word-title">nutrient <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">栄養素、栄養分</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> タンパク質、ビタミン、ミネラルなど、食物に含まれる個々の「成分」を指します。科学的な文脈でよく使われます。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">Plants absorb <strong>nutrients</strong> from the soil.</span>
             <span class="ja">植物は土壌から栄養分を吸収する。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                nutri (養う) + ent (〜するもの)
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">ingredient</span><span class="trans-small">(成分)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    nutri (養う) + ent (〜するもの)
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">ingredient</span><span class="trans-small">(成分)</span></div>
 <div class="list-unit"><a href="399-2-nourishment.html"><span class="word-small">nourishment</span></a> <span class="trans-small">(滋養分)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">toxin</span><span class="trans-small">(毒素)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">toxin</span><span class="trans-small">(毒素)</span></div>
 <div class="list-unit"><span class="word-small">pollutant</span><span class="trans-small">(汚染物質)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="580-nutritional.html"><span class="word-small">nutritional</span></a> <span class="trans-small">(形容詞：栄養上の)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="580-nutritional.html"><span class="word-small">nutritional</span></a> <span class="trans-small">(形容詞：栄養上の)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

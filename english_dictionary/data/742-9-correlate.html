@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #28a745; --accent-color: #f4faf6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="742-8-collaboration.html" class="nav-button">← 前の単語</a>
-        <a href="742-10-delegate.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 742-9</span>
-            <h1 class="word-title">correlate <span class="pos-tag">動詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="742-8-collaboration.html" class="nav-button">← 前の単語</a>
+            <a href="742-10-delegate.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">互いに関係がある、〜を関連づける</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 一方が変化するともう一方も変化するような「相関関係」があることを指します。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 742-9</span>
+                <h1 class="word-title">correlate <span class="pos-tag">動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">互いに関係がある、〜を関連づける</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 一方が変化するともう一方も変化するような「相関関係」があることを指します。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">Obesity often <strong>correlates</strong> with an increased risk of heart disease.</span>
             <span class="ja">肥満はしばしば心臓病のリスク増加と相関している。</span>
@@ -67,29 +69,30 @@
             <span class="ja">研究者たちは喫煙習慣と肺がん率を関連づけようとした。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                cor（共に）+ relate（関係づける）
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">associate</span><span class="trans-small">(連想する、関連づける)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    cor（共に）+ relate（関係づける）
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">associate</span><span class="trans-small">(連想する、関連づける)</span></div>
 <div class="list-unit"><span class="word-small">link</span><span class="trans-small">(結びつける)</span></div>
 <div class="list-unit"><span class="word-small">connect</span><span class="trans-small">(つなげる)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">disconnect</span><span class="trans-small">(切り離す)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">disconnect</span><span class="trans-small">(切り離す)</span></div>
 <div class="list-unit"><span class="word-small">differ</span><span class="trans-small">(異なる)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">correlation</span><span class="trans-small">(名詞：相関関係)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">correlation</span><span class="trans-small">(名詞：相関関係)</span></div>
 <div class="list-unit"><span class="word-small">relative</span><span class="trans-small">(名詞/形容詞：親戚/相対的な)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

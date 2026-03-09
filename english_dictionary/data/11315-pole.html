@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="11314-brick.html" class="nav-button">← 前の単語</a>
-        <a href="11316-thread.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 11315</span>
-            <h1 class="word-title">pole <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="11314-brick.html" class="nav-button">← 前の単語</a>
+            <a href="11316-thread.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">①棒、さお、柱 ②（天体，地球の）極</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 細長い棒状の物。また、地球の North Pole（北極）や磁石の極を指します。
-        </div>
-        <div class="section-title">意味①：棒、柱</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 11315</span>
+                <h1 class="word-title">pole <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">①棒、さお、柱 ②（天体，地球の）極</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 細長い棒状の物。また、地球の North Pole（北極）や磁石の極を指します。
+            </div>
+                    <div class="section-title">意味①：棒、柱</div>
         <div class="example-item">
             <span class="en">The flags were flying from high <strong>poles</strong>.</span>
             <span class="ja">旗が高いポール（竿）からなびいていた。</span>
@@ -68,27 +70,28 @@
             <span class="ja">探検家たちは1911年に南極に到達した。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                palus (杭)
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">post</span><span class="trans-small">(柱、支柱)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    palus (杭)
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">post</span><span class="trans-small">(柱、支柱)</span></div>
 <div class="list-unit"><a href="4943-rod.html"><span class="word-small">rod</span></a> <span class="trans-small">(棒、さお)</span></div>
 <div class="list-unit"><span class="word-small">extremity</span><span class="trans-small">(端、極端)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">equator</span><span class="trans-small">(赤道)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">equator</span><span class="trans-small">(赤道)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">polar</span><span class="trans-small">(形容詞：極地の、正反対の)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">polar</span><span class="trans-small">(形容詞：極地の、正反対の)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

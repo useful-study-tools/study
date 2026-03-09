@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #28a745; --accent-color: #f4faf6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="693-fraction.html" class="nav-button">← 前の単語</a>
-        <a href="694-diameter.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 693-2</span>
-            <h1 class="word-title">multiplication <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="693-fraction.html" class="nav-button">← 前の単語</a>
+            <a href="694-diameter.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">掛け算、増殖、多様化</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 数学の「乗算（掛け算）」を指すほか、生物の数などが急速に増えることも意味します。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 693-2</span>
+                <h1 class="word-title">multiplication <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">掛け算、増殖、多様化</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 数学の「乗算（掛け算）」を指すほか、生物の数などが急速に増えることも意味します。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">Children learn the <strong>multiplication</strong> table at school.</span>
             <span class="ja">子供たちは学校で九九（掛け算表）を学ぶ。</span>
@@ -67,28 +69,29 @@
             <span class="ja">細胞の増殖は成長に不可欠である。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                multi（多くの）+ plicare（折り畳む）
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">proliferation</span><span class="trans-small">(急増、増殖)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    multi（多くの）+ plicare（折り畳む）
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">proliferation</span><span class="trans-small">(急増、増殖)</span></div>
 <div class="list-unit"><span class="word-small">increase</span><span class="trans-small">(増加)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">division</span><span class="trans-small">(割り算、分割)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">division</span><span class="trans-small">(割り算、分割)</span></div>
 <div class="list-unit"><span class="word-small">reduction</span><span class="trans-small">(減少)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="11816-multiply.html"><span class="word-small">multiply</span></a> <span class="trans-small">(動詞：掛ける、増やす)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="11816-multiply.html"><span class="word-small">multiply</span></a> <span class="trans-small">(動詞：掛ける、増やす)</span></div>
 <div class="list-unit"><span class="word-small">multiple</span><span class="trans-small">(形容詞：多数の、倍数の)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

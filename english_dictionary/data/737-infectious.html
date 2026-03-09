@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="736-3-legal.html" class="nav-button">← 前の単語</a>
-        <a href="737-2-infection.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 737</span>
-            <h1 class="word-title">infectious <span class="pos-tag">形容詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="736-3-legal.html" class="nav-button">← 前の単語</a>
+            <a href="737-2-infection.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">伝染性の、感染症の、影響を与えやすい（うつりやすい）</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 病原体が体内に侵入して起こる病気全般を指します。比喩的に「笑いやあくびが周囲にうつる」という際にもよく使われます。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 737</span>
+                <h1 class="word-title">infectious <span class="pos-tag">形容詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">伝染性の、感染症の、影響を与えやすい（うつりやすい）</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 病原体が体内に侵入して起こる病気全般を指します。比喩的に「笑いやあくびが周囲にうつる」という際にもよく使われます。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">Flu is a highly <strong>infectious</strong> disease.</span>
             <span class="ja">インフルエンザは非常に伝染性の高い病気である。</span>
@@ -67,29 +69,30 @@
             <span class="ja">彼女の笑いは周囲にうつりやすく、すぐに誰もがクスクス笑い出した。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                in（中に）+ facere（作る、行う）→ 中に入り込む
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">communicable</span><span class="trans-small">(伝染性の)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    in（中に）+ facere（作る、行う）→ 中に入り込む
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">communicable</span><span class="trans-small">(伝染性の)</span></div>
 <div class="list-unit"><span class="word-small">catching</span><span class="trans-small">(うつりやすい)</span></div>
 <div class="list-unit"><span class="word-small">spreading</span><span class="trans-small">(広がる)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">noninfectious</span><span class="trans-small">(非伝染性の)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">noninfectious</span><span class="trans-small">(非伝染性の)</span></div>
 <div class="list-unit"><span class="word-small">harmless</span><span class="trans-small">(無害な)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="737-3-infect.html"><span class="word-small">infect</span><span class="source-tag">速読英単語</span></a> <a href="11452-infect.html"><span class="word-small">infect</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(動詞：感染させる)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="737-3-infect.html"><span class="word-small">infect</span><span class="source-tag">速読英単語</span></a> <a href="11452-infect.html"><span class="word-small">infect</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(動詞：感染させる)</span></div>
 <div class="list-unit"><a href="737-2-infection.html"><span class="word-small">infection</span><span class="source-tag">速読英単語</span></a> <a href="4935-infection.html"><span class="word-small">infection</span><span class="source-tag">東進上級英単語1000</span></a> <span class="trans-small">(名詞：感染)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

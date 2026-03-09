@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="11132-devastate.html" class="nav-button">← 前の単語</a>
-        <a href="11134-orphan.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 11133</span>
-            <h1 class="word-title">hazard <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="11132-devastate.html" class="nav-button">← 前の単語</a>
+            <a href="11134-orphan.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">危険（になり得るもの）</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> danger よりも「不確実な要因によって引き起こされるリスク」という響きがあります。健康被害や環境汚染などの文脈でよく使われます。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 11133</span>
+                <h1 class="word-title">hazard <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">危険（になり得るもの）</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> danger よりも「不確実な要因によって引き起こされるリスク」という響きがあります。健康被害や環境汚染などの文脈でよく使われます。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">Smoking is a serious health <strong>hazard</strong>.</span>
             <span class="ja">喫煙は深刻な健康への危険（要因）だ。</span>
@@ -67,28 +69,29 @@
             <span class="ja">凍結した道路は運転手にとって危険だ。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                アラビア語 az-zahr (サイコロ) → 運任せのゲーム
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">danger</span><span class="trans-small">(危険)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    アラビア語 az-zahr (サイコロ) → 運任せのゲーム
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">danger</span><span class="trans-small">(危険)</span></div>
 <div class="list-unit"><span class="word-small">risk</span><span class="trans-small">(リスク)</span></div>
 <div class="list-unit"><span class="word-small">peril</span><span class="trans-small">(（生命に関わる）危機)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">safety</span><span class="trans-small">(安全)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">safety</span><span class="trans-small">(安全)</span></div>
 <div class="list-unit"><a href="11090-security.html"><span class="word-small">security</span></a> <span class="trans-small">(安心)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="277-hazardous.html"><span class="word-small">hazardous</span></a> <span class="trans-small">(形容詞：危険な)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="277-hazardous.html"><span class="word-small">hazardous</span></a> <span class="trans-small">(形容詞：危険な)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #28a745; --accent-color: #f4faf6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="739-germ.html" class="nav-button">← 前の単語</a>
-        <a href="740-designate.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 739-2</span>
-            <h1 class="word-title">virus <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="739-germ.html" class="nav-button">← 前の単語</a>
+            <a href="740-designate.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">ウイルス、有害な影響、コンピュータウイルス</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 細菌(bacteria)よりさらに小さく、他者の細胞内でしか増殖できない存在。転じて、人々に悪影響を与えるものや、プログラムのウイルスも指します。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 739-2</span>
+                <h1 class="word-title">virus <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">ウイルス、有害な影響、コンピュータウイルス</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 細菌(bacteria)よりさらに小さく、他者の細胞内でしか増殖できない存在。転じて、人々に悪影響を与えるものや、プログラムのウイルスも指します。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">The common cold is caused by a <strong>virus</strong>.</span>
             <span class="ja">風邪はウイルスによって引き起こされる。</span>
@@ -67,26 +69,27 @@
             <span class="ja">私のコンピュータが悪質なウイルスに攻撃された。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ラテン語 virus（毒、毒液）
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">pathogen</span><span class="trans-small">(病原体)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ラテン語 virus（毒、毒液）
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">pathogen</span><span class="trans-small">(病原体)</span></div>
 <div class="list-unit"><a href="737-2-infection.html"><span class="word-small">infection</span><span class="source-tag">速読英単語</span></a> <a href="4935-infection.html"><span class="word-small">infection</span><span class="source-tag">東進上級英単語1000</span></a> <span class="trans-small">(感染源)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">viral</span><span class="trans-small">(形容詞：ウイルスの、（ネットで）拡散する)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">viral</span><span class="trans-small">(形容詞：ウイルスの、（ネットで）拡散する)</span></div>
 <div class="list-unit"><span class="word-small">antiviral</span><span class="trans-small">(形容詞：抗ウイルスの)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

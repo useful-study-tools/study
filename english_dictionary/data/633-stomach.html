@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="632-2-ready.html" class="nav-button">← 前の単語</a>
-        <a href="634-withhold.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 633</span>
-            <h1 class="word-title">stomach <span class="pos-tag">名詞、動詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="632-2-ready.html" class="nav-button">← 前の単語</a>
+            <a href="634-withhold.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">胃、腹部、〜に耐える、〜を我慢する</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 解剖学的な「胃」だけでなく、動詞では「（嫌なことを）受け入れる、我慢する」という意味があり、主に否定文で使われます。
-        </div>
-        <div class="section-title">例文（名詞）</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 633</span>
+                <h1 class="word-title">stomach <span class="pos-tag">名詞、動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">胃、腹部、〜に耐える、〜を我慢する</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 解剖学的な「胃」だけでなく、動詞では「（嫌なことを）受け入れる、我慢する」という意味があり、主に否定文で使われます。
+            </div>
+                    <div class="section-title">例文（名詞）</div>
         <div class="example-item">
             <span class="en">He has a sensitive <strong>stomach</strong>.</span>
             <span class="ja">彼は胃が弱い（過敏だ）。</span>
@@ -68,28 +70,29 @@
             <span class="ja">彼の傲慢な態度には耐えられない。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ギリシャ語 stomachos (喉、食道、胃)
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">belly</span><span class="trans-small">(お腹)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ギリシャ語 stomachos (喉、食道、胃)
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">belly</span><span class="trans-small">(お腹)</span></div>
 <div class="list-unit"><span class="word-small">abdomen</span><span class="trans-small">(腹部)</span></div>
 <div class="list-unit"><a href="742-tolerate.html"><span class="word-small">tolerate</span><span class="source-tag">速読英単語</span></a> <a href="4416-tolerate.html"><span class="word-small">tolerate</span><span class="source-tag">東進上級英単語1000</span></a> <a href="11702-tolerate.html"><span class="word-small">tolerate</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(我慢する、許容する)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">reject</span><span class="trans-small">(拒絶する)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">reject</span><span class="trans-small">(拒絶する)</span></div>
 <div class="list-unit"><span class="word-small">dislike</span><span class="trans-small">(嫌う)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">stomachache</span><span class="trans-small">(名詞：胃痛)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">stomachache</span><span class="trans-small">(名詞：胃痛)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

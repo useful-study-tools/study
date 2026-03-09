@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #28a745; --accent-color: #f4faf6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="713-hazy.html" class="nav-button">← 前の単語</a>
-        <a href="714-blur.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 713-2</span>
-            <h1 class="word-title">haze <span class="pos-tag">名詞、動詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="713-hazy.html" class="nav-button">← 前の単語</a>
+            <a href="714-blur.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">かすみ、もや、朦朧とした状態、〜を曇らせる、（米）嫌がらせをする</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 細かいちりや熱気で見えにくい状態。アメリカの大学などでの「新入生へのしごき・嫌がらせ」を指す動詞としても知られます。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 713-2</span>
+                <h1 class="word-title">haze <span class="pos-tag">名詞、動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">かすみ、もや、朦朧とした状態、〜を曇らせる、（米）嫌がらせをする</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 細かいちりや熱気で見えにくい状態。アメリカの大学などでの「新入生へのしごき・嫌がらせ」を指す動詞としても知られます。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">The city was covered in a thick <strong>haze</strong> of smog.</span>
             <span class="ja">街は厚いスモッグの霧（もや）に覆われていた。</span>
@@ -67,26 +69,27 @@
             <span class="ja">事故の後、私は混乱で頭が朦朧としていた。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                不明（おそらく古い海事用語）
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><a href="715-5-mist.html"><span class="word-small">mist</span></a> <span class="trans-small">(霧、もや)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    不明（おそらく古い海事用語）
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><a href="715-5-mist.html"><span class="word-small">mist</span></a> <span class="trans-small">(霧、もや)</span></div>
 <div class="list-unit"><a href="715-3-fog.html"><span class="word-small">fog</span><span class="source-tag">速読英単語</span></a> <a href="11222-fog.html"><span class="word-small">fog</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(霧)</span></div>
 <div class="list-unit"><span class="word-small">confusion</span><span class="trans-small">(混乱、朦朧)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">clarity</span><span class="trans-small">(明晰さ)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">clarity</span><span class="trans-small">(明晰さ)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    
+                </div>
             </div>
         </div>
     </div>

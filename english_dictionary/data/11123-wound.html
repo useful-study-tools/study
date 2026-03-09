@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="11122-bullet.html" class="nav-button">← 前の単語</a>
-        <a href="11124-triumph.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 11123</span>
-            <h1 class="word-title">wound <span class="pos-tag">名詞、動詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="11122-bullet.html" class="nav-button">← 前の単語</a>
+            <a href="11124-triumph.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">【名】傷 【他】～を傷つける</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 刃物や銃弾、あるいは爆発などによる「深い外傷」を指します。また、プライドを傷つけるなどの心理的ダメージにも使われます。
-        </div>
-        <div class="section-title">名詞の例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 11123</span>
+                <h1 class="word-title">wound <span class="pos-tag">名詞、動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">【名】傷 【他】～を傷つける</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 刃物や銃弾、あるいは爆発などによる「深い外傷」を指します。また、プライドを傷つけるなどの心理的ダメージにも使われます。
+            </div>
+                    <div class="section-title">名詞の例文</div>
         <div class="example-item">
             <span class="en">The soldier died from a chest <strong>wound</strong>.</span>
             <span class="ja">その兵士は胸の傷が原因で死亡した。</span>
@@ -68,28 +70,29 @@
             <span class="ja">彼は彼女の厳しい言葉に深く傷ついた。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ゲルマン語源 (傷)
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">injury</span><span class="trans-small">(怪我(一般的))</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ゲルマン語源 (傷)
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">injury</span><span class="trans-small">(怪我(一般的))</span></div>
 <div class="list-unit"><span class="word-small">hurt</span><span class="trans-small">(痛める)</span></div>
 <div class="list-unit"><span class="word-small">scar</span><span class="trans-small">(傷跡)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><a href="4483-heal.html"><span class="word-small">heal</span><span class="source-tag">東進上級英単語1000</span></a> <a href="11042-heal.html"><span class="word-small">heal</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(治す)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><a href="4483-heal.html"><span class="word-small">heal</span><span class="source-tag">東進上級英単語1000</span></a> <a href="11042-heal.html"><span class="word-small">heal</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(治す)</span></div>
 <div class="list-unit"><span class="word-small">cure</span><span class="trans-small">(治療する)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">the wounded</span><span class="trans-small">(負傷者たち)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">the wounded</span><span class="trans-small">(負傷者たち)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

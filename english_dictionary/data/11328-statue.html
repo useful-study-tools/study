@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="11327-distribute.html" class="nav-button">← 前の単語</a>
-        <a href="11329-sculpture.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 11328</span>
-            <h1 class="word-title">statue <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="11327-distribute.html" class="nav-button">← 前の単語</a>
+            <a href="11329-sculpture.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">像</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 石、金属、木などで作られた人や動物の彫像を指します。通常は実物大以上です。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 11328</span>
+                <h1 class="word-title">statue <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">像</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 石、金属、木などで作られた人や動物の彫像を指します。通常は実物大以上です。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">The <strong>Statue</strong> of Liberty is a symbol of freedom.</span>
             <span class="ja">自由の女神像は自由の象徴だ。</span>
@@ -67,27 +69,28 @@
             <span class="ja">その詩人を記念してブロンズ像が建てられた。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                stare (立つ) → 立っているもの
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><a href="11329-sculpture.html"><span class="word-small">sculpture</span></a> <span class="trans-small">(彫刻)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    stare (立つ) → 立っているもの
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><a href="11329-sculpture.html"><span class="word-small">sculpture</span></a> <span class="trans-small">(彫刻)</span></div>
 <div class="list-unit"><span class="word-small">figure</span><span class="trans-small">(姿、像)</span></div>
 <div class="list-unit"><a href="11073-monument.html"><span class="word-small">monument</span></a> <span class="trans-small">(記念碑)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">stature</span><span class="trans-small">(名詞：身長、名声)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">stature</span><span class="trans-small">(名詞：身長、名声)</span></div>
 <div class="list-unit"><span class="word-small">status</span><span class="trans-small">(名詞：地位)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

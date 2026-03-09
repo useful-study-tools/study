@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,51 +43,53 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="4541-coincide.html" class="nav-button">← 前の単語</a>
-        <a href="4546-halt.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 4545</span>
-            <h1 class="word-title">summarize <span class="pos-tag">動詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="4541-coincide.html" class="nav-button">← 前の単語</a>
+            <a href="4546-halt.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">〜を要約する、手短に述べる</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 長い文章や話を、主要なポイント（summary）だけに絞って短くまとめることを指します。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 4545</span>
+                <h1 class="word-title">summarize <span class="pos-tag">動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">〜を要約する、手短に述べる</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 長い文章や話を、主要なポイント（summary）だけに絞って短くまとめることを指します。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">Could you <strong>summarize</strong> the main points of the report?</span>
             <span class="ja">レポートの要点を要約していただけますか？</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                summa (合計) から
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">outline</span><span class="trans-small">(概要を述べる)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    summa (合計) から
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">outline</span><span class="trans-small">(概要を述べる)</span></div>
 <div class="list-unit"><span class="word-small">condense</span><span class="trans-small">(凝縮する、短くする)</span></div>
 <div class="list-unit"><span class="word-small">recap</span><span class="trans-small">(要約する（再確認する）)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><a href="11771-elaborate.html"><span class="word-small">elaborate</span></a> <span class="trans-small">(詳しく述べる)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><a href="11771-elaborate.html"><span class="word-small">elaborate</span></a> <span class="trans-small">(詳しく述べる)</span></div>
 <div class="list-unit"><span class="word-small">expand</span><span class="trans-small">(拡大する)</span></div>
 <div class="list-unit"><span class="word-small">detail</span><span class="trans-small">(詳細に述べる)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">summary</span><span class="trans-small">(名詞：要約)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">summary</span><span class="trans-small">(名詞：要約)</span></div>
 <div class="list-unit"><span class="word-small">sum</span><span class="trans-small">(名詞：合計)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

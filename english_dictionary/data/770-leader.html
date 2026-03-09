@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="769-3-irrelevant.html" class="nav-button">← 前の単語</a>
-        <a href="771-leadership.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 770</span>
-            <h1 class="word-title">leader <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="769-3-irrelevant.html" class="nav-button">← 前の単語</a>
+            <a href="771-leadership.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">指導者、リーダー、先導するもの、（新聞の）社説</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 人々を率いる人物のほか、レースの先頭走者や、新聞の主要な論説（leading article）を指すこともあります。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 770</span>
+                <h1 class="word-title">leader <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">指導者、リーダー、先導するもの、（新聞の）社説</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 人々を率いる人物のほか、レースの先頭走者や、新聞の主要な論説（leading article）を指すこともあります。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">She is a natural <strong>leader</strong>.</span>
             <span class="ja">彼女は生まれながらのリーダーだ。</span>
@@ -67,27 +69,28 @@
             <span class="ja">その国は強力な指導者を求めている。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                lead（導く）+ er
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">head</span><span class="trans-small">(頭、長)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    lead（導く）+ er
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">head</span><span class="trans-small">(頭、長)</span></div>
 <div class="list-unit"><span class="word-small">chief</span><span class="trans-small">(長、主任)</span></div>
 <div class="list-unit"><span class="word-small">guide</span><span class="trans-small">(案内者)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">follower</span><span class="trans-small">(追随者、フォロワー)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">follower</span><span class="trans-small">(追随者、フォロワー)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="771-leadership.html"><span class="word-small">leadership</span></a> <span class="trans-small">(名詞：指導力)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="771-leadership.html"><span class="word-small">leadership</span></a> <span class="trans-small">(名詞：指導力)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

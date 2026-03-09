@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="4921-tin.html" class="nav-button">← 前の単語</a>
-        <a href="4923-chop.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 4922</span>
-            <h1 class="word-title">nail <span class="pos-tag">名詞、動詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="4921-tin.html" class="nav-button">← 前の単語</a>
+            <a href="4923-chop.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">【名】釘、爪 【動】釘で止める、捕らえる、成功させる</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 指の「爪」と工作用の「釘」。動詞では「釘を打つ」以外に、犯人を「捕まえる」や、テストなどを「完璧にこなす（米口語）」の意味があります。
-        </div>
-        <div class="section-title">名詞の例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 4922</span>
+                <h1 class="word-title">nail <span class="pos-tag">名詞、動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">【名】釘、爪 【動】釘で止める、捕らえる、成功させる</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 指の「爪」と工作用の「釘」。動詞では「釘を打つ」以外に、犯人を「捕まえる」や、テストなどを「完璧にこなす（米口語）」の意味があります。
+            </div>
+                    <div class="section-title">名詞の例文</div>
         <div class="example-item">
             <span class="en">He used a hammer to drive the <strong>nail</strong> into the wood.</span>
             <span class="ja">彼は木に釘を打ち込むためにハンマーを使った。</span>
@@ -76,25 +78,26 @@
             <span class="ja">君、あのプレゼンを完璧にこなした（決めた）と思うよ！</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ゲルマン語源
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">spike</span><span class="trans-small">(大釘)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ゲルマン語源
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">spike</span><span class="trans-small">(大釘)</span></div>
 <div class="list-unit"><span class="word-small">claw</span><span class="trans-small">(かぎ爪)</span></div>
 <div class="list-unit"><span class="word-small">catch</span><span class="trans-small">(捕まえる)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    
+                </div>
             </div>
         </div>
     </div>

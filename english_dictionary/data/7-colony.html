@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="6-nectar.html" class="nav-button">← 前の単語</a>
-        <a href="7-2-colonial.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 7</span>
-            <h1 class="word-title">colony <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="6-nectar.html" class="nav-button">← 前の単語</a>
+            <a href="7-2-colonial.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">植民地、居留地、（生物の）コロニー・群生</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 政治的な「植民地」という意味のほか、同じ国籍の人が集まって住む「居留区」や、アリやハチなどの「集団（社会）」、細菌などの「群生」を指す生物学用語としても頻繁に使われます。
-        </div>
-        <div class="section-title">例文（歴史・政治）</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 7</span>
+                <h1 class="word-title">colony <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">植民地、居留地、（生物の）コロニー・群生</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 政治的な「植民地」という意味のほか、同じ国籍の人が集まって住む「居留区」や、アリやハチなどの「集団（社会）」、細菌などの「群生」を指す生物学用語としても頻繁に使われます。
+            </div>
+                    <div class="section-title">例文（歴史・政治）</div>
         <div class="example-item">
             <span class="en">The country was once a British <strong>colony</strong>.</span>
             <span class="ja">その国はかつてイギリスの植民地だった。</span>
@@ -68,30 +70,31 @@
             <span class="ja">アリは非常に高度に組織化されたコロニー（集団）で生活している。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ラテン語 colonia (農園、入植地) <br>→ colere (耕す、住む)
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><a href="421-3-settlement.html"><span class="word-small">settlement</span></a> <span class="trans-small">(定住地、入植地)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ラテン語 colonia (農園、入植地) <br>→ colere (耕す、住む)
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><a href="421-3-settlement.html"><span class="word-small">settlement</span></a> <span class="trans-small">(定住地、入植地)</span></div>
 <div class="list-unit"><span class="word-small">community</span><span class="trans-small">(共同体)</span></div>
 <div class="list-unit"><span class="word-small">outpost</span><span class="trans-small">(辺境の駐在所、前哨)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">homeland</span><span class="trans-small">(本国、故郷)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">homeland</span><span class="trans-small">(本国、故郷)</span></div>
 <div class="list-unit"><span class="word-small">individual</span><span class="trans-small">(個体（集団に対して）)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">colonize</span><span class="trans-small">(動詞：植民地化する)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">colonize</span><span class="trans-small">(動詞：植民地化する)</span></div>
 <div class="list-unit"><span class="word-small">colonist</span><span class="trans-small">(名詞：入植者)</span></div>
 <div class="list-unit"><span class="word-small">colonialism</span><span class="trans-small">(名詞：植民地主義)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

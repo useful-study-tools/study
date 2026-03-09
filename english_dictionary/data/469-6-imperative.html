@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #28a745; --accent-color: #f4faf6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="469-5-imprison.html" class="nav-button">← 前の単語</a>
-        <a href="469-7-implication.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 469-6</span>
-            <h1 class="word-title">imperative <span class="pos-tag">形容詞/名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="469-5-imprison.html" class="nav-button">← 前の単語</a>
+            <a href="469-7-implication.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">必須の、緊急の、命令的な / 必要不可欠なこと、命令法</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 絶対に必要で避けられないことを表します。単なる「重要」を超えて、「やらなければならない」という強い義務や緊急性を含みます。
-        </div>
-        <div class="section-title">例文（形容詞）</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 469-6</span>
+                <h1 class="word-title">imperative <span class="pos-tag">形容詞/名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">必須の、緊急の、命令的な / 必要不可欠なこと、命令法</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 絶対に必要で避けられないことを表します。単なる「重要」を超えて、「やらなければならない」という強い義務や緊急性を含みます。
+            </div>
+                    <div class="section-title">例文（形容詞）</div>
         <div class="example-item">
             <span class="en">It is <strong>imperative</strong> that we act now.</span>
             <span class="ja">私たちが今行動することが必須だ。</span>
@@ -71,31 +73,32 @@
             <span class="ja">顧客満足はビジネスの成功に不可欠だ。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ラテン語 imperativus (命令的な) <br>→ imperare (命令する) から
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">essential</span><span class="trans-small">(不可欠な)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ラテン語 imperativus (命令的な) <br>→ imperare (命令する) から
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">essential</span><span class="trans-small">(不可欠な)</span></div>
 <div class="list-unit"><a href="11750-crucial.html"><span class="word-small">crucial</span></a> <span class="trans-small">(極めて重要な)</span></div>
 <div class="list-unit"><a href="4072-vital.html"><span class="word-small">vital</span><span class="source-tag">東進上級英単語1000</span></a> <a href="11753-vital.html"><span class="word-small">vital</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(必須の)</span></div>
 <div class="list-unit"><span class="word-small">necessary</span><span class="trans-small">(必要な)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">optional</span><span class="trans-small">(任意の)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">optional</span><span class="trans-small">(任意の)</span></div>
 <div class="list-unit"><span class="word-small">unnecessary</span><span class="trans-small">(不必要な)</span></div>
 <div class="list-unit"><span class="word-small">unimportant</span><span class="trans-small">(重要でない)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="469-impair.html"><span class="word-small">imprison</span></a><span class="trans-small">(動詞：投獄する)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="469-impair.html"><span class="word-small">imprison</span></a><span class="trans-small">(動詞：投獄する)</span></div>
 <div class="list-unit"><span class="word-small">imperatively</span><span class="trans-small">(副詞：命令的に)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

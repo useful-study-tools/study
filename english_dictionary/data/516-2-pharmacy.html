@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #28a745; --accent-color: #f4faf6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="516-pharmacist.html" class="nav-button">← 前の単語</a>
-        <a href="517-prescription.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 516-2</span>
-            <h1 class="word-title">pharmacy <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="516-pharmacist.html" class="nav-button">← 前の単語</a>
+            <a href="517-prescription.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">薬局、薬学</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 薬を販売する店、または薬学という学問分野を指します。アメリカでは大型チェーン店が多く、イギリスではchemist's shopとも呼ばれます。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 516-2</span>
+                <h1 class="word-title">pharmacy <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">薬局、薬学</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 薬を販売する店、または薬学という学問分野を指します。アメリカでは大型チェーン店が多く、イギリスではchemist's shopとも呼ばれます。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">I need to pick up my prescription at the <strong>pharmacy</strong>.</span>
             <span class="ja">薬局で処方箋を受け取る必要がある。</span>
@@ -71,26 +73,27 @@
             <span class="ja">その薬局は24時間営業している。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ギリシャ語 pharmakon (薬) <br>→ 薬に関する場所・学問
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">drugstore</span><span class="trans-small">(薬局（米）)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ギリシャ語 pharmakon (薬) <br>→ 薬に関する場所・学問
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">drugstore</span><span class="trans-small">(薬局（米）)</span></div>
 <div class="list-unit"><span class="word-small">chemist's</span><span class="trans-small">(薬局（英）)</span></div>
 <div class="list-unit"><span class="word-small">apothecary</span><span class="trans-small">(薬局（古語）)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="516-pharmacist.html"><span class="word-small">pharmacist</span></a><span class="trans-small">(名詞：薬剤師)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="516-pharmacist.html"><span class="word-small">pharmacist</span></a><span class="trans-small">(名詞：薬剤師)</span></div>
-
+                </div>
             </div>
         </div>
     </div>

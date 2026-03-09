@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="716-2-blunder.html" class="nav-button">← 前の単語</a>
-        <a href="718-skip.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 717</span>
-            <h1 class="word-title">roam <span class="pos-tag">動詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="716-2-blunder.html" class="nav-button">← 前の単語</a>
+            <a href="718-skip.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">（あてもなく）歩き回る、放浪する、徘徊する</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 特定の目的地を決めずに、広い範囲を自由に移動する様子を指します。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 717</span>
+                <h1 class="word-title">roam <span class="pos-tag">動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">（あてもなく）歩き回る、放浪する、徘徊する</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 特定の目的地を決めずに、広い範囲を自由に移動する様子を指します。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">The cattle were allowed to <strong>roam</strong> freely over the hills.</span>
             <span class="ja">牛たちは丘の上を自由に歩き回ることを許されていた。</span>
@@ -67,28 +69,29 @@
             <span class="ja">彼の目は部屋の中をあちこち動いた（見回した）。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                中英語 romen（歩き回る）
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">wander</span><span class="trans-small">(歩き回る)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    中英語 romen（歩き回る）
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">wander</span><span class="trans-small">(歩き回る)</span></div>
 <div class="list-unit"><a href="720-stroll.html"><span class="word-small">stroll</span><span class="source-tag">速読英単語</span></a> <a href="11616-stroll.html"><span class="word-small">stroll</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(ぶらつく)</span></div>
 <div class="list-unit"><a href="4689-drift.html"><span class="word-small">drift</span><span class="source-tag">東進上級英単語1000</span></a> <a href="11578-drift.html"><span class="word-small">drift</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(漂う)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><a href="11161-settle.html"><span class="word-small">settle</span></a> <span class="trans-small">(定住する)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><a href="11161-settle.html"><span class="word-small">settle</span></a> <span class="trans-small">(定住する)</span></div>
 <div class="list-unit"><span class="word-small">stay</span><span class="trans-small">(とどまる)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">roaming</span><span class="trans-small">(名詞：ローミング（通信範囲を越えた利用）)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">roaming</span><span class="trans-small">(名詞：ローミング（通信範囲を越えた利用）)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

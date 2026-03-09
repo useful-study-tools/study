@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="8-2-remarkably.html" class="nav-button">← 前の単語</a>
-        <a href="10-awe.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 9</span>
-            <h1 class="word-title">awesome <span class="pos-tag">形容詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="8-2-remarkably.html" class="nav-button">← 前の単語</a>
+            <a href="10-awe.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">素晴らしい、最高の、畏敬の念を抱かせる</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 日常会話では「最高！」「すごい！」というポジティブな感嘆として非常に頻繁に使われます。本来は「awe（畏怖）」からきており、自然の猛威や神のような「恐ろしいほどの威厳」を指す重い言葉でもあります。
-        </div>
-        <div class="section-title">例文（日常会話）</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 9</span>
+                <h1 class="word-title">awesome <span class="pos-tag">形容詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">素晴らしい、最高の、畏敬の念を抱かせる</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 日常会話では「最高！」「すごい！」というポジティブな感嘆として非常に頻繁に使われます。本来は「awe（畏怖）」からきており、自然の猛威や神のような「恐ろしいほどの威厳」を指す重い言葉でもあります。
+            </div>
+                    <div class="section-title">例文（日常会話）</div>
         <div class="example-item">
             <span class="en">That concert was absolutely <strong>awesome</strong>!</span>
             <span class="ja">あのコンサートは本当に最高だった！</span>
@@ -68,30 +70,31 @@
             <span class="ja">火山の噴火は、畏敬の念を抱かせる（圧倒されるような）光景だった。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                awe (畏敬、恐れ) + some (〜に満ちた) <br>→ 圧倒されるような
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">amazing</span><span class="trans-small">(驚くべき)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    awe (畏敬、恐れ) + some (〜に満ちた) <br>→ 圧倒されるような
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">amazing</span><span class="trans-small">(驚くべき)</span></div>
 <div class="list-unit"><span class="word-small">impressive</span><span class="trans-small">(印象的な)</span></div>
 <div class="list-unit"><span class="word-small">breathtaking</span><span class="trans-small">(息をのむような)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><a href="10-2-awful.html"><span class="word-small">awful</span></a> <span class="trans-small">(ひどい（本来は同語源）)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><a href="10-2-awful.html"><span class="word-small">awful</span></a> <span class="trans-small">(ひどい（本来は同語源）)</span></div>
 <div class="list-unit"><span class="word-small">boring</span><span class="trans-small">(つまらない)</span></div>
 <div class="list-unit"><span class="word-small">ordinary</span><span class="trans-small">(普通の)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="10-awe.html"><span class="word-small">awe</span></a> <span class="trans-small">(名詞：畏敬、畏怖)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="10-awe.html"><span class="word-small">awe</span></a> <span class="trans-small">(名詞：畏敬、畏怖)</span></div>
 <div class="list-unit"><span class="word-small">awestruck</span><span class="trans-small">(形容詞：畏怖の念に打たれた)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

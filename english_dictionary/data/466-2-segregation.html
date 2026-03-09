@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #28a745; --accent-color: #f4faf6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="466-segregate.html" class="nav-button">← 前の単語</a>
-        <a href="467-implicit.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 466-2</span>
-            <h1 class="word-title">segregation <span class="pos-tag">名詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="466-segregate.html" class="nav-button">← 前の単語</a>
+            <a href="467-implicit.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">分離、隔離、人種隔離</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 集団を分けて別々にする行為や状態を表します。特にアメリカの公民権運動の文脈で、人種による分離政策を指すことが多く、否定的なニュアンスを持ちます。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 466-2</span>
+                <h1 class="word-title">segregation <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">分離、隔離、人種隔離</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 集団を分けて別々にする行為や状態を表します。特にアメリカの公民権運動の文脈で、人種による分離政策を指すことが多く、否定的なニュアンスを持ちます。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">Racial <strong>segregation</strong> was officially ended in the 1960s.</span>
             <span class="ja">人種隔離は1960年代に公式に終わった。</span>
@@ -71,30 +73,31 @@
             <span class="ja">一部の社会では性別による隔離が存在する。</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                segregate (分離する) + ion (名詞語尾) <br>→ 分離すること
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><a href="290-separation.html"><span class="word-small">separation</span></a> <span class="trans-small">(分離)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    segregate (分離する) + ion (名詞語尾) <br>→ 分離すること
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><a href="290-separation.html"><span class="word-small">separation</span></a> <span class="trans-small">(分離)</span></div>
 <div class="list-unit"><a href="11066-isolation.html"><span class="word-small">isolation</span></a> <span class="trans-small">(隔離)</span></div>
 <div class="list-unit"><span class="word-small">partition</span><span class="trans-small">(分割)</span></div>
 <div class="list-unit"><span class="word-small">apartheid</span><span class="trans-small">(アパルトヘイト)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><span class="word-small">integration</span><span class="trans-small">(統合)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">integration</span><span class="trans-small">(統合)</span></div>
 <div class="list-unit"><span class="word-small">unification</span><span class="trans-small">(統一)</span></div>
 <div class="list-unit"><span class="word-small">desegregation</span><span class="trans-small">(人種統合)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><a href="466-segregate.html"><span class="word-small">segregate</span></a><span class="trans-small">(動詞：分離する)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="466-segregate.html"><span class="word-small">segregate</span></a><span class="trans-small">(動詞：分離する)</span></div>
 
+                </div>
             </div>
         </div>
     </div>

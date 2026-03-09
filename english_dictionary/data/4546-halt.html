@@ -7,7 +7,8 @@
     <link rel="icon" href="../image/logo.png">
     <style>
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); width: 100%; max-width: 800px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
@@ -42,22 +43,23 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    <div class="nav-buttons">
-        <a href="4545-summarize.html" class="nav-button">← 前の単語</a>
-        <a href="4549-voluntary.html" class="nav-button">次の単語 →</a>
-    </div>
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number"># 4546</span>
-            <h1 class="word-title">halt <span class="pos-tag">名詞、動詞</span></h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="4545-summarize.html" class="nav-button">← 前の単語</a>
+            <a href="4549-voluntary.html" class="nav-button">次の単語 →</a>
         </div>
-        <div class="section-title">主な意味</div>
-        <div class="meaning-jp">停止、中止、〜を止める、止まる</div>
-        <div class="nuance-box">
-            <strong>ニュアンス:</strong> 単なるstopよりも、何らかの理由で（急に、または一時的に）活動や動きを制止するという少し硬い表現です。
-        </div>
-        <div class="section-title">例文</div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 4546</span>
+                <h1 class="word-title">halt <span class="pos-tag">名詞、動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">停止、中止、〜を止める、止まる</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 単なるstopよりも、何らかの理由で（急に、または一時的に）活動や動きを制止するという少し硬い表現です。
+            </div>
+                    <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">Production came to a <strong>halt</strong> due to the power cut.</span>
             <span class="ja">停電のため生産が停止した（停止に至った）。</span>
@@ -67,29 +69,30 @@
             <span class="ja">止まれ！（誰だ、そこを行くのは？）</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">語源</span>
-                ドイツ語 halten (止める、保つ) から
-            </div>
-            <div class="info-item">
-                <span class="info-label">類義語 (Synonyms)</span>
-<div class="list-unit"><span class="word-small">stop</span><span class="trans-small">(止まる)</span></div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ドイツ語 halten (止める、保つ) から
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">stop</span><span class="trans-small">(止まる)</span></div>
 <div class="list-unit"><a href="11652-cease.html"><span class="word-small">cease</span></a> <span class="trans-small">(やめる)</span></div>
 <div class="list-unit"><a href="11311-pause.html"><span class="word-small">pause</span></a> <span class="trans-small">(一時停止)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">対義語 (Antonyms)</span>
-<div class="list-unit"><a href="11572-proceed.html"><span class="word-small">proceed</span></a> <span class="trans-small">(進む)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><a href="11572-proceed.html"><span class="word-small">proceed</span></a> <span class="trans-small">(進む)</span></div>
 <div class="list-unit"><span class="word-small">continue</span><span class="trans-small">(続ける)</span></div>
 <div class="list-unit"><a href="4438-resume.html"><span class="word-small">resume</span><span class="source-tag">東進上級英単語1000</span></a> <a href="11661-resume.html"><span class="word-small">resume</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(再開する)</span></div>
 
-            </div>
-            <div class="info-item">
-                <span class="info-label">関連語</span>
-<div class="list-unit"><span class="word-small">halting</span><span class="trans-small">(形容詞：たどたどしい（止まりながらの意）)</span></div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">halting</span><span class="trans-small">(形容詞：たどたどしい（止まりながらの意）)</span></div>
 
+                </div>
             </div>
         </div>
     </div>
