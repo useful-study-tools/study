@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'english_dictionary/vocabulary_data*.json'
+      - 'english_dictionary/config.py' # ★ここを追加：出典設定が変わった時も実行されるように
       - 'classical_japanese_dictionary/vocabulary_data*.json' # 古文の監視パスを追加
   workflow_dispatch:
 
