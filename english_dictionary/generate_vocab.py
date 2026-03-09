@@ -43,6 +43,10 @@ HTML_TEMPLATE_MAIN = """<!DOCTYPE html>
         .word-small {{ font-weight: bold; color: #444; }}
         .trans-small {{ color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }}
         .source-tag {{ font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }}
+        .list-unit a {{ text-decoration: none; color: #4169e1; }}
+        .list-unit a:hover {{ text-decoration: underline; opacity: 0.8; }}
+        .list-unit a .word-small {{ color: inherit !important; }}
+
         @media (max-width: 600px) {{ .info-grid {{ grid-template-columns: 1fr; }} .word-title {{ font-size: 2.2rem; }} }}
     </style>
 </head>
@@ -85,7 +89,7 @@ HTML_TEMPLATE_MAIN = """<!DOCTYPE html>
 </body>
 </html>"""
 
-# サブ単語テンプレート（メイン単語と同じだがスタイル色が異なる）
+# サブ単語テンプレート（メイン単語と同じだがスタイル色が異なる。リンク色は継承）
 HTML_TEMPLATE_SUB = HTML_TEMPLATE_MAIN.replace("--primary-color: #2c3e50", "--primary-color: #28a745").replace("--accent-color: #f4f7f6", "--accent-color: #f4faf6")
 
 # ==========================================
@@ -93,9 +97,6 @@ HTML_TEMPLATE_SUB = HTML_TEMPLATE_MAIN.replace("--primary-color: #2c3e50", "--pr
 # ==========================================
 
 def get_source_label(number_str):
-    """
-    番号（例: "422" や "10201-1"）から出典（例: 速読英単語）のラベルを取得
-    """
     try:
         main_val = int(str(number_str).split('-')[0])
         sorted_keys = sorted(CHAPTER_MAP.keys(), reverse=True)
@@ -141,10 +142,6 @@ def get_filename(word_data):
     return f"{word_data['number']}-{word_data['word']}.html"
 
 def generate_word_list(target_words, all_words_data, is_sub_word=False):
-    """
-    単語リストを生成。同じ単語が複数あれば出典ラベル付きでリンク。
-    """
-    # 検索用マップ作成: { 'apple': [{'file': '1-apple.html', 'label': '速単'}, ...] }
     word_to_links = {}
     for w in all_words_data:
         name_lower = w['word'].lower()
@@ -166,17 +163,14 @@ def generate_word_list(target_words, all_words_data, is_sub_word=False):
         html += '<div class="list-unit">'
         
         if manual_link:
-            color = '#28a745' if is_sub_word else '#2c3e50'
-            html += f'<a href="{manual_link}" style="text-decoration:none;"><span class="word-small" style="color:{color};">{word_name}</span></a>'
+            # リンク色をCSSで制御するためインライン色は排除
+            html += f'<a href="{manual_link}"><span class="word-small">{word_name}</span></a>'
         elif found_links:
-            color = '#28a745' if is_sub_word else '#2c3e50'
-            # 複数ある場合はラベル付きで並べる
             for i, link_info in enumerate(found_links):
                 label = link_info['label']
-                # 同じ単語が複数ある場合のみラベルを表示
                 suffix = f'<span class="source-tag">{label}</span>' if len(found_links) > 1 else ""
-                html += f'<a href="{link_info["filename"]}" style="text-decoration:none; margin-right:8px;">'
-                html += f'<span class="word-small" style="color:{color};">{word_name}</span>{suffix}</a>'
+                html += f'<a href="{link_info["filename"]}">'
+                html += f'<span class="word-small">{word_name}</span>{suffix}</a> '
         else:
             html += f'<span class="word-small">{word_name}</span>'
             
@@ -200,11 +194,9 @@ def generate_html(data, current_index, sorted_words):
     is_sub_word = '-' in str(data['number'])
     template = HTML_TEMPLATE_SUB if is_sub_word else HTML_TEMPLATE_MAIN
     
-    # 前後ボタン
     prev_b = f'<a href="{get_filename(sorted_words[current_index-1])}" class="nav-button">← 前の単語</a>' if current_index > 0 else '<span class="nav-button disabled">← 前の単語</span>'
     next_b = f'<a href="{get_filename(sorted_words[current_index+1])}" class="nav-button">次の単語 →</a>' if current_index < len(sorted_words)-1 else '<span class="nav-button disabled">次の単語 →</span>'
     
-    # セクション生成
     ex_secs = ""
     if 'example_sections' in data:
         for s in data['example_sections']:
