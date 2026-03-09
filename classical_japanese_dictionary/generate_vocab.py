@@ -198,7 +198,7 @@ HTML_TEMPLATE_KOBUN = """<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">←辞書へ戻る</a>
+    <a href="../index.html" class="btn-home">辞書へ戻る</a>
     <div class="nav-buttons">
         {prev_button}
         {next_button}
