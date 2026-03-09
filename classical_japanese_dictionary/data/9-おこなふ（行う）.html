@@ -13,20 +13,25 @@
             --text-sub: #555;
             --accent-soft: #e9e4d1;
         }
+        /* 前者の body スタイルを継承 */
         body { 
             font-family: "Sawarabi Mincho", "Hiragino Mincho ProN", serif; 
-            line-height: 1.8; 
-            color: var(--text-main); 
-            max-width: 700px; 
-            margin: 0 auto; 
-            padding: 30px 20px; 
             background-color: var(--bg-color); 
-            display: flex;          /* 前者に合わせるための追加 */
-            flex-direction: column; /* 前者に合わせるための追加 */
-            align-items: flex-start; /* ボタンを左寄せにするため */
+            margin: 0; 
+            padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            color: var(--text-main); 
         }
         
-        /* 前者のコードから移植・調整したスタイル */
+        /* 前者の container スタイルを適用 */
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+
+        /* 「戻る」ボタン：前者の .btn-home と完全に一致 */
         .btn-home { 
             display: inline-block; 
             padding: 8px 20px; 
@@ -38,7 +43,7 @@
             font-size: 0.9rem; 
             box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
             transition: 0.3s; 
-            margin-bottom: 20px; /* 下との間隔 */
+            margin-bottom: 20px;
         }
         .btn-home:hover { 
             background-color: #c78a88; 
@@ -52,15 +57,12 @@
             border-radius: 8px; 
             box-shadow: 0 2px 15px rgba(0,0,0,0.05); 
             border: 1px solid #e0d9c1; 
-            width: 100%; /* 横幅いっぱい */
-            box-sizing: border-box;
         }
         .nav-buttons { 
             display: flex; 
             justify-content: space-between; 
             margin-bottom: 20px; 
             gap: 10px; 
-            width: 100%; /* 横幅いっぱい */
         }
         .nav-button { 
             flex: 1; 
@@ -190,31 +192,32 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    
-    <div class="nav-buttons">
-        <a href="8-ありく（歩く）.html" class="nav-button">← 前の単語</a>
-        <a href="10-なやむ（悩む）.html" class="nav-button">次の単語 →</a>
-    </div>
-
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number">第 9 番</span>
-            <h1 class="word-title">おこなふ（行う） 
-                <span class="pos-tag">ハ行四段</span>
-                
-            </h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        
+        <div class="nav-buttons">
+            <a href="8-ありく（歩く）.html" class="nav-button">← 前の単語</a>
+            <a href="10-なやむ（悩む）.html" class="nav-button">次の単語 →</a>
         </div>
 
-        <div class="section-title">現代語訳</div>
-        <div class="meaning-jp">①仏道の修行をする・勤行する ②（何かを）執り行う・処理する</div>
-        
-        <div class="nuance-box">
-            <strong>【解釈のポイント】</strong><br>現代語では広く「実行する」意味ですが、古文では特に「仏道修行（読経や念仏など）」を指すのが一般的です。出家して修行に励むことを指す重要な単語です。
-        </div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number">第 9 番</span>
+                <h1 class="word-title">おこなふ（行う） 
+                    <span class="pos-tag">ハ行四段</span>
+                    
+                </h1>
+            </div>
 
-        <div class="section-title">例文</div>
-        
+            <div class="section-title">現代語訳</div>
+            <div class="meaning-jp">①仏道の修行をする・勤行する ②（何かを）執り行う・処理する</div>
+            
+            <div class="nuance-box">
+                <strong>【解釈のポイント】</strong><br>現代語では広く「実行する」意味ですが、古文では特に「仏道修行（読経や念仏など）」を指すのが一般的です。出家して修行に励むことを指す重要な単語です。
+            </div>
+
+            <div class="section-title">例文</div>
+            
         <div class="example-item">
             <span class="ex-text">夜中におこなふ、尊き声ぞ聞こゆる。</span>
             <span class="ex-trans">夜中に仏道修行をする、尊い声が聞こえる。</span>
@@ -226,10 +229,11 @@
             <span class="ex-source">― 大鏡</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">関連知識・類義語など</span>
-                <div class="related-entry">・<strong>おこなひ（名詞）</strong>（仏道の修行・勤行）</div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">関連知識・類義語など</span>
+                    <div class="related-entry">・<strong>おこなひ（名詞）</strong>（仏道の修行・勤行）</div>
+                </div>
             </div>
         </div>
     </div>

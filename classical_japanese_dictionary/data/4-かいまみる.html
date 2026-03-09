@@ -13,20 +13,25 @@
             --text-sub: #555;
             --accent-soft: #e9e4d1;
         }
+        /* 前者の body スタイルを継承 */
         body { 
             font-family: "Sawarabi Mincho", "Hiragino Mincho ProN", serif; 
-            line-height: 1.8; 
-            color: var(--text-main); 
-            max-width: 700px; 
-            margin: 0 auto; 
-            padding: 30px 20px; 
             background-color: var(--bg-color); 
-            display: flex;          /* 前者に合わせるための追加 */
-            flex-direction: column; /* 前者に合わせるための追加 */
-            align-items: flex-start; /* ボタンを左寄せにするため */
+            margin: 0; 
+            padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            color: var(--text-main); 
         }
         
-        /* 前者のコードから移植・調整したスタイル */
+        /* 前者の container スタイルを適用 */
+        .container { 
+            width: 100%; 
+            max-width: 800px; 
+        }
+
+        /* 「戻る」ボタン：前者の .btn-home と完全に一致 */
         .btn-home { 
             display: inline-block; 
             padding: 8px 20px; 
@@ -38,7 +43,7 @@
             font-size: 0.9rem; 
             box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
             transition: 0.3s; 
-            margin-bottom: 20px; /* 下との間隔 */
+            margin-bottom: 20px;
         }
         .btn-home:hover { 
             background-color: #c78a88; 
@@ -52,15 +57,12 @@
             border-radius: 8px; 
             box-shadow: 0 2px 15px rgba(0,0,0,0.05); 
             border: 1px solid #e0d9c1; 
-            width: 100%; /* 横幅いっぱい */
-            box-sizing: border-box;
         }
         .nav-buttons { 
             display: flex; 
             justify-content: space-between; 
             margin-bottom: 20px; 
             gap: 10px; 
-            width: 100%; /* 横幅いっぱい */
         }
         .nav-button { 
             flex: 1; 
@@ -190,41 +192,43 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn-home">辞書へ戻る</a>
-    
-    <div class="nav-buttons">
-        <a href="3-見ゆ.html" class="nav-button">← 前の単語</a>
-        <a href="5-よばふ.html" class="nav-button">次の単語 →</a>
-    </div>
-
-    <div class="card">
-        <div class="word-header">
-            <span class="word-number">第 4 番</span>
-            <h1 class="word-title">かいまみる 
-                <span class="pos-tag">マ行上一段</span>
-                
-            </h1>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        
+        <div class="nav-buttons">
+            <a href="3-見ゆ.html" class="nav-button">← 前の単語</a>
+            <a href="5-よばふ.html" class="nav-button">次の単語 →</a>
         </div>
 
-        <div class="section-title">現代語訳</div>
-        <div class="meaning-jp">①のぞき見る</div>
-        
-        <div class="nuance-box">
-            <strong>【解釈のポイント】</strong><br>「垣（垣根）」の「間（すき間）」から「見る」というのが語源です。当時の貴族の男性が、顔を隠して生活する女性を垣根のすき間などからこっそりとのぞき見ることを指し、ここから恋が始まることも多い重要なアクションでした。
-        </div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number">第 4 番</span>
+                <h1 class="word-title">かいまみる 
+                    <span class="pos-tag">マ行上一段</span>
+                    
+                </h1>
+            </div>
 
-        <div class="section-title">例文</div>
-        
+            <div class="section-title">現代語訳</div>
+            <div class="meaning-jp">①のぞき見る</div>
+            
+            <div class="nuance-box">
+                <strong>【解釈のポイント】</strong><br>「垣（垣根）」の「間（すき間）」から「見る」というのが語源です。当時の貴族の男性が、顔を隠して生活する女性を垣根のすき間などからこっそりとのぞき見ることを指し、ここから恋が始まることも多い重要なアクションでした。
+            </div>
+
+            <div class="section-title">例文</div>
+            
         <div class="example-item">
             <span class="ex-text">なまめいたる女はらから、すむ所ありけり。のぞきかいまみてけり。</span>
             <span class="ex-trans">若々しく美しい姉妹が、住んでいる所があった。（その姉妹を男は）のぞき垣間見てしまった。</span>
             <span class="ex-source">― 伊勢</span>
         </div>
 
-        <div class="info-grid">
-            <div class="info-item">
-                <span class="info-label">関連知識・類義語など</span>
-                <div class="related-entry">・<strong>かいまみ（名詞）</strong>（のぞき見）</div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">関連知識・類義語など</span>
+                    <div class="related-entry">・<strong>かいまみ（名詞）</strong>（のぞき見）</div>
+                </div>
             </div>
         </div>
     </div>
