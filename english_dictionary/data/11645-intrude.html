@@ -9,73 +9,49 @@
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); max-width: 700px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-        
-        /* ナビゲーション */
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
         .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
         .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
-        
-        /* ヘッダー部分 */
         .back-link { display: inline-block; margin-bottom: 25px; text-decoration: none; color: var(--primary-color); font-weight: bold; }
         .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
         .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
         .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
         .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
-
-        /* コンテンツ部分 */
         .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
         .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
-        
-        .meaning-jp { 
-            font-size: 1.5rem; 
-            font-weight: bold; 
-            display: block;
-            margin-bottom: 15px; 
-            padding: 10px 0;
-            color: var(--text-main);
-            background: transparent;
-        }
+        .meaning-jp { font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px; padding: 10px 0; color: var(--text-main); }
         .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
-
-        /* 例文 */
         .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
         .en { display: block; font-weight: 500; color: #444; }
         .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
-
-        /* リスト */
         .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
         .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
         .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
-        .list-unit { margin-bottom: 4px; border-bottom: 1px solid #eee; padding-bottom: 2px; }
+        .list-unit { margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
         .list-unit:last-child { border-bottom: none; }
         .word-small { font-weight: bold; color: #444; }
         .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
-
+        .source-tag { font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }
         @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
     </style>
 </head>
 <body>
-
     <a href="../index.html" class="back-link">← 一覧へ戻る</a>
-
     <div class="nav-buttons">
         <a href="11644-penetrate.html" class="nav-button">← 前の単語</a>
         <a href="11646-evade.html" class="nav-button">次の単語 →</a>
     </div>
-
     <div class="card">
         <div class="word-header">
             <span class="word-number"># 11645</span>
             <h1 class="word-title">intrude <span class="pos-tag">動詞</span></h1>
         </div>
-
         <div class="section-title">主な意味</div>
         <div class="meaning-jp">（on〜）〜に立ち入る、邪魔をする</div>
         <div class="nuance-box">
             <strong>ニュアンス:</strong> 招かれていないのに無理に入り込むこと。プライバシーを侵害する際などによく使われます。
         </div>
-
         <div class="section-title">例文</div>
         <div class="example-item">
             <span class="en">I'm sorry to <strong>intrude on</strong> your private conversation.</span>
@@ -86,7 +62,6 @@
             <span class="ja">太鼓の音が夜の静寂を破って（入り込んで）きた。</span>
         </div>
 
-
         <div class="info-grid">
             <div class="info-item">
                 <span class="info-label">語源</span>
@@ -94,25 +69,24 @@
             </div>
             <div class="info-item">
                 <span class="info-label">類義語 (Synonyms)</span>
-                <div class="list-unit"><span class="word-small">interfere</span><span class="trans-small">(干渉する)</span></div>
-                <div class="list-unit"><span class="word-small">invade</span><span class="trans-small">(侵略する)</span></div>
-                <div class="list-unit"><span class="word-small">trespass</span><span class="trans-small">(不法侵入する)</span></div>
+<div class="list-unit"><a href="4313-interfere.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">interfere</span><span class="source-tag">東進上級英単語1000</span></a><a href="11562-interfere.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">interfere</span><span class="source-tag">LEAP</span></a><span class="trans-small">(干渉する)</span></div>
+<div class="list-unit"><a href="505-4-invade.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">invade</span></a><span class="trans-small">(侵略する)</span></div>
+<div class="list-unit"><span class="word-small">trespass</span><span class="trans-small">(不法侵入する)</span></div>
 
             </div>
             <div class="info-item">
                 <span class="info-label">対義語 (Antonyms)</span>
-                <div class="list-unit"><span class="word-small">withdraw</span><span class="trans-small">(退く)</span></div>
-                <div class="list-unit"><span class="word-small">leave alone</span><span class="trans-small">(そのままにしておく)</span></div>
+<div class="list-unit"><a href="4848-withdraw.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">withdraw</span><span class="source-tag">東進上級英単語1000</span></a><a href="11626-withdraw.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">withdraw</span><span class="source-tag">LEAP</span></a><span class="trans-small">(退く)</span></div>
+<div class="list-unit"><span class="word-small">leave alone</span><span class="trans-small">(そのままにしておく)</span></div>
 
             </div>
             <div class="info-item">
                 <span class="info-label">関連語</span>
-                <div class="list-unit"><span class="word-small">intruder</span><span class="trans-small">(名詞：侵入者)</span></div>
-                <div class="list-unit"><span class="word-small">intrusion</span><span class="trans-small">(名詞：侵害、侵入)</span></div>
+<div class="list-unit"><span class="word-small">intruder</span><span class="trans-small">(名詞：侵入者)</span></div>
+<div class="list-unit"><a href="505-intrusion.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">intrusion</span></a><span class="trans-small">(名詞：侵害、侵入)</span></div>
 
             </div>
         </div>
     </div>
-
 </body>
 </html>

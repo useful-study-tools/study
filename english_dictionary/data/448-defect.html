@@ -9,73 +9,49 @@
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); max-width: 700px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-        
-        /* ナビゲーション */
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
         .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
         .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
-        
-        /* ヘッダー部分 */
         .back-link { display: inline-block; margin-bottom: 25px; text-decoration: none; color: var(--primary-color); font-weight: bold; }
         .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
         .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
         .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
         .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
-
-        /* コンテンツ部分 */
         .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
         .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
-        
-        .meaning-jp { 
-            font-size: 1.5rem; 
-            font-weight: bold; 
-            display: block;
-            margin-bottom: 15px; 
-            padding: 10px 0;
-            color: var(--text-main);
-            background: transparent;
-        }
+        .meaning-jp { font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px; padding: 10px 0; color: var(--text-main); }
         .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
-
-        /* 例文 */
         .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
         .en { display: block; font-weight: 500; color: #444; }
         .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
-
-        /* リスト */
         .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
         .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
         .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
-        .list-unit { margin-bottom: 4px; border-bottom: 1px solid #eee; padding-bottom: 2px; }
+        .list-unit { margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
         .list-unit:last-child { border-bottom: none; }
         .word-small { font-weight: bold; color: #444; }
         .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
-
+        .source-tag { font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }
         @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
     </style>
 </head>
 <body>
-
     <a href="../index.html" class="back-link">← 一覧へ戻る</a>
-
     <div class="nav-buttons">
         <a href="447-2-illogically.html" class="nav-button">← 前の単語</a>
         <a href="448-2-defective.html" class="nav-button">次の単語 →</a>
     </div>
-
     <div class="card">
         <div class="word-header">
             <span class="word-number"># 448</span>
             <h1 class="word-title">defect <span class="pos-tag">名詞/動詞</span></h1>
         </div>
-
         <div class="section-title">主な意味</div>
         <div class="meaning-jp">欠陥、欠点、不具合 / 亡命する、離脱する</div>
         <div class="nuance-box">
             <strong>ニュアンス:</strong> 名詞では製品や性質の「欠陥」、動詞では国や組織からの「離反・亡命」を意味します。動詞の場合は政治的な文脈で使われることが多いです。
         </div>
-
         <div class="section-title">例文（名詞：欠陥）</div>
         <div class="example-item">
             <span class="en">The car was recalled due to a safety <strong>defect</strong>.</span>
@@ -91,7 +67,6 @@
             <span class="ja">そのスパイは冷戦中に西側に亡命した。</span>
         </div>
 
-
         <div class="info-grid">
             <div class="info-item">
                 <span class="info-label">語源</span>
@@ -99,26 +74,25 @@
             </div>
             <div class="info-item">
                 <span class="info-label">類義語 (Synonyms)</span>
-                <div class="list-unit"><span class="word-small">flaw</span><span class="trans-small">(欠陥)</span></div>
-                <div class="list-unit"><span class="word-small">fault</span><span class="trans-small">(欠点)</span></div>
-                <div class="list-unit"><span class="word-small">imperfection</span><span class="trans-small">(不完全さ)</span></div>
-                <div class="list-unit"><span class="word-small">desert</span><span class="trans-small">(見捨てる（動詞）)</span></div>
+<div class="list-unit"><a href="449-flaw.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">flaw</span><span class="source-tag">速読英単語</span></a><a href="11745-flaw.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">flaw</span><span class="source-tag">LEAP</span></a><span class="trans-small">(欠陥)</span></div>
+<div class="list-unit"><span class="word-small">fault</span><span class="trans-small">(欠点)</span></div>
+<div class="list-unit"><span class="word-small">imperfection</span><span class="trans-small">(不完全さ)</span></div>
+<div class="list-unit"><a href="11221-desert.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">desert</span></a><span class="trans-small">(見捨てる（動詞）)</span></div>
 
             </div>
             <div class="info-item">
                 <span class="info-label">対義語 (Antonyms)</span>
-                <div class="list-unit"><span class="word-small">perfection</span><span class="trans-small">(完璧)</span></div>
-                <div class="list-unit"><span class="word-small">advantage</span><span class="trans-small">(利点)</span></div>
+<div class="list-unit"><span class="word-small">perfection</span><span class="trans-small">(完璧)</span></div>
+<div class="list-unit"><span class="word-small">advantage</span><span class="trans-small">(利点)</span></div>
 
             </div>
             <div class="info-item">
                 <span class="info-label">関連語</span>
-                <div class="list-unit"><span class="word-small">defective</span><span class="trans-small">(形容詞：欠陥のある)</span></div>
-                <div class="list-unit"><span class="word-small">defection</span><span class="trans-small">(名詞：離反・亡命)</span></div>
+<div class="list-unit"><a href="448-2-defective.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">defective</span></a><span class="trans-small">(形容詞：欠陥のある)</span></div>
+<div class="list-unit"><a href="448-3-defection.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">defection</span></a><span class="trans-small">(名詞：離反・亡命)</span></div>
 
             </div>
         </div>
     </div>
-
 </body>
 </html>

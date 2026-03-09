@@ -9,73 +9,49 @@
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); max-width: 700px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-        
-        /* ナビゲーション */
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
         .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
         .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
-        
-        /* ヘッダー部分 */
         .back-link { display: inline-block; margin-bottom: 25px; text-decoration: none; color: var(--primary-color); font-weight: bold; }
         .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
         .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
         .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
         .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
-
-        /* コンテンツ部分 */
         .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
         .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
-        
-        .meaning-jp { 
-            font-size: 1.5rem; 
-            font-weight: bold; 
-            display: block;
-            margin-bottom: 15px; 
-            padding: 10px 0;
-            color: var(--text-main);
-            background: transparent;
-        }
+        .meaning-jp { font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px; padding: 10px 0; color: var(--text-main); }
         .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
-
-        /* 例文 */
         .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
         .en { display: block; font-weight: 500; color: #444; }
         .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
-
-        /* リスト */
         .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
         .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
         .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
-        .list-unit { margin-bottom: 4px; border-bottom: 1px solid #eee; padding-bottom: 2px; }
+        .list-unit { margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
         .list-unit:last-child { border-bottom: none; }
         .word-small { font-weight: bold; color: #444; }
         .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
-
+        .source-tag { font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }
         @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
     </style>
 </head>
 <body>
-
     <a href="../index.html" class="back-link">← 一覧へ戻る</a>
-
     <div class="nav-buttons">
         <a href="11057-liberty.html" class="nav-button">← 前の単語</a>
         <a href="11059-mankind.html" class="nav-button">次の単語 →</a>
     </div>
-
     <div class="card">
         <div class="word-header">
             <span class="word-number"># 11058</span>
             <h1 class="word-title">humanity <span class="pos-tag">名詞</span></h1>
         </div>
-
         <div class="section-title">主な意味</div>
         <div class="meaning-jp">①（集合的に）人類 ②（the humanitiesで）人文科学 ③人間性</div>
         <div class="nuance-box">
             <strong>ニュアンス:</strong> ①「mankind（人類）」よりも感情・道徳的側面を含んだ語。「crimes against humanity（人道に対する罪）」は国際法の重要用語。②大学の学問領域として「文学・哲学・歴史」などを指します。③「思いやり・人間としての温かみ」も意味します。
         </div>
-
         <div class="section-title">①人類</div>
         <div class="example-item">
             <span class="en">Climate change is the greatest threat facing <strong>humanity</strong> today.</span>
@@ -96,7 +72,6 @@
             <span class="ja">その看護師の親切さは患者への深い人間性を示していた。</span>
         </div>
 
-
         <div class="info-grid">
             <div class="info-item">
                 <span class="info-label">語源</span>
@@ -104,27 +79,26 @@
             </div>
             <div class="info-item">
                 <span class="info-label">類義語 (Synonyms)</span>
-                <div class="list-unit"><span class="word-small">mankind</span><span class="trans-small">(人類)</span></div>
-                <div class="list-unit"><span class="word-small">humankind</span><span class="trans-small">(人類)</span></div>
-                <div class="list-unit"><span class="word-small">compassion</span><span class="trans-small">(思いやり、哀れみ)</span></div>
+<div class="list-unit"><a href="11059-mankind.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">mankind</span></a><span class="trans-small">(人類)</span></div>
+<div class="list-unit"><a href="356-humankind.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">humankind</span></a><span class="trans-small">(人類)</span></div>
+<div class="list-unit"><span class="word-small">compassion</span><span class="trans-small">(思いやり、哀れみ)</span></div>
 
             </div>
             <div class="info-item">
                 <span class="info-label">対義語 (Antonyms)</span>
-                <div class="list-unit"><span class="word-small">inhumanity</span><span class="trans-small">(非人間性、残酷さ)</span></div>
-                <div class="list-unit"><span class="word-small">cruelty</span><span class="trans-small">(残酷さ)</span></div>
+<div class="list-unit"><span class="word-small">inhumanity</span><span class="trans-small">(非人間性、残酷さ)</span></div>
+<div class="list-unit"><span class="word-small">cruelty</span><span class="trans-small">(残酷さ)</span></div>
 
             </div>
             <div class="info-item">
                 <span class="info-label">関連語</span>
-                <div class="list-unit"><span class="word-small">human</span><span class="trans-small">(形容詞：人間の)</span></div>
-                <div class="list-unit"><span class="word-small">mankind</span><span class="trans-small">(名詞：人類)</span></div>
-                <div class="list-unit"><span class="word-small">liberty</span><span class="trans-small">(名詞：自由)</span></div>
-                <div class="list-unit"><span class="word-small">authority</span><span class="trans-small">(名詞：権威)</span></div>
+<div class="list-unit"><span class="word-small">human</span><span class="trans-small">(形容詞：人間の)</span></div>
+<div class="list-unit"><a href="11059-mankind.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">mankind</span></a><span class="trans-small">(名詞：人類)</span></div>
+<div class="list-unit"><a href="11057-liberty.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">liberty</span></a><span class="trans-small">(名詞：自由)</span></div>
+<div class="list-unit"><a href="11060-authority.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">authority</span></a><span class="trans-small">(名詞：権威)</span></div>
 
             </div>
         </div>
     </div>
-
 </body>
 </html>

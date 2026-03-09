@@ -9,73 +9,49 @@
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); max-width: 700px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-        
-        /* ナビゲーション */
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
         .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
         .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
-        
-        /* ヘッダー部分 */
         .back-link { display: inline-block; margin-bottom: 25px; text-decoration: none; color: var(--primary-color); font-weight: bold; }
         .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
         .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
         .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
         .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
-
-        /* コンテンツ部分 */
         .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
         .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
-        
-        .meaning-jp { 
-            font-size: 1.5rem; 
-            font-weight: bold; 
-            display: block;
-            margin-bottom: 15px; 
-            padding: 10px 0;
-            color: var(--text-main);
-            background: transparent;
-        }
+        .meaning-jp { font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px; padding: 10px 0; color: var(--text-main); }
         .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
-
-        /* 例文 */
         .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
         .en { display: block; font-weight: 500; color: #444; }
         .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
-
-        /* リスト */
         .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
         .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
         .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
-        .list-unit { margin-bottom: 4px; border-bottom: 1px solid #eee; padding-bottom: 2px; }
+        .list-unit { margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
         .list-unit:last-child { border-bottom: none; }
         .word-small { font-weight: bold; color: #444; }
         .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
-
+        .source-tag { font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }
         @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
     </style>
 </head>
 <body>
-
     <a href="../index.html" class="back-link">← 一覧へ戻る</a>
-
     <div class="nav-buttons">
         <a href="523-population.html" class="nav-button">← 前の単語</a>
         <a href="525-extra.html" class="nav-button">次の単語 →</a>
     </div>
-
     <div class="card">
         <div class="word-header">
             <span class="word-number"># 524</span>
             <h1 class="word-title">follow-up <span class="pos-tag">名詞、形容詞</span></h1>
         </div>
-
         <div class="section-title">主な意味</div>
         <div class="meaning-jp">追跡調査、続き、再点検、フォローアップの</div>
         <div class="nuance-box">
             <strong>ニュアンス:</strong> 最初のアクションの後に、効果を確認したり詳細を補ったりするために行われる追加の行動を指します。医療での事後診察や、ビジネスでの進捗確認によく使われます。
         </div>
-
         <div class="section-title">例文（名詞）</div>
         <div class="example-item">
             <span class="en">The doctor scheduled a <strong>follow-up</strong> for next week.</span>
@@ -87,7 +63,6 @@
             <span class="ja">追跡調査により、当初の知見が裏付けられた。</span>
         </div>
 
-
         <div class="info-grid">
             <div class="info-item">
                 <span class="info-label">語源</span>
@@ -95,26 +70,25 @@
             </div>
             <div class="info-item">
                 <span class="info-label">類義語 (Synonyms)</span>
-                <div class="list-unit"><span class="word-small">supplement</span><span class="trans-small">(補足)</span></div>
-                <div class="list-unit"><span class="word-small">continuation</span><span class="trans-small">(継続)</span></div>
-                <div class="list-unit"><span class="word-small">review</span><span class="trans-small">(再点検)</span></div>
+<div class="list-unit"><a href="11614-supplement.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">supplement</span></a><span class="trans-small">(補足)</span></div>
+<div class="list-unit"><span class="word-small">continuation</span><span class="trans-small">(継続)</span></div>
+<div class="list-unit"><span class="word-small">review</span><span class="trans-small">(再点検)</span></div>
 
             </div>
             <div class="info-item">
                 <span class="info-label">対義語 (Antonyms)</span>
-                <div class="list-unit"><span class="word-small">initial</span><span class="trans-small">(最初の)</span></div>
-                <div class="list-unit"><span class="word-small">preliminary</span><span class="trans-small">(予備的な)</span></div>
-                <div class="list-unit"><span class="word-small">withdrawal</span><span class="trans-small">(撤退、中止)</span></div>
+<div class="list-unit"><a href="11855-initial.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">initial</span></a><span class="trans-small">(最初の)</span></div>
+<div class="list-unit"><a href="11812-preliminary.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">preliminary</span></a><span class="trans-small">(予備的な)</span></div>
+<div class="list-unit"><span class="word-small">withdrawal</span><span class="trans-small">(撤退、中止)</span></div>
 
             </div>
             <div class="info-item">
                 <span class="info-label">関連語</span>
-                <div class="list-unit"><span class="word-small">follow</span><span class="trans-small">(動詞：続く)</span></div>
-                <div class="list-unit"><span class="word-small">following</span><span class="trans-small">(形容詞：次の)</span></div>
+<div class="list-unit"><span class="word-small">follow</span><span class="trans-small">(動詞：続く)</span></div>
+<div class="list-unit"><span class="word-small">following</span><span class="trans-small">(形容詞：次の)</span></div>
 
             </div>
         </div>
     </div>
-
 </body>
 </html>

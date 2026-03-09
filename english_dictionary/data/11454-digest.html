@@ -9,73 +9,49 @@
         :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); max-width: 700px; margin: 0 auto; padding: 30px 20px; background-color: #f0f2f5; }
         .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-        
-        /* ナビゲーション */
         .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
         .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
         .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
         .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
-        
-        /* ヘッダー部分 */
         .back-link { display: inline-block; margin-bottom: 25px; text-decoration: none; color: var(--primary-color); font-weight: bold; }
         .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
         .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
         .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
         .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
-
-        /* コンテンツ部分 */
         .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
         .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
-        
-        .meaning-jp { 
-            font-size: 1.5rem; 
-            font-weight: bold; 
-            display: block;
-            margin-bottom: 15px; 
-            padding: 10px 0;
-            color: var(--text-main);
-            background: transparent;
-        }
+        .meaning-jp { font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px; padding: 10px 0; color: var(--text-main); }
         .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
-
-        /* 例文 */
         .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
         .en { display: block; font-weight: 500; color: #444; }
         .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
-
-        /* リスト */
         .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
         .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
         .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
-        .list-unit { margin-bottom: 4px; border-bottom: 1px solid #eee; padding-bottom: 2px; }
+        .list-unit { margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
         .list-unit:last-child { border-bottom: none; }
         .word-small { font-weight: bold; color: #444; }
         .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
-
+        .source-tag { font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }
         @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
     </style>
 </head>
 <body>
-
     <a href="../index.html" class="back-link">← 一覧へ戻る</a>
-
     <div class="nav-buttons">
         <a href="11453-prescribe.html" class="nav-button">← 前の単語</a>
         <a href="11455-weary.html" class="nav-button">次の単語 →</a>
     </div>
-
     <div class="card">
         <div class="word-header">
             <span class="word-number"># 11454</span>
             <h1 class="word-title">digest <span class="pos-tag">他動詞、名詞</span></h1>
         </div>
-
         <div class="section-title">主な意味</div>
         <div class="meaning-jp">①～を消化する ②～を理解する [名] ③要約</div>
         <div class="nuance-box">
             <strong>ニュアンス:</strong> 食べ物や情報を細かく砕いて取り込みやすい形にすること。名詞では情報のまとめを指します。
         </div>
-
         <div class="section-title">意味①：消化する</div>
         <div class="example-item">
             <span class="en">It takes about two hours to <strong>digest</strong> a heavy meal.</span>
@@ -92,7 +68,6 @@
             <span class="ja">彼はその報告書の要約を読んだ。</span>
         </div>
 
-
         <div class="info-grid">
             <div class="info-item">
                 <span class="info-label">語源</span>
@@ -100,26 +75,25 @@
             </div>
             <div class="info-item">
                 <span class="info-label">類義語 (Synonyms)</span>
-                <div class="list-unit"><span class="word-small">absorb</span><span class="trans-small">(吸収する)</span></div>
-                <div class="list-unit"><span class="word-small">understand</span><span class="trans-small">(理解する)</span></div>
-                <div class="list-unit"><span class="word-small">summary</span><span class="trans-small">(要約)</span></div>
+<div class="list-unit"><span class="word-small">absorb</span><span class="trans-small">(吸収する)</span></div>
+<div class="list-unit"><span class="word-small">understand</span><span class="trans-small">(理解する)</span></div>
+<div class="list-unit"><span class="word-small">summary</span><span class="trans-small">(要約)</span></div>
 
             </div>
             <div class="info-item">
                 <span class="info-label">対義語 (Antonyms)</span>
-                <div class="list-unit"><span class="word-small">vomit</span><span class="trans-small">(吐き出す)</span></div>
-                <div class="list-unit"><span class="word-small">misunderstand</span><span class="trans-small">(誤解する)</span></div>
-                <div class="list-unit"><span class="word-small">expansion</span><span class="trans-small">(拡張)</span></div>
+<div class="list-unit"><span class="word-small">vomit</span><span class="trans-small">(吐き出す)</span></div>
+<div class="list-unit"><a href="11212-misunderstand.html" style="text-decoration:none; margin-right:8px;"><span class="word-small" style="color:#2c3e50;">misunderstand</span></a><span class="trans-small">(誤解する)</span></div>
+<div class="list-unit"><span class="word-small">expansion</span><span class="trans-small">(拡張)</span></div>
 
             </div>
             <div class="info-item">
                 <span class="info-label">関連語</span>
-                <div class="list-unit"><span class="word-small">digestion</span><span class="trans-small">(名詞：消化)</span></div>
-                <div class="list-unit"><span class="word-small">digestive</span><span class="trans-small">(形容詞：消化の)</span></div>
+<div class="list-unit"><span class="word-small">digestion</span><span class="trans-small">(名詞：消化)</span></div>
+<div class="list-unit"><span class="word-small">digestive</span><span class="trans-small">(形容詞：消化の)</span></div>
 
             </div>
         </div>
     </div>
-
 </body>
 </html>
