@@ -83,7 +83,7 @@ def generate_index():
         }}
         body {{ font-family: "Sawarabi Mincho", "Hiragino Mincho ProN", serif; background-color: var(--bg-color); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; color: #333; }}
         .container {{ width: 100%; max-width: 800px; }}
-        h1 {{ color: var(--primary-color); text-align: center; border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; font-weight: bold; }}
+        h1 {{ margin-top: 10px; color: var(--primary-color); text-align: center; border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; font-weight: bold; }}
         
         .btn-home {{ display: inline-block; padding: 8px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 20px; font-weight: bold; font-size: 0.9rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: 0.3s; }}
         .btn-home:hover {{ background-color: #5a6268 transform: translateY(-1px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }}
