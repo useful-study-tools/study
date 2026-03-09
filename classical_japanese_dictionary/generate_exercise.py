@@ -45,6 +45,7 @@ def generate_html():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>古文単語演習</title>
+    <link rel="icon" href=/image/logo.png">
     <style>
         :root {{ 
             --primary: #a33c3a; /* 茜色 */
