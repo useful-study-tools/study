@@ -18,7 +18,8 @@
         .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid var(--primary); padding-bottom: 10px; }
         h1 { margin: 0; font-size: 1.5rem; color: var(--primary); }
         
-        .btn-home { text-decoration: none; color: white; background: #6c757d; padding: 8px 15px; border-radius: 5px; font-size: 0.85rem; }
+        .btn-home { display: inline-block; padding: 8px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 20px; font-weight: bold; font-size: 0.9rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: 0.3s; }
+        .btn-home:hover { background-color: #5a6268 transform: translateY(-1px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
 
         .setup-section, .quiz-section { display: none; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
         .active { display: block; }
@@ -40,11 +41,11 @@
     </style>
 </head>
 <body>
-
+<a href="index.html" class="btn-home">辞書に戻る</a>
 <div class="container">
     <div class="header">
         <h1>古文単語演習</h1>
-        <a href="index.html" class="btn-home">辞書に戻る</a>
+        
     </div>
 
     <div id="loadingStatus" style="text-align:center; padding: 40px;">データを読み込んでいます...</div>
