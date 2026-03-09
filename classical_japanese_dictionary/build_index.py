@@ -9,8 +9,7 @@ from pathlib import Path
 try:
     from config import CHAPTER_MAP
 except ImportError:
-    # 001-100: 基本単語, 101-200: 重要単語 などの構成を想定
-    CHAPTER_MAP = {1: "【一段】動詞の基本", 100: "【二段】形容詞・形容動詞"}
+    CHAPTER_MAP = {1: "最重要語", 164: "重要語"}
 
 # ==========================================
 # 1. 補助関数（古文用に最適化）
@@ -113,7 +112,7 @@ def generate_index():
 </head>
 <body>
 <div class="container">
-    <a href="../index.html" class="btn-home">← 戻る</a>
+    <a href="../index.html" class="btn-home">ホームに戻る</a>
     <h1>古文単語 辞書目次</h1>
     <a href="exercise.html" class="exercise-link">単語演習</a>
     <nav class="toc">
