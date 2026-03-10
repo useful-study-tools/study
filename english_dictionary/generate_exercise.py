@@ -8,7 +8,7 @@ from collections import defaultdict
 try:
 from config import CHAPTER_MAP, CHAPTER_WORD_COUNT
 except ImportError:
-CHAPTER_MAP = {1: “【Basic】第1章”, 500: “【Advanced】第2章”}
+CHAPTER_MAP = {1: "【Basic】第1章", 500: "【Advanced】第2章"}
 CHAPTER_WORD_COUNT = {}
 
 def get_json_file_list(base_path):
