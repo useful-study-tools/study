@@ -1,0 +1,1706 @@
+{
+  "words": [
+    {
+      "number": 87,
+      "word": "speculation",
+      "pos": "名詞",
+      "meaning": "推測、憶測、思索、投機（株など）",
+      "nuance": "十分な証拠がない状態での「あて推量」や、哲学的な深い「思索」、あるいは一獲千金を狙う「投機」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There is much speculation about the cause of the accident.",
+              "ja": "事故の原因については多くの憶測が飛び交っている。",
+              "highlight": "speculation"
+            },
+            {
+              "en": "The drop in property prices put an end to land speculation.",
+              "ja": "不動産価格の下落が土地投機に終止符を打った。",
+              "highlight": "speculation"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 specere（見る）→ 遠くをじっと見る、観察する",
+      "synonyms": [
+        {"word": "conjecture", "trans": "推測"},
+        {"word": "guesswork", "trans": "当て推量"},
+        {"word": "investment", "trans": "投資（投機と対比される）"}
+      ],
+      "antonyms": [
+        {"word": "fact", "trans": "事実"},
+        {"word": "certainty", "trans": "確実性"},
+        {"word": "proof", "trans": "証明"}
+      ],
+      "related": [
+        {"word": "spectacle", "trans": "壮観、見世物"},
+        {"word": "inspect", "trans": "検査する"}
+      ]
+    },
+    {
+      "number": "87-2",
+      "word": "speculate",
+      "pos": "動詞",
+      "meaning": "推測する、沈思黙考する、投機する",
+      "nuance": "不確実な情報に基づいて「〜ではないか」と考える動作です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Scientists speculate that the planet may harbor life.",
+              "ja": "科学者たちは、その惑星には生命が存在するのではないかと推測している。",
+              "highlight": "speculate"
+            }
+          ]
+        }
+      ],
+      "etymology": "speculation の動詞形",
+      "synonyms": [
+        {"word": "theorize", "trans": "理論を立てる"},
+        {"word": "surmise", "trans": "推測する"}
+      ],
+      "antonyms": [
+        {"word": "know", "trans": "知っている"},
+        {"word": "verify", "trans": "立証する"}
+      ],
+      "related": []
+    },
+    {
+      "number": "87-3",
+      "word": "speculative",
+      "pos": "形容詞",
+      "meaning": "推測に基づく、思索的な、投機的な",
+      "nuance": "事実に基づいた確実なものではなく、仮説段階であることを示します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The report is purely speculative and lacks hard evidence.",
+              "ja": "その報告書は純粋に推測に基づいたものであり、確かな証拠に欠けている。",
+              "highlight": "speculative"
+            }
+          ]
+        }
+      ],
+      "etymology": "speculate + ive",
+      "synonyms": [
+        {"word": "theoretical", "trans": "理論上の"},
+        {"word": "hypothetical", "trans": "仮説の"}
+      ],
+      "antonyms": [
+        {"word": "proven", "trans": "証明された"},
+        {"word": "concrete", "trans": "具体的な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 88,
+      "word": "communicate",
+      "pos": "動詞",
+      "meaning": "（情報などを）伝える、意思疎通する、通信する",
+      "nuance": "一方的に送るだけでなく、相手と情報を「共有する」というニュアンスが強い言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We can communicate with people all over the world via the internet.",
+              "ja": "私たちはインターネットを通じて世界中の人々と意思疎通ができる。",
+              "highlight": "communicate"
+            },
+            {
+              "en": "She communicated her ideas to the team clearly.",
+              "ja": "彼女は自分の考えをチームに明確に伝えた。",
+              "highlight": "communicated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 communis（共通の）→ 共通のものにする",
+      "synonyms": [
+        {"word": "convey", "trans": "伝える"},
+        {"word": "transmit", "trans": "送信する"},
+        {"word": "interact", "trans": "交流する"}
+      ],
+      "antonyms": [
+        {"word": "conceal", "trans": "隠す"},
+        {"word": "withhold", "trans": "与えずにおく"}
+      ],
+      "related": [
+        {"word": "community", "trans": "地域社会、共同体"},
+        {"word": "common", "trans": "共通の"}
+      ]
+    },
+    {
+      "number": 89,
+      "word": "communicative",
+      "pos": "形容詞",
+      "meaning": "伝達の、話し好きな、意思疎通を助ける",
+      "nuance": "情報を伝えるための能力や、社交的でオープンな性格を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The new language course focuses on communicative skills.",
+              "ja": "新しい語学コースはコミュニケーション能力に焦点を当てている。",
+              "highlight": "communicative"
+            },
+            {
+              "en": "He was not very communicative about his past.",
+              "ja": "彼は自分の過去についてはあまり語りたがらなかった（オープンではなかった）。",
+              "highlight": "communicative"
+            }
+          ]
+        }
+      ],
+      "etymology": "communicate + ive",
+      "synonyms": [
+        {"word": "talkative", "trans": "話し好きな"},
+        {"word": "expansive", "trans": "開放的な、社交的な"}
+      ],
+      "antonyms": [
+        {"word": "reserved", "trans": "控えめな、口の重い"},
+        {"word": "uncommunicative", "trans": "黙りがちな"}
+      ],
+      "related": []
+    },
+    {
+      "number": 90,
+      "word": "talkative",
+      "pos": "形容詞",
+      "meaning": "話し好きな、おしゃべりな",
+      "nuance": "「よく喋る」という日常的な表現です。文脈により親しみやすさ、あるいはやかましさを表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She becomes very talkative after a few glasses of wine.",
+              "ja": "彼女はワインを数杯飲むと非常におしゃべりになる。",
+              "highlight": "talkative"
+            }
+          ]
+        }
+      ],
+      "etymology": "talk + ative",
+      "synonyms": [
+        {"word": "garrulous", "trans": "（やかましく）おしゃべりな"},
+        {"word": "loquacious", "trans": "（雄弁に）おしゃべりな"},
+        {"word": "chatty", "trans": "親しみやすくおしゃべりな"}
+      ],
+      "antonyms": [
+        {"word": "silent", "trans": "静かな"},
+        {"word": "taciturn", "trans": "無口な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 91,
+      "word": "religious",
+      "pos": "形容詞",
+      "meaning": "宗教的な、信心深い、入念な",
+      "nuance": "特定の宗教を信じていることだけでなく、儀式のように「欠かさず、入念に行う」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The city is home to many different religious groups.",
+              "ja": "その都市には多くの異なる宗教団体が存在する。",
+              "highlight": "religious"
+            },
+            {
+              "en": "He reads the newspaper with religious attention every morning.",
+              "ja": "彼は毎朝、儀式のように入念な注意を払って新聞を読んでいる。",
+              "highlight": "religious"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 religio（神への敬虔、結びつき）",
+      "synonyms": [
+        {"word": "pious", "trans": "信心深い"},
+        {"word": "devout", "trans": "敬虔な"},
+        {"word": "spiritual", "trans": "精神的な"}
+      ],
+      "antonyms": [
+        {"word": "secular", "trans": "世俗的な"},
+        {"word": "atheistic", "trans": "無神論の"}
+      ],
+      "related": [
+        {"word": "religion", "trans": "名詞：宗教"}
+      ]
+    },
+    {
+      "number": 92,
+      "word": "genuinely",
+      "pos": "副詞",
+      "meaning": "心から、純粋に、本当に",
+      "nuance": "見せかけではなく、内側から湧き出る本当の感情であることを強調します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I am genuinely sorry for the mistake.",
+              "ja": "その間違いについては、心から（本当に）申し訳なく思っています。",
+              "highlight": "genuinely"
+            },
+            {
+              "en": "She was genuinely surprised by the news.",
+              "ja": "彼女はそのニュースに純粋に（本当に）驚いていた。",
+              "highlight": "genuinely"
+            }
+          ]
+        }
+      ],
+      "etymology": "genuine + ly",
+      "synonyms": [
+        {"word": "sincerely", "trans": "心から"},
+        {"word": "truly", "trans": "本当に"},
+        {"word": "authentically", "trans": "真正に"}
+      ],
+      "antonyms": [
+        {"word": "falsely", "trans": "偽って"},
+        {"word": "hypocritically", "trans": "偽善的に"}
+      ],
+      "related": []
+    },
+    {
+      "number": "92-2",
+      "word": "genuine",
+      "pos": "形容詞",
+      "meaning": "本物の、心からの、純粋な",
+      "nuance": "偽物（fake/artificial）ではない「正真正銘の」という意味です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "This is a genuine leather jacket.",
+              "ja": "これは本革（本物の革）のジャケットだ。",
+              "highlight": "genuine"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 genuinus（生まれつきの、本来の）",
+      "synonyms": [
+        {"word": "authentic", "trans": "本物の"},
+        {"word": "real", "trans": "現実の"},
+        {"word": "sincere", "trans": "誠実な"}
+      ],
+      "antonyms": [
+        {"word": "fake", "trans": "偽物の"},
+        {"word": "counterfeit", "trans": "模造の"},
+        {"word": "artificial", "trans": "人工的な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 93,
+      "word": "fully",
+      "pos": "副詞",
+      "meaning": "十分に、完全に、全く",
+      "nuance": "程度が100%に達していることを示します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I fully understand your concern.",
+              "ja": "あなたのご懸念は十分に理解しております。",
+              "highlight": "fully"
+            }
+          ]
+        }
+      ],
+      "etymology": "full + ly",
+      "synonyms": [
+        {"word": "completely", "trans": "完全に"},
+        {"word": "entirely", "trans": "まるごと"}
+      ],
+      "antonyms": [
+        {"word": "partially", "trans": "部分的に"},
+        {"word": "hardly", "trans": "ほとんど〜ない"}
+      ],
+      "related": []
+    },
+    {
+      "number": 94,
+      "word": "thorough",
+      "pos": "形容詞",
+      "meaning": "徹底的な、細心な、完全な",
+      "nuance": "最初から最後まで、隅々まで手抜きがない様子を指します。発音[θʌ́rou]に注意。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The police conducted a thorough investigation of the crime scene.",
+              "ja": "警察は犯行現場の徹底的な調査を行った。",
+              "highlight": "thorough"
+            },
+            {
+              "en": "He is very thorough in his work.",
+              "ja": "彼は仕事において非常に几帳面（徹底的）だ。",
+              "highlight": "thorough"
+            }
+          ]
+        }
+      ],
+      "etymology": "through（〜を通り抜けて）の変形 → 端から端まで",
+      "synonyms": [
+        {"word": "exhaustive", "trans": "徹底的な、消耗させるほどの"},
+        {"word": "rigorous", "trans": "厳格な"},
+        {"word": "comprehensive", "trans": "包括的な"}
+      ],
+      "antonyms": [
+        {"word": "superficial", "trans": "表面的な"},
+        {"word": "careless", "trans": "不注意な"},
+        {"word": "incomplete", "trans": "不完全な"}
+      ],
+      "related": [
+        {"word": "through", "trans": "前置詞：〜を通して"}
+      ]
+    },
+    {
+      "number": "94-2",
+      "word": "thoroughly",
+      "pos": "副詞",
+      "meaning": "徹底的に、全く、つくづく",
+      "nuance": "動詞を修飾して「完璧にやり遂げる」感じや、「本当に（嫌になった等）」という感情を強めます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The house was thoroughly cleaned before the guests arrived.",
+              "ja": "客が来る前に、家は徹底的に掃除された。",
+              "highlight": "thoroughly"
+            },
+            {
+              "en": "I am thoroughly confused by these instructions.",
+              "ja": "これらの指示には全く（ほとほと）困惑している。",
+              "highlight": "thoroughly"
+            }
+          ]
+        }
+      ],
+      "etymology": "thorough + ly",
+      "synonyms": [
+        {"word": "utterly", "trans": "全く"},
+        {"word": "completely", "trans": "完全に"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 95,
+      "word": "downright",
+      "pos": "形容詞、副詞",
+      "meaning": "（悪い意味で）全くの、露骨な、潔く、率直に",
+      "nuance": "主にネガティブな言葉（危険、失礼、嘘など）を強調し、「全くもって〜だ」と断定する時に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His behavior was downright rude.",
+              "ja": "彼の振る舞いは全くもって失礼だった。",
+              "highlight": "downright"
+            },
+            {
+              "en": "It's downright dangerous to drive in this fog.",
+              "ja": "この霧の中を運転するのは、実に（全く）危険だ。",
+              "highlight": "downright"
+            }
+          ]
+        }
+      ],
+      "etymology": "down（下に）+ right（まっすぐ）→ まっすぐ下に叩きつけるような強さ",
+      "synonyms": [
+        {"word": "absolute", "trans": "絶対的な"},
+        {"word": "plain", "trans": "明らかな、飾り気のない"},
+        {"word": "outright", "trans": "完全な、率直な"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 96,
+      "word": "sheer",
+      "pos": "形容詞",
+      "meaning": "全くの（強意）、純然たる、切り立った（崖など）、（布が）透き通るような",
+      "nuance": "「他には何もない、それそのもの」であることを強調します。例えば 'sheer luck' は「純粋に運だけで（他は関係なく）」という意味です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The climbers faced a sheer cliff of 500 meters.",
+              "ja": "登山家たちは500メートルの切り立った絶壁に直面した。",
+              "highlight": "sheer"
+            },
+            {
+              "en": "It was sheer coincidence that we met there.",
+              "ja": "そこで私たちが会ったのは、全くの（純然たる）偶然だった。",
+              "highlight": "sheer"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 scir（明るい、純粋な）",
+      "synonyms": [
+        {"word": "pure", "trans": "純粋な"},
+        {"word": "steep", "trans": "急勾配の"},
+        {"word": "utter", "trans": "全くの"}
+      ],
+      "antonyms": [
+        {"word": "slight", "trans": "わずかな"},
+        {"word": "gradual", "trans": "緩やかな"}
+      ],
+      "related": []
+    },
+    {
+      "number": "96-2",
+      "word": "totally",
+      "pos": "副詞",
+      "meaning": "完全に、すっかり",
+      "nuance": "会話でも非常に頻繁に使われる強調語です。全体がそうであることを示します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I totally forgot about the meeting.",
+              "ja": "会議のことをすっかり忘れていた。",
+              "highlight": "totally"
+            }
+          ]
+        }
+      ],
+      "etymology": "total + ly",
+      "synonyms": [
+        {"word": "wholly", "trans": "全体的に"},
+        {"word": "altogether", "trans": "完全に、全部で"}
+      ],
+      "antonyms": [
+        {"word": "partly", "trans": "部分的に"}
+      ],
+      "related": []
+    },
+    {
+      "number": "96-3",
+      "word": "utterly",
+      "pos": "副詞",
+      "meaning": "全く、完全に、徹底的に",
+      "nuance": "downright と同様、どちらかと言えばネガティブな感情（絶望、失敗、馬鹿げている等）を極限まで強調する際に好んで使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The plan was utterly impossible from the start.",
+              "ja": "その計画は最初から全く不可能だった。",
+              "highlight": "utterly"
+            },
+            {
+              "en": "She felt utterly helpless in that situation.",
+              "ja": "彼女はその状況で全く無力だと感じた。",
+              "highlight": "utterly"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 ut（外へ）→ 出し切る → 完全に",
+      "synonyms": [
+        {"word": "completely", "trans": "完全に"},
+        {"word": "totally", "trans": "すっかり"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "utter", "trans": "動詞：声を発する、形容詞：全くの"}
+      ]
+    },
+    {
+      "number": 97,
+      "word": "civilize",
+      "pos": "動詞",
+      "meaning": "〜を文明化する、教化する、洗練させる",
+      "nuance": "未開の状態から社会的な制度や教育を整えた状態へ導くことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Education is often seen as a way to civilize society.",
+              "ja": "教育はしばしば社会を文明化する手段と見なされる。",
+              "highlight": "civilize"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 civilis（市民の）",
+      "synonyms": [
+        {"word": "enlighten", "trans": "啓蒙する"},
+        {"word": "refine", "trans": "洗練させる"},
+        {"word": "educate", "trans": "教育する"}
+      ],
+      "antonyms": [
+        {"word": "barbarize", "trans": "野蛮にする"}
+      ],
+      "related": [
+        {"word": "civil", "trans": "市民の、礼儀正しい"},
+        {"word": "civilian", "trans": "民間人"}
+      ]
+    },
+    {
+      "number": "97-2",
+      "word": "civilization",
+      "pos": "名詞",
+      "meaning": "文明、文明化された社会",
+      "nuance": "高度な社会組織、文化、技術を持つ状態やその時代を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The ancient Mayan civilization flourished in Central America.",
+              "ja": "古代マヤ文明は中米で栄えた。",
+              "highlight": "civilization"
+            }
+          ]
+        }
+      ],
+      "etymology": "civilize の名詞形",
+      "synonyms": [
+        {"word": "culture", "trans": "文化"},
+        {"word": "society", "trans": "社会"}
+      ],
+      "antonyms": [
+        {"word": "barbarism", "trans": "野蛮状態"},
+        {"word": "savagery", "trans": "未開状態"}
+      ],
+      "related": []
+    },
+    
+
+[Image of ancient civilizations timeline chart]
+,
+    {
+      "number": 98,
+      "word": "bronze",
+      "pos": "名詞、形容詞",
+      "meaning": "青銅（ブロンズ）、青銅色、青銅製の",
+      "nuance": "銅とスズの合金。歴史的には「青銅器時代（the Bronze Age）」が重要です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The statue was cast in solid bronze.",
+              "ja": "その像は硬い青銅で鋳造されていた。",
+              "highlight": "bronze"
+            },
+            {
+              "en": "He won a bronze medal in the Olympics.",
+              "ja": "彼はオリンピックで銅メダル（青銅のメダル）を獲得した。",
+              "highlight": "bronze"
+            }
+          ]
+        }
+      ],
+      "etymology": "ペルシャ語 birinj（銅）に由来する説がある",
+      "synonyms": [
+        {"word": "copper alloy", "trans": "銅合金"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "brass", "trans": "真鍮（銅と亜鉛の合金）"}
+      ]
+    },
+    {
+      "number": 99,
+      "word": "conjecture",
+      "pos": "名詞、動詞",
+      "meaning": "推測、憶測、〜を推測する",
+      "nuance": "不完全な証拠に基づいて立てられた「あて推量」です。87番の speculation と似ていますが、より文語的で、数学や学術的な「未証明の仮説」にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The cause of the fire is a matter of pure conjecture.",
+              "ja": "出火原因は純粋に推測（憶測）の域を出ない。",
+              "highlight": "conjecture"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Critics conjectured that the painting was a forgery.",
+              "ja": "批評家たちはその絵が偽物ではないかと推測した。",
+              "highlight": "conjectured"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 com（共に）+ jacere（投げる）→ 情報を投げ集めて形にする",
+      "synonyms": [
+        {"word": "guess", "trans": "推測する"},
+        {"word": "surmise", "trans": "推測する"},
+        {"word": "hypothesis", "trans": "仮説"}
+      ],
+      "antonyms": [
+        {"word": "fact", "trans": "事実"},
+        {"word": "certainty", "trans": "確実性"}
+      ],
+      "related": []
+    },
+    {
+      "number": 100,
+      "word": "contemplate",
+      "pos": "動詞",
+      "meaning": "〜を熟考する、じっくり眺める、〜しようと考える（意図する）",
+      "nuance": "「神殿(temple)」が語源。静かに、注意深く、時間をかけて何かを見つめたり考えたりするイメージです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She sat by the lake to contemplate her future.",
+              "ja": "彼女は自分の将来について熟考するために湖のほとりに座った。",
+              "highlight": "contemplate"
+            },
+            {
+              "en": "He is contemplating a move to a different city.",
+              "ja": "彼は別の都市への引っ越しを（じっくりと）考えている。",
+              "highlight": "contemplating"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（強意）+ templum（神殿、場所）→ 占い師が聖域を観察する",
+      "synonyms": [
+        {"word": "consider", "trans": "よく考える"},
+        {"word": "ponder", "trans": "熟考する"},
+        {"word": "gaze", "trans": "凝視する"}
+      ],
+      "antonyms": [
+        {"word": "ignore", "trans": "無視する"},
+        {"word": "disregard", "trans": "軽視する"}
+      ],
+      "related": [
+        {"word": "contemplation", "trans": "名詞：熟考、凝視"}
+      ]
+    },
+    {
+      "number": "100-2",
+      "word": "contemplation",
+      "pos": "名詞",
+      "meaning": "熟考、沈思黙考、注視",
+      "nuance": "静寂の中で行われる深い思考の状態です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The peaceful garden is perfect for contemplation.",
+              "ja": "その静かな庭園は沈思黙考に最適だ。",
+              "highlight": "contemplation"
+            }
+          ]
+        }
+      ],
+      "etymology": "contemplate の名詞形",
+      "synonyms": [
+        {"word": "reflection", "trans": "内省"},
+        {"word": "meditation", "trans": "瞑想"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 101,
+      "word": "deduce",
+      "pos": "動詞",
+      "meaning": "〜を演繹（えんえき）する、推論する",
+      "nuance": "「下へ(de) 導く(duce)」。一般的な原理や既知の事実から、論理的に特定の結論を導き出す（消去法に近い）プロセスです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "What can we deduce from these test results?",
+              "ja": "これらの試験結果から何が推論できるだろうか？",
+              "highlight": "deduce"
+            },
+            {
+              "en": "Sherlock Holmes could deduce a person's life story from their appearance.",
+              "ja": "シャーロック・ホームズは外見からその人の半生を推論することができた。",
+              "highlight": "deduce"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（下へ）+ ducere（導く）",
+      "synonyms": [
+        {"word": "infer", "trans": "推論する"},
+        {"word": "reason", "trans": "論理的に考える"},
+        {"word": "conclude", "trans": "結論づける"}
+      ],
+      "antonyms": [
+        {"word": "induce", "trans": "帰納する（個別の事象から一般論を導く）"}
+      ],
+      "related": [
+        {"word": "deduction", "trans": "名詞：推論、控除"}
+      ]
+    },
+    
+    {
+      "number": "101-2",
+      "word": "deduction",
+      "pos": "名詞",
+      "meaning": "推論、演繹、差し引き、控除（額）",
+      "nuance": "論理の展開、または合計から何かを「差し引く」ことも指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "After tax deductions, her net pay was $3,000.",
+              "ja": "税金控除（差し引き）後、彼女の手取りは3,000ドルだった。",
+              "highlight": "deductions"
+            }
+          ]
+        }
+      ],
+      "etymology": "deduce の名詞形",
+      "synonyms": [
+        {"word": "inference", "trans": "推論"},
+        {"word": "subtraction", "trans": "引き算"}
+      ],
+      "antonyms": [
+        {"word": "addition", "trans": "加算"}
+      ],
+      "related": []
+    },
+    {
+      "number": 102,
+      "word": "meditate",
+      "pos": "動詞",
+      "meaning": "瞑想する、熟考する、〜を企てる",
+      "nuance": "精神を集中させて心を静めること。また、特定の目的のために深く考え抜くことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I try to meditate for ten minutes every morning.",
+              "ja": "私は毎朝10分間、瞑想するようにしている。",
+              "highlight": "meditate"
+            },
+            {
+              "en": "He meditated revenge for many years.",
+              "ja": "彼は長年、復讐を企てて（深く考えて）いた。",
+              "highlight": "meditated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 meditari（考える、計測する）",
+      "synonyms": [
+        {"word": "contemplate", "trans": "熟考する"},
+        {"word": "reflect", "trans": "反射する、内省する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "meditation", "trans": "名詞：瞑想"}
+      ]
+    },
+    {
+      "number": "102-2",
+      "word": "meditation",
+      "pos": "名詞",
+      "meaning": "瞑想、黙考、熟考",
+      "nuance": "心のリラックスや精神修養のプロセスです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Meditation can help reduce stress and anxiety.",
+              "ja": "瞑想はストレスや不安を軽減するのに役立つ。",
+              "highlight": "Meditation"
+            }
+          ]
+        }
+      ],
+      "etymology": "meditate の名詞形",
+      "synonyms": [
+        {"word": "zen", "trans": "禅"},
+        {"word": "rumination", "trans": "反芻、思い巡らすこと"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 103,
+      "word": "ponder",
+      "pos": "動詞",
+      "meaning": "〜を熟考する、〜を深く考える",
+      "nuance": "「重さを量る(pound)」が語源。ある問題の重要性や解決策について、頭の中で重みを量るようにじっくり考える際に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The senator pondered the consequences of the new law.",
+              "ja": "上院議員は新しい法律がもたらす結果について熟考した。",
+              "highlight": "pondered"
+            },
+            {
+              "en": "He stood silent, pondering what to do next.",
+              "ja": "彼は次に何をすべきか考え込みながら、黙って立っていた。",
+              "highlight": "pondering"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ponderare（重さを量る）",
+      "synonyms": [
+        {"word": "mull over", "trans": "〜をじっくり考える"},
+        {"word": "dwell on", "trans": "〜を長々と考える"},
+        {"word": "contemplate", "trans": "熟考する"}
+      ],
+      "antonyms": [
+        {"word": "dismiss", "trans": "退ける、忘れる"}
+      ],
+      "related": [
+        {"word": "ponderous", "trans": "形容詞：非常に重い、重苦しい"}
+      ]
+    },
+    {
+      "number": 104,
+      "word": "reckon",
+      "pos": "動詞",
+      "meaning": "〜を推定する、計算する、（主にイギリス・口語）〜だと思う",
+      "nuance": "ある程度の根拠を持って「〜だと計算する・見積もる」こと。日常会話では 'I think' に近い意味で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I reckon it will take about three hours to get there.",
+              "ja": "そこに着くのに3時間くらいかかると見積もっている（思う）。",
+              "highlight": "reckon"
+            },
+            {
+              "en": "She is reckoned to be the best player on the team.",
+              "ja": "彼女はチームで最高の選手だとみなされている（推定されている）。",
+              "highlight": "reckoned"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 gerecenian（説明する、整理する）",
+      "synonyms": [
+        {"word": "estimate", "trans": "見積もる"},
+        {"word": "calculate", "trans": "計算する"},
+        {"word": "suppose", "trans": "思う"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "reckoning", "trans": "名詞：計算、報い"}
+      ]
+    },
+    {
+      "number": 105,
+      "word": "bet",
+      "pos": "動詞、名詞",
+      "meaning": "（金などを）賭ける、きっと〜だと思う、賭け",
+      "nuance": "確信を持って「きっと〜だ」と予測すること。日常的には確信の強さを表す強調として使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I bet he forgot about the meeting.",
+              "ja": "絶対（きっと）彼は会議のことを忘れてるよ。",
+              "highlight": "bet"
+            },
+            {
+              "en": "He lost $100 on a bet at the races.",
+              "ja": "彼は競馬の賭けで100ドルを失った。",
+              "highlight": "bet"
+            }
+          ]
+        }
+      ],
+      "etymology": "16世紀の俗語。abate（誘惑する）に関連か",
+      "synonyms": [
+        {"word": "wager", "trans": "賭ける"},
+        {"word": "gamble", "trans": "ギャンブルをする"},
+        {"word": "predict", "trans": "予測する"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "105-2",
+      "word": "deliberate",
+      "pos": "形容詞、動詞",
+      "meaning": "故意の、慎重な、〜を熟考する（審議する）",
+      "nuance": "「天秤にかけて量る」が語源。わざと行う（故意の）こと、あるいは時間をかけて正式に議論・検討することを指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "It was a deliberate attempt to mislead us.",
+              "ja": "それは私たちを誤解させようとする故意の企てだった。",
+              "highlight": "deliberate"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The jury deliberated for five days.",
+              "ja": "陪審員団は5日間にわたって審議した（熟考した）。",
+              "highlight": "deliberated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（完全に）+ libra（天秤）",
+      "synonyms": [
+        {"word": "intentional", "trans": "意図的な"},
+        {"word": "cautious", "trans": "慎重な"},
+        {"word": "debate", "trans": "討論する"}
+      ],
+      "antonyms": [
+        {"word": "accidental", "trans": "偶然の"},
+        {"word": "impulsive", "trans": "衝動的な"}
+      ],
+      "related": [
+        {"word": "deliberation", "trans": "名詞：審議"}
+      ]
+    },
+    {
+      "number": "105-3",
+      "word": "conceive",
+      "pos": "動詞",
+      "meaning": "〜を思いつく、想像する、妊娠する",
+      "nuance": "心の中に新しい考えや生命を「取り込む(take in)」こと。70-2の conception の動詞形です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I cannot conceive of a situation where this would work.",
+              "ja": "これがうまくいくような状況は想像もつかない。",
+              "highlight": "conceive"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ capere（取る）",
+      "synonyms": [
+        {"word": "imagine", "trans": "想像する"},
+        {"word": "envision", "trans": "思い描く"},
+        {"word": "devise", "trans": "考案する"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "105-4",
+      "word": "deem",
+      "pos": "動詞",
+      "meaning": "（〜を…だと）判断する、みなす",
+      "nuance": "フォーマルな場面（裁判やビジネス）で、特定の基準に基づいて結論を下す際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The area was deemed unsafe for travel.",
+              "ja": "その地域は旅行には危険だと判断された。",
+              "highlight": "deemed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 deman（判断を下す）",
+      "synonyms": [
+        {"word": "consider", "trans": "みなす"},
+        {"word": "judge", "trans": "判断する"},
+        {"word": "regard", "trans": "みなす"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "105-5",
+      "word": "infer",
+      "pos": "動詞",
+      "meaning": "〜を推論する、〜を暗に意味する（口語的）",
+      "nuance": "「中へ(in) 運ぶ(fer)」。提示された証拠や事実の背後にある「隠れた意味」を読み取る力（行間を読む）を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I inferred from her tone that she was upset.",
+              "ja": "彼女の口調から、彼女が怒っているのだと推論した（察した）。",
+              "highlight": "inferred"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in（中へ）+ ferre（運ぶ）",
+      "synonyms": [
+        {"word": "deduce", "trans": "推論する"},
+        {"word": "gather", "trans": "推測する、察する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "inference", "trans": "名詞：推論"}
+      ]
+    },
+    {
+      "number": "105-6",
+      "word": "presume",
+      "pos": "動詞",
+      "meaning": "〜を推定する、〜と仮定する、あつかましくも〜する",
+      "nuance": "「前もって(pre) 取る(sume)」。確たる証拠がなくても、おそらくそうだろうと「見なす」ことです。法学の「推定（無罪など）」に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The missing passengers are presumed dead.",
+              "ja": "行方不明の乗客は死亡したものと推定されている。",
+              "highlight": "presumed"
+            },
+            {
+              "en": "I wouldn't presume to tell you how to do your job.",
+              "ja": "あなたに仕事のやり方を指示しようなんて、差し出がましい（あつかましい）真似はしません。",
+              "highlight": "presume"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 pre（前もって）+ sumere（取る）",
+      "synonyms": [
+        {"word": "assume", "trans": "仮定する（根拠なし）"},
+        {"word": "suppose", "trans": "思う"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "presumption", "trans": "名詞：推定、あつかましさ"}
+      ]
+    },
+    {
+      "number": "105-7",
+      "word": "presumption",
+      "pos": "名詞",
+      "meaning": "推定、仮定、あつかましさ",
+      "nuance": "当然そうだろうという思い込み、あるいは目上の人に対する礼儀を欠いた態度（＝許されていると勝手に思い込むこと）を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There is a general presumption that the law is fair.",
+              "ja": "法律は公正であるという一般的な推定（前提）がある。",
+              "highlight": "presumption"
+            }
+          ]
+        }
+      ],
+      "etymology": "presume の名詞形",
+      "synonyms": [
+        {"word": "assumption", "trans": "仮定"},
+        {"word": "arrogance", "trans": "傲慢、あつかましさ"}
+      ],
+      "antonyms": [
+        {"word": "humility", "trans": "謙遜"},
+        {"word": "modesty", "trans": "控えめ"}
+      ],
+      "related": []
+    },
+    {
+      "number": "105-8",
+      "word": "surmise",
+      "pos": "動詞、名詞",
+      "meaning": "〜を推測する、推測",
+      "nuance": "わずかな手掛かりから「おそらくこうだろう」と結論づけること。conjecture と非常に近いですが、やや直感的な響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "From his expression, I surmised that he had failed the exam.",
+              "ja": "彼の表情から、試験に落ちたのだと推測した。",
+              "highlight": "surmised"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 sur（上に）+ mettre（置く）",
+      "synonyms": [
+        {"word": "conjecture", "trans": "推測する"},
+        {"word": "suspect", "trans": "疑う、思う"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 106,
+      "word": "pious",
+      "pos": "形容詞",
+      "meaning": "信心深い、敬虔な、宗教的な",
+      "nuance": "神仏を深く敬い、宗教的な義務を忠実に守る様子を指します。時に「信心深いふりをした（偽善的な）」という皮肉で使われることもあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She was a pious woman who never missed Sunday service.",
+              "ja": "彼女は日曜の礼拝を一度も欠かしたことがない敬虔な女性だった。",
+              "highlight": "pious"
+            },
+            {
+              "en": "The politician made a pious speech about family values.",
+              "ja": "その政治家は家族の価値観について、もっともらしい（信心がまし）演説をした。",
+              "highlight": "pious"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 pius（義務を果たす、敬虔な）",
+      "synonyms": [
+        {"word": "devout", "trans": "敬虔な"},
+        {"word": "religious", "trans": "宗教的な"},
+        {"word": "reverent", "trans": "うやうやしい"}
+      ],
+      "antonyms": [
+        {"word": "impious", "trans": "不信心な"},
+        {"word": "irreligious", "trans": "無宗教の"},
+        {"word": "profane", "trans": "世俗的な、神聖を汚す"}
+      ],
+      "related": [
+        {"word": "piety", "trans": "名詞：敬虔、信心"}
+      ]
+    },
+    {
+      "number": "106-2",
+      "word": "impious",
+      "pos": "形容詞",
+      "meaning": "不信心な、神をも恐れぬ、不敬な",
+      "nuance": "宗教的な信念や神聖なものに対して、敬意を欠いている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The king was accused of impious behavior toward the temple.",
+              "ja": "王は神殿に対する不敬な振る舞いで非難された。",
+              "highlight": "impious"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（否定）+ pious",
+      "synonyms": [
+        {"word": "irreverent", "trans": "不敬な"},
+        {"word": "godless", "trans": "神を信じない"}
+      ],
+      "antonyms": [
+        {"word": "pious", "trans": "信心深い"},
+        {"word": "holy", "trans": "神聖な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 107,
+      "word": "divine",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "神の、神聖な、素晴らしい、神学者、〜を予言する（見抜く）",
+      "nuance": "「神に関係する(deity)」が核心。現代では「（神のように）最高に素晴らしい」という強調でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The sunrise over the mountains was a divine sight.",
+              "ja": "山に昇る朝日は神々しい（素晴らしい）光景だった。",
+              "highlight": "divine"
+            },
+            {
+              "en": "Many cultures believe in divine intervention.",
+              "ja": "多くの文化が神の介入（神助）を信じている。",
+              "highlight": "divine"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：見抜く）",
+          "examples": [
+            {
+              "en": "She managed to divine the truth behind his lies.",
+              "ja": "彼女はどうにか彼の嘘の裏にある真実を見抜いた。",
+              "highlight": "divine"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 divus（神）",
+      "synonyms": [
+        {"word": "heavenly", "trans": "天の、素晴らしい"},
+        {"word": "sacred", "trans": "神聖な"},
+        {"word": "predict", "trans": "予言する"}
+      ],
+      "antonyms": [
+        {"word": "mortal", "trans": "死すべき運命の、人間の"},
+        {"word": "earthly", "trans": "地上の、俗世の"}
+      ],
+      "related": [
+        {"word": "deity", "trans": "神、女神"},
+        {"word": "divinity", "trans": "神性"}
+      ]
+    },
+    {
+      "number": 108,
+      "word": "theology",
+      "pos": "名詞",
+      "meaning": "神学",
+      "nuance": "宗教的な教義や神の本質について、学問的に研究することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He went to university to study Christian theology.",
+              "ja": "彼はキリスト教神学を学ぶために大学へ行った。",
+              "highlight": "theology"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 theos（神）+ logia（学問）",
+      "synonyms": [
+        {"word": "religious studies", "trans": "宗教学"},
+        {"word": "dogma", "trans": "教義"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "theologian", "trans": "神学者"},
+        {"word": "atheism", "trans": "無神論（a=無い + theo=神）"}
+      ]
+    },
+    {
+      "number": 109,
+      "word": "preacher",
+      "pos": "名詞",
+      "meaning": "説教者、伝道師",
+      "nuance": "教会の礼拝などで宗教的な教え（説教）を説く人を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The preacher delivered a powerful sermon about forgiveness.",
+              "ja": "その説教者は許しについての力強い説教を行った。",
+              "highlight": "preacher"
+            }
+          ]
+        }
+      ],
+      "etymology": "preach（説教する）+ er",
+      "synonyms": [
+        {"word": "minister", "trans": "牧師"},
+        {"word": "missionary", "trans": "宣教師"},
+        {"word": "clergyman", "trans": "聖職者"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "preach", "trans": "動詞：説教する"}
+      ]
+    },
+    {
+      "number": 110,
+      "word": "monk",
+      "pos": "名詞",
+      "meaning": "修道士、僧侶",
+      "nuance": "「一人(mono)」が語源。修道院などで禁欲的な共同生活を送り、修行に励む男性を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The monks spend most of their day in prayer and silence.",
+              "ja": "修道士たちは一日の大半を祈りと沈黙の中で過ごす。",
+              "highlight": "monks"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 monakhos（独り、孤独な）",
+      "synonyms": [
+        {"word": "friar", "trans": "修道士（特に托鉢修道会の）"},
+        {"word": "priest", "trans": "聖職者"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "monastery", "trans": "修道院"}
+      ]
+    },
+    {
+      "number": 111,
+      "word": "nun",
+      "pos": "名詞",
+      "meaning": "修道女、尼僧",
+      "nuance": "神に身を捧げ、修道院で生活する女性を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She decided to become a nun and joined a convent.",
+              "ja": "彼女は修道女になることを決め、女子修道院に入った。",
+              "highlight": "nun"
+            }
+          ]
+        }
+      ],
+      "etymology": "後期ラテン語 nonna（尼、老婦人）",
+      "synonyms": [
+        {"word": "sister", "trans": "修道女、シスター"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "convent", "trans": "女子修道院"}
+      ]
+    },
+    {
+      "number": 112,
+      "word": "hymn",
+      "pos": "名詞",
+      "meaning": "賛美歌、聖歌",
+      "nuance": "神を称えるために歌われる宗教的な歌です。比喩的に「〜を称える歌」としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The congregation sang a hymn at the start of the service.",
+              "ja": "会衆は礼拝の始まりに賛美歌を歌った。",
+              "highlight": "hymn"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 hymnos（祝歌、賛歌）",
+      "synonyms": [
+        {"word": "psalm", "trans": "賛美歌、詩篇"},
+        {"word": "anthem", "trans": "祝歌、国歌"},
+        {"word": "carol", "trans": "祝歌（特にクリスマス）"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 113,
+      "word": "sincere",
+      "pos": "形容詞",
+      "meaning": "誠実な、心からの、偽りのない",
+      "nuance": "「混ぜ物のない(pure)」が語源。感情や意図に嘘がなく、純粋であることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please accept my sincere apologies for the delay.",
+              "ja": "遅れに対する私の心からの謝罪を受け入れてください。",
+              "highlight": "sincere"
+            },
+            {
+              "en": "He seemed like a very sincere young man.",
+              "ja": "彼は非常に誠実な若者のように見えた。",
+              "highlight": "sincere"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sincerus（純粋な、混じりけのない）",
+      "synonyms": [
+        {"word": "honest", "trans": "正直な"},
+        {"word": "genuine", "trans": "本物の、心からの"},
+        {"word": "frank", "trans": "率直な"}
+      ],
+      "antonyms": [
+        {"word": "insincere", "trans": "不誠実な"},
+        {"word": "hypocritical", "trans": "偽善的な"},
+        {"word": "deceptive", "trans": "人を欺くような"}
+      ],
+      "related": [
+        {"word": "sincerely", "trans": "副詞：心から"}
+      ]
+    },
+    {
+      "number": "113-2",
+      "word": "sincerely",
+      "pos": "副詞",
+      "meaning": "心から、誠実に、本当に",
+      "nuance": "手紙の結び（Sincerely yours）や、自分の真剣さを強調する際によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I sincerely believe that this is the best decision for us.",
+              "ja": "これが私たちにとって最善の決断だと心から信じています。",
+              "highlight": "sincerely"
+            }
+          ]
+        }
+      ],
+      "etymology": "sincere + ly",
+      "synonyms": [
+        {"word": "truly", "trans": "本当に"},
+        {"word": "genuinely", "trans": "心から"}
+      ],
+      "antonyms": [
+        {"word": "falsely", "trans": "偽って"}
+      ],
+      "related": []
+    },
+    {
+      "number": "113-3",
+      "word": "sincerity",
+      "pos": "名詞",
+      "meaning": "誠実、真実、真心",
+      "nuance": "言動と内面の一致を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I don't doubt the sincerity of his intentions.",
+              "ja": "彼の意図の誠実さを疑ってはいない。",
+              "highlight": "sincerity"
+            }
+          ]
+        }
+      ],
+      "etymology": "sincere の名詞形",
+      "synonyms": [
+        {"word": "honesty", "trans": "正直"},
+        {"word": "integrity", "trans": "誠実、高潔"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 114,
+      "word": "sober",
+      "pos": "形容詞、動詞",
+      "meaning": "しらふの、真面目な、落ち着いた、〜を酔いから覚ます",
+      "nuance": "お酒を飲んでいない状態だけでなく、感情に流されず、現実的で「地に足がついた」真面目な態度を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "He was sober enough to drive home.",
+              "ja": "彼は家まで運転できるほどしらふだった。",
+              "highlight": "sober"
+            },
+            {
+              "en": "We need to make a sober assessment of the situation.",
+              "ja": "私たちは状況を冷静に（落ち着いて）評価する必要がある。",
+              "highlight": "sober"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sobrius（酔っていない、節制した）",
+      "synonyms": [
+        {"word": "serious", "trans": "真面目な"},
+        {"word": "sensible", "trans": "分別のある"},
+        {"word": "temperate", "trans": "節制した"}
+      ],
+      "antonyms": [
+        {"word": "drunk", "trans": "酔った"},
+        {"word": "intoxicated", "trans": "酔った、夢中になった"},
+        {"word": "frivolous", "trans": "不真面目な、浮ついた"}
+      ],
+      "related": [
+        {"word": "sobriety", "trans": "名詞：しらふ、節制"}
+      ]
+    },
+    {
+      "number": 115,
+      "word": "solemn",
+      "pos": "形容詞",
+      "meaning": "厳粛な、重々しい、真剣な",
+      "nuance": "「毎年の、儀式の」が語源。お葬式や式典などのように、非常に真面目で重苦しく、冗談が通じないような雰囲気です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A solemn silence fell over the crowd during the memorial.",
+              "ja": "追悼式の間、群衆の上に厳粛な沈黙が訪れた。",
+              "highlight": "solemn"
+            },
+            {
+              "en": "He made a solemn promise to help his friend.",
+              "ja": "彼は友人を助けると厳粛な（真剣な）約束をした。",
+              "highlight": "solemn"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sollemnis（毎年の、正式な儀式の）",
+      "synonyms": [
+        {"word": "grave", "trans": "重大な、厳粛な"},
+        {"word": "formal", "trans": "正式な"},
+        {"word": "serious", "trans": "深刻な"}
+      ],
+      "antonyms": [
+        {"word": "cheerful", "trans": "陽気な"},
+        {"word": "lighthearted", "trans": "気楽な"},
+        {"word": "informal", "trans": "非公式な"}
+      ],
+      "related": [
+        {"word": "solemnity", "trans": "名詞：厳粛さ"}
+      ]
+    },
+    {
+      "number": 116,
+      "word": "authentic",
+      "pos": "形容詞",
+      "meaning": "本物の、真正の、信頼できる",
+      "nuance": "「自ら(auto) 成し遂げる」が語源。偽物やコピーではなく、出所が確かで「正真正銘の」本物であることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They serve authentic Italian pizza at that restaurant.",
+              "ja": "あのレストランでは本場の（本物の）イタリアンピザを出している。",
+              "highlight": "authentic"
+            },
+            {
+              "en": "Experts confirmed that the signature was authentic.",
+              "ja": "専門家は、その署名が本物であることを確認した。",
+              "highlight": "authentic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 authentikos（本物の、自ら権限を持つ）",
+      "synonyms": [
+        {"word": "genuine", "trans": "本物の"},
+        {"word": "real", "trans": "現実の"},
+        {"word": "veritable", "trans": "真正の"}
+      ],
+      "antonyms": [
+        {"word": "fake", "trans": "偽の"},
+        {"word": "counterfeit", "trans": "模造の"},
+        {"word": "bogus", "trans": "いんちきな"}
+      ],
+      "related": [
+        {"word": "authenticity", "trans": "名詞：真正、信頼性"}
+      ]
+    },
+    {
+      "number": 117,
+      "word": "loyal",
+      "pos": "形容詞",
+      "meaning": "忠実な、誠実な、義理堅い",
+      "nuance": "「法(legal)」が語源。特定の国、君主、友人、あるいは信念に対して、裏切らずに支え続ける「忠誠心」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He remained loyal to his principles even under pressure.",
+              "ja": "彼は圧力を受けても、自分の信念に忠実であり続けた。",
+              "highlight": "loyal"
+            },
+            {
+              "en": "Dogs are known for being loyal companions.",
+              "ja": "犬は忠実な相棒として知られている。",
+              "highlight": "loyal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 lex（法）→ 法に基づいた義務を守る",
+      "synonyms": [
+        {"word": "faithful", "trans": "誠実な"},
+        {"word": "devoted", "trans": "献身的な"},
+        {"word": "steadfast", "trans": "不変の"}
+      ],
+      "antonyms": [
+        {"word": "disloyal", "trans": "不忠な"},
+        {"word": "traitorous", "trans": "裏切り者の"},
+        {"word": "fickle", "trans": "移り気な"}
+      ],
+      "related": [
+        {"word": "loyalty", "trans": "名詞：忠誠心"}
+      ]
+    },
+    {
+      "number": 118,
+      "word": "integrity",
+      "pos": "名詞",
+      "meaning": "高潔、誠実、完全な状態",
+      "nuance": "「完全な、欠けていない(integer)」が語源。道徳的な一貫性があり、誰も見ていないところでも正しいことをする「気高さ」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A leader without integrity cannot be trusted.",
+              "ja": "高潔さ（誠実さ）のないリーダーは信頼できない。",
+              "highlight": "integrity"
+            },
+            {
+              "en": "They questioned the structural integrity of the bridge after the storm.",
+              "ja": "嵐の後、彼らはその橋の構造的な完全性（健全性）を疑問視した。",
+              "highlight": "integrity"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 integer（まるごとの、完全な）",
+      "synonyms": [
+        {"word": "honesty", "trans": "正直"},
+        {"word": "probity", "trans": "誠実、剛直"},
+        {"word": "completeness", "trans": "完全性"}
+      ],
+      "antonyms": [
+        {"word": "corruption", "trans": "汚職、腐敗"},
+        {"word": "dishonesty", "trans": "不誠実"}
+      ],
+      "related": [
+        {"word": "integer", "trans": "名詞：整数"}
+      ]
+    }
+  ]
+}
