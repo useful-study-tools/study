@@ -16,14 +16,11 @@ def get_json_file_list(base_path):
     english_dictionary/ フォルダ内にある JSON ファイルのリストを取得。
     JavaScriptから読み込むため、HTMLからの相対パスを返す。
     """
-    # 基準ディレクトリ内のJSONを検索
     json_pattern = str(base_path / "vocabulary_data*.json")
     files = glob(json_pattern)
     
-    # ファイル名のみを抽出してソート
     json_filenames = [os.path.basename(f) for f in files]
     
-    # vocabulary_data.jsonを先頭にし、残りを数字順にソート
     def sort_key(name):
         if name == 'vocabulary_data.json': return 0
         match = re.search(r'_(\d+)\.json', name)
@@ -32,11 +29,9 @@ def get_json_file_list(base_path):
     return sorted(json_filenames, key=sort_key)
 
 def generate_html():
-    # パス設定: english_dictionary フォルダを基準とする
     base_dir = Path("english_dictionary")
     output_file = base_dir / "exercise.html"
 
-    # チャプターをグループ化
     grouped = defaultdict(list)
     for s_num, title in sorted(CHAPTER_MAP.items()):
         group_name = re.search(r'【(.*?)】', title).group(1) if '【' in title else "その他"
@@ -44,7 +39,6 @@ def generate_html():
         grouped[group_name].append({"id": s_num, "label": display_label})
     
     chapters_js = json.dumps(dict(grouped), ensure_ascii=False)
-    # HTMLと同じ階層にあるJSONファイル名を取得
     json_files_js = json.dumps(get_json_file_list(base_dir))
     
     html_template = f"""<!DOCTYPE html>
@@ -162,11 +156,12 @@ const GROUPED_CHAPTERS = {chapters_js};
 const JSON_FILES = {json_files_js};
 let ALL_WORDS = [];
 
+// 修正点: Promise.allによる一斉読み込みを避け、1つずつ読み込むことでクラッシュを防ぐ
 async function loadAllData() {{
     try {{
-        // JSONファイルはHTMLと同じ階層にある想定でfetch
-        const results = await Promise.all(JSON_FILES.map(file => fetch(file).then(r => r.json())));
-        results.forEach(data => {{
+        for (const file of JSON_FILES) {{
+            const response = await fetch(file);
+            const data = await response.json();
             if (data.words) {{
                 data.words.forEach(w => {{
                     ALL_WORDS.push({{ 
@@ -177,7 +172,7 @@ async function loadAllData() {{
                     }});
                 }});
             }}
-        }});
+        }}
         document.getElementById('loadingStatus').style.display = 'none';
         document.getElementById('setup').classList.add('active');
         document.getElementById('startBtn').disabled = false;
