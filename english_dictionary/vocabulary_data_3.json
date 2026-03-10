@@ -1,0 +1,988 @@
+{
+  "words": [
+    {
+      "number": 46,
+      "word": "flutter",
+      "pos": "動詞、名詞",
+      "meaning": "（旗などが）はためく、（鳥が）羽ばたく、（鼓動が）ドキドキする、はためき、動揺",
+      "nuance": "不規則で軽やか、かつ速い動きを指します。木の葉や蝶の動き、不安な心境によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The flags fluttered in the light breeze.",
+              "ja": "旗がそよ風にパタパタとはためいていた。",
+              "highlight": "fluttered"
+            },
+            {
+              "en": "My heart fluttered when I saw the exam results.",
+              "ja": "試験結果を見たとき、心臓がドキドキした（高鳴った）。",
+              "highlight": "fluttered"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "There was a sudden flutter of wings as the birds flew away.",
+              "ja": "鳥たちが飛び立つとき、突然の羽ばたきの音がした。",
+              "highlight": "flutter"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 flotian（浮かぶ）に由来する擬音語的表現",
+      "synonyms": [
+        {"word": "flap", "trans": "パタパタ動く"},
+        {"word": "quiver", "trans": "震える"},
+        {"word": "waver", "trans": "揺らぐ"}
+      ],
+      "antonyms": [
+        {"word": "be still", "trans": "静止する"},
+        {"word": "steady", "trans": "固定する"}
+      ],
+      "related": [
+        {"word": "float", "trans": "浮かぶ"}
+      ]
+    },
+    {
+      "number": 47,
+      "word": "briefly",
+      "pos": "副詞",
+      "meaning": "簡潔に、短時間だけ",
+      "nuance": "時間的な短さ、または言葉の少なさを表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please explain the situation briefly.",
+              "ja": "状況を簡潔に説明してください。",
+              "highlight": "briefly"
+            },
+            {
+              "en": "They met briefly at the conference.",
+              "ja": "彼らは会議で短時間だけ会った。",
+              "highlight": "briefly"
+            }
+          ]
+        }
+      ],
+      "etymology": "brief + ly",
+      "synonyms": [
+        {"word": "shortly", "trans": "まもなく、手短に"},
+        {"word": "concisely", "trans": "簡明に"},
+        {"word": "momentarily", "trans": "一瞬だけ"}
+      ],
+      "antonyms": [
+        {"word": "lengthily", "trans": "長々と"},
+        {"word": "extensively", "trans": "広範囲に、詳細に"},
+        {"word": "permanently", "trans": "永久に"}
+      ],
+      "related": []
+    },
+    {
+      "number": "47-2",
+      "word": "brief",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "短時間の、簡潔な、要約、〜を要約する、〜に概要を伝える",
+      "nuance": "形・副・動・名すべてで「短さ」がキーワードです。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The meeting was quite brief.",
+              "ja": "会議はかなり短時間だった。",
+              "highlight": "brief"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The captain briefed the crew before the mission.",
+              "ja": "キャプテンは任務の前に乗組員に概要を説明した（ブリーフィングした）。",
+              "highlight": "briefed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 brevis（短い）",
+      "synonyms": [
+        {"word": "short", "trans": "短い"},
+        {"word": "summary", "trans": "要約"},
+        {"word": "inform", "trans": "知らせる"}
+      ],
+      "antonyms": [
+        {"word": "long", "trans": "長い"},
+        {"word": "detailed", "trans": "詳細な"}
+      ],
+      "related": [
+        {"word": "brevity", "trans": "名詞：簡潔さ"}
+      ]
+    },
+    {
+      "number": 48,
+      "word": "temporal",
+      "pos": "形容詞",
+      "meaning": "時間の、一時的な、世俗の（宗教的でない）",
+      "nuance": "「永遠（eternal）」や「精神的（spiritual）」なものに対し、この世の「時間的制約がある」ものを指す学術的な言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The study examined the temporal sequence of the events.",
+              "ja": "その研究は、出来事の時間的な順序を調査した。",
+              "highlight": "temporal"
+            },
+            {
+              "en": "The Church lost much of its temporal power in the 19th century.",
+              "ja": "教会は19世紀にその世俗的な権力の多くを失った。",
+              "highlight": "temporal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tempus（時間）",
+      "synonyms": [
+        {"word": "secular", "trans": "非宗教的な、世俗の"},
+        {"word": "temporary", "trans": "一時的な"},
+        {"word": "chronological", "trans": "年代順の"}
+      ],
+      "antonyms": [
+        {"word": "eternal", "trans": "永遠の"},
+        {"word": "spiritual", "trans": "精神的な"},
+        {"word": "timeless", "trans": "時間を超えた"}
+      ],
+      "related": [
+        {"word": "temporary", "trans": "形容詞：一時的な"}
+      ]
+    },
+    {
+      "number": 49,
+      "word": "copulate",
+      "pos": "動詞",
+      "meaning": "交尾する、交わる",
+      "nuance": "生物学的な文脈で、生殖のために交わることを指す硬い言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The research observed how certain insects copulate.",
+              "ja": "その研究は、特定の昆虫がどのように交尾するかを観察した。",
+              "highlight": "copulate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 co（共に）+ apere（つなぐ）",
+      "synonyms": [
+        {"word": "mate", "trans": "交尾する、つがう"},
+        {"word": "breed", "trans": "繁殖する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "copulation", "trans": "名詞：交尾"},
+        {"word": "couple", "trans": "一対、カップル"}
+      ]
+    },
+    {
+      "number": 50,
+      "word": "cue",
+      "pos": "名詞、動詞",
+      "meaning": "合図、きっかけ、〜に合図を送る",
+      "nuance": "演劇で出番を知らせる合図や、行動を開始するヒントを指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The actor missed his cue and didn't come on stage.",
+              "ja": "その俳優は自分の合図を見逃し、ステージに上がらなかった。",
+              "highlight": "cue"
+            },
+            {
+              "en": "Visual cues help us understand what others are feeling.",
+              "ja": "視覚的なヒント（手がかり）は、他人が何を感じているか理解する助けになる。",
+              "highlight": "cues"
+            }
+          ]
+        }
+      ],
+      "etymology": "不明（劇の台本で 'quando' (いつ) を示す 'Q' からという説がある）",
+      "synonyms": [
+        {"word": "signal", "trans": "信号、合図"},
+        {"word": "hint", "trans": "ヒント"},
+        {"word": "prompt", "trans": "促すもの"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 51,
+      "word": "glue",
+      "pos": "名詞、動詞",
+      "meaning": "接着剤、糊、〜を接着剤で貼る、〜を釘付けにする",
+      "nuance": "比喩的に「テレビに釘付けになる（be glued to TV）」のように使われることも多いです。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "He glued the pieces of the broken vase together.",
+              "ja": "彼は壊れた花瓶の破片を接着剤でつなぎ合わせた。",
+              "highlight": "glued"
+            },
+            {
+              "en": "The kids were glued to the screen all afternoon.",
+              "ja": "子供たちは午後ずっと画面に釘付けだった。",
+              "highlight": "glued"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 glus（膠・糊）",
+      "synonyms": [
+        {"word": "adhesive", "trans": "接着剤"},
+        {"word": "stick", "trans": "貼る"},
+        {"word": "fasten", "trans": "固定する"}
+      ],
+      "antonyms": [
+        {"word": "detach", "trans": "切り離す"},
+        {"word": "separate", "trans": "分ける"}
+      ],
+      "related": []
+    },
+    {
+      "number": "51-2",
+      "word": "affix",
+      "pos": "動詞、名詞",
+      "meaning": "〜を添付する、〜を貼り付ける、（言語）接辞",
+      "nuance": "公式な文書にスタンプを押したり、手紙に切手を貼ったりするような「添える」ニュアンスです。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Please affix a recent photograph to your application form.",
+              "ja": "申込書に最近の写真を貼り付けてください。",
+              "highlight": "affix"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad（〜へ）+ figere（固定する）",
+      "synonyms": [
+        {"word": "attach", "trans": "添付する"},
+        {"word": "append", "trans": "付加する"}
+      ],
+      "antonyms": [
+        {"word": "remove", "trans": "取り除く"}
+      ],
+      "related": [
+        {"word": "prefix", "trans": "接頭辞"},
+        {"word": "suffix", "trans": "接尾辞"}
+      ]
+    },
+    {
+      "number": "51-3",
+      "word": "paste",
+      "pos": "名詞、動詞",
+      "meaning": "のり、ペースト（練り物）、〜を貼る、〜を（PC上で）貼り付ける",
+      "nuance": "「Copy and Paste」でおなじみですが、水分を含んだ柔らかい物質全般を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Mix the flour and water to form a thick paste.",
+              "ja": "小麦粉と水を混ぜて、どろっとしたペースト状にしてください。",
+              "highlight": "paste"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Copy the text and paste it into a new document.",
+              "ja": "テキストをコピーして、新しいドキュメントに貼り付けてください。",
+              "highlight": "paste"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 pastē（大麦の粥）",
+      "synonyms": [
+        {"word": "adhesive", "trans": "接着剤"},
+        {"word": "fasten", "trans": "固定する"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "51-4",
+      "word": "adhesive",
+      "pos": "形容詞、名詞",
+      "meaning": "粘着性の、接着剤",
+      "nuance": "glue よりも技術的・工業的な響きがある言葉です。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "Use adhesive tape to seal the box.",
+              "ja": "箱を密閉するために粘着テープ（セロハンテープ等）を使ってください。",
+              "highlight": "adhesive"
+            }
+          ]
+        }
+      ],
+      "etymology": "adhere（くっつく） + ive",
+      "synonyms": [
+        {"word": "sticky", "trans": "べたつく"},
+        {"word": "glue", "trans": "接着剤"}
+      ],
+      "antonyms": [
+        {"word": "slippery", "trans": "滑りやすい"}
+      ],
+      "related": [
+        {"word": "adhere", "trans": "動詞：固執する、くっつく"}
+      ]
+    },
+    {
+      "number": 52,
+      "word": "cling",
+      "pos": "動詞",
+      "meaning": "しがみつく、固執する、（服などが）体にぴったりつく",
+      "nuance": "不安や愛情から強く離れないようにする、あるいは物理的に吸着することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The child clung to his mother's hand in the crowd.",
+              "ja": "人混みの中で、その子は母親の手にしがみついた。",
+              "highlight": "clung"
+            },
+            {
+              "en": "Some people cling to old traditions.",
+              "ja": "古い伝統にしがみつく（固執する）人々もいる。",
+              "highlight": "cling"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 clingan（固まる、くっつく）",
+      "synonyms": [
+        {"word": "stick", "trans": "くっつく"},
+        {"word": "adhere", "trans": "固執する"},
+        {"word": "hold on", "trans": "掴んで離さない"}
+      ],
+      "antonyms": [
+        {"word": "let go", "trans": "放す"},
+        {"word": "release", "trans": "解放する"}
+      ],
+      "related": [
+        {"word": "clingy", "trans": "形容詞：依存心の強い"}
+      ]
+    },
+    {
+      "number": 53,
+      "word": "present",
+      "pos": "動詞、形容詞、名詞",
+      "meaning": "〜を提示する、〜を贈る、現在の、出席している、贈り物、現在",
+      "nuance": "アクセントの位置で意味が変わります。動詞は後ろ[prizént]、形容詞・名詞は前[préznt]です。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The winner was presented with a gold medal.",
+              "ja": "勝者には金メダルが授与された（贈られた）。",
+              "highlight": "presented"
+            },
+            {
+              "en": "She presented her ideas at the meeting.",
+              "ja": "彼女は会議で自分のアイデアを提示（発表）した。",
+              "highlight": "presented"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "How many people were present at the party?",
+              "ja": "パーティーには何人の人が出席していましたか？",
+              "highlight": "present"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 prae（前に）+ esse（いる）→ 目の前にいる・出す",
+      "synonyms": [
+        {"word": "give", "trans": "与える"},
+        {"word": "current", "trans": "現在の"},
+        {"word": "gift", "trans": "贈り物"}
+      ],
+      "antonyms": [
+        {"word": "absent", "trans": "欠席の"},
+        {"word": "past", "trans": "過去の"},
+        {"word": "withdraw", "trans": "撤回する"}
+      ],
+      "related": [
+        {"word": "presentation", "trans": "名詞：発表"},
+        {"word": "presence", "trans": "名詞：存在、出席"}
+      ]
+    },
+    {
+      "number": 54,
+      "word": "bestow",
+      "pos": "動詞",
+      "meaning": "（名誉・称号などを）授ける、贈る",
+      "nuance": "単なるプレゼントではなく、上位の者が下位の者へ、あるいは敬意を込めて公に授与する際に使われる非常に格調高い言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The university bestowed an honorary degree on the artist.",
+              "ja": "大学はその芸術家に名誉学位を授与した。",
+              "highlight": "bestowed"
+            }
+          ]
+        }
+      ],
+      "etymology": "be（強調）+ stow（配置する、場所）",
+      "synonyms": [
+        {"word": "confer", "trans": "授与する"},
+        {"word": "grant", "trans": "与える"},
+        {"word": "award", "trans": "授与する"}
+      ],
+      "antonyms": [
+        {"word": "take away", "trans": "奪い去る"},
+        {"word": "deprive", "trans": "剥奪する"}
+      ],
+      "related": []
+    },
+    {
+      "number": 55,
+      "word": "scant",
+      "pos": "形容詞",
+      "meaning": "乏しい、わずかな、不十分な",
+      "nuance": "期待される量に対して「足りない」という批判的なニュアンスを含むことがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The police have scant evidence to convict him.",
+              "ja": "警察には、彼を有罪にするための証拠がほとんどない（乏しい）。",
+              "highlight": "scant"
+            }
+          ]
+        }
+      ],
+      "etymology": "古ノルド語 skamt（短い）",
+      "synonyms": [
+        {"word": "limited", "trans": "限られた"},
+        {"word": "scarce", "trans": "不足している"},
+        {"word": "meager", "trans": "貧弱な、わずかな"}
+      ],
+      "antonyms": [
+        {"word": "abundant", "trans": "豊富な"},
+        {"word": "plentiful", "trans": "たっぷりの"}
+      ],
+      "related": [
+        {"word": "scanty", "trans": "形容詞：乏しい"}
+      ]
+    },
+    {
+      "number": "55-2",
+      "word": "scanty",
+      "pos": "形容詞",
+      "meaning": "（量や大きさが）乏しい、不十分な、（服が）露出の多い",
+      "nuance": "scant とほぼ同じですが、服の布地が足りない（＝肌の露出が多い）という意味でもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The reports offered only scanty details about the incident.",
+              "ja": "その報告書は、事件についてわずかな詳細しか提供していなかった。",
+              "highlight": "scanty"
+            }
+          ]
+        }
+      ],
+      "etymology": "scant + y",
+      "synonyms": [
+        {"word": "sparse", "trans": "まばらな"},
+        {"word": "insufficient", "trans": "不十分な"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 56,
+      "word": "quartz",
+      "pos": "名詞",
+      "meaning": "石英、クォーツ",
+      "nuance": "時計の「クォーツ式」などで有名な鉱物です。非常に安定した振動を刻みます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Quartz is one of the most common minerals in the Earth's crust.",
+              "ja": "石英は、地殻で最も一般的な鉱物の一つだ。",
+              "highlight": "Quartz"
+            }
+          ]
+        }
+      ],
+      "etymology": "ドイツ語 Quarz",
+      "synonyms": [
+        {"word": "crystal", "trans": "結晶、水晶"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 57,
+      "word": "filter",
+      "pos": "名詞、動詞",
+      "meaning": "ろ過器、フィルター、〜をろ過する、（情報などが）徐々に漏れる",
+      "nuance": "物理的なろ過だけでなく、光を遮ったり、ニュースが少しずつ伝わる様子（filter out/through）にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The air filter needs to be replaced.",
+              "ja": "エアフィルターを交換する必要がある。",
+              "highlight": "filter"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Sunlight filtered through the trees.",
+              "ja": "木漏れ日が木々の間から差し込んだ（ろ過されて届いた）。",
+              "highlight": "filtered"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世ラテン語 filtrum（フェルト：布でろ過していたため）",
+      "synonyms": [
+        {"word": "strain", "trans": "ろ過する"},
+        {"word": "sieve", "trans": "ふるい"},
+        {"word": "purify", "trans": "浄化する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "filtration", "trans": "名詞：ろ過"}
+      ]
+    },
+    {
+      "number": 58,
+      "word": "leak",
+      "pos": "動詞、名詞",
+      "meaning": "漏れる、〜を漏らす、漏れ、リーク",
+      "nuance": "液体やガスだけでなく、秘密情報が意図的または不注意で漏れることも指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The roof is leaking during the heavy rain.",
+              "ja": "大雨の間、屋根が雨漏りしている。",
+              "highlight": "leaking"
+            },
+            {
+              "en": "Someone leaked the confidential document to the press.",
+              "ja": "誰かが機密文書を記者に漏らした。",
+              "highlight": "leaked"
+            }
+          ]
+        }
+      ],
+      "etymology": "オランダ語 leken（滴る）",
+      "synonyms": [
+        {"word": "drip", "trans": "滴る"},
+        {"word": "reveal", "trans": "漏らす、明らかにする"},
+        {"word": "seep", "trans": "染み出す"}
+      ],
+      "antonyms": [
+        {"word": "seal", "trans": "密閉する"}
+      ],
+      "related": [
+        {"word": "leakage", "trans": "名詞：漏出"}
+      ]
+    },
+    {
+      "number": 59,
+      "word": "drain",
+      "pos": "動詞、名詞",
+      "meaning": "〜を排出させる、（液体が）流れ出る、（エネルギーなどを）使い果たす、排水路",
+      "nuance": "容器を空にしたり、精神的に疲れ果てさせたり（be drained）する様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Drain the pasta before serving.",
+              "ja": "盛り付ける前にパスタの水気を切ってください。",
+              "highlight": "Drain"
+            },
+            {
+              "en": "Working twelve hours a day really drains my energy.",
+              "ja": "1日12時間働くのは、本当にエネルギーを消耗させる。",
+              "highlight": "drains"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 drēahnian（液体を取り除く）",
+      "synonyms": [
+        {"word": "empty", "trans": "空にする"},
+        {"word": "exhaust", "trans": "使い果たす"},
+        {"word": "deplete", "trans": "枯渇させる"}
+      ],
+      "antonyms": [
+        {"word": "fill", "trans": "満たす"},
+        {"word": "supply", "trans": "供給する"}
+      ],
+      "related": [
+        {"word": "brain drain", "trans": "名詞：頭脳流出"}
+      ]
+    },
+    {
+      "number": "59-2",
+      "word": "drainage",
+      "pos": "名詞",
+      "meaning": "排水、排水設備",
+      "nuance": "都市インフラや農地の水はけシステムを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Poor drainage system caused the flood in this area.",
+              "ja": "不十分な排水システムが、この地域の洪水を引き起こした。",
+              "highlight": "drainage"
+            }
+          ]
+        }
+      ],
+      "etymology": "drain + age",
+      "synonyms": [
+        {"word": "sewage", "trans": "下水"},
+        {"word": "outflow", "trans": "流出"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 60,
+      "word": "overlay",
+      "pos": "動詞、名詞",
+      "meaning": "〜を重ねる、〜を覆う、重ね合わせること、オーバーレイ",
+      "nuance": "ある層の上に別の層を置くこと。デザインや地図の表示などでよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The text was overlaid on the image.",
+              "ja": "テキストが画像の上に重ねられた。",
+              "highlight": "overlaid"
+            }
+          ]
+        }
+      ],
+      "etymology": "over（上に）+ lay（置く）",
+      "synonyms": [
+        {"word": "cover", "trans": "覆う"},
+        {"word": "superimpose", "trans": "重ね合わせる"}
+      ],
+      "antonyms": [
+        {"word": "underlie", "trans": "下に横たわる"}
+      ],
+      "related": []
+    },
+    {
+      "number": 61,
+      "word": "shiver",
+      "pos": "動詞、名詞",
+      "meaning": "（寒さ・恐怖などで）身震いする、震え",
+      "nuance": "主に「寒さ」によって体が細かく震える生理的な反応を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I was shivering with cold in the snow.",
+              "ja": "雪の中、私は寒さで震えていた。",
+              "highlight": "shivering"
+            }
+          ]
+        }
+      ],
+      "etymology": "中英語 chiveren（震える）",
+      "synonyms": [
+        {"word": "shudder", "trans": "身震いする"},
+        {"word": "tremble", "trans": "震える"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 62,
+      "word": "quake",
+      "pos": "動詞、名詞",
+      "meaning": "震える、揺れる、地震（earthquake）",
+      "nuance": "非常に激しく揺れること。地球が揺れる際（地震）や、極度の恐怖で震え上がる際に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The ground began to quake during the eruption.",
+              "ja": "噴火の間、地面が揺れ始めた。",
+              "highlight": "quake"
+            },
+            {
+              "en": "He was quaking with fear before the exam.",
+              "ja": "試験前、彼は恐怖でガタガタ震えていた。",
+              "highlight": "quaking"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 cwacian（揺れる）",
+      "synonyms": [
+        {"word": "shake", "trans": "振る、揺れる"},
+        {"word": "vibrate", "trans": "振動する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "earthquake", "trans": "名詞：地震"}
+      ]
+    },
+    {
+      "number": 63,
+      "word": "quiver",
+      "pos": "動詞、名詞",
+      "meaning": "（小刻みに）震える、震え、矢筒",
+      "nuance": "声や唇、木の葉などが「かすかに、速く」震える様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Her voice quivered as she spoke about the tragedy.",
+              "ja": "その悲劇について話すとき、彼女の声は震えていた。",
+              "highlight": "quivered"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 quivre（矢筒）に由来する説と、擬音語的由来の説がある",
+      "synonyms": [
+        {"word": "tremble", "trans": "震える"},
+        {"word": "flutter", "trans": "はためく"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 64,
+      "word": "shudder",
+      "pos": "動詞、名詞",
+      "meaning": "（恐怖・嫌悪で）身震いする、強く震える",
+      "nuance": "「ぞっとする」ような強い不快感や恐怖で、体が一時的に激しく震えることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I shuddered at the thought of going back there.",
+              "ja": "そこへ戻ることを考えただけで、私は身震いした（ぞっとした）。",
+              "highlight": "shuddered"
+            }
+          ]
+        }
+      ],
+      "etymology": "中英語 schoderen（震える）",
+      "synonyms": [
+        {"word": "shiver", "trans": "身震いする"},
+        {"word": "quake", "trans": "揺れる"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 65,
+      "word": "tremble",
+      "pos": "動詞、名詞",
+      "meaning": "震える、わななく",
+      "nuance": "恐怖、怒り、興奮、または高齢や衰弱による震えを指す、最も一般的な言葉の一つです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His hands were trembling with anger.",
+              "ja": "彼の両手は怒りで震えていた。",
+              "highlight": "trembling"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tremere（震える）",
+      "synonyms": [
+        {"word": "shake", "trans": "揺れる"},
+        {"word": "quiver", "trans": "小刻みに震える"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "tremendous", "trans": "巨大な、恐ろしい（震えるほどすごい）"}
+      ]
+    },
+    {
+      "number": 66,
+      "word": "sway",
+      "pos": "動詞、名詞",
+      "meaning": "揺れる、揺さぶる、（意見などを）左右する、支配",
+      "nuance": "高い木やビルがゆっくりと左右に揺れること、または人の心や政治状況を動かすことを指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The branches swayed in the wind.",
+              "ja": "木の枝が風に揺れていた。",
+              "highlight": "swayed"
+            },
+            {
+              "en": "Don't let his opinion sway your decision.",
+              "ja": "彼の意見にあなたの決定を左右されないようにしなさい。",
+              "highlight": "sway"
+            }
+          ]
+        }
+      ],
+      "etymology": "古ノルド語 sveigja（曲げる）",
+      "synonyms": [
+        {"word": "swing", "trans": "揺れる"},
+        {"word": "influence", "trans": "影響を与える"},
+        {"word": "rock", "trans": "揺り動かす"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "66-2",
+      "word": "swing",
+      "pos": "動詞、名詞",
+      "meaning": "揺れる、〜を振る、ブランコ、スイング",
+      "nuance": "固定された点を中心に、弧を描くように前後に大きく揺れる動きを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The pendulum swings back and forth.",
+              "ja": "振り子が前後に揺れる。",
+              "highlight": "swings"
+            },
+            {
+              "en": "He swung the bat with all his might.",
+              "ja": "彼は力いっぱいバットを振った。",
+              "highlight": "swung"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 swingan（打つ、鞭打つ）",
+      "synonyms": [
+        {"word": "sway", "trans": "揺れる"},
+        {"word": "oscillate", "trans": "振動する、揺れる"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "66-3",
+      "word": "vibrate",
+      "pos": "動詞",
+      "meaning": "振動する、響く",
+      "nuance": "物理的、機械的に細かく速く連続して揺れることを指します。マナーモードのスマホなどが典型的です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The floor began to vibrate as the train passed by.",
+              "ja": "電車が通り過ぎるとき、床が振動し始めた。",
+              "highlight": "vibrate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vibrare（振る、揺らす）",
+      "synonyms": [
+        {"word": "throb", "trans": "脈打つ、ずきずきする"},
+        {"word": "resonance", "trans": "共鳴（関連）"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "vibration", "trans": "名詞：振動"}
+      ]
+    },
+    {
+      "number": "66-4",
+      "word": "vibration",
+      "pos": "名詞",
+      "meaning": "振動、心の動揺、（口語で）雰囲気（vibes）",
+      "nuance": "物理的な揺れだけでなく、人や場所から放たれる「感じ（バイブス）」を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The machine produces a lot of vibration.",
+              "ja": "その機械は激しい振動を発生させる。",
+              "highlight": "vibration"
+            },
+            {
+              "en": "I'm getting good vibrations from this place.",
+              "ja": "この場所からは良い雰囲気（バイブス）を感じるよ。",
+              "highlight": "vibrations"
+            }
+          ]
+        }
+      ],
+      "etymology": "vibrate の名詞形",
+      "synonyms": [
+        {"word": "tremor", "trans": "震え、振動"},
+        {"word": "shaking", "trans": "揺れ"}
+      ],
+      "antonyms": [
+        {"word": "stillness", "trans": "静止"}
+      ],
+      "related": []
+    }
+  ]
+}
