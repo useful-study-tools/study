@@ -1,0 +1,902 @@
+{
+  "words": [
+    {
+      "number": 4076,
+      "word": "contract",
+      "pos": "名詞、動詞",
+      "meaning": "契約、〜を契約する、〜を収縮させる、（病気に）かかる",
+      "nuance": "名詞では法的な約束を指し、動詞では「縮む」という物理的な動きや「病気を得る」という意味でも重要です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：契約）",
+          "examples": [
+            {
+              "en": "You should read the contract carefully before signing it.",
+              "ja": "署名する前に契約書を注意深く読むべきだ。",
+              "highlight": "contract"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：収縮する）",
+          "examples": [
+            {
+              "en": "Metals expand when heated and contract when cooled.",
+              "ja": "金属は熱せられると膨張し、冷やされると収縮する。",
+              "highlight": "contract"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：病気にかかる）",
+          "examples": [
+            {
+              "en": "He contracted a rare virus during his trip.",
+              "ja": "彼は旅行中に珍しいウイルスに感染した。",
+              "highlight": "contracted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ trahere（引く）→ 引き合わせる",
+      "synonyms": [
+        {"word": "agreement", "trans": "合意"},
+        {"word": "shrink", "trans": "縮む"},
+        {"word": "catch", "trans": "（病気に）かかる"}
+      ],
+      "antonyms": [
+        {"word": "expand", "trans": "膨張する"}
+      ],
+      "related": [
+        {"word": "contractor", "trans": "名詞：請負業者"}
+      ]
+    },
+    {
+      "number": 4085,
+      "word": "altogether",
+      "pos": "副詞",
+      "meaning": "完全に、まったく、全部で",
+      "nuance": "個々の要素を全て含めて「トータルで」、あるいは否定文などで「完全に（〜ない）」と強調する際に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "That's an altogether different matter.",
+              "ja": "それはまったく別の問題だ。",
+              "highlight": "altogether"
+            },
+            {
+              "en": "Altogether, there were fifteen people at the party.",
+              "ja": "全部で（合計して）15人がパーティーにいた。",
+              "highlight": "Altogether"
+            }
+          ]
+        }
+      ],
+      "etymology": "all + together",
+      "synonyms": [
+        {"word": "completely", "trans": "完全に"},
+        {"word": "entirely", "trans": "すっかり"},
+        {"word": "in total", "trans": "合計で"}
+      ],
+      "antonyms": [
+        {"word": "partially", "trans": "部分的に"}
+      ],
+      "related": []
+    },
+    {
+      "number": 4093,
+      "word": "aid",
+      "pos": "名詞、動詞",
+      "meaning": "援助、補助、〜を助ける",
+      "nuance": "helpよりもフォーマルな響きがあり、国際協力（International aid）や道具としての補助（teaching aid）によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The country is in desperate need of food aid.",
+              "ja": "その国は食糧援助を切実に必要としている。",
+              "highlight": "aid"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "New technology will aid in the development of clean energy.",
+              "ja": "新技術はクリーンエネルギーの開発を助けるだろう。",
+              "highlight": "aid"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad（〜へ）+ juvare（助ける）",
+      "synonyms": [
+        {"word": "assistance", "trans": "支援"},
+        {"word": "support", "trans": "支持"},
+        {"word": "help", "trans": "手助け"}
+      ],
+      "antonyms": [
+        {"word": "hindrance", "trans": "邪魔"},
+        {"word": "obstruction", "trans": "妨害"}
+      ],
+      "related": [
+        {"word": "first aid", "trans": "応急処置"}
+      ]
+    },
+    {
+      "number": 4097,
+      "word": "confirm",
+      "pos": "動詞",
+      "meaning": "〜を確かめる、裏付ける、承認する",
+      "nuance": "疑いや曖昧な点をなくし、それが真実であるとはっきりさせることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please call the hotel to confirm your reservation.",
+              "ja": "予約を確認するためにホテルに電話してください。",
+              "highlight": "confirm"
+            },
+            {
+              "en": "The test results confirmed our suspicions.",
+              "ja": "検査結果が私たちの疑いを裏付けた。",
+              "highlight": "confirmed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（完全に）+ firmare（強くする）",
+      "synonyms": [
+        {"word": "verify", "trans": "検証する"},
+        {"word": "validate", "trans": "有効にする、承認する"},
+        {"word": "corroborate", "trans": "裏付ける"}
+      ],
+      "antonyms": [
+        {"word": "deny", "trans": "否定する"},
+        {"word": "refute", "trans": "反論する"}
+      ],
+      "related": [
+        {"word": "confirmation", "trans": "名詞：確認"}
+      ]
+    },
+    {
+      "number": 4099,
+      "word": "transfer",
+      "pos": "動詞、名詞",
+      "meaning": "〜を移す、転勤する、乗り換える、移動、転勤",
+      "nuance": "人や物をある場所から別の場所へ、あるいは所有権などを他へ移すことを指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：移動させる）",
+          "examples": [
+            {
+              "en": "I need to transfer some money from my savings account.",
+              "ja": "貯蓄口座からいくらかお金を移す（振り込む）必要がある。",
+              "highlight": "transfer"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：転勤・乗り換え）",
+          "examples": [
+            {
+              "en": "She was transferred to the New York office.",
+              "ja": "彼女はニューヨーク支店に転勤になった。",
+              "highlight": "transferred"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 trans（越えて）+ ferre（運ぶ）",
+      "synonyms": [
+        {"word": "move", "trans": "動かす"},
+        {"word": "relocate", "trans": "移転する"},
+        {"word": "shift", "trans": "ずらす"}
+      ],
+      "antonyms": [
+        {"word": "stay", "trans": "留まる"},
+        {"word": "keep", "trans": "保持する"}
+      ],
+      "related": [
+        {"word": "transference", "trans": "名詞：転移"}
+      ]
+    },
+    {
+      "number": 4102,
+      "word": "dialogue",
+      "pos": "名詞",
+      "meaning": "対話、意見の交換、セリフ",
+      "nuance": "単なる雑談ではなく、異なる立場の人たちが解決や理解のために話し合うことを指す場合が多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The two nations have agreed to start a constructive dialogue.",
+              "ja": "両国は建設的な対話を開始することに同意した。",
+              "highlight": "dialogue"
+            },
+            {
+              "en": "The play features some very witty dialogue.",
+              "ja": "その劇は非常に機知に富んだ対話（セリフ）が特徴だ。",
+              "highlight": "dialogue"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 dia（通じて）+ logos（言葉）",
+      "synonyms": [
+        {"word": "conversation", "trans": "会話"},
+        {"word": "discourse", "trans": "論説、対話"},
+        {"word": "talks", "trans": "会談"}
+      ],
+      "antonyms": [
+        {"word": "monologue", "trans": "独白"}
+      ],
+      "related": []
+    },
+    {
+      "number": 4103,
+      "word": "substitute",
+      "pos": "名詞、動詞",
+      "meaning": "代わり、代用品、〜を代わりに使う",
+      "nuance": "本来のものの代わりに、一時的あるいは恒久的に役割を果たすものを指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Honey can be used as a substitute for sugar.",
+              "ja": "ハチミツは砂糖の代用品として使うことができる。",
+              "highlight": "substitute"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "You can substitute margarine for butter in this recipe.",
+              "ja": "このレシピではバターの代わりにマーガリンを使ってもよい。",
+              "highlight": "substitute"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sub（下に）+ statuere（立てる）→ 下に置く、身代わりにする",
+      "synonyms": [
+        {"word": "replacement", "trans": "交換品"},
+        {"word": "alternative", "trans": "代替案"},
+        {"word": "proxy", "trans": "代理人"}
+      ],
+      "antonyms": [
+        {"word": "original", "trans": "本来のもの"}
+      ],
+      "related": [
+        {"word": "substitution", "trans": "名詞：代用"}
+      ]
+    },
+    {
+      "number": 4104,
+      "word": "trait",
+      "pos": "名詞",
+      "meaning": "（性格・身体などの）特徴、特性",
+      "nuance": "個人を他と区別するような、生来の、あるいは習得した性質を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Patience is one of his best traits.",
+              "ja": "忍耐強さは彼の最も優れた特性の一つだ。",
+              "highlight": "traits"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 trait（線、一筆）",
+      "synonyms": [
+        {"word": "characteristic", "trans": "特徴"},
+        {"word": "feature", "trans": "容貌、特徴"},
+        {"word": "attribute", "trans": "属性"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 4106,
+      "word": "declare",
+      "pos": "動詞",
+      "meaning": "〜を明言する、宣言する、（税関で）申告する",
+      "nuance": "公に、あるいは力強くはっきりと意見や事実を述べることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（宣言する）",
+          "examples": [
+            {
+              "en": "The government declared a state of emergency.",
+              "ja": "政府は緊急事態を宣言した。",
+              "highlight": "declared"
+            }
+          ]
+        },
+        {
+          "title": "例文（申告する）",
+          "examples": [
+            {
+              "en": "Do you have anything to declare at customs?",
+              "ja": "税関で申告するものはありますか？",
+              "highlight": "declare"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（完全に）+ clarare（明らかにする）",
+      "synonyms": [
+        {"word": "announce", "trans": "発表する"},
+        {"word": "proclaim", "trans": "布告する"},
+        {"word": "state", "trans": "述べる"}
+      ],
+      "antonyms": [
+        {"word": "conceal", "trans": "隠す"},
+        {"word": "hide", "trans": "隠蔽する"}
+      ],
+      "related": [
+        {"word": "declaration", "trans": "名詞：宣言"}
+      ]
+    },
+    {
+      "number": 4107,
+      "word": "furthermore",
+      "pos": "副詞",
+      "meaning": "そのうえ、さらに",
+      "nuance": "前に述べたことに加えて、さらに重要な情報を付け加える際に使う接続詞的な副詞です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The bike is too expensive; furthermore, I don't like the color.",
+              "ja": "その自転車は高すぎる。そのうえ、色が気に入らない。",
+              "highlight": "furthermore"
+            }
+          ]
+        }
+      ],
+      "etymology": "further（さらに遠く）+ more（もっと）",
+      "synonyms": [
+        {"word": "moreover", "trans": "そのうえ"},
+        {"word": "in addition", "trans": "加えて"},
+        {"word": "besides", "trans": "さらに"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 4108,
+      "word": "hence",
+      "pos": "副詞",
+      "meaning": "それゆえに、したがって、今から（◯◯後）",
+      "nuance": "「だから（therefore）」と同様の理由説明のほか、「今から（from now）」という時間の起点を示す用法もあります。",
+      "example_sections": [
+        {
+          "title": "例文（したがって）",
+          "examples": [
+            {
+              "en": "He is my mother's brother; hence, he is my uncle.",
+              "ja": "彼は私の母の兄弟だ。したがって、私の叔父である。",
+              "highlight": "hence"
+            }
+          ]
+        },
+        {
+          "title": "例文（今から）",
+          "examples": [
+            {
+              "en": "The new law will come into effect ten years hence.",
+              "ja": "新法は今から10年後に施行される。",
+              "highlight": "hence"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語（ここから）",
+      "synonyms": [
+        {"word": "therefore", "trans": "それゆえ"},
+        {"word": "consequently", "trans": "その結果として"},
+        {"word": "thus", "trans": "このようにして"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 4109,
+      "word": "intense",
+      "pos": "形容詞",
+      "meaning": "（程度が）激しい、強烈な、情熱的な",
+      "nuance": "光、痛み、感情、集中力などが非常に高いレベルにある状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was suffering from intense heat.",
+              "ja": "彼は猛暑に苦しんでいた。",
+              "highlight": "intense"
+            },
+            {
+              "en": "She has an intense desire to succeed.",
+              "ja": "彼女は成功したいという強烈な願望を持っている。",
+              "highlight": "intense"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in（中に）+ tendere（伸ばす）→ ピンと張った",
+      "synonyms": [
+        {"word": "extreme", "trans": "極端な"},
+        {"word": "fierce", "trans": "凄まじい"},
+        {"word": "powerful", "trans": "強力な"}
+      ],
+      "antonyms": [
+        {"word": "mild", "trans": "穏やかな"},
+        {"word": "weak", "trans": "弱い"}
+      ],
+      "related": [
+        {"word": "intensity", "trans": "名詞：強度"},
+        {"word": "intensify", "trans": "動詞：強める"}
+      ]
+    },
+    {
+      "number": 4118,
+      "word": "yield",
+      "pos": "動詞、名詞",
+      "meaning": "〜を産出する、（利益などを）生む、屈する、収穫量、利回り",
+      "nuance": "価値のあるものを生み出すという意味と、圧力に負けて譲歩するという二面性のある単語です。",
+      "example_sections": [
+        {
+          "title": "例文（産出する）",
+          "examples": [
+            {
+              "en": "This soil yields good crops.",
+              "ja": "この土壌は良い作物をもたらす（産出する）。",
+              "highlight": "yields"
+            }
+          ]
+        },
+        {
+          "title": "例文（屈する）",
+          "examples": [
+            {
+              "en": "The government refused to yield to the protesters' demands.",
+              "ja": "政府は抗議者の要求に屈することを拒否した。",
+              "highlight": "yield"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 gieldan（支払う、報いる）",
+      "synonyms": [
+        {"word": "produce", "trans": "生産する"},
+        {"word": "surrender", "trans": "降伏する"},
+        {"word": "output", "trans": "出力、産出量"}
+      ],
+      "antonyms": [
+        {"word": "resist", "trans": "抵抗する"},
+        {"word": "withstand", "trans": "耐える"}
+      ],
+      "related": []
+    },
+    {
+      "number": 4120,
+      "word": "crucial",
+      "pos": "形容詞",
+      "meaning": "重大な、決定的な、欠かせない",
+      "nuance": "物事の成否を分けるような、極めて重要な局面や要素を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Vitamin C plays a crucial role in maintaining health.",
+              "ja": "ビタミンCは健康を維持する上で極めて重要な役割を果たす。",
+              "highlight": "crucial"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 crux（十字架、分かれ道）",
+      "synonyms": [
+        {"word": "critical", "trans": "重大な"},
+        {"word": "essential", "trans": "不可欠な"},
+        {"word": "vital", "trans": "極めて重要な"}
+      ],
+      "antonyms": [
+        {"word": "trivial", "trans": "些細な"},
+        {"word": "insignificant", "trans": "重要でない"}
+      ],
+      "related": []
+    },
+    {
+      "number": 4133,
+      "word": "astonish",
+      "pos": "動詞",
+      "meaning": "〜を驚かせる、びっくりさせる",
+      "nuance": "surpriseよりも驚きの度合いが強く、信じられないような出来事に対して使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The speed of his recovery astonished the doctors.",
+              "ja": "彼の回復の早さは医者たちを驚かせた。",
+              "highlight": "astonished"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ex（外へ）+ tonare（雷が鳴る）→ 雷に打たれたようにする",
+      "synonyms": [
+        {"word": "amaze", "trans": "驚嘆させる"},
+        {"word": "astound", "trans": "仰天させる"},
+        {"word": "surprise", "trans": "驚かせる"}
+      ],
+      "antonyms": [
+        {"word": "bore", "trans": "退屈させる"}
+      ],
+      "related": [
+        {"word": "astonishment", "trans": "名詞：驚き"},
+        {"word": "astonishing", "trans": "形容詞：驚くべき"}
+      ]
+    },
+    {
+      "number": 4136,
+      "word": "stimulate",
+      "pos": "動詞",
+      "meaning": "〜を刺激する、活気づける、促す",
+      "nuance": "感覚を刺激するだけでなく、経済活動を活発にしたり、興味を引き出したりすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The government took steps to stimulate the economy.",
+              "ja": "政府は経済を刺激するために策を講じた。",
+              "highlight": "stimulate"
+            },
+            {
+              "en": "The teacher tried to stimulate the students' interest in science.",
+              "ja": "先生は生徒の科学への興味を刺激しようとした。",
+              "highlight": "stimulate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 stimulus（突き棒）",
+      "synonyms": [
+        {"word": "encourage", "trans": "励ます、促す"},
+        {"word": "activate", "trans": "活性化させる"},
+        {"word": "inspire", "trans": "奮い立たせる"}
+      ],
+      "antonyms": [
+        {"word": "discourage", "trans": "やる気を削ぐ"},
+        {"word": "stifle", "trans": "抑え込む"}
+      ],
+      "related": [
+        {"word": "stimulus", "trans": "名詞：刺激"},
+        {"word": "stimulation", "trans": "名詞：刺激（すること）"}
+      ]
+    },
+    {
+      "number": 4140,
+      "word": "pat",
+      "pos": "動詞、名詞、形容詞",
+      "meaning": "〜を軽くたたく、なでる、軽くたたくこと、あまりに手際が良すぎる（うさんくさい）",
+      "nuance": "愛情を持って、あるいは褒めるために手のひらで軽くたたく動作です。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "She patted the dog on the head.",
+              "ja": "彼女は犬の頭を軽くたたいた（なでた）。",
+              "highlight": "patted"
+            }
+          ]
+        },
+        {
+          "title": "例文（慣用句）",
+          "examples": [
+            {
+              "en": "He gave himself a pat on the back for a job well done.",
+              "ja": "彼は仕事がうまくいったことで自分自身を褒めた（背中をぽんと叩いた）。",
+              "highlight": "pat"
+            }
+          ]
+        }
+      ],
+      "etymology": "擬音語的（ぽんという音）",
+      "synonyms": [
+        {"word": "tap", "trans": "軽くたたく"},
+        {"word": "stroke", "trans": "なでる"}
+      ],
+      "antonyms": [
+        {"word": "slap", "trans": "平手打ちする"},
+        {"word": "punch", "trans": "殴る"}
+      ],
+      "related": []
+    },
+    {
+      "number": 4148,
+      "word": "deliberate",
+      "pos": "形容詞、動詞",
+      "meaning": "故意の、計画的な、慎重な、〜を熟考する",
+      "nuance": "時間をかけて注意深く考えられた様子（ポジティブ）と、わざとやった（ネガティブ）の両面があります。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞：故意の）",
+          "examples": [
+            {
+              "en": "This was a deliberate lie.",
+              "ja": "これは意図的な（計画的な）嘘だった。",
+              "highlight": "deliberate"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞：慎重な）",
+          "examples": [
+            {
+              "en": "He spoke in a calm and deliberate manner.",
+              "ja": "彼は冷静かつ慎重な物腰で話した。",
+              "highlight": "deliberate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（完全に）+ librare（天秤にかける）",
+      "synonyms": [
+        {"word": "intentional", "trans": "意図的な"},
+        {"word": "careful", "trans": "注意深い"},
+        {"word": "ponder", "trans": "熟考する"}
+      ],
+      "antonyms": [
+        {"word": "accidental", "trans": "偶然の"},
+        {"word": "unintentional", "trans": "意図しない"},
+        {"word": "hasty", "trans": "急ぎすぎた"}
+      ],
+      "related": [
+        {"word": "deliberation", "trans": "名詞：熟議"}
+      ]
+    },
+    {
+      "number": 4159,
+      "word": "medieval",
+      "pos": "形容詞",
+      "meaning": "中世の、古臭い",
+      "nuance": "歴史上の「中世（おおよそ5世紀〜15世紀）」を指しますが、比喩的に「時代遅れで野蛮な」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We visited several medieval castles in Europe.",
+              "ja": "私たちはヨーロッパでいくつかの中世の城を訪れた。",
+              "highlight": "medieval"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 medius（中間の）+ aevum（時代）",
+      "synonyms": [
+        {"word": "Middle Ages", "trans": "中世の"},
+        {"word": "antique", "trans": "骨董品の、古い"}
+      ],
+      "antonyms": [
+        {"word": "modern", "trans": "現代の"},
+        {"word": "contemporary", "trans": "同時代の、現代の"}
+      ],
+      "related": []
+    },
+    {
+      "number": 4160,
+      "word": "prevail",
+      "pos": "動詞",
+      "meaning": "普及している、行き渡っている、勝利する、打ち勝つ",
+      "nuance": "ある考えや状態が広く存在していること、あるいは困難の末に正義などが勝つことを指します。",
+      "example_sections": [
+        {
+          "title": "例文（普及している）",
+          "examples": [
+            {
+              "en": "Those customs still prevail in remote villages.",
+              "ja": "それらの慣習は人里離れた村々では今でも行き渡っている（残っている）。",
+              "highlight": "prevail"
+            }
+          ]
+        },
+        {
+          "title": "例文（勝利する）",
+          "examples": [
+            {
+              "en": "Common sense eventually prevailed.",
+              "ja": "最終的には良識が勝った。",
+              "highlight": "prevailed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 pre（前に）+ valere（強い）",
+      "synonyms": [
+        {"word": "predominate", "trans": "優位を占める"},
+        {"word": "triumph", "trans": "勝利する"},
+        {"word": "persist", "trans": "存続する"}
+      ],
+      "antonyms": [
+        {"word": "fail", "trans": "失敗する"},
+        {"word": "lose", "trans": "負ける"}
+      ],
+      "related": [
+        {"word": "prevalent", "trans": "形容詞：普及している"}
+      ]
+    },
+    {
+      "number": 4162,
+      "word": "voyage",
+      "pos": "名詞、動詞",
+      "meaning": "航海、船旅、長旅、〜を航海する",
+      "nuance": "単なるtravel（旅行）よりも、海を越えるような長く冒険的な旅を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The Titanic sank on its maiden voyage.",
+              "ja": "タイタニック号は処女航海で沈没した。",
+              "highlight": "voyage"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 viaticum（旅路の準備）",
+      "synonyms": [
+        {"word": "journey", "trans": "旅"},
+        {"word": "expedition", "trans": "遠征"},
+        {"word": "cruise", "trans": "巡航"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "voyager", "trans": "名詞：航海者"}
+      ]
+    },
+    {
+      "number": 4164,
+      "word": "subtle",
+      "pos": "形容詞",
+      "meaning": "微妙な、繊細な、捉えにくい、狡猾な",
+      "nuance": "はっきりとは分からないが、注意深く見ると気づくような僅かな違いや変化を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There are subtle differences between the two paintings.",
+              "ja": "その2枚の絵の間には微妙な違いがある。",
+              "highlight": "subtle"
+            },
+            {
+              "en": "He has a subtle sense of humor.",
+              "ja": "彼は繊細な（分かりにくいが面白い）ユーモアのセンスを持っている。",
+              "highlight": "subtle"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sub（下に）+ tela（織り糸）→ 細かく織られた",
+      "synonyms": [
+        {"word": "delicate", "trans": "繊細な"},
+        {"word": "slight", "trans": "わずかな"},
+        {"word": "elusive", "trans": "捉えどころのない"}
+      ],
+      "antonyms": [
+        {"word": "obvious", "trans": "明らかな"},
+        {"word": "blatant", "trans": "見えすいた"}
+      ],
+      "related": [
+        {"word": "subtlety", "trans": "名詞：微妙さ"}
+      ]
+    },
+    {
+      "number": 4170,
+      "word": "strain",
+      "pos": "名詞、動詞",
+      "meaning": "緊張、負担、重圧、血統、〜を酷使する、痛める",
+      "nuance": "ピンと張り詰めた状態、あるいは能力以上の負荷がかかっている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The rope snapped under the strain.",
+              "ja": "そのロープは緊張（負荷）に耐えられず切れた。",
+              "highlight": "strain"
+            },
+            {
+              "en": "The flu strain this year is particularly strong.",
+              "ja": "今年のインフルエンザの型（系統）は特に強い。",
+              "highlight": "strain"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "She strained her eyes to see in the dark.",
+              "ja": "彼女は暗闇で見ようと目を凝らした（酷使した）。",
+              "highlight": "strained"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 stringere（きつく締める）",
+      "synonyms": [
+        {"word": "tension", "trans": "緊張"},
+        {"word": "pressure", "trans": "圧力"},
+        {"word": "overwork", "trans": "過労"}
+      ],
+      "antonyms": [
+        {"word": "relaxation", "trans": "緩和"}
+      ],
+      "related": []
+    },
+    {
+      "number": 4172,
+      "word": "executive",
+      "pos": "名詞、形容詞",
+      "meaning": "（企業の）幹部、役員、重役、執行権のある、執行の",
+      "nuance": "組織の意思決定を行い、実行に移す高い地位の人、あるいはその権限を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He is a top executive at a major advertising agency.",
+              "ja": "彼は大手広告代理店の最高幹部だ。",
+              "highlight": "executive"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The president has executive powers to sign the bill.",
+              "ja": "大統領には法案に署名する執行権限がある。",
+              "highlight": "executive"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ex（外へ）+ sequi（従う）→ 最後まで成し遂げる",
+      "synonyms": [
+        {"word": "manager", "trans": "経営者"},
+        {"word": "director", "trans": "取締役"},
+        {"word": "administrator", "trans": "管理者"}
+      ],
+      "antonyms": [
+        {"word": "subordinate", "trans": "部下"},
+        {"word": "employee", "trans": "従業員"}
+      ],
+      "related": [
+        {"word": "execute", "trans": "動詞：実行する"},
+        {"word": "execution", "trans": "名詞：実行、処刑"}
+      ]
+    }
+  ]
+}
