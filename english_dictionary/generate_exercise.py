@@ -12,7 +12,7 @@ CHAPTER_MAP = {1: "【Basic】第1章", 500: "【Advanced】第2章"}
 CHAPTER_WORD_COUNT = {}
 
 def get_json_file_list(base_path):
-json_pattern = str(base_path / “vocabulary_data*.json”)
+json_pattern = str(base_path / "vocabulary_data*.json")
 files = glob(json_pattern)
 json_filenames = [os.path.basename(f) for f in files]
 def sort_key(name):
@@ -22,8 +22,8 @@ return int(match.group(1)) if match else 999
 return sorted(json_filenames, key=sort_key)
 
 def generate_html():
-base_dir = Path(“english_dictionary”)
-output_file = base_dir / “exercise.html”
+base_dir = Path("english_dictionary")
+output_file = base_dir / "exercise.html"
 
 ```
 grouped = defaultdict(list)
@@ -492,5 +492,5 @@ with open(output_file, "w", encoding="utf-8") as f:
 print(f"✓ {output_file} has been generated.")
 ```
 
-if **name** == “**main**”:
+if **name** == "**main**":
 generate_html()
