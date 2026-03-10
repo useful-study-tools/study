@@ -1,0 +1,754 @@
+{
+  "words": [
+    {
+      "number": 4181,
+      "word": "vague",
+      "pos": "形容詞",
+      "meaning": "あいまいな、ぼんやりした、うつろな",
+      "nuance": "輪郭がはっきりせず、意図や形が不明確な状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His explanation was too vague for me to understand.",
+              "ja": "彼の説明はあまりにあいまいで、私には理解できなかった。",
+              "highlight": "vague"
+            },
+            {
+              "en": "I have only a vague memory of that incident.",
+              "ja": "その事件については、ぼんやりとした記憶しかない。",
+              "highlight": "vague"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vagus（さまよう、あてもない）",
+      "synonyms": [
+        {"word": "ambiguous", "trans": "多義的な、あいまいな"},
+        {"word": "obscure", "trans": "不明瞭な"},
+        {"word": "unclear", "trans": "不透明な"}
+      ],
+      "antonyms": [
+        {"word": "clear", "trans": "明確な"},
+        {"word": "specific", "trans": "具体的な"},
+        {"word": "definite", "trans": "確定的な"}
+      ],
+      "related": [
+        {"word": "vaguely", "trans": "副詞：漠然と"}
+      ]
+    },
+    {
+      "number": 4182,
+      "word": "attain",
+      "pos": "動詞",
+      "meaning": "（目標などを）達成する、獲得する、〜に到達する",
+      "nuance": "努力の結果として、高い目標や特定の状態にたどり着くことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She eventually attained the rank of professor.",
+              "ja": "彼女はついに教授の職（ランク）に就いた。",
+              "highlight": "attained"
+            },
+            {
+              "en": "We must work together to attain our goals.",
+              "ja": "目標を達成するために協力しなければならない。",
+              "highlight": "attain"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad（〜へ）+ tangere（触れる）",
+      "synonyms": [
+        {"word": "achieve", "trans": "成し遂げる"},
+        {"word": "accomplish", "trans": "完遂する"},
+        {"word": "reach", "trans": "到達する"}
+      ],
+      "antonyms": [
+        {"word": "fail", "trans": "失敗する"},
+        {"word": "abandon", "trans": "断念する"}
+      ],
+      "related": [
+        {"word": "attainment", "trans": "名詞：達成、学力"}
+      ]
+    },
+    {
+      "number": 4187,
+      "word": "mutual",
+      "pos": "形容詞",
+      "meaning": "相互の、共通の",
+      "nuance": "二人の間でやり取りがある（相互）という意味と、二人が同じ知人を持っている（共通）という二つの側面があります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Mutual respect is necessary for any partnership.",
+              "ja": "どんなパートナーシップにも相互の尊重が必要だ。",
+              "highlight": "Mutual"
+            },
+            {
+              "en": "They were introduced by a mutual friend.",
+              "ja": "彼らは共通の友人によって紹介された。",
+              "highlight": "mutual"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 mutare（変える、交換する）",
+      "synonyms": [
+        {"word": "reciprocal", "trans": "相互的な"},
+        {"word": "shared", "trans": "共有された"},
+        {"word": "common", "trans": "共通の"}
+      ],
+      "antonyms": [
+        {"word": "one-sided", "trans": "一方的な"},
+        {"word": "unilateral", "trans": "単独の"}
+      ],
+      "related": [
+        {"word": "mutually", "trans": "副詞：互いに"}
+      ]
+    },
+    {
+      "number": 4188,
+      "word": "resort",
+      "pos": "動詞、名詞",
+      "meaning": "（好ましくない手段に）訴える、頼る、行楽地、手段",
+      "nuance": "他に方法がないために最終的な手段として何かを行う（動詞）という意味と、リゾート地（名詞）という意味があります。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "They had to resort to violence to get what they wanted.",
+              "ja": "彼らは望むものを手に入れるために、暴力に訴えざるを得なかった。",
+              "highlight": "resort"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Strike action should be the last resort.",
+              "ja": "ストライキは最終手段（最後の頼みの綱）であるべきだ。",
+              "highlight": "resort"
+            },
+            {
+              "en": "We stayed at a luxury beach resort.",
+              "ja": "私たちは高級ビーチリゾートに滞在した。",
+              "highlight": "resort"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 re（再び）+ sortir（出かける）",
+      "synonyms": [
+        {"word": "turn to", "trans": "〜に頼る"},
+        {"word": "utilize", "trans": "利用する"},
+        {"word": "retreat", "trans": "保養地"}
+      ],
+      "antonyms": [
+        {"word": "abstain", "trans": "控える"},
+        {"word": "avoid", "trans": "避ける"}
+      ],
+      "related": []
+    },
+    {
+      "number": 4189,
+      "word": "insight",
+      "pos": "名詞",
+      "meaning": "洞察（力）、見通し、深い理解",
+      "nuance": "物事の内側（in）を見る（sight）ことで、本質を見抜くことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The book provides a fascinating insight into human nature.",
+              "ja": "その本は、人間の本質について興味深い洞察を与えてくれる。",
+              "highlight": "insight"
+            },
+            {
+              "en": "She has sharp psychological insight.",
+              "ja": "彼女は鋭い心理学的洞察力を持っている。",
+              "highlight": "insight"
+            }
+          ]
+        }
+      ],
+      "etymology": "in（中に）+ sight（視力、光景）",
+      "synonyms": [
+        {"word": "understanding", "trans": "理解"},
+        {"word": "perception", "trans": "知覚、認識"},
+        {"word": "discernment", "trans": "識別力"}
+      ],
+      "antonyms": [
+        {"word": "ignorance", "trans": "無知"},
+        {"word": "misunderstanding", "trans": "誤解"}
+      ],
+      "related": [
+        {"word": "insightful", "trans": "形容詞：洞察力のある"}
+      ]
+    },
+    {
+      "number": 4193,
+      "word": "accumulate",
+      "pos": "動詞",
+      "meaning": "〜を蓄積する、ためる、たまる",
+      "nuance": "長い時間をかけて、徐々に量が増えていく様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Dust soon accumulates if you don't clean regularly.",
+              "ja": "定期的に掃除をしないと、すぐに埃がたまる。",
+              "highlight": "accumulates"
+            },
+            {
+              "en": "He accumulated a fortune through wise investments.",
+              "ja": "彼は賢明な投資によって財産を築いた（蓄積した）。",
+              "highlight": "accumulated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad（〜へ）+ cumulare（積み上げる）",
+      "synonyms": [
+        {"word": "amass", "trans": "蓄える"},
+        {"word": "gather", "trans": "集める"},
+        {"word": "collect", "trans": "収集する"}
+      ],
+      "antonyms": [
+        {"word": "dissipate", "trans": "散らす、浪費する"},
+        {"word": "scatter", "trans": "まき散らす"}
+      ],
+      "related": [
+        {"word": "accumulation", "trans": "名詞：蓄積"}
+      ]
+    },
+    {
+      "number": 4199,
+      "word": "elaborate",
+      "pos": "形容詞、動詞",
+      "meaning": "精巧な、凝った、〜を詳しく述べる、練り上げる",
+      "nuance": "形容詞では「細部まで作り込まれた」状態、動詞では「詳細に説明を付け加える」動作を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The dancers wore elaborate costumes.",
+              "ja": "ダンサーたちは精巧な（凝った）衣装を身につけていた。",
+              "highlight": "elaborate"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Could you elaborate on that point?",
+              "ja": "その点について詳しく説明していただけますか？",
+              "highlight": "elaborate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 e（外へ）+ labor（労働、苦労）→ 苦労して作り出す",
+      "synonyms": [
+        {"word": "complex", "trans": "複雑な"},
+        {"word": "detailed", "trans": "詳細な"},
+        {"word": "expand", "trans": "詳しく述べる"}
+      ],
+      "antonyms": [
+        {"word": "simple", "trans": "単純な"},
+        {"word": "plain", "trans": "簡素な"}
+      ],
+      "related": [
+        {"word": "elaboration", "trans": "名詞：詳細な説明、精巧さ"}
+      ]
+    },
+    {
+      "number": 4206,
+      "word": "attach",
+      "pos": "動詞",
+      "meaning": "〜を付ける、添付する、愛着を持たせる",
+      "nuance": "物理的につなげるだけでなく、「重要性を置く（attach importance to）」や、心理的な結びつき（愛着）にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（物理的・事務的）",
+          "examples": [
+            {
+              "en": "Please attach a recent photograph to your application.",
+              "ja": "申請書に最近の写真を貼付してください。",
+              "highlight": "attach"
+            }
+          ]
+        },
+        {
+          "title": "例文（心理的・抽象的）",
+          "examples": [
+            {
+              "en": "I am very attached to this old watch.",
+              "ja": "私はこの古い時計にとても愛着がある。",
+              "highlight": "attached"
+            },
+            {
+              "en": "Don't attach too much importance to what he says.",
+              "ja": "彼の言うことをあまり重要視（重要性を付与）しすぎてはいけない。",
+              "highlight": "attach"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 a（〜へ）+ stachier（固定する）",
+      "synonyms": [
+        {"word": "fasten", "trans": "固定する"},
+        {"word": "affix", "trans": "貼る"},
+        {"word": "append", "trans": "付け加える"}
+      ],
+      "antonyms": [
+        {"word": "detach", "trans": "切り離す"},
+        {"word": "separate", "trans": "分ける"}
+      ],
+      "related": [
+        {"word": "attachment", "trans": "名詞：添付、愛着"}
+      ]
+    },
+    {
+      "number": 4210,
+      "word": "consensus",
+      "pos": "名詞",
+      "meaning": "（意見の）一致、合意、コンセンサス",
+      "nuance": "グループ内での総意、あるいは大多数が納得している状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The committee reached a consensus on the new policy.",
+              "ja": "委員会は新方針について合意に達した。",
+              "highlight": "consensus"
+            },
+            {
+              "en": "There is a general consensus that global warming is a serious threat.",
+              "ja": "地球温暖化が深刻な脅威であるという一般的な共通認識がある。",
+              "highlight": "consensus"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ sentire（感じる）→ 共に感じる",
+      "synonyms": [
+        {"word": "agreement", "trans": "合意"},
+        {"word": "accord", "trans": "一致"},
+        {"word": "unanimity", "trans": "満場一致"}
+      ],
+      "antonyms": [
+        {"word": "disagreement", "trans": "不一致"},
+        {"word": "dissent", "trans": "異議"}
+      ],
+      "related": [
+        {"word": "consent", "trans": "動詞/名詞：同意（する）"}
+      ]
+    },
+    {
+      "number": 4216,
+      "word": "whistle",
+      "pos": "動詞、名詞",
+      "meaning": "口笛を吹く、笛を鳴らす、口笛、笛、汽笛",
+      "nuance": "人間が口で吹く音や、審判の笛、あるいはやかんが沸騰した時の音などを広く指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "He whistled a happy tune as he walked.",
+              "ja": "彼は歩きながら楽しげな曲を口笛で吹いた。",
+              "highlight": "whistled"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The referee blew his whistle to end the game.",
+              "ja": "審判は試合終了の笛を吹いた。",
+              "highlight": "whistle"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 hwistlan（口笛を吹く）※擬音語的",
+      "synonyms": [
+        {"word": "pipe", "trans": "笛を吹く"},
+        {"word": "signal", "trans": "合図を送る"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "whistle-blower", "trans": "名詞：内部告発者"}
+      ]
+    },
+    {
+      "number": 4217,
+      "word": "alien",
+      "pos": "形容詞、名詞",
+      "meaning": "外国（人）の、異質な、宇宙人、外国人",
+      "nuance": "単に「外国」というだけでなく、「自分たちの世界とは相容れない、異質な」というニュアンスを含みます。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "Cruelty is alien to her nature.",
+              "ja": "残酷さは彼女の性質には相容れない（異質な）ものだ。",
+              "highlight": "alien"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The movie is about an alien invasion from Mars.",
+              "ja": "その映画は火星からのエイリアン（宇宙人）の侵略についてだ。",
+              "highlight": "alien"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 alius（他の）",
+      "synonyms": [
+        {"word": "foreign", "trans": "外国の"},
+        {"word": "strange", "trans": "奇妙な、未知の"},
+        {"word": "extraterrestrial", "trans": "地球外の"}
+      ],
+      "antonyms": [
+        {"word": "native", "trans": "土着の、母国の"},
+        {"word": "familiar", "trans": "なじみのある"}
+      ],
+      "related": [
+        {"word": "alienate", "trans": "動詞：遠ざける、疎外する"}
+      ]
+    },
+    {
+      "number": 4223,
+      "word": "endure",
+      "pos": "動詞",
+      "meaning": "（苦痛などに）耐える、持ちこたえる、持続する",
+      "nuance": "困難な状況をじっと我慢してやり過ごす、あるいは長い間形を変えずに残り続けることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（耐える）",
+          "examples": [
+            {
+              "en": "She had to endure a long and painful recovery.",
+              "ja": "彼女は長く苦しい回復期に耐えなければならなかった。",
+              "highlight": "endure"
+            }
+          ]
+        },
+        {
+          "title": "例文（持続する）",
+          "examples": [
+            {
+              "en": "His fame will endure forever.",
+              "ja": "彼の名声は永遠に続くだろう。",
+              "highlight": "endure"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in（中に）+ durus（硬い）→ 硬くなって中に留まる",
+      "synonyms": [
+        {"word": "tolerate", "trans": "許容する、耐える"},
+        {"word": "bear", "trans": "耐える、支える"},
+        {"word": "last", "trans": "続く"}
+      ],
+      "antonyms": [
+        {"word": "perish", "trans": "滅びる"},
+        {"word": "yield", "trans": "屈する"},
+        {"word": "give up", "trans": "諦める"}
+      ],
+      "related": [
+        {"word": "endurance", "trans": "名詞：忍耐、耐久力"}
+      ]
+    },
+    {
+      "number": 4226,
+      "word": "platform",
+      "pos": "名詞",
+      "meaning": "壇、演壇、（駅の）プラットホーム、基盤、政綱",
+      "nuance": "物理的な「高い場所」から転じて、活動の「土台（OSやSNSの基盤）」や、政治的な「公約・方針」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（物理的）",
+          "examples": [
+            {
+              "en": "The speaker stood on a raised platform.",
+              "ja": "話し手は高くなった演壇に立った。",
+              "highlight": "platform"
+            }
+          ]
+        },
+        {
+          "title": "例文（抽象的）",
+          "examples": [
+            {
+              "en": "Social media provides a platform for people to share their views.",
+              "ja": "ソーシャルメディアは人々が意見を共有するための基盤（プラットフォーム）を提供している。",
+              "highlight": "platform"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 plat（平らな）+ forme（形）",
+      "synonyms": [
+        {"word": "stage", "trans": "舞台"},
+        {"word": "podium", "trans": "指揮台、演壇"},
+        {"word": "foundation", "trans": "土台"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 4228,
+      "word": "realm",
+      "pos": "名詞",
+      "meaning": "領域、範囲、王国",
+      "nuance": "学問や思考の「分野」や、ファンタジー的な「世界・王国」を指す格調高い言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "This discovery lies within the realm of possibility.",
+              "ja": "この発見は可能性の範囲内にある。",
+              "highlight": "realm"
+            },
+            {
+              "en": "The King ruled over a vast realm.",
+              "ja": "王は広大な領土（王国）を統治していた。",
+              "highlight": "realm"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 regimen（統治）",
+      "synonyms": [
+        {"word": "domain", "trans": "領域、ドメイン"},
+        {"word": "sphere", "trans": "範囲、球体"},
+        {"word": "kingdom", "trans": "王国"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 4231,
+      "word": "sole",
+      "pos": "形容詞、名詞",
+      "meaning": "ただ一つの、唯一の、足の裏、靴底、シタビラメ（魚）",
+      "nuance": "形容詞ではonlyと同義ですが、より「独占的な」「単独の」という響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "He was the sole survivor of the crash.",
+              "ja": "彼はその墜落事故の唯一の生存者だった。",
+              "highlight": "sole"
+            },
+            {
+              "en": "She has sole responsibility for the project.",
+              "ja": "彼女がそのプロジェクトの単独（全）責任を負っている。",
+              "highlight": "sole"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "There was a hole in the sole of his shoe.",
+              "ja": "彼の靴の底に穴が開いていた。",
+              "highlight": "sole"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 solus（一人きりの）",
+      "synonyms": [
+        {"word": "only", "trans": "ただ一つの"},
+        {"word": "single", "trans": "単一の"},
+        {"word": "exclusive", "trans": "独占的な"}
+      ],
+      "antonyms": [
+        {"word": "multiple", "trans": "多数の"},
+        {"word": "shared", "trans": "共有された"}
+      ],
+      "related": [
+        {"word": "solely", "trans": "副詞：たった一人で、単に"}
+      ]
+    },
+    {
+      "number": 4232,
+      "word": "tragedy",
+      "pos": "名詞",
+      "meaning": "悲劇、惨事",
+      "nuance": "劇のジャンルとしての「悲劇」と、現実で起こる「痛ましい出来事」の両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The sudden death of the young athlete was a great tragedy.",
+              "ja": "その若きアスリートの突然の死は、大きな悲劇だった。",
+              "highlight": "tragedy"
+            },
+            {
+              "en": "Shakespeare wrote many famous tragedies.",
+              "ja": "シェイクスピアは多くの有名な悲劇を書いた。",
+              "highlight": "tragedies"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 tragos（雄ヤギ）+ oide（歌）※由来は諸説あり",
+      "synonyms": [
+        {"word": "disaster", "trans": "災害、惨事"},
+        {"word": "catastrophe", "trans": "大惨事"},
+        {"word": "misfortune", "trans": "不幸"}
+      ],
+      "antonyms": [
+        {"word": "comedy", "trans": "喜劇"},
+        {"word": "triumph", "trans": "勝利、大成功"}
+      ],
+      "related": [
+        {"word": "tragic", "trans": "形容詞：悲劇的な"}
+      ]
+    },
+    {
+      "number": 4251,
+      "word": "gaze",
+      "pos": "動詞、名詞",
+      "meaning": "（感銘・驚きなどで）見つめる、凝視する、注視",
+      "nuance": "ぼんやり、あるいは興味深く、長い時間じっと見ることを指します。lookよりも意識的で情緒的な響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They stood on the shore, gazing at the horizon.",
+              "ja": "彼らは海岸に立ち、地平線をじっと見つめていた。",
+              "highlight": "gazing"
+            }
+          ]
+        }
+      ],
+      "etymology": "北欧語由来（推測）",
+      "synonyms": [
+        {"word": "stare", "trans": "（じろじろ）見る"},
+        {"word": "peer", "trans": "凝視する"},
+        {"word": "contemplate", "trans": "熟考する、凝視する"}
+      ],
+      "antonyms": [
+        {"word": "glance", "trans": "ちらりと見る"},
+        {"word": "ignore", "trans": "無視する"}
+      ],
+      "related": []
+    },
+    {
+      "number": 4253,
+      "word": "moderate",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "適度の、中庸の、穏健な、〜を和らげる、司会をする",
+      "nuance": "極端に走らず、ちょうど良い範囲にある状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "Moderate exercise is good for your health.",
+              "ja": "適度な運動は健康に良い。",
+              "highlight": "Moderate"
+            },
+            {
+              "en": "He holds moderate political views.",
+              "ja": "彼は穏健な政治的見解を持っている。",
+              "highlight": "moderate"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The wind began to moderate in the evening.",
+              "ja": "夕方になると風が和らぎ（穏やかになり）始めた。",
+              "highlight": "moderate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 moderari（制限する、測る）",
+      "synonyms": [
+        {"word": "reasonable", "trans": "妥当な、控えめな"},
+        {"word": "average", "trans": "平均的な"},
+        {"word": "temperate", "trans": "節度のある"}
+      ],
+      "antonyms": [
+        {"word": "extreme", "trans": "極端な"},
+        {"word": "excessive", "trans": "過度の"}
+      ],
+      "related": [
+        {"word": "moderation", "trans": "名詞：節度"},
+        {"word": "moderator", "trans": "名詞：司会者、モデレーター"}
+      ]
+    },
+    {
+      "number": 4263,
+      "word": "currency",
+      "pos": "名詞",
+      "meaning": "通貨、貨幣、普及、流通",
+      "nuance": "お金（単位）という意味と、特定の考えなどが「世間に通用していること」という意味があります。",
+      "example_sections": [
+        {
+          "title": "例文（通貨）",
+          "examples": [
+            {
+              "en": "The Euro is the common currency of many European countries.",
+              "ja": "ユーロは多くの欧州諸国の共通通貨である。",
+              "highlight": "currency"
+            }
+          ]
+        },
+        {
+          "title": "例文（普及・流通）",
+          "examples": [
+            {
+              "en": "The idea gained currency in the late 1990s.",
+              "ja": "その考えは1990年代後半に普及した（流通を得た）。",
+              "highlight": "currency"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 currere（走る、流れる）",
+      "synonyms": [
+        {"word": "money", "trans": "お金"},
+        {"word": "cash", "trans": "現金"},
+        {"word": "prevalence", "trans": "普及"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "current", "trans": "形容詞：現在の、名詞：流れ"}
+      ]
+    }
+  ]
+}
