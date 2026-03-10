@@ -1,807 +1,1240 @@
 {
   "words": [
-  {
-    "number": 1,
-    "word": "complexity",
-    "pos": "名詞",
-    "meaning": "複雑さ、複雑なもの",
-    "nuance": "物事が多くの要素から成り立ち、理解や解決が困難な状態を指します。単に「入り組んでいる」だけでなく、制度や感情、技術的な「難解さ」を強調する際によく使われます。",
-    "example_sections": [
-      {
-        "title": "例文",
-        "examples": [
-          {
-            "en": "The complexity of the legal system can be overwhelming.",
-            "ja": "法律制度の複雑さは、圧倒されるほどである場合がある。",
-            "highlight": "complexity"
-          },
-          {
-            "en": "We need to embrace the complexity of the issue rather than seeking simple answers.",
-            "ja": "私たちは単純な答えを求めるのではなく、問題の複雑さを受け入れる必要がある。",
-            "highlight": "complexity"
-          }
-        ]
-      }
-    ],
-    "etymology": "complex (複雑な) + ity (名詞語尾) <br>→ 複雑な状態",
-    "synonyms": [
-      {"word": "complication", "trans": "複雑化、紛糾"},
-      {"word": "intricacy", "trans": "複雑、精緻"},
-      {"word": "sophistication", "trans": "高度な複雑さ"}
-    ],
-    "antonyms": [
-      {"word": "simplicity", "trans": "単純さ"},
-      {"word": "clarity", "trans": "明快さ"}
-    ],
-    "related": [
-      {"word": "complex", "trans": "形容詞：複雑な"},
-      {"word": "complexion", "trans": "名詞：顔色、外観"}
-    ]
-  },
-  {
-    "number": "1-2",
-    "word": "complex",
-    "pos": "形容詞、名詞",
-    "meaning": "複雑な、複合体、コンプレックス",
-    "nuance": "形容詞としては「多くの部分が絡み合って理解しにくい」ことを意味します。名詞としては「建物群（shopping complex）」や、心理学的な「抑圧された感情（inferiority complex）」を指します。",
-    "example_sections": [
-      {
-        "title": "例文（形容詞）",
-        "examples": [
-          {
-            "en": "The human brain is an incredibly complex organ.",
-            "ja": "人間の脳は信じられないほど複雑な臓器だ。",
-            "highlight": "complex"
-          }
-        ]
-      },
-      {
-        "title": "例文（名詞）",
-        "examples": [
-          {
-            "en": "They are building a new sports complex near the station.",
-            "ja": "彼らは駅の近くに新しい総合スポーツ施設を建設している。",
-            "highlight": "complex"
-          }
-        ]
-      }
-    ],
-    "etymology": "ラテン語 complexus (結び合わせる、囲む) <br>→ com (共に) + plectere (編む)",
-    "synonyms": [
-      {"word": "complicated", "trans": "複雑な（理解しにくい）"},
-      {"word": "intricate", "trans": "入り組んだ"},
-      {"word": "multifaceted", "trans": "多面的な"}
-    ],
-    "antonyms": [
-      {"word": "simple", "trans": "単純な"},
-      {"word": "straightforward", "trans": "分かりやすい"}
-    ],
-    "related": [
-      {"word": "complexity", "trans": "名詞：複雑さ"},
-      {"word": "perplex", "trans": "動詞：当惑させる"}
-    ]
-  },
-  {
-    "number": 2,
-    "word": "weave",
-    "pos": "動詞、名詞",
-    "meaning": "（布を）織る、編む、（物語などを）作り上げる",
-    "nuance": "糸を交差させて布を作る物理的な動作から転じて、異なる要素やエピソードを組み合わせて一つの緻密な物語や計画を作り上げる際にも使われます。",
-    "example_sections": [
-      {
-        "title": "例文（物理的）",
-        "examples": [
-          {
-            "en": "The artisan weaves beautiful baskets from bamboo.",
-            "ja": "職人は竹で美しい籠を編む。",
-            "highlight": "weaves"
-          }
-        ]
-      },
-      {
-        "title": "例文（比喩的）",
-        "examples": [
-          {
-            "en": "The author weaves historical facts into the fictional story.",
-            "ja": "著者は架空の物語の中に歴史的事実を織り込んでいる。",
-            "highlight": "weaves"
-          }
-        ]
-      }
-    ],
-    "etymology": "古期英語 wefan (織る) <br>→ 糸を交差させる",
-    "synonyms": [
-      {"word": "intertwine", "trans": "絡み合わせる"},
-      {"word": "knit", "trans": "編む"},
-      {"word": "construct", "trans": "構成する"}
-    ],
-    "antonyms": [
-      {"word": "unravel", "trans": "ほどく"},
-      {"word": "disentangle", "trans": "もつれを解く"},
-      {"word": "separate", "trans": "分離する"}
-    ],
-    "related": [
-      {"word": "weaver", "trans": "名詞：織り手"},
-      {"word": "web", "trans": "名詞：クモの巣、網"}
-    ]
-  },
-  {
-    "number": "2-2",
-    "word": "spin",
-    "pos": "動詞、名詞",
-    "meaning": "紡ぐ、回転させる、話をでっち上げる",
-    "nuance": "繭や綿から糸を取り出す（紡ぐ）ことや、高速回転を指します。比喩的に「spin a yarn/tale」で「（面白いまたは嘘の）話を長々と語る」という意味や、情報を自分に都合よく解釈させる（情報操作）という意味もあります。",
-    "example_sections": [
-      {
-        "title": "例文（回転・紡ぐ）",
-        "examples": [
-          {
-            "en": "Spiders spin webs to catch insects.",
-            "ja": "クモは昆虫を捕らえるために巣を張る（紡ぐ）。",
-            "highlight": "spin"
-          }
-        ]
-      },
-      {
-        "title": "例文（比喩的）",
-        "examples": [
-          {
-            "en": "He tried to spin the news in his favor.",
-            "ja": "彼はそのニュースを自分に都合がいいように言い換えようとした。",
-            "highlight": "spin"
-          }
-        ]
-      }
-    ],
-    "etymology": "古期英語 spinnan (紡ぐ) <br>→ 繊維を引き伸ばしてよる",
-    "synonyms": [
-      {"word": "rotate", "trans": "回転させる"},
-      {"word": "twirl", "trans": "くるくる回す"},
-      {"word": "fabricate", "trans": "（話を）作り上げる"}
-    ],
-    "antonyms": [
-      {"word": "stop", "trans": "止める"},
-      {"word": "stagnate", "trans": "停滞する"}
-    ],
-    "related": [
-      {"word": "spinner", "trans": "名詞：紡ぎ手"},
-      {"word": "spindle", "trans": "名詞：紡ぎ駒"},
-      {"word": "tailwind", "trans": "名詞：追い風（関連：状況の勢い）"}
-    ]
-  },
-  {
-    "number": 3,
-    "word": "transmit",
-    "pos": "動詞",
-    "meaning": "送る、伝える、放送する、（病気を）感染させる",
-    "nuance": "信号や情報を送る、光や熱を通す、あるいは病気や遺伝子を次世代や他者に「受け渡す」際に使われます。一方通行の「伝達」や「透過」のニュアンスが強いです。",
-    "example_sections": [
-      {
-        "title": "例文（情報・通信）",
-        "examples": [
-          {
-            "en": "The satellite transmits data back to Earth.",
-            "ja": "その人工衛星は地球にデータを送信する。",
-            "highlight": "transmits"
-          }
-        ]
-      },
-      {
-        "title": "例文（感染・遺伝）",
-        "examples": [
-          {
-            "en": "The disease is transmitted by mosquitoes.",
-            "ja": "その病気は蚊によって媒介（感染）される。",
-            "highlight": "transmitted"
-          }
-        ]
-      }
-    ],
-    "etymology": "trans (越えて) + mittere (送る) <br>→ 向こう側へ送る",
-    "synonyms": [
-      {"word": "transfer", "trans": "移す"},
-      {"word": "broadcast", "trans": "放送する"},
-      {"word": "convey", "trans": "運ぶ、伝える"}
-    ],
-    "antonyms": [
-      {"word": "receive", "trans": "受け取る"},
-      {"word": "block", "trans": "遮断する"},
-      {"word": "retain", "trans": "保持する"}
-    ],
-    "related": [
-      {"word": "transmission", "trans": "名詞：伝達、送信"},
-      {"word": "transmitter", "trans": "名詞：送信機"}
-    ]
-  },
-  {
-    "number": "3-2",
-    "word": "transmission",
-    "pos": "名詞",
-    "meaning": "伝達、送信、放送、変速機（トランスミッション）",
-    "nuance": "情報の送信や病気の伝染という行為そのものを指します。また、自動車のエンジン出力を車輪に伝える「変速機」という意味でも一般的に使われます。",
-    "example_sections": [
-      {
-        "title": "例文",
-        "examples": [
-          {
-            "en": "They are taking measures to prevent the transmission of the virus.",
-            "ja": "彼らはウイルスの感染（伝播）を防ぐための措置を講じている。",
-            "highlight": "transmission"
-          },
-          {
-            "en": "This car has a manual transmission.",
-            "ja": "この車はマニュアルの変速機を搭載している。",
-            "highlight": "transmission"
-          }
-        ]
-      }
-    ],
-    "etymology": "transmitの名詞形",
-    "synonyms": [
-      {"word": "communication", "trans": "通信"},
-      {"word": "contagion", "trans": "伝染"},
-      {"word": "transfer", "trans": "譲渡、移動"}
-    ],
-    "antonyms": [
-      {"word": "reception", "trans": "受信"},
-      {"word": "insulation", "trans": "絶縁、遮断"}
-    ],
-    "related": [
-      {"word": "transmit", "trans": "動詞：送る"}
-    ]
-  },
-  {
-    "number": 4,
-    "word": "diffuse",
-    "pos": "動詞、形容詞",
-    "meaning": "普及させる、散らす、広がる、拡散した",
-    "nuance": "光、熱、知識、あるいは噂などがゆっくりと周囲に「広がる・染み渡る」様子を表します。形容詞としては「（文章などが）まとまりのない、冗長な」という意味もあります。",
-    "example_sections": [
-      {
-        "title": "例文（動詞）",
-        "examples": [
-          {
-            "en": "The internet helped to diffuse knowledge quickly.",
-            "ja": "インターネットは知識を素早く普及させるのに役立った。",
-            "highlight": "diffuse"
-          }
-        ]
-      },
-      {
-        "title": "例文（形容詞）",
-        "examples": [
-          {
-            "en": "The light was soft and diffuse.",
-            "ja": "その光は柔らかく、拡散していた。",
-            "highlight": "diffuse"
-          }
-        ]
-      }
-    ],
-    "etymology": "dis (別々に) + fundere (注ぐ) <br>→ 四方に注ぎ出す",
-    "synonyms": [
-      {"word": "spread", "trans": "広がる"},
-      {"word": "scatter", "trans": "まき散らす"},
-      {"word": "circulate", "trans": "循環させる、流布する"}
-    ],
-    "antonyms": [
-      {"word": "concentrate", "trans": "集中させる"},
-      {"word": "condense", "trans": "凝縮する"},
-      {"word": "gather", "trans": "集める"}
-    ],
-    "related": [
-      {"word": "diffusion", "trans": "名詞：拡散、普及"},
-      {"word": "diffuse reflection", "trans": "名詞：乱反射"}
-    ]
-  },
-  {
-    "number": 5,
-    "word": "disperse",
-    "pos": "動詞",
-    "meaning": "分散させる、追い散らす、解散する",
-    "nuance": "固まっていた集団や群衆、あるいは雲などが「バラバラに分かれて消えていく」様子に重点が置かれます。警察がデモ隊を散らす際など、強制的なニュアンスを伴うこともあります。",
-    "example_sections": [
-      {
-        "title": "例文（解散・分散）",
-        "examples": [
-          {
-            "en": "The police ordered the crowd to disperse.",
-            "ja": "警察は群衆に解散するよう命じた。",
-            "highlight": "disperse"
-          }
-        ]
-      },
-      {
-        "title": "例文（散布）",
-        "examples": [
-          {
-            "en": "The seeds are dispersed by the wind.",
-            "ja": "種子は風によって運ばれる（まき散らされる）。",
-            "highlight": "dispersed"
-          }
-        ]
-      }
-    ],
-    "etymology": "dis (離れて) + spargere (まき散らす) <br>→ 離れた場所へまき散らす",
-    "synonyms": [
-      {"word": "dissolve", "trans": "解消する"},
-      {"word": "scatter", "trans": "追い散らす"},
-      {"word": "distribute", "trans": "分配する"}
-    ],
-    "antonyms": [
-      {"word": "assemble", "trans": "集める、集まる"},
-      {"word": "collect", "trans": "収集する"},
-      {"word": "unite", "trans": "団結する"}
-    ],
-    "related": [
-      {"word": "dispersion", "trans": "名詞：分散"},
-      {"word": "dispersal", "trans": "名詞：解散、散布"}
-    ]
-  },
-  {
-    "number": 6,
-    "word": "nectar",
-    "pos": "名詞",
-    "meaning": "（花の）蜜、甘い飲料、（ギリシャ神話の）神酒",
-    "nuance": "花が昆虫を誘い寄せるために分泌する甘い液体を指します。比喩的に「非常に美味しい飲み物」や、ギリシャ神話に登場する不老不死の神々の飲み物（ネクタル）を指すこともあります。",
-    "example_sections": [
-      {
-        "title": "例文（植物学）",
-        "examples": [
-          {
-            "en": "Bees collect nectar from flowers to make honey.",
-            "ja": "ハチははちみつを作るために花から蜜を集める。",
-            "highlight": "nectar"
-          }
-        ]
-      },
-      {
-        "title": "例文（比喩・飲料）",
-        "examples": [
-          {
-            "en": "After the long hike, the cold water tasted like nectar.",
-            "ja": "長いハイキングの後、冷たい水は神酒（最高に美味しい飲み物）のような味がした。",
-            "highlight": "nectar"
-          }
-        ]
-      }
-    ],
-    "etymology": "ギリシャ語 nektar (死を克服するもの) <br>→ nek (死) + tar (打ち勝つ) = 神々の飲み物",
-    "synonyms": [
-      {"word": "honey", "trans": "（加工された）蜜"},
-      {"word": "syrup", "trans": "シロップ"},
-      {"word": "ambrosia", "trans": "（神話上の）神々の食べ物、絶品"}
-    ],
-    "antonyms": [
-      {"word": "poison", "trans": "毒"},
-      {"word": "bitterness", "trans": "苦渋、苦いもの"}
-    ],
-    "related": [
-      {"word": "pollen", "trans": "名詞：花粉"},
-      {"word": "pollinate", "trans": "動詞：授粉する"}
-    ]
-  },
-  {
-    "number": 7,
-    "word": "colony",
-    "pos": "名詞",
-    "meaning": "植民地、居留地、（生物の）コロニー・群生",
-    "nuance": "政治的な「植民地」という意味のほか、同じ国籍の人が集まって住む「居留区」や、アリやハチなどの「集団（社会）」、細菌などの「群生」を指す生物学用語としても頻繁に使われます。",
-    "example_sections": [
-      {
-        "title": "例文（歴史・政治）",
-        "examples": [
-          {
-            "en": "The country was once a British colony.",
-            "ja": "その国はかつてイギリスの植民地だった。",
-            "highlight": "colony"
-          }
-        ]
-      },
-      {
-        "title": "例文（生物学）",
-        "examples": [
-          {
-            "en": "Ants live in highly organized colonies.",
-            "ja": "アリは非常に高度に組織化されたコロニー（集団）で生活している。",
-            "highlight": "colonies"
-          }
-        ]
-      }
-    ],
-    "etymology": "ラテン語 colonia (農園、入植地) <br>→ colere (耕す、住む)",
-    "synonyms": [
-      {"word": "settlement", "trans": "定住地、入植地"},
-      {"word": "community", "trans": "共同体"},
-      {"word": "outpost", "trans": "辺境の駐在所、前哨"}
-    ],
-    "antonyms": [
-      {"word": "homeland", "trans": "本国、故郷"},
-      {"word": "individual", "trans": "個体（集団に対して）"}
-    ],
-    "related": [
-      {"word": "colonize", "trans": "動詞：植民地化する"},
-      {"word": "colonist", "trans": "名詞：入植者"},
-      {"word": "colonialism", "trans": "名詞：植民地主義"}
-    ]
-  },
-  {
-    "number": "7-2",
-    "word": "colonial",
-    "pos": "形容詞",
-    "meaning": "植民地の、植民地時代の、コロニアル様式の",
-    "nuance": "植民地に関すること全般を指します。アメリカなどの「独立前（植民地時代）」を指すことが多く、建築や家具のスタイル（Colonial style）を指す際にもよく登場します。",
-    "example_sections": [
-      {
-        "title": "例文（歴史・社会）",
-        "examples": [
-          {
-            "en": "The city still has many buildings from the colonial era.",
-            "ja": "その都市には今も植民地時代の建物が多く残っている。",
-            "highlight": "colonial"
-          }
-        ]
-      },
-      {
-        "title": "例文（建築・様式）",
-        "examples": [
-          {
-            "en": "They live in a beautiful colonial-style house.",
-            "ja": "彼らは美しいコロニアル様式（植民地風）の家に住んでいる。",
-            "highlight": "colonial-style"
-          }
-        ]
-      }
-    ],
-    "etymology": "colony + al (形容詞語尾) <br>→ 植民地の",
-    "synonyms": [
-      {"word": "provincial", "trans": "地方の、属領の"},
-      {"word": "dependent", "trans": "依存的な、属国の"}
-    ],
-    "antonyms": [
-      {"word": "independent", "trans": "独立した"},
-      {"word": "metropolitan", "trans": "本国の、大都市の"},
-      {"word": "post-colonial", "trans": "脱植民地化後の"}
-    ],
-    "related": [
-      {"word": "colony", "trans": "名詞：植民地"},
-      {"word": "colonially", "trans": "副詞：植民地として"}
-    ]
-  },
-  {
-    "number": 8,
-    "word": "remarkable",
-    "pos": "形容詞",
-    "meaning": "注目すべき、並外れた、驚くべき",
-    "nuance": "「remark（述べる、注目する）＋able（できる）」が語源で、思わず口に出して言いたくなるほど「並外れていて目立つ」ことを指します。能力、業績、変化などが期待を大きく超える際に使われます。",
-    "example_sections": [
-      {
-        "title": "例文",
-        "examples": [
-          {
-            "en": "The young athlete has shown remarkable progress this year.",
-            "ja": "その若きアスリートは今年、目覚ましい（注目すべき）進歩を見せた。",
-            "highlight": "remarkable"
-          },
-          {
-            "en": "It is remarkable that she finished the project ahead of schedule.",
-            "ja": "彼女が予定より早くプロジェクトを終わらせたのは驚くべきことだ。",
-            "highlight": "remarkable"
-          }
-        ]
-      }
-    ],
-    "etymology": "re (強調) + mark (印をつける、注目する) + able (できる) <br>→ 注目するに値する",
-    "synonyms": [
-      {"word": "extraordinary", "trans": "並外れた"},
-      {"word": "outstanding", "trans": "傑出した"},
-      {"word": "striking", "trans": "目立つ、印象的な"}
-    ],
-    "antonyms": [
-      {"word": "ordinary", "trans": "普通の"},
-      {"word": "unremarkable", "trans": "平凡な"},
-      {"word": "commonplace", "trans": "ありふれた"}
-    ],
-    "related": [
-      {"word": "remark", "trans": "動詞/名詞：述べる、意見"},
-      {"word": "remarkably", "trans": "副詞：目立って、非常に"}
-    ]
-  },
-  {
-    "number": "8-2",
-    "word": "remarkably",
-    "pos": "副詞",
-    "meaning": "驚くほど、非常に、目立って",
-    "nuance": "予想や普通の状態に反して、際立って何かである様子を強調します。「驚いたことに」というニュアンスを含めて文全体を修飾することもあります。",
-    "example_sections": [
-      {
-        "title": "例文",
-        "examples": [
-          {
-            "en": "The two brothers look remarkably alike.",
-            "ja": "その兄弟は驚くほどよく似ている。",
-            "highlight": "remarkably"
-          },
-          {
-            "en": "Remarkably, no one was injured in the accident.",
-            "ja": "驚くべきことに、その事故で怪我をした人は誰もいなかった。",
-            "highlight": "Remarkably"
-          }
-        ]
-      }
-    ],
-    "etymology": "remarkable + ly (副詞語尾) <br>→ 注目すべきほどに",
-    "synonyms": [
-      {"word": "surprisingly", "trans": "驚くほど"},
-      {"word": "unusually", "trans": "異常なほど"},
-      {"word": "exceptionally", "trans": "格別に"}
-    ],
-    "antonyms": [
-      {"word": "slightly", "trans": "わずかに"},
-      {"word": "ordinarily", "trans": "普通に"}
-    ],
-    "related": [
-      {"word": "remarkable", "trans": "形容詞：注目すべき"}
-    ]
-  },
-  {
-    "number": 9,
-    "word": "awesome",
-    "pos": "形容詞",
-    "meaning": "素晴らしい、最高の、畏敬の念を抱かせる",
-    "nuance": "日常会話では「最高！」「すごい！」というポジティブな感嘆として非常に頻繁に使われます。本来は「awe（畏怖）」からきており、自然の猛威や神のような「恐ろしいほどの威厳」を指す重い言葉でもあります。",
-    "example_sections": [
-      {
-        "title": "例文（日常会話）",
-        "examples": [
-          {
-            "en": "That concert was absolutely awesome!",
-            "ja": "あのコンサートは本当に最高だった！",
-            "highlight": "awesome"
-          }
-        ]
-      },
-      {
-        "title": "例文（本来の畏怖）",
-        "examples": [
-          {
-            "en": "The eruption of the volcano was an awesome sight.",
-            "ja": "火山の噴火は、畏敬の念を抱かせる（圧倒されるような）光景だった。",
-            "highlight": "awesome"
-          }
-        ]
-      }
-    ],
-    "etymology": "awe (畏敬、恐れ) + some (〜に満ちた) <br>→ 圧倒されるような",
-    "synonyms": [
-      {"word": "amazing", "trans": "驚くべき"},
-      {"word": "impressive", "trans": "印象的な"},
-      {"word": "breathtaking", "trans": "息をのむような"}
-    ],
-    "antonyms": [
-      {"word": "awful", "trans": "ひどい（本来は同語源）"},
-      {"word": "boring", "trans": "つまらない"},
-      {"word": "ordinary", "trans": "普通の"}
-    ],
-    "related": [
-      {"word": "awe", "trans": "名詞：畏敬、畏怖"},
-      {"word": "awestruck", "trans": "形容詞：畏怖の念に打たれた"}
-    ]
-  },
-  {
-    "number": 10,
-    "word": "awe",
-    "pos": "名詞、動詞",
-    "meaning": "畏敬、畏怖、強い感銘",
-    "nuance": "単なる「尊敬」や「恐怖」ではなく、神聖なものや圧倒的な自然、偉大な才能などを前にして、自分が小さく感じられるような「恐れ多くも敬う気持ち」を指します。",
-    "example_sections": [
-      {
-        "title": "例文（名詞）",
-        "examples": [
-          {
-            "en": "The sight of the Grand Canyon filled us with awe.",
-            "ja": "グランドキャニオンの光景は、私たちを畏敬の念でいっぱいにした。",
-            "highlight": "awe"
-          }
-        ]
-      },
-      {
-        "title": "例文（動詞）",
-        "examples": [
-          {
-            "en": "We were awed by the sheer size of the mountains.",
-            "ja": "私たちはその山のあまりの大きさに圧倒された（畏怖の念を抱いた）。",
-            "highlight": "awed"
-          }
-        ]
-      }
-    ],
-    "etymology": "古期英語 ege (恐怖、畏怖) <br>→ 圧倒的な力に対する恐れ",
-    "synonyms": [
-      {"word": "reverence", "trans": "崇敬"},
-      {"word": "veneration", "trans": "尊敬、崇拝"},
-      {"word": "wonder", "trans": "驚嘆"}
-    ],
-    "antonyms": [
-      {"word": "contempt", "trans": "軽蔑"},
-      {"word": "disdain", "trans": "見下すこと"},
-      {"word": "indifference", "trans": "無関心"}
-    ],
-    "related": [
-      {"word": "awesome", "trans": "形容詞：素晴らしい、畏敬の念を抱かせる"},
-      {"word": "awestruck", "trans": "形容詞：畏敬の念に打たれた"}
-    ]
-  },
-  {
-    "number": "10-2",
-    "word": "awful",
-    "pos": "形容詞",
-    "meaning": "ひどい、不快な、恐ろしい",
-    "nuance": "本来は「awe（畏怖）に満ちた」という意味でしたが、現代では主に「（質や気分が）非常に悪い、最悪な」というネガティブな意味で使われます。",
-    "example_sections": [
-      {
-        "title": "例文",
-        "examples": [
-          {
-            "en": "The weather was awful throughout our vacation.",
-            "ja": "休暇中ずっと天気がひどかった。",
-            "highlight": "awful"
-          },
-          {
-            "en": "I feel awful about forgetting your birthday.",
-            "ja": "君の誕生日を忘れてしまって、本当に申し訳なく（嫌な気分に）思っている。",
-            "highlight": "awful"
-          }
-        ]
-      }
-    ],
-    "etymology": "awe (畏怖) + ful (満ちた) <br>→ 恐ろしいほどの = ひどい",
-    "synonyms": [
-      {"word": "terrible", "trans": "ひどい"},
-      {"word": "dreadful", "trans": "恐ろしい、最悪な"},
-      {"word": "horrible", "trans": "恐ろしい"}
-    ],
-    "antonyms": [
-      {"word": "wonderful", "trans": "素晴らしい"},
-      {"word": "excellent", "trans": "優れた"},
-      {"word": "pleasant", "trans": "心地よい"}
-    ],
-    "related": [
-      {"word": "awfully", "trans": "副詞：非常に、ひどく"}
-    ]
-  },
-  {
-    "number": "10-3",
-    "word": "awfully",
-    "pos": "副詞",
-    "meaning": "非常に、大変、ひどく",
-    "nuance": "形容詞のawful（ひどい）の意味を残して「ひどいやり方で」という意味もありますが、日常会話では「very」の強調形として「ものすごく」という意味でよく使われます（特にイギリス英語に多い）。",
-    "example_sections": [
-      {
-        "title": "例文（強調）",
-        "examples": [
-          {
-            "en": "It's awfully kind of you to help me.",
-            "ja": "助けていただいて、本当に（大変）ありがとうございます。",
-            "highlight": "awfully"
-          }
-        ]
-      },
-      {
-        "title": "例文（ひどく）",
-        "examples": [
-          {
-            "en": "She suffered awfully during the long illness.",
-            "ja": "彼女は長い病気の間、ひどく苦しんだ。",
-            "highlight": "awfully"
-          }
-        ]
-      }
-    ],
-    "etymology": "awful + ly (副詞語尾)",
-    "synonyms": [
-      {"word": "extremely", "trans": "極めて"},
-      {"word": "terribly", "trans": "ひどく、非常に"},
-      {"word": "very", "trans": "とても"}
-    ],
-    "antonyms": [
-      {"word": "slightly", "trans": "わずかに"},
-      {"word": "somewhat", "trans": "多少"},
-      {"word": "moderately", "trans": "適度に"}
-    ],
-    "related": [
-      {"word": "awful", "trans": "形容詞：ひどい"}
-    ]
-  },
-  {
-    "number": 11,
-    "word": "representation",
-    "pos": "名詞",
-    "meaning": "表現、描写、代表、代理",
-    "nuance": "何かを別の形で「表したもの（画像や言葉など）」や、特定の集団を「代表・代弁すること」を指します。政治における「代議制」や、メディアにおける「特定の属性の描かれ方」という文脈でよく使われます。",
-    "example_sections": [
-      {
-        "title": "例文（表現・描写）",
-        "examples": [
-          {
-            "en": "The painting is a realistic representation of a rural landscape.",
-            "ja": "その絵画は、田舎の風景を現実的に描写したものだ。",
-            "highlight": "representation"
-          }
-        ]
-      },
-      {
-        "title": "例文（代表・代弁）",
-        "examples": [
-          {
-            "en": "Taxation without representation was a key issue in the American Revolution.",
-            "ja": "「代表なくして課税なし（代表権のない課税）」はアメリカ独立戦争における主要な問題だった。",
-            "highlight": "representation"
-          }
-        ]
-      }
-    ],
-    "etymology": "re (再び) + present (提示する) + ation (名詞語尾) <br>→ 目の前に再び提示すること",
-    "synonyms": [
-      {"word": "depiction", "trans": "描写"},
-      {"word": "portrayal", "trans": "肖像、表現"},
-      {"word": "delegation", "trans": "代表派遣"}
-    ],
-    "antonyms": [
-      {"word": "original", "trans": "実物"},
-      {"word": "misinterpretation", "trans": "誤解、誤った表現"},
-      {"word": "absence", "trans": "不在、欠如"}
-    ],
-    "related": [
-      {"word": "represent", "trans": "動詞：代表する"},
-      {"word": "representative", "trans": "名詞/形容詞：代表者/代表的な"}
-    ]
-  },
-  {
-    "number": "11-2",
-    "word": "represent",
-    "pos": "動詞",
-    "meaning": "代表する、表す、象徴する、描写する",
-    "nuance": "ある人が集団の「代わりを務める」ことや、ある記号や言葉が特定の「意味を指し示す」ことを意味します。フォーマルな場での「〜を代表して出席する」や、図表が「〜を示している」という文脈で多用されます。",
-    "example_sections": [
-      {
-        "title": "例文（代表する）",
-        "examples": [
-          {
-            "en": "He was chosen to represent Japan in the international competition.",
-            "ja": "彼は国際大会で日本を代表するために選ばれた。",
-            "highlight": "represent"
-          }
-        ]
-      },
-      {
-        "title": "例文（象徴する・示す）",
-        "examples": [
-          {
-            "en": "The red lines on the map represent major highways.",
-            "ja": "地図上の赤い線は主要な幹線道路を表している。",
-            "highlight": "represent"
-          }
-        ]
-      }
-    ],
-    "etymology": "ラテン語 repraesentare (目の前に現れさせる) <br>→ re (再び) + praesentare (提示する)",
-    "synonyms": [
-      {"word": "symbolize", "trans": "象徴する"},
-      {"word": "embody", "trans": "体現する"},
-      {"word": "depict", "trans": "描く"}
-    ],
-    "antonyms": [
-      {"word": "misrepresent", "trans": "誤って伝える"},
-      {"word": "falsify", "trans": "偽る"},
-      {"word": "ignore", "trans": "無視する"}
-    ],
-    "related": [
-      {"word": "representation", "trans": "名詞：表現"},
-      {"word": "present", "trans": "動詞/形容詞：提示する/出席している"}
-    ]
-  }
-
-      
+    {
+      "number": 1,
+      "word": "complexity",
+      "pos": "名詞",
+      "meaning": "複雑さ、複雑なもの",
+      "nuance": "物事が多くの要素から成り立ち、理解や解決が困難な状態を指します。単に「入り組んでいる」だけでなく、制度や感情、技術的な「難解さ」を強調する際によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The complexity of the legal system can be overwhelming.",
+              "ja": "法律制度の複雑さは、圧倒されるほどである場合がある。",
+              "highlight": "complexity"
+            },
+            {
+              "en": "We need to embrace the complexity of the issue rather than seeking simple answers.",
+              "ja": "私たちは単純な答えを求めるのではなく、問題の複雑さを受け入れる必要がある。",
+              "highlight": "complexity"
+            }
+          ]
+        }
+      ],
+      "etymology": "complex (複雑な) + ity (名詞語尾) <br>→ 複雑な状態",
+      "synonyms": [
+        {"word": "complication", "trans": "複雑化、紛糾"},
+        {"word": "intricacy", "trans": "複雑、精緻"},
+        {"word": "sophistication", "trans": "高度な複雑さ"}
+      ],
+      "antonyms": [
+        {"word": "simplicity", "trans": "単純さ"},
+        {"word": "clarity", "trans": "明快さ"}
+      ],
+      "related": [
+        {"word": "complex", "trans": "形容詞：複雑な"},
+        {"word": "complexion", "trans": "名詞：顔色、外観"}
+      ]
+    },
+    {
+      "number": "1-2",
+      "word": "complex",
+      "pos": "形容詞、名詞",
+      "meaning": "複雑な、複合体、コンプレックス",
+      "nuance": "形容詞としては「多くの部分が絡み合って理解しにくい」ことを意味します。名詞としては「建物群（shopping complex）」や、心理学的な「抑圧された感情（inferiority complex）」を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The human brain is an incredibly complex organ.",
+              "ja": "人間の脳は信じられないほど複雑な臓器だ。",
+              "highlight": "complex"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "They are building a new sports complex near the station.",
+              "ja": "彼らは駅の近くに新しい総合スポーツ施設を建設している。",
+              "highlight": "complex"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 complexus (結び合わせる、囲む) <br>→ com (共に) + plectere (編む)",
+      "synonyms": [
+        {"word": "complicated", "trans": "複雑な（理解しにくい）"},
+        {"word": "intricate", "trans": "入り組んだ"},
+        {"word": "multifaceted", "trans": "多面的な"}
+      ],
+      "antonyms": [
+        {"word": "simple", "trans": "単純な"},
+        {"word": "straightforward", "trans": "分かりやすい"}
+      ],
+      "related": [
+        {"word": "complexity", "trans": "名詞：複雑さ"},
+        {"word": "perplex", "trans": "動詞：当惑させる"}
+      ]
+    },
+    {
+      "number": 2,
+      "word": "weave",
+      "pos": "動詞、名詞",
+      "meaning": "（布を）織る、編む、（物語などを）作り上げる",
+      "nuance": "糸を交差させて布を作る物理的な動作から転じて、異なる要素やエピソードを組み合わせて一つの緻密な物語や計画を作り上げる際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（物理的）",
+          "examples": [
+            {
+              "en": "The artisan weaves beautiful baskets from bamboo.",
+              "ja": "職人は竹で美しい籠を編む。",
+              "highlight": "weaves"
+            }
+          ]
+        },
+        {
+          "title": "例文（比喩的）",
+          "examples": [
+            {
+              "en": "The author weaves historical facts into the fictional story.",
+              "ja": "著者は架空の物語の中に歴史的事実を織り込んでいる。",
+              "highlight": "weaves"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 wefan (織る) <br>→ 糸を交差させる",
+      "synonyms": [
+        {"word": "intertwine", "trans": "絡み合わせる"},
+        {"word": "knit", "trans": "編む"},
+        {"word": "construct", "trans": "構成する"}
+      ],
+      "antonyms": [
+        {"word": "unravel", "trans": "ほどく"},
+        {"word": "disentangle", "trans": "もつれを解く"},
+        {"word": "separate", "trans": "分離する"}
+      ],
+      "related": [
+        {"word": "weaver", "trans": "名詞：織り手"},
+        {"word": "web", "trans": "名詞：クモの巣、網"}
+      ]
+    },
+    {
+      "number": "2-2",
+      "word": "spin",
+      "pos": "動詞、名詞",
+      "meaning": "紡ぐ、回転させる、話をでっち上げる",
+      "nuance": "繭や綿から糸を取り出す（紡ぐ）ことや、高速回転を指します。比喩的に「spin a yarn/tale」で「（面白いまたは嘘の）話を長々と語る」という意味や、情報を自分に都合よく解釈させる（情報操作）という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文（回転・紡ぐ）",
+          "examples": [
+            {
+              "en": "Spiders spin webs to catch insects.",
+              "ja": "クモは昆虫を捕らえるために巣を張る（紡ぐ）。",
+              "highlight": "spin"
+            }
+          ]
+        },
+        {
+          "title": "例文（比喩的）",
+          "examples": [
+            {
+              "en": "He tried to spin the news in his favor.",
+              "ja": "彼はそのニュースを自分に都合がいいように言い換えようとした。",
+              "highlight": "spin"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 spinnan (紡ぐ) <br>→ 繊維を引き伸ばしてよる",
+      "synonyms": [
+        {"word": "rotate", "trans": "回転させる"},
+        {"word": "twirl", "trans": "くるくる回す"},
+        {"word": "fabricate", "trans": "（話を）作り上げる"}
+      ],
+      "antonyms": [
+        {"word": "stop", "trans": "止める"},
+        {"word": "stagnate", "trans": "停滞する"}
+      ],
+      "related": [
+        {"word": "spinner", "trans": "名詞：紡ぎ手"},
+        {"word": "spindle", "trans": "名詞：紡ぎ駒"},
+        {"word": "tailwind", "trans": "名詞：追い風（関連：状況の勢い）"}
+      ]
+    },
+    {
+      "number": 3,
+      "word": "transmit",
+      "pos": "動詞",
+      "meaning": "送る、伝える、放送する、（病気を）感染させる",
+      "nuance": "信号や情報を送る、光や熱を通す、あるいは病気や遺伝子を次世代や他者に「受け渡す」際に使われます。一方通行の「伝達」や「透過」のニュアンスが強いです。",
+      "example_sections": [
+        {
+          "title": "例文（情報・通信）",
+          "examples": [
+            {
+              "en": "The satellite transmits data back to Earth.",
+              "ja": "その人工衛星は地球にデータを送信する。",
+              "highlight": "transmits"
+            }
+          ]
+        },
+        {
+          "title": "例文（感染・遺伝）",
+          "examples": [
+            {
+              "en": "The disease is transmitted by mosquitoes.",
+              "ja": "その病気は蚊によって媒介（感染）される。",
+              "highlight": "transmitted"
+            }
+          ]
+        }
+      ],
+      "etymology": "trans (越えて) + mittere (送る) <br>→ 向こう側へ送る",
+      "synonyms": [
+        {"word": "transfer", "trans": "移す"},
+        {"word": "broadcast", "trans": "放送する"},
+        {"word": "convey", "trans": "運ぶ、伝える"}
+      ],
+      "antonyms": [
+        {"word": "receive", "trans": "受け取る"},
+        {"word": "block", "trans": "遮断する"},
+        {"word": "retain", "trans": "保持する"}
+      ],
+      "related": [
+        {"word": "transmission", "trans": "名詞：伝達、送信"},
+        {"word": "transmitter", "trans": "名詞：送信機"}
+      ]
+    },
+    {
+      "number": "3-2",
+      "word": "transmission",
+      "pos": "名詞",
+      "meaning": "伝達、送信、放送、変速機（トランスミッション）",
+      "nuance": "情報の送信や病気の伝染という行為そのものを指します。また、自動車のエンジン出力を車輪に伝える「変速機」という意味でも一般的に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They are taking measures to prevent the transmission of the virus.",
+              "ja": "彼らはウイルスの感染（伝播）を防ぐための措置を講じている。",
+              "highlight": "transmission"
+            },
+            {
+              "en": "This car has a manual transmission.",
+              "ja": "この車はマニュアルの変速機を搭載している。",
+              "highlight": "transmission"
+            }
+          ]
+        }
+      ],
+      "etymology": "transmitの名詞形",
+      "synonyms": [
+        {"word": "communication", "trans": "通信"},
+        {"word": "contagion", "trans": "伝染"},
+        {"word": "transfer", "trans": "譲渡、移動"}
+      ],
+      "antonyms": [
+        {"word": "reception", "trans": "受信"},
+        {"word": "insulation", "trans": "絶縁、遮断"}
+      ],
+      "related": [
+        {"word": "transmit", "trans": "動詞：送る"}
+      ]
+    },
+    {
+      "number": 4,
+      "word": "diffuse",
+      "pos": "動詞、形容詞",
+      "meaning": "普及させる、散らす、広がる、拡散した",
+      "nuance": "光、熱、知識、あるいは噂などがゆっくりと周囲に「広がる・染み渡る」様子を表します。形容詞としては「（文章などが）まとまりのない、冗長な」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The internet helped to diffuse knowledge quickly.",
+              "ja": "インターネットは知識を素早く普及させるのに役立った。",
+              "highlight": "diffuse"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The light was soft and diffuse.",
+              "ja": "その光は柔らかく、拡散していた。",
+              "highlight": "diffuse"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (別々に) + fundere (注ぐ) <br>→ 四方に注ぎ出す",
+      "synonyms": [
+        {"word": "spread", "trans": "広がる"},
+        {"word": "scatter", "trans": "まき散らす"},
+        {"word": "circulate", "trans": "循環させる、流布する"}
+      ],
+      "antonyms": [
+        {"word": "concentrate", "trans": "集中させる"},
+        {"word": "condense", "trans": "凝縮する"},
+        {"word": "gather", "trans": "集める"}
+      ],
+      "related": [
+        {"word": "diffusion", "trans": "名詞：拡散、普及"},
+        {"word": "diffuse reflection", "trans": "名詞：乱反射"}
+      ]
+    },
+    {
+      "number": 5,
+      "word": "disperse",
+      "pos": "動詞",
+      "meaning": "分散させる、追い散らす、解散する",
+      "nuance": "固まっていた集団や群衆、あるいは雲などが「バラバラに分かれて消えていく」様子に重点が置かれます。警察がデモ隊を散らす際など、強制的なニュアンスを伴うこともあります。",
+      "example_sections": [
+        {
+          "title": "例文（解散・分散）",
+          "examples": [
+            {
+              "en": "The police ordered the crowd to disperse.",
+              "ja": "警察は群衆に解散するよう命じた。",
+              "highlight": "disperse"
+            }
+          ]
+        },
+        {
+          "title": "例文（散布）",
+          "examples": [
+            {
+              "en": "The seeds are dispersed by the wind.",
+              "ja": "種子は風によって運ばれる（まき散らされる）。",
+              "highlight": "dispersed"
+            }
+          ]
+        }
+      ],
+      "etymology": "dis (離れて) + spargere (まき散らす) <br>→ 離れた場所へまき散らす",
+      "synonyms": [
+        {"word": "dissolve", "trans": "解消する"},
+        {"word": "scatter", "trans": "追い散らす"},
+        {"word": "distribute", "trans": "分配する"}
+      ],
+      "antonyms": [
+        {"word": "assemble", "trans": "集める、集まる"},
+        {"word": "collect", "trans": "収集する"},
+        {"word": "unite", "trans": "団結する"}
+      ],
+      "related": [
+        {"word": "dispersion", "trans": "名詞：分散"},
+        {"word": "dispersal", "trans": "名詞：解散、散布"}
+      ]
+    },
+    {
+      "number": 6,
+      "word": "nectar",
+      "pos": "名詞",
+      "meaning": "（花の）蜜、甘い飲料、（ギリシャ神話の）神酒",
+      "nuance": "花が昆虫を誘い寄せるために分泌する甘い液体を指します。比喩的に「非常に美味しい飲み物」や、ギリシャ神話に登場する不老不死の神々の飲み物（ネクタル）を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文（植物学）",
+          "examples": [
+            {
+              "en": "Bees collect nectar from flowers to make honey.",
+              "ja": "ハチははちみつを作るために花から蜜を集める。",
+              "highlight": "nectar"
+            }
+          ]
+        },
+        {
+          "title": "例文（比喩・飲料）",
+          "examples": [
+            {
+              "en": "After the long hike, the cold water tasted like nectar.",
+              "ja": "長いハイキングの後、冷たい水は神酒（最高に美味しい飲み物）のような味がした。",
+              "highlight": "nectar"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 nektar (死を克服するもの) <br>→ nek (死) + tar (打ち勝つ) = 神々の飲み物",
+      "synonyms": [
+        {"word": "honey", "trans": "（加工された）蜜"},
+        {"word": "syrup", "trans": "シロップ"},
+        {"word": "ambrosia", "trans": "（神話上の）神々の食べ物、絶品"}
+      ],
+      "antonyms": [
+        {"word": "poison", "trans": "毒"},
+        {"word": "bitterness", "trans": "苦渋、苦いもの"}
+      ],
+      "related": [
+        {"word": "pollen", "trans": "名詞：花粉"},
+        {"word": "pollinate", "trans": "動詞：授粉する"}
+      ]
+    },
+    {
+      "number": 7,
+      "word": "colony",
+      "pos": "名詞",
+      "meaning": "植民地、居留地、（生物の）コロニー・群生",
+      "nuance": "政治的な「植民地」という意味のほか、同じ国籍の人が集まって住む「居留区」や、アリやハチなどの「集団（社会）」、細菌などの「群生」を指す生物学用語としても頻繁に使われます。",
+      "example_sections": [
+        {
+          "title": "例文（歴史・政治）",
+          "examples": [
+            {
+              "en": "The country was once a British colony.",
+              "ja": "その国はかつてイギリスの植民地だった。",
+              "highlight": "colony"
+            }
+          ]
+        },
+        {
+          "title": "例文（生物学）",
+          "examples": [
+            {
+              "en": "Ants live in highly organized colonies.",
+              "ja": "アリは非常に高度に組織化されたコロニー（集団）で生活している。",
+              "highlight": "colonies"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 colonia (農園、入植地) <br>→ colere (耕す、住む)",
+      "synonyms": [
+        {"word": "settlement", "trans": "定住地、入植地"},
+        {"word": "community", "trans": "共同体"},
+        {"word": "outpost", "trans": "辺境の駐在所、前哨"}
+      ],
+      "antonyms": [
+        {"word": "homeland", "trans": "本国、故郷"},
+        {"word": "individual", "trans": "個体（集団に対して）"}
+      ],
+      "related": [
+        {"word": "colonize", "trans": "動詞：植民地化する"},
+        {"word": "colonist", "trans": "名詞：入植者"},
+        {"word": "colonialism", "trans": "名詞：植民地主義"}
+      ]
+    },
+    {
+      "number": "7-2",
+      "word": "colonial",
+      "pos": "形容詞",
+      "meaning": "植民地の、植民地時代の、コロニアル様式の",
+      "nuance": "植民地に関すること全般を指します。アメリカなどの「独立前（植民地時代）」を指すことが多く、建築や家具のスタイル（Colonial style）を指す際にもよく登場します。",
+      "example_sections": [
+        {
+          "title": "例文（歴史・社会）",
+          "examples": [
+            {
+              "en": "The city still has many buildings from the colonial era.",
+              "ja": "その都市には今も植民地時代の建物が多く残っている。",
+              "highlight": "colonial"
+            }
+          ]
+        },
+        {
+          "title": "例文（建築・様式）",
+          "examples": [
+            {
+              "en": "They live in a beautiful colonial-style house.",
+              "ja": "彼らは美しいコロニアル様式（植民地風）の家に住んでいる。",
+              "highlight": "colonial-style"
+            }
+          ]
+        }
+      ],
+      "etymology": "colony + al (形容詞語尾) <br>→ 植民地の",
+      "synonyms": [
+        {"word": "provincial", "trans": "地方の、属領の"},
+        {"word": "dependent", "trans": "依存的な、属国の"}
+      ],
+      "antonyms": [
+        {"word": "independent", "trans": "独立した"},
+        {"word": "metropolitan", "trans": "本国の、大都市の"},
+        {"word": "post-colonial", "trans": "脱植民地化後の"}
+      ],
+      "related": [
+        {"word": "colony", "trans": "名詞：植民地"},
+        {"word": "colonially", "trans": "副詞：植民地として"}
+      ]
+    },
+    {
+      "number": 8,
+      "word": "remarkable",
+      "pos": "形容詞",
+      "meaning": "注目すべき、並外れた、驚くべき",
+      "nuance": "「remark（述べる、注目する）＋able（できる）」が語源で、思わず口に出して言いたくなるほど「並外れていて目立つ」ことを指します。能力、業績、変化などが期待を大きく超える際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The young athlete has shown remarkable progress this year.",
+              "ja": "その若きアスリートは今年、目覚ましい（注目すべき）進歩を見せた。",
+              "highlight": "remarkable"
+            },
+            {
+              "en": "It is remarkable that she finished the project ahead of schedule.",
+              "ja": "彼女が予定より早くプロジェクトを終わらせたのは驚くべきことだ。",
+              "highlight": "remarkable"
+            }
+          ]
+        }
+      ],
+      "etymology": "re (強調) + mark (印をつける、注目する) + able (できる) <br>→ 注目するに値する",
+      "synonyms": [
+        {"word": "extraordinary", "trans": "並外れた"},
+        {"word": "outstanding", "trans": "傑出した"},
+        {"word": "striking", "trans": "目立つ、印象的な"}
+      ],
+      "antonyms": [
+        {"word": "ordinary", "trans": "普通の"},
+        {"word": "unremarkable", "trans": "平凡な"},
+        {"word": "commonplace", "trans": "ありふれた"}
+      ],
+      "related": [
+        {"word": "remark", "trans": "動詞/名詞：述べる、意見"},
+        {"word": "remarkably", "trans": "副詞：目立って、非常に"}
+      ]
+    },
+    {
+      "number": "8-2",
+      "word": "remarkably",
+      "pos": "副詞",
+      "meaning": "驚くほど、非常に、目立って",
+      "nuance": "予想や普通の状態に反して、際立って何かである様子を強調します。「驚いたことに」というニュアンスを含めて文全体を修飾することもあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The two brothers look remarkably alike.",
+              "ja": "その兄弟は驚くほどよく似ている。",
+              "highlight": "remarkably"
+            },
+            {
+              "en": "Remarkably, no one was injured in the accident.",
+              "ja": "驚くべきことに、その事故で怪我をした人は誰もいなかった。",
+              "highlight": "Remarkably"
+            }
+          ]
+        }
+      ],
+      "etymology": "remarkable + ly (副詞語尾) <br>→ 注目すべきほどに",
+      "synonyms": [
+        {"word": "surprisingly", "trans": "驚くほど"},
+        {"word": "unusually", "trans": "異常なほど"},
+        {"word": "exceptionally", "trans": "格別に"}
+      ],
+      "antonyms": [
+        {"word": "slightly", "trans": "わずかに"},
+        {"word": "ordinarily", "trans": "普通に"}
+      ],
+      "related": [
+        {"word": "remarkable", "trans": "形容詞：注目すべき"}
+      ]
+    },
+    {
+      "number": 9,
+      "word": "awesome",
+      "pos": "形容詞",
+      "meaning": "素晴らしい、最高の、畏敬の念を抱かせる",
+      "nuance": "日常会話では「最高！」「すごい！」というポジティブな感嘆として非常に頻繁に使われます。本来は「awe（畏怖）」からきており、自然の猛威や神のような「恐ろしいほどの威厳」を指す重い言葉でもあります。",
+      "example_sections": [
+        {
+          "title": "例文（日常会話）",
+          "examples": [
+            {
+              "en": "That concert was absolutely awesome!",
+              "ja": "あのコンサートは本当に最高だった！",
+              "highlight": "awesome"
+            }
+          ]
+        },
+        {
+          "title": "例文（本来の畏怖）",
+          "examples": [
+            {
+              "en": "The eruption of the volcano was an awesome sight.",
+              "ja": "火山の噴火は、畏敬の念を抱かせる（圧倒されるような）光景だった。",
+              "highlight": "awesome"
+            }
+          ]
+        }
+      ],
+      "etymology": "awe (畏敬、恐れ) + some (〜に満ちた) <br>→ 圧倒されるような",
+      "synonyms": [
+        {"word": "amazing", "trans": "驚くべき"},
+        {"word": "impressive", "trans": "印象的な"},
+        {"word": "breathtaking", "trans": "息をのむような"}
+      ],
+      "antonyms": [
+        {"word": "awful", "trans": "ひどい（本来は同語源）"},
+        {"word": "boring", "trans": "つまらない"},
+        {"word": "ordinary", "trans": "普通の"}
+      ],
+      "related": [
+        {"word": "awe", "trans": "名詞：畏敬、畏怖"},
+        {"word": "awestruck", "trans": "形容詞：畏怖の念に打たれた"}
+      ]
+    },
+    {
+      "number": 10,
+      "word": "awe",
+      "pos": "名詞、動詞",
+      "meaning": "畏敬、畏怖、強い感銘",
+      "nuance": "単なる「尊敬」や「恐怖」ではなく、神聖なものや圧倒的な自然、偉大な才能などを前にして、自分が小さく感じられるような「恐れ多くも敬う気持ち」を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The sight of the Grand Canyon filled us with awe.",
+              "ja": "グランドキャニオンの光景は、私たちを畏敬の念でいっぱいにした。",
+              "highlight": "awe"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "We were awed by the sheer size of the mountains.",
+              "ja": "私たちはその山のあまりの大きさに圧倒された（畏怖の念を抱いた）。",
+              "highlight": "awed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 ege (恐怖、畏怖) <br>→ 圧倒的な力に対する恐れ",
+      "synonyms": [
+        {"word": "reverence", "trans": "崇敬"},
+        {"word": "veneration", "trans": "尊敬、崇拝"},
+        {"word": "wonder", "trans": "驚嘆"}
+      ],
+      "antonyms": [
+        {"word": "contempt", "trans": "軽蔑"},
+        {"word": "disdain", "trans": "見下すこと"},
+        {"word": "indifference", "trans": "無関心"}
+      ],
+      "related": [
+        {"word": "awesome", "trans": "形容詞：素晴らしい、畏敬の念を抱かせる"},
+        {"word": "awestruck", "trans": "形容詞：畏敬の念に打たれた"}
+      ]
+    },
+    {
+      "number": "10-2",
+      "word": "awful",
+      "pos": "形容詞",
+      "meaning": "ひどい、不快な、恐ろしい",
+      "nuance": "本来は「awe（畏怖）に満ちた」という意味でしたが、現代では主に「（質や気分が）非常に悪い、最悪な」というネガティブな意味で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The weather was awful throughout our vacation.",
+              "ja": "休暇中ずっと天気がひどかった。",
+              "highlight": "awful"
+            },
+            {
+              "en": "I feel awful about forgetting your birthday.",
+              "ja": "君の誕生日を忘れてしまって、本当に申し訳なく（嫌な気分に）思っている。",
+              "highlight": "awful"
+            }
+          ]
+        }
+      ],
+      "etymology": "awe (畏怖) + ful (満ちた) <br>→ 恐ろしいほどの = ひどい",
+      "synonyms": [
+        {"word": "terrible", "trans": "ひどい"},
+        {"word": "dreadful", "trans": "恐ろしい、最悪な"},
+        {"word": "horrible", "trans": "恐ろしい"}
+      ],
+      "antonyms": [
+        {"word": "wonderful", "trans": "素晴らしい"},
+        {"word": "excellent", "trans": "優れた"},
+        {"word": "pleasant", "trans": "心地よい"}
+      ],
+      "related": [
+        {"word": "awfully", "trans": "副詞：非常に、ひどく"}
+      ]
+    },
+    {
+      "number": "10-3",
+      "word": "awfully",
+      "pos": "副詞",
+      "meaning": "非常に、大変、ひどく",
+      "nuance": "形容詞のawful（ひどい）の意味を残して「ひどいやり方で」という意味もありますが、日常会話では「very」の強調形として「ものすごく」という意味でよく使われます（特にイギリス英語に多い）。",
+      "example_sections": [
+        {
+          "title": "例文（強調）",
+          "examples": [
+            {
+              "en": "It's awfully kind of you to help me.",
+              "ja": "助けていただいて、本当に（大変）ありがとうございます。",
+              "highlight": "awfully"
+            }
+          ]
+        },
+        {
+          "title": "例文（ひどく）",
+          "examples": [
+            {
+              "en": "She suffered awfully during the long illness.",
+              "ja": "彼女は長い病気の間、ひどく苦しんだ。",
+              "highlight": "awfully"
+            }
+          ]
+        }
+      ],
+      "etymology": "awful + ly (副詞語尾)",
+      "synonyms": [
+        {"word": "extremely", "trans": "極めて"},
+        {"word": "terribly", "trans": "ひどく、非常に"},
+        {"word": "very", "trans": "とても"}
+      ],
+      "antonyms": [
+        {"word": "slightly", "trans": "わずかに"},
+        {"word": "somewhat", "trans": "多少"},
+        {"word": "moderately", "trans": "適度に"}
+      ],
+      "related": [
+        {"word": "awful", "trans": "形容詞：ひどい"}
+      ]
+    },
+    {
+      "number": 11,
+      "word": "representation",
+      "pos": "名詞",
+      "meaning": "表現、描写、代表、代理",
+      "nuance": "何かを別の形で「表したもの（画像や言葉など）」や、特定の集団を「代表・代弁すること」を指します。政治における「代議制」や、メディアにおける「特定の属性の描かれ方」という文脈でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（表現・描写）",
+          "examples": [
+            {
+              "en": "The painting is a realistic representation of a rural landscape.",
+              "ja": "その絵画は、田舎の風景を現実的に描写したものだ。",
+              "highlight": "representation"
+            }
+          ]
+        },
+        {
+          "title": "例文（代表・代弁）",
+          "examples": [
+            {
+              "en": "Taxation without representation was a key issue in the American Revolution.",
+              "ja": "「代表なくして課税なし（代表権のない課税）」はアメリカ独立戦争における主要な問題だった。",
+              "highlight": "representation"
+            }
+          ]
+        }
+      ],
+      "etymology": "re (再び) + present (提示する) + ation (名詞語尾) <br>→ 目の前に再び提示すること",
+      "synonyms": [
+        {"word": "depiction", "trans": "描写"},
+        {"word": "portrayal", "trans": "肖像、表現"},
+        {"word": "delegation", "trans": "代表派遣"}
+      ],
+      "antonyms": [
+        {"word": "original", "trans": "実物"},
+        {"word": "misinterpretation", "trans": "誤解、誤った表現"},
+        {"word": "absence", "trans": "不在、欠如"}
+      ],
+      "related": [
+        {"word": "represent", "trans": "動詞：代表する"},
+        {"word": "representative", "trans": "名詞/形容詞：代表者/代表的な"}
+      ]
+    },
+    {
+      "number": "11-2",
+      "word": "represent",
+      "pos": "動詞",
+      "meaning": "代表する、表す、象徴する、描写する",
+      "nuance": "ある人が集団の「代わりを務める」ことや、ある記号や言葉が特定の「意味を指し示す」ことを意味します。フォーマルな場での「〜を代表して出席する」や、図表が「〜を示している」という文脈で多用されます。",
+      "example_sections": [
+        {
+          "title": "例文（代表する）",
+          "examples": [
+            {
+              "en": "He was chosen to represent Japan in the international competition.",
+              "ja": "彼は国際大会で日本を代表するために選ばれた。",
+              "highlight": "represent"
+            }
+          ]
+        },
+        {
+          "title": "例文（象徴する・示す）",
+          "examples": [
+            {
+              "en": "The red lines on the map represent major highways.",
+              "ja": "地図上の赤い線は主要な幹線道路を表している。",
+              "highlight": "represent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 repraesentare (目の前に現れさせる) <br>→ re (再び) + praesentare (提示する)",
+      "synonyms": [
+        {"word": "symbolize", "trans": "象徴する"},
+        {"word": "embody", "trans": "体現する"},
+        {"word": "depict", "trans": "描く"}
+      ],
+      "antonyms": [
+        {"word": "misrepresent", "trans": "誤って伝える"},
+        {"word": "falsify", "trans": "偽る"},
+        {"word": "ignore", "trans": "無視する"}
+      ],
+      "related": [
+        {"word": "representation", "trans": "名詞：表現"},
+        {"word": "present", "trans": "動詞/形容詞：提示する/出席している"}
+      ]
+    },
+    {
+      "number": 12,
+      "word": "depict",
+      "pos": "動詞",
+      "meaning": "〜を描く、描写する、表現する",
+      "nuance": "絵画で描くだけでなく、言葉を使って人物や状況を生き生きと説明する際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The artist tried to depict the beauty of the sunset.",
+              "ja": "その芸術家は夕日の美しさを描こうとした。",
+              "highlight": "depict"
+            },
+            {
+              "en": "The novel depicts the life of a family during the war.",
+              "ja": "その小説は、戦時中の一家の生活を描写している。",
+              "highlight": "depicts"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（完全に）+ pingere（描く・塗る）",
+      "synonyms": [
+        {"word": "portray", "trans": "描く、肖像を作る"},
+        {"word": "describe", "trans": "説明する、描写する"},
+        {"word": "illustrate", "trans": "図解する、例証する"}
+      ],
+      "antonyms": [
+        {"word": "distort", "trans": "歪める"},
+        {"word": "misrepresent", "trans": "誤って伝える"},
+        {"word": "hide", "trans": "隠す"}
+      ],
+      "related": [
+        {"word": "depiction", "trans": "名詞：描写"}
+      ]
+    },
+    {
+      "number": "12-2",
+      "word": "depiction",
+      "pos": "名詞",
+      "meaning": "描写、叙述、表現",
+      "nuance": "描かれたもの、あるいは記述された内容そのものを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The movie's depiction of historical events was not accurate.",
+              "ja": "その映画の歴史的事件の描写は正確ではなかった。",
+              "highlight": "depiction"
+            }
+          ]
+        }
+      ],
+      "etymology": "depict の名詞形",
+      "synonyms": [
+        {"word": "portrayal", "trans": "肖像、描写"},
+        {"word": "representation", "trans": "表現、代表"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 13,
+      "word": "sketch",
+      "pos": "名詞、動詞",
+      "meaning": "スケッチ、下書き、概略、〜を素描する、〜の概略を述べる",
+      "nuance": "細部まで作り込まず、主要な特徴だけを素早く捉えることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "He made a quick sketch of the landscape.",
+              "ja": "彼は風景の素早いスケッチを描いた。",
+              "highlight": "sketch"
+            },
+            {
+              "en": "Give me a brief sketch of your plan.",
+              "ja": "あなたの計画の概略を教えてください。",
+              "highlight": "sketch"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "She sketched the suspect's face based on the witness's description.",
+              "ja": "彼女は目撃者の証言に基づいて、容疑者の顔を素描した。",
+              "highlight": "sketched"
+            },
+            {
+              "en": "The architect sketched out the initial ideas on a napkin.",
+              "ja": "建築家は最初のアイデアをナプキンにざっと描いた。",
+              "highlight": "sketched out"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 skhedios（間に合わせの、即席の）",
+      "synonyms": [
+        {"word": "outline", "trans": "輪郭、概略"},
+        {"word": "draft", "trans": "下書き"},
+        {"word": "drawing", "trans": "図面、絵"}
+      ],
+      "antonyms": [
+        {"word": "detail", "trans": "細部まで作り込む"},
+        {"word": "complete", "trans": "完成させる"}
+      ],
+      "related": [
+        {"word": "sketchy", "trans": "形容詞：不完全な、怪しい"}
+      ]
+    },
+    {
+      "number": 14,
+      "word": "cognitive",
+      "pos": "形容詞",
+      "meaning": "認知の、認識に関する",
+      "nuance": "思考、記憶、理解、判断など、脳が情報を処理するプロセスに関連することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Puzzles can help improve cognitive skills in elderly people.",
+              "ja": "パズルは高齢者の認知能力を向上させるのに役立つ。",
+              "highlight": "cognitive"
+            },
+            {
+              "en": "Cognitive psychology focuses on how people think.",
+              "ja": "認知心理学は、人々がどのように考えるかに焦点を当てている。",
+              "highlight": "Cognitive"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 cognoscere（知る、認識する）",
+      "synonyms": [
+        {"word": "intellectual", "trans": "知的な"},
+        {"word": "mental", "trans": "精神的な"},
+        {"word": "perceptual", "trans": "知覚の"}
+      ],
+      "antonyms": [
+        {"word": "emotional", "trans": "感情的な"},
+        {"word": "physical", "trans": "身体的な"}
+      ],
+      "related": [
+        {"word": "cognition", "trans": "名詞：認知"}
+      ]
+    },
+    {
+      "number": "14-2",
+      "word": "cognition",
+      "pos": "名詞",
+      "meaning": "認知、認識、思考能力",
+      "nuance": "知識を得るための精神的な活動全般を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The study explores the link between language and cognition.",
+              "ja": "その研究は言語と認知の関連性を調査している。",
+              "highlight": "cognition"
+            }
+          ]
+        }
+      ],
+      "etymology": "cognitive と同語源",
+      "synonyms": [
+        {"word": "awareness", "trans": "自覚、認識"},
+        {"word": "understanding", "trans": "理解"},
+        {"word": "perception", "trans": "知覚"}
+      ],
+      "antonyms": [
+        {"word": "ignorance", "trans": "無知"},
+        {"word": "unconsciousness", "trans": "無意識"}
+      ],
+      "related": [
+        {"word": "recognize", "trans": "動詞：認める、認識する"}
+      ]
+    },
+    {
+      "number": 15,
+      "word": "grammarian",
+      "pos": "名詞",
+      "meaning": "文法学者、文法にうるさい人",
+      "nuance": "文法の専門家だけでなく、他人の言葉遣いの間違いを厳しく指摘する人を皮肉って呼ぶこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "As a strict grammarian, he hates to see misused apostrophes.",
+              "ja": "厳格な文法学者（文法家）として、彼はアポストロフィの誤用を見るのが大嫌いだ。",
+              "highlight": "grammarian"
+            }
+          ]
+        }
+      ],
+      "etymology": "grammar + ian（人）",
+      "synonyms": [
+        {"word": "linguist", "trans": "言語学者"},
+        {"word": "pedant", "trans": "（規則にうるさい）学者ぶる人"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "grammar", "trans": "名詞：文法"}
+      ]
+    },
+    {
+      "number": "15-2",
+      "word": "grammar",
+      "pos": "名詞",
+      "meaning": "文法、語法、入門書",
+      "nuance": "言語の構造や規則、またはそれを記した本を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Her English grammar is excellent, but her pronunciation needs work.",
+              "ja": "彼女の英語の文法は素晴らしいが、発音には練習が必要だ。",
+              "highlight": "grammar"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 gramma（書かれたもの、文字）",
+      "synonyms": [
+        {"word": "syntax", "trans": "統語論、構文"},
+        {"word": "linguistics", "trans": "言語学"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "grammatical", "trans": "形容詞：文法の"}
+      ]
+    },
+    {
+      "number": 16,
+      "word": "linguistics",
+      "pos": "名詞",
+      "meaning": "言語学",
+      "nuance": "人間の言語の構造、意味、歴史などを科学的に研究する学問です。単数扱いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Linguistics is the scientific study of language and its structure.",
+              "ja": "言語学とは、言語とその構造に関する科学的な研究である。",
+              "highlight": "Linguistics"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 lingua（舌・言語）+ ist + ics（学問）",
+      "synonyms": [
+        {"word": "philology", "trans": "文献学、言語学"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "applied linguistics", "trans": "応用言語学"}
+      ]
+    },
+    {
+      "number": "16-2",
+      "word": "linguistic",
+      "pos": "形容詞",
+      "meaning": "言語の、言語学的な",
+      "nuance": "言語そのものや、言語学という学問に関係する性質を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The country has great linguistic diversity.",
+              "ja": "その国には豊かな言語的多様性がある。",
+              "highlight": "linguistic"
+            }
+          ]
+        }
+      ],
+      "etymology": "linguistics と同語源",
+      "synonyms": [
+        {"word": "verbal", "trans": "言葉の、口頭の"},
+        {"word": "philological", "trans": "文献学的な"}
+      ],
+      "antonyms": [
+        {"word": "non-verbal", "trans": "非言語的な"}
+      ],
+      "related": []
+    },
+    {
+      "number": "16-3",
+      "word": "linguist",
+      "pos": "名詞",
+      "meaning": "言語学者、数ヶ国語に堪能な人",
+      "nuance": "学問として言語を研究する人と、実際に多くの言語を話せる人の両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She works as a linguist at a major tech company.",
+              "ja": "彼女は大手のテック企業で言語学者として働いている。",
+              "highlight": "linguist"
+            },
+            {
+              "en": "Being a talented linguist, he speaks seven languages fluently.",
+              "ja": "語学の才能がある彼は、7ヶ国語を流暢に話す。",
+              "highlight": "linguist"
+            }
+          ]
+        }
+      ],
+      "etymology": "linguistic と同語源",
+      "synonyms": [
+        {"word": "polyglot", "trans": "数ヶ国語を話す人"},
+        {"word": "philologist", "trans": "文献学者"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "16-4",
+      "word": "syntax",
+      "pos": "名詞",
+      "meaning": "統語論、構文、構文法",
+      "nuance": "単語を並べて文を作る際の「ルール」や「語順」に焦点を当てた言語学の分野です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Greek and Latin have very different syntax from English.",
+              "ja": "ギリシャ語やラテン語は、英語とは全く異なる構文（語順ルール）を持っている。",
+              "highlight": "syntax"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 sun（共に）+ tassein（並べる）",
+      "synonyms": [
+        {"word": "sentence structure", "trans": "文構造"},
+        {"word": "grammar", "trans": "文法"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "16-5",
+      "word": "pragmatics",
+      "pos": "名詞",
+      "meaning": "語用論",
+      "nuance": "言葉の本来の意味だけでなく、文脈や状況、話し手の意図によって意味がどう変わるかを研究する分野です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Pragmatics explains why 'Can you pass the salt?' is a request, not a question of ability.",
+              "ja": "語用論は、「塩を取れますか？」が能力の質問ではなく依頼である理由を説明する。",
+              "highlight": "Pragmatics"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 pragma（行為、事実）",
+      "synonyms": [
+        {"word": "contextual meaning", "trans": "文脈上の意味"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "pragmatic", "trans": "形容詞：実用的な"}
+      ]
+    },
+    {
+      "number": "16-6",
+      "word": "semantics",
+      "pos": "名詞",
+      "meaning": "意味論",
+      "nuance": "単語や文が持つ「意味」そのものを科学的に研究する分野です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The debate was largely a matter of semantics.",
+              "ja": "その議論は、主として言葉の意味（意味論）の問題だった。",
+              "highlight": "semantics"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 sema（しるし、意味）",
+      "synonyms": [
+        {"word": "interpretation", "trans": "解釈"},
+        {"word": "glossology", "trans": "言語学、用語解釈"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "semantic", "trans": "形容詞：意味の"}
+      ]
+    },
+    {
+      "number": "16-7",
+      "word": "phonetics",
+      "pos": "名詞",
+      "meaning": "音声学",
+      "nuance": "人間がどのように音を出し、伝え、聞き取るかという「音の物理的な側面」を研究する分野です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She is interested in the phonetics of African languages.",
+              "ja": "彼女はアフリカ諸言語の音声学に興味を持っている。",
+              "highlight": "phonetics"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 phone（音、声）",
+      "synonyms": [
+        {"word": "phonology", "trans": "音韻論（より体系的な音の研究）"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "phonetic symbol", "trans": "発音記号"}
+      ]
+    }
   ]
 }
