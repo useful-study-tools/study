@@ -562,6 +562,495 @@
       "related": [
         {"word": "eminence", "trans": "名詞：高位、卓越"}
       ]
+    },
+    {
+      "number": 26,
+      "word": "vintage",
+      "pos": "形容詞、名詞",
+      "meaning": "（価値のある）古くて上質な、年代物の、ヴィンテージ、ブドウ収穫期、ワインの製造年",
+      "nuance": "単に「古い（old）」のではなく、特定の年代に作られた高品質なもの、あるいはその人の「全盛期のスタイル」を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "She loves collecting vintage clothing from the 1950s.",
+              "ja": "彼女は1950年代のヴィンテージ（年代物の）服を集めるのが大好きだ。",
+              "highlight": "vintage"
+            },
+            {
+              "en": "That was a vintage performance from the veteran actor.",
+              "ja": "それはあのベテラン俳優による、彼らしい（全盛期を彷彿とさせる）名演技だった。",
+              "highlight": "vintage"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "2015 was an excellent vintage for Bordeaux wines.",
+              "ja": "2015年はボルドーワインにとって素晴らしい当たり年（収穫年）だった。",
+              "highlight": "vintage"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 vendange（ブドウの収穫）→ ラテン語 vinum（ワイン）+ demere（取り出す）",
+      "synonyms": [
+        {"word": "classic", "trans": "古典的な、最高傑作の"},
+        {"word": "antique", "trans": "骨董品の"},
+        {"word": "choice", "trans": "えり抜きの"}
+      ],
+      "antonyms": [
+        {"word": "modern", "trans": "現代的な"},
+        {"word": "contemporary", "trans": "同時代の、最新の"}
+      ],
+      "related": [
+        {"word": "vintner", "trans": "ワイン商"}
+      ]
+    },
+    {
+      "number": 27,
+      "word": "gorgeous",
+      "pos": "形容詞",
+      "meaning": "華やかな、豪華な、とても美しい、素晴らしい",
+      "nuance": "視覚的に「目がくらむほど美しい」様子を指します。人、景色、服、天気など幅広く使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "You look absolutely gorgeous in that dress!",
+              "ja": "そのドレスを着たあなたは本当にとっても素敵（華やか）よ！",
+              "highlight": "gorgeous"
+            },
+            {
+              "en": "We had gorgeous weather throughout our vacation.",
+              "ja": "休暇中はずっと素晴らしい（最高の）天気に恵まれた。",
+              "highlight": "gorgeous"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 gorgias（エレガントな、派手な）",
+      "synonyms": [
+        {"word": "stunning", "trans": "驚くほど美しい"},
+        {"word": "magnificent", "trans": "壮大な、堂々とした"},
+        {"word": "beautiful", "trans": "美しい"}
+      ],
+      "antonyms": [
+        {"word": "plain", "trans": "地味な"},
+        {"word": "ugly", "trans": "醜い"},
+        {"word": "hideous", "trans": "ひどく嫌な、恐ろしい"}
+      ],
+      "related": []
+    },
+    {
+      "number": 28,
+      "word": "splendid",
+      "pos": "形容詞",
+      "meaning": "輝かしい、素晴らしい、豪華な、見事な",
+      "nuance": "光り輝くような素晴らしさや、非の打ち所がない見事な状態を指します。少し古い上品な響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The sunset provided a splendid view of the ocean.",
+              "ja": "夕日が海の素晴らしい（輝かしい）景色を見せてくれた。",
+              "highlight": "splendid"
+            },
+            {
+              "en": "You've done a splendid job on the report.",
+              "ja": "君はその報告書で見事な（素晴らしい）仕事をしたね。",
+              "highlight": "splendid"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 splendere（輝く）",
+      "synonyms": [
+        {"word": "brilliant", "trans": "輝かしい、見事な"},
+        {"word": "excellent", "trans": "優れた"},
+        {"word": "grand", "trans": "壮大な"}
+      ],
+      "antonyms": [
+        {"word": "terrible", "trans": "ひどい"},
+        {"word": "ordinary", "trans": "平凡な"},
+        {"word": "dull", "trans": "くすんだ、退屈な"}
+      ],
+      "related": [
+        {"word": "splendor", "trans": "名詞：豪華、輝き"}
+      ]
+    },
+    {
+      "number": 29,
+      "word": "superb",
+      "pos": "形容詞",
+      "meaning": "最高の、とびきり上等な、見事な",
+      "nuance": "品質や技術が「最高級（top-notch）」であることを強調します。料理やパフォーマンスの評価によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The hotel offers superb facilities and service.",
+              "ja": "そのホテルは最高の設備とサービスを提供している。",
+              "highlight": "superb"
+            },
+            {
+              "en": "His performance on the violin was absolutely superb.",
+              "ja": "彼のバイオリンの演奏は、まさにとびきり上等（最高）だった。",
+              "highlight": "superb"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 superbus（誇り高い、優れた）→ super（上に）",
+      "synonyms": [
+        {"word": "first-class", "trans": "第一級の"},
+        {"word": "outstanding", "trans": "傑出した"},
+        {"word": "exquisite", "trans": "この上なく素晴らしい"}
+      ],
+      "antonyms": [
+        {"word": "inferior", "trans": "劣った"},
+        {"word": "poor", "trans": "お粗末な"},
+        {"word": "mediocre", "trans": "平凡な、良くも悪くもない"}
+      ],
+      "related": []
+    },
+    {
+      "number": 30,
+      "word": "luxurious",
+      "pos": "形容詞",
+      "meaning": "贅沢な、豪華な、心地よい",
+      "nuance": "高価で、快適さや快楽を追求した「リッチな」状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We spent a luxurious weekend at a spa resort.",
+              "ja": "私たちはスパ・リゾートで贅沢な週末を過ごした。",
+              "highlight": "luxurious"
+            },
+            {
+              "en": "The car has a luxurious leather interior.",
+              "ja": "その車には豪華な革張りの内装が施されている。",
+              "highlight": "luxurious"
+            }
+          ]
+        }
+      ],
+      "etymology": "luxury + ous (ラテン語 luxus「過剰、贅沢」)",
+      "synonyms": [
+        {"word": "opulent", "trans": "豪華な、富裕な"},
+        {"word": "sumptuous", "trans": "贅を尽くした"},
+        {"word": "plush", "trans": "豪華な、心地よい"}
+      ],
+      "antonyms": [
+        {"word": "ascetic", "trans": "禁欲的な"},
+        {"word": "austere", "trans": "質素な、厳しい"},
+        {"word": "frugal", "trans": "慎ましい、倹約した"}
+      ],
+      "related": [
+        {"word": "luxury", "trans": "名詞：贅沢"}
+      ]
+    },
+    {
+      "number": 31,
+      "word": "magnificent",
+      "pos": "形容詞",
+      "meaning": "壮大な、堂々とした、見事な",
+      "nuance": "規模が大きく、圧倒されるような立派さ（山、宮殿、偉大な功績など）を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The Taj Mahal is one of the most magnificent buildings in the world.",
+              "ja": "タジ・マハルは世界で最も壮大な建物の一つだ。",
+              "highlight": "magnificent"
+            },
+            {
+              "en": "He made a magnificent comeback in the final set.",
+              "ja": "彼は最終セットで見事な逆転劇を見せた。",
+              "highlight": "magnificent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 magnus（大きい）+ facere（作る）",
+      "synonyms": [
+        {"word": "grand", "trans": "壮大な"},
+        {"word": "majestic", "trans": "威厳のある"},
+        {"word": "imposing", "trans": "堂々とした"}
+      ],
+      "antonyms": [
+        {"word": "modest", "trans": "控えめな"},
+        {"word": "humble", "trans": "卑小な、謙虚な"},
+        {"word": "unimpressive", "trans": "印象に残らない"}
+      ],
+      "related": [
+        {"word": "magnificence", "trans": "名詞：壮大さ"}
+      ]
+    },
+    {
+      "number": "31-2",
+      "word": "magnificence",
+      "pos": "名詞",
+      "meaning": "壮大さ、豪華さ、気高さ",
+      "nuance": "圧倒的な立派さや、輝かしい美しさを備えた性質そのものを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The tourists were stunned by the magnificence of the Grand Canyon.",
+              "ja": "観光客たちはグランドキャニオンの壮大さに圧倒された。",
+              "highlight": "magnificence"
+            }
+          ]
+        }
+      ],
+      "etymology": "magnificent の名詞形",
+      "synonyms": [
+        {"word": "grandeur", "trans": "壮麗、威容"},
+        {"word": "splendor", "trans": "輝き、豪華"}
+      ],
+      "antonyms": [
+        {"word": "insignificance", "trans": "無意味、つまらなさ"}
+      ],
+      "related": []
+    },
+    {
+      "number": 32,
+      "word": "pigment",
+      "pos": "名詞、動詞",
+      "meaning": "色素、顔料、〜に着色する",
+      "nuance": "物質に色を与えるための粉末や、動植物の組織に含まれる天然の色素を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "Chlorophyll is the green pigment found in plants.",
+              "ja": "葉緑素は植物に含まれる緑色の色素である。",
+              "highlight": "pigment"
+            },
+            {
+              "en": "Artists in the past used natural pigments made from minerals.",
+              "ja": "かつての芸術家たちは、鉱物から作られた天然の顔料を使用していた。",
+              "highlight": "pigments"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 pingere（描く、塗る）",
+      "synonyms": [
+        {"word": "coloring", "trans": "着色料"},
+        {"word": "dye", "trans": "染料"},
+        {"word": "tint", "trans": "色合い"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "pigmentation", "trans": "色素沈着"}
+      ]
+    },
+    {
+      "number": 33,
+      "word": "stain",
+      "pos": "名詞、動詞",
+      "meaning": "汚れ、シミ、着色剤、（名誉などの）傷、〜を汚す、〜を染める",
+      "nuance": "落ちにくい汚れや、木材などを染める液体、あるいは評判に傷をつけることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "I can't get this coffee stain out of my shirt.",
+              "ja": "シャツについたこのコーヒーのシミが落ちない。",
+              "highlight": "stain"
+            },
+            {
+              "en": "The scandal left a permanent stain on his reputation.",
+              "ja": "その不祥事は彼の評判に一生消えない傷を残した。",
+              "highlight": "stain"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "Be careful not to stain the carpet with red wine.",
+              "ja": "赤ワインでカーペットを汚さない（シミにしない）ように気をつけて。",
+              "highlight": "stain"
+            },
+            {
+              "en": "They decided to stain the wooden floor a dark brown.",
+              "ja": "彼らは木の床を濃い茶色に染める（着色する）ことにした。",
+              "highlight": "stain"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 desteindre（色を抜く、変色させる）",
+      "synonyms": [
+        {"word": "spot", "trans": "シミ、斑点"},
+        {"word": "blemish", "trans": "欠点、傷"},
+        {"word": "tarnish", "trans": "（評判などを）汚す、変色させる"}
+      ],
+      "antonyms": [
+        {"word": "clean", "trans": "きれいにする"},
+        {"word": "purify", "trans": "浄化する"}
+      ],
+      "related": [
+        {"word": "stainless", "trans": "錆びない、汚れのない"}
+      ]
+    },
+    {
+      "number": 34,
+      "word": "translucent",
+      "pos": "形容詞",
+      "meaning": "半透明の",
+      "nuance": "光は通すが、向こう側の形がはっきりとは見えない状態（すりガラスなど）を指します。※transparentは「透明」。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The bathroom window is made of translucent glass for privacy.",
+              "ja": "プライバシーのため、浴室の窓は半透明のガラスでできている。",
+              "highlight": "translucent"
+            },
+            {
+              "en": "Her skin was so pale it almost looked translucent.",
+              "ja": "彼女の肌は非常に白く、ほとんど半透明のように見えた。",
+              "highlight": "translucent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 trans（突き抜けて）+ lucere（光る）",
+      "synonyms": [
+        {"word": "semi-transparent", "trans": "半透明の"},
+        {"word": "cloudy", "trans": "濁った"},
+        {"word": "milky", "trans": "乳白色の"}
+      ],
+      "antonyms": [
+        {"word": "opaque", "trans": "不透明な"},
+        {"word": "transparent", "trans": "透明な"}
+      ],
+      "related": [
+        {"word": "lucent", "trans": "光る、澄んだ"}
+      ]
+    },
+    {
+      "number": 35,
+      "word": "wavelength",
+      "pos": "名詞",
+      "meaning": "波長、（考え方などの）波長・くい違い",
+      "nuance": "物理的な光や音の波の長さだけでなく、人と意見や感覚が合う（be on the same wavelength）ことも指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Each color of light has a different wavelength.",
+              "ja": "光の各色はそれぞれ異なる波長を持っている。",
+              "highlight": "wavelength"
+            },
+            {
+              "en": "I'm glad we're on the same wavelength about this project.",
+              "ja": "このプロジェクトについて、あなたと波長（考え）が合っていて嬉しいよ。",
+              "highlight": "wavelength"
+            }
+          ]
+        }
+      ],
+      "etymology": "wave（波）+ length（長さ）",
+      "synonyms": [
+        {"word": "frequency", "trans": "周波数（関連語）"},
+        {"word": "understanding", "trans": "理解、共鳴"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 36,
+      "word": "lengthy",
+      "pos": "形容詞",
+      "meaning": "（非常に・うんざりするほど）長い、長々と続く",
+      "nuance": "単に「long」というより、時間がかかりすぎて「長ったらしい、冗長だ」という否定的なニュアンスを含むことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The meeting involved a lengthy discussion about the budget.",
+              "ja": "その会議では、予算に関する長々とした議論が行われた。",
+              "highlight": "lengthy"
+            },
+            {
+              "en": "The legal process can be very lengthy and expensive.",
+              "ja": "法的プロセスは非常に時間がかかり（長く）、費用もかさむことがある。",
+              "highlight": "lengthy"
+            }
+          ]
+        }
+      ],
+      "etymology": "length + y",
+      "synonyms": [
+        {"word": "prolonged", "trans": "長期化した"},
+        {"word": "extended", "trans": "延長された"},
+        {"word": "verbose", "trans": "言葉数の多い、冗長な"}
+      ],
+      "antonyms": [
+        {"word": "brief", "trans": "簡潔な"},
+        {"word": "short", "trans": "短い"}
+      ],
+      "related": [
+        {"word": "lengthen", "trans": "動詞：長くする"}
+      ]
+    },
+    {
+      "number": "36-2",
+      "word": "length",
+      "pos": "名詞",
+      "meaning": "長さ、期間、範囲、縦",
+      "nuance": "物理的な距離だけでなく、時間の経過や、文章の量などを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The boat is ten meters in length.",
+              "ja": "その船の長さは10メートルだ。",
+              "highlight": "length"
+            },
+            {
+              "en": "He explained the situation at great length.",
+              "ja": "彼は状況を（非常に長い時間をかけて）詳細に説明した。",
+              "highlight": "at great length"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 lang（長い）+ th（名詞化）",
+      "synonyms": [
+        {"word": "distance", "trans": "距離"},
+        {"word": "duration", "trans": "持続時間"},
+        {"word": "extent", "trans": "程度、範囲"}
+      ],
+      "antonyms": [
+        {"word": "width", "trans": "幅"},
+        {"word": "shortness", "trans": "短さ"}
+      ],
+      "related": [
+        {"word": "long", "trans": "形容詞：長い"}
+      ]
     }
   ]
-}
+｝
