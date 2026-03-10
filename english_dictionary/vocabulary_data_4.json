@@ -1,0 +1,1366 @@
+{
+  "words": [
+    {
+      "number": 67,
+      "word": "express",
+      "pos": "動詞、形容詞、名詞",
+      "meaning": "〜を表現する、述べる、急行の、明確な、急行、速達",
+      "nuance": "「外へ(ex) 押し出す(press)」が語源。内面にあるものを形にして出すこと、または「特別に押し出された＝速い・専用の」という意味に派生しました。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：表現する）",
+          "examples": [
+            {
+              "en": "It is important to express your opinions clearly in a debate.",
+              "ja": "討論では自分の意見をはっきりと述べることが重要だ。",
+              "highlight": "express"
+            },
+            {
+              "en": "Words cannot express how grateful I am.",
+              "ja": "感謝の気持ちは言葉では言い表せません。",
+              "highlight": "express"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞：急行の・明確な）",
+          "examples": [
+            {
+              "en": "I took the express train to save time.",
+              "ja": "時間を節約するために急行列車に乗った。",
+              "highlight": "express"
+            },
+            {
+              "en": "She did it with the express purpose of helping them.",
+              "ja": "彼女は彼らを助けるという明確な（はっきりした）目的でそれを行った。",
+              "highlight": "express"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ex（外へ）+ pressare（押す）",
+      "synonyms": [
+        {"word": "state", "trans": "述べる"},
+        {"word": "convey", "trans": "伝える"},
+        {"word": "explicit", "trans": "明白な、明確な"}
+      ],
+      "antonyms": [
+        {"word": "suppress", "trans": "抑える、隠す"},
+        {"word": "implied", "trans": "暗黙の、言外の"}
+      ],
+      "related": [
+        {"word": "expression", "trans": "表現、表情"},
+        {"word": "expressive", "trans": "表現豊かな"}
+      ]
+    },
+    {
+      "number": 68,
+      "word": "eloquent",
+      "pos": "形容詞",
+      "meaning": "雄弁な、説得力のある、表現豊かな",
+      "nuance": "言葉がスラスラと出てくるだけでなく、聞き手を感動させたり納得させたりする「巧みな」話し方を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The president gave an eloquent speech that moved the nation.",
+              "ja": "大統領は国民を感動させる雄弁な演説を行った。",
+              "highlight": "eloquent"
+            },
+            {
+              "en": "His eyes were more eloquent than his words.",
+              "ja": "彼の目は言葉よりも多くを物語っていた（雄弁だった）。",
+              "highlight": "eloquent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ex（外へ）+ loqui（話す）",
+      "synonyms": [
+        {"word": "articulate", "trans": "はっきり話す、明快な"},
+        {"word": "persuasive", "trans": "説得力のある"},
+        {"word": "silver-tongued", "trans": "雄弁な、話し上手な"}
+      ],
+      "antonyms": [
+        {"word": "inarticulate", "trans": "口下手な、不明瞭な"},
+        {"word": "tongue-tied", "trans": "口ごもった"}
+      ],
+      "related": [
+        {"word": "eloquence", "trans": "名詞：雄弁さ"}
+      ]
+    },
+    {
+      "number": "68-2",
+      "word": "eloquence",
+      "pos": "名詞",
+      "meaning": "雄弁、説得力",
+      "nuance": "話し方の美しさや、言葉の持つ力強さを指す抽象名詞です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She was noted for her eloquence and wit.",
+              "ja": "彼女は雄弁さと機知で知られていた。",
+              "highlight": "eloquence"
+            }
+          ]
+        }
+      ],
+      "etymology": "eloquent の名詞形",
+      "synonyms": [
+        {"word": "oratory", "trans": "雄弁術"},
+        {"word": "rhetoric", "trans": "修辞学、巧言"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 69,
+      "word": "fluent",
+      "pos": "形容詞",
+      "meaning": "流暢な、スラスラと流れるような",
+      "nuance": "「流れる(flow)」が語源。言語が滞りなく滑らかに出てくる様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is fluent in five languages.",
+              "ja": "彼は5ヶ国語を流暢に話す。",
+              "highlight": "fluent"
+            },
+            {
+              "en": "The dancers moved with fluent grace.",
+              "ja": "ダンサーたちは流れるような優雅さで動いた。",
+              "highlight": "fluent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 fluere（流れる）",
+      "synonyms": [
+        {"word": "smooth", "trans": "滑らかな"},
+        {"word": "glib", "trans": "口のうまい（やや否定的な場合も）"},
+        {"word": "articulate", "trans": "はっきりした"}
+      ],
+      "antonyms": [
+        {"word": "hesitant", "trans": "ためらいがちな"},
+        {"word": "halting", "trans": "たどたどしい"}
+      ],
+      "related": [
+        {"word": "fluid", "trans": "流体、流動的な"},
+        {"word": "fluency", "trans": "名詞：流暢さ"}
+      ]
+    },
+    {
+      "number": "69-2",
+      "word": "fluently",
+      "pos": "副詞",
+      "meaning": "流暢に、ペラペラと",
+      "nuance": "動作が途切れることなくスムーズに行われる様子です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She speaks Japanese fluently.",
+              "ja": "彼女は日本語をペラペラに（流暢に）話す。",
+              "highlight": "fluently"
+            }
+          ]
+        }
+      ],
+      "etymology": "fluent + ly",
+      "synonyms": [
+        {"word": "smoothly", "trans": "円滑に"}
+      ],
+      "antonyms": [
+        {"word": "stutteringly", "trans": "どもりながら"}
+      ],
+      "related": []
+    },
+    {
+      "number": "69-3",
+      "word": "fluency",
+      "pos": "名詞",
+      "meaning": "流暢さ、滑らかさ",
+      "nuance": "言語能力の尺度としてよく使われる言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "One goal of this course is to improve your speaking fluency.",
+              "ja": "このコースの目的の一つは、スピーキングの流暢さを向上させることだ。",
+              "highlight": "fluency"
+            }
+          ]
+        }
+      ],
+      "etymology": "fluent の名詞形",
+      "synonyms": [
+        {"word": "command", "trans": "運用能力"},
+        {"word": "facility", "trans": "器用さ、流暢さ"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 70,
+      "word": "misconception",
+      "pos": "名詞",
+      "meaning": "誤解、思い込み、間違った概念",
+      "nuance": "「間違った(mis) 考え(conception)」。事実とは異なることを正しいと信じ込んでいる状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It's a common misconception that bats are blind.",
+              "ja": "コウモリが盲目であるというのは、よくある誤解だ。",
+              "highlight": "misconception"
+            },
+            {
+              "en": "I hope to clear up some misconceptions about our project.",
+              "ja": "私たちのプロジェクトに関するいくつかの誤解を解きたいと思っている。",
+              "highlight": "misconceptions"
+            }
+          ]
+        }
+      ],
+      "etymology": "mis（誤って）+ conception（概念）",
+      "synonyms": [
+        {"word": "misunderstanding", "trans": "誤解"},
+        {"word": "fallacy", "trans": "誤った考え"},
+        {"word": "delusion", "trans": "妄想、思い込み"}
+      ],
+      "antonyms": [
+        {"word": "understanding", "trans": "理解"},
+        {"word": "truth", "trans": "真実"}
+      ],
+      "related": [
+        {"word": "conceive", "trans": "動詞：思いつく、妊娠する"}
+      ]
+    },
+    {
+      "number": "70-2",
+      "word": "conception",
+      "pos": "名詞",
+      "meaning": "概念、考え、構想、妊娠",
+      "nuance": "頭の中に何かが「形作られる」こと。アイディアの誕生、または生命の誕生の両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The plan was brilliant in its original conception.",
+              "ja": "その計画は、最初の構想の段階で素晴らしかった。",
+              "highlight": "conception"
+            },
+            {
+              "en": "I have no conception of how much this will cost.",
+              "ja": "これがいくらかかるのか、私には全く見当（考え）がつかない。",
+              "highlight": "conception"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ capere（取る）→ 取り込んで形にする",
+      "synonyms": [
+        {"word": "concept", "trans": "概念"},
+        {"word": "notion", "trans": "考え、見解"},
+        {"word": "ideation", "trans": "観念化"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "concept", "trans": "名詞：概念、コンセプト"}
+      ]
+    },
+    {
+      "number": "70-3",
+      "word": "conceptual",
+      "pos": "形容詞",
+      "meaning": "概念の、考え方の、構想上の",
+      "nuance": "具体的な実物ではなく、頭の中のアイディアや理論に関するレベルの話を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The artist is famous for his conceptual art.",
+              "ja": "その芸術家はコンセプチュアル・アート（概念芸術）で有名だ。",
+              "highlight": "conceptual"
+            },
+            {
+              "en": "The two theories share a similar conceptual framework.",
+              "ja": "その2つの理論は、似たような概念的枠組みを共有している。",
+              "highlight": "conceptual"
+            }
+          ]
+        }
+      ],
+      "etymology": "conception + ual",
+      "synonyms": [
+        {"word": "theoretical", "trans": "理論上の"},
+        {"word": "abstract", "trans": "抽象的な"}
+      ],
+      "antonyms": [
+        {"word": "concrete", "trans": "具体的な"},
+        {"word": "empirical", "trans": "経験的な、実証的な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 71,
+      "word": "fallacy",
+      "pos": "名詞",
+      "meaning": "誤った考え、論理的誤謬（ごびゅう）",
+      "nuance": "一見正しそうに見えるが、論理的にどこかが間違っている推論や信念を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It is a fallacy to say that money always brings happiness.",
+              "ja": "金が常に幸福をもたらすと言うのは誤った考え（謬説）だ。",
+              "highlight": "fallacy"
+            },
+            {
+              "en": "His argument is based on a logical fallacy.",
+              "ja": "彼の議論は論理的な誤り（誤謬）に基づいている。",
+              "highlight": "fallacy"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 fallere（欺く）",
+      "synonyms": [
+        {"word": "error", "trans": "誤り"},
+        {"word": "illusion", "trans": "幻想"},
+        {"word": "misconception", "trans": "誤解"}
+      ],
+      "antonyms": [
+        {"word": "logic", "trans": "論理"},
+        {"word": "validity", "trans": "妥当性"},
+        {"word": "truth", "trans": "真実"}
+      ],
+      "related": [
+        {"word": "fallible", "trans": "形容詞：間違いを犯しやすい"}
+      ]
+    },
+    {
+      "number": 72,
+      "word": "mischief",
+      "pos": "名詞",
+      "meaning": "いたずら、茶目っ気、害、損害",
+      "nuance": "大きな悪意はないものの、困った事態を引き起こす遊び半分な行動を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Those children are always up to some mischief.",
+              "ja": "あの子たちはいつも何かいたずらを企んでいる。",
+              "highlight": "mischief"
+            },
+            {
+              "en": "His eyes were full of mischief.",
+              "ja": "彼の目は茶目っ気たっぷりだった。",
+              "highlight": "mischief"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 mes-（悪く）+ chever（頭に来る、終わる）→ 悪い結果になること",
+      "synonyms": [
+        {"word": "naughtiness", "trans": "いたずら"},
+        {"word": "prank", "trans": "悪ふざけ"},
+        {"word": "trouble", "trans": "困りごと"}
+      ],
+      "antonyms": [
+        {"word": "good behavior", "trans": "善行"},
+        {"word": "obedience", "trans": "従順"}
+      ],
+      "related": [
+        {"word": "mischievous", "trans": "形容詞：いたずら好きな"}
+      ]
+    },
+    {
+      "number": "72-2",
+      "word": "mischievous",
+      "pos": "形容詞",
+      "meaning": "いたずら好きな、わんぱくな、悪意のある",
+      "nuance": "子供の「わんぱくさ」だけでなく、噂話などで相手を少し困らせるようなニュアンスも含みます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He gave me a mischievous grin.",
+              "ja": "彼は私にいたずらっぽい笑みを浮かべた。",
+              "highlight": "mischievous"
+            }
+          ]
+        }
+      ],
+      "etymology": "mischief + ous",
+      "synonyms": [
+        {"word": "naughty", "trans": "いたずらな"},
+        {"word": "playful", "trans": "遊び心のある"},
+        {"word": "impish", "trans": "小悪魔のような"}
+      ],
+      "antonyms": [
+        {"word": "serious", "trans": "真面目な"},
+        {"word": "solemn", "trans": "厳粛な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 73,
+      "word": "mislead",
+      "pos": "動詞",
+      "meaning": "〜を誤解させる、〜を欺く、迷わせる",
+      "nuance": "わざと（あるいは不注意で）間違った方向に導いたり、情報を与えたりすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The statistics were used to mislead the public.",
+              "ja": "その統計は一般の人々を欺く（誤解させる）ために使われた。",
+              "highlight": "mislead"
+            },
+            {
+              "en": "I'm sorry, I didn't mean to mislead you.",
+              "ja": "ごめんなさい、あなたを惑わすつもりはありませんでした。",
+              "highlight": "mislead"
+            }
+          ]
+        }
+      ],
+      "etymology": "mis（誤って）+ lead（導く）",
+      "synonyms": [
+        {"word": "deceive", "trans": "欺く"},
+        {"word": "delude", "trans": "惑わす"},
+        {"word": "misinform", "trans": "誤報を伝える"}
+      ],
+      "antonyms": [
+        {"word": "guide", "trans": "導く"},
+        {"word": "inform", "trans": "知らせる、正しく伝える"}
+      ],
+      "related": [
+        {"word": "misleading", "trans": "形容詞：誤解を招く"}
+      ]
+    },
+    {
+      "number": "73-2",
+      "word": "misleading",
+      "pos": "形容詞",
+      "meaning": "誤解を招くような、紛らわしい",
+      "nuance": "嘘ではないものの、真実を隠していたり不完全だったりして、間違った印象を与える場合に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The advertisement was considered misleading by the regulators.",
+              "ja": "その広告は、規制当局によって「誤解を招くもの」と見なされた。",
+              "highlight": "misleading"
+            }
+          ]
+        }
+      ],
+      "etymology": "mislead の現在分詞形",
+      "synonyms": [
+        {"word": "deceptive", "trans": "人を欺くような"},
+        {"word": "ambiguous", "trans": "曖昧な"},
+        {"word": "confusing", "trans": "混乱させるような"}
+      ],
+      "antonyms": [
+        {"word": "clear", "trans": "明確な"},
+        {"word": "honest", "trans": "正直な"},
+        {"word": "informative", "trans": "有益な、正しい情報を与える"}
+      ],
+      "related": []
+    },
+    {
+      "number": "73-3",
+      "word": "misinterpret",
+      "pos": "動詞",
+      "meaning": "〜を誤解する、〜を誤って解釈する",
+      "nuance": "相手の意図やデータの意味を、自分の思い込みや分析ミスで「読み違える」ことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She misinterpreted his silence as anger.",
+              "ja": "彼女は彼の沈黙を怒りだと誤解（誤解釈）した。",
+              "highlight": "misinterpreted"
+            },
+            {
+              "en": "It's easy to misinterpret the data if you don't look at the context.",
+              "ja": "文脈を見なければ、データを読み違えるのは簡単だ。",
+              "highlight": "misinterpret"
+            }
+          ]
+        }
+      ],
+      "etymology": "mis（誤って）+ interpret（解釈する）",
+      "synonyms": [
+        {"word": "misunderstand", "trans": "誤解する"},
+        {"word": "misconstrue", "trans": "誤って解釈する"},
+        {"word": "misread", "trans": "読み違える"}
+      ],
+      "antonyms": [
+        {"word": "interpret", "trans": "解釈する"},
+        {"word": "comprehend", "trans": "理解する"}
+      ],
+      "related": [
+        {"word": "interpretation", "trans": "名詞：解釈、通訳"}
+      ]
+    },
+    {
+      "number": "73-4",
+      "word": "misinterpretation",
+      "pos": "名詞",
+      "meaning": "誤解、誤読、誤った解釈",
+      "nuance": "解釈の結果として生じた間違いを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A simple misinterpretation of the rules led to the disqualification.",
+              "ja": "ルールの単純な解釈ミスが失格につながった。",
+              "highlight": "misinterpretation"
+            }
+          ]
+        }
+      ],
+      "etymology": "misinterpret の名詞形",
+      "synonyms": [
+        {"word": "misconception", "trans": "誤解"},
+        {"word": "misreading", "trans": "読み間違い"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "73-5",
+      "word": "misunderstand",
+      "pos": "動詞",
+      "meaning": "〜を誤解する、〜の意味を取り違える",
+      "nuance": "日常会話で最もよく使われる「誤解」です。相手が言ったことの内容を正しく掴めなかった時に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I think you misunderstood what I said earlier.",
+              "ja": "私がさっき言ったことを、あなたは誤解していると思います。",
+              "highlight": "misunderstood"
+            }
+          ]
+        }
+      ],
+      "etymology": "mis（誤って）+ understand（理解する）",
+      "synonyms": [
+        {"word": "get the wrong idea", "trans": "勘違いする"},
+        {"word": "misinterpret", "trans": "誤解する"}
+      ],
+      "antonyms": [
+        {"word": "understand", "trans": "理解する"},
+        {"word": "grasp", "trans": "把握する"}
+      ],
+      "related": [
+        {"word": "misunderstanding", "trans": "名詞：誤解"}
+      ]
+    },
+    {
+      "number": "73-6",
+      "word": "misunderstanding",
+      "pos": "名詞",
+      "meaning": "誤解、不和、口論",
+      "nuance": "単なる情報の取り違えだけでなく、それが原因で起こった「ちょっとした揉め事」を指すこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There was a slight misunderstanding about the meeting time.",
+              "ja": "会議の時間について、ちょっとした誤解があった。",
+              "highlight": "misunderstanding"
+            },
+            {
+              "en": "The two countries are trying to resolve their long-standing misunderstandings.",
+              "ja": "両国は長年の不和（誤解）を解消しようとしている。",
+              "highlight": "misunderstandings"
+            }
+          ]
+        }
+      ],
+      "etymology": "misunderstand の名詞形",
+      "synonyms": [
+        {"word": "disagreement", "trans": "意見の不一致"},
+        {"word": "misapprehension", "trans": "誤解、思い違い"}
+      ],
+      "antonyms": [
+        {"word": "agreement", "trans": "合意"},
+        {"word": "accord", "trans": "一致"}
+      ],
+      "related": []
+    },
+    {
+      "number": 74,
+      "word": "compensate",
+      "pos": "動詞",
+      "meaning": "〜を補償する、〜に報いる、埋め合わせる",
+      "nuance": "失ったものや欠点に対して、別のものを与えることで「釣り合いを取る」というイメージです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company agreed to compensate the workers for their extra hours.",
+              "ja": "会社は従業員の残業に対して補償する（手当を出す）ことに同意した。",
+              "highlight": "compensate"
+            },
+            {
+              "en": "Nothing can compensate for the loss of a loved one.",
+              "ja": "愛する人を失った悲しみを埋め合わせられるものは何もない。",
+              "highlight": "compensate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 com（共に）+ pensare（重さを量る）→ 天秤で釣り合いを取る",
+      "synonyms": [
+        {"word": "reimburse", "trans": "払い戻す"},
+        {"word": "make up for", "trans": "埋め合わせる"},
+        {"word": "atone", "trans": "償う"}
+      ],
+      "antonyms": [
+        {"word": "deprive", "trans": "奪う"},
+        {"word": "penalize", "trans": "罰を与える"}
+      ],
+      "related": [
+        {"word": "compensation", "trans": "名詞：補償、報酬"}
+      ]
+    },
+    {
+      "number": "74-2",
+      "word": "compensation",
+      "pos": "名詞",
+      "meaning": "補償金、報酬、埋め合わせ",
+      "nuance": "損害に対する支払い（賠償）や、仕事に対する対価（給与）を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She received a large sum in compensation for her injuries.",
+              "ja": "彼女は怪我の補償として多額の金銭を受け取った。",
+              "highlight": "compensation"
+            }
+          ]
+        }
+      ],
+      "etymology": "compensate の名詞形",
+      "synonyms": [
+        {"word": "remuneration", "trans": "報酬"},
+        {"word": "indemnity", "trans": "賠償金"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 75,
+      "word": "offset",
+      "pos": "動詞、名詞",
+      "meaning": "〜を相殺する、埋め合わせる、相殺するもの",
+      "nuance": "ある力が別の力によって打ち消され、ゼロになる状態を指します。カーボン・オフセットなどが代表例です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The gains in the stock market were offset by the rise in inflation.",
+              "ja": "株式市場での利益は、インフレの上昇によって相殺された。",
+              "highlight": "offset"
+            },
+            {
+              "en": "Companies use carbon credits to offset their greenhouse gas emissions.",
+              "ja": "企業は温室効果ガスの排出を相殺するためにカーボンクレジットを利用する。",
+              "highlight": "offset"
+            }
+          ]
+        }
+      ],
+      "etymology": "off（離れて）+ set（置く）→ 脇に置いてバランスをとる",
+      "synonyms": [
+        {"word": "counterbalance", "trans": "釣り合いをとらせる"},
+        {"word": "neutralize", "trans": "無効にする"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 76,
+      "word": "supplement",
+      "pos": "名詞、動詞",
+      "meaning": "補足、付録、サプリメント、〜を補う",
+      "nuance": "不足しているものを追加して「完全なものにする」というニュアンスです。",
+      "example_sections": [
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "I take vitamin supplements every morning.",
+              "ja": "私は毎朝ビタミンのサプリメント（栄養補助食品）を摂っている。",
+              "highlight": "supplements"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "He works a second job to supplement his income.",
+              "ja": "彼は収入を補うために副業をしている。",
+              "highlight": "supplement"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sub（下から）+ plere（満たす）",
+      "synonyms": [
+        {"word": "addition", "trans": "追加"},
+        {"word": "appendix", "trans": "付録"},
+        {"word": "complement", "trans": "補完する"}
+      ],
+      "antonyms": [
+        {"word": "reduction", "trans": "削減"},
+        {"word": "subtraction", "trans": "引き算、控除"}
+      ],
+      "related": [
+        {"word": "supplementary", "trans": "形容詞：補足の"}
+      ]
+    },
+    {
+      "number": "76-2",
+      "word": "supplementary",
+      "pos": "形容詞",
+      "meaning": "補足の、追加の",
+      "nuance": "本編に追加された、補助的な情報を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The teacher provided supplementary materials for the exam.",
+              "ja": "先生は試験のために補足資料を提供した。",
+              "highlight": "supplementary"
+            }
+          ]
+        }
+      ],
+      "etymology": "supplement + ary",
+      "synonyms": [
+        {"word": "additional", "trans": "追加の"},
+        {"word": "extra", "trans": "余分な、追加の"}
+      ],
+      "antonyms": [
+        {"word": "primary", "trans": "主要な"},
+        {"word": "fundamental", "trans": "根本的な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 77,
+      "word": "deficiency",
+      "pos": "名詞",
+      "meaning": "不足、欠乏、欠点",
+      "nuance": "必要な量に達していない不完全な状態、特に栄養素や能力について使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Iron deficiency can lead to anemia.",
+              "ja": "鉄分不足は貧血を引き起こす可能性がある。",
+              "highlight": "deficiency"
+            },
+            {
+              "en": "The report highlighted several deficiencies in the security system.",
+              "ja": "報告書はセキュリティシステムのいくつかの欠陥（不備）を指摘した。",
+              "highlight": "deficiencies"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（離れて）+ facere（作る）→ 作るべきものに届かない",
+      "synonyms": [
+        {"word": "shortage", "trans": "不足"},
+        {"word": "lack", "trans": "欠乏"},
+        {"word": "flaw", "trans": "欠陥"}
+      ],
+      "antonyms": [
+        {"word": "abundance", "trans": "豊富"},
+        {"word": "sufficiency", "trans": "十分であること"},
+        {"word": "surplus", "trans": "余剰"}
+      ],
+      "related": [
+        {"word": "deficient", "trans": "形容詞：欠乏した"}
+      ]
+    },
+    ,
+    {
+      "number": "77-2",
+      "word": "deficient",
+      "pos": "形容詞",
+      "meaning": "欠乏した、不十分な",
+      "nuance": "基準値を下回っている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Their diet is deficient in essential proteins.",
+              "ja": "彼らの食事は必須タンパク質が欠乏している。",
+              "highlight": "deficient"
+            }
+          ]
+        }
+      ],
+      "etymology": "deficiency の形容詞形",
+      "synonyms": [
+        {"word": "lacking", "trans": "欠いている"},
+        {"word": "inadequate", "trans": "不適切な、不十分な"}
+      ],
+      "antonyms": [
+        {"word": "adequate", "trans": "十分な"},
+        {"word": "plentiful", "trans": "たっぷりの"}
+      ],
+      "related": []
+    },
+    {
+      "number": 78,
+      "word": "deficit",
+      "pos": "名詞",
+      "meaning": "赤字、不足（額）",
+      "nuance": "経済・会計の文脈で、支出が収入を上回っている状態（赤字）を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The trade deficit reached a record high this year.",
+              "ja": "今年の貿易赤字は過去最高に達した。",
+              "highlight": "deficit"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de（下に）+ facere（作る）→ 必要な額に足りない",
+      "synonyms": [
+        {"word": "shortfall", "trans": "不足分"},
+        {"word": "loss", "trans": "損失"}
+      ],
+      "antonyms": [
+        {"word": "surplus", "trans": "黒字、余剰"}
+      ],
+      "related": []
+    },
+    ,
+    {
+      "number": 79,
+      "word": "barren",
+      "pos": "形容詞",
+      "meaning": "（土地が）不毛の、（植物が）実を結ばない、内容のない",
+      "nuance": "生命力や創造性がなく、何も生み出せない空虚な状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The land was so barren that no crops could grow.",
+              "ja": "その土地は非常に不毛だったので、作物が育たなかった。",
+              "highlight": "barren"
+            },
+            {
+              "en": "The meeting was long and barren of ideas.",
+              "ja": "会議は長く、アイデアのない（不毛な）ものだった。",
+              "highlight": "barren"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 baren",
+      "synonyms": [
+        {"word": "sterile", "trans": "不妊の、不毛の"},
+        {"word": "infertile", "trans": "肥沃でない"},
+        {"word": "desolate", "trans": "荒涼とした"}
+      ],
+      "antonyms": [
+        {"word": "fertile", "trans": "肥沃な"},
+        {"word": "fruitful", "trans": "実り多い"},
+        {"word": "productive", "trans": "生産的な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 80,
+      "word": "devoid",
+      "pos": "形容詞",
+      "meaning": "〜を欠いている、〜が全くない",
+      "nuance": "通常 'devoid of 〜' の形で使い、あるべき性質や感情が完全に欠落していることを強調します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The landscape was completely devoid of life.",
+              "ja": "その風景には生命が全く存在しなかった。",
+              "highlight": "devoid"
+            },
+            {
+              "en": "His voice was devoid of emotion.",
+              "ja": "彼の声には感情が全くこもっていなかった（欠けていた）。",
+              "highlight": "devoid"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 des-（離れて）+ vuidier（空にする）",
+      "synonyms": [
+        {"word": "empty", "trans": "空の"},
+        {"word": "destitute", "trans": "欠いている"},
+        {"word": "vacant", "trans": "空いている"}
+      ],
+      "antonyms": [
+        {"word": "full", "trans": "いっぱいの"},
+        {"word": "abounding", "trans": "溢れている"}
+      ],
+      "related": [
+        {"word": "void", "trans": "名詞：空白、形容詞：無効の"}
+      ]
+    },
+    {
+      "number": "80-2",
+      "word": "scarcity",
+      "pos": "名詞",
+      "meaning": "不足、欠乏、珍しさ",
+      "nuance": "需要に対して供給が非常に少ないこと。経済学の基本概念（希少性）でもあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The scarcity of clean water is a major problem in the region.",
+              "ja": "きれいな水の不足は、その地域の大きな問題だ。",
+              "highlight": "scarcity"
+            }
+          ]
+        }
+      ],
+      "etymology": "scarce + ity",
+      "synonyms": [
+        {"word": "rarity", "trans": "珍しさ"},
+        {"word": "paucity", "trans": "少数、欠乏"}
+      ],
+      "antonyms": [
+        {"word": "abundance", "trans": "豊富"},
+        {"word": "excess", "trans": "過剰"}
+      ],
+      "related": [
+        {"word": "scarce", "trans": "形容詞：乏しい"}
+      ]
+    },
+    {
+      "number": "80-3",
+      "word": "scarce",
+      "pos": "形容詞",
+      "meaning": "乏しい、不十分な、珍しい",
+      "nuance": "「めったにない」というニュアンスを含みます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Fresh vegetables were scarce during the long winter.",
+              "ja": "長い冬の間、新鮮な野菜は乏しかった。",
+              "highlight": "scarce"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 excerptus（抜粋された）から派生",
+      "synonyms": [
+        {"word": "rare", "trans": "珍しい"},
+        {"word": "sparse", "trans": "まばらな"}
+      ],
+      "antonyms": [
+        {"word": "common", "trans": "共通の、よくある"},
+        {"word": "plentiful", "trans": "豊富な"}
+      ],
+      "related": [
+        {"word": "scarcely", "trans": "副詞：ほとんど〜ない"}
+      ]
+    },
+    {
+      "number": 81,
+      "word": "sufficiency",
+      "pos": "名詞",
+      "meaning": "十分なこと、十分な量、自給自足",
+      "nuance": "必要を満たすのに「ちょうど良い」状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We must ensure a sufficiency of food for the winter.",
+              "ja": "冬に備えて十分な量の食料を確保しなければならない。",
+              "highlight": "sufficiency"
+            }
+          ]
+        }
+      ],
+      "etymology": "sufficient + cy",
+      "synonyms": [
+        {"word": "adequacy", "trans": "妥当性、十分さ"},
+        {"word": "enough", "trans": "十分"}
+      ],
+      "antonyms": [
+        {"word": "deficiency", "trans": "不足"},
+        {"word": "inadequacy", "trans": "不十分さ"}
+      ],
+      "related": [
+        {"word": "sufficient", "trans": "形容詞：十分な"}
+      ]
+    },
+    {
+      "number": 82,
+      "word": "compact",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "小型の、ぎっしり詰まった、合意、固める",
+      "nuance": "「共に(com) 打ち固める(pact)」が語源。スペースを無駄なく使って密度が高い様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The new camera is very compact and easy to carry.",
+              "ja": "新しいカメラは非常にコンパクト（小型）で、持ち運びに便利だ。",
+              "highlight": "compact"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "The two nations signed a trade compact.",
+              "ja": "両国は貿易協定（合意）に署名した。",
+              "highlight": "compact"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 com（共に）+ pangere（固定する）",
+      "synonyms": [
+        {"word": "dense", "trans": "密度の高い"},
+        {"word": "small", "trans": "小さい"},
+        {"word": "agreement", "trans": "合意"}
+      ],
+      "antonyms": [
+        {"word": "loose", "trans": "ゆるい"},
+        {"word": "spacious", "trans": "広々とした"}
+      ],
+      "related": []
+    },
+    {
+      "number": 83,
+      "word": "compassionate",
+      "pos": "形容詞",
+      "meaning": "思いやりのある、慈悲深い",
+      "nuance": "他人の苦しみを「共に(com) 感じる(passion)」心の温かさを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is a compassionate leader who cares about his employees.",
+              "ja": "彼は従業員を思いやる慈悲深いリーダーだ。",
+              "highlight": "compassionate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 com（共に）+ pati（苦しむ）",
+      "synonyms": [
+        {"word": "sympathetic", "trans": "共感的な"},
+        {"word": "kind", "trans": "親切な"},
+        {"word": "merciful", "trans": "情け深い"}
+      ],
+      "antonyms": [
+        {"word": "cruel", "trans": "残酷な"},
+        {"word": "indifferent", "trans": "無関心な"},
+        {"word": "pitiless", "trans": "情け容赦ない"}
+      ],
+      "related": [
+        {"word": "compassion", "trans": "名詞：思いやり、慈悲"}
+      ]
+    },
+    {
+      "number": "83-2",
+      "word": "compassion",
+      "pos": "名詞",
+      "meaning": "思いやり、深い同情、慈悲",
+      "nuance": "単なる同情（pity）よりも深く、助けたいという衝動を伴う感情です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The nurse showed great compassion for the patients.",
+              "ja": "その看護師は患者に対して深い思いやり（慈悲）を示した。",
+              "highlight": "compassion"
+            }
+          ]
+        }
+      ],
+      "etymology": "compassionate の名詞形",
+      "synonyms": [
+        {"word": "empathy", "trans": "共感"},
+        {"word": "mercy", "trans": "慈悲"}
+      ],
+      "antonyms": [
+        {"word": "apathy", "trans": "冷淡"}
+      ],
+      "related": []
+    },
+    {
+      "number": 84,
+      "word": "compose",
+      "pos": "動詞",
+      "meaning": "〜を構成する、組み立てる、作曲・作文する、心を落ち着ける",
+      "nuance": "「共に(com) 置く(pose)」。バラバラの要素を組み合わせて一つの作品や形にすること。また、乱れた心を一つにまとめる際にも使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Water is composed of hydrogen and oxygen.",
+              "ja": "水は水素と酸素で構成されている。",
+              "highlight": "composed"
+            },
+            {
+              "en": "She sat down to compose a letter to her parents.",
+              "ja": "彼女は両親への手紙を書く（組み立てる）ために座った。",
+              "highlight": "compose"
+            },
+            {
+              "en": "Take a deep breath and compose yourself.",
+              "ja": "深呼吸をして心を落ち着けなさい。",
+              "highlight": "compose"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 com（共に）+ pausare（置く）",
+      "synonyms": [
+        {"word": "constitute", "trans": "構成する"},
+        {"word": "create", "trans": "創造する"},
+        {"word": "calm", "trans": "落ち着かせる"}
+      ],
+      "antonyms": [
+        {"word": "destroy", "trans": "破壊する"},
+        {"word": "agitate", "trans": "揺り動かす、興奮させる"}
+      ],
+      "related": [
+        {"word": "composer", "trans": "名詞：作曲家"},
+        {"word": "composition", "trans": "名詞：構成、作品、作文"}
+      ]
+    },
+    {
+      "number": "84-2",
+      "word": "composer",
+      "pos": "名詞",
+      "meaning": "作曲家",
+      "nuance": "主にクラシック音楽などの曲を作る人を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Beethoven is one of the world's most famous composers.",
+              "ja": "ベートーヴェンは世界で最も有名な作曲家の一人だ。",
+              "highlight": "composers"
+            }
+          ]
+        }
+      ],
+      "etymology": "compose + er",
+      "synonyms": [
+        {"word": "musician", "trans": "音楽家"},
+        {"word": "songwriter", "trans": "歌の作者"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 85,
+      "word": "composite",
+      "pos": "形容詞、名詞",
+      "meaning": "合成の、複合的な、合成物",
+      "nuance": "異なる種類の素材や要素を組み合わせて、新しい一つの物（ハイブリッド）にすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The scientist created a new composite material that is stronger than steel.",
+              "ja": "科学者は、鋼鉄よりも強い新しい複合（合成）材料を作り出した。",
+              "highlight": "composite"
+            }
+          ]
+        }
+      ],
+      "etymology": "compose と同語源（ラテン語 compositus）",
+      "synonyms": [
+        {"word": "combined", "trans": "結合した"},
+        {"word": "complex", "trans": "複雑な、複合体"},
+        {"word": "hybrid", "trans": "混成の"}
+      ],
+      "antonyms": [
+        {"word": "simple", "trans": "単純な"},
+        {"word": "homogeneous", "trans": "均質な"}
+      ],
+      "related": []
+    },
+    {
+      "number": "85-2",
+      "word": "composition",
+      "pos": "名詞",
+      "meaning": "構成、組成、作文、楽曲、落ち着き",
+      "nuance": "物が何でできているかという「中身」や、作られた「作品」そのものを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Scientists studied the chemical composition of the soil.",
+              "ja": "科学者たちは土壌の化学組成（構成）を調査した。",
+              "highlight": "composition"
+            }
+          ]
+        }
+      ],
+      "etymology": "compose の名詞形",
+      "synonyms": [
+        {"word": "structure", "trans": "構造"},
+        {"word": "makeup", "trans": "構成"},
+        {"word": "creation", "trans": "創作物"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 86,
+      "word": "comprise",
+      "pos": "動詞",
+      "meaning": "〜から成る、〜を含む、〜を構成する",
+      "nuance": "「全体が〜（要素）を抱きかかえている」というイメージです。'be comprised of 〜' という形でもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The committee comprises ten members.",
+              "ja": "その委員会は10人のメンバーで構成されている。",
+              "highlight": "comprises"
+            },
+            {
+              "en": "Women comprise 40% of the workforce.",
+              "ja": "女性が労働力の40％を占めている（構成している）。",
+              "highlight": "comprise"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 com（共に）+ prehendere（掴む）→ 全てをひっくるめて掴む",
+      "synonyms": [
+        {"word": "consist of", "trans": "〜から成る"},
+        {"word": "include", "trans": "含む"},
+        {"word": "constitute", "trans": "構成する"}
+      ],
+      "antonyms": [
+        {"word": "exclude", "trans": "除外する"}
+      ],
+      "related": [
+        {"word": "comprehend", "trans": "動詞：理解する（頭の中に掴み入れる）"}
+      ]
+    },
+    {
+      "number": "86-2",
+      "word": "complicate",
+      "pos": "動詞",
+      "meaning": "〜を複雑にする、〜を紛らわしくする",
+      "nuance": "「共に(com) 折り畳む(plic)」が語源。多くの要素が重なり合って、簡単に解けない状態にすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Don't complicate things by adding unnecessary details.",
+              "ja": "不必要な詳細を加えて、物事を複雑にしないでください。",
+              "highlight": "complicate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 com（共に）+ plicare（折る、重ねる）",
+      "synonyms": [
+        {"word": "confuse", "trans": "混乱させる"},
+        {"word": "muddle", "trans": "ごちゃごちゃにする"}
+      ],
+      "antonyms": [
+        {"word": "simplify", "trans": "単純にする"},
+        {"word": "clarify", "trans": "明確にする"}
+      ],
+      "related": [
+        {"word": "complex", "trans": "形容詞：複雑な"},
+        {"word": "complication", "trans": "名詞：複雑化、合併症"}
+      ]
+    },
+    {
+      "number": "86-3",
+      "word": "complication",
+      "pos": "名詞",
+      "meaning": "複雑化、厄介な問題、（病気の）合併症",
+      "nuance": "物事を難しくする「余計な要因」を指します。医学用語としては、ある病気が原因で別の症状が出ることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The surgery was successful, but there were some complications.",
+              "ja": "手術は成功したが、いくつかの合併症（予期せぬ困難）があった。",
+              "highlight": "complications"
+            }
+          ]
+        }
+      ],
+      "etymology": "complicate の名詞形",
+      "synonyms": [
+        {"word": "difficulty", "trans": "困難"},
+        {"word": "problem", "trans": "問題"}
+      ],
+      "antonyms": [],
+      "related": []
+    }
+  ]
+}
