@@ -113,11 +113,12 @@ const GROUPED_CHAPTERS = {"速読英単語": [{"id": 1, "label": "第1章：人�
 const JSON_FILES = ["vocabulary_data_1.json", "vocabulary_data_2.json", "vocabulary_data_3.json", "vocabulary_data_4.json", "vocabulary_data_5.json", "vocabulary_data_8.json", "vocabulary_data_9.json", "vocabulary_data_10.json", "vocabulary_data_11.json", "vocabulary_data_12.json", "vocabulary_data_13.json", "vocabulary_data_14.json", "vocabulary_data_15.json", "vocabulary_data_16.json", "vocabulary_data_17.json", "vocabulary_data_18.json", "vocabulary_data_19.json", "vocabulary_data_20.json", "vocabulary_data_21.json", "vocabulary_data_22.json", "vocabulary_data_23.json", "vocabulary_data_24.json", "vocabulary_data_25.json", "vocabulary_data_26.json", "vocabulary_data_27.json", "vocabulary_data_28.json", "vocabulary_data_29.json", "vocabulary_data_30.json", "vocabulary_data_31.json", "vocabulary_data_51.json", "vocabulary_data_52.json", "vocabulary_data_53.json", "vocabulary_data_54.json", "vocabulary_data_55.json", "vocabulary_data_56.json", "vocabulary_data_57.json", "vocabulary_data_58.json", "vocabulary_data_59.json", "vocabulary_data_60.json", "vocabulary_data_110.json", "vocabulary_data_111.json", "vocabulary_data_112.json", "vocabulary_data_113.json", "vocabulary_data_114.json", "vocabulary_data_115.json", "vocabulary_data_116.json", "vocabulary_data_117.json", "vocabulary_data_118.json", "vocabulary_data_119.json"];
 let ALL_WORDS = [];
 
+// 修正点: Promise.allによる一斉読み込みを避け、1つずつ読み込むことでクラッシュを防ぐ
 async function loadAllData() {
     try {
-        // JSONファイルはHTMLと同じ階層にある想定でfetch
-        const results = await Promise.all(JSON_FILES.map(file => fetch(file).then(r => r.json())));
-        results.forEach(data => {
+        for (const file of JSON_FILES) {
+            const response = await fetch(file);
+            const data = await response.json();
             if (data.words) {
                 data.words.forEach(w => {
                     ALL_WORDS.push({ 
@@ -128,7 +129,7 @@ async function loadAllData() {
                     });
                 });
             }
-        });
+        }
         document.getElementById('loadingStatus').style.display = 'none';
         document.getElementById('setup').classList.add('active');
         document.getElementById('startBtn').disabled = false;
