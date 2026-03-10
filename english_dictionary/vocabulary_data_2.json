@@ -1,0 +1,567 @@
+{
+  "words": [
+    {
+      "number": 17,
+      "word": "distinctly",
+      "pos": "副詞",
+      "meaning": "はっきりと、明確に、際立って",
+      "nuance": "他のものと混ざらず、境界線がくっきりしている様子を表します。知覚（見る・聞く）や記憶が鮮明な場合によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I distinctly remember locking the door before I left.",
+              "ja": "出発する前にドアをロックしたことを、はっきりと覚えている。",
+              "highlight": "distinctly"
+            },
+            {
+              "en": "The two species are distinctly different in their behavior.",
+              "ja": "その2つの種は、行動において際立って（明確に）異なっている。",
+              "highlight": "distinctly"
+            }
+          ]
+        }
+      ],
+      "etymology": "distinct + ly (ラテン語 di-「離れて」+ stinguere「刺す・印をつける」)",
+      "synonyms": [
+        {"word": "clearly", "trans": "明らかに"},
+        {"word": "sharply", "trans": "鋭く、くっきりと"},
+        {"word": "plainly", "trans": "明白に"}
+      ],
+      "antonyms": [
+        {"word": "vaguely", "trans": "漠然と"},
+        {"word": "indistinctly", "trans": "不明瞭に"}
+      ],
+      "related": [
+        {"word": "distinguish", "trans": "動詞：区別する"}
+      ]
+    },
+    {
+      "number": "17-2",
+      "word": "distinct",
+      "pos": "形容詞",
+      "meaning": "（他と）全く別個の、はっきりした、独特の",
+      "nuance": "「種類が違う」ことと「輪郭がはっきりしている」ことの両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There are three distinct categories of this phenomenon.",
+              "ja": "この現象には3つの全く別個のカテゴリがある。",
+              "highlight": "distinct"
+            },
+            {
+              "en": "I felt a distinct smell of gas in the kitchen.",
+              "ja": "キッチンでガスのはっきりとした臭いを感じた。",
+              "highlight": "distinct"
+            }
+          ]
+        }
+      ],
+      "etymology": "distinctly と同語源",
+      "synonyms": [
+        {"word": "separate", "trans": "離れた、別々の"},
+        {"word": "apparent", "trans": "明白な"},
+        {"word": "unique", "trans": "独特の"}
+      ],
+      "antonyms": [
+        {"word": "similar", "trans": "似ている"},
+        {"word": "vague", "trans": "曖昧な"}
+      ],
+      "related": [
+        {"word": "distinction", "trans": "名詞：区別、卓越"}
+      ]
+    },
+    {
+      "number": 18,
+      "word": "explicit",
+      "pos": "形容詞",
+      "meaning": "明白な、明示的な、（描写が）露骨な",
+      "nuance": "隠さずに全てを言葉や図で表している状態です。映画の「過激な描写」を指す際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The teacher gave explicit instructions on how to use the equipment.",
+              "ja": "先生は、その機器の使い方について明白な（詳細な）指示を出した。",
+              "highlight": "explicit"
+            },
+            {
+              "en": "The movie contains explicit scenes of violence.",
+              "ja": "その映画には、露骨な暴力シーンが含まれている。",
+              "highlight": "explicit"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ex-「外へ」+ plicare「畳む」→ 畳んでいたものを広げて見せる",
+      "synonyms": [
+        {"word": "definite", "trans": "決定的な"},
+        {"word": "clear-cut", "trans": "明快な"},
+        {"word": "graphic", "trans": "写実的な、露骨な"}
+      ],
+      "antonyms": [
+        {"word": "implicit", "trans": "暗示的な、含みのある"},
+        {"word": "ambiguous", "trans": "曖昧な"}
+      ],
+      "related": [
+        {"word": "explicate", "trans": "動詞：詳説する"}
+      ]
+    },
+    {
+      "number": "18-2",
+      "word": "explicitly",
+      "pos": "副詞",
+      "meaning": "はっきりと、明示的に",
+      "nuance": "言葉に出して、または書面で明確に示している様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The rules explicitly forbid smoking inside the building.",
+              "ja": "規則では、建物内での喫煙をはっきりと（明文で）禁じている。",
+              "highlight": "explicitly"
+            }
+          ]
+        }
+      ],
+      "etymology": "explicit + ly",
+      "synonyms": [
+        {"word": "specifically", "trans": "具体的に"},
+        {"word": "categorically", "trans": "断定的に"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 19,
+      "word": "manifest",
+      "pos": "形容詞、動詞、名詞",
+      "meaning": "明白な、〜を明らかにする、（病状などが）現れる、積荷目録",
+      "nuance": "誰の目にも疑いようがないほど「はっきり見えている」状態です。動詞では感情や兆候が表に出ることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "The error was manifest to everyone in the room.",
+              "ja": "その間違いは、部屋にいた全員にとって明白だった。",
+              "highlight": "manifest"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "The symptoms usually manifest within three days.",
+              "ja": "症状は通常3日以内に現れる。",
+              "highlight": "manifest"
+            },
+            {
+              "en": "She manifested her frustration by slamming the door.",
+              "ja": "彼女はドアを乱暴に閉めることで不満をあらわにした。",
+              "highlight": "manifested"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 manus「手」+ festus「つかまれた」→ 手でつかめるほど確かな",
+      "synonyms": [
+        {"word": "obvious", "trans": "明らかな"},
+        {"word": "evident", "trans": "証拠があって明白な"},
+        {"word": "reveal", "trans": "動詞：漏らす、明らかにする"}
+      ],
+      "antonyms": [
+        {"word": "hidden", "trans": "隠された"},
+        {"word": "obscure", "trans": "不明瞭な"},
+        {"word": "conceal", "trans": "動詞：隠す"}
+      ],
+      "related": [
+        {"word": "manifesto", "trans": "宣言書"}
+      ]
+    },
+    {
+      "number": "19-2",
+      "word": "manifestly",
+      "pos": "副詞",
+      "meaning": "明らかに、明白に",
+      "nuance": "客観的な事実から見て、疑いようがないほどはっきりと、という強調を含みます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Such a policy is manifestly unfair to low-income families.",
+              "ja": "そのような政策は、低所得世帯にとって明らかに不公平だ。",
+              "highlight": "manifestly"
+            }
+          ]
+        }
+      ],
+      "etymology": "manifest + ly",
+      "synonyms": [
+        {"word": "patently", "trans": "明白に"},
+        {"word": "unmistakably", "trans": "間違いなく"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "19-3",
+      "word": "manifestation",
+      "pos": "名詞",
+      "meaning": "現れ、徴候、明示",
+      "nuance": "抽象的な考えや病気、あるいは神などが具体的な形となって現れることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "High fever is often a manifestation of an infection.",
+              "ja": "高熱はしばしば感染症の現れ（兆候）である。",
+              "highlight": "manifestation"
+            }
+          ]
+        }
+      ],
+      "etymology": "manifest の名詞形",
+      "synonyms": [
+        {"word": "expression", "trans": "表現、表れ"},
+        {"word": "indication", "trans": "兆候"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 20,
+      "word": "articulate",
+      "pos": "形容詞、動詞",
+      "meaning": "はっきり話せる、考えを明快に述べる、〜をはっきり発音する、〜を（言葉で）表現する、関節でつなぐ",
+      "nuance": "言葉を一つ一つはっきりと区切り、論理的に構成して伝える能力を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞）",
+          "examples": [
+            {
+              "en": "She is an articulate speaker who presents complex ideas clearly.",
+              "ja": "彼女は、複雑なアイデアを明快に提示する、話し上手（明快な話し手）だ。",
+              "highlight": "articulate"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "A baby can hardly articulate words clearly.",
+              "ja": "赤ん坊は言葉をはっきりと発音することがほとんどできない。",
+              "highlight": "articulate"
+            },
+            {
+              "en": "He found it difficult to articulate his feelings.",
+              "ja": "彼は自分の感情を言葉にする（明確に述べる）のが難しいと感じた。",
+              "highlight": "articulate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 articulus「節、小さな関節」→ 区切りをつけて繋ぐ",
+      "synonyms": [
+        {"word": "eloquent", "trans": "雄弁な"},
+        {"word": "fluent", "trans": "流暢な"},
+        {"word": "enunciate", "trans": "はっきり発音する"}
+      ],
+      "antonyms": [
+        {"word": "inarticulate", "trans": "口ごもる、言葉にならない"},
+        {"word": "tongue-tied", "trans": "口がもつれる"}
+      ],
+      "related": [
+        {"word": "article", "trans": "記事、項目（区切られたもの）"}
+      ]
+    },
+    {
+      "number": "20-2",
+      "word": "articulately",
+      "pos": "副詞",
+      "meaning": "はっきりと、明快に",
+      "nuance": "発音や論理構成がクリアである様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He argued his point very articulately.",
+              "ja": "彼は自分の主張を非常に明快に論じた。",
+              "highlight": "articulately"
+            }
+          ]
+        }
+      ],
+      "etymology": "articulate + ly",
+      "synonyms": [
+        {"word": "clearly", "trans": "明らかに"},
+        {"word": "perspicuously", "trans": "分かりやすく"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "20-3",
+      "word": "clarity",
+      "pos": "名詞",
+      "meaning": "（考え・文体などの）明快さ、透明さ",
+      "nuance": "混乱がなく、見通しが良い状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The clarity of her explanation was impressive.",
+              "ja": "彼女の説明の明快さは印象的だった。",
+              "highlight": "clarity"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 clarus（明るい、澄んだ）",
+      "synonyms": [
+        {"word": "lucidity", "trans": "明晰さ"},
+        {"word": "clearness", "trans": "明確さ"}
+      ],
+      "antonyms": [
+        {"word": "confusion", "trans": "混乱"},
+        {"word": "obscurity", "trans": "不明瞭さ"}
+      ],
+      "related": [
+        {"word": "clarify", "trans": "動詞：明らかにする"}
+      ]
+    },
+    {
+      "number": 21,
+      "word": "appearance",
+      "pos": "名詞",
+      "meaning": "外見、様子、出現、うわべ",
+      "nuance": "目に見える「姿」だけでなく、内面とは異なるかもしれない「うわべ（見せかけ）」も指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "You shouldn't judge a person by their appearance.",
+              "ja": "人を外見で判断すべきではない。",
+              "highlight": "appearance"
+            },
+            {
+              "en": "To all appearances, they were a happy couple.",
+              "ja": "見たところ（うわべは）、彼らは幸せな夫婦だった。",
+              "highlight": "appearances"
+            }
+          ]
+        }
+      ],
+      "etymology": "appear（現れる）+ ance",
+      "synonyms": [
+        {"word": "look", "trans": "見た目"},
+        {"word": "arrival", "trans": "到着、出現"},
+        {"word": "facade", "trans": "正面、見せかけ"}
+      ],
+      "antonyms": [
+        {"word": "reality", "trans": "現実"},
+        {"word": "essence", "trans": "本質"}
+      ],
+      "related": [
+        {"word": "appear", "trans": "動詞：現れる、〜のように見える"}
+      ]
+    },
+    {
+      "number": 22,
+      "word": "hypocrisy",
+      "pos": "名詞",
+      "meaning": "偽善、ねこかぶり",
+      "nuance": "高い道徳心を持っているふりをしながら、実際にはそうでないという卑怯な態度を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It's sheer hypocrisy to criticize others for what you do yourself.",
+              "ja": "自分がやっていることで他人を批判するのは、全くの偽善だ。",
+              "highlight": "hypocrisy"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 hypo「下に」+ krinein「ふるいにかける、判断する」→ 舞台で演じること",
+      "synonyms": [
+        {"word": "insincerity", "trans": "不誠実"},
+        {"word": "double-dealing", "trans": "裏表のある行為"},
+        {"word": "deceit", "trans": "欺瞞"}
+      ],
+      "antonyms": [
+        {"word": "sincerity", "trans": "誠実"},
+        {"word": "honesty", "trans": "正直"},
+        {"word": "integrity", "trans": "高潔さ"}
+      ],
+      "related": [
+        {"word": "hypocrite", "trans": "名詞：偽善者"}
+      ]
+    },
+    {
+      "number": "22-2",
+      "word": "hypocrite",
+      "pos": "名詞",
+      "meaning": "偽善者、ねこかぶり",
+      "nuance": "言うこととやることが違う、裏表のある人物を指す非難の言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is such a hypocrite, telling us to save energy while he leaves all his lights on.",
+              "ja": "自分は電気をつけっぱなしにしているのに、我々に節電しろと言うなんて、彼は本当に偽善者だ。",
+              "highlight": "hypocrite"
+            }
+          ]
+        }
+      ],
+      "etymology": "hypocrisy と同語源",
+      "synonyms": [
+        {"word": "phony", "trans": "偽物、ぺてん師"},
+        {"word": "fraud", "trans": "詐欺師"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 23,
+      "word": "conspecific",
+      "pos": "名詞、形容詞",
+      "meaning": "同種の生物（個体）、同種の",
+      "nuance": "生物学において、同じ種に属する他の個体を指す専門用語です。社会行動の研究などで使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The bird defended its territory against conspecifics.",
+              "ja": "その鳥は、同種の（他の個体）に対して自分の縄張りを守った。",
+              "highlight": "conspecifics"
+            },
+            {
+              "en": "Conspecific animals often compete for the same resources.",
+              "ja": "同種の動物は、しばしば同じ資源を求めて競争する。",
+              "highlight": "Conspecific"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con「共に」+ species「種」",
+      "synonyms": [
+        {"word": "fellow", "trans": "仲間"},
+        {"word": "like", "trans": "同類"}
+      ],
+      "antonyms": [
+        {"word": "interspecific", "trans": "異種間の"},
+        {"word": "heterospecific", "trans": "異種の"}
+      ],
+      "related": []
+    },
+    {
+      "number": 24,
+      "word": "fine",
+      "pos": "形容詞、名詞、動詞、副詞",
+      "meaning": "立派な、元気な、細かい、洗練された、罰金、〜に罰金を科す、細かく",
+      "nuance": "日本語の「ファイン」よりも「微細な」「質の高い」という意味合いが非常に重要です。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞：微細な・質の高い）",
+          "examples": [
+            {
+              "en": "The beach is famous for its fine white sand.",
+              "ja": "そのビーチは、細かい白い砂で有名だ。",
+              "highlight": "fine"
+            },
+            {
+              "en": "This is a fine piece of craftsmanship.",
+              "ja": "これは職人芸の素晴らしい（洗練された）作品だ。",
+              "highlight": "fine"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞・動詞：罰金）",
+          "examples": [
+            {
+              "en": "He had to pay a $50 fine for speeding.",
+              "ja": "彼はスピード違反で50ドルの罰金を支払わなければならなかった。",
+              "highlight": "fine"
+            },
+            {
+              "en": "The company was fined for polluting the river.",
+              "ja": "その会社は川を汚染したことで罰金を科された。",
+              "highlight": "fined"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 finis「終わり、境界」→ 仕上げられた、完璧な、または「支払いの終わり（罰金）」",
+      "synonyms": [
+        {"word": "excellent", "trans": "優れた"},
+        {"word": "delicate", "trans": "繊細な"},
+        {"word": "penalty", "trans": "刑罰、罰金"}
+      ],
+      "antonyms": [
+        {"word": "coarse", "trans": "粗い"},
+        {"word": "rough", "trans": "雑な"},
+        {"word": "poor", "trans": "お粗末な"}
+      ],
+      "related": [
+        {"word": "refine", "trans": "動詞：精製する、洗練させる"},
+        {"word": "finely", "trans": "副詞：細かく、精巧に"}
+      ]
+    },
+    {
+      "number": 25,
+      "word": "eminent",
+      "pos": "形容詞",
+      "meaning": "高名な、傑出した、地位の高い",
+      "nuance": "特定の分野（特に学問や芸術）で非常に有名で、尊敬されていることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "An eminent scientist will give a lecture tomorrow.",
+              "ja": "明日、高名な（著名な）科学者が講義を行う。",
+              "highlight": "eminent"
+            },
+            {
+              "en": "He is an eminent authority on international law.",
+              "ja": "彼は国際法の卓越した（第一級の）権威だ。",
+              "highlight": "eminent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ex-「外に」+ minere「突き出る」→ 群を抜いている",
+      "synonyms": [
+        {"word": "distinguished", "trans": "際立った、高名な"},
+        {"word": "prominent", "trans": "目立つ、著名な"},
+        {"word": "illustrious", "trans": "輝かしい、著名な"}
+      ],
+      "antonyms": [
+        {"word": "unknown", "trans": "無名の"},
+        {"word": "obscure", "trans": "世に知られていない"},
+        {"word": "ordinary", "trans": "平凡な"}
+      ],
+      "related": [
+        {"word": "eminence", "trans": "名詞：高位、卓越"}
+      ]
+    }
+  ]
+}
