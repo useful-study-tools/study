@@ -1051,6 +1051,848 @@
       "related": [
         {"word": "long", "trans": "形容詞：長い"}
       ]
+    },
+    {
+      "number": 37,
+      "word": "ultraviolet",
+      "pos": "形容詞、名詞",
+      "meaning": "紫外線（の）、紫外部（の）",
+      "nuance": "可視光線の「紫（violet）」の外側（ultra）にある、波長の短い光を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Ultraviolet (UV) radiation from the sun can damage the skin.",
+              "ja": "太陽からの紫外線放射は肌にダメージを与える可能性がある。",
+              "highlight": "Ultraviolet"
+            },
+            {
+              "en": "Bees can see ultraviolet patterns on flowers that are invisible to humans.",
+              "ja": "ミツバチには、人間には見えない花の上にある紫外線の模様が見える。",
+              "highlight": "ultraviolet"
+            }
+          ]
+        }
+      ],
+      "etymology": "ultra（超えて）+ violet（紫）",
+      "synonyms": [
+        {"word": "UV", "trans": "紫外線の略称"}
+      ],
+      "antonyms": [
+        {"word": "infrared", "trans": "赤外線の"}
+      ],
+      "related": [
+        {"word": "violet", "trans": "すみれ色、紫"}
+      ]
+    },
+    {
+      "number": "37-2",
+      "word": "infrared",
+      "pos": "形容詞、名詞",
+      "meaning": "赤外線（の）",
+      "nuance": "可視光線の「赤（red）」の下側（infra）にある、熱を感じさせる波長の長い光を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Infrared cameras are used to see in the dark by detecting heat.",
+              "ja": "赤外線カメラは熱を検知することで、暗闇で見るために使われる。",
+              "highlight": "Infrared"
+            }
+          ]
+        }
+      ],
+      "etymology": "infra（下の）+ red（赤）",
+      "synonyms": [],
+      "antonyms": [
+        {"word": "ultraviolet", "trans": "紫外線の"}
+      ],
+      "related": []
+    },
+    
+
+[Image of the electromagnetic spectrum]
+,
+    {
+      "number": 38,
+      "word": "critically",
+      "pos": "副詞",
+      "meaning": "批判的に、危うく、決定的に、非常に",
+      "nuance": "物事を深く分析する様子（批判的）や、生死に関わるような危険な状態（危うく）を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Several people were critically injured in the accident.",
+              "ja": "その事故で数人が瀕死の重傷（危うい状態）を負った。",
+              "highlight": "critically"
+            },
+            {
+              "en": "The plan was critically examined by the committee.",
+              "ja": "その計画は委員会によって批判的に（厳密に）検討された。",
+              "highlight": "critically"
+            }
+          ]
+        }
+      ],
+      "etymology": "critical + ly (ギリシャ語 krinein「判断する」)",
+      "synonyms": [
+        {"word": "severely", "trans": "ひどく"},
+        {"word": "analytically", "trans": "分析的に"},
+        {"word": "crucially", "trans": "決定的に"}
+      ],
+      "antonyms": [
+        {"word": "slightly", "trans": "わずかに"},
+        {"word": "superficiaries", "trans": "表面上"}
+      ],
+      "related": [
+        {"word": "critic", "trans": "名詞：批評家"}
+      ]
+    },
+    {
+      "number": "38-2",
+      "word": "critical",
+      "pos": "形容詞",
+      "meaning": "決定的な、重大な、批判的な、危篤の",
+      "nuance": "「分かれ道」にあるような重要性、または欠点を見極めようとする態度を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The next 24 hours will be critical for the patient's recovery.",
+              "ja": "これからの24時間が患者の回復にとって重大な局面（山場）となるだろう。",
+              "highlight": "critical"
+            },
+            {
+              "en": "He is very critical of the government's new policy.",
+              "ja": "彼は政府の新政策に対して非常に批判的だ。",
+              "highlight": "critical"
+            }
+          ]
+        }
+      ],
+      "etymology": "critically と同語源",
+      "synonyms": [
+        {"word": "crucial", "trans": "決定的な"},
+        {"word": "vital", "trans": "極めて重要な"},
+        {"word": "censorious", "trans": "非難好きな"}
+      ],
+      "antonyms": [
+        {"word": "unimportant", "trans": "重要でない"},
+        {"word": "supportive", "trans": "支持的な"},
+        {"word": "stable", "trans": "安定した"}
+      ],
+      "related": []
+    },
+    {
+      "number": 39,
+      "word": "formerly",
+      "pos": "副詞",
+      "meaning": "以前は、かつては",
+      "nuance": "今は違うが、過去のある時点ではそうであったという状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "This building was formerly a hospital.",
+              "ja": "この建物は以前は病院だった。",
+              "highlight": "formerly"
+            }
+          ]
+        }
+      ],
+      "etymology": "former + ly",
+      "synonyms": [
+        {"word": "previously", "trans": "以前に"},
+        {"word": "once", "trans": "かつて"}
+      ],
+      "antonyms": [
+        {"word": "currently", "trans": "現在は"},
+        {"word": "presently", "trans": "まもなく、現在は"}
+      ],
+      "related": []
+    },
+    {
+      "number": "39-2",
+      "word": "former",
+      "pos": "形容詞、名詞",
+      "meaning": "（時間的に）前の、かつての、（二つのうち）前者の",
+      "nuance": "二つのものを比較して「前者」と言う場合や、過去の地位を指す場合（例：元大統領）に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He is a former world champion.",
+              "ja": "彼はかつての（元の）世界チャンピオンだ。",
+              "highlight": "former"
+            },
+            {
+              "en": "Of the two options, I prefer the former.",
+              "ja": "二つの選択肢のうち、私は前者の方が好きだ。",
+              "highlight": "former"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 forma（最初の）",
+      "synonyms": [
+        {"word": "previous", "trans": "前の"},
+        {"word": "past", "trans": "過去の"},
+        {"word": "ex-", "trans": "元〜"}
+      ],
+      "antonyms": [
+        {"word": "latter", "trans": "後者の"},
+        {"word": "latter", "trans": "後の"},
+        {"word": "future", "trans": "未来の"}
+      ],
+      "related": []
+    },
+    {
+      "number": 40,
+      "word": "initially",
+      "pos": "副詞",
+      "meaning": "最初は、当初は",
+      "nuance": "物事の始まりの段階について述べ、後で状況が変わったことを示唆することが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Initially, the project seemed impossible, but we succeeded.",
+              "ja": "当初は、そのプロジェクトは不可能に思えたが、私たちは成功した。",
+              "highlight": "Initially"
+            }
+          ]
+        }
+      ],
+      "etymology": "initial + ly (ラテン語 initium「入り口、始まり」)",
+      "synonyms": [
+        {"word": "originally", "trans": "元々は"},
+        {"word": "at first", "trans": "最初は"}
+      ],
+      "antonyms": [
+        {"word": "finally", "trans": "ついに"},
+        {"word": "eventually", "trans": "結局は"}
+      ],
+      "related": []
+    },
+    {
+      "number": "40-2",
+      "word": "initial",
+      "pos": "形容詞、名詞、動詞",
+      "meaning": "最初の、初期の、頭文字、〜に頭文字を書く",
+      "nuance": "物事の「入り口」に関連する言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The initial symptoms were very mild.",
+              "ja": "初期症状は非常に軽かった。",
+              "highlight": "initial"
+            },
+            {
+              "en": "Please write your initials on each page.",
+              "ja": "各ページにイニシャル（名前の頭文字）を書いてください。",
+              "highlight": "initials"
+            }
+          ]
+        }
+      ],
+      "etymology": "initially と同語源",
+      "synonyms": [
+        {"word": "opening", "trans": "始まりの"},
+        {"word": "first", "trans": "第一の"}
+      ],
+      "antonyms": [
+        {"word": "final", "trans": "最後の"},
+        {"word": "last", "trans": "最後の"}
+      ],
+      "related": [
+        {"word": "initiate", "trans": "動詞：始める"}
+      ]
+    },
+    {
+      "number": 41,
+      "word": "radically",
+      "pos": "副詞",
+      "meaning": "根本的に、劇的に、急進的に",
+      "nuance": "「根っこ（root）」から全てを変えるような、徹底的な様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The new technology will radically change how we work.",
+              "ja": "新技術は私たちの働き方を根本的に変えるだろう。",
+              "highlight": "radically"
+            }
+          ]
+        }
+      ],
+      "etymology": "radical + ly (ラテン語 radix「根」)",
+      "synonyms": [
+        {"word": "completely", "trans": "完全に"},
+        {"word": "drastically", "trans": "思い切って、劇的に"},
+        {"word": "fundamentally", "trans": "根本的に"}
+      ],
+      "antonyms": [
+        {"word": "slightly", "trans": "わずかに"},
+        {"word": "gradually", "trans": "徐々に"}
+      ],
+      "related": []
+    },
+    {
+      "number": "41-2",
+      "word": "radical",
+      "pos": "形容詞、名詞",
+      "meaning": "根本的な、過激な、急進的な、急進主義者",
+      "nuance": "既存のものを根底から覆そうとする強い姿勢を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company needs a radical reorganization.",
+              "ja": "その会社は根本的な再編成を必要としている。",
+              "highlight": "radical"
+            },
+            {
+              "en": "He holds radical political views.",
+              "ja": "彼は過激な（急進的な）政治的見解を持っている。",
+              "highlight": "radical"
+            }
+          ]
+        }
+      ],
+      "etymology": "radically と同語源",
+      "synonyms": [
+        {"word": "fundamental", "trans": "基礎的な"},
+        {"word": "extreme", "trans": "極端な"}
+      ],
+      "antonyms": [
+        {"word": "conservative", "trans": "保守的な"},
+        {"word": "moderate", "trans": "穏健な"}
+      ],
+      "related": [
+        {"word": "radish", "trans": "ハツカダイコン（根を食べるもの）"}
+      ]
+    },
+    {
+      "number": 42,
+      "word": "concede",
+      "pos": "動詞",
+      "meaning": "（しぶしぶ）認める、譲歩する、敗北を認める",
+      "nuance": "本当は認めたくないが、事実を突きつけられて受け入れるというニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The candidate finally conceded defeat.",
+              "ja": "その候補者はついに敗北を認めた。",
+              "highlight": "conceded"
+            },
+            {
+              "en": "He had to concede that his opponent was right.",
+              "ja": "彼は相手が正しいことを（不本意ながら）認めざるを得なかった。",
+              "highlight": "concede"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（完全に）+ cedere（行く、譲る）",
+      "synonyms": [
+        {"word": "admit", "trans": "認める"},
+        {"word": "yield", "trans": "屈する、譲る"},
+        {"word": "grant", "trans": "許す、認める"}
+      ],
+      "antonyms": [
+        {"word": "deny", "trans": "否定する"},
+        {"word": "reject", "trans": "拒絶する"},
+        {"word": "dispute", "trans": "異議を唱える"}
+      ],
+      "related": [
+        {"word": "concession", "trans": "名詞：譲歩"}
+      ]
+    },
+    {
+      "number": "42-2",
+      "word": "concession",
+      "pos": "名詞",
+      "meaning": "譲歩、容認、利権、売店",
+      "nuance": "話し合いで相手に譲った点や、特定の場所での営業許可（利権）を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The government made a major concession to the protesters.",
+              "ja": "政府は抗議者たちに対して大きな譲歩をした。",
+              "highlight": "concession"
+            }
+          ]
+        }
+      ],
+      "etymology": "concede の名詞形",
+      "synonyms": [
+        {"word": "compromise", "trans": "妥協"},
+        {"word": "allowance", "trans": "許容"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 43,
+      "word": "conserve",
+      "pos": "動詞",
+      "meaning": "〜を保存する、保護する、大切に使う",
+      "nuance": "資源やエネルギーを無駄遣いせず、将来のために保つことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We must conserve energy to protect the environment.",
+              "ja": "環境を守るためにエネルギーを節約（保存）しなければならない。",
+              "highlight": "conserve"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（完全に）+ servare（守る）",
+      "synonyms": [
+        {"word": "preserve", "trans": "保存する"},
+        {"word": "save", "trans": "救う、蓄える"},
+        {"word": "sustain", "trans": "維持する"}
+      ],
+      "antonyms": [
+        {"word": "waste", "trans": "浪費する"},
+        {"word": "consume", "trans": "消費する"},
+        {"word": "destroy", "trans": "破壊する"}
+      ],
+      "related": [
+        {"word": "conservation", "trans": "名詞：保存、保護"}
+      ]
+    },
+    {
+      "number": "43-2",
+      "word": "conservation",
+      "pos": "名詞",
+      "meaning": "（自然などの）保護、保存、節約",
+      "nuance": "環境保護（nature conservation）の文脈でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Water conservation is essential during a drought.",
+              "ja": "干ばつの間、水の節約（保存）は不可欠だ。",
+              "highlight": "conservation"
+            }
+          ]
+        }
+      ],
+      "etymology": "conserve の名詞形",
+      "synonyms": [
+        {"word": "protection", "trans": "保護"},
+        {"word": "maintenance", "trans": "維持"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 44,
+      "word": "console",
+      "pos": "動詞、名詞",
+      "meaning": "〜を慰める、（機械の）制御盤、ゲーム機",
+      "nuance": "動詞では悲しんでいる人に寄り添うこと、名詞ではコンピュータ等の操作卓を指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "He tried to console her after she lost her dog.",
+              "ja": "彼は、彼女が犬を亡くした後、彼女を慰めようとした。",
+              "highlight": "console"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "I spent all weekend playing on my game console.",
+              "ja": "週末はずっとゲーム機で遊んで過ごした。",
+              "highlight": "console"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ solari（和らげる）",
+      "synonyms": [
+        {"word": "comfort", "trans": "慰める"},
+        {"word": "soothe", "trans": "なだめる"},
+        {"word": "control panel", "trans": "制御盤"}
+      ],
+      "antonyms": [
+        {"word": "distress", "trans": "苦しませる"},
+        {"word": "upset", "trans": "うろたえさせる"}
+      ],
+      "related": [
+        {"word": "consolation", "trans": "名詞：慰め"}
+      ]
+    },
+    {
+      "number": "44-2",
+      "word": "consolation",
+      "pos": "名詞",
+      "meaning": "慰め、残念賞",
+      "nuance": "失ったものへの埋め合わせとなるような小さな喜びを指すこともあります（consolation prize）。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "If it's any consolation, you did better than I did.",
+              "ja": "慰めになるか分からないけど、君は僕よりよくやったよ。",
+              "highlight": "consolation"
+            }
+          ]
+        }
+      ],
+      "etymology": "console の名詞形",
+      "synonyms": [
+        {"word": "comfort", "trans": "安心、慰め"},
+        {"word": "relief", "trans": "安堵"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 45,
+      "word": "constituent",
+      "pos": "名詞、形容詞",
+      "meaning": "構成要素、成分、有権者、構成する",
+      "nuance": "全体を作り上げている個々のパーツ、あるいは政治家を選出する地域の住民（有権者）を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：構成要素）",
+          "examples": [
+            {
+              "en": "Oxygen is a constituent of air.",
+              "ja": "酸素は空気の構成成分（要素）だ。",
+              "highlight": "constituent"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：有権者）",
+          "examples": [
+            {
+              "en": "The MP is always ready to listen to his constituents.",
+              "ja": "その下院議員は、常に地元の有権者の声を聞く準備ができている。",
+              "highlight": "constituents"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ statuere（立てる、置く）",
+      "synonyms": [
+        {"word": "component", "trans": "部品、成分"},
+        {"word": "element", "trans": "要素"},
+        {"word": "voter", "trans": "投票者"}
+      ],
+      "antonyms": [
+        {"word": "whole", "trans": "全体"}
+      ],
+      "related": [
+        {"word": "constitute", "trans": "動詞：構成する"},
+        {"word": "constitution", "trans": "名詞：憲法、構成"}
+      ]
+    },
+    {
+      "number": "45-2",
+      "word": "constituency",
+      "pos": "名詞",
+      "meaning": "有権者（全体）、選挙区",
+      "nuance": "ある議員を支持・選出する範囲や人々の集まりを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The politician's constituency is largely rural.",
+              "ja": "その政治家の選挙区は大部分が農村部だ。",
+              "highlight": "constituency"
+            }
+          ]
+        }
+      ],
+      "etymology": "constituent の抽象名詞形",
+      "synonyms": [
+        {"word": "electorate", "trans": "有権者層"},
+        {"word": "district", "trans": "地区"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "45-3",
+      "word": "confront",
+      "pos": "動詞",
+      "meaning": "〜に立ち向かう、（困難などが）〜に立ちはだかる、〜を対決させる",
+      "nuance": "「顔（front）を突き合わせる（con）」ことが語源で、逃げずに正面から向き合う強いニュアンスです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We need to confront the problem before it gets worse.",
+              "ja": "問題が悪化する前に、それに立ち向かう（向き合う）必要がある。",
+              "highlight": "confront"
+            },
+            {
+              "en": "She was confronted by a group of angry protesters.",
+              "ja": "彼女は怒った抗議者の一団に直面（立ちはだから）された。",
+              "highlight": "confronted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ frons（額、顔）",
+      "synonyms": [
+        {"word": "face", "trans": "直面する"},
+        {"word": "encounter", "trans": "遭遇する"},
+        {"word": "defy", "trans": "反抗する、挑む"}
+      ],
+      "antonyms": [
+        {"word": "avoid", "trans": "避ける"},
+        {"word": "evade", "trans": "逃れる"},
+        {"word": "dodge", "trans": "かわす"}
+      ],
+      "related": [
+        {"word": "confrontation", "trans": "名詞：対立"}
+      ]
+    },
+    {
+      "number": "45-4",
+      "word": "confrontation",
+      "pos": "名詞",
+      "meaning": "対立、対決、衝突",
+      "nuance": "意見の違いなどから、面と向かって激しく争う状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The two countries are trying to avoid a military confrontation.",
+              "ja": "両国は軍事的衝突（対決）を避けようとしている。",
+              "highlight": "confrontation"
+            }
+          ]
+        }
+      ],
+      "etymology": "confront の名詞形",
+      "synonyms": [
+        {"word": "conflict", "trans": "紛争、衝突"},
+        {"word": "clash", "trans": "ぶつかり合い"},
+        {"word": "showdown", "trans": "最後の対決"}
+      ],
+      "antonyms": [
+        {"word": "agreement", "trans": "合意"},
+        {"word": "harmony", "trans": "調和"}
+      ],
+      "related": []
+    },
+    {
+      "number": "45-5",
+      "word": "congregate",
+      "pos": "動詞",
+      "meaning": "集まる、集合する",
+      "nuance": "「群れ（greg）」が「共に（con）」集まるという意味で、特に人々が特定の目的で一箇所に集まる様子を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Young people often congregate in the town square.",
+              "ja": "若者たちはよく町の広場に集まる。",
+              "highlight": "congregate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ gregare（群れる）",
+      "synonyms": [
+        {"word": "gather", "trans": "集まる"},
+        {"word": "assemble", "trans": "集合する"},
+        {"word": "flock", "trans": "群がる"}
+      ],
+      "antonyms": [
+        {"word": "disperse", "trans": "分散する"},
+        {"word": "scatter", "trans": "散らばる"}
+      ],
+      "related": [
+        {"word": "congregation", "trans": "名詞：集まり"}
+      ]
+    },
+    {
+      "number": "45-6",
+      "word": "congregation",
+      "pos": "名詞",
+      "meaning": "（教会の）集会、会衆、集まり",
+      "nuance": "特に礼拝のために教会に集まった人々の集団を指すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The pastor addressed the congregation.",
+              "ja": "牧師は会衆（集まった人々）に語りかけた。",
+              "highlight": "congregation"
+            }
+          ]
+        }
+      ],
+      "etymology": "congregate の名詞形",
+      "synonyms": [
+        {"word": "assembly", "trans": "集会"},
+        {"word": "audience", "trans": "聴衆"},
+        {"word": "flock", "trans": "信者の一団"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "45-7",
+      "word": "consolidate",
+      "pos": "動詞",
+      "meaning": "〜を固める、強化する、合併する、統合する",
+      "nuance": "バラバラだったものを「一つに（solid）」して「強固に」することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company is planning to consolidate its various offices into one building.",
+              "ja": "その会社は、さまざまなオフィスを一つのビルに統合（集約）する計画だ。",
+              "highlight": "consolidate"
+            },
+            {
+              "en": "She took steps to consolidate her power within the party.",
+              "ja": "彼女は党内での自分の権力を固める（強化する）ための措置をとった。",
+              "highlight": "consolidate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ solidare（固くする）",
+      "synonyms": [
+        {"word": "unify", "trans": "統一する"},
+        {"word": "strengthen", "trans": "強化する"},
+        {"word": "merge", "trans": "合併する"}
+      ],
+      "antonyms": [
+        {"word": "separate", "trans": "分離する"},
+        {"word": "weaken", "trans": "弱める"},
+        {"word": "divide", "trans": "分割する"}
+      ],
+      "related": [
+        {"word": "consolidation", "trans": "名詞：統合"}
+      ]
+    },
+    {
+      "number": "45-8",
+      "word": "consolidation",
+      "pos": "名詞",
+      "meaning": "統合、合併、強化、整理統合",
+      "nuance": "ビジネスでの企業の合併や、権力の基盤を固めるプロセスを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The merger led to the consolidation of the two banks.",
+              "ja": "合併により、その2つの銀行の統合が行われた。",
+              "highlight": "consolidation"
+            }
+          ]
+        }
+      ],
+      "etymology": "consolidate の名詞形",
+      "synonyms": [
+        {"word": "integration", "trans": "統合"},
+        {"word": "merger", "trans": "合併"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "45-9",
+      "word": "conspire",
+      "pos": "動詞",
+      "meaning": "共謀する、陰謀を企てる、（事態が）重なって〜になる",
+      "nuance": "「共に（con）息をする（spire）」が語源で、密かに示し合わせる様子を指します。悪いことが重なる際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They conspired to overthrow the government.",
+              "ja": "彼らは政府を転覆させようと共謀した。",
+              "highlight": "conspired"
+            },
+            {
+              "en": "Everything conspired to make the trip a disaster.",
+              "ja": "あらゆる事（悪天候、遅延など）が重なって、その旅行は最悪なものになった。",
+              "highlight": "conspired"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ spirare（息をする）",
+      "synonyms": [
+        {"word": "plot", "trans": "企む"},
+        {"word": "collude", "trans": "結託する"},
+        {"word": "scheme", "trans": "計画する"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "conspiracy", "trans": "名詞：陰謀"}
+      ]
+    },
+    {
+      "number": "45-10",
+      "word": "conspiracy",
+      "pos": "名詞",
+      "meaning": "陰謀、共謀",
+      "nuance": "秘密裏に行われる不正な計画を指します。「陰謀論（conspiracy theory）」という言葉でよく知られています。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was charged with conspiracy to commit fraud.",
+              "ja": "彼は詐欺を働くための共謀罪で起訴された。",
+              "highlight": "conspiracy"
+            }
+          ]
+        }
+      ],
+      "etymology": "conspire の名詞形",
+      "synonyms": [
+        {"word": "plot", "trans": "策略"},
+        {"word": "intrigue", "trans": "陰謀、密議"}
+      ],
+      "antonyms": [],
+      "related": []
     }
   ]
-｝
+}
