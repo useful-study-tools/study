@@ -1,0 +1,1637 @@
+{
+  "words": [
+    {
+      "number": 245,
+      "word": "contribution",
+      "pos": "名詞",
+      "meaning": "貢献、寄付（金）、寄稿",
+      "nuance": "何かを達成するために役立つこと、またはお金や記事などを提供することを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She made a significant contribution to the success of the project.",
+              "ja": "彼女はそのプロジェクトの成功に多大な貢献をした。",
+              "highlight": "contribution"
+            },
+            {
+              "en": "The museum relies on voluntary contributions from the public.",
+              "ja": "その美術館は一般からの自発的な寄付金に頼っている。",
+              "highlight": "contributions"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con（共に）+ tribuere（割り当てる）",
+      "synonyms": [
+        {"word": "donation", "trans": "寄付"},
+        {"word": "input", "trans": "投入、貢献"},
+        {"word": "article", "trans": "記事、寄稿文"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "contribute", "trans": "動詞：貢献する"},
+        {"word": "contributor", "trans": "名詞：貢献者、寄稿家"}
+      ]
+    },
+    {
+      "number": "245-2",
+      "word": "contribute",
+      "pos": "動詞",
+      "meaning": "貢献する、寄付する、〜の一因となる",
+      "nuance": "ポジティブな結果への「貢献」だけでなく、ネガティブな結果を招く「原因（contribute to ...）」としてもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Stress can contribute to various health problems.",
+              "ja": "ストレスはさまざまな健康問題の一因となる可能性がある。",
+              "highlight": "contribute"
+            },
+            {
+              "en": "We contributed $100 to the charity.",
+              "ja": "私たちはその慈善団体に100ドルを寄付した。",
+              "highlight": "contributed"
+            }
+          ]
+        }
+      ],
+      "etymology": "contribution と同語源",
+      "synonyms": [
+        {"word": "donate", "trans": "寄付する"},
+        {"word": "subscribe", "trans": "寄付を約束する"},
+        {"word": "lead to", "trans": "〜につながる"}
+      ],
+      "antonyms": [
+        {"word": "hinder", "trans": "妨げる"},
+        {"word": "obstruct", "trans": "邪魔する"}
+      ],
+      "related": []
+    },
+    {
+      "number": "245-3",
+      "word": "contributive",
+      "pos": "形容詞",
+      "meaning": "貢献する、寄与する、助けになる",
+      "nuance": "ある結果をもたらすのに役立っている性質を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The new policy proved contributive to the economic growth.",
+              "ja": "新しい政策は経済成長に寄与することが証明された。",
+              "highlight": "contributive"
+            }
+          ]
+        }
+      ],
+      "etymology": "contribute + ive",
+      "synonyms": [
+        {"word": "helpful", "trans": "役立つ"},
+        {"word": "beneficial", "trans": "有益な"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "245-4",
+      "word": "contributory",
+      "pos": "形容詞",
+      "meaning": "（原因として）寄与する、寄付による、拠出制の",
+      "nuance": "要因の一つであることや、年金などが自分で保険料を支払う「拠出制」であることを表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Smoking is a contributory factor in lung disease.",
+              "ja": "喫煙は肺疾患の寄与因子（一因）である。",
+              "highlight": "contributory"
+            }
+          ]
+        }
+      ],
+      "etymology": "contribute + ory",
+      "synonyms": [
+        {"word": "conducive", "trans": "〜を助ける"},
+        {"word": "causal", "trans": "原因となる"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 246,
+      "word": "donation",
+      "pos": "名詞",
+      "meaning": "寄付（金）、提供、臓器提供",
+      "nuance": "慈善や公共のために無償で物やお金、血液などを与えることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Every small donation helps to save animals.",
+              "ja": "どんな小さな寄付も動物を救う助けになります。",
+              "highlight": "donation"
+            },
+            {
+              "en": "The hospital is looking for blood donations.",
+              "ja": "病院は献血（血液提供）を求めている。",
+              "highlight": "donations"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 donare（与える）",
+      "synonyms": [
+        {"word": "gift", "trans": "贈り物"},
+        {"word": "contribution", "trans": "寄付"},
+        {"word": "grant", "trans": "補助金、授与"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "donate", "trans": "動詞：寄付する"},
+        {"word": "donor", "trans": "名詞：寄付者、ドナー"}
+      ]
+    },
+    {
+      "number": "246-2",
+      "word": "donate",
+      "pos": "動詞",
+      "meaning": "〜を寄付する、〜を贈与する、提供する",
+      "nuance": "特に自分の利益を求めず、他者のために無償で差し出す動作です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He donated his old books to the local library.",
+              "ja": "彼は古い本を地元の図書館に寄贈した。",
+              "highlight": "donated"
+            },
+            {
+              "en": "You can donate money online using a credit card.",
+              "ja": "クレジットカードを使ってオンラインで寄付ができる。",
+              "highlight": "donate"
+            }
+          ]
+        }
+      ],
+      "etymology": "donation と同語源",
+      "synonyms": [
+        {"word": "give", "trans": "与える"},
+        {"word": "present", "trans": "贈る"},
+        {"word": "bestow", "trans": "授ける"}
+      ],
+      "antonyms": [
+        {"word": "receive", "trans": "受け取る"},
+        {"word": "take", "trans": "取る"}
+      ],
+      "related": []
+    },
+    {
+      "number": "246-3",
+      "word": "donor",
+      "pos": "名詞",
+      "meaning": "寄付者、提供者、ドナー",
+      "nuance": "お金を出す人だけでなく、輸血用の血液や移植用の臓器を提供する人も指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Anonymous donors gave over $1 million to the fund.",
+              "ja": "匿名の寄付者たちが基金に100万ドル以上を寄付した。",
+              "highlight": "donors"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 donator（与える人）",
+      "synonyms": [
+        {"word": "benefactor", "trans": "後援者、恩人"},
+        {"word": "contributor", "trans": "寄付者"}
+      ],
+      "antonyms": [
+        {"word": "recipient", "trans": "受取人"}
+      ],
+      "related": []
+    },
+    {
+      "number": 247,
+      "word": "endow",
+      "pos": "動詞",
+      "meaning": "（基金などを）寄付する、〜に（才能などを）授ける",
+      "nuance": "大学などに恒久的な資金を贈る（endow a chair）や、神や自然から能力を与えられる（be endowed with...）という文脈で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（寄付する）",
+          "examples": [
+            {
+              "en": "The wealthy businessman endowed a scholarship for local students.",
+              "ja": "その裕福な実業家は、地元の学生のために奨学金を寄付した。",
+              "highlight": "endowed"
+            }
+          ]
+        },
+        {
+          "title": "例文（才能を授ける）",
+          "examples": [
+            {
+              "en": "She is endowed with a beautiful singing voice.",
+              "ja": "彼女は美しい歌声に恵まれている（授けられている）。",
+              "highlight": "endowed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in（中に）+ dotare（持参金を与える）",
+      "synonyms": [
+        {"word": "finance", "trans": "資金を供給する"},
+        {"word": "equip", "trans": "備え付ける"},
+        {"word": "gift", "trans": "授ける"}
+      ],
+      "antonyms": [
+        {"word": "deprive", "trans": "奪う"},
+        {"word": "divest", "trans": "剥ぎ取る"}
+      ],
+      "related": [
+        {"word": "endowment", "trans": "名詞：寄付、天賦の才能"}
+      ]
+    },
+    {
+      "number": "247-2",
+      "word": "endowment",
+      "pos": "名詞",
+      "meaning": "寄付金、基金、天賦の才能",
+      "nuance": "蓄積された寄付金そのものや、人が生まれつき持っている優れた資質を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The university has a large endowment to support research.",
+              "ja": "その大学には研究を支援するための多額の基金がある。",
+              "highlight": "endowment"
+            }
+          ]
+        }
+      ],
+      "etymology": "endow の名詞形",
+      "synonyms": [
+        {"word": "fund", "trans": "基金"},
+        {"word": "talent", "trans": "才能"},
+        {"word": "faculty", "trans": "能力"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 248,
+      "word": "feat",
+      "pos": "名詞",
+      "meaning": "偉業、功績、妙技",
+      "nuance": "並外れた勇気、技術、または強さを必要とする達成された事柄を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The new skyscraper is a remarkable feat of engineering.",
+              "ja": "その新しい超高層ビルは、驚くべき工学的偉業だ。",
+              "highlight": "feat"
+            },
+            {
+              "en": "Climbing Mt. Everest is a great feat of endurance.",
+              "ja": "エベレスト登頂は、忍耐力の素晴らしい証明（功績）である。",
+              "highlight": "feat"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 factum（なされたこと）",
+      "synonyms": [
+        {"word": "achievement", "trans": "達成"},
+        {"word": "accomplishment", "trans": "業績"},
+        {"word": "exploit", "trans": "手柄"}
+      ],
+      "antonyms": [
+        {"word": "failure", "trans": "失敗"}
+      ],
+      "related": []
+    },
+    {
+      "number": 249,
+      "word": "crummy",
+      "pos": "形容詞",
+      "meaning": "ひどい、お粗末な、汚い",
+      "nuance": "スラング的で、質が悪くてがっかりするようなものや、体調や気分がすぐれないことを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I had a crummy day at work.",
+              "ja": "今日は仕事で最悪な一日だった。",
+              "highlight": "crummy"
+            },
+            {
+              "en": "I don't want to stay in this crummy hotel.",
+              "ja": "こんなお粗末なホテルには泊まりたくない。",
+              "highlight": "crummy"
+            }
+          ]
+        }
+      ],
+      "etymology": "crumb（パン屑）から。屑だらけのような、という意味",
+      "synonyms": [
+        {"word": "shabby", "trans": "みすぼらしい"},
+        {"word": "worthless", "trans": "価値のない"},
+        {"word": "awful", "trans": "ひどい"}
+      ],
+      "antonyms": [
+        {"word": "excellent", "trans": "素晴らしい"},
+        {"word": "wonderful", "trans": "見事な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 250,
+      "word": "anyhow",
+      "pos": "副詞",
+      "meaning": "とにかく、いずれにせよ、いい加減に",
+      "nuance": "話の筋を戻すときや、不十分なやり方（雑なやり方）を指すときに使われます。",
+      "example_sections": [
+        {
+          "title": "例文（とにかく）",
+          "examples": [
+            {
+              "en": "It may rain, but I'm going anyhow.",
+              "ja": "雨が降るかもしれないが、とにかく私は行く。",
+              "highlight": "anyhow"
+            }
+          ]
+        },
+        {
+          "title": "例文（いい加減に）",
+          "examples": [
+            {
+              "en": "The books were piled up anyhow on the floor.",
+              "ja": "本が床の上に乱雑に（いい加減に）積み上げられていた。",
+              "highlight": "anyhow"
+            }
+          ]
+        }
+      ],
+      "etymology": "any + how",
+      "synonyms": [
+        {"word": "anyway", "trans": "とにかく"},
+        {"word": "at any rate", "trans": "いずれにせよ"},
+        {"word": "carelessly", "trans": "不注意に"}
+      ],
+      "antonyms": [
+        {"word": "carefully", "trans": "注意深く"},
+        {"word": "orderly", "trans": "秩序立てて"}
+      ],
+      "related": []
+    },
+    {
+      "number": 251,
+      "word": "cardiovascular",
+      "pos": "形容詞",
+      "meaning": "心臓血管の、循環器の",
+      "nuance": "心臓（cardio）と血管（vascular）に関係することを指す医学的な言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Running is excellent for cardiovascular health.",
+              "ja": "ランニングは心血管系の健康に非常に良い。",
+              "highlight": "cardiovascular"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 kardia（心臓）+ ラテン語 vasculum（小さな器、血管）",
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        {"word": "cardiology", "trans": "名詞：心臓病学"}
+      ]
+    },
+    {
+      "number": 252,
+      "word": "tension",
+      "pos": "名詞",
+      "meaning": "緊張、緊迫状態、張力",
+      "nuance": "精神的なストレスによる「緊張」や、糸などがピンと張った「物理的な力」、国際情勢の「緊迫」などを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The tension between the two countries is rising.",
+              "ja": "両国間の緊張が高まっている。",
+              "highlight": "tension"
+            },
+            {
+              "en": "Exercise can help relieve muscle tension.",
+              "ja": "運動は筋肉の緊張を和らげるのに役立つ。",
+              "highlight": "tension"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tendere（伸ばす）",
+      "synonyms": [
+        {"word": "strain", "trans": "緊張、負担"},
+        {"word": "pressure", "trans": "圧力、重圧"},
+        {"word": "stress", "trans": "ストレス"}
+      ],
+      "antonyms": [
+        {"word": "relaxation", "trans": "緩和"},
+        {"word": "ease", "trans": "安楽"}
+      ],
+      "related": [
+        {"word": "tense", "trans": "形容詞：緊張した"}
+      ]
+    },
+    {
+      "number": 253,
+      "word": "strife",
+      "pos": "名詞",
+      "meaning": "闘争、争い、不和",
+      "nuance": "意見の食い違いから生じる激しい対立や、社会的な混乱・紛争を指すフォーマルな言葉です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The country was torn apart by civil strife.",
+              "ja": "その国は内戦（国内の闘争）によって引き裂かれた。",
+              "highlight": "strife"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 estrif（争い）",
+      "synonyms": [
+        {"word": "conflict", "trans": "紛争"},
+        {"word": "dispute", "trans": "論争"},
+        {"word": "friction", "trans": "摩擦"}
+      ],
+      "antonyms": [
+        {"word": "peace", "trans": "平和"},
+        {"word": "harmony", "trans": "調和"}
+      ],
+      "related": [
+        {"word": "strive", "trans": "動詞：努力する、闘う"}
+      ]
+    },
+    {
+      "number": 254,
+      "word": "friction",
+      "pos": "名詞",
+      "meaning": "摩擦、不和、あつれき",
+      "nuance": "物がこすれ合う物理的な「摩擦」と、人間関係における「意見の衝突」の両方を指します。",
+      "example_sections": [
+        {
+          "title": "例文（物理的）",
+          "examples": [
+            {
+              "en": "Friction between the moving parts causes heat.",
+              "ja": "可動部同士の摩擦が熱を発生させる。",
+              "highlight": "Friction"
+            }
+          ]
+        },
+        {
+          "title": "例文（人間関係）",
+          "examples": [
+            {
+              "en": "There is constant friction between the two departments.",
+              "ja": "その二つの部署の間には絶えずあつれきがある。",
+              "highlight": "friction"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 fricare（こする）",
+      "synonyms": [
+        {"word": "rubbing", "trans": "こすること"},
+        {"word": "resistance", "trans": "抵抗"},
+        {"word": "discord", "trans": "不一致"}
+      ],
+      "antonyms": [
+        {"word": "agreement", "trans": "合意"},
+        {"word": "lubrication", "trans": "潤滑"}
+      ],
+      "related": []
+    },
+    {
+      "number": 255,
+      "word": "aside",
+      "pos": "副詞、名詞",
+      "meaning": "わきに、離れて、わきへのセリフ、余談",
+      "nuance": "物理的に横へどける動作や、メインの話題から逸れることを表します。",
+      "example_sections": [
+        {
+          "title": "例文（副詞）",
+          "examples": [
+            {
+              "en": "He stepped aside to let her pass.",
+              "ja": "彼は彼女を通らせるためにわきへ寄った。",
+              "highlight": "aside"
+            },
+            {
+              "en": "Joking aside, we need to talk about money.",
+              "ja": "冗談はさておき、お金の話をする必要がある。",
+              "highlight": "aside"
+            }
+          ]
+        }
+      ],
+      "etymology": "a（〜の方向に）+ side（側）",
+      "synonyms": [
+        {"word": "apart", "trans": "離れて"},
+        {"word": "away", "trans": "離れて"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "set aside", "trans": "取っておく、無視する"}
+      ]
+    },
+    {
+      "number": 256,
+      "word": "aloof",
+      "pos": "形容詞",
+      "meaning": "よそよそしい、冷淡な、離れて",
+      "nuance": "他人に関心を持たず、あえて距離を置いている様子を指します。傲慢なニュアンスを含むこともあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He remained aloof from the political debate.",
+              "ja": "彼は政治的な討論から距離を置いていた（よそよそしくしていた）。",
+              "highlight": "aloof"
+            },
+            {
+              "en": "Her aloof manner made people think she was arrogant.",
+              "ja": "彼女のよそよそしい態度は、人々に彼女が傲慢だと思わせた。",
+              "highlight": "aloof"
+            }
+          ]
+        }
+      ],
+      "etymology": "a（〜の方向に）+ loof（船の風上側）→ 風上に逃げる",
+      "synonyms": [
+        {"word": "distant", "trans": "遠い、冷ややかな"},
+        {"word": "detached", "trans": "切り離された、客観的な"},
+        {"word": "indifferent", "trans": "無関心な"}
+      ],
+      "antonyms": [
+        {"word": "friendly", "trans": "親しみやすい"},
+        {"word": "sociable", "trans": "社交的な"}
+      ],
+      "related": []
+    },
+    {
+      "number": 257,
+      "word": "tool",
+      "pos": "名詞",
+      "meaning": "道具、工具、手段、手先（比喩）",
+      "nuance": "手で使う道具から、目的を達成するためのソフトウェアや「手段」まで広く指します。人を「利用される手先」と呼ぶ蔑称にもなります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Computers are essential tools for modern business.",
+              "ja": "コンピュータは現代のビジネスにおいて不可欠な道具だ。",
+              "highlight": "tools"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 tol（道具）",
+      "synonyms": [
+        {"word": "instrument", "trans": "器具、楽器"},
+        {"word": "implement", "trans": "道具、備品"},
+        {"word": "device", "trans": "装置"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 258,
+      "word": "apparatus",
+      "pos": "名詞",
+      "meaning": "装置、器具一式、機構、組織",
+      "nuance": "toolよりも複雑で、特定の目的（実験や手術など）のために組み合わされた機械設備や、政府などの組織構造を指します。",
+      "example_sections": [
+        {
+          "title": "例文（装置）",
+          "examples": [
+            {
+              "en": "The divers had breathing apparatus for their deep-sea mission.",
+              "ja": "ダイバーたちは深海任務のために呼吸装置（一式）を備えていた。",
+              "highlight": "apparatus"
+            }
+          ]
+        },
+        {
+          "title": "例文（組織）",
+          "examples": [
+            {
+              "en": "The whole state apparatus was used to suppress the protest.",
+              "ja": "抗議活動を抑え込むために、国家機構のすべてが動員された。",
+              "highlight": "apparatus"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad（〜へ）+ parare（準備する）",
+      "synonyms": [
+        {"word": "equipment", "trans": "設備"},
+        {"word": "machinery", "trans": "機械、組織"},
+        {"word": "system", "trans": "体系"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 259,
+      "word": "measurably",
+      "pos": "副詞",
+      "meaning": "目に見えて、かなり、測定できるほどに",
+      "nuance": "単に「測定可能」なだけでなく、変化がはっきりと分かるほど大きいことを強調します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The situation has improved measurably since last month.",
+              "ja": "状況は先月から目に見えて改善した。",
+              "highlight": "measurably"
+            }
+          ]
+        }
+      ],
+      "etymology": "measure（測る）+ able + ly",
+      "synonyms": [
+        {"word": "noticeably", "trans": "著しく"},
+        {"word": "significantly", "trans": "かなり"},
+        {"word": "perceptibly", "trans": "知覚できるほどに"}
+      ],
+      "antonyms": [
+        {"word": "imperceptibly", "trans": "気づかないほどに"}
+      ],
+      "related": [
+        {"word": "measure", "trans": "動詞：測る、名詞：対策"}
+      ]
+    },
+    {
+      "number": "259-2",
+      "word": "measurable",
+      "pos": "形容詞",
+      "meaning": "測定できる、目に見えるほどの",
+      "nuance": "数値化できること、または無視できない程度の大きさがあることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The experiment yielded measurable results.",
+              "ja": "その実験は測定可能な結果をもたらした。",
+              "highlight": "measurable"
+            }
+          ]
+        }
+      ],
+      "etymology": "measure + able",
+      "synonyms": [
+        {"word": "quantifiable", "trans": "数値化できる"},
+        {"word": "visible", "trans": "目に見える"}
+      ],
+      "antonyms": [
+        {"word": "immeasurable", "trans": "計り知れない"}
+      ],
+      "related": []
+    },
+    {
+      "number": 260,
+      "word": "comparative",
+      "pos": "形容詞、名詞",
+      "meaning": "比較の、相対的な、比較級",
+      "nuance": "他と比較した上での状態を指します。「比較的（他のものと比べて）」という意味でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They live in comparative luxury.",
+              "ja": "彼らは（他と比べれば）比較的贅沢に暮らしている。",
+              "highlight": "comparative"
+            },
+            {
+              "en": "We are conducting a comparative study of the two cultures.",
+              "ja": "私たちは二つの文化の比較研究を行っている。",
+              "highlight": "comparative"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 com（共に）+ par（等しい）",
+      "synonyms": [
+        {"word": "relative", "trans": "相対的な"},
+        {"word": "proportional", "trans": "比例した"}
+      ],
+      "antonyms": [
+        {"word": "absolute", "trans": "絶対的な"}
+      ],
+      "related": [
+        {"word": "compare", "trans": "動詞：比較する"},
+        {"word": "comparison", "trans": "名詞：比較"}
+      ]
+    },
+    {
+      "number": "260-2",
+      "word": "comparatively",
+      "pos": "副詞",
+      "meaning": "比較的、わりあいに",
+      "nuance": "他と比較して、ある程度そうだという場合に用います。relativelyとほぼ同義です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The exam was comparatively easy this year.",
+              "ja": "今年の試験は比較的簡単だった。",
+              "highlight": "comparatively"
+            }
+          ]
+        }
+      ],
+      "etymology": "comparative + ly",
+      "synonyms": [
+        {"word": "relatively", "trans": "比較的"},
+        {"word": "moderately", "trans": "適度に"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "260-3",
+      "word": "decent",
+      "pos": "形容詞",
+      "meaning": "（質・量が）まずまずの、ちゃんとした、礼儀正しい",
+      "nuance": "最高ではないが、社会基準や期待を十分に満たしている「まともな」状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Everyone deserves a decent place to live.",
+              "ja": "誰もがまともな（ちゃんとした）住居に住む権利がある。",
+              "highlight": "decent"
+            },
+            {
+              "en": "He’s a very decent man.",
+              "ja": "彼はとても礼儀正しい（まともな）人物だ。",
+              "highlight": "decent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 decere（ふさわしい）",
+      "synonyms": [
+        {"word": "respectable", "trans": "立派な、ちゃんとした"},
+        {"word": "adequate", "trans": "十分な"},
+        {"word": "proper", "trans": "適切な"}
+      ],
+      "antonyms": [
+        {"word": "indecent", "trans": "下品な、不適切な"},
+        {"word": "poor", "trans": "ひどい、劣った"}
+      ],
+      "related": [
+        {"word": "decency", "trans": "名詞：良識、礼儀"}
+      ]
+    },
+    {
+      "number": "260-4",
+      "word": "significant",
+      "pos": "形容詞",
+      "meaning": "重要な、かなりの、意味深な、統計的に有意な",
+      "nuance": "影響力がある「重要さ」と、はっきり分かる「量・大きさ」の両方の意味で多用される強力な単語です。",
+      "example_sections": [
+        {
+          "title": "例文（重要な・かなりの）",
+          "examples": [
+            {
+              "en": "There has been a significant increase in sales.",
+              "ja": "売上が大幅に（かなりの程度）増加した。",
+              "highlight": "significant"
+            },
+            {
+              "en": "The results of the study are highly significant.",
+              "ja": "その研究の結果は極めて重要である。",
+              "highlight": "significant"
+            }
+          ]
+        },
+        {
+          "title": "例文（意味深な）",
+          "examples": [
+            {
+              "en": "She gave him a significant look.",
+              "ja": "彼女は彼に意味ありげな（意味深な）視線を送った。",
+              "highlight": "significant"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 signum（印）+ facere（作る）→ 印を付けるほど目立つ",
+      "synonyms": [
+        {"word": "important", "trans": "重要な"},
+        {"word": "substantial", "trans": "実質的な、かなりの"},
+        {"word": "meaningful", "trans": "意味のある"}
+      ],
+      "antonyms": [
+        {"word": "insignificant", "trans": "些細な"},
+        {"word": "trivial", "trans": "取るに足らない"}
+      ],
+      "related": [
+        {"word": "significance", "trans": "名詞：重要性、意味"},
+        {"word": "signify", "trans": "動詞：示す、意味する"}
+      ]
+    },
+    {
+      "number": 261,
+      "word": "control group",
+      "pos": "名詞",
+      "meaning": "対照群、比較対照グループ",
+      "nuance": "実験において、実験的処置を与えない比較用のグループを指します。効果を客観的に測るために不可欠です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The experimental group received the new drug, while the control group received a placebo.",
+              "ja": "実験群には新薬が投与され、一方、対照群にはプラセボ（偽薬）が投与された。",
+              "highlight": "control group"
+            }
+          ]
+        }
+      ],
+      "etymology": "control（制御）+ group（群）",
+      "synonyms": [
+        {"word": "comparison group", "trans": "比較群"}
+      ],
+      "antonyms": [
+        {"word": "experimental group", "trans": "実験群"},
+        {"word": "treatment group", "trans": "処置群"}
+      ],
+      "related": []
+    },
+    {
+      "number": 262,
+      "word": "horror",
+      "pos": "名詞",
+      "meaning": "恐怖、強い嫌悪、ホラー",
+      "nuance": "単なる怖さ（fear）よりも強く、ゾッとするような不快感や衝撃を伴う恐怖を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She watched in horror as the building collapsed.",
+              "ja": "彼女は建物が崩壊するのを、恐怖に震えながら（恐怖の中で）見ていた。",
+              "highlight": "horror"
+            },
+            {
+              "en": "The news of the massacre was filled with horror.",
+              "ja": "その虐殺のニュースは、戦慄（恐怖）に満ちたものだった。",
+              "highlight": "horror"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 horrere（身の毛がよだつ）",
+      "synonyms": [
+        {"word": "terror", "trans": "恐怖"},
+        {"word": "dread", "trans": "不安、恐怖"},
+        {"word": "revulsion", "trans": "強い嫌悪"}
+      ],
+      "antonyms": [
+        {"word": "delight", "trans": "歓喜"},
+        {"word": "comfort", "trans": "安らぎ"}
+      ],
+      "related": [
+        {"word": "horrify", "trans": "動詞：怖がらせる"},
+        {"word": "horrible", "trans": "形容詞：恐ろしい"}
+      ]
+    },
+    {
+      "number": 263,
+      "word": "fright",
+      "pos": "名詞",
+      "meaning": "（一時的な）恐怖、驚き",
+      "nuance": "突然の出来事によって「びくっとする」ような、急激で一時的な恐怖を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The loud noise gave me a real fright.",
+              "ja": "その大きな音に本当にびっくりした。",
+              "highlight": "fright"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 fyrhto（恐怖）",
+      "synonyms": [
+        {"word": "scare", "trans": "驚き"},
+        {"word": "shock", "trans": "衝撃"},
+        {"word": "alarm", "trans": "驚き、警報"}
+      ],
+      "antonyms": [
+        {"word": "calmness", "trans": "冷静"},
+        {"word": "bravery", "trans": "勇敢"}
+      ],
+      "related": [
+        {"word": "frighten", "trans": "動詞：怖がらせる"},
+        {"word": "frightened", "trans": "形容詞：怯えた"}
+      ]
+    },
+    {
+      "number": 264,
+      "word": "quantum",
+      "pos": "名詞、形容詞",
+      "meaning": "量子、画期的な（飛躍的な）量",
+      "nuance": "物理学の「量子」という意味に加え、「飛躍的な（quantum leap）」という文脈でビジネスや技術革新にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（物理学）",
+          "examples": [
+            {
+              "en": "Quantum mechanics describes the behavior of matter at the atomic level.",
+              "ja": "量子力学は原子レベルでの物質の振る舞いを記述する。",
+              "highlight": "Quantum"
+            }
+          ]
+        },
+        {
+          "title": "例文（飛躍的）",
+          "examples": [
+            {
+              "en": "The invention of the internet was a quantum leap in communication.",
+              "ja": "インターネットの発明は、通信における飛躍的な進歩（量子跳躍）であった。",
+              "highlight": "quantum"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 quantus（どれほどの大きさか）",
+      "synonyms": [
+        {"word": "amount", "trans": "量"},
+        {"word": "portion", "trans": "部分"},
+        {"word": "significant", "trans": "重大な"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "264-2",
+      "word": "bulk",
+      "pos": "名詞、形容詞、動詞",
+      "meaning": "大部分、かさ、巨体、大量の、〜を大きくする",
+      "nuance": "個別の数ではなく「まとまった量や大きさ」に焦点を当てた言葉です。",
+      "example_sections": [
+        {
+          "title": "例文（大部分）",
+          "examples": [
+            {
+              "en": "The bulk of the work has already been finished.",
+              "ja": "仕事の大部分はすでに終わっている。",
+              "highlight": "bulk"
+            }
+          ]
+        },
+        {
+          "title": "例文（大量購入）",
+          "examples": [
+            {
+              "en": "It is often cheaper to buy things in bulk.",
+              "ja": "物をまとめて（大量に）買う方が安いことが多い。",
+              "highlight": "bulk"
+            }
+          ]
+        }
+      ],
+      "etymology": "北欧語由来（ふくらみ、荷物）",
+      "synonyms": [
+        {"word": "majority", "trans": "大多数"},
+        {"word": "mass", "trans": "塊、集団"},
+        {"word": "volume", "trans": "容積、量"}
+      ],
+      "antonyms": [
+        {"word": "minority", "trans": "少数"},
+        {"word": "handful", "trans": "一握り"}
+      ],
+      "related": [
+        {"word": "bulk up", "trans": "動詞：体を大きくする"}
+      ]
+    },
+    {
+      "number": "264-3",
+      "word": "bulky",
+      "pos": "形容詞",
+      "meaning": "かさばった、大きくて扱いにくい",
+      "nuance": "重さよりも、サイズが大きくて場所を取る、あるいは持ち運びにくいニュアンスです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Bulky items like winter coats are difficult to pack.",
+              "ja": "冬物コートのようなかさばる荷物はパッキングが難しい。",
+              "highlight": "Bulky"
+            }
+          ]
+        }
+      ],
+      "etymology": "bulk + y",
+      "synonyms": [
+        {"word": "cumbersome", "trans": "厄介な、かさばる"},
+        {"word": "unwieldy", "trans": "扱いにくい"},
+        {"word": "large", "trans": "大きい"}
+      ],
+      "antonyms": [
+        {"word": "compact", "trans": "コンパクトな"},
+        {"word": "slim", "trans": "細い、薄い"}
+      ],
+      "related": []
+    },
+    {
+      "number": 265,
+      "word": "brainstorming",
+      "pos": "名詞",
+      "meaning": "ブレインストーミング、自由なアイデア出し",
+      "nuance": "批判を控え、質より量を重視して自由奔放にアイデアを出し合う手法です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Let's have a brainstorming session to solve this problem.",
+              "ja": "この問題を解決するために、ブレインストーミングの場を持とう。",
+              "highlight": "brainstorming"
+            }
+          ]
+        }
+      ],
+      "etymology": "brain（脳）+ storm（嵐）",
+      "synonyms": [
+        {"word": "idea generation", "trans": "アイデア創出"},
+        {"word": "creative thinking", "trans": "創造的思考"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "brainstorm", "trans": "動詞：ブレストする"}
+      ]
+    },
+    {
+      "number": "265-2",
+      "word": "brainstorm",
+      "pos": "動詞、名詞",
+      "meaning": "アイデアを出し合う、突然の妙案",
+      "nuance": "複数で案を出す動作のほか、一人で考えている時にパッと浮かぶ「ひらめき」も指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We need to brainstorm some new marketing strategies.",
+              "ja": "新しいマーケティング戦略について、いくつか知恵を出し合う必要がある。",
+              "highlight": "brainstorm"
+            }
+          ]
+        }
+      ],
+      "etymology": "brainstorming と同語源",
+      "synonyms": [
+        {"word": "conceptualize", "trans": "概念化する"},
+        {"word": "deliberate", "trans": "熟考する（ややニュアンスは異なる）"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 266,
+      "word": "caption",
+      "pos": "名詞、動詞",
+      "meaning": "説明文、見出し、字幕、〜に説明を付ける",
+      "nuance": "写真や図解に添えられる短い説明や、映画の字幕（特に聴覚障害者向けのもの）を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The photograph was published with a funny caption.",
+              "ja": "その写真は面白いキャプション（説明文）付きで掲載された。",
+              "highlight": "caption"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 captio（捕らえること）→ 理解の手がかりとして捕らえるもの",
+      "synonyms": [
+        {"word": "heading", "trans": "見出し"},
+        {"word": "subtitle", "trans": "字幕"},
+        {"word": "explanation", "trans": "説明"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 267,
+      "word": "captivate",
+      "pos": "動詞",
+      "meaning": "〜を魅了する、心を奪う",
+      "nuance": "魅力によって人の注意や心を強く引きつけ、夢中にさせることを指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Her beautiful singing voice captivated the entire audience.",
+              "ja": "彼女の美しい歌声は、観客全員を魅了した。",
+              "highlight": "captivated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 captivus（捕らえられた）→ 心を捕らえる",
+      "synonyms": [
+        {"word": "enchant", "trans": "魔法にかける、魅了する"},
+        {"word": "fascinate", "trans": "魅了する"},
+        {"word": "charm", "trans": "魅了する"}
+      ],
+      "antonyms": [
+        {"word": "repel", "trans": "不快にする、追い払う"},
+        {"word": "disgust", "trans": "嫌悪させる"}
+      ],
+      "related": [
+        {"word": "captivating", "trans": "形容詞：魅力的な"}
+      ]
+    },
+    {
+      "number": "267-2",
+      "word": "captive",
+      "pos": "名詞、形容詞",
+      "meaning": "捕虜、囚われの身、閉じ込められた、心を奪われた",
+      "nuance": "物理的に逃げられない状態（捕虜）や、比喩的に特定の状況から逃れられない状態（captive audience：逃げ場のない聴衆）を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Animals kept in zoos are in a captive state.",
+              "ja": "動物園で飼われている動物たちは、囚われの（飼育下にある）状態だ。",
+              "highlight": "captive"
+            }
+          ]
+        }
+      ],
+      "etymology": "captivate と同語源",
+      "synonyms": [
+        {"word": "prisoner", "trans": "囚人"},
+        {"word": "hostage", "trans": "人質"},
+        {"word": "confined", "trans": "閉じ込められた"}
+      ],
+      "antonyms": [
+        {"word": "free", "trans": "自由な"},
+        {"word": "independent", "trans": "独立した"}
+      ],
+      "related": []
+    },
+    {
+      "number": "267-3",
+      "word": "captivity",
+      "pos": "名詞",
+      "meaning": "捕らわれの身、飼育状態",
+      "nuance": "野生ではなく、囲いの中で管理されている状態を指すことが多く、特に動物に対してよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Tigers born in captivity often cannot survive in the wild.",
+              "ja": "飼育下で生まれたトラは、野生では生き残れないことが多い。",
+              "highlight": "captivity"
+            }
+          ]
+        }
+      ],
+      "etymology": "captive + ity",
+      "synonyms": [
+        {"word": "imprisonment", "trans": "投獄"},
+        {"word": "confinement", "trans": "監禁"}
+      ],
+      "antonyms": [
+        {"word": "freedom", "trans": "自由"},
+        {"word": "liberty", "trans": "解放"}
+      ],
+      "related": []
+    },
+    {
+      "number": 268,
+      "word": "vessel",
+      "pos": "名詞",
+      "meaning": "（大型の）船、容器、血管",
+      "nuance": "液体などを入れる「器」という根本的な意味から、人を運ぶ「船」、血を運ぶ「管」へと意味が広がっています。",
+      "example_sections": [
+        {
+          "title": "例文（船）",
+          "examples": [
+            {
+              "en": "The harbor was filled with fishing vessels.",
+              "ja": "港は漁船（大型の船）でいっぱいだった。",
+              "highlight": "vessels"
+            }
+          ]
+        },
+        {
+          "title": "例文（血管）",
+          "examples": [
+            {
+              "en": "Blood vessels carry nutrients to every part of the body.",
+              "ja": "血管は体のあらゆる部分へ栄養を運ぶ。",
+              "highlight": "vessels"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vas（器）",
+      "synonyms": [
+        {"word": "ship", "trans": "船"},
+        {"word": "container", "trans": "容器"},
+        {"word": "tube", "trans": "管"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "blood vessel", "trans": "血管"}
+      ]
+    },
+    {
+      "number": "268-2",
+      "word": "artery",
+      "pos": "名詞",
+      "meaning": "動脈、幹線道路",
+      "nuance": "心臓から血液を送り出す管、あるいは都市の交通を支える主要な道路を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The main artery leads directly to the heart of the city.",
+              "ja": "主要幹線道路は、街の中心部へ直接通じている。",
+              "highlight": "artery"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 arteria（気管、動脈）",
+      "synonyms": [
+        {"word": "main channel", "trans": "主要経路"},
+        {"word": "highway", "trans": "幹線道路"}
+      ],
+      "antonyms": [
+        {"word": "vein", "trans": "静脈"}
+      ],
+      "related": []
+    },
+    {
+      "number": "268-3",
+      "word": "vein",
+      "pos": "名詞",
+      "meaning": "静脈、葉脈、鉱脈、気質（作風）",
+      "nuance": "心臓へ戻る血液の管や、葉や石の中の細い筋を指します。また「〜の傾向・気風」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（解剖学）",
+          "examples": [
+            {
+              "en": "You can see the blue veins through the thin skin.",
+              "ja": "薄い皮膚を通して青い静脈が見える。",
+              "highlight": "veins"
+            }
+          ]
+        },
+        {
+          "title": "例文（気質）",
+          "examples": [
+            {
+              "en": "He continued the conversation in a lighter vein.",
+              "ja": "彼は少し軽い調子（気風）で会話を続けた。",
+              "highlight": "vein"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vena（血管、水路）",
+      "synonyms": [
+        {"word": "blood vessel", "trans": "血管"},
+        {"word": "streak", "trans": "筋、傾向"},
+        {"word": "mood", "trans": "気分、調子"}
+      ],
+      "antonyms": [
+        {"word": "artery", "trans": "動脈"}
+      ],
+      "related": []
+    },
+    {
+      "number": 269,
+      "word": "tract",
+      "pos": "名詞",
+      "meaning": "（体内などの）道、管、広大な土地、小冊子",
+      "nuance": "「器官系（消化管など）」や「広々とした土地」を指します。また宗教的な宣伝用の「パンフレット」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文（体内）",
+          "examples": [
+            {
+              "en": "The digestive tract is responsible for breaking down food.",
+              "ja": "消化管は食物を分解する役割を担っている。",
+              "highlight": "tract"
+            }
+          ]
+        },
+        {
+          "title": "例文（土地）",
+          "examples": [
+            {
+              "en": "Large tracts of forest are being cleared for farming.",
+              "ja": "広大な土地の森林が農業のために切り開かれている。",
+              "highlight": "tracts"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 trahere（引く、延ばす）",
+      "synonyms": [
+        {"word": "area", "trans": "地域"},
+        {"word": "system", "trans": "系"},
+        {"word": "pamphlet", "trans": "小冊子"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 270,
+      "word": "liver",
+      "pos": "名詞",
+      "meaning": "肝臓、レバー",
+      "nuance": "解毒や代謝を司る体内の主要な臓器、あるいは食用としての内臓を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Excessive alcohol consumption can damage the liver.",
+              "ja": "過度のアルコール摂取は肝臓を傷つける可能性がある。",
+              "highlight": "liver"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 lifer",
+      "synonyms": [],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "270-2",
+      "word": "kidney",
+      "pos": "名詞",
+      "meaning": "腎臓",
+      "nuance": "血液から老廃物を濾過し、尿を作る臓器です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Humans are born with two kidneys, but can survive with only one.",
+              "ja": "人間は2つの腎臓を持って生まれるが、1つだけでも生きることができる。",
+              "highlight": "kidneys"
+            }
+          ]
+        }
+      ],
+      "etymology": "中英語 kidnere",
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        {"word": "kidney stone", "trans": "腎臓結石"}
+      ]
+    },
+    {
+      "number": "270-3",
+      "word": "lung",
+      "pos": "名詞",
+      "meaning": "肺",
+      "nuance": "呼吸によって酸素を取り込み、二酸化炭素を排出する臓器です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Smoking is the leading cause of lung cancer.",
+              "ja": "喫煙は肺がんの主な原因である。",
+              "highlight": "lung"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 lungen（軽いもの）※肺は水に浮くため",
+      "synonyms": [],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "270-4",
+      "word": "trachea",
+      "pos": "名詞",
+      "meaning": "気管",
+      "nuance": "喉から肺へと空気を送る管を指す医学的な用語です（windpipeとも）。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The trachea is held open by rings of cartilage.",
+              "ja": "気管は軟骨の輪によって開いた状態に保たれている。",
+              "highlight": "trachea"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 trakheia（荒い管）",
+      "synonyms": [
+        {"word": "windpipe", "trans": "気管"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "270-5",
+      "word": "gullet",
+      "pos": "名詞",
+      "meaning": "食道、のど",
+      "nuance": "食べ物を胃に送る管を指します（oesophagusよりも日常的・動物的な響き）。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The fish struggled to swallow the large bait down its gullet.",
+              "ja": "その魚は大きな餌を食道へと飲み込もうと苦労した。",
+              "highlight": "gullet"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 gula（のど）",
+      "synonyms": [
+        {"word": "esophagus", "trans": "食道"},
+        {"word": "throat", "trans": "のど"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "270-6",
+      "word": "duodenum",
+      "pos": "名詞",
+      "meaning": "十二指腸",
+      "nuance": "胃と小腸を繋ぐ、小腸の最初の部分です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The duodenum is where most chemical digestion begins.",
+              "ja": "十二指腸は、ほとんどの化学的な消化が始まる場所である。",
+              "highlight": "duodenum"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 duodecim（12）→ 指12本分の長さという意味",
+      "synonyms": [],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": "270-7",
+      "word": "intestine",
+      "pos": "名詞",
+      "meaning": "腸",
+      "nuance": "消化と吸収を行う管。small intestine（小腸）とlarge intestine（大腸）に分かれます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The nutrient absorption mainly takes place in the small intestine.",
+              "ja": "栄養の吸収は主に小腸で行われる。",
+              "highlight": "intestine"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 intus（内部の）",
+      "synonyms": [
+        {"word": "gut", "trans": "腸"},
+        {"word": "bowel", "trans": "腸"}
+      ],
+      "antonyms": [],
+      "related": []
+    },
+    {
+      "number": 271,
+      "word": "abdominal",
+      "pos": "形容詞",
+      "meaning": "腹部の",
+      "nuance": "腹部（abdomen）に関する筋肉や痛みなどを表す際によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He suffered from severe abdominal pain after dinner.",
+              "ja": "彼は夕食後にひどい腹痛に襲われた。",
+              "highlight": "abdominal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 abdomen（腹部）",
+      "synonyms": [
+        {"word": "ventral", "trans": "腹側の"},
+        {"word": "gastric", "trans": "胃の"}
+      ],
+      "antonyms": [
+        {"word": "dorsal", "trans": "背側の"}
+      ],
+      "related": [
+        {"word": "abdomen", "trans": "名詞：腹部"}
+      ]
+    },
+    {
+      "number": "271-2",
+      "word": "anatomy",
+      "pos": "名詞",
+      "meaning": "解剖学、構造、詳細な分析",
+      "nuance": "生物の体の構造を研究する学問ですが、事件などの「詳細な分析・解剖」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（学問）",
+          "examples": [
+            {
+              "en": "Medical students must study human anatomy in their first year.",
+              "ja": "医学生は1年次に人体の解剖学を学ばなければならない。",
+              "highlight": "anatomy"
+            }
+          ]
+        },
+        {
+          "title": "例文（分析）",
+          "examples": [
+            {
+              "en": "The book provides a brilliant anatomy of the financial crisis.",
+              "ja": "その本は金融危機の見事な分析（解剖）を提示している。",
+              "highlight": "anatomy"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 ana（離して）+ temnein（切る）→ 切り離して調べること",
+      "synonyms": [
+        {"word": "structure", "trans": "構造"},
+        {"word": "framework", "trans": "枠組み"},
+        {"word": "analysis", "trans": "分析"}
+      ],
+      "antonyms": [],
+      "related": [
+        {"word": "anatomical", "trans": "形容詞：解剖学的な"}
+      ]
+    }
+  ]
+}
