@@ -4,9 +4,10 @@ from pathlib import Path
 from glob import glob
 from collections import defaultdict
 
-# パス設定
-BASE_DIR = Path("english_dictionary")
-CONFIG_PATH = Path("config.py")
+# パス設定（スクリプトの場所基準にする）
+SCRIPT_DIR = Path(__file__).resolve().parent
+BASE_DIR = SCRIPT_DIR
+CONFIG_PATH = SCRIPT_DIR / "config.py"
 
 def update_config():
     # 1. CHAPTER_MAPの読み込み
@@ -42,7 +43,9 @@ def update_config():
         new_lines.append(line)
 
     # 末尾に新しいデータを追記
-    if not new_lines[-1].strip() == "": new_lines.append("\n")
+    if not new_lines[-1].strip() == "":
+        new_lines.append("\n")
+
     new_lines.append("CHAPTER_WORD_COUNT = {\n")
     for ch_id in thresholds:
         c = counts.get(ch_id, 0)
@@ -52,6 +55,7 @@ def update_config():
 
     with open(CONFIG_PATH, "w", encoding="utf-8") as f:
         f.writelines(new_lines)
+
     print("✓ config.py has been updated with word counts.")
 
 if __name__ == "__main__":
