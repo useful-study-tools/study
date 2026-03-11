@@ -47,47 +47,110 @@ def generate_html():
     html_template = """<!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>英単語演習</title>
-<style>
-body { font-family: sans-serif; background:#f4f7f9; margin:0; padding:20px; }
-.container { max-width:800px; margin:auto; }
-.chapter-container { max-height:300px; overflow:auto; border:1px solid #ccc; padding:10px; border-radius:8px; background:white; }
-.chapter-group-title { font-weight:bold; margin-top:10px; }
-.chapter-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:4px; }
-.card { border:2px solid #007bff; padding:40px; border-radius:10px; text-align:center; font-size:2rem; background:white; cursor:pointer; }
-.option-btn { display:block; width:100%; padding:12px; margin:6px 0; border:1px solid #ccc; border-radius:6px; background:white; cursor:pointer; }
-.option-btn:hover { background: #f0f0f0; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英単語演習</title>
+    <link rel="icon" href="../image/logo.png">
+    <style>
+        :root {{ --primary: #007bff; --success: #28a745; --danger: #dc3545; --bg: #f4f7f9; --text: #333; }}
+        body {{ font-family: 'Helvetica Neue', Arial, sans-serif; background: var(--bg); margin: 0; padding: 20px; color: var(--text); display: flex; flex-direction: column; align-items: center; }}
+        .container {{ width: 100%; max-width: 800px; }}
+        
+        .header {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #eee; padding-bottom: 15px; }}
+        h1 {{ margin: 0; font-size: 1.5rem; color: var(--primary); }}
+        .home-link {{ text-decoration: none; color: #666; font-size: 0.9rem; font-weight: bold; padding: 8px 12px; border-radius: 6px; background: #eee; transition: 0.2s; }}
+        .home-link:hover {{ background: #ddd; color: #333; }}
+
+        .setup-section, .quiz-section {{ display: none; }}
+        .active {{ display: block; }}
+        
+        .chapter-container {{ max-height: 300px; overflow-y: auto; border: 1px solid #ddd; padding: 12px; border-radius: 8px; background: #fafafa; margin-bottom: 10px; }}
+        .chapter-group-title {{ font-size: 0.85rem; font-weight: bold; color: #555; background: #e9ecef; padding: 6px 12px; margin: 12px 0 6px 0; border-radius: 4px; border-left: 4px solid var(--primary); }}
+        .chapter-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px; padding: 0 5px; }}
+        .chapter-item {{ font-size: 0.85rem; display: flex; align-items: center; cursor: pointer; }}
+        .chapter-item input {{ margin-right: 10px; }}
+        
+        .option-group {{ margin-bottom: 25px; }}
+        label.group-label {{ display: block; font-weight: bold; margin-bottom: 10px; font-size: 1rem; color: #444; }}
+        
+        .btn {{ background: var(--primary); color: white; border: none; padding: 14px 20px; border-radius: 8px; cursor: pointer; width: 100%; font-size: 1rem; font-weight: bold; transition: 0.3s; margin-top: 10px; }}
+        .btn:hover {{ opacity: 0.9; transform: translateY(-1px); }}
+        .btn:disabled {{ background: #ccc; cursor: wait; transform: none; }}
+        
+        .progress {{ font-size: 0.9rem; color: #777; margin-bottom: 15px; text-align: center; background: #eee; padding: 5px; border-radius: 20px; }}
+        .card {{ border: 2px solid var(--primary); padding: 50px 20px; border-radius: 15px; text-align: center; min-height: 140px; display: flex; align-items: center; justify-content: center; font-size: 2.2rem; font-weight: bold; background: white; cursor: pointer; transition: 0.2s; box-shadow: 0 4px 12px rgba(0,123,255,0.1); }}
+        .card.flipped {{ border-color: var(--success); color: var(--success); box-shadow: 0 4px 12px rgba(40,167,69,0.1); }}
+        
+        .nav-controls {{ display: flex; justify-content: space-between; gap: 12px; margin-top: 20px; }}
+        .nav-btn {{ flex: 1; padding: 12px; border: 1px solid #ccc; border-radius: 8px; cursor: pointer; background: #fff; font-weight: bold; transition: 0.2s; }}
+        .nav-btn:hover:not(:disabled) {{ background: #f0f0f0; }}
+        .nav-btn:disabled {{ opacity: 0.3; cursor: not-allowed; }}
+
+        .options-grid {{ display: grid; grid-template-columns: 1fr; gap: 10px; margin-top: 20px; }}
+        .option-btn {{ background: white; border: 2px solid #eee; padding: 16px; border-radius: 10px; cursor: pointer; font-size: 1.1rem; text-align: left; transition: 0.2s; }}
+        .option-btn:hover {{ border-color: var(--primary); background: #f8fbff; }}
+
+        .fill-blank-area {{ text-align: left; background: #fff; padding: 25px; border-radius: 12px; margin: 20px 0; border: 2px solid #eee; }}
+        .sentence-ja {{ font-size: 0.95rem; color: #666; margin-bottom: 15px; border-left: 3px solid #ccc; padding-left: 10px; }}
+        .sentence-en {{ font-size: 1.3rem; font-weight: 500; line-height: 1.8; }}
+        .blank-input {{ border: none; border-bottom: 2px solid var(--primary); outline: none; background: transparent; font-size: 1.3rem; text-align: center; color: var(--primary); width: 160px; padding: 0 5px; font-family: inherit; }}
+        .blank-input.correct {{ color: var(--success); border-color: var(--success); }}
+        .blank-input.wrong {{ color: var(--danger); border-color: var(--danger); }}
+        .feedback {{ margin-top: 15px; font-weight: bold; font-size: 1.1rem; min-height: 1.5em; text-align: center; }}
+        .header-top {{ width: 100%; display: flex; justify-content: flex-start; margin-bottom: 15px; }}
+        .btn-home {{ display: inline-block; margin-bottom: 20px; padding: 8px 18px; background-color: #6c757d; color: white !important; text-decoration: none; border-radius: 20px; font-weight: bold; font-size: 0.85rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: 0.3s; }}
+        .btn-home:hover {{ background-color: #5a6268; transform: translateY(-1px); }}
+    </style>
 </head>
 <body>
+
 <div class="container">
-    <h2>単語演習</h2>
-    <div id="setup">
-        <p>出題範囲</p>
-        <div class="chapter-container" id="chapterList"></div>
-        <p>順序</p>
-        <label><input type="radio" name="orderType" value="random" checked>ランダム</label>
-        <label><input type="radio" name="orderType" value="sequential">番号順</label>
-        <br><br>
-        <label><input type="checkbox" id="basicOnly">基本語のみ</label>
-        <br><br>
-        <select id="mode">
-            <option value="card-en-ja">暗記カード 英→日</option>
-            <option value="card-ja-en">暗記カード 日→英</option>
-            <option value="quiz-en-ja">4択 英→日</option>
-            <option value="quiz-ja-en">4択 日→英</option>
-            <option value="fill-blank">例文穴埋め</option>
-        </select>
-        <br><br>
-        <button onclick="startExercise()">開始</button>
+        <a href="index.html" class="btn-home">英単語帳に戻る</a>
+    <div class="header">
+        <h1>単語演習</h1>
     </div>
-    <div id="quiz" style="display:none">
-        <p id="progress"></p>
+
+    <div id="loadingStatus" style="text-align:center; padding: 40px; color: var(--primary);">
+        データを読み込んでいます...
+    </div>
+
+    <div id="setup" class="setup-section">
+        <div class="option-group">
+            <label class="group-label">1. 出題範囲を選択</label>
+            <div class="chapter-container" id="chapterList"></div>
+        </div>
+
+        <div class="option-group">
+            <label class="group-label">2. 出題順序</label>
+            <label style="margin-right:20px; cursor:pointer;"><input type="radio" name="orderType" value="random" checked> ランダム</label>
+            <label style="cursor:pointer;"><input type="radio" name="orderType" value="sequential"> 番号順</label>
+            <label style="cursor:pointer; color: var(--danger); font-weight: bold;">
+            <input type="checkbox" id="basicOnly"> 基本語のみ出題
+            </label>
+        </div>
+
+        <div class="option-group">
+            <label class="group-label">3. 演習モード</label>
+            <select id="mode" style="width:100%; padding:12px; border-radius:8px; border:1px solid #ccc; font-size:1rem;">
+                <option value="card-en-ja">暗記カード (英 → 日)</option>
+                <option value="card-ja-en">暗記カード (日 → 英)</option>
+                <option value="quiz-en-ja">4択問題 (英 → 日)</option>
+                <option value="quiz-ja-en">4択問題 (日 → 英)</option>
+                <option value="fill-blank">例文穴埋め (スペリング入力)</option>
+            </select>
+        </div>
+
+        <button id="startBtn" class="btn" onclick="startExercise()" disabled>準備中...</button>
+    </div>
+
+    <div id="quiz" class="quiz-section">
+        <div class="progress" id="progressText">STEP: 0 / 0</div>
         <div id="quizContainer"></div>
-        <br>
-        <button onclick="location.reload()">最初に戻る</button>
+        <button id="mainActionBtn" class="btn" style="display:none;"></button>
+        
+        <div style="display:flex; gap:10px; margin-top:20px;">
+            <button class="btn" style="background:#6c757d; flex:1;" onclick="location.reload()">演習をやり直す</button>
+        </div>
     </div>
 </div>
 
