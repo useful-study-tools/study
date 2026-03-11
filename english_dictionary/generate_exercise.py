@@ -5,46 +5,48 @@ from pathlib import Path
 from glob import glob
 from collections import defaultdict
 
+# CHAPTER_MAPのインポート
 try:
     from config import CHAPTER_MAP
 except ImportError:
-    CHAPTER_MAP = {1: "第1章"}
+    CHAPTER_MAP = {1: "【Basic】第1章", 500: "【Advanced】第2章"}
 
-def get_number_to_file_mapping(base_path):
-    files = glob(str(base_path / "vocabulary_data*.json"))
+def get_json_file_mapping(base_path):
+    """
+    各JSONファイルがどのチャプターIDをカバーしているかのマッピングを作成。
+    例: {1: "vocabulary_data.json", 17: "vocabulary_data_17.json", ...}
+    """
+    json_pattern = str(base_path / "vocabulary_data*.json")
+    files = glob(json_pattern)
+    
     mapping = {}
     for f in files:
         name = os.path.basename(f)
-        if name == "vocabulary_data.json":
+        if name == 'vocabulary_data.json':
             mapping[1] = name
         else:
-            m = re.search(r'_(\d+)\.json', name)
-            if m:
-                mapping[int(m.group(1))] = name
-    return dict(sorted(mapping.items()))
+            match = re.search(r'_(\d+)\.json', name)
+            if match:
+                mapping[int(match.group(1))] = name
+    return mapping
 
 def generate_html():
+    # パス設定
     base_dir = Path("english_dictionary")
     output_file = base_dir / "exercise.html"
 
+    # チャプターをグループ化
     grouped = defaultdict(list)
     for s_num, title in sorted(CHAPTER_MAP.items()):
         group_name = re.search(r'【(.*?)】', title).group(1) if '【' in title else "その他"
         display_label = title.split('】')[-1] if '】' in title else title
-        grouped[group_name].append({
-            "id": s_num,
-            "label": display_label
-        })
-
+        grouped[group_name].append({"id": s_num, "label": display_label})
+    
     chapters_js = json.dumps(dict(grouped), ensure_ascii=False)
-    number_to_file_js = json.dumps(
-        get_number_to_file_mapping(base_dir),
-        ensure_ascii=False
-    )
-
-    # 修正ポイント: f-string(f""")を止め、普通の文字列にする
-    # Pythonで埋め込みたい箇所だけ __PLACEHOLDER__ に書き換え
-    html_template = """<!DOCTYPE html>
+    # {チャプターID: ファイル名} のマッピングをJSに渡す
+    file_mapping_js = json.dumps(get_json_file_mapping(base_dir))
+    
+    html_template = f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -75,7 +77,7 @@ def generate_html():
         
         .btn {{ background: var(--primary); color: white; border: none; padding: 14px 20px; border-radius: 8px; cursor: pointer; width: 100%; font-size: 1rem; font-weight: bold; transition: 0.3s; margin-top: 10px; }}
         .btn:hover {{ opacity: 0.9; transform: translateY(-1px); }}
-        .btn:disabled {{ background: #ccc; cursor: wait; transform: none; }}
+        .btn:disabled {{ background: #ccc; cursor: not-allowed; transform: none; }}
         
         .progress {{ font-size: 0.9rem; color: #777; margin-bottom: 15px; text-align: center; background: #eee; padding: 5px; border-radius: 20px; }}
         .card {{ border: 2px solid var(--primary); padding: 50px 20px; border-radius: 15px; text-align: center; min-height: 140px; display: flex; align-items: center; justify-content: center; font-size: 2.2rem; font-weight: bold; background: white; cursor: pointer; transition: 0.2s; box-shadow: 0 4px 12px rgba(0,123,255,0.1); }}
@@ -110,13 +112,9 @@ def generate_html():
         <h1>単語演習</h1>
     </div>
 
-    <div id="loadingStatus" style="text-align:center; padding: 40px; color: var(--primary);">
-        データを読み込んでいます...
-    </div>
-
-    <div id="setup" class="setup-section">
+    <div id="setup" class="setup-section active">
         <div class="option-group">
-            <label class="group-label">1. 出題範囲を選択</label>
+            <label class="group-label">1. 出題範囲を選択 (最大20チャプター)</label>
             <div class="chapter-container" id="chapterList"></div>
         </div>
 
@@ -124,7 +122,7 @@ def generate_html():
             <label class="group-label">2. 出題順序</label>
             <label style="margin-right:20px; cursor:pointer;"><input type="radio" name="orderType" value="random" checked> ランダム</label>
             <label style="cursor:pointer;"><input type="radio" name="orderType" value="sequential"> 番号順</label>
-            <label style="cursor:pointer; color: var(--danger); font-weight: bold;">
+            <label style="cursor:pointer; color: var(--danger); font-weight: bold; margin-left: 20px;">
             <input type="checkbox" id="basicOnly"> 基本語のみ出題
             </label>
         </div>
@@ -140,178 +138,285 @@ def generate_html():
             </select>
         </div>
 
-        <button id="startBtn" class="btn" onclick="startExercise()" disabled>準備中...</button>
+        <button id="startBtn" class="btn" onclick="startExercise()">演習開始！</button>
     </div>
 
     <div id="quiz" class="quiz-section">
-        <div class="progress" id="progressText">STEP: 0 / 0</div>
-        <div id="quizContainer"></div>
-        <button id="mainActionBtn" class="btn" style="display:none;"></button>
-        
-        <div style="display:flex; gap:10px; margin-top:20px;">
-            <button class="btn" style="background:#6c757d; flex:1;" onclick="location.reload()">演習をやり直す</button>
+        <div id="loadingMessage" style="display:none; text-align:center; padding: 20px; color: var(--primary); font-weight: bold;">
+            選択したチャプターのデータを読み込んでいます...
+        </div>
+        <div id="quizContent">
+            <div class="progress" id="progressText">STEP: 0 / 0</div>
+            <div id="quizContainer"></div>
+            <button id="mainActionBtn" class="btn" style="display:none;"></button>
+            
+            <div style="display:flex; gap:10px; margin-top:20px;">
+                <button class="btn" style="background:#6c757d; flex:1;" onclick="location.reload()">演習をやり直す</button>
+            </div>
         </div>
     </div>
 </div>
 
 <script>
-// Pythonからデータを注入
-const GROUPED_CHAPTERS = __GROUPED_CHAPTERS__;
-const NUMBER_TO_FILE = __NUMBER_TO_FILE__;
+const GROUPED_CHAPTERS = {chapters_js}; 
+const FILE_MAPPING = {file_mapping_js};
+let ALL_WORDS_BUFFER = []; // 読み込んだ全単語
 
-const FILE_THRESHOLDS = Object.keys(NUMBER_TO_FILE).map(Number).sort((a,b)=>a-b);
-let quizWords=[];
-let currentIndex=0;
-let loadedWords=[];
-
-const chapterList=document.getElementById("chapterList");
-for(const [group, chapters] of Object.entries(GROUPED_CHAPTERS)){
-    const title=document.createElement("div");
-    title.className="chapter-group-title";
-    title.innerText=group;
-    chapterList.appendChild(title);
-    const grid=document.createElement("div");
-    grid.className="chapter-grid";
-    chapters.forEach(ch=>{
-        const div=document.createElement("div");
-        div.innerHTML=`<label><input type="checkbox" value="${ch.id}">${ch.label}</label>`;
+// チャプター選択画面の構築
+const chapterListDiv = document.getElementById('chapterList');
+for (const [group, chapters] of Object.entries(GROUPED_CHAPTERS)) {{
+    const groupTitle = document.createElement('div');
+    groupTitle.className = 'chapter-group-title';
+    groupTitle.innerText = group;
+    chapterListDiv.appendChild(groupTitle);
+    
+    const grid = document.createElement('div');
+    grid.className = 'chapter-grid';
+    chapters.forEach(ch => {{
+        const div = document.createElement('div');
+        div.className = 'chapter-item';
+        div.innerHTML = `<label><input type="checkbox" name="chapters" value="${{ch.id}}"> ${{ch.label}}</label>`;
         grid.appendChild(div);
-    });
-    chapterList.appendChild(grid);
-}
+    }});
+    chapterListDiv.appendChild(grid);
+}}
 
-function getFileForNumber(n){
-    for(let i=FILE_THRESHOLDS.length-1; i>=0; i--){
-        if(n>=FILE_THRESHOLDS[i]) return NUMBER_TO_FILE[FILE_THRESHOLDS[i]];
-    }
-    return null;
-}
+let quizWords = [];
+let currentIndex = 0;
+let isFlipped = false;
 
-async function startExercise(){
-    const selectedIds=[...document.querySelectorAll("#chapterList input:checked")].map(e=>parseInt(e.value));
-    if(selectedIds.length==0){ alert("チャプター選択してください"); return; }
-    const files=new Set();
-    selectedIds.forEach(id=>{ const f=getFileForNumber(id); if(f) files.add(f); });
+async function startExercise() {{
+    const selectedIds = Array.from(document.querySelectorAll('input[name="chapters"]:checked')).map(cb => parseInt(cb.value));
+    
+    if(selectedIds.length === 0) {{ alert("チャプターを選択してください"); return; }}
+    if(selectedIds.length > 20) {{ alert("一度に選択できるのは20チャプターまでです（現在: " + selectedIds.length + "）"); return; }}
 
-    try{
-        loadedWords=[];
-        for(const file of files){
-            const res=await fetch(file);
-            const data=await res.json();
-            data.words.forEach(w=>{
-                loadedWords.push({
-                    n:String(w.number), w:w.word, m:w.meaning, examples:w.example_sections||[]
-                });
-            });
-        }
-        buildQuiz(selectedIds);
-    }catch(e){ alert("JSON読み込み失敗"); console.error(e); }
-}
+    const startBtn = document.getElementById('startBtn');
+    startBtn.disabled = true;
+    startBtn.innerText = "データ読み込み中...";
 
-function buildQuiz(selectedIds){
-    const thresholds=Object.values(GROUPED_CHAPTERS).flat().map(c=>c.id).sort((a,b)=>a-b);
-    const basicOnly=document.getElementById("basicOnly").checked;
-    quizWords=loadedWords.filter(w=>{
-        if(basicOnly && w.n.includes("-")) return false;
-        const n=parseInt(w.n.split("-")[0]);
-        let chapter=null;
-        for(let i=thresholds.length-1; i>=0; i--){
-            if(n>=thresholds[i]){ chapter=thresholds[i]; break; }
-        }
-        return selectedIds.includes(chapter);
-    });
-    if(quizWords.length==0){ alert("単語が見つかりませんでした"); return; }
-    if(document.querySelector('input[name="orderType"]:checked').value=="random"){
-        quizWords.sort(()=>Math.random()-0.5);
-    }else{
-        quizWords.sort((a,b)=>parseInt(a.n)-parseInt(b.n));
-    }
-    document.getElementById("setup").style.display="none";
-    document.getElementById("quiz").style.display="block";
-    currentIndex=0;
-    showQuestion();
-}
+    // 必要なJSONファイルを特定
+    const filesToFetch = new Set();
+    const allThresholds = Object.values(GROUPED_CHAPTERS).flat().map(ch => ch.id).sort((a,b)=>a-b);
+    
+    selectedIds.forEach(id => {{
+        if (FILE_MAPPING[id]) {{
+            filesToFetch.add(FILE_MAPPING[id]);
+        }}
+    }});
 
-function showQuestion(){
-    const word=quizWords[currentIndex];
-    document.getElementById("progress").innerText=`${currentIndex+1} / ${quizWords.length}  No.${word.n}`;
-    const mode=document.getElementById("mode").value;
-    if(mode.startsWith("card")) showCard(word,mode);
-    else if(mode.startsWith("quiz")) showQuiz(word,mode);
-    else showFillBlank(word);
-}
+    try {{
+        // 動的フェッチ
+        const results = await Promise.all(Array.from(filesToFetch).map(file => fetch(file).then(r => r.json())));
+        
+        let loadedWords = [];
+        results.forEach(data => {{
+            if (data.words) {{
+                data.words.forEach(w => {{
+                    loadedWords.push({{ 
+                        n: String(w.number), 
+                        w: w.word, 
+                        m: w.meaning,
+                        examples: w.example_sections || []
+                    }});
+                }});
+            }}
+        }});
 
-function showCard(word,mode){
-    const front=mode=="card-en-ja"?word.w:word.m;
-    const back=mode=="card-en-ja"?word.m:word.w;
-    const container=document.getElementById("quizContainer");
-    container.innerHTML=`<div class="card" onclick="nextCard('${back}')">${front}</div>`;
-}
+        // フィルタリング（選択されたチャプターの範囲内か）
+        const basicOnly = document.getElementById('basicOnly').checked;
+        quizWords = loadedWords.filter(w => {{
+            if (basicOnly && w.n.includes('-')) return false;
+            const n = parseInt(w.n.split('-')[0]);
+            const chapterId = allThresholds.slice().reverse().find(t => n >= t);
+            return selectedIds.includes(chapterId);
+        }});
 
-function nextCard(ans){
-    const c=document.querySelector(".card");
-    if(c.innerText!=ans){ c.innerText=ans; return; }
-    currentIndex++;
-    if(currentIndex>=quizWords.length) finish();
-    else showQuestion();
-}
+        const mode = document.getElementById('mode').value;
+        if(mode === 'fill-blank') {{
+            quizWords = quizWords.filter(w => w.examples.length > 0);
+            if(quizWords.length === 0) {{ alert("選択した範囲に例文つきの単語がありません。"); location.reload(); return; }}
+        }}
 
-function showQuiz(word,mode){
-    const container=document.getElementById("quizContainer");
-    const isEnJa=mode=="quiz-en-ja";
-    container.innerHTML=`<div class="card">${isEnJa?word.w:word.m}</div><div id="opts"></div>`;
-    const opts=[word];
-    while(opts.length<4 && quizWords.length>opts.length){
-        const r=quizWords[Math.floor(Math.random()*quizWords.length)];
-        if(!opts.find(o=>o.n==r.n)) opts.push(r);
-    }
-    opts.sort(()=>Math.random()-0.5);
-    const div=document.getElementById("opts");
-    opts.forEach(o=>{
-        const b=document.createElement("button");
-        b.className="option-btn";
-        b.innerText=isEnJa?o.m:o.w;
-        b.onclick=()=>{
-            if(o.n==word.n){ currentIndex++; if(currentIndex>=quizWords.length) finish(); else showQuestion(); }
-            else{ b.style.background="#f8d7da"; }
-        };
-        div.appendChild(b);
-    });
-}
+        if(document.querySelector('input[name="orderType"]:checked').value === 'random') {{
+            quizWords.sort(() => Math.random() - 0.5);
+        }} else {{
+            quizWords.sort((a,b) => parseInt(a.n) - parseInt(b.n));
+        }}
 
-function showFillBlank(word){
-    const container=document.getElementById("quizContainer");
-    if(!word.examples.length){ currentIndex++; showQuestion(); return; }
-    const sec=word.examples[Math.floor(Math.random()*word.examples.length)];
-    const ex=sec.examples[Math.floor(Math.random()*sec.examples.length)];
-    container.innerHTML=`<p>${ex.ja}</p><p>${ex.en.replace(new RegExp(ex.highlight, 'gi'), '____')}</p>
-    <input id="ans" placeholder="答えを入力">
-    <button onclick="checkAnswer('${ex.highlight}')">判定</button>`;
-}
+        if(quizWords.length === 0) {{ alert("単語が見つかりませんでした。"); location.reload(); return; }}
 
-function checkAnswer(ans){
-    const v=document.getElementById("ans").value.trim().toLowerCase();
-    if(v==ans.toLowerCase()) alert("正解！");
-    else alert("正解は: "+ans);
-    currentIndex++;
-    if(currentIndex>=quizWords.length) finish();
-    else showQuestion();
-}
+        currentIndex = 0;
+        document.getElementById('setup').classList.remove('active');
+        document.getElementById('quiz').classList.add('active');
+        showQuestion();
 
-function finish(){ alert("終了！お疲れ様でした。"); location.reload(); }
+    }} catch (e) {{
+        alert("データの取得に失敗しました。");
+        console.error(e);
+        location.reload();
+    }}
+}}
+
+function showQuestion() {{
+    const word = quizWords[currentIndex];
+    const mode = document.getElementById('mode').value;
+    const container = document.getElementById('quizContainer');
+    const mainBtn = document.getElementById('mainActionBtn');
+    
+    document.getElementById('progressText').innerText = `STEP: ${{currentIndex + 1}} / ${{quizWords.length}} (No. ${{word.n}})`;
+    container.innerHTML = '';
+    mainBtn.style.display = 'none';
+
+    if(mode === 'fill-blank') {{
+        showFillBlank(word);
+    }} else if(mode.startsWith('card')) {{
+        showCard(word, mode);
+    }} else {{
+        showQuiz(word, mode);
+    }}
+}}
+
+function showFillBlank(word) {{
+    const container = document.getElementById('quizContainer');
+    const section = word.examples[Math.floor(Math.random() * word.examples.length)];
+    const ex = section.examples[Math.floor(Math.random() * section.examples.length)];
+    const target = ex.highlight;
+    const parts = ex.en.split(new RegExp(`(${{target}})`, 'i'));
+
+    container.innerHTML = `
+        <div class="fill-blank-area">
+            <div class="sentence-ja">${{ex.ja}}</div>
+            <div class="sentence-en" id="sentenceEn"></div>
+            <div class="feedback" id="feedback"></div>
+        </div>
+    `;
+
+    const sentenceEn = document.getElementById('sentenceEn');
+    parts.forEach(p => {{
+        if(p.toLowerCase() === target.toLowerCase()) {{
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.className = 'blank-input';
+            input.id = 'answerInput';
+            input.autocomplete = 'off';
+            input.onkeypress = (e) => {{ if(e.key === 'Enter') checkFillBlank(target); }};
+            sentenceEn.appendChild(input);
+            setTimeout(() => input.focus(), 150);
+        }} else {{
+            sentenceEn.appendChild(document.createTextNode(p));
+        }}
+    }});
+
+    const mainBtn = document.getElementById('mainActionBtn');
+    mainBtn.innerText = '判定する';
+    mainBtn.style.display = 'block';
+    mainBtn.style.background = 'var(--primary)';
+    mainBtn.onclick = () => checkFillBlank(target);
+}}
+
+function checkFillBlank(correctAnswer) {{
+    const input = document.getElementById('answerInput');
+    const feedback = document.getElementById('feedback');
+    const mainBtn = document.getElementById('mainActionBtn');
+    const userAns = input.value.trim().toLowerCase();
+    
+    input.disabled = true;
+    if(userAns === correctAnswer.toLowerCase()) {{
+        input.className = 'blank-input correct';
+        feedback.innerText = '✨ 正解です！';
+        feedback.style.color = 'var(--success)';
+    }} else {{
+        input.className = 'blank-input wrong';
+        feedback.innerHTML = `❌ 正解は <span style="color:var(--danger)">${{correctAnswer}}</span> でした`;
+        feedback.style.color = '#555';
+    }}
+    
+    mainBtn.innerText = '次の問題へ';
+    mainBtn.onclick = () => {{ currentIndex++; checkEnd(); }};
+}}
+
+function showCard(word, mode) {{
+    const container = document.getElementById('quizContainer');
+    isFlipped = false;
+    container.innerHTML = `
+        <div id="card" class="card" onclick="flipCard()">
+            ${{mode === 'card-en-ja' ? word.w : word.m}}
+        </div>
+        <div class="nav-controls">
+            <button id="prevBtn" class="nav-btn" onclick="goBack()" ${{currentIndex === 0 ? 'disabled' : ''}}>← 前へ戻る</button>
+            <button id="nextBtn" class="nav-btn" onclick="flipCard()" style="background:var(--primary); color:white; border:none;">答えを見る / 次へ →</button>
+        </div>
+    `;
+}}
+
+function flipCard() {{
+    const word = quizWords[currentIndex];
+    const mode = document.getElementById('mode').value;
+    const card = document.getElementById('card');
+    if(!isFlipped) {{
+        card.innerText = mode === 'card-en-ja' ? word.m : word.w;
+        card.classList.add('flipped');
+        isFlipped = true;
+    }} else {{
+        currentIndex++; checkEnd();
+    }}
+}}
+
+function showQuiz(word, mode) {{
+    const container = document.getElementById('quizContainer');
+    const isEnJa = mode === 'quiz-en-ja';
+    container.innerHTML = `
+        <div class="card" style="cursor:default; font-size:1.8rem; margin-bottom:15px; min-height:100px;">
+            ${{isEnJa ? word.w : word.m}}
+        </div>
+        <div class="options-grid" id="options"></div>
+    `;
+    
+    // 誤選択肢用のダミー単語
+    let choices = [word];
+    // quizWords（現在読み込まれている中）からランダムに選ぶ
+    let pool = quizWords.length > 10 ? quizWords : loadedWords_Global_Fallback; 
+    // ※今回は簡略化のため、今回のquizWordsから。足りなければ他から。
+    
+    while(choices.length < 4) {{
+        const r = quizWords[Math.floor(Math.random() * quizWords.length)];
+        if(!choices.find(o => o.n === r.n)) choices.push(r);
+        // 万が一選択肢が足りない場合の無限ループ防止
+        if(quizWords.length < 4) break;
+    }}
+    choices.sort(() => Math.random() - 0.5);
+    
+    const optionsDiv = document.getElementById('options');
+    choices.forEach(opt => {{
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerText = isEnJa ? opt.m : opt.w;
+        btn.onclick = () => {{
+            if(opt.n === word.n) {{
+                btn.style.background = '#d4edda';
+                btn.style.borderColor = 'var(--success)';
+                setTimeout(() => {{ currentIndex++; checkEnd(); }}, 500);
+            }} else {{
+                btn.style.background = '#f8d7da';
+                btn.style.borderColor = 'var(--danger)';
+                btn.disabled = true;
+            }}
+        }};
+        optionsDiv.appendChild(btn);
+    }});
+}}
+
+function goBack() {{ if(currentIndex > 0) {{ currentIndex--; showQuestion(); }} }}
+function checkEnd() {{ if(currentIndex < quizWords.length) showQuestion(); else {{ alert("全問終了しました！お疲れ様でした。"); location.reload(); }} }}
 </script>
 </body>
-</html>
-"""
+</html>"""
 
-    # 最後にPython変数を流し込む
-    final_html = html_template.replace("__GROUPED_CHAPTERS__", chapters_js)
-    final_html = final_html.replace("__NUMBER_TO_FILE__", number_to_file_js)
-
+    # 保存
     with open(output_file, "w", encoding="utf-8") as f:
-        f.write(final_html)
+        f.write(html_template)
+    print(f"✓ {output_file} has been generated (Dynamic Loading Mode).")
 
-    print(f"✅ {output_file} generated successfully.")
-
-if __name__=="__main__":
+if __name__ == "__main__":
     generate_html()
