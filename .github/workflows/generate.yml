@@ -6,8 +6,9 @@ on:
       - main
     paths:
       - 'english_dictionary/vocabulary_data*.json'
-      - 'english_dictionary/config.py' # ★ここを追加：出典設定が変わった時も実行されるように
-      - 'classical_japanese_dictionary/vocabulary_data*.json' # 古文の監視パスを追加
+      - 'english_dictionary/config.py'
+      - 'classical_japanese_dictionary/vocabulary_data*.json'
+      - 'classical_japanese_dictionary/config.py'
   workflow_dispatch:
 
 jobs:
@@ -27,13 +28,20 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       # ==========================================
-      # 1. 英単語辞書の処理 (既存機能の維持)
+      # 1. 英単語辞書の処理
       # ==========================================
       - name: Process English Dictionary
         run: |
           echo "🔧 Processing English Dictionary..."
+          # Pythonパスを通す（config.pyをimport可能にするため）
+          export PYTHONPATH=$PYTHONPATH:$(pwd)/english_dictionary
+          
+          # 単語数をカウントして config.py を更新
+          python english_dictionary/count_words.py
+          
+          # 各種HTML生成スクリプトの実行
           mkdir -p english_dictionary/data
           python english_dictionary/generate_vocab.py
           python english_dictionary/build_index.py
@@ -41,11 +49,19 @@ jobs:
           echo "✅ English Dictionary updated"
 
       # ==========================================
-      # 2. 古文単語辞書の処理 (新規追加)
+      # 2. 古文単語辞書の処理
       # ==========================================
       - name: Process Classical Japanese Dictionary
         run: |
           echo "🌸 Processing Classical Japanese Dictionary..."
+          # Pythonパスを通す
+          export PYTHONPATH=$PYTHONPATH:$(pwd)/classical_japanese_dictionary
+          
+          # 古文側も同様の仕組み(count_words.py)がある場合は実行
+          if [ -f classical_japanese_dictionary/count_words.py ]; then
+            python classical_japanese_dictionary/count_words.py
+          fi
+          
           mkdir -p classical_japanese_dictionary/data
           python classical_japanese_dictionary/generate_vocab.py
           python classical_japanese_dictionary/build_index.py
@@ -58,7 +74,6 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          # 英単語と古文単語の両方のパスを監視
           TARGET_PATHS="english_dictionary/ classical_japanese_dictionary/"
           if [ -n "$(git status --porcelain $TARGET_PATHS)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -73,31 +88,35 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 両方のディレクトリの変更をステージング
-          git add english_dictionary/data/*.html
-          git add english_dictionary/index.html
+          # 書き換わった config.py と 生成された HTML 群をすべて追加
+          git add english_dictionary/config.py
           git add english_dictionary/exercise.html
-          git add classical_japanese_dictionary/data/*.html
-          git add classical_japanese_dictionary/index.html
-          git add classical_japanese_dictionary/exercise.html
+          git add english_dictionary/index.html
+          git add english_dictionary/data/*.html
           
-          git commit -m "🤖 Auto-generate vocab HTML files (EN & JP) [skip ci]"
+          git add classical_japanese_dictionary/config.py
+          git add classical_japanese_dictionary/exercise.html
+          git add classical_japanese_dictionary/index.html
+          git add classical_japanese_dictionary/data/*.html
+          
+          git commit -m "🤖 Auto-generate vocab HTML & Update word counts [skip ci]"
           git push
       
       # ==========================================
-      # 4. 完了サマリー (両方の統計を表示)
+      # 4. 完了サマリー
       # ==========================================
       - name: Job summary
         run: |
           echo "## 📊 Generation Summary" >> $GITHUB_STEP_SUMMARY
           
           echo "### 🇺🇸 English Dictionary" >> $GITHUB_STEP_SUMMARY
-          cd english_dictionary
-          total_en=$(ls -1 data/*.html 2>/dev/null | wc -l)
-          echo "- Total: **$total_en HTML files**" >> $GITHUB_STEP_SUMMARY
-          cd ..
+          if [ -d "english_dictionary/data" ]; then
+            total_en=$(ls -1 english_dictionary/data/*.html 2>/dev/null | wc -l)
+            echo "- Total: **$total_en HTML files** generated." >> $GITHUB_STEP_SUMMARY
+          fi
           
           echo "### 🌸 Classical Japanese Dictionary" >> $GITHUB_STEP_SUMMARY
-          cd classical_japanese_dictionary
-          total_jp=$(ls -1 data/*.html 2>/dev/null | wc -l)
-          echo "- Total: **$total_jp HTML files**" >> $GITHUB_STEP_SUMMARY
+          if [ -d "classical_japanese_dictionary/data" ]; then
+            total_jp=$(ls -1 classical_japanese_dictionary/data/*.html 2>/dev/null | wc -l)
+            echo "- Total: **$total_jp HTML files** generated." >> $GITHUB_STEP_SUMMARY
+          fi
