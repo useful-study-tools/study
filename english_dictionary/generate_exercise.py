@@ -56,6 +56,8 @@ def generate_html():
         ensure_ascii=False
     )
 
+        # 中略（上のインポートや関数はそのまま）
+
     html = f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -121,407 +123,254 @@ cursor:pointer;
 <body>
 
 <div class="container">
+    <h2>単語演習</h2>
+    <div id="setup">
+        <p>出題範囲</p>
+        <div class="chapter-container" id="chapterList"></div>
+        <p>順序</p>
+        <label><input type="radio" name="orderType" value="random" checked>ランダム</label>
+        <label><input type="radio" name="orderType" value="sequential">番号順</label>
+        <br><br>
+        <label><input type="checkbox" id="basicOnly">基本語のみ</label>
+        <br><br>
+        <select id="mode">
+            <option value="card-en-ja">暗記カード 英→日</option>
+            <option value="card-ja-en">暗記カード 日→英</option>
+            <option value="quiz-en-ja">4択 英→日</option>
+            <option value="quiz-ja-en">4択 日→英</option>
+            <option value="fill-blank">例文穴埋め</option>
+        </select>
+        <br><br>
+        <button onclick="startExercise()">開始</button>
+    </div>
 
-<h2>単語演習</h2>
-
-<div id="setup">
-
-<p>出題範囲</p>
-
-<div class="chapter-container" id="chapterList"></div>
-
-<p>順序</p>
-
-<label><input type="radio" name="orderType" value="random" checked>ランダム</label>
-<label><input type="radio" name="orderType" value="sequential">番号順</label>
-
-<br><br>
-
-<label>
-<input type="checkbox" id="basicOnly">
-基本語のみ
-</label>
-
-<br><br>
-
-<select id="mode">
-
-<option value="card-en-ja">暗記カード 英→日</option>
-<option value="card-ja-en">暗記カード 日→英</option>
-<option value="quiz-en-ja">4択 英→日</option>
-<option value="quiz-ja-en">4択 日→英</option>
-<option value="fill-blank">例文穴埋め</option>
-
-</select>
-
-<br><br>
-
-<button onclick="startExercise()">開始</button>
-
+    <div id="quiz" style="display:none">
+        <p id="progress"></p>
+        <div id="quizContainer"></div>
+        <br>
+        <button onclick="location.reload()">最初に戻る</button>
+    </div>
 </div>
-
-
-<div id="quiz" style="display:none">
-
-<p id="progress"></p>
-
-<div id="quizContainer"></div>
-
-<br>
-
-<button onclick="location.reload()">最初に戻る</button>
-
-</div>
-
-</div>
-
 
 <script>
+// ここはPythonの変数を流し込むので単一の { }
+const GROUPED_CHAPTERS = {chapters_js};
+const NUMBER_TO_FILE = {number_to_file_js};
 
-const GROUPED_CHAPTERS = {chapters_js}
-
-const NUMBER_TO_FILE = {number_to_file_js}
-
+// ここからはJavaScriptのコードなので、波括弧を {{ }} にエスケープする
 const FILE_THRESHOLDS = Object.keys(NUMBER_TO_FILE)
-.map(Number)
-.sort((a,b)=>a-b)
+    .map(Number)
+    .sort((a,b)=>a-b);
 
-let quizWords=[]
-let currentIndex=0
-let loadedWords=[]
+let quizWords=[];
+let currentIndex=0;
+let loadedWords=[];
 
-
-const chapterList=document.getElementById("chapterList")
+const chapterList=document.getElementById("chapterList");
 
 for(const [group,chapters] of Object.entries(GROUPED_CHAPTERS)){{
+    const title=document.createElement("div");
+    title.className="chapter-group-title";
+    title.innerText=group;
+    chapterList.appendChild(title);
 
-const title=document.createElement("div")
-title.className="chapter-group-title"
-title.innerText=group
-chapterList.appendChild(title)
+    const grid=document.createElement("div");
+    grid.className="chapter-grid";
 
-const grid=document.createElement("div")
-grid.className="chapter-grid"
-
-chapters.forEach(ch=>{{
-
-const div=document.createElement("div")
-
-div.innerHTML=`<label>
-<input type="checkbox" value="${{ch.id}}">
-${{ch.label}}
-</label>`
-
-grid.appendChild(div)
-
-}})
-
-chapterList.appendChild(grid)
-
+    chapters.forEach(ch=>{{
+        const div=document.createElement("div");
+        // JavaScriptのテンプレートリテラル `${{...}}` は Python f-string内では `{{ ... }}` 
+        div.innerHTML=`<label>
+            <input type="checkbox" value="${{ch.id}}">
+            ${{ch.label}}
+        </label>`;
+        grid.appendChild(div);
+    }});
+    chapterList.appendChild(grid);
 }}
-
-
 
 function getFileForNumber(n){{
-
-for(let i=FILE_THRESHOLDS.length-1;i>=0;i--){{
-
-if(n>=FILE_THRESHOLDS[i]){{
-return NUMBER_TO_FILE[FILE_THRESHOLDS[i]]
+    for(let i=FILE_THRESHOLDS.length-1;i>=0;i--){{
+        if(n>=FILE_THRESHOLDS[i]){{
+            return NUMBER_TO_FILE[FILE_THRESHOLDS[i]];
+        }}
+    }}
+    return null;
 }}
-
-}}
-
-return null
-
-}}
-
-
 
 async function startExercise(){{
+    const selectedIds=[...document.querySelectorAll("#chapterList input:checked")]
+        .map(e=>parseInt(e.value));
 
-const selectedIds=[...document.querySelectorAll("#chapterList input:checked")]
-.map(e=>parseInt(e.value))
+    if(selectedIds.length==0){{
+        alert("チャプター選択してください");
+        return;
+    }}
 
-if(selectedIds.length==0){{
-alert("チャプター選択してください")
-return
+    const files=new Set();
+    selectedIds.forEach(id=>{{
+        const f=getFileForNumber(id);
+        if(f)files.add(f);
+    }});
+
+    try{{
+        loadedWords=[];
+        for(const file of files){{
+            const res=await fetch(file);
+            const data=await res.json();
+            data.words.forEach(w=>{{
+                loadedWords.push({{
+                    n:String(w.number),
+                    w:w.word,
+                    m:w.meaning,
+                    examples:w.example_sections||[]
+                }});
+            }});
+        }}
+        buildQuiz(selectedIds);
+    }}catch(e){{
+        alert("JSON読み込み失敗");
+        console.error(e);
+    }}
 }}
-
-const files=new Set()
-
-selectedIds.forEach(id=>{{
-
-const f=getFileForNumber(id)
-
-if(f)files.add(f)
-
-}})
-
-try{{
-
-loadedWords=[]
-
-for(const file of files){{
-
-const res=await fetch(file)
-const data=await res.json()
-
-data.words.forEach(w=>{{
-
-loadedWords.push({{
-n:String(w.number),
-w:w.word,
-m:w.meaning,
-examples:w.example_sections||[]
-}})
-
-}})
-
-}}
-
-buildQuiz(selectedIds)
-
-}}catch(e){{
-
-alert("JSON読み込み失敗")
-console.error(e)
-
-}}
-
-}
-
-
 
 function buildQuiz(selectedIds){{
+    const thresholds=Object.values(GROUPED_CHAPTERS)
+        .flat()
+        .map(c=>c.id)
+        .sort((a,b)=>a-b);
 
-const thresholds=Object.values(GROUPED_CHAPTERS)
-.flat()
-.map(c=>c.id)
-.sort((a,b)=>a-b)
+    const basicOnly=document.getElementById("basicOnly").checked;
 
-const basicOnly=document.getElementById("basicOnly").checked
+    quizWords=loadedWords.filter(w=>{{
+        if(basicOnly && w.n.includes("-")) return false;
+        const n=parseInt(w.n.split("-")[0]);
+        let chapter=null;
+        for(let i=thresholds.length-1;i>=0;i--){{
+            if(n>=thresholds[i]){{
+                chapter=thresholds[i];
+                break;
+            }}
+        }}
+        return selectedIds.includes(chapter);
+    }});
 
-quizWords=loadedWords.filter(w=>{{
+    if(quizWords.length==0){{
+        alert("単語が見つかりませんでした");
+        return;
+    }}
 
-if(basicOnly && w.n.includes("-")) return false
+    if(document.querySelector('input[name="orderType"]:checked').value=="random"){{
+        quizWords.sort(()=>Math.random()-0.5);
+    }}else{{
+        quizWords.sort((a,b)=>parseInt(a.n)-parseInt(b.n));
+    }}
 
-const n=parseInt(w.n.split("-")[0])
-
-let chapter=null
-
-for(let i=thresholds.length-1;i>=0;i--){{
-
-if(n>=thresholds[i]){{
-chapter=thresholds[i]
-break
+    document.getElementById("setup").style.display="none";
+    document.getElementById("quiz").style.display="block";
+    currentIndex=0;
+    showQuestion();
 }}
-
-}}
-
-return selectedIds.includes(chapter)
-
-})
-
-if(quizWords.length==0){{
-alert("単語が見つかりませんでした")
-return
-}}
-
-if(document.querySelector('input[name="orderType"]:checked').value=="random"){{
-
-quizWords.sort(()=>Math.random()-0.5)
-
-}}else{{
-
-quizWords.sort((a,b)=>parseInt(a.n)-parseInt(b.n))
-
-}}
-
-document.getElementById("setup").style.display="none"
-document.getElementById("quiz").style.display="block"
-
-currentIndex=0
-
-showQuestion()
-
-}
-
-
 
 function showQuestion(){{
+    const word=quizWords[currentIndex];
+    document.getElementById("progress").innerText=
+        (currentIndex+1)+" / "+quizWords.length+"  No."+word.n;
+    const mode=document.getElementById("mode").value;
 
-const word=quizWords[currentIndex]
-
-document.getElementById("progress").innerText=
-(currentIndex+1)+" / "+quizWords.length+"  No."+word.n
-
-const mode=document.getElementById("mode").value
-
-if(mode.startsWith("card")){{
-
-showCard(word,mode)
-
+    if(mode.startsWith("card")){{
+        showCard(word,mode);
+    }} else if(mode.startsWith("quiz")){{
+        showQuiz(word,mode);
+    }} else {{
+        showFillBlank(word);
+    }}
 }}
-else if(mode.startsWith("quiz")){{
-
-showQuiz(word,mode)
-
-}}
-else{{
-showFillBlank(word)
-}}
-
-}
-
-
 
 function showCard(word,mode){{
-
-const front=mode=="card-en-ja"?word.w:word.m
-const back=mode=="card-en-ja"?word.m:word.w
-
-const container=document.getElementById("quizContainer")
-
-container.innerHTML=
-`<div class="card" onclick="nextCard('${{back}}')">${{front}}</div>`
-
-}
-
-
+    const front=mode=="card-en-ja"?word.w:word.m;
+    const back=mode=="card-en-ja"?word.m:word.w;
+    const container=document.getElementById("quizContainer");
+    // ここもJavaScriptのリテラルなので ${{...}} に修正
+    container.innerHTML=`<div class="card" onclick="nextCard('${{back}}')">${{front}}</div>`;
+}}
 
 function nextCard(ans){{
-
-const c=document.querySelector(".card")
-
-if(c.innerText!=ans){{
-
-c.innerText=ans
-return
-
+    const c=document.querySelector(".card");
+    if(c.innerText!=ans){{
+        c.innerText=ans;
+        return;
+    }}
+    currentIndex++;
+    if(currentIndex>=quizWords.length){{
+        finish();
+        return;
+    }}
+    showQuestion();
 }}
-
-currentIndex++
-
-if(currentIndex>=quizWords.length){{
-finish()
-return
-}}
-
-showQuestion()
-
-}
-
-
 
 function showQuiz(word,mode){{
+    const container=document.getElementById("quizContainer");
+    const isEnJa=mode=="quiz-en-ja";
+    container.innerHTML=`<div class="card">${{isEnJa?word.w:word.m}}</div><div id="opts"></div>`;
 
-const container=document.getElementById("quizContainer")
+    const opts=[word];
+    while(opts.length<4 && quizWords.length>opts.length){{
+        const r=quizWords[Math.floor(Math.random()*quizWords.length)];
+        if(!opts.find(o=>o.n==r.n))opts.push(r);
+    }}
+    opts.sort(()=>Math.random()-0.5);
 
-const isEnJa=mode=="quiz-en-ja"
-
-container.innerHTML=
-`<div class="card">
-${{isEnJa?word.w:word.m}}
-</div>
-<div id="opts"></div>`
-
-const opts=[word]
-
-while(opts.length<4 && quizWords.length>opts.length){{
-
-const r=quizWords[Math.floor(Math.random()*quizWords.length)]
-
-if(!opts.find(o=>o.n==r.n))opts.push(r)
-
+    const div=document.getElementById("opts");
+    opts.forEach(o=>{{
+        const b=document.createElement("button");
+        b.className="option-btn";
+        b.innerText=isEnJa?o.m:o.w;
+        b.onclick=()=>{{
+            if(o.n==word.n){{
+                currentIndex++;
+                if(currentIndex>=quizWords.length)finish();
+                else showQuestion();
+            }}else{{
+                b.style.background="#f8d7da";
+            }}
+        }};
+        div.appendChild(b);
+    }});
 }}
-
-opts.sort(()=>Math.random()-0.5)
-
-const div=document.getElementById("opts")
-
-opts.forEach(o=>{{
-
-const b=document.createElement("button")
-
-b.className="option-btn"
-
-b.innerText=isEnJa?o.m:o.w
-
-b.onclick=()=>{{
-
-if(o.n==word.n){{
-
-currentIndex++
-
-if(currentIndex>=quizWords.length)finish()
-else showQuestion()
-
-}}else{{
-
-b.style.background="#f8d7da"
-
-}}
-
-}}
-
-div.appendChild(b)
-
-}})
-
-}
-
-
 
 function showFillBlank(word){{
+    const container=document.getElementById("quizContainer");
+    if(!word.examples.length){{
+        currentIndex++;
+        showQuestion();
+        return;
+    }}
+    const sec=word.examples[Math.floor(Math.random()*word.examples.length)];
+    const ex=sec.examples[Math.floor(Math.random()*sec.examples.length)];
 
-const container=document.getElementById("quizContainer")
-
-if(!word.examples.length){{
-currentIndex++
-showQuestion()
-return
+    container.innerHTML=`<p>${{ex.ja}}</p><p>${{ex.en}}</p><input id="ans"><button onclick="check('${{ex.highlight}}')">判定</button>`;
 }}
-
-const sec=word.examples[Math.floor(Math.random()*word.examples.length)]
-const ex=sec.examples[Math.floor(Math.random()*sec.examples.length)]
-
-container.innerHTML=
-`<p>${{ex.ja}}</p>
-<p>${{ex.en}}</p>
-<input id="ans">
-<button onclick="check('${{ex.highlight}}')">判定</button>`
-
-}
-
-
 
 function check(ans){{
-
-const v=document.getElementById("ans").value.trim().toLowerCase()
-
-if(v==ans.toLowerCase())alert("正解")
-else alert("正解: "+ans)
-
-currentIndex++
-
-if(currentIndex>=quizWords.length)finish()
-else showQuestion()
-
-}
-
-
-
-function finish(){{
-alert("終了")
-location.reload()
+    const v=document.getElementById("ans").value.trim().toLowerCase();
+    if(v==ans.toLowerCase())alert("正解");
+    else alert("正解: "+ans);
+    currentIndex++;
+    if(currentIndex>=quizWords.length)finish();
+    else showQuestion();
 }}
 
+function finish(){{
+    alert("終了");
+    location.reload();
+}}
 </script>
 
 </body>
 </html>
 """
+
 
     with open(output_file,"w",encoding="utf-8") as f:
         f.write(html)
