@@ -141,8 +141,6 @@
             border-color: transparent #fff transparent transparent;
         }
 
-        /* スプラッシュ画面 */
-
         #splash {
             position: fixed;
             inset: 0;
@@ -150,20 +148,29 @@
             display: none;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
+            gap: 20px;
             z-index: 9999;
         }
 
-        #splash img {
+        .splash-logo {
             width: 120px;
+        }
+
+        .splash-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            color: #005eb8;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- スプラッシュ -->
     <div id="splash">
-        <img src="favicon.png" alt="logo">
+        <img src="favicon.png" alt="logo" class="splash-logo">
+        <div class="splash-title">勉強ツールまとめ</div>
     </div>
 
     <div class="container">
