@@ -54,13 +54,14 @@ study/
 │   ├── vocabulary_data_1.json       # 速読英単語（単語番号 1〜）
 │   ├── vocabulary_data_17.json
 │   ├── ...
-│   ├── vocabulary_data_？？.json       # 速読英単語（〜単語番号 2000）
+│   ├── vocabulary_data_？？.json       # 速読英単語（〜単語番号 ？？）
 │   ├── vocabulary_data_3974.json       # 東進上級英単語（単語番号 3974〜）
 │   ├── ...
 │   ├── vocabulary_data_4874.json       # 東進上級英単語（〜単語番号 4973）
 │   ├── vocabulary_data_10001.json      # LEAP（単語番号 10001〜）
 │   ├── ...
 │   └── vocabulary_data_11901.json      # LEAP（〜単語番号 11935）
+├── なんかいろいろページあるよ
 ├── tools/                            # 便利ツールまとめページ
 │   ├── index.html                    # ツール一覧
 │   ├── pdf.html                      # PDF編集ツール
@@ -93,7 +94,7 @@ open index.html
 
 ---
 
-##掲載ツールの追加・修正について
+## 掲載ツールの追加・修正について
 
 掲載希望のツールや情報の誤りがある場合は、以下の方法でご連絡ください。
 
