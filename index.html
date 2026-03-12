@@ -1,229 +1,271 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>勉強ツールまとめ</title>
+
     <link rel="icon" href="favicon.png" type="image/png">
-    <link rel="apple-touch-icon" sizes="192x192" href="favicon.png">
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#005eb8">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="勉強ツールまとめ">
-    <meta name="mobile-web-app-capable" content="yes">
-    <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
+
     <style>
-        :root { --primary-color: #007bff; --chapter-color: #6c757d; --bg-color: #f4f7f9; }
-        body { font-family: sans-serif; background-color: var(--bg-color); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
-        .container { width: 100%; max-width: 800px; }
-        h1 { color: var(--primary-color); text-align: center; border-bottom: 3px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 30px; }
-        .category-header { 
-            background: var(--chapter-color); 
-            color: white; 
-            padding: 10px 15px; 
-            margin: 30px 0 15px 0; 
-            border-radius: 5px; 
-            font-weight: bold; 
+        :root {
+            --primary-color: #007bff;
+            --chapter-color: #6c757d;
+            --bg-color: #f4f7f9;
         }
 
-        /* ツール一覧（既存のword-listを流用） */
-        .tool-list { list-style: none; padding: 0; }
-        
-        /* ツール項目（既存のword-itemを流用） */
-        .tool-item { 
-            background: white; 
-            margin-bottom: 12px; 
-            border-radius: 8px; 
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
-            transition: 0.2s; 
+        body {
+            font-family: sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        .category-header {
+            background: var(--chapter-color);
+            color: white;
+            padding: 10px 15px;
+            margin: 30px 0 15px 0;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .tool-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .tool-item {
+            background: white;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: 0.2s;
             border-left: 5px solid var(--primary-color);
         }
-        .tool-item:hover { transform: translateY(-3px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
-        
-        .tool-item a { 
-            display: flex; 
-            padding: 18px 20px; 
-            text-decoration: none; 
-            color: #333; 
-            align-items: center; 
+
+        .tool-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+
+        .tool-item a {
+            display: flex;
+            padding: 18px 20px;
+            text-decoration: none;
+            color: #333;
+            align-items: center;
             justify-content: space-between;
         }
-        
-        .tool-name { font-size: 1.1em; font-weight: bold; color: #333; }
-        .tool-description { font-size: 0.85em; color: #666; margin-left: 15px; flex-grow: 1; }
-        .arrow { color: var(--primary-color); font-weight: bold; margin-left: 10px; }
 
-        /* 特設ボタン（演習ページなど目立たせたいもの） */
-        .special-link {
-            display: block;
-            width: fit-content;
-            margin: 20px auto;
-            padding: 12px 40px;
-            background-color: #28a745;
-            color: white;
-            text-decoration: none;
-            border-radius: 30px;
+        .tool-name {
+            font-size: 1.1em;
             font-weight: bold;
-            font-size: 1.1rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: 0.3s;
+            color: #333;
         }
-        .special-link:hover {
-            background-color: #218838;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+
+        .tool-description {
+            font-size: 0.85em;
+            color: #666;
+            margin-left: 15px;
+            flex-grow: 1;
+        }
+
+        .arrow {
+            color: var(--primary-color);
+            font-weight: bold;
+            margin-left: 10px;
         }
 
         .chat-container {
             display: flex;
-            align-items: center; /* 上下中央揃え（お好みで flex-start に変更可） */
-            gap: 20px;           /* キャラクターと吹き出しの間隔 */
+            align-items: center;
+            gap: 20px;
             padding: 20px;
         }
 
-        /* キャラクター画像 */
         .character-img {
             width: min(150px, 30vw);
             height: auto;
-            flex-shrink: 0;      /* 画面が狭くなっても画像が潰れないように固定 */
+            flex-shrink: 0;
         }
 
-        /* 吹き出し本体 */
         .speech-bubble {
             position: relative;
             background: #fff;
             border: 3px solid #333;
             border-radius: 15px;
             padding: 15px 20px;
-            font-family: "Helvetica Neue", Arial, sans-serif;
             font-weight: bold;
-            box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+            box-shadow: 4px 4px 0 rgba(0,0,0,0.1);
             min-width: 100px;
         }
 
-        /* 吹き出しの三角形（外枠：黒） */
         .speech-bubble::before {
             content: "";
             position: absolute;
             top: 50%;
-            left: -20px;        /* 左側に突き出す */
-            margin-top: -10px;  /* 三角形の高さの半分だけ上にずらして中央へ */
+            left: -20px;
+            margin-top: -10px;
             border-style: solid;
             border-width: 10px 20px 10px 0;
-            border-color: transparent #333 transparent transparent; /* 右側だけ色をつける */
+            border-color: transparent #333 transparent transparent;
         }
 
-        /* 吹き出しの三角形（内側：白） */
         .speech-bubble::after {
             content: "";
             position: absolute;
             top: 50%;
-            left: -15px;        /* 外枠より少し右に配置して枠線を表現 */
+            left: -15px;
             margin-top: -10px;
             border-style: solid;
             border-width: 10px 20px 10px 0;
             border-color: transparent #fff transparent transparent;
         }
+
+        /* スプラッシュ画面 */
+
+        #splash {
+            position: fixed;
+            inset: 0;
+            background: white;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+
+        #splash img {
+            width: 120px;
+        }
     </style>
 </head>
+
 <body>
 
-<div class="container">
-    <h1>勉強ツールまとめ</h1>
-
-    <div class="category-header">英語</div>
-    <div class="tool-list">
-        <div class="tool-item">
-            <a href="english_dictionary/index.html">
-                <span class="tool-name">英単語帳</span>
-                <span class="tool-description">速単　LEAP</span>
-                <span class="arrow">→</span>
-            </a>
-        </div>
+    <!-- スプラッシュ -->
+    <div id="splash">
+        <img src="favicon.png" alt="logo">
     </div>
+
+    <div class="container">
+        <h1>勉強ツールまとめ</h1>
+
+        <div class="category-header">英語</div>
+        <div class="tool-list">
+            <div class="tool-item">
+                <a href="english_dictionary/index.html">
+                    <span class="tool-name">英単語帳</span>
+                    <span class="tool-description">速単 LEAP</span>
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <img src="favicon.png" class="character-img">
+            <div class="speech-bubble">
+                速読英単語 11〜25章<br>
+                LEAP 1101〜1935 など
+            </div>
+        </div>
+
+        <div class="category-header">古典</div>
+        <div class="tool-list">
+            <div class="tool-item">
+                <a href="classical_japanese_dictionary/index.html">
+                    <span class="tool-name">古典単語帳</span>
+                    <span class="tool-description">単語帳 演習ツール</span>
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="category-header">化学</div>
+        <div class="tool-list">
+            <div class="tool-item">
+                <a href="inorganic/index.html">
+                    <span class="tool-name">無機化学</span>
+                    <span class="tool-description">元素別解説</span>
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+
+            <div class="tool-item">
+                <a href="organic/index.html">
+                    <span class="tool-name">有機化学</span>
+                    <span class="tool-description">官能基別解説</span>
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="category-header">社会</div>
+        <div class="tool-list">
+            <div class="tool-item">
+                <a href="history/index.html">
+                    <span class="tool-name">日本史</span>
+                    <span class="tool-description">〜江戸時代</span>
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="category-header">便利ツール</div>
+        <div class="tool-list">
+            <div class="tool-item">
+                <a href="useful-tools/index.html">
+                    <span class="tool-name">便利ツール</span>
+                    <span class="tool-description">PDF 音楽再生ツール</span>
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
     <div class="chat-container">
-        <img src="favicon.png" alt="キャラクター" class="character-img">
+        <img src="favicon.png" class="character-img">
         <div class="speech-bubble">
-            速読英単語 11〜25章<br>
-            LEAP 1101~1935 など
+            他教科も随時追加予定です
         </div>
     </div>
 
-    <div class="category-header">古典</div>
-    <div class="tool-list">
-        <div class="tool-item">
-            <a href="classical_japanese_dictionary/index.html">
-                <span class="tool-name">古典単語帳</span>
-                <span class="tool-description">単語帳　演習ツール</span>
-                <span class="arrow">→</span>
-            </a>
-        </div>
-    </div>
-    
-    <div class="category-header">化学</div>
-    <div class="tool-list">
-        <div class="tool-item">
-            <a href="inorganic/index.html">
-                <span class="tool-name">無機化学</span>
-                <span class="tool-description">元素別解説</span>
-                <span class="arrow">→</span>
-            </a>
-        </div>
-        <div class="tool-item">
-            <a href="organic/index.html">
-                <span class="tool-name">有機化学</span>
-                <span class="tool-description">官能基別解説</span>
-                <span class="arrow">→</span>
-            </a>
-        </div>
-    </div>
+    <script>
+        const isPWA =
+            window.matchMedia('(display-mode: standalone)').matches ||
+            window.navigator.standalone === true;
 
-    <div class="category-header">社会</div>
-    <div class="tool-list">
-        <div class="tool-item">
-            <a href="history/index.html">
-                <span class="tool-name">日本史</span>
-                <span class="tool-description">〜江戸時代</span>
-                <span class="arrow">→</span>
-            </a>
-        </div>
-    </div>
+        if (isPWA) {
 
-    <div class="category-header">便利ツール</div>
-    <div class="tool-list">
-        <div class="tool-item">
-            <a href="useful-tools/index.html">
-                <span class="tool-name">便利ツール</span>
-                <span class="tool-description">PDF　音楽再生ツール</span>
-                <span class="arrow">→</span>
-            </a>
-        </div>
-    </div>
+            const splash = document.getElementById("splash");
+            splash.style.display = "flex";
 
+            window.addEventListener("load", () => {
+                setTimeout(() => {
+                    splash.style.display = "none";
+                }, 800);
+            });
 
-</div>
+        }
+    </script>
 
-<div class="chat-container">
-    <img src="favicon.png" alt="キャラクター" class="character-img">
-
-    <div class="speech-bubble">
-        他教科も随時追加予定です
-    </div>
-</div>
-<script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        // 'service-worker.js' を登録 (index.htmlからの相対パス)
-        navigator.serviceWorker.register('service-worker.js')
-          .then((registration) => {
-            console.log('Service Worker registered successfully:', registration.scope);
-          })
-          .catch((error) => {
-            console.log('Service Worker registration failed:', error);
-          });
-      });
-    }
-</script>
 </body>
 </html>
