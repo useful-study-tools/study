@@ -16,7 +16,8 @@ https://useful-study-tools.github.io/study/
 
 ## 📂 ページ構成
 
-### 📖 英単語帳ページ
+### 古典ページ&理科ページ
+また暇な時に解説作ります
 
 ### 📖 英単語帳ページ
 
@@ -29,8 +30,6 @@ https://useful-study-tools.github.io/study/
 | 10001 〜 11935 | `english-dictionary/vocabulary_data_10001.json` 〜 `_11901.json` | LEAP |
 
 > JSONファイル名の番号は単語帳の通し番号ではなく、ファイル内の1番始めの単語の管理用番号です（例：`vocabulary_data_3974.json`）。
-
----
 
 ### 🛠️ 便利ツールまとめページ
 
