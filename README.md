@@ -11,7 +11,6 @@ https://useful-study-tools.github.io/study/
 ## 📖 サイト概要
 
 このサイトでは、勉強ツールをカテゴリ別に作成しています。
-高校生に向けて、実際に使ってみて役立ったものだけを掲載しています。
 
 ---
 
@@ -19,15 +18,17 @@ https://useful-study-tools.github.io/study/
 
 ### 📖 英単語帳ページ
 
+### 📖 英単語帳ページ
+
 英単語を単語番号で引けるページです。複数の単語帳データをJSONファイルで管理しています。`/exercise.html` では単語の演習も行えます。
 
 | 単語番号 | JSONファイル番号 | 対応単語帳 |
 |---|---|---|
-| 1 〜 2000 | `english-dictionary/vocabulary_data_01.json` 〜 `_48.json` | 速読英単語 |
-| 3974 〜 4973 | `english-dictionary/vocabulary_data_51.json` 〜 `_60.json` | 東進上級英単語 |
-| 10001 〜 11935 | `english-dictionary/vocabulary_data_100.json` 〜 `_119.json` | LEAP |
+| 1 〜 2000 | `english-dictionary/vocabulary_data_1.json` 〜 `_？？.json` | 速読英単語 |
+| 3974 〜 4973 | `english-dictionary/vocabulary_data_3974.json` 〜 `4874.json` | 東進上級英単語 |
+| 10001 〜 11935 | `english-dictionary/vocabulary_data_10001.json` 〜 `_11901.json` | LEAP |
 
-> JSONファイル名の番号は単語帳の通し番号ではなく、ファイル管理用の番号です（例：`vocabulary_data_01.json`）。
+> JSONファイル名の番号は単語帳の通し番号ではなく、ファイル内の1番始めの単語の管理用番号です（例：`vocabulary_data_3974.json`）。
 
 ---
 
@@ -51,16 +52,16 @@ study/
 ├── english-dictionary/               # 英単語帳ページ
 │   ├── index.html
 │   ├── exercise.html                 # 演習ページ
-│   ├── vocabulary_data_01.json       # 速読英単語（単語番号 1〜）
-│   ├── vocabulary_data_02.json
+│   ├── vocabulary_data_1.json       # 速読英単語（単語番号 1〜）
+│   ├── vocabulary_data_17.json
 │   ├── ...
-│   ├── vocabulary_data_48.json       # 速読英単語（〜単語番号 2000）
-│   ├── vocabulary_data_51.json       # 東進上級英単語（単語番号 3974〜）
+│   ├── vocabulary_data_？？.json       # 速読英単語（〜単語番号 2000）
+│   ├── vocabulary_data_3974.json       # 東進上級英単語（単語番号 3974〜）
 │   ├── ...
-│   ├── vocabulary_data_60.json       # 東進上級英単語（〜単語番号 4973）
-│   ├── vocabulary_data_100.json      # LEAP（単語番号 10001〜）
+│   ├── vocabulary_data_4874.json       # 東進上級英単語（〜単語番号 4973）
+│   ├── vocabulary_data_10001.json      # LEAP（単語番号 10001〜）
 │   ├── ...
-│   └── vocabulary_data_119.json      # LEAP（〜単語番号 11935）
+│   └── vocabulary_data_11901.json      # LEAP（〜単語番号 11935）
 ├── tools/                            # 便利ツールまとめページ
 │   ├── index.html                    # ツール一覧
 │   ├── pdf.html                      # PDF編集ツール
@@ -116,4 +117,4 @@ open index.html
 
 ## 🕒 最終更新
 
-2026年2月27日
+2026年3月12日
