@@ -73,7 +73,8 @@ def generate_index():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>古文単語 データベース</title>
-    <link rel="icon" href="../image/logo.png">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/favicon.png">
     <style>
         :root {{ 
             --primary-color: #a33c3a; /* 茜色 - 古文らしい赤 */
