@@ -3,258 +3,135 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>16 電磁誘導（図解入り）</title>
 
 <style>
-html{
--webkit-text-size-adjust:100%;
+.train-info-container {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  color: #333;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
-body{
-font-family:sans-serif;
-background-color:#f4f7f9;
-margin:0;
-padding:20px;
-display:flex;
-flex-direction:column;
-align-items:center;
+.yellow-bg {
+  background-color: rgb(255, 255, 153);
+  font-weight: bold;
+  padding: 3px 8px 3px 10px;
+  display: inline-block;
+  margin-bottom: 5px;
+  border-left: 6px solid #ffa500;
 }
 
-.container{
-width:100%;
-max-width:900px;
-background-color:white;
-box-shadow:0 0 15px rgba(0,0,0,0.1);
-padding:30px;
-border-radius:12px;
+.history-group {
+  margin-bottom: 20px;
 }
 
-h1{
-color:#007bff;
-text-align:center;
-border-bottom:3px solid #007bff;
-padding-bottom:10px;
-margin-bottom:30px;
+.photo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  border: 1px solid #ccc;
 }
 
-h2{
-border-left:5px solid #0056b3;
-padding-left:10px;
-color:#0056b3;
-margin-top:30px;
+.image-wrapper {
+  text-align: center;
+  padding: 10px 0 !important;
 }
 
-h3{
-border-bottom:2px solid #ddd;
-padding-bottom:5px;
-color:#555;
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
 }
 
-ul{
-list-style-type:none;
-padding-left:0;
+.photo-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  width: 90px;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+  border: 1px solid #ccc;
 }
 
-li{
-margin-bottom:8px;
+.photo-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
 }
 
-.figure-box{
-background-color:#f9f9fc;
-border:1px solid #ccc;
-border-radius:10px;
-padding:20px;
-margin:20px 0;
-text-align:center;
-box-shadow:0 2px 6px rgba(0,0,0,0.05);
-}
-
-.figure-caption{
-font-style:italic;
-color:#555;
-margin-top:10px;
-}
-
-svg{
-max-width:100%;
-height:auto;
-}
-
-.btn-home{
-display:inline-block;
-padding:8px 20px;
-background-color:#6c757d;
-color:white;
-text-decoration:none;
-border-radius:20px;
-font-weight:bold;
-font-size:0.9rem;
-box-shadow:0 2px 4px rgba(0,0,0,0.1);
-transition:0.3s;
-margin-top:20px;
-}
-
-.btn-home:hover{
-background-color:#5a6268;
-transform:translateY(-1px);
-box-shadow:0 4px 8px rgba(0,0,0,0.15);
-}
-
-#backToTop{
-position:fixed;
-bottom:30px;
-right:30px;
-width:50px;
-height:50px;
-background-color:#007bff;
-color:white;
-border:none;
-border-radius:50%;
-cursor:pointer;
-box-shadow:0 4px 10px rgba(0,0,0,0.2);
-display:none;
-align-items:center;
-justify-content:center;
-font-size:24px;
-z-index:1000;
+.related-link {
+  margin-top: 20px;
+  font-size: 130%;
 }
 </style>
 </head>
 
 <body>
 
-<div class="container">
+<div class="train-info-container">
 
-<h1>16 電磁誘導</h1>
+  <div class="history-group">
+    <span class="yellow-bg">吹田新製配置</span><br>
+    2008年10月27日（川重・三菱）
+  </div>
 
-<h2>1. 電磁誘導の法則</h2>
+  <div class="history-group">
+    <span class="yellow-bg">塗装変更</span><br>
+    2026年1月8日
+  </div>
 
-<ul>
+  <table class="photo-table">
+    <tbody>
 
-<li><strong>電磁誘導</strong>：コイルを貫く磁場が時間とともに変化するとき、コイルに電流が流れ、起電力が生じる現象。</li>
+      <tr>
+        <td colspan="2" class="image-wrapper">
+          <a href="https://livedoor.blogimg.jp/kumapphoto/imgs/1/1/114bcf3e.jpg" title="IMG_20250715_1351" target="_blank">
+            <img src="https://livedoor.blogimg.jp/kumapphoto/imgs/1/1/114bcf3e-s.jpg"
+                 width="480"
+                 height="320"
+                 border="0"
+                 alt="IMG_20250715_1351"
+                 hspace="5"
+                 class="pict">
+          </a>
+        </td>
+      </tr>
 
-<li>
-<strong>磁束</strong>：
+      <tr>
+        <th>撮影日</th>
+        <td>2025年7月15日</td>
+      </tr>
 
-\[
-\Phi = BS
-\]
+      <tr>
+        <th>列車番号</th>
+        <td>5073レ</td>
+      </tr>
 
-</li>
+      <tr>
+        <th>撮影地</th>
+        <td>南草津</td>
+      </tr>
 
-<li>
-<strong>誘導起電力</strong>
+      <tr>
+        <th>備考</th>
+        <td>代走（所定岡山EF210）</td>
+      </tr>
 
-\[
-V=-\frac{\Delta\Phi}{\Delta t}
-\]
+    </tbody>
+  </table>
 
-</li>
-
-<li>
-N巻き
-
-\[
-V=-N\frac{\Delta\Phi}{\Delta t}
-\]
-
-</li>
-
-</ul>
-
-<h2>3. 自己誘導と相互誘導</h2>
-
-<ul>
-
-<li>
-
-\[
-V=-L\frac{\Delta I}{\Delta t}
-\]
-
-</li>
-
-<li>
-
-\[
-U=\frac12LI^2
-\]
-
-</li>
-
-</ul>
-
-<div class="figure-box">
-
-<h3 style="margin-top:0;">図2: 相互誘導のコイル対</h3>
-
-<svg width="450" height="200" viewBox="0 0 450 200" xmlns="http://www.w3.org/2000/svg">
-
-<rect width="450" height="200" fill="white"/>
-
-<path d="M80 80 Q100 60 120 80 Q140 100 160 80 Q180 60 200 80 Q220 100 240 80 Q260 60 280 80"
-stroke="#00a" stroke-width="3" fill="none"/>
-
-<path d="M80 120 Q100 100 120 120 Q140 140 160 120 Q180 100 200 120 Q220 140 240 120 Q260 100 280 120"
-stroke="#00a" stroke-width="3" fill="none"/>
-
-<path d="M320 80 Q340 60 360 80 Q380 100 400 80 Q420 60 440 80"
-stroke="#a00" stroke-width="3" fill="none"/>
-
-<path d="M320 120 Q340 100 360 120 Q380 140 400 120 Q420 100 440 120"
-stroke="#a00" stroke-width="3" fill="none"/>
-
-<!-- ★変更① SVG内のTeXを通常文字に変更 -->
-
-<text x="250" y="180" fill="#000" font-size="16">
-V₂ = −M ΔI₁ / Δt
-</text>
-
-</svg>
-
-<div class="figure-caption">
-コイル1の電流変化がコイル2に起電力を誘導
-</div>
+  <div class="related-link">
+    関連ページ：
+    <a href="https://kumaphoto.doorblog.jp/archives/EF210.html" target="_self">
+      EF210配置一覧
+    </a>
+  </div>
 
 </div>
 
-</div>
-
-<button id="backToTop"
-onclick="window.scrollTo({top:0,behavior:'smooth'});">↑</button>
-
-<script>
-
-window.addEventListener('scroll',function(){
-
-var btn=document.getElementById('backToTop');
-
-if(window.pageYOffset>300){
-btn.style.display='flex';
-}
-else{
-btn.style.display='none';
-}
-
-});
-
-document.getElementById('backToTop').style.display='none';
-
-</script>
-
-
-<!-- ★変更② MathJax設定追加 -->
-
-<script>
-window.MathJax = {
-tex:{
-inlineMath:[['\\(','\\)']],
-displayMath:[['\\[','\\]']]
-}
-};
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<br><br><br>
 
 </body>
 </html>
