@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>画像背景切り抜きツール（拡張版）</title>
+    <link rel="icon" href="../image/logo.png">
+
+    <!-- オリジナルのスクリプト群は残しています（使わないものもありますが削除不要とのことだったため） -->
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.0/jszip.min.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --chapter-color: #6c757d;
+            --bg-color: #f4f7f9;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        /* ===== ボタン ===== */
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 0 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+        }
+        .btn-home {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .btn-save { background: var(--primary-color); color: white; }
+        .btn-undo { background: #f0ad4e; color: white; }
+
+        .btn-undo:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .btn-delete {
+            background: #ff4d4d;
+            color: white;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 5px;
+            font-size: 12px;
+            padding: 5px;
+        }
+
+        /* ===== PDF UI (画像用にそのまま流用) ===== */
+        .upload-section {
+            border: 2px dashed var(--primary-color);
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        #pageContainer {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 15px;
+        }
+
+        .page-card {
+            background: white;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: relative;
+            touch-action: none;
+        }
+
+        .page-card canvas {
+            width: 100%;
+            border: 1px solid #eee;
+            pointer-events: none;
+        }
+
+        .drag-handle {
+            background: #eee;
+            text-align: center;
+            cursor: grab;
+            padding: 5px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #666;
+            font-size: 18px;
+        }
+
+        .controls {
+            position: sticky;
+            top: 10px;
+            z-index: 100;
+            text-align: center;
+            margin-bottom: 20px;
+            display: none;
+            background: rgba(240,242,245,0.9);
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .sortable-ghost {
+            opacity: 0.3;
+        }
+
+        /* 色プレビュー */
+        .color-preview {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            margin-left: 8px;
+        }
+
+        .control-row {
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            gap:10px;
+            flex-wrap:wrap;
+        }
+
+        .small-label {
+            font-size:12px;
+            color:#444;
+        }
+
+        input[type="range"] {
+            vertical-align: middle;
+        }
+
+        /* 進捗バー */
+        .progress {
+            width: 240px;
+            height: 10px;
+            background: #e9ecef;
+            border-radius: 6px;
+            overflow: hidden;
+            display:inline-block;
+            vertical-align:middle;
+            margin-left:8px;
+        }
+        .progress > i {
+            display:block;
+            height:100%;
+            width:0%;
+            background: var(--primary-color);
+            transition: width 0.2s linear;
+        }
+
+        /* モーダル（編集用） */
+        .modal {
+            position: fixed;
+            inset: 0;
+            display: none;
+            align-items:center;
+            justify-content:center;
+            background: rgba(0,0,0,0.5);
+            z-index: 9999;
+        }
+        .modal .dialog {
+            background: white;
+            max-width: 95%;
+            max-height: 95%;
+            padding: 12px;
+            border-radius: 8px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+            display:flex;
+            flex-direction:column;
+            gap:8px;
+            overflow:auto;
+        }
+        .editor-canvas-wrap {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:#f8f9fa;
+            padding:8px;
+            border-radius:6px;
+            border:1px solid #eee;
+        }
+        .editor-tools {
+            display:flex;
+            align-items:center;
+            gap:8px;
+            flex-wrap:wrap;
+        }
+        .mode-indicator {
+            padding:6px 10px;
+            border-radius:20px;
+            background:#e9ecef;
+            font-size:12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="btn btn-home">便利ツールへ戻る</a>
+
+        <div class="upload-section">
+            <h3>画像背景切り抜きツール（拡張版）</h3>
+            <p style="font-size:12px;color:#666;">
+                複数の画像を選択して背景を透明化（切り抜き）できます。サムネイルをクリックして背景色を手動で選択できます。編集ツールでブラシ消し/復元やフェザーを調整できます。
+            </p>
+            <input type="file" id="pdfInput" accept="image/*" multiple>
+        </div>
+
+        <div class="controls" id="controls">
+            <div class="control-row" style="width:100%;margin-bottom:8px;">
+                <button class="btn btn-undo" id="undoBtn" disabled>↩ 元に戻す</button>
+                <button class="btn btn-save" id="downloadZipBtn">画像を切り抜いてZIPでダウンロード</button>
+                <button class="btn btn-save" id="downloadSingleBtn">単一の合成画像でダウンロード</button>
+
+                <div style="display:inline-block;margin-left:8px;">
+                    <span class="small-label">しきい値</span>
+                    <input type="range" id="thresholdRange" min="10" max="200" value="80">
+                    <span id="thresholdVal" class="small-label">80</span>
+                </div>
+
+                <div style="display:inline-block;margin-left:8px;">
+                    <span class="small-label">フェザー(px)</span>
+                    <input type="range" id="featherRange" min="0" max="60" value="6">
+                    <span id="featherVal" class="small-label">6</span>
+                </div>
+
+                <button class="btn" id="autoSampleBtn" style="background:#e9ecef;color:#333;border-radius:20px;padding:6px 12px;">自動サンプル（角平均）</button>
+                <div style="display:flex;align-items:center;">
+                    <span class="small-label">サンプル色</span>
+                    <div id="sampleColorPreview" class="color-preview" title="背景サンプル色"></div>
+                </div>
+
+                <div class="progress" id="progressBar" style="display:none;">
+                    <i></i>
+                </div>
+                <button class="btn" id="cancelBtn" style="display:none;background:#ffc9c9;color:#333;border-radius:20px;padding:6px 12px;">処理キャンセル</button>
+            </div>
+            <div style="font-size:12px;color:#666;">※サムネイルをクリックすると、その位置の色を背景色としてサンプルします。編集でブラシ操作可能。</div>
+        </div>
+
+        <div id="pageContainer"></div>
+    </div>
+
+    <!-- 編集モーダル -->
+    <div class="modal" id="editorModal">
+        <div class="dialog" role="dialog" aria-modal="true">
+            <div class="editor-tools">
+                <button id="closeEditor" class="btn">閉じる</button>
+                <div class="mode-indicator" id="brushModeLabel">モード: 消す</div>
+                <label class="small-label">ブラシサイズ</label>
+                <input id="brushSize" type="range" min="4" max="200" value="48">
+                <label class="small-label">ブラシ強さ</label>
+                <input id="brushStrength" type="range" min="1" max="255" value="255">
+                <button id="toggleMode" class="btn" style="background:#e9ecef;color:#333;">消す/復元 切替</button>
+                <button id="resetMask" class="btn" style="background:#f8d7da;color:#333;">マスクを初期状態に</button>
+                <button id="saveMask" class="btn btn-save">保存</button>
+            </div>
+            <div class="editor-canvas-wrap" style="margin-top:8px;">
+                <!-- エディタ用キャンバス（ここに画像とマスクオーバーレイを描画） -->
+                <div style="position:relative;">
+                    <canvas id="editorImageCanvas" style="max-width:86vw;max-height:72vh;"></canvas>
+                    <canvas id="editorOverlayCanvas" style="position:absolute;left:0;top:0;pointer-events:none;"></canvas>
+                </div>
+            </div>
+            <div style="font-size:12px;color:#666;margin-top:6px;">※赤は「消える（透明）」部分のプレビューです。ブラシで修正して「保存」してください。</div>
+        </div>
+    </div>
+
+    <script>
+        // elements
+        const pageContainer = document.getElementById('pageContainer');
+        const controls = document.getElementById('controls');
+        const undoBtn = document.getElementById('undoBtn');
+        const downloadZipBtn = document.getElementById('downloadZipBtn');
+        const downloadSingleBtn = document.getElementById('downloadSingleBtn');
+        const thresholdRange = document.getElementById('thresholdRange');
+        const thresholdVal = document.getElementById('thresholdVal');
+        const featherRange = document.getElementById('featherRange');
+        const featherVal = document.getElementById('featherVal');
+        const autoSampleBtn = document.getElementById('autoSampleBtn');
+        const sampleColorPreview = document.getElementById('sampleColorPreview');
+        const progressBar = document.getElementById('progressBar');
+        const progressBarInner = progressBar.querySelector('i');
+        const cancelBtn = document.getElementById('cancelBtn');
+
+        // editor modal elements
+        const editorModal = document.getElementById('editorModal');
+        const editorImageCanvas = document.getElementById('editorImageCanvas');
+        const editorOverlayCanvas = document.getElementById('editorOverlayCanvas');
+        const closeEditor = document.getElementById('closeEditor');
+        const brushSizeEl = document.getElementById('brushSize');
+        const brushStrengthEl = document.getElementById('brushStrength');
+        const toggleMode = document.getElementById('toggleMode');
+        const saveMaskBtn = document.getElementById('saveMask');
+        const resetMaskBtn = document.getElementById('resetMask');
+        const brushModeLabel = document.getElementById('brushModeLabel');
+
+        // state
+        let allPageData = {}; // id -> { image, canvas(orig), mask(Uint8ClampedArray), fileName, bgColor:{r,g,b} }
+        let historyStack = [];
+        let currentEditorId = null;
+        let isBrushEraseMode = true;
+        let isDrawing = false;
+        let cancelFlag = false;
+
+        // keep original Sortable
+        new Sortable(pageContainer, {
+            handle: '.drag-handle',
+            animation: 150,
+            ghostClass: 'sortable-ghost',
+            onEnd: () => saveState()
+        });
+
+        function saveState() {
+            const currentOrder = [...pageContainer.querySelectorAll('.page-card')]
+                .map(c => c.dataset.id);
+            if (historyStack.length > 0 && JSON.stringify(historyStack[historyStack.length - 1]) === JSON.stringify(currentOrder)) return;
+            historyStack.push(currentOrder);
+            if (historyStack.length > 50) historyStack.shift();
+            undoBtn.disabled = historyStack.length <= 1;
+        }
+
+        document.getElementById('pdfInput').addEventListener('change', async (e) => {
+            const files = Array.from(e.target.files);
+            for (const file of files) {
+                if (!file.type.startsWith('image/')) continue;
+                const arrayBuffer = await file.arrayBuffer();
+                const blob = new Blob([arrayBuffer], { type: file.type });
+                const url = URL.createObjectURL(blob);
+                await new Promise((resolve) => {
+                    const img = new Image();
+                    img.onload = () => {
+                        const canvas = document.createElement('canvas');
+                        canvas.width = img.naturalWidth;
+                        canvas.height = img.naturalHeight;
+                        const ctx = canvas.getContext('2d');
+                        ctx.drawImage(img, 0, 0);
+                        const pageId = 'id-' + Math.random().toString(36).substr(2, 9);
+                        const mask = new Uint8ClampedArray(canvas.width * canvas.height); // 0..255
+                        // initialize mask to opaque (255)
+                        mask.fill(255);
+                        allPageData[pageId] = {
+                            image: img,
+                            canvas: canvas,
+                            mask: mask,
+                            fileName: file.name,
+                            bgColor: null
+                        };
+                        addPageToDOM(pageId);
+                        URL.revokeObjectURL(url);
+                        resolve();
+                    };
+                    img.onerror = () => resolve();
+                    img.src = url;
+                });
+            }
+            if (Object.keys(allPageData).length > 0) {
+                controls.style.display = 'block';
+                saveState();
+            }
+        });
+
+        function addPageToDOM(id) {
+            const data = allPageData[id];
+            const card = document.createElement('div');
+            card.className = 'page-card';
+            card.dataset.id = id;
+            const labelNum = Object.keys(allPageData).indexOf(id) + 1;
+            card.innerHTML = `
+                <div class="drag-handle">⠿</div>
+                <div style="font-size:10px;margin-bottom:5px;color:#666;">Img.${labelNum}</div>
+                <div style="display:flex;gap:6px;flex-direction:column;">
+                    <button class="btn" id="edit_${id}" style="padding:6px 8px;">編集</button>
+                    <button class="btn btn-delete" id="delete_${id}">削除</button>
+                </div>
+            `;
+
+            // create thumbnail
+            const maxThumbWidth = 300;
+            const scale = Math.min(1, maxThumbWidth / data.canvas.width);
+            const thumbCanvas = document.createElement('canvas');
+            thumbCanvas.width = Math.max(120, Math.round(data.canvas.width * scale));
+            thumbCanvas.height = Math.max(80, Math.round(data.canvas.height * scale));
+            const tctx = thumbCanvas.getContext('2d');
+            tctx.drawImage(data.canvas, 0, 0, thumbCanvas.width, thumbCanvas.height);
+
+            // click to sample bg color
+            thumbCanvas.style.cursor = 'crosshair';
+            thumbCanvas.addEventListener('click', (ev) => {
+                const rect = thumbCanvas.getBoundingClientRect();
+                const x = Math.floor((ev.clientX - rect.left) * (data.canvas.width / thumbCanvas.width));
+                const y = Math.floor((ev.clientY - rect.top) * (data.canvas.height / thumbCanvas.height));
+                const ctx = data.canvas.getContext('2d');
+                const pixel = ctx.getImageData(x, y, 1, 1).data;
+                data.bgColor = { r: pixel[0], g: pixel[1], b: pixel[2] };
+                updateSamplePreview(data.bgColor);
+            });
+
+            card.prepend(thumbCanvas);
+            pageContainer.appendChild(card);
+
+            // attach handlers
+            document.getElementById(`edit_${id}`).addEventListener('click', () => openEditor(id));
+            document.getElementById(`delete_${id}`).addEventListener('click', () => {
+                card.remove();
+                saveState();
+            });
+        }
+
+        undoBtn.addEventListener('click', () => {
+            if (historyStack.length <= 1) return;
+            historyStack.pop();
+            const previousOrder = historyStack[historyStack.length - 1];
+            pageContainer.innerHTML = '';
+            previousOrder.forEach(id => {
+                if (allPageData[id]) addPageToDOM(id);
+            });
+            undoBtn.disabled = historyStack.length <= 1;
+        });
+
+        // UI updates
+        thresholdRange.addEventListener('input', () => thresholdVal.textContent = thresholdRange.value);
+        featherRange.addEventListener('input', () => featherVal.textContent = featherRange.value);
+
+        autoSampleBtn.addEventListener('click', () => {
+            const ids = [...pageContainer.querySelectorAll('.page-card')].map(c => c.dataset.id);
+            if (ids.length === 0) return;
+            ids.forEach(id => {
+                const data = allPageData[id];
+                data.bgColor = sampleCornerAverage(data.canvas);
+            });
+            const first = allPageData[ids[0]];
+            if (first && first.bgColor) updateSamplePreview(first.bgColor);
+            alert('各画像の四隅平均色をサンプルしました。必要なら個別にサムネイルをクリックして色を変更してください。');
+        });
+
+        function updateSamplePreview(color) {
+            if (!color) {
+                sampleColorPreview.style.background = 'transparent';
+                sampleColorPreview.title = '未設定';
+            } else {
+                sampleColorPreview.style.background = `rgb(${color.r},${color.g},${color.b})`;
+                sampleColorPreview.title = `rgb(${color.r},${color.g},${color.b})`;
+            }
+        }
+
+        function sampleCornerAverage(canvas) {
+            const ctx = canvas.getContext('2d');
+            const w = canvas.width;
+            const h = canvas.height;
+            const sampleSize = Math.max(4, Math.floor(Math.min(w, h) * 0.02)); // small area
+            const areas = [
+                { x: 0, y: 0 },
+                { x: Math.max(0, w - sampleSize), y: 0 },
+                { x: 0, y: Math.max(0, h - sampleSize) },
+                { x: Math.max(0, w - sampleSize), y: Math.max(0, h - sampleSize) }
+            ];
+            let r = 0, g = 0, b = 0, cnt = 0;
+            for (const a of areas) {
+                try {
+                    const imgd = ctx.getImageData(a.x, a.y, sampleSize, sampleSize).data;
+                    for (let i = 0; i < imgd.length; i += 4) {
+                        r += imgd[i]; g += imgd[i + 1]; b += imgd[i + 2]; cnt++;
+                    }
+                } catch (e) {
+                    // ignore
+                }
+            }
+            if (cnt === 0) return { r: 255, g: 255, b: 255 };
+            return { r: Math.round(r / cnt), g: Math.round(g / cnt), b: Math.round(b / cnt) };
+        }
+
+        function colorDistanceSq(c1, c2) {
+            const dr = c1.r - c2.r, dg = c1.g - c2.g, db = c1.b - c2.b;
+            return dr * dr + dg * dg + db * db;
+        }
+
+        // initialize mask by color threshold
+        function applyInitialMask(data, threshold) {
+            const w = data.canvas.width, h = data.canvas.height;
+            const ctx = data.canvas.getContext('2d');
+            const imgd = ctx.getImageData(0, 0, w, h).data;
+            const mask = data.mask;
+            const bg = data.bgColor || sampleCornerAverage(data.canvas);
+            const thrSq = threshold * threshold;
+            let p = 0;
+            for (let i = 0; i < imgd.length; i += 4) {
+                const px = { r: imgd[i], g: imgd[i + 1], b: imgd[i + 2] };
+                mask[p++] = colorDistanceSq(px, bg) <= thrSq ? 0 : 255;
+            }
+        }
+
+        // apply feathering: blur mask and compose alpha
+        async function composeWithFeather(data, featherPx) {
+            const w = data.canvas.width, h = data.canvas.height;
+            const srcCtx = data.canvas.getContext('2d');
+            const srcImg = srcCtx.getImageData(0, 0, w, h);
+
+            // create maskImageData from data.mask
+            const maskCanvas = document.createElement('canvas');
+            maskCanvas.width = w; maskCanvas.height = h;
+            const mctx = maskCanvas.getContext('2d');
+            const maskImage = mctx.createImageData(w, h);
+            for (let i = 0, p = 0; p < data.mask.length; p++, i += 4) {
+                const v = data.mask[p];
+                maskImage.data[i] = v;
+                maskImage.data[i + 1] = v;
+                maskImage.data[i + 2] = v;
+                maskImage.data[i + 3] = 255;
+            }
+            mctx.putImageData(maskImage, 0, 0);
+
+            // blur maskCanvas by drawing to another canvas with ctx.filter
+            const blurCanvas = document.createElement('canvas');
+            blurCanvas.width = w; blurCanvas.height = h;
+            const bctx = blurCanvas.getContext('2d');
+            if (featherPx > 0) bctx.filter = `blur(${featherPx}px)`; else bctx.filter = 'none';
+            bctx.drawImage(maskCanvas, 0, 0);
+
+            // get blurred mask alpha
+            const blurred = bctx.getImageData(0, 0, w, h).data;
+
+            // create output canvas
+            const outCanvas = document.createElement('canvas');
+            outCanvas.width = w; outCanvas.height = h;
+            const outCtx = outCanvas.getContext('2d');
+            const outImg = outCtx.createImageData(w, h);
+
+            for (let i = 0, p = 0; p < data.mask.length; p++, i += 4) {
+                outImg.data[i] = srcImg.data[i];
+                outImg.data[i + 1] = srcImg.data[i + 1];
+                outImg.data[i + 2] = srcImg.data[i + 2];
+                // blurred mask's red channel used as alpha (0..255). If mask before blur was 0->background, 255->fg then after blur it's soft
+                outImg.data[i + 3] = blurred[i]; // use blurred red channel
+            }
+            outCtx.putImageData(outImg, 0, 0);
+            return outCanvas;
+        }
+
+        // batch processing with progress & cancel support
+        async function processAllImages(progressCallback, abortSignal) {
+            const ids = [...pageContainer.querySelectorAll('.page-card')].map(c => c.dataset.id);
+            const threshold = Number(thresholdRange.value);
+            const feather = Number(featherRange.value);
+            const results = [];
+            let i = 0;
+            for (const id of ids) {
+                if (abortSignal.cancelled) throw new Error('cancelled');
+                const data = allPageData[id];
+                // compute initial mask if not yet applied or user reset
+                applyInitialMask(data, threshold);
+                // compose with feather
+                const outCanvas = await composeWithFeather(data, feather);
+                results.push({ id, canvas: outCanvas, fileName: data.fileName });
+                i++;
+                progressCallback(i / ids.length);
+                // allow the UI to breathe
+                await new Promise(r => setTimeout(r, 10));
+            }
+            return results;
+        }
+
+        // download as ZIP
+        downloadZipBtn.addEventListener('click', async () => {
+            const cards = [...pageContainer.querySelectorAll('.page-card')];
+            if (cards.length === 0) {
+                alert('処理する画像がありません。');
+                return;
+            }
+            cancelFlag = false;
+            progressBar.style.display = 'inline-block';
+            progressBarInner.style.width = '0%';
+            cancelBtn.style.display = 'inline-block';
+            cancelBtn.disabled = false;
+            const abortSignal = { cancelled: false };
+            cancelBtn.onclick = () => { abortSignal.cancelled = true; cancelBtn.disabled = true; };
+
+            try {
+                const zip = new JSZip();
+                const folder = zip.folder('trimmed_images');
+                const results = await processAllImages(p => { progressBarInner.style.width = `${Math.round(p * 100)}%`; }, abortSignal);
+
+                for (const r of results) {
+                    const blob = await new Promise(res => r.canvas.toBlob(res, 'image/png'));
+                    const baseName = r.fileName ? r.fileName.replace(/\.[^/.]+$/, "") : r.id;
+                    folder.file(baseName + '_trimmed.png', blob);
+                }
+                const content = await zip.generateAsync({ type: 'blob' });
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(content);
+                link.download = 'trimmed_images.zip';
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
+                alert('ダウンロードを開始しました。');
+            } catch (e) {
+                if (e.message === 'cancelled') alert('処理をキャンセルしました。');
+                else console.error(e), alert('処理中にエラーが発生しました。');
+            } finally {
+                progressBar.style.display = 'none';
+                progressBarInner.style.width = '0%';
+                cancelBtn.style.display = 'none';
+                cancelBtn.onclick = null;
+            }
+        });
+
+        // download as single composite (vertical stack)
+        downloadSingleBtn.addEventListener('click', async () => {
+            const cards = [...pageContainer.querySelectorAll('.page-card')];
+            if (cards.length === 0) {
+                alert('処理する画像がありません。');
+                return;
+            }
+            cancelFlag = false;
+            progressBar.style.display = 'inline-block';
+            progressBarInner.style.width = '0%';
+            cancelBtn.style.display = 'inline-block';
+            cancelBtn.disabled = false;
+            const abortSignal = { cancelled: false };
+            cancelBtn.onclick = () => { abortSignal.cancelled = true; cancelBtn.disabled = true; };
+
+            try {
+                const results = await processAllImages(p => { progressBarInner.style.width = `${Math.round(p * 100)}%`; }, abortSignal);
+                // calculate total width (max) and sum height + padding
+                const padding = 12;
+                let totalH = padding;
+                let maxW = 0;
+                for (const r of results) {
+                    maxW = Math.max(maxW, r.canvas.width);
+                    totalH += r.canvas.height + padding;
+                }
+                // create composite canvas
+                const comp = document.createElement('canvas');
+                comp.width = maxW;
+                comp.height = totalH;
+                const cctx = comp.getContext('2d');
+                cctx.fillStyle = 'rgba(0,0,0,0)';
+                cctx.fillRect(0, 0, comp.width, comp.height);
+                // draw each centered horizontally
+                let y = padding;
+                for (const r of results) {
+                    const x = Math.round((maxW - r.canvas.width) / 2);
+                    cctx.drawImage(r.canvas, x, y);
+                    y += r.canvas.height + padding;
+                }
+                const blob = await new Promise(res => comp.toBlob(res, 'image/png'));
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = 'composite_trimmed.png';
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
+                alert('合成画像のダウンロードを開始しました。');
+            } catch (e) {
+                if (e.message === 'cancelled') alert('処理をキャンセルしました。');
+                else console.error(e), alert('処理中にエラーが発生しました。');
+            } finally {
+                progressBar.style.display = 'none';
+                progressBarInner.style.width = '0%';
+                cancelBtn.style.display = 'none';
+                cancelBtn.onclick = null;
+            }
+        });
+
+        // ---------- Editor (ブラシ) ----------
+        function openEditor(id) {
+            const data = allPageData[id];
+            if (!data) return;
+            currentEditorId = id;
+            // prepare canvases sized to fit modal but keep image pixel data for mask editing
+            const maxW = Math.min(window.innerWidth * 0.86, data.canvas.width);
+            const maxH = Math.min(window.innerHeight * 0.72, data.canvas.height);
+            // compute scale to fit
+            const scale = Math.min(maxW / data.canvas.width, maxH / data.canvas.height, 1);
+            const w = Math.round(data.canvas.width * scale);
+            const h = Math.round(data.canvas.height * scale);
+            editorImageCanvas.width = w; editorImageCanvas.height = h;
+            editorOverlayCanvas.width = w; editorOverlayCanvas.height = h;
+            editorImageCanvas.style.width = w + 'px'; editorImageCanvas.style.height = h + 'px';
+            editorOverlayCanvas.style.width = w + 'px'; editorOverlayCanvas.style.height = h + 'px';
+            // draw image scaled
+            const ictx = editorImageCanvas.getContext('2d');
+            ictx.clearRect(0, 0, w, h);
+            ictx.drawImage(data.canvas, 0, 0, data.canvas.width, data.canvas.height, 0, 0, w, h);
+            // draw overlay preview (red for transparent areas)
+            drawEditorOverlay();
+
+            // enable pointer events on overlay canvas for drawing
+            editorOverlayCanvas.style.pointerEvents = 'auto';
+            editorOverlayCanvas.addEventListener('pointerdown', onPointerDown);
+            window.addEventListener('pointerup', onPointerUp);
+            editorOverlayCanvas.addEventListener('pointermove', onPointerMove);
+
+            // set UI
+            isBrushEraseMode = true;
+            brushModeLabel.textContent = 'モード: 消す';
+            editorModal.style.display = 'flex';
+        }
+
+        function closeEditorModal() {
+            // remove listeners
+            editorOverlayCanvas.style.pointerEvents = 'none';
+            editorOverlayCanvas.removeEventListener('pointerdown', onPointerDown);
+            window.removeEventListener('pointerup', onPointerUp);
+            editorOverlayCanvas.removeEventListener('pointermove', onPointerMove);
+            editorModal.style.display = 'none';
+            currentEditorId = null;
+        }
+
+        closeEditor.addEventListener('click', closeEditorModal);
+        toggleMode.addEventListener('click', () => {
+            isBrushEraseMode = !isBrushEraseMode;
+            brushModeLabel.textContent = isBrushEraseMode ? 'モード: 消す' : 'モード: 復元';
+        });
+
+        // drawing variables
+        function getEditorScale() {
+            const id = currentEditorId;
+            if (!id) return 1;
+            const data = allPageData[id];
+            const scale = editorImageCanvas.width / data.canvas.width;
+            return scale;
+        }
+
+        function onPointerDown(e) {
+            isDrawing = true;
+            editorOverlayCanvas.setPointerCapture(e.pointerId);
+            drawBrushStroke(e);
+        }
+        function onPointerUp(e) {
+            isDrawing = false;
+            if (editorOverlayCanvas.releasePointerCapture) try { editorOverlayCanvas.releasePointerCapture(e.pointerId); } catch {}
+        }
+        function onPointerMove(e) {
+            if (!isDrawing) return;
+            drawBrushStroke(e);
+        }
+
+        function drawBrushStroke(e) {
+            const id = currentEditorId;
+            if (!id) return;
+            const data = allPageData[id];
+            const rect = editorImageCanvas.getBoundingClientRect();
+            const scale = editorImageCanvas.width / data.canvas.width;
+            const x = Math.floor((e.clientX - rect.left) / scale);
+            const y = Math.floor((e.clientY - rect.top) / scale);
+            const brushSize = Number(brushSizeEl.value);
+            const strength = Number(brushStrengthEl.value); // 1..255
+            applyBrushToMask(data, x, y, brushSize, strength, isBrushEraseMode ? 0 : 255);
+            drawEditorOverlay(); // update preview
+        }
+
+        function applyBrushToMask(data, cx, cy, size, strength, targetValue) {
+            const w = data.canvas.width, h = data.canvas.height;
+            const r = Math.ceil(size / 2);
+            const minX = Math.max(0, cx - r);
+            const maxX = Math.min(w - 1, cx + r);
+            const minY = Math.max(0, cy - r);
+            const maxY = Math.min(h - 1, cy + r);
+            const ss = size / 2;
+            for (let yy = minY; yy <= maxY; yy++) {
+                for (let xx = minX; xx <= maxX; xx++) {
+                    const dx = xx - cx, dy = yy - cy;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist > ss) continue;
+                    const falloff = 1 - (dist / ss); // linear
+                    const idx = yy * w + xx;
+                    const prev = data.mask[idx];
+                    // targetValue 0 or 255, interpolate by strength*falloff
+                    const delta = Math.round((targetValue - prev) * (strength / 255) * falloff);
+                    let next = prev + delta;
+                    if (next < 0) next = 0;
+                    if (next > 255) next = 255;
+                    data.mask[idx] = next;
+                }
+            }
+        }
+
+        function drawEditorOverlay() {
+            const id = currentEditorId;
+            if (!id) return;
+            const data = allPageData[id];
+            const scale = editorImageCanvas.width / data.canvas.width;
+            const octx = editorOverlayCanvas.getContext('2d');
+            octx.clearRect(0, 0, editorOverlayCanvas.width, editorOverlayCanvas.height);
+            // create overlay image that marks transparent areas red with alpha
+            const w = data.canvas.width, h = data.canvas.height;
+            const overlay = octx.createImageData(w, h);
+            for (let p = 0, i = 0; p < data.mask.length; p++, i += 4) {
+                const v = data.mask[p]; // 0..255, where 0 = transparent
+                // overlay red with alpha = (1 - v/255)*0.7
+                overlay.data[i] = 255;
+                overlay.data[i + 1] = 0;
+                overlay.data[i + 2] = 0;
+                overlay.data[i + 3] = Math.round((1 - v / 255) * 180);
+            }
+            // draw scaled
+            const tmp = document.createElement('canvas');
+            tmp.width = w; tmp.height = h;
+            tmp.getContext('2d').putImageData(overlay, 0, 0);
+            octx.save();
+            octx.globalCompositeOperation = 'source-over';
+            octx.drawImage(tmp, 0, 0, editorOverlayCanvas.width, editorOverlayCanvas.height);
+            octx.restore();
+        }
+
+        // reset mask to initial (recompute from threshold)
+        resetMaskBtn.addEventListener('click', () => {
+            if (!currentEditorId) return;
+            const data = allPageData[currentEditorId];
+            applyInitialMask(data, Number(thresholdRange.value));
+            drawEditorOverlay();
+            alert('マスクを自動しきい値で再生成しました。必要ならブラシで調整してください。');
+        });
+
+        // save mask back and re-render thumbnail (no change to canvas image)
+        saveMaskBtn.addEventListener('click', () => {
+            if (!currentEditorId) return;
+            // simply close editor; mask is stored in data.mask already
+            closeEditorModal();
+            alert('マスクを保存しました（サムネイル表示はそのまま）。ダウンロード時に切り抜きとフェザーが適用されます。');
+        });
+
+        // ---------- end editor ----------
+
+        // helper: apply brush preview & finalization covered above
+
+        // helper: convert hex?
+        // nothing needed
+
+        // initial helpers: none
+
+        // small UX: when clicking outside modal close? keep explicit close only
+
+        // prevent context menu on overlay
+        editorOverlayCanvas.addEventListener('contextmenu', (e) => e.preventDefault());
+
+        // final: small safety for unload
+        window.addEventListener('beforeunload', (e) => {
+            if (Object.keys(allPageData).length > 0) {
+                // no custom prompt to avoid being intrusive; skip
+            }
+        });
+
+        // End of script
+    </script>
+</body>
+</html>
