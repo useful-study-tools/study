@@ -51,6 +51,51 @@
       ]
     },
     {
+      "number": 3992,
+      "word": "encounter",
+      "pos": "動詞、名詞",
+      "meaning": "（偶然）〜に出会う、（困難などに）直面する、遭遇、出会い",
+      "nuance": "予期せぬ出会いや、避けては通れない問題にぶつかるというニュアンスです。日常的な「会う」よりも劇的、あるいは深刻な場面で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（動詞）",
+          "examples": [
+            {
+              "en": "We encountered a number of difficulties during our research.",
+              "ja": "私たちは研究の過程で多くの困難に直面した。",
+              "highlight": "encountered"
+            },
+            {
+              "en": "The pilot encountered severe turbulence over the ocean.",
+              "ja": "パイロットは海上で激しい乱気流に遭遇した。",
+              "highlight": "encountered"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞）",
+          "examples": [
+            {
+              "en": "This was my first close encounter with a wild bear.",
+              "ja": "これが私にとって野生のクマとの初めての接近遭遇だった。",
+              "highlight": "encounter"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in-（中に）+ contra（反対側に）→ 相手と向かい合う状態になる",
+      "synonyms": [
+        {"word": "confront", "trans": "直面する"},
+        {"word": "run into", "trans": "偶然会う"},
+        {"word": "meet with", "trans": "（困難などに）遭遇する"}
+      ],
+      "antonyms": [
+        {"word": "avoid", "trans": "避ける"},
+        {"word": "evade", "trans": "回避する"}
+      ],
+      "related": []
+    },
+    {
       "number": 4001,
       "word": "capital",
       "pos": "名詞、形容詞",
@@ -191,6 +236,50 @@
         {"word": "settlement", "trans": "和解、解決"}
       ],
       "related": []
+    },
+    {
+      "number": 4008,
+      "word": "emerge",
+      "pos": "動詞",
+      "meaning": "現れる、明らかになる、（苦境から）抜け出す",
+      "nuance": "「中から外へ出てくる」が核心。隠れていたものが姿を現したり、事実が判明したり、あるいは困難な状況を脱する際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The sun emerged from behind the clouds.",
+              "ja": "太陽が雲の間から現れた。",
+              "highlight": "emerged"
+            },
+            {
+              "en": "New evidence has emerged that could change the trial's outcome.",
+              "ja": "裁判の結果を変えうる新しい証拠が明らかになった。",
+              "highlight": "emerged"
+            },
+            {
+              "en": "The country is slowly emerging from the economic crisis.",
+              "ja": "その国は経済危機から徐々に抜け出しつつある。",
+              "highlight": "emerging"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 e-（外へ）+ mergere（浸る、沈む）→ 水の中から浮上する",
+      "synonyms": [
+        {"word": "appear", "trans": "現れる"},
+        {"word": "surface", "trans": "表面化する"},
+        {"word": "materialize", "trans": "具体化する、現れる"}
+      ],
+      "antonyms": [
+        {"word": "disappear", "trans": "消える"},
+        {"word": "vanish", "trans": "見えなくなる"},
+        {"word": "submerge", "trans": "潜る、沈む"}
+      ],
+      "related": [
+        {"word": "emergence", "trans": "名詞：出現"},
+        {"word": "emergency", "trans": "名詞：緊急事態（突然現れる事態）"}
+      ]
     },
     {
       "number": 4009,
