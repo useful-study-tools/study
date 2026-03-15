@@ -232,6 +232,44 @@
       ]
     },
     {
+      "number": 4196,
+      "word": "forbid",
+      "pos": "動詞",
+      "meaning": "〜を禁止する、許さない、妨げる",
+      "nuance": "権威を持って「〜してはいけない」と命じること。'forbid A from doing' または 'forbid A to do' の形をとります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The law forbids smoking in all public buildings.",
+              "ja": "法律により、すべての公共の建物での喫煙が禁止されている。",
+              "highlight": "forbids"
+            },
+            {
+              "en": "My doctor has forbidden me from drinking caffeine.",
+              "ja": "医者は私にカフェインを摂ることを禁じた。",
+              "highlight": "forbidden"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期英語 for-（拒絶・離脱）+ biddan（命じる）",
+      "synonyms": [
+        {"word": "prohibit", "trans": "禁止する（公式に）"},
+        {"word": "ban", "trans": "（社会的に）禁止する"},
+        {"word": "veto", "trans": "拒否権を行使する"}
+      ],
+      "antonyms": [
+        {"word": "allow", "trans": "許可する"},
+        {"word": "permit", "trans": "許す"},
+        {"word": "authorize", "trans": "認可する"}
+      ],
+      "related": [
+        {"word": "forbidden", "trans": "形容詞：禁じられた"}
+      ]
+    },
+    {
       "number": 4199,
       "word": "elaborate",
       "pos": "形容詞、動詞",
