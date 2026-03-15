@@ -1,6 +1,45 @@
 {
   "words": [
     {
+      "number": 4276,
+      "word": "optimistic",
+      "pos": "形容詞",
+      "meaning": "楽観的な、前向きな",
+      "nuance": "物事が最終的にうまくいくと信じている状態です。単に明るいだけでなく、根拠や期待を持って将来を肯定的に捉える際に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She remains optimistic about her chances of winning the prize.",
+              "ja": "彼女は自分が賞を勝ち取る可能性について楽観的なままだ。",
+              "highlight": "optimistic"
+            },
+            {
+              "en": "The company gave an optimistic sales forecast for the next quarter.",
+              "ja": "会社は次四半期の売上予測について強気な（楽観的な）見通しを示した。",
+              "highlight": "optimistic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 optimus（最善の）",
+      "synonyms": [
+        {"word": "positive", "trans": "肯定的な"},
+        {"word": "hopeful", "trans": "希望に満ちた"},
+        {"word": "sanguine", "trans": "快活な、楽観的な"}
+      ],
+      "antonyms": [
+        {"word": "pessimistic", "trans": "悲観的な"},
+        {"word": "gloomy", "trans": "陰鬱な"},
+        {"word": "cynical", "trans": "冷笑的な"}
+      ],
+      "related": [
+        {"word": "optimism", "trans": "名詞：楽観主義"},
+        {"word": "optimize", "trans": "動詞：最適化する（最善の状態にする）"}
+      ]
+    },
+    {
       "number": 4278,
       "word": "overall",
       "pos": "形容詞、副詞",
