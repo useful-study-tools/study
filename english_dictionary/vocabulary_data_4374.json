@@ -519,6 +519,54 @@
       ]
     },
     {
+      "number": 4425,
+      "word": "fuzzy",
+      "pos": "形容詞",
+      "meaning": "（毛などが）けば立った、ぼやけた、曖昧な",
+      "nuance": "視覚的に輪郭がはっきりしない状態から、思考や論理が「もやもやしてはっきりしない」状態まで広く使われます。コンピューターの「ファジィ理論」でも有名です。",
+      "example_sections": [
+        {
+          "title": "例文（物理的・視覚的）",
+          "examples": [
+            {
+              "en": "The picture on the TV was fuzzy because of the bad signal.",
+              "ja": "電波が悪かったため、テレビの映像がぼやけていた。",
+              "highlight": "fuzzy"
+            },
+            {
+              "en": "The peach has a fuzzy skin.",
+              "ja": "桃の皮には産毛（けば）がある。",
+              "highlight": "fuzzy"
+            }
+          ]
+        },
+        {
+          "title": "例文（抽象的）",
+          "examples": [
+            {
+              "en": "My memory of that night is a bit fuzzy.",
+              "ja": "あの夜の記憶は少し曖昧だ（もやもやしている）。",
+              "highlight": "fuzzy"
+            }
+          ]
+        }
+      ],
+      "etymology": "17世紀の低地ドイツ語やオランダ語の「スカスカの、軽い」という言葉に由来か",
+      "synonyms": [
+        {"word": "blurred", "trans": "ぼやけた"},
+        {"word": "vague", "trans": "漠然とした"},
+        {"word": "hazy", "trans": "霞んだ、曖昧な"}
+      ],
+      "antonyms": [
+        {"word": "clear", "trans": "明確な"},
+        {"word": "sharp", "trans": "鋭い、はっきりした"},
+        {"word": "distinct", "trans": "明確に異なる"}
+      ],
+      "related": [
+        {"word": "fuzz", "trans": "名詞：産毛、毛羽立ち"}
+      ]
+    },
+    {
       "number": 4428,
       "word": "trivial",
       "pos": "形容詞",
