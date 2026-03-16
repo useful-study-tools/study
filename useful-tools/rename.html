@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ファイル名一括編集ツール</title>
+    <link rel="icon" href="../image/logo.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --bg-color: #f4f7f9;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+        }
+
+        /* ===== ボタン共通 ===== */
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 0 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+        }
+        .btn-home {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+        }
+        .btn-save { background: var(--primary-color); color: white; width: 100%; max-width: 300px; }
+        .btn-save:disabled { background: #ccc; cursor: not-allowed; }
+        .btn-page { background: #e2e6ea; color: #333; padding: 5px 15px; border-radius: 5px; }
+        .btn-page:disabled { opacity: 0.5; cursor: not-allowed; }
+
+        /* ===== セクション ===== */
+        .section-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .upload-section {
+            border: 2px dashed var(--primary-color);
+            text-align: center;
+        }
+
+        /* ===== 設定エリア ===== */
+        .settings-group {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .settings-group label.radio-label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+        .sub-inputs {
+            margin-left: 25px;
+            margin-bottom: 10px;
+            display: none;
+        }
+        .sub-inputs input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        /* ===== プレビューテーブル ===== */
+        .preview-container {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            text-align: left;
+        }
+        th { background-color: #f8f9fa; }
+        .exif-warning {
+            font-size: 11px;
+            color: #d9534f;
+            background: #fdf0ef;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-top: 4px;
+            display: inline-block;
+        }
+        
+        /* ===== コントロール & ページネーション ===== */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .action-area {
+            text-align: center;
+            margin-top: 30px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="index.html" class="btn btn-home">便利ツールへ戻る</a>
+
+        <div class="section-card upload-section">
+            <h3 style="color: var(--primary-color); margin-top: 0;">ファイル名一括編集ツール</h3>
+            <p style="font-size:12px;color:#666;">
+                写真などのファイルを選択し、ルールに従って名前を一括変更してZIPでダウンロードします。
+            </p>
+            <input type="file" id="fileInput" multiple>
+        </div>
+
+        <div class="section-card" id="settingsArea" style="display: none;">
+            <h4 style="margin-top: 0; margin-bottom: 15px;">名前の変更ルール</h4>
+            
+            <div class="settings-group">
+                <label class="radio-label">
+                    <input type="radio" name="renameMode" value="autoDate" checked> 
+                    ① 日付を自動挿入（iPhoneの "IMG_0166" などを "IMG_20260313_0166" に変換）
+                </label>
+            </div>
+
+            <div class="settings-group">
+                <label class="radio-label">
+                    <input type="radio" name="renameMode" value="customNum"> 
+                    ② カスタム名 ＋ 日付 ＋ 連番
+                </label>
+                <div class="sub-inputs" id="customNumInputs">
+                    文字: <input type="text" id="customText" value="旅行_" placeholder="例: 旅行_">
+                </div>
+            </div>
+
+            <div class="settings-group">
+                <label class="radio-label">
+                    <input type="radio" name="renameMode" value="replace"> 
+                    ③ 特定の文字を置き換える
+                </label>
+                <div class="sub-inputs" id="replaceInputs">
+                    検索文字: <input type="text" id="searchStr" placeholder="例: IMG_">
+                    置換文字: <input type="text" id="replaceStr" placeholder="例: PHOTO_">
+                </div>
+            </div>
+        </div>
+
+        <div class="section-card" id="previewArea" style="display: none;">
+            <h4 style="margin-top: 0;">プレビュー <span id="totalCount" style="font-weight:normal; font-size:14px; color:#666;"></span></h4>
+            <div class="preview-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>元のファイル名</th>
+                            <th>▶</th>
+                            <th>新しいファイル名</th>
+                        </tr>
+                    </thead>
+                    <tbody id="previewBody"></tbody>
+                </table>
+            </div>
+            
+            <div class="pagination" id="pagination">
+                <button class="btn btn-page" id="prevPageBtn">前へ</button>
+                <span id="pageInfo">1 / 1</span>
+                <button class="btn btn-page" id="nextPageBtn">次へ</button>
+            </div>
+        </div>
+
+        <div class="action-area" id="actionArea">
+            <button class="btn btn-save" id="downloadBtn">ZIP形式で一括ダウンロード</button>
+            <p id="downloadMsg" style="font-size: 12px; color: #666; display: none;">ZIPを作成中... 少しお待ちください</p>
+        </div>
+
+    </div>
+
+    <script>
+        let filesData = [];
+        let currentPage = 1;
+        const ITEMS_PER_PAGE = 10;
+
+        // UI要素の取得
+        const fileInput = document.getElementById('fileInput');
+        const settingsArea = document.getElementById('settingsArea');
+        const previewArea = document.getElementById('previewArea');
+        const actionArea = document.getElementById('actionArea');
+        const previewBody = document.getElementById('previewBody');
+        const pageInfo = document.getElementById('pageInfo');
+        const prevPageBtn = document.getElementById('prevPageBtn');
+        const nextPageBtn = document.getElementById('nextPageBtn');
+        const radios = document.getElementsByName('renameMode');
+
+        // 日付を YYYYMMDD にフォーマット
+        function formatDate(dateObj) {
+            const y = dateObj.getFullYear();
+            const m = String(dateObj.getMonth() + 1).padStart(2, '0');
+            const d = String(dateObj.getDate()).padStart(2, '0');
+            return `${y}${m}${d}`;
+        }
+
+        // ファイル読み込みとEXIF取得
+        fileInput.addEventListener('change', async (e) => {
+            const files = Array.from(e.target.files);
+            if (files.length === 0) return;
+
+            filesData = [];
+            currentPage = 1;
+
+            // ローディング状態（簡易的）
+            settingsArea.style.display = 'block';
+            previewArea.style.display = 'block';
+            actionArea.style.display = 'block';
+            previewBody.innerHTML = '<tr><td colspan="3">データを読み込み中...</td></tr>';
+
+            for (const file of files) {
+                let dateStr = "";
+                let isExif = false;
+
+                try {
+                    // exifrを使って撮影日時を取得
+                    const exifData = await exifr.parse(file, {pick: ['DateTimeOriginal']});
+                    if (exifData && exifData.DateTimeOriginal) {
+                        dateStr = formatDate(new Date(exifData.DateTimeOriginal));
+                        isExif = true;
+                    }
+                } catch (err) {
+                    // EXIFが読めないファイル形式などの場合はエラーを無視してフォールバックへ
+                }
+
+                // EXIFが無い場合はファイルの最終更新日を使用
+                if (!isExif) {
+                    dateStr = formatDate(new Date(file.lastModified));
+                }
+
+                filesData.push({
+                    file: file,
+                    originalName: file.name,
+                    newName: "", // 後で計算
+                    dateStr: dateStr,
+                    isExif: isExif
+                });
+            }
+
+            document.getElementById('totalCount').textContent = `(全 ${filesData.length} 件)`;
+            updateNewNames();
+        });
+
+        // ラジオボタン切り替え時のUI表示制御
+        radios.forEach(radio => {
+            radio.addEventListener('change', () => {
+                document.getElementById('customNumInputs').style.display = radio.value === 'customNum' ? 'block' : 'none';
+                document.getElementById('replaceInputs').style.display = radio.value === 'replace' ? 'block' : 'none';
+                updateNewNames();
+            });
+        });
+
+        // テキストボックス入力時にもリアルタイム反映
+        document.getElementById('customText').addEventListener('input', updateNewNames);
+        document.getElementById('searchStr').addEventListener('input', updateNewNames);
+        document.getElementById('replaceStr').addEventListener('input', updateNewNames);
+
+        // 新しいファイル名の計算ロジック
+        function updateNewNames() {
+            if (filesData.length === 0) return;
+
+            const mode = document.querySelector('input[name="renameMode"]:checked').value;
+            const customText = document.getElementById('customText').value;
+            const searchStr = document.getElementById('searchStr').value;
+            const replaceStr = document.getElementById('replaceStr').value;
+
+            // 連番の桁数（ファイル数に合わせて 01, 001 など）
+            const padLength = filesData.length.toString().length < 2 ? 2 : filesData.length.toString().length;
+
+            filesData.forEach((item, index) => {
+                const dotIndex = item.originalName.lastIndexOf('.');
+                const baseName = dotIndex !== -1 ? item.originalName.substring(0, dotIndex) : item.originalName;
+                const ext = dotIndex !== -1 ? item.originalName.substring(dotIndex) : '';
+
+                if (mode === 'autoDate') {
+                    // ① iPhone等の「IMG_XXXX」形式なら間に日付を入れる
+                    const match = baseName.match(/^([a-zA-Z]+_)(.*)$/);
+                    if (match) {
+                        item.newName = `${match[1]}${item.dateStr}_${match[2]}${ext}`;
+                    } else {
+                        // それ以外は先頭に日付を追加
+                        item.newName = `${item.dateStr}_${baseName}${ext}`;
+                    }
+                } 
+                else if (mode === 'customNum') {
+                    // ② カスタム名＋日付＋連番
+                    const num = String(index + 1).padStart(padLength, '0');
+                    item.newName = `${customText}${item.dateStr}_${num}${ext}`;
+                } 
+                else if (mode === 'replace') {
+                    // ③ 置換 (検索文字が空の場合はそのまま)
+                    if (searchStr) {
+                        const newBase = baseName.split(searchStr).join(replaceStr);
+                        item.newName = `${newBase}${ext}`;
+                    } else {
+                        item.newName = item.originalName;
+                    }
+                }
+            });
+
+            renderPreview();
+        }
+
+        // プレビューの描画（ページネーション対応）
+        function renderPreview() {
+            previewBody.innerHTML = '';
+            
+            const totalPages = Math.ceil(filesData.length / ITEMS_PER_PAGE) || 1;
+            if (currentPage > totalPages) currentPage = totalPages;
+
+            const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;
+            const endIdx = startIdx + ITEMS_PER_PAGE;
+            const currentData = filesData.slice(startIdx, endIdx);
+
+            currentData.forEach(item => {
+                const tr = document.createElement('tr');
+                
+                // EXIF警告バッジ
+                const warningHtml = !item.isExif && document.querySelector('input[name="renameMode"]:checked').value !== 'replace' 
+                    ? `<br><span class="exif-warning">⚠️EXIFなし（更新日を使用）</span>` 
+                    : '';
+
+                tr.innerHTML = `
+                    <td style="word-break: break-all; color:#555;">${item.originalName} ${warningHtml}</td>
+                    <td style="color:#007bff;">▶</td>
+                    <td style="word-break: break-all; font-weight:bold;">${item.newName}</td>
+                `;
+                previewBody.appendChild(tr);
+            });
+
+            pageInfo.textContent = `${currentPage} / ${totalPages}`;
+            prevPageBtn.disabled = currentPage === 1;
+            nextPageBtn.disabled = currentPage === totalPages;
+        }
+
+        // ページネーションのイベント
+        prevPageBtn.addEventListener('click', () => {
+            if (currentPage > 1) { currentPage--; renderPreview(); }
+        });
+        nextPageBtn.addEventListener('click', () => {
+            const totalPages = Math.ceil(filesData.length / ITEMS_PER_PAGE);
+            if (currentPage < totalPages) { currentPage++; renderPreview(); }
+        });
+
+        // ZIPダウンロード処理
+        document.getElementById('downloadBtn').addEventListener('click', async () => {
+            if (filesData.length === 0) return;
+
+            const btn = document.getElementById('downloadBtn');
+            const msg = document.getElementById('downloadMsg');
+            
+            btn.disabled = true;
+            msg.style.display = 'block';
+
+            try {
+                const zip = new JSZip();
+                
+                // ZIPにファイルを追加
+                filesData.forEach(item => {
+                    zip.file(item.newName, item.file);
+                });
+
+                // ZIPの生成とダウンロード
+                const zipBlob = await zip.generateAsync({ type: 'blob' });
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(zipBlob);
+                link.download = 'renamed_files.zip';
+                link.click();
+                
+                URL.revokeObjectURL(link.href);
+            } catch (err) {
+                alert('ZIPの作成中にエラーが発生しました。');
+                console.error(err);
+            } finally {
+                btn.disabled = false;
+                msg.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
