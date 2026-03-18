@@ -35,14 +35,22 @@ jobs:
           filters: |
             english:
               - 'english_dictionary/vocabulary_data*.json'
+              - 'english_dictionary/history_data*.json'
               - 'english_dictionary/config.py'
+              - 'english_dictionary/*.py'
             classical:
               - 'classical_japanese_dictionary/vocabulary_data*.json'
+              - 'classical_japanese_dictionary/history_data*.json'
+              - 'classical_japanese_dictionary/config.py'
+              - 'classical_japanese_dictionary/*.py'
             history:
               - 'japanese_history/history_data*.json'
+              - 'japanese_history/vocabulary_data*.json'
+              - 'japanese_history/config.py'
+              - 'japanese_history/*.py'
 
       # ==========================================
-      # 1. 英単語辞書 (英語に変更があった場合のみ)
+      # 1. 英単語辞書
       # ==========================================
       - name: Process English Dictionary
         if: steps.filter.outputs.english == 'true'
@@ -54,7 +62,7 @@ jobs:
           python english_dictionary/generate_exercise.py
 
       # ==========================================
-      # 2. 古文単語辞書 (古文に変更があった場合のみ)
+      # 2. 古文単語辞書
       # ==========================================
       - name: Process Classical Japanese Dictionary
         if: steps.filter.outputs.classical == 'true'
@@ -66,30 +74,28 @@ jobs:
           python classical_japanese_dictionary/generate_exercise.py
 
       # ==========================================
-      # 3. 日本史辞書 (日本史に変更があった場合のみ)
+      # 3. 日本史辞書
       # ==========================================
       - name: Process Japanese History Dictionary
         if: steps.filter.outputs.history == 'true'
         run: |
           echo "🗾 Processing Japanese History Dictionary..."
           mkdir -p japanese_history/data
-          # 日本史用のスクリプト名が他と同一であることを想定
           python japanese_history/generate_vocab.py
           python japanese_history/build_index.py
           python japanese_history/generate_exercise.py
 
       # ==========================================
-      # 4. 変更チェックと安全なコミット
+      # 4. 変更チェックとコミット
       # ==========================================
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 不要なキャッシュファイルを除外して、全辞書のdataディレクトリとhtmlをステージング
+          # 全辞書のHTMLとインデックスをステージング
           git add */data/*.html */index.html */exercise.html
           
-          # 差分があるか確認してからコミット (|| true でエラーによる停止を防ぐ)
           if ! git diff --cached --exit-code --quiet; then
             git commit -m "🤖 Auto-generate vocab HTML files [skip ci]"
             git push
@@ -103,10 +109,11 @@ jobs:
       - name: Job summary
         run: |
           echo "## 📊 Generation Summary" >> $GITHUB_STEP_SUMMARY
-          
           for dir in "english_dictionary" "classical_japanese_dictionary" "japanese_history"; do
             if [ -d "$dir/data" ]; then
               count=$(ls -1 $dir/data/*.html 2>/dev/null | wc -l)
               echo "- **$dir**: $count HTML files" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "- **$dir**: Directory not found or no files generated" >> $GITHUB_STEP_SUMMARY
             fi
           done
