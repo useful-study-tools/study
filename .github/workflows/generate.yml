@@ -7,7 +7,7 @@ on:
     paths:
       - 'english_dictionary/**'
       - 'classical_japanese_dictionary/**'
-      - 'japanese_history/**' # 今後の日本史用
+      - 'japanese_history/**'
   workflow_dispatch:
 
 jobs:
@@ -39,7 +39,7 @@ jobs:
             classical:
               - 'classical_japanese_dictionary/vocabulary_data*.json'
             history:
-              - 'japanese_history/vocabulary_data*.json'
+              - 'japanese_history/history_data*.json'
 
       # ==========================================
       # 1. 英単語辞書 (英語に変更があった場合のみ)
