@@ -2148,6 +2148,54 @@
       "related": [
         {"word": "textile", "trans": "名詞：織物"}
       ]
+    },
+    {
+      "number": 4870,
+      "word": "resign",
+      "pos": "動詞",
+      "meaning": "辞職する、辞める、放棄する、（運命などに）身を任せる",
+      "nuance": "自らの意思で職や地位を退くことを指します。また、'resign oneself to 〜' で、不本意ながらも「〜を諦めて受け入れる」という心理状態も表します。",
+      "example_sections": [
+        {
+          "title": "例文（辞職する）",
+          "examples": [
+            {
+              "en": "The CEO resigned from his position following the controversy.",
+              "ja": "CEOは論争を受けてその地位を辞任した。",
+              "highlight": "resigned"
+            },
+            {
+              "en": "He resigned his seat in Parliament.",
+              "ja": "彼は議会の議席を辞した。",
+              "highlight": "resigned"
+            }
+          ]
+        },
+        {
+          "title": "例文（諦めて受け入れる）",
+          "examples": [
+            {
+              "en": "She resigned herself to the fact that she wouldn't get the job.",
+              "ja": "彼女はその仕事を得られないという事実を（諦めて）受け入れた。",
+              "highlight": "resigned herself to"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 re-（反対に）+ signare（署名する・封印する）→ 以前の約束や署名を無効にする",
+      "synonyms": [
+        {"word": "quit", "trans": "辞める"},
+        {"word": "step down", "trans": "退陣する"},
+        {"word": "abandon", "trans": "見捨てる、放棄する"}
+      ],
+      "antonyms": [
+        {"word": "stay", "trans": "とどまる"},
+        {"word": "join", "trans": "加わる"},
+        {"word": "accept", "trans": "受け入れる（地位などを）"}
+      ],
+      "related": [
+        {"word": "resignation", "trans": "名詞：辞職、諦め"}
+      ]
     }
   ]
 }
