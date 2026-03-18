@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本史用語事典</title>
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <style>
+        :root { --primary-color: #8b0000; --chapter-color: #5d5d5d; --bg-color: #f9f7f2; }
+        body { font-family: "Hiragino Mincho ProN", "MS Mincho", serif; background-color: var(--bg-color); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        h1 { color: var(--primary-color); text-align: center; border-bottom: 3px double var(--primary-color); padding-bottom: 10px; margin-bottom: 15px; }
+        
+        .exercise-link {
+            display: block; width: fit-content; margin: 0 auto 30px; padding: 12px 40px;
+            background-color: #5d6d7e; color: white; text-decoration: none; border-radius: 5px;
+            font-weight: bold; font-size: 1.1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: 0.3s; border: none;
+        }
+        .exercise-link:hover { background-color: #2c3e50; transform: translateY(-2px); }
+
+        .toc { background: white; padding: 20px; border-radius: 5px; margin-bottom: 25px; border: 1px solid #ddd; }
+        .toc-group { margin-bottom: 15px; }
+        .toc-group-title { font-size: 0.9rem; font-weight: bold; color: #333; margin-bottom: 8px; border-left: 4px solid var(--primary-color); padding-left: 10px; }
+        .toc-links { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0; }
+        .toc-links a { text-decoration: none; color: var(--primary-color); font-size: 0.8rem; background: #fff5f5; padding: 5px 10px; border-radius: 4px; transition: 0.2s; border: 1px solid #ead0d0; }
+        .toc-links a:hover { background: var(--primary-color); color: white; }
+
+        .search-box { width: 100%; padding: 15px; font-size: 18px; border: 2px solid #ddd; border-radius: 5px; margin-bottom: 20px; box-sizing: border-box; outline: none; }
+        
+        .word-list { list-style: none; padding: 0; }
+        .chapter-header { background: var(--chapter-color); color: white; padding: 10px 15px; margin: 40px 0 12px 0; border-radius: 3px; font-weight: bold; scroll-margin-top: 20px; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: scale(1.01); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 12px 20px; text-decoration: none; color: #333; align-items: center; }
+        .word-id { font-weight: bold; color: var(--primary-color); min-width: 75px; font-family: serif; }
+        .word-name { font-size: 1.1em; font-weight: 600; }
+        .word-meaning { font-size: 0.85em; color: #666; margin-left: 15px; font-weight: normal; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 300px; }
+        
+        .sub-word { margin-left: 30px; border-left: 4px solid #d4a373; background-color: #fefae0; }
+        .word-item.hidden { display: none; }
+        #backToTop {
+            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+            background-color: var(--primary-color); color: white; border: none; border-radius: 50%;
+            cursor: pointer; display: none; align-items: center; justify-content: center; font-size: 24px; z-index: 1000;
+        }
+        .btn-home { display: inline-block; margin-bottom: 20px; padding: 8px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="../index.html" class="btn btn-home">ホームに戻る</a>
+    <h1>日本史用語事典 データベース</h1>
+    <a href="exercise.html" class="exercise-link">暗記演習を始める</a>
+    <nav class="toc">
+        <div class="toc-group">
+            <div class="toc-group-title">原始・古代</div>
+            <ul class="toc-links">
+                <li><a href="#chapter-1">第1章：旧石器・縄文・弥生</a></li>
+                <li><a href="#chapter-51">第2章：古墳時代とヤマト政権</a></li>
+                <li><a href="#chapter-101">第3章：飛鳥時代（大化の改新）</a></li>
+                <li><a href="#chapter-201">第4章：奈良時代（平城京）</a></li>
+                <li><a href="#chapter-301">第5章：平安時代（摂関政治）</a></li>
+            </ul>
+        </div>
+        <div class="toc-group">
+            <div class="toc-group-title">中世</div>
+            <ul class="toc-links">
+                <li><a href="#chapter-1001">第1章：鎌倉幕府の成立</a></li>
+                <li><a href="#chapter-1101">第2章：蒙古襲来と幕府の衰退</a></li>
+            </ul>
+        </div>
+        <div class="toc-group">
+            <div class="toc-group-title">近世</div>
+            <ul class="toc-links">
+                <li><a href="#chapter-2001">第1章：織豊政権（安土桃山）</a></li>
+                <li><a href="#chapter-2101">第2章：江戸幕府の成立と機構</a></li>
+            </ul>
+        </div>
+        <div class="toc-group">
+            <div class="toc-group-title">近現代</div>
+            <ul class="toc-links">
+                <li><a href="#chapter-3001">第1章：明治維新と文明開化</a></li>
+            </ul>
+        </div>
+    </nav>
+    <input type="text" id="searchInput" class="search-box" placeholder="用語・時代・番号で検索..." onkeyup="filterList()">
+    <ul class="word-list" id="wordList">
+    </ul>
+    <div class="loading-indicator" id="loadingIndicator" style="text-align:center; padding:20px; color:#666;">読み込み中...</div>
+</div>
+<button id="backToTop">↑</button>
+
+<script>
+    const wordList = document.getElementById('wordList');
+    const allItems = Array.from(wordList.children).filter(item => item.classList.contains('word-item'));
+    const backToTopBtn = document.getElementById('backToTop');
+    const margin = 1200;
+
+    function checkVisibleItems() {
+        const triggerLimit = window.innerHeight + window.scrollY + margin;
+        let hasHidden = false;
+        for (let item of allItems) {
+            if (item.classList.contains('hidden')) {
+                if (item.offsetTop < triggerLimit) {
+                    item.classList.remove('hidden');
+                } else {
+                    hasHidden = true;
+                    break;
+                }
+            }
+        }
+        document.getElementById('loadingIndicator').style.display = hasHidden ? 'block' : 'none';
+        backToTopBtn.style.display = window.scrollY > 300 ? 'flex' : 'none';
+    }
+
+    function initializeLazyLoad() {
+        allItems.forEach(item => item.classList.add('hidden'));
+        checkVisibleItems();
+    }
+
+    function loadChapterAndScroll(event, chapterId) {
+        event.preventDefault();
+        const chapterHeader = document.getElementById(chapterId);
+        if (!chapterHeader) return;
+        let nextEl = chapterHeader.nextElementSibling;
+        for (let i = 0; i < 50 && nextEl; i++) {
+            if (nextEl.classList.contains('word-item')) nextEl.classList.remove('hidden');
+            nextEl = nextEl.nextElementSibling;
+        }
+        chapterHeader.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setTimeout(checkVisibleItems, 100);
+    }
+
+    window.addEventListener('scroll', () => window.requestAnimationFrame(checkVisibleItems));
+    backToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.toc-links a').forEach(link => {
+            link.addEventListener('click', (e) => loadChapterAndScroll(e, link.getAttribute('href').substring(1)));
+        });
+        initializeLazyLoad();
+    });
+
+    function filterList() {
+        const filter = document.getElementById('searchInput').value.toLowerCase();
+        for (let item of wordList.getElementsByTagName('li')) {
+            if (item.classList.contains('chapter-header')) {
+                item.style.display = filter === "" ? "" : "none";
+                continue;
+            }
+            if (filter === "") {
+                item.classList.add('hidden');
+                item.style.display = "";
+            } else {
+                const text = item.textContent || item.innerText;
+                item.classList.remove('hidden');
+                item.style.display = text.toLowerCase().includes(filter) ? "" : "none";
+            }
+        }
+        if (filter === "") checkVisibleItems();
+    }
+</script>
+</body>
+</html>
