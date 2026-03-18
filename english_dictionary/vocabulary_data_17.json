@@ -25,16 +25,34 @@
       ],
       "etymology": "distinct + ly (ラテン語 di-「離れて」+ stinguere「刺す・印をつける」)",
       "synonyms": [
-        {"word": "clearly", "trans": "明らかに"},
-        {"word": "sharply", "trans": "鋭く、くっきりと"},
-        {"word": "plainly", "trans": "明白に"}
+        {
+          "word": "clearly",
+          "trans": "明らかに"
+        },
+        {
+          "word": "sharply",
+          "trans": "鋭く、くっきりと"
+        },
+        {
+          "word": "plainly",
+          "trans": "明白に"
+        }
       ],
       "antonyms": [
-        {"word": "vaguely", "trans": "漠然と"},
-        {"word": "indistinctly", "trans": "不明瞭に"}
+        {
+          "word": "vaguely",
+          "trans": "漠然と"
+        },
+        {
+          "word": "indistinctly",
+          "trans": "不明瞭に"
+        }
       ],
       "related": [
-        {"word": "distinguish", "trans": "動詞：区別する"}
+        {
+          "word": "distinguish",
+          "trans": "動詞：区別する"
+        }
       ]
     },
     {
@@ -62,16 +80,34 @@
       ],
       "etymology": "distinctly と同語源",
       "synonyms": [
-        {"word": "separate", "trans": "離れた、別々の"},
-        {"word": "apparent", "trans": "明白な"},
-        {"word": "unique", "trans": "独特の"}
+        {
+          "word": "separate",
+          "trans": "離れた、別々の"
+        },
+        {
+          "word": "apparent",
+          "trans": "明白な"
+        },
+        {
+          "word": "unique",
+          "trans": "独特の"
+        }
       ],
       "antonyms": [
-        {"word": "similar", "trans": "似ている"},
-        {"word": "vague", "trans": "曖昧な"}
+        {
+          "word": "similar",
+          "trans": "似ている"
+        },
+        {
+          "word": "vague",
+          "trans": "曖昧な"
+        }
       ],
       "related": [
-        {"word": "distinction", "trans": "名詞：区別、卓越"}
+        {
+          "word": "distinction",
+          "trans": "名詞：区別、卓越"
+        }
       ]
     },
     {
@@ -99,16 +135,34 @@
       ],
       "etymology": "ラテン語 ex-「外へ」+ plicare「畳む」→ 畳んでいたものを広げて見せる",
       "synonyms": [
-        {"word": "definite", "trans": "決定的な"},
-        {"word": "clear-cut", "trans": "明快な"},
-        {"word": "graphic", "trans": "写実的な、露骨な"}
+        {
+          "word": "definite",
+          "trans": "決定的な"
+        },
+        {
+          "word": "clear-cut",
+          "trans": "明快な"
+        },
+        {
+          "word": "graphic",
+          "trans": "写実的な、露骨な"
+        }
       ],
       "antonyms": [
-        {"word": "implicit", "trans": "暗示的な、含みのある"},
-        {"word": "ambiguous", "trans": "曖昧な"}
+        {
+          "word": "implicit",
+          "trans": "暗示的な、含みのある"
+        },
+        {
+          "word": "ambiguous",
+          "trans": "曖昧な"
+        }
       ],
       "related": [
-        {"word": "explicate", "trans": "動詞：詳説する"}
+        {
+          "word": "explicate",
+          "trans": "動詞：詳説する"
+        }
       ]
     },
     {
@@ -131,8 +185,14 @@
       ],
       "etymology": "explicit + ly",
       "synonyms": [
-        {"word": "specifically", "trans": "具体的に"},
-        {"word": "categorically", "trans": "断定的に"}
+        {
+          "word": "specifically",
+          "trans": "具体的に"
+        },
+        {
+          "word": "categorically",
+          "trans": "断定的に"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -172,17 +232,38 @@
       ],
       "etymology": "ラテン語 manus「手」+ festus「つかまれた」→ 手でつかめるほど確かな",
       "synonyms": [
-        {"word": "obvious", "trans": "明らかな"},
-        {"word": "evident", "trans": "証拠があって明白な"},
-        {"word": "reveal", "trans": "動詞：漏らす、明らかにする"}
+        {
+          "word": "obvious",
+          "trans": "明らかな"
+        },
+        {
+          "word": "evident",
+          "trans": "証拠があって明白な"
+        },
+        {
+          "word": "reveal",
+          "trans": "動詞：漏らす、明らかにする"
+        }
       ],
       "antonyms": [
-        {"word": "hidden", "trans": "隠された"},
-        {"word": "obscure", "trans": "不明瞭な"},
-        {"word": "conceal", "trans": "動詞：隠す"}
+        {
+          "word": "hidden",
+          "trans": "隠された"
+        },
+        {
+          "word": "obscure",
+          "trans": "不明瞭な"
+        },
+        {
+          "word": "conceal",
+          "trans": "動詞：隠す"
+        }
       ],
       "related": [
-        {"word": "manifesto", "trans": "宣言書"}
+        {
+          "word": "manifesto",
+          "trans": "宣言書"
+        }
       ]
     },
     {
@@ -205,8 +286,14 @@
       ],
       "etymology": "manifest + ly",
       "synonyms": [
-        {"word": "patently", "trans": "明白に"},
-        {"word": "unmistakably", "trans": "間違いなく"}
+        {
+          "word": "patently",
+          "trans": "明白に"
+        },
+        {
+          "word": "unmistakably",
+          "trans": "間違いなく"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -231,8 +318,14 @@
       ],
       "etymology": "manifest の名詞形",
       "synonyms": [
-        {"word": "expression", "trans": "表現、表れ"},
-        {"word": "indication", "trans": "兆候"}
+        {
+          "word": "expression",
+          "trans": "表現、表れ"
+        },
+        {
+          "word": "indication",
+          "trans": "兆候"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -272,16 +365,34 @@
       ],
       "etymology": "ラテン語 articulus「節、小さな関節」→ 区切りをつけて繋ぐ",
       "synonyms": [
-        {"word": "eloquent", "trans": "雄弁な"},
-        {"word": "fluent", "trans": "流暢な"},
-        {"word": "enunciate", "trans": "はっきり発音する"}
+        {
+          "word": "eloquent",
+          "trans": "雄弁な"
+        },
+        {
+          "word": "fluent",
+          "trans": "流暢な"
+        },
+        {
+          "word": "enunciate",
+          "trans": "はっきり発音する"
+        }
       ],
       "antonyms": [
-        {"word": "inarticulate", "trans": "口ごもる、言葉にならない"},
-        {"word": "tongue-tied", "trans": "口がもつれる"}
+        {
+          "word": "inarticulate",
+          "trans": "口ごもる、言葉にならない"
+        },
+        {
+          "word": "tongue-tied",
+          "trans": "口がもつれる"
+        }
       ],
       "related": [
-        {"word": "article", "trans": "記事、項目（区切られたもの）"}
+        {
+          "word": "article",
+          "trans": "記事、項目（区切られたもの）"
+        }
       ]
     },
     {
@@ -304,8 +415,14 @@
       ],
       "etymology": "articulate + ly",
       "synonyms": [
-        {"word": "clearly", "trans": "明らかに"},
-        {"word": "perspicuously", "trans": "分かりやすく"}
+        {
+          "word": "clearly",
+          "trans": "明らかに"
+        },
+        {
+          "word": "perspicuously",
+          "trans": "分かりやすく"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -330,15 +447,30 @@
       ],
       "etymology": "ラテン語 clarus（明るい、澄んだ）",
       "synonyms": [
-        {"word": "lucidity", "trans": "明晰さ"},
-        {"word": "clearness", "trans": "明確さ"}
+        {
+          "word": "lucidity",
+          "trans": "明晰さ"
+        },
+        {
+          "word": "clearness",
+          "trans": "明確さ"
+        }
       ],
       "antonyms": [
-        {"word": "confusion", "trans": "混乱"},
-        {"word": "obscurity", "trans": "不明瞭さ"}
+        {
+          "word": "confusion",
+          "trans": "混乱"
+        },
+        {
+          "word": "obscurity",
+          "trans": "不明瞭さ"
+        }
       ],
       "related": [
-        {"word": "clarify", "trans": "動詞：明らかにする"}
+        {
+          "word": "clarify",
+          "trans": "動詞：明らかにする"
+        }
       ]
     },
     {
@@ -366,16 +498,34 @@
       ],
       "etymology": "appear（現れる）+ ance",
       "synonyms": [
-        {"word": "look", "trans": "見た目"},
-        {"word": "arrival", "trans": "到着、出現"},
-        {"word": "facade", "trans": "正面、見せかけ"}
+        {
+          "word": "look",
+          "trans": "見た目"
+        },
+        {
+          "word": "arrival",
+          "trans": "到着、出現"
+        },
+        {
+          "word": "facade",
+          "trans": "正面、見せかけ"
+        }
       ],
       "antonyms": [
-        {"word": "reality", "trans": "現実"},
-        {"word": "essence", "trans": "本質"}
+        {
+          "word": "reality",
+          "trans": "現実"
+        },
+        {
+          "word": "essence",
+          "trans": "本質"
+        }
       ],
       "related": [
-        {"word": "appear", "trans": "動詞：現れる、〜のように見える"}
+        {
+          "word": "appear",
+          "trans": "動詞：現れる、〜のように見える"
+        }
       ]
     },
     {
@@ -398,17 +548,38 @@
       ],
       "etymology": "ギリシャ語 hypo「下に」+ krinein「ふるいにかける、判断する」→ 舞台で演じること",
       "synonyms": [
-        {"word": "insincerity", "trans": "不誠実"},
-        {"word": "double-dealing", "trans": "裏表のある行為"},
-        {"word": "deceit", "trans": "欺瞞"}
+        {
+          "word": "insincerity",
+          "trans": "不誠実"
+        },
+        {
+          "word": "double-dealing",
+          "trans": "裏表のある行為"
+        },
+        {
+          "word": "deceit",
+          "trans": "欺瞞"
+        }
       ],
       "antonyms": [
-        {"word": "sincerity", "trans": "誠実"},
-        {"word": "honesty", "trans": "正直"},
-        {"word": "integrity", "trans": "高潔さ"}
+        {
+          "word": "sincerity",
+          "trans": "誠実"
+        },
+        {
+          "word": "honesty",
+          "trans": "正直"
+        },
+        {
+          "word": "integrity",
+          "trans": "高潔さ"
+        }
       ],
       "related": [
-        {"word": "hypocrite", "trans": "名詞：偽善者"}
+        {
+          "word": "hypocrite",
+          "trans": "名詞：偽善者"
+        }
       ]
     },
     {
@@ -431,8 +602,14 @@
       ],
       "etymology": "hypocrisy と同語源",
       "synonyms": [
-        {"word": "phony", "trans": "偽物、ぺてん師"},
-        {"word": "fraud", "trans": "詐欺師"}
+        {
+          "word": "phony",
+          "trans": "偽物、ぺてん師"
+        },
+        {
+          "word": "fraud",
+          "trans": "詐欺師"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -462,12 +639,24 @@
       ],
       "etymology": "ラテン語 con「共に」+ species「種」",
       "synonyms": [
-        {"word": "fellow", "trans": "仲間"},
-        {"word": "like", "trans": "同類"}
+        {
+          "word": "fellow",
+          "trans": "仲間"
+        },
+        {
+          "word": "like",
+          "trans": "同類"
+        }
       ],
       "antonyms": [
-        {"word": "interspecific", "trans": "異種間の"},
-        {"word": "heterospecific", "trans": "異種の"}
+        {
+          "word": "interspecific",
+          "trans": "異種間の"
+        },
+        {
+          "word": "heterospecific",
+          "trans": "異種の"
+        }
       ],
       "related": []
     },
@@ -511,18 +700,42 @@
       ],
       "etymology": "ラテン語 finis「終わり、境界」→ 仕上げられた、完璧な、または「支払いの終わり（罰金）」",
       "synonyms": [
-        {"word": "excellent", "trans": "優れた"},
-        {"word": "delicate", "trans": "繊細な"},
-        {"word": "penalty", "trans": "刑罰、罰金"}
+        {
+          "word": "excellent",
+          "trans": "優れた"
+        },
+        {
+          "word": "delicate",
+          "trans": "繊細な"
+        },
+        {
+          "word": "penalty",
+          "trans": "刑罰、罰金"
+        }
       ],
       "antonyms": [
-        {"word": "coarse", "trans": "粗い"},
-        {"word": "rough", "trans": "雑な"},
-        {"word": "poor", "trans": "お粗末な"}
+        {
+          "word": "coarse",
+          "trans": "粗い"
+        },
+        {
+          "word": "rough",
+          "trans": "雑な"
+        },
+        {
+          "word": "poor",
+          "trans": "お粗末な"
+        }
       ],
       "related": [
-        {"word": "refine", "trans": "動詞：精製する、洗練させる"},
-        {"word": "finely", "trans": "副詞：細かく、精巧に"}
+        {
+          "word": "refine",
+          "trans": "動詞：精製する、洗練させる"
+        },
+        {
+          "word": "finely",
+          "trans": "副詞：細かく、精巧に"
+        }
       ]
     },
     {
@@ -550,17 +763,38 @@
       ],
       "etymology": "ラテン語 ex-「外に」+ minere「突き出る」→ 群を抜いている",
       "synonyms": [
-        {"word": "distinguished", "trans": "際立った、高名な"},
-        {"word": "prominent", "trans": "目立つ、著名な"},
-        {"word": "illustrious", "trans": "輝かしい、著名な"}
+        {
+          "word": "distinguished",
+          "trans": "際立った、高名な"
+        },
+        {
+          "word": "prominent",
+          "trans": "目立つ、著名な"
+        },
+        {
+          "word": "illustrious",
+          "trans": "輝かしい、著名な"
+        }
       ],
       "antonyms": [
-        {"word": "unknown", "trans": "無名の"},
-        {"word": "obscure", "trans": "世に知られていない"},
-        {"word": "ordinary", "trans": "平凡な"}
+        {
+          "word": "unknown",
+          "trans": "無名の"
+        },
+        {
+          "word": "obscure",
+          "trans": "世に知られていない"
+        },
+        {
+          "word": "ordinary",
+          "trans": "平凡な"
+        }
       ],
       "related": [
-        {"word": "eminence", "trans": "名詞：高位、卓越"}
+        {
+          "word": "eminence",
+          "trans": "名詞：高位、卓越"
+        }
       ]
     },
     {
@@ -598,16 +832,34 @@
       ],
       "etymology": "フランス語 vendange（ブドウの収穫）→ ラテン語 vinum（ワイン）+ demere（取り出す）",
       "synonyms": [
-        {"word": "classic", "trans": "古典的な、最高傑作の"},
-        {"word": "antique", "trans": "骨董品の"},
-        {"word": "choice", "trans": "えり抜きの"}
+        {
+          "word": "classic",
+          "trans": "古典的な、最高傑作の"
+        },
+        {
+          "word": "antique",
+          "trans": "骨董品の"
+        },
+        {
+          "word": "choice",
+          "trans": "えり抜きの"
+        }
       ],
       "antonyms": [
-        {"word": "modern", "trans": "現代的な"},
-        {"word": "contemporary", "trans": "同時代の、最新の"}
+        {
+          "word": "modern",
+          "trans": "現代的な"
+        },
+        {
+          "word": "contemporary",
+          "trans": "同時代の、最新の"
+        }
       ],
       "related": [
-        {"word": "vintner", "trans": "ワイン商"}
+        {
+          "word": "vintner",
+          "trans": "ワイン商"
+        }
       ]
     },
     {
@@ -635,14 +887,32 @@
       ],
       "etymology": "古期フランス語 gorgias（エレガントな、派手な）",
       "synonyms": [
-        {"word": "stunning", "trans": "驚くほど美しい"},
-        {"word": "magnificent", "trans": "壮大な、堂々とした"},
-        {"word": "beautiful", "trans": "美しい"}
+        {
+          "word": "stunning",
+          "trans": "驚くほど美しい"
+        },
+        {
+          "word": "magnificent",
+          "trans": "壮大な、堂々とした"
+        },
+        {
+          "word": "beautiful",
+          "trans": "美しい"
+        }
       ],
       "antonyms": [
-        {"word": "plain", "trans": "地味な"},
-        {"word": "ugly", "trans": "醜い"},
-        {"word": "hideous", "trans": "ひどく嫌な、恐ろしい"}
+        {
+          "word": "plain",
+          "trans": "地味な"
+        },
+        {
+          "word": "ugly",
+          "trans": "醜い"
+        },
+        {
+          "word": "hideous",
+          "trans": "ひどく嫌な、恐ろしい"
+        }
       ],
       "related": []
     },
@@ -671,17 +941,38 @@
       ],
       "etymology": "ラテン語 splendere（輝く）",
       "synonyms": [
-        {"word": "brilliant", "trans": "輝かしい、見事な"},
-        {"word": "excellent", "trans": "優れた"},
-        {"word": "grand", "trans": "壮大な"}
+        {
+          "word": "brilliant",
+          "trans": "輝かしい、見事な"
+        },
+        {
+          "word": "excellent",
+          "trans": "優れた"
+        },
+        {
+          "word": "grand",
+          "trans": "壮大な"
+        }
       ],
       "antonyms": [
-        {"word": "terrible", "trans": "ひどい"},
-        {"word": "ordinary", "trans": "平凡な"},
-        {"word": "dull", "trans": "くすんだ、退屈な"}
+        {
+          "word": "terrible",
+          "trans": "ひどい"
+        },
+        {
+          "word": "ordinary",
+          "trans": "平凡な"
+        },
+        {
+          "word": "dull",
+          "trans": "くすんだ、退屈な"
+        }
       ],
       "related": [
-        {"word": "splendor", "trans": "名詞：豪華、輝き"}
+        {
+          "word": "splendor",
+          "trans": "名詞：豪華、輝き"
+        }
       ]
     },
     {
@@ -709,14 +1000,32 @@
       ],
       "etymology": "ラテン語 superbus（誇り高い、優れた）→ super（上に）",
       "synonyms": [
-        {"word": "first-class", "trans": "第一級の"},
-        {"word": "outstanding", "trans": "傑出した"},
-        {"word": "exquisite", "trans": "この上なく素晴らしい"}
+        {
+          "word": "first-class",
+          "trans": "第一級の"
+        },
+        {
+          "word": "outstanding",
+          "trans": "傑出した"
+        },
+        {
+          "word": "exquisite",
+          "trans": "この上なく素晴らしい"
+        }
       ],
       "antonyms": [
-        {"word": "inferior", "trans": "劣った"},
-        {"word": "poor", "trans": "お粗末な"},
-        {"word": "mediocre", "trans": "平凡な、良くも悪くもない"}
+        {
+          "word": "inferior",
+          "trans": "劣った"
+        },
+        {
+          "word": "poor",
+          "trans": "お粗末な"
+        },
+        {
+          "word": "mediocre",
+          "trans": "平凡な、良くも悪くもない"
+        }
       ],
       "related": []
     },
@@ -745,17 +1054,38 @@
       ],
       "etymology": "luxury + ous (ラテン語 luxus「過剰、贅沢」)",
       "synonyms": [
-        {"word": "opulent", "trans": "豪華な、富裕な"},
-        {"word": "sumptuous", "trans": "贅を尽くした"},
-        {"word": "plush", "trans": "豪華な、心地よい"}
+        {
+          "word": "opulent",
+          "trans": "豪華な、富裕な"
+        },
+        {
+          "word": "sumptuous",
+          "trans": "贅を尽くした"
+        },
+        {
+          "word": "plush",
+          "trans": "豪華な、心地よい"
+        }
       ],
       "antonyms": [
-        {"word": "ascetic", "trans": "禁欲的な"},
-        {"word": "austere", "trans": "質素な、厳しい"},
-        {"word": "frugal", "trans": "慎ましい、倹約した"}
+        {
+          "word": "ascetic",
+          "trans": "禁欲的な"
+        },
+        {
+          "word": "austere",
+          "trans": "質素な、厳しい"
+        },
+        {
+          "word": "frugal",
+          "trans": "慎ましい、倹約した"
+        }
       ],
       "related": [
-        {"word": "luxury", "trans": "名詞：贅沢"}
+        {
+          "word": "luxury",
+          "trans": "名詞：贅沢"
+        }
       ]
     },
     {
@@ -783,17 +1113,38 @@
       ],
       "etymology": "ラテン語 magnus（大きい）+ facere（作る）",
       "synonyms": [
-        {"word": "grand", "trans": "壮大な"},
-        {"word": "majestic", "trans": "威厳のある"},
-        {"word": "imposing", "trans": "堂々とした"}
+        {
+          "word": "grand",
+          "trans": "壮大な"
+        },
+        {
+          "word": "majestic",
+          "trans": "威厳のある"
+        },
+        {
+          "word": "imposing",
+          "trans": "堂々とした"
+        }
       ],
       "antonyms": [
-        {"word": "modest", "trans": "控えめな"},
-        {"word": "humble", "trans": "卑小な、謙虚な"},
-        {"word": "unimpressive", "trans": "印象に残らない"}
+        {
+          "word": "modest",
+          "trans": "控えめな"
+        },
+        {
+          "word": "humble",
+          "trans": "卑小な、謙虚な"
+        },
+        {
+          "word": "unimpressive",
+          "trans": "印象に残らない"
+        }
       ],
       "related": [
-        {"word": "magnificence", "trans": "名詞：壮大さ"}
+        {
+          "word": "magnificence",
+          "trans": "名詞：壮大さ"
+        }
       ]
     },
     {
@@ -816,11 +1167,20 @@
       ],
       "etymology": "magnificent の名詞形",
       "synonyms": [
-        {"word": "grandeur", "trans": "壮麗、威容"},
-        {"word": "splendor", "trans": "輝き、豪華"}
+        {
+          "word": "grandeur",
+          "trans": "壮麗、威容"
+        },
+        {
+          "word": "splendor",
+          "trans": "輝き、豪華"
+        }
       ],
       "antonyms": [
-        {"word": "insignificance", "trans": "無意味、つまらなさ"}
+        {
+          "word": "insignificance",
+          "trans": "無意味、つまらなさ"
+        }
       ],
       "related": []
     },
@@ -849,13 +1209,25 @@
       ],
       "etymology": "ラテン語 pingere（描く、塗る）",
       "synonyms": [
-        {"word": "coloring", "trans": "着色料"},
-        {"word": "dye", "trans": "染料"},
-        {"word": "tint", "trans": "色合い"}
+        {
+          "word": "coloring",
+          "trans": "着色料"
+        },
+        {
+          "word": "dye",
+          "trans": "染料"
+        },
+        {
+          "word": "tint",
+          "trans": "色合い"
+        }
       ],
       "antonyms": [],
       "related": [
-        {"word": "pigmentation", "trans": "色素沈着"}
+        {
+          "word": "pigmentation",
+          "trans": "色素沈着"
+        }
       ]
     },
     {
@@ -898,16 +1270,34 @@
       ],
       "etymology": "古期フランス語 desteindre（色を抜く、変色させる）",
       "synonyms": [
-        {"word": "spot", "trans": "シミ、斑点"},
-        {"word": "blemish", "trans": "欠点、傷"},
-        {"word": "tarnish", "trans": "（評判などを）汚す、変色させる"}
+        {
+          "word": "spot",
+          "trans": "シミ、斑点"
+        },
+        {
+          "word": "blemish",
+          "trans": "欠点、傷"
+        },
+        {
+          "word": "tarnish",
+          "trans": "（評判などを）汚す、変色させる"
+        }
       ],
       "antonyms": [
-        {"word": "clean", "trans": "きれいにする"},
-        {"word": "purify", "trans": "浄化する"}
+        {
+          "word": "clean",
+          "trans": "きれいにする"
+        },
+        {
+          "word": "purify",
+          "trans": "浄化する"
+        }
       ],
       "related": [
-        {"word": "stainless", "trans": "錆びない、汚れのない"}
+        {
+          "word": "stainless",
+          "trans": "錆びない、汚れのない"
+        }
       ]
     },
     {
@@ -935,16 +1325,34 @@
       ],
       "etymology": "ラテン語 trans（突き抜けて）+ lucere（光る）",
       "synonyms": [
-        {"word": "semi-transparent", "trans": "半透明の"},
-        {"word": "cloudy", "trans": "濁った"},
-        {"word": "milky", "trans": "乳白色の"}
+        {
+          "word": "semi-transparent",
+          "trans": "半透明の"
+        },
+        {
+          "word": "cloudy",
+          "trans": "濁った"
+        },
+        {
+          "word": "milky",
+          "trans": "乳白色の"
+        }
       ],
       "antonyms": [
-        {"word": "opaque", "trans": "不透明な"},
-        {"word": "transparent", "trans": "透明な"}
+        {
+          "word": "opaque",
+          "trans": "不透明な"
+        },
+        {
+          "word": "transparent",
+          "trans": "透明な"
+        }
       ],
       "related": [
-        {"word": "lucent", "trans": "光る、澄んだ"}
+        {
+          "word": "lucent",
+          "trans": "光る、澄んだ"
+        }
       ]
     },
     {
@@ -972,8 +1380,14 @@
       ],
       "etymology": "wave（波）+ length（長さ）",
       "synonyms": [
-        {"word": "frequency", "trans": "周波数（関連語）"},
-        {"word": "understanding", "trans": "理解、共鳴"}
+        {
+          "word": "frequency",
+          "trans": "周波数（関連語）"
+        },
+        {
+          "word": "understanding",
+          "trans": "理解、共鳴"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -1003,16 +1417,34 @@
       ],
       "etymology": "length + y",
       "synonyms": [
-        {"word": "prolonged", "trans": "長期化した"},
-        {"word": "extended", "trans": "延長された"},
-        {"word": "verbose", "trans": "言葉数の多い、冗長な"}
+        {
+          "word": "prolonged",
+          "trans": "長期化した"
+        },
+        {
+          "word": "extended",
+          "trans": "延長された"
+        },
+        {
+          "word": "verbose",
+          "trans": "言葉数の多い、冗長な"
+        }
       ],
       "antonyms": [
-        {"word": "brief", "trans": "簡潔な"},
-        {"word": "short", "trans": "短い"}
+        {
+          "word": "brief",
+          "trans": "簡潔な"
+        },
+        {
+          "word": "short",
+          "trans": "短い"
+        }
       ],
       "related": [
-        {"word": "lengthen", "trans": "動詞：長くする"}
+        {
+          "word": "lengthen",
+          "trans": "動詞：長くする"
+        }
       ]
     },
     {
@@ -1040,16 +1472,34 @@
       ],
       "etymology": "古期英語 lang（長い）+ th（名詞化）",
       "synonyms": [
-        {"word": "distance", "trans": "距離"},
-        {"word": "duration", "trans": "持続時間"},
-        {"word": "extent", "trans": "程度、範囲"}
+        {
+          "word": "distance",
+          "trans": "距離"
+        },
+        {
+          "word": "duration",
+          "trans": "持続時間"
+        },
+        {
+          "word": "extent",
+          "trans": "程度、範囲"
+        }
       ],
       "antonyms": [
-        {"word": "width", "trans": "幅"},
-        {"word": "shortness", "trans": "短さ"}
+        {
+          "word": "width",
+          "trans": "幅"
+        },
+        {
+          "word": "shortness",
+          "trans": "短さ"
+        }
       ],
       "related": [
-        {"word": "long", "trans": "形容詞：長い"}
+        {
+          "word": "long",
+          "trans": "形容詞：長い"
+        }
       ]
     },
     {
@@ -1077,13 +1527,22 @@
       ],
       "etymology": "ultra（超えて）+ violet（紫）",
       "synonyms": [
-        {"word": "UV", "trans": "紫外線の略称"}
+        {
+          "word": "UV",
+          "trans": "紫外線の略称"
+        }
       ],
       "antonyms": [
-        {"word": "infrared", "trans": "赤外線の"}
+        {
+          "word": "infrared",
+          "trans": "赤外線の"
+        }
       ],
       "related": [
-        {"word": "violet", "trans": "すみれ色、紫"}
+        {
+          "word": "violet",
+          "trans": "すみれ色、紫"
+        }
       ]
     },
     {
@@ -1107,7 +1566,10 @@
       "etymology": "infra（下の）+ red（赤）",
       "synonyms": [],
       "antonyms": [
-        {"word": "ultraviolet", "trans": "紫外線の"}
+        {
+          "word": "ultraviolet",
+          "trans": "紫外線の"
+        }
       ],
       "related": []
     },
@@ -1136,16 +1598,34 @@
       ],
       "etymology": "critical + ly (ギリシャ語 krinein「判断する」)",
       "synonyms": [
-        {"word": "severely", "trans": "ひどく"},
-        {"word": "analytically", "trans": "分析的に"},
-        {"word": "crucially", "trans": "決定的に"}
+        {
+          "word": "severely",
+          "trans": "ひどく"
+        },
+        {
+          "word": "analytically",
+          "trans": "分析的に"
+        },
+        {
+          "word": "crucially",
+          "trans": "決定的に"
+        }
       ],
       "antonyms": [
-        {"word": "slightly", "trans": "わずかに"},
-        {"word": "superficiaries", "trans": "表面上"}
+        {
+          "word": "slightly",
+          "trans": "わずかに"
+        },
+        {
+          "word": "superficiaries",
+          "trans": "表面上"
+        }
       ],
       "related": [
-        {"word": "critic", "trans": "名詞：批評家"}
+        {
+          "word": "critic",
+          "trans": "名詞：批評家"
+        }
       ]
     },
     {
@@ -1173,14 +1653,32 @@
       ],
       "etymology": "critically と同語源",
       "synonyms": [
-        {"word": "crucial", "trans": "決定的な"},
-        {"word": "vital", "trans": "極めて重要な"},
-        {"word": "censorious", "trans": "非難好きな"}
+        {
+          "word": "crucial",
+          "trans": "決定的な"
+        },
+        {
+          "word": "vital",
+          "trans": "極めて重要な"
+        },
+        {
+          "word": "censorious",
+          "trans": "非難好きな"
+        }
       ],
       "antonyms": [
-        {"word": "unimportant", "trans": "重要でない"},
-        {"word": "supportive", "trans": "支持的な"},
-        {"word": "stable", "trans": "安定した"}
+        {
+          "word": "unimportant",
+          "trans": "重要でない"
+        },
+        {
+          "word": "supportive",
+          "trans": "支持的な"
+        },
+        {
+          "word": "stable",
+          "trans": "安定した"
+        }
       ],
       "related": []
     },
@@ -1204,12 +1702,24 @@
       ],
       "etymology": "former + ly",
       "synonyms": [
-        {"word": "previously", "trans": "以前に"},
-        {"word": "once", "trans": "かつて"}
+        {
+          "word": "previously",
+          "trans": "以前に"
+        },
+        {
+          "word": "once",
+          "trans": "かつて"
+        }
       ],
       "antonyms": [
-        {"word": "currently", "trans": "現在は"},
-        {"word": "presently", "trans": "まもなく、現在は"}
+        {
+          "word": "currently",
+          "trans": "現在は"
+        },
+        {
+          "word": "presently",
+          "trans": "まもなく、現在は"
+        }
       ],
       "related": []
     },
@@ -1238,14 +1748,32 @@
       ],
       "etymology": "古期英語 forma（最初の）",
       "synonyms": [
-        {"word": "previous", "trans": "前の"},
-        {"word": "past", "trans": "過去の"},
-        {"word": "ex-", "trans": "元〜"}
+        {
+          "word": "previous",
+          "trans": "前の"
+        },
+        {
+          "word": "past",
+          "trans": "過去の"
+        },
+        {
+          "word": "ex-",
+          "trans": "元〜"
+        }
       ],
       "antonyms": [
-        {"word": "latter", "trans": "後者の"},
-        {"word": "latter", "trans": "後の"},
-        {"word": "future", "trans": "未来の"}
+        {
+          "word": "latter",
+          "trans": "後者の"
+        },
+        {
+          "word": "latter",
+          "trans": "後の"
+        },
+        {
+          "word": "future",
+          "trans": "未来の"
+        }
       ],
       "related": []
     },
@@ -1269,12 +1797,24 @@
       ],
       "etymology": "initial + ly (ラテン語 initium「入り口、始まり」)",
       "synonyms": [
-        {"word": "originally", "trans": "元々は"},
-        {"word": "at first", "trans": "最初は"}
+        {
+          "word": "originally",
+          "trans": "元々は"
+        },
+        {
+          "word": "at first",
+          "trans": "最初は"
+        }
       ],
       "antonyms": [
-        {"word": "finally", "trans": "ついに"},
-        {"word": "eventually", "trans": "結局は"}
+        {
+          "word": "finally",
+          "trans": "ついに"
+        },
+        {
+          "word": "eventually",
+          "trans": "結局は"
+        }
       ],
       "related": []
     },
@@ -1303,15 +1843,30 @@
       ],
       "etymology": "initially と同語源",
       "synonyms": [
-        {"word": "opening", "trans": "始まりの"},
-        {"word": "first", "trans": "第一の"}
+        {
+          "word": "opening",
+          "trans": "始まりの"
+        },
+        {
+          "word": "first",
+          "trans": "第一の"
+        }
       ],
       "antonyms": [
-        {"word": "final", "trans": "最後の"},
-        {"word": "last", "trans": "最後の"}
+        {
+          "word": "final",
+          "trans": "最後の"
+        },
+        {
+          "word": "last",
+          "trans": "最後の"
+        }
       ],
       "related": [
-        {"word": "initiate", "trans": "動詞：始める"}
+        {
+          "word": "initiate",
+          "trans": "動詞：始める"
+        }
       ]
     },
     {
@@ -1334,13 +1889,28 @@
       ],
       "etymology": "radical + ly (ラテン語 radix「根」)",
       "synonyms": [
-        {"word": "completely", "trans": "完全に"},
-        {"word": "drastically", "trans": "思い切って、劇的に"},
-        {"word": "fundamentally", "trans": "根本的に"}
+        {
+          "word": "completely",
+          "trans": "完全に"
+        },
+        {
+          "word": "drastically",
+          "trans": "思い切って、劇的に"
+        },
+        {
+          "word": "fundamentally",
+          "trans": "根本的に"
+        }
       ],
       "antonyms": [
-        {"word": "slightly", "trans": "わずかに"},
-        {"word": "gradually", "trans": "徐々に"}
+        {
+          "word": "slightly",
+          "trans": "わずかに"
+        },
+        {
+          "word": "gradually",
+          "trans": "徐々に"
+        }
       ],
       "related": []
     },
@@ -1369,15 +1939,30 @@
       ],
       "etymology": "radically と同語源",
       "synonyms": [
-        {"word": "fundamental", "trans": "基礎的な"},
-        {"word": "extreme", "trans": "極端な"}
+        {
+          "word": "fundamental",
+          "trans": "基礎的な"
+        },
+        {
+          "word": "extreme",
+          "trans": "極端な"
+        }
       ],
       "antonyms": [
-        {"word": "conservative", "trans": "保守的な"},
-        {"word": "moderate", "trans": "穏健な"}
+        {
+          "word": "conservative",
+          "trans": "保守的な"
+        },
+        {
+          "word": "moderate",
+          "trans": "穏健な"
+        }
       ],
       "related": [
-        {"word": "radish", "trans": "ハツカダイコン（根を食べるもの）"}
+        {
+          "word": "radish",
+          "trans": "ハツカダイコン（根を食べるもの）"
+        }
       ]
     },
     {
@@ -1405,17 +1990,38 @@
       ],
       "etymology": "ラテン語 con（完全に）+ cedere（行く、譲る）",
       "synonyms": [
-        {"word": "admit", "trans": "認める"},
-        {"word": "yield", "trans": "屈する、譲る"},
-        {"word": "grant", "trans": "許す、認める"}
+        {
+          "word": "admit",
+          "trans": "認める"
+        },
+        {
+          "word": "yield",
+          "trans": "屈する、譲る"
+        },
+        {
+          "word": "grant",
+          "trans": "許す、認める"
+        }
       ],
       "antonyms": [
-        {"word": "deny", "trans": "否定する"},
-        {"word": "reject", "trans": "拒絶する"},
-        {"word": "dispute", "trans": "異議を唱える"}
+        {
+          "word": "deny",
+          "trans": "否定する"
+        },
+        {
+          "word": "reject",
+          "trans": "拒絶する"
+        },
+        {
+          "word": "dispute",
+          "trans": "異議を唱える"
+        }
       ],
       "related": [
-        {"word": "concession", "trans": "名詞：譲歩"}
+        {
+          "word": "concession",
+          "trans": "名詞：譲歩"
+        }
       ]
     },
     {
@@ -1438,8 +2044,14 @@
       ],
       "etymology": "concede の名詞形",
       "synonyms": [
-        {"word": "compromise", "trans": "妥協"},
-        {"word": "allowance", "trans": "許容"}
+        {
+          "word": "compromise",
+          "trans": "妥協"
+        },
+        {
+          "word": "allowance",
+          "trans": "許容"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -1464,17 +2076,38 @@
       ],
       "etymology": "ラテン語 con（完全に）+ servare（守る）",
       "synonyms": [
-        {"word": "preserve", "trans": "保存する"},
-        {"word": "save", "trans": "救う、蓄える"},
-        {"word": "sustain", "trans": "維持する"}
+        {
+          "word": "preserve",
+          "trans": "保存する"
+        },
+        {
+          "word": "save",
+          "trans": "救う、蓄える"
+        },
+        {
+          "word": "sustain",
+          "trans": "維持する"
+        }
       ],
       "antonyms": [
-        {"word": "waste", "trans": "浪費する"},
-        {"word": "consume", "trans": "消費する"},
-        {"word": "destroy", "trans": "破壊する"}
+        {
+          "word": "waste",
+          "trans": "浪費する"
+        },
+        {
+          "word": "consume",
+          "trans": "消費する"
+        },
+        {
+          "word": "destroy",
+          "trans": "破壊する"
+        }
       ],
       "related": [
-        {"word": "conservation", "trans": "名詞：保存、保護"}
+        {
+          "word": "conservation",
+          "trans": "名詞：保存、保護"
+        }
       ]
     },
     {
@@ -1497,8 +2130,14 @@
       ],
       "etymology": "conserve の名詞形",
       "synonyms": [
-        {"word": "protection", "trans": "保護"},
-        {"word": "maintenance", "trans": "維持"}
+        {
+          "word": "protection",
+          "trans": "保護"
+        },
+        {
+          "word": "maintenance",
+          "trans": "維持"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -1533,16 +2172,34 @@
       ],
       "etymology": "ラテン語 con（共に）+ solari（和らげる）",
       "synonyms": [
-        {"word": "comfort", "trans": "慰める"},
-        {"word": "soothe", "trans": "なだめる"},
-        {"word": "control panel", "trans": "制御盤"}
+        {
+          "word": "comfort",
+          "trans": "慰める"
+        },
+        {
+          "word": "soothe",
+          "trans": "なだめる"
+        },
+        {
+          "word": "control panel",
+          "trans": "制御盤"
+        }
       ],
       "antonyms": [
-        {"word": "distress", "trans": "苦しませる"},
-        {"word": "upset", "trans": "うろたえさせる"}
+        {
+          "word": "distress",
+          "trans": "苦しませる"
+        },
+        {
+          "word": "upset",
+          "trans": "うろたえさせる"
+        }
       ],
       "related": [
-        {"word": "consolation", "trans": "名詞：慰め"}
+        {
+          "word": "consolation",
+          "trans": "名詞：慰め"
+        }
       ]
     },
     {
@@ -1565,8 +2222,14 @@
       ],
       "etymology": "console の名詞形",
       "synonyms": [
-        {"word": "comfort", "trans": "安心、慰め"},
-        {"word": "relief", "trans": "安堵"}
+        {
+          "word": "comfort",
+          "trans": "安心、慰め"
+        },
+        {
+          "word": "relief",
+          "trans": "安堵"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -1601,16 +2264,34 @@
       ],
       "etymology": "ラテン語 con（共に）+ statuere（立てる、置く）",
       "synonyms": [
-        {"word": "component", "trans": "部品、成分"},
-        {"word": "element", "trans": "要素"},
-        {"word": "voter", "trans": "投票者"}
+        {
+          "word": "component",
+          "trans": "部品、成分"
+        },
+        {
+          "word": "element",
+          "trans": "要素"
+        },
+        {
+          "word": "voter",
+          "trans": "投票者"
+        }
       ],
       "antonyms": [
-        {"word": "whole", "trans": "全体"}
+        {
+          "word": "whole",
+          "trans": "全体"
+        }
       ],
       "related": [
-        {"word": "constitute", "trans": "動詞：構成する"},
-        {"word": "constitution", "trans": "名詞：憲法、構成"}
+        {
+          "word": "constitute",
+          "trans": "動詞：構成する"
+        },
+        {
+          "word": "constitution",
+          "trans": "名詞：憲法、構成"
+        }
       ]
     },
     {
@@ -1633,8 +2314,14 @@
       ],
       "etymology": "constituent の抽象名詞形",
       "synonyms": [
-        {"word": "electorate", "trans": "有権者層"},
-        {"word": "district", "trans": "地区"}
+        {
+          "word": "electorate",
+          "trans": "有権者層"
+        },
+        {
+          "word": "district",
+          "trans": "地区"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -1664,17 +2351,38 @@
       ],
       "etymology": "ラテン語 con（共に）+ frons（額、顔）",
       "synonyms": [
-        {"word": "face", "trans": "直面する"},
-        {"word": "encounter", "trans": "遭遇する"},
-        {"word": "defy", "trans": "反抗する、挑む"}
+        {
+          "word": "face",
+          "trans": "直面する"
+        },
+        {
+          "word": "encounter",
+          "trans": "遭遇する"
+        },
+        {
+          "word": "defy",
+          "trans": "反抗する、挑む"
+        }
       ],
       "antonyms": [
-        {"word": "avoid", "trans": "避ける"},
-        {"word": "evade", "trans": "逃れる"},
-        {"word": "dodge", "trans": "かわす"}
+        {
+          "word": "avoid",
+          "trans": "避ける"
+        },
+        {
+          "word": "evade",
+          "trans": "逃れる"
+        },
+        {
+          "word": "dodge",
+          "trans": "かわす"
+        }
       ],
       "related": [
-        {"word": "confrontation", "trans": "名詞：対立"}
+        {
+          "word": "confrontation",
+          "trans": "名詞：対立"
+        }
       ]
     },
     {
@@ -1697,13 +2405,28 @@
       ],
       "etymology": "confront の名詞形",
       "synonyms": [
-        {"word": "conflict", "trans": "紛争、衝突"},
-        {"word": "clash", "trans": "ぶつかり合い"},
-        {"word": "showdown", "trans": "最後の対決"}
+        {
+          "word": "conflict",
+          "trans": "紛争、衝突"
+        },
+        {
+          "word": "clash",
+          "trans": "ぶつかり合い"
+        },
+        {
+          "word": "showdown",
+          "trans": "最後の対決"
+        }
       ],
       "antonyms": [
-        {"word": "agreement", "trans": "合意"},
-        {"word": "harmony", "trans": "調和"}
+        {
+          "word": "agreement",
+          "trans": "合意"
+        },
+        {
+          "word": "harmony",
+          "trans": "調和"
+        }
       ],
       "related": []
     },
@@ -1727,16 +2450,34 @@
       ],
       "etymology": "ラテン語 con（共に）+ gregare（群れる）",
       "synonyms": [
-        {"word": "gather", "trans": "集まる"},
-        {"word": "assemble", "trans": "集合する"},
-        {"word": "flock", "trans": "群がる"}
+        {
+          "word": "gather",
+          "trans": "集まる"
+        },
+        {
+          "word": "assemble",
+          "trans": "集合する"
+        },
+        {
+          "word": "flock",
+          "trans": "群がる"
+        }
       ],
       "antonyms": [
-        {"word": "disperse", "trans": "分散する"},
-        {"word": "scatter", "trans": "散らばる"}
+        {
+          "word": "disperse",
+          "trans": "分散する"
+        },
+        {
+          "word": "scatter",
+          "trans": "散らばる"
+        }
       ],
       "related": [
-        {"word": "congregation", "trans": "名詞：集まり"}
+        {
+          "word": "congregation",
+          "trans": "名詞：集まり"
+        }
       ]
     },
     {
@@ -1759,9 +2500,18 @@
       ],
       "etymology": "congregate の名詞形",
       "synonyms": [
-        {"word": "assembly", "trans": "集会"},
-        {"word": "audience", "trans": "聴衆"},
-        {"word": "flock", "trans": "信者の一団"}
+        {
+          "word": "assembly",
+          "trans": "集会"
+        },
+        {
+          "word": "audience",
+          "trans": "聴衆"
+        },
+        {
+          "word": "flock",
+          "trans": "信者の一団"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -1791,17 +2541,38 @@
       ],
       "etymology": "ラテン語 con（共に）+ solidare（固くする）",
       "synonyms": [
-        {"word": "unify", "trans": "統一する"},
-        {"word": "strengthen", "trans": "強化する"},
-        {"word": "merge", "trans": "合併する"}
+        {
+          "word": "unify",
+          "trans": "統一する"
+        },
+        {
+          "word": "strengthen",
+          "trans": "強化する"
+        },
+        {
+          "word": "merge",
+          "trans": "合併する"
+        }
       ],
       "antonyms": [
-        {"word": "separate", "trans": "分離する"},
-        {"word": "weaken", "trans": "弱める"},
-        {"word": "divide", "trans": "分割する"}
+        {
+          "word": "separate",
+          "trans": "分離する"
+        },
+        {
+          "word": "weaken",
+          "trans": "弱める"
+        },
+        {
+          "word": "divide",
+          "trans": "分割する"
+        }
       ],
       "related": [
-        {"word": "consolidation", "trans": "名詞：統合"}
+        {
+          "word": "consolidation",
+          "trans": "名詞：統合"
+        }
       ]
     },
     {
@@ -1824,8 +2595,14 @@
       ],
       "etymology": "consolidate の名詞形",
       "synonyms": [
-        {"word": "integration", "trans": "統合"},
-        {"word": "merger", "trans": "合併"}
+        {
+          "word": "integration",
+          "trans": "統合"
+        },
+        {
+          "word": "merger",
+          "trans": "合併"
+        }
       ],
       "antonyms": [],
       "related": []
@@ -1855,13 +2632,25 @@
       ],
       "etymology": "ラテン語 con（共に）+ spirare（息をする）",
       "synonyms": [
-        {"word": "plot", "trans": "企む"},
-        {"word": "collude", "trans": "結託する"},
-        {"word": "scheme", "trans": "計画する"}
+        {
+          "word": "plot",
+          "trans": "企む"
+        },
+        {
+          "word": "collude",
+          "trans": "結託する"
+        },
+        {
+          "word": "scheme",
+          "trans": "計画する"
+        }
       ],
       "antonyms": [],
       "related": [
-        {"word": "conspiracy", "trans": "名詞：陰謀"}
+        {
+          "word": "conspiracy",
+          "trans": "名詞：陰謀"
+        }
       ]
     },
     {
@@ -1884,8 +2673,14 @@
       ],
       "etymology": "conspire の名詞形",
       "synonyms": [
-        {"word": "plot", "trans": "策略"},
-        {"word": "intrigue", "trans": "陰謀、密議"}
+        {
+          "word": "plot",
+          "trans": "策略"
+        },
+        {
+          "word": "intrigue",
+          "trans": "陰謀、密議"
+        }
       ],
       "antonyms": [],
       "related": []
