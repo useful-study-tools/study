@@ -1951,6 +1951,52 @@
       ]
     },
     {
+      "number": 4961,
+      "word": "ceiling",
+      "pos": "名詞",
+      "meaning": "天井、（価格・数値などの）上限",
+      "nuance": "建物の天井という物理的な意味から、経済や社会における「限界値」や「上限」を指します。「ガラスの天井（glass ceiling）」は、目に見えない昇進の障壁として有名です。",
+      "example_sections": [
+        {
+          "title": "例文（物理的な天井）",
+          "examples": [
+            {
+              "en": "The room has a very high ceiling with a beautiful chandelier.",
+              "ja": "その部屋は天井が非常に高く、美しいシャンデリアがある。",
+              "highlight": "ceiling"
+            }
+          ]
+        },
+        {
+          "title": "例文（比喩的な上限）",
+          "examples": [
+            {
+              "en": "The government has imposed a ceiling on energy prices.",
+              "ja": "政府はエネルギー価格に上限を設けた。",
+              "highlight": "ceiling"
+            },
+            {
+              "en": "Women often face a glass ceiling in corporate management.",
+              "ja": "女性は企業の管理職において、しばしば「ガラスの天井」に直面する。",
+              "highlight": "ceiling"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 celer（隠す、覆う）→ 上から覆うもの",
+      "synonyms": [
+        {"word": "roof", "trans": "屋根（外側）"},
+        {"word": "upper limit", "trans": "上限"},
+        {"word": "maximum", "trans": "最大"}
+      ],
+      "antonyms": [
+        {"word": "floor", "trans": "床、最低限"},
+        {"word": "minimum", "trans": "最小"},
+        {"word": "bottom", "trans": "底"}
+      ],
+      "related": []
+    },
+    {
       "number": 4962,
       "word": "delegate",
       "pos": "名詞、動詞",
