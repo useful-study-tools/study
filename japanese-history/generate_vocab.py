@@ -112,12 +112,15 @@ def get_source_label(number_str):
     except:
         return "不明"
 
-def load_all_history_files():
-    all_words = []
-    base_path = 'japanese_history'
+def main():
+    all_words = load_all_history_files()
+    if not all_words: 
+        print("表示するデータが見つかりませんでした。")
+        return
     
-    # 修正：history_dataで始まるすべてのJSONを取得し、柔軟にソートする
-    pattern = os.path.join(base_path, 'history_data*.json')
+    sorted_words = sorted(all_words, key=lambda w: parse_number(w['number']))
+    output_dir = Path('japanese-history/data') 
+    output_dir.mkdir(parents=True, exist_ok=True)
     json_files = glob(pattern)
     
     # 数字が含まれる場合は数字順、そうでない場合は名前順にソート
