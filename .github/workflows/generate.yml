@@ -7,7 +7,7 @@ on:
     paths:
       - 'english_dictionary/**'
       - 'classical_japanese_dictionary/**'
-      - 'japanese_history/**'
+      - 'japanese-history/**'
   workflow_dispatch:
 
 jobs:
