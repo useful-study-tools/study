@@ -1100,6 +1100,67 @@
       ]
     },
     {
+  "words": [
+    {
+      "number": 4826,
+      "word": "stain",
+      "pos": "名詞、動詞",
+      "meaning": "汚れ、シミ、不名誉、〜を汚す、〜を染める",
+      "nuance": "物理的な「シミ」だけでなく、経歴や評判に対する「傷（汚点）」、あるいは木材などを着色する「ステイン」としても使われます。落ちにくい汚れというニュアンスが強いです。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：物理的な汚れ）",
+          "examples": [
+            {
+              "en": "I can't get this red wine stain out of my white shirt.",
+              "ja": "白いシャツについたこの赤ワインのシミが落ちない。",
+              "highlight": "stain"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：比喩的な汚点）",
+          "examples": [
+            {
+              "en": "The scandal left a permanent stain on the politician's reputation.",
+              "ja": "そのスキャンダルは、その政治家の評判に消えない汚点を残した。",
+              "highlight": "stain"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：染める・汚す）",
+          "examples": [
+            {
+              "en": "We decided to stain the wooden floor a darker brown.",
+              "ja": "私たちは木製の床をより濃い茶色に染めることにした。",
+              "highlight": "stain"
+            },
+            {
+              "en": "Blood had stained the carpet.",
+              "ja": "血がカーペットを汚していた。",
+              "highlight": "stained"
+            }
+          ]
+        }
+      ],
+      "etymology": "古期フランス語 desteindre（色を落とす、変色させる）→ distain の短縮形",
+      "synonyms": [
+        {"word": "spot", "trans": "点、シミ"},
+        {"word": "blemish", "trans": "欠点、傷"},
+        {"word": "dye", "trans": "染める"},
+        {"word": "discolor", "trans": "変色させる"}
+      ],
+      "antonyms": [
+        {"word": "clean", "trans": "きれいにする"},
+        {"word": "purify", "trans": "浄化する"},
+        {"word": "honor", "trans": "名誉（不名誉の対義）"}
+      ],
+      "related": [
+        {"word": "stainless", "trans": "形容詞：錆びない、汚れのない（ステンレス）"}
+      ]
+    },
+    {
       "number": 4827,
       "word": "guardian",
       "pos": "名詞",
