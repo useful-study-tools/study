@@ -44,10 +44,10 @@ jobs:
               - 'classical_japanese_dictionary/config.py'
               - 'classical_japanese_dictionary/*.py'
             history:
-              - 'japanese_history/history_data*.json'
-              - 'japanese_history/vocabulary_data*.json'
-              - 'japanese_history/config.py'
-              - 'japanese_history/*.py'
+              - 'japanese-history/history_data*.json'
+              - 'japanese-history/vocabulary_data*.json'
+              - 'japanese-history/config.py'
+              - 'japanese-history/*.py'
 
       # ==========================================
       # 1. 英単語辞書
@@ -80,10 +80,10 @@ jobs:
         if: steps.filter.outputs.history == 'true'
         run: |
           echo "🗾 Processing Japanese History Dictionary..."
-          mkdir -p japanese_history/data
-          python japanese_history/generate_vocab.py
-          python japanese_history/build_index.py
-          python japanese_history/generate_exercise.py
+          mkdir -p japanese-history/data
+          python japanese-history/generate_vocab.py
+          python japanese-history/build_index.py
+          python japanese-history/generate_exercise.py
 
       # ==========================================
       # 4. 変更チェックとコミット
