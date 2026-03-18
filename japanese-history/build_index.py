@@ -47,7 +47,7 @@ def get_history_description(filepath):
 # ==========================================
 def generate_index():
     # パス設定を japanese_history/ 基準に変更
-    base_dir = Path("japanese_history")
+    base_dir = Path("japanese-history")
     word_dir = base_dir / "data"
     output_file = base_dir / "index.html"
 
