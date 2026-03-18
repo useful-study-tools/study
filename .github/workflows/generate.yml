@@ -1,19 +1,18 @@
-name: Generate Vocabulary HTML Files (English & Classical Japanese)
+name: Generate Vocabulary HTML Files
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'english_dictionary/vocabulary_data*.json'
-      - 'english_dictionary/config.py' # ★ここを追加：出典設定が変わった時も実行されるように
-      - 'classical_japanese_dictionary/vocabulary_data*.json' # 古文の監視パスを追加
+      - 'english_dictionary/**'
+      - 'classical_japanese_dictionary/**'
+      - 'japanese_history/**' # 今後の日本史用
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    
     permissions:
       contents: write
     
@@ -27,77 +26,87 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
+      # どのディレクトリが変更されたかを判定
+      - name: Check which dictionary changed
+        id: filter
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            english:
+              - 'english_dictionary/vocabulary_data*.json'
+              - 'english_dictionary/config.py'
+            classical:
+              - 'classical_japanese_dictionary/vocabulary_data*.json'
+            history:
+              - 'japanese_history/vocabulary_data*.json'
+
       # ==========================================
-      # 1. 英単語辞書の処理 (既存機能の維持)
+      # 1. 英単語辞書 (英語に変更があった場合のみ)
       # ==========================================
       - name: Process English Dictionary
+        if: steps.filter.outputs.english == 'true'
         run: |
           echo "🔧 Processing English Dictionary..."
           mkdir -p english_dictionary/data
           python english_dictionary/generate_vocab.py
           python english_dictionary/build_index.py
           python english_dictionary/generate_exercise.py
-          echo "✅ English Dictionary updated"
 
       # ==========================================
-      # 2. 古文単語辞書の処理 (新規追加)
+      # 2. 古文単語辞書 (古文に変更があった場合のみ)
       # ==========================================
       - name: Process Classical Japanese Dictionary
+        if: steps.filter.outputs.classical == 'true'
         run: |
           echo "🌸 Processing Classical Japanese Dictionary..."
           mkdir -p classical_japanese_dictionary/data
           python classical_japanese_dictionary/generate_vocab.py
           python classical_japanese_dictionary/build_index.py
           python classical_japanese_dictionary/generate_exercise.py
-          echo "✅ Classical Japanese Dictionary updated"
-      
+
       # ==========================================
-      # 3. 変更チェックとコミット
+      # 3. 日本史辞書 (日本史に変更があった場合のみ)
       # ==========================================
-      - name: Check for changes
-        id: check_changes
+      - name: Process Japanese History Dictionary
+        if: steps.filter.outputs.history == 'true'
         run: |
-          # 英単語と古文単語の両方のパスを監視
-          TARGET_PATHS="english_dictionary/ classical_japanese_dictionary/"
-          if [ -n "$(git status --porcelain $TARGET_PATHS)" ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-            git status --porcelain $TARGET_PATHS
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
-          fi
-      
+          echo "🗾 Processing Japanese History Dictionary..."
+          mkdir -p japanese_history/data
+          # 日本史用のスクリプト名が他と同一であることを想定
+          python japanese_history/generate_vocab.py
+          python japanese_history/build_index.py
+          python japanese_history/generate_exercise.py
+
+      # ==========================================
+      # 4. 変更チェックと安全なコミット
+      # ==========================================
       - name: Commit and push changes
-        if: steps.check_changes.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 両方のディレクトリの変更をステージング
-          git add english_dictionary/data/*.html
-          git add english_dictionary/index.html
-          git add english_dictionary/exercise.html
-          git add classical_japanese_dictionary/data/*.html
-          git add classical_japanese_dictionary/index.html
-          git add classical_japanese_dictionary/exercise.html
+          # 不要なキャッシュファイルを除外して、全辞書のdataディレクトリとhtmlをステージング
+          git add */data/*.html */index.html */exercise.html
           
-          git commit -m "🤖 Auto-generate vocab HTML files (EN & JP) [skip ci]"
-          git push
+          # 差分があるか確認してからコミット (|| true でエラーによる停止を防ぐ)
+          if ! git diff --cached --exit-code --quiet; then
+            git commit -m "🤖 Auto-generate vocab HTML files [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
       
       # ==========================================
-      # 4. 完了サマリー (両方の統計を表示)
+      # 5. 完了サマリー
       # ==========================================
       - name: Job summary
         run: |
           echo "## 📊 Generation Summary" >> $GITHUB_STEP_SUMMARY
           
-          echo "### 🇺🇸 English Dictionary" >> $GITHUB_STEP_SUMMARY
-          cd english_dictionary
-          total_en=$(ls -1 data/*.html 2>/dev/null | wc -l)
-          echo "- Total: **$total_en HTML files**" >> $GITHUB_STEP_SUMMARY
-          cd ..
-          
-          echo "### 🌸 Classical Japanese Dictionary" >> $GITHUB_STEP_SUMMARY
-          cd classical_japanese_dictionary
-          total_jp=$(ls -1 data/*.html 2>/dev/null | wc -l)
-          echo "- Total: **$total_jp HTML files**" >> $GITHUB_STEP_SUMMARY
+          for dir in "english_dictionary" "classical_japanese_dictionary" "japanese_history"; do
+            if [ -d "$dir/data" ]; then
+              count=$(ls -1 $dir/data/*.html 2>/dev/null | wc -l)
+              echo "- **$dir**: $count HTML files" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
