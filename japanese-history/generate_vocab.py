@@ -115,16 +115,17 @@ def get_source_label(number_str):
 def load_all_history_files():
     all_words = []
     base_path = 'japanese_history'
-    json_files = []
     
-    main_json = os.path.join(base_path, 'history_data.json')
-    if os.path.exists(main_json):
-        json_files.append(main_json)
+    # 修正：history_dataで始まるすべてのJSONを取得し、柔軟にソートする
+    pattern = os.path.join(base_path, 'history_data*.json')
+    json_files = glob(pattern)
     
-    numbered_pattern = os.path.join(base_path, 'history_data_*.json')
-    numbered_files = sorted(glob(numbered_pattern), 
-                           key=lambda x: int(re.search(r'_(\d+)\.json', x).group(1)))
-    json_files.extend(numbered_files)
+    # 数字が含まれる場合は数字順、そうでない場合は名前順にソート
+    def sort_key(x):
+        nums = re.findall(r'\d+', x)
+        return int(nums[-1]) if nums else 0
+
+    json_files.sort(key=sort_key)
     
     for json_file in json_files:
         try:
