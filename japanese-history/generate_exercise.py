@@ -28,7 +28,7 @@ def get_json_file_mapping(base_path):
     return mapping
 
 def generate_html():
-    base_dir = Path("japanese_history")
+    base_dir = Path("japanese-history")
     output_file = base_dir / "exercise.html"
 
     # チャプターをグループ化
