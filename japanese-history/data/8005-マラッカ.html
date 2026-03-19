@@ -1,20 +1,86 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>マラッカ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8005 マラッカ</title>
+    <link rel="icon" href="/study/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/study/favicon.png">
+    <style>
+        :root { --primary-color: #8b0000; --accent-color: #f9f7f2; --text-main: #2c2c2c; --text-sub: #555; }
+        body { font-family: "Hiragino Mincho ProN", "MS Mincho", serif; line-height: 1.8; color: var(--text-main); margin: 0; padding: 20px; background-color: #f2f0eb; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        .card { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.1); border-top: 5px solid var(--primary-color); }
+        .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
+        .nav-button { flex: 1; padding: 12px 20px; border: 1px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 4px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
+        .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
+        .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
+        .btn-home { display: inline-block; margin-bottom: 20px; padding: 8px 18px; background-color: #6c757d; color: white !important; text-decoration: none; border-radius: 4px; font-size: 0.85rem; transition: 0.3s; }
+        
+        .word-header { border-bottom: 1px solid #ddd; padding-bottom: 15px; margin-bottom: 25px; }
+        .word-number { font-size: 1rem; color: var(--text-sub); font-family: monospace; }
+        .word-title { font-size: 2.5rem; margin: 5px 0; color: var(--primary-color); }
+        .era-tag { display: inline-block; background: #5d5d5d; color: white; padding: 2px 12px; border-radius: 4px; font-size: 0.9rem; vertical-align: middle; margin-left: 10px; }
+        
+        .section-title { font-size: 1.1rem; font-weight: bold; color: white; background: var(--primary-color); padding: 5px 15px; margin-top: 30px; margin-bottom: 15px; border-radius: 2px; }
+        .description { font-size: 1.2rem; line-height: 1.9; margin-bottom: 20px; padding: 10px 0; }
+        .background-box { background: var(--accent-color); padding: 20px; border-radius: 4px; font-size: 0.95rem; border-left: 5px solid #d4a373; }
+        
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 30px; }
+        .info-item { background: #fff; border: 1px solid #eee; padding: 15px; border-radius: 4px; }
+        .info-label { display: block; font-weight: bold; color: var(--primary-color); font-size: 0.85rem; margin-bottom: 8px; border-bottom: 1px dotted #ccc; }
+        
+        .list-unit { margin-bottom: 8px; font-size: 0.95rem; }
+        .list-unit a { text-decoration: none; color: #b22222; font-weight: bold; }
+        .list-unit a:hover { text-decoration: underline; }
+        .source-tag { font-size: 0.7rem; color: #888; margin-left: 5px; border: 1px solid #ddd; padding: 0 3px; }
+
+        @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2rem; } }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <a href="../index.html" class="btn-home">一覧へ戻る</a>
+        <div class="nav-buttons">
+            <a href="8004-ゴア.html" class="nav-button">← 前の用語</a>
+            <a href="8006-マカオ(澳門).html" class="nav-button">次の用語 →</a>
+        </div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number">項目番号: 8005</span>
+                <h1 class="word-title">マラッカ <span class="era-tag">16世紀〜</span></h1>
+            </div>
+            
+            <div class="section-title">用語解説</div>
+            <div class="description">マレー半島南西部に位置し、東西貿易を結ぶ海上交通の要衝。</div>
+            
+            <div class="background-box">
+                <strong>歴史的背景・詳細:</strong><br>
+                マラッカ海峡に面したこの地は、古くから中継貿易で栄えたマラッカ王国の首都であったが、1511年にポルトガルによって占領された。これにより、インド洋と東シナ海を結ぶ航路の支配権をポルトガルが握ることとなった。その後、オランダ、イギリスと支配者が交代し、各国の貿易戦略における最重要拠点であり続けた。日本への航路においても、季節風を待つための重要な寄港地として機能した。
+            </div>
 
-<a href="../index.html">一覧へ戻る</a>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">関連人物・出来事</span>
+                    <div class="list-unit"><strong>マラッカ海峡</strong> <span style="color:#666; font-size:0.8em;">(現在も世界有数の交通量を誇る海上路)</span></div>
+<div class="list-unit"><strong>香料諸島</strong> <span style="color:#666; font-size:0.8em;">(マラッカからさらに東にあるモルッカ諸島を指す)</span></div>
 
-<div>
-<a href="8004-ゴア.html">←前</a> | <a href="8006-マカオ(澳門).html">次→</a>
-</div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">場所・地域</span>
+                    マレー半島（マレーシア）
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義・対比語</span>
+                    <div class="list-unit"><strong>シンガポール</strong> <span style="color:#666; font-size:0.8em;">(後にイギリスが拠点として発展させた近隣の港町)</span></div>
 
-<h1>マラッカ</h1>
-<p>マレー半島南西部に位置し、東西貿易を結ぶ海上交通の要衝。</p>
-
+                </div>
+                <div class="info-item">
+                    <span class="info-label">重要度 / 試験頻出度</span>
+                    ★★★☆☆
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

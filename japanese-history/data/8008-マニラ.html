@@ -1,20 +1,86 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>マニラ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8008 マニラ</title>
+    <link rel="icon" href="/study/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/study/favicon.png">
+    <style>
+        :root { --primary-color: #8b0000; --accent-color: #f9f7f2; --text-main: #2c2c2c; --text-sub: #555; }
+        body { font-family: "Hiragino Mincho ProN", "MS Mincho", serif; line-height: 1.8; color: var(--text-main); margin: 0; padding: 20px; background-color: #f2f0eb; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        .card { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.1); border-top: 5px solid var(--primary-color); }
+        .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
+        .nav-button { flex: 1; padding: 12px 20px; border: 1px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 4px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
+        .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
+        .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
+        .btn-home { display: inline-block; margin-bottom: 20px; padding: 8px 18px; background-color: #6c757d; color: white !important; text-decoration: none; border-radius: 4px; font-size: 0.85rem; transition: 0.3s; }
+        
+        .word-header { border-bottom: 1px solid #ddd; padding-bottom: 15px; margin-bottom: 25px; }
+        .word-number { font-size: 1rem; color: var(--text-sub); font-family: monospace; }
+        .word-title { font-size: 2.5rem; margin: 5px 0; color: var(--primary-color); }
+        .era-tag { display: inline-block; background: #5d5d5d; color: white; padding: 2px 12px; border-radius: 4px; font-size: 0.9rem; vertical-align: middle; margin-left: 10px; }
+        
+        .section-title { font-size: 1.1rem; font-weight: bold; color: white; background: var(--primary-color); padding: 5px 15px; margin-top: 30px; margin-bottom: 15px; border-radius: 2px; }
+        .description { font-size: 1.2rem; line-height: 1.9; margin-bottom: 20px; padding: 10px 0; }
+        .background-box { background: var(--accent-color); padding: 20px; border-radius: 4px; font-size: 0.95rem; border-left: 5px solid #d4a373; }
+        
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 30px; }
+        .info-item { background: #fff; border: 1px solid #eee; padding: 15px; border-radius: 4px; }
+        .info-label { display: block; font-weight: bold; color: var(--primary-color); font-size: 0.85rem; margin-bottom: 8px; border-bottom: 1px dotted #ccc; }
+        
+        .list-unit { margin-bottom: 8px; font-size: 0.95rem; }
+        .list-unit a { text-decoration: none; color: #b22222; font-weight: bold; }
+        .list-unit a:hover { text-decoration: underline; }
+        .source-tag { font-size: 0.7rem; color: #888; margin-left: 5px; border: 1px solid #ddd; padding: 0 3px; }
+
+        @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2rem; } }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <a href="../index.html" class="btn-home">一覧へ戻る</a>
+        <div class="nav-buttons">
+            <a href="8007-スペイン(イスパニア).html" class="nav-button">← 前の用語</a>
+            <a href="8009-大航海時代.html" class="nav-button">次の用語 →</a>
+        </div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number">項目番号: 8008</span>
+                <h1 class="word-title">マニラ <span class="era-tag">16世紀〜</span></h1>
+            </div>
+            
+            <div class="section-title">用語解説</div>
+            <div class="description">フィリピンのルソン島に位置する、スペインのアジア貿易の拠点都市。</div>
+            
+            <div class="background-box">
+                <strong>歴史的背景・詳細:</strong><br>
+                1571年にレガスピによって建設された。メキシコ（アカプルコ）から太平洋を渡ってくる銀（メキシコ銀）と、中国から集まる生糸や陶磁器を交換する「ガレオン貿易」で繁栄した。日本からも多くの商人がマニラを訪れ、後には日本町も形成された。朱印船貿易の主要な目的地の一つでもあり、高山右近ら追放されたキリシタンの亡命先にもなった。
+            </div>
 
-<a href="../index.html">一覧へ戻る</a>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">関連人物・出来事</span>
+                    <div class="list-unit"><strong>ガレオン貿易</strong> <span style="color:#666; font-size:0.8em;">(マニラとアカプルコを結んだ大型船による貿易)</span></div>
+<div class="list-unit"><strong>高山右近</strong> <span style="color:#666; font-size:0.8em;">(国外追放によりマニラで没したキリシタン大名)</span></div>
 
-<div>
-<a href="8007-スペイン(イスパニア).html">←前</a> | <a href="8009-大航海時代.html">次→</a>
-</div>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">場所・地域</span>
+                    フィリピン（ルソン島）
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義・対比語</span>
+                    <div class="list-unit"><strong>バタヴィア</strong> <span style="color:#666; font-size:0.8em;">(ジャワ島にあるオランダのアジア拠点（現在のジャカルタ）)</span></div>
 
-<h1>マニラ</h1>
-<p>フィリピンのルソン島に位置する、スペインのアジア貿易の拠点都市。</p>
-
+                </div>
+                <div class="info-item">
+                    <span class="info-label">重要度 / 試験頻出度</span>
+                    ★★★★★
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
