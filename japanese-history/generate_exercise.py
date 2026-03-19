@@ -231,9 +231,13 @@ function checkEnd() {{ if(currentIndex < quizWords.length) showQuestion(); else 
 </body>
 </html>"""
 
+    # 修正ポイント：ディレクトリ名を除去して、カレントディレクトリに保存するようにする
+    output_file = "exercise.html"
+
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(html_template)
     print(f"✓ {output_file} (Japanese History Edition) generated.")
 
 if __name__ == "__main__":
     generate_html()
+
