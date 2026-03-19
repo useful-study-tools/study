@@ -46,10 +46,11 @@ def get_history_description(filepath):
 # 2. メイン処理
 # ==========================================
 def generate_index():
-    # パス設定を japanese_history/ 基準に変更
-    base_dir = Path("japanese-history")
+    # すでにフォルダ内にいるため、カレントディレクトリ(.)を基準にする
+    base_dir = Path(".")
     word_dir = base_dir / "data"
     output_file = base_dir / "index.html"
+
 
     if not word_dir.exists():
         print(f"エラー: ディレクトリ {word_dir} が見つかりません。")
