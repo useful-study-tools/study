@@ -7,7 +7,7 @@ on:
     paths:
       - 'english_dictionary/**'
       - 'classical_japanese_dictionary/**'
-      - 'japanese-history/**'
+      - 'japanese-history/**'  # ここを実際のフォルダ名に統一
   workflow_dispatch:
 
 jobs:
@@ -27,75 +27,53 @@ jobs:
         with:
           python-version: '3.11'
 
-      # どのディレクトリが変更されたかを判定
       - name: Check which dictionary changed
         id: filter
         uses: dorny/paths-filter@v3
         with:
           filters: |
             english:
-              - 'english_dictionary/vocabulary_data*.json'
-              - 'english_dictionary/history_data*.json'
-              - 'english_dictionary/config.py'
-              - 'english_dictionary/*.py'
+              - 'english_dictionary/**'
             classical:
-              - 'classical_japanese_dictionary/vocabulary_data*.json'
-              - 'classical_japanese_dictionary/history_data*.json'
-              - 'classical_japanese_dictionary/config.py'
-              - 'classical_japanese_dictionary/*.py'
+              - 'classical_japanese_dictionary/**'
             history:
-              - 'japanese-history/history_data*.json'
-              - 'japanese-history/vocabulary_data*.json'
-              - 'japanese-history/config.py'
-              - 'japanese-history/*.py'
+              - 'japanese-history/**'
 
-      # ==========================================
-      # 1. 英単語辞書
-      # ==========================================
+      # 1. 英単語
       - name: Process English Dictionary
         if: steps.filter.outputs.english == 'true'
         run: |
-          echo "🔧 Processing English Dictionary..."
           mkdir -p english_dictionary/data
           python english_dictionary/generate_vocab.py
           python english_dictionary/build_index.py
           python english_dictionary/generate_exercise.py
 
-      # ==========================================
-      # 2. 古文単語辞書
-      # ==========================================
+      # 2. 古文
       - name: Process Classical Japanese Dictionary
         if: steps.filter.outputs.classical == 'true'
         run: |
-          echo "🌸 Processing Classical Japanese Dictionary..."
           mkdir -p classical_japanese_dictionary/data
           python classical_japanese_dictionary/generate_vocab.py
           python classical_japanese_dictionary/build_index.py
           python classical_japanese_dictionary/generate_exercise.py
 
-      # ==========================================
-      # 3. 日本史辞書
-      # ==========================================
+      # 3. 日本史（修正ポイント：実行ディレクトリを指定）
       - name: Process Japanese History Dictionary
         if: steps.filter.outputs.history == 'true'
+        working-directory: ./japanese-history
         run: |
           echo "🗾 Processing Japanese History Dictionary..."
-          mkdir -p japanese-history/data
-          python japanese-history/generate_vocab.py
-          python japanese-history/build_index.py
-          python japanese-history/generate_exercise.py
+          mkdir -p data
+          python generate_vocab.py
+          python build_index.py
+          python generate_exercise.py
 
-      # ==========================================
       # 4. 変更チェックとコミット
-      # ==========================================
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
-          # 全辞書のHTMLとインデックスをステージング
-          git add */data/*.html */index.html */exercise.html
-          
+          git add .
           if ! git diff --cached --exit-code --quiet; then
             git commit -m "🤖 Auto-generate vocab HTML files [skip ci]"
             git push
@@ -103,17 +81,13 @@ jobs:
             echo "No changes to commit"
           fi
       
-      # ==========================================
-      # 5. 完了サマリー
-      # ==========================================
+      # 5. 完了サマリー（名前を japanese-history に統一）
       - name: Job summary
         run: |
           echo "## 📊 Generation Summary" >> $GITHUB_STEP_SUMMARY
-          for dir in "english_dictionary" "classical_japanese_dictionary" "japanese_history"; do
+          for dir in "english_dictionary" "classical_japanese_dictionary" "japanese-history"; do
             if [ -d "$dir/data" ]; then
               count=$(ls -1 $dir/data/*.html 2>/dev/null | wc -l)
               echo "- **$dir**: $count HTML files" >> $GITHUB_STEP_SUMMARY
-            else
-              echo "- **$dir**: Directory not found or no files generated" >> $GITHUB_STEP_SUMMARY
             fi
           done
