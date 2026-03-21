@@ -3,22 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>画像色反転ツール</title>
+    <title>画像・PDF 色反転ツール</title>
+    <!-- Tailwind CSS (スタイリング用) -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons (アイコン用) -->
     <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- PDF.js (PDF読み込み用) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <!-- jsPDF (PDF出力用) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    
     <style>
-        /* カスタムスクロールバーなどの調整用 */
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         }
+        /* スクロールバーのカスタマイズ */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
     </style>
 </head>
 <body class="bg-slate-50 min-h-screen flex flex-col items-center justify-center p-4 sm:p-8">
 
-    <!-- トースト通知（エラーメッセージ用） -->
-    <div id="toast" class="fixed top-4 left-1/2 transform -translate-x-1/2 bg-red-600 text-white px-6 py-3 rounded-xl shadow-lg transition-opacity duration-300 opacity-0 pointer-events-none z-50 flex items-center gap-2">
-        <i data-lucide="alert-circle" class="w-5 h-5"></i>
-        <span id="toastMessage">エラーが発生しました</span>
+    <!-- トースト通知 -->
+    <div id="toast" class="fixed top-4 left-1/2 transform -translate-x-1/2 text-white px-6 py-3 rounded-xl shadow-lg transition-all duration-300 opacity-0 -translate-y-4 pointer-events-none z-50 flex items-center gap-2 bg-red-600 font-medium">
+        <i data-lucide="info" class="w-5 h-5"></i>
+        <span id="toastMessage">メッセージ</span>
     </div>
 
     <!-- メインコンテナ -->
@@ -26,11 +37,14 @@
         <div class="p-6 sm:p-10">
             <!-- ヘッダー -->
             <div class="text-center mb-8">
-                <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-indigo-100 text-indigo-600 mb-4">
-                    <i data-lucide="palette" class="w-8 h-8"></i>
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-indigo-100 text-indigo-600 mb-4 shadow-inner">
+                    <i data-lucide="contrast" class="w-8 h-8"></i>
                 </div>
-                <h1 class="text-2xl sm:text-3xl font-bold text-slate-800 tracking-tight">画像色反転ツール</h1>
-                <p class="text-slate-500 mt-2 text-sm sm:text-base">画像の色をネガポジ反転して保存できます</p>
+                <h1 class="text-2xl sm:text-3xl font-bold text-slate-800 tracking-tight">画像・PDF 色反転ツール</h1>
+                <p class="text-slate-500 mt-2 text-sm sm:text-base leading-relaxed">
+                    画像やPDFファイルの色をネガポジ反転します。<br class="hidden sm:block">
+                    黒背景の資料を白背景にして印刷したい時などに便利です。
+                </p>
             </div>
             
             <!-- ドロップゾーン (アップロードエリア) -->
@@ -38,30 +52,49 @@
                 <div class="bg-slate-100 group-hover:bg-indigo-50 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 transition-colors duration-200">
                     <i data-lucide="upload-cloud" class="w-8 h-8 text-slate-400 group-hover:text-indigo-500 transition-colors duration-200"></i>
                 </div>
-                <p class="text-slate-700 font-medium text-lg mb-1">画像を選択</p>
+                <p class="text-slate-700 font-semibold text-lg mb-1">画像 または PDF を選択</p>
                 <p class="text-slate-500 text-sm">または、ここにドラッグ＆ドロップ</p>
-                <input type="file" id="fileInput" class="hidden" accept="image/*">
+                <div class="mt-4 flex justify-center gap-2 text-xs text-slate-400">
+                    <span class="bg-slate-100 px-2 py-1 rounded">JPG</span>
+                    <span class="bg-slate-100 px-2 py-1 rounded">PNG</span>
+                    <span class="bg-slate-100 px-2 py-1 rounded">PDF</span>
+                </div>
+                <input type="file" id="fileInput" class="hidden" accept="image/*, application/pdf">
             </div>
 
-            <!-- プレビューエリア (初期非表示) -->
+            <!-- プレビュー＆処理エリア (初期非表示) -->
             <div id="previewArea" class="hidden animate-fade-in">
-                <!-- 画像表示用Canvas -->
-                <div class="relative w-full bg-slate-100 rounded-xl overflow-hidden border border-slate-200 shadow-inner">
-                   <canvas id="canvas" class="w-full h-auto block"></canvas>
-                   <!-- 処理中インジケーター -->
-                   <div id="loading" class="absolute inset-0 bg-white/80 backdrop-blur-sm flex flex-col items-center justify-center hidden">
-                       <i data-lucide="loader-2" class="w-8 h-8 text-indigo-600 animate-spin mb-2"></i>
-                       <span class="text-sm font-medium text-slate-700">処理中...</span>
-                   </div>
+                <!-- プレビューCanvas -->
+                <div class="relative w-full bg-slate-100 rounded-xl overflow-hidden border border-slate-200 shadow-inner max-h-[400px] overflow-y-auto">
+                    <!-- PDF用バッジ -->
+                    <div id="pdfBadge" class="hidden absolute top-2 left-2 bg-indigo-600/90 backdrop-blur-sm text-white text-xs px-2.5 py-1.5 rounded-md font-medium z-10 shadow-sm flex items-center gap-1.5">
+                        <i data-lucide="file-text" class="w-3 h-3"></i>
+                        PDF (1ページ目プレビュー)
+                    </div>
+                    
+                    <canvas id="canvas" class="w-full h-auto block min-h-[200px]"></canvas>
                 </div>
                 
+                <!-- プログレスバー -->
+                <div id="progressContainer" class="hidden mt-6 w-full">
+                    <div class="flex justify-between text-sm text-slate-600 mb-2 font-medium">
+                        <span id="progressText">準備中...</span>
+                    </div>
+                    <div class="w-full bg-slate-100 rounded-full h-3 overflow-hidden border border-slate-200">
+                        <div id="progressBar" class="bg-indigo-500 h-full rounded-full transition-all duration-300 w-0 relative overflow-hidden">
+                            <!-- アニメーションエフェクト -->
+                            <div class="absolute top-0 left-0 w-full h-full bg-white/20 animate-pulse"></div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- アクションボタン -->
                 <div class="mt-6 flex flex-col sm:flex-row gap-3 w-full">
                     <button id="resetBtn" class="flex-1 py-3.5 px-4 bg-slate-100 text-slate-700 rounded-xl font-medium hover:bg-slate-200 transition-colors duration-200 flex justify-center items-center gap-2 focus:outline-none focus:ring-2 focus:ring-slate-300">
                         <i data-lucide="refresh-cw" class="w-5 h-5"></i>
-                        別の画像を選ぶ
+                        別のファイルを選ぶ
                     </button>
-                    <button id="downloadBtn" class="flex-1 py-3.5 px-4 bg-indigo-600 text-white rounded-xl font-medium hover:bg-indigo-700 transition-colors duration-200 shadow-md hover:shadow-lg flex justify-center items-center gap-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                    <button id="downloadBtn" class="flex-1 py-3.5 px-4 bg-indigo-600 text-white rounded-xl font-medium hover:bg-indigo-700 transition-all duration-200 shadow-md hover:shadow-lg flex justify-center items-center gap-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-md disabled:hover:bg-indigo-600">
                         <i data-lucide="download" class="w-5 h-5"></i>
                         ダウンロード
                     </button>
@@ -71,14 +104,20 @@
         
         <!-- フッター -->
         <div class="bg-slate-50 px-6 py-4 border-t border-slate-100 text-center">
-            <p class="text-xs text-slate-400">
-                <i data-lucide="shield-check" class="w-3 h-3 inline-block mr-1"></i>
-                画像はブラウザ上で処理され、サーバーには保存されません。
+            <p class="text-xs text-slate-400 flex items-center justify-center gap-1.5">
+                <i data-lucide="shield-check" class="w-4 h-4 text-green-500"></i>
+                すべての処理はブラウザ内で安全に行われます
             </p>
         </div>
     </div>
 
     <script>
+        // PDF.jsのワーカー設定 (CDN経由で読み込み)
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+        
+        // jsPDFの初期化準備
+        const { jsPDF } = window.jspdf;
+
         // Lucideアイコンの初期化
         lucide.createIcons();
 
@@ -90,30 +129,41 @@
         const ctx = canvas.getContext('2d', { willReadFrequently: true });
         const resetBtn = document.getElementById('resetBtn');
         const downloadBtn = document.getElementById('downloadBtn');
-        const loading = document.getElementById('loading');
+        const progressContainer = document.getElementById('progressContainer');
+        const progressBar = document.getElementById('progressBar');
+        const progressText = document.getElementById('progressText');
+        const pdfBadge = document.getElementById('pdfBadge');
         const toast = document.getElementById('toast');
         const toastMessage = document.getElementById('toastMessage');
 
-        let currentFileName = 'inverted_image.png';
+        // 状態管理変数
+        let currentFileName = '';
+        let currentFileType = 'image'; // 'image' または 'pdf'
         let isProcessing = false;
+        let processedDataUrl = null;   // 画像用
+        let processedPdfBlob = null;   // PDF用
 
         // トースト通知を表示する関数
-        function showError(message) {
+        function showToast(message, isError = true) {
             toastMessage.textContent = message;
-            toast.classList.remove('opacity-0');
+            if (isError) {
+                toast.classList.replace('bg-green-600', 'bg-red-600');
+            } else {
+                toast.classList.replace('bg-red-600', 'bg-green-600');
+            }
+            toast.classList.remove('opacity-0', '-translate-y-4');
+            
             setTimeout(() => {
-                toast.classList.add('opacity-0');
+                toast.classList.add('opacity-0', '-translate-y-4');
             }, 3000);
         }
 
-        // --- ドラッグ＆ドロップとクリックのイベント設定 ---
+        // --- ドラッグ＆ドロップとクリックイベント ---
 
-        // クリックでファイル選択ダイアログを開く
         dropZone.addEventListener('click', () => {
             if (!isProcessing) fileInput.click();
         });
 
-        // ドラッグ中のスタイリング
         dropZone.addEventListener('dragover', (e) => {
             e.preventDefault();
             dropZone.classList.add('border-indigo-500', 'bg-indigo-50');
@@ -124,135 +174,258 @@
             dropZone.classList.remove('border-indigo-500', 'bg-indigo-50');
         });
 
-        // ドロップ時の処理
         dropZone.addEventListener('drop', (e) => {
             e.preventDefault();
             dropZone.classList.remove('border-indigo-500', 'bg-indigo-50');
-            
             if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
                 handleFile(e.dataTransfer.files[0]);
             }
         });
 
-        // ファイル選択時の処理
         fileInput.addEventListener('change', (e) => {
             if (e.target.files && e.target.files.length > 0) {
                 handleFile(e.target.files[0]);
             }
         });
 
-        // --- 画像処理のコアロジック ---
+        // --- メイン処理フロー ---
 
-        function handleFile(file) {
-            // 画像ファイルかどうかのチェック
-            if (!file.type.startsWith('image/')) {
-                showError('画像ファイル（JPG, PNGなど）を選択してください。');
+        async function handleFile(file) {
+            const isImage = file.type.startsWith('image/');
+            const isPdf = file.type === 'application/pdf';
+
+            if (!isImage && !isPdf) {
+                showToast('画像(JPG, PNG等)またはPDFファイルを選択してください。');
                 return;
             }
 
+            // 初期設定とUI切り替え
             isProcessing = true;
-
-            // ダウンロード用のファイル名を作成 (元のファイル名_inverted.png)
+            currentFileType = isImage ? 'image' : 'pdf';
+            const ext = isImage ? '.png' : '.pdf';
             const fileNameWithoutExt = file.name.substring(0, file.name.lastIndexOf('.')) || file.name;
-            currentFileName = `${fileNameWithoutExt}_inverted.png`;
+            currentFileName = `${fileNameWithoutExt}_inverted${ext}`;
 
-            // UIの切り替え
             dropZone.classList.add('hidden');
             previewArea.classList.remove('hidden');
-            loading.classList.remove('hidden'); // 処理中スピナー表示
-
-            const reader = new FileReader();
+            progressContainer.classList.remove('hidden');
+            downloadBtn.disabled = true;
             
-            reader.onload = function(event) {
-                const img = new Image();
-                img.onload = function() {
-                    // Canvasのサイズを画像の実際のサイズに設定
-                    canvas.width = img.width;
-                    canvas.height = img.height;
+            if (currentFileType === 'pdf') {
+                pdfBadge.classList.remove('hidden');
+            } else {
+                pdfBadge.classList.add('hidden');
+            }
 
-                    // 画像をCanvasに描画
-                    ctx.drawImage(img, 0, 0);
+            updateProgress(0, 100);
 
-                    // 非同期で画像処理を行う（UIフリーズを防ぐため）
-                    setTimeout(() => {
-                        invertColors();
-                    }, 50);
-                };
-                
-                img.onerror = function() {
-                    showError('画像の読み込みに失敗しました。');
-                    resetUI();
-                };
-                
-                img.src = event.target.result;
-            };
-
-            reader.onerror = function() {
-                showError('ファイルの読み込みに失敗しました。');
-                resetUI();
-            };
-
-            reader.readAsDataURL(file);
-        }
-
-        // 色反転処理
-        function invertColors() {
             try {
-                // Canvasからピクセルデータを取得
-                const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-                const data = imageData.data;
-
-                // 全ピクセルをループしてRGB値を反転 (255 - 元の値)
-                for (let i = 0; i < data.length; i += 4) {
-                    data[i]     = 255 - data[i];     // Red
-                    data[i + 1] = 255 - data[i + 1]; // Green
-                    data[i + 2] = 255 - data[i + 2]; // Blue
-                    // data[i + 3] (Alpha/透明度) はそのまま
+                // ファイル種別ごとに処理を分岐
+                if (isImage) {
+                    await processImage(file);
+                } else {
+                    await processPdf(file);
                 }
+                
+                // 処理完了UI更新
+                downloadBtn.disabled = false;
+                progressContainer.classList.add('hidden');
+                showToast('処理が完了しました！', false);
 
-                // 処理したデータをCanvasに戻す
-                ctx.putImageData(imageData, 0, 0);
             } catch (err) {
-                console.error("画像処理エラー:", err);
-                showError('画像の処理中にエラーが発生しました。');
+                console.error("処理エラー:", err);
+                showToast('処理中にエラーが発生しました。ファイルが破損しているか保護されている可能性があります。');
+                resetUI();
             } finally {
-                loading.classList.add('hidden'); // スピナー非表示
                 isProcessing = false;
             }
         }
 
-        // --- ダウンロードとリセット ---
+        // --- 画像処理ロジック ---
+
+        function processImage(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    const img = new Image();
+                    img.onload = async function() {
+                        // Canvasサイズの調整
+                        canvas.width = img.width;
+                        canvas.height = img.height;
+                        ctx.drawImage(img, 0, 0);
+                        
+                        updateProgress(50, 100, "画像の色を反転中...");
+                        
+                        // UIのフリーズを防ぐため少し待機
+                        await new Promise(r => setTimeout(r, 50)); 
+
+                        // 色反転処理
+                        invertCanvasColors(ctx, canvas.width, canvas.height);
+                        
+                        // データURLとして保持
+                        processedDataUrl = canvas.toDataURL('image/png');
+                        
+                        updateProgress(100, 100, "完了");
+                        resolve();
+                    };
+                    img.onerror = reject;
+                    img.src = event.target.result;
+                };
+                reader.onerror = reject;
+                reader.readAsDataURL(file);
+            });
+        }
+
+        // --- PDF処理ロジック ---
+
+        async function processPdf(file) {
+            const arrayBuffer = await file.arrayBuffer();
+            const loadingTask = pdfjsLib.getDocument({ data: arrayBuffer });
+            const pdf = await loadingTask.promise;
+            const numPages = pdf.numPages;
+
+            let pdfDocOut = null;
+
+            for (let pageNum = 1; pageNum <= numPages; pageNum++) {
+                updateProgress(pageNum - 1, numPages, `${pageNum}/${numPages}ページを処理中...`);
+
+                const page = await pdf.getPage(pageNum);
+                // 高画質化のためスケールを2.0に設定
+                const scale = 2.0; 
+                const viewport = page.getViewport({ scale: scale });
+
+                // 描画用の一時的なCanvasを作成
+                const tempCanvas = document.createElement('canvas');
+                const tempCtx = tempCanvas.getContext('2d', { willReadFrequently: true });
+                tempCanvas.width = viewport.width;
+                tempCanvas.height = viewport.height;
+
+                // PDFは背景が透明な場合があるため、一旦白で塗りつぶす（反転後に黒になる）
+                tempCtx.fillStyle = '#ffffff';
+                tempCtx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
+
+                // ページをCanvasに描画
+                const renderContext = {
+                    canvasContext: tempCtx,
+                    viewport: viewport
+                };
+                await page.render(renderContext).promise;
+
+                // 色反転処理
+                invertCanvasColors(tempCtx, tempCanvas.width, tempCanvas.height);
+
+                // 1ページ目のみプレビュー用Canvasにも反映
+                if (pageNum === 1) {
+                    canvas.width = tempCanvas.width;
+                    canvas.height = tempCanvas.height;
+                    ctx.drawImage(tempCanvas, 0, 0);
+                }
+
+                // jsPDFに追加するための画像データを取得（ファイルサイズを抑えるためJPEG）
+                const imgData = tempCanvas.toDataURL('image/jpeg', 0.95);
+                
+                // 元のPDFサイズ(pt単位)を計算してページを追加
+                const pdfWidthPt = viewport.width / scale;
+                const pdfHeightPt = viewport.height / scale;
+                const orientation = pdfWidthPt > pdfHeightPt ? 'landscape' : 'portrait';
+
+                if (pageNum === 1) {
+                    // 1ページ目でjsPDFを初期化
+                    pdfDocOut = new jsPDF({
+                        orientation: orientation,
+                        unit: 'pt',
+                        format: [pdfWidthPt, pdfHeightPt]
+                    });
+                    pdfDocOut.addImage(imgData, 'JPEG', 0, 0, pdfWidthPt, pdfHeightPt);
+                } else {
+                    // 2ページ目以降はページを追加
+                    pdfDocOut.addPage([pdfWidthPt, pdfHeightPt], orientation);
+                    pdfDocOut.addImage(imgData, 'JPEG', 0, 0, pdfWidthPt, pdfHeightPt);
+                }
+
+                updateProgress(pageNum, numPages, `${pageNum}/${numPages}ページ処理完了`);
+                
+                // UIのフリーズを防ぐためブラウザに描画の隙間を与える
+                await new Promise(r => setTimeout(r, 10)); 
+            }
+
+            // 最終的なPDFをBlobとして保持
+            processedPdfBlob = pdfDocOut.output('blob');
+        }
+
+        // --- 共通のピクセル色反転処理 ---
+
+        function invertCanvasColors(context, w, h) {
+            const imageData = context.getImageData(0, 0, w, h);
+            const data = imageData.data;
+            
+            for (let i = 0; i < data.length; i += 4) {
+                data[i]     = 255 - data[i];     // Red
+                data[i + 1] = 255 - data[i + 1]; // Green
+                data[i + 2] = 255 - data[i + 2]; // Blue
+                data[i + 3] = 255;               // Alpha (強制的に不透明にする)
+            }
+            
+            context.putImageData(imageData, 0, 0);
+        }
+
+        // --- UIとイベント ---
+
+        function updateProgress(current, total, customText = null) {
+            const percent = total > 0 ? Math.round((current / total) * 100) : 0;
+            progressBar.style.width = `${percent}%`;
+            progressText.textContent = customText || `処理中... ${percent}%`;
+        }
 
         downloadBtn.addEventListener('click', () => {
+            if (downloadBtn.disabled) return;
+
             try {
-                // Canvasの内容をData URL (PNG) として取得
-                const dataURL = canvas.toDataURL('image/png');
+                let downloadUrl;
                 
-                // ダウンロード用のリンクを動的に作成してクリックをシミュレート
+                if (currentFileType === 'image') {
+                    downloadUrl = processedDataUrl;
+                } else if (currentFileType === 'pdf') {
+                    // Blobから一時的なURLを生成
+                    downloadUrl = URL.createObjectURL(processedPdfBlob);
+                }
+
+                // ダウンロードリンクを動的に生成してクリック
                 const link = document.createElement('a');
                 link.download = currentFileName;
-                link.href = dataURL;
+                link.href = downloadUrl;
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
+
+                // メモリ解放 (PDFの場合)
+                if (currentFileType === 'pdf') {
+                    setTimeout(() => URL.revokeObjectURL(downloadUrl), 10000);
+                }
             } catch (err) {
                 console.error("ダウンロードエラー:", err);
-                showError('画像の保存に失敗しました。');
+                showToast('ファイルの保存に失敗しました。');
             }
         });
 
         resetBtn.addEventListener('click', resetUI);
 
         function resetUI() {
-            // UIを初期状態に戻す
             previewArea.classList.add('hidden');
             dropZone.classList.remove('hidden');
-            fileInput.value = ''; // input fileをクリア
-            ctx.clearRect(0, 0, canvas.width, canvas.height); // Canvasをクリア
+            progressContainer.classList.add('hidden');
+            pdfBadge.classList.add('hidden');
+            fileInput.value = ''; 
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // 状態のリセット
             isProcessing = false;
+            processedDataUrl = null;
+            processedPdfBlob = null;
+            progressBar.style.width = '0%';
         }
-
     </script>
 </body>
 </html>
+
 
