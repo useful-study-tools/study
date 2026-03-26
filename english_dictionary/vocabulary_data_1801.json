@@ -1,0 +1,2899 @@
+{
+  "words": [
+    {
+      "number": 1801,
+      "word": "access the Internet",
+      "pos": "動詞句",
+      "meaning": "インターネットに接続する、インターネットを利用する",
+      "nuance": "単に物理的に繋がるだけでなく、情報やサービスを利用できる状態になるというニュアンスを含みます。公共の場でのWi-Fi接続などでもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（インターネットに接続する・利用する）",
+          "examples": [
+            {
+              "en": "You can access the Internet for free in this cafe.",
+              "ja": "このカフェでは無料でインターネットに接続できます。",
+              "highlight": "access the Internet"
+            },
+            {
+              "en": "Many people in rural areas still find it difficult to access the Internet.",
+              "ja": "農村部の多くの人々は、今でもインターネットを利用するのが難しいと感じている。",
+              "highlight": "access the Internet"
+            }
+          ]
+        }
+      ],
+      "etymology": "access（ラテン語 accedere「近づく」） + the Internet（inter「相互の」+ network「網」）",
+      "synonyms": [
+        {"word": "connect to the Internet", "trans": "インターネットに接続する"},
+        {"word": "get online", "trans": "オンラインになる"},
+        {"word": "log on", "trans": "ログオンする、接続する"}
+      ],
+      "antonyms": [
+        {"word": "disconnect from the Internet", "trans": "インターネットから切断する"},
+        {"word": "go offline", "trans": "オフラインになる"},
+        {"word": "log off", "trans": "ログオフする"}
+      ],
+      "related": [
+        {"word": "Internet access", "trans": "名詞：インターネット接続（環境）"}
+      ]
+    },
+    {
+      "number": 1802,
+      "word": "surf the Internet",
+      "pos": "動詞句",
+      "meaning": "ネットサーフィンをする、インターネットを見て回る",
+      "nuance": "特定の明確な目的を持たずに、興味の赴くまま次から次へとウェブサイトを閲覧して楽しむ様子を表します。",
+      "example_sections": [
+        {
+          "title": "例文（ネットを見て回る）",
+          "examples": [
+            {
+              "en": "I spent the whole afternoon just surfing the Internet.",
+              "ja": "私は午後ずっと、ただネットサーフィンをして過ごした。",
+              "highlight": "surfing the Internet"
+            },
+            {
+              "en": "Instead of studying, he was surfing the Internet for funny videos.",
+              "ja": "勉強する代わりに、彼は面白い動画を探してネットを見て回っていた。",
+              "highlight": "surfing the Internet"
+            }
+          ]
+        }
+      ],
+      "etymology": "surf（波乗りをする）を、次々と押し寄せる情報の波に乗ることに見立てた1990年代の造語",
+      "synonyms": [
+        {"word": "browse the web", "trans": "ウェブを閲覧する"},
+        {"word": "explore the Internet", "trans": "インターネットを探索する"},
+        {"word": "navigate the net", "trans": "ネットを巡回する"}
+      ],
+      "antonyms": [
+        {"word": "stay offline", "trans": "オフラインのままでいる"},
+        {"word": "disconnect", "trans": "切断する"},
+        {"word": "focus on a specific task", "trans": "特定の作業に集中する（漫然と見ない）"}
+      ],
+      "related": [
+        {"word": "net surfer", "trans": "名詞：ネットサーファー"}
+      ]
+    },
+    {
+      "number": 1803,
+      "word": "browse",
+      "pos": "動詞、名詞",
+      "meaning": "（インターネットを）閲覧する、（店で商品を）見て回る、拾い読みする",
+      "nuance": "「surf」よりも情報や商品を「ざっと探す・眺める」というニュアンスが強いです。買う目的がなくてもお店をぶらぶら見る際にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：インターネットを閲覧する）",
+          "examples": [
+            {
+              "en": "She was browsing the latest fashion trends on her smartphone.",
+              "ja": "彼女はスマートフォンで最新のファッショントレンドを閲覧していた。",
+              "highlight": "browsing"
+            },
+            {
+              "en": "I usually browse a few news sites before starting work.",
+              "ja": "私は通常、仕事を始める前にいくつかのニュースサイトをざっと見ます。",
+              "highlight": "browse"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：店を見て回る）",
+          "examples": [
+            {
+              "en": "We are just browsing, thank you.",
+              "ja": "ただ見ているだけです、ありがとう。（店員に声をかけられた時の定番フレーズ）",
+              "highlight": "browsing"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：拾い読み、見て回ること）",
+          "examples": [
+            {
+              "en": "I had a quick browse through the magazine.",
+              "ja": "私はその雑誌をざっと拾い読みした。",
+              "highlight": "browse"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 brost（若枝）を食べる、という言葉から。牛などが草木の葉をあちこち食べる様子が「拾い読みする」へと変化した。",
+      "synonyms": [
+        {"word": "scan", "trans": "ざっと目を通す"},
+        {"word": "skim", "trans": "拾い読みする"},
+        {"word": "look around", "trans": "見て回る"}
+      ],
+      "antonyms": [
+        {"word": "stare", "trans": "じっと見つめる"},
+        {"word": "scrutinize", "trans": "綿密に調べる"},
+        {"word": "examine", "trans": "精査する"}
+      ],
+      "related": [
+        {"word": "browser", "trans": "名詞：ブラウザ（ChromeやSafariなど）、見て回る人"}
+      ]
+    },
+    {
+      "number": 1804,
+      "word": "go viral",
+      "pos": "動詞句",
+      "meaning": "（ネット上で）バズる、急速に拡散する",
+      "nuance": "ウイルスが感染拡大するように、SNSや動画投稿サイトなどで情報、写真、動画があっという間に多くの人に共有され、大流行する現象を指します。",
+      "example_sections": [
+        {
+          "title": "例文（急速に拡散する・バズる）",
+          "examples": [
+            {
+              "en": "The video of the dancing cat went viral overnight.",
+              "ja": "踊る猫の動画は一晩でバズった。",
+              "highlight": "went viral"
+            },
+            {
+              "en": "It is hard to predict which posts will go viral on social media.",
+              "ja": "ソーシャルメディアでどの投稿が急速に拡散するかを予測するのは難しい。",
+              "highlight": "go viral"
+            }
+          ]
+        }
+      ],
+      "etymology": "go（〜になる） + viral（ウイルスの）。ウイルス感染のように人から人へ爆発的に広がる様子から。",
+      "synonyms": [
+        {"word": "spread rapidly", "trans": "急速に広まる"},
+        {"word": "become a hit", "trans": "大ヒットする"},
+        {"word": "blow up", "trans": "（ネット上で）爆発的に人気が出る"}
+      ],
+      "antonyms": [
+        {"word": "go unnoticed", "trans": "気づかれないままになる"},
+        {"word": "fade away", "trans": "次第に消えていく"},
+        {"word": "flop", "trans": "大失敗する、ウケない"}
+      ],
+      "related": [
+        {"word": "viral marketing", "trans": "名詞：バイラルマーケティング（口コミを利用した宣伝）"}
+      ]
+    },
+    {
+      "number": 1805,
+      "word": "on the Internet",
+      "pos": "副詞句、形容詞句",
+      "meaning": "インターネット上で（の）、ネットで",
+      "nuance": "前置詞は「in」ではなく「on」を使います。ネットワークという「網の面」の上に乗って情報がやり取りされているイメージです。",
+      "example_sections": [
+        {
+          "title": "例文（インターネット上で）",
+          "examples": [
+            {
+              "en": "I found this useful recipe on the Internet.",
+              "ja": "私はこの便利なレシピをインターネットで見つけた。",
+              "highlight": "on the Internet"
+            },
+            {
+              "en": "Be careful about sharing personal information on the Internet.",
+              "ja": "インターネット上で個人情報を共有することには注意しなさい。",
+              "highlight": "on the Internet"
+            }
+          ]
+        }
+      ],
+      "etymology": "on（接触・表面・乗っている） + the Internet",
+      "synonyms": [
+        {"word": "online", "trans": "オンラインで"},
+        {"word": "on the web", "trans": "ウェブ上で"},
+        {"word": "on the net", "trans": "ネット上で"}
+      ],
+      "antonyms": [
+        {"word": "offline", "trans": "オフラインで"},
+        {"word": "in real life (IRL)", "trans": "現実世界で"},
+        {"word": "in person", "trans": "直接会って"}
+      ],
+      "related": [
+        {"word": "internet-based", "trans": "形容詞：インターネットを利用した"}
+      ]
+    },
+    {
+      "number": 1806,
+      "word": "online",
+      "pos": "形容詞、副詞",
+      "meaning": "オンラインの、インターネットに接続して、ネット上で",
+      "nuance": "コンピューターやデバイスがネットワークに繋がっている状態、またはその状態で行われる活動（ゲーム、買い物、授業など）全般を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞：オンラインの）",
+          "examples": [
+            {
+              "en": "Online shopping has become incredibly popular in recent years.",
+              "ja": "近年、オンラインショッピングは信じられないほど人気になっている。",
+              "highlight": "Online"
+            },
+            {
+              "en": "He is currently taking an online course in programming.",
+              "ja": "彼は現在、プログラミングのオンラインコースを受講している。",
+              "highlight": "online"
+            }
+          ]
+        },
+        {
+          "title": "例文（副詞：オンラインで・ネット上で）",
+          "examples": [
+            {
+              "en": "Many teenagers spend several hours a day playing games online.",
+              "ja": "多くの十代の若者が、オンラインでゲームをして1日に数時間過ごす。",
+              "highlight": "online"
+            },
+            {
+              "en": "Are you working online today?",
+              "ja": "今日はオンラインで仕事をしていますか？",
+              "highlight": "online"
+            }
+          ]
+        }
+      ],
+      "etymology": "on（〜の上に、接続して）+ line（線、通信回線）。元々は鉄道や電話・電信回線の用語として使われていたものがIT用語へ転用された。",
+      "synonyms": [
+        {"word": "connected", "trans": "接続された"},
+        {"word": "networked", "trans": "ネットワーク化された"},
+        {"word": "on the Internet", "trans": "インターネット上で"}
+      ],
+      "antonyms": [
+        {"word": "offline", "trans": "オフラインの、接続されていない"},
+        {"word": "disconnected", "trans": "切断された"}
+      ],
+      "related": [
+        {"word": "online presence", "trans": "名詞：ネット上での存在感・活動状況"}
+      ]
+    },
+    {
+      "number": 1807,
+      "word": "the development of the Internet",
+      "pos": "名詞句",
+      "meaning": "インターネットの発展、インターネットの普及",
+      "nuance": "インターネットという技術そのものの進歩や、それが社会全体に広まっていく歴史的なプロセスを指すフォーマルな表現です。",
+      "example_sections": [
+        {
+          "title": "例文（インターネットの発展）",
+          "examples": [
+            {
+              "en": "The development of the Internet has dramatically changed how we communicate.",
+              "ja": "インターネットの発展は、私たちのコミュニケーションの方法を劇的に変えた。",
+              "highlight": "The development of the Internet"
+            },
+            {
+              "en": "Global business accelerated rapidly with the development of the Internet.",
+              "ja": "グローバルビジネスはインターネットの普及とともに急速に加速した。",
+              "highlight": "the development of the Internet"
+            }
+          ]
+        }
+      ],
+      "etymology": "development（フランス語 desveloper「包みを開く」から、隠れていたものが現れ発展する意） + Internet",
+      "synonyms": [
+        {"word": "the evolution of the Internet", "trans": "インターネットの進化"},
+        {"word": "the growth of the Internet", "trans": "インターネットの成長"},
+        {"word": "the spread of the Internet", "trans": "インターネットの普及"}
+      ],
+      "antonyms": [
+        {"word": "the decline of the Internet", "trans": "インターネットの衰退"},
+        {"word": "the stagnation of technology", "trans": "技術の停滞"}
+      ],
+      "related": [
+        {"word": "technological advancement", "trans": "名詞：技術の進歩"}
+      ]
+    },
+    {
+      "number": 1808,
+      "word": "accurate information",
+      "pos": "名詞句",
+      "meaning": "正確な情報、間違いのない情報",
+      "nuance": "事実に基づいており、エラー、偏見、偽りなどがなく、細部まで緻密で正確なデータを指します。",
+      "example_sections": [
+        {
+          "title": "例文（正確な情報）",
+          "examples": [
+            {
+              "en": "It is important to gather accurate information before making a decision.",
+              "ja": "決定を下す前に、正確な情報を収集することが重要です。",
+              "highlight": "accurate information"
+            },
+            {
+              "en": "The website provides accurate information about local weather conditions.",
+              "ja": "そのウェブサイトは、現地の気象条件に関する正確な情報を提供している。",
+              "highlight": "accurate information"
+            }
+          ]
+        }
+      ],
+      "etymology": "accurate（ラテン語 ad-「〜へ」+ curare「世話をする」→ 注意深く行われた、狂いのない）+ information",
+      "synonyms": [
+        {"word": "correct information", "trans": "正しい情報"},
+        {"word": "precise data", "trans": "精密なデータ"},
+        {"word": "exact details", "trans": "正確な詳細"}
+      ],
+      "antonyms": [
+        {"word": "inaccurate information", "trans": "不正確な情報"},
+        {"word": "false information", "trans": "誤った情報"},
+        {"word": "misinformation", "trans": "誤報、デマ"}
+      ],
+      "related": [
+        {"word": "accuracy", "trans": "名詞：正確さ、精度"}
+      ]
+    },
+    {
+      "number": 1809,
+      "word": "the latest information",
+      "pos": "名詞句",
+      "meaning": "最新の情報",
+      "nuance": "「late（遅い）」の最上級を用いることで、「最も遅く入ってきた＝現時点で最も新しい」にアップデートされた情報であることを表します。",
+      "example_sections": [
+        {
+          "title": "例文（最新の情報）",
+          "examples": [
+            {
+              "en": "Please check our website for the latest information on the event.",
+              "ja": "イベントの最新情報については、当社のウェブサイトをご確認ください。",
+              "highlight": "the latest information"
+            },
+            {
+              "en": "The app sends you the latest information regarding flight delays.",
+              "ja": "そのアプリは、フライトの遅延に関する最新情報をあなたに送信します。",
+              "highlight": "the latest information"
+            }
+          ]
+        }
+      ],
+      "etymology": "late（遅い、最近の）の最上級 latest + information",
+      "synonyms": [
+        {"word": "up-to-date information", "trans": "最新の情報"},
+        {"word": "breaking news", "trans": "最新のニュース、速報"},
+        {"word": "the newest data", "trans": "最も新しいデータ"}
+      ],
+      "antonyms": [
+        {"word": "outdated information", "trans": "時代遅れの情報"},
+        {"word": "old news", "trans": "古いニュース"},
+        {"word": "obsolete data", "trans": "時代遅れの（使われなくなった）データ"}
+      ],
+      "related": [
+        {"word": "update", "trans": "動詞：更新する、最新のものにする"}
+      ]
+    },
+    {
+      "number": 1810,
+      "word": "reliable information",
+      "pos": "名詞句",
+      "meaning": "信頼できる情報、確かな情報",
+      "nuance": "情報源が確かであり、信用して行動の根拠にできるような情報のことを指します。学術論文や公式発表などがこれに当たります。",
+      "example_sections": [
+        {
+          "title": "例文（信頼できる情報）",
+          "examples": [
+            {
+              "en": "We need to base our research on reliable information.",
+              "ja": "私たちは信頼できる情報に基づいて研究を進める必要がある。",
+              "highlight": "reliable information"
+            },
+            {
+              "en": "Not everything written on the internet is reliable information.",
+              "ja": "インターネットに書かれていることの全てが信頼できる情報というわけではない。",
+              "highlight": "reliable information"
+            }
+          ]
+        }
+      ],
+      "etymology": "reliable（rely「頼る」+ -able「〜できる」）+ information",
+      "synonyms": [
+        {"word": "trustworthy information", "trans": "信用できる情報"},
+        {"word": "credible information", "trans": "確実な情報"},
+        {"word": "dependable data", "trans": "頼りになるデータ"}
+      ],
+      "antonyms": [
+        {"word": "unreliable information", "trans": "信頼できない情報"},
+        {"word": "doubtful information", "trans": "疑わしい情報"},
+        {"word": "untrustworthy source", "trans": "信用できない情報源"}
+      ],
+      "related": [
+        {"word": "reliability", "trans": "名詞：信頼性"}
+      ]
+    },
+    {
+      "number": 1811,
+      "word": "illegal downloading",
+      "pos": "名詞句",
+      "meaning": "違法ダウンロード",
+      "nuance": "著作権で保護されている音楽、映画、ソフトウェアなどを、権利者の許可なくインターネット上から自身の端末に保存する違法な行為を指します。",
+      "example_sections": [
+        {
+          "title": "例文（違法ダウンロード）",
+          "examples": [
+            {
+              "en": "Illegal downloading of music and movies can lead to severe penalties.",
+              "ja": "音楽や映画の違法ダウンロードは、重い罰則につながる可能性がある。",
+              "highlight": "Illegal downloading"
+            },
+            {
+              "en": "The government has launched a campaign to stop illegal downloading.",
+              "ja": "政府は違法ダウンロードを阻止するためのキャンペーンを開始した。",
+              "highlight": "illegal downloading"
+            }
+          ]
+        }
+      ],
+      "etymology": "illegal（不法な）+ downloading（データを手元に落とすこと）",
+      "synonyms": [
+        {"word": "piracy", "trans": "海賊行為、著作権侵害"},
+        {"word": "copyright infringement", "trans": "著作権侵害"},
+        {"word": "unauthorized downloading", "trans": "無許可のダウンロード"}
+      ],
+      "antonyms": [
+        {"word": "legal downloading", "trans": "合法なダウンロード"},
+        {"word": "authorized downloading", "trans": "許可されたダウンロード"},
+        {"word": "purchasing digital content", "trans": "デジタルコンテンツの購入"}
+      ],
+      "related": [
+        {"word": "copyright", "trans": "名詞：著作権"}
+      ]
+    },
+    {
+      "number": 1812,
+      "word": "post comments anonymously",
+      "pos": "動詞句",
+      "meaning": "匿名でコメントを投稿する",
+      "nuance": "自分の本名や身元を明かさずに、インターネット上の掲示板やSNS、ブログなどに意見や感想を書き込む行為。自由な発言を促す反面、誹謗中傷の原因にもなり得ます。",
+      "example_sections": [
+        {
+          "title": "例文（匿名でコメントを投稿する）",
+          "examples": [
+            {
+              "en": "Many users prefer to post comments anonymously on this forum.",
+              "ja": "多くのユーザーは、このフォーラムで匿名でコメントを投稿することを好む。",
+              "highlight": "post comments anonymously"
+            },
+            {
+              "en": "It is easy for people to say hurtful things when they post comments anonymously.",
+              "ja": "匿名でコメントを投稿する場合、人は簡単に傷つけるようなことを言ってしまう。",
+              "highlight": "post comments anonymously"
+            }
+          ]
+        }
+      ],
+      "etymology": "post（掲示する）+ comments（論評）+ anonymously（ギリシャ語 an- '無い' + onoma '名前' → 名前がない状態で）",
+      "synonyms": [
+        {"word": "comment incognito", "trans": "身元を隠してコメントする"},
+        {"word": "post namelessly", "trans": "名前なしで投稿する"},
+        {"word": "write under a pseudonym", "trans": "仮名で書く"}
+      ],
+      "antonyms": [
+        {"word": "post comments under one's real name", "trans": "本名でコメントを投稿する"},
+        {"word": "reveal one's identity", "trans": "身元を明かす"}
+      ],
+      "related": [
+        {"word": "anonymity", "trans": "名詞：匿名性"}
+      ]
+    },
+    {
+      "number": 1813,
+      "word": "false information",
+      "pos": "名詞句",
+      "meaning": "誤った情報、偽情報",
+      "nuance": "事実に反する情報全般を指します。勘違いによる悪意のない間違い（ミスインフォメーション）と、誰かを騙すための意図的な嘘（ディスインフォメーション）の両方を含みます。",
+      "example_sections": [
+        {
+          "title": "例文（誤った情報・偽情報）",
+          "examples": [
+            {
+              "en": "The article was removed because it contained false information.",
+              "ja": "その記事は誤った情報を含んでいたため、削除された。",
+              "highlight": "false information"
+            },
+            {
+              "en": "Spreading false information during a disaster is extremely dangerous.",
+              "ja": "災害時に偽情報を拡散することは極めて危険である。",
+              "highlight": "false information"
+            }
+          ]
+        }
+      ],
+      "etymology": "false（ラテン語 falsus '欺く、誤った'）+ information（情報）",
+      "synonyms": [
+        {"word": "fake news", "trans": "フェイクニュース"},
+        {"word": "misinformation", "trans": "誤報（意図的でないもの）"},
+        {"word": "disinformation", "trans": "偽情報（意図的に流されたもの）"}
+      ],
+      "antonyms": [
+        {"word": "true information", "trans": "真実の情報"},
+        {"word": "accurate information", "trans": "正確な情報"},
+        {"word": "factual data", "trans": "事実に基づくデータ"}
+      ],
+      "related": [
+        {"word": "falsehood", "trans": "名詞：嘘、虚偽"}
+      ]
+    },
+    {
+      "number": 1814,
+      "word": "unreliable information",
+      "pos": "名詞句",
+      "meaning": "信頼できない情報、不確かな情報",
+      "nuance": "情報源が不明確であったり、根拠が薄弱であったりして、真実として鵜呑みにしたり行動の基礎にしたりするには危険な情報を指します。",
+      "example_sections": [
+        {
+          "title": "例文（信頼できない情報）",
+          "examples": [
+            {
+              "en": "You shouldn't make financial decisions based on unreliable information.",
+              "ja": "信頼できない情報に基づいて財務上の決定を下すべきではない。",
+              "highlight": "unreliable information"
+            },
+            {
+              "en": "The website is known for publishing unreliable information.",
+              "ja": "そのウェブサイトは、不確かな情報を掲載することで知られている。",
+              "highlight": "unreliable information"
+            }
+          ]
+        }
+      ],
+      "etymology": "un-（否定）+ reliable（頼りになる）+ information（情報）",
+      "synonyms": [
+        {"word": "dubious information", "trans": "疑わしい情報"},
+        {"word": "questionable data", "trans": "疑わしいデータ"},
+        {"word": "untrustworthy source", "trans": "信用できない情報源"}
+      ],
+      "antonyms": [
+        {"word": "reliable information", "trans": "信頼できる情報"},
+        {"word": "trustworthy information", "trans": "信用できる情報"},
+        {"word": "credible evidence", "trans": "確かな証拠"}
+      ],
+      "related": [
+        {"word": "unreliability", "trans": "名詞：信頼できないこと"}
+      ]
+    },
+    {
+      "number": 1815,
+      "word": "biased information",
+      "pos": "名詞句",
+      "meaning": "偏った情報、偏向した情報",
+      "nuance": "客観的・中立的ではなく、特定の立場や考え方、利益に有利になるように意図的に選別されたり、解釈されたりしている情報のこと。",
+      "example_sections": [
+        {
+          "title": "例文（偏った情報）",
+          "examples": [
+            {
+              "en": "We must be careful not to be influenced by biased information.",
+              "ja": "私たちは、偏った情報に影響されないように注意しなければならない。",
+              "highlight": "biased information"
+            },
+            {
+              "en": "The documentary was criticized for presenting heavily biased information.",
+              "ja": "そのドキュメンタリーは、極めて偏った情報を提示しているとして批判された。",
+              "highlight": "biased information"
+            }
+          ]
+        }
+      ],
+      "etymology": "biased（斜めの、偏見のある）+ information（情報）",
+      "synonyms": [
+        {"word": "one-sided information", "trans": "一方的な情報"},
+        {"word": "prejudiced views", "trans": "偏見に満ちた見解"},
+        {"word": "slanted reporting", "trans": "偏向報道"}
+      ],
+      "antonyms": [
+        {"word": "unbiased information", "trans": "偏りのない情報"},
+        {"word": "objective information", "trans": "客観的な情報"},
+        {"word": "impartial data", "trans": "公平なデータ"}
+      ],
+      "related": [
+        {"word": "bias", "trans": "名詞：偏見、先入観"}
+      ]
+    },
+    {
+      "number": 1816,
+      "word": "information that is not based on scientific evidence",
+      "pos": "名詞句",
+      "meaning": "科学的根拠に基づかない情報",
+      "nuance": "実験、観察、検証といった科学的なプロセスを経て確認された証拠を持たない情報。疑似科学、迷信、根拠のない健康法などを指摘する際によく使われる長めの表現です。",
+      "example_sections": [
+        {
+          "title": "例文（科学的根拠に基づかない情報）",
+          "examples": [
+            {
+              "en": "We should ignore information that is not based on scientific evidence.",
+              "ja": "私たちは科学的根拠に基づかない情報を無視すべきだ。",
+              "highlight": "information that is not based on scientific evidence"
+            },
+            {
+              "en": "Many diets are promoted using information that is not based on scientific evidence.",
+              "ja": "多くのダイエット法は、科学的根拠に基づかない情報を用いて宣伝されている。",
+              "highlight": "information that is not based on scientific evidence"
+            }
+          ]
+        }
+      ],
+      "etymology": "information（情報）+ that is not based on（〜に基づかない）+ scientific evidence（科学的証拠）",
+      "synonyms": [
+        {"word": "unscientific claims", "trans": "非科学的な主張"},
+        {"word": "pseudoscience", "trans": "疑似科学"},
+        {"word": "unfounded rumors", "trans": "根拠のない噂"}
+      ],
+      "antonyms": [
+        {"word": "evidence-based information", "trans": "根拠に基づく情報"},
+        {"word": "scientifically proven facts", "trans": "科学的に証明された事実"},
+        {"word": "empirically supported data", "trans": "経験的に支持されたデータ"}
+      ],
+      "related": [
+        {"word": "scientific proof", "trans": "名詞：科学的証明"}
+      ]
+    },
+    {
+      "number": 1817,
+      "word": "protect one's personal information",
+      "pos": "動詞句",
+      "meaning": "個人情報を保護する、個人情報を守る",
+      "nuance": "名前、住所、電話番号、クレジットカード番号、パスワードなどのプライベートなデータが、第三者に漏洩したり、悪用されたりするのを防ぐ行為。",
+      "example_sections": [
+        {
+          "title": "例文（個人情報を保護する）",
+          "examples": [
+            {
+              "en": "You should use a strong password to protect your personal information.",
+              "ja": "個人情報を保護するために、強力なパスワードを使用すべきです。",
+              "highlight": "protect your personal information"
+            },
+            {
+              "en": "Companies have a legal obligation to protect their customers' personal information.",
+              "ja": "企業は顧客の個人情報を保護する法的義務を負っている。",
+              "highlight": "protect their customers' personal information"
+            }
+          ]
+        }
+      ],
+      "etymology": "protect（守る）+ one's（〜の）+ personal（個人の）+ information（情報）",
+      "synonyms": [
+        {"word": "safeguard one's personal data", "trans": "個人データを保護する"},
+        {"word": "secure one's private information", "trans": "個人情報を安全に保つ"},
+        {"word": "keep one's information safe", "trans": "情報を安全に保つ"}
+      ],
+      "antonyms": [
+        {"word": "leak personal information", "trans": "個人情報を漏洩する"},
+        {"word": "expose personal data", "trans": "個人データをさらす"},
+        {"word": "steal personal information", "trans": "個人情報を盗む"}
+      ],
+      "related": [
+        {"word": "privacy policy", "trans": "名詞：プライバシーポリシー（個人情報保護方針）"}
+      ]
+    },
+    {
+      "number": 1818,
+      "word": "protect one's privacy",
+      "pos": "動詞句",
+      "meaning": "プライバシーを保護する、守る",
+      "nuance": "個人の私生活、秘密、あるいは一人になる権利が、他人に干渉されたり、無断で公開されたりしないように守ること。情報だけでなく、物理的な空間や生活全般に及びます。",
+      "example_sections": [
+        {
+          "title": "例文（プライバシーを保護する）",
+          "examples": [
+            {
+              "en": "Celebrities often struggle to protect their privacy from the media.",
+              "ja": "有名人はしばしば、メディアから自分のプライバシーを守るのに苦労する。",
+              "highlight": "protect their privacy"
+            },
+            {
+              "en": "The new law is designed to protect our privacy on the internet.",
+              "ja": "その新しい法律は、インターネット上での私たちのプライバシーを保護するように設計されている。",
+              "highlight": "protect our privacy"
+            }
+          ]
+        }
+      ],
+      "etymology": "protect（守る）+ privacy（ラテン語 privatus '公から切り離された' から）",
+      "synonyms": [
+        {"word": "respect one's privacy", "trans": "プライバシーを尊重する"},
+        {"word": "guard one's personal life", "trans": "私生活を守る"},
+        {"word": "defend one's private space", "trans": "個人的な空間を守る"}
+      ],
+      "antonyms": [
+        {"word": "invade one's privacy", "trans": "プライバシーを侵害する"},
+        {"word": "violate one's privacy", "trans": "プライバシーを侵害する（よりフォーマル）"},
+        {"word": "intrude upon one's private life", "trans": "私生活に立ち入る"}
+      ],
+      "related": [
+        {"word": "invasion of privacy", "trans": "名詞：プライバシーの侵害"}
+      ]
+    },
+    {
+      "number": 1819,
+      "word": "guarantee freedom of speech",
+      "pos": "動詞句",
+      "meaning": "言論の自由を保障する",
+      "nuance": "国家や権力が、個人が自分の考えや意見を検閲されたり罰せられたりすることなく自由に表明する権利を、憲法や法律などによって確約し守ること。",
+      "example_sections": [
+        {
+          "title": "例文（言論の自由を保障する）",
+          "examples": [
+            {
+              "en": "The constitution must guarantee freedom of speech for all citizens.",
+              "ja": "憲法はすべての市民の言論の自由を保障しなければならない。",
+              "highlight": "guarantee freedom of speech"
+            },
+            {
+              "en": "A true democracy guarantees freedom of speech, even for unpopular opinions.",
+              "ja": "真の民主主義は、不人気な意見であっても言論の自由を保障する。",
+              "highlight": "guarantees freedom of speech"
+            }
+          ]
+        }
+      ],
+      "etymology": "guarantee（保証する・担保する）+ freedom of speech（言論の自由）",
+      "synonyms": [
+        {"word": "protect free speech", "trans": "言論の自由を保護する"},
+        {"word": "ensure freedom of expression", "trans": "表現の自由を確実にする"},
+        {"word": "uphold the right to speak freely", "trans": "自由に話す権利を支持する"}
+      ],
+      "antonyms": [
+        {"word": "censor speech", "trans": "言論を検閲する"},
+        {"word": "suppress freedom of expression", "trans": "表現の自由を抑圧する"},
+        {"word": "restrict free speech", "trans": "言論の自由を制限する"}
+      ],
+      "related": [
+        {"word": "censorship", "trans": "名詞：検閲"}
+      ]
+    },
+    {
+      "number": 1820,
+      "word": "cyberbullying",
+      "pos": "名詞",
+      "meaning": "ネットいじめ、サイバーいじめ",
+      "nuance": "インターネット（SNS、掲示板、メッセージアプリ、オンラインゲームなど）を通じて、特定の人物を執拗に誹謗中傷したり、嫌がらせをしたりする陰湿な行為。",
+      "example_sections": [
+        {
+          "title": "例文（ネットいじめ）",
+          "examples": [
+            {
+              "en": "Schools are taking steps to educate students about the dangers of cyberbullying.",
+              "ja": "学校は、ネットいじめの危険性について生徒を教育する措置を講じている。",
+              "highlight": "cyberbullying"
+            },
+            {
+              "en": "She suffered from depression after being a victim of cyberbullying.",
+              "ja": "彼女はネットいじめの被害に遭った後、うつ病に苦しんだ。",
+              "highlight": "cyberbullying"
+            }
+          ]
+        }
+      ],
+      "etymology": "cyber（コンピューター・ネットワークの）+ bullying（いじめ、弱い者いじめ）",
+      "synonyms": [
+        {"word": "online harassment", "trans": "オンラインでの嫌がらせ"},
+        {"word": "cyber harassment", "trans": "サイバーハラスメント"},
+        {"word": "Internet bullying", "trans": "インターネット上でのいじめ"}
+      ],
+      "antonyms": [
+        {"word": "online support", "trans": "オンラインでの支援"},
+        {"word": "digital citizenship", "trans": "デジタル市民権（ネット上の良識ある行動）"},
+        {"word": "encouragement", "trans": "励まし"}
+      ],
+      "related": [
+        {"word": "cyberbully", "trans": "名詞：ネットいじめの加害者"}
+      ]
+    },
+    {
+      "number": 1821,
+      "word": "talk on one's cell phone",
+      "pos": "動詞句",
+      "meaning": "携帯電話で話す",
+      "nuance": "携帯電話を使って相手と音声で会話をしている状態を表します。「with」ではなく「on」を使うことで、電話という通信手段（回線上）に乗って話しているイメージになります。",
+      "example_sections": [
+        {
+          "title": "例文（携帯電話で話す）",
+          "examples": [
+            {
+              "en": "It is dangerous to talk on your cell phone while riding a bicycle.",
+              "ja": "自転車に乗りながら携帯電話で話すのは危険です。",
+              "highlight": "talk on your cell phone"
+            },
+            {
+              "en": "She was talking on her cell phone so loudly that everyone could hear her.",
+              "ja": "彼女は携帯電話でとても大声で話していたので、誰にでも聞こえた。",
+              "highlight": "talking on her cell phone"
+            }
+          ]
+        }
+      ],
+      "etymology": "talk（話す）+ on（〜を使って・乗って）+ cell phone（cellular phoneの略、携帯電話）",
+      "synonyms": [
+        {"word": "speak on the phone", "trans": "電話で話す"},
+        {"word": "chat on a mobile", "trans": "携帯電話でおしゃべりする"},
+        {"word": "have a phone conversation", "trans": "電話で会話する"}
+      ],
+      "antonyms": [
+        {"word": "hang up the phone", "trans": "電話を切る"},
+        {"word": "text someone", "trans": "誰かにメッセージ（テキスト）を送る"},
+        {"word": "communicate face-to-face", "trans": "対面でコミュニケーションをとる"}
+      ],
+      "related": [
+        {"word": "cell phone etiquette", "trans": "名詞：携帯電話のマナー"}
+      ]
+    },
+    {
+      "number": 1822,
+      "word": "be making a phone call",
+      "pos": "動詞句",
+      "meaning": "電話をかけている",
+      "nuance": "まさに今、電話の番号をダイヤルして発信している、あるいは通話を開始しているという「動作そのもの」に焦点を当てた進行形の表現です。",
+      "example_sections": [
+        {
+          "title": "例文（電話をかけている）",
+          "examples": [
+            {
+              "en": "Please be quiet, my father is making a phone call in the next room.",
+              "ja": "静かにしてください、父が隣の部屋で電話をかけています。",
+              "highlight": "is making a phone call"
+            },
+            {
+              "en": "He stepped outside because he was making an important phone call.",
+              "ja": "彼は重要な電話をかけていたので外に出た。",
+              "highlight": "was making an important phone call"
+            }
+          ]
+        }
+      ],
+      "etymology": "be + make（作る・行う）+ a phone call（電話での呼び出し）",
+      "synonyms": [
+        {"word": "be calling someone", "trans": "誰かに電話をかけている"},
+        {"word": "be phoning", "trans": "電話している"},
+        {"word": "be ringing someone up", "trans": "誰かに電話をかけている（主に英）"}
+      ],
+      "antonyms": [
+        {"word": "be receiving a phone call", "trans": "電話を受けている"},
+        {"word": "be answering the phone", "trans": "電話に出ている"},
+        {"word": "hang up", "trans": "電話を切る"}
+      ],
+      "related": [
+        {"word": "missed call", "trans": "名詞：不在着信"}
+      ]
+    },
+    {
+      "number": 1823,
+      "word": "answer the phone",
+      "pos": "動詞句",
+      "meaning": "電話に出る",
+      "nuance": "鳴っている電話に応答する行為を指します。誰からの着信かにかかわらず、受話器を取ったり通話ボタンを押したりする動作を表します。",
+      "example_sections": [
+        {
+          "title": "例文（電話に出る）",
+          "examples": [
+            {
+              "en": "Could you answer the phone for me? My hands are full.",
+              "ja": "代わりに電話に出てくれませんか？手が離せないのです。",
+              "highlight": "answer the phone"
+            },
+            {
+              "en": "She didn't answer the phone because she was in a meeting.",
+              "ja": "彼女は会議中だったので電話に出なかった。",
+              "highlight": "answer the phone"
+            }
+          ]
+        }
+      ],
+      "etymology": "answer（答える、応答する）+ the phone（電話機からの呼び出しに対して）",
+      "synonyms": [
+        {"word": "pick up the phone", "trans": "電話に出る（受話器を取る）"},
+        {"word": "take a call", "trans": "電話を受ける"},
+        {"word": "reply to a call", "trans": "電話に応答する"}
+      ],
+      "antonyms": [
+        {"word": "ignore the phone", "trans": "電話を無視する"},
+        {"word": "hang up", "trans": "電話を切る"},
+        {"word": "reject a call", "trans": "着信を拒否する"}
+      ],
+      "related": [
+        {"word": "answering machine", "trans": "名詞：留守番電話"}
+      ]
+    },
+    {
+      "number": 1824,
+      "word": "turn off one's cell phone",
+      "pos": "動詞句",
+      "meaning": "携帯電話の電源を切る",
+      "nuance": "電子機器のスイッチを完全にオフにする動作です。映画館、病院、飛行機の離着陸時など、マナーや安全上の理由で求められる行動としてよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（携帯電話の電源を切る）",
+          "examples": [
+            {
+              "en": "Please make sure to turn off your cell phones during the performance.",
+              "ja": "上演中は必ず携帯電話の電源をお切りください。",
+              "highlight": "turn off your cell phones"
+            },
+            {
+              "en": "I turned off my cell phone so that I could concentrate on studying.",
+              "ja": "私は勉強に集中できるように、携帯電話の電源を切った。",
+              "highlight": "turned off my cell phone"
+            }
+          ]
+        }
+      ],
+      "etymology": "turn off（つまみを回して切る、電源を落とす）+ one's cell phone",
+      "synonyms": [
+        {"word": "switch off one's cell phone", "trans": "携帯電話のスイッチを切る"},
+        {"word": "power down one's phone", "trans": "電話の電源を落とす"},
+        {"word": "shut down a phone", "trans": "電話をシャットダウンする"}
+      ],
+      "antonyms": [
+        {"word": "turn on one's cell phone", "trans": "携帯電話の電源を入れる"},
+        {"word": "switch on", "trans": "スイッチを入れる"},
+        {"word": "leave one's phone on", "trans": "電話の電源を入れたままにする"}
+      ],
+      "related": [
+        {"word": "silent mode", "trans": "名詞：マナーモード"}
+      ]
+    },
+    {
+      "number": 1825,
+      "word": "play games on one's smartphone",
+      "pos": "動詞句",
+      "meaning": "スマートフォンでゲームをする",
+      "nuance": "スマホにインストールされたアプリなどを利用してゲームをプレイすること。暇つぶしや日常的な娯楽として行われる行動を指します。",
+      "example_sections": [
+        {
+          "title": "例文（スマートフォンでゲームをする）",
+          "examples": [
+            {
+              "en": "Children shouldn't spend too much time playing games on their smartphones.",
+              "ja": "子どもたちはスマートフォンでゲームをして時間を過ごしすぎるべきではない。",
+              "highlight": "playing games on their smartphones"
+            },
+            {
+              "en": "He often plays games on his smartphone while commuting on the train.",
+              "ja": "彼は電車での通勤中、よくスマートフォンでゲームをしている。",
+              "highlight": "plays games on his smartphone"
+            }
+          ]
+        }
+      ],
+      "etymology": "play games（ゲームをする）+ on one's smartphone（スマホをプラットフォームとして）",
+      "synonyms": [
+        {"word": "play mobile games", "trans": "モバイルゲームをする"},
+        {"word": "game on a phone", "trans": "電話でゲームをする"},
+        {"word": "use gaming apps", "trans": "ゲームアプリを使う"}
+      ],
+      "antonyms": [
+        {"word": "study on one's smartphone", "trans": "スマホで勉強する"},
+        {"word": "read a book", "trans": "本を読む"},
+        {"word": "work offline", "trans": "オフラインで作業する"}
+      ],
+      "related": [
+        {"word": "mobile gaming", "trans": "名詞：モバイルゲーム（業界や行為全体）"}
+      ]
+    },
+    {
+      "number": 1826,
+      "word": "prohibit the use of smartphones",
+      "pos": "動詞句",
+      "meaning": "スマートフォンの使用を禁止する",
+      "nuance": "学校、職場、特定の施設などで、規則や法律などによって公式にスマートフォンの使用を禁じるという、フォーマルで厳格なニュアンスを持ちます。",
+      "example_sections": [
+        {
+          "title": "例文（スマートフォンの使用を禁止する）",
+          "examples": [
+            {
+              "en": "Many schools strictly prohibit the use of smartphones during class.",
+              "ja": "多くの学校では、授業中のスマートフォンの使用を厳しく禁止している。",
+              "highlight": "prohibit the use of smartphones"
+            },
+            {
+              "en": "The factory rules prohibit the use of smartphones for safety reasons.",
+              "ja": "工場の規則では、安全上の理由からスマートフォンの使用を禁止している。",
+              "highlight": "prohibit the use of smartphones"
+            }
+          ]
+        }
+      ],
+      "etymology": "prohibit（ラテン語 pro-「前に」+ habere「持つ」→ 前に置いて遮る、禁止する）+ the use of smartphones",
+      "synonyms": [
+        {"word": "ban the use of smartphones", "trans": "スマートフォンの使用を禁止する"},
+        {"word": "forbid smartphones", "trans": "スマートフォンを禁じる"},
+        {"word": "disallow mobile phones", "trans": "携帯電話を許可しない"}
+      ],
+      "antonyms": [
+        {"word": "allow the use of smartphones", "trans": "スマートフォンの使用を許可する"},
+        {"word": "permit smartphones", "trans": "スマートフォンを認める"},
+        {"word": "encourage mobile use", "trans": "モバイル機器の使用を推奨する"}
+      ],
+      "related": [
+        {"word": "strict rules", "trans": "名詞：厳しい規則"}
+      ]
+    },
+    {
+      "number": 1827,
+      "word": "using a smartphone while walking",
+      "pos": "名詞句（動名詞句）",
+      "meaning": "歩きスマホ、歩きながらスマートフォンを使用すること",
+      "nuance": "画面を見ながら歩行することで周囲への注意が散漫になり、事故を引き起こす危険な行為として、社会問題化している文脈でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（歩きスマホ）",
+          "examples": [
+            {
+              "en": "Using a smartphone while walking can lead to serious accidents.",
+              "ja": "歩きスマホは深刻な事故につながる可能性がある。",
+              "highlight": "Using a smartphone while walking"
+            },
+            {
+              "en": "The city has launched a campaign to prevent people from using a smartphone while walking.",
+              "ja": "市は、人々が歩きスマホをするのを防ぐためのキャンペーンを開始した。",
+              "highlight": "using a smartphone while walking"
+            }
+          ]
+        }
+      ],
+      "etymology": "using（使用すること）+ a smartphone + while walking（歩行中に）",
+      "synonyms": [
+        {"word": "texting while walking", "trans": "歩きながらメッセージを打つこと"},
+        {"word": "looking at a phone while walking", "trans": "歩きながら電話を見ること"},
+        {"word": "distracted walking", "trans": "注意散漫な歩行"}
+      ],
+      "antonyms": [
+        {"word": "paying attention to where one is going", "trans": "行く先に注意を払うこと"},
+        {"word": "walking safely", "trans": "安全に歩くこと"},
+        {"word": "putting the phone away", "trans": "電話をしまうこと"}
+      ],
+      "related": [
+        {"word": "smombie", "trans": "名詞：歩きスマホをしている人（smartphone + zombieの造語）"}
+      ]
+    },
+    {
+      "number": 1828,
+      "word": "use a smartphone while driving",
+      "pos": "動詞句",
+      "meaning": "運転中にスマートフォンを使用する（ながら運転）",
+      "nuance": "車の運転中にスマートフォンの画面を見たり操作したりする行為。極めて危険であり、世界中の多くの地域で法律で固く禁じられています。",
+      "example_sections": [
+        {
+          "title": "例文（運転中にスマートフォンを使用する）",
+          "examples": [
+            {
+              "en": "It is illegal to use a smartphone while driving in this country.",
+              "ja": "この国では運転中にスマートフォンを使用することは違法です。",
+              "highlight": "use a smartphone while driving"
+            },
+            {
+              "en": "He got a ticket because he tried to use a smartphone while driving.",
+              "ja": "彼は運転中にスマートフォンを使おうとしたため、交通違反切符を切られた。",
+              "highlight": "use a smartphone while driving"
+            }
+          ]
+        }
+      ],
+      "etymology": "use a smartphone（スマホを使う）+ while driving（運転中に）",
+      "synonyms": [
+        {"word": "text and drive", "trans": "運転中にテキストメッセージを送る"},
+        {"word": "text while driving", "trans": "運転中にメッセージを打つ"},
+        {"word": "distracted driving", "trans": "脇見運転、ながら運転"}
+      ],
+      "antonyms": [
+        {"word": "focus on the road", "trans": "道路（運転）に集中する"},
+        {"word": "drive safely", "trans": "安全運転をする"},
+        {"word": "use a hands-free device", "trans": "ハンズフリー機器を使用する"}
+      ],
+      "related": [
+        {"word": "traffic accident", "trans": "名詞：交通事故"}
+      ]
+    },
+    {
+      "number": 1829,
+      "word": "be addicted to one's smartphone",
+      "pos": "動詞句",
+      "meaning": "スマートフォンに依存している、スマホ中毒である",
+      "nuance": "スマホを手放すことができず、睡眠不足や対人関係の悪化など、日常生活に支障をきたすほど強く依存している心理的・物理的な状態を表します。",
+      "example_sections": [
+        {
+          "title": "例文（スマートフォンに依存している）",
+          "examples": [
+            {
+              "en": "Many teenagers nowadays seem to be addicted to their smartphones.",
+              "ja": "最近の多くの十代の若者は、スマートフォンに依存しているようだ。",
+              "highlight": "be addicted to their smartphones"
+            },
+            {
+              "en": "If you check your messages every five minutes, you might be addicted to your smartphone.",
+              "ja": "もし5分ごとにメッセージをチェックするなら、あなたはスマホ中毒かもしれません。",
+              "highlight": "be addicted to your smartphone"
+            }
+          ]
+        }
+      ],
+      "etymology": "addicted（ラテン語 addicere「（奴隷などとして）引き渡す」→ 悪習に身を委ねる）+ to + smartphone",
+      "synonyms": [
+        {"word": "be obsessed with one's phone", "trans": "電話にとりつかれている"},
+        {"word": "be hooked on a smartphone", "trans": "スマホに夢中になっている（抜け出せない）"},
+        {"word": "be dependent on a phone", "trans": "電話に依存している"}
+      ],
+      "antonyms": [
+        {"word": "be independent of technology", "trans": "テクノロジーから自立している"},
+        {"word": "have a healthy screen time", "trans": "健全なスクリーンタイムを持つ"},
+        {"word": "do a digital detox", "trans": "デジタルデトックスをする"}
+      ],
+      "related": [
+        {"word": "smartphone addiction", "trans": "名詞：スマホ依存症"}
+      ]
+    },
+    {
+      "number": 1830,
+      "word": "social media",
+      "pos": "名詞",
+      "meaning": "ソーシャルメディア、SNS",
+      "nuance": "ユーザー自身が情報、アイデア、写真などを発信し、相互にコミュニケーションを取るためのウェブサイトやアプリ（X, Instagram, TikTokなど）の総称です。英語では「SNS」よりも一般的に使われます。",
+      "example_sections": [
+        {
+          "title": "例文（ソーシャルメディア・SNS）",
+          "examples": [
+            {
+              "en": "Businesses are using social media to connect with their customers.",
+              "ja": "企業は顧客とつながるためにソーシャルメディアを利用している。",
+              "highlight": "social media"
+            },
+            {
+              "en": "Spending too much time on social media can have a negative impact on mental health.",
+              "ja": "ソーシャルメディアに時間を費やしすぎることは、精神の健康に悪影響を及ぼす可能性がある。",
+              "highlight": "social media"
+            }
+          ]
+        }
+      ],
+      "etymology": "social（社会的な、交流の）+ media（媒体、手段）。大衆への一方通行ではなく、双方向の交流を持つメディア。",
+      "synonyms": [
+        {"word": "social networking sites (SNS)", "trans": "ソーシャルネットワーキングサイト"},
+        {"word": "social networking services", "trans": "ソーシャルネットワーキングサービス"},
+        {"word": "online networks", "trans": "オンラインネットワーク"}
+      ],
+      "antonyms": [
+        {"word": "traditional media", "trans": "伝統的なメディア（新聞、テレビなど）"},
+        {"word": "mass media", "trans": "マスメディア"},
+        {"word": "face-to-face communication", "trans": "対面でのコミュニケーション"}
+      ],
+      "related": [
+        {"word": "social media influencer", "trans": "名詞：インフルエンサー"}
+      ]
+    },
+    {
+      "number": 1831,
+      "word": "be healthy",
+      "pos": "動詞句",
+      "meaning": "健康である",
+      "nuance": "現在、身体的または精神的に病気がなく、良好な状態にあるという「状態」そのものを表します。",
+      "example_sections": [
+        {
+          "title": "例文（健康である状態）",
+          "examples": [
+            {
+              "en": "My grandfather is over 90 years old, but he is still very healthy.",
+              "ja": "私の祖父は90歳を超えていますが、まだとても健康です。",
+              "highlight": "is still very healthy"
+            },
+            {
+              "en": "You need to eat well and exercise regularly to be healthy.",
+              "ja": "健康であるためには、よく食べ、定期的に運動する必要があります。",
+              "highlight": "be healthy"
+            }
+          ]
+        }
+      ],
+      "etymology": "be（〜である） + healthy（health「健康」+ -y「〜の性質を持つ」）",
+      "synonyms": [
+        {"word": "be in good shape", "trans": "体調が良い、健康である"},
+        {"word": "be well", "trans": "健康である"},
+        {"word": "be in good health", "trans": "健康状態が良好である"}
+      ],
+      "antonyms": [
+        {"word": "be sick", "trans": "病気である"},
+        {"word": "be ill", "trans": "体調が悪い"},
+        {"word": "be unhealthy", "trans": "不健康である"}
+      ],
+      "related": [
+        {"word": "physical health", "trans": "名詞：身体的健康"}
+      ]
+    },
+    {
+      "number": 1832,
+      "word": "stay healthy",
+      "pos": "動詞句",
+      "meaning": "健康を保つ、健康でいる",
+      "nuance": "健康な状態を「維持する」ための努力や習慣、あるいは病気をせずにそのままの状態で居続けることに焦点を当てた表現です。",
+      "example_sections": [
+        {
+          "title": "例文（健康を保つ）",
+          "examples": [
+            {
+              "en": "Walking every morning is a great way to stay healthy.",
+              "ja": "毎朝歩くことは、健康を保つための素晴らしい方法です。",
+              "highlight": "stay healthy"
+            },
+            {
+              "en": "I try to eat a lot of vegetables to stay healthy during winter.",
+              "ja": "冬の間健康でいるために、私はたくさんの野菜を食べるようにしています。",
+              "highlight": "stay healthy"
+            }
+          ]
+        }
+      ],
+      "etymology": "stay（〜のままでいる、とどまる） + healthy（健康な）",
+      "synonyms": [
+        {"word": "keep healthy", "trans": "健康を維持する"},
+        {"word": "maintain one's health", "trans": "健康を維持する"},
+        {"word": "stay fit", "trans": "健康（な体型・体力）を維持する"}
+      ],
+      "antonyms": [
+        {"word": "get sick", "trans": "病気になる"},
+        {"word": "fall ill", "trans": "病気に倒れる"},
+        {"word": "ruin one's health", "trans": "健康を損なう"}
+      ],
+      "related": [
+        {"word": "healthy lifestyle", "trans": "名詞：健康的なライフスタイル"}
+      ]
+    },
+    {
+      "number": 1833,
+      "word": "be good for your health",
+      "pos": "動詞句",
+      "meaning": "健康に良い",
+      "nuance": "特定の食べ物、運動、習慣などが、人の健康を増進したり維持したりするのに役立つ・有益であるという性質を表します。",
+      "example_sections": [
+        {
+          "title": "例文（健康に良い）",
+          "examples": [
+            {
+              "en": "Eating too much sugar is not good for your health.",
+              "ja": "砂糖の摂りすぎは健康に良くありません。",
+              "highlight": "not good for your health"
+            },
+            {
+              "en": "They say that laughing every day is good for your health.",
+              "ja": "毎日笑うことは健康に良いと言われています。",
+              "highlight": "is good for your health"
+            }
+          ]
+        }
+      ],
+      "etymology": "be good for（〜にとって有益である） + your（あなたの） + health（健康）",
+      "synonyms": [
+        {"word": "be beneficial to one's health", "trans": "健康に有益である"},
+        {"word": "be healthy for you", "trans": "あなたにとって健康的（健康に良い）である"},
+        {"word": "promote good health", "trans": "健康を増進する"}
+      ],
+      "antonyms": [
+        {"word": "be bad for your health", "trans": "健康に悪い"},
+        {"word": "be harmful to one's health", "trans": "健康に有害である"},
+        {"word": "damage one's health", "trans": "健康にダメージを与える"}
+      ],
+      "related": [
+        {"word": "health benefits", "trans": "名詞：健康効果、健康上の利点"}
+      ]
+    },
+    {
+      "number": 1834,
+      "word": "healthy life expectancy",
+      "pos": "名詞句",
+      "meaning": "健康寿命",
+      "nuance": "日常的に介護などを必要とせず、自立して健康に生活できる期間（年齢）のこと。WHO（世界保健機関）などが提唱する公衆衛生上の重要な指標として使われます。",
+      "example_sections": [
+        {
+          "title": "例文（健康寿命）",
+          "examples": [
+            {
+              "en": "Japan has one of the highest healthy life expectancies in the world.",
+              "ja": "日本は世界で最も健康寿命が長い国の一つです。",
+              "highlight": "healthy life expectancies"
+            },
+            {
+              "en": "The government is trying to extend the healthy life expectancy of its citizens.",
+              "ja": "政府は国民の健康寿命を延ばそうとしている。",
+              "highlight": "healthy life expectancy"
+            }
+          ]
+        }
+      ],
+      "etymology": "healthy（健康な） + life expectancy（平均余命、寿命）",
+      "synonyms": [
+        {"word": "healthspan", "trans": "健康寿命（一語で表す学術的な表現）"},
+        {"word": "healthy life years (HLY)", "trans": "健康寿命（ヨーロッパでよく使われる指標）"}
+      ],
+      "antonyms": [
+        {"word": "dependent life expectancy", "trans": "介護を必要とする期間"},
+        {"word": "period of morbidity", "trans": "罹患期間（病気を患っている期間）"}
+      ],
+      "related": [
+        {"word": "life expectancy", "trans": "名詞：平均寿命（健康かどうかにかかわらない全寿命）"}
+      ]
+    },
+    {
+      "number": "1834-2",
+      "word": "healthy lifespan",
+      "pos": "名詞句",
+      "meaning": "健康寿命、健康でいられる期間",
+      "nuance": "healthy life expectancy とほぼ同義ですが、統計的な「見込み（expectancy）」というより、個人の「健康でいられる期間の長さそのもの」を指す言葉として、生物学や医学の文脈でもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（健康寿命・健康でいられる期間）",
+          "examples": [
+            {
+              "en": "Regular exercise is key to maximizing your healthy lifespan.",
+              "ja": "定期的な運動は、健康寿命を最大化するための鍵です。",
+              "highlight": "healthy lifespan"
+            },
+            {
+              "en": "Researchers are studying ways to increase the healthy lifespan of mice.",
+              "ja": "研究者たちはマウスの健康寿命を延ばす方法を研究している。",
+              "highlight": "healthy lifespan"
+            }
+          ]
+        }
+      ],
+      "etymology": "healthy（健康な） + lifespan（寿命、生存期間）",
+      "synonyms": [
+        {"word": "healthspan", "trans": "健康寿命"},
+        {"word": "healthy life expectancy", "trans": "健康寿命（統計的指標として）"}
+      ],
+      "antonyms": [
+        {"word": "unhealthy lifespan", "trans": "不健康な期間（あまり一般的ではないが対比として）"}
+      ],
+      "related": [
+        {"word": "longevity", "trans": "名詞：長寿、寿命"}
+      ]
+    },
+    {
+      "number": 1835,
+      "word": "get enough sleep",
+      "pos": "動詞句",
+      "meaning": "十分な睡眠をとる",
+      "nuance": "「得る（get）」という動詞を使うことで、必要な量の睡眠を意識的に「確保する」「獲得する」という能動的なニュアンスが含まれます。",
+      "example_sections": [
+        {
+          "title": "例文（十分な睡眠をとる）",
+          "examples": [
+            {
+              "en": "Make sure you get enough sleep before the big exam tomorrow.",
+              "ja": "明日の大事な試験の前に、必ず十分な睡眠をとるようにしなさい。",
+              "highlight": "get enough sleep"
+            },
+            {
+              "en": "I feel terrible today because I didn't get enough sleep last night.",
+              "ja": "昨夜は十分な睡眠をとれなかったので、今日はとても気分が悪いです。",
+              "highlight": "get enough sleep"
+            }
+          ]
+        }
+      ],
+      "etymology": "get（手に入れる）+ enough（十分な）+ sleep（睡眠）",
+      "synonyms": [
+        {"word": "have enough sleep", "trans": "十分な睡眠をとる"},
+        {"word": "get plenty of sleep", "trans": "たっぷりと睡眠をとる"},
+        {"word": "get adequate sleep", "trans": "適切な量の睡眠をとる"}
+      ],
+      "antonyms": [
+        {"word": "suffer from lack of sleep", "trans": "睡眠不足に苦しむ"},
+        {"word": "stay up too late", "trans": "夜更かししすぎる"},
+        {"word": "be sleep-deprived", "trans": "睡眠を奪われている（寝不足である）"}
+      ],
+      "related": [
+        {"word": "sleep quality", "trans": "名詞：睡眠の質"}
+      ]
+    },
+    {
+      "number": "1835-2",
+      "word": "have enough sleep",
+      "pos": "動詞句",
+      "meaning": "十分な睡眠をとる（十分な睡眠がある）",
+      "nuance": "get enough sleepと意味はほぼ同じですが、「持っている、経験する（have）」を使うことで、結果的に十分な睡眠が「とれている状態」に焦点が当たる表現です。",
+      "example_sections": [
+        {
+          "title": "例文（十分な睡眠をとっている）",
+          "examples": [
+            {
+              "en": "You look tired. Did you have enough sleep?",
+              "ja": "疲れているようですね。十分な睡眠はとれましたか？",
+              "highlight": "have enough sleep"
+            },
+            {
+              "en": "It is difficult to concentrate if you don't have enough sleep.",
+              "ja": "十分な睡眠をとっていないと、集中するのは難しい。",
+              "highlight": "have enough sleep"
+            }
+          ]
+        }
+      ],
+      "etymology": "have（持つ、経験する）+ enough（十分な）+ sleep（睡眠）",
+      "synonyms": [
+        {"word": "get enough sleep", "trans": "十分な睡眠をとる"},
+        {"word": "be well-rested", "trans": "十分に休養がとれている"}
+      ],
+      "antonyms": [
+        {"word": "be short of sleep", "trans": "睡眠が不足している"},
+        {"word": "lack sleep", "trans": "睡眠が欠けている"}
+      ],
+      "related": [
+        {"word": "rest well", "trans": "動詞句：よく休む"}
+      ]
+    },
+    {
+      "number": 1836,
+      "word": "lack of sleep",
+      "pos": "名詞句",
+      "meaning": "睡眠不足",
+      "nuance": "体や脳が必要とする睡眠時間が足りていない状態。集中力の低下や健康問題の原因として挙げられる際によく使われる名詞表現です。",
+      "example_sections": [
+        {
+          "title": "例文（睡眠不足）",
+          "examples": [
+            {
+              "en": "His headache was caused by a severe lack of sleep.",
+              "ja": "彼の頭痛は深刻な睡眠不足が原因でした。",
+              "highlight": "lack of sleep"
+            },
+            {
+              "en": "Lack of sleep can affect your memory and mood.",
+              "ja": "睡眠不足は、記憶力や気分に影響を与える可能性があります。",
+              "highlight": "Lack of sleep"
+            }
+          ]
+        }
+      ],
+      "etymology": "lack（不足、欠如）+ of（〜の）+ sleep（睡眠）",
+      "synonyms": [
+        {"word": "sleep deprivation", "trans": "睡眠剥奪（重度の睡眠不足）"},
+        {"word": "shortage of sleep", "trans": "睡眠の不足"},
+        {"word": "insufficient sleep", "trans": "不十分な睡眠"}
+      ],
+      "antonyms": [
+        {"word": "getting enough sleep", "trans": "十分な睡眠をとること"},
+        {"word": "sufficient sleep", "trans": "十分な睡眠"},
+        {"word": "oversleeping", "trans": "寝坊、寝すぎ"}
+      ],
+      "related": [
+        {"word": "insomnia", "trans": "名詞：不眠症"}
+      ]
+    },
+    {
+      "number": 1837,
+      "word": "wake up",
+      "pos": "動詞句",
+      "meaning": "目を覚ます、起きる、（人を）起こす",
+      "nuance": "眠っている状態から「目が覚める」瞬間（脳が覚醒する状態）を指します。ベッドから出る動作そのもの（get up）とは厳密には区別されます。",
+      "example_sections": [
+        {
+          "title": "例文（自動詞：目を覚ます）",
+          "examples": [
+            {
+              "en": "I usually wake up at 6 a.m. without an alarm.",
+              "ja": "私はたいてい目覚ましなしで午前6時に目を覚まします。",
+              "highlight": "wake up"
+            },
+            {
+              "en": "She woke up in the middle of the night because of the noise.",
+              "ja": "彼女はその騒音のせいで真夜中に目を覚ました。",
+              "highlight": "woke up"
+            }
+          ]
+        },
+        {
+          "title": "例文（他動詞：人を起こす）",
+          "examples": [
+            {
+              "en": "Please wake me up at seven tomorrow morning.",
+              "ja": "明日の朝7時に私を起こしてください。",
+              "highlight": "wake me up"
+            }
+          ]
+        }
+      ],
+      "etymology": "wake（目を覚ます） + up（完全に、すっかり）",
+      "synonyms": [
+        {"word": "awaken", "trans": "目覚める、起こす（フォーマル）"},
+        {"word": "get up", "trans": "起床する（ベッドから出る）"}
+      ],
+      "antonyms": [
+        {"word": "go to sleep", "trans": "眠りにつく"},
+        {"word": "fall asleep", "trans": "寝入る"},
+        {"word": "drift off", "trans": "うとうと眠りにつく"}
+      ],
+      "related": [
+        {"word": "wide awake", "trans": "形容詞句：完全に目が覚めて"}
+      ]
+    },
+    {
+      "number": 1838,
+      "word": "fall asleep",
+      "pos": "動詞句",
+      "meaning": "眠りに落ちる、寝入る",
+      "nuance": "起きている状態から無意識に「眠りに入っていく」プロセスや瞬間を表します。意図的に寝ようとする「go to bed」とは異なり、自然な生理現象に焦点が当たります。",
+      "example_sections": [
+        {
+          "title": "例文（眠りに落ちる）",
+          "examples": [
+            {
+              "en": "I was so tired that I fell asleep on the sofa.",
+              "ja": "私はとても疲れていたので、ソファで眠りに落ちてしまった。",
+              "highlight": "fell asleep"
+            },
+            {
+              "en": "It often takes him an hour to fall asleep at night.",
+              "ja": "彼が夜に寝入るには、しばしば1時間かかる。",
+              "highlight": "fall asleep"
+            }
+          ]
+        }
+      ],
+      "etymology": "fall（落ちる、〜の状態になる） + asleep（眠って）",
+      "synonyms": [
+        {"word": "drop off", "trans": "うとうとして眠り込む"},
+        {"word": "nod off", "trans": "居眠りする"},
+        {"word": "go to sleep", "trans": "眠りにつく"}
+      ],
+      "antonyms": [
+        {"word": "wake up", "trans": "目を覚ます"},
+        {"word": "stay awake", "trans": "起きたままでいる"},
+        {"word": "keep one's eyes open", "trans": "目を開けておく（寝ないようにする）"}
+      ],
+      "related": [
+        {"word": "fast asleep", "trans": "形容詞句：ぐっすり眠って"}
+      ]
+    },
+    {
+      "number": 1839,
+      "word": "stay up late doing",
+      "pos": "動詞句",
+      "meaning": "夜遅くまで起きて〜する",
+      "nuance": "普段寝るべき時間を過ぎても、意図的に起きて何かの作業（勉強や仕事、ゲームなど）を「続けている」状態を表します。",
+      "example_sections": [
+        {
+          "title": "例文（夜遅くまで起きて〜する）",
+          "examples": [
+            {
+              "en": "I had to stay up late studying for the final exam.",
+              "ja": "期末試験の勉強をするために、夜遅くまで起きていなければならなかった。",
+              "highlight": "stay up late studying"
+            },
+            {
+              "en": "He often stays up late playing video games with his friends.",
+              "ja": "彼はよく、友達とテレビゲームをして夜遅くまで起きている。",
+              "highlight": "stays up late playing"
+            }
+          ]
+        }
+      ],
+      "etymology": "stay up（寝ずに起きている） + late（遅くまで） + doing（〜しながら）",
+      "synonyms": [
+        {"word": "burn the midnight oil", "trans": "夜遅くまで勉強（仕事）する"},
+        {"word": "work late into the night", "trans": "夜遅くまで働く"},
+        {"word": "sit up late doing", "trans": "夜遅くまで起きて〜する"}
+      ],
+      "antonyms": [
+        {"word": "go to bed early", "trans": "早く寝る"},
+        {"word": "turn in early", "trans": "早く就寝する"},
+        {"word": "hit the sack early", "trans": "早く寝る（スラング）"}
+      ],
+      "related": [
+        {"word": "night owl", "trans": "名詞：夜型人間"}
+      ]
+    },
+    {
+      "number": 1840,
+      "word": "go to bed early and get up early",
+      "pos": "動詞句",
+      "meaning": "早寝早起きをする",
+      "nuance": "健康的な生活習慣の基本として、夜は早く就寝し、朝は早く起床するという一連のルーティンをそのまま表現したフレーズです。",
+      "example_sections": [
+        {
+          "title": "例文（早寝早起きをする）",
+          "examples": [
+            {
+              "en": "My doctor advised me to go to bed early and get up early.",
+              "ja": "医者は私に、早寝早起きをするように勧めた。",
+              "highlight": "go to bed early and get up early"
+            },
+            {
+              "en": "Going to bed early and getting up early is the secret to her good health.",
+              "ja": "早寝早起きが彼女の健康の秘訣です。",
+              "highlight": "Going to bed early and getting up early"
+            }
+          ]
+        }
+      ],
+      "etymology": "go to bed（就寝する） + early（早く）+ and（そして）+ get up（起床する） + early（早く）",
+      "synonyms": [
+        {"word": "keep early hours", "trans": "早寝早起きをする"},
+        {"word": "be an early bird", "trans": "早起きの人である"}
+      ],
+      "antonyms": [
+        {"word": "stay up late and sleep in", "trans": "夜更かしして朝寝坊する"},
+        {"word": "keep late hours", "trans": "夜更かしをする"}
+      ],
+      "related": [
+        {"word": "early to bed and early to rise", "trans": "ことわざ：早寝早起き（は人を健康で豊かにする）"}
+      ]
+    },
+    {
+      "number": 1841,
+      "word": "get exercise",
+      "pos": "動詞句",
+      "meaning": "運動する",
+      "nuance": "日常的に体を動かすこと全般を指します。「do exercise」が特定の運動メニューをこなすニュアンスを持つのに対し、「get exercise」は散歩や家事なども含めて「運動量を得る」というニュアンスが強い表現です。",
+      "example_sections": [
+        {
+          "title": "例文（運動する）",
+          "examples": [
+            {
+              "en": "It is important to get exercise every day to stay healthy.",
+              "ja": "健康を保つためには、毎日運動することが重要です。",
+              "highlight": "get exercise"
+            },
+            {
+              "en": "I usually get exercise by walking my dog in the park.",
+              "ja": "私はたいてい公園で犬の散歩をして運動しています。",
+              "highlight": "get exercise"
+            }
+          ]
+        }
+      ],
+      "etymology": "get（得る）+ exercise（ラテン語 exercere「訓練する、働かせる」から）",
+      "synonyms": [
+        {"word": "work out", "trans": "（ジムなどで）運動する、トレーニングする"},
+        {"word": "do exercise", "trans": "（特定の）運動をする"},
+        {"word": "be physically active", "trans": "身体的に活動する"}
+      ],
+      "antonyms": [
+        {"word": "be inactive", "trans": "活動しない、運動しない"},
+        {"word": "sit around", "trans": "座ってばかりいる、ゴロゴロする"},
+        {"word": "lead a sedentary lifestyle", "trans": "座りがちな生活を送る"}
+      ],
+      "related": [
+        {"word": "physical activity", "trans": "名詞：身体活動"}
+      ]
+    },
+    {
+      "number": 1842,
+      "word": "get enough exercise",
+      "pos": "動詞句",
+      "meaning": "十分な運動をする",
+      "nuance": "健康を維持するために必要とされる十分な量の運動を確保することを意味します。",
+      "example_sections": [
+        {
+          "title": "例文（十分な運動をする）",
+          "examples": [
+            {
+              "en": "Many office workers do not get enough exercise.",
+              "ja": "多くの会社員は十分な運動をしていません。",
+              "highlight": "get enough exercise"
+            },
+            {
+              "en": "Make sure you get enough exercise to prevent lifestyle diseases.",
+              "ja": "生活習慣病を予防するために、必ず十分な運動をしてください。",
+              "highlight": "get enough exercise"
+            }
+          ]
+        }
+      ],
+      "etymology": "get（得る）+ enough（十分な）+ exercise（運動）",
+      "synonyms": [
+        {"word": "get adequate exercise", "trans": "適切な運動をする"},
+        {"word": "get plenty of exercise", "trans": "たっぷりと運動をする"},
+        {"word": "exercise sufficiently", "trans": "十分に運動する"}
+      ],
+      "antonyms": [
+        {"word": "lack exercise", "trans": "運動が不足する"},
+        {"word": "not get much exercise", "trans": "あまり運動しない"}
+      ],
+      "related": [
+        {"word": "fitness level", "trans": "名詞：体力レベル、健康度"}
+      ]
+    },
+    {
+      "number": 1843,
+      "word": "get regular exercise",
+      "pos": "動詞句",
+      "meaning": "定期的な運動をする、規則的に運動する",
+      "nuance": "思いつきでたまに運動するのではなく、週に数回など、習慣として継続的に運動を取り入れている状態を指します。",
+      "example_sections": [
+        {
+          "title": "例文（定期的な運動をする）",
+          "examples": [
+            {
+              "en": "Doctors recommend getting regular exercise to improve blood circulation.",
+              "ja": "血流を改善するために、医師は定期的な運動をすることを推奨しています。",
+              "highlight": "getting regular exercise"
+            },
+            {
+              "en": "She gets regular exercise by going to the gym three times a week.",
+              "ja": "彼女は週に3回ジムに行くことで定期的に運動しています。",
+              "highlight": "gets regular exercise"
+            }
+          ]
+        }
+      ],
+      "etymology": "get（得る）+ regular（規則的な）+ exercise（運動）",
+      "synonyms": [
+        {"word": "exercise regularly", "trans": "定期的に運動する"},
+        {"word": "work out consistently", "trans": "継続的にトレーニングする"},
+        {"word": "have an exercise routine", "trans": "運動の習慣（ルーティン）がある"}
+      ],
+      "antonyms": [
+        {"word": "exercise irregularly", "trans": "不規則に運動する"},
+        {"word": "be a couch potato", "trans": "（ソファに座ってテレビばかり見ている）怠け者である"}
+      ],
+      "related": [
+        {"word": "workout routine", "trans": "名詞：運動の習慣・日課"}
+      ]
+    },
+    {
+      "number": 1844,
+      "word": "lack of exercise",
+      "pos": "名詞句",
+      "meaning": "運動不足",
+      "nuance": "身体活動が足りていない状態。肥満や筋力低下、生活習慣病などの原因として挙げられる際によく使われるフォーマルな表現です。",
+      "example_sections": [
+        {
+          "title": "例文（運動不足）",
+          "examples": [
+            {
+              "en": "His weight gain is mainly due to a lack of exercise.",
+              "ja": "彼の体重増加は主に運動不足によるものです。",
+              "highlight": "lack of exercise"
+            },
+            {
+              "en": "Lack of exercise is a major risk factor for heart disease.",
+              "ja": "運動不足は心臓病の主要な危険因子です。",
+              "highlight": "Lack of exercise"
+            }
+          ]
+        }
+      ],
+      "etymology": "lack（不足）+ of（〜の）+ exercise（運動）",
+      "synonyms": [
+        {"word": "physical inactivity", "trans": "身体的非活動（運動不足のフォーマルな表現）"},
+        {"word": "sedentary lifestyle", "trans": "座りがちな生活（運動不足の生活）"},
+        {"word": "want of exercise", "trans": "運動の不足（やや古い表現）"}
+      ],
+      "antonyms": [
+        {"word": "plenty of exercise", "trans": "十分な運動"},
+        {"word": "active lifestyle", "trans": "活動的な生活"},
+        {"word": "regular physical activity", "trans": "定期的な身体活動"}
+      ],
+      "related": [
+        {"word": "lifestyle disease", "trans": "名詞：生活習慣病"}
+      ]
+    },
+    {
+      "number": 1845,
+      "word": "eat a balanced diet",
+      "pos": "動詞句",
+      "meaning": "バランスの取れた食事をする",
+      "nuance": "炭水化物、タンパク質、脂質、ビタミン、ミネラルなど、体に必要な栄養素を偏りなく摂取する健康的な食生活を指します。（※入力のvalancedはbalancedに修正しています）",
+      "example_sections": [
+        {
+          "title": "例文（バランスの取れた食事をする）",
+          "examples": [
+            {
+              "en": "Parents should encourage their children to eat a balanced diet.",
+              "ja": "親は子どもたちにバランスの取れた食事をするよう勧めるべきです。",
+              "highlight": "eat a balanced diet"
+            },
+            {
+              "en": "Eating a balanced diet will give you more energy throughout the day.",
+              "ja": "バランスの取れた食事をすることで、一日中より多くのエネルギーを得ることができます。",
+              "highlight": "Eating a balanced diet"
+            }
+          ]
+        }
+      ],
+      "etymology": "eat（食べる）+ balanced（釣り合いの取れた）+ diet（日常の食べ物、食生活）",
+      "synonyms": [
+        {"word": "have a healthy diet", "trans": "健康的な食生活を送る"},
+        {"word": "eat well", "trans": "良い（健康的な）食事をする"},
+        {"word": "consume nutritious food", "trans": "栄養のある食べ物を摂取する"}
+      ],
+      "antonyms": [
+        {"word": "eat an unbalanced diet", "trans": "偏った食事をする"},
+        {"word": "eat junk food", "trans": "ジャンクフードを食べる"},
+        {"word": "have a poor diet", "trans": "貧しい（栄養の偏った）食生活を送る"}
+      ],
+      "related": [
+        {"word": "nutrition", "trans": "名詞：栄養"}
+      ]
+    },
+    {
+      "number": 1846,
+      "word": "eating habits",
+      "pos": "名詞句",
+      "meaning": "食習慣、食生活",
+      "nuance": "何を食べるか、いつ食べるか、どのように食べるかなど、食べることに関する日常的な行動パターン全般を指します。複数形で使われるのが一般的です。",
+      "example_sections": [
+        {
+          "title": "例文（食習慣）",
+          "examples": [
+            {
+              "en": "It is hard to change your eating habits once you become an adult.",
+              "ja": "大人になってから食習慣を変えるのは難しい。",
+              "highlight": "eating habits"
+            },
+            {
+              "en": "Bad eating habits can lead to serious health problems in the future.",
+              "ja": "悪い食習慣は、将来深刻な健康問題を引き起こす可能性があります。",
+              "highlight": "eating habits"
+            }
+          ]
+        }
+      ],
+      "etymology": "eating（食べること）+ habits（習慣、癖）",
+      "synonyms": [
+        {"word": "dietary habits", "trans": "食習慣（よりフォーマルな表現）"},
+        {"word": "food habits", "trans": "食習慣"},
+        {"word": "eating patterns", "trans": "食事のパターン"}
+      ],
+      "antonyms": [
+        {"word": "irregular eating", "trans": "不規則な食事"}
+      ],
+      "related": [
+        {"word": "dietary restriction", "trans": "名詞：食事制限"}
+      ]
+    },
+    {
+      "number": 1847,
+      "word": "skip a meal",
+      "pos": "動詞句",
+      "meaning": "食事を抜く",
+      "nuance": "朝食、昼食、夕食など、本来とるべき食事を意図的に、あるいは忙しさなどの理由でとらないことを指します。健康によくない文脈でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（食事を抜く）",
+          "examples": [
+            {
+              "en": "Skipping a meal to lose weight is not a good idea.",
+              "ja": "減量のために食事を抜くのは良い考えではありません。",
+              "highlight": "Skipping a meal"
+            },
+            {
+              "en": "I was so busy this morning that I had to skip breakfast.",
+              "ja": "今朝はとても忙しかったので、朝食を抜かなければなりませんでした。",
+              "highlight": "skip breakfast"
+            }
+          ]
+        }
+      ],
+      "etymology": "skip（飛ばす、省略する）+ a meal（食事）",
+      "synonyms": [
+        {"word": "miss a meal", "trans": "食事を取り損ねる、抜く"},
+        {"word": "fast", "trans": "断食する（意図的・宗教的な理由で）"},
+        {"word": "go without eating", "trans": "食べずに過ごす"}
+      ],
+      "antonyms": [
+        {"word": "have three meals a day", "trans": "1日3食とる"},
+        {"word": "eat regularly", "trans": "規則正しく食べる"},
+        {"word": "have a full meal", "trans": "十分な食事をとる"}
+      ],
+      "related": [
+        {"word": "starvation", "trans": "名詞：飢餓、空腹"}
+      ]
+    },
+    {
+      "number": 1848,
+      "word": "gain weight",
+      "pos": "動詞句",
+      "meaning": "体重が増える、太る",
+      "nuance": "体重が増加することを表す最も一般的でニュートラルな表現です。筋肉がついて増える場合にも、脂肪がついて太る場合にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（体重が増える・太る）",
+          "examples": [
+            {
+              "en": "I tend to gain weight easily during the winter holidays.",
+              "ja": "私は冬休みの間に体重が増えやすい傾向があります。",
+              "highlight": "gain weight"
+            },
+            {
+              "en": "He gained a lot of weight after he stopped exercising.",
+              "ja": "彼は運動をやめた後、かなり体重が増えました。",
+              "highlight": "gained a lot of weight"
+            }
+          ]
+        }
+      ],
+      "etymology": "gain（得る、増す）+ weight（重さ、体重）",
+      "synonyms": [
+        {"word": "put on weight", "trans": "体重が増える、太る"},
+        {"word": "get heavier", "trans": "より重くなる"},
+        {"word": "fatten up", "trans": "太る、肥える"}
+      ],
+      "antonyms": [
+        {"word": "lose weight", "trans": "体重が減る、痩せる"},
+        {"word": "drop some pounds", "trans": "体重を落とす"},
+        {"word": "slim down", "trans": "スリムになる"}
+      ],
+      "related": [
+        {"word": "obesity", "trans": "名詞：肥満"}
+      ]
+    },
+    {
+      "number": "1848-2",
+      "word": "put on weight",
+      "pos": "動詞句",
+      "meaning": "体重が増える、太る",
+      "nuance": "「gain weight」とほぼ同じ意味ですが、服を着込むように「体が重みを身にまとう」というニュアンスから、日常会話でより口語的に「太った」と言う際によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（体重が増える・太る）",
+          "examples": [
+            {
+              "en": "I think I've put on a little weight recently.",
+              "ja": "最近少し太った（体重が増えた）ような気がします。",
+              "highlight": "put on a little weight"
+            },
+            {
+              "en": "She put on weight when she was pregnant.",
+              "ja": "彼女は妊娠中に体重が増えました。",
+              "highlight": "put on weight"
+            }
+          ]
+        }
+      ],
+      "etymology": "put on（（服などを）身につける、増す）+ weight（体重）",
+      "synonyms": [
+        {"word": "gain weight", "trans": "体重が増える"},
+        {"word": "bulk up", "trans": "（筋肉をつけて）体を大きくする"}
+      ],
+      "antonyms": [
+        {"word": "lose weight", "trans": "体重が減る"},
+        {"word": "take off weight", "trans": "体重を落とす"}
+      ],
+      "related": [
+        {"word": "overweight", "trans": "形容詞：太りすぎの"}
+      ]
+    },
+    {
+      "number": 1849,
+      "word": "lose weight",
+      "pos": "動詞句",
+      "meaning": "体重が減る、痩せる、減量する",
+      "nuance": "意図的にダイエットをして減量する場合にも、病気やストレスなどで自然に体重が落ちてしまう場合にも使われる、最も一般的な表現です。",
+      "example_sections": [
+        {
+          "title": "例文（体重が減る・痩せる）",
+          "examples": [
+            {
+              "en": "She is trying to lose weight by eating a balanced diet and exercising.",
+              "ja": "彼女はバランスの取れた食事と運動によって痩せようとしています。",
+              "highlight": "lose weight"
+            },
+            {
+              "en": "He lost a lot of weight when he was hospitalized for a month.",
+              "ja": "彼は1ヶ月間入院したときにかなり体重が減りました。",
+              "highlight": "lost a lot of weight"
+            }
+          ]
+        }
+      ],
+      "etymology": "lose（失う、減らす）+ weight（体重）",
+      "synonyms": [
+        {"word": "slim down", "trans": "スリムになる、痩せる"},
+        {"word": "shed pounds", "trans": "体重を落とす"},
+        {"word": "reduce one's weight", "trans": "体重を減らす"}
+      ],
+      "antonyms": [
+        {"word": "gain weight", "trans": "体重が増える"},
+        {"word": "put on weight", "trans": "太る"}
+      ],
+      "related": [
+        {"word": "dieting", "trans": "名詞：ダイエット（食事制限）"}
+      ]
+    },
+    {
+      "number": 1850,
+      "word": "chronic disease",
+      "pos": "名詞句",
+      "meaning": "慢性疾患、持病",
+      "nuance": "徐々に進行し、長期間にわたって治療や管理が必要となる病気（糖尿病、高血圧、喘息など）のこと。突然発症して短期間で治る「急性疾患（acute disease）」の対義語です。",
+      "example_sections": [
+        {
+          "title": "例文（慢性疾患・持病）",
+          "examples": [
+            {
+              "en": "Older people are more likely to suffer from chronic diseases.",
+              "ja": "高齢者は慢性疾患を患う可能性が高いです。",
+              "highlight": "chronic diseases"
+            },
+            {
+              "en": "Managing a chronic disease requires significant lifestyle changes.",
+              "ja": "慢性疾患を管理するには、大幅な生活習慣の変化が必要です。",
+              "highlight": "chronic disease"
+            }
+          ]
+        }
+      ],
+      "etymology": "chronic（ギリシャ語 chronos「時間」から。長期にわたる）+ disease（dis「〜ない」+ ease「快適さ」→ 病気）",
+      "synonyms": [
+        {"word": "chronic illness", "trans": "慢性病"},
+        {"word": "long-term condition", "trans": "長期的な疾患"},
+        {"word": "underlying health condition", "trans": "基礎疾患"}
+      ],
+      "antonyms": [
+        {"word": "acute disease", "trans": "急性疾患"},
+        {"word": "short-term illness", "trans": "短期的な病気"}
+      ],
+      "related": [
+        {"word": "symptom", "trans": "名詞：症状"}
+      ]
+    },
+    {
+      "number": 1851,
+      "word": "get a promotion",
+      "pos": "動詞句",
+      "meaning": "昇進する",
+      "nuance": "会社や組織内で、より高い役職や地位に就くことを表します。名詞 promotion（昇進）を得る、という形をとります。",
+      "example_sections": [
+        {
+          "title": "例文（昇進する）",
+          "examples": [
+            {
+              "en": "She worked really hard this year and hopes to get a promotion.",
+              "ja": "彼女は今年とても熱心に働いたので、昇進することを望んでいます。",
+              "highlight": "get a promotion"
+            },
+            {
+              "en": "He got a promotion to sales manager last month.",
+              "ja": "彼は先月、営業マネージャーに昇進しました。",
+              "highlight": "got a promotion"
+            }
+          ]
+        }
+      ],
+      "etymology": "get（得る）+ a promotion（ラテン語 pro-「前に」+ movere「動かす」→ 前進、昇進）",
+      "synonyms": [
+        {"word": "move up the corporate ladder", "trans": "出世する、昇進する"},
+        {"word": "advance in one's career", "trans": "キャリアにおいて前進する"}
+      ],
+      "antonyms": [
+        {"word": "get a demotion", "trans": "降格される"},
+        {"word": "be demoted", "trans": "降格させられる"}
+      ],
+      "related": [
+        {"word": "career advancement", "trans": "名詞：キャリアアップ、昇進"}
+      ]
+    },
+    {
+      "number": "1851-2",
+      "word": "get promoted",
+      "pos": "動詞句",
+      "meaning": "昇進する",
+      "nuance": "get a promotion とほぼ同義ですが、受動態の形で「（会社や上司によって）昇進させられる」という事実に焦点が当たった表現です。会話で非常によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（昇進する）",
+          "examples": [
+            {
+              "en": "I heard that you got promoted. Congratulations!",
+              "ja": "昇進したと聞きました。おめでとうございます！",
+              "highlight": "got promoted"
+            },
+            {
+              "en": "If you keep up the good work, you might get promoted soon.",
+              "ja": "良い仕事を続ければ、すぐに昇進するかもしれません。",
+              "highlight": "get promoted"
+            }
+          ]
+        }
+      ],
+      "etymology": "get（〜の状態になる）+ promoted（昇進させられた）",
+      "synonyms": [
+        {"word": "be promoted", "trans": "昇進する"},
+        {"word": "get a promotion", "trans": "昇進する"}
+      ],
+      "antonyms": [
+        {"word": "get demoted", "trans": "降格される"}
+      ],
+      "related": [
+        {"word": "position", "trans": "名詞：役職、地位"}
+      ]
+    },
+    {
+      "number": 1852,
+      "word": "get a pay raise",
+      "pos": "動詞句",
+      "meaning": "昇給する、給料が上がる",
+      "nuance": "給与が増加することを意味します。イギリス英語では get a pay rise と表現されることが多いです。",
+      "example_sections": [
+        {
+          "title": "例文（昇給する）",
+          "examples": [
+            {
+              "en": "I am going to ask my boss if I can get a pay raise.",
+              "ja": "昇給してもらえるか、上司に尋ねるつもりです。",
+              "highlight": "get a pay raise"
+            },
+            {
+              "en": "All employees got a 5% pay raise this year.",
+              "ja": "今年、全従業員が5%の昇給を受けました。",
+              "highlight": "got a 5% pay raise"
+            }
+          ]
+        }
+      ],
+      "etymology": "get（得る）+ a pay raise（給与の引き上げ）",
+      "synonyms": [
+        {"word": "get a salary increase", "trans": "給与増を得る"},
+        {"word": "get a raise", "trans": "昇給する（payを省略した形）"}
+      ],
+      "antonyms": [
+        {"word": "get a pay cut", "trans": "減給される"},
+        {"word": "have one's salary reduced", "trans": "給料を減らされる"}
+      ],
+      "related": [
+        {"word": "annual income", "trans": "名詞：年収"}
+      ]
+    },
+    {
+      "number": 1853,
+      "word": "paid vacation",
+      "pos": "名詞句",
+      "meaning": "有給休暇",
+      "nuance": "給与が支払われながら休むことができる制度やその期間を指します。イギリス英語では paid holiday や annual leave という表現が一般的です。",
+      "example_sections": [
+        {
+          "title": "例文（有給休暇）",
+          "examples": [
+            {
+              "en": "In this company, employees are entitled to 20 days of paid vacation a year.",
+              "ja": "この会社では、従業員は年に20日の有給休暇を取得する権利があります。",
+              "highlight": "paid vacation"
+            },
+            {
+              "en": "I'm going to take a paid vacation next week to travel to Hawaii.",
+              "ja": "来週、ハワイに旅行するために有給休暇を取る予定です。",
+              "highlight": "take a paid vacation"
+            }
+          ]
+        }
+      ],
+      "etymology": "paid（支払われた）+ vacation（休暇）",
+      "synonyms": [
+        {"word": "paid leave", "trans": "有給休暇（より公的な響き）"},
+        {"word": "paid time off (PTO)", "trans": "有給休暇（アメリカの企業でよく使われる）"}
+      ],
+      "antonyms": [
+        {"word": "unpaid leave", "trans": "無給休暇"},
+        {"word": "leave of absence", "trans": "休職（無給の場合が多い）"}
+      ],
+      "related": [
+        {"word": "take a day off", "trans": "動詞句：1日休みを取る"}
+      ]
+    },
+    {
+      "number": 1854,
+      "word": "on a business trip",
+      "pos": "前置詞句",
+      "meaning": "出張中で",
+      "nuance": "仕事の目的で通常の勤務地から離れた場所に滞在している状態を表します。「go on a business trip（出張に行く）」のように動詞と組み合わせて使われます。",
+      "example_sections": [
+        {
+          "title": "例文（出張中で）",
+          "examples": [
+            {
+              "en": "My manager is currently on a business trip to London.",
+              "ja": "私のマネージャーは現在ロンドンに出張中です。",
+              "highlight": "on a business trip"
+            },
+            {
+              "en": "I'll be away on a business trip for the next three days.",
+              "ja": "私はこれからの3日間、出張で不在になります。",
+              "highlight": "on a business trip"
+            }
+          ]
+        }
+      ],
+      "etymology": "on（〜に従事して、〜の途中で）+ a business trip（仕事の旅）",
+      "synonyms": [
+        {"word": "traveling for work", "trans": "仕事で旅行中"},
+        {"word": "away on business", "trans": "仕事で不在にして"}
+      ],
+      "antonyms": [
+        {"word": "in the office", "trans": "オフィスにいて"},
+        {"word": "at one's desk", "trans": "自席にいて"}
+      ],
+      "related": [
+        {"word": "business travel", "trans": "名詞：出張（不可算名詞として）"}
+      ]
+    },
+    {
+      "number": 1855,
+      "word": "changing jobs",
+      "pos": "動名詞句",
+      "meaning": "転職すること",
+      "nuance": "一つの職場から別の職場へ移るというプロセスや行動そのものを指します。「change jobs（転職する）」という動詞の形で使われることも多いです（jobは通常複数形になります）。",
+      "example_sections": [
+        {
+          "title": "例文（転職すること）",
+          "examples": [
+            {
+              "en": "Changing jobs can be stressful, but it's also a great opportunity.",
+              "ja": "転職することはストレスになることもありますが、素晴らしい機会でもあります。",
+              "highlight": "Changing jobs"
+            },
+            {
+              "en": "I'm thinking about changing jobs to get a better salary.",
+              "ja": "より良い給料を得るために、転職することを考えています。",
+              "highlight": "changing jobs"
+            }
+          ]
+        }
+      ],
+      "etymology": "changing（変えること）+ jobs（仕事、職業）",
+      "synonyms": [
+        {"word": "switching jobs", "trans": "転職すること"},
+        {"word": "job hopping", "trans": "転職を繰り返すこと（ややネガティブ）"},
+        {"word": "career change", "trans": "キャリアチェンジ、転職"}
+      ],
+      "antonyms": [
+        {"word": "staying at the same company", "trans": "同じ会社にとどまること"},
+        {"word": "keeping one's job", "trans": "今の仕事を続けること"}
+      ],
+      "related": [
+        {"word": "resume", "trans": "名詞：履歴書"}
+      ]
+    },
+    {
+      "number": 1856,
+      "word": "get laid off",
+      "pos": "動詞句",
+      "meaning": "解雇される（主に整理解雇）",
+      "nuance": "労働者自身の落ち度ではなく、会社の業績悪化や事業縮小などの経営上の都合によって一時的または永久に解雇されることを指します。fire（落ち度による解雇）とは明確に区別されます。",
+      "example_sections": [
+        {
+          "title": "例文（解雇される）",
+          "examples": [
+            {
+              "en": "Hundreds of workers got laid off when the factory closed down.",
+              "ja": "工場が閉鎖されたとき、何百人もの労働者が解雇されました。",
+              "highlight": "got laid off"
+            },
+            {
+              "en": "I'm worried that I might get laid off due to the recent budget cuts.",
+              "ja": "最近の予算削減のせいで、解雇されるのではないかと心配しています。",
+              "highlight": "get laid off"
+            }
+          ]
+        }
+      ],
+      "etymology": "get（〜の状態になる）+ laid off（lay off「一時帰休させる、解雇する」の過去分詞形）",
+      "synonyms": [
+        {"word": "be made redundant", "trans": "人員削減で解雇される（主に英）"},
+        {"word": "lose one's job", "trans": "仕事を失う"},
+        {"word": "be let go", "trans": "解雇される（婉曲表現）"}
+      ],
+      "antonyms": [
+        {"word": "get hired", "trans": "雇われる"},
+        {"word": "be employed", "trans": "雇用される"}
+      ],
+      "related": [
+        {"word": "unemployment benefit", "trans": "名詞：失業保険"}
+      ]
+    },
+    {
+      "number": 1857,
+      "word": "work overtime",
+      "pos": "動詞句",
+      "meaning": "残業する",
+      "nuance": "正規の勤務時間を超えて働くことを意味します。overtime は副詞（規定時間を超えて）または名詞（超過勤務、残業代）として機能します。",
+      "example_sections": [
+        {
+          "title": "例文（残業する）",
+          "examples": [
+            {
+              "en": "I had to work overtime last night to finish the project report.",
+              "ja": "昨夜はプロジェクトの報告書を仕上げるために残業しなければなりませんでした。",
+              "highlight": "work overtime"
+            },
+            {
+              "en": "We don't get paid extra when we work overtime.",
+              "ja": "私たちは残業しても追加の支払いはありません（サービス残業です）。",
+              "highlight": "work overtime"
+            }
+          ]
+        }
+      ],
+      "etymology": "work（働く）+ overtime（規定の時間を超えて）",
+      "synonyms": [
+        {"word": "do overtime", "trans": "残業する"},
+        {"word": "work late", "trans": "遅くまで働く"},
+        {"word": "put in extra hours", "trans": "余分な時間を働く"}
+      ],
+      "antonyms": [
+        {"word": "leave on time", "trans": "定時で退社する"},
+        {"word": "work regular hours", "trans": "定時で働く"}
+      ],
+      "related": [
+        {"word": "overtime pay", "trans": "名詞：残業代"}
+      ]
+    },
+    {
+      "number": 1858,
+      "word": "work from home",
+      "pos": "動詞句",
+      "meaning": "在宅勤務する",
+      "nuance": "オフィスに出社せず、自宅を拠点として仕事をすること。テレワークの一種であり、略語の WFH としても広く使われています。",
+      "example_sections": [
+        {
+          "title": "例文（在宅勤務する）",
+          "examples": [
+            {
+              "en": "Many companies started allowing employees to work from home.",
+              "ja": "多くの会社が従業員に在宅勤務を許可し始めました。",
+              "highlight": "work from home"
+            },
+            {
+              "en": "I usually work from home on Tuesdays and Thursdays.",
+              "ja": "私はたいてい火曜日と木曜日は在宅勤務をしています。",
+              "highlight": "work from home"
+            }
+          ]
+        }
+      ],
+      "etymology": "work（働く）+ from home（家から、家を起点にして）",
+      "synonyms": [
+        {"word": "telecommute", "trans": "テレワークする、在宅勤務する"},
+        {"word": "work remotely", "trans": "リモートで働く"}
+      ],
+      "antonyms": [
+        {"word": "work in the office", "trans": "オフィスで働く"},
+        {"word": "commute to work", "trans": "職場に通勤する"}
+      ],
+      "related": [
+        {"word": "remote work", "trans": "名詞：リモートワーク"}
+      ]
+    },
+    {
+      "number": 1859,
+      "word": "work full-time",
+      "pos": "動詞句",
+      "meaning": "フルタイムで働く、常勤で働く",
+      "nuance": "会社が定める所定労働時間のすべて（通常は週40時間程度）を働くこと。正社員としての働き方などを指す場合が多いです。",
+      "example_sections": [
+        {
+          "title": "例文（フルタイムで働く）",
+          "examples": [
+            {
+              "en": "She went back to working full-time after her children started school.",
+              "ja": "子供たちが学校に通い始めた後、彼女はフルタイムで働くことに戻りました。",
+              "highlight": "working full-time"
+            },
+            {
+              "en": "It's difficult to balance studying and working full-time.",
+              "ja": "勉強とフルタイムの仕事を両立させるのは難しいです。",
+              "highlight": "working full-time"
+            }
+          ]
+        }
+      ],
+      "etymology": "work（働く）+ full-time（全時間帯で、専任で）",
+      "synonyms": [
+        {"word": "have a full-time job", "trans": "フルタイムの仕事に就いている"}
+      ],
+      "antonyms": [
+        {"word": "work part-time", "trans": "パートタイムで働く"}
+      ],
+      "related": [
+        {"word": "regular employee", "trans": "名詞：正社員"}
+      ]
+    },
+    {
+      "number": 1860,
+      "word": "work part-time",
+      "pos": "動詞句",
+      "meaning": "パートタイムで働く、アルバイトをする",
+      "nuance": "フルタイムの所定労働時間よりも短い時間で働くこと。日本語の「アルバイト」や「パート」に相当する働き方全般を指します（英語の part-time は学生か主婦かを問いません）。",
+      "example_sections": [
+        {
+          "title": "例文（パートタイムで働く）",
+          "examples": [
+            {
+              "en": "He works part-time at a convenience store to pay for his tuition.",
+              "ja": "彼は学費を払うためにコンビニエンスストアでパートタイムで働いています（アルバイトをしています）。",
+              "highlight": "works part-time"
+            },
+            {
+              "en": "I'm looking for a way to work part-time while raising my kids.",
+              "ja": "子育てをしながらパートタイムで働く方法を探しています。",
+              "highlight": "work part-time"
+            }
+          ]
+        }
+      ],
+      "etymology": "work（働く）+ part-time（一部の時間で）",
+      "synonyms": [
+        {"word": "have a part-time job", "trans": "パート（アルバイト）の仕事をしている"},
+        {"word": "work reduced hours", "trans": "短縮時間で働く"}
+      ],
+      "antonyms": [
+        {"word": "work full-time", "trans": "フルタイムで働く"}
+      ],
+      "related": [
+        {"word": "hourly wage", "trans": "名詞：時給"}
+      ]
+    },
+    {
+      "number": 1861,
+      "word": "environmental problems",
+      "pos": "名詞句",
+      "meaning": "環境問題",
+      "nuance": "大気汚染、水質汚濁、森林破壊など、自然環境に対する人為的な悪影響全般を指す一般的な表現です。通常、複数形（problems / issues）で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（環境問題）",
+          "examples": [
+            {
+              "en": "Global warming is one of the most serious environmental problems we face today.",
+              "ja": "地球温暖化は、私たちが今日直面している最も深刻な環境問題の1つです。",
+              "highlight": "environmental problems"
+            },
+            {
+              "en": "We must work together globally to solve environmental problems.",
+              "ja": "環境問題を解決するために、私たちは世界規模で協力しなければなりません。",
+              "highlight": "environmental problems"
+            }
+          ]
+        }
+      ],
+      "etymology": "environmental（環境の）+ problems（問題）",
+      "synonyms": [
+        {"word": "environmental issues", "trans": "環境問題（problemsより少しフォーマルで議論の対象となるニュアンス）"},
+        {"word": "ecological problems", "trans": "生態学的な問題"},
+        {"word": "environmental crises", "trans": "環境危機"}
+      ],
+      "antonyms": [
+        {"word": "environmental solutions", "trans": "環境問題の解決策"},
+        {"word": "environmental conservation", "trans": "環境保全"}
+      ],
+      "related": [
+        {"word": "environment", "trans": "名詞：環境"}
+      ]
+    },
+    {
+      "number": 1862,
+      "word": "environmentally friendly",
+      "pos": "形容詞句",
+      "meaning": "環境に優しい",
+      "nuance": "製品、サービス、行動などが自然環境に害を与えない、または悪影響が少ないことを表します。公的な文章などでもよく使われるフォーマルな表現です。",
+      "example_sections": [
+        {
+          "title": "例文（環境に優しい）",
+          "examples": [
+            {
+              "en": "Our company aims to develop more environmentally friendly products.",
+              "ja": "私たちの会社は、より環境に優しい製品を開発することを目指しています。",
+              "highlight": "environmentally friendly products"
+            },
+            {
+              "en": "Riding a bicycle is an environmentally friendly way to travel.",
+              "ja": "自転車に乗ることは、環境に優しい移動手段です。",
+              "highlight": "environmentally friendly way"
+            }
+          ]
+        }
+      ],
+      "etymology": "environmentally（環境的に）+ friendly（優しい、好意的な）",
+      "synonyms": [
+        {"word": "eco-friendly", "trans": "エコな、環境に優しい"},
+        {"word": "green", "trans": "環境に優しい、環境保全の"},
+        {"word": "earth-friendly", "trans": "地球に優しい"}
+      ],
+      "antonyms": [
+        {"word": "environmentally damaging", "trans": "環境にダメージを与える"},
+        {"word": "harmful to the environment", "trans": "環境に有害な"}
+      ],
+      "related": [
+        {"word": "sustainability", "trans": "名詞：持続可能性"}
+      ]
+    },
+    {
+      "number": "1862-2",
+      "word": "eco-friendly",
+      "pos": "形容詞",
+      "meaning": "環境に優しい、エコな",
+      "nuance": "environmentally friendlyを短くした表現で、日常会話や商品のキャッチコピーなどで非常に頻繁に使われます。日本語の「エコ（な）」に最も近い言葉です。",
+      "example_sections": [
+        {
+          "title": "例文（環境に優しい・エコな）",
+          "examples": [
+            {
+              "en": "I bought an eco-friendly car to reduce fuel consumption.",
+              "ja": "燃料消費を減らすためにエコカー（環境に優しい車）を買いました。",
+              "highlight": "eco-friendly car"
+            },
+            {
+              "en": "This detergent is completely eco-friendly and safe for rivers.",
+              "ja": "この洗剤は完全に環境に優しく、川にも安全です。",
+              "highlight": "eco-friendly"
+            }
+          ]
+        }
+      ],
+      "etymology": "eco（ecology「生態学、環境」の略）+ friendly（優しい）",
+      "synonyms": [
+        {"word": "environmentally friendly", "trans": "環境に優しい"},
+        {"word": "green", "trans": "エコの、環境に配慮した"}
+      ],
+      "antonyms": [
+        {"word": "eco-unfriendly", "trans": "環境に優しくない"}
+      ],
+      "related": [
+        {"word": "ecology", "trans": "名詞：生態学、自然環境"}
+      ]
+    },
+    {
+      "number": 1863,
+      "word": "global warming",
+      "pos": "名詞句",
+      "meaning": "地球温暖化",
+      "nuance": "温室効果ガスの増加により、地球全体の平均気温が長期的に上昇している現象を指します。以前からよく使われていますが、最近ではより広範な変化を指す climate change に置き換えられることも増えています。",
+      "example_sections": [
+        {
+          "title": "例文（地球温暖化）",
+          "examples": [
+            {
+              "en": "Global warming is causing the ice in the Arctic to melt rapidly.",
+              "ja": "地球温暖化により、北極の氷が急速に溶けています。",
+              "highlight": "Global warming"
+            },
+            {
+              "en": "We need to take immediate action to stop global warming.",
+              "ja": "地球温暖化を止めるために、直ちに行動を起こす必要があります。",
+              "highlight": "global warming"
+            }
+          ]
+        }
+      ],
+      "etymology": "global（地球全体の）+ warming（暖かくなること）",
+      "synonyms": [
+        {"word": "climate change", "trans": "気候変動（より包括的な表現）"},
+        {"word": "planetary warming", "trans": "地球の温暖化"}
+      ],
+      "antonyms": [
+        {"word": "global cooling", "trans": "地球寒冷化"}
+      ],
+      "related": [
+        {"word": "global", "trans": "形容詞：地球規模の"}
+      ]
+    },
+    {
+      "number": 1864,
+      "word": "the earth is getting warmer and warmer",
+      "pos": "文（節）",
+      "meaning": "地球はだんだん暖かくなっている",
+      "nuance": "地球温暖化の進行を、「比較級 and 比較級」を使って「徐々に、ますます〜になる」と表現した分かりやすい言い回しです。プロセスが現在も進行中であることを強調します。",
+      "example_sections": [
+        {
+          "title": "例文（地球はだんだん暖かくなっている）",
+          "examples": [
+            {
+              "en": "Because of climate change, the earth is getting warmer and warmer.",
+              "ja": "気候変動のせいで、地球はだんだん暖かくなっています。",
+              "highlight": "the earth is getting warmer and warmer"
+            },
+            {
+              "en": "Scientists warn that the earth is getting warmer and warmer every year.",
+              "ja": "科学者たちは、地球が年々ますます暖かくなっていると警告しています。",
+              "highlight": "the earth is getting warmer and warmer"
+            }
+          ]
+        }
+      ],
+      "etymology": "the earth（地球）+ is getting（〜になりつつある）+ warmer and warmer（ますます暖かく）",
+      "synonyms": [
+        {"word": "the earth's temperature is rising", "trans": "地球の気温が上昇している"},
+        {"word": "the planet is heating up", "trans": "地球が熱くなっている"}
+      ],
+      "antonyms": [
+        {"word": "the earth is getting colder and colder", "trans": "地球はだんだん寒くなっている"}
+      ],
+      "related": [
+        {"word": "get warmer", "trans": "動詞句：暖かくなる"}
+      ]
+    },
+    {
+      "number": 1865,
+      "word": "the average global temperature",
+      "pos": "名詞句",
+      "meaning": "地球の平均気温",
+      "nuance": "地球温暖化や気候変動を議論する際に指標となる、地球全体の地表付近の平均的な気温のこと。ニュースや科学的なレポートで頻出します。",
+      "example_sections": [
+        {
+          "title": "例文（地球の平均気温）",
+          "examples": [
+            {
+              "en": "The average global temperature has increased significantly over the last century.",
+              "ja": "地球の平均気温は、過去1世紀にわたって著しく上昇しました。",
+              "highlight": "The average global temperature"
+            },
+            {
+              "en": "If the average global temperature continues to rise, it will cause severe problems.",
+              "ja": "もし地球の平均気温が上がり続ければ、深刻な問題を引き起こすでしょう。",
+              "highlight": "the average global temperature"
+            }
+          ]
+        }
+      ],
+      "etymology": "the average（平均の）+ global（地球の）+ temperature（気温）",
+      "synonyms": [
+        {"word": "global mean temperature", "trans": "地球の平均気温（学術的）"},
+        {"word": "average temperature of the earth", "trans": "地球の平均気温"}
+      ],
+      "antonyms": [
+        {"word": "local temperature", "trans": "局所的な（その地域の）気温"}
+      ],
+      "related": [
+        {"word": "temperature", "trans": "名詞：温度、気温"}
+      ]
+    },
+    {
+      "number": 1866,
+      "word": "reduce carbon dioxide emissions by X percent",
+      "pos": "動詞句",
+      "meaning": "二酸化炭素排出量をXパーセント削減する",
+      "nuance": "政府の目標や企業の環境宣言などでよく使われる具体的な数値目標を伴う表現です。「by」は「〜の差で、〜の分だけ」という差額や程度を表す前置詞です。",
+      "example_sections": [
+        {
+          "title": "例文（二酸化炭素排出量をXパーセント削減する）",
+          "examples": [
+            {
+              "en": "The government aims to reduce carbon dioxide emissions by 20 percent.",
+              "ja": "政府は二酸化炭素排出量を20パーセント削減することを目指しています。",
+              "highlight": "reduce carbon dioxide emissions by 20 percent"
+            },
+            {
+              "en": "We must reduce carbon dioxide emissions by 50 percent by 2030.",
+              "ja": "私たちは2030年までに二酸化炭素排出量を50パーセント削減しなければなりません。",
+              "highlight": "reduce carbon dioxide emissions by 50 percent"
+            }
+          ]
+        }
+      ],
+      "etymology": "reduce（減らす）+ carbon dioxide（二酸化炭素）+ emissions（排出）+ by X percent（Xパーセントの割合分だけ）",
+      "synonyms": [
+        {"word": "cut CO2 emissions by X percent", "trans": "CO2排出量をXパーセント削減する"},
+        {"word": "decrease carbon footprint by X percent", "trans": "カーボンフットプリント（温室効果ガス排出量）をXパーセント減らす"}
+      ],
+      "antonyms": [
+        {"word": "increase carbon dioxide emissions by X percent", "trans": "二酸化炭素排出量をXパーセント増加させる"}
+      ],
+      "related": [
+        {"word": "carbon footprint", "trans": "名詞：カーボンフットプリント（個人の活動によって排出される温室効果ガスの量）"}
+      ]
+    },
+    {
+      "number": 1867,
+      "word": "greenhouse gas emissions",
+      "pos": "名詞句",
+      "meaning": "温室効果ガス排出（量）",
+      "nuance": "二酸化炭素、メタン、フロンなど、地球の熱を宇宙に逃がさない効果（温室効果）を持つガスが大気中に放出されること、またその量を指します。",
+      "example_sections": [
+        {
+          "title": "例文（温室効果ガス排出）",
+          "examples": [
+            {
+              "en": "Reducing greenhouse gas emissions is critical for our future.",
+              "ja": "温室効果ガスの排出を減らすことは、私たちの未来にとって不可欠です。",
+              "highlight": "greenhouse gas emissions"
+            },
+            {
+              "en": "The country has promised to lower its greenhouse gas emissions.",
+              "ja": "その国は温室効果ガスの排出量を下げることを約束しました。",
+              "highlight": "greenhouse gas emissions"
+            }
+          ]
+        }
+      ],
+      "etymology": "greenhouse（温室）+ gas（気体）+ emissions（排出物、放出）",
+      "synonyms": [
+        {"word": "GHG emissions", "trans": "温室効果ガス排出量（GHGはGreenhouse Gasの略）"},
+        {"word": "carbon emissions", "trans": "炭素排出（ほぼ同義として使われることが多い）"}
+      ],
+      "antonyms": [
+        {"word": "greenhouse gas absorption", "trans": "温室効果ガスの吸収"}
+      ],
+      "related": [
+        {"word": "the greenhouse effect", "trans": "名詞：温室効果"}
+      ]
+    },
+    {
+      "number": 1868,
+      "word": "rising sea levels",
+      "pos": "名詞句",
+      "meaning": "海面上昇",
+      "nuance": "温暖化による氷河の融解や海水の熱膨張によって、海面の水位が高くなっている現象を指します。",
+      "example_sections": [
+        {
+          "title": "例文（海面上昇）",
+          "examples": [
+            {
+              "en": "Rising sea levels threaten many coastal cities around the world.",
+              "ja": "海面上昇は世界中の多くの沿岸都市を脅かしています。",
+              "highlight": "Rising sea levels"
+            },
+            {
+              "en": "Island nations are in danger of disappearing due to rising sea levels.",
+              "ja": "島国は海面上昇により消滅する危機に瀕しています。",
+              "highlight": "rising sea levels"
+            }
+          ]
+        }
+      ],
+      "etymology": "rising（上昇している）+ sea levels（海面の高さ）",
+      "synonyms": [
+        {"word": "sea-level rise", "trans": "海面上昇（名詞+名詞の形）"},
+        {"word": "increasing sea levels", "trans": "上昇する海面"}
+      ],
+      "antonyms": [
+        {"word": "falling sea levels", "trans": "海面低下"}
+      ],
+      "related": [
+        {"word": "coastal area", "trans": "名詞：沿岸地域"}
+      ]
+    },
+    {
+      "number": 1869,
+      "word": "climate change",
+      "pos": "名詞句",
+      "meaning": "気候変動",
+      "nuance": "単なる気温の上昇（global warming）だけでなく、豪雨、干ばつ、異常気象などを含めた地球全体の気候パターンの長期的な変化を指す、より包括的で現在推奨されている言葉です。",
+      "example_sections": [
+        {
+          "title": "例文（気候変動）",
+          "examples": [
+            {
+              "en": "Climate change is a global crisis that requires immediate action.",
+              "ja": "気候変動は即時の行動を必要とする地球規模の危機です。",
+              "highlight": "Climate change"
+            },
+            {
+              "en": "Many animal species are facing extinction due to climate change.",
+              "ja": "多くの動物種が気候変動によって絶滅の危機に直面しています。",
+              "highlight": "climate change"
+            }
+          ]
+        }
+      ],
+      "etymology": "climate（気候）+ change（変化）",
+      "synonyms": [
+        {"word": "global warming", "trans": "地球温暖化"},
+        {"word": "environmental change", "trans": "環境変化"}
+      ],
+      "antonyms": [
+        {"word": "climate stability", "trans": "気候の安定"}
+      ],
+      "related": [
+        {"word": "fossil fuels", "trans": "名詞：化石燃料（気候変動の主要な原因）"}
+      ]
+    },
+    {
+      "number": 1870,
+      "word": "abnormal weather",
+      "pos": "名詞句",
+      "meaning": "異常気象",
+      "nuance": "過去の経験則や統計から大きく外れた、通常では起こらないような天候のこと。気象学的に「異常」と認定されるような状況を指します。",
+      "example_sections": [
+        {
+          "title": "例文（異常気象）",
+          "examples": [
+            {
+              "en": "The crop failure was caused by this year's abnormal weather.",
+              "ja": "農作物の不作は今年の異常気象が原因でした。",
+              "highlight": "abnormal weather"
+            },
+            {
+              "en": "We have been experiencing abnormal weather patterns recently.",
+              "ja": "私たちは最近、異常な気象パターンを経験しています。",
+              "highlight": "abnormal weather"
+            }
+          ]
+        }
+      ],
+      "etymology": "abnormal（ab「〜から離れて」+ normal「正常な」→ 異常な）+ weather（天気、気象）",
+      "synonyms": [
+        {"word": "unusual weather", "trans": "珍しい天候、異常気象"},
+        {"word": "extreme weather", "trans": "極端な気象、異常気象"}
+      ],
+      "antonyms": [
+        {"word": "normal weather", "trans": "通常の天候"},
+        {"word": "typical weather", "trans": "典型的な天候"}
+      ],
+      "related": [
+        {"word": "weather forecast", "trans": "名詞：天気予報"}
+      ]
+    },
+    {
+      "number": "1870-2",
+      "word": "unusual weather",
+      "pos": "名詞句",
+      "meaning": "異常気象、普段とは違う天候",
+      "nuance": "abnormal よりは少しマイルドで、日常会話で「最近なんだか変な天気が続くね」「季節外れだね」と言う時によく使われる表現です。",
+      "example_sections": [
+        {
+          "title": "例文（普段とは違う天候・異常気象）",
+          "examples": [
+            {
+              "en": "We had some unusual weather for April, including snow.",
+              "ja": "雪も含め、4月にしては普段とは違う天気（異常気象）でした。",
+              "highlight": "unusual weather"
+            },
+            {
+              "en": "Unusual weather has become more common these days.",
+              "ja": "最近は異常気象がより一般的になってきました。",
+              "highlight": "Unusual weather"
+            }
+          ]
+        }
+      ],
+      "etymology": "unusual（un「否定」+ usual「普段の」→ 珍しい、普通でない）+ weather（天気）",
+      "synonyms": [
+        {"word": "unseasonable weather", "trans": "季節外れの天候"},
+        {"word": "abnormal weather", "trans": "異常気象"}
+      ],
+      "antonyms": [
+        {"word": "usual weather", "trans": "普段の天候"},
+        {"word": "seasonable weather", "trans": "季節に合った天候"}
+      ],
+      "related": [
+        {"word": "seasonal", "trans": "形容詞：季節の"}
+      ]
+    },
+    {
+      "number": "1870-3",
+      "word": "extreme weather",
+      "pos": "名詞句",
+      "meaning": "極端な気象、異常気象",
+      "nuance": "猛烈な台風、熱波、大雪、大干ばつなど、程度が「極端で激しい」ことによる被害や深刻さに焦点が当たった表現。昨今のニュースなどではこの言葉が一番よく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（極端な気象・異常気象）",
+          "examples": [
+            {
+              "en": "Extreme weather events have caused massive damage to the region.",
+              "ja": "極端な異常気象により、その地域は甚大な被害を受けました。",
+              "highlight": "Extreme weather"
+            },
+            {
+              "en": "Scientists attribute the increase in extreme weather to climate change.",
+              "ja": "科学者たちは、異常気象の増加は気候変動が原因であるとしています。",
+              "highlight": "extreme weather"
+            }
+          ]
+        }
+      ],
+      "etymology": "extreme（極端な、過激な）+ weather（天気）",
+      "synonyms": [
+        {"word": "severe weather", "trans": "荒天、悪天候"},
+        {"word": "freak weather events", "trans": "予測不可能な異常気象"}
+      ],
+      "antonyms": [
+        {"word": "mild weather", "trans": "穏やかな天候"},
+        {"word": "calm weather", "trans": "穏やかな天候"}
+      ],
+      "related": [
+        {"word": "natural disaster", "trans": "名詞：自然災害"}
+      ]
+    }
+  ]
+}
