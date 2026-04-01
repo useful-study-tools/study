@@ -3,47 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>超本格ジグソーパズル</title>
+    <title>超本格ジグソーパズル (ガイド・自動詰め機能付き)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
             margin: 0;
             overflow: hidden;
-            background-color: #1a202c; /* ダーク背景 */
+            background-color: #1a202c;
             touch-action: none; /* デフォルトのスクロール/ズームを無効化 */
             font-family: sans-serif;
+            user-select: none;
+            -webkit-user-select: none;
         }
         #gameCanvas {
             display: block;
             width: 100vw;
             height: 100vh;
         }
-        /* UIオーバーレイのスタイル */
+        /* UIオーバーレイ */
         #ui-layer {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
-            pointer-events: none; /* 背景へのクリックを透過 */
+            pointer-events: none;
             z-index: 10;
         }
         #ui-layer > * {
-            pointer-events: auto; /* UI要素自体はクリック可能に */
+            pointer-events: auto;
         }
         /* 読み込み中画面 */
         #loading {
             position: absolute;
             inset: 0;
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.85);
             color: white;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 1.5rem;
-            font-weight: bold;
             z-index: 50;
             transition: opacity 0.3s;
         }
+        .loader {
+            border: 6px solid #f3f3f3;
+            border-top: 6px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        
         .hidden {
             opacity: 0;
             pointer-events: none;
@@ -55,16 +67,16 @@
     <!-- ゲーム描画用キャンバス -->
     <canvas id="gameCanvas"></canvas>
 
-    <!-- UIオーバーレイ -->
-    <div id="ui-layer" class="p-3">
-        <div class="bg-gray-800/90 text-white p-3 rounded-lg shadow-lg flex flex-wrap gap-4 items-center justify-between max-w-4xl mx-auto backdrop-blur-sm border border-gray-700">
-            <h1 class="text-lg font-bold">本格ジグソー</h1>
+    <!-- UI層 -->
+    <div id="ui-layer" class="p-2 sm:p-4">
+        <div class="bg-gray-800/95 text-white p-3 rounded-xl shadow-2xl flex flex-wrap gap-4 items-center justify-between max-w-5xl mx-auto backdrop-blur border border-gray-600">
+            <h1 class="text-lg font-bold tracking-wider text-blue-300">本格ジグソー</h1>
             
-            <div class="flex flex-wrap gap-3 items-center text-sm">
+            <div class="flex flex-wrap gap-4 items-center text-sm">
                 <div class="flex items-center gap-2">
-                    <label for="image-select" class="text-gray-300">画像:</label>
-                    <select id="image-select" class="text-black px-2 py-1 rounded bg-white focus:outline-none">
-                        <option value="puzzle3608.jpeg">puzzle1.png</option>
+                    <label for="image-select" class="text-gray-300 font-semibold">画像:</label>
+                    <select id="image-select" class="text-black px-2 py-1.5 rounded bg-white focus:ring-2 focus:ring-blue-500 outline-none cursor-pointer">
+                        <option value="puzzle1.png">puzzle1.png</option>
                         <option value="puzzle2.png">puzzle2.png</option>
                         <option value="puzzle3.png">puzzle3.png</option>
                         <option value="puzzle4.png">puzzle4.png</option>
@@ -73,31 +85,38 @@
                 </div>
 
                 <div class="flex items-center gap-2">
-                    <label for="difficulty-select" class="text-gray-300">難易度:</label>
-                    <!-- 縦横比 2:3 に基づいた分割数 -->
-                    <select id="difficulty-select" class="text-black px-2 py-1 rounded bg-white focus:outline-none">
-                        <option value="20,30">簡単 (20×30 = 600P)</option>
-                        <option value="30,45" selected>普通 (30×45 = 1350P)</option>
-                        <option value="40,60">難関 (40×60 = 2400P)</option>
-                        <option value="60,90">最難関 (60×90 = 5400P)</option>
+                    <label for="difficulty-select" class="text-gray-300 font-semibold">難易度:</label>
+                    <select id="difficulty-select" class="text-black px-2 py-1.5 rounded bg-white focus:ring-2 focus:ring-blue-500 outline-none cursor-pointer">
+                        <option value="30,20">簡単 (30×20 = 600P)</option>
+                        <option value="45,30" selected>普通 (45×30 = 1350P)</option>
+                        <option value="60,40">難関 (60×40 = 2400P)</option>
+                        <option value="90,60">最難関 (90×60 = 5400P)</option>
                     </select>
                 </div>
+                
+                <!-- 補助線のON/OFFトグル -->
+                <div class="flex items-center gap-2 ml-2">
+                    <label class="flex items-center gap-1.5 cursor-pointer text-gray-300 font-semibold hover:text-white transition">
+                        <input type="checkbox" id="guide-toggle" checked class="w-4 h-4 accent-blue-500 cursor-pointer">
+                        補助線
+                    </label>
+                </div>
 
-                <button id="start-btn" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-1.5 rounded font-bold transition shadow">
-                    スタート
+                <button id="start-btn" class="bg-blue-600 hover:bg-blue-500 active:bg-blue-700 text-white px-6 py-1.5 rounded font-bold transition shadow-lg border border-blue-400">
+                    生成スタート
                 </button>
             </div>
             
-            <div class="text-xs text-gray-400 w-full text-center mt-2">
-                操作: ボードをドラッグで移動 / ホイール(ピンチ)でズーム / 下部はトレイ(スクロール可)
+            <div class="text-xs text-gray-400 w-full text-center mt-1">
+                操作: ボードをドラッグで移動 / ホイール(ピンチ)でズーム / 下部トレイからピースをドラッグ
             </div>
         </div>
         
         <!-- クリア時のメッセージ -->
-        <div id="win-message" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black/80 p-8 rounded-2xl border-4 border-yellow-500 text-center hidden">
-            <h2 class="text-4xl font-extrabold text-white mb-4">クリア！</h2>
-            <p class="text-yellow-400 text-xl font-bold mb-6">すべてのピースが揃いました</p>
-            <button id="restart-btn" class="bg-yellow-500 hover:bg-yellow-400 text-black px-6 py-2 rounded-full font-bold text-lg transition">
+        <div id="win-message" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black/90 p-10 rounded-3xl border-4 border-yellow-500 text-center hidden shadow-[0_0_30px_rgba(234,179,8,0.5)]">
+            <h2 class="text-5xl font-black text-white mb-6 tracking-widest drop-shadow-md">CLEAR!</h2>
+            <p class="text-yellow-400 text-2xl font-bold mb-8">すべてのピースが揃いました</p>
+            <button id="restart-btn" class="bg-gradient-to-r from-yellow-500 to-yellow-400 hover:from-yellow-400 hover:to-yellow-300 text-black px-10 py-3 rounded-full font-black text-xl transition transform hover:scale-105 shadow-xl">
                 新しく始める
             </button>
         </div>
@@ -105,12 +124,14 @@
 
     <!-- ローディング画面 -->
     <div id="loading" class="hidden">
-        画像を読み込み中...
+        <div class="loader"></div>
+        <div class="text-2xl font-bold mb-2">パズルを生成中...</div>
+        <div class="text-gray-400 text-sm">ピース数が多い場合、数秒かかることがあります</div>
     </div>
 
     <script>
         const canvas = document.getElementById('gameCanvas');
-        const ctx = canvas.getContext('2d', { alpha: false }); // 最適化: 背景は常に不透明
+        const ctx = canvas.getContext('2d', { alpha: false }); 
         
         // UI要素
         const startBtn = document.getElementById('start-btn');
@@ -119,34 +140,39 @@
         const winMessage = document.getElementById('win-message');
         const imageSelect = document.getElementById('image-select');
         const difficultySelect = document.getElementById('difficulty-select');
+        const guideToggle = document.getElementById('guide-toggle');
 
-        // ゲーム状態の管理
+        // ゲーム状態
         let state = {
             isPlaying: false,
-            pieces: [],        // 未配置のピース
+            pieces: [],        // トレイにある未配置のピース配列
             placedCount: 0,
             totalPieces: 0,
+            showGuide: true,   // 補助線の表示状態
             
-            // カメラ (ボードの表示状態)
+            // カメラ
             camera: { x: 0, y: 0, zoom: 1 },
             
             // トレイ (画面下部)
-            trayHeight: 140,
+            trayHeight: 160,
             trayScrollX: 0,
             maxTrayScroll: 0,
-            traySpacing: 0, // ピース間の距離
+            traySpacing: 0,
+            sbHeight: 16, // スクロールバーの高さ
             
             // ドラッグ＆ドロップ
             draggingPiece: null,
+            dragOriginalIndex: -1, // ドラッグ開始時のトレイ内のインデックス
             dragOffset: { x: 0, y: 0 },
-            dragPos: { x: 0, y: 0 }, // 画面上の表示座標
+            dragPos: { x: 0, y: 0 },
             
-            // パン（キャンバス移動）とスクロール
+            // パン・スクロール状態
             isPanning: false,
             isTrayScrolling: false,
+            isDraggingScrollbar: false,
             lastPanPoint: { x: 0, y: 0 },
             
-            // タッチ/マウス入力管理
+            // マルチタッチ管理
             pointers: {},
             lastPinchCenter: null,
             initialPinchDist: 0,
@@ -154,47 +180,60 @@
 
             // パズルデータ
             img: null,
-            pw: 0, // ピースの幅
-            ph: 0, // ピースの高さ
+            pw: 0, 
+            ph: 0, 
             tabSize: 0,
             cols: 0,
             rows: 0,
             
-            // 固定済みピースを描画するオフスクリーンキャンバス
-            boardCanvas: null,
-            boardCtx: null
+            // オフスクリーンキャンバス
+            boardCanvas: null, // 配置済みピース
+            boardCtx: null,
+            guideCanvas: null, // ピースの輪郭線(ガイド)
+            guideCtx: null
         };
 
-        // ウィンドウサイズのリサイズ処理
+        // イベントリスナー
+        guideToggle.addEventListener('change', (e) => {
+            state.showGuide = e.target.checked;
+        });
+
+        // リサイズ処理
         function resize() {
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
-            // リサイズ時、必要に応じてカメラを再調整
             if (!state.isPlaying) {
                 renderTitleScreen();
+            } else {
+                updateTrayScrollBounds();
             }
         }
         window.addEventListener('resize', resize);
         resize();
 
-        // スタートボタンのイベント
-        startBtn.addEventListener('click', startGame);
+        // スタート
+        startBtn.addEventListener('click', () => {
+            loadingDiv.classList.remove('hidden');
+            winMessage.classList.add('hidden');
+            // 描画を更新してから重い処理を開始
+            setTimeout(startGame, 50);
+        });
+        
         restartBtn.addEventListener('click', () => {
             winMessage.classList.add('hidden');
-            startGame();
+            loadingDiv.classList.remove('hidden');
+            setTimeout(startGame, 50);
         });
 
         async function startGame() {
-            loadingDiv.classList.remove('hidden');
-            winMessage.classList.add('hidden');
-            
-            // 前回の状態をリセット
             state.isPlaying = false;
             state.pieces = [];
             state.placedCount = 0;
             state.camera = { x: 0, y: 0, zoom: 1 };
             state.trayScrollX = 0;
             state.draggingPiece = null;
+            state.dragOriginalIndex = -1;
+            state.showGuide = guideToggle.checked;
             
             const [cols, rows] = difficultySelect.value.split(',').map(Number);
             state.cols = cols;
@@ -223,8 +262,8 @@
                 img.onload = () => resolve(img);
                 img.onerror = () => {
                     console.log("ローカル画像が見つからないため、縦横比2:3のダミー画像を読み込みます。");
-                    // 縦横比 2:3 の画像を Picsum から取得
-                    img.src = `https://picsum.photos/1000/1500?random=${Math.random()}`;
+                    // 縦2:横3 = 高さ:幅 = 2:3 = 1000:1500 (横長画像)
+                    img.src = `https://picsum.photos/1500/1000?random=${Math.random()}`;
                     img.onerror = reject;
                 };
                 img.src = src;
@@ -235,21 +274,21 @@
             const img = state.img;
             state.pw = img.width / state.cols;
             state.ph = img.height / state.rows;
-            // タブ(凸凹)のサイズ。ピースの短い方の辺の20%
-            state.tabSize = Math.min(state.pw, state.ph) * 0.2;
+            // 凸凹のサイズ
+            state.tabSize = Math.min(state.pw, state.ph) * 0.22;
             
             // トレイ内のピース間隔
-            state.traySpacing = state.pw + state.tabSize * 2 + 10;
+            state.traySpacing = state.pw + state.tabSize * 2 + 15;
             
             // 凸凹のパターン生成 (1: 凸, -1: 凹, 0: 直線)
-            const hEdges = []; // 横の線
+            const hEdges = []; 
             for (let c = 0; c < state.cols; c++) {
                 hEdges[c] = [];
                 for (let r = 0; r <= state.rows; r++) {
                     hEdges[c][r] = (r === 0 || r === state.rows) ? 0 : (Math.random() > 0.5 ? 1 : -1);
                 }
             }
-            const vEdges = []; // 縦の線
+            const vEdges = [];
             for (let c = 0; c <= state.cols; c++) {
                 vEdges[c] = [];
                 for (let r = 0; r < state.rows; r++) {
@@ -257,52 +296,70 @@
                 }
             }
 
-            // ピースデータの生成
             state.pieces = [];
-            let tempPieces = [];
             for (let c = 0; c < state.cols; c++) {
                 for (let r = 0; r < state.rows; r++) {
-                    tempPieces.push({
+                    state.pieces.push({
                         id: `p_${c}_${r}`,
                         c: c,
                         r: r,
-                        // 自分を中心とした時の四辺の形状
-                        top: r === 0 ? 0 : -hEdges[c][r],     // 上ピースの下端の逆
+                        top: r === 0 ? 0 : -hEdges[c][r],
                         right: c === state.cols - 1 ? 0 : vEdges[c+1][r],
                         bottom: r === state.rows - 1 ? 0 : hEdges[c][r+1],
-                        left: c === 0 ? 0 : -vEdges[c][r],    // 左ピースの右端の逆
-                        
-                        // 状態
-                        x: 0, y: 0, // ボード上での座標(isBoard=true時)
-                        isPlaced: false, // 正解位置に固定されたか
-                        isBoard: false,  // トレイからボードに出されたか
-                        trayIndex: 0     // トレイ内での並び順
+                        left: c === 0 ? 0 : -vEdges[c][r]
                     });
                 }
             }
 
             // トレイ用にシャッフル
-            shuffleArray(tempPieces);
-            tempPieces.forEach((p, index) => {
-                p.trayIndex = index;
-                state.pieces.push(p);
-            });
-            
-            state.maxTrayScroll = Math.max(0, state.pieces.length * state.traySpacing - canvas.width + state.pw + 40);
+            shuffleArray(state.pieces);
+            updateTrayScrollBounds();
 
-            // ボード用オフスクリーンキャンバスの初期化 (固定ピースをスタンプしていく)
+            // --- オフスクリーンキャンバスの準備 ---
+            
+            // 1. 配置済みピース用キャンバス
             state.boardCanvas = document.createElement('canvas');
             state.boardCanvas.width = img.width;
             state.boardCanvas.height = img.height;
             state.boardCtx = state.boardCanvas.getContext('2d');
+
+            // 2. 輪郭ガイド用キャンバス
+            state.guideCanvas = document.createElement('canvas');
+            state.guideCanvas.width = img.width;
+            state.guideCanvas.height = img.height;
+            state.guideCtx = state.guideCanvas.getContext('2d');
             
-            // カメラの初期位置調整 (全体が収まるように)
-            const availableHeight = canvas.height - state.trayHeight - 20; // トレイ領域を除外
+            // ガイド線を描画
+            state.guideCtx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
+            state.guideCtx.lineWidth = 1.5;
+            // 影をつけて見やすくする
+            state.guideCtx.shadowColor = 'rgba(0, 0, 0, 0.5)';
+            state.guideCtx.shadowBlur = 2;
+
+            for (let c = 0; c < state.cols; c++) {
+                for (let r = 0; r < state.rows; r++) {
+                    // ダミーのピースオブジェクトを作ってパスを描画
+                    const dummyP = {
+                        top: r === 0 ? 0 : -hEdges[c][r],
+                        right: c === state.cols - 1 ? 0 : vEdges[c+1][r],
+                        bottom: r === state.rows - 1 ? 0 : hEdges[c][r+1],
+                        left: c === 0 ? 0 : -vEdges[c][r]
+                    };
+                    state.guideCtx.save();
+                    state.guideCtx.translate(c * state.pw, r * state.ph);
+                    drawPiecePath(state.guideCtx, dummyP);
+                    state.guideCtx.stroke();
+                    state.guideCtx.restore();
+                }
+            }
+            
+            // カメラ初期位置 (画面に収める)
+            const availableHeight = canvas.height - state.trayHeight - 20; 
             const scaleW = (canvas.width - 40) / img.width;
             const scaleH = availableHeight / img.height;
             state.camera.zoom = Math.min(scaleW, scaleH);
             state.camera.x = (canvas.width - img.width * state.camera.zoom) / 2;
-            state.camera.y = (canvas.height - state.trayHeight - img.height * state.camera.zoom) / 2;
+            state.camera.y = Math.max(80, (availableHeight - img.height * state.camera.zoom) / 2); // UIに被らないよう少し下げる
         }
 
         function shuffleArray(array) {
@@ -312,133 +369,178 @@
             }
         }
 
+        function updateTrayScrollBounds() {
+            const contentWidth = state.pieces.length * state.traySpacing;
+            state.maxTrayScroll = Math.max(0, contentWidth - canvas.width + state.pw + state.tabSize * 2);
+            state.trayScrollX = Math.min(state.trayScrollX, state.maxTrayScroll);
+        }
+
         // --- 描画ロジック ---
 
         function renderTitleScreen() {
-            ctx.fillStyle = '#1a202c';
+            ctx.fillStyle = '#0f172a';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
-            // 装飾的な背景などを描いてもよい
+            // タイトル画面の装飾
+            ctx.fillStyle = '#1e293b';
+            for (let i = 0; i < 20; i++) {
+                ctx.fillRect(Math.random() * canvas.width, Math.random() * canvas.height, 100, 100);
+            }
         }
 
         function render() {
             if (!state.isPlaying) return;
 
             // 1. 全体クリア
-            ctx.fillStyle = '#2d3748'; // ボードの背景色
+            ctx.fillStyle = '#1e293b'; // ボード背景
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
             // 2. ボード領域の描画
             ctx.save();
-            // トレイ領域にはみ出さないようクリッピング
             ctx.beginPath();
             ctx.rect(0, 0, canvas.width, canvas.height - state.trayHeight);
             ctx.clip();
 
-            // カメラ変換適用
             ctx.translate(state.camera.x, state.camera.y);
             ctx.scale(state.camera.zoom, state.camera.zoom);
 
-            // ボードの枠と薄いガイド画像
-            ctx.fillStyle = '#1a202c';
+            // ボードの枠と暗い背景画像
+            ctx.fillStyle = '#0f172a';
             ctx.fillRect(0, 0, state.img.width, state.img.height);
-            ctx.globalAlpha = 0.15;
+            ctx.globalAlpha = 0.3;
             ctx.drawImage(state.img, 0, 0);
             ctx.globalAlpha = 1.0;
-            ctx.strokeStyle = '#4a5568';
-            ctx.lineWidth = 2 / state.camera.zoom;
-            ctx.strokeRect(0, 0, state.img.width, state.img.height);
+            
+            // ピースの輪郭線(ガイド)を描画 (トグルで切り替え)
+            if (state.showGuide) {
+                ctx.drawImage(state.guideCanvas, 0, 0);
+            }
 
-            // 固定済みピースのスタンプ画像を描画
+            // 固定済みピースの描画
             ctx.drawImage(state.boardCanvas, 0, 0);
 
-            // ボード上の未配置ピースを描画
-            state.pieces.forEach(p => {
-                if (p.isBoard && !p.isPlaced && p !== state.draggingPiece) {
-                    renderPiece(ctx, p);
+            // 外枠
+            ctx.strokeStyle = '#475569';
+            ctx.lineWidth = 3 / state.camera.zoom;
+            ctx.strokeRect(0, 0, state.img.width, state.img.height);
+
+            // ドロップ可能時のハイライト描画
+            if (state.draggingPiece) {
+                const bx = (state.dragPos.x - state.camera.x) / state.camera.zoom;
+                const by = (state.dragPos.y - state.camera.y) / state.camera.zoom;
+                const correctX = state.draggingPiece.c * state.pw;
+                const correctY = state.draggingPiece.r * state.ph;
+                const tolerance = Math.min(state.pw, state.ph) * 0.25;
+                
+                // 正解位置に十分近い場合、そのマスを黄色くハイライト
+                if (Math.hypot(bx - correctX, by - correctY) <= tolerance) {
+                    ctx.save();
+                    ctx.translate(correctX, correctY);
+                    
+                    ctx.fillStyle = 'rgba(250, 204, 21, 0.4)'; // Tailwind yellow-400相当の半透明
+                    ctx.shadowColor = 'rgba(250, 204, 21, 0.8)';
+                    ctx.shadowBlur = 15;
+                    
+                    drawPiecePath(ctx, state.draggingPiece);
+                    ctx.fill();
+                    
+                    ctx.lineWidth = 3 / state.camera.zoom;
+                    ctx.strokeStyle = 'rgba(250, 204, 21, 0.9)';
+                    ctx.stroke();
+                    
+                    ctx.restore();
                 }
-            });
-            ctx.restore(); // カメラ変換リセット
+            }
+
+            ctx.restore();
 
             // 3. トレイ領域の描画
             const ty = canvas.height - state.trayHeight;
-            ctx.fillStyle = '#4a5568'; // トレイ背景
+            ctx.fillStyle = '#334155'; // トレイ背景
             ctx.fillRect(0, ty, canvas.width, state.trayHeight);
-            // トレイ上部の境界線
-            ctx.strokeStyle = '#2d3748';
-            ctx.lineWidth = 4;
+            
+            ctx.strokeStyle = '#0f172a';
+            ctx.lineWidth = 6;
             ctx.beginPath();
             ctx.moveTo(0, ty);
             ctx.lineTo(canvas.width, ty);
             ctx.stroke();
 
-            // トレイ内の見えているピースを描画
+            // トレイ内のピースを描画
             ctx.save();
             ctx.beginPath();
-            ctx.rect(0, ty, canvas.width, state.trayHeight);
-            ctx.clip(); // トレイ内のみ
+            // スクロールバー領域にはみ出さないようにクリップ
+            ctx.rect(0, ty, canvas.width, state.trayHeight - state.sbHeight);
+            ctx.clip(); 
 
-            state.pieces.forEach(p => {
-                if (!p.isBoard) {
-                    const px = p.trayIndex * state.traySpacing - state.trayScrollX;
-                    // カリング: 画面外のピースは描画しない
-                    if (px + state.pw + state.tabSize*2 > 0 && px - state.tabSize < canvas.width) {
-                        renderPiece(ctx, p);
-                    }
+            // 表示スケール
+            const scale = Math.min(1, (state.trayHeight - state.sbHeight - 20) / (state.ph + state.tabSize*2));
+            const pTy = ty + (state.trayHeight - state.sbHeight - state.ph*scale)/2;
+
+            state.pieces.forEach((p, index) => {
+                const px = index * state.traySpacing - state.trayScrollX + state.tabSize;
+                // 画面内にあるピースのみ描画 (カリング)
+                if (px + (state.pw + state.tabSize*2)*scale > 0 && px - state.tabSize*scale < canvas.width) {
+                    renderTrayPiece(ctx, p, px, pTy, scale);
                 }
             });
             ctx.restore();
 
-            // 4. ドラッグ中のピースを最前面に描画
+            // 4. トレイのスクロールバー描画
+            drawScrollbar(ctx, ty + state.trayHeight - state.sbHeight);
+
+            // 5. ドラッグ中のピースを最前面に描画
             if (state.draggingPiece) {
-                renderPiece(ctx, state.draggingPiece);
+                renderDragPiece(ctx, state.draggingPiece, state.dragPos.x, state.dragPos.y);
             }
         }
 
-        // ピース単体の描画
-        function renderPiece(ctx, piece) {
-            ctx.save();
-
-            let x, y, isDrag = false;
-            if (piece === state.draggingPiece) {
-                x = state.dragPos.x;
-                y = state.dragPos.y;
-                isDrag = true;
-                ctx.translate(x, y);
-                // ドラッグ中は少し浮かせる表現
-                ctx.scale(1.05, 1.05);
-                ctx.shadowColor = 'rgba(0,0,0,0.6)';
-                ctx.shadowBlur = 15;
-                ctx.shadowOffsetX = 8;
-                ctx.shadowOffsetY = 8;
-            } else if (piece.isBoard) {
-                // ボード上のピース (ボード座標系なのでそのまま描画)
-                ctx.translate(piece.x, piece.y);
-                ctx.shadowColor = 'rgba(0,0,0,0.4)';
-                ctx.shadowBlur = 5;
-                ctx.shadowOffsetX = 3;
-                ctx.shadowOffsetY = 3;
-            } else {
-                // トレイ内のピース (画面座標系)
-                x = piece.trayIndex * state.traySpacing - state.trayScrollX + state.tabSize;
-                y = canvas.height - state.trayHeight + (state.trayHeight - state.ph)/2;
-                ctx.translate(x, y);
-                
-                // トレイ内は少し縮小して表示（元の画像が巨大な場合のため）
-                // ただし、極端に縮小しすぎないようにする
-                const scale = Math.min(1, (state.trayHeight - 20) / (state.ph + state.tabSize*2));
-                ctx.scale(scale, scale);
-
-                ctx.shadowColor = 'rgba(0,0,0,0.3)';
-                ctx.shadowBlur = 4;
-                ctx.shadowOffsetX = 2;
-                ctx.shadowOffsetY = 2;
+        // ピースパスの描画
+        function drawEdgeCurve(ctx, len, tabDir, tabSize) {
+            if (tabDir === 0) {
+                ctx.lineTo(len, 0);
+                return;
             }
+            const cx = len / 2;
+            const neckW = len * 0.12;
+            const headW = len * 0.18;
+            const tabH = tabSize * tabDir;
+            
+            ctx.lineTo(cx - headW, 0);
+            ctx.bezierCurveTo(cx - neckW, 0, cx - headW, tabH, cx, tabH);
+            ctx.bezierCurveTo(cx + headW, tabH, cx + neckW, 0, cx + headW, 0);
+            ctx.lineTo(len, 0);
+        }
 
-            // クリップ用パスの生成と適用
+        function drawPiecePath(ctx, piece) {
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            const pw = state.pw, ph = state.ph, ts = state.tabSize;
+
+            drawEdgeCurve(ctx, pw, piece.top, ts);
+            ctx.translate(pw, 0); ctx.rotate(Math.PI/2);
+            drawEdgeCurve(ctx, ph, piece.right, ts);
+            ctx.translate(ph, 0); ctx.rotate(Math.PI/2);
+            drawEdgeCurve(ctx, pw, piece.bottom, ts);
+            ctx.translate(pw, 0); ctx.rotate(Math.PI/2);
+            drawEdgeCurve(ctx, ph, piece.left, ts);
+            ctx.translate(ph, 0); ctx.rotate(Math.PI/2);
+        }
+
+        // トレイ内のピース描画
+        function renderTrayPiece(ctx, piece, x, y, scale) {
+            ctx.save();
+            ctx.translate(x, y);
+            ctx.scale(scale, scale);
+
+            // 影
+            ctx.shadowColor = 'rgba(0,0,0,0.5)';
+            ctx.shadowBlur = 6;
+            ctx.shadowOffsetX = 3;
+            ctx.shadowOffsetY = 3;
+
             drawPiecePath(ctx, piece);
             ctx.clip();
 
-            // 元画像の該当部分を描画
             const srcX = piece.c * state.pw;
             const srcY = piece.r * state.ph;
             const ts = state.tabSize;
@@ -448,71 +550,71 @@
                 -ts, -ts, state.pw + ts*2, state.ph + ts*2
             );
 
-            // ピースの境界線を描画（立体感）
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = 'rgba(0,0,0,0.6)';
+            ctx.stroke();
             ctx.lineWidth = 1;
-            ctx.strokeStyle = 'rgba(0,0,0,0.5)';
+            ctx.strokeStyle = 'rgba(255,255,255,0.4)';
             ctx.stroke();
-            // 内側ハイライト
-            ctx.lineWidth = 0.5;
-            ctx.strokeStyle = 'rgba(255,255,255,0.3)';
-            ctx.stroke();
-
             ctx.restore();
         }
 
-        // 1辺のベジェ曲線を描画
-        function drawEdgeCurve(ctx, len, tabDir, tabSize) {
-            if (tabDir === 0) {
-                ctx.lineTo(len, 0);
-                return;
-            }
-            const cx = len / 2;
-            const neckW = len * 0.12;
-            const headW = len * 0.18;
-            const tabH = tabSize * tabDir; // 外側(1) or 内側(-1)
+        // ドラッグ中のピース描画
+        function renderDragPiece(ctx, piece, x, y) {
+            ctx.save();
+            ctx.translate(x, y);
             
-            ctx.lineTo(cx - headW, 0);
-            ctx.bezierCurveTo(
-                cx - neckW, 0,
-                cx - headW, tabH,
-                cx, tabH
-            );
-            ctx.bezierCurveTo(
-                cx + headW, tabH,
-                cx + neckW, 0,
-                cx + headW, 0
-            );
-            ctx.lineTo(len, 0);
-        }
+            // ドラッグ中は少し拡大して浮かせる
+            ctx.scale(1.05, 1.05);
+            ctx.shadowColor = 'rgba(0,0,0,0.7)';
+            ctx.shadowBlur = 15;
+            ctx.shadowOffsetX = 10;
+            ctx.shadowOffsetY = 10;
 
-        // ピース全体のパスを描画 (原点はピースの左上)
-        function drawPiecePath(ctx, piece) {
-            ctx.beginPath();
-            ctx.moveTo(0, 0);
-            
-            const pw = state.pw;
-            const ph = state.ph;
+            drawPiecePath(ctx, piece);
+            ctx.clip();
+
+            const srcX = piece.c * state.pw;
+            const srcY = piece.r * state.ph;
             const ts = state.tabSize;
+            
+            ctx.drawImage(state.img, 
+                srcX - ts, srcY - ts, state.pw + ts*2, state.ph + ts*2,
+                -ts, -ts, state.pw + ts*2, state.ph + ts*2
+            );
 
-            drawEdgeCurve(ctx, pw, piece.top, ts);
-            
-            ctx.translate(pw, 0); ctx.rotate(Math.PI/2);
-            drawEdgeCurve(ctx, ph, piece.right, ts);
-            
-            ctx.translate(ph, 0); ctx.rotate(Math.PI/2);
-            drawEdgeCurve(ctx, pw, piece.bottom, ts);
-            
-            ctx.translate(pw, 0); ctx.rotate(Math.PI/2);
-            drawEdgeCurve(ctx, ph, piece.left, ts);
-            
-            // Transformを元に戻す
-            ctx.translate(ph, 0); ctx.rotate(Math.PI/2);
+            ctx.lineWidth = 1;
+            ctx.strokeStyle = 'rgba(0,0,0,0.8)';
+            ctx.stroke();
+            ctx.restore();
         }
 
-        // ボードにピースを焼き付ける（固定）
+        // スクロールバー描画
+        function drawScrollbar(ctx, y) {
+            ctx.fillStyle = '#1e293b'; // トラックの背景
+            ctx.fillRect(0, y, canvas.width, state.sbHeight);
+
+            if (state.pieces.length === 0) return;
+
+            const contentWidth = state.pieces.length * state.traySpacing;
+            if (contentWidth <= canvas.width) return; // スクロール不要
+
+            // つまみの幅と位置
+            const thumbWidth = Math.max(50, (canvas.width / contentWidth) * canvas.width);
+            const thumbX = (state.trayScrollX / state.maxTrayScroll) * (canvas.width - thumbWidth);
+
+            ctx.fillStyle = state.isDraggingScrollbar ? '#64748b' : '#475569';
+            // 角丸のつまみ
+            const padding = 3;
+            ctx.beginPath();
+            ctx.roundRect(thumbX, y + padding, thumbWidth, state.sbHeight - padding * 2, 5);
+            ctx.fill();
+        }
+
+        // ボードに正解ピースを焼き付ける
         function stampPieceToBoard(piece) {
             state.boardCtx.save();
-            state.boardCtx.translate(piece.x, piece.y);
+            state.boardCtx.translate(piece.c * state.pw, piece.r * state.ph);
             
             drawPiecePath(state.boardCtx, piece);
             state.boardCtx.clip();
@@ -526,33 +628,37 @@
                 -ts, -ts, state.pw + ts*2, state.ph + ts*2
             );
             
-            state.boardCtx.lineWidth = 1;
-            state.boardCtx.strokeStyle = 'rgba(0,0,0,0.1)';
+            // 境界線を少し描いてパズル感を残す
+            state.boardCtx.lineWidth = 1.5;
+            state.boardCtx.strokeStyle = 'rgba(0,0,0,0.3)';
             state.boardCtx.stroke();
             state.boardCtx.restore();
         }
 
         // --- 入力ハンドリング ---
 
-        function getDistance(p1, p2) {
-            return Math.hypot(p1.x - p2.x, p1.y - p2.y);
-        }
-        function getCenter(p1, p2) {
-            return { x: (p1.x + p2.x)/2, y: (p1.y + p2.y)/2 };
-        }
+        function getDistance(p1, p2) { return Math.hypot(p1.x - p2.x, p1.y - p2.y); }
+        function getCenter(p1, p2) { return { x: (p1.x + p2.x)/2, y: (p1.y + p2.y)/2 }; }
 
         canvas.addEventListener('pointerdown', (e) => {
             if (!state.isPlaying) return;
-            e.preventDefault(); // デフォルトのスクロール等を防止
+            e.preventDefault();
             
             state.pointers[e.pointerId] = { x: e.clientX, y: e.clientY };
             const keys = Object.keys(state.pointers);
             
-            // マルチタッチ（ピンチズーム）開始
             if (keys.length >= 2) {
-                state.draggingPiece = null;
+                // ピンチズーム開始
+                if (state.draggingPiece) {
+                    // ドラッグ中ならキャンセルしてトレイの元の場所に戻す
+                    state.pieces.splice(state.dragOriginalIndex, 0, state.draggingPiece);
+                    state.draggingPiece = null;
+                    state.dragOriginalIndex = -1;
+                    updateTrayScrollBounds();
+                }
                 state.isPanning = false;
                 state.isTrayScrolling = false;
+                state.isDraggingScrollbar = false;
                 
                 const p1 = state.pointers[keys[0]];
                 const p2 = state.pointers[keys[1]];
@@ -562,82 +668,69 @@
                 return;
             }
 
-            // シングルタッチ/クリック
             const mx = e.clientX;
             const my = e.clientY;
+            const ty = canvas.height - state.trayHeight;
 
-            // 1. トレイ領域か？
-            if (my > canvas.height - state.trayHeight) {
-                // トレイ内のピースを探す
-                let clickedPiece = null;
-                const scale = Math.min(1, (state.trayHeight - 20) / (state.ph + state.tabSize*2));
-                const ty = canvas.height - state.trayHeight + (state.trayHeight - state.ph)/2;
+            // 1. スクロールバー領域のクリック
+            if (my >= canvas.height - state.sbHeight) {
+                const contentWidth = state.pieces.length * state.traySpacing;
+                if (contentWidth > canvas.width) {
+                    state.isDraggingScrollbar = true;
+                    // クリックした位置につまみを移動させる
+                    const thumbWidth = Math.max(50, (canvas.width / contentWidth) * canvas.width);
+                    let targetThumbX = mx - thumbWidth / 2;
+                    targetThumbX = Math.max(0, Math.min(targetThumbX, canvas.width - thumbWidth));
+                    state.trayScrollX = (targetThumbX / (canvas.width - thumbWidth)) * state.maxTrayScroll;
+                }
+                return;
+            }
+
+            // 2. トレイ領域のピースをクリック
+            if (my > ty) {
+                const scale = Math.min(1, (state.trayHeight - state.sbHeight - 20) / (state.ph + state.tabSize*2));
+                const pTy = ty + (state.trayHeight - state.sbHeight - state.ph*scale)/2;
                 
-                for (let i = 0; i < state.pieces.length; i++) {
-                    const p = state.pieces[i];
-                    if (p.isBoard) continue;
-                    
-                    const px = p.trayIndex * state.traySpacing - state.trayScrollX + state.tabSize;
+                let clickedIndex = -1;
+                let clickedPx = 0;
+                
+                // トレイ上のピース判定
+                for (let i = state.pieces.length - 1; i >= 0; i--) {
+                    const px = i * state.traySpacing - state.trayScrollX + state.tabSize;
                     const visualPw = state.pw * scale;
                     const visualPh = state.ph * scale;
                     
-                    if (mx >= px && mx <= px + visualPw && my >= ty && my <= ty + visualPh) {
-                        clickedPiece = p;
+                    if (mx >= px && mx <= px + visualPw && my >= pTy && my <= pTy + visualPh) {
+                        clickedIndex = i;
+                        clickedPx = px;
                         break;
                     }
                 }
 
-                if (clickedPiece) {
-                    // ピースをピックアップ
-                    state.draggingPiece = clickedPiece;
-                    const px = clickedPiece.trayIndex * state.traySpacing - state.trayScrollX + state.tabSize;
+                if (clickedIndex !== -1) {
+                    // ピースを拾う。配列から取り除く。
+                    state.draggingPiece = state.pieces.splice(clickedIndex, 1)[0];
+                    state.dragOriginalIndex = clickedIndex; // 元の位置を記憶
+                    
+                    // ドラッグ中のマウスポインタのズレを防ぐためのオフセット計算
+                    state.dragOffset = { 
+                        x: mx - clickedPx, 
+                        y: my - pTy 
+                    };
                     state.dragPos = { x: mx, y: my };
-                    state.dragOffset = { x: mx - px, y: my - ty };
-                    // ここで isBoard=true にしない。ドロップ時に判定する。
+                    
+                    updateTrayScrollBounds(); // 詰まったのでスクロール幅再計算
                 } else {
-                    // トレイ背景ドラッグでスクロール
+                    // トレイの背景をドラッグでスクロール
                     state.isTrayScrolling = true;
                     state.lastPanPoint = { x: mx, y: my };
                 }
                 return;
             }
 
-            // 2. ボード領域
-            // ボード座標系でのマウス位置
-            const bx = (mx - state.camera.x) / state.camera.zoom;
-            const by = (my - state.camera.y) / state.camera.zoom;
-
-            // ボード上の未配置ピースを探す (逆順 = 上に描画されているものから)
-            let clickedPiece = null;
-            for (let i = state.pieces.length - 1; i >= 0; i--) {
-                const p = state.pieces[i];
-                if (!p.isBoard || p.isPlaced) continue;
-                
-                // バウンディングボックス判定
-                if (bx >= p.x - state.tabSize && bx <= p.x + state.pw + state.tabSize &&
-                    by >= p.y - state.tabSize && by <= p.y + state.ph + state.tabSize) {
-                    clickedPiece = p;
-                    break;
-                }
-            }
-
-            if (clickedPiece) {
-                // ボード上のピースをドラッグ開始
-                state.draggingPiece = clickedPiece;
-                // 表示座標系に変換
-                const screenPx = clickedPiece.x * state.camera.zoom + state.camera.x;
-                const screenPy = clickedPiece.y * state.camera.zoom + state.camera.y;
-                state.dragPos = { x: screenPx, y: screenPy };
-                state.dragOffset = { x: mx - screenPx, y: my - screenPy };
-                
-                // 配列の最後に移動して、同階層の最前面に描画されるようにする
-                state.pieces = state.pieces.filter(p => p !== clickedPiece);
-                state.pieces.push(clickedPiece);
-            } else {
-                // 背景・固定ピース上をドラッグでパン(カメラ移動)
-                state.isPanning = true;
-                state.lastPanPoint = { x: mx, y: my };
-            }
+            // 3. ボード領域のドラッグ (パン移動)
+            state.isPanning = true;
+            state.lastPanPoint = { x: mx, y: my };
         });
 
         canvas.addEventListener('pointermove', (e) => {
@@ -662,10 +755,9 @@
                     return;
                 }
 
-                // ズーム処理
                 const zoomFactor = dist / state.initialPinchDist;
                 let newZoom = state.initialPinchZoom * zoomFactor;
-                newZoom = Math.max(0.1, Math.min(newZoom, 5)); // 制限
+                newZoom = Math.max(0.1, Math.min(newZoom, 5));
 
                 const bx = (center.x - state.camera.x) / state.camera.zoom;
                 const by = (center.y - state.camera.y) / state.camera.zoom;
@@ -674,7 +766,6 @@
                 state.camera.x = center.x - bx * state.camera.zoom;
                 state.camera.y = center.y - by * state.camera.zoom;
 
-                // パン処理
                 state.camera.x += center.x - state.lastPinchCenter.x;
                 state.camera.y += center.y - state.lastPinchCenter.y;
 
@@ -686,6 +777,7 @@
             const my = e.clientY;
 
             if (state.draggingPiece) {
+                // オフセットを考慮してドラッグ位置を更新
                 state.dragPos.x = mx - state.dragOffset.x;
                 state.dragPos.y = my - state.dragOffset.y;
             } else if (state.isPanning) {
@@ -696,13 +788,18 @@
                 state.trayScrollX -= (mx - state.lastPanPoint.x);
                 state.trayScrollX = Math.max(0, Math.min(state.trayScrollX, state.maxTrayScroll));
                 state.lastPanPoint = { x: mx, y: my };
+            } else if (state.isDraggingScrollbar) {
+                const contentWidth = state.pieces.length * state.traySpacing;
+                const thumbWidth = Math.max(50, (canvas.width / contentWidth) * canvas.width);
+                let targetThumbX = mx - thumbWidth / 2;
+                targetThumbX = Math.max(0, Math.min(targetThumbX, canvas.width - thumbWidth));
+                state.trayScrollX = (targetThumbX / (canvas.width - thumbWidth)) * state.maxTrayScroll;
             }
         });
 
         function handlePointerUp(e) {
             delete state.pointers[e.pointerId];
-            const keys = Object.keys(state.pointers);
-            if (keys.length < 2) {
+            if (Object.keys(state.pointers).length < 2) {
                 state.lastPinchCenter = null;
             }
 
@@ -710,56 +807,49 @@
                 const p = state.draggingPiece;
                 const my = e.clientY;
                 
-                // ドロップ位置の判定
-                if (my > canvas.height - state.trayHeight) {
-                    // トレイに落とした場合、元のトレイインデックスに戻す (isBoard=false)
-                    p.isBoard = false;
+                // ボード座標系でのマウスポインタ位置
+                const bx = (state.dragPos.x - state.camera.x) / state.camera.zoom;
+                const by = (state.dragPos.y - state.camera.y) / state.camera.zoom;
+                
+                const correctX = p.c * state.pw;
+                const correctY = p.r * state.ph;
+                
+                // ドロップ位置が正解か判定 (ピースサイズの25%以内のズレなら吸着)
+                const tolerance = Math.min(state.pw, state.ph) * 0.25;
+                const dist = Math.hypot(bx - correctX, by - correctY);
+                
+                // トレイに落とした、または判定距離外の場合は元のインデックスに戻す
+                if (my > canvas.height - state.trayHeight || dist > tolerance) {
+                    // 自動でトレイの元いた場所(インデックス)に戻す。
+                    state.pieces.splice(state.dragOriginalIndex, 0, p);
+                    updateTrayScrollBounds();
                 } else {
-                    // ボードに落とした場合
-                    // ボード座標系に変換
-                    const bx = (state.dragPos.x - state.camera.x) / state.camera.zoom;
-                    const by = (state.dragPos.y - state.camera.y) / state.camera.zoom;
+                    // 正解！ボードに焼き付ける
+                    stampPieceToBoard(p);
+                    state.placedCount++;
                     
-                    const correctX = p.c * state.pw;
-                    const correctY = p.r * state.ph;
-                    
-                    // スナップ判定 (ピースサイズの20%以内のズレなら吸着)
-                    const dist = Math.hypot(bx - correctX, by - correctY);
-                    if (dist < Math.min(state.pw, state.ph) * 0.2) {
-                        // 正解！
-                        p.x = correctX;
-                        p.y = correctY;
-                        p.isPlaced = true;
-                        p.isBoard = true;
-                        stampPieceToBoard(p);
-                        
-                        // 配列から削除して描画負荷を下げる
-                        state.pieces = state.pieces.filter(piece => piece !== p);
-                        state.placedCount++;
-                        
-                        // クリア判定
-                        if (state.placedCount === state.totalPieces) {
-                            setTimeout(() => {
-                                winMessage.classList.remove('hidden');
-                            }, 500);
-                        }
-                    } else {
-                        // 不正解の場所に放置
-                        p.x = bx;
-                        p.y = by;
-                        p.isBoard = true;
+                    // クリア判定
+                    if (state.placedCount === state.totalPieces) {
+                        setTimeout(() => {
+                            winMessage.classList.remove('hidden');
+                        }, 500);
                     }
                 }
+                
+                // 状態リセット
                 state.draggingPiece = null;
+                state.dragOriginalIndex = -1;
             }
+            
             state.isPanning = false;
             state.isTrayScrolling = false;
+            state.isDraggingScrollbar = false;
         }
 
         canvas.addEventListener('pointerup', handlePointerUp);
         canvas.addEventListener('pointercancel', handlePointerUp);
 
-        // マウスホイールでのズーム / トレイスクロール
+        // マウスホイール
         canvas.addEventListener('wheel', (e) => {
             if (!state.isPlaying) return;
             e.preventDefault();
@@ -768,20 +858,20 @@
             const my = e.clientY;
 
             if (my > canvas.height - state.trayHeight) {
-                // トレイのスクロール
-                state.trayScrollX += e.deltaY;
+                // トレイの横スクロール
+                const delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+                state.trayScrollX += delta;
                 state.trayScrollX = Math.max(0, Math.min(state.trayScrollX, state.maxTrayScroll));
             } else {
                 // ボードのズーム
-                const zoomFactor = e.deltaY > 0 ? 0.9 : 1.1; // 上回転で拡大、下で縮小
+                const zoomFactor = e.deltaY > 0 ? 0.9 : 1.1; 
                 const bx = (mx - state.camera.x) / state.camera.zoom;
                 const by = (my - state.camera.y) / state.camera.zoom;
                 
                 let newZoom = state.camera.zoom * zoomFactor;
-                newZoom = Math.max(0.1, Math.min(newZoom, 5));
+                newZoom = Math.max(0.1, Math.min(newZoom, 6)); // 最大6倍
                 
                 state.camera.zoom = newZoom;
-                // マウス位置がずれないように補正
                 state.camera.x = mx - bx * state.camera.zoom;
                 state.camera.y = my - by * state.camera.zoom;
             }
@@ -794,9 +884,9 @@
             requestAnimationFrame(loop);
         }
         
-        // 初期画面の描画
+        // 初期画面
         renderTitleScreen();
-        // アニメーションループ開始
+        // ループ開始
         requestAnimationFrame(loop);
 
     </script>
