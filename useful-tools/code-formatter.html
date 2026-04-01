@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="originalTitle">コードフォーマッター</title>
+    <link rel="icon" href="../image/logo.png">
+
+    <style>
+        /* =========================================
+           ベースのサイトデザイン（提供いただいたコード）
+        ========================================= */
+        :root {
+            --primary-color: #007bff;
+            --chapter-color: #6c757d;
+            --bg-color: #f4f7f9;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px; /* エディタを広く使いたい場合は1000pxなどに広げてください */
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .btn-home {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 8px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .btn-home:hover {
+            background-color: #5a6268;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        /* =========================================
+           フォーマッター専用のデザイン（ダークテーマ）
+        ========================================= */
+        .formatter-app {
+            background-color: #0f172a;
+            color: #e2e8f0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+        }
+
+        /* ツールバー部分 */
+        .formatter-toolbar {
+            background-color: #020617;
+            border-bottom: 1px solid #1e293b;
+            padding: 12px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .toolbar-title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            background: linear-gradient(to right, #60a5fa, #2dd4bf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+            border: none;
+            padding: 0;
+        }
+
+        .toolbar-controls {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .lang-select {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            color: #e2e8f0;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            outline: none;
+            cursor: pointer;
+            width: auto;
+            margin: 0;
+        }
+
+        .lang-select:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+        }
+
+        .format-btn {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 6px 16px;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: background-color 0.2s;
+            margin: 0;
+        }
+
+        .format-btn:hover:not(:disabled) {
+            background-color: #1d4ed8;
+        }
+
+        .format-btn:disabled {
+            background-color: #334155;
+            color: #94a3b8;
+            cursor: not-allowed;
+        }
+
+        /* エラーメッセージ */
+        .error-message {
+            display: none;
+            background-color: rgba(69, 10, 10, 0.5);
+            border-left: 4px solid #ef4444;
+            color: #fecaca;
+            padding: 12px;
+            margin: 16px 16px 0 16px;
+            border-radius: 0 4px 4px 0;
+            font-size: 0.875rem;
+            font-family: monospace;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+
+        /* エディタのグリッドレイアウト */
+        .editor-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            padding: 16px;
+            min-height: 450px;
+        }
+
+        @media (max-width: 600px) {
+            .editor-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .editor-panel {
+            background-color: #020617;
+            border: 1px solid #1e293b;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .editor-header {
+            background-color: #0f172a;
+            border-bottom: 1px solid #1e293b;
+            padding: 8px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #94a3b8;
+        }
+
+        .action-btn {
+            background: none;
+            border: none;
+            color: #94a3b8;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.75rem;
+            transition: color 0.2s;
+            padding: 0;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        .action-btn:hover { color: #e2e8f0; }
+        .action-btn.clear-btn:hover { color: #f87171; }
+        .action-btn.copy-btn:hover { color: #60a5fa; }
+        .action-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+        textarea.code-area {
+            flex: 1;
+            width: 100%;
+            background: transparent;
+            border: none;
+            padding: 16px;
+            font-family: ui-monospace, SFMono-Regular, Consolas, "Courier New", monospace;
+            font-size: 0.875rem;
+            line-height: 1.6;
+            resize: none;
+            outline: none;
+            box-sizing: border-box;
+            border-radius: 0;
+            margin: 0;
+        }
+
+        textarea#inputCode { color: #cbd5e1; }
+        textarea#outputCode { color: #4ade80; }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <a href="index.html" class="btn-home">便利ツールへ戻る</a>
+
+    <h1>コードフォーマッター</h1>
+
+    <p style="text-align: center; color: var(--chapter-color); font-size: 0.9rem; margin-bottom: 20px;">
+        コードを貼り付けて「整形する」ボタンを押すと、見やすくフォーマットされます。
+    </p>
+
+    <!-- ここからフォーマッターの洗練されたUIコンテナ -->
+    <div class="formatter-app">
+        
+        <!-- ヘッダー・ツールバー -->
+        <div class="formatter-toolbar">
+            <div class="toolbar-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                コードフォーマッター
+            </div>
+            
+            <div class="toolbar-controls">
+                <select id="langSelect" class="lang-select">
+                    <option value="javascript">JavaScript</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="json">JSON</option>
+                </select>
+
+                <button id="formatBtn" class="format-btn" disabled>
+                    <svg id="formatIcon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <span id="formatBtnText">読込中...</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- エラー表示エリア -->
+        <div id="errorMessage" class="error-message"></div>
+
+        <!-- メインエディタエリア -->
+        <div class="editor-container">
+            
+            <!-- 入力エリア -->
+            <div class="editor-panel">
+                <div class="editor-header">
+                    <span>入力コード (未整形)</span>
+                    <button id="clearBtn" class="action-btn clear-btn" title="クリア">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        クリア
+                    </button>
+                </div>
+                <textarea id="inputCode" class="code-area" placeholder="ここにコードを貼り付けてください..." spellcheck="false"></textarea>
+            </div>
+
+            <!-- 出力エリア -->
+            <div class="editor-panel">
+                <div class="editor-header">
+                    <span>出力結果 (整形済み)</span>
+                    <button id="copyBtn" class="action-btn copy-btn" disabled>
+                        <span id="copyBtnInner" style="display: flex; align-items: center; gap: 4px;">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                            コピー
+                        </span>
+                    </button>
+                </div>
+                <textarea id="outputCode" class="code-area" placeholder="整形されたコードがここに表示されます..." spellcheck="false" readonly></textarea>
+            </div>
+
+        </div>
+    </div>
+    <!-- コンテナここまで -->
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // DOM要素の取得
+    const inputCode = document.getElementById('inputCode');
+    const outputCode = document.getElementById('outputCode');
+    const langSelect = document.getElementById('langSelect');
+    const formatBtn = document.getElementById('formatBtn');
+    const formatBtnText = document.getElementById('formatBtnText');
+    const clearBtn = document.getElementById('clearBtn');
+    const copyBtn = document.getElementById('copyBtn');
+    const copyBtnInner = document.getElementById('copyBtnInner');
+    const errorMessage = document.getElementById('errorMessage');
+
+    // 対応言語とPrettierパーサーのマッピング
+    const languages = {
+        'javascript': { parser: 'babel' },
+        'html': { parser: 'html' },
+        'css': { parser: 'css' },
+        'json': { parser: 'json' }
+    };
+
+    let isReady = false;
+
+    // スクリプトの動的読み込み関数
+    function loadScript(src) {
+        return new Promise((resolve, reject) => {
+            if (document.querySelector(`script[src="${src}"]`)) {
+                resolve(); 
+                return;
+            }
+            const script = document.createElement('script');
+            script.src = src;
+            script.onload = resolve;
+            script.onerror = reject;
+            document.head.appendChild(script);
+        });
+    }
+
+    // Prettierの初期化処理
+    async function initPrettier() {
+        try {
+            // Prettier本体と各種パーサーを読み込む
+            await loadScript('https://unpkg.com/prettier@2.8.8/standalone.js');
+            await Promise.all([
+                loadScript('https://unpkg.com/prettier@2.8.8/parser-babel.js'),
+                loadScript('https://unpkg.com/prettier@2.8.8/parser-html.js'),
+                loadScript('https://unpkg.com/prettier@2.8.8/parser-postcss.js')
+            ]);
+            
+            isReady = true;
+            updateFormatButtonState();
+            formatBtnText.textContent = '整形する';
+        } catch (err) {
+            console.error('Prettier load error:', err);
+            showError('フォーマッターの初期化に失敗しました。ページをリロードしてください。');
+        }
+    }
+
+    // 整形ボタンの活性/非活性制御
+    function updateFormatButtonState() {
+        formatBtn.disabled = !isReady || inputCode.value.trim() === '';
+    }
+
+    // エラー表示の制御
+    function showError(msg) {
+        if (msg) {
+            errorMessage.textContent = msg;
+            errorMessage.style.display = 'block';
+        } else {
+            errorMessage.style.display = 'none';
+        }
+    }
+
+    // 入力時のイベント
+    inputCode.addEventListener('input', () => {
+        updateFormatButtonState();
+    });
+
+    // 整形ボタンクリック時のイベント
+    formatBtn.addEventListener('click', () => {
+        const code = inputCode.value.trim();
+        if (!code) return;
+
+        showError(null);
+        const lang = langSelect.value;
+
+        try {
+            if (lang === 'json') {
+                // JSONはブラウザ標準のAPIで高速に整形
+                const parsed = JSON.parse(code);
+                outputCode.value = JSON.stringify(parsed, null, 2);
+                copyBtn.disabled = false;
+            } else {
+                // その他の言語はPrettierを使用
+                if (!window.prettier) throw new Error('フォーマッターが読み込まれていません。');
+                
+                const formatted = window.prettier.format(code, {
+                    parser: languages[lang].parser,
+                    plugins: window.prettierPlugins,
+                    semi: true,
+                    singleQuote: true,
+                    trailingComma: 'es5',
+                    printWidth: 80,
+                    tabWidth: 2,
+                });
+                outputCode.value = formatted;
+                copyBtn.disabled = false;
+            }
+        } catch (err) {
+            console.error(err);
+            let msg = err.message;
+            if (msg.includes('Unexpected token') || msg.includes('SyntaxError')) {
+                msg = '構文エラー（Syntax Error）があります。コードを確認してください。\n' + msg.split('\n')[0];
+            }
+            showError(msg);
+        }
+    });
+
+    // クリアボタンの処理
+    clearBtn.addEventListener('click', () => {
+        if (confirm('入力内容をクリアしますか？')) {
+            inputCode.value = '';
+            outputCode.value = '';
+            showError(null);
+            updateFormatButtonState();
+            copyBtn.disabled = true;
+        }
+    });
+
+    // コピーボタンの処理
+    copyBtn.addEventListener('click', async () => {
+        if (!outputCode.value) return;
+        
+        const originalHtml = copyBtnInner.innerHTML;
+        const successHtml = `
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span style="color:#4ade80;">コピー完了</span>
+        `;
+
+        try {
+            await navigator.clipboard.writeText(outputCode.value);
+            copyBtnInner.innerHTML = successHtml;
+        } catch (err) {
+            // フォールバック処理
+            outputCode.select();
+            try {
+                document.execCommand('copy');
+                copyBtnInner.innerHTML = successHtml;
+            } catch (e) {
+                console.error('コピー失敗', e);
+            }
+        }
+
+        // 2秒後に元のアイコンに戻す
+        setTimeout(() => {
+            copyBtnInner.innerHTML = originalHtml;
+        }, 2000);
+    });
+
+    // 初期読み込みの実行
+    initPrettier();
+});
+</script>
+
+</body>
+</html>
