@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2080 negative</title>
+    <link rel="icon" href="/study/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/study/favicon.png">
+    <style>
+        :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
+        .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
+        .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
+        .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
+        .btn-home { display: inline-block; margin-bottom: 20px; padding: 8px 18px; background-color: #6c757d; color: white !important; text-decoration: none; border-radius: 20px; font-weight: bold; font-size: 0.85rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: 0.3s; }
+        .btn-home:hover { background-color: #5a6268; transform: translateY(-1px); }
+        .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
+        .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
+        .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
+        .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
+        .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
+        .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
+        .meaning-jp { font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px; padding: 10px 0; color: var(--text-main); }
+        .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
+        .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
+        .en { display: block; font-weight: 500; color: #444; }
+        .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
+        .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
+        .list-unit { margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+        .list-unit:last-child { border-bottom: none; }
+        .word-small { font-weight: bold; color: #444; }
+        .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
+        .source-tag { font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }
+        .list-unit a { text-decoration: none; color: #4169e1; }
+        .list-unit a:hover { text-decoration: underline; opacity: 0.8; }
+        .list-unit a .word-small { color: inherit !important; }
+
+        @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        <div class="nav-buttons">
+            <a href="2079-complete.html" class="nav-button">← 前の単語</a>
+            <a href="2081-conduct.html" class="nav-button">次の単語 →</a>
+        </div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 2080</span>
+                <h1 class="word-title">negative <span class="pos-tag">形容詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">否定的な、マイナスの</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 物事の悪い側面を強調したり、拒絶や反対を示すこと、または数値などがゼロより下（マイナス）であることを表します。
+            </div>
+                    <div class="section-title">例文（否定的な）</div>
+        <div class="example-item">
+            <span class="en">Try not to have such a <strong>negative</strong> attitude.</span>
+            <span class="ja">そんなに否定的な態度をとらないようにしなさい。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">The news had a <strong>negative</strong> impact on the market.</span>
+            <span class="ja">そのニュースは市場に否定的な（悪）影響を与えた。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">I received a <strong>negative</strong> response from them.</span>
+            <span class="ja">彼らから否定的な返答を受け取った。</span>
+        </div>
+        <div class="section-title">例文（マイナスの・陰性の）</div>
+        <div class="example-item">
+            <span class="en">The temperature dropped to <strong>negative</strong> five degrees.</span>
+            <span class="ja">気温がマイナス5度まで下がった。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">Her test results came back <strong>negative</strong>.</span>
+            <span class="ja">彼女の検査結果は陰性だった。</span>
+        </div>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ラテン語 negare（否定する）から
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">pessimistic</span><span class="trans-small">(悲観的な)</span></div>
+<div class="list-unit"><span class="word-small">bad</span><span class="trans-small">(悪い)</span></div>
+<div class="list-unit"><a href="501-adverse.html"><span class="word-small">adverse</span></a> <span class="trans-small">(不利な)</span></div>
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">positive</span><span class="trans-small">(肯定的な)</span></div>
+<div class="list-unit"><a href="4276-optimistic.html"><span class="word-small">optimistic</span><span class="source-tag">東進上級英単語1000</span></a> <a href="11733-optimistic.html"><span class="word-small">optimistic</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(楽観的な)</span></div>
+<div class="list-unit"><span class="word-small">favorable</span><span class="trans-small">(好意的な)</span></div>
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="224-negativity.html"><span class="word-small">negativity</span></a> <span class="trans-small">(名詞：消極性)</span></div>
+<div class="list-unit"><span class="word-small">negate</span><span class="trans-small">(動詞：否定する)</span></div>
+<div class="list-unit"><span class="word-small">negatively</span><span class="trans-small">(副詞：否定的に)</span></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
