@@ -69,10 +69,6 @@ def generate_index():
     files = [f for f in os.listdir(word_dir) if f.endswith(".html")]
     files.sort(key=natural_sort_key)
 
-    # books[book_name] = { 
-    #   "slug": "sokutan",
-    #   "chapters": { chapter_id: {"title": "第1章...", "words": []} } 
-    # }
     books = defaultdict(lambda: {"slug": "", "chapters": {}})
     sorted_thresholds = sorted(CHAPTER_MAP.keys(), reverse=True)
 
@@ -83,7 +79,6 @@ def generate_index():
         books[book_name]["slug"] = slug
         books[book_name]["chapters"][t_id] = {"title": chapter_title, "words": []}
 
-    # 各単語ファイルを適切な章に振り分け、同時にJSON用データを構築
     search_json_data = defaultdict(list)
 
     for filename in files:
@@ -110,7 +105,6 @@ def generate_index():
                 
                 books[book_name]["chapters"][t]["words"].append(word_data)
                 
-                # 検索用JSONデータにも追加
                 search_json_data[slug].append({
                     "id": display_id,
                     "name": display_name,
@@ -127,55 +121,68 @@ def generate_index():
         json_path = base_dir / f"search_{slug}.json"
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(words, f, ensure_ascii=False, separators=(',', ':'))
-        print(f"Created JSON: {json_path}")
+
+    # 共通CSSの定義 (パンくずリストなど)
+    common_css = """
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+    """
 
     # ==========================================
     # 4. メインページ (index.html) の生成
     # ==========================================
-    main_html = """<!DOCTYPE html>
+    main_html = f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英単語帳トップ</title>
     <style>
-        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; }
-        h1 { color: #007bff; text-align: center; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
-        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; color: white; background: #007bff; border: none; cursor: pointer; margin: 5px; }
-        .btn:hover { opacity: 0.8; }
-        .book-list { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
-        .book-link { display: block; padding: 15px; background: white; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: #333; font-weight: bold; font-size: 1.2rem; transition: 0.2s; }
-        .book-link:hover { border-color: #007bff; color: #007bff; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        {common_css}
+        .search-controls {{ display: flex; gap: 10px; margin-bottom: 15px; }}
+        select, input[type="text"] {{ padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; box-sizing: border-box; }}
+        input[type="text"] {{ flex-grow: 1; }}
+        .result-item {{ padding: 12px; border-bottom: 1px solid #eee; display: flex; flex-direction: column; background: white; margin-bottom: 5px; border-radius: 6px; }}
+        .result-item a {{ text-decoration: none; color: #007bff; font-weight: bold; font-size: 1.1em; }}
+        .result-meaning {{ font-size: 0.9em; color: #666; margin-top: 5px; }}
         
-        .search-container { background: white; padding: 20px; border-radius: 8px; margin-bottom: 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-        .search-controls { display: flex; gap: 10px; margin-bottom: 15px; }
-        select, input[type="text"] { padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; }
-        input[type="text"] { flex-grow: 1; }
-        .result-item { padding: 10px; border-bottom: 1px solid #eee; display: flex; flex-direction: column; }
-        .result-item a { text-decoration: none; color: #007bff; font-weight: bold; }
-        .result-meaning { font-size: 0.85em; color: #666; margin-top: 4px; }
+        .book-list {{ display: flex; flex-direction: column; gap: 10px; }}
+        .book-link {{ display: block; padding: 15px 20px; background: white; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: #333; font-weight: bold; font-size: 1.1rem; transition: 0.2s; }}
+        .book-link:hover {{ border-color: #007bff; color: #007bff; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }}
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn" style="background:#6c757d;">← サイトトップへ</a>
-    <h1>英単語辞書 データベース</h1>
-
-    <div class="search-container">
-        <h3>🔍 単語検索</h3>
-        <div class="search-controls">
-            <select id="bookSelect" onchange="loadSearchData()">
-                <option value="">-- 単語帳を選択 --</option>
-"""
-    for book_name, data in books.items():
-        main_html += f'                <option value="{data["slug"]}">{book_name}</option>\n'
-        
-    main_html += """            </select>
-            <input type="text" id="globalSearchInput" placeholder="単語・番号・意味を入力..." onkeyup="executeSearch()" disabled>
-        </div>
-        <div id="searchResults"></div>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > 英単語帳
     </div>
 
-    <h3>📚 単語帳一覧</h3>
+    <h1>英単語辞書 データベース</h1>
+    
+    <a href="exercise.html" class="btn btn-exercise">📝 演習を始める</a>
+
+    <h2 class="section-title">🔍 単語検索</h2>
+    <div class="search-controls">
+        <select id="bookSelect" onchange="loadSearchData()">
+            <option value="">-- 単語帳を選択 --</option>
+"""
+    for book_name, data in books.items():
+        main_html += f'            <option value="{data["slug"]}">{book_name}</option>\n'
+        
+    main_html += """        </select>
+        <input type="text" id="globalSearchInput" placeholder="単語・番号・意味を入力..." onkeyup="executeSearch()" disabled>
+    </div>
+    <div id="searchResults"></div>
+
+    <h2 class="section-title">📚 単語帳一覧</h2>
     <div class="book-list">
 """
     for book_name, data in books.items():
@@ -207,7 +214,7 @@ def generate_index():
             currentSearchData = await response.json();
             searchInput.disabled = false;
             searchInput.placeholder = "単語・番号・意味を入力...";
-            executeSearch(); // 既存の入力があれば即時検索
+            executeSearch();
         } catch (error) {
             console.error("JSONの読み込みに失敗しました:", error);
             searchInput.placeholder = "読み込みエラー";
@@ -228,15 +235,14 @@ def generate_index():
         );
 
         if (filtered.length === 0) {
-            searchResults.innerHTML = '<p style="color:#666;">見つかりませんでした。</p>';
+            searchResults.innerHTML = '<p style="color:#666; padding: 10px;">見つかりませんでした。</p>';
             return;
         }
 
-        // 最大50件まで表示
         const html = filtered.slice(0, 50).map(word => `
             <div class="result-item">
                 <a href="${word.link}">[${word.id}] ${word.name}</a>
-                <span class="result-meaning">${word.meaning} <span style="font-size:0.8em; color:#999;">(収録: <a href="${word.chapter_page}" style="color:#999; text-decoration:underline;">章ページへ</a>)</span></span>
+                <span class="result-meaning">${word.meaning} <span style="font-size:0.8em; color:#999; margin-left:10px;">(収録: <a href="${word.chapter_page}" style="color:#007bff; text-decoration:none;">章ページへ</a>)</span></span>
             </div>
         `).join('');
         
@@ -248,7 +254,6 @@ def generate_index():
 
     with open(base_dir / "index.html", "w", encoding="utf-8") as f:
         f.write(main_html)
-    print("Created Main Index: index.html")
 
     # ==========================================
     # 5. 各単語帳トップページ ＆ 章別ページの生成
@@ -264,21 +269,23 @@ def generate_index():
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{book_name} | 目次</title>
     <style>
-        body {{ font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; }}
-        h1 {{ color: #007bff; text-align: center; border-bottom: 2px solid #007bff; padding-bottom: 10px; }}
-        .btn {{ display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; background: #6c757d; color: white; margin-bottom: 20px; }}
+        {common_css}
         .chapter-list {{ display: flex; flex-direction: column; gap: 8px; }}
-        .chapter-link {{ display: block; padding: 12px 15px; background: white; border: 1px solid #ddd; border-radius: 6px; text-decoration: none; color: #333; transition: 0.2s; }}
+        .chapter-link {{ display: block; padding: 12px 15px; background: white; border: 1px solid #ddd; border-radius: 6px; text-decoration: none; color: #333; transition: 0.2s; font-weight: 500; }}
         .chapter-link:hover {{ background: #007bff; color: white; border-color: #007bff; }}
     </style>
 </head>
 <body>
-    <a href="index.html" class="btn">← 単語帳一覧へ</a>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > {book_name}
+    </div>
+
     <h1>{book_name}</h1>
+    <h2 class="section-title">📖 章を選択</h2>
     <div class="chapter-list">
 """
         for ch_id, ch_data in book_data["chapters"].items():
-            if ch_data["words"]: # 単語が1つ以上ある章だけリンクを作成
+            if ch_data["words"]:
                 book_html += f'        <a href="{slug}_{ch_id}.html" class="chapter-link">{ch_data["title"]}</a>\n'
 
         book_html += """    </div>
@@ -300,16 +307,12 @@ def generate_index():
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{ch_data["title"]} | {book_name}</title>
     <style>
-        body {{ font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; }}
-        h2 {{ color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; }}
-        .breadcrumb {{ margin-bottom: 20px; font-size: 0.9em; }}
-        .breadcrumb a {{ color: #007bff; text-decoration: none; }}
-        
+        {common_css}
         .local-search {{ width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }}
         
         .word-list {{ list-style: none; padding: 0; margin: 0; }}
         .word-item {{ background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }}
-        .word-item:hover {{ transform: translateY(-2px); }}
+        .word-item:hover {{ transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }}
         .word-item a {{ display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }}
         .word-id {{ font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }}
         .word-name {{ font-size: 1.1em; font-weight: 500; min-width: 120px; }}
@@ -320,10 +323,10 @@ def generate_index():
 </head>
 <body>
     <div class="breadcrumb">
-        <a href="index.html">ホーム</a> > <a href="{slug}.html">{book_name}</a> > {ch_data["title"]}
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="{slug}.html">{book_name}</a> > {ch_data["title"]}
     </div>
     
-    <h2>{ch_data["title"]}</h2>
+    <h2 class="section-title">{ch_data["title"]}</h2>
     
     <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
 
@@ -357,11 +360,10 @@ def generate_index():
 </body>
 </html>"""
             
-            chapter_file = base_dir / f"{slug}_{ch_id}.html"
-            with open(chapter_file, "w", encoding="utf-8") as f:
+            with open(base_dir / f"{slug}_{ch_id}.html", "w", encoding="utf-8") as f:
                 f.write(chapter_html)
                 
-        print(f"Created Book & Chapter pages for: {book_name}")
+    print("Update Complete: All index, book, and chapter pages have been generated successfully.")
 
 if __name__ == "__main__":
     generate_index()
