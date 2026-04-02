@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第3章：蝶が違いを見分ける方法⑵ | 速読英単語</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; }
+        h2 { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; }
+        .breadcrumb a { color: #007bff; text-decoration: none; }
+        
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="index.html">ホーム</a> > <a href="sokutan.html">速読英単語</a> > 第3章：蝶が違いを見分ける方法⑵
+    </div>
+    
+    <h2>第3章：蝶が違いを見分ける方法⑵</h2>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/46-flutter.html"><span class="word-id">46</span><span class="word-name">flutter</span><span class="word-meaning">（旗などが）はためく、（鳥が）羽ばたく、（鼓動が）ドキドキする、はためき、動揺</span></a></li>
+        <li class="word-item"><a href="data/47-briefly.html"><span class="word-id">47</span><span class="word-name">briefly</span><span class="word-meaning">簡潔に、短時間だけ</span></a></li>
+        <li class="word-item sub-word"><a href="data/47-2-brief.html"><span class="word-id">47-2</span><span class="word-name">brief</span><span class="word-meaning">短時間の、簡潔な、要約、〜を要約する、〜に概要を伝える</span></a></li>
+        <li class="word-item"><a href="data/48-temporal.html"><span class="word-id">48</span><span class="word-name">temporal</span><span class="word-meaning">時間の、一時的な、世俗の（宗教的でない）</span></a></li>
+        <li class="word-item"><a href="data/49-copulate.html"><span class="word-id">49</span><span class="word-name">copulate</span><span class="word-meaning">交尾する、交わる</span></a></li>
+        <li class="word-item"><a href="data/50-cue.html"><span class="word-id">50</span><span class="word-name">cue</span><span class="word-meaning">合図、きっかけ、〜に合図を送る</span></a></li>
+        <li class="word-item"><a href="data/51-glue.html"><span class="word-id">51</span><span class="word-name">glue</span><span class="word-meaning">接着剤、糊、〜を接着剤で貼る、〜を釘付けにする</span></a></li>
+        <li class="word-item sub-word"><a href="data/51-2-affix.html"><span class="word-id">51-2</span><span class="word-name">affix</span><span class="word-meaning">〜を添付する、〜を貼り付ける、（言語）接辞</span></a></li>
+        <li class="word-item sub-word"><a href="data/51-3-paste.html"><span class="word-id">51-3</span><span class="word-name">paste</span><span class="word-meaning">のり、ペースト（練り物）、〜を貼る、〜を（PC上で）貼り付ける</span></a></li>
+        <li class="word-item sub-word"><a href="data/51-4-adhesive.html"><span class="word-id">51-4</span><span class="word-name">adhesive</span><span class="word-meaning">粘着性の、接着剤</span></a></li>
+        <li class="word-item"><a href="data/52-cling.html"><span class="word-id">52</span><span class="word-name">cling</span><span class="word-meaning">しがみつく、固執する、（服などが）体にぴったりつく</span></a></li>
+        <li class="word-item"><a href="data/53-present.html"><span class="word-id">53</span><span class="word-name">present</span><span class="word-meaning">〜を提示する、〜を贈る、現在の、出席している、贈り物、現在</span></a></li>
+        <li class="word-item"><a href="data/54-bestow.html"><span class="word-id">54</span><span class="word-name">bestow</span><span class="word-meaning">（名誉・称号などを）授ける、贈る</span></a></li>
+        <li class="word-item"><a href="data/55-scant.html"><span class="word-id">55</span><span class="word-name">scant</span><span class="word-meaning">乏しい、わずかな、不十分な</span></a></li>
+        <li class="word-item sub-word"><a href="data/55-2-scanty.html"><span class="word-id">55-2</span><span class="word-name">scanty</span><span class="word-meaning">（量や大きさが）乏しい、不十分な、（服が）露出の多い</span></a></li>
+        <li class="word-item"><a href="data/56-quartz.html"><span class="word-id">56</span><span class="word-name">quartz</span><span class="word-meaning">石英、クォーツ</span></a></li>
+        <li class="word-item"><a href="data/57-filter.html"><span class="word-id">57</span><span class="word-name">filter</span><span class="word-meaning">ろ過器、フィルター、〜をろ過する、（情報などが）徐々に漏れる</span></a></li>
+        <li class="word-item"><a href="data/58-leak.html"><span class="word-id">58</span><span class="word-name">leak</span><span class="word-meaning">漏れる、〜を漏らす、漏れ、リーク</span></a></li>
+        <li class="word-item"><a href="data/59-drain.html"><span class="word-id">59</span><span class="word-name">drain</span><span class="word-meaning">〜を排出させる、（液体が）流れ出る、（エネルギーなどを）使い果たす、排水路</span></a></li>
+        <li class="word-item sub-word"><a href="data/59-2-drainage.html"><span class="word-id">59-2</span><span class="word-name">drainage</span><span class="word-meaning">排水、排水設備</span></a></li>
+        <li class="word-item"><a href="data/60-overlay.html"><span class="word-id">60</span><span class="word-name">overlay</span><span class="word-meaning">〜を重ねる、〜を覆う、重ね合わせること、オーバーレイ</span></a></li>
+        <li class="word-item"><a href="data/61-shiver.html"><span class="word-id">61</span><span class="word-name">shiver</span><span class="word-meaning">（寒さ・恐怖などで）身震いする、震え</span></a></li>
+        <li class="word-item"><a href="data/62-quake.html"><span class="word-id">62</span><span class="word-name">quake</span><span class="word-meaning">震える、揺れる、地震（earthquake）</span></a></li>
+        <li class="word-item"><a href="data/63-quiver.html"><span class="word-id">63</span><span class="word-name">quiver</span><span class="word-meaning">（小刻みに）震える、震え、矢筒</span></a></li>
+        <li class="word-item"><a href="data/64-shudder.html"><span class="word-id">64</span><span class="word-name">shudder</span><span class="word-meaning">（恐怖・嫌悪で）身震いする、強く震える</span></a></li>
+        <li class="word-item"><a href="data/65-tremble.html"><span class="word-id">65</span><span class="word-name">tremble</span><span class="word-meaning">震える、わななく</span></a></li>
+        <li class="word-item"><a href="data/66-sway.html"><span class="word-id">66</span><span class="word-name">sway</span><span class="word-meaning">揺れる、揺さぶる、（意見などを）左右する、支配</span></a></li>
+        <li class="word-item sub-word"><a href="data/66-2-swing.html"><span class="word-id">66-2</span><span class="word-name">swing</span><span class="word-meaning">揺れる、〜を振る、ブランコ、スイング</span></a></li>
+        <li class="word-item sub-word"><a href="data/66-3-vibrate.html"><span class="word-id">66-3</span><span class="word-name">vibrate</span><span class="word-meaning">振動する、響く</span></a></li>
+        <li class="word-item sub-word"><a href="data/66-4-vibration.html"><span class="word-id">66-4</span><span class="word-name">vibration</span><span class="word-meaning">振動、心の動揺、（口語で）雰囲気（vibes）</span></a></li>
+    </ul>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

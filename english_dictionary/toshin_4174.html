@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ステージ3 | 東進上級英単語1000</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; }
+        h2 { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; }
+        .breadcrumb a { color: #007bff; text-decoration: none; }
+        
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="index.html">ホーム</a> > <a href="toshin.html">東進上級英単語1000</a> > ステージ3
+    </div>
+    
+    <h2>ステージ3</h2>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/4181-vague.html"><span class="word-id">4181</span><span class="word-name">vague</span><span class="word-meaning">あいまいな、ぼんやりした、うつろな</span></a></li>
+        <li class="word-item"><a href="data/4182-attain.html"><span class="word-id">4182</span><span class="word-name">attain</span><span class="word-meaning">（目標などを）達成する、獲得する、〜に到達する</span></a></li>
+        <li class="word-item"><a href="data/4187-mutual.html"><span class="word-id">4187</span><span class="word-name">mutual</span><span class="word-meaning">相互の、共通の</span></a></li>
+        <li class="word-item"><a href="data/4188-resort.html"><span class="word-id">4188</span><span class="word-name">resort</span><span class="word-meaning">（好ましくない手段に）訴える、頼る、行楽地、手段</span></a></li>
+        <li class="word-item"><a href="data/4189-insight.html"><span class="word-id">4189</span><span class="word-name">insight</span><span class="word-meaning">洞察（力）、見通し、深い理解</span></a></li>
+        <li class="word-item"><a href="data/4193-accumulate.html"><span class="word-id">4193</span><span class="word-name">accumulate</span><span class="word-meaning">〜を蓄積する、ためる、たまる</span></a></li>
+        <li class="word-item"><a href="data/4196-forbid.html"><span class="word-id">4196</span><span class="word-name">forbid</span><span class="word-meaning">〜を禁止する、許さない、妨げる</span></a></li>
+        <li class="word-item"><a href="data/4199-elaborate.html"><span class="word-id">4199</span><span class="word-name">elaborate</span><span class="word-meaning">精巧な、凝った、〜を詳しく述べる、練り上げる</span></a></li>
+        <li class="word-item"><a href="data/4206-attach.html"><span class="word-id">4206</span><span class="word-name">attach</span><span class="word-meaning">〜を付ける、添付する、愛着を持たせる</span></a></li>
+        <li class="word-item"><a href="data/4210-consensus.html"><span class="word-id">4210</span><span class="word-name">consensus</span><span class="word-meaning">（意見の）一致、合意、コンセンサス</span></a></li>
+        <li class="word-item"><a href="data/4216-whistle.html"><span class="word-id">4216</span><span class="word-name">whistle</span><span class="word-meaning">口笛を吹く、笛を鳴らす、口笛、笛、汽笛</span></a></li>
+        <li class="word-item"><a href="data/4217-alien.html"><span class="word-id">4217</span><span class="word-name">alien</span><span class="word-meaning">外国（人）の、異質な、宇宙人、外国人</span></a></li>
+        <li class="word-item"><a href="data/4223-endure.html"><span class="word-id">4223</span><span class="word-name">endure</span><span class="word-meaning">（苦痛などに）耐える、持ちこたえる、持続する</span></a></li>
+        <li class="word-item"><a href="data/4226-platform.html"><span class="word-id">4226</span><span class="word-name">platform</span><span class="word-meaning">壇、演壇、（駅の）プラットホーム、基盤、政綱</span></a></li>
+        <li class="word-item"><a href="data/4228-realm.html"><span class="word-id">4228</span><span class="word-name">realm</span><span class="word-meaning">領域、範囲、王国</span></a></li>
+        <li class="word-item"><a href="data/4231-sole.html"><span class="word-id">4231</span><span class="word-name">sole</span><span class="word-meaning">ただ一つの、唯一の、足の裏、靴底、シタビラメ（魚）</span></a></li>
+        <li class="word-item"><a href="data/4232-tragedy.html"><span class="word-id">4232</span><span class="word-name">tragedy</span><span class="word-meaning">悲劇、惨事</span></a></li>
+        <li class="word-item"><a href="data/4251-gaze.html"><span class="word-id">4251</span><span class="word-name">gaze</span><span class="word-meaning">（感銘・驚きなどで）見つめる、凝視する、注視</span></a></li>
+        <li class="word-item"><a href="data/4253-moderate.html"><span class="word-id">4253</span><span class="word-name">moderate</span><span class="word-meaning">適度の、中庸の、穏健な、〜を和らげる、司会をする</span></a></li>
+        <li class="word-item"><a href="data/4263-currency.html"><span class="word-id">4263</span><span class="word-name">currency</span><span class="word-meaning">通貨、貨幣、普及、流通</span></a></li>
+    </ul>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

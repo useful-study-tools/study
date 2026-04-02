@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LESSON 1〜10 | FINAL DRAFT</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; }
+        h2 { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; }
+        .breadcrumb a { color: #007bff; text-decoration: none; }
+        
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="index.html">ホーム</a> > <a href="final_draft.html">FINAL DRAFT</a> > LESSON 1〜10
+    </div>
+    
+    <h2>LESSON 1〜10</h2>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/1801-access the Internet.html"><span class="word-id">1801</span><span class="word-name">access the Internet</span><span class="word-meaning">インターネットに接続する、インターネットを利用する</span></a></li>
+        <li class="word-item"><a href="data/1802-surf the Internet.html"><span class="word-id">1802</span><span class="word-name">surf the Internet</span><span class="word-meaning">ネットサーフィンをする、インターネットを見て回る</span></a></li>
+        <li class="word-item"><a href="data/1803-browse.html"><span class="word-id">1803</span><span class="word-name">browse</span><span class="word-meaning">（インターネットを）閲覧する、（店で商品を）見て回る、拾い読みする</span></a></li>
+        <li class="word-item"><a href="data/1804-go viral.html"><span class="word-id">1804</span><span class="word-name">go viral</span><span class="word-meaning">（ネット上で）バズる、急速に拡散する</span></a></li>
+        <li class="word-item"><a href="data/1805-on the Internet.html"><span class="word-id">1805</span><span class="word-name">on the Internet</span><span class="word-meaning">インターネット上で（の）、ネットで</span></a></li>
+        <li class="word-item"><a href="data/1806-online.html"><span class="word-id">1806</span><span class="word-name">online</span><span class="word-meaning">オンラインの、インターネットに接続して、ネット上で</span></a></li>
+        <li class="word-item"><a href="data/1807-the development of the Internet.html"><span class="word-id">1807</span><span class="word-name">the development of the Internet</span><span class="word-meaning">インターネットの発展、インターネットの普及</span></a></li>
+        <li class="word-item"><a href="data/1808-accurate information.html"><span class="word-id">1808</span><span class="word-name">accurate information</span><span class="word-meaning">正確な情報、間違いのない情報</span></a></li>
+        <li class="word-item"><a href="data/1809-the latest information.html"><span class="word-id">1809</span><span class="word-name">the latest information</span><span class="word-meaning">最新の情報</span></a></li>
+        <li class="word-item"><a href="data/1810-reliable information.html"><span class="word-id">1810</span><span class="word-name">reliable information</span><span class="word-meaning">信頼できる情報、確かな情報</span></a></li>
+        <li class="word-item"><a href="data/1811-illegal downloading.html"><span class="word-id">1811</span><span class="word-name">illegal downloading</span><span class="word-meaning">違法ダウンロード</span></a></li>
+        <li class="word-item"><a href="data/1812-post comments anonymously.html"><span class="word-id">1812</span><span class="word-name">post comments anonymously</span><span class="word-meaning">匿名でコメントを投稿する</span></a></li>
+        <li class="word-item"><a href="data/1813-false information.html"><span class="word-id">1813</span><span class="word-name">false information</span><span class="word-meaning">誤った情報、偽情報</span></a></li>
+        <li class="word-item"><a href="data/1814-unreliable information.html"><span class="word-id">1814</span><span class="word-name">unreliable information</span><span class="word-meaning">信頼できない情報、不確かな情報</span></a></li>
+        <li class="word-item"><a href="data/1815-biased information.html"><span class="word-id">1815</span><span class="word-name">biased information</span><span class="word-meaning">偏った情報、偏向した情報</span></a></li>
+        <li class="word-item"><a href="data/1816-information that is not based on scientific evidence.html"><span class="word-id">1816</span><span class="word-name">information that is not based on scientific evidence</span><span class="word-meaning">科学的根拠に基づかない情報</span></a></li>
+        <li class="word-item"><a href="data/1817-protect one's personal information.html"><span class="word-id">1817</span><span class="word-name">protect one's personal information</span><span class="word-meaning">個人情報を保護する、個人情報を守る</span></a></li>
+        <li class="word-item"><a href="data/1818-protect one's privacy.html"><span class="word-id">1818</span><span class="word-name">protect one's privacy</span><span class="word-meaning">プライバシーを保護する、守る</span></a></li>
+        <li class="word-item"><a href="data/1819-guarantee freedom of speech.html"><span class="word-id">1819</span><span class="word-name">guarantee freedom of speech</span><span class="word-meaning">言論の自由を保障する</span></a></li>
+        <li class="word-item"><a href="data/1820-cyberbullying.html"><span class="word-id">1820</span><span class="word-name">cyberbullying</span><span class="word-meaning">ネットいじめ、サイバーいじめ</span></a></li>
+        <li class="word-item"><a href="data/1821-talk on one's cell phone.html"><span class="word-id">1821</span><span class="word-name">talk on one's cell phone</span><span class="word-meaning">携帯電話で話す</span></a></li>
+        <li class="word-item"><a href="data/1822-be making a phone call.html"><span class="word-id">1822</span><span class="word-name">be making a phone call</span><span class="word-meaning">電話をかけている</span></a></li>
+        <li class="word-item"><a href="data/1823-answer the phone.html"><span class="word-id">1823</span><span class="word-name">answer the phone</span><span class="word-meaning">電話に出る</span></a></li>
+        <li class="word-item"><a href="data/1824-turn off one's cell phone.html"><span class="word-id">1824</span><span class="word-name">turn off one's cell phone</span><span class="word-meaning">携帯電話の電源を切る</span></a></li>
+        <li class="word-item"><a href="data/1825-play games on one's smartphone.html"><span class="word-id">1825</span><span class="word-name">play games on one's smartphone</span><span class="word-meaning">スマートフォンでゲームをする</span></a></li>
+        <li class="word-item"><a href="data/1826-prohibit the use of smartphones.html"><span class="word-id">1826</span><span class="word-name">prohibit the use of smartphones</span><span class="word-meaning">スマートフォンの使用を禁止する</span></a></li>
+        <li class="word-item"><a href="data/1827-using a smartphone while walking.html"><span class="word-id">1827</span><span class="word-name">using a smartphone while walking</span><span class="word-meaning">歩きスマホ、歩きながらスマートフォンを使用すること</span></a></li>
+        <li class="word-item"><a href="data/1828-use a smartphone while driving.html"><span class="word-id">1828</span><span class="word-name">use a smartphone while driving</span><span class="word-meaning">運転中にスマートフォンを使用する（ながら運転）</span></a></li>
+        <li class="word-item"><a href="data/1829-be addicted to one's smartphone.html"><span class="word-id">1829</span><span class="word-name">be addicted to one's smartphone</span><span class="word-meaning">スマートフォンに依存している、スマホ中毒である</span></a></li>
+        <li class="word-item"><a href="data/1830-social media.html"><span class="word-id">1830</span><span class="word-name">social media</span><span class="word-meaning">ソーシャルメディア、SNS</span></a></li>
+        <li class="word-item"><a href="data/1831-be healthy.html"><span class="word-id">1831</span><span class="word-name">be healthy</span><span class="word-meaning">健康である</span></a></li>
+        <li class="word-item"><a href="data/1832-stay healthy.html"><span class="word-id">1832</span><span class="word-name">stay healthy</span><span class="word-meaning">健康を保つ、健康でいる</span></a></li>
+        <li class="word-item"><a href="data/1833-be good for your health.html"><span class="word-id">1833</span><span class="word-name">be good for your health</span><span class="word-meaning">健康に良い</span></a></li>
+        <li class="word-item"><a href="data/1834-healthy life expectancy.html"><span class="word-id">1834</span><span class="word-name">healthy life expectancy</span><span class="word-meaning">健康寿命</span></a></li>
+        <li class="word-item sub-word"><a href="data/1834-2-healthy lifespan.html"><span class="word-id">1834-2</span><span class="word-name">healthy lifespan</span><span class="word-meaning">健康寿命、健康でいられる期間</span></a></li>
+        <li class="word-item"><a href="data/1835-get enough sleep.html"><span class="word-id">1835</span><span class="word-name">get enough sleep</span><span class="word-meaning">十分な睡眠をとる</span></a></li>
+        <li class="word-item sub-word"><a href="data/1835-2-have enough sleep.html"><span class="word-id">1835-2</span><span class="word-name">have enough sleep</span><span class="word-meaning">十分な睡眠をとる（十分な睡眠がある）</span></a></li>
+        <li class="word-item"><a href="data/1836-lack of sleep.html"><span class="word-id">1836</span><span class="word-name">lack of sleep</span><span class="word-meaning">睡眠不足</span></a></li>
+        <li class="word-item"><a href="data/1837-wake up.html"><span class="word-id">1837</span><span class="word-name">wake up</span><span class="word-meaning">目を覚ます、起きる、（人を）起こす</span></a></li>
+        <li class="word-item"><a href="data/1838-fall asleep.html"><span class="word-id">1838</span><span class="word-name">fall asleep</span><span class="word-meaning">眠りに落ちる、寝入る</span></a></li>
+        <li class="word-item"><a href="data/1839-stay up late doing.html"><span class="word-id">1839</span><span class="word-name">stay up late doing</span><span class="word-meaning">夜遅くまで起きて〜する</span></a></li>
+        <li class="word-item"><a href="data/1840-go to bed early and get up early.html"><span class="word-id">1840</span><span class="word-name">go to bed early and get up early</span><span class="word-meaning">早寝早起きをする</span></a></li>
+        <li class="word-item"><a href="data/1841-get exercise.html"><span class="word-id">1841</span><span class="word-name">get exercise</span><span class="word-meaning">運動する</span></a></li>
+        <li class="word-item"><a href="data/1842-get enough exercise.html"><span class="word-id">1842</span><span class="word-name">get enough exercise</span><span class="word-meaning">十分な運動をする</span></a></li>
+        <li class="word-item"><a href="data/1843-get regular exercise.html"><span class="word-id">1843</span><span class="word-name">get regular exercise</span><span class="word-meaning">定期的な運動をする、規則的に運動する</span></a></li>
+        <li class="word-item"><a href="data/1844-lack of exercise.html"><span class="word-id">1844</span><span class="word-name">lack of exercise</span><span class="word-meaning">運動不足</span></a></li>
+        <li class="word-item"><a href="data/1845-eat a balanced diet.html"><span class="word-id">1845</span><span class="word-name">eat a balanced diet</span><span class="word-meaning">バランスの取れた食事をする</span></a></li>
+        <li class="word-item"><a href="data/1846-eating habits.html"><span class="word-id">1846</span><span class="word-name">eating habits</span><span class="word-meaning">食習慣、食生活</span></a></li>
+        <li class="word-item"><a href="data/1847-skip a meal.html"><span class="word-id">1847</span><span class="word-name">skip a meal</span><span class="word-meaning">食事を抜く</span></a></li>
+        <li class="word-item"><a href="data/1848-gain weight.html"><span class="word-id">1848</span><span class="word-name">gain weight</span><span class="word-meaning">体重が増える、太る</span></a></li>
+        <li class="word-item sub-word"><a href="data/1848-2-put on weight.html"><span class="word-id">1848-2</span><span class="word-name">put on weight</span><span class="word-meaning">体重が増える、太る</span></a></li>
+        <li class="word-item"><a href="data/1849-lose weight.html"><span class="word-id">1849</span><span class="word-name">lose weight</span><span class="word-meaning">体重が減る、痩せる、減量する</span></a></li>
+        <li class="word-item"><a href="data/1850-chronic disease.html"><span class="word-id">1850</span><span class="word-name">chronic disease</span><span class="word-meaning">慢性疾患、持病</span></a></li>
+        <li class="word-item"><a href="data/1851-get a promotion.html"><span class="word-id">1851</span><span class="word-name">get a promotion</span><span class="word-meaning">昇進する</span></a></li>
+        <li class="word-item sub-word"><a href="data/1851-2-get promoted.html"><span class="word-id">1851-2</span><span class="word-name">get promoted</span><span class="word-meaning">昇進する</span></a></li>
+        <li class="word-item"><a href="data/1852-get a pay raise.html"><span class="word-id">1852</span><span class="word-name">get a pay raise</span><span class="word-meaning">昇給する、給料が上がる</span></a></li>
+        <li class="word-item"><a href="data/1853-paid vacation.html"><span class="word-id">1853</span><span class="word-name">paid vacation</span><span class="word-meaning">有給休暇</span></a></li>
+        <li class="word-item"><a href="data/1854-on a business trip.html"><span class="word-id">1854</span><span class="word-name">on a business trip</span><span class="word-meaning">出張中で</span></a></li>
+        <li class="word-item"><a href="data/1855-changing jobs.html"><span class="word-id">1855</span><span class="word-name">changing jobs</span><span class="word-meaning">転職すること</span></a></li>
+        <li class="word-item"><a href="data/1856-get laid off.html"><span class="word-id">1856</span><span class="word-name">get laid off</span><span class="word-meaning">解雇される（主に整理解雇）</span></a></li>
+        <li class="word-item"><a href="data/1857-work overtime.html"><span class="word-id">1857</span><span class="word-name">work overtime</span><span class="word-meaning">残業する</span></a></li>
+        <li class="word-item"><a href="data/1858-work from home.html"><span class="word-id">1858</span><span class="word-name">work from home</span><span class="word-meaning">在宅勤務する</span></a></li>
+        <li class="word-item"><a href="data/1859-work full-time.html"><span class="word-id">1859</span><span class="word-name">work full time</span><span class="word-meaning">フルタイムで働く、常勤で働く</span></a></li>
+        <li class="word-item"><a href="data/1860-work part-time.html"><span class="word-id">1860</span><span class="word-name">work part time</span><span class="word-meaning">パートタイムで働く、アルバイトをする</span></a></li>
+        <li class="word-item"><a href="data/1861-environmental problems.html"><span class="word-id">1861</span><span class="word-name">environmental problems</span><span class="word-meaning">環境問題</span></a></li>
+        <li class="word-item"><a href="data/1862-environmentally friendly.html"><span class="word-id">1862</span><span class="word-name">environmentally friendly</span><span class="word-meaning">環境に優しい</span></a></li>
+        <li class="word-item sub-word"><a href="data/1862-2-eco-friendly.html"><span class="word-id">1862-2</span><span class="word-name">eco friendly</span><span class="word-meaning">環境に優しい、エコな</span></a></li>
+        <li class="word-item"><a href="data/1863-global warming.html"><span class="word-id">1863</span><span class="word-name">global warming</span><span class="word-meaning">地球温暖化</span></a></li>
+        <li class="word-item"><a href="data/1864-the earth is getting warmer and warmer.html"><span class="word-id">1864</span><span class="word-name">the earth is getting warmer and warmer</span><span class="word-meaning">地球はだんだん暖かくなっている</span></a></li>
+        <li class="word-item"><a href="data/1865-the average global temperature.html"><span class="word-id">1865</span><span class="word-name">the average global temperature</span><span class="word-meaning">地球の平均気温</span></a></li>
+        <li class="word-item"><a href="data/1866-reduce carbon dioxide emissions by X percent.html"><span class="word-id">1866</span><span class="word-name">reduce carbon dioxide emissions by X percent</span><span class="word-meaning">二酸化炭素排出量をXパーセント削減する</span></a></li>
+        <li class="word-item"><a href="data/1867-greenhouse gas emissions.html"><span class="word-id">1867</span><span class="word-name">greenhouse gas emissions</span><span class="word-meaning">温室効果ガス排出（量）</span></a></li>
+        <li class="word-item"><a href="data/1868-rising sea levels.html"><span class="word-id">1868</span><span class="word-name">rising sea levels</span><span class="word-meaning">海面上昇</span></a></li>
+        <li class="word-item"><a href="data/1869-climate change.html"><span class="word-id">1869</span><span class="word-name">climate change</span><span class="word-meaning">気候変動</span></a></li>
+        <li class="word-item"><a href="data/1870-abnormal weather.html"><span class="word-id">1870</span><span class="word-name">abnormal weather</span><span class="word-meaning">異常気象</span></a></li>
+        <li class="word-item sub-word"><a href="data/1870-2-unusual weather.html"><span class="word-id">1870-2</span><span class="word-name">unusual weather</span><span class="word-meaning">異常気象、普段とは違う天候</span></a></li>
+        <li class="word-item sub-word"><a href="data/1870-3-extreme weather.html"><span class="word-id">1870-3</span><span class="word-name">extreme weather</span><span class="word-meaning">極端な気象、異常気象</span></a></li>
+    </ul>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

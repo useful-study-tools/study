@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ステージ2 | 東進上級英単語1000</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; }
+        h2 { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; }
+        .breadcrumb a { color: #007bff; text-decoration: none; }
+        
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="index.html">ホーム</a> > <a href="toshin.html">東進上級英単語1000</a> > ステージ2
+    </div>
+    
+    <h2>ステージ2</h2>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/4076-contract.html"><span class="word-id">4076</span><span class="word-name">contract</span><span class="word-meaning">契約、〜を契約する、〜を収縮させる、（病気に）かかる</span></a></li>
+        <li class="word-item"><a href="data/4085-altogether.html"><span class="word-id">4085</span><span class="word-name">altogether</span><span class="word-meaning">完全に、まったく、全部で</span></a></li>
+        <li class="word-item"><a href="data/4093-aid.html"><span class="word-id">4093</span><span class="word-name">aid</span><span class="word-meaning">援助、補助、〜を助ける</span></a></li>
+        <li class="word-item"><a href="data/4097-confirm.html"><span class="word-id">4097</span><span class="word-name">confirm</span><span class="word-meaning">〜を確かめる、裏付ける、承認する</span></a></li>
+        <li class="word-item"><a href="data/4099-transfer.html"><span class="word-id">4099</span><span class="word-name">transfer</span><span class="word-meaning">〜を移す、転勤する、乗り換える、移動、転勤</span></a></li>
+        <li class="word-item"><a href="data/4102-dialogue.html"><span class="word-id">4102</span><span class="word-name">dialogue</span><span class="word-meaning">対話、意見の交換、セリフ</span></a></li>
+        <li class="word-item"><a href="data/4103-substitute.html"><span class="word-id">4103</span><span class="word-name">substitute</span><span class="word-meaning">代わり、代用品、〜を代わりに使う</span></a></li>
+        <li class="word-item"><a href="data/4104-trait.html"><span class="word-id">4104</span><span class="word-name">trait</span><span class="word-meaning">（性格・身体などの）特徴、特性</span></a></li>
+        <li class="word-item"><a href="data/4106-declare.html"><span class="word-id">4106</span><span class="word-name">declare</span><span class="word-meaning">〜を明言する、宣言する、（税関で）申告する</span></a></li>
+        <li class="word-item"><a href="data/4107-furthermore.html"><span class="word-id">4107</span><span class="word-name">furthermore</span><span class="word-meaning">そのうえ、さらに</span></a></li>
+        <li class="word-item"><a href="data/4108-hence.html"><span class="word-id">4108</span><span class="word-name">hence</span><span class="word-meaning">それゆえに、したがって、今から（◯◯後）</span></a></li>
+        <li class="word-item"><a href="data/4109-intense.html"><span class="word-id">4109</span><span class="word-name">intense</span><span class="word-meaning">（程度が）激しい、強烈な、情熱的な</span></a></li>
+        <li class="word-item"><a href="data/4118-yield.html"><span class="word-id">4118</span><span class="word-name">yield</span><span class="word-meaning">〜を産出する、（利益などを）生む、屈する、収穫量、利回り</span></a></li>
+        <li class="word-item"><a href="data/4120-crucial.html"><span class="word-id">4120</span><span class="word-name">crucial</span><span class="word-meaning">重大な、決定的な、欠かせない</span></a></li>
+        <li class="word-item"><a href="data/4133-astonish.html"><span class="word-id">4133</span><span class="word-name">astonish</span><span class="word-meaning">〜を驚かせる、びっくりさせる</span></a></li>
+        <li class="word-item"><a href="data/4136-stimulate.html"><span class="word-id">4136</span><span class="word-name">stimulate</span><span class="word-meaning">〜を刺激する、活気づける、促す</span></a></li>
+        <li class="word-item"><a href="data/4140-pat.html"><span class="word-id">4140</span><span class="word-name">pat</span><span class="word-meaning">〜を軽くたたく、なでる、軽くたたくこと、あまりに手際が良すぎる（うさんくさい）</span></a></li>
+        <li class="word-item"><a href="data/4148-deliberate.html"><span class="word-id">4148</span><span class="word-name">deliberate</span><span class="word-meaning">故意の、計画的な、慎重な、〜を熟考する</span></a></li>
+        <li class="word-item"><a href="data/4159-medieval.html"><span class="word-id">4159</span><span class="word-name">medieval</span><span class="word-meaning">中世の、古臭い</span></a></li>
+        <li class="word-item"><a href="data/4160-prevail.html"><span class="word-id">4160</span><span class="word-name">prevail</span><span class="word-meaning">普及している、行き渡っている、勝利する、打ち勝つ</span></a></li>
+        <li class="word-item"><a href="data/4162-voyage.html"><span class="word-id">4162</span><span class="word-name">voyage</span><span class="word-meaning">航海、船旅、長旅、〜を航海する</span></a></li>
+        <li class="word-item"><a href="data/4164-subtle.html"><span class="word-id">4164</span><span class="word-name">subtle</span><span class="word-meaning">微妙な、繊細な、捉えにくい、狡猾な</span></a></li>
+        <li class="word-item"><a href="data/4170-strain.html"><span class="word-id">4170</span><span class="word-name">strain</span><span class="word-meaning">緊張、負担、重圧、血統、〜を酷使する、痛める</span></a></li>
+        <li class="word-item"><a href="data/4172-executive.html"><span class="word-id">4172</span><span class="word-name">executive</span><span class="word-meaning">（企業の）幹部、役員、重役、執行権のある、執行の</span></a></li>
+    </ul>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

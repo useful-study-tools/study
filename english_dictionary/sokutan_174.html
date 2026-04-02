@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第8章：怒りのメカニズム | 速読英単語</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; }
+        h2 { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; }
+        .breadcrumb a { color: #007bff; text-decoration: none; }
+        
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="index.html">ホーム</a> > <a href="sokutan.html">速読英単語</a> > 第8章：怒りのメカニズム
+    </div>
+    
+    <h2>第8章：怒りのメカニズム</h2>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/174-intensity.html"><span class="word-id">174</span><span class="word-name">intensity</span><span class="word-meaning">強烈さ、激しさ、強度、色彩の鮮やかさ</span></a></li>
+        <li class="word-item sub-word"><a href="data/174-2-intense.html"><span class="word-id">174-2</span><span class="word-name">intense</span><span class="word-meaning">（熱・光・感情などが）激しい、強烈な、熱烈な</span></a></li>
+        <li class="word-item sub-word"><a href="data/174-3-intensive.html"><span class="word-id">174-3</span><span class="word-name">intensive</span><span class="word-meaning">集中的な、徹底的な、強調の</span></a></li>
+        <li class="word-item"><a href="data/175-earnest.html"><span class="word-id">175</span><span class="word-name">earnest</span><span class="word-meaning">真面目な、熱心な、本気な、真剣、本気</span></a></li>
+        <li class="word-item sub-word"><a href="data/175-2-earnestly.html"><span class="word-id">175-2</span><span class="word-name">earnestly</span><span class="word-meaning">真面目に、真剣に、熱心に</span></a></li>
+        <li class="word-item"><a href="data/176-enthusiastic.html"><span class="word-id">176</span><span class="word-name">enthusiastic</span><span class="word-meaning">熱狂的な、やる気に満ちた、熱心な</span></a></li>
+        <li class="word-item sub-word"><a href="data/176-2-enthusiastically.html"><span class="word-id">176-2</span><span class="word-name">enthusiastically</span><span class="word-meaning">熱狂的に、熱心に、喜んで</span></a></li>
+        <li class="word-item sub-word"><a href="data/176-3-enthusiast.html"><span class="word-id">176-3</span><span class="word-name">enthusiast</span><span class="word-meaning">愛好家、熱狂的なファン、熱心な人</span></a></li>
+        <li class="word-item"><a href="data/177-ardent.html"><span class="word-id">177</span><span class="word-name">ardent</span><span class="word-meaning">熱烈な、燃えるような、激しい</span></a></li>
+        <li class="word-item sub-word"><a href="data/177-2-ardently.html"><span class="word-id">177-2</span><span class="word-name">ardently</span><span class="word-meaning">熱烈に、熱心に</span></a></li>
+        <li class="word-item"><a href="data/178-irritation.html"><span class="word-id">178</span><span class="word-name">irritation</span><span class="word-meaning">苛立ち、焦燥、炎症、（生理的な）刺激</span></a></li>
+        <li class="word-item sub-word"><a href="data/178-2-irritate.html"><span class="word-id">178-2</span><span class="word-name">irritate</span><span class="word-meaning">〜をいらだたせる、〜を刺激する</span></a></li>
+        <li class="word-item sub-word"><a href="data/178-3-irritated.html"><span class="word-id">178-3</span><span class="word-name">irritated</span><span class="word-meaning">いらいらした、怒った、炎症を起こした</span></a></li>
+        <li class="word-item sub-word"><a href="data/178-4-irritable.html"><span class="word-id">178-4</span><span class="word-name">irritable</span><span class="word-meaning">怒りっぽい、短気な、感受性の強い</span></a></li>
+        <li class="word-item"><a href="data/179-frown.html"><span class="word-id">179</span><span class="word-name">frown</span><span class="word-meaning">まゆをひそめる、顔をしかめる、難色を示す、しかめっ面</span></a></li>
+        <li class="word-item"><a href="data/180-fury.html"><span class="word-id">180</span><span class="word-name">fury</span><span class="word-meaning">激しい怒り、憤慨、激しさ</span></a></li>
+        <li class="word-item sub-word"><a href="data/180-2-furious.html"><span class="word-id">180-2</span><span class="word-name">furious</span><span class="word-meaning">激怒した、猛烈な</span></a></li>
+        <li class="word-item"><a href="data/181-rage.html"><span class="word-id">181</span><span class="word-name">rage</span><span class="word-meaning">激怒、猛威、熱狂、激しく怒る、猛威を振るう</span></a></li>
+        <li class="word-item"><a href="data/182-surge.html"><span class="word-id">182</span><span class="word-name">surge</span><span class="word-meaning">（感情の）こみ上げ、（波などの）うねり、急増、波のように押し寄せる、急増する</span></a></li>
+        <li class="word-item"><a href="data/183-physiological.html"><span class="word-id">183</span><span class="word-name">physiological</span><span class="word-meaning">生理学上の、身体的な</span></a></li>
+        <li class="word-item sub-word"><a href="data/183-2-physiology.html"><span class="word-id">183-2</span><span class="word-name">physiology</span><span class="word-meaning">生理学、生理的機能</span></a></li>
+        <li class="word-item sub-word"><a href="data/183-3-physiologist.html"><span class="word-id">183-3</span><span class="word-name">physiologist</span><span class="word-meaning">生理学者</span></a></li>
+        <li class="word-item"><a href="data/184-hormone.html"><span class="word-id">184</span><span class="word-name">hormone</span><span class="word-meaning">ホルモン</span></a></li>
+        <li class="word-item"><a href="data/185-adrenalin.html"><span class="word-id">185</span><span class="word-name">adrenalin</span><span class="word-meaning">アドレナリン（エピネフリン）</span></a></li>
+        <li class="word-item"><a href="data/186-co-worker.html"><span class="word-id">186</span><span class="word-name">co worker</span><span class="word-meaning">同僚、一緒に働く人</span></a></li>
+        <li class="word-item sub-word"><a href="data/186-2-colleague.html"><span class="word-id">186-2</span><span class="word-name">colleague</span><span class="word-meaning">（職務上の）同僚、仲間</span></a></li>
+        <li class="word-item"><a href="data/187-cooperate.html"><span class="word-id">187</span><span class="word-name">cooperate</span><span class="word-meaning">協力する、協同する</span></a></li>
+        <li class="word-item sub-word"><a href="data/187-2-cooperative.html"><span class="word-id">187-2</span><span class="word-name">cooperative</span><span class="word-meaning">協力的な、協同の、生活協同組合（生協）</span></a></li>
+        <li class="word-item"><a href="data/188-coordinate.html"><span class="word-id">188</span><span class="word-name">coordinate</span><span class="word-meaning">〜を調整する、調和させる、座標、同等の</span></a></li>
+        <li class="word-item sub-word"><a href="data/188-2-coordination.html"><span class="word-id">188-2</span><span class="word-name">coordination</span><span class="word-meaning">調整、一致、協調、運動神経（連動性）</span></a></li>
+        <li class="word-item"><a href="data/189-supervisor.html"><span class="word-id">189</span><span class="word-name">supervisor</span><span class="word-meaning">監督者、上司、管理者</span></a></li>
+        <li class="word-item sub-word"><a href="data/189-2-supervise.html"><span class="word-id">189-2</span><span class="word-name">supervise</span><span class="word-meaning">〜を監督する、管理する、指揮する</span></a></li>
+        <li class="word-item sub-word"><a href="data/189-3-supervision.html"><span class="word-id">189-3</span><span class="word-name">supervision</span><span class="word-meaning">監督、管理、指揮</span></a></li>
+        <li class="word-item"><a href="data/190-oversee.html"><span class="word-id">190</span><span class="word-name">oversee</span><span class="word-meaning">〜を監督する、監視する、取り締まる</span></a></li>
+        <li class="word-item sub-word"><a href="data/190-2-surveillance.html"><span class="word-id">190-2</span><span class="word-name">surveillance</span><span class="word-meaning">監視、見張り、追跡調査</span></a></li>
+        <li class="word-item sub-word"><a href="data/190-3-guardian.html"><span class="word-id">190-3</span><span class="word-name">guardian</span><span class="word-meaning">保護者、守護者、後見人</span></a></li>
+        <li class="word-item"><a href="data/191-cancel.html"><span class="word-id">191</span><span class="word-name">cancel</span><span class="word-meaning">〜を中止する、取り消す、無効にする</span></a></li>
+        <li class="word-item sub-word"><a href="data/191-2-cancellation.html"><span class="word-id">191-2</span><span class="word-name">cancellation</span><span class="word-meaning">取り消し、中止、キャンセル</span></a></li>
+        <li class="word-item"><a href="data/192-cease.html"><span class="word-id">192</span><span class="word-name">cease</span><span class="word-meaning">〜をやめる、終わる、中断する</span></a></li>
+        <li class="word-item"><a href="data/193-refrain.html"><span class="word-id">193</span><span class="word-name">refrain</span><span class="word-meaning">（〜を）控える、我慢する、折り返し（句）、繰り返し</span></a></li>
+        <li class="word-item"><a href="data/194-suspend.html"><span class="word-id">194</span><span class="word-name">suspend</span><span class="word-meaning">〜を一時停止する、停職（停学）にする、吊るす</span></a></li>
+        <li class="word-item sub-word"><a href="data/194-2-suspension.html"><span class="word-id">194-2</span><span class="word-name">suspension</span><span class="word-meaning">一時停止、未決定、停職、懸架装置（サスペンション）</span></a></li>
+        <li class="word-item"><a href="data/195-abolish.html"><span class="word-id">195</span><span class="word-name">abolish</span><span class="word-meaning">（法律・制度などを）廃止する、なくす</span></a></li>
+        <li class="word-item sub-word"><a href="data/195-2-abolition.html"><span class="word-id">195-2</span><span class="word-name">abolition</span><span class="word-meaning">（制度・法律の）廃止、全廃</span></a></li>
+        <li class="word-item"><a href="data/196-traumatic.html"><span class="word-id">196</span><span class="word-name">traumatic</span><span class="word-meaning">トラウマになるような、心に深い傷を残す、外傷の</span></a></li>
+        <li class="word-item sub-word"><a href="data/196-2-trauma.html"><span class="word-id">196-2</span><span class="word-name">trauma</span><span class="word-meaning">精神的外傷、トラウマ、（医学的な）外傷</span></a></li>
+        <li class="word-item"><a href="data/197-enrage.html"><span class="word-id">197</span><span class="word-name">enrage</span><span class="word-meaning">〜を激怒させる、ひどく怒らせる</span></a></li>
+        <li class="word-item"><a href="data/198-aggressively.html"><span class="word-id">198</span><span class="word-name">aggressively</span><span class="word-meaning">攻撃的に、強引に、積極的に</span></a></li>
+        <li class="word-item sub-word"><a href="data/198-2-aggressive.html"><span class="word-id">198-2</span><span class="word-name">aggressive</span><span class="word-meaning">攻撃的な、喧嘩腰の、積極的な</span></a></li>
+        <li class="word-item"><a href="data/199-adaptive.html"><span class="word-id">199</span><span class="word-name">adaptive</span><span class="word-meaning">適応性のある、適応を助ける</span></a></li>
+        <li class="word-item sub-word"><a href="data/199-2-adapt.html"><span class="word-id">199-2</span><span class="word-name">adapt</span><span class="word-meaning">〜を適応させる、順応する、〜を適合させる（改作する）</span></a></li>
+        <li class="word-item"><a href="data/200-socialize.html"><span class="word-id">200</span><span class="word-name">socialize</span><span class="word-meaning">（人と）交際する、社会生活に慣らす、社会主義化する</span></a></li>
+        <li class="word-item"><a href="data/201-threat.html"><span class="word-id">201</span><span class="word-name">threat</span><span class="word-meaning">脅威、脅し、恐れ</span></a></li>
+        <li class="word-item sub-word"><a href="data/201-2-threaten.html"><span class="word-id">201-2</span><span class="word-name">threaten</span><span class="word-meaning">〜を脅かす、〜するぞと脅す、〜の恐れがある</span></a></li>
+        <li class="word-item"><a href="data/202-menace.html"><span class="word-id">202</span><span class="word-name">menace</span><span class="word-meaning">脅威、厄介なもの、〜を脅かす</span></a></li>
+        <li class="word-item"><a href="data/203-intimidate.html"><span class="word-id">203</span><span class="word-name">intimidate</span><span class="word-meaning">〜を威嚇する、おどす、怖がらせる</span></a></li>
+        <li class="word-item sub-word"><a href="data/203-2-intimidation.html"><span class="word-id">203-2</span><span class="word-name">intimidation</span><span class="word-meaning">威嚇、脅し、脅迫</span></a></li>
+        <li class="word-item"><a href="data/204-powerful.html"><span class="word-id">204</span><span class="word-name">powerful</span><span class="word-meaning">強力な、権力のある、影響力のある</span></a></li>
+        <li class="word-item"><a href="data/205-masculine.html"><span class="word-id">205</span><span class="word-name">masculine</span><span class="word-meaning">男らしい、男性の、男勝りの、（文法）男性の</span></a></li>
+        <li class="word-item"><a href="data/206-defend.html"><span class="word-id">206</span><span class="word-name">defend</span><span class="word-meaning">〜を守る、防御する、弁護する</span></a></li>
+        <li class="word-item"><a href="data/207-avert.html"><span class="word-id">207</span><span class="word-name">avert</span><span class="word-meaning">（目を）そらす、〜を避ける、防ぐ</span></a></li>
+        <li class="word-item"><a href="data/208-evade.html"><span class="word-id">208</span><span class="word-name">evade</span><span class="word-meaning">〜を（巧妙に）逃れる、回避する、言い逃れる</span></a></li>
+        <li class="word-item"><a href="data/209-variability.html"><span class="word-id">209</span><span class="word-name">variability</span><span class="word-meaning">変わりやすいこと、変動性、変異性</span></a></li>
+        <li class="word-item sub-word"><a href="data/209-2-variable.html"><span class="word-id">209-2</span><span class="word-name">variable</span><span class="word-meaning">変わりやすい、一定しない、変数</span></a></li>
+        <li class="word-item"><a href="data/210-dignity.html"><span class="word-id">210</span><span class="word-name">dignity</span><span class="word-meaning">尊厳、威厳、気品、自尊心</span></a></li>
+        <li class="word-item sub-word"><a href="data/210-2-dignify.html"><span class="word-id">210-2</span><span class="word-name">dignify</span><span class="word-meaning">〜に威厳を添える、〜を（過大に）立派に見せる</span></a></li>
+        <li class="word-item"><a href="data/211-generosity.html"><span class="word-id">211</span><span class="word-name">generosity</span><span class="word-meaning">寛大さ、気前の良さ、惜しみない行為</span></a></li>
+        <li class="word-item sub-word"><a href="data/211-2-generous.html"><span class="word-id">211-2</span><span class="word-name">generous</span><span class="word-meaning">気前の良い、寛大な、たくさんの</span></a></li>
+        <li class="word-item sub-word"><a href="data/211-3-mobility.html"><span class="word-id">211-3</span><span class="word-name">mobility</span><span class="word-meaning">動きやすさ、可動性、流動性</span></a></li>
+        <li class="word-item sub-word"><a href="data/211-4-mobile.html"><span class="word-id">211-4</span><span class="word-name">mobile</span><span class="word-meaning">動きやすい、移動式の、携帯電話</span></a></li>
+        <li class="word-item sub-word"><a href="data/211-5-hostility.html"><span class="word-id">211-5</span><span class="word-name">hostility</span><span class="word-meaning">敵意、反感、敵対行為</span></a></li>
+        <li class="word-item sub-word"><a href="data/211-6-hostile.html"><span class="word-id">211-6</span><span class="word-name">hostile</span><span class="word-meaning">敵意のある、反対の、不都合な、敵の</span></a></li>
+        <li class="word-item sub-word"><a href="data/211-7-reliability.html"><span class="word-id">211-7</span><span class="word-name">reliability</span><span class="word-meaning">信頼性、確実性</span></a></li>
+        <li class="word-item sub-word"><a href="data/211-8-reliable.html"><span class="word-id">211-8</span><span class="word-name">reliable</span><span class="word-meaning">信頼できる、頼りになる、確かな</span></a></li>
+        <li class="word-item sub-word"><a href="data/211-9-sexuality.html"><span class="word-id">211-9</span><span class="word-name">sexuality</span><span class="word-meaning">性的関心、性的指向、性的なこと</span></a></li>
+        <li class="word-item sub-word"><a href="data/211-10-sexual.html"><span class="word-id">211-10</span><span class="word-name">sexual</span><span class="word-meaning">性の、性に関する、有性の</span></a></li>
+        <li class="word-item"><a href="data/212-enforce.html"><span class="word-id">212</span><span class="word-name">enforce</span><span class="word-meaning">（法律などを）執行する、施行する、〜を強いる</span></a></li>
+        <li class="word-item sub-word"><a href="data/212-2-enforcement.html"><span class="word-id">212-2</span><span class="word-name">enforcement</span><span class="word-meaning">（法律などの）執行、強制</span></a></li>
+        <li class="word-item"><a href="data/213-enroll.html"><span class="word-id">213</span><span class="word-name">enroll</span><span class="word-meaning">〜を登録する、入会させる、入学する</span></a></li>
+        <li class="word-item sub-word"><a href="data/213-2-enrollment.html"><span class="word-id">213-2</span><span class="word-name">enrollment</span><span class="word-meaning">登録、入学、入会者数</span></a></li>
+        <li class="word-item"><a href="data/214-endeavor.html"><span class="word-id">214</span><span class="word-name">endeavor</span><span class="word-meaning">〜しようと努める、努力する、努力、試み</span></a></li>
+        <li class="word-item sub-word"><a href="data/214-2-enact.html"><span class="word-id">214-2</span><span class="word-name">enact</span><span class="word-meaning">（法案を）制定する、施行する、〜を上演する</span></a></li>
+        <li class="word-item sub-word"><a href="data/214-3-encompass.html"><span class="word-id">214-3</span><span class="word-name">encompass</span><span class="word-meaning">〜を囲む、〜を包む、〜を（広範囲に）含む</span></a></li>
+        <li class="word-item sub-word"><a href="data/214-4-ensue.html"><span class="word-id">214-4</span><span class="word-name">ensue</span><span class="word-meaning">（結果として）続いて起こる</span></a></li>
+        <li class="word-item sub-word"><a href="data/214-5-empower.html"><span class="word-id">214-5</span><span class="word-name">empower</span><span class="word-meaning">〜に権限を与える、〜を力づける</span></a></li>
+    </ul>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

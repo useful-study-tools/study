@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第12章：孤立感⑵ | 速読英単語</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; }
+        h2 { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; }
+        .breadcrumb a { color: #007bff; text-decoration: none; }
+        
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="index.html">ホーム</a> > <a href="sokutan.html">速読英単語</a> > 第12章：孤立感⑵
+    </div>
+    
+    <h2>第12章：孤立感⑵</h2>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/303-moderate.html"><span class="word-id">303</span><span class="word-name">moderate</span><span class="word-meaning">適度な、並の、穏健な、穏健な人、〜を和らげる、節制する</span></a></li>
+        <li class="word-item"><a href="data/304-commonplace.html"><span class="word-id">304</span><span class="word-name">commonplace</span><span class="word-meaning">ありふれた、平凡な、当たり前のこと、陳腐な言葉</span></a></li>
+        <li class="word-item"><a href="data/305-neutral.html"><span class="word-id">305</span><span class="word-name">neutral</span><span class="word-meaning">中立の、公平な、はっきりしない、（ギヤの）ニュートラル</span></a></li>
+        <li class="word-item sub-word"><a href="data/305-2-neutrality.html"><span class="word-id">305-2</span><span class="word-name">neutrality</span><span class="word-meaning">中立、中立性、不偏不党</span></a></li>
+        <li class="word-item sub-word"><a href="data/305-3-neutralize.html"><span class="word-id">305-3</span><span class="word-name">neutralize</span><span class="word-meaning">〜を中和する、〜を無効にする、〜を中立化させる</span></a></li>
+        <li class="word-item"><a href="data/306-bout.html"><span class="word-id">306</span><span class="word-name">bout</span><span class="word-meaning">（病気・活動などの）期間、ひとしきり、短い期間、（ボクシングなどの）試合</span></a></li>
+        <li class="word-item"><a href="data/307-markedly.html"><span class="word-id">307</span><span class="word-name">markedly</span><span class="word-meaning">著しく、際立って、明らかに</span></a></li>
+        <li class="word-item sub-word"><a href="data/307-2-marked.html"><span class="word-id">307-2</span><span class="word-name">marked</span><span class="word-meaning">際立った、著しい、印のついた</span></a></li>
+        <li class="word-item"><a href="data/308-susceptible.html"><span class="word-id">308</span><span class="word-name">susceptible</span><span class="word-meaning">影響を受けやすい、感受性が強い、〜に感染しやすい</span></a></li>
+        <li class="word-item"><a href="data/309-featureless.html"><span class="word-id">309</span><span class="word-name">featureless</span><span class="word-meaning">特徴のない、平坦な、面白みのない</span></a></li>
+        <li class="word-item sub-word"><a href="data/309-2-feature.html"><span class="word-id">309-2</span><span class="word-name">feature</span><span class="word-meaning">特徴、顔立ち、主要なもの、〜を呼び物にする、〜を大きく扱う</span></a></li>
+        <li class="word-item sub-word"><a href="data/309-3-trivial.html"><span class="word-id">309-3</span><span class="word-name">trivial</span><span class="word-meaning">些細な、取るに足らない、ありふれた</span></a></li>
+        <li class="word-item sub-word"><a href="data/309-4-mediocre.html"><span class="word-id">309-4</span><span class="word-name">mediocre</span><span class="word-meaning">並みの、平凡な、良くも悪くもない、二流の</span></a></li>
+        <li class="word-item"><a href="data/310-nervousness.html"><span class="word-id">310</span><span class="word-name">nervousness</span><span class="word-meaning">神経質、緊張、不安</span></a></li>
+        <li class="word-item sub-word"><a href="data/310-2-nervous.html"><span class="word-id">310-2</span><span class="word-name">nervous</span><span class="word-meaning">緊張している、不安な、神経質な、神経の</span></a></li>
+        <li class="word-item"><a href="data/311-coward.html"><span class="word-id">311</span><span class="word-name">coward</span><span class="word-meaning">臆病者、腰抜け</span></a></li>
+        <li class="word-item sub-word"><a href="data/311-2-cowardice.html"><span class="word-id">311-2</span><span class="word-name">cowardice</span><span class="word-meaning">臆病、卑怯</span></a></li>
+        <li class="word-item"><a href="data/312-timid.html"><span class="word-id">312</span><span class="word-name">timid</span><span class="word-meaning">臆病な、気が弱い、内気な</span></a></li>
+        <li class="word-item sub-word"><a href="data/312-2-timidity.html"><span class="word-id">312-2</span><span class="word-name">timidity</span><span class="word-meaning">臆病、内気、気の弱さ</span></a></li>
+        <li class="word-item"><a href="data/313-unease.html"><span class="word-id">313</span><span class="word-name">unease</span><span class="word-meaning">不安、心配、不快感</span></a></li>
+        <li class="word-item sub-word"><a href="data/313-2-uneasy.html"><span class="word-id">313-2</span><span class="word-name">uneasy</span><span class="word-meaning">不安な、落ち着かない、ぎこちない</span></a></li>
+        <li class="word-item sub-word"><a href="data/313-3-ease.html"><span class="word-id">313-3</span><span class="word-name">ease</span><span class="word-meaning">容易さ、気楽さ、安心、〜を和らげる、〜を楽にする</span></a></li>
+        <li class="word-item"><a href="data/314-apprehension.html"><span class="word-id">314</span><span class="word-name">apprehension</span><span class="word-meaning">不安、懸念、理解、逮捕</span></a></li>
+        <li class="word-item sub-word"><a href="data/314-2-apprehensive.html"><span class="word-id">314-2</span><span class="word-name">apprehensive</span><span class="word-meaning">不安な、懸念している、恐れている</span></a></li>
+        <li class="word-item sub-word"><a href="data/314-3-apprehend.html"><span class="word-id">314-3</span><span class="word-name">apprehend</span><span class="word-meaning">〜を逮捕する、〜を理解する、〜を懸念する</span></a></li>
+        <li class="word-item"><a href="data/315-insecurity.html"><span class="word-id">315</span><span class="word-name">insecurity</span><span class="word-meaning">不安、不安定、自信のなさ</span></a></li>
+        <li class="word-item sub-word"><a href="data/315-2-unrest.html"><span class="word-id">315-2</span><span class="word-name">unrest</span><span class="word-meaning">（社会的な）不安、動揺、不穏な状態</span></a></li>
+        <li class="word-item"><a href="data/316-batter.html"><span class="word-id">316</span><span class="word-name">batter</span><span class="word-meaning">〜を乱打する、打ちのめす、（揚げ物の）衣、バッター</span></a></li>
+        <li class="word-item"><a href="data/317-demolish.html"><span class="word-id">317</span><span class="word-name">demolish</span><span class="word-meaning">（建物を）取り壊す、解体する、（理論などを）覆す</span></a></li>
+        <li class="word-item sub-word"><a href="data/317-2-demolition.html"><span class="word-id">317-2</span><span class="word-name">demolition</span><span class="word-meaning">（建物の）破壊、取り壊し、爆破</span></a></li>
+        <li class="word-item"><a href="data/318-smash.html"><span class="word-id">318</span><span class="word-name">smash</span><span class="word-meaning">〜を粉砕する、激突する、大成功、粉砕</span></a></li>
+        <li class="word-item sub-word"><a href="data/318-2-devastate.html"><span class="word-id">318-2</span><span class="word-name">devastate</span><span class="word-meaning">〜を壊滅させる、〜を途方に暮れさせる</span></a></li>
+        <li class="word-item sub-word"><a href="data/318-3-devastating.html"><span class="word-id">318-3</span><span class="word-name">devastating</span><span class="word-meaning">壊滅的な、衝撃的な、圧倒的な</span></a></li>
+        <li class="word-item sub-word"><a href="data/318-4-devastation.html"><span class="word-id">318-4</span><span class="word-name">devastation</span><span class="word-meaning">壊滅、惨状、ひどいショック</span></a></li>
+        <li class="word-item"><a href="data/319-actively.html"><span class="word-id">319</span><span class="word-name">actively</span><span class="word-meaning">積極的に、活発に</span></a></li>
+        <li class="word-item sub-word"><a href="data/319-2-active.html"><span class="word-id">319-2</span><span class="word-name">active</span><span class="word-meaning">活動的な、積極的な、現役の、（火山が）活発な</span></a></li>
+        <li class="word-item"><a href="data/320-hence.html"><span class="word-id">320</span><span class="word-name">hence</span><span class="word-meaning">それゆえに、したがって、今から〜後に</span></a></li>
+        <li class="word-item sub-word"><a href="data/320-2-therefore.html"><span class="word-id">320-2</span><span class="word-name">therefore</span><span class="word-meaning">それゆえに、したがって</span></a></li>
+        <li class="word-item sub-word"><a href="data/320-3-thus.html"><span class="word-id">320-3</span><span class="word-name">thus</span><span class="word-meaning">このように、したがって、このようにして</span></a></li>
+        <li class="word-item"><a href="data/321-contented.html"><span class="word-id">321</span><span class="word-name">contented</span><span class="word-meaning">（現状に）満足している、満ち足りた</span></a></li>
+        <li class="word-item sub-word"><a href="data/321-2-content.html"><span class="word-id">321-2</span><span class="word-name">content</span><span class="word-meaning">満足している、内容、目次、〜を満足させる</span></a></li>
+        <li class="word-item"><a href="data/322-desolate.html"><span class="word-id">322</span><span class="word-name">desolate</span><span class="word-meaning">荒涼とした、寂れた、心細い、〜を荒廃させる</span></a></li>
+        <li class="word-item sub-word"><a href="data/322-2-dreary.html"><span class="word-id">322-2</span><span class="word-name">dreary</span><span class="word-meaning">（天候や場所が）物寂しい、どんよりした、退屈な</span></a></li>
+        <li class="word-item sub-word"><a href="data/322-3-isolated.html"><span class="word-id">322-3</span><span class="word-name">isolated</span><span class="word-meaning">孤立した、遠く離れた、唯一の</span></a></li>
+        <li class="word-item sub-word"><a href="data/322-4-isolate.html"><span class="word-id">322-4</span><span class="word-name">isolate</span><span class="word-meaning">〜を孤立させる、分離する、隔離する</span></a></li>
+        <li class="word-item sub-word"><a href="data/322-5-uninhabited.html"><span class="word-id">322-5</span><span class="word-name">uninhabited</span><span class="word-meaning">人が住んでいない、無人の</span></a></li>
+        <li class="word-item sub-word"><a href="data/322-6-inhabit.html"><span class="word-id">322-6</span><span class="word-name">inhabit</span><span class="word-meaning">〜に住んでいる、居住している</span></a></li>
+        <li class="word-item"><a href="data/323-symptom.html"><span class="word-id">323</span><span class="word-name">symptom</span><span class="word-meaning">症状、兆候、しるし</span></a></li>
+        <li class="word-item"><a href="data/324-deprivation.html"><span class="word-id">324</span><span class="word-name">deprivation</span><span class="word-meaning">欠乏、剥奪、喪失</span></a></li>
+        <li class="word-item sub-word"><a href="data/324-2-deprive.html"><span class="word-id">324-2</span><span class="word-name">deprive</span><span class="word-meaning">〜から（必要なものを）奪う、剥奪する</span></a></li>
+        <li class="word-item"><a href="data/325-plunder.html"><span class="word-id">325</span><span class="word-name">plunder</span><span class="word-meaning">（戦時などに）〜を略奪する、盗む、略奪、略奪品</span></a></li>
+        <li class="word-item"><a href="data/326-fragile.html"><span class="word-id">326</span><span class="word-name">fragile</span><span class="word-meaning">壊れやすい、もろい、虚弱な</span></a></li>
+        <li class="word-item"><a href="data/327-naive.html"><span class="word-id">327</span><span class="word-name">naive</span><span class="word-meaning">世間知らずな、うぶな、単純な</span></a></li>
+        <li class="word-item"><a href="data/328-vulnerable.html"><span class="word-id">328</span><span class="word-name">vulnerable</span><span class="word-meaning">（攻撃や批判に）弱い、脆弱な、傷つきやすい</span></a></li>
+        <li class="word-item sub-word"><a href="data/328-2-vulnerability.html"><span class="word-id">328-2</span><span class="word-name">vulnerability</span><span class="word-meaning">脆弱性、弱さ、弱点</span></a></li>
+        <li class="word-item"><a href="data/329-liable.html"><span class="word-id">329</span><span class="word-name">liable</span><span class="word-meaning">〜しがちな、責めを負うべき、法的な責任がある</span></a></li>
+        <li class="word-item sub-word"><a href="data/329-2-liability.html"><span class="word-id">329-2</span><span class="word-name">liability</span><span class="word-meaning">法的責任、負債、お荷物（厄介者）</span></a></li>
+        <li class="word-item"><a href="data/330-prone.html"><span class="word-id">330</span><span class="word-name">prone</span><span class="word-meaning">（好ましくない傾向に）〜しがちな、うつ伏せの</span></a></li>
+        <li class="word-item"><a href="data/331-apt.html"><span class="word-id">331</span><span class="word-name">apt</span><span class="word-meaning">〜しがちな、適切な、利発な</span></a></li>
+        <li class="word-item"><a href="data/332-inclined.html"><span class="word-id">332</span><span class="word-name">inclined</span><span class="word-meaning">〜したいと思う、〜する傾向がある、傾斜した</span></a></li>
+        <li class="word-item sub-word"><a href="data/332-2-incline.html"><span class="word-id">332-2</span><span class="word-name">incline</span><span class="word-meaning">〜を傾ける、〜したいと思わせる、傾斜、坂</span></a></li>
+        <li class="word-item sub-word"><a href="data/332-3-inclination.html"><span class="word-id">332-3</span><span class="word-name">inclination</span><span class="word-meaning">傾向、好み、意向、傾斜</span></a></li>
+        <li class="word-item"><a href="data/333-cough.html"><span class="word-id">333</span><span class="word-name">cough</span><span class="word-meaning">咳、咳をする</span></a></li>
+        <li class="word-item sub-word"><a href="data/333-2-influenza.html"><span class="word-id">333-2</span><span class="word-name">influenza</span><span class="word-meaning">インフルエンザ、流感</span></a></li>
+        <li class="word-item sub-word"><a href="data/333-3-diarrhea.html"><span class="word-id">333-3</span><span class="word-name">diarrhea</span><span class="word-meaning">下痢</span></a></li>
+        <li class="word-item sub-word"><a href="data/333-4-diabetes.html"><span class="word-id">333-4</span><span class="word-name">diabetes</span><span class="word-meaning">糖尿病</span></a></li>
+        <li class="word-item"><a href="data/334-tumor.html"><span class="word-id">334</span><span class="word-name">tumor</span><span class="word-meaning">腫瘍</span></a></li>
+        <li class="word-item sub-word"><a href="data/334-2-bruise.html"><span class="word-id">334-2</span><span class="word-name">bruise</span><span class="word-meaning">打ち身、あざ、〜にあざを作る、〜（自尊心など）を傷つける</span></a></li>
+        <li class="word-item sub-word"><a href="data/334-3-sprain.html"><span class="word-id">334-3</span><span class="word-name">sprain</span><span class="word-meaning">〜を捻挫する、捻挫</span></a></li>
+        <li class="word-item sub-word"><a href="data/334-4-dementia.html"><span class="word-id">334-4</span><span class="word-name">dementia</span><span class="word-meaning">認知症</span></a></li>
+        <li class="word-item"><a href="data/335-syndrome.html"><span class="word-id">335</span><span class="word-name">syndrome</span><span class="word-meaning">症候群、シンドローム</span></a></li>
+        <li class="word-item"><a href="data/336-chronic.html"><span class="word-id">336</span><span class="word-name">chronic</span><span class="word-meaning">（病気が）慢性の、長期にわたる、常習的な</span></a></li>
+        <li class="word-item"><a href="data/337-ceaseless.html"><span class="word-id">337</span><span class="word-name">ceaseless</span><span class="word-meaning">絶え間ない、ひっきりなしの</span></a></li>
+        <li class="word-item"><a href="data/338-helpless.html"><span class="word-id">338</span><span class="word-name">helpless</span><span class="word-meaning">どうすることもできない、無力な</span></a></li>
+        <li class="word-item"><a href="data/339-reckless.html"><span class="word-id">339</span><span class="word-name">reckless</span><span class="word-meaning">無謀な、向こう見ずな</span></a></li>
+        <li class="word-item"><a href="data/340-restless.html"><span class="word-id">340</span><span class="word-name">restless</span><span class="word-meaning">落ち着かない、そわそわした、眠れない</span></a></li>
+        <li class="word-item sub-word"><a href="data/340-2-powerless.html"><span class="word-id">340-2</span><span class="word-name">powerless</span><span class="word-meaning">無力な、権力のない</span></a></li>
+        <li class="word-item sub-word"><a href="data/340-3-ruthless.html"><span class="word-id">340-3</span><span class="word-name">ruthless</span><span class="word-meaning">無慈悲な、冷酷な、断固とした</span></a></li>
+        <li class="word-item sub-word"><a href="data/340-4-thoughtless.html"><span class="word-id">340-4</span><span class="word-name">thoughtless</span><span class="word-meaning">不注意な、思いやりのない、考えなしの</span></a></li>
+    </ul>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

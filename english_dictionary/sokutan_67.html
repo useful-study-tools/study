@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第4章：「原始的な」言語⑴ | 速読英単語</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; }
+        h2 { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; }
+        .breadcrumb a { color: #007bff; text-decoration: none; }
+        
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="index.html">ホーム</a> > <a href="sokutan.html">速読英単語</a> > 第4章：「原始的な」言語⑴
+    </div>
+    
+    <h2>第4章：「原始的な」言語⑴</h2>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/67-express.html"><span class="word-id">67</span><span class="word-name">express</span><span class="word-meaning">〜を表現する、述べる、急行の、明確な、急行、速達</span></a></li>
+        <li class="word-item"><a href="data/68-eloquent.html"><span class="word-id">68</span><span class="word-name">eloquent</span><span class="word-meaning">雄弁な、説得力のある、表現豊かな</span></a></li>
+        <li class="word-item sub-word"><a href="data/68-2-eloquence.html"><span class="word-id">68-2</span><span class="word-name">eloquence</span><span class="word-meaning">雄弁、説得力</span></a></li>
+        <li class="word-item"><a href="data/69-fluent.html"><span class="word-id">69</span><span class="word-name">fluent</span><span class="word-meaning">流暢な、スラスラと流れるような</span></a></li>
+        <li class="word-item sub-word"><a href="data/69-2-fluently.html"><span class="word-id">69-2</span><span class="word-name">fluently</span><span class="word-meaning">流暢に、ペラペラと</span></a></li>
+        <li class="word-item sub-word"><a href="data/69-3-fluency.html"><span class="word-id">69-3</span><span class="word-name">fluency</span><span class="word-meaning">流暢さ、滑らかさ</span></a></li>
+        <li class="word-item"><a href="data/70-misconception.html"><span class="word-id">70</span><span class="word-name">misconception</span><span class="word-meaning">誤解、思い込み、間違った概念</span></a></li>
+        <li class="word-item sub-word"><a href="data/70-2-conception.html"><span class="word-id">70-2</span><span class="word-name">conception</span><span class="word-meaning">概念、考え、構想、妊娠</span></a></li>
+        <li class="word-item sub-word"><a href="data/70-3-conceptual.html"><span class="word-id">70-3</span><span class="word-name">conceptual</span><span class="word-meaning">概念の、考え方の、構想上の</span></a></li>
+        <li class="word-item"><a href="data/71-fallacy.html"><span class="word-id">71</span><span class="word-name">fallacy</span><span class="word-meaning">誤った考え、論理的誤謬（ごびゅう）</span></a></li>
+        <li class="word-item"><a href="data/72-mischief.html"><span class="word-id">72</span><span class="word-name">mischief</span><span class="word-meaning">いたずら、茶目っ気、害、損害</span></a></li>
+        <li class="word-item sub-word"><a href="data/72-2-mischievous.html"><span class="word-id">72-2</span><span class="word-name">mischievous</span><span class="word-meaning">いたずら好きな、わんぱくな、悪意のある</span></a></li>
+        <li class="word-item"><a href="data/73-mislead.html"><span class="word-id">73</span><span class="word-name">mislead</span><span class="word-meaning">〜を誤解させる、〜を欺く、迷わせる</span></a></li>
+        <li class="word-item sub-word"><a href="data/73-2-misleading.html"><span class="word-id">73-2</span><span class="word-name">misleading</span><span class="word-meaning">誤解を招くような、紛らわしい</span></a></li>
+        <li class="word-item sub-word"><a href="data/73-3-misinterpret.html"><span class="word-id">73-3</span><span class="word-name">misinterpret</span><span class="word-meaning">〜を誤解する、〜を誤って解釈する</span></a></li>
+        <li class="word-item sub-word"><a href="data/73-4-misinterpretation.html"><span class="word-id">73-4</span><span class="word-name">misinterpretation</span><span class="word-meaning">誤解、誤読、誤った解釈</span></a></li>
+        <li class="word-item sub-word"><a href="data/73-5-misunderstand.html"><span class="word-id">73-5</span><span class="word-name">misunderstand</span><span class="word-meaning">〜を誤解する、〜の意味を取り違える</span></a></li>
+        <li class="word-item sub-word"><a href="data/73-6-misunderstanding.html"><span class="word-id">73-6</span><span class="word-name">misunderstanding</span><span class="word-meaning">誤解、不和、口論</span></a></li>
+        <li class="word-item"><a href="data/74-compensate.html"><span class="word-id">74</span><span class="word-name">compensate</span><span class="word-meaning">〜を補償する、〜に報いる、埋め合わせる</span></a></li>
+        <li class="word-item sub-word"><a href="data/74-2-compensation.html"><span class="word-id">74-2</span><span class="word-name">compensation</span><span class="word-meaning">補償金、報酬、埋め合わせ</span></a></li>
+        <li class="word-item"><a href="data/75-offset.html"><span class="word-id">75</span><span class="word-name">offset</span><span class="word-meaning">〜を相殺する、埋め合わせる、相殺するもの</span></a></li>
+        <li class="word-item"><a href="data/76-supplement.html"><span class="word-id">76</span><span class="word-name">supplement</span><span class="word-meaning">補足、付録、サプリメント、〜を補う</span></a></li>
+        <li class="word-item sub-word"><a href="data/76-2-supplementary.html"><span class="word-id">76-2</span><span class="word-name">supplementary</span><span class="word-meaning">補足の、追加の</span></a></li>
+        <li class="word-item"><a href="data/77-deficiency.html"><span class="word-id">77</span><span class="word-name">deficiency</span><span class="word-meaning">不足、欠乏、欠点</span></a></li>
+        <li class="word-item sub-word"><a href="data/77-2-deficient.html"><span class="word-id">77-2</span><span class="word-name">deficient</span><span class="word-meaning">欠乏した、不十分な</span></a></li>
+        <li class="word-item"><a href="data/78-deficit.html"><span class="word-id">78</span><span class="word-name">deficit</span><span class="word-meaning">赤字、不足（額）</span></a></li>
+        <li class="word-item"><a href="data/79-barren.html"><span class="word-id">79</span><span class="word-name">barren</span><span class="word-meaning">（土地が）不毛の、（植物が）実を結ばない、内容のない</span></a></li>
+        <li class="word-item"><a href="data/80-devoid.html"><span class="word-id">80</span><span class="word-name">devoid</span><span class="word-meaning">〜を欠いている、〜が全くない</span></a></li>
+        <li class="word-item sub-word"><a href="data/80-2-scarcity.html"><span class="word-id">80-2</span><span class="word-name">scarcity</span><span class="word-meaning">不足、欠乏、珍しさ</span></a></li>
+        <li class="word-item sub-word"><a href="data/80-3-scarce.html"><span class="word-id">80-3</span><span class="word-name">scarce</span><span class="word-meaning">乏しい、不十分な、珍しい</span></a></li>
+        <li class="word-item"><a href="data/81-sufficiency.html"><span class="word-id">81</span><span class="word-name">sufficiency</span><span class="word-meaning">十分なこと、十分な量、自給自足</span></a></li>
+        <li class="word-item"><a href="data/82-compact.html"><span class="word-id">82</span><span class="word-name">compact</span><span class="word-meaning">小型の、ぎっしり詰まった、合意、固める</span></a></li>
+        <li class="word-item"><a href="data/83-compassionate.html"><span class="word-id">83</span><span class="word-name">compassionate</span><span class="word-meaning">思いやりのある、慈悲深い</span></a></li>
+        <li class="word-item sub-word"><a href="data/83-2-compassion.html"><span class="word-id">83-2</span><span class="word-name">compassion</span><span class="word-meaning">思いやり、深い同情、慈悲</span></a></li>
+        <li class="word-item"><a href="data/84-compose.html"><span class="word-id">84</span><span class="word-name">compose</span><span class="word-meaning">〜を構成する、組み立てる、作曲・作文する、心を落ち着ける</span></a></li>
+        <li class="word-item sub-word"><a href="data/84-2-composer.html"><span class="word-id">84-2</span><span class="word-name">composer</span><span class="word-meaning">作曲家</span></a></li>
+        <li class="word-item"><a href="data/85-composite.html"><span class="word-id">85</span><span class="word-name">composite</span><span class="word-meaning">合成の、複合的な、合成物</span></a></li>
+        <li class="word-item sub-word"><a href="data/85-2-composition.html"><span class="word-id">85-2</span><span class="word-name">composition</span><span class="word-meaning">構成、組成、作文、楽曲、落ち着き</span></a></li>
+        <li class="word-item"><a href="data/86-comprise.html"><span class="word-id">86</span><span class="word-name">comprise</span><span class="word-meaning">〜から成る、〜を含む、〜を構成する</span></a></li>
+        <li class="word-item sub-word"><a href="data/86-2-complicate.html"><span class="word-id">86-2</span><span class="word-name">complicate</span><span class="word-meaning">〜を複雑にする、〜を紛らわしくする</span></a></li>
+        <li class="word-item sub-word"><a href="data/86-3-complication.html"><span class="word-id">86-3</span><span class="word-name">complication</span><span class="word-meaning">複雑化、厄介な問題、（病気の）合併症</span></a></li>
+    </ul>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
