@@ -1739,6 +1739,1866 @@
           "trans": "名詞：輸出（行為）"
         }
       ]
+    },
+    {
+      "number": 2021,
+      "word": "suffer",
+      "pos": "動詞",
+      "meaning": "苦しむ、被る、経験する",
+      "nuance": "肉体的・精神的な苦痛を経験すること、または損害や不利益を被ることを表します。",
+      "example_sections": [
+        {
+          "title": "例文（苦しむ）",
+          "examples": [
+            {
+              "en": "He suffers from terrible headaches.",
+              "ja": "彼はひどい頭痛に苦しんでいる。",
+              "highlight": "suffers"
+            },
+            {
+              "en": "Many people suffered during the war.",
+              "ja": "多くの人々が戦争中に苦しんだ。",
+              "highlight": "suffered"
+            },
+            {
+              "en": "She is suffering from a lack of sleep.",
+              "ja": "彼女は睡眠不足に苦しんでいる。",
+              "highlight": "suffering"
+            }
+          ]
+        },
+        {
+          "title": "例文（被る）",
+          "examples": [
+            {
+              "en": "The company suffered a huge loss.",
+              "ja": "その会社は莫大な損失を被った。",
+              "highlight": "suffered"
+            },
+            {
+              "en": "The building suffered severe damage.",
+              "ja": "その建物は深刻な被害を受けた。",
+              "highlight": "suffered"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sub-（下から）+ ferre（運ぶ・耐える）→ 重荷を下から支える",
+      "synonyms": [
+        { "word": "endure", "trans": "耐える" },
+        { "word": "experience", "trans": "経験する" },
+        { "word": "undergo", "trans": "受ける" }
+      ],
+      "antonyms": [
+        { "word": "enjoy", "trans": "楽しむ" },
+        { "word": "flourish", "trans": "繁栄する" },
+        { "word": "prosper", "trans": "成功する" }
+      ],
+      "related": [
+        { "word": "suffering", "trans": "名詞：苦痛" },
+        { "word": "sufferer", "trans": "名詞：苦しむ人" },
+        { "word": "insufferable", "trans": "形容詞：耐えられない" }
+      ]
+    },
+    {
+      "number": 2022,
+      "word": "hunger",
+      "pos": "名詞",
+      "meaning": "飢え、空腹、渇望",
+      "nuance": "食物が不足している状態や空腹感、転じて何かを強く求める気持ち（渇望）を表します。",
+      "example_sections": [
+        {
+          "title": "例文（飢え・空腹）",
+          "examples": [
+            {
+              "en": "Many children are dying of hunger.",
+              "ja": "多くの子どもたちが飢えで死んでいる。",
+              "highlight": "hunger"
+            },
+            {
+              "en": "I couldn't sleep because of hunger.",
+              "ja": "空腹で眠れなかった。",
+              "highlight": "hunger"
+            },
+            {
+              "en": "The organization aims to end world hunger.",
+              "ja": "その組織は世界の飢餓を終わらせることを目指している。",
+              "highlight": "hunger"
+            }
+          ]
+        },
+        {
+          "title": "例文（渇望）",
+          "examples": [
+            {
+              "en": "He has a deep hunger for knowledge.",
+              "ja": "彼には知識に対する深い渇望がある。",
+              "highlight": "hunger"
+            },
+            {
+              "en": "Her hunger for success is amazing.",
+              "ja": "彼女の成功への渇望は素晴らしい。",
+              "highlight": "hunger"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 hungor（飢え）から",
+      "synonyms": [
+        { "word": "starvation", "trans": "餓死、飢餓" },
+        { "word": "appetite", "trans": "食欲" },
+        { "word": "desire", "trans": "欲望" }
+      ],
+      "antonyms": [
+        { "word": "fullness", "trans": "満腹" },
+        { "word": "satisfaction", "trans": "満足" },
+        { "word": "disgust", "trans": "嫌悪" }
+      ],
+      "related": [
+        { "word": "hungry", "trans": "形容詞：空腹な" },
+        { "word": "starve", "trans": "動詞：飢える" },
+        { "word": "famine", "trans": "名詞：飢饉" }
+      ]
+    },
+    {
+      "number": 2023,
+      "word": "classify",
+      "pos": "動詞",
+      "meaning": "分類する、等級分けする",
+      "nuance": "共通の性質や特徴に基づいて、物事をグループやカテゴリーに分けることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（分類する）",
+          "examples": [
+            {
+              "en": "Whales are classified as mammals.",
+              "ja": "クジラは哺乳類に分類される。",
+              "highlight": "classified"
+            },
+            {
+              "en": "We need to classify these documents by date.",
+              "ja": "これらの書類を日付順に分類する必要がある。",
+              "highlight": "classify"
+            },
+            {
+              "en": "How would you classify this music?",
+              "ja": "この音楽をどのように分類しますか？",
+              "highlight": "classify"
+            }
+          ]
+        },
+        {
+          "title": "例文（等級分けする・機密扱いにする）",
+          "examples": [
+            {
+              "en": "The information is classified as top secret.",
+              "ja": "その情報は最高機密として等級分け（機密扱い）されている。",
+              "highlight": "classified"
+            },
+            {
+              "en": "Patients are classified according to their symptoms.",
+              "ja": "患者は症状によって等級分けされる。",
+              "highlight": "classified"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 classis（階級）+ -fy（〜にする）",
+      "synonyms": [
+        { "word": "categorize", "trans": "範疇に入れる" },
+        { "word": "sort", "trans": "仕分けする" },
+        { "word": "group", "trans": "グループに分ける" }
+      ],
+      "antonyms": [
+        { "word": "mix", "trans": "混ぜる" },
+        { "word": "confuse", "trans": "混同する" },
+        { "word": "jumble", "trans": "ごちゃ混ぜにする" }
+      ],
+      "related": [
+        { "word": "classification", "trans": "名詞：分類" },
+        { "word": "classified", "trans": "形容詞：機密の、分類された" },
+        { "word": "class", "trans": "名詞：階級、授業" }
+      ]
+    },
+    {
+      "number": 2024,
+      "word": "category",
+      "pos": "名詞",
+      "meaning": "範疇（はんちゅう）、種類、部門",
+      "nuance": "同じ特徴を持つ人や物のグループや枠組みを表します。",
+      "example_sections": [
+        {
+          "title": "例文（カテゴリー・種類）",
+          "examples": [
+            {
+              "en": "This book falls into the category of fiction.",
+              "ja": "この本はフィクションのカテゴリーに入る。",
+              "highlight": "category"
+            },
+            {
+              "en": "There are three main categories of rocks.",
+              "ja": "岩石には主に3つの種類がある。",
+              "highlight": "categories"
+            },
+            {
+              "en": "She won an award in the best actress category.",
+              "ja": "彼女は主演女優部門で賞を獲った。",
+              "highlight": "category"
+            }
+          ]
+        },
+        {
+          "title": "例文（分類の枠組み）",
+          "examples": [
+            {
+              "en": "We created a new category for these items.",
+              "ja": "私たちはこれらの品物のために新しい枠組みを作った。",
+              "highlight": "category"
+            },
+            {
+              "en": "They don't fit easily into any category.",
+              "ja": "彼らはどのカテゴリーにも簡単には当てはまらない。",
+              "highlight": "category"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 kategoria（非難、属性、範疇）から",
+      "synonyms": [
+        { "word": "class", "trans": "階級、種類" },
+        { "word": "group", "trans": "集団" },
+        { "word": "type", "trans": "型、種類" }
+      ],
+      "antonyms": [
+        { "word": "whole", "trans": "全体" },
+        { "word": "entity", "trans": "実体" },
+        { "word": "mixture", "trans": "混合物" }
+      ],
+      "related": [
+        { "word": "categorize", "trans": "動詞：分類する" },
+        { "word": "categorical", "trans": "形容詞：絶対的な、範疇の" },
+        { "word": "categorically", "trans": "副詞：断固として" }
+      ]
+    },
+    {
+      "number": 2025,
+      "word": "affect",
+      "pos": "動詞",
+      "meaning": "影響を及ぼす、心を動かす、（病気が）冒す",
+      "nuance": "何かに変化をもたらすこと（良い影響も悪い影響も含む）や、人の感情を動かすことを表します。",
+      "example_sections": [
+        {
+          "title": "例文（影響を及ぼす）",
+          "examples": [
+            {
+              "en": "The weather can affect your mood.",
+              "ja": "天気は気分に影響を及ぼすことがある。",
+              "highlight": "affect"
+            },
+            {
+              "en": "The new law will affect small businesses.",
+              "ja": "その新しい法律は中小企業に影響を与えるだろう。",
+              "highlight": "affect"
+            },
+            {
+              "en": "Her decision affected everyone in the team.",
+              "ja": "彼女の決定はチームの全員に影響した。",
+              "highlight": "affected"
+            }
+          ]
+        },
+        {
+          "title": "例文（心を動かす・病気が冒す）",
+          "examples": [
+            {
+              "en": "I was deeply affected by the movie.",
+              "ja": "私はその映画に深く心を動かされた。",
+              "highlight": "affected"
+            },
+            {
+              "en": "The disease affects the central nervous system.",
+              "ja": "その病気は中枢神経系を冒す。",
+              "highlight": "affects"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad-（〜へ）+ facere（作る、なす）→ 働きかける",
+      "synonyms": [
+        { "word": "influence", "trans": "影響する" },
+        { "word": "impact", "trans": "衝撃を与える" },
+        { "word": "alter", "trans": "変える" }
+      ],
+      "antonyms": [
+        { "word": "maintain", "trans": "維持する" },
+        { "word": "preserve", "trans": "保護する" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "effect", "trans": "名詞：効果、結果" },
+        { "word": "affection", "trans": "名詞：愛情" },
+        { "word": "effective", "trans": "形容詞：効果的な" }
+      ]
+    },
+    {
+      "number": 2026,
+      "word": "mostly",
+      "pos": "副詞",
+      "meaning": "主に、大部分は、たいてい",
+      "nuance": "全体のうちの大部分を占めていること、または頻度として大部分の割合であることを示します。",
+      "example_sections": [
+        {
+          "title": "例文（大部分は）",
+          "examples": [
+            {
+              "en": "The students are mostly from Japan.",
+              "ja": "学生たちは大部分が日本出身だ。",
+              "highlight": "mostly"
+            },
+            {
+              "en": "The sky was mostly cloudy yesterday.",
+              "ja": "昨日は空がほとんど曇っていた。",
+              "highlight": "mostly"
+            },
+            {
+              "en": "I use my computer mostly for work.",
+              "ja": "私は主に仕事のためにパソコンを使う。",
+              "highlight": "mostly"
+            }
+          ]
+        },
+        {
+          "title": "例文（たいてい）",
+          "examples": [
+            {
+              "en": "We mostly stay home on weekends.",
+              "ja": "私たちは週末はたいてい家にいる。",
+              "highlight": "mostly"
+            },
+            {
+              "en": "She mostly agrees with my opinion.",
+              "ja": "彼女はたいてい私の意見に同意する。",
+              "highlight": "mostly"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 mæst（最も多く）+ -ly",
+      "synonyms": [
+        { "word": "mainly", "trans": "主に" },
+        { "word": "chiefly", "trans": "主として" },
+        { "word": "largely", "trans": "大部分は" }
+      ],
+      "antonyms": [
+        { "word": "rarely", "trans": "めったに〜ない" },
+        { "word": "seldom", "trans": "まれに" },
+        { "word": "hardly", "trans": "ほとんど〜ない" }
+      ],
+      "related": [
+        { "word": "most", "trans": "形容詞：大部分の" },
+        { "word": "almost", "trans": "副詞：ほとんど" },
+        { "word": "utmost", "trans": "形容詞：最大の" }
+      ]
+    },
+    {
+      "number": 2027,
+      "word": "minimum",
+      "pos": "名詞",
+      "meaning": "最小限、最低限／（形容詞）最小の",
+      "nuance": "可能な限りの最も小さい量や程度、または必要とされる最低の基準を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：最小限）",
+          "examples": [
+            {
+              "en": "We need a minimum of ten people.",
+              "ja": "最低でも10人は必要だ。",
+              "highlight": "minimum"
+            },
+            {
+              "en": "Keep the noise to a minimum.",
+              "ja": "騒音を最小限に抑えなさい。",
+              "highlight": "minimum"
+            },
+            {
+              "en": "The temperature dropped to a record minimum.",
+              "ja": "気温が記録的な最低値まで下がった。",
+              "highlight": "minimum"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞：最小の）",
+          "examples": [
+            {
+              "en": "What is the minimum age requirement?",
+              "ja": "最低年齢の条件は何歳ですか？",
+              "highlight": "minimum"
+            },
+            {
+              "en": "They pay the minimum wage.",
+              "ja": "彼らは最低賃金を支払っている。",
+              "highlight": "minimum"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 minimus（最も小さい）から",
+      "synonyms": [
+        { "word": "least", "trans": "最小の" },
+        { "word": "lowest", "trans": "最低の" },
+        { "word": "minimal", "trans": "最小限度の" }
+      ],
+      "antonyms": [
+        { "word": "maximum", "trans": "最大限" },
+        { "word": "most", "trans": "最大の" },
+        { "word": "highest", "trans": "最高の" }
+      ],
+      "related": [
+        { "word": "minimize", "trans": "動詞：最小限にする" },
+        { "word": "minimalist", "trans": "名詞：ミニマリスト" },
+        { "word": "maximal", "trans": "形容詞：最大限の" }
+      ]
+    },
+    {
+      "number": 2028,
+      "word": "cause",
+      "pos": "名詞",
+      "meaning": "原因、理由、大義／（動詞）引き起こす",
+      "nuance": "ある結果や出来事を生じさせた根本的な理由（原因）や、自らが主語となって何かを発生させる（引き起こす）ことを表します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：原因・理由）",
+          "examples": [
+            {
+              "en": "They are investigating the cause of the fire.",
+              "ja": "彼らは火事の原因を調査している。",
+              "highlight": "cause"
+            },
+            {
+              "en": "There is no cause for concern.",
+              "ja": "心配する理由（必要）はありません。",
+              "highlight": "cause"
+            },
+            {
+              "en": "She raised money for a good cause.",
+              "ja": "彼女は立派な大義（目的）のために資金を集めた。",
+              "highlight": "cause"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：引き起こす）",
+          "examples": [
+            {
+              "en": "The storm caused extensive damage.",
+              "ja": "その嵐は広範囲にわたる被害を引き起こした。",
+              "highlight": "caused"
+            },
+            {
+              "en": "What caused you to change your mind?",
+              "ja": "何があなたに心変わりをさせたのですか？",
+              "highlight": "caused"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 causa（理由、動機）から",
+      "synonyms": [
+        { "word": "reason", "trans": "理由" },
+        { "word": "origin", "trans": "起源" },
+        { "word": "produce", "trans": "生み出す" }
+      ],
+      "antonyms": [
+        { "word": "effect", "trans": "結果" },
+        { "word": "result", "trans": "結果" },
+        { "word": "outcome", "trans": "成果" }
+      ],
+      "related": [
+        { "word": "causal", "trans": "形容詞：原因となる" },
+        { "word": "because", "trans": "接続詞：なぜなら" },
+        { "word": "causation", "trans": "名詞：因果関係" }
+      ]
+    },
+    {
+      "number": 2029,
+      "word": "poverty",
+      "pos": "名詞",
+      "meaning": "貧困、欠乏、貧弱",
+      "nuance": "生活に必要な資金や物資が著しく不足している状態（貧困）を指します。",
+      "example_sections": [
+        {
+          "title": "例文（貧困）",
+          "examples": [
+            {
+              "en": "Many families live in extreme poverty.",
+              "ja": "多くの家族が極度の貧困の中で暮らしている。",
+              "highlight": "poverty"
+            },
+            {
+              "en": "The government is trying to reduce poverty.",
+              "ja": "政府は貧困を減らそうと努めている。",
+              "highlight": "poverty"
+            },
+            {
+              "en": "He grew up in poverty.",
+              "ja": "彼は貧困の中で育った。",
+              "highlight": "poverty"
+            }
+          ]
+        },
+        {
+          "title": "例文（欠乏・貧弱）",
+          "examples": [
+            {
+              "en": "There is a poverty of imagination in his work.",
+              "ja": "彼の作品には想像力の欠乏が見られる。",
+              "highlight": "poverty"
+            },
+            {
+              "en": "The soil suffers from poverty of nutrients.",
+              "ja": "その土壌は栄養素の不足に悩まされている。",
+              "highlight": "poverty"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 pauper（貧しい）から",
+      "synonyms": [
+        { "word": "destitution", "trans": "極貧" },
+        { "word": "shortage", "trans": "不足" },
+        { "word": "hardship", "trans": "苦難" }
+      ],
+      "antonyms": [
+        { "word": "wealth", "trans": "富" },
+        { "word": "abundance", "trans": "豊富" },
+        { "word": "prosperity", "trans": "繁栄" }
+      ],
+      "related": [
+        { "word": "poor", "trans": "形容詞：貧しい" },
+        { "word": "impoverish", "trans": "動詞：貧しくする" },
+        { "word": "pauper", "trans": "名詞：貧困者" }
+      ]
+    },
+    {
+      "number": 2030,
+      "word": "feed",
+      "pos": "動詞",
+      "meaning": "食べ物を与える、養う、供給する",
+      "nuance": "人や動物に食事を与えることや、機械などにデータや燃料を供給することを表します。過去形・過去分詞は fed です。",
+      "example_sections": [
+        {
+          "title": "例文（食べ物を与える・養う）",
+          "examples": [
+            {
+              "en": "Did you feed the dog yet?",
+              "ja": "もう犬にエサをあげましたか？",
+              "highlight": "feed"
+            },
+            {
+              "en": "She works hard to feed her family.",
+              "ja": "彼女は家族を養うために一生懸命働いている。",
+              "highlight": "feed"
+            },
+            {
+              "en": "The baby feeds on breast milk.",
+              "ja": "その赤ん坊は母乳を飲んで育つ。",
+              "highlight": "feeds"
+            }
+          ]
+        },
+        {
+          "title": "例文（供給する）",
+          "examples": [
+            {
+              "en": "The stream feeds into the river.",
+              "ja": "その小川は川に流れ込んでいる（水を供給している）。",
+              "highlight": "feeds"
+            },
+            {
+              "en": "He fed the documents into the shredder.",
+              "ja": "彼は書類をシュレッダーに入れた。",
+              "highlight": "fed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 fedan（養う、育てる）から",
+      "synonyms": [
+        { "word": "nourish", "trans": "栄養を与える" },
+        { "word": "provide", "trans": "供給する" },
+        { "word": "supply", "trans": "支給する" }
+      ],
+      "antonyms": [
+        { "word": "starve", "trans": "飢えさせる" },
+        { "word": "deprive", "trans": "奪う" },
+        { "word": "take", "trans": "取る" }
+      ],
+      "related": [
+        { "word": "food", "trans": "名詞：食べ物" },
+        { "word": "feedback", "trans": "名詞：反応、評価" },
+        { "word": "feeder", "trans": "名詞：餌箱、供給線" }
+      ]
+    },
+    {
+      "number": 2031,
+      "word": "distribution",
+      "pos": "名詞",
+      "meaning": "分布、分配、流通",
+      "nuance": "物資や情報が広く分け与えられること（分配・流通）や、ある範囲においてどのように散らばっているか（分布）を表します。",
+      "example_sections": [
+        {
+          "title": "例文（分配・流通）",
+          "examples": [
+            {
+              "en": "The distribution of food was delayed.",
+              "ja": "食料の分配が遅れた。",
+              "highlight": "distribution"
+            },
+            {
+              "en": "He works in the distribution department.",
+              "ja": "彼は流通部門で働いている。",
+              "highlight": "distribution"
+            },
+            {
+              "en": "They discussed the fair distribution of wealth.",
+              "ja": "彼らは富の公平な分配について議論した。",
+              "highlight": "distribution"
+            }
+          ]
+        },
+        {
+          "title": "例文（分布）",
+          "examples": [
+            {
+              "en": "We mapped the distribution of this plant species.",
+              "ja": "私たちはこの植物種の分布を地図にした。",
+              "highlight": "distribution"
+            },
+            {
+              "en": "The age distribution of the population is changing.",
+              "ja": "人口の年齢分布は変化している。",
+              "highlight": "distribution"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 dis-（離れて）+ tribuere（割り当てる）",
+      "synonyms": [
+        { "word": "allocation", "trans": "割り当て" },
+        { "word": "sharing", "trans": "共有" },
+        { "word": "spread", "trans": "広がり" }
+      ],
+      "antonyms": [
+        { "word": "collection", "trans": "収集" },
+        { "word": "gathering", "trans": "集めること" },
+        { "word": "retention", "trans": "保持" }
+      ],
+      "related": [
+        { "word": "distribute", "trans": "動詞：分配する" },
+        { "word": "distributor", "trans": "名詞：販売代理店" },
+        { "word": "contribute", "trans": "動詞：貢献する" }
+      ]
+    },
+    {
+      "number": 2032,
+      "word": "including",
+      "pos": "前置詞",
+      "meaning": "〜を含めて",
+      "nuance": "全体の中に特定の物や人が一部として入っていることを具体的に示すために使われます。",
+      "example_sections": [
+        {
+          "title": "例文（〜を含めて）",
+          "examples": [
+            {
+              "en": "Everyone laughed, including the teacher.",
+              "ja": "先生を含めて、皆が笑った。",
+              "highlight": "including"
+            },
+            {
+              "en": "The price is 50 dollars, including tax.",
+              "ja": "価格は税込み（税を含めて）50ドルです。",
+              "highlight": "including"
+            },
+            {
+              "en": "Ten people were injured, including two children.",
+              "ja": "2人の子どもを含め、10人が負傷した。",
+              "highlight": "including"
+            }
+          ]
+        },
+        {
+          "title": "例文（同上）",
+          "examples": [
+            {
+              "en": "He has many hobbies, including fishing and reading.",
+              "ja": "彼は釣りや読書を含め、多くの趣味を持っている。",
+              "highlight": "including"
+            },
+            {
+              "en": "All members, including myself, agreed.",
+              "ja": "私自身を含め、全メンバーが同意した。",
+              "highlight": "including"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in-（中に）+ claudere（閉じる）の現在分詞から",
+      "synonyms": [
+        { "word": "containing", "trans": "含んで" },
+        { "word": "comprising", "trans": "構成して" },
+        { "word": "with", "trans": "〜と共に" }
+      ],
+      "antonyms": [
+        { "word": "excluding", "trans": "〜を除いて" },
+        { "word": "except", "trans": "〜以外は" },
+        { "word": "omitting", "trans": "省いて" }
+      ],
+      "related": [
+        { "word": "include", "trans": "動詞：含む" },
+        { "word": "inclusion", "trans": "名詞：包含" },
+        { "word": "inclusive", "trans": "形容詞：すべてを含んだ" }
+      ]
+    },
+    {
+      "number": 2033,
+      "word": "rent",
+      "pos": "名詞",
+      "meaning": "家賃、使用料／（動詞）賃借りする、賃貸しする",
+      "nuance": "お金を払って土地、建物、物などを一時的に借りること、またはその料金を指します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：家賃・使用料）",
+          "examples": [
+            {
+              "en": "The rent is due on the first of every month.",
+              "ja": "家賃は毎月1日が期限だ。",
+              "highlight": "rent"
+            },
+            {
+              "en": "They can't afford to pay the rent.",
+              "ja": "彼らは家賃を払う余裕がない。",
+              "highlight": "rent"
+            },
+            {
+              "en": "Car rent here is very expensive.",
+              "ja": "ここの車のレンタル料はとても高い。",
+              "highlight": "rent"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：借りる・貸す）",
+          "examples": [
+            {
+              "en": "We decided to rent an apartment.",
+              "ja": "私たちはアパートを借りることにした。",
+              "highlight": "rent"
+            },
+            {
+              "en": "He rents out his spare room to students.",
+              "ja": "彼は空き部屋を学生に貸し出している。",
+              "highlight": "rents out"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 reddere（返す、与える）から",
+      "synonyms": [
+        { "word": "lease", "trans": "賃貸借契約、借りる" },
+        { "word": "hire", "trans": "借りる、雇う" },
+        { "word": "let", "trans": "貸す" }
+      ],
+      "antonyms": [
+        { "word": "buy", "trans": "買う" },
+        { "word": "purchase", "trans": "購入する" },
+        { "word": "own", "trans": "所有する" }
+      ],
+      "related": [
+        { "word": "rental", "trans": "名詞：レンタル、賃貸" },
+        { "word": "renter", "trans": "名詞：借り主" },
+        { "word": "rent-free", "trans": "形容詞：家賃無料の" }
+      ]
+    },
+    {
+      "number": 2034,
+      "word": "require",
+      "pos": "動詞",
+      "meaning": "必要とする、要求する",
+      "nuance": "ある目的のために絶対に必要であること、または規則や法律によって義務として求められることを示します。",
+      "example_sections": [
+        {
+          "title": "例文（必要とする）",
+          "examples": [
+            {
+              "en": "This job requires a lot of patience.",
+              "ja": "この仕事には多くの忍耐が必要だ。",
+              "highlight": "requires"
+            },
+            {
+              "en": "These plants require direct sunlight.",
+              "ja": "これらの植物は直射日光を必要とする。",
+              "highlight": "require"
+            },
+            {
+              "en": "It requires time and effort to learn a language.",
+              "ja": "言語を学ぶには時間と努力が必要だ。",
+              "highlight": "requires"
+            }
+          ]
+        },
+        {
+          "title": "例文（要求する）",
+          "examples": [
+            {
+              "en": "All passengers are required to wear seat belts.",
+              "ja": "すべての乗客はシートベルトの着用が義務付けられている（要求されている）。",
+              "highlight": "required"
+            },
+            {
+              "en": "The law requires that you have a license.",
+              "ja": "法律はあなたが免許を持つことを要求している。",
+              "highlight": "requires"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 re-（再び）+ quaerere（求める）",
+      "synonyms": [
+        { "word": "need", "trans": "必要とする" },
+        { "word": "demand", "trans": "要求する" },
+        { "word": "entail", "trans": "伴う" }
+      ],
+      "antonyms": [
+        { "word": "optional", "trans": "任意の（※形容詞）" },
+        { "word": "waive", "trans": "放棄する、免除する" },
+        { "word": "relinquish", "trans": "手放す" }
+      ],
+      "related": [
+        { "word": "requirement", "trans": "名詞：必要条件" },
+        { "word": "prerequisite", "trans": "名詞：前提条件" },
+        { "word": "acquire", "trans": "動詞：習得する" }
+      ]
+    },
+    {
+      "number": 2035,
+      "word": "income",
+      "pos": "名詞",
+      "meaning": "収入、所得",
+      "nuance": "仕事や投資などから定期的または継続的に得られる金銭（収入）を指します。",
+      "example_sections": [
+        {
+          "title": "例文（収入・所得）",
+          "examples": [
+            {
+              "en": "His monthly income is quite high.",
+              "ja": "彼の月収はかなり高い。",
+              "highlight": "income"
+            },
+            {
+              "en": "They rely on a single income.",
+              "ja": "彼らは一つの収入源に頼っている。",
+              "highlight": "income"
+            },
+            {
+              "en": "The government increased income tax.",
+              "ja": "政府は所得税を引き上げた。",
+              "highlight": "income"
+            }
+          ]
+        },
+        {
+          "title": "例文（同上、別文脈）",
+          "examples": [
+            {
+              "en": "She generates extra income by selling crafts.",
+              "ja": "彼女は工芸品を売ることで副収入を得ている。",
+              "highlight": "income"
+            },
+            {
+              "en": "Low-income families will receive support.",
+              "ja": "低所得の家族は支援を受ける。",
+              "highlight": "income"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 in-（中へ）+ cuman（来る）→ 入ってくるもの",
+      "synonyms": [
+        { "word": "earnings", "trans": "稼ぎ" },
+        { "word": "revenue", "trans": "歳入、収益" },
+        { "word": "salary", "trans": "給料" }
+      ],
+      "antonyms": [
+        { "word": "expense", "trans": "支出" },
+        { "word": "expenditure", "trans": "支出額" },
+        { "word": "loss", "trans": "損失" }
+      ],
+      "related": [
+        { "word": "outcome", "trans": "名詞：結果" },
+        { "word": "incoming", "trans": "形容詞：入ってくる" },
+        { "word": "wage", "trans": "名詞：賃金" }
+      ]
+    },
+    {
+      "number": 2036,
+      "word": "output",
+      "pos": "名詞",
+      "meaning": "生産量、出力、結果",
+      "nuance": "工場などで作り出された物の量や、機械・コンピューターなどから生み出されたデータ（出力）を指します。",
+      "example_sections": [
+        {
+          "title": "例文（生産量）",
+          "examples": [
+            {
+              "en": "The factory has doubled its output.",
+              "ja": "その工場は生産量を2倍にした。",
+              "highlight": "output"
+            },
+            {
+              "en": "Agricultural output fell this year.",
+              "ja": "今年は農業生産高が落ちた。",
+              "highlight": "output"
+            },
+            {
+              "en": "They are trying to increase industrial output.",
+              "ja": "彼らは工業生産量を増やそうとしている。",
+              "highlight": "output"
+            }
+          ]
+        },
+        {
+          "title": "例文（出力・結果）",
+          "examples": [
+            {
+              "en": "Check the audio output of the device.",
+              "ja": "その装置の音声出力を確認して。",
+              "highlight": "output"
+            },
+            {
+              "en": "The computer's output was printed on paper.",
+              "ja": "コンピューターの出力結果は紙に印刷された。",
+              "highlight": "output"
+            }
+          ]
+        }
+      ],
+      "etymology": "out（外へ）+ put（置く）",
+      "synonyms": [
+        { "word": "production", "trans": "生産" },
+        { "word": "yield", "trans": "産出量" },
+        { "word": "result", "trans": "結果" }
+      ],
+      "antonyms": [
+        { "word": "input", "trans": "入力、投入" },
+        { "word": "intake", "trans": "摂取量" },
+        { "word": "consumption", "trans": "消費" }
+      ],
+      "related": [
+        { "word": "input", "trans": "名詞：入力" },
+        { "word": "throughput", "trans": "名詞：処理能力" },
+        { "word": "put out", "trans": "動詞句：火を消す、生産する" }
+      ]
+    },
+    {
+      "number": 2037,
+      "word": "generally",
+      "pos": "副詞",
+      "meaning": "一般的に、大体、通常",
+      "nuance": "例外はあるものの全体的に見てそうであることや、広く一般に受け入れられていることを表します。",
+      "example_sections": [
+        {
+          "title": "例文（一般的に）",
+          "examples": [
+            {
+              "en": "Generally speaking, women live longer than men.",
+              "ja": "一般的に言って、女性は男性より長生きする。",
+              "highlight": "Generally"
+            },
+            {
+              "en": "It is generally accepted that smoking is bad for you.",
+              "ja": "喫煙が健康に悪いことは一般的に認められている。",
+              "highlight": "generally"
+            },
+            {
+              "en": "He is generally well-liked by his peers.",
+              "ja": "彼は一般的に同僚から好かれている。",
+              "highlight": "generally"
+            }
+          ]
+        },
+        {
+          "title": "例文（大体・通常）",
+          "examples": [
+            {
+              "en": "I generally wake up at 7 AM.",
+              "ja": "私は大体（通常）午前7時に起きる。",
+              "highlight": "generally"
+            },
+            {
+              "en": "The weather here is generally mild.",
+              "ja": "ここの天気は大体において穏やかだ。",
+              "highlight": "generally"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 generalis（全体に関する）+ -ly",
+      "synonyms": [
+        { "word": "usually", "trans": "普通は" },
+        { "word": "broadly", "trans": "大まかに" },
+        { "word": "commonly", "trans": "一般に" }
+      ],
+      "antonyms": [
+        { "word": "specifically", "trans": "具体的に" },
+        { "word": "rarely", "trans": "めったに〜ない" },
+        { "word": "unusually", "trans": "異常に" }
+      ],
+      "related": [
+        { "word": "general", "trans": "形容詞：一般的な" },
+        { "word": "generalize", "trans": "動詞：一般化する" },
+        { "word": "generalization", "trans": "名詞：一般化" }
+      ]
+    },
+    {
+      "number": 2038,
+      "word": "associate",
+      "pos": "動詞",
+      "meaning": "関連付ける、連想する",
+      "nuance": "二つの事柄や概念を頭の中で結びつけることを表します。（※単語帳の再出単語です）",
+      "example_sections": [
+        {
+          "title": "例文（関連付ける・連想する）",
+          "examples": [
+            {
+              "en": "Most people associate this brand with high quality.",
+              "ja": "大半の人はこのブランドを高品質と関連付ける。",
+              "highlight": "associate"
+            },
+            {
+              "en": "Dark clouds are usually associated with rain.",
+              "ja": "暗い雲は通常、雨と関連付けられる。",
+              "highlight": "associated"
+            },
+            {
+              "en": "It is difficult to associate him with such a crime.",
+              "ja": "彼をそのような犯罪と結びつけるのは難しい。",
+              "highlight": "associate"
+            }
+          ]
+        },
+        {
+          "title": "例文（交際する・仲間になる）",
+          "examples": [
+            {
+              "en": "She doesn't associate with her former classmates.",
+              "ja": "彼女は以前のクラスメイトとは付き合っていない。",
+              "highlight": "associate with"
+            },
+            {
+              "en": "He was known to associate with criminals.",
+              "ja": "彼は犯罪者と交際していることで知られていた。",
+              "highlight": "associate with"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad-（〜へ）+ sociare（結びつける）",
+      "synonyms": [
+        { "word": "link", "trans": "結びつける" },
+        { "word": "connect", "trans": "つなぐ" },
+        { "word": "relate", "trans": "関連させる" }
+      ],
+      "antonyms": [
+        { "word": "separate", "trans": "分ける" },
+        { "word": "disconnect", "trans": "切断する" },
+        { "word": "dissociate", "trans": "切り離す" }
+      ],
+      "related": [
+        { "word": "association", "trans": "名詞：協会、連想" },
+        { "word": "associative", "trans": "形容詞：連想の" },
+        { "word": "associate professor", "trans": "名詞：准教授" }
+      ]
+    },
+    {
+      "number": 2039,
+      "word": "regional",
+      "pos": "形容詞",
+      "meaning": "地域の、地方の",
+      "nuance": "国全体や世界規模ではなく、特定の範囲やエリア（地域）に限定されていることを示します。",
+      "example_sections": [
+        {
+          "title": "例文（地域の・地方の）",
+          "examples": [
+            {
+              "en": "The newspaper covers local and regional news.",
+              "ja": "その新聞は地元や地域のニュースをカバーしている。",
+              "highlight": "regional"
+            },
+            {
+              "en": "There are significant regional differences in dialect.",
+              "ja": "方言には大きな地域差がある。",
+              "highlight": "regional"
+            },
+            {
+              "en": "They held a regional conference in Kyoto.",
+              "ja": "彼らは京都で地域会議を開いた。",
+              "highlight": "regional"
+            }
+          ]
+        },
+        {
+          "title": "例文（同上、別文脈）",
+          "examples": [
+            {
+              "en": "The regional government passed a new law.",
+              "ja": "地方政府は新しい法律を可決した。",
+              "highlight": "regional"
+            },
+            {
+              "en": "He manages the regional office.",
+              "ja": "彼は支社（地域オフィス）を管理している。",
+              "highlight": "regional"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 regio（境界線、地域）+ -al",
+      "synonyms": [
+        { "word": "local", "trans": "地元の" },
+        { "word": "provincial", "trans": "地方の" },
+        { "word": "territorial", "trans": "領土の" }
+      ],
+      "antonyms": [
+        { "word": "national", "trans": "全国的な" },
+        { "word": "global", "trans": "世界的な" },
+        { "word": "universal", "trans": "普遍的な" }
+      ],
+      "related": [
+        { "word": "region", "trans": "名詞：地域" },
+        { "word": "regionally", "trans": "副詞：地域的に" },
+        { "word": "religion", "trans": "名詞：宗教（※スペルが似ている単語）" }
+      ]
+    },
+    {
+      "number": 2040,
+      "word": "famine",
+      "pos": "名詞",
+      "meaning": "飢饉、極端な欠乏",
+      "nuance": "干ばつや戦争などの影響で、広範囲にわたって食料が極度に不足する事態（飢饉）を指します。",
+      "example_sections": [
+        {
+          "title": "例文（飢饉）",
+          "examples": [
+            {
+              "en": "Millions of people died during the great famine.",
+              "ja": "大飢饉の間に何百万人もの人々が亡くなった。",
+              "highlight": "famine"
+            },
+            {
+              "en": "The country is facing a severe famine.",
+              "ja": "その国は深刻な飢饉に直面している。",
+              "highlight": "famine"
+            },
+            {
+              "en": "Famine and disease spread quickly.",
+              "ja": "飢饉と病気が急速に広がった。",
+              "highlight": "Famine"
+            }
+          ]
+        },
+        {
+          "title": "例文（極端な欠乏）",
+          "examples": [
+            {
+              "en": "There is a famine of creative ideas here.",
+              "ja": "ここでは創造的なアイデアが極端に欠乏している。",
+              "highlight": "famine"
+            },
+            {
+              "en": "A sudden fuel famine hit the city.",
+              "ja": "突然の燃料不足がその都市を襲った。",
+              "highlight": "famine"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 fames（飢え）から",
+      "synonyms": [
+        { "word": "starvation", "trans": "飢餓" },
+        { "word": "scarcity", "trans": "不足" },
+        { "word": "shortage", "trans": "欠乏" }
+      ],
+      "antonyms": [
+        { "word": "abundance", "trans": "豊富" },
+        { "word": "plenty", "trans": "多量" },
+        { "word": "feast", "trans": "ごちそう" }
+      ],
+      "related": [
+        { "word": "famished", "trans": "形容詞：ひどく空腹の" },
+        { "word": "hunger", "trans": "名詞：飢え" },
+        { "word": "starve", "trans": "動詞：飢える" }
+      ]
+    },
+    {
+      "number": 2041,
+      "word": "estimate",
+      "pos": "動詞",
+      "meaning": "推定する、見積もる／（名詞）見積もり",
+      "nuance": "利用可能な情報に基づいて、おおよその数量、価格、価値などを計算して推測することを表します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：推定する・見積もる）",
+          "examples": [
+            {
+              "en": "They estimate that the project will take two years.",
+              "ja": "彼らはそのプロジェクトに2年かかると推定している。",
+              "highlight": "estimate"
+            },
+            {
+              "en": "The damage is estimated at one million dollars.",
+              "ja": "損害は100万ドルと見積もられている。",
+              "highlight": "estimated"
+            },
+            {
+              "en": "It is hard to estimate the total cost.",
+              "ja": "総費用を見積もるのは難しい。",
+              "highlight": "estimate"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：見積もり）",
+          "examples": [
+            {
+              "en": "Can you give me a rough estimate?",
+              "ja": "大ざっぱな見積もりを教えてもらえますか？",
+              "highlight": "estimate"
+            },
+            {
+              "en": "According to official estimates, the population is growing.",
+              "ja": "公式な推計によれば、人口は増加している。",
+              "highlight": "estimates"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 aestimare（価値を定める）から",
+      "synonyms": [
+        { "word": "guess", "trans": "推測する" },
+        { "word": "calculate", "trans": "計算する" },
+        { "word": "assess", "trans": "評価する" }
+      ],
+      "antonyms": [
+        { "word": "know", "trans": "知っている" },
+        { "word": "measure exactly", "trans": "正確に測る" },
+        { "word": "prove", "trans": "証明する" }
+      ],
+      "related": [
+        { "word": "estimation", "trans": "名詞：評価、判断" },
+        { "word": "underestimate", "trans": "動詞：過小評価する" },
+        { "word": "overestimate", "trans": "動詞：過大評価する" }
+      ]
+    },
+    {
+      "number": 2042,
+      "word": "sustain",
+      "pos": "動詞",
+      "meaning": "維持する、持続させる、耐える",
+      "nuance": "長期間にわたって状態を保つ（維持する）ことや、重さや困難に耐えて支えることを意味します。",
+      "example_sections": [
+        {
+          "title": "例文（維持する・持続させる）",
+          "examples": [
+            {
+              "en": "There is not enough food to sustain the population.",
+              "ja": "人口を維持するのに十分な食料がない。",
+              "highlight": "sustain"
+            },
+            {
+              "en": "He found it difficult to sustain his interest in the subject.",
+              "ja": "彼はその主題への興味を持続させることが難しいと感じた。",
+              "highlight": "sustain"
+            },
+            {
+              "en": "The economy has sustained steady growth.",
+              "ja": "経済は安定した成長を維持している。",
+              "highlight": "sustained"
+            }
+          ]
+        },
+        {
+          "title": "例文（耐える・被る）",
+          "examples": [
+            {
+              "en": "She sustained severe injuries in the accident.",
+              "ja": "彼女はその事故で重傷を負った（被った）。",
+              "highlight": "sustained"
+            },
+            {
+              "en": "The pillars sustain the weight of the roof.",
+              "ja": "柱が屋根の重さを支えている（耐えている）。",
+              "highlight": "sustain"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sub-（下から）+ tenere（保つ）→ 下から支える",
+      "synonyms": [
+        { "word": "maintain", "trans": "維持する" },
+        { "word": "support", "trans": "支持する" },
+        { "word": "endure", "trans": "耐える" }
+      ],
+      "antonyms": [
+        { "word": "abandon", "trans": "見捨てる" },
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "stop", "trans": "やめる" }
+      ],
+      "related": [
+        { "word": "sustainable", "trans": "形容詞：持続可能な" },
+        { "word": "sustainability", "trans": "名詞：持続可能性" },
+        { "word": "sustenance", "trans": "名詞：生命を維持するもの、栄養" }
+      ]
+    },
+    {
+      "number": 2043,
+      "word": "ruin",
+      "pos": "動詞",
+      "meaning": "破滅させる、台無しにする／（名詞）破滅、廃墟",
+      "nuance": "価値や美しさ、状態を完全に損なったり壊したりすること、またその結果としての残骸や廃墟を指します。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：破滅させる・台無しにする）",
+          "examples": [
+            {
+              "en": "The scandal ruined his political career.",
+              "ja": "そのスキャンダルは彼の政治家としてのキャリアを破滅させた。",
+              "highlight": "ruined"
+            },
+            {
+              "en": "Don't ruin the surprise!",
+              "ja": "サプライズを台無しにしないで！",
+              "highlight": "ruin"
+            },
+            {
+              "en": "The heavy rain ruined our picnic.",
+              "ja": "大雨でピクニックが台無しになった。",
+              "highlight": "ruined"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：破滅・廃墟）",
+          "examples": [
+            {
+              "en": "The ancient city is now in ruins.",
+              "ja": "その古代都市は今では廃墟となっている。",
+              "highlight": "ruins"
+            },
+            {
+              "en": "His gambling led to his financial ruin.",
+              "ja": "彼のギャンブルが経済的な破滅を招いた。",
+              "highlight": "ruin"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ruere（倒れる、落ちる）から",
+      "synonyms": [
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "spoil", "trans": "台無しにする" },
+        { "word": "wreck", "trans": "難破させる" }
+      ],
+      "antonyms": [
+        { "word": "build", "trans": "建てる" },
+        { "word": "save", "trans": "救う" },
+        { "word": "improve", "trans": "改善する" }
+      ],
+      "related": [
+        { "word": "ruinous", "trans": "形容詞：破滅的な" },
+        { "word": "ruination", "trans": "名詞：破滅、崩壊" },
+        { "word": "ruined", "trans": "形容詞：荒廃した" }
+      ]
+    },
+    {
+      "number": 2044,
+      "word": "starve",
+      "pos": "動詞",
+      "meaning": "飢える、餓死する、渇望する",
+      "nuance": "極度の空腹で苦しんだり死んだりすること。また、何かを非常に強く必要としていること（愛情など）を表します。",
+      "example_sections": [
+        {
+          "title": "例文（飢える・餓死する）",
+          "examples": [
+            {
+              "en": "Millions were left to starve.",
+              "ja": "何百万人もの人々が飢えるままに放置された。",
+              "highlight": "starve"
+            },
+            {
+              "en": "The stray dog was starving to death.",
+              "ja": "その野良犬は餓死しそうだった。",
+              "highlight": "starving"
+            },
+            {
+              "en": "I'm starving! Let's get some food.",
+              "ja": "お腹がペコペコだ！何か食べよう。",
+              "highlight": "starving"
+            }
+          ]
+        },
+        {
+          "title": "例文（渇望する）",
+          "examples": [
+            {
+              "en": "The child is starving for affection.",
+              "ja": "その子どもは愛情に飢えている。",
+              "highlight": "starving for"
+            },
+            {
+              "en": "She was starved of information.",
+              "ja": "彼女は情報に飢えていた。",
+              "highlight": "starved of"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 steorfan（死ぬ）から",
+      "synonyms": [
+        { "word": "famish", "trans": "飢えさせる" },
+        { "word": "fast", "trans": "断食する" },
+        { "word": "deprive", "trans": "奪う" }
+      ],
+      "antonyms": [
+        { "word": "feed", "trans": "食べ物を与える" },
+        { "word": "nourish", "trans": "栄養を与える" },
+        { "word": "satisfy", "trans": "満たす" }
+      ],
+      "related": [
+        { "word": "starvation", "trans": "名詞：餓死、飢餓" },
+        { "word": "starving", "trans": "形容詞：非常に空腹な" },
+        { "word": "hunger", "trans": "名詞：飢え" }
+      ]
+    },
+    {
+      "number": 2045,
+      "word": "contribute",
+      "pos": "動詞",
+      "meaning": "貢献する、寄付する、一因となる",
+      "nuance": "目標達成のために時間やお金などを提供する（貢献・寄付）ことや、ある結果をもたらす要因の一つになることを示します。",
+      "example_sections": [
+        {
+          "title": "例文（貢献する・寄付する）",
+          "examples": [
+            {
+              "en": "She contributed a lot of money to the charity.",
+              "ja": "彼女はその慈善団体に多額の寄付をした。",
+              "highlight": "contributed"
+            },
+            {
+              "en": "Everyone is expected to contribute to the discussion.",
+              "ja": "全員が議論に貢献することが期待されている。",
+              "highlight": "contribute"
+            },
+            {
+              "en": "He contributed an article to the magazine.",
+              "ja": "彼はその雑誌に記事を寄稿した。",
+              "highlight": "contributed"
+            }
+          ]
+        },
+        {
+          "title": "例文（一因となる）",
+          "examples": [
+            {
+              "en": "Stress can contribute to heart disease.",
+              "ja": "ストレスは心臓病の一因となる可能性がある。",
+              "highlight": "contribute to"
+            },
+            {
+              "en": "Many factors contributed to his success.",
+              "ja": "多くの要因が彼の成功に貢献した（一因となった）。",
+              "highlight": "contributed to"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 con-（共に）+ tribuere（与える）",
+      "synonyms": [
+        { "word": "donate", "trans": "寄付する" },
+        { "word": "add", "trans": "加える" },
+        { "word": "supply", "trans": "供給する" }
+      ],
+      "antonyms": [
+        { "word": "take", "trans": "取る" },
+        { "word": "subtract", "trans": "引く" },
+        { "word": "hinder", "trans": "妨げる" }
+      ],
+      "related": [
+        { "word": "contribution", "trans": "名詞：貢献、寄付" },
+        { "word": "contributor", "trans": "名詞：貢献者" },
+        { "word": "distribute", "trans": "動詞：分配する" }
+      ]
+    },
+    {
+      "number": 2046,
+      "word": "pension",
+      "pos": "名詞",
+      "meaning": "年金、恩給",
+      "nuance": "定年退職後などに、国や雇用主から定期的に支払われる生活保障のためのお金を指します。",
+      "example_sections": [
+        {
+          "title": "例文（年金）",
+          "examples": [
+            {
+              "en": "He lives on a small pension.",
+              "ja": "彼はわずかな年金で生活している。",
+              "highlight": "pension"
+            },
+            {
+              "en": "The government reformed the pension system.",
+              "ja": "政府は年金制度を改革した。",
+              "highlight": "pension"
+            },
+            {
+              "en": "She will receive her pension next year.",
+              "ja": "彼女は来年から年金を受け取る。",
+              "highlight": "pension"
+            }
+          ]
+        },
+        {
+          "title": "例文（同上、別文脈）",
+          "examples": [
+            {
+              "en": "He draws a military pension.",
+              "ja": "彼は軍の恩給（年金）を受け取っている。",
+              "highlight": "pension"
+            },
+            {
+              "en": "Many people worry about their state pension.",
+              "ja": "多くの人が国の年金について心配している。",
+              "highlight": "pension"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 pensio（支払い）から",
+      "synonyms": [
+        { "word": "allowance", "trans": "手当" },
+        { "word": "annuity", "trans": "年金" },
+        { "word": "superannuation", "trans": "老齢年金（英豪）" }
+      ],
+      "antonyms": [
+        { "word": "wage", "trans": "賃金" },
+        { "word": "salary", "trans": "給与" },
+        { "word": "payment", "trans": "支払い（働く対価としての）" }
+      ],
+      "related": [
+        { "word": "pensioner", "trans": "名詞：年金受給者" },
+        { "word": "retire", "trans": "動詞：退職する" },
+        { "word": "fund", "trans": "名詞：基金" }
+      ]
+    },
+    {
+      "number": 2047,
+      "word": "reduce",
+      "pos": "動詞",
+      "meaning": "減らす、縮小する、下げる",
+      "nuance": "サイズ、量、価格などを元の状態から小さくしたり少なくしたりすることを意味します。",
+      "example_sections": [
+        {
+          "title": "例文（減らす・縮小する）",
+          "examples": [
+            {
+              "en": "We must reduce our carbon emissions.",
+              "ja": "私たちは二酸化炭素排出量を減らさなければならない。",
+              "highlight": "reduce"
+            },
+            {
+              "en": "The store reduced its prices by 20%.",
+              "ja": "その店は価格を20%下げた。",
+              "highlight": "reduced"
+            },
+            {
+              "en": "Please reduce your speed in this area.",
+              "ja": "このエリアでは速度を落としてください。",
+              "highlight": "reduce"
+            }
+          ]
+        },
+        {
+          "title": "例文（追い込む・変える）",
+          "examples": [
+            {
+              "en": "The building was reduced to ashes.",
+              "ja": "その建物は灰燼に帰した（灰に変えられた）。",
+              "highlight": "reduced to"
+            },
+            {
+              "en": "She was reduced to tears.",
+              "ja": "彼女は泣く羽目になった。",
+              "highlight": "reduced to"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 re-（後ろへ）+ ducere（導く）→ 引き戻す、縮小する",
+      "synonyms": [
+        { "word": "decrease", "trans": "減少させる" },
+        { "word": "lessen", "trans": "少なくする" },
+        { "word": "lower", "trans": "下げる" }
+      ],
+      "antonyms": [
+        { "word": "increase", "trans": "増やす" },
+        { "word": "expand", "trans": "拡大する" },
+        { "word": "raise", "trans": "上げる" }
+      ],
+      "related": [
+        { "word": "reduction", "trans": "名詞：減少、割引" },
+        { "word": "deduct", "trans": "動詞：差し引く" },
+        { "word": "produce", "trans": "動詞：生産する" }
+      ]
+    },
+    {
+      "number": 2048,
+      "word": "politician",
+      "pos": "名詞",
+      "meaning": "政治家",
+      "nuance": "選挙で選ばれて政治に携わる人。時に私利私欲を重んじる「政治屋」というネガティブなニュアンスを含むこともあります。",
+      "example_sections": [
+        {
+          "title": "例文（政治家）",
+          "examples": [
+            {
+              "en": "He is a very popular politician.",
+              "ja": "彼はとても人気のある政治家だ。",
+              "highlight": "politician"
+            },
+            {
+              "en": "Many people do not trust politicians.",
+              "ja": "多くの人は政治家を信用していない。",
+              "highlight": "politicians"
+            },
+            {
+              "en": "She wants to become a politician in the future.",
+              "ja": "彼女は将来政治家になりたいと思っている。",
+              "highlight": "politician"
+            }
+          ]
+        },
+        {
+          "title": "例文（同上、別文脈）",
+          "examples": [
+            {
+              "en": "The politician promised to lower taxes.",
+              "ja": "その政治家は税金を下げると約束した。",
+              "highlight": "politician"
+            },
+            {
+              "en": "Local politicians met to discuss the issue.",
+              "ja": "地元の政治家たちがその問題を話し合うために集まった。",
+              "highlight": "politicians"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 polis（都市）から派生",
+      "synonyms": [
+        { "word": "statesman", "trans": "政治家（尊敬を込めて）" },
+        { "word": "lawmaker", "trans": "立法者" },
+        { "word": "legislator", "trans": "議会議員" }
+      ],
+      "antonyms": [
+        { "word": "citizen", "trans": "市民" },
+        { "word": "civilian", "trans": "民間人" },
+        { "word": "voter", "trans": "有権者" }
+      ],
+      "related": [
+        { "word": "politics", "trans": "名詞：政治" },
+        { "word": "political", "trans": "形容詞：政治の" },
+        { "word": "policy", "trans": "名詞：政策" }
+      ]
+    },
+    {
+      "number": 2049,
+      "word": "brave",
+      "pos": "形容詞",
+      "meaning": "勇敢な、勇気のある",
+      "nuance": "恐怖や困難に直面しても恐れずに立ち向かう、精神的な強さや勇気を表します。",
+      "example_sections": [
+        {
+          "title": "例文（勇敢な）",
+          "examples": [
+            {
+              "en": "It was brave of you to speak the truth.",
+              "ja": "真実を話すとはあなたは勇敢だった。",
+              "highlight": "brave"
+            },
+            {
+              "en": "The brave firefighter saved the child.",
+              "ja": "勇敢な消防士がその子どもを救った。",
+              "highlight": "brave"
+            },
+            {
+              "en": "She fought a brave battle against cancer.",
+              "ja": "彼女はがんと勇敢に闘った。",
+              "highlight": "brave"
+            }
+          ]
+        },
+        {
+          "title": "例文（見事な・立派な）",
+          "examples": [
+            {
+              "en": "They made a brave attempt to win the game.",
+              "ja": "彼らは試合に勝つために立派な努力をした。",
+              "highlight": "brave"
+            },
+            {
+              "en": "He put on a brave face despite his sadness.",
+              "ja": "彼は悲しみにもかかわらず気丈に（勇敢な顔をして）振る舞った。",
+              "highlight": "brave"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 barbarus（野蛮な）→ 荒々しい → 勇敢な（イタリア語・フランス語経由）",
+      "synonyms": [
+        { "word": "courageous", "trans": "勇気のある" },
+        { "word": "fearless", "trans": "恐れを知らない" },
+        { "word": "bold", "trans": "大胆な" }
+      ],
+      "antonyms": [
+        { "word": "cowardly", "trans": "臆病な" },
+        { "word": "fearful", "trans": "恐れて" },
+        { "word": "timid", "trans": "気が弱い" }
+      ],
+      "related": [
+        { "word": "bravery", "trans": "名詞：勇敢さ" },
+        { "word": "bravely", "trans": "副詞：勇敢に" },
+        { "word": "courage", "trans": "名詞：勇気" }
+      ]
+    },
+    {
+      "number": 2050,
+      "word": "distribute",
+      "pos": "動詞",
+      "meaning": "配布する、分配する",
+      "nuance": "物資、情報、お金などを、多くの人や場所に計画的に分けて配ることを表します。",
+      "example_sections": [
+        {
+          "title": "例文（配布する・分配する）",
+          "examples": [
+            {
+              "en": "The teacher distributed the test papers.",
+              "ja": "先生はテスト用紙を配った。",
+              "highlight": "distributed"
+            },
+            {
+              "en": "Food and clothes are being distributed to the refugees.",
+              "ja": "難民に食料と衣服が配られている。",
+              "highlight": "distributed"
+            },
+            {
+              "en": "They distributed leaflets on the street.",
+              "ja": "彼らは路上でビラを配った。",
+              "highlight": "distributed"
+            }
+          ]
+        },
+        {
+          "title": "例文（流通させる）",
+          "examples": [
+            {
+              "en": "The company distributes its products worldwide.",
+              "ja": "その会社は自社製品を世界中に流通させている。",
+              "highlight": "distributes"
+            },
+            {
+              "en": "The wealth is not distributed equally.",
+              "ja": "富は平等に分配されていない。",
+              "highlight": "distributed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 dis-（離れて）+ tribuere（割り当てる）",
+      "synonyms": [
+        { "word": "hand out", "trans": "配る" },
+        { "word": "give out", "trans": "配る" },
+        { "word": "share", "trans": "分け合う" }
+      ],
+      "antonyms": [
+        { "word": "collect", "trans": "集める" },
+        { "word": "gather", "trans": "集まる" },
+        { "word": "hoard", "trans": "蓄え込む" }
+      ],
+      "related": [
+        { "word": "distribution", "trans": "名詞：分布、分配" },
+        { "word": "distributor", "trans": "名詞：販売代理店" },
+        { "word": "contribute", "trans": "動詞：貢献する" }
+      ]
+    },
+    {
+      "number": 2051,
+      "word": "equally",
+      "pos": "副詞",
+      "meaning": "同じように、等しく、平等に",
+      "nuance": "量、価値、扱いなどが、二つ以上のものの間で全く同じであること、あるいは公平であることを示します。",
+      "example_sections": [
+        {
+          "title": "例文（等しく・平等に）",
+          "examples": [
+            {
+              "en": "The money was divided equally among the children.",
+              "ja": "そのお金は子どもたちの間で等しく分けられた。",
+              "highlight": "equally"
+            },
+            {
+              "en": "Men and women should be treated equally.",
+              "ja": "男性も女性も平等に扱われるべきだ。",
+              "highlight": "equally"
+            },
+            {
+              "en": "Everyone is equally responsible.",
+              "ja": "誰もが等しく責任がある。",
+              "highlight": "equally"
+            }
+          ]
+        },
+        {
+          "title": "例文（同じように）",
+          "examples": [
+            {
+              "en": "This method works equally well for adults.",
+              "ja": "この方法は大人にとっても同じようによく効く。",
+              "highlight": "equally"
+            },
+            {
+              "en": "Both candidates are equally qualified.",
+              "ja": "両候補者とも同じように資格がある。",
+              "highlight": "equally"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 aequalis（等しい）+ -ly",
+      "synonyms": [
+        { "word": "evenly", "trans": "均等に" },
+        { "word": "similarly", "trans": "同様に" },
+        { "word": "fairly", "trans": "公平に" }
+      ],
+      "antonyms": [
+        { "word": "unequally", "trans": "不平等に" },
+        { "word": "differently", "trans": "異なって" },
+        { "word": "unfairly", "trans": "不公平に" }
+      ],
+      "related": [
+        { "word": "equal", "trans": "形容詞：等しい" },
+        { "word": "equality", "trans": "名詞：平等" },
+        { "word": "equation", "trans": "名詞：方程式" }
+      ]
     }
   ]
 }
