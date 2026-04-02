@@ -5,44 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英単語帳トップ</title>
     <style>
-        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; }
-        h1 { color: #007bff; text-align: center; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
-        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; color: white; background: #007bff; border: none; cursor: pointer; margin: 5px; }
-        .btn:hover { opacity: 0.8; }
-        .book-list { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
-        .book-link { display: block; padding: 15px; background: white; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: #333; font-weight: bold; font-size: 1.2rem; transition: 0.2s; }
-        .book-link:hover { border-color: #007bff; color: #007bff; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
         
-        .search-container { background: white; padding: 20px; border-radius: 8px; margin-bottom: 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+    
         .search-controls { display: flex; gap: 10px; margin-bottom: 15px; }
-        select, input[type="text"] { padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; }
+        select, input[type="text"] { padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; box-sizing: border-box; }
         input[type="text"] { flex-grow: 1; }
-        .result-item { padding: 10px; border-bottom: 1px solid #eee; display: flex; flex-direction: column; }
-        .result-item a { text-decoration: none; color: #007bff; font-weight: bold; }
-        .result-meaning { font-size: 0.85em; color: #666; margin-top: 4px; }
+        .result-item { padding: 12px; border-bottom: 1px solid #eee; display: flex; flex-direction: column; background: white; margin-bottom: 5px; border-radius: 6px; }
+        .result-item a { text-decoration: none; color: #007bff; font-weight: bold; font-size: 1.1em; }
+        .result-meaning { font-size: 0.9em; color: #666; margin-top: 5px; }
+        
+        .book-list { display: flex; flex-direction: column; gap: 10px; }
+        .book-link { display: block; padding: 15px 20px; background: white; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: #333; font-weight: bold; font-size: 1.1rem; transition: 0.2s; }
+        .book-link:hover { border-color: #007bff; color: #007bff; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
     </style>
 </head>
 <body>
-    <a href="../index.html" class="btn" style="background:#6c757d;">← サイトトップへ</a>
-    <h1>英単語辞書 データベース</h1>
-
-    <div class="search-container">
-        <h3>🔍 単語検索</h3>
-        <div class="search-controls">
-            <select id="bookSelect" onchange="loadSearchData()">
-                <option value="">-- 単語帳を選択 --</option>
-                <option value="sokutan">速読英単語</option>
-                <option value="final_draft">FINAL DRAFT</option>
-                <option value="change_the_world">Change the World</option>
-                <option value="toshin">東進上級英単語1000</option>
-                <option value="leap">LEAP</option>
-            </select>
-            <input type="text" id="globalSearchInput" placeholder="単語・番号・意味を入力..." onkeyup="executeSearch()" disabled>
-        </div>
-        <div id="searchResults"></div>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > 英単語帳
     </div>
 
-    <h3>📚 単語帳一覧</h3>
+    <h1>英単語辞書 データベース</h1>
+    
+    <a href="exercise.html" class="btn btn-exercise">📝 演習を始める</a>
+
+    <h2 class="section-title">🔍 単語検索</h2>
+    <div class="search-controls">
+        <select id="bookSelect" onchange="loadSearchData()">
+            <option value="">-- 単語帳を選択 --</option>
+            <option value="sokutan">速読英単語</option>
+            <option value="final_draft">FINAL DRAFT</option>
+            <option value="change_the_world">Change the World</option>
+            <option value="toshin">東進上級英単語1000</option>
+            <option value="leap">LEAP</option>
+        </select>
+        <input type="text" id="globalSearchInput" placeholder="単語・番号・意味を入力..." onkeyup="executeSearch()" disabled>
+    </div>
+    <div id="searchResults"></div>
+
+    <h2 class="section-title">📚 単語帳一覧</h2>
     <div class="book-list">
         <a href="sokutan.html" class="book-link">速読英単語</a>
         <a href="final_draft.html" class="book-link">FINAL DRAFT</a>
@@ -75,7 +86,7 @@
             currentSearchData = await response.json();
             searchInput.disabled = false;
             searchInput.placeholder = "単語・番号・意味を入力...";
-            executeSearch(); // 既存の入力があれば即時検索
+            executeSearch();
         } catch (error) {
             console.error("JSONの読み込みに失敗しました:", error);
             searchInput.placeholder = "読み込みエラー";
@@ -96,15 +107,14 @@
         );
 
         if (filtered.length === 0) {
-            searchResults.innerHTML = '<p style="color:#666;">見つかりませんでした。</p>';
+            searchResults.innerHTML = '<p style="color:#666; padding: 10px;">見つかりませんでした。</p>';
             return;
         }
 
-        // 最大50件まで表示
         const html = filtered.slice(0, 50).map(word => `
             <div class="result-item">
                 <a href="${word.link}">[${word.id}] ${word.name}</a>
-                <span class="result-meaning">${word.meaning} <span style="font-size:0.8em; color:#999;">(収録: <a href="${word.chapter_page}" style="color:#999; text-decoration:underline;">章ページへ</a>)</span></span>
+                <span class="result-meaning">${word.meaning} <span style="font-size:0.8em; color:#999; margin-left:10px;">(収録: <a href="${word.chapter_page}" style="color:#007bff; text-decoration:none;">章ページへ</a>)</span></span>
             </div>
         `).join('');
         
