@@ -6,6 +6,17 @@ from glob import glob
 from config import CHAPTER_MAP 
 
 # ==========================================
+# 0. スラッグ設定 (URL用)
+# ==========================================
+BOOK_SLUGS = {
+    "速読英単語": "sokutan",
+    "FINAL DRAFT": "final_draft",
+    "Change the World": "change_the_world",
+    "東進上級英単語1000": "toshin",
+    "LEAP": "leap"
+}
+
+# ==========================================
 # 1. HTMLテンプレート (メイン単語用)
 # ==========================================
 HTML_TEMPLATE_MAIN = """<!DOCTYPE html>
@@ -20,13 +31,17 @@ HTML_TEMPLATE_MAIN = """<!DOCTYPE html>
         :root {{ --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }}
         body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }}
         .container {{ width: 100%; max-width: 800px; }}
+        
+        /* パンくずリスト */
+        .breadcrumb {{ margin-bottom: 20px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; box-sizing: border-box; width: 100%; text-align: left; }}
+        .breadcrumb a {{ color: var(--primary-color); text-decoration: none; font-weight: bold; }}
+        .breadcrumb a:hover {{ text-decoration: underline; }}
+
         .card {{ background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }}
         .nav-buttons {{ display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }}
         .nav-button {{ flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }}
         .nav-button:hover:not(.disabled) {{ background: var(--primary-color); color: white; }}
         .nav-button.disabled {{ opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }}
-        .btn-home {{ display: inline-block; margin-bottom: 20px; padding: 8px 18px; background-color: #6c757d; color: white !important; text-decoration: none; border-radius: 20px; font-weight: bold; font-size: 0.85rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: 0.3s; }}
-        .btn-home:hover {{ background-color: #5a6268; transform: translateY(-1px); }}
         .word-header {{ border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }}
         .word-number {{ font-size: 1rem; color: var(--text-sub); font-weight: bold; }}
         .word-title {{ font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }}
@@ -55,7 +70,7 @@ HTML_TEMPLATE_MAIN = """<!DOCTYPE html>
 </head>
 <body>
     <div class="container">
-        <a href="../index.html" class="btn-home">辞書へ戻る</a>
+        {breadcrumb_html}
         <div class="nav-buttons">
             {prev_button}
             {next_button}
@@ -113,6 +128,28 @@ def get_source_label(number_str):
         return "その他"
     except:
         return "不明"
+
+def get_breadcrumb_info(number_str):
+    """番号から、どの単語帳のどの章に属しているかを取得する"""
+    try:
+        main_val = int(str(number_str).split('-')[0])
+        sorted_keys = sorted(CHAPTER_MAP.keys(), reverse=True)
+        for key in sorted_keys:
+            if main_val >= key:
+                full_label = CHAPTER_MAP[key]
+                match = re.search(r'【(.*?)】(.*)', full_label)
+                if match:
+                    book_name = match.group(1).strip()
+                    chapter_title = match.group(2).strip()
+                else:
+                    book_name = "その他"
+                    chapter_title = full_label
+                
+                book_slug = BOOK_SLUGS.get(book_name, "others")
+                return book_slug, book_name, key, chapter_title
+        return "others", "その他", 0, "不明"
+    except:
+        return "others", "その他", 0, "不明"
 
 def load_all_vocabulary_files():
     all_words = []
@@ -208,6 +245,16 @@ def generate_html(data, current_index, sorted_words):
             ex_secs += generate_example_section(s['title'], s['examples'])
     else:
         ex_secs = generate_example_section('例文', data.get('examples', []))
+        
+    # パンくずリスト用の情報を取得し、HTMLを組み立てる
+    book_slug, book_name, chapter_id, chapter_title = get_breadcrumb_info(data['number'])
+    breadcrumb_html = f'''<div class="breadcrumb">
+            <a href="../../index.html">ホーム</a> &gt; 
+            <a href="../index.html">英単語帳</a> &gt; 
+            <a href="../{book_slug}.html">{book_name}</a> &gt; 
+            <a href="../{book_slug}_{chapter_id}.html">{chapter_title}</a> &gt; 
+            {data['number']} {data['word']}
+        </div>'''
     
     return template.format(
         number=data['number'], word=data['word'], pos=data['pos'],
@@ -217,7 +264,8 @@ def generate_html(data, current_index, sorted_words):
         synonyms=generate_word_list(data.get('synonyms', []), sorted_words, is_sub_word),
         antonyms=generate_word_list(data.get('antonyms', []), sorted_words, is_sub_word),
         related=generate_word_list(data.get('related', []), sorted_words, is_sub_word),
-        prev_button=prev_b, next_button=next_b
+        prev_button=prev_b, next_button=next_b,
+        breadcrumb_html=breadcrumb_html
     )
 
 def main():
