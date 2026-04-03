@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIT 11〜15 | Change the World</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin-top: 30px; margin-bottom: 20px; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="change_the_world.html">Change the World</a> > UNIT 11〜15
+    </div>
+    
+    <h2 class="section-title">UNIT 11〜15</h2>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/2314-contrary.html"><span class="word-id">2314</span><span class="word-name">contrary</span><span class="word-meaning">反対の、逆の；反対のこと</span></a></li>
+        <li class="word-item"><a href="data/2315-devote.html"><span class="word-id">2315</span><span class="word-name">devote</span><span class="word-meaning">捧げる、専念する、充てる</span></a></li>
+        <li class="word-item"><a href="data/2316-conversation.html"><span class="word-id">2316</span><span class="word-name">conversation</span><span class="word-meaning">会話、対話</span></a></li>
+        <li class="word-item"><a href="data/2317-topic.html"><span class="word-id">2317</span><span class="word-name">topic</span><span class="word-meaning">話題、テーマ、主題</span></a></li>
+        <li class="word-item"><a href="data/2318-personal.html"><span class="word-id">2318</span><span class="word-name">personal</span><span class="word-meaning">個人の、私的な、個人的な</span></a></li>
+        <li class="word-item"><a href="data/2319-relationship.html"><span class="word-id">2319</span><span class="word-name">relationship</span><span class="word-meaning">関係、関連、人間関係、交際</span></a></li>
+        <li class="word-item"><a href="data/2320-account.html"><span class="word-id">2320</span><span class="word-name">account</span><span class="word-meaning">説明、報告、口座；説明する、占める</span></a></li>
+        <li class="word-item"><a href="data/2321-leisure.html"><span class="word-id">2321</span><span class="word-name">leisure</span><span class="word-meaning">余暇、暇、自由な時間</span></a></li>
+        <li class="word-item"><a href="data/2322-occupy.html"><span class="word-id">2322</span><span class="word-name">occupy</span><span class="word-meaning">占める、占領する、（時間・場所を）使う、（人を）従事させる</span></a></li>
+        <li class="word-item"><a href="data/2323-discussion.html"><span class="word-id">2323</span><span class="word-name">discussion</span><span class="word-meaning">議論、討論、話し合い</span></a></li>
+        <li class="word-item"><a href="data/2324-likely.html"><span class="word-id">2324</span><span class="word-name">likely</span><span class="word-meaning">ありそうな、起こりそうな；おそらく</span></a></li>
+        <li class="word-item"><a href="data/2325-politics.html"><span class="word-id">2325</span><span class="word-name">politics</span><span class="word-meaning">政治、政治学、政治活動</span></a></li>
+        <li class="word-item"><a href="data/2326-cultural.html"><span class="word-id">2326</span><span class="word-name">cultural</span><span class="word-meaning">文化的な、文化の</span></a></li>
+        <li class="word-item"><a href="data/2327-impress.html"><span class="word-id">2327</span><span class="word-name">impress</span><span class="word-meaning">感動させる、感銘を与える、印象づける</span></a></li>
+        <li class="word-item"><a href="data/2328-proportion.html"><span class="word-id">2328</span><span class="word-name">proportion</span><span class="word-meaning">割合、比率、釣り合い、均衡</span></a></li>
+        <li class="word-item"><a href="data/2329-recent.html"><span class="word-id">2329</span><span class="word-name">recent</span><span class="word-meaning">最近の、近ごろの</span></a></li>
+        <li class="word-item"><a href="data/2330-reveal.html"><span class="word-id">2330</span><span class="word-name">reveal</span><span class="word-meaning">明らかにする、暴露する、打ち明ける</span></a></li>
+        <li class="word-item"><a href="data/2331-significant.html"><span class="word-id">2331</span><span class="word-name">significant</span><span class="word-meaning">重要な、意義深い、相当な、著しい</span></a></li>
+        <li class="word-item"><a href="data/2332-term.html"><span class="word-id">2332</span><span class="word-name">term</span><span class="word-meaning">用語、期間、学期、条件；〜と呼ぶ</span></a></li>
+        <li class="word-item"><a href="data/2333-content.html"><span class="word-id">2333</span><span class="word-name">content</span><span class="word-meaning">内容、中身、コンテンツ；満足している</span></a></li>
+        <li class="word-item"><a href="data/2334-particularly.html"><span class="word-id">2334</span><span class="word-name">particularly</span><span class="word-meaning">特に、とりわけ、格別に</span></a></li>
+        <li class="word-item"><a href="data/2335-interview.html"><span class="word-id">2335</span><span class="word-name">interview</span><span class="word-meaning">面接、インタビュー；面接する、インタビューする</span></a></li>
+        <li class="word-item"><a href="data/2336-claim.html"><span class="word-id">2336</span><span class="word-name">claim</span><span class="word-meaning">主張する、要求する、（命を）奪う；主張、要求、請求</span></a></li>
+        <li class="word-item"><a href="data/2337-admit.html"><span class="word-id">2337</span><span class="word-name">admit</span><span class="word-meaning">認める、白状する、入場を許可する、入会させる</span></a></li>
+        <li class="word-item"><a href="data/2338-define.html"><span class="word-id">2338</span><span class="word-name">define</span><span class="word-meaning">定義する、明確にする、輪郭を明らかにする</span></a></li>
+        <li class="word-item"><a href="data/2339-exchange.html"><span class="word-id">2339</span><span class="word-name">exchange</span><span class="word-meaning">交換、やりとり、為替；交換する、やりとりする</span></a></li>
+        <li class="word-item"><a href="data/2340-clearly.html"><span class="word-id">2340</span><span class="word-name">clearly</span><span class="word-meaning">明確に、はっきりと、明らかに</span></a></li>
+        <li class="word-item"><a href="data/2341-sense.html"><span class="word-id">2341</span><span class="word-name">sense</span><span class="word-meaning">感覚、意味、判断力；感じ取る</span></a></li>
+        <li class="word-item"><a href="data/2342-effect.html"><span class="word-id">2342</span><span class="word-name">effect</span><span class="word-meaning">影響、効果、結果；もたらす</span></a></li>
+        <li class="word-item"><a href="data/2343-actually.html"><span class="word-id">2343</span><span class="word-name">actually</span><span class="word-meaning">実際には、実は、本当に</span></a></li>
+        <li class="word-item"><a href="data/2344-screen.html"><span class="word-id">2344</span><span class="word-name">screen</span><span class="word-meaning">画面、スクリーン、仕切り；上映する、選別する、遮る</span></a></li>
+        <li class="word-item"><a href="data/2345-literature.html"><span class="word-id">2345</span><span class="word-name">literature</span><span class="word-meaning">文学、文献、文芸作品</span></a></li>
+        <li class="word-item"><a href="data/2346-transform.html"><span class="word-id">2346</span><span class="word-name">transform</span><span class="word-meaning">変える、変換する、変容させる</span></a></li>
+        <li class="word-item"><a href="data/2347-admire.html"><span class="word-id">2347</span><span class="word-name">admire</span><span class="word-meaning">称賛する、感心する、尊敬する</span></a></li>
+        <li class="word-item"><a href="data/2348-imagine.html"><span class="word-id">2348</span><span class="word-name">imagine</span><span class="word-meaning">想像する、思い描く、推測する</span></a></li>
+        <li class="word-item"><a href="data/2349-version.html"><span class="word-id">2349</span><span class="word-name">version</span><span class="word-meaning">版、バージョン、〜版、見解</span></a></li>
+        <li class="word-item"><a href="data/2350-significantly.html"><span class="word-id">2350</span><span class="word-name">significantly</span><span class="word-meaning">著しく、かなり、重要なことに</span></a></li>
+        <li class="word-item"><a href="data/2351-original.html"><span class="word-id">2351</span><span class="word-name">original</span><span class="word-meaning">元の、最初の、独創的な；原本、オリジナル</span></a></li>
+        <li class="word-item"><a href="data/2352-audience.html"><span class="word-id">2352</span><span class="word-name">audience</span><span class="word-meaning">観客、聴衆、視聴者、対象読者</span></a></li>
+        <li class="word-item"><a href="data/2353-expectation.html"><span class="word-id">2353</span><span class="word-name">expectation</span><span class="word-meaning">期待、予想、見込み</span></a></li>
+        <li class="word-item"><a href="data/2354-interpretation.html"><span class="word-id">2354</span><span class="word-name">interpretation</span><span class="word-meaning">解釈、説明、通訳</span></a></li>
+        <li class="word-item"><a href="data/2355-competition.html"><span class="word-id">2355</span><span class="word-name">competition</span><span class="word-meaning">競争、競技、コンテスト</span></a></li>
+        <li class="word-item"><a href="data/2356-moreover.html"><span class="word-id">2356</span><span class="word-name">moreover</span><span class="word-meaning">さらに、その上、加えて</span></a></li>
+        <li class="word-item"><a href="data/2357-attempt.html"><span class="word-id">2357</span><span class="word-name">attempt</span><span class="word-meaning">試み、企て；試みる、試図する</span></a></li>
+        <li class="word-item"><a href="data/2358-stuff.html"><span class="word-id">2358</span><span class="word-name">stuff</span><span class="word-meaning">もの、こと、素材；詰め込む</span></a></li>
+        <li class="word-item"><a href="data/2359-detail.html"><span class="word-id">2359</span><span class="word-name">detail</span><span class="word-meaning">詳細、細部；詳しく述べる</span></a></li>
+        <li class="word-item"><a href="data/2360-complicated.html"><span class="word-id">2360</span><span class="word-name">complicated</span><span class="word-meaning">複雑な、込み入った、難しい</span></a></li>
+        <li class="word-item"><a href="data/2361-plot.html"><span class="word-id">2361</span><span class="word-name">plot</span><span class="word-meaning">筋書き、プロット、陰謀、土地；計画する、陰謀を企てる</span></a></li>
+        <li class="word-item"><a href="data/2362-comprehend.html"><span class="word-id">2362</span><span class="word-name">comprehend</span><span class="word-meaning">理解する、把握する</span></a></li>
+        <li class="word-item"><a href="data/2363-narrative.html"><span class="word-id">2363</span><span class="word-name">narrative</span><span class="word-meaning">物語、叙述、語り；物語の、叙述の</span></a></li>
+        <li class="word-item"><a href="data/2364-element.html"><span class="word-id">2364</span><span class="word-name">element</span><span class="word-meaning">要素、成分、元素</span></a></li>
+        <li class="word-item"><a href="data/2365-accuse.html"><span class="word-id">2365</span><span class="word-name">accuse</span><span class="word-meaning">告発する、非難する、責める</span></a></li>
+        <li class="word-item"><a href="data/2366-faithful.html"><span class="word-id">2366</span><span class="word-name">faithful</span><span class="word-meaning">忠実な、誠実な、正確な</span></a></li>
+        <li class="word-item"><a href="data/2367-principle.html"><span class="word-id">2367</span><span class="word-name">principle</span><span class="word-meaning">原則、原理、主義、信条</span></a></li>
+        <li class="word-item"><a href="data/2368-recognize.html"><span class="word-id">2368</span><span class="word-name">recognize</span><span class="word-meaning">認識する、見分ける、認める、表彰する</span></a></li>
+        <li class="word-item"><a href="data/2369-appeal.html"><span class="word-id">2369</span><span class="word-name">appeal</span><span class="word-meaning">魅力、訴え、上訴；訴える、魅力がある、上訴する</span></a></li>
+        <li class="word-item"><a href="data/2370-target.html"><span class="word-id">2370</span><span class="word-name">target</span><span class="word-meaning">目標、標的、対象；目標にする、狙いを定める</span></a></li>
+        <li class="word-item"><a href="data/2371-exception.html"><span class="word-id">2371</span><span class="word-name">exception</span><span class="word-meaning">例外、除外</span></a></li>
+        <li class="word-item"><a href="data/2372-release.html"><span class="word-id">2372</span><span class="word-name">release</span><span class="word-meaning">解放する、公開する、リリースする；解放、公開、新作</span></a></li>
+        <li class="word-item"><a href="data/2373-present.html"><span class="word-id">2373</span><span class="word-name">present</span><span class="word-meaning">提示する、発表する、贈る；現在の、出席している；贈り物、現在</span></a></li>
+        <li class="word-item"><a href="data/2374-character.html"><span class="word-id">2374</span><span class="word-name">character</span><span class="word-meaning">性格、人柄、文字、登場人物</span></a></li>
+        <li class="word-item"><a href="data/2375-regard.html"><span class="word-id">2375</span><span class="word-name">regard</span><span class="word-meaning">みなす、考える、尊重する；注目、敬意、よろしくという言葉</span></a></li>
+        <li class="word-item"><a href="data/2376-nowadays.html"><span class="word-id">2376</span><span class="word-name">nowadays</span><span class="word-meaning">最近では、現代では、今日では</span></a></li>
+        <li class="word-item"><a href="data/2377-profit.html"><span class="word-id">2377</span><span class="word-name">profit</span><span class="word-meaning">利益、利潤；利益を得る、得をする</span></a></li>
+        <li class="word-item"><a href="data/2378-leading.html"><span class="word-id">2378</span><span class="word-name">leading</span><span class="word-meaning">主要な、トップの、先頭の；導く（leadの現在分詞）</span></a></li>
+        <li class="word-item"><a href="data/2379-actually.html"><span class="word-id">2379</span><span class="word-name">actually</span><span class="word-meaning">実際には、実は、本当に</span></a></li>
+        <li class="word-item"><a href="data/2380-intelligence.html"><span class="word-id">2380</span><span class="word-name">intelligence</span><span class="word-meaning">知性、知能、情報、諜報</span></a></li>
+        <li class="word-item"><a href="data/2381-effect.html"><span class="word-id">2381</span><span class="word-name">effect</span><span class="word-meaning">影響、効果、結果；（動詞）もたらす、実現する</span></a></li>
+        <li class="word-item"><a href="data/2382-aim.html"><span class="word-id">2382</span><span class="word-name">aim</span><span class="word-meaning">目指す、狙う、向ける；目標、狙い</span></a></li>
+        <li class="word-item"><a href="data/2383-financial.html"><span class="word-id">2383</span><span class="word-name">financial</span><span class="word-meaning">財政的な、金融の、財務の</span></a></li>
+        <li class="word-item"><a href="data/2384-security.html"><span class="word-id">2384</span><span class="word-name">security</span><span class="word-meaning">安全、安心、保安、担保、有価証券</span></a></li>
+        <li class="word-item"><a href="data/2385-reveal.html"><span class="word-id">2385</span><span class="word-name">reveal</span><span class="word-meaning">明かす、暴露する、示す、現す</span></a></li>
+        <li class="word-item"><a href="data/2386-undergo.html"><span class="word-id">2386</span><span class="word-name">undergo</span><span class="word-meaning">経験する、受ける、（変化・試練などを）経る</span></a></li>
+        <li class="word-item"><a href="data/2387-satisfaction.html"><span class="word-id">2387</span><span class="word-name">satisfaction</span><span class="word-meaning">満足、充足感、納得</span></a></li>
+        <li class="word-item"><a href="data/2388-assess.html"><span class="word-id">2388</span><span class="word-name">assess</span><span class="word-meaning">評価する、査定する、見積もる</span></a></li>
+        <li class="word-item"><a href="data/2389-current.html"><span class="word-id">2389</span><span class="word-name">current</span><span class="word-meaning">現在の、現行の；流れ、電流、潮流</span></a></li>
+        <li class="word-item"><a href="data/2390-association.html"><span class="word-id">2390</span><span class="word-name">association</span><span class="word-meaning">協会、団体、連想、関連、結びつき</span></a></li>
+        <li class="word-item"><a href="data/2391-value.html"><span class="word-id">2391</span><span class="word-name">value</span><span class="word-meaning">価値、値打ち、価格；大切にする、評価する</span></a></li>
+        <li class="word-item"><a href="data/2392-colleague.html"><span class="word-id">2392</span><span class="word-name">colleague</span><span class="word-meaning">同僚、仕事仲間</span></a></li>
+        <li class="word-item"><a href="data/2393-respond.html"><span class="word-id">2393</span><span class="word-name">respond</span><span class="word-meaning">応答する、返答する、反応する</span></a></li>
+        <li class="word-item"><a href="data/2394-statement.html"><span class="word-id">2394</span><span class="word-name">statement</span><span class="word-meaning">声明、陳述、発言、明細書</span></a></li>
+        <li class="word-item"><a href="data/2395-rating.html"><span class="word-id">2395</span><span class="word-name">rating</span><span class="word-meaning">評価、格付け、視聴率、レーティング</span></a></li>
+        <li class="word-item"><a href="data/2396-refer.html"><span class="word-id">2396</span><span class="word-name">refer</span><span class="word-meaning">言及する、参照する、照会する、指す</span></a></li>
+        <li class="word-item"><a href="data/2397-seek.html"><span class="word-id">2397</span><span class="word-name">seek</span><span class="word-meaning">求める、探す、〜しようとする</span></a></li>
+        <li class="word-item"><a href="data/2398-previous.html"><span class="word-id">2398</span><span class="word-name">previous</span><span class="word-meaning">以前の、前の、先の</span></a></li>
+        <li class="word-item"><a href="data/2399-possess.html"><span class="word-id">2399</span><span class="word-name">possess</span><span class="word-meaning">所有する、持つ、備える</span></a></li>
+        <li class="word-item"><a href="data/2400-regard.html"><span class="word-id">2400</span><span class="word-name">regard</span><span class="word-meaning">〜とみなす、考える；配慮、尊重、敬意</span></a></li>
+        <li class="word-item"><a href="data/2401-reward.html"><span class="word-id">2401</span><span class="word-name">reward</span><span class="word-meaning">報酬、褒美、報い；報いる、報酬を与える</span></a></li>
+        <li class="word-item"><a href="data/2402-status.html"><span class="word-id">2402</span><span class="word-name">status</span><span class="word-meaning">地位、身分、状態、ステータス</span></a></li>
+        <li class="word-item"><a href="data/2403-comfortable.html"><span class="word-id">2403</span><span class="word-name">comfortable</span><span class="word-meaning">快適な、心地よい、余裕のある、気楽な</span></a></li>
+        <li class="word-item"><a href="data/2404-achievement.html"><span class="word-id">2404</span><span class="word-name">achievement</span><span class="word-meaning">達成、業績、成果、功績</span></a></li>
+        <li class="word-item"><a href="data/2405-alternative.html"><span class="word-id">2405</span><span class="word-name">alternative</span><span class="word-meaning">代替案、選択肢；別の、代わりの</span></a></li>
+        <li class="word-item"><a href="data/2406-childhood.html"><span class="word-id">2406</span><span class="word-name">childhood</span><span class="word-meaning">幼少期、子供時代</span></a></li>
+        <li class="word-item"><a href="data/2407-comment.html"><span class="word-id">2407</span><span class="word-name">comment</span><span class="word-meaning">コメント、意見、論評；論評する、意見を述べる</span></a></li>
+        <li class="word-item"><a href="data/2408-independent.html"><span class="word-id">2408</span><span class="word-name">independent</span><span class="word-meaning">独立した、自立した、自主的な</span></a></li>
+        <li class="word-item"><a href="data/2409-suggestion.html"><span class="word-id">2409</span><span class="word-name">suggestion</span><span class="word-meaning">提案、提言、示唆、ほのめかし</span></a></li>
+        <li class="word-item"><a href="data/2410-significantly.html"><span class="word-id">2410</span><span class="word-name">significantly</span><span class="word-meaning">大幅に、著しく、かなり、重要なことには</span></a></li>
+        <li class="word-item"><a href="data/2411-influence.html"><span class="word-id">2411</span><span class="word-name">influence</span><span class="word-meaning">影響、影響力；影響を与える</span></a></li>
+        <li class="word-item"><a href="data/2412-factor.html"><span class="word-id">2412</span><span class="word-name">factor</span><span class="word-meaning">要因、要素、因子</span></a></li>
+        <li class="word-item"><a href="data/2413-doubt.html"><span class="word-id">2413</span><span class="word-name">doubt</span><span class="word-meaning">疑い、疑念；疑う</span></a></li>
+        <li class="word-item"><a href="data/2414-climate.html"><span class="word-id">2414</span><span class="word-name">climate</span><span class="word-meaning">気候、風土、（社会的な）雰囲気・情勢</span></a></li>
+        <li class="word-item"><a href="data/2415-Arctic.html"><span class="word-id">2415</span><span class="word-name">Arctic</span><span class="word-meaning">北極；北極の、極寒の</span></a></li>
+        <li class="word-item"><a href="data/2416-tremble.html"><span class="word-id">2416</span><span class="word-name">tremble</span><span class="word-meaning">震える、おののく；震え</span></a></li>
+        <li class="word-item"><a href="data/2417-examine.html"><span class="word-id">2417</span><span class="word-name">examine</span><span class="word-meaning">調べる、検査する、審査する、試問する</span></a></li>
+        <li class="word-item"><a href="data/2418-temperature.html"><span class="word-id">2418</span><span class="word-name">temperature</span><span class="word-meaning">温度、気温、体温</span></a></li>
+        <li class="word-item"><a href="data/2419-process.html"><span class="word-id">2419</span><span class="word-name">process</span><span class="word-meaning">過程、工程、プロセス；処理する</span></a></li>
+        <li class="word-item"><a href="data/2420-visible.html"><span class="word-id">2420</span><span class="word-name">visible</span><span class="word-meaning">目に見える、視認できる、明らかな</span></a></li>
+        <li class="word-item"><a href="data/2421-reduction.html"><span class="word-id">2421</span><span class="word-name">reduction</span><span class="word-meaning">削減、縮小、減少、割引</span></a></li>
+        <li class="word-item"><a href="data/2422-current.html"><span class="word-id">2422</span><span class="word-name">current</span><span class="word-meaning">現在の、現行の；流れ、電流、潮流</span></a></li>
+        <li class="word-item"><a href="data/2423-trend.html"><span class="word-id">2423</span><span class="word-name">trend</span><span class="word-meaning">傾向、動向、トレンド；向かう、傾く</span></a></li>
+        <li class="word-item"><a href="data/2424-period.html"><span class="word-id">2424</span><span class="word-name">period</span><span class="word-meaning">期間、時代、時期、周期；ピリオド</span></a></li>
+        <li class="word-item"><a href="data/2425-equal.html"><span class="word-id">2425</span><span class="word-name">equal</span><span class="word-meaning">等しい、平等な；等しくなる；同等の人・物</span></a></li>
+        <li class="word-item"><a href="data/2426-complicated.html"><span class="word-id">2426</span><span class="word-name">complicated</span><span class="word-meaning">複雑な、込み入った、難しい</span></a></li>
+        <li class="word-item"><a href="data/2427-concern.html"><span class="word-id">2427</span><span class="word-name">concern</span><span class="word-meaning">心配、懸念、関心事；〜に関係する、心配させる</span></a></li>
+        <li class="word-item"><a href="data/2428-reflect.html"><span class="word-id">2428</span><span class="word-name">reflect</span><span class="word-meaning">反射する、映す、反映する、熟考する</span></a></li>
+        <li class="word-item"><a href="data/2429-expose.html"><span class="word-id">2429</span><span class="word-name">expose</span><span class="word-meaning">さらす、暴露する、露出させる</span></a></li>
+        <li class="word-item"><a href="data/2430-organic.html"><span class="word-id">2430</span><span class="word-name">organic</span><span class="word-meaning">有機の、有機栽培の、有機的な、自然発生的な</span></a></li>
+        <li class="word-item"><a href="data/2431-material.html"><span class="word-id">2431</span><span class="word-name">material</span><span class="word-meaning">素材、材料、資料；物質的な、重要な</span></a></li>
+        <li class="word-item"><a href="data/2432-content.html"><span class="word-id">2432</span><span class="word-name">content</span><span class="word-meaning">内容、中身、含有量；満足している</span></a></li>
+        <li class="word-item"><a href="data/2433-elsewhere.html"><span class="word-id">2433</span><span class="word-name">elsewhere</span><span class="word-meaning">他の場所で（に）、よそで</span></a></li>
+        <li class="word-item"><a href="data/2434-decrease.html"><span class="word-id">2434</span><span class="word-name">decrease</span><span class="word-meaning">減少する、減る；減少</span></a></li>
+        <li class="word-item"><a href="data/2435-hemisphere.html"><span class="word-id">2435</span><span class="word-name">hemisphere</span><span class="word-meaning">半球、（地球・脳の）半球</span></a></li>
+        <li class="word-item"><a href="data/2436-reduce.html"><span class="word-id">2436</span><span class="word-name">reduce</span><span class="word-meaning">減らす、縮小する、低下させる</span></a></li>
+        <li class="word-item"><a href="data/2437-journey.html"><span class="word-id">2437</span><span class="word-name">journey</span><span class="word-meaning">旅、旅行、行程；旅をする</span></a></li>
+        <li class="word-item"><a href="data/2438-circulation.html"><span class="word-id">2438</span><span class="word-name">circulation</span><span class="word-meaning">循環、流通、発行部数、血液循環</span></a></li>
+        <li class="word-item"><a href="data/2439-affect.html"><span class="word-id">2439</span><span class="word-name">affect</span><span class="word-meaning">影響を与える、作用する、心を動かす</span></a></li>
+        <li class="word-item"><a href="data/2440-influence.html"><span class="word-id">2440</span><span class="word-name">influence</span><span class="word-meaning">影響、影響力；影響を与える</span></a></li>
+        <li class="word-item"><a href="data/2441-possibility.html"><span class="word-id">2441</span><span class="word-name">possibility</span><span class="word-meaning">可能性、見込み、実現性</span></a></li>
+        <li class="word-item"><a href="data/2442-contain.html"><span class="word-id">2442</span><span class="word-name">contain</span><span class="word-meaning">含む、収容する、抑制する</span></a></li>
+        <li class="word-item"><a href="data/2443-estimate.html"><span class="word-id">2443</span><span class="word-name">estimate</span><span class="word-meaning">推定する、見積もる；推定値、見積もり</span></a></li>
+        <li class="word-item"><a href="data/2444-assess.html"><span class="word-id">2444</span><span class="word-name">assess</span><span class="word-meaning">評価する、査定する、見積もる</span></a></li>
+        <li class="word-item"><a href="data/2445-effort.html"><span class="word-id">2445</span><span class="word-name">effort</span><span class="word-meaning">努力、骨折り、尽力</span></a></li>
+        <li class="word-item"><a href="data/2446-essential.html"><span class="word-id">2446</span><span class="word-name">essential</span><span class="word-meaning">不可欠な、必須の、本質的な；必需品</span></a></li>
+        <li class="word-item"><a href="data/2447-tribe.html"><span class="word-id">2447</span><span class="word-name">tribe</span><span class="word-meaning">部族、種族</span></a></li>
+        <li class="word-item"><a href="data/2448-encounter.html"><span class="word-id">2448</span><span class="word-name">encounter</span><span class="word-meaning">遭遇する、直面する、思いがけない出会い</span></a></li>
+        <li class="word-item"><a href="data/2449-decade.html"><span class="word-id">2449</span><span class="word-name">decade</span><span class="word-meaning">10年間</span></a></li>
+        <li class="word-item"><a href="data/2450-wipe.html"><span class="word-id">2450</span><span class="word-name">wipe</span><span class="word-meaning">拭く、拭き取る、完全に消し去る（wipe out）</span></a></li>
+        <li class="word-item"><a href="data/2451-disease.html"><span class="word-id">2451</span><span class="word-name">disease</span><span class="word-meaning">病気、疾患</span></a></li>
+        <li class="word-item"><a href="data/2452-reduce.html"><span class="word-id">2452</span><span class="word-name">reduce</span><span class="word-meaning">減らす、縮小する、下げる</span></a></li>
+        <li class="word-item"><a href="data/2453-acre.html"><span class="word-id">2453</span><span class="word-name">acre</span><span class="word-meaning">エーカー（面積の単位）</span></a></li>
+        <li class="word-item"><a href="data/2454-bow.html"><span class="word-id">2454</span><span class="word-name">bow</span><span class="word-meaning">弓、お辞儀、お辞儀をする、屈服する</span></a></li>
+        <li class="word-item"><a href="data/2455-arrow.html"><span class="word-id">2455</span><span class="word-name">arrow</span><span class="word-meaning">矢、矢印</span></a></li>
+        <li class="word-item"><a href="data/2456-weapon.html"><span class="word-id">2456</span><span class="word-name">weapon</span><span class="word-meaning">武器、兵器、手段</span></a></li>
+        <li class="word-item"><a href="data/2457-credit.html"><span class="word-id">2457</span><span class="word-name">credit</span><span class="word-meaning">信用、功績、単位、信用する</span></a></li>
+        <li class="word-item"><a href="data/2458-attention.html"><span class="word-id">2458</span><span class="word-name">attention</span><span class="word-meaning">注意、注目、配慮</span></a></li>
+        <li class="word-item"><a href="data/2459-flee.html"><span class="word-id">2459</span><span class="word-name">flee</span><span class="word-meaning">逃げる、避難する</span></a></li>
+        <li class="word-item"><a href="data/2460-headquarters.html"><span class="word-id">2460</span><span class="word-name">headquarters</span><span class="word-meaning">本部、本社、司令部</span></a></li>
+        <li class="word-item"><a href="data/2461-arm.html"><span class="word-id">2461</span><span class="word-name">arm</span><span class="word-meaning">腕、武器、武装させる</span></a></li>
+        <li class="word-item"><a href="data/2462-possibility.html"><span class="word-id">2462</span><span class="word-name">possibility</span><span class="word-meaning">可能性、見込み</span></a></li>
+        <li class="word-item"><a href="data/2463-chart.html"><span class="word-id">2463</span><span class="word-name">chart</span><span class="word-meaning">図表、グラフ、海図、記録する</span></a></li>
+        <li class="word-item"><a href="data/2464-territory.html"><span class="word-id">2464</span><span class="word-name">territory</span><span class="word-meaning">領土、領域、縄張り</span></a></li>
+        <li class="word-item"><a href="data/2465-label.html"><span class="word-id">2465</span><span class="word-name">label</span><span class="word-meaning">ラベル、札、レッテルを貼る</span></a></li>
+        <li class="word-item"><a href="data/2466-sacred.html"><span class="word-id">2466</span><span class="word-name">sacred</span><span class="word-meaning">神聖な、宗教的な、非常に重要な</span></a></li>
+        <li class="word-item"><a href="data/2467-site.html"><span class="word-id">2467</span><span class="word-name">site</span><span class="word-meaning">場所、敷地、遺跡、ウェブサイト</span></a></li>
+        <li class="word-item"><a href="data/2468-effect.html"><span class="word-id">2468</span><span class="word-name">effect</span><span class="word-meaning">影響、効果、結果、もたらす</span></a></li>
+        <li class="word-item"><a href="data/2469-attack.html"><span class="word-id">2469</span><span class="word-name">attack</span><span class="word-meaning">攻撃する、非難する、発作、攻撃</span></a></li>
+        <li class="word-item"><a href="data/2470-inform.html"><span class="word-id">2470</span><span class="word-name">inform</span><span class="word-meaning">知らせる、情報を提供する</span></a></li>
+        <li class="word-item"><a href="data/2471-entire.html"><span class="word-id">2471</span><span class="word-name">entire</span><span class="word-meaning">全体の、全部の、完全な</span></a></li>
+        <li class="word-item"><a href="data/2472-solution.html"><span class="word-id">2472</span><span class="word-name">solution</span><span class="word-meaning">解決策、解答、溶液</span></a></li>
+        <li class="word-item"><a href="data/2473-destruction.html"><span class="word-id">2473</span><span class="word-name">destruction</span><span class="word-meaning">破壊、破滅</span></a></li>
+        <li class="word-item"><a href="data/2474-absolutely.html"><span class="word-id">2474</span><span class="word-name">absolutely</span><span class="word-meaning">絶対に、完全に、全くその通り</span></a></li>
+        <li class="word-item"><a href="data/2475-encourage.html"><span class="word-id">2475</span><span class="word-name">encourage</span><span class="word-meaning">励ます、促す、奨励する</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="change_the_world_2140.html" class="nav-btn">← 前の章</a>
+        <a href="change_the_world_2476.html" class="nav-btn">次の章 →</a>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
