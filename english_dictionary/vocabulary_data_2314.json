@@ -6186,6 +6186,1746 @@
         { "word": "essentially", "trans": "副詞：本質的に、基本的に" },
         { "word": "non-essential", "trans": "形容詞：不必要な、必須でない" }
       ]
+    },
+    {
+      "number": 2447,
+      "word": "tribe",
+      "pos": "名詞",
+      "meaning": "部族、種族",
+      "nuance": "共通の言語、文化、歴史を持つ人々の集団を指します。",
+      "example_sections": [
+        {
+          "title": "例文（部族）",
+          "examples": [
+            {
+              "en": "The tribe has lived in this forest for centuries.",
+              "ja": "その部族は何世紀にもわたってこの森に住んでいる。",
+              "highlight": "tribe"
+            },
+            {
+              "en": "They encountered an uncontacted tribe.",
+              "ja": "彼らは未接触の部族と遭遇した。",
+              "highlight": "tribe"
+            },
+            {
+              "en": "The tribe's traditions are strictly protected.",
+              "ja": "その部族の伝統は厳格に守られている。",
+              "highlight": "tribe"
+            }
+          ]
+        },
+        {
+          "title": "例文（共通の仲間）",
+          "examples": [
+            {
+              "en": "I finally found my tribe at the university.",
+              "ja": "大学でついに自分の居場所（気の合う仲間）を見つけた。",
+              "highlight": "tribe"
+            },
+            {
+              "en": "Tech enthusiasts are a growing tribe.",
+              "ja": "テクノロジー愛好家は増えつつある集団だ。",
+              "highlight": "tribe"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tribus（古代ローマの3つの部族の1つ）",
+      "synonyms": [
+        { "word": "clan", "trans": "氏族" },
+        { "word": "group", "trans": "集団" },
+        { "word": "society", "trans": "社会" }
+      ],
+      "antonyms": [
+        { "word": "individual", "trans": "個人" },
+        { "word": "outcast", "trans": "のけ者" },
+        { "word": "loner", "trans": "孤独な人" }
+      ],
+      "related": [
+        { "word": "tribal", "trans": "形容詞：部族の" },
+        { "word": "tribesman", "trans": "名詞：部族の一員" },
+        { "word": "tribalism", "trans": "名詞：部族主義" }
+      ]
+    },
+    {
+      "number": 2448,
+      "word": "encounter",
+      "pos": "動詞、名詞",
+      "meaning": "遭遇する、直面する、思いがけない出会い",
+      "nuance": "偶然に、または予期せずに人や困難に出くわすことを指します。",
+      "example_sections": [
+        {
+          "title": "例文（遭遇する）",
+          "examples": [
+            {
+              "en": "We encountered a bear in the woods.",
+              "ja": "私たちは森の中でクマに遭遇した。",
+              "highlight": "encountered"
+            },
+            {
+              "en": "They encountered unexpected difficulties during the project.",
+              "ja": "彼らはプロジェクト中に予期せぬ困難に直面した。",
+              "highlight": "encountered"
+            },
+            {
+              "en": "She encountered her old friend at the station.",
+              "ja": "彼女は駅で旧友にばったり会った。",
+              "highlight": "encountered"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞としての出会い）",
+          "examples": [
+            {
+              "en": "It was my first encounter with foreign culture.",
+              "ja": "それは私にとって異文化との初めての出会いだった。",
+              "highlight": "encounter"
+            },
+            {
+              "en": "A brief encounter changed his life.",
+              "ja": "短い出会いが彼の人生を変えた。",
+              "highlight": "encounter"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 encontrer（向かっていく）← ラテン語 in- + contra（反対に）",
+      "synonyms": [
+        { "word": "meet", "trans": "会う" },
+        { "word": "face", "trans": "直面する" },
+        { "word": "confront", "trans": "立ち向かう" }
+      ],
+      "antonyms": [
+        { "word": "avoid", "trans": "避ける" },
+        { "word": "evade", "trans": "逃れる" },
+        { "word": "miss", "trans": "逃す" }
+      ],
+      "related": [
+        { "word": "reencounter", "trans": "名詞：再会" },
+        { "word": "close encounter", "trans": "名詞：異常接近" },
+        { "word": "encounterer", "trans": "名詞：遭遇する人" }
+      ]
+    },
+    {
+      "number": 2449,
+      "word": "decade",
+      "pos": "名詞",
+      "meaning": "10年間",
+      "nuance": "10年という期間のまとまりを表し、歴史や変化を語る際によく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（10年間）",
+          "examples": [
+            {
+              "en": "The economy has grown over the past decade.",
+              "ja": "経済はこの10年間で成長した。",
+              "highlight": "decade"
+            },
+            {
+              "en": "It took a decade to complete the building.",
+              "ja": "その建物を完成させるのに10年かかった。",
+              "highlight": "decade"
+            },
+            {
+              "en": "She has been living here for two decades.",
+              "ja": "彼女はここに20年間住んでいる。",
+              "highlight": "decades"
+            }
+          ]
+        },
+        {
+          "title": "例文（特定の年代）",
+          "examples": [
+            {
+              "en": "The 1980s was a fascinating decade.",
+              "ja": "1980年代は魅力的な10年間だった。",
+              "highlight": "decade"
+            },
+            {
+              "en": "We are entering a new decade of innovation.",
+              "ja": "私たちはイノベーションの新たな10年に突入している。",
+              "highlight": "decade"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 dekas（10のまとまり）",
+      "synonyms": [
+        { "word": "ten years", "trans": "10年" },
+        { "word": "decennary", "trans": "10周年" },
+        { "word": "decennium", "trans": "10年間（学術用語）" }
+      ],
+      "antonyms": [
+        { "word": "century", "trans": "1世紀（100年）" },
+        { "word": "millennium", "trans": "1千年" },
+        { "word": "year", "trans": "1年" }
+      ],
+      "related": [
+        { "word": "decadal", "trans": "形容詞：10年間の" },
+        { "word": "decennially", "trans": "副詞：10年ごとに" },
+        { "word": "century", "trans": "名詞：世紀" }
+      ]
+    },
+    {
+      "number": 2450,
+      "word": "wipe",
+      "pos": "動詞、名詞",
+      "meaning": "拭く、拭き取る、完全に消し去る（wipe out）",
+      "nuance": "布などでこすって汚れを落とすこと。また 'wipe out' で完全に破壊する・全滅させるという意味も持ちます。",
+      "example_sections": [
+        {
+          "title": "例文（拭く）",
+          "examples": [
+            {
+              "en": "Please wipe the table with a cloth.",
+              "ja": "布でテーブルを拭いてください。",
+              "highlight": "wipe"
+            },
+            {
+              "en": "He wiped the sweat from his forehead.",
+              "ja": "彼は額の汗を拭き取った。",
+              "highlight": "wiped"
+            },
+            {
+              "en": "Don't forget to wipe your shoes.",
+              "ja": "靴の汚れを拭くのを忘れないで。",
+              "highlight": "wipe"
+            }
+          ]
+        },
+        {
+          "title": "例文（全滅させる：wipe out）",
+          "examples": [
+            {
+              "en": "The disease wiped out the entire village.",
+              "ja": "その病気は村全体を全滅させた。",
+              "highlight": "wiped out"
+            },
+            {
+              "en": "One mistake could wipe out all our progress.",
+              "ja": "一つのミスが我々の進歩を全て消し去るかもしれない。",
+              "highlight": "wipe out"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 wipian（布でこする）",
+      "synonyms": [
+        { "word": "clean", "trans": "きれいにする" },
+        { "word": "erase", "trans": "消す" },
+        { "word": "rub", "trans": "こする" }
+      ],
+      "antonyms": [
+        { "word": "stain", "trans": "汚す" },
+        { "word": "dirty", "trans": "汚す" },
+        { "word": "smear", "trans": "塗りつける" }
+      ],
+      "related": [
+        { "word": "wiper", "trans": "名詞：ワイパー" },
+        { "word": "wipeout", "trans": "名詞：全滅、大失敗" },
+        { "word": "baby wipe", "trans": "名詞：おしりふき" }
+      ]
+    },
+    {
+      "number": 2451,
+      "word": "disease",
+      "pos": "名詞",
+      "meaning": "病気、疾患",
+      "nuance": "単なる体調不良ではなく、医学的に診断されるような深刻な病気や感染症を指すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文（病気）",
+          "examples": [
+            {
+              "en": "He is suffering from a rare disease.",
+              "ja": "彼はまれな病気に苦しんでいる。",
+              "highlight": "disease"
+            },
+            {
+              "en": "Heart disease is a major cause of death.",
+              "ja": "心臓病は主な死因の一つである。",
+              "highlight": "disease"
+            },
+            {
+              "en": "Vaccines help prevent the spread of disease.",
+              "ja": "ワクチンは病気の蔓延を防ぐのに役立つ。",
+              "highlight": "disease"
+            }
+          ]
+        },
+        {
+          "title": "例文（社会的な病弊）",
+          "examples": [
+            {
+              "en": "Poverty is a disease that affects society.",
+              "ja": "貧困は社会に悪影響を及ぼす病弊である。",
+              "highlight": "disease"
+            },
+            {
+              "en": "Corruption is a disease spreading in the government.",
+              "ja": "汚職は政府内に広がる病である。",
+              "highlight": "disease"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 des-（否定）+ aise（快適さ）→ 快適でない状態",
+      "synonyms": [
+        { "word": "illness", "trans": "病気" },
+        { "word": "sickness", "trans": "病気、吐き気" },
+        { "word": "ailment", "trans": "（軽い）病気" }
+      ],
+      "antonyms": [
+        { "word": "health", "trans": "健康" },
+        { "word": "wellness", "trans": "健康であること" },
+        { "word": "fitness", "trans": "健康状態" }
+      ],
+      "related": [
+        { "word": "diseased", "trans": "形容詞：病気にかかった" },
+        { "word": "disease-free", "trans": "形容詞：病気のない" },
+        { "word": "infectious disease", "trans": "名詞：感染症" }
+      ]
+    },
+    {
+      "number": 2452,
+      "word": "reduce",
+      "pos": "動詞",
+      "meaning": "減らす、縮小する、下げる",
+      "nuance": "量、サイズ、程度などを小さくすること。意図的な行動によって減少させるニュアンスが強いです。",
+      "example_sections": [
+        {
+          "title": "例文（減らす）",
+          "examples": [
+            {
+              "en": "We need to reduce our expenses.",
+              "ja": "私たちは出費を減らす必要がある。",
+              "highlight": "reduce"
+            },
+            {
+              "en": "The store reduced the price of the TV.",
+              "ja": "その店はテレビの価格を下げた。",
+              "highlight": "reduced"
+            },
+            {
+              "en": "Reducing stress is important for your health.",
+              "ja": "ストレスを減らすことは健康にとって重要だ。",
+              "highlight": "Reducing"
+            }
+          ]
+        },
+        {
+          "title": "例文（変える、陥れる：reduce to）",
+          "examples": [
+            {
+              "en": "The building was reduced to ashes in the fire.",
+              "ja": "その建物は火事で灰燼に帰した（灰に変えられた）。",
+              "highlight": "reduced to"
+            },
+            {
+              "en": "She was reduced to tears by the sad news.",
+              "ja": "彼女はその悲しい知らせで泣き崩れた。",
+              "highlight": "reduced to"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 re-（後ろへ）+ ducere（導く）→ 元に戻す、小さくする",
+      "synonyms": [
+        { "word": "decrease", "trans": "減少する、減らす" },
+        { "word": "lessen", "trans": "少なくする" },
+        { "word": "diminish", "trans": "減らす" }
+      ],
+      "antonyms": [
+        { "word": "increase", "trans": "増やす" },
+        { "word": "expand", "trans": "拡大する" },
+        { "word": "raise", "trans": "上げる" }
+      ],
+      "related": [
+        { "word": "reduction", "trans": "名詞：減少、割引" },
+        { "word": "reduced", "trans": "形容詞：減少した" },
+        { "word": "reducible", "trans": "形容詞：減らすことができる" }
+      ]
+    },
+    {
+      "number": 2453,
+      "word": "acre",
+      "pos": "名詞",
+      "meaning": "エーカー（面積の単位）",
+      "nuance": "主にアメリカやイギリスで使われる土地の面積の単位（1エーカー ≒ 約4047平方メートル）。広大な土地を表す比喩としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文（単位として）",
+          "examples": [
+            {
+              "en": "He owns a 50-acre farm.",
+              "ja": "彼は50エーカーの農場を所有している。",
+              "highlight": "acre"
+            },
+            {
+              "en": "The forest covers thousands of acres.",
+              "ja": "その森は何千エーカーにも広がっている。",
+              "highlight": "acres"
+            },
+            {
+              "en": "They bought an acre of land to build a house.",
+              "ja": "彼らは家を建てるために1エーカーの土地を買った。",
+              "highlight": "acre"
+            }
+          ]
+        },
+        {
+          "title": "例文（広大な場所の比喩）",
+          "examples": [
+            {
+              "en": "There are acres of parking space outside the mall.",
+              "ja": "モールの外には広大な駐車スペースがある。",
+              "highlight": "acres of"
+            },
+            {
+              "en": "He has acres of free time now that he is retired.",
+              "ja": "彼は退職したので、有り余るほどの自由な時間がある。",
+              "highlight": "acres of"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 æcer（耕作地、畑）",
+      "synonyms": [
+        { "word": "land", "trans": "土地" },
+        { "word": "plot", "trans": "区画" },
+        { "word": "field", "trans": "野原、畑" }
+      ],
+      "antonyms": [
+        { "word": "inch", "trans": "インチ（非常に小さい単位の比喩として）" },
+        { "word": "millimeter", "trans": "ミリメートル" },
+        { "word": "speck", "trans": "小さな斑点" }
+      ],
+      "related": [
+        { "word": "acreage", "trans": "名詞：エーカー数、面積" },
+        { "word": "half-acre", "trans": "名詞：半エーカー" },
+        { "word": "hectare", "trans": "名詞：ヘクタール（別の面積単位）" }
+      ]
+    },
+    {
+      "number": 2454,
+      "word": "bow",
+      "pos": "名詞、動詞",
+      "meaning": "弓、お辞儀、お辞儀をする、屈服する",
+      "nuance": "名詞としては武器の「弓」や楽器の「弓」。動詞としては敬意を示して「お辞儀をする」や、圧力に「屈する」意味になります。",
+      "example_sections": [
+        {
+          "title": "例文（弓）",
+          "examples": [
+            {
+              "en": "He shot an arrow from his bow.",
+              "ja": "彼は弓から矢を放った。",
+              "highlight": "bow"
+            },
+            {
+              "en": "The hunter carried a heavy bow.",
+              "ja": "その狩人は重い弓を持ち歩いていた。",
+              "highlight": "bow"
+            },
+            {
+              "en": "She plays the violin with a beautiful bow.",
+              "ja": "彼女は美しい弓でバイオリンを弾く。",
+              "highlight": "bow"
+            }
+          ]
+        },
+        {
+          "title": "例文（お辞儀する、屈する）",
+          "examples": [
+            {
+              "en": "The actors bowed to the audience.",
+              "ja": "俳優たちは観客にお辞儀をした。",
+              "highlight": "bowed"
+            },
+            {
+              "en": "The government refused to bow to terrorist demands.",
+              "ja": "政府はテロリストの要求に屈することを拒否した。",
+              "highlight": "bow"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 boga（曲がったもの）",
+      "synonyms": [
+        { "word": "longbow", "trans": "長弓" },
+        { "word": "bend", "trans": "曲げる、お辞儀する" },
+        { "word": "yield", "trans": "屈する" }
+      ],
+      "antonyms": [
+        { "word": "stand straight", "trans": "まっすぐ立つ" },
+        { "word": "resist", "trans": "抵抗する" },
+        { "word": "defy", "trans": "反抗する" }
+      ],
+      "related": [
+        { "word": "bowman", "trans": "名詞：弓の射手" },
+        { "word": "rainbow", "trans": "名詞：虹" },
+        { "word": "bowstring", "trans": "名詞：弓の弦" }
+      ]
+    },
+    {
+      "number": 2455,
+      "word": "arrow",
+      "pos": "名詞",
+      "meaning": "矢、矢印",
+      "nuance": "弓で射る武器としての「矢」や、方向を示す記号の「矢印」を指します。",
+      "example_sections": [
+        {
+          "title": "例文（矢）",
+          "examples": [
+            {
+              "en": "The arrow hit the center of the target.",
+              "ja": "矢は的の中心に命中した。",
+              "highlight": "arrow"
+            },
+            {
+              "en": "He has a bow and several arrows.",
+              "ja": "彼は弓と数本の矢を持っている。",
+              "highlight": "arrows"
+            },
+            {
+              "en": "The tribe hunted with poisoned arrows.",
+              "ja": "その部族は毒矢を使って狩りをした。",
+              "highlight": "arrows"
+            }
+          ]
+        },
+        {
+          "title": "例文（矢印）",
+          "examples": [
+            {
+              "en": "Follow the green arrows on the floor.",
+              "ja": "床にある緑の矢印に従ってください。",
+              "highlight": "arrows"
+            },
+            {
+              "en": "The arrow points to the north.",
+              "ja": "その矢印は北を指している。",
+              "highlight": "arrow"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 arwe（飛び道具）",
+      "synonyms": [
+        { "word": "dart", "trans": "投げ矢" },
+        { "word": "bolt", "trans": "太矢（クロスボウの矢）" },
+        { "word": "pointer", "trans": "指示器" }
+      ],
+      "antonyms": [
+        { "word": "shield", "trans": "盾" },
+        { "word": "target", "trans": "標的" },
+        { "word": "armor", "trans": "鎧" }
+      ],
+      "related": [
+        { "word": "arrowhead", "trans": "名詞：矢じり" },
+        { "word": "bow and arrow", "trans": "名詞：弓矢" },
+        { "word": "arrow-shaped", "trans": "形容詞：矢の形をした" }
+      ]
+    },
+    {
+      "number": 2456,
+      "word": "weapon",
+      "pos": "名詞",
+      "meaning": "武器、兵器、手段",
+      "nuance": "物理的な攻撃や防御のための道具だけでなく、議論などで優位に立つための「手段」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（武器、兵器）",
+          "examples": [
+            {
+              "en": "The police found a deadly weapon at the scene.",
+              "ja": "警察は現場で凶器を発見した。",
+              "highlight": "weapon"
+            },
+            {
+              "en": "Nuclear weapons pose a global threat.",
+              "ja": "核兵器は世界的な脅威をもたらす。",
+              "highlight": "weapons"
+            },
+            {
+              "en": "He was arrested for carrying a concealed weapon.",
+              "ja": "彼は隠し武器を携帯していたため逮捕された。",
+              "highlight": "weapon"
+            }
+          ]
+        },
+        {
+          "title": "例文（有効な手段）",
+          "examples": [
+            {
+              "en": "Education is our best weapon against poverty.",
+              "ja": "教育は貧困と戦うための最大の武器（手段）だ。",
+              "highlight": "weapon"
+            },
+            {
+              "en": "Her smile is her secret weapon.",
+              "ja": "彼女の笑顔は彼女の秘密兵器だ。",
+              "highlight": "weapon"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 wæpen（戦闘のための道具）",
+      "synonyms": [
+        { "word": "arm", "trans": "武器" },
+        { "word": "armament", "trans": "兵器" },
+        { "word": "tool", "trans": "道具、手段" }
+      ],
+      "antonyms": [
+        { "word": "shield", "trans": "盾" },
+        { "word": "defense", "trans": "防御" },
+        { "word": "peace", "trans": "平和" }
+      ],
+      "related": [
+        { "word": "weaponry", "trans": "名詞：兵器類" },
+        { "word": "weaponize", "trans": "動詞：武器化する" },
+        { "word": "weaponless", "trans": "形容詞：武器を持たない" }
+      ]
+    },
+    {
+      "number": 2457,
+      "word": "credit",
+      "pos": "名詞、動詞",
+      "meaning": "信用、功績、単位、信用する",
+      "nuance": "金銭的な「信用」のほか、人に与えられる「称賛」や「功績」、学校の「単位」など幅広く使われます。",
+      "example_sections": [
+        {
+          "title": "例文（信用、功績）",
+          "examples": [
+            {
+              "en": "You can pay by credit card.",
+              "ja": "クレジットカードで支払いができます。",
+              "highlight": "credit"
+            },
+            {
+              "en": "She deserves all the credit for the project's success.",
+              "ja": "彼女はプロジェクト成功のすべての功績を称えられるべきだ。",
+              "highlight": "credit"
+            },
+            {
+              "en": "He took the credit for my idea.",
+              "ja": "彼は私のアイデアの手柄を横取りした。",
+              "highlight": "credit"
+            }
+          ]
+        },
+        {
+          "title": "例文（単位、信用する）",
+          "examples": [
+            {
+              "en": "I need three more credits to graduate.",
+              "ja": "卒業するにはあと3単位必要だ。",
+              "highlight": "credits"
+            },
+            {
+              "en": "I credit him with saving my life.",
+              "ja": "私が助かったのは彼のおかげだと信じている（功績を認めている）。",
+              "highlight": "credit"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 credere（信じる）",
+      "synonyms": [
+        { "word": "recognition", "trans": "承認、評価" },
+        { "word": "praise", "trans": "称賛" },
+        { "word": "trust", "trans": "信頼" }
+      ],
+      "antonyms": [
+        { "word": "blame", "trans": "非難" },
+        { "word": "discredit", "trans": "不信、不名誉" },
+        { "word": "cash", "trans": "現金（支払方法の対比として）" }
+      ],
+      "related": [
+        { "word": "creditor", "trans": "名詞：債権者" },
+        { "word": "credible", "trans": "形容詞：信用できる" },
+        { "word": "credit card", "trans": "名詞：クレジットカード" }
+      ]
+    },
+    {
+      "number": 2458,
+      "word": "attention",
+      "pos": "名詞",
+      "meaning": "注意、注目、配慮",
+      "nuance": "意識を何かに向けること。'pay attention to' (～に注意を払う) は頻出の表現です。",
+      "example_sections": [
+        {
+          "title": "例文（注意を払う）",
+          "examples": [
+            {
+              "en": "Please pay attention to the instructions.",
+              "ja": "指示に注意を払ってください。",
+              "highlight": "attention"
+            },
+            {
+              "en": "The child tried to attract his mother's attention.",
+              "ja": "その子は母親の注意を引こうとした。",
+              "highlight": "attention"
+            },
+            {
+              "en": "His unique fashion caught my attention.",
+              "ja": "彼の独特なファッションが私の目を引いた。",
+              "highlight": "attention"
+            }
+          ]
+        },
+        {
+          "title": "例文（配慮、注目）",
+          "examples": [
+            {
+              "en": "The problem requires urgent attention.",
+              "ja": "その問題は至急の対応（配慮）を要する。",
+              "highlight": "attention"
+            },
+            {
+              "en": "The scandal received a lot of media attention.",
+              "ja": "そのスキャンダルはメディアの大きな注目を集めた。",
+              "highlight": "attention"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad-（〜へ）+ tendere（伸ばす）→ 心を向ける",
+      "synonyms": [
+        { "word": "focus", "trans": "集中" },
+        { "word": "notice", "trans": "注目" },
+        { "word": "awareness", "trans": "認識" }
+      ],
+      "antonyms": [
+        { "word": "inattention", "trans": "不注意" },
+        { "word": "neglect", "trans": "無視、怠慢" },
+        { "word": "disregard", "trans": "無視" }
+      ],
+      "related": [
+        { "word": "attentive", "trans": "形容詞：注意深い" },
+        { "word": "attentively", "trans": "副詞：注意深く" },
+        { "word": "attention span", "trans": "名詞：集中力の持続時間" }
+      ]
+    },
+    {
+      "number": 2459,
+      "word": "flee",
+      "pos": "動詞",
+      "meaning": "逃げる、避難する",
+      "nuance": "危険や恐怖から急いで逃げ去ることを意味します。過去形・過去分詞形は fled です。",
+      "example_sections": [
+        {
+          "title": "例文（危険から逃げる）",
+          "examples": [
+            {
+              "en": "Thousands of refugees had to flee the country.",
+              "ja": "何千人もの難民が国を逃れなければならなかった。",
+              "highlight": "flee"
+            },
+            {
+              "en": "The suspect fled the scene before the police arrived.",
+              "ja": "容疑者は警察が到着する前に現場から逃走した。",
+              "highlight": "fled"
+            },
+            {
+              "en": "Animals flee from fire by instinct.",
+              "ja": "動物は本能的に火から逃げる。",
+              "highlight": "flee"
+            }
+          ]
+        },
+        {
+          "title": "例文（比喩的な逃避）",
+          "examples": [
+            {
+              "en": "He tried to flee from his responsibilities.",
+              "ja": "彼は自らの責任から逃れようとした。",
+              "highlight": "flee"
+            },
+            {
+              "en": "All color fled from her face.",
+              "ja": "彼女の顔から血の気が引いた（色が逃げた）。",
+              "highlight": "fled"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 flēon（逃げる）",
+      "synonyms": [
+        { "word": "escape", "trans": "逃げる" },
+        { "word": "run away", "trans": "逃げ出す" },
+        { "word": "vanish", "trans": "消え去る" }
+      ],
+      "antonyms": [
+        { "word": "stay", "trans": "とどまる" },
+        { "word": "remain", "trans": "残る" },
+        { "word": "face", "trans": "立ち向かう" }
+      ],
+      "related": [
+        { "word": "fled", "trans": "動詞：fleeの過去・過去分詞形" },
+        { "word": "fleeing", "trans": "名詞：逃亡" },
+        { "word": "flight", "trans": "名詞：逃亡、飛行" }
+      ]
+    },
+    {
+      "number": 2460,
+      "word": "headquarters",
+      "pos": "名詞",
+      "meaning": "本部、本社、司令部",
+      "nuance": "組織の主要な機能が集中している場所。単数形でも複数形でも s がついた形で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（本社、本部）",
+          "examples": [
+            {
+              "en": "The company's headquarters is located in Tokyo.",
+              "ja": "その会社の本社は東京にある。",
+              "highlight": "headquarters"
+            },
+            {
+              "en": "We visited the UN headquarters in New York.",
+              "ja": "私たちはニューヨークの国連本部を訪問した。",
+              "highlight": "headquarters"
+            },
+            {
+              "en": "Orders came directly from headquarters.",
+              "ja": "命令は本部から直接下された。",
+              "highlight": "headquarters"
+            }
+          ]
+        },
+        {
+          "title": "例文（司令部）",
+          "examples": [
+            {
+              "en": "The general returned to military headquarters.",
+              "ja": "将軍は軍の司令部に戻った。",
+              "highlight": "headquarters"
+            },
+            {
+              "en": "Police headquarters released a new statement.",
+              "ja": "警察本部は新たな声明を発表した。",
+              "highlight": "headquarters"
+            }
+          ]
+        }
+      ],
+      "etymology": "head（頭、主要な）+ quarters（宿舎、場所）",
+      "synonyms": [
+        { "word": "base", "trans": "基地、本部" },
+        { "word": "main office", "trans": "本社" },
+        { "word": "HQ", "trans": "本部（略語）" }
+      ],
+      "antonyms": [
+        { "word": "branch", "trans": "支社、支部" },
+        { "word": "subsidiary", "trans": "子会社" },
+        { "word": "outpost", "trans": "前哨基地、出先機関" }
+      ],
+      "related": [
+        { "word": "headquarter", "trans": "動詞：本部を置く" },
+        { "word": "HQ", "trans": "名詞：headquartersの略" },
+        { "word": "branch office", "trans": "名詞：支店" }
+      ]
+    },
+    {
+      "number": 2461,
+      "word": "arm",
+      "pos": "名詞、動詞",
+      "meaning": "腕、武器、武装させる",
+      "nuance": "名詞で体の「腕」、複数形(arms)で「武器」。動詞では「武装させる」という意味になります。",
+      "example_sections": [
+        {
+          "title": "例文（腕、武器）",
+          "examples": [
+            {
+              "en": "She broke her left arm.",
+              "ja": "彼女は左腕を骨折した。",
+              "highlight": "arm"
+            },
+            {
+              "en": "The constitution guarantees the right to bear arms.",
+              "ja": "憲法は武器を保持する権利を保障している。",
+              "highlight": "arms"
+            },
+            {
+              "en": "They welcomed us with open arms.",
+              "ja": "彼らは両腕を広げて（心から）私たちを歓迎してくれた。",
+              "highlight": "arms"
+            }
+          ]
+        },
+        {
+          "title": "例文（武装させる、備えさせる）",
+          "examples": [
+            {
+              "en": "The police were armed with rifles.",
+              "ja": "警察はライフルで武装していた。",
+              "highlight": "armed"
+            },
+            {
+              "en": "She went to the meeting armed with all the facts.",
+              "ja": "彼女はすべての事実を準備して会議に臨んだ。",
+              "highlight": "armed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 earm（腕）、ラテン語 arma（武器）",
+      "synonyms": [
+        { "word": "limb", "trans": "手足" },
+        { "word": "weapon", "trans": "武器" },
+        { "word": "equip", "trans": "装備させる" }
+      ],
+      "antonyms": [
+        { "word": "leg", "trans": "脚" },
+        { "word": "disarm", "trans": "武装解除する" },
+        { "word": "demilitarize", "trans": "非武装化する" }
+      ],
+      "related": [
+        { "word": "armor", "trans": "名詞：鎧、装甲" },
+        { "word": "army", "trans": "名詞：軍隊" },
+        { "word": "armed", "trans": "形容詞：武装した" }
+      ]
+    },
+    {
+      "number": 2462,
+      "word": "possibility",
+      "pos": "名詞",
+      "meaning": "可能性、見込み",
+      "nuance": "何かが起こる、または事実である見込みのこと。絶対ではないが、あり得る状況を示します。",
+      "example_sections": [
+        {
+          "title": "例文（可能性）",
+          "examples": [
+            {
+              "en": "There is a possibility of rain tomorrow.",
+              "ja": "明日は雨の可能性がある。",
+              "highlight": "possibility"
+            },
+            {
+              "en": "We must consider every possibility.",
+              "ja": "あらゆる可能性を考慮しなければならない。",
+              "highlight": "possibility"
+            },
+            {
+              "en": "She didn't rule out the possibility of moving.",
+              "ja": "彼女は引っ越す可能性を排除しなかった。",
+              "highlight": "possibility"
+            }
+          ]
+        },
+        {
+          "title": "例文（将来性、見込み）",
+          "examples": [
+            {
+              "en": "This new technology holds great possibilities.",
+              "ja": "この新技術は大きな可能性を秘めている。",
+              "highlight": "possibilities"
+            },
+            {
+              "en": "Is there any possibility that you could help me?",
+              "ja": "手伝っていただくことは可能でしょうか？",
+              "highlight": "possibility"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 possibilis（可能な）",
+      "synonyms": [
+        { "word": "chance", "trans": "機会、可能性" },
+        { "word": "likelihood", "trans": "見込み" },
+        { "word": "potential", "trans": "潜在的な可能性" }
+      ],
+      "antonyms": [
+        { "word": "impossibility", "trans": "不可能" },
+        { "word": "certainty", "trans": "確実性" },
+        { "word": "unlikelihood", "trans": "見込みがないこと" }
+      ],
+      "related": [
+        { "word": "possible", "trans": "形容詞：可能な" },
+        { "word": "possibly", "trans": "副詞：ことによると" },
+        { "word": "impossible", "trans": "形容詞：不可能な" }
+      ]
+    },
+    {
+      "number": 2463,
+      "word": "chart",
+      "pos": "名詞、動詞",
+      "meaning": "図表、グラフ、海図、記録する",
+      "nuance": "情報を視覚的に分かりやすくまとめた図表。動詞としては、進行状況を記録したり計画を立てたりすることを指します。",
+      "example_sections": [
+        {
+          "title": "例文（図表、グラフ）",
+          "examples": [
+            {
+              "en": "Please look at the chart on page 10.",
+              "ja": "10ページの図表を見てください。",
+              "highlight": "chart"
+            },
+            {
+              "en": "The sales chart shows a clear increase.",
+              "ja": "売上グラフは明らかな増加を示している。",
+              "highlight": "chart"
+            },
+            {
+              "en": "His song reached number one on the charts.",
+              "ja": "彼の歌はヒットチャートで1位になった。",
+              "highlight": "charts"
+            }
+          ]
+        },
+        {
+          "title": "例文（記録する、海図を作る）",
+          "examples": [
+            {
+              "en": "We need to chart our progress carefully.",
+              "ja": "進捗状況を慎重に記録する必要がある。",
+              "highlight": "chart"
+            },
+            {
+              "en": "The explorers charted the unknown coastline.",
+              "ja": "探検家たちは未知の海岸線の海図を作った。",
+              "highlight": "charted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 khartēs（パピルスの紙）",
+      "synonyms": [
+        { "word": "graph", "trans": "グラフ" },
+        { "word": "map", "trans": "地図" },
+        { "word": "diagram", "trans": "図解" }
+      ],
+      "antonyms": [
+        { "word": "text", "trans": "文章（視覚的図表の対比）" },
+        { "word": "prose", "trans": "散文" },
+        { "word": "disorganization", "trans": "無秩序" }
+      ],
+      "related": [
+        { "word": "uncharted", "trans": "形容詞：図にない、未知の" },
+        { "word": "flowchart", "trans": "名詞：フローチャート" },
+        { "word": "pie chart", "trans": "名詞：円グラフ" }
+      ]
+    },
+    {
+      "number": 2464,
+      "word": "territory",
+      "pos": "名詞",
+      "meaning": "領土、領域、縄張り",
+      "nuance": "国や動物、人が支配・占有している土地や専門分野などの領域を指します。",
+      "example_sections": [
+        {
+          "title": "例文（領土、縄張り）",
+          "examples": [
+            {
+              "en": "The army invaded enemy territory.",
+              "ja": "軍隊は敵の領土に侵攻した。",
+              "highlight": "territory"
+            },
+            {
+              "en": "Tigers are known to defend their territory fiercely.",
+              "ja": "トラは自分の縄張りを猛烈に守ることで知られている。",
+              "highlight": "territory"
+            },
+            {
+              "en": "Guam is a US territory.",
+              "ja": "グアムはアメリカの領土（属領）である。",
+              "highlight": "territory"
+            }
+          ]
+        },
+        {
+          "title": "例文（分野、領域）",
+          "examples": [
+            {
+              "en": "Quantum physics is unfamiliar territory for me.",
+              "ja": "量子物理学は私にとって不慣れな領域だ。",
+              "highlight": "territory"
+            },
+            {
+              "en": "The salesman covers a wide territory.",
+              "ja": "その営業マンは広い担当地域をカバーしている。",
+              "highlight": "territory"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 territorium（町の周辺の土地）",
+      "synonyms": [
+        { "word": "area", "trans": "地域" },
+        { "word": "region", "trans": "地方" },
+        { "word": "land", "trans": "土地" }
+      ],
+      "antonyms": [
+        { "word": "sky", "trans": "空（陸地の対比）" },
+        { "word": "ocean", "trans": "海" },
+        { "word": "nowhere", "trans": "どこにもない場所" }
+      ],
+      "related": [
+        { "word": "territorial", "trans": "形容詞：領土の、縄張り意識の強い" },
+        { "word": "extraterritorial", "trans": "形容詞：治外法権の" },
+        { "word": "territorial waters", "trans": "名詞：領海" }
+      ]
+    },
+    {
+      "number": 2465,
+      "word": "label",
+      "pos": "名詞、動詞",
+      "meaning": "ラベル、札、レッテルを貼る",
+      "nuance": "物に貼って情報をしめす札や、人に対して固定的な評価（レッテル）を付けることを意味します。",
+      "example_sections": [
+        {
+          "title": "例文（ラベル、札）",
+          "examples": [
+            {
+              "en": "Read the washing instructions on the label.",
+              "ja": "ラベルにある洗濯の指示を読んでください。",
+              "highlight": "label"
+            },
+            {
+              "en": "The price label fell off the box.",
+              "ja": "箱から価格ラベルが落ちた。",
+              "highlight": "label"
+            },
+            {
+              "en": "She buys expensive designer labels.",
+              "ja": "彼女は高価なデザイナーズブランド（の服）を買う。",
+              "highlight": "labels"
+            }
+          ]
+        },
+        {
+          "title": "例文（レッテルを貼る）",
+          "examples": [
+            {
+              "en": "He was labeled as a troublemaker.",
+              "ja": "彼はトラブルメーカーというレッテルを貼られた。",
+              "highlight": "labeled"
+            },
+            {
+              "en": "It's unfair to label people based on their appearance.",
+              "ja": "外見で人にレッテルを貼るのは不公平だ。",
+              "highlight": "label"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 label（リボン、端切れ）",
+      "synonyms": [
+        { "word": "tag", "trans": "付箋、札" },
+        { "word": "sticker", "trans": "ステッカー" },
+        { "word": "marker", "trans": "目印" }
+      ],
+      "antonyms": [
+        { "word": "blank", "trans": "空白" },
+        { "word": "unlabeled", "trans": "ラベルのない" },
+        { "word": "unmark", "trans": "印を消す" }
+      ],
+      "related": [
+        { "word": "labeling", "trans": "名詞：ラベル付け、レッテル貼り" },
+        { "word": "white-label", "trans": "名詞：ホワイトラベル（他社ブランド名で販売）" },
+        { "word": "record label", "trans": "名詞：レコード会社" }
+      ]
+    },
+    {
+      "number": 2466,
+      "word": "sacred",
+      "pos": "形容詞",
+      "meaning": "神聖な、宗教的な、非常に重要な",
+      "nuance": "神に関連して神聖化されているものや、絶対に侵してはならないほど重要なものを指します。",
+      "example_sections": [
+        {
+          "title": "例文（神聖な）",
+          "examples": [
+            {
+              "en": "Cows are considered sacred in India.",
+              "ja": "インドでは牛は神聖なものと考えられている。",
+              "highlight": "sacred"
+            },
+            {
+              "en": "They visited a sacred shrine in the mountains.",
+              "ja": "彼らは山の中にある神聖な神社を訪れた。",
+              "highlight": "sacred"
+            },
+            {
+              "en": "The tribe protected their sacred lands.",
+              "ja": "その部族は自分たちの聖なる土地を守った。",
+              "highlight": "sacred"
+            }
+          ]
+        },
+        {
+          "title": "例文（非常に重要な、不可侵の）",
+          "examples": [
+            {
+              "en": "Human life is sacred.",
+              "ja": "人間の命は尊い（神聖である）。",
+              "highlight": "sacred"
+            },
+            {
+              "en": "My weekend mornings are sacred to me.",
+              "ja": "週末の朝は私にとって何よりも大切（邪魔されたくない時間）だ。",
+              "highlight": "sacred"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sacer（神聖な）",
+      "synonyms": [
+        { "word": "holy", "trans": "神聖な" },
+        { "word": "divine", "trans": "神の、神聖な" },
+        { "word": "blessed", "trans": "祝福された" }
+      ],
+      "antonyms": [
+        { "word": "cursed", "trans": "呪われた" },
+        { "word": "profane", "trans": "世俗的な、冒涜的な" },
+        { "word": "secular", "trans": "非宗教的な" }
+      ],
+      "related": [
+        { "word": "sacredly", "trans": "副詞：神聖に" },
+        { "word": "sacredness", "trans": "名詞：神聖さ" },
+        { "word": "sacrifice", "trans": "名詞：犠牲、生贄" }
+      ]
+    },
+    {
+      "number": 2467,
+      "word": "site",
+      "pos": "名詞",
+      "meaning": "場所、敷地、遺跡、ウェブサイト",
+      "nuance": "特定の目的のために使われる、または出来事があった特定の場所を指します。",
+      "example_sections": [
+        {
+          "title": "例文（場所、敷地）",
+          "examples": [
+            {
+              "en": "This is the proposed site for the new hospital.",
+              "ja": "ここが新しい病院の建設予定地です。",
+              "highlight": "site"
+            },
+            {
+              "en": "They discovered an ancient burial site.",
+              "ja": "彼らは古代の埋葬跡（遺跡）を発見した。",
+              "highlight": "site"
+            },
+            {
+              "en": "The construction site is closed on Sundays.",
+              "ja": "その建設現場は日曜日は閉鎖されている。",
+              "highlight": "site"
+            }
+          ]
+        },
+        {
+          "title": "例文（ウェブサイト）",
+          "examples": [
+            {
+              "en": "You can download the software from our site.",
+              "ja": "私たちのサイトからソフトウェアをダウンロードできます。",
+              "highlight": "site"
+            },
+            {
+              "en": "This site uses cookies.",
+              "ja": "このサイトはクッキーを使用しています。",
+              "highlight": "site"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 situs（位置、置かれた場所）",
+      "synonyms": [
+        { "word": "location", "trans": "場所" },
+        { "word": "place", "trans": "場所" },
+        { "word": "spot", "trans": "地点" }
+      ],
+      "antonyms": [
+        { "word": "nowhere", "trans": "どこにもない場所" },
+        { "word": "void", "trans": "空白、空間" },
+        { "word": "displacement", "trans": "移動、立ち退き" }
+      ],
+      "related": [
+        { "word": "website", "trans": "名詞：ウェブサイト" },
+        { "word": "on-site", "trans": "形容詞：現場の" },
+        { "word": "sight", "trans": "名詞：視覚、光景（※同音異義語）" }
+      ]
+    },
+    {
+      "number": 2468,
+      "word": "effect",
+      "pos": "名詞、動詞",
+      "meaning": "影響、効果、結果、もたらす",
+      "nuance": "原因に対して生じた結果や影響力のこと。動詞（もたらす）として使われることもありますが、通常は名詞として使われます（動詞形は通常 affect を使います）。",
+      "example_sections": [
+        {
+          "title": "例文（影響、効果）",
+          "examples": [
+            {
+              "en": "The medicine had an immediate effect.",
+              "ja": "その薬は即効性があった。",
+              "highlight": "effect"
+            },
+            {
+              "en": "We are studying the effects of climate change.",
+              "ja": "私たちは気候変動の影響を研究している。",
+              "highlight": "effects"
+            },
+            {
+              "en": "The new law will come into effect next month.",
+              "ja": "新しい法律は来月発効する。",
+              "highlight": "effect"
+            }
+          ]
+        },
+        {
+          "title": "例文（結果）",
+          "examples": [
+            {
+              "en": "Cause and effect are closely linked.",
+              "ja": "原因と結果は密接に結びついている。",
+              "highlight": "effect"
+            },
+            {
+              "en": "He left the team, and the effect was disastrous.",
+              "ja": "彼がチームを去り、その結果は悲惨なものだった。",
+              "highlight": "effect"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ex-（外へ）+ facere（作る）→ 成し遂げられたこと",
+      "synonyms": [
+        { "word": "result", "trans": "結果" },
+        { "word": "consequence", "trans": "結果、影響" },
+        { "word": "outcome", "trans": "成果" }
+      ],
+      "antonyms": [
+        { "word": "cause", "trans": "原因" },
+        { "word": "reason", "trans": "理由" },
+        { "word": "origin", "trans": "起源" }
+      ],
+      "related": [
+        { "word": "effective", "trans": "形容詞：効果的な" },
+        { "word": "affect", "trans": "動詞：影響を与える" },
+        { "word": "side effect", "trans": "名詞：副作用" }
+      ]
+    },
+    {
+      "number": 2469,
+      "word": "attack",
+      "pos": "動詞、名詞",
+      "meaning": "攻撃する、非難する、発作、攻撃",
+      "nuance": "物理的な暴力による攻撃や、言葉での激しい非難、または病気の急な発作を表します。",
+      "example_sections": [
+        {
+          "title": "例文（攻撃する）",
+          "examples": [
+            {
+              "en": "The enemy attacked the castle at dawn.",
+              "ja": "敵は夜明けに城を攻撃した。",
+              "highlight": "attacked"
+            },
+            {
+              "en": "He was fiercely attacked in the press.",
+              "ja": "彼はマスコミから激しく非難された。",
+              "highlight": "attacked"
+            },
+            {
+              "en": "The virus attacks the immune system.",
+              "ja": "そのウイルスは免疫系を攻撃する。",
+              "highlight": "attacks"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞としての攻撃、発作）",
+          "examples": [
+            {
+              "en": "The city came under a heavy attack.",
+              "ja": "その都市は激しい攻撃を受けた。",
+              "highlight": "attack"
+            },
+            {
+              "en": "He suffered a massive heart attack.",
+              "ja": "彼は重い心臓発作を起こした。",
+              "highlight": "attack"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 atachier（取り付ける）→ 標的に張り付く→ 攻撃する",
+      "synonyms": [
+        { "word": "assault", "trans": "強襲、暴行" },
+        { "word": "strike", "trans": "打撃、攻撃" },
+        { "word": "charge", "trans": "突撃" }
+      ],
+      "antonyms": [
+        { "word": "defend", "trans": "防御する" },
+        { "word": "protect", "trans": "保護する" },
+        { "word": "retreat", "trans": "撤退する" }
+      ],
+      "related": [
+        { "word": "attacker", "trans": "名詞：攻撃者" },
+        { "word": "counterattack", "trans": "名詞：反撃" },
+        { "word": "panic attack", "trans": "名詞：パニック発作" }
+      ]
+    },
+    {
+      "number": 2470,
+      "word": "inform",
+      "pos": "動詞",
+      "meaning": "知らせる、情報を提供する",
+      "nuance": "人に事実や情報などを伝えること。「inform A of B (AにBを知らせる)」という形がよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（知らせる）",
+          "examples": [
+            {
+              "en": "Please inform me of any changes.",
+              "ja": "変更があれば私に知らせてください。",
+              "highlight": "inform"
+            },
+            {
+              "en": "We regret to inform you that your application was denied.",
+              "ja": "残念ながら、あなたの申請は却下されたことをお知らせします。",
+              "highlight": "inform"
+            },
+            {
+              "en": "He informed the police about the accident.",
+              "ja": "彼は警察に事故について通報した。",
+              "highlight": "informed"
+            }
+          ]
+        },
+        {
+          "title": "例文（影響を与える、特徴づける）",
+          "examples": [
+            {
+              "en": "His experiences in the war inform his writing.",
+              "ja": "彼の戦争体験が彼の執筆活動に影響を与えている（特徴づけている）。",
+              "highlight": "inform"
+            },
+            {
+              "en": "Religion informs every aspect of their lives.",
+              "ja": "宗教が彼らの生活のあらゆる側面の基礎となっている。",
+              "highlight": "informs"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in-（中へ）+ formare（形作る）→ 心の中に考えを形作る",
+      "synonyms": [
+        { "word": "tell", "trans": "言う、教える" },
+        { "word": "notify", "trans": "通知する" },
+        { "word": "advise", "trans": "知らせる、助言する" }
+      ],
+      "antonyms": [
+        { "word": "hide", "trans": "隠す" },
+        { "word": "conceal", "trans": "秘密にする" },
+        { "word": "mislead", "trans": "誤解させる" }
+      ],
+      "related": [
+        { "word": "information", "trans": "名詞：情報" },
+        { "word": "informative", "trans": "形容詞：有益な、情報に富む" },
+        { "word": "informant", "trans": "名詞：情報提供者" }
+      ]
+    },
+    {
+      "number": 2471,
+      "word": "entire",
+      "pos": "形容詞",
+      "meaning": "全体の、全部の、完全な",
+      "nuance": "欠けている部分がなく、全体が含まれている状態を強調します。",
+      "example_sections": [
+        {
+          "title": "例文（全体の）",
+          "examples": [
+            {
+              "en": "I spent the entire day reading a book.",
+              "ja": "私は丸一日読書をして過ごした。",
+              "highlight": "entire"
+            },
+            {
+              "en": "The entire village was destroyed by the earthquake.",
+              "ja": "村全体が地震で破壊された。",
+              "highlight": "entire"
+            },
+            {
+              "en": "He ate the entire pizza by himself.",
+              "ja": "彼は一人でピザを全部食べた。",
+              "highlight": "entire"
+            }
+          ]
+        },
+        {
+          "title": "例文（完全な）",
+          "examples": [
+            {
+              "en": "We are in entire agreement on this issue.",
+              "ja": "この問題に関して私たちは完全に同意している。",
+              "highlight": "entire"
+            },
+            {
+              "en": "It was an entire success.",
+              "ja": "それは完全な成功だった。",
+              "highlight": "entire"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 integer（無傷の、完全な）",
+      "synonyms": [
+        { "word": "whole", "trans": "全体の" },
+        { "word": "complete", "trans": "完全な" },
+        { "word": "total", "trans": "総計の" }
+      ],
+      "antonyms": [
+        { "word": "partial", "trans": "部分的な" },
+        { "word": "incomplete", "trans": "不完全な" },
+        { "word": "broken", "trans": "壊れた" }
+      ],
+      "related": [
+        { "word": "entirely", "trans": "副詞：完全に、全く" },
+        { "word": "entirety", "trans": "名詞：全体、完全" },
+        { "word": "integer", "trans": "名詞：整数" }
+      ]
+    },
+    {
+      "number": 2472,
+      "word": "solution",
+      "pos": "名詞",
+      "meaning": "解決策、解答、溶液",
+      "nuance": "問題や困難に対する「解決方法」や、クイズなどの「正解」、化学的な「溶液」を意味します。",
+      "example_sections": [
+        {
+          "title": "例文（解決策、解答）",
+          "examples": [
+            {
+              "en": "We need to find a solution to this problem.",
+              "ja": "我々はこの問題の解決策を見つける必要がある。",
+              "highlight": "solution"
+            },
+            {
+              "en": "There is no easy solution.",
+              "ja": "簡単な解決策はない。",
+              "highlight": "solution"
+            },
+            {
+              "en": "The solution to the puzzle is on the back page.",
+              "ja": "パズルの解答は裏のページにあります。",
+              "highlight": "solution"
+            }
+          ]
+        },
+        {
+          "title": "例文（溶液）",
+          "examples": [
+            {
+              "en": "Soak the contact lenses in the cleaning solution.",
+              "ja": "コンタクトレンズを洗浄液に浸してください。",
+              "highlight": "solution"
+            },
+            {
+              "en": "It is a weak solution of acid.",
+              "ja": "それは弱い酸の溶液だ。",
+              "highlight": "solution"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 solvere（解く、溶かす）",
+      "synonyms": [
+        { "word": "answer", "trans": "答え" },
+        { "word": "resolution", "trans": "解決、決議" },
+        { "word": "fix", "trans": "解決策、修理" }
+      ],
+      "antonyms": [
+        { "word": "problem", "trans": "問題" },
+        { "word": "question", "trans": "疑問、質問" },
+        { "word": "dilemma", "trans": "ジレンマ" }
+      ],
+      "related": [
+        { "word": "solve", "trans": "動詞：解決する" },
+        { "word": "solvable", "trans": "形容詞：解決可能な" },
+        { "word": "solvent", "trans": "名詞：溶剤" }
+      ]
+    },
+    {
+      "number": 2473,
+      "word": "destruction",
+      "pos": "名詞",
+      "meaning": "破壊、破滅",
+      "nuance": "建物や物、あるいは関係などが壊され、修復不可能な状態になることを意味します。",
+      "example_sections": [
+        {
+          "title": "例文（破壊）",
+          "examples": [
+            {
+              "en": "The hurricane caused widespread destruction.",
+              "ja": "ハリケーンは広範囲にわたる破壊をもたらした。",
+              "highlight": "destruction"
+            },
+            {
+              "en": "We must stop the destruction of the rainforest.",
+              "ja": "私たちは熱帯雨林の破壊を止めなければならない。",
+              "highlight": "destruction"
+            },
+            {
+              "en": "Weapons of mass destruction are banned.",
+              "ja": "大量破壊兵器は禁止されている。",
+              "highlight": "destruction"
+            }
+          ]
+        },
+        {
+          "title": "例文（破滅）",
+          "examples": [
+            {
+              "en": "His gambling led to his financial destruction.",
+              "ja": "彼のギャンブルが財政的な破滅を招いた。",
+              "highlight": "destruction"
+            },
+            {
+              "en": "The scandal was the destruction of his career.",
+              "ja": "そのスキャンダルは彼のキャリアの破滅であった。",
+              "highlight": "destruction"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 de-（下へ、離れて）+ struere（建てる）→ 建てたものを壊す",
+      "synonyms": [
+        { "word": "ruin", "trans": "破滅、荒廃" },
+        { "word": "devastation", "trans": "甚大な被害" },
+        { "word": "damage", "trans": "損害" }
+      ],
+      "antonyms": [
+        { "word": "creation", "trans": "創造" },
+        { "word": "construction", "trans": "建設" },
+        { "word": "preservation", "trans": "保存" }
+      ],
+      "related": [
+        { "word": "destroy", "trans": "動詞：破壊する" },
+        { "word": "destructive", "trans": "形容詞：破壊的な" },
+        { "word": "indestructible", "trans": "形容詞：破壊できない" }
+      ]
+    },
+    {
+      "number": 2474,
+      "word": "absolutely",
+      "pos": "副詞",
+      "meaning": "絶対に、完全に、全くその通り",
+      "nuance": "疑いの余地がなく「完全に」そうであること。また、相手の意見に対する強い同意（「その通り！」）としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文（絶対に、完全に）",
+          "examples": [
+            {
+              "en": "I am absolutely sure about this.",
+              "ja": "私はこれについて絶対に確信している。",
+              "highlight": "absolutely"
+            },
+            {
+              "en": "The food was absolutely delicious.",
+              "ja": "その食べ物は最高に（完全に）美味しかった。",
+              "highlight": "absolutely"
+            },
+            {
+              "en": "There is absolutely no reason to worry.",
+              "ja": "心配する理由は全くない。",
+              "highlight": "absolutely"
+            }
+          ]
+        },
+        {
+          "title": "例文（強い同意：その通り）",
+          "examples": [
+            {
+              "en": "\"Do you agree?\" \"Absolutely!\"",
+              "ja": "「同意しますか？」「全くその通りです！」",
+              "highlight": "Absolutely"
+            },
+            {
+              "en": "\"Are you coming to the party?\" \"Absolutely.\"",
+              "ja": "「パーティーに来る？」「絶対に行くよ。」",
+              "highlight": "Absolutely"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 absolutus（解放された、制限のない）",
+      "synonyms": [
+        { "word": "completely", "trans": "完全に" },
+        { "word": "totally", "trans": "完全に" },
+        { "word": "entirely", "trans": "全面的に" }
+      ],
+      "antonyms": [
+        { "word": "partially", "trans": "部分的に" },
+        { "word": "somewhat", "trans": "いくらか" },
+        { "word": "doubtfully", "trans": "疑わしく" }
+      ],
+      "related": [
+        { "word": "absolute", "trans": "形容詞：絶対的な" },
+        { "word": "absoluteness", "trans": "名詞：絶対であること" },
+        { "word": "absolute zero", "trans": "名詞：絶対零度" }
+      ]
+    },
+    {
+      "number": 2475,
+      "word": "encourage",
+      "pos": "動詞",
+      "meaning": "励ます、促す、奨励する",
+      "nuance": "人に自信を持たせたり、何かをするように勧めて後押ししたりすることを意味します。",
+      "example_sections": [
+        {
+          "title": "例文（励ます、勇気づける）",
+          "examples": [
+            {
+              "en": "My parents always encouraged me to try new things.",
+              "ja": "両親はいつも私に新しいことに挑戦するよう励ましてくれた。",
+              "highlight": "encouraged"
+            },
+            {
+              "en": "We need to encourage him, not criticize him.",
+              "ja": "私たちは彼を批判するのではなく、励ます必要がある。",
+              "highlight": "encourage"
+            },
+            {
+              "en": "Her words greatly encouraged me.",
+              "ja": "彼女の言葉は私を大いに勇気づけた。",
+              "highlight": "encouraged"
+            }
+          ]
+        },
+        {
+          "title": "例文（促す、奨励する）",
+          "examples": [
+            {
+              "en": "The government is encouraging foreign investment.",
+              "ja": "政府は外国からの投資を奨励している。",
+              "highlight": "encouraging"
+            },
+            {
+              "en": "Doctors encourage patients to eat healthy food.",
+              "ja": "医師は患者に健康的な食べ物を食べるよう促す。",
+              "highlight": "encourage"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 en-（中へ）+ corage（勇気）→ 勇気を与える",
+      "synonyms": [
+        { "word": "support", "trans": "支援する" },
+        { "word": "motivate", "trans": "動機を与える" },
+        { "word": "inspire", "trans": "鼓舞する" }
+      ],
+      "antonyms": [
+        { "word": "discourage", "trans": "落胆させる、思いとどまらせる" },
+        { "word": "deter", "trans": "阻止する" },
+        { "word": "dishearten", "trans": "落胆させる" }
+      ],
+      "related": [
+        { "word": "encouragement", "trans": "名詞：励まし" },
+        { "word": "encouraging", "trans": "形容詞：勇気づける" },
+        { "word": "courage", "trans": "名詞：勇気" }
+      ]
     }
   ]
 }
