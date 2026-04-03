@@ -122,7 +122,7 @@ def generate_index():
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(words, f, ensure_ascii=False, separators=(',', ':'))
 
-    # 共通CSSの定義 (パンくずリストなど)
+    # 共通CSSの定義 (パンくずリスト, ナビゲーションボタンなど)
     common_css = """
         body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
         h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
@@ -135,6 +135,12 @@ def generate_index():
         .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
         .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin-top: 30px; margin-bottom: 20px; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
     """
 
     # ==========================================
@@ -146,6 +152,7 @@ def generate_index():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英単語帳トップ</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
     <style>
         {common_css}
         .search-controls {{ display: flex; gap: 10px; margin-bottom: 15px; }}
@@ -268,6 +275,7 @@ def generate_index():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{book_name} | 目次</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
     <style>
         {common_css}
         .chapter-list {{ display: flex; flex-direction: column; gap: 8px; }}
@@ -296,9 +304,24 @@ def generate_index():
 
 
         # --- 5-2. 章別ページ (例: sokutan_1.html) ---
-        for ch_id, ch_data in book_data["chapters"].items():
-            if not ch_data["words"]:
-                continue
+        # 単語が1つ以上含まれる章のIDだけを抽出し、ソートする
+        valid_ch_ids = sorted([ch_id for ch_id, ch_data in book_data["chapters"].items() if ch_data["words"]])
+        
+        for i, ch_id in enumerate(valid_ch_ids):
+            ch_data = book_data["chapters"][ch_id]
+            
+            # ナビゲーションボタンの生成
+            if i > 0:
+                prev_btn = f'<a href="{slug}_{valid_ch_ids[i-1]}.html" class="nav-btn">← 前の章</a>'
+            else:
+                prev_btn = f'<span class="nav-btn disabled">← 前の章</span>'
+                
+            if i < len(valid_ch_ids) - 1:
+                next_btn = f'<a href="{slug}_{valid_ch_ids[i+1]}.html" class="nav-btn">次の章 →</a>'
+            else:
+                next_btn = f'<span class="nav-btn disabled">次の章 →</span>'
+                
+            nav_html = f'<div class="nav-buttons">\n        {prev_btn}\n        {next_btn}\n    </div>'
                 
             chapter_html = f"""<!DOCTYPE html>
 <html lang="ja">
@@ -306,6 +329,7 @@ def generate_index():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{ch_data["title"]} | {book_name}</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
     <style>
         {common_css}
         .local-search {{ width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }}
@@ -340,22 +364,24 @@ def generate_index():
                 chapter_html += f'<span class="word-meaning">{word["meaning"]}</span>'
                 chapter_html += f'</a></li>\n'
 
-            chapter_html += """    </ul>
+            chapter_html += f"""    </ul>
+
+    {nav_html}
 
 <script>
-    function filterLocal() {
+    function filterLocal() {{
         const filter = document.getElementById('localSearch').value.toLowerCase();
         const items = document.getElementById('wordList').getElementsByTagName('li');
         
-        for (let i = 0; i < items.length; i++) {
+        for (let i = 0; i < items.length; i++) {{
             const text = items[i].textContent || items[i].innerText;
-            if (text.toLowerCase().indexOf(filter) > -1) {
+            if (text.toLowerCase().indexOf(filter) > -1) {{
                 items[i].style.display = "";
-            } else {
+            }} else {{
                 items[i].style.display = "none";
-            }
-        }
-    }
+            }}
+        }}
+    }}
 </script>
 </body>
 </html>"""
