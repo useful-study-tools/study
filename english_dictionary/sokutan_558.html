@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>第21章：ホーソン効果 | 速読英単語</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
     <style>
         
         body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
@@ -17,6 +18,12 @@
         .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
         .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin-top: 30px; margin-bottom: 20px; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
     
         .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
         
@@ -78,6 +85,11 @@
         <li class="word-item"><a href="data/577-staple.html"><span class="word-id">577</span><span class="word-name">staple</span><span class="word-meaning">主食、主要産物、主要な要素、主要な</span></a></li>
         <li class="word-item"><a href="data/578-potent.html"><span class="word-id">578</span><span class="word-name">potent</span><span class="word-meaning">（薬などが）強力な、効力のある、影響力のある</span></a></li>
     </ul>
+
+    <div class="nav-buttons">
+        <a href="sokutan_523.html" class="nav-btn">← 前の章</a>
+        <a href="sokutan_579.html" class="nav-btn">次の章 →</a>
+    </div>
 
 <script>
     function filterLocal() {

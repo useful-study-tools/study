@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>第9章：ユーモアの種類と効能⑴ | 速読英単語</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
     <style>
         
         body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
@@ -17,6 +18,12 @@
         .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
         .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin-top: 30px; margin-bottom: 20px; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
     
         .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
         
@@ -107,6 +114,11 @@
         <li class="word-item sub-word"><a href="data/244-11-reproduction.html"><span class="word-id">244-11</span><span class="word-name">reproduction</span><span class="word-meaning">複製（品）、生殖、繁殖、再生</span></a></li>
         <li class="word-item sub-word"><a href="data/244-12-revenge.html"><span class="word-id">244-12</span><span class="word-name">revenge</span><span class="word-meaning">復讐、報復、〜に復讐する</span></a></li>
     </ul>
+
+    <div class="nav-buttons">
+        <a href="sokutan_174.html" class="nav-btn">← 前の章</a>
+        <a href="sokutan_245.html" class="nav-btn">次の章 →</a>
+    </div>
 
 <script>
     function filterLocal() {
