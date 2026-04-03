@@ -36,6 +36,8 @@ CHAPTER_MAP = {
     1801: "【FINAL DRAFT】LESSON 1〜10",
     2001: "【Change the World】UNIT 1〜5",
     2140: "【Change the World】UNIT 6〜10",
+    2314: "【Change the World】UNIT 11〜15",
+    2476: "【Change the World】UNIT 16〜20",
     3974: "【東進上級英単語1000】ステージ1",
     4074: "【東進上級英単語1000】ステージ2",
     4174: "【東進上級英単語1000】ステージ3",
@@ -104,7 +106,9 @@ CHAPTER_WORD_COUNT = {
     826: 0,  # 【速読英単語】第33章：プラスチックが健康に与える影響⑶
     1801: 0,  # 【FINAL DRAFT】LESSON 1〜10
     2001: 139,  # 【Change the World】UNIT 1〜5
-    2140: 0,  # 【Change the World】UNIT 6〜10
+    2140: 174,  # 【Change the World】UNIT 6〜10
+    2314: 162,  # 【Change the World】UNIT 11〜15
+    2476: 171,  # 【Change the World】UNIT 16〜20
     3974: 15,  # 【東進上級英単語1000】ステージ1
     4074: 24,  # 【東進上級英単語1000】ステージ2
     4174: 19,  # 【東進上級英単語1000】ステージ3
