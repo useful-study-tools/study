@@ -3114,6 +3114,3078 @@
         { "word": "actuality", "trans": "名詞：現実、実際の状況" },
         { "word": "actualize", "trans": "動詞：実現する" }
       ]
+    },
+    {
+      "number": 2380,
+      "word": "intelligence",
+      "pos": "名詞",
+      "meaning": "知性、知能、情報、諜報",
+      "nuance": "人間の思考・理解・学習能力としての「知性・知能」を指すほか、軍や政府が収集する「機密情報・諜報」という意味でも広く使われます。形容詞形 intelligent も頻出です。",
+      "example_sections": [
+        {
+          "title": "例文（知性・知能）",
+          "examples": [
+            {
+              "en": "She demonstrated remarkable intelligence in solving the problem.",
+              "ja": "彼女はその問題を解くにあたって卓越した知性を発揮した。",
+              "highlight": "intelligence"
+            },
+            {
+              "en": "Emotional intelligence is just as important as academic ability.",
+              "ja": "感情的知性は学業的な能力と同じくらい重要だ。",
+              "highlight": "intelligence"
+            }
+          ]
+        },
+        {
+          "title": "例文（情報・諜報）",
+          "examples": [
+            {
+              "en": "The agency gathered intelligence on the suspected group.",
+              "ja": "その機関は容疑グループに関する情報を収集した。",
+              "highlight": "intelligence"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 intelligentia（理解する能力）← inter-（間に）+ legere（選ぶ・読む）",
+      "synonyms": [
+        { "word": "intellect", "trans": "知性、理知" },
+        { "word": "wisdom", "trans": "知恵" },
+        { "word": "information", "trans": "情報" }
+      ],
+      "antonyms": [
+        { "word": "stupidity", "trans": "愚かさ" },
+        { "word": "ignorance", "trans": "無知" }
+      ],
+      "related": [
+        { "word": "intelligent", "trans": "形容詞：知的な、賢い" },
+        { "word": "intelligently", "trans": "副詞：賢く" },
+        { "word": "artificial intelligence", "trans": "名詞：人工知能（AI）" }
+      ]
+    },
+    {
+      "number": 2381,
+      "word": "effect",
+      "pos": "名詞・動詞",
+      "meaning": "影響、効果、結果；（動詞）もたらす、実現する",
+      "nuance": "名詞としては「原因に対する結果・効果」を指します。動詞の affect（影響を与える）と混同されやすいですが、動詞の effect は「変化などを実現させる」という意味で用法が異なります。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：効果・結果）",
+          "examples": [
+            {
+              "en": "The new policy had a positive effect on the economy.",
+              "ja": "その新しい政策は経済にプラスの効果をもたらした。",
+              "highlight": "effect"
+            },
+            {
+              "en": "The medicine took effect within an hour.",
+              "ja": "その薬は1時間以内に効き始めた。",
+              "highlight": "effect"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：実現させる）",
+          "examples": [
+            {
+              "en": "The new director effected major changes in the organization.",
+              "ja": "新しい理事は組織に大きな変化をもたらした。",
+              "highlight": "effected"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 effectus ← ex-（外に）+ facere（作る・する）→ 結果として生み出されたもの",
+      "synonyms": [
+        { "word": "result", "trans": "結果" },
+        { "word": "impact", "trans": "影響、衝撃" },
+        { "word": "consequence", "trans": "結果、影響" }
+      ],
+      "antonyms": [
+        { "word": "cause", "trans": "原因" }
+      ],
+      "related": [
+        { "word": "effective", "trans": "形容詞：効果的な" },
+        { "word": "effectively", "trans": "副詞：効果的に" },
+        { "word": "affect", "trans": "動詞：〜に影響を与える（混同注意）" }
+      ]
+    },
+    {
+      "number": 2382,
+      "word": "aim",
+      "pos": "動詞・名詞",
+      "meaning": "目指す、狙う、向ける；目標、狙い",
+      "nuance": "「ある目標に向かって行動を向ける」イメージです。'aim to do' または 'aim at doing' の形で「〜することを目指す」という意味でよく使われます。名詞としては goal や purpose に近い意味合いです。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：目指す）",
+          "examples": [
+            {
+              "en": "The program aims to reduce youth unemployment.",
+              "ja": "そのプログラムは若者の失業率を下げることを目指している。",
+              "highlight": "aims"
+            },
+            {
+              "en": "She aimed the camera at the sunset.",
+              "ja": "彼女はカメラを夕日に向けた。",
+              "highlight": "aimed"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：目標）",
+          "examples": [
+            {
+              "en": "Our main aim is to improve customer satisfaction.",
+              "ja": "私たちの主な目標は顧客満足度を向上させることだ。",
+              "highlight": "aim"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 aesmer（見積もる）← ラテン語 aestimare（評価する）",
+      "synonyms": [
+        { "word": "goal", "trans": "目標" },
+        { "word": "target", "trans": "目標、的" },
+        { "word": "intend", "trans": "意図する" }
+      ],
+      "antonyms": [
+        { "word": "avoid", "trans": "避ける" },
+        { "word": "neglect", "trans": "怠る" }
+      ],
+      "related": [
+        { "word": "aimless", "trans": "形容詞：目標のない、あてのない" },
+        { "word": "aimlessly", "trans": "副詞：目的もなく" }
+      ]
+    },
+    {
+      "number": 2383,
+      "word": "financial",
+      "pos": "形容詞",
+      "meaning": "財政的な、金融の、財務の",
+      "nuance": "お金・財務・金融に関わる事柄を広く形容します。'financial support'（財政支援）、'financial crisis'（金融危機）など、ビジネス・経済分野で非常に頻繁に登場します。",
+      "example_sections": [
+        {
+          "title": "例文（財政的な）",
+          "examples": [
+            {
+              "en": "The company is facing serious financial difficulties.",
+              "ja": "その会社は深刻な財政難に直面している。",
+              "highlight": "financial"
+            },
+            {
+              "en": "She received financial support from her parents while studying abroad.",
+              "ja": "彼女は留学中に両親から経済的支援を受けた。",
+              "highlight": "financial"
+            },
+            {
+              "en": "Good financial planning is essential for a stable future.",
+              "ja": "安定した未来のためには、しっかりとした財務計画が不可欠だ。",
+              "highlight": "financial"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世ラテン語 financiare（決済する）← finis（終わり・支払い）",
+      "synonyms": [
+        { "word": "monetary", "trans": "金銭的な、通貨の" },
+        { "word": "economic", "trans": "経済的な" },
+        { "word": "fiscal", "trans": "財政の（主に政府・税務）" }
+      ],
+      "antonyms": [
+        { "word": "non-financial", "trans": "非金銭的な" }
+      ],
+      "related": [
+        { "word": "finance", "trans": "名詞：財政、金融；動詞：資金調達する" },
+        { "word": "financially", "trans": "副詞：財政的に" },
+        { "word": "financier", "trans": "名詞：金融家、投資家" }
+      ]
+    },
+    {
+      "number": 2384,
+      "word": "security",
+      "pos": "名詞",
+      "meaning": "安全、安心、保安、担保、有価証券",
+      "nuance": "「危険や不安がない状態」という意味が基本です。物理的な安全（security guard など）から、心理的な安心感、情報セキュリティまで幅広く使われます。また金融用語として「有価証券」の意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文（安全・保安）",
+          "examples": [
+            {
+              "en": "The airport has tightened its security measures.",
+              "ja": "空港はセキュリティ対策を強化した。",
+              "highlight": "security"
+            },
+            {
+              "en": "She felt a strong sense of security in her new home.",
+              "ja": "彼女は新しい家で強い安心感を覚えた。",
+              "highlight": "security"
+            }
+          ]
+        },
+        {
+          "title": "例文（担保・証券）",
+          "examples": [
+            {
+              "en": "He used his house as security for the loan.",
+              "ja": "彼はローンの担保として家を提供した。",
+              "highlight": "security"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 securitas ← securus（安全な）← se-（なしに）+ cura（心配）",
+      "synonyms": [
+        { "word": "safety", "trans": "安全" },
+        { "word": "protection", "trans": "保護" },
+        { "word": "stability", "trans": "安定" }
+      ],
+      "antonyms": [
+        { "word": "danger", "trans": "危険" },
+        { "word": "insecurity", "trans": "不安、危うさ" }
+      ],
+      "related": [
+        { "word": "secure", "trans": "形容詞：安全な；動詞：確保する" },
+        { "word": "securely", "trans": "副詞：安全に、しっかりと" },
+        { "word": "cybersecurity", "trans": "名詞：サイバーセキュリティ" }
+      ]
+    },
+    {
+      "number": 2385,
+      "word": "reveal",
+      "pos": "動詞",
+      "meaning": "明かす、暴露する、示す、現す",
+      "nuance": "以前は隠れていたものや知られていなかったことを「表に出す」イメージです。秘密・真実・情報などを公表する際に使われ、disclose よりも劇的・驚きを伴うニュアンスが強いです。",
+      "example_sections": [
+        {
+          "title": "例文（明かす・暴露する）",
+          "examples": [
+            {
+              "en": "The investigation revealed that the data had been manipulated.",
+              "ja": "調査によってデータが改ざんされていたことが明らかになった。",
+              "highlight": "revealed"
+            },
+            {
+              "en": "She finally revealed her true identity.",
+              "ja": "彼女はついに自分の本当の正体を明かした。",
+              "highlight": "revealed"
+            },
+            {
+              "en": "The survey revealed a significant gap between rich and poor.",
+              "ja": "調査は貧富の間の大きな格差を明らかにした。",
+              "highlight": "revealed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 revelare ← re-（戻す）+ velum（ベール・覆い）→ 覆いを取り除く",
+      "synonyms": [
+        { "word": "disclose", "trans": "公表する、漏らす" },
+        { "word": "expose", "trans": "さらす、暴く" },
+        { "word": "uncover", "trans": "明らかにする" }
+      ],
+      "antonyms": [
+        { "word": "conceal", "trans": "隠す" },
+        { "word": "hide", "trans": "隠す" }
+      ],
+      "related": [
+        { "word": "revelation", "trans": "名詞：暴露、啓示" },
+        { "word": "revealing", "trans": "形容詞：多くを語る、露出度の高い" }
+      ]
+    },
+    {
+      "number": 2386,
+      "word": "undergo",
+      "pos": "動詞",
+      "meaning": "経験する、受ける、（変化・試練などを）経る",
+      "nuance": "主に試練・治療・変化・検査などを「受ける・経験する」際に使います。自らが望んで行うというより、外部から課されたり必要に迫られて経験するニュアンスが強いです。過去形は underwent です。",
+      "example_sections": [
+        {
+          "title": "例文（経験する・受ける）",
+          "examples": [
+            {
+              "en": "He underwent surgery to remove the tumor.",
+              "ja": "彼は腫瘍を取り除くための手術を受けた。",
+              "highlight": "underwent"
+            },
+            {
+              "en": "The city has undergone dramatic changes over the past decade.",
+              "ja": "その都市はこの10年で劇的な変化を経験してきた。",
+              "highlight": "undergone"
+            },
+            {
+              "en": "All employees must undergo safety training.",
+              "ja": "全従業員は安全訓練を受けなければならない。",
+              "highlight": "undergo"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 undergan ← under（下に）+ gan（行く）→ 下をくぐり抜ける",
+      "synonyms": [
+        { "word": "experience", "trans": "経験する" },
+        { "word": "endure", "trans": "耐え忍ぶ" },
+        { "word": "go through", "trans": "経験する、通り抜ける" }
+      ],
+      "antonyms": [
+        { "word": "avoid", "trans": "避ける" },
+        { "word": "escape", "trans": "逃れる" }
+      ],
+      "related": [
+        { "word": "underwent", "trans": "動詞：undergo の過去形" },
+        { "word": "undergone", "trans": "動詞：undergo の過去分詞形" }
+      ]
+    },
+    {
+      "number": 2387,
+      "word": "satisfaction",
+      "pos": "名詞",
+      "meaning": "満足、充足感、納得",
+      "nuance": "期待や欲求が満たされた状態を指します。'job satisfaction'（仕事の満足度）、'customer satisfaction'（顧客満足）のように複合語でも頻出します。'to one's satisfaction' で「〜が満足するように」という表現もよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（満足）",
+          "examples": [
+            {
+              "en": "She completed the project to her manager's satisfaction.",
+              "ja": "彼女は上司が満足するようにプロジェクトを完成させた。",
+              "highlight": "satisfaction"
+            },
+            {
+              "en": "Customer satisfaction is our top priority.",
+              "ja": "顧客満足は私たちの最優先事項です。",
+              "highlight": "satisfaction"
+            },
+            {
+              "en": "He felt deep satisfaction after finishing the marathon.",
+              "ja": "マラソンを完走した後、彼は深い満足感を覚えた。",
+              "highlight": "satisfaction"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 satisfactio ← satis（十分に）+ facere（する・作る）",
+      "synonyms": [
+        { "word": "contentment", "trans": "満足感、充足" },
+        { "word": "fulfillment", "trans": "充実感、達成感" },
+        { "word": "pleasure", "trans": "喜び、楽しみ" }
+      ],
+      "antonyms": [
+        { "word": "dissatisfaction", "trans": "不満" },
+        { "word": "frustration", "trans": "欲求不満" }
+      ],
+      "related": [
+        { "word": "satisfy", "trans": "動詞：満足させる" },
+        { "word": "satisfactory", "trans": "形容詞：満足のいく" },
+        { "word": "satisfied", "trans": "形容詞：満足した" }
+      ]
+    },
+    {
+      "number": 2388,
+      "word": "assess",
+      "pos": "動詞",
+      "meaning": "評価する、査定する、見積もる",
+      "nuance": "情報を集めて判断・評価を下すプロセスを指します。試験・リスク・状況・価値などを客観的に「分析・判断する」場面で使われます。evaluate よりフォーマルな響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文（評価する・査定する）",
+          "examples": [
+            {
+              "en": "Doctors assessed the patient's condition upon arrival.",
+              "ja": "医師は到着時に患者の状態を評価した。",
+              "highlight": "assessed"
+            },
+            {
+              "en": "The teacher assessed each student's progress individually.",
+              "ja": "教師は各生徒の進捗を個別に評価した。",
+              "highlight": "assessed"
+            },
+            {
+              "en": "We need to assess the risks before proceeding.",
+              "ja": "進める前にリスクを評価する必要がある。",
+              "highlight": "assess"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 assidere（傍らに座る）← ad-（〜へ）+ sedere（座る）→ 税を決めるために隣に座る役人から",
+      "synonyms": [
+        { "word": "evaluate", "trans": "評価する" },
+        { "word": "appraise", "trans": "査定する" },
+        { "word": "estimate", "trans": "見積もる" }
+      ],
+      "antonyms": [
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "overlook", "trans": "見落とす" }
+      ],
+      "related": [
+        { "word": "assessment", "trans": "名詞：評価、査定" },
+        { "word": "assessor", "trans": "名詞：査定者、評価者" }
+      ]
+    },
+    {
+      "number": 2389,
+      "word": "current",
+      "pos": "形容詞・名詞",
+      "meaning": "現在の、現行の；流れ、電流、潮流",
+      "nuance": "形容詞としては「今この時点での」という意味で、present とほぼ同義ですが、ongoing（継続中）のニュアンスも含みます。名詞としては水・空気・電気の「流れ」を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞：現在の）",
+          "examples": [
+            {
+              "en": "What is your current address?",
+              "ja": "現在の住所はどこですか？",
+              "highlight": "current"
+            },
+            {
+              "en": "The current situation requires immediate action.",
+              "ja": "現在の状況は即座の対応を要している。",
+              "highlight": "current"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：流れ）",
+          "examples": [
+            {
+              "en": "The swimmer was caught in a strong current.",
+              "ja": "その水泳選手は強い流れに引き込まれた。",
+              "highlight": "current"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 currens ← currere（走る・流れる）",
+      "synonyms": [
+        { "word": "present", "trans": "現在の" },
+        { "word": "contemporary", "trans": "現代の、同時代の" },
+        { "word": "ongoing", "trans": "進行中の" }
+      ],
+      "antonyms": [
+        { "word": "past", "trans": "過去の" },
+        { "word": "former", "trans": "以前の" },
+        { "word": "outdated", "trans": "時代遅れの" }
+      ],
+      "related": [
+        { "word": "currently", "trans": "副詞：現在、今のところ" },
+        { "word": "currency", "trans": "名詞：通貨" },
+        { "word": "current affairs", "trans": "名詞：時事問題" }
+      ]
+    },
+    {
+      "number": 2390,
+      "word": "association",
+      "pos": "名詞",
+      "meaning": "協会、団体、連想、関連、結びつき",
+      "nuance": "「組織・団体」の意味と、「物事の心理的なつながり・連想」の意味の両方があります。'in association with〜'（〜と連携して）という表現も頻出です。",
+      "example_sections": [
+        {
+          "title": "例文（団体・協会）",
+          "examples": [
+            {
+              "en": "She is a member of the local residents' association.",
+              "ja": "彼女は地域の住民協会のメンバーだ。",
+              "highlight": "association"
+            }
+          ]
+        },
+        {
+          "title": "例文（連想・関連）",
+          "examples": [
+            {
+              "en": "The smell of pine has strong associations with Christmas for me.",
+              "ja": "松の香りは私にとってクリスマスと強く結びついている。",
+              "highlight": "associations"
+            },
+            {
+              "en": "The event was held in association with the city government.",
+              "ja": "そのイベントは市政府と連携して開催された。",
+              "highlight": "association"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 associare（仲間にする）← ad-（〜へ）+ socius（仲間）",
+      "synonyms": [
+        { "word": "organization", "trans": "組織、団体" },
+        { "word": "connection", "trans": "つながり、関連" },
+        { "word": "link", "trans": "結びつき" }
+      ],
+      "antonyms": [
+        { "word": "separation", "trans": "分離" },
+        { "word": "dissociation", "trans": "分離、解離" }
+      ],
+      "related": [
+        { "word": "associate", "trans": "動詞：結びつける；名詞：仲間、同僚" },
+        { "word": "associated", "trans": "形容詞：関連した" }
+      ]
+    },
+    {
+      "number": 2391,
+      "word": "value",
+      "pos": "名詞・動詞",
+      "meaning": "価値、値打ち、価格；大切にする、評価する",
+      "nuance": "名詞としては経済的・道徳的・感情的な「価値・重要性」を表します。複数形 values は「価値観・倫理観」の意味になります。動詞では「価値を認める・大切にする」という意味で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：価値）",
+          "examples": [
+            {
+              "en": "The painting has increased in value over the years.",
+              "ja": "その絵画は年々価値が上がっている。",
+              "highlight": "value"
+            },
+            {
+              "en": "Traditional values are still respected in many communities.",
+              "ja": "多くのコミュニティでは伝統的な価値観がいまだに尊重されている。",
+              "highlight": "values"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：大切にする）",
+          "examples": [
+            {
+              "en": "I truly value your advice.",
+              "ja": "あなたのアドバイスを本当に大切にしています。",
+              "highlight": "value"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 valere（強い・価値がある）← 古フランス語 valoir",
+      "synonyms": [
+        { "word": "worth", "trans": "価値、値打ち" },
+        { "word": "merit", "trans": "長所、価値" },
+        { "word": "appreciate", "trans": "〜の価値を認める" }
+      ],
+      "antonyms": [
+        { "word": "worthlessness", "trans": "無価値" },
+        { "word": "disregard", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "valuable", "trans": "形容詞：価値のある" },
+        { "word": "valueless", "trans": "形容詞：価値のない" },
+        { "word": "valuation", "trans": "名詞：評価額、査定" }
+      ]
+    },
+    {
+      "number": 2392,
+      "word": "colleague",
+      "pos": "名詞",
+      "meaning": "同僚、仕事仲間",
+      "nuance": "同じ職場・組織・専門分野で働く人を指します。coworker とほぼ同義ですが、colleague の方がやや改まった・専門職的なニュアンスがあります。学術・医療・法律などのフィールドでもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（同僚）",
+          "examples": [
+            {
+              "en": "I had lunch with my colleagues after the meeting.",
+              "ja": "会議の後、同僚たちと昼食をとった。",
+              "highlight": "colleagues"
+            },
+            {
+              "en": "She was well respected by her colleagues for her expertise.",
+              "ja": "彼女は専門知識により同僚からとても尊敬されていた。",
+              "highlight": "colleagues"
+            },
+            {
+              "en": "A colleague of mine suggested this restaurant.",
+              "ja": "同僚の一人がこのレストランを勧めてくれた。",
+              "highlight": "colleague"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 collega ← col-（共に）+ legare（選ぶ・委任する）→ 共に選ばれた仲間",
+      "synonyms": [
+        { "word": "coworker", "trans": "同僚、仕事仲間" },
+        { "word": "associate", "trans": "同僚、仲間" },
+        { "word": "peer", "trans": "同輩、同格の人" }
+      ],
+      "antonyms": [
+        { "word": "rival", "trans": "ライバル、競合相手" },
+        { "word": "opponent", "trans": "敵対者" }
+      ],
+      "related": [
+        { "word": "collaboration", "trans": "名詞：協力、共同作業" },
+        { "word": "collaborate", "trans": "動詞：協力する" }
+      ]
+    },
+    {
+      "number": 2393,
+      "word": "respond",
+      "pos": "動詞",
+      "meaning": "応答する、返答する、反応する",
+      "nuance": "言葉・行動・状況に対して「反応する・答える」意味です。reply は言葉による返答に限られますが、respond はより広く、行動や身体的な反応にも使えます。'respond to〜'（〜に応じる）の形が基本です。",
+      "example_sections": [
+        {
+          "title": "例文（応答する・反応する）",
+          "examples": [
+            {
+              "en": "She failed to respond to the emergency call.",
+              "ja": "彼女は緊急の呼びかけに応答しなかった。",
+              "highlight": "respond"
+            },
+            {
+              "en": "The patient responded well to the treatment.",
+              "ja": "患者は治療に良い反応を示した。",
+              "highlight": "responded"
+            },
+            {
+              "en": "Please respond to the invitation by Friday.",
+              "ja": "金曜日までに招待状に返信してください。",
+              "highlight": "respond"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 respondere ← re-（返して）+ spondere（約束する）",
+      "synonyms": [
+        { "word": "reply", "trans": "返答する" },
+        { "word": "answer", "trans": "答える" },
+        { "word": "react", "trans": "反応する" }
+      ],
+      "antonyms": [
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "disregard", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "response", "trans": "名詞：応答、反応" },
+        { "word": "responsive", "trans": "形容詞：反応の良い、応答性の高い" },
+        { "word": "responsibility", "trans": "名詞：責任" }
+      ]
+    },
+    {
+      "number": 2394,
+      "word": "statement",
+      "pos": "名詞",
+      "meaning": "声明、陳述、発言、明細書",
+      "nuance": "公式・非公式を問わず「言葉で表明された内容」を指します。政治的な声明から、銀行の明細書（bank statement）まで幅広く使われます。make a statement で「声明を出す」という表現が頻出です。",
+      "example_sections": [
+        {
+          "title": "例文（声明・陳述）",
+          "examples": [
+            {
+              "en": "The company released an official statement about the incident.",
+              "ja": "会社はその事件についての公式声明を発表した。",
+              "highlight": "statement"
+            },
+            {
+              "en": "The witness made a statement to the police.",
+              "ja": "目撃者は警察に陳述を行った。",
+              "highlight": "statement"
+            }
+          ]
+        },
+        {
+          "title": "例文（明細書）",
+          "examples": [
+            {
+              "en": "I check my bank statement every month.",
+              "ja": "私は毎月銀行の明細書を確認する。",
+              "highlight": "statement"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 stare（立つ）+ -ment → 立場を表明したもの",
+      "synonyms": [
+        { "word": "declaration", "trans": "宣言" },
+        { "word": "announcement", "trans": "発表" },
+        { "word": "remark", "trans": "発言、コメント" }
+      ],
+      "antonyms": [
+        { "word": "silence", "trans": "沈黙" },
+        { "word": "denial", "trans": "否定" }
+      ],
+      "related": [
+        { "word": "state", "trans": "動詞：述べる；名詞：状態、国家" },
+        { "word": "misstatement", "trans": "名詞：誤った陳述" }
+      ]
+    },
+    {
+      "number": 2395,
+      "word": "rating",
+      "pos": "名詞",
+      "meaning": "評価、格付け、視聴率、レーティング",
+      "nuance": "何かを一定の基準でランク付けしたもの全般を指します。映画の年齢区分（movie rating）、信用格付け（credit rating）、視聴率（TV ratings）など、多様な文脈で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（評価・格付け）",
+          "examples": [
+            {
+              "en": "The restaurant received a five-star rating from the food critic.",
+              "ja": "そのレストランは食評家から5つ星の評価を受けた。",
+              "highlight": "rating"
+            },
+            {
+              "en": "The show's ratings dropped after the main actor left.",
+              "ja": "主演俳優が去った後、その番組の視聴率は下がった。",
+              "highlight": "ratings"
+            },
+            {
+              "en": "The film has an age rating of 15.",
+              "ja": "その映画は15歳以上対象のレーティングとなっている。",
+              "highlight": "rating"
+            }
+          ]
+        }
+      ],
+      "etymology": "rate（評価する・割合）+ -ing ← ラテン語 rata（計算された）",
+      "synonyms": [
+        { "word": "ranking", "trans": "ランキング、順位" },
+        { "word": "grade", "trans": "等級、成績" },
+        { "word": "score", "trans": "得点、評価" }
+      ],
+      "antonyms": [],
+      "related": [
+        { "word": "rate", "trans": "名詞：割合、率；動詞：評価する" },
+        { "word": "rated", "trans": "形容詞：格付けされた" },
+        { "word": "overrated", "trans": "形容詞：過大評価された" }
+      ]
+    },
+    {
+      "number": 2396,
+      "word": "refer",
+      "pos": "動詞",
+      "meaning": "言及する、参照する、照会する、指す",
+      "nuance": "'refer to〜' の形が基本で、「〜に言及する」「〜を参照する」「〜を指す」という意味で使われます。また人や案件を専門家・別の機関に「回す・紹介する」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文（言及する・参照する）",
+          "examples": [
+            {
+              "en": "Please refer to the guidelines before submitting your application.",
+              "ja": "申込書を提出する前にガイドラインを参照してください。",
+              "highlight": "refer"
+            },
+            {
+              "en": "The speaker referred to several recent studies.",
+              "ja": "講演者はいくつかの最近の研究に言及した。",
+              "highlight": "referred"
+            }
+          ]
+        },
+        {
+          "title": "例文（紹介する・回す）",
+          "examples": [
+            {
+              "en": "The doctor referred the patient to a specialist.",
+              "ja": "医師は患者を専門医に紹介した。",
+              "highlight": "referred"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 referre ← re-（戻す）+ ferre（運ぶ）→ 元の場所・人に戻す",
+      "synonyms": [
+        { "word": "mention", "trans": "言及する" },
+        { "word": "cite", "trans": "引用する、挙げる" },
+        { "word": "consult", "trans": "参照する、相談する" }
+      ],
+      "antonyms": [
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "reference", "trans": "名詞：参照、参考文献、推薦状" },
+        { "word": "referral", "trans": "名詞：紹介、照会" },
+        { "word": "referee", "trans": "名詞：審判、推薦人" }
+      ]
+    },
+    {
+      "number": 2397,
+      "word": "seek",
+      "pos": "動詞",
+      "meaning": "求める、探す、〜しようとする",
+      "nuance": "look for より改まった表現で、情報・解決策・助け・機会などを「積極的に求める・追い求める」ニュアンスがあります。'seek to do'（〜しようとする）の形でも頻出します。過去形は sought です。",
+      "example_sections": [
+        {
+          "title": "例文（求める・探す）",
+          "examples": [
+            {
+              "en": "The company is seeking experienced engineers.",
+              "ja": "その会社は経験豊富なエンジニアを求めている。",
+              "highlight": "seeking"
+            },
+            {
+              "en": "She sought advice from her mentor.",
+              "ja": "彼女はメンターにアドバイスを求めた。",
+              "highlight": "sought"
+            },
+            {
+              "en": "They are seeking to expand their business overseas.",
+              "ja": "彼らは海外にビジネスを拡大しようとしている。",
+              "highlight": "seeking"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 secan（探す・訪ねる）← ゲルマン語共通語源",
+      "synonyms": [
+        { "word": "search for", "trans": "探す" },
+        { "word": "pursue", "trans": "追い求める" },
+        { "word": "look for", "trans": "探す" }
+      ],
+      "antonyms": [
+        { "word": "avoid", "trans": "避ける" },
+        { "word": "abandon", "trans": "諦める、放棄する" }
+      ],
+      "related": [
+        { "word": "sought", "trans": "動詞：seek の過去形・過去分詞形" },
+        { "word": "seeker", "trans": "名詞：求める人（例：job seeker）" }
+      ]
+    },
+    {
+      "number": 2398,
+      "word": "previous",
+      "pos": "形容詞",
+      "meaning": "以前の、前の、先の",
+      "nuance": "時間的に「今より前の・直前の」ものを指します。former は「かつての（今はそうでない）」というニュアンスが強いのに対し、previous は単純に順序・時間の先行を示すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文（以前の・前の）",
+          "examples": [
+            {
+              "en": "She had no previous experience in management.",
+              "ja": "彼女には管理職の経験がまったくなかった。",
+              "highlight": "previous"
+            },
+            {
+              "en": "As I mentioned in my previous email, the deadline is Friday.",
+              "ja": "以前のメールでも述べたように、締め切りは金曜日です。",
+              "highlight": "previous"
+            },
+            {
+              "en": "The previous owner had renovated the kitchen.",
+              "ja": "前のオーナーがキッチンをリノベーションしていた。",
+              "highlight": "previous"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 praevius ← prae-（前に）+ via（道）→ 道の前を行く",
+      "synonyms": [
+        { "word": "former", "trans": "以前の、かつての" },
+        { "word": "prior", "trans": "前の、優先する" },
+        { "word": "preceding", "trans": "直前の" }
+      ],
+      "antonyms": [
+        { "word": "following", "trans": "次の、後に続く" },
+        { "word": "subsequent", "trans": "その後の" }
+      ],
+      "related": [
+        { "word": "previously", "trans": "副詞：以前に、前に" }
+      ]
+    },
+    {
+      "number": 2399,
+      "word": "possess",
+      "pos": "動詞",
+      "meaning": "所有する、持つ、備える",
+      "nuance": "have よりも改まった表現で、物・能力・資質・感情などを「自分のものとして持っている」ことを表します。また「（悪霊などに）取り憑かれる」という比喩的な意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（所有する・備える）",
+          "examples": [
+            {
+              "en": "She possesses remarkable leadership skills.",
+              "ja": "彼女は卓越したリーダーシップスキルを備えている。",
+              "highlight": "possesses"
+            },
+            {
+              "en": "He was found to possess illegal weapons.",
+              "ja": "彼は違法な武器を所持していたことが判明した。",
+              "highlight": "possess"
+            },
+            {
+              "en": "What possessed you to say that?",
+              "ja": "なぜそんなことを言ったのですか？（何に取り憑かれて？）",
+              "highlight": "possessed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 possidere ← potis（力ある）+ sedere（座る）→ 支配の座に座る",
+      "synonyms": [
+        { "word": "own", "trans": "所有する" },
+        { "word": "have", "trans": "持っている" },
+        { "word": "hold", "trans": "保持する" }
+      ],
+      "antonyms": [
+        { "word": "lack", "trans": "欠如する、持たない" },
+        { "word": "give up", "trans": "手放す" }
+      ],
+      "related": [
+        { "word": "possession", "trans": "名詞：所有、所持品" },
+        { "word": "possessive", "trans": "形容詞：独占欲の強い；名詞（文法）：所有格" },
+        { "word": "possessor", "trans": "名詞：所有者" }
+      ]
+    },
+    {
+      "number": 2400,
+      "word": "regard",
+      "pos": "動詞・名詞",
+      "meaning": "〜とみなす、考える；配慮、尊重、敬意",
+      "nuance": "'regard A as B'（AをBとみなす）の形が最頻出です。名詞では「尊敬・配慮」の意味があり、手紙の末尾で 'Kind regards'（敬具）としてもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：みなす）",
+          "examples": [
+            {
+              "en": "She is widely regarded as one of the best scientists of her generation.",
+              "ja": "彼女は同世代で最も優れた科学者の一人とみなされている。",
+              "highlight": "regarded"
+            },
+            {
+              "en": "He regarded the problem as an opportunity to grow.",
+              "ja": "彼はその問題を成長の機会とみなした。",
+              "highlight": "regarded"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：配慮・敬意）",
+          "examples": [
+            {
+              "en": "Please give my regards to your family.",
+              "ja": "ご家族によろしくお伝えください。",
+              "highlight": "regards"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 regarder ← re-（再び）+ garder（見張る）",
+      "synonyms": [
+        { "word": "consider", "trans": "〜とみなす、考慮する" },
+        { "word": "view", "trans": "〜とみる" },
+        { "word": "respect", "trans": "尊敬する" }
+      ],
+      "antonyms": [
+        { "word": "disregard", "trans": "無視する" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "regarding", "trans": "前置詞：〜に関して" },
+        { "word": "regardless", "trans": "副詞：〜にかかわらず" }
+      ]
+    },
+    {
+      "number": 2401,
+      "word": "reward",
+      "pos": "名詞・動詞",
+      "meaning": "報酬、褒美、報い；報いる、報酬を与える",
+      "nuance": "良い行いや努力に対して与えられる「見返り・報酬」を指します。金銭的なものだけでなく、感情的な満足感なども含む広い意味で使われます。動詞では「〜に報いる」という意味です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：報酬）",
+          "examples": [
+            {
+              "en": "Hard work often brings its own rewards.",
+              "ja": "努力はしばしばそれ自体の報いをもたらす。",
+              "highlight": "rewards"
+            },
+            {
+              "en": "The police offered a reward for information leading to the suspect.",
+              "ja": "警察は容疑者につながる情報に報奨金を出した。",
+              "highlight": "reward"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：報いる）",
+          "examples": [
+            {
+              "en": "Her efforts were finally rewarded with a promotion.",
+              "ja": "彼女の努力はついに昇進という形で報われた。",
+              "highlight": "rewarded"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 rewarder（注意する・引き渡す）← re-（強意）+ warder（見張る）",
+      "synonyms": [
+        { "word": "prize", "trans": "賞、褒美" },
+        { "word": "compensation", "trans": "補償、報酬" },
+        { "word": "benefit", "trans": "利益、恩恵" }
+      ],
+      "antonyms": [
+        { "word": "penalty", "trans": "罰則、ペナルティ" },
+        { "word": "punishment", "trans": "罰" }
+      ],
+      "related": [
+        { "word": "rewarding", "trans": "形容詞：やりがいのある、報われる" },
+        { "word": "unrewarding", "trans": "形容詞：報われない、実りのない" }
+      ]
+    },
+    {
+      "number": 2402,
+      "word": "status",
+      "pos": "名詞",
+      "meaning": "地位、身分、状態、ステータス",
+      "nuance": "社会的・職業的な「地位・身分」と、物事の現在の「状態・進捗状況」の両方の意味があります。'social status'（社会的地位）、'status update'（状況報告）など幅広く使われます。",
+      "example_sections": [
+        {
+          "title": "例文（地位・身分）",
+          "examples": [
+            {
+              "en": "Her status in the company improved after the successful project.",
+              "ja": "プロジェクト成功後、社内での彼女の地位は向上した。",
+              "highlight": "status"
+            }
+          ]
+        },
+        {
+          "title": "例文（状態・状況）",
+          "examples": [
+            {
+              "en": "Can you give me an update on the status of the application?",
+              "ja": "申請の状況を教えてもらえますか？",
+              "highlight": "status"
+            },
+            {
+              "en": "His immigration status was under review.",
+              "ja": "彼の在留資格は審査中だった。",
+              "highlight": "status"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 status ← stare（立つ）→ 立っている状態・位置",
+      "synonyms": [
+        { "word": "position", "trans": "立場、地位" },
+        { "word": "standing", "trans": "立場、評判" },
+        { "word": "condition", "trans": "状態、条件" }
+      ],
+      "antonyms": [
+        { "word": "insignificance", "trans": "取るに足らないこと" }
+      ],
+      "related": [
+        { "word": "status quo", "trans": "名詞：現状（ラテン語）" },
+        { "word": "statute", "trans": "名詞：法律、規則" }
+      ]
+    },
+    {
+      "number": 2403,
+      "word": "comfortable",
+      "pos": "形容詞",
+      "meaning": "快適な、心地よい、余裕のある、気楽な",
+      "nuance": "身体的な「快適さ・楽さ」だけでなく、心理的な「安心感・違和感のなさ」も表します。'feel comfortable doing'（〜することに抵抗がない）の形でもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（快適な・心地よい）",
+          "examples": [
+            {
+              "en": "The hotel room was spacious and comfortable.",
+              "ja": "ホテルの部屋は広くて快適だった。",
+              "highlight": "comfortable"
+            },
+            {
+              "en": "She did not feel comfortable speaking in front of a large audience.",
+              "ja": "彼女は大勢の聴衆の前で話すことに抵抗感を覚えた。",
+              "highlight": "comfortable"
+            },
+            {
+              "en": "They lead a comfortable life thanks to his steady income.",
+              "ja": "彼の安定した収入のおかげで、彼らは余裕ある生活を送っている。",
+              "highlight": "comfortable"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世ラテン語 confortare（強くする）← com-（共に）+ fortis（強い）",
+      "synonyms": [
+        { "word": "cozy", "trans": "居心地のよい" },
+        { "word": "relaxed", "trans": "くつろいだ" },
+        { "word": "at ease", "trans": "気楽な" }
+      ],
+      "antonyms": [
+        { "word": "uncomfortable", "trans": "不快な、居心地の悪い" },
+        { "word": "uneasy", "trans": "不安な" }
+      ],
+      "related": [
+        { "word": "comfortably", "trans": "副詞：快適に、余裕をもって" },
+        { "word": "comfort", "trans": "名詞：快適さ；動詞：慰める" },
+        { "word": "discomfort", "trans": "名詞：不快感" }
+      ]
+    },
+    {
+      "number": 2404,
+      "word": "achievement",
+      "pos": "名詞",
+      "meaning": "達成、業績、成果、功績",
+      "nuance": "努力の末に達成した「成果・功績」を指します。単なる結果（result）ではなく、困難を乗り越えて達成したというポジティブなニュアンスが含まれます。",
+      "example_sections": [
+        {
+          "title": "例文（達成・業績）",
+          "examples": [
+            {
+              "en": "Winning the championship was the greatest achievement of her career.",
+              "ja": "優勝は彼女のキャリアにおける最大の業績だった。",
+              "highlight": "achievement"
+            },
+            {
+              "en": "The team celebrated their achievement with a dinner party.",
+              "ja": "チームはディナーパーティーで自分たちの成果を祝った。",
+              "highlight": "achievement"
+            },
+            {
+              "en": "Academic achievements are listed on his resume.",
+              "ja": "学業上の実績は彼の履歴書に記載されている。",
+              "highlight": "achievements"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 achever（終わらせる）← a-（〜に）+ chief（頭・先端）→ 先に到達する",
+      "synonyms": [
+        { "word": "accomplishment", "trans": "達成、成果" },
+        { "word": "attainment", "trans": "達成、到達" },
+        { "word": "feat", "trans": "偉業、快挙" }
+      ],
+      "antonyms": [
+        { "word": "failure", "trans": "失敗" },
+        { "word": "defeat", "trans": "敗北" }
+      ],
+      "related": [
+        { "word": "achieve", "trans": "動詞：達成する" },
+        { "word": "achiever", "trans": "名詞：達成者、高い成果を上げる人" },
+        { "word": "overachieve", "trans": "動詞：期待以上の成果を上げる" }
+      ]
+    },
+    {
+      "number": 2405,
+      "word": "alternative",
+      "pos": "名詞・形容詞",
+      "meaning": "代替案、選択肢；別の、代わりの",
+      "nuance": "既存のものに代わる「もう一つの選択肢・手段」を指します。形容詞では「主流でない・代替的な」ニュアンスも持ちます（例：alternative medicine＝代替医療）。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：代替案）",
+          "examples": [
+            {
+              "en": "If the flight is cancelled, we need to find an alternative.",
+              "ja": "フライトがキャンセルになった場合、代替手段を見つける必要がある。",
+              "highlight": "alternative"
+            },
+            {
+              "en": "There is no alternative but to postpone the event.",
+              "ja": "イベントを延期する以外に選択肢はない。",
+              "highlight": "alternative"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞：代わりの）",
+          "examples": [
+            {
+              "en": "The committee proposed an alternative solution to the problem.",
+              "ja": "委員会はその問題に対する代替案を提案した。",
+              "highlight": "alternative"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 alternare（交互に行う）← alter（他方の）",
+      "synonyms": [
+        { "word": "option", "trans": "選択肢" },
+        { "word": "substitute", "trans": "代替品、代わり" },
+        { "word": "choice", "trans": "選択" }
+      ],
+      "antonyms": [
+        { "word": "only option", "trans": "唯一の選択肢" }
+      ],
+      "related": [
+        { "word": "alternatively", "trans": "副詞：あるいは、もしくは" },
+        { "word": "alternate", "trans": "動詞：交互にする；形容詞：交互の" }
+      ]
+    },
+    {
+      "number": 2406,
+      "word": "childhood",
+      "pos": "名詞",
+      "meaning": "幼少期、子供時代",
+      "nuance": "生まれてから思春期までの期間、つまり「子供であった時代」全体を指します。個人の経験・記憶・形成に関わる文脈でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（子供時代）",
+          "examples": [
+            {
+              "en": "She had a happy childhood growing up in the countryside.",
+              "ja": "彼女は田舎で育ち、幸せな幼少期を過ごした。",
+              "highlight": "childhood"
+            },
+            {
+              "en": "Many of his childhood memories involve playing in the park.",
+              "ja": "彼の子供時代の思い出の多くは公園で遊んだことだ。",
+              "highlight": "childhood"
+            },
+            {
+              "en": "Early childhood experiences can shape a person's character.",
+              "ja": "幼少期の経験は人の性格を形成することがある。",
+              "highlight": "childhood"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 cildhad ← cild（子供）+ -had（状態・期間を表す接尾辞）",
+      "synonyms": [
+        { "word": "youth", "trans": "若い頃、青年期" },
+        { "word": "infancy", "trans": "幼児期" },
+        { "word": "early years", "trans": "幼少期" }
+      ],
+      "antonyms": [
+        { "word": "adulthood", "trans": "成人期" },
+        { "word": "old age", "trans": "老年期" }
+      ],
+      "related": [
+        { "word": "child", "trans": "名詞：子供" },
+        { "word": "childish", "trans": "形容詞：子供っぽい（否定的）" },
+        { "word": "childlike", "trans": "形容詞：子供のような（肯定的）" }
+      ]
+    },
+    {
+      "number": 2407,
+      "word": "comment",
+      "pos": "名詞・動詞",
+      "meaning": "コメント、意見、論評；論評する、意見を述べる",
+      "nuance": "ある事柄についての「見解・発言・注釈」を指します。'no comment'（ノーコメント）や 'comment on〜'（〜についてコメントする）の形が頻出です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：意見・コメント）",
+          "examples": [
+            {
+              "en": "Her comment sparked a lively debate.",
+              "ja": "彼女のコメントが活発な議論を引き起こした。",
+              "highlight": "comment"
+            },
+            {
+              "en": "The spokesperson said she had no comment on the allegations.",
+              "ja": "広報担当者はその疑惑についてのコメントは控えると述べた。",
+              "highlight": "comment"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：意見を述べる）",
+          "examples": [
+            {
+              "en": "He commented that the results were disappointing.",
+              "ja": "彼は結果が失望的だとコメントした。",
+              "highlight": "commented"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 commentari（考察する）← com-（共に）+ mens（心・考え）",
+      "synonyms": [
+        { "word": "remark", "trans": "発言、コメント" },
+        { "word": "observation", "trans": "見解、意見" },
+        { "word": "opinion", "trans": "意見" }
+      ],
+      "antonyms": [
+        { "word": "silence", "trans": "沈黙" }
+      ],
+      "related": [
+        { "word": "commentary", "trans": "名詞：解説、実況" },
+        { "word": "commentator", "trans": "名詞：解説者、コメンテーター" }
+      ]
+    },
+    {
+      "number": 2408,
+      "word": "independent",
+      "pos": "形容詞",
+      "meaning": "独立した、自立した、自主的な",
+      "nuance": "他者・組織・国家に依存せず「自分自身で機能できる」状態を指します。個人の自立性から国家の独立まで幅広く使われます。'independent of〜'（〜から独立した）の形もよく見られます。",
+      "example_sections": [
+        {
+          "title": "例文（独立した・自立した）",
+          "examples": [
+            {
+              "en": "She became financially independent after getting her first job.",
+              "ja": "初めての仕事を得て、彼女は経済的に自立した。",
+              "highlight": "independent"
+            },
+            {
+              "en": "The organization is independent of any government body.",
+              "ja": "その組織はいかなる政府機関からも独立している。",
+              "highlight": "independent"
+            },
+            {
+              "en": "He is an independent thinker who rarely follows trends.",
+              "ja": "彼はトレンドにほとんど左右されない自主的な思考の持ち主だ。",
+              "highlight": "independent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in-（否定）+ dependere（ぶら下がる・依存する）",
+      "synonyms": [
+        { "word": "self-reliant", "trans": "自立した" },
+        { "word": "autonomous", "trans": "自律的な" },
+        { "word": "free", "trans": "自由な、独立した" }
+      ],
+      "antonyms": [
+        { "word": "dependent", "trans": "依存した" },
+        { "word": "reliant", "trans": "頼っている" }
+      ],
+      "related": [
+        { "word": "independence", "trans": "名詞：独立、自立" },
+        { "word": "independently", "trans": "副詞：独立して、自立して" },
+        { "word": "interdependent", "trans": "形容詞：相互依存の" }
+      ]
+    },
+    {
+      "number": 2409,
+      "word": "suggestion",
+      "pos": "名詞",
+      "meaning": "提案、提言、示唆、ほのめかし",
+      "nuance": "「こうしてはどうか」という軽い提案から、間接的な暗示・ほのめかしまで幅広く使われます。proposal より非公式・気軽な印象があります。'make a suggestion'（提案をする）の形が頻出です。",
+      "example_sections": [
+        {
+          "title": "例文（提案）",
+          "examples": [
+            {
+              "en": "Do you have any suggestions for improving the system?",
+              "ja": "システムを改善するためのご提案はありますか？",
+              "highlight": "suggestions"
+            },
+            {
+              "en": "His suggestion to meet earlier was accepted by everyone.",
+              "ja": "早めに集まろうという彼の提案は全員に受け入れられた。",
+              "highlight": "suggestion"
+            }
+          ]
+        },
+        {
+          "title": "例文（示唆・ほのめかし）",
+          "examples": [
+            {
+              "en": "There was a suggestion of dishonesty in his behavior.",
+              "ja": "彼の行動には不誠実さのほのめかしがあった。",
+              "highlight": "suggestion"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 suggestio ← sub-（下から）+ gerere（運ぶ）→ 下から持ち上げるように示す",
+      "synonyms": [
+        { "word": "proposal", "trans": "提案（より正式）" },
+        { "word": "recommendation", "trans": "推薦、勧め" },
+        { "word": "hint", "trans": "ヒント、示唆" }
+      ],
+      "antonyms": [
+        { "word": "demand", "trans": "要求" },
+        { "word": "order", "trans": "命令" }
+      ],
+      "related": [
+        { "word": "suggest", "trans": "動詞：提案する、示唆する" },
+        { "word": "suggestive", "trans": "形容詞：示唆に富む、連想させる" }
+      ]
+    },
+    {
+      "number": 2410,
+      "word": "significantly",
+      "pos": "副詞",
+      "meaning": "大幅に、著しく、かなり、重要なことには",
+      "nuance": "量・程度・重要性が「一般的な基準を大きく上回る形で」という意味で使われます。統計・研究・ビジネスの文脈でよく登場します。また「重要なことには」という意味で文頭にも置かれます。",
+      "example_sections": [
+        {
+          "title": "例文（大幅に・著しく）",
+          "examples": [
+            {
+              "en": "The new software has significantly improved productivity.",
+              "ja": "新しいソフトウェアは生産性を大幅に向上させた。",
+              "highlight": "significantly"
+            },
+            {
+              "en": "Temperatures have risen significantly over the past century.",
+              "ja": "気温は過去1世紀で著しく上昇している。",
+              "highlight": "significantly"
+            },
+            {
+              "en": "Significantly, no one objected to the new policy.",
+              "ja": "重要なことに、新しい方針に反対する人は一人もいなかった。",
+              "highlight": "Significantly"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 significare（意味を示す）← signum（しるし）+ facere（する）",
+      "synonyms": [
+        { "word": "considerably", "trans": "かなり、相当" },
+        { "word": "substantially", "trans": "大幅に、実質的に" },
+        { "word": "notably", "trans": "著しく、特筆すべきことに" }
+      ],
+      "antonyms": [
+        { "word": "slightly", "trans": "わずかに" },
+        { "word": "insignificantly", "trans": "取るに足らない程度に" }
+      ],
+      "related": [
+        { "word": "significant", "trans": "形容詞：重要な、著しい" },
+        { "word": "significance", "trans": "名詞：重要性、意義" },
+        { "word": "insignificant", "trans": "形容詞：取るに足らない" }
+      ]
+    },
+    {
+      "number": 2411,
+      "word": "influence",
+      "pos": "名詞・動詞",
+      "meaning": "影響、影響力；影響を与える",
+      "nuance": "「ある人・物・状況が他に及ぼす力や効果」を指します。effect が「結果としての影響」であるのに対し、influence は「過程・力そのもの」に焦点が当たります。'under the influence of〜'（〜の影響下で）も重要表現です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：影響・影響力）",
+          "examples": [
+            {
+              "en": "Music has had a profound influence on her life.",
+              "ja": "音楽は彼女の人生に深い影響を与えてきた。",
+              "highlight": "influence"
+            },
+            {
+              "en": "She is a person of great influence in the industry.",
+              "ja": "彼女は業界で大きな影響力を持つ人物だ。",
+              "highlight": "influence"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：影響を与える）",
+          "examples": [
+            {
+              "en": "His early experiences greatly influenced his later decisions.",
+              "ja": "幼少期の体験が後の彼の決断に大きく影響した。",
+              "highlight": "influenced"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世ラテン語 influentia ← influere（流れ込む）← in-（中へ）+ fluere（流れる）",
+      "synonyms": [
+        { "word": "impact", "trans": "影響" },
+        { "word": "effect", "trans": "効果、影響" },
+        { "word": "sway", "trans": "影響力、支配" }
+      ],
+      "antonyms": [
+        { "word": "independence", "trans": "独立（影響を受けないこと）" }
+      ],
+      "related": [
+        { "word": "influential", "trans": "形容詞：影響力のある" },
+        { "word": "influencer", "trans": "名詞：インフルエンサー" },
+        { "word": "uninfluenced", "trans": "形容詞：影響を受けていない" }
+      ]
+    },
+    {
+      "number": 2412,
+      "word": "factor",
+      "pos": "名詞",
+      "meaning": "要因、要素、因子",
+      "nuance": "ある結果や状況をもたらす「原因・構成要素」を指します。'key factor'（重要な要因）、'contributing factor'（寄与因子）のように使われることが多く、科学・ビジネス・社会問題など多様な分野で登場します。",
+      "example_sections": [
+        {
+          "title": "例文（要因・要素）",
+          "examples": [
+            {
+              "en": "Price is a major factor in the consumer's decision.",
+              "ja": "価格は消費者の決断における主要な要因だ。",
+              "highlight": "factor"
+            },
+            {
+              "en": "Several factors contributed to the decline in sales.",
+              "ja": "いくつかの要因が売上の低下に寄与した。",
+              "highlight": "factors"
+            },
+            {
+              "en": "Luck can be a factor in success, but hard work matters more.",
+              "ja": "運は成功の要因となりうるが、努力の方がより重要だ。",
+              "highlight": "factor"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 factor ← facere（する・作る）→ 何かを生み出す者・もの",
+      "synonyms": [
+        { "word": "element", "trans": "要素" },
+        { "word": "component", "trans": "構成要素" },
+        { "word": "cause", "trans": "原因" }
+      ],
+      "antonyms": [
+        { "word": "result", "trans": "結果" },
+        { "word": "effect", "trans": "結果、影響" }
+      ],
+      "related": [
+        { "word": "factorial", "trans": "名詞（数学）：階乗" },
+        { "word": "factored in", "trans": "動詞句：考慮に入れられた" },
+        { "word": "risk factor", "trans": "名詞：リスク要因" }
+      ]
+    },
+    {
+      "number": 2413,
+      "word": "doubt",
+      "pos": "名詞・動詞",
+      "meaning": "疑い、疑念；疑う",
+      "nuance": "「確信が持てない・信じ切れない」状態を指します。'no doubt'（疑いなく）、'beyond doubt'（疑いの余地なく）、'doubt whether/if〜'（〜かどうか疑う）などの表現が頻出です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：疑念）",
+          "examples": [
+            {
+              "en": "There is no doubt that she is the best candidate.",
+              "ja": "彼女が最良の候補者であることは疑いの余地がない。",
+              "highlight": "doubt"
+            },
+            {
+              "en": "He expressed serious doubts about the plan.",
+              "ja": "彼はその計画について深刻な疑念を表明した。",
+              "highlight": "doubts"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：疑う）",
+          "examples": [
+            {
+              "en": "I doubt whether he will arrive on time.",
+              "ja": "彼が時間通りに到着するかどうか疑わしい。",
+              "highlight": "doubt"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 dubitare（迷う・疑う）← duo（二つ）→ どちらか決めかねる",
+      "synonyms": [
+        { "word": "uncertainty", "trans": "不確かさ" },
+        { "word": "suspicion", "trans": "疑い、疑惑" },
+        { "word": "question", "trans": "疑問に思う" }
+      ],
+      "antonyms": [
+        { "word": "certainty", "trans": "確信" },
+        { "word": "trust", "trans": "信頼する" }
+      ],
+      "related": [
+        { "word": "doubtful", "trans": "形容詞：疑わしい" },
+        { "word": "doubtless", "trans": "副詞：疑いなく" },
+        { "word": "undoubtedly", "trans": "副詞：疑いなく、確かに" }
+      ]
+    },
+    {
+      "number": 2414,
+      "word": "climate",
+      "pos": "名詞",
+      "meaning": "気候、風土、（社会的な）雰囲気・情勢",
+      "nuance": "ある地域の長期的な気象パターン「気候」が基本義ですが、'political climate'（政治的風潮）、'business climate'（経済環境）のように比喩的にも使われます。weather（天気）とは区別が必要です。",
+      "example_sections": [
+        {
+          "title": "例文（気候）",
+          "examples": [
+            {
+              "en": "The climate in this region is warm and humid throughout the year.",
+              "ja": "この地域の気候は一年を通じて温暖で湿気が多い。",
+              "highlight": "climate"
+            },
+            {
+              "en": "Climate change is one of the most pressing global issues.",
+              "ja": "気候変動は最も差し迫ったグローバルな問題の一つだ。",
+              "highlight": "Climate"
+            }
+          ]
+        },
+        {
+          "title": "例文（雰囲気・情勢）",
+          "examples": [
+            {
+              "en": "The current economic climate makes investment risky.",
+              "ja": "現在の経済情勢は投資をリスクの高いものにしている。",
+              "highlight": "climate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 klima（傾き）← 地球の傾きが気候を左右すると考えられていたことから",
+      "synonyms": [
+        { "word": "weather pattern", "trans": "気象パターン" },
+        { "word": "atmosphere", "trans": "雰囲気、大気" },
+        { "word": "environment", "trans": "環境" }
+      ],
+      "antonyms": [],
+      "related": [
+        { "word": "climatic", "trans": "形容詞：気候の" },
+        { "word": "acclimatize", "trans": "動詞：気候・環境に慣れる" },
+        { "word": "microclimate", "trans": "名詞：微気候" }
+      ]
+    },
+    {
+      "number": 2415,
+      "word": "Arctic",
+      "pos": "名詞・形容詞",
+      "meaning": "北極；北極の、極寒の",
+      "nuance": "地理的な「北極・北極圏」を指す固有名詞として使われる他、比喩的に「極めて寒い」という意味でも使われます。反意語は Antarctic（南極）です。",
+      "example_sections": [
+        {
+          "title": "例文（北極・北極圏）",
+          "examples": [
+            {
+              "en": "Polar bears are native to the Arctic.",
+              "ja": "ホッキョクグマは北極圏原産の動物だ。",
+              "highlight": "Arctic"
+            },
+            {
+              "en": "Arctic ice is melting at an alarming rate due to global warming.",
+              "ja": "地球温暖化により北極の氷が急速に溶けている。",
+              "highlight": "Arctic"
+            }
+          ]
+        },
+        {
+          "title": "例文（極寒の）",
+          "examples": [
+            {
+              "en": "We faced arctic conditions during the mountain expedition.",
+              "ja": "山岳遠征中、私たちは極寒の状況に直面した。",
+              "highlight": "arctic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 arktikos（熊の）← arktos（熊）→ 北の星座「大熊座」の方角",
+      "synonyms": [
+        { "word": "polar", "trans": "極地の" },
+        { "word": "freezing", "trans": "凍るように寒い" }
+      ],
+      "antonyms": [
+        { "word": "Antarctic", "trans": "南極の" },
+        { "word": "tropical", "trans": "熱帯の" }
+      ],
+      "related": [
+        { "word": "Arctic Circle", "trans": "名詞：北極圏" },
+        { "word": "Arctic Ocean", "trans": "名詞：北極海" },
+        { "word": "subarctic", "trans": "形容詞：亜北極の" }
+      ]
+    },
+    {
+      "number": 2416,
+      "word": "tremble",
+      "pos": "動詞・名詞",
+      "meaning": "震える、おののく；震え",
+      "nuance": "寒さ・恐れ・興奮などによって「体や声が細かく震える」ことを指します。shake より繊細・持続的な震えのイメージです。'tremble with fear'（恐怖で震える）のような前置詞句とともに使われます。",
+      "example_sections": [
+        {
+          "title": "例文（震える）",
+          "examples": [
+            {
+              "en": "Her hands trembled as she opened the letter.",
+              "ja": "手紙を開けるとき、彼女の手は震えていた。",
+              "highlight": "trembled"
+            },
+            {
+              "en": "The child trembled with cold in the snowstorm.",
+              "ja": "その子供は吹雪の中で寒さに震えた。",
+              "highlight": "trembled"
+            },
+            {
+              "en": "His voice trembled when he spoke about the accident.",
+              "ja": "事故について話すとき、彼の声は震えた。",
+              "highlight": "trembled"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tremulare ← tremulus（震えている）← tremere（震える）",
+      "synonyms": [
+        { "word": "shake", "trans": "震える、揺れる" },
+        { "word": "shiver", "trans": "（寒さ・恐れで）震える" },
+        { "word": "quiver", "trans": "細かく震える" }
+      ],
+      "antonyms": [
+        { "word": "steady", "trans": "安定している、揺るがない" }
+      ],
+      "related": [
+        { "word": "trembling", "trans": "形容詞：震えている；名詞：震え" },
+        { "word": "tremor", "trans": "名詞：震え、微動（地震の余震など）" }
+      ]
+    },
+    {
+      "number": 2417,
+      "word": "examine",
+      "pos": "動詞",
+      "meaning": "調べる、検査する、審査する、試問する",
+      "nuance": "注意深く・詳細に「観察・検査・分析する」ことを指します。look at より丁寧・組織的なプロセスを含意します。医学的検査・試験・証拠の検討など幅広い文脈で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（調べる・検査する）",
+          "examples": [
+            {
+              "en": "The doctor examined the patient carefully.",
+              "ja": "医師は患者を念入りに診察した。",
+              "highlight": "examined"
+            },
+            {
+              "en": "We need to examine all the evidence before drawing conclusions.",
+              "ja": "結論を出す前に、すべての証拠を調べる必要がある。",
+              "highlight": "examine"
+            },
+            {
+              "en": "The study examined the effects of sleep deprivation on memory.",
+              "ja": "その研究は睡眠不足が記憶に与える影響を調べた。",
+              "highlight": "examined"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 examinare（計量する・試す）← examen（はかり・舌）",
+      "synonyms": [
+        { "word": "inspect", "trans": "検査する、調べる" },
+        { "word": "investigate", "trans": "調査する" },
+        { "word": "analyze", "trans": "分析する" }
+      ],
+      "antonyms": [
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "overlook", "trans": "見過ごす" }
+      ],
+      "related": [
+        { "word": "examination", "trans": "名詞：検査、試験（exam）" },
+        { "word": "examiner", "trans": "名詞：試験官、検査官" },
+        { "word": "cross-examine", "trans": "動詞：反対尋問する" }
+      ]
+    },
+    {
+      "number": 2418,
+      "word": "temperature",
+      "pos": "名詞",
+      "meaning": "温度、気温、体温",
+      "nuance": "空気・物体・体の「熱さ・冷たさの度合い」を指します。'take someone's temperature'（体温を測る）、'temperature rise'（気温上昇）など、日常から科学・医療まで幅広く使われます。",
+      "example_sections": [
+        {
+          "title": "例文（温度・気温）",
+          "examples": [
+            {
+              "en": "The temperature dropped below zero last night.",
+              "ja": "昨夜、気温はゼロ度以下に下がった。",
+              "highlight": "temperature"
+            },
+            {
+              "en": "Global temperatures have been rising steadily for decades.",
+              "ja": "世界の気温は数十年にわたって着実に上昇している。",
+              "highlight": "temperatures"
+            }
+          ]
+        },
+        {
+          "title": "例文（体温）",
+          "examples": [
+            {
+              "en": "The nurse took the patient's temperature every four hours.",
+              "ja": "看護師は4時間ごとに患者の体温を測った。",
+              "highlight": "temperature"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 temperatura（適度な混合）← temperare（調和させる）",
+      "synonyms": [
+        { "word": "heat", "trans": "熱、熱さ" },
+        { "word": "warmth", "trans": "温かさ" },
+        { "word": "fever", "trans": "発熱（体温上昇時）" }
+      ],
+      "antonyms": [],
+      "related": [
+        { "word": "thermometer", "trans": "名詞：温度計" },
+        { "word": "temperate", "trans": "形容詞：温暖な、穏やかな" },
+        { "word": "subtropical", "trans": "形容詞：亜熱帯の" }
+      ]
+    },
+    {
+      "number": 2419,
+      "word": "process",
+      "pos": "名詞・動詞",
+      "meaning": "過程、工程、プロセス；処理する",
+      "nuance": "ある結果に至るための「一連の手順・段階」を指します。動詞では情報・食品・申請書などを「処理する」という意味で使われます。'in the process of〜'（〜の途中で）も頻出表現です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：過程・プロセス）",
+          "examples": [
+            {
+              "en": "Learning a language is a long and gradual process.",
+              "ja": "言語を習得することは長くて段階的なプロセスだ。",
+              "highlight": "process"
+            },
+            {
+              "en": "The application process takes about two weeks.",
+              "ja": "申請の手続きには約2週間かかる。",
+              "highlight": "process"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：処理する）",
+          "examples": [
+            {
+              "en": "The system can process thousands of requests per second.",
+              "ja": "そのシステムは1秒間に数千件のリクエストを処理できる。",
+              "highlight": "process"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 processus ← procedere（前に進む）← pro-（前に）+ cedere（行く）",
+      "synonyms": [
+        { "word": "procedure", "trans": "手順、手続き" },
+        { "word": "method", "trans": "方法" },
+        { "word": "system", "trans": "仕組み、体系" }
+      ],
+      "antonyms": [],
+      "related": [
+        { "word": "processing", "trans": "名詞：処理（中）" },
+        { "word": "processor", "trans": "名詞：処理装置、プロセッサー" },
+        { "word": "processed", "trans": "形容詞：加工された（食品など）" }
+      ]
+    },
+    {
+      "number": 2420,
+      "word": "visible",
+      "pos": "形容詞",
+      "meaning": "目に見える、視認できる、明らかな",
+      "nuance": "目で確認できる・はっきりと認識できる状態を指します。物理的に見えるだけでなく、'visible progress'（明らかな進歩）のように「明確にわかる」という比喩的な意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（目に見える）",
+          "examples": [
+            {
+              "en": "The damage to the building was clearly visible from the street.",
+              "ja": "建物へのダメージは通りからはっきりと見えた。",
+              "highlight": "visible"
+            },
+            {
+              "en": "Stars are only visible at night when the sky is clear.",
+              "ja": "星は夜空が晴れているときにしか見えない。",
+              "highlight": "visible"
+            },
+            {
+              "en": "There has been visible improvement in his performance.",
+              "ja": "彼のパフォーマンスに明らかな改善が見られる。",
+              "highlight": "visible"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 visibilis ← videre（見る）",
+      "synonyms": [
+        { "word": "apparent", "trans": "明らかな" },
+        { "word": "noticeable", "trans": "目立つ、明らかな" },
+        { "word": "observable", "trans": "観察できる" }
+      ],
+      "antonyms": [
+        { "word": "invisible", "trans": "目に見えない" },
+        { "word": "hidden", "trans": "隠れた" }
+      ],
+      "related": [
+        { "word": "visibility", "trans": "名詞：視界、視認性" },
+        { "word": "visibly", "trans": "副詞：目に見えて、明らかに" },
+        { "word": "vision", "trans": "名詞：視力、視野、ビジョン" }
+      ]
+    },
+    {
+      "number": 2421,
+      "word": "reduction",
+      "pos": "名詞",
+      "meaning": "削減、縮小、減少、割引",
+      "nuance": "量・大きさ・程度などが「小さくなること・小さくすること」を指します。'reduction in〜'（〜の削減）の形が頻出で、コスト・排出量・リスクなど様々な文脈で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（削減・減少）",
+          "examples": [
+            {
+              "en": "The government announced a reduction in income tax.",
+              "ja": "政府は所得税の減税を発表した。",
+              "highlight": "reduction"
+            },
+            {
+              "en": "There has been a significant reduction in carbon emissions.",
+              "ja": "炭素排出量が著しく減少している。",
+              "highlight": "reduction"
+            },
+            {
+              "en": "The store offered a price reduction on all winter goods.",
+              "ja": "その店は冬物商品すべての値引きを行った。",
+              "highlight": "reduction"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 reductio ← reducere（引き戻す）← re-（戻す）+ ducere（導く）",
+      "synonyms": [
+        { "word": "decrease", "trans": "減少" },
+        { "word": "decline", "trans": "低下、減少" },
+        { "word": "cut", "trans": "削減" }
+      ],
+      "antonyms": [
+        { "word": "increase", "trans": "増加" },
+        { "word": "expansion", "trans": "拡大" }
+      ],
+      "related": [
+        { "word": "reduce", "trans": "動詞：減らす、縮小する" },
+        { "word": "reduced", "trans": "形容詞：削減された、割引の" },
+        { "word": "reductive", "trans": "形容詞：単純化しすぎる" }
+      ]
+    },
+    {
+      "number": 2422,
+      "word": "current",
+      "pos": "形容詞・名詞",
+      "meaning": "現在の、現行の；流れ、電流、潮流",
+      "nuance": "形容詞としては「今この時点での」という意味で、present とほぼ同義ですが、ongoing（継続中）のニュアンスも含みます。名詞としては水・空気・電気の「流れ」を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞：現在の）",
+          "examples": [
+            {
+              "en": "What is your current address?",
+              "ja": "現在の住所はどこですか？",
+              "highlight": "current"
+            },
+            {
+              "en": "The current situation requires immediate action.",
+              "ja": "現在の状況は即座の対応を要している。",
+              "highlight": "current"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：流れ）",
+          "examples": [
+            {
+              "en": "Ocean currents play a key role in regulating global climate.",
+              "ja": "海流は世界の気候を調節する上で重要な役割を果たす。",
+              "highlight": "currents"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 currens ← currere（走る・流れる）",
+      "synonyms": [
+        { "word": "present", "trans": "現在の" },
+        { "word": "ongoing", "trans": "進行中の" },
+        { "word": "flow", "trans": "流れ" }
+      ],
+      "antonyms": [
+        { "word": "past", "trans": "過去の" },
+        { "word": "former", "trans": "以前の" }
+      ],
+      "related": [
+        { "word": "currently", "trans": "副詞：現在、今のところ" },
+        { "word": "currency", "trans": "名詞：通貨" },
+        { "word": "current affairs", "trans": "名詞：時事問題" }
+      ]
+    },
+    {
+      "number": 2423,
+      "word": "trend",
+      "pos": "名詞・動詞",
+      "meaning": "傾向、動向、トレンド；向かう、傾く",
+      "nuance": "ある方向への「継続的な変化の流れ」を指します。社会・経済・ファッションなど幅広い分野で使われ、'trend toward〜'（〜の傾向がある）、'set a trend'（トレンドを生み出す）も重要表現です。",
+      "example_sections": [
+        {
+          "title": "例文（傾向・動向）",
+          "examples": [
+            {
+              "en": "There is a growing trend toward remote work.",
+              "ja": "テレワークへの傾向が高まっている。",
+              "highlight": "trend"
+            },
+            {
+              "en": "The data shows a downward trend in unemployment.",
+              "ja": "データは失業率の下降傾向を示している。",
+              "highlight": "trend"
+            },
+            {
+              "en": "She always tries to set new trends in fashion.",
+              "ja": "彼女はいつもファッションで新しいトレンドを生み出そうとする。",
+              "highlight": "trends"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 trendan（回転する・転じる）← ゲルマン語源",
+      "synonyms": [
+        { "word": "tendency", "trans": "傾向" },
+        { "word": "pattern", "trans": "パターン、傾向" },
+        { "word": "direction", "trans": "方向性" }
+      ],
+      "antonyms": [
+        { "word": "anomaly", "trans": "例外、異常" }
+      ],
+      "related": [
+        { "word": "trendy", "trans": "形容詞：流行の、おしゃれな" },
+        { "word": "trending", "trans": "形容詞：話題になっている" },
+        { "word": "uptrend", "trans": "名詞：上昇傾向" }
+      ]
+    },
+    {
+      "number": 2424,
+      "word": "period",
+      "pos": "名詞",
+      "meaning": "期間、時代、時期、周期；ピリオド",
+      "nuance": "「ある区切られた時間の幅」を指します。'period of time'（一定期間）、'historical period'（歴史的時代）など幅広い用法があります。文末の句読点「ピリオド」としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文（期間・時期）",
+          "examples": [
+            {
+              "en": "The company saw rapid growth during this period.",
+              "ja": "この時期、会社は急成長を遂げた。",
+              "highlight": "period"
+            },
+            {
+              "en": "The Renaissance was a remarkable period in European history.",
+              "ja": "ルネサンスはヨーロッパの歴史における注目すべき時代だった。",
+              "highlight": "period"
+            },
+            {
+              "en": "You need to complete the form within the specified period.",
+              "ja": "指定された期間内に書類を完成させる必要がある。",
+              "highlight": "period"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 periodos（回り道・周期）← peri-（周りに）+ hodos（道）",
+      "synonyms": [
+        { "word": "era", "trans": "時代" },
+        { "word": "phase", "trans": "段階、局面" },
+        { "word": "stage", "trans": "段階" }
+      ],
+      "antonyms": [],
+      "related": [
+        { "word": "periodic", "trans": "形容詞：周期的な" },
+        { "word": "periodically", "trans": "副詞：定期的に" },
+        { "word": "periodical", "trans": "名詞：定期刊行物、雑誌" }
+      ]
+    },
+    {
+      "number": 2425,
+      "word": "equal",
+      "pos": "形容詞・動詞・名詞",
+      "meaning": "等しい、平等な；等しくなる；同等の人・物",
+      "nuance": "量・価値・権利などが「同じである」ことを指します。'be equal to〜'（〜と等しい、〜に匹敵する）の形も重要です。社会的な「平等」の文脈でも頻出します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞：等しい・平等な）",
+          "examples": [
+            {
+              "en": "All students should be given equal opportunities.",
+              "ja": "すべての生徒に平等な機会が与えられるべきだ。",
+              "highlight": "equal"
+            },
+            {
+              "en": "The two teams are roughly equal in ability.",
+              "ja": "その2チームは能力においておおよそ互角だ。",
+              "highlight": "equal"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：等しくなる）",
+          "examples": [
+            {
+              "en": "Four times five equals twenty.",
+              "ja": "4かける5は20になる。",
+              "highlight": "equals"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 aequalis ← aequus（平らな・均等な）",
+      "synonyms": [
+        { "word": "equivalent", "trans": "同等の" },
+        { "word": "identical", "trans": "同一の" },
+        { "word": "fair", "trans": "公平な" }
+      ],
+      "antonyms": [
+        { "word": "unequal", "trans": "不平等な" },
+        { "word": "different", "trans": "異なる" }
+      ],
+      "related": [
+        { "word": "equality", "trans": "名詞：平等、均等" },
+        { "word": "equally", "trans": "副詞：等しく、同様に" },
+        { "word": "inequality", "trans": "名詞：不平等" }
+      ]
+    },
+    {
+      "number": 2426,
+      "word": "complicated",
+      "pos": "形容詞",
+      "meaning": "複雑な、込み入った、難しい",
+      "nuance": "多くの要素が絡み合って「理解・解決が難しい」状態を指します。complex は構造的な複雑さ、complicated はその複雑さゆえに「扱いにくい・厄介」というニュアンスがやや強いです。",
+      "example_sections": [
+        {
+          "title": "例文（複雑な・難しい）",
+          "examples": [
+            {
+              "en": "The instructions were so complicated that no one could follow them.",
+              "ja": "説明があまりに複雑で、誰も理解できなかった。",
+              "highlight": "complicated"
+            },
+            {
+              "en": "Their relationship became increasingly complicated over time.",
+              "ja": "彼らの関係は時とともにますます複雑になっていった。",
+              "highlight": "complicated"
+            },
+            {
+              "en": "It's a complicated issue that requires careful consideration.",
+              "ja": "これは慎重な検討が必要な複雑な問題だ。",
+              "highlight": "complicated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 complicare（折り畳む）← com-（共に）+ plicare（折る）→ 折り重なって複雑になる",
+      "synonyms": [
+        { "word": "complex", "trans": "複雑な" },
+        { "word": "intricate", "trans": "入り組んだ" },
+        { "word": "difficult", "trans": "難しい" }
+      ],
+      "antonyms": [
+        { "word": "simple", "trans": "単純な" },
+        { "word": "straightforward", "trans": "わかりやすい" }
+      ],
+      "related": [
+        { "word": "complicate", "trans": "動詞：複雑にする" },
+        { "word": "complication", "trans": "名詞：複雑化、合併症" },
+        { "word": "uncomplicated", "trans": "形容詞：複雑でない、単純な" }
+      ]
+    },
+    {
+      "number": 2427,
+      "word": "concern",
+      "pos": "名詞・動詞",
+      "meaning": "心配、懸念、関心事；〜に関係する、心配させる",
+      "nuance": "名詞では「不安・気がかり」と「関心・かかわり」の両義があります。動詞では'concern A'（Aを心配させる）や'concern oneself with〜'（〜に関わる）の形で使われます。'as far as〜is concerned'（〜に関して言えば）も重要です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：心配・懸念）",
+          "examples": [
+            {
+              "en": "There is growing concern about air pollution in urban areas.",
+              "ja": "都市部の大気汚染に対する懸念が高まっている。",
+              "highlight": "concern"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：関係する・心配させる）",
+          "examples": [
+            {
+              "en": "This issue concerns all of us.",
+              "ja": "この問題は私たち全員に関係している。",
+              "highlight": "concerns"
+            },
+            {
+              "en": "As far as safety is concerned, we follow strict protocols.",
+              "ja": "安全に関して言えば、私たちは厳格な手順に従っている。",
+              "highlight": "concerned"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 concernere（ふるいにかける・識別する）← con-（共に）+ cernere（区別する）",
+      "synonyms": [
+        { "word": "worry", "trans": "心配、不安" },
+        { "word": "anxiety", "trans": "不安、懸念" },
+        { "word": "involve", "trans": "関係する" }
+      ],
+      "antonyms": [
+        { "word": "indifference", "trans": "無関心" },
+        { "word": "unconcern", "trans": "無頓着" }
+      ],
+      "related": [
+        { "word": "concerned", "trans": "形容詞：心配した、関係した" },
+        { "word": "concerning", "trans": "前置詞：〜に関して；形容詞：心配な" }
+      ]
+    },
+    {
+      "number": 2428,
+      "word": "reflect",
+      "pos": "動詞",
+      "meaning": "反射する、映す、反映する、熟考する",
+      "nuance": "光・音・像を「跳ね返す」という物理的な意味と、ある事実・状況を「示す・表す」という比喩的な意味の両方があります。また'reflect on〜'で「〜をじっくり考える・振り返る」という意味にもなります。",
+      "example_sections": [
+        {
+          "title": "例文（反射する・反映する）",
+          "examples": [
+            {
+              "en": "The lake reflected the mountains perfectly.",
+              "ja": "湖は山々を完璧に映し出していた。",
+              "highlight": "reflected"
+            },
+            {
+              "en": "The test results reflect the students' hard work.",
+              "ja": "テストの結果は生徒たちの努力を反映している。",
+              "highlight": "reflect"
+            }
+          ]
+        },
+        {
+          "title": "例文（熟考する）",
+          "examples": [
+            {
+              "en": "She took a moment to reflect on her past decisions.",
+              "ja": "彼女は自分の過去の決断をじっくりと振り返った。",
+              "highlight": "reflect"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 reflectere ← re-（戻す）+ flectere（曲げる）→ 光などを折り返す",
+      "synonyms": [
+        { "word": "mirror", "trans": "反射する、映す" },
+        { "word": "show", "trans": "示す" },
+        { "word": "ponder", "trans": "熟考する" }
+      ],
+      "antonyms": [
+        { "word": "absorb", "trans": "吸収する" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "reflection", "trans": "名詞：反射、映像、熟考" },
+        { "word": "reflective", "trans": "形容詞：反射する、内省的な" },
+        { "word": "reflector", "trans": "名詞：反射板、反射鏡" }
+      ]
+    },
+    {
+      "number": 2429,
+      "word": "expose",
+      "pos": "動詞",
+      "meaning": "さらす、暴露する、露出させる",
+      "nuance": "「覆われていたものを外部にさらす・明るみに出す」イメージです。危険・情報・秘密などを対象に使われます。'be exposed to〜'（〜にさらされる）の受動態がよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（さらす）",
+          "examples": [
+            {
+              "en": "Children should not be exposed to violent content.",
+              "ja": "子供たちは暴力的なコンテンツにさらされるべきではない。",
+              "highlight": "exposed"
+            },
+            {
+              "en": "Living abroad exposed her to different cultures.",
+              "ja": "海外生活は彼女をさまざまな文化にさらした（触れさせた）。",
+              "highlight": "exposed"
+            }
+          ]
+        },
+        {
+          "title": "例文（暴露する）",
+          "examples": [
+            {
+              "en": "The journalist exposed the corruption within the organization.",
+              "ja": "そのジャーナリストは組織内の腐敗を暴露した。",
+              "highlight": "exposed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 exponere ← ex-（外に）+ ponere（置く）→ 外に置き出す",
+      "synonyms": [
+        { "word": "reveal", "trans": "明かす、暴露する" },
+        { "word": "uncover", "trans": "明らかにする" },
+        { "word": "subject to", "trans": "〜にさらす" }
+      ],
+      "antonyms": [
+        { "word": "conceal", "trans": "隠す" },
+        { "word": "protect", "trans": "守る" }
+      ],
+      "related": [
+        { "word": "exposure", "trans": "名詞：露出、さらされること、暴露" },
+        { "word": "exposed", "trans": "形容詞：さらされた、むき出しの" },
+        { "word": "overexposed", "trans": "形容詞：露出過多の、露出されすぎた" }
+      ]
+    },
+    {
+      "number": 2430,
+      "word": "organic",
+      "pos": "形容詞",
+      "meaning": "有機の、有機栽培の、有機的な、自然発生的な",
+      "nuance": "化学物質を使わない「有機栽培・オーガニック」の意味が日常でよく使われますが、「生物体に関連する（organic chemistry＝有機化学）」や「自然に生じた・体系的な」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（有機栽培の）",
+          "examples": [
+            {
+              "en": "She buys organic vegetables whenever possible.",
+              "ja": "彼女はできる限り有機野菜を購入する。",
+              "highlight": "organic"
+            }
+          ]
+        },
+        {
+          "title": "例文（有機的な・自然発生的な）",
+          "examples": [
+            {
+              "en": "The growth of the community was organic, not planned.",
+              "ja": "そのコミュニティの成長は計画されたものではなく、自然に生じたものだった。",
+              "highlight": "organic"
+            },
+            {
+              "en": "Organic matter in the soil is essential for plant growth.",
+              "ja": "土壌中の有機物は植物の成長に不可欠だ。",
+              "highlight": "Organic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 organikos（器官の）← organon（道具・器官）",
+      "synonyms": [
+        { "word": "natural", "trans": "自然の" },
+        { "word": "biological", "trans": "生物学的な" },
+        { "word": "chemical-free", "trans": "化学物質不使用の" }
+      ],
+      "antonyms": [
+        { "word": "inorganic", "trans": "無機の" },
+        { "word": "synthetic", "trans": "合成の、人工の" }
+      ],
+      "related": [
+        { "word": "organism", "trans": "名詞：生物、有機体" },
+        { "word": "organ", "trans": "名詞：器官、臓器" },
+        { "word": "organically", "trans": "副詞：有機的に、自然に" }
+      ]
+    },
+    {
+      "number": 2431,
+      "word": "material",
+      "pos": "名詞・形容詞",
+      "meaning": "素材、材料、資料；物質的な、重要な",
+      "nuance": "「物を作るための素材」と「情報・資料」の両方の意味があります。形容詞では「物質的な」や法律・議論の場での「重要な・本質的な」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：素材・材料）",
+          "examples": [
+            {
+              "en": "Cotton is a natural material used in clothing.",
+              "ja": "綿は衣類に使われる天然素材だ。",
+              "highlight": "material"
+            },
+            {
+              "en": "The teacher distributed study materials to all students.",
+              "ja": "教師は全生徒に学習資料を配布した。",
+              "highlight": "materials"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞：重要な）",
+          "examples": [
+            {
+              "en": "The witness provided material evidence in the trial.",
+              "ja": "その証人は裁判において重要な証拠を提供した。",
+              "highlight": "material"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 materialis ← materia（木材・物質）← mater（母）→ 生み出す元となるもの",
+      "synonyms": [
+        { "word": "substance", "trans": "物質、素材" },
+        { "word": "matter", "trans": "物質、問題" },
+        { "word": "resource", "trans": "資源、資料" }
+      ],
+      "antonyms": [
+        { "word": "immaterial", "trans": "重要でない、非物質的な" },
+        { "word": "spiritual", "trans": "精神的な" }
+      ],
+      "related": [
+        { "word": "materialism", "trans": "名詞：物質主義、唯物論" },
+        { "word": "materially", "trans": "副詞：物質的に、大幅に" },
+        { "word": "raw material", "trans": "名詞：原材料" }
+      ]
+    },
+    {
+      "number": 2432,
+      "word": "content",
+      "pos": "名詞・形容詞",
+      "meaning": "内容、中身、含有量；満足している",
+      "nuance": "名詞の場合、アクセントは「コンテント（kɑ́ntent）」で「内容・中身」、形容詞の場合は「コンテント（kəntént）」で「満足した」という意味です。文脈とアクセントで区別が必要です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：内容・含有量）",
+          "examples": [
+            {
+              "en": "The content of the report was highly informative.",
+              "ja": "その報告書の内容は非常に有益だった。",
+              "highlight": "content"
+            },
+            {
+              "en": "Foods with a high fat content should be eaten in moderation.",
+              "ja": "脂肪含有量が高い食品は適量を守って食べるべきだ。",
+              "highlight": "content"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞：満足している）",
+          "examples": [
+            {
+              "en": "She seemed content with her quiet life in the countryside.",
+              "ja": "彼女は田舎での静かな生活に満足しているようだった。",
+              "highlight": "content"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 contentus ← continere（含む・保つ）← con-（共に）+ tenere（持つ）",
+      "synonyms": [
+        { "word": "substance", "trans": "中身、内容" },
+        { "word": "material", "trans": "資料、内容" },
+        { "word": "satisfied", "trans": "満足した" }
+      ],
+      "antonyms": [
+        { "word": "discontent", "trans": "不満" },
+        { "word": "dissatisfied", "trans": "不満な" }
+      ],
+      "related": [
+        { "word": "contents", "trans": "名詞：目次、内容物" },
+        { "word": "contentment", "trans": "名詞：満足感" },
+        { "word": "discontent", "trans": "名詞・形容詞：不満（な）" }
+      ]
+    },
+    {
+      "number": 2433,
+      "word": "elsewhere",
+      "pos": "副詞",
+      "meaning": "他の場所で（に）、よそで",
+      "nuance": "「今話題にしている場所以外の場所で・に」を意味します。特定の場所を指さず、「どこか別の場所」という漠然とした意味合いで使われます。文頭・文末どちらにも置けます。",
+      "example_sections": [
+        {
+          "title": "例文（他の場所で）",
+          "examples": [
+            {
+              "en": "If you can't find it here, try looking elsewhere.",
+              "ja": "ここで見つからなければ、他の場所を探してみてください。",
+              "highlight": "elsewhere"
+            },
+            {
+              "en": "The trend observed here is also seen elsewhere in the world.",
+              "ja": "ここで見られる傾向は世界の他の地域でも見られる。",
+              "highlight": "elsewhere"
+            },
+            {
+              "en": "Her thoughts were clearly elsewhere during the meeting.",
+              "ja": "会議中、彼女の心は明らかによそにあった。",
+              "highlight": "elsewhere"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 elleshwær ← elles（他の）+ hwær（どこか）",
+      "synonyms": [
+        { "word": "somewhere else", "trans": "他のどこかで" },
+        { "word": "in another place", "trans": "別の場所で" }
+      ],
+      "antonyms": [
+        { "word": "here", "trans": "ここで" },
+        { "word": "in this place", "trans": "この場所で" }
+      ],
+      "related": [
+        { "word": "else", "trans": "副詞：他に、その他" },
+        { "word": "nowhere", "trans": "副詞：どこにも〜ない" },
+        { "word": "somewhere", "trans": "副詞：どこかで" }
+      ]
+    },
+    {
+      "number": 2434,
+      "word": "decrease",
+      "pos": "動詞・名詞",
+      "meaning": "減少する、減る；減少",
+      "nuance": "数量・程度・割合などが「小さくなる」ことを指します。increase（増加する）の反意語です。'decrease in〜'（〜の減少）や'decrease by〜'（〜だけ減少する）の形でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：減少する）",
+          "examples": [
+            {
+              "en": "The number of smokers has decreased significantly over the past decade.",
+              "ja": "喫煙者の数はこの10年で大幅に減少した。",
+              "highlight": "decreased"
+            },
+            {
+              "en": "Exercise can help decrease the risk of heart disease.",
+              "ja": "運動は心臓病のリスクを減らすのに役立つ。",
+              "highlight": "decrease"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：減少）",
+          "examples": [
+            {
+              "en": "There has been a steady decrease in crime rates.",
+              "ja": "犯罪率は着実に減少している。",
+              "highlight": "decrease"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 decrescere ← de-（下に）+ crescere（成長する）→ 成長が下がる",
+      "synonyms": [
+        { "word": "decline", "trans": "減少する、低下する" },
+        { "word": "reduce", "trans": "減らす" },
+        { "word": "drop", "trans": "落ちる、減る" }
+      ],
+      "antonyms": [
+        { "word": "increase", "trans": "増加する" },
+        { "word": "grow", "trans": "成長する" }
+      ],
+      "related": [
+        { "word": "decreasing", "trans": "形容詞：減少している" },
+        { "word": "increasingly", "trans": "副詞：ますます（increaseの関連語）" }
+      ]
+    },
+    {
+      "number": 2435,
+      "word": "hemisphere",
+      "pos": "名詞",
+      "meaning": "半球、（地球・脳の）半球",
+      "nuance": "地球を赤道や本初子午線で分けた「半球」（Northern/Southern Hemisphere：北半球/南半球）や、脳の「左右半球」などを指します。比較的専門的・学術的な語です。",
+      "example_sections": [
+        {
+          "title": "例文（半球）",
+          "examples": [
+            {
+              "en": "Australia is located in the Southern Hemisphere.",
+              "ja": "オーストラリアは南半球に位置している。",
+              "highlight": "Hemisphere"
+            },
+            {
+              "en": "Seasons are reversed between the Northern and Southern Hemispheres.",
+              "ja": "北半球と南半球では季節が逆になる。",
+              "highlight": "Hemispheres"
+            },
+            {
+              "en": "The left hemisphere of the brain controls language.",
+              "ja": "脳の左半球は言語を制御している。",
+              "highlight": "hemisphere"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 hemisphairion ← hemi-（半分）+ sphaira（球）",
+      "synonyms": [
+        { "word": "half", "trans": "半分" }
+      ],
+      "antonyms": [],
+      "related": [
+        { "word": "Northern Hemisphere", "trans": "名詞：北半球" },
+        { "word": "Southern Hemisphere", "trans": "名詞：南半球" },
+        { "word": "cerebral hemisphere", "trans": "名詞：大脳半球" }
+      ]
+    },
+    {
+      "number": 2436,
+      "word": "reduce",
+      "pos": "動詞",
+      "meaning": "減らす、縮小する、低下させる",
+      "nuance": "量・程度・費用・リスクなどを「小さくする・少なくする」意味です。'reduce to〜'（〜に追い込む）という用法もあり、'be reduced to tears'（涙が出るほど追い詰められる）のような表現もあります。",
+      "example_sections": [
+        {
+          "title": "例文（減らす・縮小する）",
+          "examples": [
+            {
+              "en": "We need to reduce our carbon footprint.",
+              "ja": "私たちは炭素排出量を減らす必要がある。",
+              "highlight": "reduce"
+            },
+            {
+              "en": "The new law is designed to reduce traffic accidents.",
+              "ja": "その新しい法律は交通事故を減らすために設計されている。",
+              "highlight": "reduce"
+            },
+            {
+              "en": "The stress of the situation reduced her to tears.",
+              "ja": "その状況のストレスで彼女は涙を流した。",
+              "highlight": "reduced"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 reducere ← re-（戻す）+ ducere（導く）→ 元の小さい状態に戻す",
+      "synonyms": [
+        { "word": "decrease", "trans": "減少させる" },
+        { "word": "cut", "trans": "削減する" },
+        { "word": "lower", "trans": "下げる" }
+      ],
+      "antonyms": [
+        { "word": "increase", "trans": "増やす" },
+        { "word": "expand", "trans": "拡大する" }
+      ],
+      "related": [
+        { "word": "reduction", "trans": "名詞：削減、減少" },
+        { "word": "reductive", "trans": "形容詞：単純化しすぎる" },
+        { "word": "irreducible", "trans": "形容詞：これ以上減らせない" }
+      ]
+    },
+    {
+      "number": 2437,
+      "word": "journey",
+      "pos": "名詞・動詞",
+      "meaning": "旅、旅行、行程；旅をする",
+      "nuance": "目的地に向かう「旅・移動」全般を指します。trip（短期・往復を含む）や travel（行為全般）と異なり、journey はやや距離や時間のかかる移動や、人生・成長の比喩としても使われます。",
+      "example_sections": [
+        {
+          "title": "例文（旅・旅行）",
+          "examples": [
+            {
+              "en": "The journey from London to Edinburgh takes about four hours by train.",
+              "ja": "ロンドンからエジンバラへの旅は電車で約4時間かかる。",
+              "highlight": "journey"
+            },
+            {
+              "en": "Life is a journey, not a destination.",
+              "ja": "人生は旅であり、目的地ではない。",
+              "highlight": "journey"
+            }
+          ]
+        },
+        {
+          "title": "例文（比喩：経験・過程）",
+          "examples": [
+            {
+              "en": "Her journey to becoming a doctor was long and challenging.",
+              "ja": "医師になるまでの彼女の道のりは長く困難なものだった。",
+              "highlight": "journey"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 journee（1日の行程）← ラテン語 diurnum（1日分）← dies（日）",
+      "synonyms": [
+        { "word": "trip", "trans": "旅行" },
+        { "word": "voyage", "trans": "航海、長旅" },
+        { "word": "expedition", "trans": "遠征、探検" }
+      ],
+      "antonyms": [
+        { "word": "stay", "trans": "滞在" }
+      ],
+      "related": [
+        { "word": "journeyman", "trans": "名詞：一人前の職人" },
+        { "word": "travel", "trans": "動詞・名詞：旅行（する）" }
+      ]
+    },
+    {
+      "number": 2438,
+      "word": "circulation",
+      "pos": "名詞",
+      "meaning": "循環、流通、発行部数、血液循環",
+      "nuance": "「ぐるぐると回る・流れる」という動きを中心に、血液の循環・空気の流通・お金や情報の流れ・出版物の発行部数など、多様な文脈で使われます。",
+      "example_sections": [
+        {
+          "title": "例文（血液循環）",
+          "examples": [
+            {
+              "en": "Exercise improves blood circulation throughout the body.",
+              "ja": "運動は全身の血液循環を改善する。",
+              "highlight": "circulation"
+            }
+          ]
+        },
+        {
+          "title": "例文（流通・発行部数）",
+          "examples": [
+            {
+              "en": "The newspaper has a daily circulation of over one million copies.",
+              "ja": "その新聞は1日100万部以上の発行部数を誇る。",
+              "highlight": "circulation"
+            },
+            {
+              "en": "Counterfeit bills were found in circulation.",
+              "ja": "偽造紙幣が流通しているのが発見された。",
+              "highlight": "circulation"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 circulatio ← circulare（円を描く）← circulus（円）",
+      "synonyms": [
+        { "word": "flow", "trans": "流れ、循環" },
+        { "word": "distribution", "trans": "配布、流通" },
+        { "word": "movement", "trans": "動き、流れ" }
+      ],
+      "antonyms": [
+        { "word": "stagnation", "trans": "停滞" },
+        { "word": "blockage", "trans": "閉塞" }
+      ],
+      "related": [
+        { "word": "circulate", "trans": "動詞：循環する、流通する" },
+        { "word": "circular", "trans": "形容詞：円形の、回覧の；名詞：回覧文書" }
+      ]
+    },
+    {
+      "number": 2439,
+      "word": "affect",
+      "pos": "動詞",
+      "meaning": "影響を与える、作用する、心を動かす",
+      "nuance": "「何かに変化や影響を及ぼす」ことを指す動詞です。名詞の effect（影響・結果）と混同されやすいため注意が必要です。感情的に「心を動かす」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（影響を与える）",
+          "examples": [
+            {
+              "en": "The cold weather affected the crops severely.",
+              "ja": "寒い天候は作物に深刻な影響を与えた。",
+              "highlight": "affected"
+            },
+            {
+              "en": "Stress can negatively affect your health.",
+              "ja": "ストレスは健康に悪影響を与えることがある。",
+              "highlight": "affect"
+            }
+          ]
+        },
+        {
+          "title": "例文（心を動かす）",
+          "examples": [
+            {
+              "en": "The documentary deeply affected everyone who watched it.",
+              "ja": "そのドキュメンタリーは見た人全員を深く感動させた。",
+              "highlight": "affected"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 afficere ← ad-（〜に）+ facere（する）→ 何かに作用を与える",
+      "synonyms": [
+        { "word": "influence", "trans": "影響を与える" },
+        { "word": "impact", "trans": "影響を与える" },
+        { "word": "move", "trans": "感動させる" }
+      ],
+      "antonyms": [
+        { "word": "leave unaffected", "trans": "影響を与えない" }
+      ],
+      "related": [
+        { "word": "effect", "trans": "名詞：結果、影響（混同注意）" },
+        { "word": "affection", "trans": "名詞：愛情、好意" },
+        { "word": "affected", "trans": "形容詞：影響を受けた；気取った" }
+      ]
+    },
+    {
+      "number": 2440,
+      "word": "influence",
+      "pos": "名詞・動詞",
+      "meaning": "影響、影響力；影響を与える",
+      "nuance": "「ある人・物・状況が他に及ぼす力や効果」を指します。effect が「結果としての影響」であるのに対し、influence は「過程・力そのもの」に焦点が当たります。'under the influence of〜'（〜の影響下で）も重要表現です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：影響・影響力）",
+          "examples": [
+            {
+              "en": "The Arctic has a major influence on global weather patterns.",
+              "ja": "北極は世界の気象パターンに大きな影響を与えている。",
+              "highlight": "influence"
+            },
+            {
+              "en": "She has a positive influence on those around her.",
+              "ja": "彼女は周囲の人たちによい影響を与えている。",
+              "highlight": "influence"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：影響を与える）",
+          "examples": [
+            {
+              "en": "His upbringing greatly influenced his worldview.",
+              "ja": "育ちは彼の世界観に大きな影響を与えた。",
+              "highlight": "influenced"
+            }
+          ]
+        }
+      ],
+      "etymology": "中世ラテン語 influentia ← influere（流れ込む）← in-（中へ）+ fluere（流れる）",
+      "synonyms": [
+        { "word": "impact", "trans": "影響" },
+        { "word": "affect", "trans": "影響を与える" },
+        { "word": "sway", "trans": "影響力、左右する" }
+      ],
+      "antonyms": [
+        { "word": "independence", "trans": "独立（影響を受けないこと）" }
+      ],
+      "related": [
+        { "word": "influential", "trans": "形容詞：影響力のある" },
+        { "word": "influencer", "trans": "名詞：インフルエンサー" },
+        { "word": "uninfluenced", "trans": "形容詞：影響を受けていない" }
+      ]
+    },
+    {
+      "number": 2441,
+      "word": "possibility",
+      "pos": "名詞",
+      "meaning": "可能性、見込み、実現性",
+      "nuance": "「ある事が起こりうる・実現しうる状態」を指します。probability（確率・蓋然性）より中立的で、単に「あり得る」という意味合いです。'the possibility of〜'（〜の可能性）や'explore possibilities'（可能性を探る）が頻出です。",
+      "example_sections": [
+        {
+          "title": "例文（可能性）",
+          "examples": [
+            {
+              "en": "There is a possibility that the event will be cancelled.",
+              "ja": "そのイベントがキャンセルになる可能性がある。",
+              "highlight": "possibility"
+            },
+            {
+              "en": "Scientists are exploring the possibility of life on other planets.",
+              "ja": "科学者たちは他の惑星に生命が存在する可能性を探っている。",
+              "highlight": "possibility"
+            },
+            {
+              "en": "We should consider all possibilities before making a decision.",
+              "ja": "決断する前にすべての可能性を検討すべきだ。",
+              "highlight": "possibilities"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 possibilitas ← possibilis（可能な）← posse（できる）",
+      "synonyms": [
+        { "word": "chance", "trans": "見込み、可能性" },
+        { "word": "prospect", "trans": "見通し、可能性" },
+        { "word": "likelihood", "trans": "ありそうなこと" }
+      ],
+      "antonyms": [
+        { "word": "impossibility", "trans": "不可能性" },
+        { "word": "certainty", "trans": "確実性（可能性の余地がない）" }
+      ],
+      "related": [
+        { "word": "possible", "trans": "形容詞：可能な" },
+        { "word": "possibly", "trans": "副詞：ひょっとすると" },
+        { "word": "impossible", "trans": "形容詞：不可能な" }
+      ]
+    },
+    {
+      "number": 2442,
+      "word": "contain",
+      "pos": "動詞",
+      "meaning": "含む、収容する、抑制する",
+      "nuance": "「中に何かを入れている・保有している」ことを指します。また感情・病気・火災などを「抑え込む・封じ込める」という意味でも使われます。include（含む）より「境界の内側に収まっている」イメージが強いです。",
+      "example_sections": [
+        {
+          "title": "例文（含む・収容する）",
+          "examples": [
+            {
+              "en": "This box contains fragile items.",
+              "ja": "この箱には壊れやすい品物が入っている。",
+              "highlight": "contains"
+            },
+            {
+              "en": "The report contains important data on climate change.",
+              "ja": "その報告書には気候変動に関する重要なデータが含まれている。",
+              "highlight": "contains"
+            }
+          ]
+        },
+        {
+          "title": "例文（抑制する）",
+          "examples": [
+            {
+              "en": "Firefighters struggled to contain the blaze.",
+              "ja": "消防士たちは火災を封じ込めようと奮闘した。",
+              "highlight": "contain"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 continere ← con-（共に）+ tenere（保持する）→ 内側に保持する",
+      "synonyms": [
+        { "word": "include", "trans": "含む" },
+        { "word": "hold", "trans": "収容する" },
+        { "word": "restrain", "trans": "抑制する" }
+      ],
+      "antonyms": [
+        { "word": "exclude", "trans": "排除する" },
+        { "word": "release", "trans": "解放する" }
+      ],
+      "related": [
+        { "word": "container", "trans": "名詞：容器、コンテナ" },
+        { "word": "content", "trans": "名詞：内容、含有量" },
+        { "word": "containment", "trans": "名詞：封じ込め" }
+      ]
+    },
+    {
+      "number": 2443,
+      "word": "estimate",
+      "pos": "動詞・名詞",
+      "meaning": "推定する、見積もる；推定値、見積もり",
+      "nuance": "正確な数値が不明な場合に、手がかりをもとに「おおよその値を出す」ことを指します。動詞・名詞ともに同じ形です（ただし発音・アクセントが異なります）。'rough estimate'（おおよその見積もり）が頻出です。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：推定する）",
+          "examples": [
+            {
+              "en": "Scientists estimate that the universe is about 13.8 billion years old.",
+              "ja": "科学者たちは宇宙の年齢は約138億年と推定している。",
+              "highlight": "estimate"
+            },
+            {
+              "en": "The contractor estimated the repair cost at $5,000.",
+              "ja": "業者は修理費用を5,000ドルと見積もった。",
+              "highlight": "estimated"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：見積もり）",
+          "examples": [
+            {
+              "en": "Can you give me a rough estimate of how long it will take?",
+              "ja": "どのくらいかかるか、おおよその見積もりを教えてもらえますか？",
+              "highlight": "estimate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 aestimare（価値を評価する）",
+      "synonyms": [
+        { "word": "calculate", "trans": "計算する" },
+        { "word": "approximate", "trans": "〜に近い値を出す" },
+        { "word": "assess", "trans": "評価する" }
+      ],
+      "antonyms": [
+        { "word": "measure exactly", "trans": "正確に測る" }
+      ],
+      "related": [
+        { "word": "estimation", "trans": "名詞：推定、見積もり" },
+        { "word": "overestimate", "trans": "動詞：過大評価する" },
+        { "word": "underestimate", "trans": "動詞：過小評価する" }
+      ]
+    },
+    {
+      "number": 2444,
+      "word": "assess",
+      "pos": "動詞",
+      "meaning": "評価する、査定する、見積もる",
+      "nuance": "情報を集めて判断・評価を下すプロセスを指します。試験・リスク・状況・価値などを客観的に「分析・判断する」場面で使われます。evaluate よりフォーマルな響きがあります。",
+      "example_sections": [
+        {
+          "title": "例文（評価する・査定する）",
+          "examples": [
+            {
+              "en": "Researchers are working to assess the long-term effects of climate change.",
+              "ja": "研究者たちは気候変動の長期的な影響を評価しようとしている。",
+              "highlight": "assess"
+            },
+            {
+              "en": "The committee will assess each application individually.",
+              "ja": "委員会は各申請を個別に審査する。",
+              "highlight": "assess"
+            },
+            {
+              "en": "It is difficult to assess the full extent of the damage.",
+              "ja": "被害の全容を評価するのは難しい。",
+              "highlight": "assess"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 assidere（傍らに座る）← ad-（〜へ）+ sedere（座る）→ 税を決めるために隣に座る役人から",
+      "synonyms": [
+        { "word": "evaluate", "trans": "評価する" },
+        { "word": "appraise", "trans": "査定する" },
+        { "word": "estimate", "trans": "見積もる" }
+      ],
+      "antonyms": [
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "overlook", "trans": "見落とす" }
+      ],
+      "related": [
+        { "word": "assessment", "trans": "名詞：評価、査定" },
+        { "word": "assessor", "trans": "名詞：査定者、評価者" }
+      ]
+    },
+    {
+      "number": 2445,
+      "word": "effort",
+      "pos": "名詞",
+      "meaning": "努力、骨折り、尽力",
+      "nuance": "目標のために「力や時間を注ぎ込むこと」を指します。'make an effort'（努力する）、'put effort into〜'（〜に努力を注ぐ）、'despite all efforts'（あらゆる努力にもかかわらず）などが頻出表現です。",
+      "example_sections": [
+        {
+          "title": "例文（努力・尽力）",
+          "examples": [
+            {
+              "en": "She made every effort to finish the project on time.",
+              "ja": "彼女はプロジェクトを期限内に終わらせるためにあらゆる努力をした。",
+              "highlight": "effort"
+            },
+            {
+              "en": "It takes a lot of effort to learn a new language.",
+              "ja": "新しい言語を習得するには多大な努力が必要だ。",
+              "highlight": "effort"
+            },
+            {
+              "en": "Global efforts to reduce emissions must be accelerated.",
+              "ja": "排出量削減に向けた世界的な取り組みを加速させなければならない。",
+              "highlight": "efforts"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 esfort ← esforcier（力を尽くす）← ex-（外に）+ fortis（強い）",
+      "synonyms": [
+        { "word": "attempt", "trans": "試み" },
+        { "word": "endeavor", "trans": "努力、尽力（やや改まった語）" },
+        { "word": "exertion", "trans": "力の行使、奮闘" }
+      ],
+      "antonyms": [
+        { "word": "laziness", "trans": "怠惰" },
+        { "word": "inaction", "trans": "無行動" }
+      ],
+      "related": [
+        { "word": "effortless", "trans": "形容詞：努力のいらない、たやすい" },
+        { "word": "effortlessly", "trans": "副詞：たやすく、楽々と" }
+      ]
+    },
+    {
+      "number": 2446,
+      "word": "essential",
+      "pos": "形容詞・名詞",
+      "meaning": "不可欠な、必須の、本質的な；必需品",
+      "nuance": "「なければならない・根本的に重要な」という強い必要性を表します。important よりも「それがなくては成り立たない」という意味合いが強いです。名詞（複数形 essentials）では「必需品・基本事項」を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞：不可欠な）",
+          "examples": [
+            {
+              "en": "Water is essential for all forms of life.",
+              "ja": "水はあらゆる生命にとって不可欠だ。",
+              "highlight": "essential"
+            },
+            {
+              "en": "It is essential that everyone follows safety protocols.",
+              "ja": "全員が安全手順に従うことが不可欠だ。",
+              "highlight": "essential"
+            },
+            {
+              "en": "Communication skills are essential in any profession.",
+              "ja": "コミュニケーション能力はどの職業においても不可欠だ。",
+              "highlight": "essential"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 essentialis ← essentia（本質・存在）← esse（ある・存在する）",
+      "synonyms": [
+        { "word": "necessary", "trans": "必要な" },
+        { "word": "vital", "trans": "不可欠な、命にかかわる" },
+        { "word": "indispensable", "trans": "欠かせない" }
+      ],
+      "antonyms": [
+        { "word": "unnecessary", "trans": "不必要な" },
+        { "word": "optional", "trans": "任意の" },
+        { "word": "dispensable", "trans": "なくても済む" }
+      ],
+      "related": [
+        { "word": "essence", "trans": "名詞：本質、エッセンス" },
+        { "word": "essentially", "trans": "副詞：本質的に、基本的に" },
+        { "word": "non-essential", "trans": "形容詞：不必要な、必須でない" }
+      ]
     }
   ]
 }
