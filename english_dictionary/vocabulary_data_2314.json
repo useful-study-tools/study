@@ -1,0 +1,3119 @@
+{
+  "words": [
+    {
+      "number": 2314,
+      "word": "contrary",
+      "pos": "形容詞・名詞",
+      "meaning": "反対の、逆の；反対のこと",
+      "nuance": "'contrary to 〜'で「〜に反して」という意味になります。'on the contrary'は「それどころか、むしろ逆に」と前の発言を否定する際に使います。",
+      "example_sections": [
+        {
+          "title": "例文（反対の）",
+          "examples": [
+            {
+              "en": "Contrary to popular belief, bats are not blind.",
+              "ja": "一般的な信念に反して、コウモリは目が見えないわけではない。",
+              "highlight": "Contrary to"
+            },
+            {
+              "en": "His actions were contrary to the company's policy.",
+              "ja": "彼の行動は会社の方針に反していた。",
+              "highlight": "contrary to"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：反対のこと）",
+          "examples": [
+            {
+              "en": "I expected it to fail, but on the contrary, it succeeded.",
+              "ja": "失敗すると思っていたが、それどころか成功した。",
+              "highlight": "on the contrary"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 contrarius（contra「反対に」+ -arius「〜の性質の」）→ 反対の性質を持つ",
+      "synonyms": [
+        { "word": "opposite", "trans": "反対の" },
+        { "word": "opposing", "trans": "対立する" },
+        { "word": "conflicting", "trans": "矛盾する" }
+      ],
+      "antonyms": [
+        { "word": "similar", "trans": "似ている" },
+        { "word": "consistent", "trans": "一致した" },
+        { "word": "agreeable", "trans": "同意できる" }
+      ],
+      "related": [
+        { "word": "contrarily", "trans": "副詞：反対に" },
+        { "word": "contrariness", "trans": "名詞：反抗的な性質" },
+        { "word": "contrast", "trans": "名詞・動詞：対比、対照する" }
+      ]
+    },
+    {
+      "number": 2315,
+      "word": "devote",
+      "pos": "動詞",
+      "meaning": "捧げる、専念する、充てる",
+      "nuance": "'devote A to B' または 'devote oneself to B' の形で「AをBに捧げる／Bに専念する」という意味になります。強い意志や献身を伴うニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文（捧げる・専念する）",
+          "examples": [
+            {
+              "en": "She devoted her life to helping the poor.",
+              "ja": "彼女は貧しい人々を助けることに生涯を捧げた。",
+              "highlight": "devoted"
+            },
+            {
+              "en": "He devotes two hours every day to reading.",
+              "ja": "彼は毎日2時間を読書に充てている。",
+              "highlight": "devotes"
+            },
+            {
+              "en": "They devoted themselves to the project.",
+              "ja": "彼らはそのプロジェクトに専念した。",
+              "highlight": "devoted themselves to"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 devotus（de-「完全に」+ vovere「誓う」）→ 完全に誓いを立てて捧げる",
+      "synonyms": [
+        { "word": "dedicate", "trans": "捧げる、専念させる" },
+        { "word": "commit", "trans": "専念する" },
+        { "word": "consecrate", "trans": "（神聖なものに）捧げる" }
+      ],
+      "antonyms": [
+        { "word": "neglect", "trans": "怠る、無視する" },
+        { "word": "abandon", "trans": "放棄する" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "devoted", "trans": "形容詞：献身的な、熱心な" },
+        { "word": "devotion", "trans": "名詞：献身、愛着" },
+        { "word": "devotee", "trans": "名詞：熱狂的な信者・ファン" }
+      ]
+    },
+    {
+      "number": 2316,
+      "word": "conversation",
+      "pos": "名詞",
+      "meaning": "会話、対話",
+      "nuance": "'have a conversation with 〜'「〜と会話をする」の形が一般的です。speechが一方的な発話を指すのに対し、conversationは双方向のやりとりを含意します。",
+      "example_sections": [
+        {
+          "title": "例文（会話・対話）",
+          "examples": [
+            {
+              "en": "We had a long conversation about the future.",
+              "ja": "私たちは将来について長い会話をした。",
+              "highlight": "conversation"
+            },
+            {
+              "en": "She started a conversation with the stranger on the train.",
+              "ja": "彼女は電車の中で見知らぬ人に話しかけた。",
+              "highlight": "conversation"
+            },
+            {
+              "en": "The topic came up in conversation.",
+              "ja": "その話題が会話の中で出てきた。",
+              "highlight": "conversation"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 conversatio（conversari「共に過ごす、交わる」）→ 人との交わりからの意味",
+      "synonyms": [
+        { "word": "dialogue", "trans": "対話" },
+        { "word": "discussion", "trans": "議論、話し合い" },
+        { "word": "chat", "trans": "雑談" }
+      ],
+      "antonyms": [
+        { "word": "silence", "trans": "沈黙" },
+        { "word": "monologue", "trans": "独り言、独白" }
+      ],
+      "related": [
+        { "word": "converse", "trans": "動詞：会話する" },
+        { "word": "conversational", "trans": "形容詞：会話の、打ち解けた" },
+        { "word": "conversationalist", "trans": "名詞：話し上手な人" }
+      ]
+    },
+    {
+      "number": 2317,
+      "word": "topic",
+      "pos": "名詞",
+      "meaning": "話題、テーマ、主題",
+      "nuance": "会話や文章の中心となる事柄を指します。'topic sentence'（トピックセンテンス）は段落の主題を述べる文のことで、英語の文章構造において重要な概念です。",
+      "example_sections": [
+        {
+          "title": "例文（話題・テーマ）",
+          "examples": [
+            {
+              "en": "The main topic of the lecture was climate change.",
+              "ja": "講義の主なテーマは気候変動だった。",
+              "highlight": "topic"
+            },
+            {
+              "en": "Let's change the topic.",
+              "ja": "話題を変えましょう。",
+              "highlight": "topic"
+            },
+            {
+              "en": "Politics is a sensitive topic for many people.",
+              "ja": "政治は多くの人にとって繊細な話題だ。",
+              "highlight": "topic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 topos（「場所」）→ 議論の「場」となる事柄",
+      "synonyms": [
+        { "word": "subject", "trans": "主題、テーマ" },
+        { "word": "theme", "trans": "テーマ" },
+        { "word": "issue", "trans": "問題、議題" }
+      ],
+      "antonyms": [
+        { "word": "digression", "trans": "脱線、余談" }
+      ],
+      "related": [
+        { "word": "topical", "trans": "形容詞：時事的な、話題の" },
+        { "word": "topic sentence", "trans": "名詞：トピックセンテンス（段落の主文）" },
+        { "word": "off-topic", "trans": "形容詞：話題から外れた" }
+      ]
+    },
+    {
+      "number": 2318,
+      "word": "personal",
+      "pos": "形容詞",
+      "meaning": "個人の、私的な、個人的な",
+      "nuance": "他者ではなく特定の個人に関わることを表します。'personal information'（個人情報）や'personal opinion'（個人的意見）のように広く使われます。プライベートなことへの踏み込みを示す場合もあります。",
+      "example_sections": [
+        {
+          "title": "例文（個人的な・私的な）",
+          "examples": [
+            {
+              "en": "That's a very personal question.",
+              "ja": "それはとても個人的な質問ですね。",
+              "highlight": "personal"
+            },
+            {
+              "en": "She kept her personal and professional lives separate.",
+              "ja": "彼女は私生活と仕事を分けていた。",
+              "highlight": "personal"
+            },
+            {
+              "en": "He took the criticism as a personal attack.",
+              "ja": "彼はその批判を個人攻撃と受け取った。",
+              "highlight": "personal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 personalis（persona「人、仮面」+ -alis「〜の」）→ 個人に関わる",
+      "synonyms": [
+        { "word": "private", "trans": "私的な" },
+        { "word": "individual", "trans": "個々の" },
+        { "word": "intimate", "trans": "親密な、内面的な" }
+      ],
+      "antonyms": [
+        { "word": "public", "trans": "公の" },
+        { "word": "general", "trans": "一般的な" },
+        { "word": "impersonal", "trans": "没個人的な" }
+      ],
+      "related": [
+        { "word": "personally", "trans": "副詞：個人的に、自分としては" },
+        { "word": "personality", "trans": "名詞：個性、性格" },
+        { "word": "personalize", "trans": "動詞：個人に合わせる" }
+      ]
+    },
+    {
+      "number": 2319,
+      "word": "relationship",
+      "pos": "名詞",
+      "meaning": "関係、関連、人間関係、交際",
+      "nuance": "人と人との間の結びつきや、物事の間の関連性を広く表します。恋愛関係を指す場合もありますが、ビジネスや家族など様々な関係に使われます。",
+      "example_sections": [
+        {
+          "title": "例文（人間関係・交際）",
+          "examples": [
+            {
+              "en": "They have been in a relationship for three years.",
+              "ja": "彼らは3年間交際している。",
+              "highlight": "relationship"
+            },
+            {
+              "en": "Building a good relationship with customers is essential.",
+              "ja": "顧客と良い関係を築くことは不可欠だ。",
+              "highlight": "relationship"
+            }
+          ]
+        },
+        {
+          "title": "例文（関連・つながり）",
+          "examples": [
+            {
+              "en": "There is a relationship between diet and health.",
+              "ja": "食事と健康の間には関連がある。",
+              "highlight": "relationship"
+            }
+          ]
+        }
+      ],
+      "etymology": "relate（ラテン語 relatus「結びつける」）+ -ship（「状態・関係」）",
+      "synonyms": [
+        { "word": "connection", "trans": "つながり、関係" },
+        { "word": "bond", "trans": "絆" },
+        { "word": "association", "trans": "関連、つながり" }
+      ],
+      "antonyms": [
+        { "word": "estrangement", "trans": "疎遠" },
+        { "word": "separation", "trans": "分離" }
+      ],
+      "related": [
+        { "word": "relate", "trans": "動詞：関連する、共感する" },
+        { "word": "relative", "trans": "名詞・形容詞：親戚；相対的な" },
+        { "word": "relation", "trans": "名詞：関係、親族" }
+      ]
+    },
+    {
+      "number": 2320,
+      "word": "account",
+      "pos": "名詞・動詞",
+      "meaning": "説明、報告、口座；説明する、占める",
+      "nuance": "'account for 〜'で「〜を説明する」または「〜の割合を占める」という意味になります。銀行口座やSNSアカウントの意味でも日常的に使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：説明・報告）",
+          "examples": [
+            {
+              "en": "She gave a detailed account of what happened.",
+              "ja": "彼女は何が起きたかを詳しく説明した。",
+              "highlight": "account"
+            },
+            {
+              "en": "By all accounts, the event was a great success.",
+              "ja": "誰に聞いても、そのイベントは大成功だったということだ。",
+              "highlight": "accounts"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：account for）",
+          "examples": [
+            {
+              "en": "Tourism accounts for 10% of the country's GDP.",
+              "ja": "観光業は国のGDPの10%を占めている。",
+              "highlight": "accounts for"
+            },
+            {
+              "en": "How do you account for the missing funds?",
+              "ja": "不足した資金をどう説明しますか？",
+              "highlight": "account for"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 acont（a-「〜へ」+ conter「数える」）→ 数を合わせて報告すること",
+      "synonyms": [
+        { "word": "explanation", "trans": "説明（名詞）" },
+        { "word": "report", "trans": "報告" },
+        { "word": "description", "trans": "記述" }
+      ],
+      "antonyms": [
+        { "word": "conceal", "trans": "隠す" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "accountable", "trans": "形容詞：責任がある" },
+        { "word": "accountability", "trans": "名詞：説明責任" },
+        { "word": "accountant", "trans": "名詞：会計士" }
+      ]
+    },
+    {
+      "number": 2321,
+      "word": "leisure",
+      "pos": "名詞",
+      "meaning": "余暇、暇、自由な時間",
+      "nuance": "仕事や義務から解放された自由な時間を指します。'at one's leisure'で「都合のよい時に、ゆっくりと」という表現になります。",
+      "example_sections": [
+        {
+          "title": "例文（余暇・自由な時間）",
+          "examples": [
+            {
+              "en": "She spends her leisure time gardening.",
+              "ja": "彼女は余暇をガーデニングに費やしている。",
+              "highlight": "leisure"
+            },
+            {
+              "en": "Read it at your leisure.",
+              "ja": "お時間のある時にお読みください。",
+              "highlight": "leisure"
+            },
+            {
+              "en": "The leisure industry has grown significantly.",
+              "ja": "レジャー産業は大幅に成長した。",
+              "highlight": "leisure"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 leisir（ラテン語 licere「許される」）→ 許された自由な時間",
+      "synonyms": [
+        { "word": "free time", "trans": "自由な時間" },
+        { "word": "recreation", "trans": "気晴らし、娯楽" },
+        { "word": "relaxation", "trans": "くつろぎ" }
+      ],
+      "antonyms": [
+        { "word": "work", "trans": "仕事" },
+        { "word": "labor", "trans": "労働" },
+        { "word": "duty", "trans": "義務" }
+      ],
+      "related": [
+        { "word": "leisurely", "trans": "形容詞・副詞：ゆったりとした（に）" },
+        { "word": "leisure time", "trans": "名詞：余暇時間" },
+        { "word": "leisure activity", "trans": "名詞：余暇活動" }
+      ]
+    },
+    {
+      "number": 2322,
+      "word": "occupy",
+      "pos": "動詞",
+      "meaning": "占める、占領する、（時間・場所を）使う、（人を）従事させる",
+      "nuance": "物理的な空間を占めることから、時間や注意を使うこと、軍事的な占領まで幅広い意味で使われます。'be occupied with 〜'で「〜に従事している、〜で忙しい」という意味にもなります。",
+      "example_sections": [
+        {
+          "title": "例文（場所・空間を占める）",
+          "examples": [
+            {
+              "en": "The sofa occupies too much space in the room.",
+              "ja": "そのソファは部屋のスペースを取りすぎている。",
+              "highlight": "occupies"
+            },
+            {
+              "en": "Enemy forces occupied the city.",
+              "ja": "敵軍が街を占領した。",
+              "highlight": "occupied"
+            }
+          ]
+        },
+        {
+          "title": "例文（時間・注意を使う）",
+          "examples": [
+            {
+              "en": "She was occupied with preparing for the exam.",
+              "ja": "彼女は試験の準備に忙しかった。",
+              "highlight": "occupied with"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 occupare（ob-「〜に向けて」+ capere「取る」）→ 取りにかかる",
+      "synonyms": [
+        { "word": "inhabit", "trans": "居住する" },
+        { "word": "fill", "trans": "満たす" },
+        { "word": "seize", "trans": "占領する、捉える" }
+      ],
+      "antonyms": [
+        { "word": "vacate", "trans": "退去する、空ける" },
+        { "word": "abandon", "trans": "放棄する" },
+        { "word": "free", "trans": "解放する" }
+      ],
+      "related": [
+        { "word": "occupation", "trans": "名詞：職業、占領" },
+        { "word": "occupant", "trans": "名詞：居住者、占有者" },
+        { "word": "preoccupy", "trans": "動詞：（心を）占領する、没頭させる" }
+      ]
+    },
+    {
+      "number": 2323,
+      "word": "discussion",
+      "pos": "名詞",
+      "meaning": "議論、討論、話し合い",
+      "nuance": "'have a discussion about 〜'「〜について議論する」の形が一般的です。conversationよりもある程度目的やテーマのある話し合いを指すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文（議論・話し合い）",
+          "examples": [
+            {
+              "en": "The issue is still under discussion.",
+              "ja": "その問題はまだ議論中だ。",
+              "highlight": "discussion"
+            },
+            {
+              "en": "We had a heated discussion about the new policy.",
+              "ja": "私たちは新しい方針について激しい議論を交わした。",
+              "highlight": "discussion"
+            },
+            {
+              "en": "The topic came up for discussion at the meeting.",
+              "ja": "その話題は会議で議題に上がった。",
+              "highlight": "discussion"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 discussio（discutere「打ち砕く、分析する」）→ 問題を分解して考えること",
+      "synonyms": [
+        { "word": "debate", "trans": "討論" },
+        { "word": "dialogue", "trans": "対話" },
+        { "word": "conversation", "trans": "会話" }
+      ],
+      "antonyms": [
+        { "word": "silence", "trans": "沈黙" },
+        { "word": "agreement", "trans": "合意（議論なしの）" }
+      ],
+      "related": [
+        { "word": "discuss", "trans": "動詞：議論する" },
+        { "word": "discussant", "trans": "名詞：討論者" },
+        { "word": "undiscussed", "trans": "形容詞：議論されていない" }
+      ]
+    },
+    {
+      "number": 2324,
+      "word": "likely",
+      "pos": "形容詞・副詞",
+      "meaning": "ありそうな、起こりそうな；おそらく",
+      "nuance": "'be likely to do'で「〜しそうだ、〜する可能性が高い」という意味になります。probabilityが高い事柄に使い、'unlikely'（ありそうもない）と対比して覚えると便利です。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞：ありそうな）",
+          "examples": [
+            {
+              "en": "It is likely that she will win the election.",
+              "ja": "彼女が選挙に勝つ可能性が高い。",
+              "highlight": "likely"
+            },
+            {
+              "en": "He is likely to be late.",
+              "ja": "彼は遅刻しそうだ。",
+              "highlight": "likely"
+            }
+          ]
+        },
+        {
+          "title": "例文（副詞：おそらく）",
+          "examples": [
+            {
+              "en": "Very likely, the project will be delayed.",
+              "ja": "おそらく、そのプロジェクトは遅れるだろう。",
+              "highlight": "likely"
+            }
+          ]
+        }
+      ],
+      "etymology": "古ノルド語 líkligr（líkr「似ている」+ -ligr「〜らしい」）→ 現実に似ている＝起こりそう",
+      "synonyms": [
+        { "word": "probable", "trans": "ありそうな" },
+        { "word": "expected", "trans": "予想される" },
+        { "word": "anticipated", "trans": "見込まれる" }
+      ],
+      "antonyms": [
+        { "word": "unlikely", "trans": "ありそうもない" },
+        { "word": "improbable", "trans": "起こりそうもない" }
+      ],
+      "related": [
+        { "word": "likelihood", "trans": "名詞：可能性、見込み" },
+        { "word": "unlikely", "trans": "形容詞：ありそうもない" },
+        { "word": "likeliness", "trans": "名詞：もっともらしさ" }
+      ]
+    },
+    {
+      "number": 2325,
+      "word": "politics",
+      "pos": "名詞",
+      "meaning": "政治、政治学、政治活動",
+      "nuance": "国家や組織の権力・統治に関わる活動全般を指します。複数形に見えますが単数扱いされることが多いです。組織内の駆け引きや権力争いも'office politics'のように表現されます。",
+      "example_sections": [
+        {
+          "title": "例文（政治・政治学）",
+          "examples": [
+            {
+              "en": "She has been interested in politics since she was a student.",
+              "ja": "彼女は学生の頃から政治に関心を持っている。",
+              "highlight": "politics"
+            },
+            {
+              "en": "Politics can be a difficult subject to discuss at dinner.",
+              "ja": "政治は食卓での話題にしにくい場合がある。",
+              "highlight": "Politics"
+            },
+            {
+              "en": "Office politics can make the workplace stressful.",
+              "ja": "職場の権力争いは仕事環境をストレスの多いものにしかねない。",
+              "highlight": "politics"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 politika（polis「都市国家」+ -ika「〜に関すること」）→ 都市国家の運営に関すること",
+      "synonyms": [
+        { "word": "government", "trans": "政治、政府" },
+        { "word": "statecraft", "trans": "政治手腕" },
+        { "word": "affairs", "trans": "（政治的）事柄" }
+      ],
+      "antonyms": [
+        { "word": "apolitics", "trans": "非政治的なこと（一般的な対義語はなし）" }
+      ],
+      "related": [
+        { "word": "political", "trans": "形容詞：政治的な" },
+        { "word": "politician", "trans": "名詞：政治家" },
+        { "word": "policy", "trans": "名詞：政策、方針" }
+      ]
+    },
+    {
+      "number": 2326,
+      "word": "cultural",
+      "pos": "形容詞",
+      "meaning": "文化的な、文化の",
+      "nuance": "ある社会や集団が共有する習慣・芸術・価値観などに関わることを表します。'cultural exchange'（文化交流）や'cultural diversity'（文化的多様性）のように使われます。",
+      "example_sections": [
+        {
+          "title": "例文（文化的な）",
+          "examples": [
+            {
+              "en": "Tokyo is a city with a rich cultural heritage.",
+              "ja": "東京は豊かな文化的遺産を持つ都市だ。",
+              "highlight": "cultural"
+            },
+            {
+              "en": "Cultural differences can sometimes lead to misunderstandings.",
+              "ja": "文化的な違いが時として誤解を招くことがある。",
+              "highlight": "Cultural"
+            },
+            {
+              "en": "The festival promotes cultural exchange between countries.",
+              "ja": "その祭りは国間の文化交流を促進している。",
+              "highlight": "cultural"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 cultura（colere「耕す、育てる」）+ -al → 人が育み培ってきたものに関する",
+      "synonyms": [
+        { "word": "artistic", "trans": "芸術的な" },
+        { "word": "social", "trans": "社会的な" },
+        { "word": "civilizational", "trans": "文明的な" }
+      ],
+      "antonyms": [
+        { "word": "uncultural", "trans": "文化的でない" },
+        { "word": "natural", "trans": "自然の（人工・文化に対して）" }
+      ],
+      "related": [
+        { "word": "culture", "trans": "名詞：文化" },
+        { "word": "culturally", "trans": "副詞：文化的に" },
+        { "word": "multicultural", "trans": "形容詞：多文化の" }
+      ]
+    },
+    {
+      "number": 2327,
+      "word": "impress",
+      "pos": "動詞",
+      "meaning": "感動させる、感銘を与える、印象づける",
+      "nuance": "'be impressed by/with 〜'「〜に感銘を受ける」の形でよく使われます。相手に強い良い印象を与えるニュアンスを持ちます。",
+      "example_sections": [
+        {
+          "title": "例文（感動させる・印象づける）",
+          "examples": [
+            {
+              "en": "Her performance impressed everyone in the audience.",
+              "ja": "彼女の演技は観客全員を感動させた。",
+              "highlight": "impressed"
+            },
+            {
+              "en": "I was impressed by his dedication to the work.",
+              "ja": "私は彼の仕事への献身に感銘を受けた。",
+              "highlight": "impressed"
+            },
+            {
+              "en": "He tried to impress his boss with the report.",
+              "ja": "彼は報告書で上司に印象づけようとした。",
+              "highlight": "impress"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 impressus（in-「中に」+ premere「押す」）→ 心の中に押し付ける＝強い印象を与える",
+      "synonyms": [
+        { "word": "amaze", "trans": "驚かせる" },
+        { "word": "inspire", "trans": "鼓舞する" },
+        { "word": "affect", "trans": "影響を与える" }
+      ],
+      "antonyms": [
+        { "word": "disappoint", "trans": "失望させる" },
+        { "word": "bore", "trans": "退屈させる" }
+      ],
+      "related": [
+        { "word": "impression", "trans": "名詞：印象、感銘" },
+        { "word": "impressive", "trans": "形容詞：印象的な" },
+        { "word": "impressionable", "trans": "形容詞：影響を受けやすい" }
+      ]
+    },
+    {
+      "number": 2328,
+      "word": "proportion",
+      "pos": "名詞",
+      "meaning": "割合、比率、釣り合い、均衡",
+      "nuance": "'in proportion to 〜'「〜に比例して」、'out of proportion'「不釣り合いに、過大に」という表現が重要です。全体に対する部分の比率を表す際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文（割合・比率）",
+          "examples": [
+            {
+              "en": "A large proportion of students passed the exam.",
+              "ja": "学生の大きな割合が試験に合格した。",
+              "highlight": "proportion"
+            },
+            {
+              "en": "Salary increases should be in proportion to performance.",
+              "ja": "給与の上昇は成果に比例すべきだ。",
+              "highlight": "in proportion to"
+            }
+          ]
+        },
+        {
+          "title": "例文（釣り合い・均衡）",
+          "examples": [
+            {
+              "en": "His reaction was completely out of proportion to the situation.",
+              "ja": "彼の反応は状況に対して完全に不釣り合いだった。",
+              "highlight": "out of proportion"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 proportio（pro-「〜に応じて」+ portio「部分、割り当て」）→ 各部分の割り当て",
+      "synonyms": [
+        { "word": "ratio", "trans": "比率" },
+        { "word": "percentage", "trans": "パーセンテージ" },
+        { "word": "balance", "trans": "均衡" }
+      ],
+      "antonyms": [
+        { "word": "disproportion", "trans": "不釣り合い" },
+        { "word": "imbalance", "trans": "アンバランス" }
+      ],
+      "related": [
+        { "word": "proportional", "trans": "形容詞：比例した" },
+        { "word": "proportionate", "trans": "形容詞：釣り合いの取れた" },
+        { "word": "disproportionate", "trans": "形容詞：不釣り合いな" }
+      ]
+    },
+    {
+      "number": 2329,
+      "word": "recent",
+      "pos": "形容詞",
+      "meaning": "最近の、近ごろの",
+      "nuance": "過去のある時点から現在までの近い期間を指します。'recently'（副詞）とともによく使われます。現在完了形と一緒に使われることが多いです。",
+      "example_sections": [
+        {
+          "title": "例文（最近の）",
+          "examples": [
+            {
+              "en": "Have you seen his recent work?",
+              "ja": "彼の最近の作品を見ましたか？",
+              "highlight": "recent"
+            },
+            {
+              "en": "In recent years, technology has advanced rapidly.",
+              "ja": "近年、技術は急速に進歩している。",
+              "highlight": "recent"
+            },
+            {
+              "en": "The recent news surprised everyone.",
+              "ja": "最近のニュースは皆を驚かせた。",
+              "highlight": "recent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 recens（re-「再び、新しく」+ -cens「生じた」）→ 新しく生じた",
+      "synonyms": [
+        { "word": "latest", "trans": "最新の" },
+        { "word": "current", "trans": "現在の" },
+        { "word": "new", "trans": "新しい" }
+      ],
+      "antonyms": [
+        { "word": "old", "trans": "古い" },
+        { "word": "past", "trans": "過去の" },
+        { "word": "ancient", "trans": "古代の" }
+      ],
+      "related": [
+        { "word": "recently", "trans": "副詞：最近、近ごろ" },
+        { "word": "recency", "trans": "名詞：近さ、最近であること" }
+      ]
+    },
+    {
+      "number": 2330,
+      "word": "reveal",
+      "pos": "動詞",
+      "meaning": "明らかにする、暴露する、打ち明ける",
+      "nuance": "隠れていたものや知られていなかったことを表に出すことを指します。意図的に公開する場合も、意図せず露わになる場合も使われます。",
+      "example_sections": [
+        {
+          "title": "例文（明らかにする・暴露する）",
+          "examples": [
+            {
+              "en": "The investigation revealed serious flaws in the system.",
+              "ja": "調査はシステムの深刻な欠陥を明らかにした。",
+              "highlight": "revealed"
+            },
+            {
+              "en": "She revealed the secret to her best friend.",
+              "ja": "彼女は親友に秘密を打ち明けた。",
+              "highlight": "revealed"
+            },
+            {
+              "en": "The documentary reveals the truth behind the incident.",
+              "ja": "そのドキュメンタリーは事件の背後にある真実を明らかにしている。",
+              "highlight": "reveals"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 revelare（re-「再び・反対に」+ velare「覆う」）→ 覆いを取り除く",
+      "synonyms": [
+        { "word": "disclose", "trans": "開示する" },
+        { "word": "expose", "trans": "さらす、暴く" },
+        { "word": "uncover", "trans": "明らかにする" }
+      ],
+      "antonyms": [
+        { "word": "conceal", "trans": "隠す" },
+        { "word": "hide", "trans": "隠す" },
+        { "word": "cover up", "trans": "隠蔽する" }
+      ],
+      "related": [
+        { "word": "revelation", "trans": "名詞：啓示、暴露" },
+        { "word": "revealing", "trans": "形容詞：多くを明らかにする、露出の多い" },
+        { "word": "reveal", "trans": "名詞（近年の用法）：サプライズ発表" }
+      ]
+    },
+    {
+      "number": 2331,
+      "word": "significant",
+      "pos": "形容詞",
+      "meaning": "重要な、意義深い、相当な、著しい",
+      "nuance": "単に「大きい」ではなく、注目に値するほど重要である・意味があるというニュアンスを持ちます。統計では「有意な」という専門的な意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（重要な・著しい）",
+          "examples": [
+            {
+              "en": "There has been a significant improvement in her condition.",
+              "ja": "彼女の状態に著しい改善が見られた。",
+              "highlight": "significant"
+            },
+            {
+              "en": "This discovery is significant for medical research.",
+              "ja": "この発見は医学研究にとって重要だ。",
+              "highlight": "significant"
+            },
+            {
+              "en": "The results were statistically significant.",
+              "ja": "その結果は統計的に有意だった。",
+              "highlight": "significant"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 significans（significare「意味を示す」）→ 意味を持つ・重要な",
+      "synonyms": [
+        { "word": "important", "trans": "重要な" },
+        { "word": "notable", "trans": "注目すべき" },
+        { "word": "considerable", "trans": "かなりの" }
+      ],
+      "antonyms": [
+        { "word": "insignificant", "trans": "取るに足らない" },
+        { "word": "trivial", "trans": "些細な" },
+        { "word": "minor", "trans": "小さな、わずかな" }
+      ],
+      "related": [
+        { "word": "significance", "trans": "名詞：重要性、意義" },
+        { "word": "significantly", "trans": "副詞：著しく、かなり" },
+        { "word": "insignificant", "trans": "形容詞：取るに足らない" }
+      ]
+    },
+    {
+      "number": 2332,
+      "word": "term",
+      "pos": "名詞・動詞",
+      "meaning": "用語、期間、学期、条件；〜と呼ぶ",
+      "nuance": "非常に多義的な単語です。'in terms of 〜'「〜の観点から・〜に関しては」という表現は特に重要です。",
+      "example_sections": [
+        {
+          "title": "例文（用語・呼び名）",
+          "examples": [
+            {
+              "en": "What is the technical term for this condition?",
+              "ja": "この状態の専門用語は何ですか？",
+              "highlight": "term"
+            }
+          ]
+        },
+        {
+          "title": "例文（期間・学期）",
+          "examples": [
+            {
+              "en": "The president serves a four-year term.",
+              "ja": "大統領は4年の任期を務める。",
+              "highlight": "term"
+            },
+            {
+              "en": "The new term starts in April.",
+              "ja": "新学期は4月に始まる。",
+              "highlight": "term"
+            }
+          ]
+        },
+        {
+          "title": "例文（in terms of）",
+          "examples": [
+            {
+              "en": "In terms of cost, this option is the best.",
+              "ja": "費用の面では、この選択肢が最善だ。",
+              "highlight": "In terms of"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 terminus（「境界、限界」）→ 期間の境界・言葉の境界（定義）",
+      "synonyms": [
+        { "word": "word", "trans": "言葉（用語の意味で）" },
+        { "word": "period", "trans": "期間" },
+        { "word": "condition", "trans": "条件" }
+      ],
+      "antonyms": [
+        { "word": "informally", "trans": "（用語の対義は）非公式の言葉" }
+      ],
+      "related": [
+        { "word": "terminal", "trans": "形容詞・名詞：末期の；終点" },
+        { "word": "terminology", "trans": "名詞：専門用語体系" },
+        { "word": "long-term", "trans": "形容詞：長期的な" }
+      ]
+    },
+    {
+      "number": 2333,
+      "word": "content",
+      "pos": "名詞・形容詞",
+      "meaning": "内容、中身、コンテンツ；満足している",
+      "nuance": "名詞では'contents'（目次・中身）、'content'（内容・コンテンツ）と使い分けます。形容詞では'be content with 〜'「〜に満足している」の形で使われ、happyより控えめな満足感を表します。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：内容・コンテンツ）",
+          "examples": [
+            {
+              "en": "The content of the article was very informative.",
+              "ja": "その記事の内容はとても参考になった。",
+              "highlight": "content"
+            },
+            {
+              "en": "She creates content for social media.",
+              "ja": "彼女はSNS向けにコンテンツを作成している。",
+              "highlight": "content"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞：満足している）",
+          "examples": [
+            {
+              "en": "He seems content with his simple life.",
+              "ja": "彼はシンプルな生活に満足しているようだ。",
+              "highlight": "content"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 contentus（continere「含む・保つ」の過去分詞）→ 中に収められたもの・収まって満足した状態",
+      "synonyms": [
+        { "word": "material", "trans": "素材、内容" },
+        { "word": "substance", "trans": "中身、実質" },
+        { "word": "satisfied", "trans": "満足している（形容詞）" }
+      ],
+      "antonyms": [
+        { "word": "discontent", "trans": "不満" },
+        { "word": "dissatisfied", "trans": "不満足な" }
+      ],
+      "related": [
+        { "word": "contents", "trans": "名詞（複数）：目次、中身一覧" },
+        { "word": "contentment", "trans": "名詞：満足感" },
+        { "word": "discontent", "trans": "名詞・形容詞：不満（な）" }
+      ]
+    },
+    {
+      "number": 2334,
+      "word": "particularly",
+      "pos": "副詞",
+      "meaning": "特に、とりわけ、格別に",
+      "nuance": "他のものと比べて際立って〜であることを強調します。'not particularly'「特にそういうわけでもない」と否定文で使うと、控えめな否定を表します。",
+      "example_sections": [
+        {
+          "title": "例文（特に・とりわけ）",
+          "examples": [
+            {
+              "en": "I particularly enjoyed the third chapter.",
+              "ja": "私は特に第三章が気に入った。",
+              "highlight": "particularly"
+            },
+            {
+              "en": "She is particularly good at mathematics.",
+              "ja": "彼女は特に数学が得意だ。",
+              "highlight": "particularly"
+            },
+            {
+              "en": "Are you particularly interested in this topic?",
+              "ja": "このテーマに特に興味がありますか？",
+              "highlight": "particularly"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 particularis（particula「小さな部分」）+ -ly → 特定の部分を取り立てて",
+      "synonyms": [
+        { "word": "especially", "trans": "特に" },
+        { "word": "specifically", "trans": "具体的に、特定して" },
+        { "word": "notably", "trans": "とりわけ" }
+      ],
+      "antonyms": [
+        { "word": "generally", "trans": "一般的に" },
+        { "word": "broadly", "trans": "広く、おおまかに" }
+      ],
+      "related": [
+        { "word": "particular", "trans": "形容詞：特定の、特別な、こだわりのある" },
+        { "word": "particularity", "trans": "名詞：特殊性、こだわり" },
+        { "word": "in particular", "trans": "熟語：特に（＝particularly）" }
+      ]
+    },
+    {
+      "number": 2335,
+      "word": "interview",
+      "pos": "名詞・動詞",
+      "meaning": "面接、インタビュー；面接する、インタビューする",
+      "nuance": "就職の面接から報道のインタビューまで幅広く使われます。'job interview'（就職面接）、'give an interview'（インタビューに応じる）などの表現が一般的です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：面接・インタビュー）",
+          "examples": [
+            {
+              "en": "She has a job interview tomorrow.",
+              "ja": "彼女は明日就職面接がある。",
+              "highlight": "interview"
+            },
+            {
+              "en": "The actor gave an interview to a magazine.",
+              "ja": "その俳優は雑誌のインタビューに応じた。",
+              "highlight": "interview"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：インタビューする）",
+          "examples": [
+            {
+              "en": "The journalist interviewed the prime minister.",
+              "ja": "その記者は首相にインタビューした。",
+              "highlight": "interviewed"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 entrevue（entre「互いに」+ voir「見る」）→ 互いに顔を見て話し合うこと",
+      "synonyms": [
+        { "word": "meeting", "trans": "面会" },
+        { "word": "discussion", "trans": "話し合い" },
+        { "word": "consultation", "trans": "相談、協議" }
+      ],
+      "antonyms": [],
+      "related": [
+        { "word": "interviewee", "trans": "名詞：面接・インタビューを受ける人" },
+        { "word": "interviewer", "trans": "名詞：面接官、インタビュアー" },
+        { "word": "interview panel", "trans": "名詞：面接委員会" }
+      ]
+    },
+    {
+      "number": 2336,
+      "word": "claim",
+      "pos": "動詞・名詞",
+      "meaning": "主張する、要求する、（命を）奪う；主張、要求、請求",
+      "nuance": "根拠が不明確・疑わしいことを「主張する」場合に使われることが多いです。保険の'claim'（保険金請求）や、'claim responsibility'（責任を主張する）など幅広い用法があります。",
+      "example_sections": [
+        {
+          "title": "例文（主張する）",
+          "examples": [
+            {
+              "en": "He claimed that he had never met her before.",
+              "ja": "彼は彼女に以前会ったことはないと主張した。",
+              "highlight": "claimed"
+            },
+            {
+              "en": "She claims to be an expert in the field.",
+              "ja": "彼女はその分野の専門家だと主張している。",
+              "highlight": "claims"
+            }
+          ]
+        },
+        {
+          "title": "例文（要求する・請求する）",
+          "examples": [
+            {
+              "en": "You can claim a refund within 30 days.",
+              "ja": "30日以内に返金を請求できます。",
+              "highlight": "claim"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 clamare（「叫ぶ、声高に主張する」）→ 権利を声高に主張すること",
+      "synonyms": [
+        { "word": "assert", "trans": "断言する" },
+        { "word": "argue", "trans": "主張する" },
+        { "word": "demand", "trans": "要求する" }
+      ],
+      "antonyms": [
+        { "word": "deny", "trans": "否定する" },
+        { "word": "disclaim", "trans": "否認する" }
+      ],
+      "related": [
+        { "word": "claimant", "trans": "名詞：請求者" },
+        { "word": "disclaimer", "trans": "名詞：免責事項" },
+        { "word": "counterclaim", "trans": "名詞：反論、反訴" }
+      ]
+    },
+    {
+      "number": 2337,
+      "word": "admit",
+      "pos": "動詞",
+      "meaning": "認める、白状する、入場を許可する、入会させる",
+      "nuance": "'admit to 〜ing'で「〜したことを認める」という意味になります。否定的な事実や過ちを認める場面でよく使われます。'be admitted to a hospital'「入院する」という医療用法も重要です。",
+      "example_sections": [
+        {
+          "title": "例文（認める・白状する）",
+          "examples": [
+            {
+              "en": "He admitted that he had made a mistake.",
+              "ja": "彼は間違いを犯したことを認めた。",
+              "highlight": "admitted"
+            },
+            {
+              "en": "She admitted to stealing the money.",
+              "ja": "彼女はお金を盗んだことを白状した。",
+              "highlight": "admitted to"
+            }
+          ]
+        },
+        {
+          "title": "例文（入場・入院を許可する）",
+          "examples": [
+            {
+              "en": "He was admitted to the hospital last night.",
+              "ja": "彼は昨夜入院した。",
+              "highlight": "admitted to"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 admittere（ad-「〜へ」+ mittere「送る」）→ 中へ送り込む・認め入れる",
+      "synonyms": [
+        { "word": "acknowledge", "trans": "認める" },
+        { "word": "confess", "trans": "告白する、白状する" },
+        { "word": "concede", "trans": "（渋々）認める" }
+      ],
+      "antonyms": [
+        { "word": "deny", "trans": "否定する" },
+        { "word": "reject", "trans": "拒否する" },
+        { "word": "refuse", "trans": "断る" }
+      ],
+      "related": [
+        { "word": "admission", "trans": "名詞：入場、入学、自白" },
+        { "word": "admittance", "trans": "名詞：入場許可" },
+        { "word": "admittedly", "trans": "副詞：確かに、認めるところでは" }
+      ]
+    },
+    {
+      "number": 2338,
+      "word": "define",
+      "pos": "動詞",
+      "meaning": "定義する、明確にする、輪郭を明らかにする",
+      "nuance": "言葉の意味を明確にするだけでなく、概念・役割・境界を明確にする際にも使われます。'well-defined'（明確に定義された）のように形容詞的に使われることも多いです。",
+      "example_sections": [
+        {
+          "title": "例文（定義する・明確にする）",
+          "examples": [
+            {
+              "en": "Can you define the word 'sustainability'?",
+              "ja": "「サステナビリティ」という言葉を定義できますか？",
+              "highlight": "define"
+            },
+            {
+              "en": "It is difficult to define exactly what happiness means.",
+              "ja": "幸福が何を意味するかを正確に定義するのは難しい。",
+              "highlight": "define"
+            },
+            {
+              "en": "The contract clearly defines each party's responsibilities.",
+              "ja": "契約書は各当事者の責任を明確に定めている。",
+              "highlight": "defines"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 definire（de-「完全に」+ finire「終わらせる・限る」）→ 境界を引いて明確にする",
+      "synonyms": [
+        { "word": "explain", "trans": "説明する" },
+        { "word": "describe", "trans": "描写する" },
+        { "word": "specify", "trans": "明記する" }
+      ],
+      "antonyms": [
+        { "word": "confuse", "trans": "混乱させる" },
+        { "word": "obscure", "trans": "あいまいにする" }
+      ],
+      "related": [
+        { "word": "definition", "trans": "名詞：定義" },
+        { "word": "definite", "trans": "形容詞：明確な、確実な" },
+        { "word": "indefinite", "trans": "形容詞：不明確な" }
+      ]
+    },
+    {
+      "number": 2339,
+      "word": "exchange",
+      "pos": "名詞・動詞",
+      "meaning": "交換、やりとり、為替；交換する、やりとりする",
+      "nuance": "'exchange A for B'「AをBと交換する」、'exchange ideas'「意見を交換する」など幅広く使われます。'foreign exchange'（外国為替）、'stock exchange'（証券取引所）という専門用語でも頻出です。",
+      "example_sections": [
+        {
+          "title": "例文（交換する）",
+          "examples": [
+            {
+              "en": "They exchanged phone numbers after the meeting.",
+              "ja": "会議のあと、彼らは電話番号を交換した。",
+              "highlight": "exchanged"
+            },
+            {
+              "en": "Can I exchange this shirt for a larger size?",
+              "ja": "このシャツをより大きなサイズと交換できますか？",
+              "highlight": "exchange"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：交換・やりとり）",
+          "examples": [
+            {
+              "en": "The cultural exchange program was a great success.",
+              "ja": "文化交流プログラムは大成功だった。",
+              "highlight": "exchange"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 eschangier（ex-「外に」+ changer「変える」）→ 外に出して変える＝交換する",
+      "synonyms": [
+        { "word": "swap", "trans": "交換する" },
+        { "word": "trade", "trans": "取引する" },
+        { "word": "barter", "trans": "物々交換する" }
+      ],
+      "antonyms": [
+        { "word": "keep", "trans": "保持する" },
+        { "word": "retain", "trans": "保有する" }
+      ],
+      "related": [
+        { "word": "exchangeable", "trans": "形容詞：交換可能な" },
+        { "word": "foreign exchange", "trans": "名詞：外国為替" },
+        { "word": "stock exchange", "trans": "名詞：証券取引所" }
+      ]
+    },
+    {
+      "number": 2340,
+      "word": "clearly",
+      "pos": "副詞",
+      "meaning": "明確に、はっきりと、明らかに",
+      "nuance": "文頭に置いて文全体を修飾すると「明らかに〜だ」と強調の意味になります。話し言葉でも書き言葉でも頻繁に使われ、主張や説明を強める役割を持ちます。",
+      "example_sections": [
+        {
+          "title": "例文（明確に・明らかに）",
+          "examples": [
+            {
+              "en": "Please speak clearly so everyone can hear you.",
+              "ja": "全員に聞こえるよう、はっきり話してください。",
+              "highlight": "clearly"
+            },
+            {
+              "en": "Clearly, more research is needed on this topic.",
+              "ja": "明らかに、このテーマについてはさらなる研究が必要だ。",
+              "highlight": "Clearly"
+            },
+            {
+              "en": "She clearly understands the problem.",
+              "ja": "彼女は明らかにその問題を理解している。",
+              "highlight": "clearly"
+            }
+          ]
+        }
+      ],
+      "etymology": "clear（ラテン語 clarus「明るい、明確な」）+ -ly",
+      "synonyms": [
+        { "word": "obviously", "trans": "明らかに" },
+        { "word": "evidently", "trans": "明らかに、どう見ても" },
+        { "word": "plainly", "trans": "はっきりと、明白に" }
+      ],
+      "antonyms": [
+        { "word": "unclearly", "trans": "不明確に" },
+        { "word": "vaguely", "trans": "あいまいに" }
+      ],
+      "related": [
+        { "word": "clear", "trans": "形容詞・動詞：明確な；取り除く" },
+        { "word": "clarity", "trans": "名詞：明確さ" },
+        { "word": "unclear", "trans": "形容詞：不明確な" }
+      ]
+    },
+    {
+      "number": 2341,
+      "word": "sense",
+      "pos": "名詞・動詞",
+      "meaning": "感覚、意味、判断力；感じ取る",
+      "nuance": "'make sense'「意味をなす、理にかなう」は特に重要な表現です。'sense of humor'（ユーモアのセンス）、'common sense'（常識）など複合表現も多用されます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：感覚・意味）",
+          "examples": [
+            {
+              "en": "I have a strong sense of direction.",
+              "ja": "私は方向感覚が優れている。",
+              "highlight": "sense"
+            },
+            {
+              "en": "This sentence doesn't make sense.",
+              "ja": "この文章は意味をなしていない。",
+              "highlight": "sense"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：感じ取る）",
+          "examples": [
+            {
+              "en": "She sensed that something was wrong.",
+              "ja": "彼女は何かがおかしいと感じ取った。",
+              "highlight": "sensed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sensus（sentire「感じる」）→ 感じ取る能力",
+      "synonyms": [
+        { "word": "feeling", "trans": "感覚" },
+        { "word": "perception", "trans": "知覚" },
+        { "word": "meaning", "trans": "意味（名詞として）" }
+      ],
+      "antonyms": [
+        { "word": "nonsense", "trans": "無意味なこと" }
+      ],
+      "related": [
+        { "word": "sensible", "trans": "形容詞：分別のある" },
+        { "word": "sensitive", "trans": "形容詞：敏感な" },
+        { "word": "common sense", "trans": "名詞：常識" }
+      ]
+    },
+    {
+      "number": 2342,
+      "word": "effect",
+      "pos": "名詞・動詞",
+      "meaning": "影響、効果、結果；もたらす",
+      "nuance": "'have an effect on 〜'「〜に影響を与える」が基本表現です。動詞のaffect（影響を与える）と混同しやすいので注意が必要です。'in effect'（事実上、有効に）という熟語も重要です。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：影響・効果）",
+          "examples": [
+            {
+              "en": "The medicine had little effect on his condition.",
+              "ja": "その薬は彼の状態にほとんど効果がなかった。",
+              "highlight": "effect"
+            },
+            {
+              "en": "Stress can have a negative effect on your health.",
+              "ja": "ストレスは健康に悪影響を与えることがある。",
+              "highlight": "effect"
+            },
+            {
+              "en": "The new law will take effect next month.",
+              "ja": "新しい法律は来月から施行される。",
+              "highlight": "effect"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 effectus（ex-「外に」+ facere「作る」）→ 外に作り出された結果",
+      "synonyms": [
+        { "word": "impact", "trans": "影響" },
+        { "word": "result", "trans": "結果" },
+        { "word": "consequence", "trans": "結果、影響" }
+      ],
+      "antonyms": [
+        { "word": "cause", "trans": "原因" }
+      ],
+      "related": [
+        { "word": "effective", "trans": "形容詞：効果的な" },
+        { "word": "affect", "trans": "動詞：影響を与える（effectと混同注意）" },
+        { "word": "side effect", "trans": "名詞：副作用" }
+      ]
+    },
+    {
+      "number": 2343,
+      "word": "actually",
+      "pos": "副詞",
+      "meaning": "実際には、実は、本当に",
+      "nuance": "予想や前提と異なる事実を導く際に使います。日本語の「実は…」に近いニュアンスで、文脈を切り替えたり、相手の誤解を優しく訂正したりする場面で便利です。",
+      "example_sections": [
+        {
+          "title": "例文（実際には・実は）",
+          "examples": [
+            {
+              "en": "I thought he was angry, but actually he was just tired.",
+              "ja": "彼が怒っていると思ったが、実際には疲れていただけだった。",
+              "highlight": "actually"
+            },
+            {
+              "en": "Actually, I've already finished the report.",
+              "ja": "実は、もうレポートは終わっています。",
+              "highlight": "Actually"
+            },
+            {
+              "en": "Did you actually see it happen?",
+              "ja": "実際にそれが起きるのを見ましたか？",
+              "highlight": "actually"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 actualis（actus「行為」+ -alis）+ -ly → 実際の行為として起きていること",
+      "synonyms": [
+        { "word": "in fact", "trans": "実際には" },
+        { "word": "in reality", "trans": "現実には" },
+        { "word": "really", "trans": "本当に" }
+      ],
+      "antonyms": [
+        { "word": "supposedly", "trans": "おそらく、〜とされている" },
+        { "word": "theoretically", "trans": "理論上は" }
+      ],
+      "related": [
+        { "word": "actual", "trans": "形容詞：実際の、現実の" },
+        { "word": "actuality", "trans": "名詞：現実、実際の状況" },
+        { "word": "actualize", "trans": "動詞：実現する" }
+      ]
+    }
+    {
+      "number": 2344,
+      "word": "screen",
+      "pos": "名詞・動詞",
+      "meaning": "画面、スクリーン、仕切り；上映する、選別する、遮る",
+      "nuance": "テレビや映画のスクリーンから、医療検査での「スクリーニング（選別・検査）」まで幅広く使われます。'screen out'で「ふるいにかけて排除する」という意味にもなります。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：画面・スクリーン）",
+          "examples": [
+            {
+              "en": "She stared at the screen for hours.",
+              "ja": "彼女は何時間も画面を見つめていた。",
+              "highlight": "screen"
+            },
+            {
+              "en": "The film was shown on the big screen.",
+              "ja": "その映画は大きなスクリーンで上映された。",
+              "highlight": "screen"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：上映する・選別する）",
+          "examples": [
+            {
+              "en": "Applicants are screened before being hired.",
+              "ja": "応募者は採用前に選別される。",
+              "highlight": "screened"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 escren（「仕切り」）→ 遮るもの→映像を映すもの・選別するもの",
+      "synonyms": [
+        { "word": "display", "trans": "画面、ディスプレイ" },
+        { "word": "filter", "trans": "選別する、フィルターにかける" },
+        { "word": "show", "trans": "上映する" }
+      ],
+      "antonyms": [
+        { "word": "expose", "trans": "さらす、公開する" },
+        { "word": "reveal", "trans": "明らかにする" }
+      ],
+      "related": [
+        { "word": "screening", "trans": "名詞：上映、検診、選別" },
+        { "word": "screensaver", "trans": "名詞：スクリーンセーバー" },
+        { "word": "touchscreen", "trans": "名詞：タッチスクリーン" }
+      ]
+    },
+    {
+      "number": 2345,
+      "word": "literature",
+      "pos": "名詞",
+      "meaning": "文学、文献、文芸作品",
+      "nuance": "小説・詩・戯曲などの芸術的な文章を指す「文学」という意味のほか、ある分野の学術論文・資料全般を指す「文献」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（文学・文芸）",
+          "examples": [
+            {
+              "en": "She majored in English literature at university.",
+              "ja": "彼女は大学で英文学を専攻した。",
+              "highlight": "literature"
+            },
+            {
+              "en": "Shakespeare is a giant of world literature.",
+              "ja": "シェイクスピアは世界文学の巨人だ。",
+              "highlight": "literature"
+            }
+          ]
+        },
+        {
+          "title": "例文（文献・資料）",
+          "examples": [
+            {
+              "en": "There is a large body of literature on this topic.",
+              "ja": "このテーマに関する文献は膨大にある。",
+              "highlight": "literature"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 litteratura（littera「文字」+ -ura「〜の産物」）→ 文字で書かれたもの",
+      "synonyms": [
+        { "word": "writing", "trans": "著作、文章" },
+        { "word": "fiction", "trans": "小説、フィクション" },
+        { "word": "text", "trans": "文書、テキスト" }
+      ],
+      "antonyms": [
+        { "word": "illiteracy", "trans": "文盲（対概念として）" }
+      ],
+      "related": [
+        { "word": "literary", "trans": "形容詞：文学的な" },
+        { "word": "literate", "trans": "形容詞：読み書きができる、教養のある" },
+        { "word": "literal", "trans": "形容詞：文字通りの" }
+      ]
+    },
+    {
+      "number": 2346,
+      "word": "transform",
+      "pos": "動詞",
+      "meaning": "変える、変換する、変容させる",
+      "nuance": "外見・性質・機能などを大きく・根本的に変えることを指します。changeより変化の度合いが大きく劇的なニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文（変える・変容させる）",
+          "examples": [
+            {
+              "en": "Technology has transformed the way we communicate.",
+              "ja": "テクノロジーは私たちのコミュニケーションの仕方を一変させた。",
+              "highlight": "transformed"
+            },
+            {
+              "en": "The old factory was transformed into a museum.",
+              "ja": "その古い工場は博物館に生まれ変わった。",
+              "highlight": "transformed"
+            },
+            {
+              "en": "Exercise can transform your body and mind.",
+              "ja": "運動は体と心を変容させることができる。",
+              "highlight": "transform"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 transformare（trans-「越えて」+ formare「形作る」）→ 形を超えて変える",
+      "synonyms": [
+        { "word": "change", "trans": "変える" },
+        { "word": "convert", "trans": "転換する" },
+        { "word": "alter", "trans": "変更する" }
+      ],
+      "antonyms": [
+        { "word": "preserve", "trans": "保つ" },
+        { "word": "maintain", "trans": "維持する" }
+      ],
+      "related": [
+        { "word": "transformation", "trans": "名詞：変容、変換" },
+        { "word": "transformer", "trans": "名詞：変圧器；変容させるもの" },
+        { "word": "transformative", "trans": "形容詞：変革をもたらす" }
+      ]
+    },
+    {
+      "number": 2347,
+      "word": "admire",
+      "pos": "動詞",
+      "meaning": "称賛する、感心する、尊敬する",
+      "nuance": "外見・能力・行為などに対して強い肯定的な感情を抱くことを表します。'admire someone for 〜'「〜の点で誰かを称賛する」の形がよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（称賛する・尊敬する）",
+          "examples": [
+            {
+              "en": "I admire her courage in speaking up.",
+              "ja": "私は彼女が声を上げる勇気を称賛している。",
+              "highlight": "admire"
+            },
+            {
+              "en": "He admired the painting for a long time.",
+              "ja": "彼は長い間その絵画に見入った。",
+              "highlight": "admired"
+            },
+            {
+              "en": "She is widely admired for her dedication.",
+              "ja": "彼女はその献身ぶりで広く尊敬されている。",
+              "highlight": "admired"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 admirari（ad-「〜に向けて」+ mirari「驚く」）→ 驚きをもって見る",
+      "synonyms": [
+        { "word": "respect", "trans": "尊敬する" },
+        { "word": "appreciate", "trans": "評価する、称える" },
+        { "word": "praise", "trans": "称賛する" }
+      ],
+      "antonyms": [
+        { "word": "despise", "trans": "軽蔑する" },
+        { "word": "criticize", "trans": "批判する" }
+      ],
+      "related": [
+        { "word": "admiration", "trans": "名詞：称賛、感嘆" },
+        { "word": "admirable", "trans": "形容詞：称賛に値する" },
+        { "word": "admirer", "trans": "名詞：崇拝者、ファン" }
+      ]
+    },
+    {
+      "number": 2348,
+      "word": "imagine",
+      "pos": "動詞",
+      "meaning": "想像する、思い描く、推測する",
+      "nuance": "現実にはないものや経験していないことを心の中で思い描くことを指します。'I imagine (that) 〜'で「〜だと思う・推測する」という控えめな推測の表現にもなります。",
+      "example_sections": [
+        {
+          "title": "例文（想像する・思い描く）",
+          "examples": [
+            {
+              "en": "Can you imagine living without electricity?",
+              "ja": "電気なしで生活することを想像できますか？",
+              "highlight": "imagine"
+            },
+            {
+              "en": "She imagined what her future would look like.",
+              "ja": "彼女は自分の未来がどのようなものか思い描いた。",
+              "highlight": "imagined"
+            }
+          ]
+        },
+        {
+          "title": "例文（推測する）",
+          "examples": [
+            {
+              "en": "I imagine he must be very tired after the trip.",
+              "ja": "旅行のあとで彼はとても疲れているに違いないと思う。",
+              "highlight": "imagine"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 imaginari（imago「像、イメージ」）→ 心の中に像を作る",
+      "synonyms": [
+        { "word": "picture", "trans": "思い描く" },
+        { "word": "envision", "trans": "心に思い描く" },
+        { "word": "suppose", "trans": "推測する" }
+      ],
+      "antonyms": [
+        { "word": "realize", "trans": "現実のものにする" },
+        { "word": "face reality", "trans": "現実に向き合う" }
+      ],
+      "related": [
+        { "word": "imagination", "trans": "名詞：想像力" },
+        { "word": "imaginative", "trans": "形容詞：想像力豊かな" },
+        { "word": "imaginary", "trans": "形容詞：想像上の、架空の" }
+      ]
+    },
+    {
+      "number": 2349,
+      "word": "version",
+      "pos": "名詞",
+      "meaning": "版、バージョン、〜版、見解",
+      "nuance": "ソフトウェアの「バージョン」から、映画や本の「〜版」、ある出来事についての「〜の話・見解」まで幅広く使われます。",
+      "example_sections": [
+        {
+          "title": "例文（版・バージョン）",
+          "examples": [
+            {
+              "en": "The latest version of the software was released yesterday.",
+              "ja": "そのソフトウェアの最新バージョンが昨日リリースされた。",
+              "highlight": "version"
+            },
+            {
+              "en": "Have you seen the film version of the novel?",
+              "ja": "その小説の映画版を見ましたか？",
+              "highlight": "version"
+            }
+          ]
+        },
+        {
+          "title": "例文（見解・話）",
+          "examples": [
+            {
+              "en": "Each witness gave a different version of events.",
+              "ja": "各目撃者は出来事について異なる話をした。",
+              "highlight": "version"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 versio（vertere「回す、向ける、変える」）→ 向きを変えたもの＝別の形",
+      "synonyms": [
+        { "word": "edition", "trans": "版、エディション" },
+        { "word": "variant", "trans": "変形、異形" },
+        { "word": "account", "trans": "報告、見解" }
+      ],
+      "antonyms": [
+        { "word": "original", "trans": "原本、オリジナル" }
+      ],
+      "related": [
+        { "word": "versatile", "trans": "形容詞：多才な、多目的な" },
+        { "word": "versus", "trans": "前置詞：〜対〜" },
+        { "word": "diversion", "trans": "名詞：気晴らし、迂回" }
+      ]
+    },
+    {
+      "number": 2350,
+      "word": "significantly",
+      "pos": "副詞",
+      "meaning": "著しく、かなり、重要なことに",
+      "nuance": "量や程度が注目に値するほど大きいことを強調します。統計や研究の文脈では「有意に」という専門的な意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（著しく・かなり）",
+          "examples": [
+            {
+              "en": "Sales have increased significantly this year.",
+              "ja": "今年、売上は著しく増加した。",
+              "highlight": "significantly"
+            },
+            {
+              "en": "The new treatment significantly reduced pain.",
+              "ja": "新しい治療法は痛みを大幅に軽減した。",
+              "highlight": "significantly"
+            },
+            {
+              "en": "Significantly, no one objected to the proposal.",
+              "ja": "重要なことに、誰もその提案に反対しなかった。",
+              "highlight": "Significantly"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 significans（significare「意味を示す」）+ -ly → 意味を持つほどに",
+      "synonyms": [
+        { "word": "considerably", "trans": "かなり" },
+        { "word": "substantially", "trans": "実質的に、大幅に" },
+        { "word": "notably", "trans": "著しく" }
+      ],
+      "antonyms": [
+        { "word": "slightly", "trans": "わずかに" },
+        { "word": "insignificantly", "trans": "取るに足らない程度に" }
+      ],
+      "related": [
+        { "word": "significant", "trans": "形容詞：重要な、著しい" },
+        { "word": "significance", "trans": "名詞：重要性、意義" },
+        { "word": "insignificant", "trans": "形容詞：取るに足らない" }
+      ]
+    },
+    {
+      "number": 2351,
+      "word": "original",
+      "pos": "形容詞・名詞",
+      "meaning": "元の、最初の、独創的な；原本、オリジナル",
+      "nuance": "「最初の・元の」という意味と、「他に類を見ない独創的な」という意味の両方があります。名詞では複製に対する「原本・オリジナル」を指します。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞：元の・最初の）",
+          "examples": [
+            {
+              "en": "The original plan was to finish by Friday.",
+              "ja": "当初の計画は金曜日までに終わらせることだった。",
+              "highlight": "original"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞：独創的な）",
+          "examples": [
+            {
+              "en": "Her designs are highly original.",
+              "ja": "彼女のデザインは非常に独創的だ。",
+              "highlight": "original"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：原本・オリジナル）",
+          "examples": [
+            {
+              "en": "I prefer to read the novel in the original.",
+              "ja": "私は小説を原文で読む方が好きだ。",
+              "highlight": "original"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 originalis（origo「起源」+ -alis）→ 起源に関する・最初の",
+      "synonyms": [
+        { "word": "initial", "trans": "最初の" },
+        { "word": "creative", "trans": "創造的な" },
+        { "word": "authentic", "trans": "本物の" }
+      ],
+      "antonyms": [
+        { "word": "copy", "trans": "コピー、模倣" },
+        { "word": "imitation", "trans": "模倣品" },
+        { "word": "derivative", "trans": "二番煎じの" }
+      ],
+      "related": [
+        { "word": "origin", "trans": "名詞：起源" },
+        { "word": "originality", "trans": "名詞：独創性" },
+        { "word": "originally", "trans": "副詞：元々、当初は" }
+      ]
+    },
+    {
+      "number": 2352,
+      "word": "audience",
+      "pos": "名詞",
+      "meaning": "観客、聴衆、視聴者、対象読者",
+      "nuance": "劇場・コンサートの「観客」から、テレビの「視聴者」、本や記事の「読者層」まで幅広く使われます。集合名詞として単数・複数両方で扱われます。",
+      "example_sections": [
+        {
+          "title": "例文（観客・聴衆）",
+          "examples": [
+            {
+              "en": "The audience applauded at the end of the performance.",
+              "ja": "演技が終わると観客は拍手した。",
+              "highlight": "audience"
+            },
+            {
+              "en": "The speech moved the entire audience.",
+              "ja": "そのスピーチは聴衆全員を感動させた。",
+              "highlight": "audience"
+            }
+          ]
+        },
+        {
+          "title": "例文（対象読者・ターゲット層）",
+          "examples": [
+            {
+              "en": "This book is aimed at a young adult audience.",
+              "ja": "この本はヤングアダルト層を対象にしている。",
+              "highlight": "audience"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 audientia（audire「聞く」+ -entia）→ 聞く人々",
+      "synonyms": [
+        { "word": "spectators", "trans": "観客（複数）" },
+        { "word": "viewers", "trans": "視聴者" },
+        { "word": "readership", "trans": "読者層" }
+      ],
+      "antonyms": [
+        { "word": "performer", "trans": "演者" },
+        { "word": "speaker", "trans": "話し手" }
+      ],
+      "related": [
+        { "word": "audio", "trans": "形容詞・名詞：音声の；音声" },
+        { "word": "auditorium", "trans": "名詞：講堂、観客席" },
+        { "word": "audible", "trans": "形容詞：聞こえる" }
+      ]
+    },
+    {
+      "number": 2353,
+      "word": "expectation",
+      "pos": "名詞",
+      "meaning": "期待、予想、見込み",
+      "nuance": "'meet expectations'（期待に応える）、'exceed expectations'（期待を上回る）、'fall short of expectations'（期待に届かない）という表現が重要です。",
+      "example_sections": [
+        {
+          "title": "例文（期待・予想）",
+          "examples": [
+            {
+              "en": "The film exceeded my expectations.",
+              "ja": "その映画は私の期待を上回った。",
+              "highlight": "expectations"
+            },
+            {
+              "en": "There is a general expectation that prices will rise.",
+              "ja": "物価が上昇するという一般的な予想がある。",
+              "highlight": "expectation"
+            },
+            {
+              "en": "She failed to meet her parents' expectations.",
+              "ja": "彼女は両親の期待に応えられなかった。",
+              "highlight": "expectations"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 expectatio（exspectare「待ち望む」）→ 待ち望んでいること",
+      "synonyms": [
+        { "word": "anticipation", "trans": "期待、予期" },
+        { "word": "hope", "trans": "希望" },
+        { "word": "prospect", "trans": "見込み" }
+      ],
+      "antonyms": [
+        { "word": "disappointment", "trans": "失望" },
+        { "word": "surprise", "trans": "驚き（予想外）" }
+      ],
+      "related": [
+        { "word": "expect", "trans": "動詞：期待する、予想する" },
+        { "word": "expected", "trans": "形容詞：予想された" },
+        { "word": "unexpected", "trans": "形容詞：予想外の" }
+      ]
+    },
+    {
+      "number": 2354,
+      "word": "interpretation",
+      "pos": "名詞",
+      "meaning": "解釈、説明、通訳",
+      "nuance": "テキストや出来事の意味を理解・説明する「解釈」と、言語を口頭で訳す「通訳」の両方の意味があります。同じ事柄でも人によって解釈が異なることを示す際に使われます。",
+      "example_sections": [
+        {
+          "title": "例文（解釈）",
+          "examples": [
+            {
+              "en": "There are many different interpretations of this poem.",
+              "ja": "この詩にはさまざまな解釈がある。",
+              "highlight": "interpretations"
+            },
+            {
+              "en": "His interpretation of the law was questioned.",
+              "ja": "彼の法律の解釈は疑問視された。",
+              "highlight": "interpretation"
+            }
+          ]
+        },
+        {
+          "title": "例文（通訳）",
+          "examples": [
+            {
+              "en": "The interpreter provided simultaneous interpretation.",
+              "ja": "通訳者は同時通訳を行った。",
+              "highlight": "interpretation"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 interpretatio（interpres「仲介者・通訳」）→ 意味を仲介すること",
+      "synonyms": [
+        { "word": "explanation", "trans": "説明" },
+        { "word": "reading", "trans": "解釈、読み方" },
+        { "word": "translation", "trans": "翻訳、通訳" }
+      ],
+      "antonyms": [
+        { "word": "misinterpretation", "trans": "誤った解釈" }
+      ],
+      "related": [
+        { "word": "interpret", "trans": "動詞：解釈する、通訳する" },
+        { "word": "interpreter", "trans": "名詞：通訳者" },
+        { "word": "misinterpret", "trans": "動詞：誤解する" }
+      ]
+    },
+    {
+      "number": 2355,
+      "word": "competition",
+      "pos": "名詞",
+      "meaning": "競争、競技、コンテスト",
+      "nuance": "ビジネスの「競合」から、スポーツや芸術の「競技・コンテスト」まで幅広く使われます。'in competition with 〜'「〜と競い合って」、'face competition'「競争に直面する」などの表現が重要です。",
+      "example_sections": [
+        {
+          "title": "例文（競争）",
+          "examples": [
+            {
+              "en": "There is fierce competition among companies in this industry.",
+              "ja": "この業界では企業間の競争が激しい。",
+              "highlight": "competition"
+            }
+          ]
+        },
+        {
+          "title": "例文（競技・コンテスト）",
+          "examples": [
+            {
+              "en": "She won first place in the singing competition.",
+              "ja": "彼女は歌のコンテストで1位を獲得した。",
+              "highlight": "competition"
+            },
+            {
+              "en": "He entered the photography competition.",
+              "ja": "彼は写真コンテストに応募した。",
+              "highlight": "competition"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 competitio（competere「共に求める・競い合う」）→ 同じものを共に求めること",
+      "synonyms": [
+        { "word": "contest", "trans": "競技、コンテスト" },
+        { "word": "rivalry", "trans": "ライバル関係" },
+        { "word": "tournament", "trans": "トーナメント" }
+      ],
+      "antonyms": [
+        { "word": "cooperation", "trans": "協力" },
+        { "word": "collaboration", "trans": "共同作業" }
+      ],
+      "related": [
+        { "word": "compete", "trans": "動詞：競争する" },
+        { "word": "competitive", "trans": "形容詞：競争的な、競争力のある" },
+        { "word": "competitor", "trans": "名詞：競合相手、参加者" }
+      ]
+    },
+    {
+      "number": 2356,
+      "word": "moreover",
+      "pos": "副詞",
+      "meaning": "さらに、その上、加えて",
+      "nuance": "前に述べた内容に追加情報を加える際に使います。'furthermore'や'in addition'と同様の接続副詞ですが、'moreover'はやや改まった書き言葉的なニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文（さらに・その上）",
+          "examples": [
+            {
+              "en": "The hotel is affordable. Moreover, it is located in the city center.",
+              "ja": "そのホテルは手頃な価格だ。その上、都心に位置している。",
+              "highlight": "Moreover"
+            },
+            {
+              "en": "She is talented. Moreover, she works incredibly hard.",
+              "ja": "彼女は才能がある。さらに、信じられないほど努力家だ。",
+              "highlight": "Moreover"
+            }
+          ]
+        }
+      ],
+      "etymology": "more（「それ以上の」）+ over（「〜を超えて」）→ さらにそれを超えて",
+      "synonyms": [
+        { "word": "furthermore", "trans": "さらに" },
+        { "word": "in addition", "trans": "加えて" },
+        { "word": "besides", "trans": "その上" }
+      ],
+      "antonyms": [
+        { "word": "however", "trans": "しかしながら" },
+        { "word": "nevertheless", "trans": "それにもかかわらず" }
+      ],
+      "related": [
+        { "word": "furthermore", "trans": "副詞：さらに（同義語）" },
+        { "word": "additionally", "trans": "副詞：加えて" },
+        { "word": "also", "trans": "副詞：また、さらに" }
+      ]
+    },
+    {
+      "number": 2357,
+      "word": "attempt",
+      "pos": "名詞・動詞",
+      "meaning": "試み、企て；試みる、試図する",
+      "nuance": "'attempt to do'「〜しようと試みる」の形が基本です。必ずしも成功するとは限らず、挑戦すること自体を強調します。'in an attempt to 〜'「〜しようとして」という表現もよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：試みる）",
+          "examples": [
+            {
+              "en": "She attempted to climb the mountain alone.",
+              "ja": "彼女は一人で山に登ろうと試みた。",
+              "highlight": "attempted"
+            },
+            {
+              "en": "He attempted the exam for the third time.",
+              "ja": "彼は3度目の試験に挑んだ。",
+              "highlight": "attempted"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：試み）",
+          "examples": [
+            {
+              "en": "Their first attempt to launch the rocket failed.",
+              "ja": "ロケット打ち上げの最初の試みは失敗した。",
+              "highlight": "attempt"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 attemptare（ad-「〜へ」+ temptare「試す」）→ 何かに向けて試みる",
+      "synonyms": [
+        { "word": "try", "trans": "試みる" },
+        { "word": "endeavor", "trans": "努力する" },
+        { "word": "effort", "trans": "努力、試み（名詞）" }
+      ],
+      "antonyms": [
+        { "word": "give up", "trans": "諦める" },
+        { "word": "abandon", "trans": "放棄する" }
+      ],
+      "related": [
+        { "word": "attempted", "trans": "形容詞：未遂の（例：attempted murder）" },
+        { "word": "unattempted", "trans": "形容詞：試みられていない" }
+      ]
+    },
+    {
+      "number": 2358,
+      "word": "stuff",
+      "pos": "名詞・動詞",
+      "meaning": "もの、こと、素材；詰め込む",
+      "nuance": "口語的な表現で、特定できない・する必要のない「もの・こと」全般を指します。'and stuff'「とかそういうもの」という表現もよく使われます。動詞では「ぎゅうぎゅうに詰め込む」という意味になります。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：もの・こと）",
+          "examples": [
+            {
+              "en": "I have so much stuff to do this weekend.",
+              "ja": "今週末はやることがたくさんある。",
+              "highlight": "stuff"
+            },
+            {
+              "en": "What's all this stuff on the table?",
+              "ja": "テーブルの上のこれは全部何？",
+              "highlight": "stuff"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：詰め込む）",
+          "examples": [
+            {
+              "en": "He stuffed his clothes into the bag.",
+              "ja": "彼は服をバッグに詰め込んだ。",
+              "highlight": "stuffed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 estoffe（「材料・布地」）→ 素材→何でも「もの・こと」",
+      "synonyms": [
+        { "word": "things", "trans": "もの" },
+        { "word": "material", "trans": "材料" },
+        { "word": "pack", "trans": "詰め込む（動詞）" }
+      ],
+      "antonyms": [
+        { "word": "empty", "trans": "空にする（動詞として）" }
+      ],
+      "related": [
+        { "word": "stuffing", "trans": "名詞：詰め物、スタッフィング" },
+        { "word": "stuffy", "trans": "形容詞：風通しの悪い、堅苦しい" },
+        { "word": "overstuffed", "trans": "形容詞：詰め込みすぎた" }
+      ]
+    },
+    {
+      "number": 2359,
+      "word": "detail",
+      "pos": "名詞・動詞",
+      "meaning": "詳細、細部；詳しく述べる",
+      "nuance": "'in detail'「詳しく」、'go into detail'「詳細に説明する」という表現が重要です。'pay attention to detail'（細部に気を配る）は仕事の文脈でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：詳細・細部）",
+          "examples": [
+            {
+              "en": "Please explain the plan in detail.",
+              "ja": "その計画を詳しく説明してください。",
+              "highlight": "detail"
+            },
+            {
+              "en": "She noticed every small detail in the painting.",
+              "ja": "彼女はその絵画のすべての細部に気づいた。",
+              "highlight": "detail"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：詳しく述べる）",
+          "examples": [
+            {
+              "en": "The report details the causes of the accident.",
+              "ja": "報告書は事故の原因を詳しく述べている。",
+              "highlight": "details"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 détail（de-「分けて」+ tailler「切る」）→ 細かく切り分けたもの",
+      "synonyms": [
+        { "word": "particular", "trans": "細かい点" },
+        { "word": "specifics", "trans": "具体的内容" },
+        { "word": "element", "trans": "要素" }
+      ],
+      "antonyms": [
+        { "word": "overview", "trans": "概要" },
+        { "word": "summary", "trans": "要約" }
+      ],
+      "related": [
+        { "word": "detailed", "trans": "形容詞：詳細な" },
+        { "word": "in detail", "trans": "熟語：詳しく" },
+        { "word": "detailing", "trans": "名詞：詳細な説明" }
+      ]
+    },
+    {
+      "number": 2360,
+      "word": "complicated",
+      "pos": "形容詞",
+      "meaning": "複雑な、込み入った、難しい",
+      "nuance": "多くの要素が絡み合い、理解や解決が難しい状態を表します。'complex'と似ていますが、'complicated'は混乱しやすい・扱いにくいというネガティブなニュアンスが強い傾向があります。",
+      "example_sections": [
+        {
+          "title": "例文（複雑な・難しい）",
+          "examples": [
+            {
+              "en": "The tax system is very complicated.",
+              "ja": "税制は非常に複雑だ。",
+              "highlight": "complicated"
+            },
+            {
+              "en": "Their relationship is complicated.",
+              "ja": "彼らの関係は複雑だ。",
+              "highlight": "complicated"
+            },
+            {
+              "en": "This is a complicated problem with no easy solution.",
+              "ja": "これは簡単な解決策のない複雑な問題だ。",
+              "highlight": "complicated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 complicatus（com-「共に」+ plicare「折り畳む」）→ 折り重なって複雑になった",
+      "synonyms": [
+        { "word": "complex", "trans": "複雑な" },
+        { "word": "intricate", "trans": "入り組んだ" },
+        { "word": "difficult", "trans": "難しい" }
+      ],
+      "antonyms": [
+        { "word": "simple", "trans": "単純な" },
+        { "word": "straightforward", "trans": "わかりやすい" }
+      ],
+      "related": [
+        { "word": "complicate", "trans": "動詞：複雑にする" },
+        { "word": "complication", "trans": "名詞：複雑さ、合併症" },
+        { "word": "uncomplicated", "trans": "形容詞：単純な" }
+      ]
+    },
+    {
+      "number": 2361,
+      "word": "plot",
+      "pos": "名詞・動詞",
+      "meaning": "筋書き、プロット、陰謀、土地；計画する、陰謀を企てる",
+      "nuance": "小説・映画の「あらすじ・筋書き」と、秘密の「陰謀・計画」の両方の意味があります。また「土地の区画」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（筋書き・プロット）",
+          "examples": [
+            {
+              "en": "The plot of the novel was very unpredictable.",
+              "ja": "その小説の筋書きは非常に予測しにくかった。",
+              "highlight": "plot"
+            }
+          ]
+        },
+        {
+          "title": "例文（陰謀・計画）",
+          "examples": [
+            {
+              "en": "The police uncovered a plot to bomb the building.",
+              "ja": "警察は建物を爆破する陰謀を発見した。",
+              "highlight": "plot"
+            },
+            {
+              "en": "They plotted to overthrow the government.",
+              "ja": "彼らは政府を転覆させる陰謀を企てた。",
+              "highlight": "plotted"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語（「土地の区画」）→ 地図に区画を描く→筋書きを描く・陰謀を企てる",
+      "synonyms": [
+        { "word": "storyline", "trans": "ストーリー（筋書き）" },
+        { "word": "scheme", "trans": "計画、陰謀" },
+        { "word": "conspiracy", "trans": "陰謀" }
+      ],
+      "antonyms": [
+        { "word": "improvise", "trans": "即興でやる（計画の対義）" }
+      ],
+      "related": [
+        { "word": "subplot", "trans": "名詞：サブプロット、副筋" },
+        { "word": "plotter", "trans": "名詞：陰謀者" },
+        { "word": "plotline", "trans": "名詞：物語の筋" }
+      ]
+    },
+    {
+      "number": 2362,
+      "word": "comprehend",
+      "pos": "動詞",
+      "meaning": "理解する、把握する",
+      "nuance": "単に「わかる」(understand)より深く・完全に理解するニュアンスがあります。難しい概念や衝撃的な出来事を頭で完全に把握することを指す場合が多いです。",
+      "example_sections": [
+        {
+          "title": "例文（理解する・把握する）",
+          "examples": [
+            {
+              "en": "It is difficult to comprehend the scale of the disaster.",
+              "ja": "その災害の規模を把握するのは難しい。",
+              "highlight": "comprehend"
+            },
+            {
+              "en": "She failed to comprehend the importance of the warning.",
+              "ja": "彼女はその警告の重要性を理解できなかった。",
+              "highlight": "comprehend"
+            },
+            {
+              "en": "I couldn't comprehend why he made that decision.",
+              "ja": "なぜ彼がその決断をしたのか理解できなかった。",
+              "highlight": "comprehend"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 comprehendere（com-「完全に」+ prehendere「つかむ」）→ 完全につかむ＝理解する",
+      "synonyms": [
+        { "word": "understand", "trans": "理解する" },
+        { "word": "grasp", "trans": "把握する" },
+        { "word": "perceive", "trans": "認識する" }
+      ],
+      "antonyms": [
+        { "word": "misunderstand", "trans": "誤解する" },
+        { "word": "fail to grasp", "trans": "把握できない" }
+      ],
+      "related": [
+        { "word": "comprehension", "trans": "名詞：理解（力）" },
+        { "word": "comprehensive", "trans": "形容詞：包括的な" },
+        { "word": "incomprehensible", "trans": "形容詞：理解できない" }
+      ]
+    },
+    {
+      "number": 2363,
+      "word": "narrative",
+      "pos": "名詞・形容詞",
+      "meaning": "物語、叙述、語り；物語の、叙述の",
+      "nuance": "単なる「話」より、一貫した視点や意図をもって語られる「物語・語り」を指します。メディアや政治の文脈では「（特定の視点による）語り口・言説」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（物語・語り）",
+          "examples": [
+            {
+              "en": "The film has a powerful narrative about survival.",
+              "ja": "その映画は生存についての力強い物語を持っている。",
+              "highlight": "narrative"
+            },
+            {
+              "en": "The author uses a first-person narrative.",
+              "ja": "著者は一人称の語りを使っている。",
+              "highlight": "narrative"
+            }
+          ]
+        },
+        {
+          "title": "例文（言説・語り口）",
+          "examples": [
+            {
+              "en": "The government tried to control the narrative.",
+              "ja": "政府は（メディアの）語り口をコントロールしようとした。",
+              "highlight": "narrative"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 narrativus（narrare「語る」）→ 語られたもの",
+      "synonyms": [
+        { "word": "story", "trans": "物語" },
+        { "word": "account", "trans": "報告、話" },
+        { "word": "tale", "trans": "話、物語" }
+      ],
+      "antonyms": [
+        { "word": "silence", "trans": "沈黙（語らないこと）" }
+      ],
+      "related": [
+        { "word": "narrate", "trans": "動詞：語る、ナレーションする" },
+        { "word": "narrator", "trans": "名詞：語り手、ナレーター" },
+        { "word": "narration", "trans": "名詞：語り、ナレーション" }
+      ]
+    },
+    {
+      "number": 2364,
+      "word": "element",
+      "pos": "名詞",
+      "meaning": "要素、成分、元素",
+      "nuance": "全体を構成するひとつひとつの「要素・成分」を指します。化学では「元素」の意味になります。'element of surprise'（驚きの要素）のように抽象的な意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（要素・成分）",
+          "examples": [
+            {
+              "en": "Trust is an essential element of any relationship.",
+              "ja": "信頼はあらゆる関係に不可欠な要素だ。",
+              "highlight": "element"
+            },
+            {
+              "en": "The film has all the elements of a great thriller.",
+              "ja": "その映画には優れたスリラーの要素がすべて揃っている。",
+              "highlight": "elements"
+            }
+          ]
+        },
+        {
+          "title": "例文（化学：元素）",
+          "examples": [
+            {
+              "en": "Gold is a chemical element.",
+              "ja": "金は化学元素だ。",
+              "highlight": "element"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 elementum（「基本的な構成要素」）→ もともとは「文字・アルファベット」",
+      "synonyms": [
+        { "word": "component", "trans": "構成要素" },
+        { "word": "factor", "trans": "要因" },
+        { "word": "ingredient", "trans": "成分、材料" }
+      ],
+      "antonyms": [
+        { "word": "whole", "trans": "全体" }
+      ],
+      "related": [
+        { "word": "elementary", "trans": "形容詞：基本的な、初歩的な" },
+        { "word": "elemental", "trans": "形容詞：根本的な、自然の力の" },
+        { "word": "periodic table of elements", "trans": "名詞：元素周期表" }
+      ]
+    },
+    {
+      "number": 2365,
+      "word": "accuse",
+      "pos": "動詞",
+      "meaning": "告発する、非難する、責める",
+      "nuance": "'accuse someone of 〜'「〜の件で誰かを告発・非難する」という形が基本です。実際に罪を犯したかどうかに関わらず、疑いをかけて非難することを指します。",
+      "example_sections": [
+        {
+          "title": "例文（告発する・非難する）",
+          "examples": [
+            {
+              "en": "He was accused of stealing from the company.",
+              "ja": "彼は会社から盗んだとして告発された。",
+              "highlight": "accused"
+            },
+            {
+              "en": "She accused him of lying to her.",
+              "ja": "彼女は彼が嘘をついたと非難した。",
+              "highlight": "accused"
+            },
+            {
+              "en": "Don't accuse me of something I didn't do.",
+              "ja": "やっていないことで私を責めないでください。",
+              "highlight": "accuse"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 accusare（ad-「〜へ」+ causa「原因・理由」）→ 原因を誰かに向ける",
+      "synonyms": [
+        { "word": "charge", "trans": "起訴する、責任を問う" },
+        { "word": "blame", "trans": "非難する" },
+        { "word": "allege", "trans": "（証拠なく）主張する" }
+      ],
+      "antonyms": [
+        { "word": "defend", "trans": "弁護する" },
+        { "word": "acquit", "trans": "無罪にする" }
+      ],
+      "related": [
+        { "word": "accusation", "trans": "名詞：告発、非難" },
+        { "word": "accused", "trans": "名詞：被告人" },
+        { "word": "accuser", "trans": "名詞：告発者" }
+      ]
+    },
+    {
+      "number": 2366,
+      "word": "faithful",
+      "pos": "形容詞",
+      "meaning": "忠実な、誠実な、正確な",
+      "nuance": "人・原則・原作などへの「忠実さ・誠実さ」を表します。'faithful to the original'「原作に忠実な」や、恋愛における「貞節な」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（忠実な・誠実な）",
+          "examples": [
+            {
+              "en": "He has been a faithful supporter of the team for years.",
+              "ja": "彼は長年そのチームの忠実なサポーターだ。",
+              "highlight": "faithful"
+            },
+            {
+              "en": "She remained faithful to her principles.",
+              "ja": "彼女は自分の信念に忠実であり続けた。",
+              "highlight": "faithful"
+            }
+          ]
+        },
+        {
+          "title": "例文（原作に忠実な）",
+          "examples": [
+            {
+              "en": "The film adaptation is faithful to the original novel.",
+              "ja": "その映画化作品は原作小説に忠実だ。",
+              "highlight": "faithful"
+            }
+          ]
+        }
+      ],
+      "etymology": "faith（ラテン語 fides「信頼・誠実」）+ -ful → 信頼に満ちた",
+      "synonyms": [
+        { "word": "loyal", "trans": "忠実な" },
+        { "word": "devoted", "trans": "献身的な" },
+        { "word": "true", "trans": "誠実な、忠実な" }
+      ],
+      "antonyms": [
+        { "word": "unfaithful", "trans": "不誠実な、不貞な" },
+        { "word": "disloyal", "trans": "不忠実な" },
+        { "word": "treacherous", "trans": "裏切りの" }
+      ],
+      "related": [
+        { "word": "faith", "trans": "名詞：信頼、信仰" },
+        { "word": "faithfully", "trans": "副詞：忠実に" },
+        { "word": "faithfulness", "trans": "名詞：忠実さ" }
+      ]
+    },
+    {
+      "number": 2367,
+      "word": "principle",
+      "pos": "名詞",
+      "meaning": "原則、原理、主義、信条",
+      "nuance": "'in principle'「原則として、理論上は」、'on principle'「主義として」という表現が重要です。'principal'（主要な、校長）と混同しやすいので注意が必要です。",
+      "example_sections": [
+        {
+          "title": "例文（原則・主義）",
+          "examples": [
+            {
+              "en": "She refused to lie on principle.",
+              "ja": "彼女は主義として嘘をつくことを拒否した。",
+              "highlight": "principle"
+            },
+            {
+              "en": "The country was founded on democratic principles.",
+              "ja": "その国は民主主義の原則のもとに建国された。",
+              "highlight": "principles"
+            }
+          ]
+        },
+        {
+          "title": "例文（原理）",
+          "examples": [
+            {
+              "en": "The principle of gravity affects all objects on Earth.",
+              "ja": "重力の原理は地球上のすべての物体に影響する。",
+              "highlight": "principle"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 principium（princeps「最初の・主要な」）→ 最初の・根本の事柄",
+      "synonyms": [
+        { "word": "rule", "trans": "規則" },
+        { "word": "belief", "trans": "信念" },
+        { "word": "standard", "trans": "基準" }
+      ],
+      "antonyms": [
+        { "word": "exception", "trans": "例外" },
+        { "word": "deviation", "trans": "逸脱" }
+      ],
+      "related": [
+        { "word": "principled", "trans": "形容詞：原則のある、信念に基づく" },
+        { "word": "unprincipled", "trans": "形容詞：節操のない" },
+        { "word": "principal", "trans": "形容詞・名詞：主要な；校長（混同注意）" }
+      ]
+    },
+    {
+      "number": 2368,
+      "word": "recognize",
+      "pos": "動詞",
+      "meaning": "認識する、見分ける、認める、表彰する",
+      "nuance": "以前の経験から「〜だとわかる・見分ける」という意味が基本ですが、「公式に認める・承認する」や、功績を「認める・表彰する」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（認識する・見分ける）",
+          "examples": [
+            {
+              "en": "I recognized him immediately, even after many years.",
+              "ja": "何年も経っていても、私はすぐに彼だとわかった。",
+              "highlight": "recognized"
+            }
+          ]
+        },
+        {
+          "title": "例文（認める・表彰する）",
+          "examples": [
+            {
+              "en": "Her achievements were finally recognized.",
+              "ja": "彼女の功績はついに認められた。",
+              "highlight": "recognized"
+            },
+            {
+              "en": "The government recognized the new state.",
+              "ja": "政府はその新国家を承認した。",
+              "highlight": "recognized"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 recognoscere（re-「再び」+ cognoscere「知る」）→ 再び知る＝認識する",
+      "synonyms": [
+        { "word": "identify", "trans": "特定する" },
+        { "word": "acknowledge", "trans": "認める" },
+        { "word": "distinguish", "trans": "見分ける" }
+      ],
+      "antonyms": [
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "overlook", "trans": "見落とす" }
+      ],
+      "related": [
+        { "word": "recognition", "trans": "名詞：認識、承認、表彰" },
+        { "word": "recognizable", "trans": "形容詞：見分けられる、認識できる" },
+        { "word": "unrecognized", "trans": "形容詞：認められていない" }
+      ]
+    },
+    {
+      "number": 2369,
+      "word": "appeal",
+      "pos": "名詞・動詞",
+      "meaning": "魅力、訴え、上訴；訴える、魅力がある、上訴する",
+      "nuance": "'appeal to 〜'「〜に訴える・〜の心を引きつける」という形が基本です。感情や理性への「訴え」と、物や人が持つ「魅力」の両方の意味があります。法律用語では「上訴」です。",
+      "example_sections": [
+        {
+          "title": "例文（魅力がある）",
+          "examples": [
+            {
+              "en": "The idea of working from home appeals to many people.",
+              "ja": "在宅勤務というアイデアは多くの人に魅力的に映る。",
+              "highlight": "appeals"
+            }
+          ]
+        },
+        {
+          "title": "例文（訴える）",
+          "examples": [
+            {
+              "en": "The charity appealed to the public for donations.",
+              "ja": "その慈善団体は寄付を求めて一般市民に訴えた。",
+              "highlight": "appealed"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：魅力・訴え）",
+          "examples": [
+            {
+              "en": "The film has a wide appeal.",
+              "ja": "その映画は幅広い魅力を持っている。",
+              "highlight": "appeal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 appellare（ad-「〜へ」+ pellere「駆り立てる」）→ 誰かに向けて声をかける",
+      "synonyms": [
+        { "word": "attract", "trans": "引きつける" },
+        { "word": "plea", "trans": "嘆願（名詞）" },
+        { "word": "charm", "trans": "魅了する" }
+      ],
+      "antonyms": [
+        { "word": "repel", "trans": "反発させる" },
+        { "word": "disgust", "trans": "嫌悪させる" }
+      ],
+      "related": [
+        { "word": "appealing", "trans": "形容詞：魅力的な" },
+        { "word": "unappealing", "trans": "形容詞：魅力のない" },
+        { "word": "appellant", "trans": "名詞：上訴人（法律）" }
+      ]
+    },
+    {
+      "number": 2370,
+      "word": "target",
+      "pos": "名詞・動詞",
+      "meaning": "目標、標的、対象；目標にする、狙いを定める",
+      "nuance": "'meet a target'「目標を達成する」、'set a target'「目標を設定する」という表現が重要です。マーケティングでは「ターゲット層」を指すことも多いです。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：目標・標的）",
+          "examples": [
+            {
+              "en": "The company set an ambitious sales target.",
+              "ja": "その会社は野心的な販売目標を設定した。",
+              "highlight": "target"
+            },
+            {
+              "en": "The advertisement targets young consumers.",
+              "ja": "その広告は若い消費者をターゲットにしている。",
+              "highlight": "targets"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：狙いを定める）",
+          "examples": [
+            {
+              "en": "The campaign was targeted at teenagers.",
+              "ja": "そのキャンペーンはティーンエイジャーを対象にしていた。",
+              "highlight": "targeted"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 targe（「小さな盾」）→ 射撃練習の的→目標・標的",
+      "synonyms": [
+        { "word": "goal", "trans": "目標" },
+        { "word": "aim", "trans": "狙い、目的" },
+        { "word": "objective", "trans": "目標、目的" }
+      ],
+      "antonyms": [
+        { "word": "miss", "trans": "外れる、的を外す" }
+      ],
+      "related": [
+        { "word": "targeted", "trans": "形容詞：ターゲットを絞った" },
+        { "word": "on target", "trans": "熟語：目標通りに" },
+        { "word": "off target", "trans": "熟語：目標から外れて" }
+      ]
+    },
+    {
+      "number": 2371,
+      "word": "exception",
+      "pos": "名詞",
+      "meaning": "例外、除外",
+      "nuance": "'with the exception of 〜'「〜を除いて」、'no exception'「例外なし」、'make an exception'「例外を設ける」という表現が重要です。ルールや一般的な傾向から外れるものを指します。",
+      "example_sections": [
+        {
+          "title": "例文（例外）",
+          "examples": [
+            {
+              "en": "Everyone attended the meeting, with the exception of Tom.",
+              "ja": "トムを除いて全員が会議に出席した。",
+              "highlight": "exception"
+            },
+            {
+              "en": "The rule applies to everyone; there are no exceptions.",
+              "ja": "そのルールは全員に適用される。例外はない。",
+              "highlight": "exceptions"
+            },
+            {
+              "en": "She made an exception and allowed him to enter.",
+              "ja": "彼女は例外を設けて彼の入場を許可した。",
+              "highlight": "exception"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 exceptio（excipere「取り出す」）→ 全体から取り出されたもの",
+      "synonyms": [
+        { "word": "exclusion", "trans": "除外" },
+        { "word": "anomaly", "trans": "異常、例外的なもの" },
+        { "word": "special case", "trans": "特例" }
+      ],
+      "antonyms": [
+        { "word": "rule", "trans": "規則、通則" },
+        { "word": "norm", "trans": "標準、規範" }
+      ],
+      "related": [
+        { "word": "exceptional", "trans": "形容詞：例外的な、並外れた" },
+        { "word": "except", "trans": "前置詞・接続詞：〜を除いて" },
+        { "word": "exceptionally", "trans": "副詞：例外的に、並外れて" }
+      ]
+    },
+    {
+      "number": 2372,
+      "word": "release",
+      "pos": "動詞・名詞",
+      "meaning": "解放する、公開する、リリースする；解放、公開、新作",
+      "nuance": "人や動物を「解放する」から、映画・音楽・製品を「公開・リリースする」まで幅広く使われます。感情や緊張を「解放する・発散する」という意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（解放する）",
+          "examples": [
+            {
+              "en": "The hostages were released after two days.",
+              "ja": "人質たちは2日後に解放された。",
+              "highlight": "released"
+            }
+          ]
+        },
+        {
+          "title": "例文（公開・リリースする）",
+          "examples": [
+            {
+              "en": "The band will release their new album next month.",
+              "ja": "そのバンドは来月新アルバムをリリースする。",
+              "highlight": "release"
+            },
+            {
+              "en": "The film was released worldwide last week.",
+              "ja": "その映画は先週世界公開された。",
+              "highlight": "released"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 relesser（ラテン語 relaxare「緩める」）→ 縛りを緩めて解放する",
+      "synonyms": [
+        { "word": "free", "trans": "解放する" },
+        { "word": "publish", "trans": "公開する" },
+        { "word": "launch", "trans": "発売・公開する" }
+      ],
+      "antonyms": [
+        { "word": "detain", "trans": "拘留する" },
+        { "word": "withhold", "trans": "差し控える、公開しない" }
+      ],
+      "related": [
+        { "word": "press release", "trans": "名詞：プレスリリース" },
+        { "word": "new release", "trans": "名詞：新作" },
+        { "word": "release date", "trans": "名詞：公開日、発売日" }
+      ]
+    },
+    {
+      "number": 2373,
+      "word": "present",
+      "pos": "動詞・形容詞・名詞",
+      "meaning": "提示する、発表する、贈る；現在の、出席している；贈り物、現在",
+      "nuance": "動詞では「提示・発表・贈呈する」、形容詞では「今の・その場にいる」、名詞では「プレゼント・現在」と多義的です。発音も動詞は[prizént]、形容詞・名詞は[préznt]と異なります。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：発表する・提示する）",
+          "examples": [
+            {
+              "en": "She presented her findings at the conference.",
+              "ja": "彼女は会議で研究結果を発表した。",
+              "highlight": "presented"
+            }
+          ]
+        },
+        {
+          "title": "例文（形容詞：現在の・出席している）",
+          "examples": [
+            {
+              "en": "All members were present at the meeting.",
+              "ja": "会議には全員が出席していた。",
+              "highlight": "present"
+            }
+          ]
+        },
+        {
+          "title": "例文（名詞：贈り物・現在）",
+          "examples": [
+            {
+              "en": "She received a beautiful present on her birthday.",
+              "ja": "彼女は誕生日に素敵なプレゼントをもらった。",
+              "highlight": "present"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 praesens（prae-「前に」+ esse「いる」）→ 目の前にいる→提示する",
+      "synonyms": [
+        { "word": "introduce", "trans": "紹介する、提示する" },
+        { "word": "gift", "trans": "贈り物" },
+        { "word": "current", "trans": "現在の" }
+      ],
+      "antonyms": [
+        { "word": "absent", "trans": "不在の" },
+        { "word": "past", "trans": "過去の" },
+        { "word": "future", "trans": "未来の" }
+      ],
+      "related": [
+        { "word": "presentation", "trans": "名詞：発表、プレゼンテーション" },
+        { "word": "presence", "trans": "名詞：存在、出席" },
+        { "word": "currently", "trans": "副詞：現在" }
+      ]
+    },
+    {
+      "number": 2374,
+      "word": "character",
+      "pos": "名詞",
+      "meaning": "性格、人柄、文字、登場人物",
+      "nuance": "人の「性格・人柄」、小説・映画の「登場人物」、文書上の「文字・記号」など幅広い意味を持ちます。'in character'「その人らしく」、'out of character'「その人らしくなく」という表現も重要です。",
+      "example_sections": [
+        {
+          "title": "例文（性格・人柄）",
+          "examples": [
+            {
+              "en": "She has a very kind and generous character.",
+              "ja": "彼女は非常に親切で寛大な性格だ。",
+              "highlight": "character"
+            }
+          ]
+        },
+        {
+          "title": "例文（登場人物）",
+          "examples": [
+            {
+              "en": "My favorite character in the novel is the detective.",
+              "ja": "小説の中で私のお気に入りの登場人物は探偵だ。",
+              "highlight": "character"
+            }
+          ]
+        },
+        {
+          "title": "例文（文字）",
+          "examples": [
+            {
+              "en": "The password must include special characters.",
+              "ja": "パスワードには特殊文字を含める必要がある。",
+              "highlight": "characters"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 kharaktēr（「刻み込まれた印・記号」）→ 刻み込まれた特徴",
+      "synonyms": [
+        { "word": "personality", "trans": "個性、性格" },
+        { "word": "figure", "trans": "人物" },
+        { "word": "nature", "trans": "性質" }
+      ],
+      "antonyms": [],
+      "related": [
+        { "word": "characteristic", "trans": "名詞・形容詞：特徴；特有の" },
+        { "word": "characterize", "trans": "動詞：〜を特徴づける" },
+        { "word": "character development", "trans": "名詞：登場人物の成長、キャラクター開発" }
+      ]
+    },
+    {
+      "number": 2375,
+      "word": "regard",
+      "pos": "動詞・名詞",
+      "meaning": "みなす、考える、尊重する；注目、敬意、よろしくという言葉",
+      "nuance": "'regard A as B'「AをBとみなす」という形が重要です。'with regard to 〜'「〜に関して」、'regards'（手紙などの結びの挨拶「よろしく」）という表現も頻出です。",
+      "example_sections": [
+        {
+          "title": "例文（動詞：みなす・考える）",
+          "examples": [
+            {
+              "en": "She is widely regarded as one of the best scientists.",
+              "ja": "彼女は最高の科学者の一人として広く認められている。",
+              "highlight": "regarded"
+            },
+            {
+              "en": "He regards hard work as the key to success.",
+              "ja": "彼は努力を成功の鍵とみなしている。",
+              "highlight": "regards"
+            }
+          ]
+        },
+        {
+          "title": "例文（熟語・名詞）",
+          "examples": [
+            {
+              "en": "With regard to your question, I will respond shortly.",
+              "ja": "ご質問に関して、すぐにお返事します。",
+              "highlight": "regard"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 regarder（re-「再び」+ garder「見張る」）→ 注意して見る",
+      "synonyms": [
+        { "word": "consider", "trans": "みなす、考慮する" },
+        { "word": "view", "trans": "見なす" },
+        { "word": "respect", "trans": "尊敬する" }
+      ],
+      "antonyms": [
+        { "word": "disregard", "trans": "無視する" },
+        { "word": "overlook", "trans": "見落とす" }
+      ],
+      "related": [
+        { "word": "regardless", "trans": "副詞：〜にかかわらず" },
+        { "word": "regarding", "trans": "前置詞：〜に関して" },
+        { "word": "disregard", "trans": "動詞・名詞：無視する；無視" }
+      ]
+    },
+    {
+      "number": 2376,
+      "word": "nowadays",
+      "pos": "副詞",
+      "meaning": "最近では、現代では、今日では",
+      "nuance": "過去と現在を比較する文脈でよく使われます。「昔はそうだったが、今は違う」というニュアンスを含むことが多く、文頭・文中どちらにも置けます。",
+      "example_sections": [
+        {
+          "title": "例文（最近では・現代では）",
+          "examples": [
+            {
+              "en": "Nowadays, almost everyone has a smartphone.",
+              "ja": "最近では、ほぼ全員がスマートフォンを持っている。",
+              "highlight": "Nowadays"
+            },
+            {
+              "en": "People are much more aware of environmental issues nowadays.",
+              "ja": "現代では、人々は環境問題についてはるかに意識が高い。",
+              "highlight": "nowadays"
+            },
+            {
+              "en": "Nowadays it is easy to learn a language online.",
+              "ja": "今日では、オンラインで言語を学ぶのは容易だ。",
+              "highlight": "Nowadays"
+            }
+          ]
+        }
+      ],
+      "etymology": "now（「今」）+ a（「〜の間に」）+ days（「日々」）→ 今日この頃",
+      "synonyms": [
+        { "word": "these days", "trans": "最近" },
+        { "word": "currently", "trans": "現在" },
+        { "word": "today", "trans": "今日では" }
+      ],
+      "antonyms": [
+        { "word": "formerly", "trans": "以前は" },
+        { "word": "in the past", "trans": "かつては" }
+      ],
+      "related": [
+        { "word": "today", "trans": "副詞：今日（では）" },
+        { "word": "these days", "trans": "副詞：最近（同義語）" },
+        { "word": "contemporary", "trans": "形容詞：現代の" }
+      ]
+    },
+    {
+      "number": 2377,
+      "word": "profit",
+      "pos": "名詞・動詞",
+      "meaning": "利益、利潤；利益を得る、得をする",
+      "nuance": "'make a profit'「利益を上げる」、'profit from 〜'「〜から利益を得る・〜を利用する」という表現が重要です。ビジネスの金銭的利益だけでなく、経験や知識から得られる広義の「益」にも使われます。",
+      "example_sections": [
+        {
+          "title": "例文（名詞：利益）",
+          "examples": [
+            {
+              "en": "The company made a large profit last year.",
+              "ja": "その会社は昨年大きな利益を上げた。",
+              "highlight": "profit"
+            }
+          ]
+        },
+        {
+          "title": "例文（動詞：利益を得る）",
+          "examples": [
+            {
+              "en": "He profited greatly from the investment.",
+              "ja": "彼はその投資から大きな利益を得た。",
+              "highlight": "profited"
+            },
+            {
+              "en": "Everyone can profit from reading widely.",
+              "ja": "誰でも幅広く読書することから得るものがある。",
+              "highlight": "profit"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 profectus（proficere「前進する・役立つ」）→ 前に進んで得たもの",
+      "synonyms": [
+        { "word": "gain", "trans": "利益、得ること" },
+        { "word": "earnings", "trans": "収益" },
+        { "word": "benefit", "trans": "恩恵、利益" }
+      ],
+      "antonyms": [
+        { "word": "loss", "trans": "損失" },
+        { "word": "deficit", "trans": "赤字" }
+      ],
+      "related": [
+        { "word": "profitable", "trans": "形容詞：利益になる、有益な" },
+        { "word": "profitability", "trans": "名詞：収益性" },
+        { "word": "nonprofit", "trans": "形容詞・名詞：非営利の；非営利団体" }
+      ]
+    },
+    {
+      "number": 2378,
+      "word": "leading",
+      "pos": "形容詞・動詞",
+      "meaning": "主要な、トップの、先頭の；導く（leadの現在分詞）",
+      "nuance": "形容詞として「業界や分野のトップ・最先端の」というニュアンスで使われることが多いです。'leading role'（主役）、'leading company'（業界トップ企業）などの表現が一般的です。",
+      "example_sections": [
+        {
+          "title": "例文（形容詞：主要な・トップの）",
+          "examples": [
+            {
+              "en": "She is one of the leading experts in the field.",
+              "ja": "彼女はその分野の主要な専門家の一人だ。",
+              "highlight": "leading"
+            },
+            {
+              "en": "He played the leading role in the film.",
+              "ja": "彼はその映画の主役を演じた。",
+              "highlight": "leading"
+            }
+          ]
+        },
+        {
+          "title": "例文（現在分詞：導く）",
+          "examples": [
+            {
+              "en": "The road leading to the castle is very narrow.",
+              "ja": "城へ続く道はとても狭い。",
+              "highlight": "leading"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 lǣdan（「導く」）の現在分詞形 → 先頭を行く",
+      "synonyms": [
+        { "word": "top", "trans": "トップの" },
+        { "word": "foremost", "trans": "最も重要な" },
+        { "word": "primary", "trans": "主要な" }
+      ],
+      "antonyms": [
+        { "word": "minor", "trans": "小さな、副次的な" },
+        { "word": "following", "trans": "後に続く" }
+      ],
+      "related": [
+        { "word": "lead", "trans": "動詞・名詞：導く；首位" },
+        { "word": "leader", "trans": "名詞：リーダー" },
+        { "word": "leadership", "trans": "名詞：リーダーシップ" }
+      ]
+    },
+    {
+      "number": 2379,
+      "word": "actually",
+      "pos": "副詞",
+      "meaning": "実際には、実は、本当に",
+      "nuance": "予想や前提と異なる事実を導く際に使います。日本語の「実は…」に近いニュアンスで、文脈を切り替えたり、相手の誤解を優しく訂正したりする場面で便利です。",
+      "example_sections": [
+        {
+          "title": "例文（実際には・実は）",
+          "examples": [
+            {
+              "en": "I thought he was angry, but actually he was just tired.",
+              "ja": "彼が怒っていると思ったが、実際には疲れていただけだった。",
+              "highlight": "actually"
+            },
+            {
+              "en": "Actually, I've already seen that film.",
+              "ja": "実は、その映画はもう見たことがあります。",
+              "highlight": "Actually"
+            },
+            {
+              "en": "Did you actually meet the author in person?",
+              "ja": "実際にその著者に直接会ったのですか？",
+              "highlight": "actually"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 actualis（actus「行為」+ -alis）+ -ly → 実際の行為として起きていること",
+      "synonyms": [
+        { "word": "in fact", "trans": "実際には" },
+        { "word": "in reality", "trans": "現実には" },
+        { "word": "really", "trans": "本当に" }
+      ],
+      "antonyms": [
+        { "word": "supposedly", "trans": "おそらく、〜とされている" },
+        { "word": "theoretically", "trans": "理論上は" }
+      ],
+      "related": [
+        { "word": "actual", "trans": "形容詞：実際の、現実の" },
+        { "word": "actuality", "trans": "名詞：現実、実際の状況" },
+        { "word": "actualize", "trans": "動詞：実現する" }
+      ]
+    }
+  ]
+}
