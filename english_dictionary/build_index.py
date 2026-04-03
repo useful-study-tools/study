@@ -137,7 +137,7 @@ def generate_index():
         .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
         
         /* 前後章ナビゲーションボタンのスタイル */
-        .nav-buttons { display: flex; justify-content: space-between; margin-top: 30px; margin-bottom: 20px; }
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
         .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
         .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
@@ -351,6 +351,8 @@ def generate_index():
     </div>
     
     <h2 class="section-title">{ch_data["title"]}</h2>
+    
+    {nav_html}
     
     <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
 
