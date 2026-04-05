@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#5	制約・強制・禁止 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #5	制約・強制・禁止
+    </div>
+    
+    <h2 class="section-title">#5	制約・強制・禁止</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5087.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5133-string.html"><span class="word-id">5133</span><span class="word-name">string</span><span class="word-meaning">ひも, 糸</span></a></li>
+        <li class="word-item"><a href="data/5134-restrict.html"><span class="word-id">5134</span><span class="word-name">restrict</span><span class="word-meaning">～を(…に)制限する(to…)</span></a></li>
+        <li class="word-item"><a href="data/5135-strict.html"><span class="word-id">5135</span><span class="word-name">strict</span><span class="word-meaning">厳しい； 厳密な</span></a></li>
+        <li class="word-item"><a href="data/5136-distress.html"><span class="word-id">5136</span><span class="word-name">distress</span><span class="word-meaning">苦悩, 貧困</span></a></li>
+        <li class="word-item"><a href="data/5137-strain.html"><span class="word-id">5137</span><span class="word-name">strain</span><span class="word-meaning">緊張, 重圧, 品種, 血統</span></a></li>
+        <li class="word-item"><a href="data/5138-restrain.html"><span class="word-id">5138</span><span class="word-name">restrain</span><span class="word-meaning">～を抑制する</span></a></li>
+        <li class="word-item"><a href="data/5139-tense.html"><span class="word-id">5139</span><span class="word-name">tense</span><span class="word-meaning">形容詞：緊張した, ぴんと張った； 名詞：（文法の）時制</span></a></li>
+        <li class="word-item"><a href="data/5140-extend.html"><span class="word-id">5140</span><span class="word-name">extend</span><span class="word-meaning">～を伸ばす, 延長する</span></a></li>
+        <li class="word-item"><a href="data/5141-intense.html"><span class="word-id">5141</span><span class="word-name">intense</span><span class="word-meaning">激しい</span></a></li>
+        <li class="word-item"><a href="data/5142-force.html"><span class="word-id">5142</span><span class="word-name">force</span><span class="word-meaning">名詞：力, 勢力； 軍事力； 動詞：～に(…することを)強制する(to do)</span></a></li>
+        <li class="word-item"><a href="data/5143-compel.html"><span class="word-id">5143</span><span class="word-name">compel</span><span class="word-meaning">～に(…することを)強いる(to do)</span></a></li>
+        <li class="word-item"><a href="data/5144-oblige.html"><span class="word-id">5144</span><span class="word-name">oblige</span><span class="word-meaning">～に(…することを)義務づける, 余儀なくさせる(to do)</span></a></li>
+        <li class="word-item"><a href="data/5145-voluntary.html"><span class="word-id">5145</span><span class="word-name">voluntary</span><span class="word-meaning">自発的な</span></a></li>
+        <li class="word-item"><a href="data/5146-spontaneous.html"><span class="word-id">5146</span><span class="word-name">spontaneous</span><span class="word-meaning">自発的な, 自然発生的な</span></a></li>
+        <li class="word-item"><a href="data/5147-free.html"><span class="word-id">5147</span><span class="word-name">free</span><span class="word-meaning">形容詞：自由な； 無料の； 暇な； 動詞：～を自由にする</span></a></li>
+        <li class="word-item"><a href="data/5148-liberty.html"><span class="word-id">5148</span><span class="word-name">liberty</span><span class="word-meaning">自由</span></a></li>
+        <li class="word-item"><a href="data/5149-release.html"><span class="word-id">5149</span><span class="word-name">release</span><span class="word-meaning">～を解放する</span></a></li>
+        <li class="word-item"><a href="data/5150-capture.html"><span class="word-id">5150</span><span class="word-name">capture</span><span class="word-meaning">～を捕らえる</span></a></li>
+        <li class="word-item"><a href="data/5151-prohibit.html"><span class="word-id">5151</span><span class="word-name">prohibit</span><span class="word-meaning">～を禁じる； ～に(…するのを)禁じる(from doing)</span></a></li>
+        <li class="word-item"><a href="data/5152-forbid.html"><span class="word-id">5152</span><span class="word-name">forbid</span><span class="word-meaning">～を禁じる</span></a></li>
+        <li class="word-item"><a href="data/5153-ban.html"><span class="word-id">5153</span><span class="word-name">ban</span><span class="word-meaning">～を(公的に)禁止する</span></a></li>
+        <li class="word-item"><a href="data/5154-permit.html"><span class="word-id">5154</span><span class="word-name">permit</span><span class="word-meaning">動詞：～を許す, ～に(…するのを)許可する(to do)； 名詞：許可証</span></a></li>
+        <li class="word-item"><a href="data/5155-allow.html"><span class="word-id">5155</span><span class="word-name">allow</span><span class="word-meaning">～が(…するのを)許す(to do)</span></a></li>
+        <li class="word-item"><a href="data/5156-forgive.html"><span class="word-id">5156</span><span class="word-name">forgive</span><span class="word-meaning">～(過ちを犯した人)を許す</span></a></li>
+        <li class="word-item"><a href="data/5157-overlook.html"><span class="word-id">5157</span><span class="word-name">overlook</span><span class="word-meaning">～を大目に見る, 許す, ～を見落とす</span></a></li>
+        <li class="word-item"><a href="data/5158-generous.html"><span class="word-id">5158</span><span class="word-name">generous</span><span class="word-meaning">寛容な, 気前のよい</span></a></li>
+        <li class="word-item"><a href="data/5159-tolerate.html"><span class="word-id">5159</span><span class="word-name">tolerate</span><span class="word-meaning">～を許容する, 容認する</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5087.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
