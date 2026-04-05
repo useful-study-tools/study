@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#3	構造・構成 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="others.html">鉄壁</a> > #3	構造・構成
+    </div>
+    
+    <h2 class="section-title">#3	構造・構成</h2>
+    
+    <div class="nav-buttons">
+        <a href="others_5026.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5048-structure.html"><span class="word-id">5048</span><span class="word-name">structure</span><span class="word-meaning">構造, 構成, 骨格</span></a></li>
+        <li class="word-item"><a href="data/5049-construct.html"><span class="word-id">5049</span><span class="word-name">construct</span><span class="word-meaning">～を建設する, 組み立てる</span></a></li>
+        <li class="word-item"><a href="data/5050-destroy.html"><span class="word-id">5050</span><span class="word-name">destroy</span><span class="word-meaning">～を破壊する, 滅ぼす</span></a></li>
+        <li class="word-item"><a href="data/5051-architecture.html"><span class="word-id">5051</span><span class="word-name">architecture</span><span class="word-meaning">建築, 建築学</span></a></li>
+        <li class="word-item"><a href="data/5052-constitute.html"><span class="word-id">5052</span><span class="word-name">constitute</span><span class="word-meaning">～を構成する, 占める； 設立する</span></a></li>
+        <li class="word-item"><a href="data/5053-institute.html"><span class="word-id">5053</span><span class="word-name">institute</span><span class="word-meaning">動詞：～(法律・制度)を制定する； 名詞：協会, 研究所</span></a></li>
+        <li class="word-item"><a href="data/5054-substitute.html"><span class="word-id">5054</span><span class="word-name">substitute</span><span class="word-meaning">名詞：代用品, 代理人； 動詞：～を(…の代わりに)代用する(for…)</span></a></li>
+        <li class="word-item"><a href="data/5055-stable.html"><span class="word-id">5055</span><span class="word-name">stable</span><span class="word-meaning">安定した</span></a></li>
+        <li class="word-item"><a href="data/5056-establish.html"><span class="word-id">5056</span><span class="word-name">establish</span><span class="word-meaning">～を設立する, 確立する</span></a></li>
+        <li class="word-item"><a href="data/5057-subject.html"><span class="word-id">5057</span><span class="word-name">subject</span><span class="word-meaning">名詞：科目, 主題, 家来, 臣民, 患者, 被験者； 形容詞：(～に)従属している, かかりやすい(to～)</span></a></li>
+        <li class="word-item"><a href="data/5058-subdue.html"><span class="word-id">5058</span><span class="word-name">subdue</span><span class="word-meaning">～を征服する, 支配する, 抑える</span></a></li>
+        <li class="word-item"><a href="data/5059-submit.html"><span class="word-id">5059</span><span class="word-name">submit</span><span class="word-meaning">（～に)服従する, 身を任せる(to～)； ～を服従させる, を提出する</span></a></li>
+        <li class="word-item"><a href="data/5060-submission.html"><span class="word-id">5060</span><span class="word-name">submission</span><span class="word-meaning">服従, 提出</span></a></li>
+        <li class="word-item"><a href="data/5061-fundamental.html"><span class="word-id">5061</span><span class="word-name">fundamental</span><span class="word-meaning">根本的な, 基礎的な, 重要な</span></a></li>
+        <li class="word-item"><a href="data/5062-fund.html"><span class="word-id">5062</span><span class="word-name">fund</span><span class="word-meaning">資金, 基金</span></a></li>
+        <li class="word-item"><a href="data/5063-found.html"><span class="word-id">5063</span><span class="word-name">found</span><span class="word-meaning">～を設立する</span></a></li>
+        <li class="word-item"><a href="data/5064-foundation.html"><span class="word-id">5064</span><span class="word-name">foundation</span><span class="word-meaning">基盤, 基礎, 土台</span></a></li>
+        <li class="word-item"><a href="data/5065-profound.html"><span class="word-id">5065</span><span class="word-name">profound</span><span class="word-meaning">深い, 深遠な</span></a></li>
+        <li class="word-item"><a href="data/5066-base.html"><span class="word-id">5066</span><span class="word-name">base</span><span class="word-meaning">土台、基礎</span></a></li>
+        <li class="word-item"><a href="data/5067-basis.html"><span class="word-id">5067</span><span class="word-name">basis</span><span class="word-meaning">基礎</span></a></li>
+        <li class="word-item"><a href="data/5068-ground.html"><span class="word-id">5068</span><span class="word-name">ground</span><span class="word-meaning">運動場, 地面, 根拠, 理由</span></a></li>
+        <li class="word-item"><a href="data/5069-superficial.html"><span class="word-id">5069</span><span class="word-name">superficial</span><span class="word-meaning">うわべの</span></a></li>
+        <li class="word-item"><a href="data/5070-shallow.html"><span class="word-id">5070</span><span class="word-name">shallow</span><span class="word-meaning">浅い； 浅はかな, うわべの</span></a></li>
+        <li class="word-item"><a href="data/5071-superb.html"><span class="word-id">5071</span><span class="word-name">superb</span><span class="word-meaning">すばらしい, 見事な</span></a></li>
+        <li class="word-item"><a href="data/5072-supervise.html"><span class="word-id">5072</span><span class="word-name">supervise</span><span class="word-meaning">～を監視する, 指揮する</span></a></li>
+        <li class="word-item"><a href="data/5073-superstition.html"><span class="word-id">5073</span><span class="word-name">superstition</span><span class="word-meaning">迷信</span></a></li>
+        <li class="word-item"><a href="data/5074-core.html"><span class="word-id">5074</span><span class="word-name">core</span><span class="word-meaning">中心, 核心； (果物の)芯</span></a></li>
+        <li class="word-item"><a href="data/5075-surface.html"><span class="word-id">5075</span><span class="word-name">surface</span><span class="word-meaning">表面, 表層</span></a></li>
+        <li class="word-item"><a href="data/5076-internal.html"><span class="word-id">5076</span><span class="word-name">internal</span><span class="word-meaning">内面の, 内側の</span></a></li>
+        <li class="word-item"><a href="data/5077-external.html"><span class="word-id">5077</span><span class="word-name">external</span><span class="word-meaning">外側の</span></a></li>
+        <li class="word-item"><a href="data/5078-concentrate.html"><span class="word-id">5078</span><span class="word-name">concentrate</span><span class="word-meaning">(～に)集中する(on～)； ～を(…に)集中させる(on…)</span></a></li>
+        <li class="word-item"><a href="data/5079-focus.html"><span class="word-id">5079</span><span class="word-name">focus</span><span class="word-meaning">(～に)集中する, 重点を置く(on～)； 焦点</span></a></li>
+        <li class="word-item"><a href="data/5080-compose.html"><span class="word-id">5080</span><span class="word-name">compose</span><span class="word-meaning">～を構成する； 作曲・作文する</span></a></li>
+        <li class="word-item"><a href="data/5081-consist.html"><span class="word-id">5081</span><span class="word-name">consist</span><span class="word-meaning">(～から)成る(of～), (～の中に)ある, 存在する(in～)</span></a></li>
+        <li class="word-item"><a href="data/5082-organize.html"><span class="word-id">5082</span><span class="word-name">organize</span><span class="word-meaning">～を組織する</span></a></li>
+        <li class="word-item"><a href="data/5083-element.html"><span class="word-id">5083</span><span class="word-name">element</span><span class="word-meaning">要素, 元素</span></a></li>
+        <li class="word-item"><a href="data/5084-component.html"><span class="word-id">5084</span><span class="word-name">component</span><span class="word-meaning">構成要素, 部分</span></a></li>
+        <li class="word-item"><a href="data/5085-complex.html"><span class="word-id">5085</span><span class="word-name">complex</span><span class="word-meaning">複雑な, 複合の</span></a></li>
+        <li class="word-item"><a href="data/5086-complicated.html"><span class="word-id">5086</span><span class="word-name">complicated</span><span class="word-meaning">複雑な</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="others_5026.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
