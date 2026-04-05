@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5009 matter</title>
+    <link rel="icon" href="/study/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/study/favicon.png">
+    <style>
+        :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        
+        /* パンくずリスト */
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; box-sizing: border-box; width: 100%; text-align: left; }
+        .breadcrumb a { color: var(--primary-color); text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
+        .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
+        .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
+        .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
+        .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
+        .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
+        .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
+        .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
+        .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
+        .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
+        .meaning-jp { font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px; padding: 10px 0; color: var(--text-main); }
+        .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
+        .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
+        .en { display: block; font-weight: 500; color: #444; }
+        .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
+        .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
+        .list-unit { margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+        .list-unit:last-child { border-bottom: none; }
+        .word-small { font-weight: bold; color: #444; }
+        .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
+        .source-tag { font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }
+        .list-unit a { text-decoration: none; color: #4169e1; }
+        .list-unit a:hover { text-decoration: underline; opacity: 0.8; }
+        .list-unit a .word-small { color: inherit !important; }
+
+        @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="../../index.html">ホーム</a> &gt; 
+            <a href="../index.html">英単語帳</a> &gt; 
+            <a href="../others.html">鉄壁</a> &gt; 
+            <a href="../others_5001.html">#1	重要な・ささいな</a> &gt; 
+            5009 matter
+        </div>
+        <div class="nav-buttons">
+            <a href="5008-consequence.html" class="nav-button">← 前の単語</a>
+            <a href="5010-count.html" class="nav-button">次の単語 →</a>
+        </div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 5009</span>
+                <h1 class="word-title">matter <span class="pos-tag">名詞 / 動詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">名詞：事柄, 問題； 動詞：重要である</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 名詞では「取り扱うべき話題や問題」。動詞では「～が重要だ」という意味で、特に疑問文や否定文でよく使われます。カジュアルな場面で好まれます。
+            </div>
+                    <div class="section-title">例文</div>
+        <div class="example-item">
+            <span class="en">We need to discuss this <strong>matter</strong> immediately.</span>
+            <span class="ja">この問題についてすぐに話し合う必要がある。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">It doesn't <strong>matter</strong> if you're late.</span>
+            <span class="ja">遅れても構いません。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">Your opinion really <strong>matters</strong> to me.</span>
+            <span class="ja">あなたの意見は私にとって本当に大切です。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">That's a different <strong>matter</strong> altogether.</span>
+            <span class="ja">それは全く別の問題です。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">What <strong>matters</strong> most is your health.</span>
+            <span class="ja">最も重要なのはあなたの健康です。</span>
+        </div>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ラテン語 materia（物質、材料）に由来します。
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">issue</span><span class="trans-small">(問題)</span></div>
+<div class="list-unit"><a href="11084-affair.html"><span class="word-small">affair</span></a> <span class="trans-small">(事柄)</span></div>
+<div class="list-unit"><a href="5010-count.html"><span class="word-small">count</span></a> <span class="trans-small">(重要である)</span></div>
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><a href="5020-ignore.html"><span class="word-small">ignore</span></a> <span class="trans-small">(無視する)</span></div>
+<div class="list-unit"><a href="5019-neglect.html"><span class="word-small">neglect</span><span class="source-tag">鉄壁</span></a> <a href="11177-neglect.html"><span class="word-small">neglect</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(軽視する)</span></div>
+<div class="list-unit"><span class="word-small">triviality</span><span class="trans-small">(些細なこと)</span></div>
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">matter-of-fact</span><span class="trans-small">(形容詞：事実に基づいた、淡々とした)</span></div>
+<div class="list-unit"><span class="word-small">subject matter</span><span class="trans-small">(名詞：主題、題材)</span></div>
+<div class="list-unit"><a href="2431-material.html"><span class="word-small">material</span><span class="source-tag">Change the World</span></a> <a href="2580-material.html"><span class="word-small">material</span><span class="source-tag">Change the World</span></a> <span class="trans-small">(名詞：材料（同語源）)</span></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

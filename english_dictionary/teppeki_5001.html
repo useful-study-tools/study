@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#1	重要な・ささいな | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #1	重要な・ささいな
+    </div>
+    
+    <h2 class="section-title">#1	重要な・ささいな</h2>
+    
+    <div class="nav-buttons">
+        <span class="nav-btn disabled">← 前の章</span>
+        <a href="teppeki_5026.html" class="nav-btn">次の章 →</a>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5001-vital.html"><span class="word-id">5001</span><span class="word-name">vital</span><span class="word-meaning">(～にとって)非常に重要な(to, for～)； 生命の</span></a></li>
+        <li class="word-item"><a href="data/5002-vivid.html"><span class="word-id">5002</span><span class="word-name">vivid</span><span class="word-meaning">生き生きとした, 鮮やかな</span></a></li>
+        <li class="word-item"><a href="data/5003-revive.html"><span class="word-id">5003</span><span class="word-name">revive</span><span class="word-meaning">～を生き返らせる, 生き返る</span></a></li>
+        <li class="word-item"><a href="data/5004-essential.html"><span class="word-id">5004</span><span class="word-name">essential</span><span class="word-meaning">(～にとって)重要な, 必要不可欠な(to, for～)； 本質的な</span></a></li>
+        <li class="word-item"><a href="data/5005-indispensable.html"><span class="word-id">5005</span><span class="word-name">indispensable</span><span class="word-meaning">(～にとって)重要な, 必要不可欠な(to, for～)</span></a></li>
+        <li class="word-item"><a href="data/5006-crucial.html"><span class="word-id">5006</span><span class="word-name">crucial</span><span class="word-meaning">決定的な, 極めて重要な</span></a></li>
+        <li class="word-item"><a href="data/5007-significance.html"><span class="word-id">5007</span><span class="word-name">significance</span><span class="word-meaning">重要性</span></a></li>
+        <li class="word-item"><a href="data/5008-consequence.html"><span class="word-id">5008</span><span class="word-name">consequence</span><span class="word-meaning">結果, 重要さ</span></a></li>
+        <li class="word-item"><a href="data/5009-matter.html"><span class="word-id">5009</span><span class="word-name">matter</span><span class="word-meaning">名詞：事柄, 問題； 動詞：重要である</span></a></li>
+        <li class="word-item"><a href="data/5010-count.html"><span class="word-id">5010</span><span class="word-name">count</span><span class="word-meaning">～を数える； 重要である</span></a></li>
+        <li class="word-item"><a href="data/5011-make a difference.html"><span class="word-id">5011</span><span class="word-name">make a difference</span><span class="word-meaning">重要である</span></a></li>
+        <li class="word-item"><a href="data/5012-trivial.html"><span class="word-id">5012</span><span class="word-name">trivial</span><span class="word-meaning">ささいな, ありふれた</span></a></li>
+        <li class="word-item"><a href="data/5013-trifle.html"><span class="word-id">5013</span><span class="word-name">trifle</span><span class="word-meaning">ささいな事, くだらない事</span></a></li>
+        <li class="word-item"><a href="data/5014-common.html"><span class="word-id">5014</span><span class="word-name">common</span><span class="word-meaning">共通の, よくある, 一般的な, ありふれた</span></a></li>
+        <li class="word-item"><a href="data/5015-ordinary.html"><span class="word-id">5015</span><span class="word-name">ordinary</span><span class="word-meaning">普通の, 通常の, ありふれた</span></a></li>
+        <li class="word-item"><a href="data/5016-familiar.html"><span class="word-id">5016</span><span class="word-name">familiar</span><span class="word-meaning">(～に)よく知られた(to～)； (～に)精通している(with～)； 親しい</span></a></li>
+        <li class="word-item"><a href="data/5017-emphasize.html"><span class="word-id">5017</span><span class="word-name">emphasize</span><span class="word-meaning">～を強調する</span></a></li>
+        <li class="word-item"><a href="data/5018-stress.html"><span class="word-id">5018</span><span class="word-name">stress</span><span class="word-meaning">～を強調する； ストレス, 重点, 強調</span></a></li>
+        <li class="word-item"><a href="data/5019-neglect.html"><span class="word-id">5019</span><span class="word-name">neglect</span><span class="word-meaning">～を(うっかり)怠る, ～を無視する</span></a></li>
+        <li class="word-item"><a href="data/5020-ignore.html"><span class="word-id">5020</span><span class="word-name">ignore</span><span class="word-meaning">～を無視する, ～を知らないふりをする</span></a></li>
+        <li class="word-item"><a href="data/5021-eminent.html"><span class="word-id">5021</span><span class="word-name">eminent</span><span class="word-meaning">著名な</span></a></li>
+        <li class="word-item"><a href="data/5022-prominent.html"><span class="word-id">5022</span><span class="word-name">prominent</span><span class="word-meaning">目立った； 有名な</span></a></li>
+        <li class="word-item"><a href="data/5023-primary.html"><span class="word-id">5023</span><span class="word-name">primary</span><span class="word-meaning">第1の, 主要な</span></a></li>
+        <li class="word-item"><a href="data/5024-tiny.html"><span class="word-id">5024</span><span class="word-name">tiny</span><span class="word-meaning">ちっぽけな</span></a></li>
+        <li class="word-item"><a href="data/5025-slight.html"><span class="word-id">5025</span><span class="word-name">slight</span><span class="word-meaning">わずかな, 取るに足らない</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <span class="nav-btn disabled">← 前の章</span>
+        <a href="teppeki_5026.html" class="nav-btn">次の章 →</a>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
