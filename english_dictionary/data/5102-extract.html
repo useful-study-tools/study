@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5102 extract</title>
+    <link rel="icon" href="/study/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/study/favicon.png">
+    <style>
+        :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        
+        /* パンくずリスト */
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; box-sizing: border-box; width: 100%; text-align: left; }
+        .breadcrumb a { color: var(--primary-color); text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
+        .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
+        .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
+        .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
+        .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
+        .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
+        .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
+        .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
+        .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
+        .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
+        .meaning-jp { font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px; padding: 10px 0; color: var(--text-main); }
+        .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
+        .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
+        .en { display: block; font-weight: 500; color: #444; }
+        .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
+        .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
+        .list-unit { margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+        .list-unit:last-child { border-bottom: none; }
+        .word-small { font-weight: bold; color: #444; }
+        .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
+        .source-tag { font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }
+        .list-unit a { text-decoration: none; color: #4169e1; }
+        .list-unit a:hover { text-decoration: underline; opacity: 0.8; }
+        .list-unit a .word-small { color: inherit !important; }
+
+        @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="../../index.html">ホーム</a> &gt; 
+            <a href="../index.html">英単語帳</a> &gt; 
+            <a href="../others.html">鉄壁</a> &gt; 
+            <a href="../others_5087.html">#4	動詞をイメージする・1</a> &gt; 
+            5102 extract
+        </div>
+        <div class="nav-buttons">
+            <a href="5101-attract.html" class="nav-button">← 前の単語</a>
+            <a href="5103-aim.html" class="nav-button">次の単語 →</a>
+        </div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 5102</span>
+                <h1 class="word-title">extract <span class="pos-tag">動詞 / 名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">動詞：～を抜き出す, 抽出する； 名詞：抽出物</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 「中から無理に取り出す」「力を入れて引き抜く」という意味です。歯を抜く、情報を引き出すなどに使います。
+            </div>
+                    <div class="section-title">例文</div>
+        <div class="example-item">
+            <span class="en">The dentist <strong>extracted</strong> my wisdom tooth.</span>
+            <span class="ja">歯医者が私の親知らずを抜いた。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">We need to <strong>extract</strong> the relevant data.</span>
+            <span class="ja">関連するデータを抽出する必要がある。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">Vanilla <strong>extract</strong> is used in baking.</span>
+            <span class="ja">バニラエッセンスはお菓子作りに使われる。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">The police <strong>extracted</strong> a confession from him.</span>
+            <span class="ja">警察は彼から自白を引き出した。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">Oil is <strong>extracted</strong> from the ground.</span>
+            <span class="ja">石油は地下から採掘される。</span>
+        </div>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ラテン語 extrahere（外に引き出す）に由来します。
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">remove</span><span class="trans-small">(取り除く)</span></div>
+<div class="list-unit"><span class="word-small">pull out</span><span class="trans-small">(抜き出す)</span></div>
+<div class="list-unit"><a href="11183-derive.html"><span class="word-small">derive</span></a> <span class="trans-small">(抽出する)</span></div>
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><a href="4918-insert.html"><span class="word-small">insert</span><span class="source-tag">東進上級英単語1000</span></a> <a href="5106-insert.html"><span class="word-small">insert</span><span class="source-tag">鉄壁</span></a> <a href="11624-insert.html"><span class="word-small">insert</span><span class="source-tag">LEAP</span></a> <span class="trans-small">(挿入する)</span></div>
+<div class="list-unit"><span class="word-small">embed</span><span class="trans-small">(埋め込む)</span></div>
+<div class="list-unit"><a href="2109-add.html"><span class="word-small">add</span></a> <span class="trans-small">(加える)</span></div>
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">extraction</span><span class="trans-small">(名詞：抽出、抜歯)</span></div>
+<div class="list-unit"><span class="word-small">extractor</span><span class="trans-small">(名詞：抽出器)</span></div>
+<div class="list-unit"><span class="word-small">extractive</span><span class="trans-small">(形容詞：抽出の)</span></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

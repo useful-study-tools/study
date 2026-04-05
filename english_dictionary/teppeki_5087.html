@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#4	動詞をイメージする・1 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #4	動詞をイメージする・1
+    </div>
+    
+    <h2 class="section-title">#4	動詞をイメージする・1</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5048.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5087-reveal.html"><span class="word-id">5087</span><span class="word-name">reveal</span><span class="word-meaning">～を明らかにする, 暴露する</span></a></li>
+        <li class="word-item"><a href="data/5088-conceal.html"><span class="word-id">5088</span><span class="word-name">conceal</span><span class="word-meaning">～を隠す</span></a></li>
+        <li class="word-item"><a href="data/5089-expose.html"><span class="word-id">5089</span><span class="word-name">expose</span><span class="word-meaning">～をさらす</span></a></li>
+        <li class="word-item"><a href="data/5090-impose.html"><span class="word-id">5090</span><span class="word-name">impose</span><span class="word-meaning">～を(…に)課す, 押しつける(on[upon]…)</span></a></li>
+        <li class="word-item"><a href="data/5091-divide.html"><span class="word-id">5091</span><span class="word-name">divide</span><span class="word-meaning">～を分割する</span></a></li>
+        <li class="word-item"><a href="data/5092-diffuse.html"><span class="word-id">5092</span><span class="word-name">diffuse</span><span class="word-meaning">動詞：～をまき散らす, 分散する； 形容詞：拡散した</span></a></li>
+        <li class="word-item"><a href="data/5093-scatter.html"><span class="word-id">5093</span><span class="word-name">scatter</span><span class="word-meaning">～をまき散らす</span></a></li>
+        <li class="word-item"><a href="data/5094-spread.html"><span class="word-id">5094</span><span class="word-name">spread</span><span class="word-meaning">広がる, 普及する</span></a></li>
+        <li class="word-item"><a href="data/5095-bend.html"><span class="word-id">5095</span><span class="word-name">bend</span><span class="word-meaning">～を曲げる</span></a></li>
+        <li class="word-item"><a href="data/5096-incline.html"><span class="word-id">5096</span><span class="word-name">incline</span><span class="word-meaning">～を傾ける, (…したい)気持ちにさせる(to do)</span></a></li>
+        <li class="word-item"><a href="data/5097-lean.html"><span class="word-id">5097</span><span class="word-name">lean</span><span class="word-meaning">動詞：(～に)寄りかかる, もたれる(on[against]～)； 形容詞：やせた, 脂肪の少ない</span></a></li>
+        <li class="word-item"><a href="data/5098-erect.html"><span class="word-id">5098</span><span class="word-name">erect</span><span class="word-meaning">動詞：～を直立させる, 建てる； 形容詞：直立した</span></a></li>
+        <li class="word-item"><a href="data/5099-emit.html"><span class="word-id">5099</span><span class="word-name">emit</span><span class="word-meaning">～を放出する, 排出する</span></a></li>
+        <li class="word-item"><a href="data/5100-absorb.html"><span class="word-id">5100</span><span class="word-name">absorb</span><span class="word-meaning">～を吸収する</span></a></li>
+        <li class="word-item"><a href="data/5101-attract.html"><span class="word-id">5101</span><span class="word-name">attract</span><span class="word-meaning">～を惹(引)き付ける, 魅了する</span></a></li>
+        <li class="word-item"><a href="data/5102-extract.html"><span class="word-id">5102</span><span class="word-name">extract</span><span class="word-meaning">動詞：～を抜き出す, 抽出する； 名詞：抽出物</span></a></li>
+        <li class="word-item"><a href="data/5103-aim.html"><span class="word-id">5103</span><span class="word-name">aim</span><span class="word-meaning">名詞：目標, 目的； 動詞：(～を)狙う, 目標とする(at～)</span></a></li>
+        <li class="word-item"><a href="data/5104-penetrate.html"><span class="word-id">5104</span><span class="word-name">penetrate</span><span class="word-meaning">～を貫通する, ～に浸透する； 貫通する（through～）</span></a></li>
+        <li class="word-item"><a href="data/5105-thrust.html"><span class="word-id">5105</span><span class="word-name">thrust</span><span class="word-meaning">～を(ぐいっと)押し付ける, 突っ込む, 突き刺す</span></a></li>
+        <li class="word-item"><a href="data/5106-insert.html"><span class="word-id">5106</span><span class="word-name">insert</span><span class="word-meaning">～を挿入する</span></a></li>
+        <li class="word-item"><a href="data/5107-grasp.html"><span class="word-id">5107</span><span class="word-name">grasp</span><span class="word-meaning">動詞：～を掴む, 握る； 理解する； 名詞：把握, 理解</span></a></li>
+        <li class="word-item"><a href="data/5108-grab.html"><span class="word-id">5108</span><span class="word-name">grab</span><span class="word-meaning">～を掴む</span></a></li>
+        <li class="word-item"><a href="data/5109-seize.html"><span class="word-id">5109</span><span class="word-name">seize</span><span class="word-meaning">～を掴む, (感情などが)を襲う； 押収する</span></a></li>
+        <li class="word-item"><a href="data/5110-drag.html"><span class="word-id">5110</span><span class="word-name">drag</span><span class="word-meaning">～を引きずる</span></a></li>
+        <li class="word-item"><a href="data/5111-cling.html"><span class="word-id">5111</span><span class="word-name">cling</span><span class="word-meaning">（～に)しがみつく, 固執する(to～)</span></a></li>
+        <li class="word-item"><a href="data/5112-stick.html"><span class="word-id">5112</span><span class="word-name">stick</span><span class="word-meaning">名詞：棒； 動詞：(～に)くっつく, 固執する(to～)</span></a></li>
+        <li class="word-item"><a href="data/5113-attach.html"><span class="word-id">5113</span><span class="word-name">attach</span><span class="word-meaning">～をくっつける； 愛着を持たせる</span></a></li>
+        <li class="word-item"><a href="data/5114-imitate.html"><span class="word-id">5114</span><span class="word-name">imitate</span><span class="word-meaning">～を真似る</span></a></li>
+        <li class="word-item"><a href="data/5115-fold.html"><span class="word-id">5115</span><span class="word-name">fold</span><span class="word-meaning">～を折り畳む</span></a></li>
+        <li class="word-item"><a href="data/5116-tear.html"><span class="word-id">5116</span><span class="word-name">tear</span><span class="word-meaning">～を引き裂く</span></a></li>
+        <li class="word-item"><a href="data/5117-mold.html"><span class="word-id">5117</span><span class="word-name">mold</span><span class="word-meaning">動詞：～をかたどる, 形成する； 名詞：型, カビ</span></a></li>
+        <li class="word-item"><a href="data/5118-distort.html"><span class="word-id">5118</span><span class="word-name">distort</span><span class="word-meaning">～を歪める</span></a></li>
+        <li class="word-item"><a href="data/5119-expand.html"><span class="word-id">5119</span><span class="word-name">expand</span><span class="word-meaning">～を拡大する； 拡大する； 膨張する</span></a></li>
+        <li class="word-item"><a href="data/5120-shrink.html"><span class="word-id">5120</span><span class="word-name">shrink</span><span class="word-meaning">縮む</span></a></li>
+        <li class="word-item"><a href="data/5121-swell.html"><span class="word-id">5121</span><span class="word-name">swell</span><span class="word-meaning">膨らむ</span></a></li>
+        <li class="word-item"><a href="data/5122-assemble.html"><span class="word-id">5122</span><span class="word-name">assemble</span><span class="word-meaning">～を集める, 組み立てる</span></a></li>
+        <li class="word-item"><a href="data/5123-collect.html"><span class="word-id">5123</span><span class="word-name">collect</span><span class="word-meaning">～を集める； 徴収する</span></a></li>
+        <li class="word-item"><a href="data/5124-cram.html"><span class="word-id">5124</span><span class="word-name">cram</span><span class="word-meaning">～を詰め込む</span></a></li>
+        <li class="word-item"><a href="data/5125-rotate.html"><span class="word-id">5125</span><span class="word-name">rotate</span><span class="word-meaning">～を回転する； 回転する</span></a></li>
+        <li class="word-item"><a href="data/5126-twist.html"><span class="word-id">5126</span><span class="word-name">twist</span><span class="word-meaning">～をひねる</span></a></li>
+        <li class="word-item"><a href="data/5127-upset.html"><span class="word-id">5127</span><span class="word-name">upset</span><span class="word-meaning">動詞：～をひっくり返す, 動揺させる, 怒らせる； 形容詞：動揺した, 怒った</span></a></li>
+        <li class="word-item"><a href="data/5128-stir.html"><span class="word-id">5128</span><span class="word-name">stir</span><span class="word-meaning">動詞：～をかき回す； 名詞：騒乱</span></a></li>
+        <li class="word-item"><a href="data/5129-explode.html"><span class="word-id">5129</span><span class="word-name">explode</span><span class="word-meaning">爆発する</span></a></li>
+        <li class="word-item"><a href="data/5130-burst.html"><span class="word-id">5130</span><span class="word-name">burst</span><span class="word-meaning">爆発する</span></a></li>
+        <li class="word-item"><a href="data/5131-melt.html"><span class="word-id">5131</span><span class="word-name">melt</span><span class="word-meaning">溶ける； ～を溶かす</span></a></li>
+        <li class="word-item"><a href="data/5132-leak.html"><span class="word-id">5132</span><span class="word-name">leak</span><span class="word-meaning">動詞：漏れる； ～を漏らす； 名詞：漏れ</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5048.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
