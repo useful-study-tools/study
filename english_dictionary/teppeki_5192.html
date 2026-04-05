@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#7	目的・実行・達成 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #7	目的・実行・達成
+    </div>
+    
+    <h2 class="section-title">#7	目的・実行・達成</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5160.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5192-project.html"><span class="word-id">5192</span><span class="word-name">project</span><span class="word-meaning">名詞：企画, 事業； 動詞：～を見積もる； 投影する</span></a></li>
+        <li class="word-item"><a href="data/5193-enterprise.html"><span class="word-id">5193</span><span class="word-name">enterprise</span><span class="word-meaning">企て, 事業, 企業</span></a></li>
+        <li class="word-item"><a href="data/5194-scheme.html"><span class="word-id">5194</span><span class="word-name">scheme</span><span class="word-meaning">計画, 枠組み, 制度</span></a></li>
+        <li class="word-item"><a href="data/5195-attempt.html"><span class="word-id">5195</span><span class="word-name">attempt</span><span class="word-meaning">試み, 企画； ～を(しようと)試みる(to do)</span></a></li>
+        <li class="word-item"><a href="data/5196-purpose.html"><span class="word-id">5196</span><span class="word-name">purpose</span><span class="word-meaning">目的</span></a></li>
+        <li class="word-item"><a href="data/5197-intention.html"><span class="word-id">5197</span><span class="word-name">intention</span><span class="word-meaning">意図</span></a></li>
+        <li class="word-item"><a href="data/5198-destination.html"><span class="word-id">5198</span><span class="word-name">destination</span><span class="word-meaning">目的地, 行き先</span></a></li>
+        <li class="word-item"><a href="data/5199-ideal.html"><span class="word-id">5199</span><span class="word-name">ideal</span><span class="word-meaning">名詞：理想； 形容詞：理想的な</span></a></li>
+        <li class="word-item"><a href="data/5200-practical.html"><span class="word-id">5200</span><span class="word-name">practical</span><span class="word-meaning">実用的な, 現実的な</span></a></li>
+        <li class="word-item"><a href="data/5201-real.html"><span class="word-id">5201</span><span class="word-name">real</span><span class="word-meaning">本当の, 本物の, 現実の</span></a></li>
+        <li class="word-item"><a href="data/5202-fantasy.html"><span class="word-id">5202</span><span class="word-name">fantasy</span><span class="word-meaning">空想</span></a></li>
+        <li class="word-item"><a href="data/5203-fancy.html"><span class="word-id">5203</span><span class="word-name">fancy</span><span class="word-meaning">名詞：空想； 動詞：～を想像する； 形容詞：高級な, 手の込んだ</span></a></li>
+        <li class="word-item"><a href="data/5204-illusion.html"><span class="word-id">5204</span><span class="word-name">illusion</span><span class="word-meaning">幻想、錯覚</span></a></li>
+        <li class="word-item"><a href="data/5205-imagine.html"><span class="word-id">5205</span><span class="word-name">imagine</span><span class="word-meaning">～を想像する</span></a></li>
+        <li class="word-item"><a href="data/5206-task.html"><span class="word-id">5206</span><span class="word-name">task</span><span class="word-meaning">仕事, 任務</span></a></li>
+        <li class="word-item"><a href="data/5207-undertake.html"><span class="word-id">5207</span><span class="word-name">undertake</span><span class="word-meaning">～を引き受ける</span></a></li>
+        <li class="word-item"><a href="data/5208-cage.html"><span class="word-id">5208</span><span class="word-name">cage</span><span class="word-meaning">檻, かご</span></a></li>
+        <li class="word-item"><a href="data/5209-embark.html"><span class="word-id">5209</span><span class="word-name">embark</span><span class="word-meaning">(～に)船出する, 着手する(on～)</span></a></li>
+        <li class="word-item"><a href="data/5210-hesitate.html"><span class="word-id">5210</span><span class="word-name">hesitate</span><span class="word-meaning">(～するのを)ためらう, 躊躇する(to do)</span></a></li>
+        <li class="word-item"><a href="data/5211-pursue.html"><span class="word-id">5211</span><span class="word-name">pursue</span><span class="word-meaning">～を追い求める</span></a></li>
+        <li class="word-item"><a href="data/5212-seek.html"><span class="word-id">5212</span><span class="word-name">seek</span><span class="word-meaning">～を探し求める</span></a></li>
+        <li class="word-item"><a href="data/5213-strive.html"><span class="word-id">5213</span><span class="word-name">strive</span><span class="word-meaning">(～を得ようと)努力する, 奮闘する(for～)</span></a></li>
+        <li class="word-item"><a href="data/5214-assign.html"><span class="word-id">5214</span><span class="word-name">assign</span><span class="word-meaning">～を(…に)割り当てる, 課す(to…)</span></a></li>
+        <li class="word-item"><a href="data/5215-in charge of.html"><span class="word-id">5215</span><span class="word-name">in charge of</span><span class="word-meaning">～を担当して, の責任者で</span></a></li>
+        <li class="word-item"><a href="data/5216-responsible.html"><span class="word-id">5216</span><span class="word-name">responsible</span><span class="word-meaning">(～に対して)責任のある(for～)</span></a></li>
+        <li class="word-item"><a href="data/5217-execute.html"><span class="word-id">5217</span><span class="word-name">execute</span><span class="word-meaning">～を実行する, 果たす； ～を処刑する</span></a></li>
+        <li class="word-item"><a href="data/5218-perform.html"><span class="word-id">5218</span><span class="word-name">perform</span><span class="word-meaning">～を実行する, 果たす, ～を演じる, 上演する</span></a></li>
+        <li class="word-item"><a href="data/5219-performance.html"><span class="word-id">5219</span><span class="word-name">performance</span><span class="word-meaning">実行, 業績, 演技, 演奏</span></a></li>
+        <li class="word-item"><a href="data/5220-obstacle.html"><span class="word-id">5220</span><span class="word-name">obstacle</span><span class="word-meaning">障害, 障害物</span></a></li>
+        <li class="word-item"><a href="data/5221-adverse.html"><span class="word-id">5221</span><span class="word-name">adverse</span><span class="word-meaning">逆境の, 不利な</span></a></li>
+        <li class="word-item"><a href="data/5222-hardship.html"><span class="word-id">5222</span><span class="word-name">hardship</span><span class="word-meaning">苦難, 苦労</span></a></li>
+        <li class="word-item"><a href="data/5223-burden.html"><span class="word-id">5223</span><span class="word-name">burden</span><span class="word-meaning">重荷, 負担</span></a></li>
+        <li class="word-item"><a href="data/5224-overcome.html"><span class="word-id">5224</span><span class="word-name">overcome</span><span class="word-meaning">～を乗り越える, 克服する</span></a></li>
+        <li class="word-item"><a href="data/5225-cope with.html"><span class="word-id">5225</span><span class="word-name">cope with</span><span class="word-meaning">～に取り組む, 対処する</span></a></li>
+        <li class="word-item"><a href="data/5226-tackle.html"><span class="word-id">5226</span><span class="word-name">tackle</span><span class="word-meaning">～に取り組む, 立ち向かう</span></a></li>
+        <li class="word-item"><a href="data/5227-talent.html"><span class="word-id">5227</span><span class="word-name">talent</span><span class="word-meaning">才能</span></a></li>
+        <li class="word-item"><a href="data/5228-gift.html"><span class="word-id">5228</span><span class="word-name">gift</span><span class="word-meaning">贈り物, (生まれつきの)才能</span></a></li>
+        <li class="word-item"><a href="data/5229-ability.html"><span class="word-id">5229</span><span class="word-name">ability</span><span class="word-meaning">能力</span></a></li>
+        <li class="word-item"><a href="data/5230-skill.html"><span class="word-id">5230</span><span class="word-name">skill</span><span class="word-meaning">技術, 能力</span></a></li>
+        <li class="word-item"><a href="data/5231-capable.html"><span class="word-id">5231</span><span class="word-name">capable</span><span class="word-meaning">(～の, する)能力がある(of～, of doing)</span></a></li>
+        <li class="word-item"><a href="data/5232-capacity.html"><span class="word-id">5232</span><span class="word-name">capacity</span><span class="word-meaning">(潜在的な)能力, 受け入れる能力</span></a></li>
+        <li class="word-item"><a href="data/5233-potential.html"><span class="word-id">5233</span><span class="word-name">potential</span><span class="word-meaning">名詞：潜在能力, 可能性； 形容詞：潜在的に可能な</span></a></li>
+        <li class="word-item"><a href="data/5234-effort.html"><span class="word-id">5234</span><span class="word-name">effort</span><span class="word-meaning">努力</span></a></li>
+        <li class="word-item"><a href="data/5235-struggle.html"><span class="word-id">5235</span><span class="word-name">struggle</span><span class="word-meaning">名詞：奮闘, 努力； 動詞：奮闘する, 努力する</span></a></li>
+        <li class="word-item"><a href="data/5236-endeavor.html"><span class="word-id">5236</span><span class="word-name">endeavor</span><span class="word-meaning">名詞：努力, 試み； 動詞：努力する, 試みる</span></a></li>
+        <li class="word-item"><a href="data/5237-persist.html"><span class="word-id">5237</span><span class="word-name">persist</span><span class="word-meaning">ねばる, しつこく主張する(in～)</span></a></li>
+        <li class="word-item"><a href="data/5238-persevere.html"><span class="word-id">5238</span><span class="word-name">persevere</span><span class="word-meaning">ねばる</span></a></li>
+        <li class="word-item"><a href="data/5239-efficient.html"><span class="word-id">5239</span><span class="word-name">efficient</span><span class="word-meaning">効率的な</span></a></li>
+        <li class="word-item"><a href="data/5240-fulfill.html"><span class="word-id">5240</span><span class="word-name">fulfill</span><span class="word-meaning">～(義務・約束)を果たす, 実行する</span></a></li>
+        <li class="word-item"><a href="data/5241-attain.html"><span class="word-id">5241</span><span class="word-name">attain</span><span class="word-meaning">～を達成する, 到達する</span></a></li>
+        <li class="word-item"><a href="data/5242-achieve.html"><span class="word-id">5242</span><span class="word-name">achieve</span><span class="word-meaning">～を達成する</span></a></li>
+        <li class="word-item"><a href="data/5243-accomplish.html"><span class="word-id">5243</span><span class="word-name">accomplish</span><span class="word-meaning">～を成し遂げる, 完成する</span></a></li>
+        <li class="word-item"><a href="data/5244-obtain.html"><span class="word-id">5244</span><span class="word-name">obtain</span><span class="word-meaning">～を手に入れる</span></a></li>
+        <li class="word-item"><a href="data/5245-gain.html"><span class="word-id">5245</span><span class="word-name">gain</span><span class="word-meaning">動詞：～を得る, ～を増す； 名詞：利益, 増加</span></a></li>
+        <li class="word-item"><a href="data/5246-acquire.html"><span class="word-id">5246</span><span class="word-name">acquire</span><span class="word-meaning">～を獲得する, 身につける, 習得する</span></a></li>
+        <li class="word-item"><a href="data/5247-complete.html"><span class="word-id">5247</span><span class="word-name">complete</span><span class="word-meaning">動詞：～を完了する, 完全にする； 形容詞：完全な, 完成した</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5160.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
