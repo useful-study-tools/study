@@ -3,7 +3,11 @@ import os
 import re
 from pathlib import Path
 from glob import glob
-from config import CHAPTER_MAP 
+try:
+    from config import CHAPTER_MAP 
+except ImportError:
+    print("エラー: config.py が見つかりません。")
+    exit()
 
 # ==========================================
 # 0. スラッグ設定 (URL用)
@@ -17,7 +21,7 @@ BOOK_SLUGS = {
 }
 
 # ==========================================
-# 1. HTMLテンプレート (メイン単語用)
+# 1. HTMLテンプレート
 # ==========================================
 HTML_TEMPLATE_MAIN = """<!DOCTYPE html>
 <html lang="ja">
@@ -32,7 +36,6 @@ HTML_TEMPLATE_MAIN = """<!DOCTYPE html>
         body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }}
         .container {{ width: 100%; max-width: 800px; }}
         
-        /* パンくずリスト */
         .breadcrumb {{ margin-bottom: 20px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; box-sizing: border-box; width: 100%; text-align: left; }}
         .breadcrumb a {{ color: var(--primary-color); text-decoration: none; font-weight: bold; }}
         .breadcrumb a:hover {{ text-decoration: underline; }}
@@ -109,7 +112,6 @@ HTML_TEMPLATE_MAIN = """<!DOCTYPE html>
 </body>
 </html>"""
 
-# サブ単語テンプレート（メイン単語と同じだがスタイル色が異なる。リンク色は継承）
 HTML_TEMPLATE_SUB = HTML_TEMPLATE_MAIN.replace("--primary-color: #2c3e50", "--primary-color: #28a745").replace("--accent-color: #f4f7f6", "--accent-color: #f4faf6")
 
 # ==========================================
@@ -130,7 +132,6 @@ def get_source_label(number_str):
         return "不明"
 
 def get_breadcrumb_info(number_str):
-    """番号から、どの単語帳のどの章に属しているかを取得する"""
     try:
         main_val = int(str(number_str).split('-')[0])
         sorted_keys = sorted(CHAPTER_MAP.keys(), reverse=True)
@@ -144,7 +145,6 @@ def get_breadcrumb_info(number_str):
                 else:
                     book_name = "その他"
                     chapter_title = full_label
-                
                 book_slug = BOOK_SLUGS.get(book_name, "others")
                 return book_slug, book_name, key, chapter_title
         return "others", "その他", 0, "不明"
@@ -155,16 +155,13 @@ def load_all_vocabulary_files():
     all_words = []
     base_path = 'english_dictionary'
     json_files = []
-    
     main_json = os.path.join(base_path, 'vocabulary_data.json')
     if os.path.exists(main_json):
         json_files.append(main_json)
-    
     numbered_pattern = os.path.join(base_path, 'vocabulary_data_*.json')
     numbered_files = sorted(glob(numbered_pattern), 
                            key=lambda x: int(re.search(r'_(\d+)\.json', x).group(1)))
     json_files.extend(numbered_files)
-    
     for json_file in json_files:
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
@@ -193,7 +190,6 @@ def generate_word_list(target_words, all_words_data, is_sub_word=False):
             'filename': get_filename(w),
             'label': get_source_label(w['number'])
         })
-
     html = ""
     for w in target_words:
         word_name = w["word"]
@@ -201,34 +197,41 @@ def generate_word_list(target_words, all_words_data, is_sub_word=False):
         trans = w["trans"]
         found_links = word_to_links.get(word_name_lower, [])
         manual_link = w.get('link')
-        
         html += '<div class="list-unit">'
-        
         if manual_link:
-            # リンク色をCSSで制御するためインライン色は排除
             html += f'<a href="{manual_link}"><span class="word-small">{word_name}</span></a>'
         elif found_links:
             for i, link_info in enumerate(found_links):
                 label = link_info['label']
                 suffix = f'<span class="source-tag">{label}</span>' if len(found_links) > 1 else ""
-                html += f'<a href="{link_info["filename"]}">'
-                html += f'<span class="word-small">{word_name}</span>{suffix}</a> '
+                html += f'<a href="{link_info["filename"]}"><span class="word-small">{word_name}</span>{suffix}</a> '
         else:
             html += f'<span class="word-small">{word_name}</span>'
-            
         html += f'<span class="trans-small">({trans})</span></div>\n'
     return html
 
-def generate_example_section(section_title, examples):
+def generate_example_section(section_title, examples, word_info=""):
+    """
+    例文セクションを生成。'en'がない場合は警告を出してスキップする。
+    """
     html = f'        <div class="section-title">{section_title}</div>\n'
     for ex in examples:
+        # --- 安全策: 'en'キーの存在チェック ---
+        if 'en' not in ex or not ex['en']:
+            print(f"⚠️ スキップ: {word_info} の例文に英語('en')がありません。データ: {ex}")
+            continue
+            
         highlight = ex.get('highlight', '')
         en_text = ex['en']
         if highlight:
             en_text = en_text.replace(highlight, f"<strong>{highlight}</strong>")
+            
+        # jaも安全に取得
+        ja_text = ex.get('ja', '')
+        
         html += f'''        <div class="example-item">
             <span class="en">{en_text}</span>
-            <span class="ja">{ex['ja']}</span>
+            <span class="ja">{ja_text}</span>
         </div>\n'''
     return html
 
@@ -239,14 +242,16 @@ def generate_html(data, current_index, sorted_words):
     prev_b = f'<a href="{get_filename(sorted_words[current_index-1])}" class="nav-button">← 前の単語</a>' if current_index > 0 else '<span class="nav-button disabled">← 前の単語</span>'
     next_b = f'<a href="{get_filename(sorted_words[current_index+1])}" class="nav-button">次の単語 →</a>' if current_index < len(sorted_words)-1 else '<span class="nav-button disabled">次の単語 →</span>'
     
+    # 警告表示用の単語識別子
+    word_info = f"[{data['number']} {data['word']}]"
+    
     ex_secs = ""
     if 'example_sections' in data:
         for s in data['example_sections']:
-            ex_secs += generate_example_section(s['title'], s['examples'])
+            ex_secs += generate_example_section(s['title'], s['examples'], word_info)
     else:
-        ex_secs = generate_example_section('例文', data.get('examples', []))
+        ex_secs = generate_example_section('例文', data.get('examples', []), word_info)
         
-    # パンくずリスト用の情報を取得し、HTMLを組み立てる
     book_slug, book_name, chapter_id, chapter_title = get_breadcrumb_info(data['number'])
     breadcrumb_html = f'''<div class="breadcrumb">
             <a href="../../index.html">ホーム</a> &gt; 
@@ -270,7 +275,9 @@ def generate_html(data, current_index, sorted_words):
 
 def main():
     all_words = load_all_vocabulary_files()
-    if not all_words: return
+    if not all_words: 
+        print("エラー: 単語データが見つかりませんでした。")
+        return
     
     sorted_words = sorted(all_words, key=lambda w: parse_number(w['number']))
     output_dir = Path('english_dictionary/data')
@@ -278,10 +285,14 @@ def main():
     
     print(f"HTML生成中... (全 {len(sorted_words)} 件)")
     for index, word_data in enumerate(sorted_words):
-        html_content = generate_html(word_data, index, sorted_words)
-        filepath = output_dir / get_filename(word_data)
-        with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(html_content)
+        try:
+            html_content = generate_html(word_data, index, sorted_words)
+            filepath = output_dir / get_filename(word_data)
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(html_content)
+        except Exception as e:
+            print(f"❌ 致命的エラー: [{word_data.get('number')} {word_data.get('word')}] の生成中にエラーが発生しました: {e}")
+            
     print("✅ すべてのHTMLファイルが english_dictionary/data/ に生成されました。")
 
 if __name__ == '__main__':
