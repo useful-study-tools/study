@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#8	時間 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #8	時間
+    </div>
+    
+    <h2 class="section-title">#8	時間</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5192.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_5295.html" class="nav-btn">次の章 →</a>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5248-temporary.html"><span class="word-id">5248</span><span class="word-name">temporary</span><span class="word-meaning">一時的な, 仮の</span></a></li>
+        <li class="word-item"><a href="data/5249-contemporary.html"><span class="word-id">5249</span><span class="word-name">contemporary</span><span class="word-meaning">同時代の, 現代の</span></a></li>
+        <li class="word-item"><a href="data/5250-permanent.html"><span class="word-id">5250</span><span class="word-name">permanent</span><span class="word-meaning">不変の, 永続する</span></a></li>
+        <li class="word-item"><a href="data/5251-eternal.html"><span class="word-id">5251</span><span class="word-name">eternal</span><span class="word-meaning">永久の, 永遠の</span></a></li>
+        <li class="word-item"><a href="data/5252-rare.html"><span class="word-id">5252</span><span class="word-name">rare</span><span class="word-meaning">稀な, めったにない</span></a></li>
+        <li class="word-item"><a href="data/5253-once in a while.html"><span class="word-id">5253</span><span class="word-name">once in a while</span><span class="word-meaning">たまに</span></a></li>
+        <li class="word-item"><a href="data/5254-occasion.html"><span class="word-id">5254</span><span class="word-name">occasion</span><span class="word-meaning">(on)機会, 場合, 出来事</span></a></li>
+        <li class="word-item"><a href="data/5255-now and then.html"><span class="word-id">5255</span><span class="word-name">now and then</span><span class="word-meaning">時々</span></a></li>
+        <li class="word-item"><a href="data/5256-frequency.html"><span class="word-id">5256</span><span class="word-name">frequency</span><span class="word-meaning">頻度, 頻繁； 周波数</span></a></li>
+        <li class="word-item"><a href="data/5257-constant.html"><span class="word-id">5257</span><span class="word-name">constant</span><span class="word-meaning">絶え間ない, 一定の</span></a></li>
+        <li class="word-item"><a href="data/5258-perpetual.html"><span class="word-id">5258</span><span class="word-name">perpetual</span><span class="word-meaning">絶え間ない, 永久の</span></a></li>
+        <li class="word-item"><a href="data/5259-at the moment.html"><span class="word-id">5259</span><span class="word-name">at the moment</span><span class="word-meaning">今のところは</span></a></li>
+        <li class="word-item"><a href="data/5260-at present.html"><span class="word-id">5260</span><span class="word-name">at present</span><span class="word-meaning">今のところは</span></a></li>
+        <li class="word-item"><a href="data/5261-for the time being.html"><span class="word-id">5261</span><span class="word-name">for the time being</span><span class="word-meaning">ここしばらくは</span></a></li>
+        <li class="word-item"><a href="data/5262-rapid.html"><span class="word-id">5262</span><span class="word-name">rapid</span><span class="word-meaning">急速な</span></a></li>
+        <li class="word-item"><a href="data/5263-immediate.html"><span class="word-id">5263</span><span class="word-name">immediate</span><span class="word-meaning">即座の； 直接の</span></a></li>
+        <li class="word-item"><a href="data/5264-prompt.html"><span class="word-id">5264</span><span class="word-name">prompt</span><span class="word-meaning">形容詞：即座の, 素早い； 動詞：～を(…するよう)促す, 刺激する(to do)</span></a></li>
+        <li class="word-item"><a href="data/5265-abruptly.html"><span class="word-id">5265</span><span class="word-name">abruptly</span><span class="word-meaning">不意に, 突然</span></a></li>
+        <li class="word-item"><a href="data/5266-period.html"><span class="word-id">5266</span><span class="word-name">period</span><span class="word-meaning">期間； 時代； 時限</span></a></li>
+        <li class="word-item"><a href="data/5267-age.html"><span class="word-id">5267</span><span class="word-name">age</span><span class="word-meaning">年齢, 時代</span></a></li>
+        <li class="word-item"><a href="data/5268-era.html"><span class="word-id">5268</span><span class="word-name">era</span><span class="word-meaning">時代</span></a></li>
+        <li class="word-item"><a href="data/5269-epoch.html"><span class="word-id">5269</span><span class="word-name">epoch</span><span class="word-meaning">新時代, 時代の幕開け</span></a></li>
+        <li class="word-item"><a href="data/5270-phase.html"><span class="word-id">5270</span><span class="word-name">phase</span><span class="word-meaning">局面, 面, 段階</span></a></li>
+        <li class="word-item"><a href="data/5271-decade.html"><span class="word-id">5271</span><span class="word-name">decade</span><span class="word-meaning">10年間</span></a></li>
+        <li class="word-item"><a href="data/5272-annual.html"><span class="word-id">5272</span><span class="word-name">annual</span><span class="word-meaning">毎年の, 年に1回の</span></a></li>
+        <li class="word-item"><a href="data/5273-anniversary.html"><span class="word-id">5273</span><span class="word-name">anniversary</span><span class="word-meaning">記念日</span></a></li>
+        <li class="word-item"><a href="data/5274-interval.html"><span class="word-id">5274</span><span class="word-name">interval</span><span class="word-meaning">(時間・空間の)間隔</span></a></li>
+        <li class="word-item"><a href="data/5275-origin.html"><span class="word-id">5275</span><span class="word-name">origin</span><span class="word-meaning">起源, 出生</span></a></li>
+        <li class="word-item"><a href="data/5276-initial.html"><span class="word-id">5276</span><span class="word-name">initial</span><span class="word-meaning">最初の</span></a></li>
+        <li class="word-item"><a href="data/5277-former.html"><span class="word-id">5277</span><span class="word-name">former</span><span class="word-meaning">以前の, 前者の</span></a></li>
+        <li class="word-item"><a href="data/5278-previous.html"><span class="word-id">5278</span><span class="word-name">previous</span><span class="word-meaning">前の</span></a></li>
+        <li class="word-item"><a href="data/5279-precede.html"><span class="word-id">5279</span><span class="word-name">precede</span><span class="word-meaning">～より先行する</span></a></li>
+        <li class="word-item"><a href="data/5280-posterior.html"><span class="word-id">5280</span><span class="word-name">posterior</span><span class="word-meaning">(～より)後の(to～)</span></a></li>
+        <li class="word-item"><a href="data/5281-prior.html"><span class="word-id">5281</span><span class="word-name">prior</span><span class="word-meaning">（～より）前の（to～）</span></a></li>
+        <li class="word-item"><a href="data/5282-advance.html"><span class="word-id">5282</span><span class="word-name">advance</span><span class="word-meaning">前進する, 進歩する； 進歩</span></a></li>
+        <li class="word-item"><a href="data/5283-simultaneous.html"><span class="word-id">5283</span><span class="word-name">simultaneous</span><span class="word-meaning">同時の, 同時に起こる</span></a></li>
+        <li class="word-item"><a href="data/5284-coincide.html"><span class="word-id">5284</span><span class="word-name">coincide</span><span class="word-meaning">(～と)同時に起こる, 一致する(with～)</span></a></li>
+        <li class="word-item"><a href="data/5285-prolong.html"><span class="word-id">5285</span><span class="word-name">prolong</span><span class="word-meaning">～(時間)を延長する</span></a></li>
+        <li class="word-item"><a href="data/5286-postpone.html"><span class="word-id">5286</span><span class="word-name">postpone</span><span class="word-meaning">～(予定)を(…まで)延期する(till[until]…)</span></a></li>
+        <li class="word-item"><a href="data/5287-delay.html"><span class="word-id">5287</span><span class="word-name">delay</span><span class="word-meaning">～を遅らせる； 遅延</span></a></li>
+        <li class="word-item"><a href="data/5288-punctual.html"><span class="word-id">5288</span><span class="word-name">punctual</span><span class="word-meaning">時間に正確な</span></a></li>
+        <li class="word-item"><a href="data/5289-current.html"><span class="word-id">5289</span><span class="word-name">current</span><span class="word-meaning">形容詞：今の； 流通している； 名詞：流れ</span></a></li>
+        <li class="word-item"><a href="data/5290-out of date.html"><span class="word-id">5290</span><span class="word-name">out of date</span><span class="word-meaning">時代遅れの</span></a></li>
+        <li class="word-item"><a href="data/5291-up to date.html"><span class="word-id">5291</span><span class="word-name">up to date</span><span class="word-meaning">最新の</span></a></li>
+        <li class="word-item"><a href="data/5292-ancient.html"><span class="word-id">5292</span><span class="word-name">ancient</span><span class="word-meaning">古代の, 大昔の</span></a></li>
+        <li class="word-item"><a href="data/5293-ancestor.html"><span class="word-id">5293</span><span class="word-name">ancestor</span><span class="word-meaning">先祖</span></a></li>
+        <li class="word-item"><a href="data/5294-primitive.html"><span class="word-id">5294</span><span class="word-name">primitive</span><span class="word-meaning">原始的な, 未開の, 野蛮な</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5192.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_5295.html" class="nav-btn">次の章 →</a>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

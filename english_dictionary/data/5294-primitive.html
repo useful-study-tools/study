@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5294 primitive</title>
+    <link rel="icon" href="/study/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/study/favicon.png">
+    <style>
+        :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        
+        /* パンくずリスト */
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; box-sizing: border-box; width: 100%; text-align: left; }
+        .breadcrumb a { color: var(--primary-color); text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
+        .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
+        .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
+        .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
+        .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
+        .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
+        .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
+        .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
+        .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
+        .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
+        .meaning-jp { font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px; padding: 10px 0; color: var(--text-main); }
+        .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
+        .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
+        .en { display: block; font-weight: 500; color: #444; }
+        .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
+        .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
+        .list-unit { margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+        .list-unit:last-child { border-bottom: none; }
+        .word-small { font-weight: bold; color: #444; }
+        .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
+        .source-tag { font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }
+        .list-unit a { text-decoration: none; color: #4169e1; }
+        .list-unit a:hover { text-decoration: underline; opacity: 0.8; }
+        .list-unit a .word-small { color: inherit !important; }
+
+        @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="../../index.html">ホーム</a> &gt; 
+            <a href="../index.html">英単語帳</a> &gt; 
+            <a href="../others.html">鉄壁</a> &gt; 
+            <a href="../others_5248.html">#8	時間</a> &gt; 
+            5294 primitive
+        </div>
+        <div class="nav-buttons">
+            <a href="5293-ancestor.html" class="nav-button">← 前の単語</a>
+            <a href="5295-economy.html" class="nav-button">次の単語 →</a>
+        </div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 5294</span>
+                <h1 class="word-title">primitive <span class="pos-tag">形容詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">原始的な, 未開の, 野蛮な</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 「文明化されていない」「初期の段階の」という意味です。時に否定的なニュアンスを含みますが、単に「素朴な」という意味でも使われます。
+            </div>
+                    <div class="section-title">例文</div>
+        <div class="example-item">
+            <span class="en"><strong>Primitive</strong> tools were made of stone.</span>
+            <span class="ja">原始的な道具は石で作られていた。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">The living conditions were very <strong>primitive</strong>.</span>
+            <span class="ja">生活環境は非常に原始的だった。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">He has a <strong>primitive</strong> understanding of the subject.</span>
+            <span class="ja">彼はその主題について未熟な理解しか持っていない。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">The tribe lives in a <strong>primitive</strong> society.</span>
+            <span class="ja">その部族は未開社会に暮らしている。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">This camera is <strong>primitive</strong> compared to modern ones.</span>
+            <span class="ja">このカメラは現代のものと比べると原始的だ。</span>
+        </div>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ラテン語 primitivus（最初の）に由来します。
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><a href="5292-ancient.html"><span class="word-small">ancient</span></a> <span class="trans-small">(古代の)</span></div>
+<div class="list-unit"><a href="11789-crude.html"><span class="word-small">crude</span></a> <span class="trans-small">(粗雑な)</span></div>
+<div class="list-unit"><span class="word-small">early</span><span class="trans-small">(初期の)</span></div>
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">advanced</span><span class="trans-small">(先進的な)</span></div>
+<div class="list-unit"><span class="word-small">modern</span><span class="trans-small">(現代の)</span></div>
+<div class="list-unit"><a href="11765-sophisticated.html"><span class="word-small">sophisticated</span></a> <span class="trans-small">(洗練された)</span></div>
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">primitively</span><span class="trans-small">(副詞：原始的に)</span></div>
+<div class="list-unit"><span class="word-small">primitiveness</span><span class="trans-small">(名詞：原始性)</span></div>
+<div class="list-unit"><span class="word-small">primate</span><span class="trans-small">(名詞：霊長類（同語源）)</span></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
