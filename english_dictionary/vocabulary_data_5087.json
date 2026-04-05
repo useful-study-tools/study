@@ -1,0 +1,2534 @@
+{
+  "words": [
+    {
+      "number": 5087,
+      "word": "reveal",
+      "pos": "動詞",
+      "meaning": "～を明らかにする, 暴露する",
+      "nuance": "隠されていた情報や事実を「明らかにする」「暴露する」という意味です。意図的に秘密を公開するニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The investigation revealed a shocking truth.",
+              "ja": "調査は衝撃的な真実を明らかにした。",
+              "highlight": "revealed"
+            },
+            {
+              "en": "He refused to reveal his sources.",
+              "ja": "彼は情報源を明かすことを拒否した。",
+              "highlight": "reveal"
+            },
+            {
+              "en": "The X-ray revealed a fracture in the bone.",
+              "ja": "レントゲン写真で骨のひびが明らかになった。",
+              "highlight": "revealed"
+            },
+            {
+              "en": "She revealed her secret to her best friend.",
+              "ja": "彼女は親友に秘密を打ち明けた。",
+              "highlight": "revealed"
+            },
+            {
+              "en": "The documents reveal a history of corruption.",
+              "ja": "その文書は腐敗の歴史を暴露している。",
+              "highlight": "reveal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 revelare（ベールを取る）に由来します。",
+      "synonyms": [
+        { "word": "disclose", "trans": "開示する" },
+        { "word": "unveil", "trans": "ベールを脱ぐ" },
+        { "word": "expose", "trans": "さらす" }
+      ],
+      "antonyms": [
+        { "word": "conceal", "trans": "隠す" },
+        { "word": "hide", "trans": "隠す" },
+        { "word": "cover", "trans": "覆う" }
+      ],
+      "related": [
+        { "word": "revelation", "trans": "名詞：啓示、暴露" },
+        { "word": "revealing", "trans": "形容詞：暴露する、示唆に富む" },
+        { "word": "veil", "trans": "名詞：ベール" }
+      ]
+    },
+    {
+      "number": 5088,
+      "word": "conceal",
+      "pos": "動詞",
+      "meaning": "～を隠す",
+      "nuance": "「意図的に見えないようにする」「秘密にする」という意味です。'hide'よりもフォーマルで、計画的に隠すニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He tried to conceal his anger, but it was obvious.",
+              "ja": "彼は怒りを隠そうとしたが、明らかだった。",
+              "highlight": "conceal"
+            },
+            {
+              "en": "The documents were concealed in a safe.",
+              "ja": "その書類は金庫に隠されていた。",
+              "highlight": "concealed"
+            },
+            {
+              "en": "She concealed the truth from her parents.",
+              "ja": "彼女は両親から真実を隠した。",
+              "highlight": "concealed"
+            },
+            {
+              "en": "The building is concealed by trees.",
+              "ja": "その建物は木々に隠れている。",
+              "highlight": "concealed"
+            },
+            {
+              "en": "He wore a hat to conceal his identity.",
+              "ja": "彼は身分を隠すために帽子をかぶった。",
+              "highlight": "conceal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 concelare（完全に隠す）に由来します。",
+      "synonyms": [
+        { "word": "hide", "trans": "隠す" },
+        { "word": "mask", "trans": "覆い隠す" },
+        { "word": "disguise", "trans": "変装させる" }
+      ],
+      "antonyms": [
+        { "word": "reveal", "trans": "明らかにする" },
+        { "word": "expose", "trans": "さらす" },
+        { "word": "disclose", "trans": "開示する" }
+      ],
+      "related": [
+        { "word": "concealment", "trans": "名詞：隠蔽" },
+        { "word": "concealed", "trans": "形容詞：隠された" },
+        { "word": "concealer", "trans": "名詞：コンシーラー" }
+      ]
+    },
+    {
+      "number": 5089,
+      "word": "expose",
+      "pos": "動詞",
+      "meaning": "～をさらす",
+      "nuance": "「覆いを取って外に出す」「危険や影響にさらす」という意味です。写真の「露出」もこの単語です。また、悪事を「暴露する」意味でも使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The report exposed the corruption in the government.",
+              "ja": "その報告書は政府の腐敗を暴露した。",
+              "highlight": "exposed"
+            },
+            {
+              "en": "Don't expose your skin to the sun for too long.",
+              "ja": "肌を長時間太陽にさらさないでください。",
+              "highlight": "expose"
+            },
+            {
+              "en": "The scandal was exposed by a journalist.",
+              "ja": "そのスキャンダルはジャーナリストによって暴露された。",
+              "highlight": "exposed"
+            },
+            {
+              "en": "He exposed himself to unnecessary risk.",
+              "ja": "彼は不必要なリスクに身をさらした。",
+              "highlight": "exposed"
+            },
+            {
+              "en": "The photograph was overexposed.",
+              "ja": "その写真は露出オーバーだった。",
+              "highlight": "exposed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 exponere（外に置く）から来ています。",
+      "synonyms": [
+        { "word": "reveal", "trans": "明らかにする" },
+        { "word": "uncover", "trans": "覆いを取る" },
+        { "word": "disclose", "trans": "開示する" }
+      ],
+      "antonyms": [
+        { "word": "conceal", "trans": "隠す" },
+        { "word": "cover", "trans": "覆う" },
+        { "word": "protect", "trans": "保護する" }
+      ],
+      "related": [
+        { "word": "exposure", "trans": "名詞：露出、暴露" },
+        { "word": "exposed", "trans": "形容詞：さらされた" },
+        { "word": "exposition", "trans": "名詞：展示、解説" }
+      ]
+    },
+    {
+      "number": 5090,
+      "word": "impose",
+      "pos": "動詞",
+      "meaning": "～を(…に)課す, 押しつける(on[upon]…)",
+      "nuance": "「義務や罰則などを一方的に負わせる」という意味です。また「迷惑をかける」というニュアンスでも使われます（impose on someone）。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The government imposed a new tax on luxury goods.",
+              "ja": "政府は贅沢品に新たな税金を課した。",
+              "highlight": "imposed"
+            },
+            {
+              "en": "Don't impose your opinions on others.",
+              "ja": "自分の意見を他人に押し付けないでください。",
+              "highlight": "impose"
+            },
+            {
+              "en": "The judge imposed a heavy sentence.",
+              "ja": "裁判官は重い判決を下した。",
+              "highlight": "imposed"
+            },
+            {
+              "en": "I hope I'm not imposing on your hospitality.",
+              "ja": "ご迷惑でなければいいのですが。",
+              "highlight": "imposing"
+            },
+            {
+              "en": "Sanctions were imposed on the country.",
+              "ja": "その国に制裁が課せられた。",
+              "highlight": "imposed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 imponere（上に置く）に由来します。",
+      "synonyms": [
+        { "word": "levy", "trans": "課す" },
+        { "word": "force", "trans": "強いる" },
+        { "word": "inflict", "trans": "与える" }
+      ],
+      "antonyms": [
+        { "word": "remove", "trans": "取り除く" },
+        { "word": "lift", "trans": "解除する" },
+        { "word": "exempt", "trans": "免除する" }
+      ],
+      "related": [
+        { "word": "imposition", "trans": "名詞：課税、押し付け" },
+        { "word": "imposing", "trans": "形容詞：印象的な" },
+        { "word": "impostor", "trans": "名詞：なりすまし" }
+      ]
+    },
+    {
+      "number": 5091,
+      "word": "divide",
+      "pos": "動詞",
+      "meaning": "～を分割する",
+      "nuance": "「一つのものを複数の部分に分ける」という意味です。意見の「分裂」や、数学の「割り算」でも使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Divide the cake into eight equal pieces.",
+              "ja": "ケーキを8等分にしてください。",
+              "highlight": "Divide"
+            },
+            {
+              "en": "The river divides the city into two parts.",
+              "ja": "その川は街を二つに分けている。",
+              "highlight": "divides"
+            },
+            {
+              "en": "The issue divided the nation.",
+              "ja": "その問題は国を二分した。",
+              "highlight": "divided"
+            },
+            {
+              "en": "Let's divide the work among the team members.",
+              "ja": "チームメンバーで仕事を分担しよう。",
+              "highlight": "divide"
+            },
+            {
+              "en": "If you divide 10 by 2, you get 5.",
+              "ja": "10を2で割ると5になる。",
+              "highlight": "divide"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 dividere（分離する）に由来します。",
+      "synonyms": [
+        { "word": "separate", "trans": "分離する" },
+        { "word": "split", "trans": "分割する" },
+        { "word": "partition", "trans": "分割する" }
+      ],
+      "antonyms": [
+        { "word": "unite", "trans": "団結させる" },
+        { "word": "combine", "trans": "結合する" },
+        { "word": "merge", "trans": "合併する" }
+      ],
+      "related": [
+        { "word": "division", "trans": "名詞：分割、部門" },
+        { "word": "dividend", "trans": "名詞：配当" },
+        { "word": "individual", "trans": "形容詞：個々の" }
+      ]
+    },
+    {
+      "number": 5092,
+      "word": "diffuse",
+      "pos": "動詞 / 形容詞",
+      "meaning": "動詞：～をまき散らす, 分散する； 形容詞：拡散した",
+      "nuance": "「広く散らばる」「光や熱が拡散する」という意味です。動詞としては「散らす」、形容詞としては「拡散した、あちこちに広がった」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The perfume diffused throughout the room.",
+              "ja": "香水の香りが部屋中に広がった。",
+              "highlight": "diffused"
+            },
+            {
+              "en": "The light was soft and diffused.",
+              "ja": "その光は柔らかく拡散していた。",
+              "highlight": "diffused"
+            },
+            {
+              "en": "The organization's structure is too diffuse.",
+              "ja": "その組織の構造はあまりにも拡散的だ。",
+              "highlight": "diffuse"
+            },
+            {
+              "en": "The heat diffuses slowly through the material.",
+              "ja": "熱はその素材の中をゆっくりと拡散する。",
+              "highlight": "diffuses"
+            },
+            {
+              "en": "He tried to diffuse the tension with a joke.",
+              "ja": "彼は冗談で緊張を和らげようとした。",
+              "highlight": "diffuse"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 diffusus（広がった）に由来します。",
+      "synonyms": [
+        { "word": "spread", "trans": "広げる" },
+        { "word": "disperse", "trans": "散らす" },
+        { "word": "scatter", "trans": "まき散らす" }
+      ],
+      "antonyms": [
+        { "word": "concentrate", "trans": "集中させる" },
+        { "word": "gather", "trans": "集める" },
+        { "word": "focus", "trans": "焦点を合わせる" }
+      ],
+      "related": [
+        { "word": "diffusion", "trans": "名詞：拡散" },
+        { "word": "diffusely", "trans": "副詞：拡散して" },
+        { "word": "diffuser", "trans": "名詞：拡散器" }
+      ]
+    },
+    {
+      "number": 5093,
+      "word": "scatter",
+      "pos": "動詞",
+      "meaning": "～をまき散らす",
+      "nuance": "「あちこちにバラバラに投げ散らす」という意味です。風が葉を散らすイメージです。集団が「散り散りになる」時にも使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The wind scattered the leaves across the lawn.",
+              "ja": "風が葉っぱを芝生中に散らした。",
+              "highlight": "scattered"
+            },
+            {
+              "en": "The crowd scattered when the police arrived.",
+              "ja": "警察が到着すると群衆は散り散りになった。",
+              "highlight": "scattered"
+            },
+            {
+              "en": "She scattered seeds in the garden.",
+              "ja": "彼女は庭に種をまき散らした。",
+              "highlight": "scattered"
+            },
+            {
+              "en": "The papers were scattered all over the floor.",
+              "ja": "書類が床一面に散らばっていた。",
+              "highlight": "scattered"
+            },
+            {
+              "en": "He scattered his money carelessly.",
+              "ja": "彼は注意深くお金をばらまいた。",
+              "highlight": "scattered"
+            }
+          ]
+        }
+      ],
+      "etymology": "中英語 scateren（散らす）に由来します。",
+      "synonyms": [
+        { "word": "disperse", "trans": "分散する" },
+        { "word": "spread", "trans": "広げる" },
+        { "word": "strew", "trans": "まく" }
+      ],
+      "antonyms": [
+        { "word": "gather", "trans": "集める" },
+        { "word": "collect", "trans": "収集する" },
+        { "word": "concentrate", "trans": "集中させる" }
+      ],
+      "related": [
+        { "word": "scattered", "trans": "形容詞：散らばった" },
+        { "word": "scattering", "trans": "名詞：散乱" },
+        { "word": "scatterbrain", "trans": "名詞：うっかり者" }
+      ]
+    },
+    {
+      "number": 5094,
+      "word": "spread",
+      "pos": "動詞",
+      "meaning": "広がる, 普及する",
+      "nuance": "「範囲を広げる」「表面に塗り広げる」という意味です。病気や情報の「広がり」、バターを「塗る」時にも使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The fire spread quickly through the building.",
+              "ja": "火は建物中に急速に広がった。",
+              "highlight": "spread"
+            },
+            {
+              "en": "She spread butter on the toast.",
+              "ja": "彼女はトーストにバターを塗った。",
+              "highlight": "spread"
+            },
+            {
+              "en": "The news spread like wildfire.",
+              "ja": "その知らせは野火のように広まった。",
+              "highlight": "spread"
+            },
+            {
+              "en": "The bird spread its wings.",
+              "ja": "鳥は翼を広げた。",
+              "highlight": "spread"
+            },
+            {
+              "en": "The disease has spread to other countries.",
+              "ja": "その病気は他の国々に広がった。",
+              "highlight": "spread"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 spreadan（広げる）に由来します。",
+      "synonyms": [
+        { "word": "disperse", "trans": "散らす" },
+        { "word": "diffuse", "trans": "拡散する" },
+        { "word": "circulate", "trans": "循環する" }
+      ],
+      "antonyms": [
+        { "word": "contain", "trans": "封じ込める" },
+        { "word": "gather", "trans": "集める" },
+        { "word": "concentrate", "trans": "集中させる" }
+      ],
+      "related": [
+        { "word": "spreadsheet", "trans": "名詞：表計算ソフト" },
+        { "word": "widespread", "trans": "形容詞：広範囲な" },
+        { "word": "spreader", "trans": "名詞：散布機" }
+      ]
+    },
+    {
+      "number": 5095,
+      "word": "bend",
+      "pos": "動詞",
+      "meaning": "～を曲げる",
+      "nuance": "「まっすぐなものを曲げる」「体を曲げる」という意味です。物理的に力を加えて変形させるイメージです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He bent the metal bar with his bare hands.",
+              "ja": "彼は素手で金属の棒を曲げた。",
+              "highlight": "bent"
+            },
+            {
+              "en": "She bent down to pick up the coin.",
+              "ja": "彼女はかがんでコインを拾った。",
+              "highlight": "bent"
+            },
+            {
+              "en": "The road bends to the left.",
+              "ja": "道路は左に曲がっている。",
+              "highlight": "bends"
+            },
+            {
+              "en": "He refused to bend to their demands.",
+              "ja": "彼は彼らの要求に屈することを拒否した。",
+              "highlight": "bend"
+            },
+            {
+              "en": "Bend your knees when you lift heavy objects.",
+              "ja": "重いものを持ち上げる時は膝を曲げなさい。",
+              "highlight": "Bend"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 bendan（弓を張る）に由来します。",
+      "synonyms": [
+        { "word": "curve", "trans": "曲げる" },
+        { "word": "twist", "trans": "ねじる" },
+        { "word": "flex", "trans": "曲げる" }
+      ],
+      "antonyms": [
+        { "word": "straighten", "trans": "まっすぐにする" },
+        { "word": "stiffen", "trans": "硬くする" },
+        { "word": "flatten", "trans": "平らにする" }
+      ],
+      "related": [
+        { "word": "bent", "trans": "形容詞：曲がった" },
+        { "word": "bender", "trans": "名詞：飲酒騒ぎ" },
+        { "word": "bendable", "trans": "形容詞：曲げられる" }
+      ]
+    },
+    {
+      "number": 5096,
+      "word": "incline",
+      "pos": "動詞",
+      "meaning": "～を傾ける, (…したい)気持ちにさせる(to do)",
+      "nuance": "「傾ける」「斜面にする」という物理的な意味と、「～する傾向がある」「～したくなる」という心理的な意味があります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He inclined his head in agreement.",
+              "ja": "彼は同意して頭を傾けた。",
+              "highlight": "inclined"
+            },
+            {
+              "en": "The road inclines steeply here.",
+              "ja": "ここで道路は急に傾斜している。",
+              "highlight": "inclines"
+            },
+            {
+              "en": "I am inclined to believe her.",
+              "ja": "私は彼女の言うことを信じる気持ちが強い。",
+              "highlight": "inclined"
+            },
+            {
+              "en": "The bad weather inclines me to stay home.",
+              "ja": "悪天候なので家にいたい気分だ。",
+              "highlight": "inclines"
+            },
+            {
+              "en": "She inclined towards a different opinion.",
+              "ja": "彼女は異なる意見に傾いていた。",
+              "highlight": "inclined"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 inclinare（傾ける）に由来します。",
+      "synonyms": [
+        { "word": "lean", "trans": "傾く" },
+        { "word": "tilt", "trans": "傾ける" },
+        { "word": "tend", "trans": "傾向がある" }
+      ],
+      "antonyms": [
+        { "word": "disincline", "trans": "嫌がらせる" },
+        { "word": "level", "trans": "平らにする" },
+        { "word": "straighten", "trans": "まっすぐにする" }
+      ],
+      "related": [
+        { "word": "inclination", "trans": "名詞：傾き、好み" },
+        { "word": "inclined", "trans": "形容詞：傾いた、～したい" },
+        { "word": "decline", "trans": "動詞：断る、下る" }
+      ]
+    },
+    {
+      "number": 5097,
+      "word": "lean",
+      "pos": "動詞 / 形容詞",
+      "meaning": "動詞：(～に)寄りかかる, もたれる(on[against]～)； 形容詞：やせた, 脂肪の少ない",
+      "nuance": "動詞では「体重をかけて支えにする」。形容詞では「肉が少ない」「無駄のない」という意味です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She leaned against the wall.",
+              "ja": "彼女は壁に寄りかかった。",
+              "highlight": "leaned"
+            },
+            {
+              "en": "He leaned over to whisper in my ear.",
+              "ja": "彼は身をかがめて私の耳にささやいた。",
+              "highlight": "leaned"
+            },
+            {
+              "en": "I eat only lean meat.",
+              "ja": "私は赤身の肉だけを食べる。",
+              "highlight": "lean"
+            },
+            {
+              "en": "The company went through lean years.",
+              "ja": "その会社は不況の年を経験した。",
+              "highlight": "lean"
+            },
+            {
+              "en": "Don't lean on me for support.",
+              "ja": "私に寄りかからないで。",
+              "highlight": "lean"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 hleonian（寄りかかる）に由来します。",
+      "synonyms": [
+        { "word": "rest", "trans": "もたれる" },
+        { "word": "recline", "trans": "寄りかかる" },
+        { "word": "thin", "trans": "痩せた" }
+      ],
+      "antonyms": [
+        { "word": "fat", "trans": "脂肪の多い" },
+        { "word": "plump", "trans": "ぽっちゃりした" },
+        { "word": "stand", "trans": "立つ" }
+      ],
+      "related": [
+        { "word": "leaning", "trans": "名詞：傾向" },
+        { "word": "leanness", "trans": "名詞：痩せ" },
+        { "word": "lean-to", "trans": "名詞：片流れの屋根" }
+      ]
+    },
+    {
+      "number": 5098,
+      "word": "erect",
+      "pos": "動詞 / 形容詞",
+      "meaning": "動詞：～を直立させる, 建てる； 形容詞：直立した",
+      "nuance": "動詞では「建物などを建てる」「直立させる」。形容詞では「まっすぐ立っている」という意味です。フォーマルな単語です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They erected a monument in the park.",
+              "ja": "彼らは公園に記念碑を建てた。",
+              "highlight": "erected"
+            },
+            {
+              "en": "The dog's ears were erect.",
+              "ja": "その犬の耳は立っていた。",
+              "highlight": "erect"
+            },
+            {
+              "en": "The flagpole was erected in the center of the square.",
+              "ja": "旗竿は広場の中央に立てられた。",
+              "highlight": "erected"
+            },
+            {
+              "en": "He stood erect despite his age.",
+              "ja": "彼は年齢にもかかわらず背筋を伸ばして立っていた。",
+              "highlight": "erect"
+            },
+            {
+              "en": "The company erected a new factory.",
+              "ja": "その会社は新しい工場を建設した。",
+              "highlight": "erected"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 erigere（起こす、建てる）に由来します。",
+      "synonyms": [
+        { "word": "build", "trans": "建てる" },
+        { "word": "construct", "trans": "建設する" },
+        { "word": "raise", "trans": "上げる" }
+      ],
+      "antonyms": [
+        { "word": "demolish", "trans": "取り壊す" },
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "flatten", "trans": "平らにする" }
+      ],
+      "related": [
+        { "word": "erection", "trans": "名詞：建設、勃起" },
+        { "word": "erectile", "trans": "形容詞：勃起性の" },
+        { "word": "erector", "trans": "名詞：建設者" }
+      ]
+    },
+    {
+      "number": 5099,
+      "word": "emit",
+      "pos": "動詞",
+      "meaning": "～を放出する, 排出する",
+      "nuance": "「光、熱、音、匂いなどを外に出す」という意味です。科学的な文脈でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The lamp emits a soft glow.",
+              "ja": "そのランプは柔らかな光を放つ。",
+              "highlight": "emits"
+            },
+            {
+              "en": "The factory emits harmful gases.",
+              "ja": "その工場は有害なガスを排出している。",
+              "highlight": "emits"
+            },
+            {
+              "en": "This device emits a high-pitched sound.",
+              "ja": "この装置は高い音を発する。",
+              "highlight": "emits"
+            },
+            {
+              "en": "The flower emits a pleasant fragrance.",
+              "ja": "その花は心地よい香りを放つ。",
+              "highlight": "emits"
+            },
+            {
+              "en": "The sun emits vast amounts of energy.",
+              "ja": "太陽は膨大なエネルギーを放出している。",
+              "highlight": "emits"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 emittere（送り出す）に由来します。",
+      "synonyms": [
+        { "word": "discharge", "trans": "放出する" },
+        { "word": "release", "trans": "放出する" },
+        { "word": "radiate", "trans": "放射する" }
+      ],
+      "antonyms": [
+        { "word": "absorb", "trans": "吸収する" },
+        { "word": "contain", "trans": "封じ込める" },
+        { "word": "retain", "trans": "保持する" }
+      ],
+      "related": [
+        { "word": "emission", "trans": "名詞：放出、排出" },
+        { "word": "emitter", "trans": "名詞：放出体" },
+        { "word": "omit", "trans": "動詞：省く" }
+      ]
+    },
+    {
+      "number": 5100,
+      "word": "absorb",
+      "pos": "動詞",
+      "meaning": "～を吸収する",
+      "nuance": "「液体やエネルギーなどを内部に取り込む」という意味です。比喩的に「情報を吸収する」「夢中になる」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Plants absorb water through their roots.",
+              "ja": "植物は根から水を吸収する。",
+              "highlight": "absorb"
+            },
+            {
+              "en": "The black surface absorbs heat.",
+              "ja": "黒い表面は熱を吸収する。",
+              "highlight": "absorbs"
+            },
+            {
+              "en": "He was completely absorbed in his book.",
+              "ja": "彼は本に完全に夢中になっていた。",
+              "highlight": "absorbed"
+            },
+            {
+              "en": "The company was absorbed by a larger firm.",
+              "ja": "その会社はより大きな企業に吸収された。",
+              "highlight": "absorbed"
+            },
+            {
+              "en": "She can absorb information quickly.",
+              "ja": "彼女は素早く情報を吸収できる。",
+              "highlight": "absorb"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 absorbere（吸い込む）に由来します。",
+      "synonyms": [
+        { "word": "soak up", "trans": "吸収する" },
+        { "word": "take in", "trans": "取り込む" },
+        { "word": "assimilate", "trans": "同化する" }
+      ],
+      "antonyms": [
+        { "word": "emit", "trans": "放出する" },
+        { "word": "reflect", "trans": "反射する" },
+        { "word": "exude", "trans": "にじみ出す" }
+      ],
+      "related": [
+        { "word": "absorption", "trans": "名詞：吸収" },
+        { "word": "absorbent", "trans": "形容詞：吸収性の" },
+        { "word": "absorbing", "trans": "形容詞：夢中にさせる" }
+      ]
+    },
+    {
+      "number": 5101,
+      "word": "attract",
+      "pos": "動詞",
+      "meaning": "～を惹(引)き付ける, 魅了する",
+      "nuance": "「物理的に引き寄せる」「興味や関心を引く」という意味です。磁石が鉄を引き寄せるイメージです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The museum attracts many visitors every year.",
+              "ja": "その美術館は毎年多くの訪問者を惹きつける。",
+              "highlight": "attracts"
+            },
+            {
+              "en": "Magnets attract iron.",
+              "ja": "磁石は鉄を引き付ける。",
+              "highlight": "attract"
+            },
+            {
+              "en": "Her beauty attracted his attention.",
+              "ja": "彼女の美しさが彼の注意を引いた。",
+              "highlight": "attracted"
+            },
+            {
+              "en": "The new product is attracting a lot of interest.",
+              "ja": "その新製品は多くの関心を集めている。",
+              "highlight": "attracting"
+            },
+            {
+              "en": "He was attracted to her from the start.",
+              "ja": "彼は最初から彼女に惹かれていた。",
+              "highlight": "attracted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 attrahere（引き寄せる）に由来します。",
+      "synonyms": [
+        { "word": "draw", "trans": "引き付ける" },
+        { "word": "captivate", "trans": "魅了する" },
+        { "word": "charm", "trans": "魅了する" }
+      ],
+      "antonyms": [
+        { "word": "repel", "trans": "はねつける" },
+        { "word": "deter", "trans": "思いとどまらせる" },
+        { "word": "discourage", "trans": "落胆させる" }
+      ],
+      "related": [
+        { "word": "attraction", "trans": "名詞：魅力、引力" },
+        { "word": "attractive", "trans": "形容詞：魅力的な" },
+        { "word": "attractor", "trans": "名詞：引き付けるもの" }
+      ]
+    },
+    {
+      "number": 5102,
+      "word": "extract",
+      "pos": "動詞 / 名詞",
+      "meaning": "動詞：～を抜き出す, 抽出する； 名詞：抽出物",
+      "nuance": "「中から無理に取り出す」「力を入れて引き抜く」という意味です。歯を抜く、情報を引き出すなどに使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The dentist extracted my wisdom tooth.",
+              "ja": "歯医者が私の親知らずを抜いた。",
+              "highlight": "extracted"
+            },
+            {
+              "en": "We need to extract the relevant data.",
+              "ja": "関連するデータを抽出する必要がある。",
+              "highlight": "extract"
+            },
+            {
+              "en": "Vanilla extract is used in baking.",
+              "ja": "バニラエッセンスはお菓子作りに使われる。",
+              "highlight": "extract"
+            },
+            {
+              "en": "The police extracted a confession from him.",
+              "ja": "警察は彼から自白を引き出した。",
+              "highlight": "extracted"
+            },
+            {
+              "en": "Oil is extracted from the ground.",
+              "ja": "石油は地下から採掘される。",
+              "highlight": "extracted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 extrahere（外に引き出す）に由来します。",
+      "synonyms": [
+        { "word": "remove", "trans": "取り除く" },
+        { "word": "pull out", "trans": "抜き出す" },
+        { "word": "derive", "trans": "抽出する" }
+      ],
+      "antonyms": [
+        { "word": "insert", "trans": "挿入する" },
+        { "word": "embed", "trans": "埋め込む" },
+        { "word": "add", "trans": "加える" }
+      ],
+      "related": [
+        { "word": "extraction", "trans": "名詞：抽出、抜歯" },
+        { "word": "extractor", "trans": "名詞：抽出器" },
+        { "word": "extractive", "trans": "形容詞：抽出の" }
+      ]
+    },
+    {
+      "number": 5103,
+      "word": "aim",
+      "pos": "名詞 / 動詞",
+      "meaning": "名詞：目標, 目的； 動詞：(～を)狙う, 目標とする(at～)",
+      "nuance": "「目標に向かって狙いを定める」という意味です。物理的に的を狙う時も、抽象的な目標を設定する時も使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "My aim is to become a doctor.",
+              "ja": "私の目標は医者になることです。",
+              "highlight": "aim"
+            },
+            {
+              "en": "He aimed the gun at the target.",
+              "ja": "彼は銃を標的に向けた。",
+              "highlight": "aimed"
+            },
+            {
+              "en": "This policy aims to reduce pollution.",
+              "ja": "この政策は汚染を減らすことを目的としている。",
+              "highlight": "aims"
+            },
+            {
+              "en": "She aimed for perfection in everything.",
+              "ja": "彼女は全てにおいて完璧を目指した。",
+              "highlight": "aimed"
+            },
+            {
+              "en": "His aim was accurate and he hit the bullseye.",
+              "ja": "彼の狙いは正確で、ど真ん中を射た。",
+              "highlight": "aim"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 esmer（見積もる）から来ています。",
+      "synonyms": [
+        { "word": "goal", "trans": "目標" },
+        { "word": "objective", "trans": "目的" },
+        { "word": "target", "trans": "標的" }
+      ],
+      "antonyms": [
+        { "word": "randomness", "trans": "無作為" },
+        { "word": "aimlessness", "trans": "無目的" },
+        { "word": "avoid", "trans": "避ける" }
+      ],
+      "related": [
+        { "word": "aimless", "trans": "形容詞：目的のない" },
+        { "word": "aimlessly", "trans": "副詞：目的もなく" },
+        { "word": "aiming", "trans": "名詞：照準" }
+      ]
+    },
+    {
+      "number": 5104,
+      "word": "penetrate",
+      "pos": "動詞",
+      "meaning": "～を貫通する, ～に浸透する； 貫通する（through～）",
+      "nuance": "「固いものを通り抜ける」「中に入り込む」という意味です。物理的な貫通から、比喩的に「見抜く」「理解する」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The bullet penetrated the wall.",
+              "ja": "銃弾は壁を貫通した。",
+              "highlight": "penetrated"
+            },
+            {
+              "en": "The light could not penetrate the thick fog.",
+              "ja": "光は濃い霧を貫通できなかった。",
+              "highlight": "penetrate"
+            },
+            {
+              "en": "The company hopes to penetrate the Asian market.",
+              "ja": "その会社はアジア市場に浸透することを望んでいる。",
+              "highlight": "penetrate"
+            },
+            {
+              "en": "He tried to penetrate her thoughts.",
+              "ja": "彼は彼女の考えを見抜こうとした。",
+              "highlight": "penetrate"
+            },
+            {
+              "en": "The knife penetrated deeply into his flesh.",
+              "ja": "ナイフは彼の肉に深く突き刺さった。",
+              "highlight": "penetrated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 penetrare（中に入る）に由来します。",
+      "synonyms": [
+        { "word": "pierce", "trans": "突き刺す" },
+        { "word": "puncture", "trans": "穴を開ける" },
+        { "word": "permeate", "trans": "浸透する" }
+      ],
+      "antonyms": [
+        { "word": "block", "trans": "遮る" },
+        { "word": "repel", "trans": "はね返す" },
+        { "word": "seal", "trans": "密閉する" }
+      ],
+      "related": [
+        { "word": "penetration", "trans": "名詞：貫通" },
+        { "word": "penetrating", "trans": "形容詞：鋭い" },
+        { "word": "penetrative", "trans": "形容詞：貫通力のある" }
+      ]
+    },
+    {
+      "number": 5105,
+      "word": "thrust",
+      "pos": "動詞",
+      "meaning": "～を(ぐいっと)押し付ける, 突っ込む, 突き刺す",
+      "nuance": "「急に強く押す」「突き刺す」という意味です。力強い動作を表します。剣での突きや、ポケットに手を突っ込む時などに使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He thrust his hands into his pockets.",
+              "ja": "彼は手をポケットに突っ込んだ。",
+              "highlight": "thrust"
+            },
+            {
+              "en": "The knight thrust his sword into the dragon.",
+              "ja": "騎士は剣を竜に突き刺した。",
+              "highlight": "thrust"
+            },
+            {
+              "en": "She thrust the letter into my hand.",
+              "ja": "彼女は手紙を私の手に押し付けた。",
+              "highlight": "thrust"
+            },
+            {
+              "en": "He was thrust into a position of leadership.",
+              "ja": "彼はリーダーの立場に押し上げられた。",
+              "highlight": "thrust"
+            },
+            {
+              "en": "The knife thrust deeply into his back.",
+              "ja": "ナイフが彼の背中に深く突き刺さった。",
+              "highlight": "thrust"
+            }
+          ]
+        }
+      ],
+      "etymology": "古ノルド語 thrýsta（押す）に由来します。",
+      "synonyms": [
+        { "word": "push", "trans": "押す" },
+        { "word": "shove", "trans": "押しやる" },
+        { "word": "stab", "trans": "突き刺す" }
+      ],
+      "antonyms": [
+        { "word": "pull", "trans": "引く" },
+        { "word": "withdraw", "trans": "引き出す" },
+        { "word": "retract", "trans": "引っ込める" }
+      ],
+      "related": [
+        { "word": "thrusting", "trans": "名詞：突き" },
+        { "word": "thruster", "trans": "名詞：推進器" },
+        { "word": "upthrust", "trans": "名詞：上昇力" }
+      ]
+    },
+    {
+      "number": 5106,
+      "word": "insert",
+      "pos": "動詞",
+      "meaning": "～を挿入する",
+      "nuance": "「間や中に差し入れる」という意味です。機械にコインを入れたり、文書に文字を挿入したりする時に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Insert the coin into the slot.",
+              "ja": "硬貨をスロットに挿入してください。",
+              "highlight": "Insert"
+            },
+            {
+              "en": "She inserted a comment in the margin.",
+              "ja": "彼女は余白にコメントを挿入した。",
+              "highlight": "inserted"
+            },
+            {
+              "en": "The needle was inserted into the vein.",
+              "ja": "針が静脈に挿入された。",
+              "highlight": "inserted"
+            },
+            {
+              "en": "You can insert a new row in the spreadsheet.",
+              "ja": "表計算ソフトに新しい行を挿入できます。",
+              "highlight": "insert"
+            },
+            {
+              "en": "He inserted the key into the lock.",
+              "ja": "彼は鍵を錠に差し込んだ。",
+              "highlight": "inserted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 inserere（中に入れる）に由来します。",
+      "synonyms": [
+        { "word": "introduce", "trans": "導入する" },
+        { "word": "place", "trans": "置く" },
+        { "word": "inject", "trans": "注射する" }
+      ],
+      "antonyms": [
+        { "word": "remove", "trans": "取り除く" },
+        { "word": "extract", "trans": "抜き出す" },
+        { "word": "delete", "trans": "削除する" }
+      ],
+      "related": [
+        { "word": "insertion", "trans": "名詞：挿入" },
+        { "word": "insertable", "trans": "形容詞：挿入可能な" },
+        { "word": "inserter", "trans": "名詞：挿入機" }
+      ]
+    },
+    {
+      "number": 5107,
+      "word": "grasp",
+      "pos": "動詞 / 名詞",
+      "meaning": "動詞：～を掴む, 握る； 理解する； 名詞：把握, 理解",
+      "nuance": "「手でしっかり掴む」という物理的な意味と、「概念をしっかり理解する」という比喩的な意味の両方があります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He grasped the rope tightly.",
+              "ja": "彼はロープをしっかり掴んだ。",
+              "highlight": "grasped"
+            },
+            {
+              "en": "She grasped the meaning of the poem.",
+              "ja": "彼女はその詩の意味を理解した。",
+              "highlight": "grasped"
+            },
+            {
+              "en": "The idea is beyond my grasp.",
+              "ja": "その考えは私には理解できない。",
+              "highlight": "grasp"
+            },
+            {
+              "en": "He grasped the opportunity with both hands.",
+              "ja": "彼はその機会を両手で掴んだ。",
+              "highlight": "grasped"
+            },
+            {
+              "en": "I finally grasped the concept.",
+              "ja": "私はようやくその概念を理解した。",
+              "highlight": "grasped"
+            }
+          ]
+        }
+      ],
+      "etymology": "中英語 graspen（掴む）に由来します。",
+      "synonyms": [
+        { "word": "grip", "trans": "握る" },
+        { "word": "clutch", "trans": "しっかり掴む" },
+        { "word": "understand", "trans": "理解する" }
+      ],
+      "antonyms": [
+        { "word": "release", "trans": "放す" },
+        { "word": "let go", "trans": "手放す" },
+        { "word": "misunderstand", "trans": "誤解する" }
+      ],
+      "related": [
+        { "word": "grasping", "trans": "形容詞：欲張りの" },
+        { "word": "graspable", "trans": "形容詞：掴める" },
+        { "word": "graspingly", "trans": "副詞：欲張って" }
+      ]
+    },
+    {
+      "number": 5108,
+      "word": "grab",
+      "pos": "動詞",
+      "meaning": "～を掴む",
+      "nuance": "「急に乱暴に掴む」「奪い取る」というニュアンスがあります。'grasp'よりも素早く、時に無作法なイメージです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He grabbed my arm and pulled me aside.",
+              "ja": "彼は私の腕を掴んで脇に引っ張った。",
+              "highlight": "grabbed"
+            },
+            {
+              "en": "She grabbed a sandwich and ran out.",
+              "ja": "彼女はサンドイッチを掴んで飛び出した。",
+              "highlight": "grabbed"
+            },
+            {
+              "en": "The thief grabbed her purse and fled.",
+              "ja": "泥棒は彼女の財布を奪って逃げた。",
+              "highlight": "grabbed"
+            },
+            {
+              "en": "Let's grab a coffee before the meeting.",
+              "ja": "会議の前にコーヒーをさっと飲もう。",
+              "highlight": "grab"
+            },
+            {
+              "en": "The opportunity was there for the taking, so he grabbed it.",
+              "ja": "機会はそこにあったので、彼はそれを掴んだ。",
+              "highlight": "grabbed"
+            }
+          ]
+        }
+      ],
+      "etymology": "中低ドイツ語 grabben（掴む）に由来します。",
+      "synonyms": [
+        { "word": "seize", "trans": "掴む" },
+        { "word": "snatch", "trans": "ひったくる" },
+        { "word": "clutch", "trans": "握る" }
+      ],
+      "antonyms": [
+        { "word": "release", "trans": "放す" },
+        { "word": "let go", "trans": "手放す" },
+        { "word": "drop", "trans": "落とす" }
+      ],
+      "related": [
+        { "word": "grabber", "trans": "名詞：つかむ人" },
+        { "word": "grabby", "trans": "形容詞：欲張りの" },
+        { "word": "grab bag", "trans": "名詞：福袋" }
+      ]
+    },
+    {
+      "number": 5109,
+      "word": "seize",
+      "pos": "動詞",
+      "meaning": "～を掴む, (感情などが)を襲う； 押収する",
+      "nuance": "「力づくで捕まえる」「急に襲う」という意味です。警察が証拠品を「押収する」、感情が人を「襲う」時にも使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The police seized the illegal drugs.",
+              "ja": "警察は違法薬物を押収した。",
+              "highlight": "seized"
+            },
+            {
+              "en": "He seized the opportunity to study abroad.",
+              "ja": "彼は留学の機会を掴んだ。",
+              "highlight": "seized"
+            },
+            {
+              "en": "Panic seized the crowd.",
+              "ja": "パニックが群衆を襲った。",
+              "highlight": "seized"
+            },
+            {
+              "en": "She seized my hand and ran.",
+              "ja": "彼女は私の手を掴んで走った。",
+              "highlight": "seized"
+            },
+            {
+              "en": "The army seized control of the city.",
+              "ja": "軍隊は都市の支配権を掌握した。",
+              "highlight": "seized"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 seisir（所有する）に由来します。",
+      "synonyms": [
+        { "word": "grab", "trans": "掴む" },
+        { "word": "capture", "trans": "捕らえる" },
+        { "word": "confiscate", "trans": "没収する" }
+      ],
+      "antonyms": [
+        { "word": "release", "trans": "解放する" },
+        { "word": "free", "trans": "自由にする" },
+        { "word": "return", "trans": "返す" }
+      ],
+      "related": [
+        { "word": "seizure", "trans": "名詞：押収、発作" },
+        { "word": "seizer", "trans": "名詞：押収者" },
+        { "word": "seize up", "trans": "動詞：動かなくなる" }
+      ]
+    },
+    {
+      "number": 5110,
+      "word": "drag",
+      "pos": "動詞",
+      "meaning": "～を引きずる",
+      "nuance": "「地面に擦りながら引っ張る」という意味です。重いものを引きずるイメージ。比喩的に「引き延ばす」「嫌々連れて行く」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He dragged the heavy suitcase across the floor.",
+              "ja": "彼は重いスーツケースを床に引きずった。",
+              "highlight": "dragged"
+            },
+            {
+              "en": "The meeting dragged on for three hours.",
+              "ja": "会議は3時間も長引いた。",
+              "highlight": "dragged"
+            },
+            {
+              "en": "She dragged him to the party against his will.",
+              "ja": "彼女は彼を嫌がるパーティーに無理やり連れて行った。",
+              "highlight": "dragged"
+            },
+            {
+              "en": "The dog dragged the leash behind it.",
+              "ja": "犬はリードを後ろに引きずっていた。",
+              "highlight": "dragged"
+            },
+            {
+              "en": "He dragged his feet as he walked.",
+              "ja": "彼は足を引きずりながら歩いた。",
+              "highlight": "dragged"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 dragan（引く）に由来します。",
+      "synonyms": [
+        { "word": "pull", "trans": "引く" },
+        { "word": "haul", "trans": "引きずる" },
+        { "word": "tug", "trans": "ぐいと引く" }
+      ],
+      "antonyms": [
+        { "word": "push", "trans": "押す" },
+        { "word": "carry", "trans": "運ぶ" },
+        { "word": "lift", "trans": "持ち上げる" }
+      ],
+      "related": [
+        { "word": "drag race", "trans": "名詞：ドラッグレース" },
+        { "word": "drag queen", "trans": "名詞：ドラッグクイーン" },
+        { "word": "dragnet", "trans": "名詞：捜査網" }
+      ]
+    },
+    {
+      "number": 5111,
+      "word": "cling",
+      "pos": "動詞",
+      "meaning": "（～に)しがみつく, 固執する(to～)",
+      "nuance": "「しっかりと離れずにくっつく」という意味です。物理的にも比喩的にも使われ、執着するニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The child clung to his mother's leg.",
+              "ja": "子供は母親の足にしがみついた。",
+              "highlight": "clung"
+            },
+            {
+              "en": "She clings to the hope that he will return.",
+              "ja": "彼女は彼が戻ってくるという希望に固執している。",
+              "highlight": "clings"
+            },
+            {
+              "en": "The wet shirt clung to his body.",
+              "ja": "濡れたシャツが彼の体に貼りついた。",
+              "highlight": "clung"
+            },
+            {
+              "en": "He clings to old traditions.",
+              "ja": "彼は古い伝統に固執している。",
+              "highlight": "clings"
+            },
+            {
+              "en": "They clung together for warmth.",
+              "ja": "彼らは暖を取るために寄り添った。",
+              "highlight": "clung"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 clingan（くっつく）に由来します。",
+      "synonyms": [
+        { "word": "adhere", "trans": "くっつく" },
+        { "word": "hold on", "trans": "しがみつく" },
+        { "word": "stick", "trans": "くっつく" }
+      ],
+      "antonyms": [
+        { "word": "release", "trans": "放す" },
+        { "word": "let go", "trans": "手放す" },
+        { "word": "detach", "trans": "切り離す" }
+      ],
+      "related": [
+        { "word": "clinger", "trans": "名詞：しがみつく人" },
+        { "word": "clingy", "trans": "形容詞：べったりする" },
+        { "word": "clingfilm", "trans": "名詞：ラップフィルム" }
+      ]
+    },
+    {
+      "number": 5112,
+      "word": "stick",
+      "pos": "名詞 / 動詞",
+      "meaning": "名詞：棒； 動詞：(～に)くっつく, 固執する(to～)",
+      "nuance": "動詞では「接着剤のようにくっつく」「刺さる」という意味。また「棒」という名詞があります。'stick to'で「～を守る」「～に固執する」という意味になります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The glue stuck the pieces together.",
+              "ja": "接着剤が部品をくっつけた。",
+              "highlight": "stuck"
+            },
+            {
+              "en": "He stuck to his principles despite pressure.",
+              "ja": "彼は圧力にもかかわらず自分の原則を貫いた。",
+              "highlight": "stuck"
+            },
+            {
+              "en": "The needle stuck in my finger.",
+              "ja": "針が私の指に刺さった。",
+              "highlight": "stuck"
+            },
+            {
+              "en": "The name stuck in my mind.",
+              "ja": "その名前が私の頭に残った。",
+              "highlight": "stuck"
+            },
+            {
+              "en": "She used a stick to poke the fire.",
+              "ja": "彼女は棒を使って火を突いた。",
+              "highlight": "stick"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 sticca（棒）および stician（突き刺す）に由来します。",
+      "synonyms": [
+        { "word": "adhere", "trans": "くっつく" },
+        { "word": "cling", "trans": "しがみつく" },
+        { "word": "persist", "trans": "固執する" }
+      ],
+      "antonyms": [
+        { "word": "detach", "trans": "切り離す" },
+        { "word": "separate", "trans": "分離する" },
+        { "word": "release", "trans": "放す" }
+      ],
+      "related": [
+        { "word": "sticky", "trans": "形容詞：べとべとした" },
+        { "word": "sticker", "trans": "名詞：シール" },
+        { "word": "stickiness", "trans": "名詞：粘着性" }
+      ]
+    },
+    {
+      "number": 5113,
+      "word": "attach",
+      "pos": "動詞",
+      "meaning": "～をくっつける； 愛着を持たせる",
+      "nuance": "「物を別の物に固定する」「書類を添付する」という意味です。'attach importance to'で「重要性を認める」、'be attached to'で「～に愛着がある」という意味になります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please attach the photo to the application.",
+              "ja": "写真を申請書に添付してください。",
+              "highlight": "attach"
+            },
+            {
+              "en": "He attached the trailer to his truck.",
+              "ja": "彼はトレーラーをトラックに連結した。",
+              "highlight": "attached"
+            },
+            {
+              "en": "She is deeply attached to her hometown.",
+              "ja": "彼女は故郷に深く愛着を持っている。",
+              "highlight": "attached"
+            },
+            {
+              "en": "They attach great importance to education.",
+              "ja": "彼らは教育を非常に重視している。",
+              "highlight": "attach"
+            },
+            {
+              "en": "The file is attached to this email.",
+              "ja": "ファイルはこのメールに添付されています。",
+              "highlight": "attached"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 attacher（くっつける）に由来します。",
+      "synonyms": [
+        { "word": "fasten", "trans": "固定する" },
+        { "word": "connect", "trans": "接続する" },
+        { "word": "affix", "trans": "貼り付ける" }
+      ],
+      "antonyms": [
+        { "word": "detach", "trans": "切り離す" },
+        { "word": "separate", "trans": "分離する" },
+        { "word": "remove", "trans": "取り除く" }
+      ],
+      "related": [
+        { "word": "attachment", "trans": "名詞：添付、愛着" },
+        { "word": "attached", "trans": "形容詞：取り付けられた" },
+        { "word": "detach", "trans": "動詞：切り離す" }
+      ]
+    },
+    {
+      "number": 5114,
+      "word": "imitate",
+      "pos": "動詞",
+      "meaning": "～を真似る",
+      "nuance": "「人の動作や態度をまねる」「模倣する」という意味です。芸術作品の模倣から、子供が親の真似をする時まで使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Children learn by imitating adults.",
+              "ja": "子供は大人を真似ることで学ぶ。",
+              "highlight": "imitating"
+            },
+            {
+              "en": "He can imitate the president's voice perfectly.",
+              "ja": "彼は大統領の声を完璧に真似できる。",
+              "highlight": "imitate"
+            },
+            {
+              "en": "The software imitates human conversation.",
+              "ja": "そのソフトウェアは人間の会話を模倣する。",
+              "highlight": "imitates"
+            },
+            {
+              "en": "She imitated her teacher's mannerisms.",
+              "ja": "彼女は先生の癖を真似た。",
+              "highlight": "imitated"
+            },
+            {
+              "en": "Artists often imitate the styles of famous painters.",
+              "ja": "芸術家はしばしば有名画家のスタイルを模倣する。",
+              "highlight": "imitate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 imitari（模倣する）に由来します。",
+      "synonyms": [
+        { "word": "copy", "trans": "コピーする" },
+        { "word": "mimic", "trans": "物まねする" },
+        { "word": "mock", "trans": "あざ笑うように真似る" }
+      ],
+      "antonyms": [
+        { "word": "create", "trans": "創造する" },
+        { "word": "originate", "trans": "起源となる" },
+        { "word": "invent", "trans": "発明する" }
+      ],
+      "related": [
+        { "word": "imitation", "trans": "名詞：模倣" },
+        { "word": "imitative", "trans": "形容詞：模倣的な" },
+        { "word": "imitator", "trans": "名詞：模倣者" }
+      ]
+    },
+    {
+      "number": 5115,
+      "word": "fold",
+      "pos": "動詞",
+      "meaning": "～を折り畳む",
+      "nuance": "「紙や布などを折り曲げる」という意味です。また、事業が「失敗する」という比喩的な意味（fold up）もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She folded the letter and put it in an envelope.",
+              "ja": "彼女は手紙を折りたたんで封筒に入れた。",
+              "highlight": "folded"
+            },
+            {
+              "en": "Fold the laundry and put it away.",
+              "ja": "洗濯物をたたんで片付けなさい。",
+              "highlight": "Fold"
+            },
+            {
+              "en": "The table folds flat for easy storage.",
+              "ja": "そのテーブルは収納しやすいように平らに折りたためる。",
+              "highlight": "folds"
+            },
+            {
+              "en": "He folded his arms and waited.",
+              "ja": "彼は腕を組んで待った。",
+              "highlight": "folded"
+            },
+            {
+              "en": "The small company folded due to lack of funds.",
+              "ja": "その小さな会社は資金不足で倒産した。",
+              "highlight": "folded"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 faldan（折る）に由来します。",
+      "synonyms": [
+        { "word": "bend", "trans": "曲げる" },
+        { "word": "crease", "trans": "折り目をつける" },
+        { "word": "double", "trans": "二つ折りにする" }
+      ],
+      "antonyms": [
+        { "word": "unfold", "trans": "広げる" },
+        { "word": "spread", "trans": "広げる" },
+        { "word": "flatten", "trans": "平らにする" }
+      ],
+      "related": [
+        { "word": "folder", "trans": "名詞：フォルダ" },
+        { "word": "folding", "trans": "形容詞：折りたたみ式の" },
+        { "word": "foldable", "trans": "形容詞：折りたためる" }
+      ]
+    },
+    {
+      "number": 5116,
+      "word": "tear",
+      "pos": "動詞",
+      "meaning": "～を引き裂く",
+      "nuance": "「力を加えて破る」「引き裂く」という意味です。紙を破る、布を裂くなど。発音はティアではなくテアです（涙のティアとは別）。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He tore the paper into pieces.",
+              "ja": "彼は紙を細かく引き裂いた。",
+              "highlight": "tore"
+            },
+            {
+              "en": "She tore open the package.",
+              "ja": "彼女は包みを引き裂いて開けた。",
+              "highlight": "tore"
+            },
+            {
+              "en": "The child tore his shirt on a nail.",
+              "ja": "子供は釘でシャツを破った。",
+              "highlight": "tore"
+            },
+            {
+              "en": "He tore the letter in half angrily.",
+              "ja": "彼は怒って手紙を真っ二つに引き裂いた。",
+              "highlight": "tore"
+            },
+            {
+              "en": "The wind tore the roof off the house.",
+              "ja": "風が家の屋根を吹き飛ばした。",
+              "highlight": "tore"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 teran（引き裂く）に由来します。",
+      "synonyms": [
+        { "word": "rip", "trans": "引き裂く" },
+        { "word": "shred", "trans": "細かく裂く" },
+        { "word": "rend", "trans": "裂く" }
+      ],
+      "antonyms": [
+        { "word": "mend", "trans": "修繕する" },
+        { "word": "repair", "trans": "修理する" },
+        { "word": "attach", "trans": "くっつける" }
+      ],
+      "related": [
+        { "word": "tearful", "trans": "形容詞：涙の（異語源）" },
+        { "word": "tear-off", "trans": "形容詞：切り取り式の" },
+        { "word": "tearaway", "trans": "名詞：やんちゃ者" }
+      ]
+    },
+    {
+      "number": 5117,
+      "word": "mold",
+      "pos": "動詞 / 名詞",
+      "meaning": "動詞：～をかたどる, 形成する； 名詞：型, カビ",
+      "nuance": "「粘土などを型に入れて形作る」「人の性格などを形成する」という意味です。名詞では「型」または「カビ」という全く異なる意味があります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He molded the clay into a vase.",
+              "ja": "彼は粘土をこねて花瓶の形にした。",
+              "highlight": "molded"
+            },
+            {
+              "en": "Parents help mold their children's character.",
+              "ja": "親は子供の性格形成を助ける。",
+              "highlight": "mold"
+            },
+            {
+              "en": "The plastic was molded into a toy.",
+              "ja": "そのプラスチックはおもちゃの形に成型された。",
+              "highlight": "molded"
+            },
+            {
+              "en": "Bread gets moldy if left too long.",
+              "ja": "パンは長く置くとカビが生える。",
+              "highlight": "mold"
+            },
+            {
+              "en": "She is a leader molded by experience.",
+              "ja": "彼女は経験によって形作られたリーダーだ。",
+              "highlight": "molded"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 modulus（小さな尺度）に由来します。",
+      "synonyms": [
+        { "word": "shape", "trans": "形作る" },
+        { "word": "form", "trans": "形成する" },
+        { "word": "cast", "trans": "鋳型に流し込む" }
+      ],
+      "antonyms": [
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "deform", "trans": "変形させる" },
+        { "word": "crumble", "trans": "崩す" }
+      ],
+      "related": [
+        { "word": "molding", "trans": "名詞：成形" },
+        { "word": "moldy", "trans": "形容詞：カビの生えた" },
+        { "word": "moldable", "trans": "形容詞：成形可能な" }
+      ]
+    },
+    {
+      "number": 5118,
+      "word": "distort",
+      "pos": "動詞",
+      "meaning": "～を歪める",
+      "nuance": "「形や意味を意図的に歪める」「事実を曲げる」というネガティブなニュアンスが強いです。鏡像の歪みや、情報の歪曲に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The funhouse mirror distorted his reflection.",
+              "ja": "遊園地の鏡は彼の映りを歪めた。",
+              "highlight": "distorted"
+            },
+            {
+              "en": "The media distorted the facts of the case.",
+              "ja": "メディアはその事件の事実を歪曲した。",
+              "highlight": "distorted"
+            },
+            {
+              "en": "Pain distorted his face.",
+              "ja": "痛みが彼の顔を歪めた。",
+              "highlight": "distorted"
+            },
+            {
+              "en": "He distorted the truth to protect himself.",
+              "ja": "彼は自分を守るために真実を歪めた。",
+              "highlight": "distorted"
+            },
+            {
+              "en": "The sound was distorted by the bad connection.",
+              "ja": "接続が悪く音が歪んだ。",
+              "highlight": "distorted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 distorquere（ねじ曲げる）に由来します。",
+      "synonyms": [
+        { "word": "twist", "trans": "ねじる" },
+        { "word": "warp", "trans": "ゆがめる" },
+        { "word": "deform", "trans": "変形させる" }
+      ],
+      "antonyms": [
+        { "word": "straighten", "trans": "まっすぐにする" },
+        { "word": "correct", "trans": "修正する" },
+        { "word": "clarify", "trans": "明確にする" }
+      ],
+      "related": [
+        { "word": "distortion", "trans": "名詞：歪み" },
+        { "word": "distorted", "trans": "形容詞：歪んだ" },
+        { "word": "distorter", "trans": "名詞：歪めるもの" }
+      ]
+    },
+    {
+      "number": 5119,
+      "word": "expand",
+      "pos": "動詞",
+      "meaning": "～を拡大する； 拡大する； 膨張する",
+      "nuance": "「体積や範囲を広げる」「事業などを拡大する」という意味です。金属が熱で膨張する時にも使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company expanded its operations overseas.",
+              "ja": "その会社は海外に事業を拡大した。",
+              "highlight": "expanded"
+            },
+            {
+              "en": "Metal expands when heated.",
+              "ja": "金属は熱すると膨張する。",
+              "highlight": "expands"
+            },
+            {
+              "en": "He expanded his vocabulary by reading.",
+              "ja": "彼は読書によって語彙を増やした。",
+              "highlight": "expanded"
+            },
+            {
+              "en": "The universe is expanding.",
+              "ja": "宇宙は膨張している。",
+              "highlight": "expanding"
+            },
+            {
+              "en": "Could you expand on that point?",
+              "ja": "その点について詳しく説明してもらえますか？",
+              "highlight": "expand"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 expandere（広げる）に由来します。",
+      "synonyms": [
+        { "word": "enlarge", "trans": "拡大する" },
+        { "word": "extend", "trans": "拡張する" },
+        { "word": "swell", "trans": "膨らむ" }
+      ],
+      "antonyms": [
+        { "word": "contract", "trans": "縮む" },
+        { "word": "shrink", "trans": "縮む" },
+        { "word": "reduce", "trans": "減らす" }
+      ],
+      "related": [
+        { "word": "expansion", "trans": "名詞：拡大" },
+        { "word": "expansive", "trans": "形容詞：広がりのある" },
+        { "word": "expanse", "trans": "名詞：広がり" }
+      ]
+    },
+    {
+      "number": 5120,
+      "word": "shrink",
+      "pos": "動詞",
+      "meaning": "縮む",
+      "nuance": "「熱や水などで小さくなる」「量や価値が減る」という意味です。恐怖で「尻込みする」という比喩的な意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The sweater shrank in the wash.",
+              "ja": "そのセーターは洗濯で縮んだ。",
+              "highlight": "shrank"
+            },
+            {
+              "en": "The market for typewriters is shrinking.",
+              "ja": "タイプライターの市場は縮小している。",
+              "highlight": "shrinking"
+            },
+            {
+              "en": "He shrank back in fear.",
+              "ja": "彼は怖がって後ずさりした。",
+              "highlight": "shrank"
+            },
+            {
+              "en": "The company's profits have shrunk.",
+              "ja": "会社の利益が減少した。",
+              "highlight": "shrunk"
+            },
+            {
+              "en": "The fabric won't shrink if you wash it in cold water.",
+              "ja": "その布は冷水で洗えば縮まない。",
+              "highlight": "shrink"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 scrincan（縮む）に由来します。",
+      "synonyms": [
+        { "word": "contract", "trans": "縮む" },
+        { "word": "diminish", "trans": "減少する" },
+        { "word": "reduce", "trans": "減る" }
+      ],
+      "antonyms": [
+        { "word": "expand", "trans": "拡大する" },
+        { "word": "swell", "trans": "膨らむ" },
+        { "word": "grow", "trans": "成長する" }
+      ],
+      "related": [
+        { "word": "shrinkage", "trans": "名詞：収縮" },
+        { "word": "shrinkable", "trans": "形容詞：縮む可能性のある" },
+        { "word": "shrinkwrap", "trans": "名詞：シュリンクラップ" }
+      ]
+    },
+    {
+      "number": 5121,
+      "word": "swell",
+      "pos": "動詞",
+      "meaning": "膨らむ",
+      "nuance": "「内側から膨れ上がる」「増大する」という意味です。腫れや、感情の高まり、海の波のうねりなどに使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His ankle swelled after the fall.",
+              "ja": "転んだ後、彼の足首が腫れた。",
+              "highlight": "swelled"
+            },
+            {
+              "en": "The population of the city swelled during the summer.",
+              "ja": "夏の間、その都市の人口は増加した。",
+              "highlight": "swelled"
+            },
+            {
+              "en": "Pride swelled in his chest.",
+              "ja": "誇りが彼の胸に膨らんだ。",
+              "highlight": "swelled"
+            },
+            {
+              "en": "The sails swelled in the wind.",
+              "ja": "帆は風で膨らんだ。",
+              "highlight": "swelled"
+            },
+            {
+              "en": "The crowd swelled to over a thousand.",
+              "ja": "群衆は千人以上に膨れ上がった。",
+              "highlight": "swelled"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 swellan（膨らむ）に由来します。",
+      "synonyms": [
+        { "word": "expand", "trans": "膨張する" },
+        { "word": "increase", "trans": "増加する" },
+        { "word": "balloon", "trans": "風船のように膨らむ" }
+      ],
+      "antonyms": [
+        { "word": "shrink", "trans": "縮む" },
+        { "word": "contract", "trans": "縮む" },
+        { "word": "decrease", "trans": "減少する" }
+      ],
+      "related": [
+        { "word": "swelling", "trans": "名詞：腫れ" },
+        { "word": "swollen", "trans": "形容詞：腫れた" },
+        { "word": "swell up", "trans": "動詞：膨れ上がる" }
+      ]
+    },
+    {
+      "number": 5122,
+      "word": "assemble",
+      "pos": "動詞",
+      "meaning": "～を集める, 組み立てる",
+      "nuance": "「人を集める」「部品を組み立てる」という意味です。集会の召集や、家具の組立てに使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The students assembled in the gymnasium.",
+              "ja": "学生たちは体育館に集まった。",
+              "highlight": "assembled"
+            },
+            {
+              "en": "He assembled the furniture according to the instructions.",
+              "ja": "彼は説明書に従って家具を組み立てた。",
+              "highlight": "assembled"
+            },
+            {
+              "en": "The manager assembled the team for a meeting.",
+              "ja": "マネージャーは会議のためにチームを集めた。",
+              "highlight": "assembled"
+            },
+            {
+              "en": "We need to assemble all the necessary documents.",
+              "ja": "必要な書類を全て集める必要がある。",
+              "highlight": "assemble"
+            },
+            {
+              "en": "The car is assembled in Japan.",
+              "ja": "その車は日本で組み立てられている。",
+              "highlight": "assembled"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 assimulare（一緒にする）に由来します。",
+      "synonyms": [
+        { "word": "gather", "trans": "集める" },
+        { "word": "collect", "trans": "収集する" },
+        { "word": "put together", "trans": "組み立てる" }
+      ],
+      "antonyms": [
+        { "word": "disperse", "trans": "散らす" },
+        { "word": "scatter", "trans": "散らす" },
+        { "word": "dismantle", "trans": "分解する" }
+      ],
+      "related": [
+        { "word": "assembly", "trans": "名詞：集会、組立" },
+        { "word": "assembler", "trans": "名詞：組立工" },
+        { "word": "reassemble", "trans": "動詞：再集合する" }
+      ]
+    },
+    {
+      "number": 5123,
+      "word": "collect",
+      "pos": "動詞",
+      "meaning": "～を集める； 徴収する",
+      "nuance": "「バラバラのものを一つに集める」「収集する」という意味です。切手を集めたり、税金を徴収する時にも使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He collects stamps as a hobby.",
+              "ja": "彼は趣味で切手を集めている。",
+              "highlight": "collects"
+            },
+            {
+              "en": "The government collects taxes.",
+              "ja": "政府は税金を徴収する。",
+              "highlight": "collects"
+            },
+            {
+              "en": "Please collect your luggage at the carousel.",
+              "ja": "手荷物はターンテーブルで受け取ってください。",
+              "highlight": "collect"
+            },
+            {
+              "en": "The data was collected from various sources.",
+              "ja": "データは様々な情報源から収集された。",
+              "highlight": "collected"
+            },
+            {
+              "en": "A crowd collected to watch the parade.",
+              "ja": "パレードを見るために群衆が集まった。",
+              "highlight": "collected"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 colligere（一緒に集める）に由来します。",
+      "synonyms": [
+        { "word": "gather", "trans": "集める" },
+        { "word": "accumulate", "trans": "蓄積する" },
+        { "word": "assemble", "trans": "集める" }
+      ],
+      "antonyms": [
+        { "word": "disperse", "trans": "散らす" },
+        { "word": "scatter", "trans": "散らす" },
+        { "word": "distribute", "trans": "分配する" }
+      ],
+      "related": [
+        { "word": "collection", "trans": "名詞：収集、コレクション" },
+        { "word": "collective", "trans": "形容詞：集団の" },
+        { "word": "collector", "trans": "名詞：収集家" }
+      ]
+    },
+    {
+      "number": 5124,
+      "word": "cram",
+      "pos": "動詞",
+      "meaning": "～を詰め込む",
+      "nuance": "「無理にたくさん詰め込む」「試験前に詰め込み勉強する」という意味です。スペースが足りないところに押し込むイメージ。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He crammed all his clothes into one suitcase.",
+              "ja": "彼は全ての服を一つのスーツケースに詰め込んだ。",
+              "highlight": "crammed"
+            },
+            {
+              "en": "She crammed for the exam the night before.",
+              "ja": "彼女は試験前の夜に詰め込み勉強をした。",
+              "highlight": "crammed"
+            },
+            {
+              "en": "The room was crammed with people.",
+              "ja": "部屋は人でぎゅうぎゅうだった。",
+              "highlight": "crammed"
+            },
+            {
+              "en": "I can't cram any more information into my brain.",
+              "ja": "これ以上情報を脳に詰め込めない。",
+              "highlight": "cram"
+            },
+            {
+              "en": "They crammed the boxes into the back of the truck.",
+              "ja": "彼らは箱をトラックの荷台に押し込んだ。",
+              "highlight": "crammed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 crammian（詰め込む）に由来します。",
+      "synonyms": [
+        { "word": "stuff", "trans": "詰め込む" },
+        { "word": "pack", "trans": "詰める" },
+        { "word": "jam", "trans": "押し込む" }
+      ],
+      "antonyms": [
+        { "word": "empty", "trans": "空にする" },
+        { "word": "unload", "trans": "降ろす" },
+        { "word": "spread", "trans": "広げる" }
+      ],
+      "related": [
+        { "word": "crammer", "trans": "名詞：詰め込み勉強をする人" },
+        { "word": "cram school", "trans": "名詞：学習塾" },
+        { "word": "cramped", "trans": "形容詞：窮屈な" }
+      ]
+    },
+    {
+      "number": 5125,
+      "word": "rotate",
+      "pos": "動詞",
+      "meaning": "～を回転する； 回転する",
+      "nuance": "「軸を中心に回る」「周期的に入れ替わる」という意味です。地球の自転や、役割の交代に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The Earth rotates on its axis.",
+              "ja": "地球は地軸を中心に自転している。",
+              "highlight": "rotates"
+            },
+            {
+              "en": "Rotate the tires every 10,000 miles.",
+              "ja": "1万マイルごとにタイヤをローテーションしなさい。",
+              "highlight": "Rotate"
+            },
+            {
+              "en": "The staff rotates shifts every week.",
+              "ja": "職員は毎週シフトを交代する。",
+              "highlight": "rotates"
+            },
+            {
+              "en": "He rotated the handle clockwise.",
+              "ja": "彼はハンドルを時計回りに回した。",
+              "highlight": "rotated"
+            },
+            {
+              "en": "The seasons rotate in a cycle.",
+              "ja": "季節は循環して移り変わる。",
+              "highlight": "rotate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 rotare（車輪のように回る）に由来します。",
+      "synonyms": [
+        { "word": "turn", "trans": "回す" },
+        { "word": "spin", "trans": "回転する" },
+        { "word": "revolve", "trans": "公転する" }
+      ],
+      "antonyms": [
+        { "word": "stop", "trans": "止める" },
+        { "word": "fix", "trans": "固定する" },
+        { "word": "still", "trans": "静止する" }
+      ],
+      "related": [
+        { "word": "rotation", "trans": "名詞：回転" },
+        { "word": "rotary", "trans": "形容詞：回転式の" },
+        { "word": "rotator", "trans": "名詞：回転子" }
+      ]
+    },
+    {
+      "number": 5126,
+      "word": "twist",
+      "pos": "動詞",
+      "meaning": "～をひねる",
+      "nuance": "「回しながら曲げる」「ねじる」という意味です。また、事実を「歪める」、物語の「ひねり」という名詞でも使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She twisted her hair into a bun.",
+              "ja": "彼女は髪をねじってお団子にした。",
+              "highlight": "twisted"
+            },
+            {
+              "en": "He twisted his ankle while running.",
+              "ja": "彼は走っている時に足首を捻挫した。",
+              "highlight": "twisted"
+            },
+            {
+              "en": "The road twists and turns through the mountains.",
+              "ja": "その道は山の中でくねくね曲がっている。",
+              "highlight": "twists"
+            },
+            {
+              "en": "He twisted the truth to make himself look better.",
+              "ja": "彼は自分を良く見せるために真実を歪めた。",
+              "highlight": "twisted"
+            },
+            {
+              "en": "The movie has an unexpected twist at the end.",
+              "ja": "その映画には最後に予想外の展開がある。",
+              "highlight": "twist"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 twist（より合わせた紐）に由来します。",
+      "synonyms": [
+        { "word": "turn", "trans": "回す" },
+        { "word": "wring", "trans": "絞る" },
+        { "word": "distort", "trans": "歪める" }
+      ],
+      "antonyms": [
+        { "word": "straighten", "trans": "まっすぐにする" },
+        { "word": "untwist", "trans": "ねじれを戻す" },
+        { "word": "smooth", "trans": "滑らかにする" }
+      ],
+      "related": [
+        { "word": "twister", "trans": "名詞：ツイスター" },
+        { "word": "twisted", "trans": "形容詞：ねじれた" },
+        { "word": "twistable", "trans": "形容詞：ねじれる" }
+      ]
+    },
+    {
+      "number": 5127,
+      "word": "upset",
+      "pos": "動詞 / 形容詞",
+      "meaning": "動詞：～をひっくり返す, 動揺させる, 怒らせる； 形容詞：動揺した, 怒った",
+      "nuance": "「予定や計画を混乱させる」「気分を悪くさせる」という意味です。容器を倒して中身をこぼすイメージから転じました。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The news upset her greatly.",
+              "ja": "その知らせは彼女を非常に動揺させた。",
+              "highlight": "upset"
+            },
+            {
+              "en": "He accidentally upset a glass of water.",
+              "ja": "彼はうっかりコップの水をひっくり返した。",
+              "highlight": "upset"
+            },
+            {
+              "en": "The strike upset the travel plans.",
+              "ja": "ストライキが旅行計画を台無しにした。",
+              "highlight": "upset"
+            },
+            {
+              "en": "She was upset about failing the exam.",
+              "ja": "彼女は試験に落ちて動揺していた。",
+              "highlight": "upset"
+            },
+            {
+              "en": "My stomach is upset.",
+              "ja": "胃の調子が悪い。",
+              "highlight": "upset"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 up（上に）+ set（置く）から転じて「ひっくり返す」の意味に。",
+      "synonyms": [
+        { "word": "disturb", "trans": "乱す" },
+        { "word": "overturn", "trans": "ひっくり返す" },
+        { "word": "agitate", "trans": "動揺させる" }
+      ],
+      "antonyms": [
+        { "word": "calm", "trans": "落ち着かせる" },
+        { "word": "settle", "trans": "落ち着かせる" },
+        { "word": "reassure", "trans": "安心させる" }
+      ],
+      "related": [
+        { "word": "upsetting", "trans": "形容詞：動揺させる" },
+        { "word": "upset stomach", "trans": "名詞：胃の不調" },
+        { "word": "upsetter", "trans": "名詞：番狂わせを起こす人" }
+      ]
+    },
+    {
+      "number": 5128,
+      "word": "stir",
+      "pos": "動詞 / 名詞",
+      "meaning": "動詞：～をかき回す； 名詞：騒乱",
+      "nuance": "「スプーンなどで混ぜる」「動かす」「興奮させる」という意味です。名詞では「騒動」や「動き」を表します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Stir the soup with a spoon.",
+              "ja": "スープをスプーンでかき混ぜなさい。",
+              "highlight": "Stir"
+            },
+            {
+              "en": "The wind stirred the leaves.",
+              "ja": "風が葉をそよがせた。",
+              "highlight": "stirred"
+            },
+            {
+              "en": "His speech stirred the crowd.",
+              "ja": "彼の演説は群衆を奮起させた。",
+              "highlight": "stirred"
+            },
+            {
+              "en": "She didn't stir from her seat.",
+              "ja": "彼女は席から動かなかった。",
+              "highlight": "stir"
+            },
+            {
+              "en": "The news caused a great stir.",
+              "ja": "その知らせは大きな騒動を引き起こした。",
+              "highlight": "stir"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 styrian（動かす）に由来します。",
+      "synonyms": [
+        { "word": "mix", "trans": "混ぜる" },
+        { "word": "agitate", "trans": "かき混ぜる" },
+        { "word": "rouse", "trans": "目覚めさせる" }
+      ],
+      "antonyms": [
+        { "word": "still", "trans": "静かにする" },
+        { "word": "calm", "trans": "落ち着かせる" },
+        { "word": "settle", "trans": "静める" }
+      ],
+      "related": [
+        { "word": "stirring", "trans": "形容詞：感動的な" },
+        { "word": "stirrer", "trans": "名詞：かき混ぜるもの" },
+        { "word": "stir-fry", "trans": "動詞：炒める" }
+      ]
+    },
+    {
+      "number": 5129,
+      "word": "explode",
+      "pos": "動詞",
+      "meaning": "爆発する",
+      "nuance": "「急激に破裂する」「爆発する」という意味です。比喩的に「怒り爆発する」「人口が爆発的に増える」などにも使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The bomb exploded in the city center.",
+              "ja": "爆弾は都心で爆発した。",
+              "highlight": "exploded"
+            },
+            {
+              "en": "He exploded with anger.",
+              "ja": "彼は怒り爆発した。",
+              "highlight": "exploded"
+            },
+            {
+              "en": "The population exploded after the war.",
+              "ja": "戦後、人口は爆発的に増加した。",
+              "highlight": "exploded"
+            },
+            {
+              "en": "The balloon exploded when it hit the ceiling.",
+              "ja": "風船は天井に当たって破裂した。",
+              "highlight": "exploded"
+            },
+            {
+              "en": "The room exploded with laughter.",
+              "ja": "部屋中が笑い声で爆発した。",
+              "highlight": "exploded"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 explodere（拍手喝采する）から「追い出す」を経て「爆発」の意味に。",
+      "synonyms": [
+        { "word": "burst", "trans": "破裂する" },
+        { "word": "blow up", "trans": "爆破する" },
+        { "word": "detonate", "trans": "起爆する" }
+      ],
+      "antonyms": [
+        { "word": "implode", "trans": "内破する" },
+        { "word": "deflate", "trans": "縮む" },
+        { "word": "calm", "trans": "静まる" }
+      ],
+      "related": [
+        { "word": "explosion", "trans": "名詞：爆発" },
+        { "word": "explosive", "trans": "形容詞：爆発性の" },
+        { "word": "exploder", "trans": "名詞：爆発物" }
+      ]
+    },
+    {
+      "number": 5130,
+      "word": "burst",
+      "pos": "動詞",
+      "meaning": "爆発する",
+      "nuance": "「圧力で急に破裂する」という意味です。'explode'より物理的な破裂のイメージが強いです。風船やパイプの破裂など。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The balloon burst with a loud pop.",
+              "ja": "風船は大きな音を立てて破裂した。",
+              "highlight": "burst"
+            },
+            {
+              "en": "The river burst its banks after heavy rain.",
+              "ja": "大雨の後、川は堤防を決壊させた。",
+              "highlight": "burst"
+            },
+            {
+              "en": "She burst into tears.",
+              "ja": "彼女は突然泣き出した。",
+              "highlight": "burst"
+            },
+            {
+              "en": "The door burst open.",
+              "ja": "ドアが急に開いた。",
+              "highlight": "burst"
+            },
+            {
+              "en": "He burst out laughing.",
+              "ja": "彼は突然大笑いした。",
+              "highlight": "burst"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 berstan（破裂する）に由来します。",
+      "synonyms": [
+        { "word": "explode", "trans": "爆発する" },
+        { "word": "rupture", "trans": "破裂する" },
+        { "word": "break", "trans": "壊れる" }
+      ],
+      "antonyms": [
+        { "word": "contain", "trans": "封じ込める" },
+        { "word": "hold", "trans": "保つ" },
+        { "word": "suppress", "trans": "抑える" }
+      ],
+      "related": [
+        { "word": "bursting", "trans": "形容詞：破裂しそうな" },
+        { "word": "burstable", "trans": "形容詞：破裂しやすい" },
+        { "word": "outburst", "trans": "名詞：爆発" }
+      ]
+    },
+    {
+      "number": 5131,
+      "word": "melt",
+      "pos": "動詞",
+      "meaning": "溶ける； ～を溶かす",
+      "nuance": "「熱で固体が液体になる」という意味です。氷が溶ける、金属を溶かすなど。比喩的に「心が溶ける」つまり「優しくなる」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The snow melted in the sun.",
+              "ja": "雪が日差しで溶けた。",
+              "highlight": "melted"
+            },
+            {
+              "en": "Melt the butter in a pan.",
+              "ja": "フライパンでバターを溶かしなさい。",
+              "highlight": "Melt"
+            },
+            {
+              "en": "Her heart melted when she saw the puppy.",
+              "ja": "子犬を見たとき、彼女の心は溶けた（優しくなった）。",
+              "highlight": "melted"
+            },
+            {
+              "en": "The ice cream melted quickly.",
+              "ja": "アイスクリームはすぐに溶けた。",
+              "highlight": "melted"
+            },
+            {
+              "en": "The tension melted away.",
+              "ja": "緊張が解けていった。",
+              "highlight": "melted"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 meltan（溶ける）に由来します。",
+      "synonyms": [
+        { "word": "thaw", "trans": "解凍する" },
+        { "word": "dissolve", "trans": "溶解する" },
+        { "word": "liquefy", "trans": "液化する" }
+      ],
+      "antonyms": [
+        { "word": "freeze", "trans": "凍る" },
+        { "word": "solidify", "trans": "固化する" },
+        { "word": "harden", "trans": "硬くなる" }
+      ],
+      "related": [
+        { "word": "melting", "trans": "名詞：融解" },
+        { "word": "melting point", "trans": "名詞：融点" },
+        { "word": "meltdown", "trans": "名詞：メルトダウン" }
+      ]
+    },
+    {
+      "number": 5132,
+      "word": "leak",
+      "pos": "動詞 / 名詞",
+      "meaning": "動詞：漏れる； ～を漏らす； 名詞：漏れ",
+      "nuance": "「液体や気体が意図せず外に出る」「情報が外部に漏れる」という意味です。水道管の水漏れから、機密情報のリークまで使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The pipe is leaking water.",
+              "ja": "パイプから水が漏れている。",
+              "highlight": "leaking"
+            },
+            {
+              "en": "Gas leaked from the stove.",
+              "ja": "コンロからガスが漏れた。",
+              "highlight": "leaked"
+            },
+            {
+              "en": "Someone leaked the confidential documents.",
+              "ja": "誰かが機密文書を漏らした。",
+              "highlight": "leaked"
+            },
+            {
+              "en": "There's a leak in the roof.",
+              "ja": "屋根に漏れがある。",
+              "highlight": "leak"
+            },
+            {
+              "en": "The news leak caused a scandal.",
+              "ja": "その情報漏洩はスキャンダルを引き起こした。",
+              "highlight": "leak"
+            }
+          ]
+        }
+      ],
+      "etymology": "古ノルド語 leka（滴る）に由来します。",
+      "synonyms": [
+        { "word": "drip", "trans": "滴る" },
+        { "word": "seep", "trans": "染み出す" },
+        { "word": "disclose", "trans": "漏らす（情報）" }
+      ],
+      "antonyms": [
+        { "word": "seal", "trans": "密封する" },
+        { "word": "contain", "trans": "封じ込める" },
+        { "word": "plug", "trans": "塞ぐ" }
+      ],
+      "related": [
+        { "word": "leakage", "trans": "名詞：漏れ量" },
+        { "word": "leaky", "trans": "形容詞：漏れる" },
+        { "word": "leaker", "trans": "名詞：情報漏洩者" }
+      ]
+    }
+  ]
+}
