@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#6	阻害・除去・供給・促進 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #6	阻害・除去・供給・促進
+    </div>
+    
+    <h2 class="section-title">#6	阻害・除去・供給・促進</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5133.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5160-prevent.html"><span class="word-id">5160</span><span class="word-name">prevent</span><span class="word-meaning">～を防ぐ； ～が(…するのを)妨げる(from doing)</span></a></li>
+        <li class="word-item"><a href="data/5161-avoid.html"><span class="word-id">5161</span><span class="word-name">avoid</span><span class="word-meaning">～(望ましくないもの)を避ける, (するの)を回避する(doing)</span></a></li>
+        <li class="word-item"><a href="data/5162-hinder.html"><span class="word-id">5162</span><span class="word-name">hinder</span><span class="word-meaning">～を妨げる； ～が(…するのを)妨げる(from doing)</span></a></li>
+        <li class="word-item"><a href="data/5163-refrain.html"><span class="word-id">5163</span><span class="word-name">refrain</span><span class="word-meaning">(～するのを)差し控える, 遠慮する(from doing)</span></a></li>
+        <li class="word-item"><a href="data/5164-interrupt.html"><span class="word-id">5164</span><span class="word-name">interrupt</span><span class="word-meaning">～を中断する, 邪魔する</span></a></li>
+        <li class="word-item"><a href="data/5165-disrupt.html"><span class="word-id">5165</span><span class="word-name">disrupt</span><span class="word-meaning">～を乱す, 混乱させる</span></a></li>
+        <li class="word-item"><a href="data/5166-disturb.html"><span class="word-id">5166</span><span class="word-name">disturb</span><span class="word-meaning">～を妨げる, 悩ませる</span></a></li>
+        <li class="word-item"><a href="data/5167-interfere.html"><span class="word-id">5167</span><span class="word-name">interfere</span><span class="word-meaning">(～を)邪魔する, (に)干渉する(with～)</span></a></li>
+        <li class="word-item"><a href="data/5168-cease.html"><span class="word-id">5168</span><span class="word-name">cease</span><span class="word-meaning">～をやめる, しなくなる(to do, doing)</span></a></li>
+        <li class="word-item"><a href="data/5169-halt.html"><span class="word-id">5169</span><span class="word-name">halt</span><span class="word-meaning">～を停止する； 停止</span></a></li>
+        <li class="word-item"><a href="data/5170-deprive.html"><span class="word-id">5170</span><span class="word-name">deprive</span><span class="word-meaning">～から(…を)奪う(of…)</span></a></li>
+        <li class="word-item"><a href="data/5171-rob.html"><span class="word-id">5171</span><span class="word-name">rob</span><span class="word-meaning">～から(…を)奪う, 強奪する(of…)</span></a></li>
+        <li class="word-item"><a href="data/5172-strip.html"><span class="word-id">5172</span><span class="word-name">strip</span><span class="word-meaning">から(…を)はぎ取る, 除去する(of…)</span></a></li>
+        <li class="word-item"><a href="data/5173-remove.html"><span class="word-id">5173</span><span class="word-name">remove</span><span class="word-meaning">を(…から)除去する, 取り除く(from…)</span></a></li>
+        <li class="word-item"><a href="data/5174-eliminate.html"><span class="word-id">5174</span><span class="word-name">eliminate</span><span class="word-meaning">～を取り除く, 削除する</span></a></li>
+        <li class="word-item"><a href="data/5175-get rid of.html"><span class="word-id">5175</span><span class="word-name">get rid of</span><span class="word-meaning">～を取り除く, 処分する</span></a></li>
+        <li class="word-item"><a href="data/5176-dispose of.html"><span class="word-id">5176</span><span class="word-name">dispose of</span><span class="word-meaning">～を処理する, 取り除く</span></a></li>
+        <li class="word-item"><a href="data/5177-do away with.html"><span class="word-id">5177</span><span class="word-name">do away with</span><span class="word-meaning">～を捨てる, 廃止する</span></a></li>
+        <li class="word-item"><a href="data/5178-discard.html"><span class="word-id">5178</span><span class="word-name">discard</span><span class="word-meaning">～を捨てる</span></a></li>
+        <li class="word-item"><a href="data/5179-abandon.html"><span class="word-id">5179</span><span class="word-name">abandon</span><span class="word-meaning">～を捨てる</span></a></li>
+        <li class="word-item"><a href="data/5180-desert.html"><span class="word-id">5180</span><span class="word-name">desert</span><span class="word-meaning">動詞：～を捨てる, 見捨てる； 名詞：砂漠</span></a></li>
+        <li class="word-item"><a href="data/5181-provide.html"><span class="word-id">5181</span><span class="word-name">provide</span><span class="word-meaning">～を(あらかじめ)供給する, 与える</span></a></li>
+        <li class="word-item"><a href="data/5182-supply.html"><span class="word-id">5182</span><span class="word-name">supply</span><span class="word-meaning">動詞：～(足りない物)を供給する； 名詞：供給</span></a></li>
+        <li class="word-item"><a href="data/5183-offer.html"><span class="word-id">5183</span><span class="word-name">offer</span><span class="word-meaning">動詞：～を(…に)提供する, 申し出る(to…)； 名詞：提供, 申し出</span></a></li>
+        <li class="word-item"><a href="data/5184-furnish.html"><span class="word-id">5184</span><span class="word-name">furnish</span><span class="word-meaning">～に(…[家具など]を)備え付ける(with…)</span></a></li>
+        <li class="word-item"><a href="data/5185-equip.html"><span class="word-id">5185</span><span class="word-name">equip</span><span class="word-meaning">～に(…を)装備する(with…)</span></a></li>
+        <li class="word-item"><a href="data/5186-promote.html"><span class="word-id">5186</span><span class="word-name">promote</span><span class="word-meaning">～を促進する； 昇進させる</span></a></li>
+        <li class="word-item"><a href="data/5187-enhance.html"><span class="word-id">5187</span><span class="word-name">enhance</span><span class="word-meaning">～を高める, 強化する</span></a></li>
+        <li class="word-item"><a href="data/5188-accelerate.html"><span class="word-id">5188</span><span class="word-name">accelerate</span><span class="word-meaning">～を加速する, 促進する</span></a></li>
+        <li class="word-item"><a href="data/5189-boost.html"><span class="word-id">5189</span><span class="word-name">boost</span><span class="word-meaning">～を促進する, 高める</span></a></li>
+        <li class="word-item"><a href="data/5190-urge.html"><span class="word-id">5190</span><span class="word-name">urge</span><span class="word-meaning">動詞：～に(…するよう)せき立てる(to do)； 名詞：衝動, 欲望</span></a></li>
+        <li class="word-item"><a href="data/5191-encourage.html"><span class="word-id">5191</span><span class="word-name">encourage</span><span class="word-meaning">～を(…するよう)励ます, 促進する(to do)</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5133.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
