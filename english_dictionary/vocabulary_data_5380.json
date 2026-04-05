@@ -1,0 +1,1654 @@
+{
+  "words": [
+    {
+      "number": 5380,
+      "word": "emerge",
+      "pos": "動詞",
+      "meaning": "現れる, 出現する",
+      "nuance": "「隠れていたものや見えなかったものが、外に出てくる」という意味です。比喩的に「問題が浮上する」「新事実が明らかになる」という文脈でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The sun emerged from behind the clouds.",
+              "ja": "太陽が雲の間から現れた。",
+              "highlight": "emerged"
+            },
+            {
+              "en": "New evidence emerged during the investigation.",
+              "ja": "調査中に新しい証拠が浮上した。",
+              "highlight": "emerged"
+            },
+            {
+              "en": "A butterfly emerged from its cocoon.",
+              "ja": "蝶が繭から出てきた。",
+              "highlight": "emerged"
+            },
+            {
+              "en": "The country emerged from the war as a major power.",
+              "ja": "その国は戦争から主要国として台頭した。",
+              "highlight": "emerged"
+            },
+            {
+              "en": "Several new companies have emerged in the tech sector.",
+              "ja": "テクノロジー分野にいくつかの新興企業が現れた。",
+              "highlight": "emerged"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 emergere（浮かび上がる）に由来します。",
+      "synonyms": [
+        { "word": "appear", "trans": "現れる" },
+        { "word": "surface", "trans": "表面化する" },
+        { "word": "arise", "trans": "生じる" }
+      ],
+      "antonyms": [
+        { "word": "disappear", "trans": "消える" },
+        { "word": "vanish", "trans": "消滅する" },
+        { "word": "submerge", "trans": "沈む" }
+      ],
+      "related": [
+        { "word": "emergence", "trans": "名詞：出現" },
+        { "word": "emergency", "trans": "名詞：緊急事態" },
+        { "word": "emergent", "trans": "形容詞：緊急の" }
+      ]
+    },
+    {
+      "number": 5381,
+      "word": "arise",
+      "pos": "動詞",
+      "meaning": "(～から)生じる(from～)",
+      "nuance": "「問題や状況などが発生する」「原因から生じる」という意味で、フォーマルな文脈でよく使われます。',
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A new problem has arisen.",
+              "ja": "新しい問題が生じた。",
+              "highlight": "arisen"
+            },
+            {
+              "en": "The opportunity arose unexpectedly.",
+              "ja": "その機会は予期せず訪れた。",
+              "highlight": "arose"
+            },
+            {
+              "en": "Difficulties may arise from this decision.",
+              "ja": "この決断から困難が生じる可能性がある。",
+              "highlight": "arise"
+            },
+            {
+              "en": "He arose early in the morning.",
+              "ja": "彼は朝早く起きた。（文学的な表現）",
+              "highlight": "arose"
+            },
+            {
+              "en": "We will deal with any issues that arise.",
+              "ja": "発生するあらゆる問題に対処します。",
+              "highlight": "arise"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 arisan（起きる）に由来します。",
+      "synonyms": [
+        { "word": "occur", "trans": "発生する" },
+        { "word": "appear", "trans": "現れる" },
+        { "word": "emerge", "trans": "生じる" }
+      ],
+      "antonyms": [
+        { "word": "disappear", "trans": "消える" },
+        { "word": "settle", "trans": "解決する" },
+        { "word": "vanish", "trans": "消滅する" }
+      ],
+      "related": [
+        { "word": "arising", "trans": "形容詞：生じる" },
+        { "word": "rise", "trans": "動詞：上がる" },
+        { "word": "originate", "trans": "動詞：発する" }
+      ]
+    },
+    {
+      "number": 5382,
+      "word": "stem",
+      "pos": "動詞 / 名詞",
+      "meaning": "動詞：(～から)生じる(from～)； 名詞：茎",
+      "nuance": "動詞では「～に由来する」という意味です。'stem from'で「～から生じる」という構文を取ります。名詞の「茎」と関連付けて覚えましょう。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The problem stems from a lack of communication.",
+              "ja": "その問題はコミュニケーション不足から生じている。",
+              "highlight": "stems"
+            },
+            {
+              "en": "Her fear of water stems from a childhood accident.",
+              "ja": "彼女の水への恐怖は子供の頃の事故に由来する。",
+              "highlight": "stems"
+            },
+            {
+              "en": "The flower has a long green stem.",
+              "ja": "その花には長い緑の茎がある。",
+              "highlight": "stem"
+            },
+            {
+              "en": "Many traditions stem from ancient beliefs.",
+              "ja": "多くの伝統は古代の信仰に由来する。",
+              "highlight": "stem"
+            },
+            {
+              "en": "The company's success stems from hard work.",
+              "ja": "その会社の成功は勤勉に由来する。",
+              "highlight": "stems"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 stemn（木の幹）に由来します。",
+      "synonyms": [
+        { "word": "originate", "trans": "由来する" },
+        { "word": "derive", "trans": "由来する" },
+        { "word": "arise", "trans": "生じる" }
+      ],
+      "antonyms": [
+        { "word": "cause", "trans": "引き起こす" },
+        { "word": "result", "trans": "結果として生じる" },
+        { "word": "end", "trans": "終わる" }
+      ],
+      "related": [
+        { "word": "stem from", "trans": "動詞句：～から生じる" },
+        { "word": "stem cell", "trans": "名詞：幹細胞" },
+        { "word": "stemware", "trans": "名詞：脚付きグラス" }
+      ]
+    },
+    {
+      "number": 5383,
+      "word": "branch",
+      "pos": "名詞",
+      "meaning": "枝； 支店, 支社, 部門",
+      "nuance": "「木の枝」から転じて、「組織の支部」「学問の分野」を指します。'branch out'で「事業を拡大する」という動詞句になります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A bird landed on a branch.",
+              "ja": "鳥が枝に止まった。",
+              "highlight": "branch"
+            },
+            {
+              "en": "The bank has branches all over the country.",
+              "ja": "その銀行は全国に支店を持っている。",
+              "highlight": "branches"
+            },
+            {
+              "en": "He works in the marketing branch of the company.",
+              "ja": "彼は会社のマーケティング部門で働いている。",
+              "highlight": "branch"
+            },
+            {
+              "en": "The company is branching out into new markets.",
+              "ja": "その会社は新しい市場へ事業を拡大している。",
+              "highlight": "branching"
+            },
+            {
+              "en": "Physics is a branch of science.",
+              "ja": "物理学は科学の一分野です。",
+              "highlight": "branch"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 branca（動物の足）に由来します。",
+      "synonyms": [
+        { "word": "division", "trans": "部門" },
+        { "word": "office", "trans": "支店" },
+        { "word": "field", "trans": "分野" }
+      ],
+      "antonyms": [
+        { "word": "headquarters", "trans": "本部" },
+        { "word": "main office", "trans": "本店" },
+        { "word": "trunk", "trans": "幹" }
+      ],
+      "related": [
+        { "word": "branch office", "trans": "名詞：支店" },
+        { "word": "branch out", "trans": "動詞：拡大する" },
+        { "word": "root", "trans": "名詞：根" }
+      ]
+    },
+    {
+      "number": 5384,
+      "word": "derive",
+      "pos": "動詞",
+      "meaning": "(～に)由来する(from～)； (…から)～を引き出す(from…)",
+      "nuance": "「～から得る」「～に由来する」という意味です。'derive from'で「～に由来する」、'derive A from B'で「BからAを得る」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The word 'derives' from Latin.",
+              "ja": "その単語はラテン語に由来する。",
+              "highlight": "derives"
+            },
+            {
+              "en": "She derives great satisfaction from her work.",
+              "ja": "彼女は自分の仕事から大きな満足を得ている。",
+              "highlight": "derives"
+            },
+            {
+              "en": "We can derive many benefits from exercise.",
+              "ja": "私たちは運動から多くの恩恵を得られる。",
+              "highlight": "derive"
+            },
+            {
+              "en": "This tradition derives from ancient customs.",
+              "ja": "この伝統は古代の習慣に由来する。",
+              "highlight": "derives"
+            },
+            {
+              "en": "He derived a new formula from the data.",
+              "ja": "彼はデータから新しい公式を導き出した。",
+              "highlight": "derived"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 derivare（引き出す）に由来します。",
+      "synonyms": [
+        { "word": "originate", "trans": "由来する" },
+        { "word": "obtain", "trans": "得る" },
+        { "word": "stem", "trans": "由来する" }
+      ],
+      "antonyms": [
+        { "word": "create", "trans": "創造する" },
+        { "word": "invent", "trans": "発明する" },
+        { "word": "originate", "trans": "創始する" }
+      ],
+      "related": [
+        { "word": "derivation", "trans": "名詞：派生" },
+        { "word": "derivative", "trans": "形容詞：派生的な" },
+        { "word": "derive from", "trans": "動詞句：～から来る" }
+      ]
+    },
+    {
+      "number": 5385,
+      "word": "generate",
+      "pos": "動詞",
+      "meaning": "～を発生させる, 生み出す",
+      "nuance": "「電気や熱を発生させる」「関心や話題を生み出す」という意味です。物理的な生成から抽象的な創出まで幅広く使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The solar panels generate electricity.",
+              "ja": "そのソーラーパネルは電気を発生させる。",
+              "highlight": "generate"
+            },
+            {
+              "en": "His speech generated a lot of interest.",
+              "ja": "彼のスピーチは多くの関心を呼んだ。",
+              "highlight": "generated"
+            },
+            {
+              "en": "This program generates random numbers.",
+              "ja": "このプログラムはランダムな数字を生成する。",
+              "highlight": "generates"
+            },
+            {
+              "en": "The new policy generated controversy.",
+              "ja": "新しい政策は論争を引き起こした。",
+              "highlight": "generated"
+            },
+            {
+              "en": "The project will generate new jobs.",
+              "ja": "そのプロジェクトは新しい雇用を生み出すだろう。",
+              "highlight": "generate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 generare（生み出す）に由来します。",
+      "synonyms": [
+        { "word": "produce", "trans": "生産する" },
+        { "word": "create", "trans": "創造する" },
+        { "word": "cause", "trans": "引き起こす" }
+      ],
+      "antonyms": [
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "eliminate", "trans": "排除する" },
+        { "word": "reduce", "trans": "減らす" }
+      ],
+      "related": [
+        { "word": "generation", "trans": "名詞：世代" },
+        { "word": "generator", "trans": "名詞：発電機" },
+        { "word": "regenerate", "trans": "動詞：再生する" }
+      ]
+    },
+    {
+      "number": 5386,
+      "word": "flourish",
+      "pos": "動詞",
+      "meaning": "繁栄する",
+      "nuance": "「勢いよく成長する」「栄える」という意味で、ポジティブなニュアンスがあります。植物がよく育つ、ビジネスが成功するなどに使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The economy flourished under the new policy.",
+              "ja": "その新しい政策の下で経済は繁栄した。",
+              "highlight": "flourished"
+            },
+            {
+              "en": "Plants flourish in this warm climate.",
+              "ja": "植物はこの温暖な気候でよく育つ。",
+              "highlight": "flourish"
+            },
+            {
+              "en": "The arts flourished during the Renaissance.",
+              "ja": "芸術はルネサンス期に栄えた。",
+              "highlight": "flourished"
+            },
+            {
+              "en": "Her business is flourishing.",
+              "ja": "彼女のビジネスは順調に発展している。",
+              "highlight": "flourishing"
+            },
+            {
+              "en": "The company flourished under his leadership.",
+              "ja": "その会社は彼のリーダーシップの下で栄えた。",
+              "highlight": "flourished"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 florere（花を咲かせる）に由来します。",
+      "synonyms": [
+        { "word": "thrive", "trans": "繁栄する" },
+        { "word": "prosper", "trans": "成功する" },
+        { "word": "bloom", "trans": "栄える" }
+      ],
+      "antonyms": [
+        { "word": "decline", "trans": "衰退する" },
+        { "word": "wither", "trans": "枯れる" },
+        { "word": "fail", "trans": "失敗する" }
+      ],
+      "related": [
+        { "word": "flourishing", "trans": "形容詞：繁栄している" },
+        { "word": "flourish", "trans": "名詞：華やかな動き" },
+        { "word": "flower", "trans": "名詞：花（同語源）" }
+      ]
+    },
+    {
+      "number": 5387,
+      "word": "bloom",
+      "pos": "動詞 / 名詞",
+      "meaning": "(花が)咲く； 栄える； 開花",
+      "nuance": "「花が咲く」という物理的な意味から、「才能などが開花する」という比喩的な意味でも使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Cherry blossoms bloom in spring.",
+              "ja": "桜は春に咲く。",
+              "highlight": "bloom"
+            },
+            {
+              "en": "Her talent began to bloom at a young age.",
+              "ja": "彼女の才能は幼い頃から開花し始めた。",
+              "highlight": "bloom"
+            },
+            {
+              "en": "The roses are in full bloom.",
+              "ja": "バラが満開です。",
+              "highlight": "bloom"
+            },
+            {
+              "en": "The flowers bloomed early this year.",
+              "ja": "今年は花が早く咲いた。",
+              "highlight": "bloomed"
+            },
+            {
+              "en": "Confidence bloomed in her as she practiced.",
+              "ja": "練習するにつれて、彼女の中に自信が芽生えた。",
+              "highlight": "bloomed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古ノルド語 blom（花）に由来します。",
+      "synonyms": [
+        { "word": "flower", "trans": "花を咲かせる" },
+        { "word": "blossom", "trans": "花開く" },
+        { "word": "thrive", "trans": "繁栄する" }
+      ],
+      "antonyms": [
+        { "word": "wither", "trans": "枯れる" },
+        { "word": "fade", "trans": "色あせる" },
+        { "word": "die", "trans": "死ぬ" }
+      ],
+      "related": [
+        { "word": "blooming", "trans": "形容詞：満開の" },
+        { "word": "blossom", "trans": "名詞：花" },
+        { "word": "in bloom", "trans": "形容詞：花が咲いて" }
+      ]
+    },
+    {
+      "number": 5388,
+      "word": "prosper",
+      "pos": "動詞",
+      "meaning": "繁栄する",
+      "nuance": "「経済的に成功する」「順調に発展する」という意味で、'flourish'とほぼ同義ですが、特に金銭的な成功に焦点があることが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The region prospered due to the oil industry.",
+              "ja": "その地域は石油産業のおかげで繁栄した。",
+              "highlight": "prospered"
+            },
+            {
+              "en": "He hopes to prosper in his new business.",
+              "ja": "彼は新しいビジネスで成功したいと願っている。",
+              "highlight": "prosper"
+            },
+            {
+              "en": "The country prospered under stable leadership.",
+              "ja": "その国は安定した指導の下で繁栄した。",
+              "highlight": "prospered"
+            },
+            {
+              "en": "Small businesses can prosper with the right strategy.",
+              "ja": "中小企業は正しい戦略で成功することができる。",
+              "highlight": "prosper"
+            },
+            {
+              "en": "Tourism has prospered in recent years.",
+              "ja": "観光業は近年繁栄している。",
+              "highlight": "prospered"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 prosperare（成功させる）に由来します。",
+      "synonyms": [
+        { "word": "thrive", "trans": "栄える" },
+        { "word": "flourish", "trans": "繁栄する" },
+        { "word": "succeed", "trans": "成功する" }
+      ],
+      "antonyms": [
+        { "word": "fail", "trans": "失敗する" },
+        { "word": "decline", "trans": "衰退する" },
+        { "word": "collapse", "trans": "崩壊する" }
+      ],
+      "related": [
+        { "word": "prosperity", "trans": "名詞：繁栄" },
+        { "word": "prosperous", "trans": "形容詞：繁栄した" },
+        { "word": "prosperously", "trans": "副詞：繁栄して" }
+      ]
+    },
+    {
+      "number": 5389,
+      "word": "thrive",
+      "pos": "動詞",
+      "meaning": "繁栄する",
+      "nuance": "「元気に育つ」「順調に発展する」という意味で、'flourish'や'prosper'と同義ですが、特に「～のもとで繁栄する」という場合に'thrive on'の形でよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Plants thrive in sunlight.",
+              "ja": "植物は日光の下でよく育つ。",
+              "highlight": "thrive"
+            },
+            {
+              "en": "She thrives on challenge.",
+              "ja": "彼女は挑戦を糧に成長する。",
+              "highlight": "thrives"
+            },
+            {
+              "en": "The business is thriving.",
+              "ja": "そのビジネスは順調に発展している。",
+              "highlight": "thriving"
+            },
+            {
+              "en": "Some animals thrive in harsh conditions.",
+              "ja": "ある種の動物は過酷な環境でも繁栄する。",
+              "highlight": "thrive"
+            },
+            {
+              "en": "The company thrived under new management.",
+              "ja": "その会社は新しい経営陣の下で繁栄した。",
+              "highlight": "thrived"
+            }
+          ]
+        }
+      ],
+      "etymology": "古ノルド語 thrifask（成長する）に由来します。",
+      "synonyms": [
+        { "word": "flourish", "trans": "繁栄する" },
+        { "word": "prosper", "trans": "成功する" },
+        { "word": "grow", "trans": "成長する" }
+      ],
+      "antonyms": [
+        { "word": "decline", "trans": "衰退する" },
+        { "word": "wither", "trans": "枯れる" },
+        { "word": "languish", "trans": "衰える" }
+      ],
+      "related": [
+        { "word": "thriving", "trans": "形容詞：繁栄している" },
+        { "word": "thriving business", "trans": "名詞：成長企業" },
+        { "word": "thrive on", "trans": "動詞：～で成長する" }
+      ]
+    },
+    {
+      "number": 5390,
+      "word": "prevail",
+      "pos": "動詞",
+      "meaning": "普及する, 主流となる",
+      "nuance": "「優勢である」「勝つ」「広く行き渡る」という意味です。意見や習慣が「主流である」場合や、正義が「勝つ」場合に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Justice will prevail in the end.",
+              "ja": "正義は最後に勝つだろう。",
+              "highlight": "prevail"
+            },
+            {
+              "en": "This custom still prevails in some regions.",
+              "ja": "この習慣は今でも一部の地域で主流である。",
+              "highlight": "prevails"
+            },
+            {
+              "en": "We hope that common sense will prevail.",
+              "ja": "常識が勝つことを願う。",
+              "highlight": "prevail"
+            },
+            {
+              "en": "The prevailing opinion is against the plan.",
+              "ja": "支配的な意見はその計画に反対だ。",
+              "highlight": "prevailing"
+            },
+            {
+              "en": "Despite the difficulties, they prevailed.",
+              "ja": "困難にもかかわらず、彼らは勝利した。",
+              "highlight": "prevailed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 praevalere（より強い）に由来します。",
+      "synonyms": [
+        { "word": "dominate", "trans": "支配する" },
+        { "word": "triumph", "trans": "勝利する" },
+        { "word": "win", "trans": "勝つ" }
+      ],
+      "antonyms": [
+        { "word": "lose", "trans": "負ける" },
+        { "word": "fail", "trans": "失敗する" },
+        { "word": "yield", "trans": "屈する" }
+      ],
+      "related": [
+        { "word": "prevailing", "trans": "形容詞：優勢な" },
+        { "word": "prevalence", "trans": "名詞：普及" },
+        { "word": "prevalent", "trans": "形容詞：広く行き渡った" }
+      ]
+    },
+    {
+      "number": 5391,
+      "word": "glory",
+      "pos": "名詞",
+      "meaning": "栄光",
+      "nuance": "「高い名声や称賛」を指します。戦争での勝利や偉業の達成によって得られる栄誉のイメージがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The team returned home in glory.",
+              "ja": "そのチームは栄光を勝ち取って帰国した。",
+              "highlight": "glory"
+            },
+            {
+              "en": "He dreamed of winning glory on the battlefield.",
+              "ja": "彼は戦場で栄光を勝ち取ることを夢見ていた。",
+              "highlight": "glory"
+            },
+            {
+              "en": "The glory of the Roman Empire is well known.",
+              "ja": "ローマ帝国の栄光はよく知られている。",
+              "highlight": "glory"
+            },
+            {
+              "en": "She basked in the glory of her success.",
+              "ja": "彼女は自分の成功の栄光に浸った。",
+              "highlight": "glory"
+            },
+            {
+              "en": "The glory of the sunset took our breath away.",
+              "ja": "夕焼けの素晴らしさに息を呑んだ。",
+              "highlight": "glory"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 gloria（名声）に由来します。",
+      "synonyms": [
+        { "word": "fame", "trans": "名声" },
+        { "word": "honor", "trans": "名誉" },
+        { "word": "prestige", "trans": "威信" }
+      ],
+      "antonyms": [
+        { "word": "shame", "trans": "恥" },
+        { "word": "disgrace", "trans": "不名誉" },
+        { "word": "obscurity", "trans": "無名" }
+      ],
+      "related": [
+        { "word": "glorious", "trans": "形容詞：栄光ある" },
+        { "word": "glorify", "trans": "動詞：称賛する" },
+        { "word": "glory in", "trans": "動詞：誇る" }
+      ]
+    },
+    {
+      "number": 5392,
+      "word": "victory",
+      "pos": "名詞",
+      "meaning": "勝利",
+      "nuance": "「戦いや競争での勝利」を指します。'win'の名詞形で、敵を打ち負かす明確な結果に焦点があります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The team celebrated their victory.",
+              "ja": "そのチームは勝利を祝った。",
+              "highlight": "victory"
+            },
+            {
+              "en": "This was an important victory for the army.",
+              "ja": "これは軍隊にとって重要な勝利だった。",
+              "highlight": "victory"
+            },
+            {
+              "en": "She narrowly achieved victory in the election.",
+              "ja": "彼女は選挙で辛勝した。",
+              "highlight": "victory"
+            },
+            {
+              "en": "The victory was hard-won.",
+              "ja": "その勝利は苦労して勝ち取ったものだった。",
+              "highlight": "victory"
+            },
+            {
+              "en": "The general led his troops to victory.",
+              "ja": "将軍は自軍を勝利に導いた。",
+              "highlight": "victory"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 victoria（勝利）に由来します。",
+      "synonyms": [
+        { "word": "win", "trans": "勝利" },
+        { "word": "triumph", "trans": "大勝利" },
+        { "word": "conquest", "trans": "征服" }
+      ],
+      "antonyms": [
+        { "word": "defeat", "trans": "敗北" },
+        { "word": "loss", "trans": "敗北" },
+        { "word": "failure", "trans": "失敗" }
+      ],
+      "related": [
+        { "word": "victorious", "trans": "形容詞：勝利した" },
+        { "word": "victor", "trans": "名詞：勝利者" },
+        { "word": "victory lap", "trans": "名詞：ウイニングラン" }
+      ]
+    },
+    {
+      "number": 5393,
+      "word": "triumph",
+      "pos": "名詞 / 動詞",
+      "meaning": "名詞：勝利, 大成功； 動詞：勝利する",
+      "nuance": "「大きな勝利」「感動的な成功」を指します。'victory'よりも感情的で、困難を乗り越えた達成感のニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The discovery was a scientific triumph.",
+              "ja": "その発見は科学的大成功だった。",
+              "highlight": "triumph"
+            },
+            {
+              "en": "He triumphed over all his rivals.",
+              "ja": "彼は全てのライバルに勝利した。",
+              "highlight": "triumphed"
+            },
+            {
+              "en": "The team's triumph was celebrated by the whole town.",
+              "ja": "そのチームの勝利は町全体で祝われた。",
+              "highlight": "triumph"
+            },
+            {
+              "en": "Good triumphed over evil.",
+              "ja": "善が悪に勝利した。",
+              "highlight": "triumphed"
+            },
+            {
+              "en": "Her return to the stage was a personal triumph.",
+              "ja": "彼女の舞台復帰は個人的な大成功だった。",
+              "highlight": "triumph"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 triumphus（勝利の祝賀）に由来します。",
+      "synonyms": [
+        { "word": "victory", "trans": "勝利" },
+        { "word": "success", "trans": "成功" },
+        { "word": "achievement", "trans": "達成" }
+      ],
+      "antonyms": [
+        { "word": "defeat", "trans": "敗北" },
+        { "word": "failure", "trans": "失敗" },
+        { "word": "disaster", "trans": "大失敗" }
+      ],
+      "related": [
+        { "word": "triumphant", "trans": "形容詞：勝ち誇った" },
+        { "word": "triumphantly", "trans": "副詞：勝ち誇って" },
+        { "word": "triumphal", "trans": "形容詞：勝利の" }
+      ]
+    },
+    {
+      "number": 5394,
+      "word": "fame",
+      "pos": "名詞",
+      "meaning": "名声",
+      "nuance": "「多くの人に知られている状態」を指します。'glory'は「栄誉」、'fame'は「知名度」に焦点があります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She rose to fame as a singer.",
+              "ja": "彼女は歌手として名声を得た。",
+              "highlight": "fame"
+            },
+            {
+              "en": "The actor achieved worldwide fame.",
+              "ja": "その俳優は世界的な名声を獲得した。",
+              "highlight": "fame"
+            },
+            {
+              "en": "Fame and fortune are not everything.",
+              "ja": "名声と富が全てではない。",
+              "highlight": "fame"
+            },
+            {
+              "en": "His fame spread quickly after the movie.",
+              "ja": "その映画の後、彼の名声はすぐに広まった。",
+              "highlight": "fame"
+            },
+            {
+              "en": "The city's fame is due to its ancient history.",
+              "ja": "その街の名声は古代の歴史による。",
+              "highlight": "fame"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 fama（評判）に由来します。",
+      "synonyms": [
+        { "word": "renown", "trans": "名声" },
+        { "word": "popularity", "trans": "人気" },
+        { "word": "celebrity", "trans": "有名人" }
+      ],
+      "antonyms": [
+        { "word": "obscurity", "trans": "無名" },
+        { "word": "anonymity", "trans": "匿名" },
+        { "word": "disgrace", "trans": "不名誉" }
+      ],
+      "related": [
+        { "word": "famous", "trans": "形容詞：有名な" },
+        { "word": "infamous", "trans": "形容詞：悪名高い" },
+        { "word": "fame-", "trans": "接頭語：名声の" }
+      ]
+    },
+    {
+      "number": 5395,
+      "word": "prestige",
+      "pos": "名詞",
+      "meaning": "声, 威信",
+      "nuance": "「社会的な評価や尊敬」を指します。地位や実績に基づく信頼や尊敬のニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He enjoys great prestige in the academic world.",
+              "ja": "彼は学界で大きな威信を誇っている。",
+              "highlight": "prestige"
+            },
+            {
+              "en": "This university has a lot of prestige.",
+              "ja": "この大学は非常に高い声望を持っている。",
+              "highlight": "prestige"
+            },
+            {
+              "en": "The job carries a lot of prestige.",
+              "ja": "その仕事は多くの名声を伴う。",
+              "highlight": "prestige"
+            },
+            {
+              "en": "The brand's prestige attracts wealthy customers.",
+              "ja": "そのブランドの威信は富裕層の顧客を惹きつける。",
+              "highlight": "prestige"
+            },
+            {
+              "en": "He won a prestigious award.",
+              "ja": "彼は権威ある賞を受賞した。",
+              "highlight": "prestigious"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 praestigium（幻惑）に由来します。",
+      "synonyms": [
+        { "word": "status", "trans": "地位" },
+        { "word": "reputation", "trans": "評判" },
+        { "word": "distinction", "trans": "卓越" }
+      ],
+      "antonyms": [
+        { "word": "disgrace", "trans": "不名誉" },
+        { "word": "shame", "trans": "恥" },
+        { "word": "humiliation", "trans": "屈辱" }
+      ],
+      "related": [
+        { "word": "prestigious", "trans": "形容詞：権威ある" },
+        { "word": "prestige value", "trans": "名詞：名声価値" },
+        { "word": "prestige", "trans": "名詞（同形）" }
+      ]
+    },
+    {
+      "number": 5396,
+      "word": "fade",
+      "pos": "動詞",
+      "meaning": "衰退する, 次第に消える",
+      "nuance": "「徐々に薄れていく」「色あせる」という意味です。記憶、希望、色、光などがゆっくりと消えていくイメージです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The colors of the painting have faded over time.",
+              "ja": "その絵の色は時間とともに褪せた。",
+              "highlight": "faded"
+            },
+            {
+              "en": "The memory of that day will never fade.",
+              "ja": "その日の記憶は決して薄れないだろう。",
+              "highlight": "fade"
+            },
+            {
+              "en": "The music faded out at the end of the song.",
+              "ja": "曲の終わりで音楽はフェードアウトした。",
+              "highlight": "faded"
+            },
+            {
+              "en": "Her smile faded when she heard the news.",
+              "ja": "彼女はその知らせを聞いて笑顔が消えた。",
+              "highlight": "faded"
+            },
+            {
+              "en": "The hope for peace is fading.",
+              "ja": "平和への希望が薄れつつある。",
+              "highlight": "fading"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 fader（色あせる）に由来します。",
+      "synonyms": [
+        { "word": "diminish", "trans": "減少する" },
+        { "word": "vanish", "trans": "消える" },
+        { "word": "disappear", "trans": "消える" }
+      ],
+      "antonyms": [
+        { "word": "brighten", "trans": "明るくなる" },
+        { "word": "intensify", "trans": "強まる" },
+        { "word": "strengthen", "trans": "強くなる" }
+      ],
+      "related": [
+        { "word": "fade away", "trans": "動詞：消え去る" },
+        { "word": "fade-out", "trans": "名詞：フェードアウト" },
+        { "word": "faded", "trans": "形容詞：褪せた" }
+      ]
+    },
+    {
+      "number": 5397,
+      "word": "decline",
+      "pos": "動詞 / 名詞",
+      "meaning": "動詞：衰退する； ～(招待・申し出)を断る； 名詞：衰退",
+      "nuance": "「質や量が減少する」という意味と、「丁寧に断る」という全く異なる意味があります。文脈で判断しましょう。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The economy is in decline.",
+              "ja": "経済は衰退している。",
+              "highlight": "decline"
+            },
+            {
+              "en": "He declined the job offer.",
+              "ja": "彼はその仕事のオファーを断った。",
+              "highlight": "declined"
+            },
+            {
+              "en": "Her health has declined rapidly.",
+              "ja": "彼女の健康状態は急速に悪化した。",
+              "highlight": "declined"
+            },
+            {
+              "en": "The number of tourists declined last year.",
+              "ja": "観光客の数は昨年減少した。",
+              "highlight": "declined"
+            },
+            {
+              "en": "She politely declined the invitation.",
+              "ja": "彼女は丁寧に招待を断った。",
+              "highlight": "declined"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 declinare（曲がる）に由来します。",
+      "synonyms": [
+        { "word": "decrease", "trans": "減少する" },
+        { "word": "refuse", "trans": "拒否する" },
+        { "word": "deteriorate", "trans": "悪化する" }
+      ],
+      "antonyms": [
+        { "word": "increase", "trans": "増加する" },
+        { "word": "accept", "trans": "受け入れる" },
+        { "word": "improve", "trans": "改善する" }
+      ],
+      "related": [
+        { "word": "declining", "trans": "形容詞：衰退している" },
+        { "word": "declination", "trans": "名詞：断り" },
+        { "word": "incline", "trans": "動詞：傾ける" }
+      ]
+    },
+    {
+      "number": 5398,
+      "word": "corrupt",
+      "pos": "形容詞 / 動詞",
+      "meaning": "形容詞：頽廃した, 腐敗した； 動詞：～を堕落させる",
+      "nuance": "「道徳的に堕落した」「賄賂が横行している」という否定的な意味です。政治や組織の腐敗を表す時に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The corrupt official was arrested.",
+              "ja": "その腐敗した役人は逮捕された。",
+              "highlight": "corrupt"
+            },
+            {
+              "en": "Power can corrupt even good people.",
+              "ja": "権力は善良な人さえも堕落させることがある。",
+              "highlight": "corrupt"
+            },
+            {
+              "en": "The data was corrupted by a virus.",
+              "ja": "データがウイルスによって破損した。",
+              "highlight": "corrupted"
+            },
+            {
+              "en": "The company was involved in corrupt practices.",
+              "ja": "その会社は不正行為に関与していた。",
+              "highlight": "corrupt"
+            },
+            {
+              "en": "He was corrupted by greed.",
+              "ja": "彼は欲に目がくらんだ。",
+              "highlight": "corrupted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 corruptus（壊れた）に由来します。",
+      "synonyms": [
+        { "word": "dishonest", "trans": "不正な" },
+        { "word": "rotten", "trans": "腐った" },
+        { "word": "depraved", "trans": "堕落した" }
+      ],
+      "antonyms": [
+        { "word": "honest", "trans": "正直な" },
+        { "word": "pure", "trans": "純粋な" },
+        { "word": "moral", "trans": "道徳的な" }
+      ],
+      "related": [
+        { "word": "corruption", "trans": "名詞：腐敗" },
+        { "word": "corruptible", "trans": "形容詞：買収されやすい" },
+        { "word": "incorruptible", "trans": "形容詞：清廉な" }
+      ]
+    },
+    {
+      "number": 5399,
+      "word": "decay",
+      "pos": "動詞 / 名詞",
+      "meaning": "腐る, 腐敗する； 腐敗, 衰退",
+      "nuance": "「自然に劣化して朽ちる」という意味です。歯の「虫歯」、建物の「朽ち」、社会の「衰退」などに使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The old building is slowly decaying.",
+              "ja": "その古い建物はゆっくりと朽ちている。",
+              "highlight": "decaying"
+            },
+            {
+              "en": "Sugar causes tooth decay.",
+              "ja": "砂糖は虫歯の原因になる。",
+              "highlight": "decay"
+            },
+            {
+              "en": "The fruit had decayed on the ground.",
+              "ja": "その果物は地面で腐っていた。",
+              "highlight": "decayed"
+            },
+            {
+              "en": "The empire went into decay.",
+              "ja": "その帝国は衰退に向かった。",
+              "highlight": "decay"
+            },
+            {
+              "en": "The wood is starting to decay.",
+              "ja": "その木材は腐り始めている。",
+              "highlight": "decay"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 decadere（落ちる）に由来します。",
+      "synonyms": [
+        { "word": "rot", "trans": "腐る" },
+        { "word": "deteriorate", "trans": "悪化する" },
+        { "word": "decompose", "trans": "分解する" }
+      ],
+      "antonyms": [
+        { "word": "grow", "trans": "成長する" },
+        { "word": "flourish", "trans": "繁栄する" },
+        { "word": "improve", "trans": "改善する" }
+      ],
+      "related": [
+        { "word": "decayed", "trans": "形容詞：腐った" },
+        { "word": "decayable", "trans": "形容詞：腐りやすい" },
+        { "word": "radioactive decay", "trans": "名詞：放射性崩壊" }
+      ]
+    },
+    {
+      "number": 5400,
+      "word": "rot",
+      "pos": "動詞 / 名詞",
+      "meaning": "腐る, 腐敗する",
+      "nuance": "「腐る」という最も直接的な表現です。'decay'よりもカジュアルで、食べ物などに使われることが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The fruit rotted in the heat.",
+              "ja": "その果物は暑さで腐った。",
+              "highlight": "rotted"
+            },
+            {
+              "en": "If you leave the wood in the rain, it will rot.",
+              "ja": "木材を雨にさらしておくと腐る。",
+              "highlight": "rot"
+            },
+            {
+              "en": "The prisoner was left to rot in jail.",
+              "ja": "その囚人は刑務所で朽ちるままにされた。",
+              "highlight": "rot"
+            },
+            {
+              "en": "The old window frames have rotted.",
+              "ja": "古い窓枠は腐っている。",
+              "highlight": "rotted"
+            },
+            {
+              "en": "Don't eat that; it's gone to rot.",
+              "ja": "それを食べないで。腐っているよ。",
+              "highlight": "rot"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 rotian（腐る）に由来します。",
+      "synonyms": [
+        { "word": "decay", "trans": "腐敗する" },
+        { "word": "decompose", "trans": "分解する" },
+        { "word": "spoil", "trans": "傷む" }
+      ],
+      "antonyms": [
+        { "word": "fresh", "trans": "新鮮な" },
+        { "word": "preserve", "trans": "保存する" },
+        { "word": "flourish", "trans": "栄える" }
+      ],
+      "related": [
+        { "word": "rotten", "trans": "形容詞：腐った" },
+        { "word": "rot", "trans": "名詞：腐敗" },
+        { "word": "rottenness", "trans": "名詞：腐敗" }
+      ]
+    },
+    {
+      "number": 5401,
+      "word": "bribe",
+      "pos": "名詞 / 動詞",
+      "meaning": "賄賂",
+      "nuance": "「不正な利益を得るために与える金品」を指します。動詞では「賄賂を贈る」という意味です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The official was accused of taking bribes.",
+              "ja": "その役人は賄賂を受け取ったとして告発された。",
+              "highlight": "bribes"
+            },
+            {
+              "en": "He tried to bribe the guard.",
+              "ja": "彼は警備員に賄賂を贈ろうとした。",
+              "highlight": "bribe"
+            },
+            {
+              "en": "The company was involved in a bribery scandal.",
+              "ja": "その会社は贈収賄スキャンダルに関与していた。",
+              "highlight": "bribery"
+            },
+            {
+              "en": "They bribed the witness to stay silent.",
+              "ja": "彼らは証人に賄賂を贈って沈黙させた。",
+              "highlight": "bribed"
+            },
+            {
+              "en": "The politician refused the bribe.",
+              "ja": "その政治家は賄賂を拒否した。",
+              "highlight": "bribe"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 briber（物乞いする）に由来します。",
+      "synonyms": [
+        { "word": "payoff", "trans": "賄賂" },
+        { "word": "kickback", "trans": "キックバック" },
+        { "word": "incentive", "trans": "報酬" }
+      ],
+      "antonyms": [
+        { "word": "honesty", "trans": "正直" },
+        { "word": "integrity", "trans": "誠実" },
+        { "word": "penalty", "trans": "罰" }
+      ],
+      "related": [
+        { "word": "bribery", "trans": "名詞：贈収賄" },
+        { "word": "bribe-taking", "trans": "名詞：収賄" },
+        { "word": "bribable", "trans": "形容詞：買収されやすい" }
+      ]
+    },
+    {
+      "number": 5402,
+      "word": "fraud",
+      "pos": "名詞",
+      "meaning": "詐欺、不正行為",
+      "nuance": "「人を欺いて不当に利益を得る行為」を指します。また、「偽物」「詐欺師」という意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was found guilty of fraud.",
+              "ja": "彼は詐欺の罪で有罪判決を受けた。",
+              "highlight": "fraud"
+            },
+            {
+              "en": "The email is a fraud; don't click the link.",
+              "ja": "そのメールは詐欺です。リンクをクリックしないでください。",
+              "highlight": "fraud"
+            },
+            {
+              "en": "The company committed tax fraud.",
+              "ja": "その会社は脱税を行った。",
+              "highlight": "fraud"
+            },
+            {
+              "en": "He claimed the painting was a fraud.",
+              "ja": "彼はその絵は偽物だと主張した。",
+              "highlight": "fraud"
+            },
+            {
+              "en": "She was a victim of credit card fraud.",
+              "ja": "彼女はクレジットカード詐欺の被害者になった。",
+              "highlight": "fraud"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 fraud（欺く）に由来します。",
+      "synonyms": [
+        { "word": "deception", "trans": "欺瞞" },
+        { "word": "scam", "trans": "詐欺" },
+        { "word": "trickery", "trans": "ごまかし" }
+      ],
+      "antonyms": [
+        { "word": "honesty", "trans": "正直" },
+        { "word": "integrity", "trans": "誠実" },
+        { "word": "genuineness", "trans": "真正" }
+      ],
+      "related": [
+        { "word": "fraudulent", "trans": "形容詞：詐欺の" },
+        { "word": "defraud", "trans": "動詞：詐欺を働く" },
+        { "word": "fraudster", "trans": "名詞：詐欺師" }
+      ]
+    },
+    {
+      "number": 5403,
+      "word": "perish",
+      "pos": "動詞",
+      "meaning": "消滅する, 死ぬ",
+      "nuance": "「死ぬ」「滅びる」というフォーマルで文学的な表現です。特に自然災害や過酷な状況での死を指すことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Many animals perished in the fire.",
+              "ja": "多くの動物が火災で死んだ。",
+              "highlight": "perished"
+            },
+            {
+              "en": "The ancient civilization perished long ago.",
+              "ja": "その古代文明はずっと前に滅びた。",
+              "highlight": "perished"
+            },
+            {
+              "en": "Without water, plants will perish.",
+              "ja": "水がなければ植物は枯れてしまう。",
+              "highlight": "perish"
+            },
+            {
+              "en": "He perished in the earthquake.",
+              "ja": "彼は地震で亡くなった。",
+              "highlight": "perished"
+            },
+            {
+              "en": "The flowers perished in the frost.",
+              "ja": "花は霜で枯れた。",
+              "highlight": "perished"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 perire（完全に去る）に由来します。",
+      "synonyms": [
+        { "word": "die", "trans": "死ぬ" },
+        { "word": "vanish", "trans": "消える" },
+        { "word": "decay", "trans": "朽ちる" }
+      ],
+      "antonyms": [
+        { "word": "survive", "trans": "生き残る" },
+        { "word": "live", "trans": "生きる" },
+        { "word": "flourish", "trans": "繁栄する" }
+      ],
+      "related": [
+        { "word": "perishable", "trans": "形容詞：傷みやすい" },
+        { "word": "perished", "trans": "形容詞：死んだ" },
+        { "word": "perish the thought", "trans": "そんな考えはごめんだ" }
+      ]
+    },
+    {
+      "number": 5404,
+      "word": "vanish",
+      "pos": "動詞",
+      "meaning": "消滅する, 消える",
+      "nuance": "「突然跡形もなく消える」という意味です。魔法のように不思議に消えるイメージがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The magician made the rabbit vanish.",
+              "ja": "手品師はウサギを消した。",
+              "highlight": "vanish"
+            },
+            {
+              "en": "The sun vanished behind the clouds.",
+              "ja": "太陽は雲の向こうに消えた。",
+              "highlight": "vanished"
+            },
+            {
+              "en": "All hope of finding him vanished.",
+              "ja": "彼を見つける希望は全て消え去った。",
+              "highlight": "vanished"
+            },
+            {
+              "en": "The stain vanished after washing.",
+              "ja": "その汚れは洗濯後消えた。",
+              "highlight": "vanished"
+            },
+            {
+              "en": "The species has vanished from the earth.",
+              "ja": "その種は地球から消滅した。",
+              "highlight": "vanished"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 evanescere（消え去る）に由来します。",
+      "synonyms": [
+        { "word": "disappear", "trans": "消える" },
+        { "word": "evaporate", "trans": "蒸発する" },
+        { "word": "fade", "trans": "消える" }
+      ],
+      "antonyms": [
+        { "word": "appear", "trans": "現れる" },
+        { "word": "emerge", "trans": "出現する" },
+        { "word": "materialize", "trans": "具体化する" }
+      ],
+      "related": [
+        { "word": "vanishing", "trans": "形容詞：消えゆく" },
+        { "word": "vanishing point", "trans": "名詞：消失点" },
+        { "word": "evanescent", "trans": "形容詞：はかない" }
+      ]
+    },
+    {
+      "number": 5405,
+      "word": "ruin",
+      "pos": 名詞,
+      "meaning": "破壊, 廃墟； ～を破壊させる, 台無しにする",
+      "nuance": "「完全に破壊する」「台無しにする」という強い意味があります。名詞では「廃墟」や「破滅」を指します。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The scandal ruined his career.",
+              "ja": "そのスキャンダルが彼のキャリアを台無しにした。",
+              "highlight": "ruined"
+            },
+            {
+              "en": "The rain ruined our picnic.",
+              "ja": "雨でピクニックは台無しになった。",
+              "highlight": "ruined"
+            },
+            {
+              "en": "The castle is now in ruins.",
+              "ja": "その城は今や廃墟となっている。",
+              "highlight": "ruins"
+            },
+            {
+              "en": "He faced financial ruin.",
+              "ja": "彼は経済的破滅に直面した。",
+              "highlight": "ruin"
+            },
+            {
+              "en": "You'll ruin the carpet if you spill wine on it.",
+              "ja": "ワインをこぼしたらカーペットを台無しにするよ。",
+              "highlight": "ruin"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ruere（崩れる）に由来します。",
+      "synonyms": [
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "wreck", "trans": "破壊する" },
+        { "word": "devastate", "trans": "壊滅させる" }
+      ],
+      "antonyms": [
+        { "word": "build", "trans": "建てる" },
+        { "word": "repair", "trans": "修理する" },
+        { "word": "preserve", "trans": "保存する" }
+      ],
+      "related": [
+        { "word": "ruined", "trans": "形容詞：台無しになった" },
+        { "word": "ruinous", "trans": "形容詞：破滅的な" },
+        { "word": "ruination", "trans": "名詞：破滅" }
+      ]
+    },
+    {
+      "number": 5406,
+      "word": "collapse",
+      "pos": "動詞",
+      "meaning": "崩壊する, 崩れる",
+      "nuance": "「突然倒れる」「構造が崩れる」という意味です。建物、組織、健康状態などが「崩壊する」時に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The building collapsed during the earthquake.",
+              "ja": "その建物は地震で崩壊した。",
+              "highlight": "collapsed"
+            },
+            {
+              "en": "He collapsed from exhaustion.",
+              "ja": "彼は疲労で倒れた。",
+              "highlight": "collapsed"
+            },
+            {
+              "en": "The company collapsed due to poor management.",
+              "ja": "その会社は経営不振で倒産した。",
+              "highlight": "collapsed"
+            },
+            {
+              "en": "The chair collapsed under his weight.",
+              "ja": "椅子が彼の体重で壊れた。",
+              "highlight": "collapsed"
+            },
+            {
+              "en": "The negotiations collapsed.",
+              "ja": "交渉は決裂した。",
+              "highlight": "collapsed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 collabi（一緒に滑る）に由来します。",
+      "synonyms": [
+        { "word": "fall", "trans": "落ちる" },
+        { "word": "crumble", "trans": "崩れる" },
+        { "word": "fail", "trans": "失敗する" }
+      ],
+      "antonyms": [
+        { "word": "rise", "trans": "立ち上がる" },
+        { "word": "strengthen", "trans": "強化する" },
+        { "word": "succeed", "trans": "成功する" }
+      ],
+      "related": [
+        { "word": "collapse", "trans": "名詞：崩壊" },
+        { "word": "collapsible", "trans": "形容詞：折りたためる" },
+        { "word": "lapse", "trans": "名詞：経過" }
+      ]
+    },
+    {
+      "number": 5407,
+      "word": "extinguish",
+      "pos": "動詞",
+      "meaning": "～(火)を消す； を絶滅させる",
+      "nuance": "「火や光を消す」という物理的な意味から、「希望や権利を打ち消す」という比喩的な意味もあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The firefighters quickly extinguished the fire.",
+              "ja": "消防士たちはすぐに火を消した。",
+              "highlight": "extinguished"
+            },
+            {
+              "en": "Please extinguish all cigarettes.",
+              "ja": "全てのタバコの火を消してください。",
+              "highlight": "extinguish"
+            },
+            {
+              "en": "The news extinguished all hope of rescue.",
+              "ja": "その知らせは救助への希望を全て打ち消した。",
+              "highlight": "extinguished"
+            },
+            {
+              "en": "The species was extinguished by hunting.",
+              "ja": "その種は狩猟によって絶滅させられた。",
+              "highlight": "extinguished"
+            },
+            {
+              "en": "He extinguished the candle before bed.",
+              "ja": "彼は寝る前にろうそくの火を消した。",
+              "highlight": "extinguished"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 extinguere（消す）に由来します。",
+      "synonyms": [
+        { "word": "put out", "trans": "消す" },
+        { "word": "quench", "trans": "消す" },
+        { "word": "annihilate", "trans": "絶滅させる" }
+      ],
+      "antonyms": [
+        { "word": "light", "trans": "点火する" },
+        { "word": "ignite", "trans": "燃やす" },
+        { "word": "kindle", "trans": "火をつける" }
+      ],
+      "related": [
+        { "word": "extinguisher", "trans": "名詞：消火器" },
+        { "word": "extinct", "trans": "形容詞：絶滅した" },
+        { "word": "extinction", "trans": "名詞：絶滅" }
+      ]
+    },
+    {
+      "number": 5408,
+      "word": "catastrophe",
+      "pos": "名詞",
+      "meaning": "破滅, 大惨事",
+      "nuance": "「突然の大災害」「取り返しのつかない大失敗」を指します。'disaster'よりもさらに規模が大きく、衝撃的なニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The earthquake was a major catastrophe.",
+              "ja": "その地震は大きな大惨事だった。",
+              "highlight": "catastrophe"
+            },
+            {
+              "en": "The project ended in catastrophe.",
+              "ja": "そのプロジェクトは大失敗に終わった。",
+              "highlight": "catastrophe"
+            },
+            {
+              "en": "The oil spill caused an environmental catastrophe.",
+              "ja": "その原油流出は環境破滅を引き起こした。",
+              "highlight": "catastrophe"
+            },
+            {
+              "en": "The team suffered a catastrophe when their star player was injured.",
+              "ja": "そのチームはエース選手が怪我をした時に大災難に見舞われた。",
+              "highlight": "catastrophe"
+            },
+            {
+              "en": "The flood was a catastrophe for the farmers.",
+              "ja": "その洪水は農家にとって大災害だった。",
+              "highlight": "catastrophe"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 katastrophe（転覆）に由来します。",
+      "synonyms": [
+        { "word": "disaster", "trans": "災害" },
+        { "word": "tragedy", "trans": "悲劇" },
+        { "word": "calamity", "trans": "大災難" }
+      ],
+      "antonyms": [
+        { "word": "miracle", "trans": "奇跡" },
+        { "word": "blessing", "trans": "幸運" },
+        { "word": "triumph", "trans": "勝利" }
+      ],
+      "related": [
+        { "word": "catastrophic", "trans": "形容詞：破滅的な" },
+        { "word": "catastrophically", "trans": "副詞：破滅的に" },
+        { "word": "cataclysm", "trans": "名詞：大変動" }
+      ]
+    },
+    {
+      "number": 5409,
+      "word": "survive",
+      "pos": "動詞",
+      "meaning": "～を生き残る",
+      "nuance": "「困難や危険にもかかわらず生き続ける」という意味です。事故、病気、戦争などから「生き延びる」時に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Only two passengers survived the crash.",
+              "ja": "その墜落事故で生き残ったのは乗客2人だけだった。",
+              "highlight": "survived"
+            },
+            {
+              "en": "She survived cancer twice.",
+              "ja": "彼女は2度癌を克服した。",
+              "highlight": "survived"
+            },
+            {
+              "en": "The company survived the recession.",
+              "ja": "その会社は不況を乗り切った。",
+              "highlight": "survived"
+            },
+            {
+              "en": "He survived the war but lost his leg.",
+              "ja": "彼は戦争を生き延びたが、足を失った。",
+              "highlight": "survived"
+            },
+            {
+              "en": "Many old customs still survive today.",
+              "ja": "多くの古い習慣が今日まで残っている。",
+              "highlight": "survive"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 supervivere（超えて生きる）に由来します。",
+      "synonyms": [
+        { "word": "endure", "trans": "耐える" },
+        { "word": "live", "trans": "生きる" },
+        { "word": "remain", "trans": "残る" }
+      ],
+      "antonyms": [
+        { "word": "die", "trans": "死ぬ" },
+        { "word": "perish", "trans": "滅びる" },
+        { "word": "succumb", "trans": "屈する" }
+      ],
+      "related": [
+        { "word": "survival", "trans": "名詞：生存" },
+        { "word": "survivor", "trans": "名詞：生存者" },
+        { "word": "survivable", "trans": "形容詞：生き残れる" }
+      ]
+    }
+  ]
+}
