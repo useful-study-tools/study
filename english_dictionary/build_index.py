@@ -18,6 +18,7 @@ BOOK_SLUGS = {
     "FINAL DRAFT": "final_draft",
     "Change the World": "change_the_world",
     "東進上級英単語1000": "toshin",
+    "鉄壁": "teppeki",
     "LEAP": "leap"
 }
 
