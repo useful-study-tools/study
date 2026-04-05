@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#10	場所・領域・範囲 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #10	場所・領域・範囲
+    </div>
+    
+    <h2 class="section-title">#10	場所・領域・範囲</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5295.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_5380.html" class="nav-btn">次の章 →</a>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5333-area.html"><span class="word-id">5333</span><span class="word-name">area</span><span class="word-meaning">地域, 領域</span></a></li>
+        <li class="word-item"><a href="data/5334-region.html"><span class="word-id">5334</span><span class="word-name">region</span><span class="word-meaning">地域, 地方</span></a></li>
+        <li class="word-item"><a href="data/5335-district.html"><span class="word-id">5335</span><span class="word-name">district</span><span class="word-meaning">地区, 区域</span></a></li>
+        <li class="word-item"><a href="data/5336-quarter.html"><span class="word-id">5336</span><span class="word-name">quarter</span><span class="word-meaning">4ぶんの1, 地域, 界隈</span></a></li>
+        <li class="word-item"><a href="data/5337-local.html"><span class="word-id">5337</span><span class="word-name">local</span><span class="word-meaning">地域の, 地元の； 地元の人</span></a></li>
+        <li class="word-item"><a href="data/5338-globe.html"><span class="word-id">5338</span><span class="word-name">globe</span><span class="word-meaning">地球, 地球儀</span></a></li>
+        <li class="word-item"><a href="data/5339-urban.html"><span class="word-id">5339</span><span class="word-name">urban</span><span class="word-meaning">都市の、都会の</span></a></li>
+        <li class="word-item"><a href="data/5340-rural.html"><span class="word-id">5340</span><span class="word-name">rural</span><span class="word-meaning">田舎の</span></a></li>
+        <li class="word-item"><a href="data/5341-suburb.html"><span class="word-id">5341</span><span class="word-name">suburb</span><span class="word-meaning">郊外</span></a></li>
+        <li class="word-item"><a href="data/5342-border.html"><span class="word-id">5342</span><span class="word-name">border</span><span class="word-meaning">名詞：境界, 国境； 動詞：～に隣接する</span></a></li>
+        <li class="word-item"><a href="data/5343-boundary.html"><span class="word-id">5343</span><span class="word-name">boundary</span><span class="word-meaning">境界(線)、限界</span></a></li>
+        <li class="word-item"><a href="data/5344-territory.html"><span class="word-id">5344</span><span class="word-name">territory</span><span class="word-meaning">領土, なわばり</span></a></li>
+        <li class="word-item"><a href="data/5345-invade.html"><span class="word-id">5345</span><span class="word-name">invade</span><span class="word-meaning">～に侵入する, 侵略する</span></a></li>
+        <li class="word-item"><a href="data/5346-intrude.html"><span class="word-id">5346</span><span class="word-name">intrude</span><span class="word-meaning">(～に)侵入する(into, on～)</span></a></li>
+        <li class="word-item"><a href="data/5347-occupy.html"><span class="word-id">5347</span><span class="word-name">occupy</span><span class="word-meaning">～を占領する, 占める</span></a></li>
+        <li class="word-item"><a href="data/5348-migrate.html"><span class="word-id">5348</span><span class="word-name">migrate</span><span class="word-meaning">移動する、移住する</span></a></li>
+        <li class="word-item"><a href="data/5349-immigrate.html"><span class="word-id">5349</span><span class="word-name">immigrate</span><span class="word-meaning">移住する</span></a></li>
+        <li class="word-item"><a href="data/5350-emigrate.html"><span class="word-id">5350</span><span class="word-name">emigrate</span><span class="word-meaning">(国外へ)移住する</span></a></li>
+        <li class="word-item"><a href="data/5351-settle.html"><span class="word-id">5351</span><span class="word-name">settle</span><span class="word-meaning">定住する； ～を落ち着かせる, 解決する</span></a></li>
+        <li class="word-item"><a href="data/5352-frontier.html"><span class="word-id">5352</span><span class="word-name">frontier</span><span class="word-meaning">辺境, 最先端</span></a></li>
+        <li class="word-item"><a href="data/5353-pioneer.html"><span class="word-id">5353</span><span class="word-name">pioneer</span><span class="word-meaning">名詞：開拓者, 先駆者； 動詞：～を開拓する</span></a></li>
+        <li class="word-item"><a href="data/5354-explore.html"><span class="word-id">5354</span><span class="word-name">explore</span><span class="word-meaning">～を探索する</span></a></li>
+        <li class="word-item"><a href="data/5355-include.html"><span class="word-id">5355</span><span class="word-name">include</span><span class="word-meaning">～を含む</span></a></li>
+        <li class="word-item"><a href="data/5356-contain.html"><span class="word-id">5356</span><span class="word-name">contain</span><span class="word-meaning">～を含む</span></a></li>
+        <li class="word-item"><a href="data/5357-exclude.html"><span class="word-id">5357</span><span class="word-name">exclude</span><span class="word-meaning">～を(…から)除外する(from…)</span></a></li>
+        <li class="word-item"><a href="data/5358-isolate.html"><span class="word-id">5358</span><span class="word-name">isolate</span><span class="word-meaning">～を隔離する</span></a></li>
+        <li class="word-item"><a href="data/5359-enclose.html"><span class="word-id">5359</span><span class="word-name">enclose</span><span class="word-meaning">～を囲む, 同封する</span></a></li>
+        <li class="word-item"><a href="data/5360-disclose.html"><span class="word-id">5360</span><span class="word-name">disclose</span><span class="word-meaning">～を開示する, 暴く</span></a></li>
+        <li class="word-item"><a href="data/5361-surround.html"><span class="word-id">5361</span><span class="word-name">surround</span><span class="word-meaning">～を取り囲む</span></a></li>
+        <li class="word-item"><a href="data/5362-install.html"><span class="word-id">5362</span><span class="word-name">install</span><span class="word-meaning">～を設置する</span></a></li>
+        <li class="word-item"><a href="data/5363-introduce.html"><span class="word-id">5363</span><span class="word-name">introduce</span><span class="word-meaning">～を紹介する, ～を(初めて)導入する</span></a></li>
+        <li class="word-item"><a href="data/5364-locate.html"><span class="word-id">5364</span><span class="word-name">locate</span><span class="word-meaning">～(の位置)を突き止める, 見つける, ～を(ある場所に)置く</span></a></li>
+        <li class="word-item"><a href="data/5365-spot.html"><span class="word-id">5365</span><span class="word-name">spot</span><span class="word-meaning">名詞：場所； 動詞：～(の位置)を突き止める, 見つける</span></a></li>
+        <li class="word-item"><a href="data/5366-search.html"><span class="word-id">5366</span><span class="word-name">search</span><span class="word-meaning">(…を求めて)～の中を探す(for…)； 探求, 探索</span></a></li>
+        <li class="word-item"><a href="data/5367-approach.html"><span class="word-id">5367</span><span class="word-name">approach</span><span class="word-meaning">動詞：～に接近する, 話しかける； 名詞：方法, 取り組み</span></a></li>
+        <li class="word-item"><a href="data/5368-remote.html"><span class="word-id">5368</span><span class="word-name">remote</span><span class="word-meaning">遠方の； へんぴな, 人里離れた</span></a></li>
+        <li class="word-item"><a href="data/5369-apart.html"><span class="word-id">5369</span><span class="word-name">apart</span><span class="word-meaning">(～から)離れて(from～)</span></a></li>
+        <li class="word-item"><a href="data/5370-aside.html"><span class="word-id">5370</span><span class="word-name">aside</span><span class="word-meaning">脇に</span></a></li>
+        <li class="word-item"><a href="data/5371-replace.html"><span class="word-id">5371</span><span class="word-name">replace</span><span class="word-meaning">～にとって代わる； ～を(…と)置き換える(with…)</span></a></li>
+        <li class="word-item"><a href="data/5372-site.html"><span class="word-id">5372</span><span class="word-name">site</span><span class="word-meaning">用地､現場、サイト</span></a></li>
+        <li class="word-item"><a href="data/5373-realm.html"><span class="word-id">5373</span><span class="word-name">realm</span><span class="word-meaning">領域, 領土, 王国</span></a></li>
+        <li class="word-item"><a href="data/5374-domain.html"><span class="word-id">5374</span><span class="word-name">domain</span><span class="word-meaning">領域, 領地</span></a></li>
+        <li class="word-item"><a href="data/5375-range.html"><span class="word-id">5375</span><span class="word-name">range</span><span class="word-meaning">名詞：範囲； 動詞：（～から～まで）及ぶ</span></a></li>
+        <li class="word-item"><a href="data/5376-scope.html"><span class="word-id">5376</span><span class="word-name">scope</span><span class="word-meaning">(活動などの)範囲, 領域； 機会</span></a></li>
+        <li class="word-item"><a href="data/5377-category.html"><span class="word-id">5377</span><span class="word-name">category</span><span class="word-meaning">範疇, 種類</span></a></li>
+        <li class="word-item"><a href="data/5378-genre.html"><span class="word-id">5378</span><span class="word-name">genre</span><span class="word-meaning">（芸術・文学の）ジャンル、酒類</span></a></li>
+        <li class="word-item"><a href="data/5379-margin.html"><span class="word-id">5379</span><span class="word-name">margin</span><span class="word-meaning">余白、余裕、利ざや</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5295.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_5380.html" class="nav-btn">次の章 →</a>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

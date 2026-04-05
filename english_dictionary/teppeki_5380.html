@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#11	発生・繁栄・衰退・消滅 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #11	発生・繁栄・衰退・消滅
+    </div>
+    
+    <h2 class="section-title">#11	発生・繁栄・衰退・消滅</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5333.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_5410.html" class="nav-btn">次の章 →</a>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5380-emerge.html"><span class="word-id">5380</span><span class="word-name">emerge</span><span class="word-meaning">現れる, 出現する</span></a></li>
+        <li class="word-item"><a href="data/5381-arise.html"><span class="word-id">5381</span><span class="word-name">arise</span><span class="word-meaning">(～から)生じる(from～)</span></a></li>
+        <li class="word-item"><a href="data/5382-stem.html"><span class="word-id">5382</span><span class="word-name">stem</span><span class="word-meaning">動詞：(～から)生じる(from～)； 名詞：茎</span></a></li>
+        <li class="word-item"><a href="data/5383-branch.html"><span class="word-id">5383</span><span class="word-name">branch</span><span class="word-meaning">枝； 支店, 支社, 部門</span></a></li>
+        <li class="word-item"><a href="data/5384-derive.html"><span class="word-id">5384</span><span class="word-name">derive</span><span class="word-meaning">(～に)由来する(from～)； (…から)～を引き出す(from…)</span></a></li>
+        <li class="word-item"><a href="data/5385-generate.html"><span class="word-id">5385</span><span class="word-name">generate</span><span class="word-meaning">～を発生させる, 生み出す</span></a></li>
+        <li class="word-item"><a href="data/5386-flourish.html"><span class="word-id">5386</span><span class="word-name">flourish</span><span class="word-meaning">繁栄する</span></a></li>
+        <li class="word-item"><a href="data/5387-bloom.html"><span class="word-id">5387</span><span class="word-name">bloom</span><span class="word-meaning">(花が)咲く； 栄える； 開花</span></a></li>
+        <li class="word-item"><a href="data/5388-prosper.html"><span class="word-id">5388</span><span class="word-name">prosper</span><span class="word-meaning">繁栄する</span></a></li>
+        <li class="word-item"><a href="data/5389-thrive.html"><span class="word-id">5389</span><span class="word-name">thrive</span><span class="word-meaning">繁栄する</span></a></li>
+        <li class="word-item"><a href="data/5390-prevail.html"><span class="word-id">5390</span><span class="word-name">prevail</span><span class="word-meaning">普及する, 主流となる</span></a></li>
+        <li class="word-item"><a href="data/5391-glory.html"><span class="word-id">5391</span><span class="word-name">glory</span><span class="word-meaning">栄光</span></a></li>
+        <li class="word-item"><a href="data/5392-victory.html"><span class="word-id">5392</span><span class="word-name">victory</span><span class="word-meaning">勝利</span></a></li>
+        <li class="word-item"><a href="data/5393-triumph.html"><span class="word-id">5393</span><span class="word-name">triumph</span><span class="word-meaning">名詞：勝利, 大成功； 動詞：勝利する</span></a></li>
+        <li class="word-item"><a href="data/5394-fame.html"><span class="word-id">5394</span><span class="word-name">fame</span><span class="word-meaning">名声</span></a></li>
+        <li class="word-item"><a href="data/5395-prestige.html"><span class="word-id">5395</span><span class="word-name">prestige</span><span class="word-meaning">声, 威信</span></a></li>
+        <li class="word-item"><a href="data/5396-fade.html"><span class="word-id">5396</span><span class="word-name">fade</span><span class="word-meaning">衰退する, 次第に消える</span></a></li>
+        <li class="word-item"><a href="data/5397-decline.html"><span class="word-id">5397</span><span class="word-name">decline</span><span class="word-meaning">動詞：衰退する； ～(招待・申し出)を断る； 名詞：衰退</span></a></li>
+        <li class="word-item"><a href="data/5398-corrupt.html"><span class="word-id">5398</span><span class="word-name">corrupt</span><span class="word-meaning">形容詞：頽廃した, 腐敗した； 動詞：～を堕落させる</span></a></li>
+        <li class="word-item"><a href="data/5399-decay.html"><span class="word-id">5399</span><span class="word-name">decay</span><span class="word-meaning">腐る, 腐敗する； 腐敗, 衰退</span></a></li>
+        <li class="word-item"><a href="data/5400-rot.html"><span class="word-id">5400</span><span class="word-name">rot</span><span class="word-meaning">腐る, 腐敗する</span></a></li>
+        <li class="word-item"><a href="data/5401-bribe.html"><span class="word-id">5401</span><span class="word-name">bribe</span><span class="word-meaning">賄賂</span></a></li>
+        <li class="word-item"><a href="data/5402-fraud.html"><span class="word-id">5402</span><span class="word-name">fraud</span><span class="word-meaning">詐欺、不正行為</span></a></li>
+        <li class="word-item"><a href="data/5403-perish.html"><span class="word-id">5403</span><span class="word-name">perish</span><span class="word-meaning">消滅する, 死ぬ</span></a></li>
+        <li class="word-item"><a href="data/5404-vanish.html"><span class="word-id">5404</span><span class="word-name">vanish</span><span class="word-meaning">消滅する, 消える</span></a></li>
+        <li class="word-item"><a href="data/5405-ruin.html"><span class="word-id">5405</span><span class="word-name">ruin</span><span class="word-meaning">破壊, 廃墟； ～を破壊させる, 台無しにする</span></a></li>
+        <li class="word-item"><a href="data/5406-collapse.html"><span class="word-id">5406</span><span class="word-name">collapse</span><span class="word-meaning">崩壊する, 崩れる</span></a></li>
+        <li class="word-item"><a href="data/5407-extinguish.html"><span class="word-id">5407</span><span class="word-name">extinguish</span><span class="word-meaning">～(火)を消す； を絶滅させる</span></a></li>
+        <li class="word-item"><a href="data/5408-catastrophe.html"><span class="word-id">5408</span><span class="word-name">catastrophe</span><span class="word-meaning">破滅, 大惨事</span></a></li>
+        <li class="word-item"><a href="data/5409-survive.html"><span class="word-id">5409</span><span class="word-name">survive</span><span class="word-meaning">～を生き残る</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5333.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_5410.html" class="nav-btn">次の章 →</a>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
