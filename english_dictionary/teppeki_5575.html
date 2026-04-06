@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#16	調査・研究 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #16	調査・研究
+    </div>
+    
+    <h2 class="section-title">#16	調査・研究</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5521.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5575-research.html"><span class="word-id">5575</span><span class="word-name">research</span><span class="word-meaning">名詞：研究, 調査； 動詞：研究する, 調査する</span></a></li>
+        <li class="word-item"><a href="data/5576-investigate.html"><span class="word-id">5576</span><span class="word-name">investigate</span><span class="word-meaning">～を調査する, 研究する</span></a></li>
+        <li class="word-item"><a href="data/5577-survey.html"><span class="word-id">5577</span><span class="word-name">survey</span><span class="word-meaning">名詞：調査, 概観, 測量； 動詞：～を見渡す； 調査する</span></a></li>
+        <li class="word-item"><a href="data/5578-inquire.html"><span class="word-id">5578</span><span class="word-name">inquire</span><span class="word-meaning">(～について)尋ねる(about～)； (～を)調査する(into～)</span></a></li>
+        <li class="word-item"><a href="data/5579-theory.html"><span class="word-id">5579</span><span class="word-name">theory</span><span class="word-meaning">理論, 学説</span></a></li>
+        <li class="word-item"><a href="data/5580-method.html"><span class="word-id">5580</span><span class="word-name">method</span><span class="word-meaning">(体系的な)方法</span></a></li>
+        <li class="word-item"><a href="data/5581-hypothesis.html"><span class="word-id">5581</span><span class="word-name">hypothesis</span><span class="word-meaning">仮説、前提</span></a></li>
+        <li class="word-item"><a href="data/5582-experiment.html"><span class="word-id">5582</span><span class="word-name">experiment</span><span class="word-meaning">実験</span></a></li>
+        <li class="word-item"><a href="data/5583-detect.html"><span class="word-id">5583</span><span class="word-name">detect</span><span class="word-meaning">～を検出する, 見つける</span></a></li>
+        <li class="word-item"><a href="data/5584-thesis.html"><span class="word-id">5584</span><span class="word-name">thesis</span><span class="word-meaning">学位論文</span></a></li>
+        <li class="word-item"><a href="data/5585-statistics.html"><span class="word-id">5585</span><span class="word-name">statistics</span><span class="word-meaning">統計</span></a></li>
+        <li class="word-item"><a href="data/5586-analyze.html"><span class="word-id">5586</span><span class="word-name">analyze</span><span class="word-meaning">～を分析する</span></a></li>
+        <li class="word-item"><a href="data/5587-laboratory.html"><span class="word-id">5587</span><span class="word-name">laboratory</span><span class="word-meaning">研究室</span></a></li>
+        <li class="word-item"><a href="data/5588-conclude.html"><span class="word-id">5588</span><span class="word-name">conclude</span><span class="word-meaning">(…と)結論を下す(that…)</span></a></li>
+        <li class="word-item"><a href="data/5589-prove.html"><span class="word-id">5589</span><span class="word-name">prove</span><span class="word-meaning">～を証明する； (～であると)分かる, 判明する(to be～)</span></a></li>
+        <li class="word-item"><a href="data/5590-demonstrate.html"><span class="word-id">5590</span><span class="word-name">demonstrate</span><span class="word-meaning">～を実証する, 実演する</span></a></li>
+        <li class="word-item"><a href="data/5591-illustrate.html"><span class="word-id">5591</span><span class="word-name">illustrate</span><span class="word-meaning">～を例証する, 図で説明する</span></a></li>
+        <li class="word-item"><a href="data/5592-estimate.html"><span class="word-id">5592</span><span class="word-name">estimate</span><span class="word-meaning">～を見積もる； 見積もり</span></a></li>
+        <li class="word-item"><a href="data/5593-expert.html"><span class="word-id">5593</span><span class="word-name">expert</span><span class="word-meaning">名詞：専門家； 形容詞：(～に)熟達した(at, in～)</span></a></li>
+        <li class="word-item"><a href="data/5594-scholar.html"><span class="word-id">5594</span><span class="word-name">scholar</span><span class="word-meaning">学者, 奨学生</span></a></li>
+        <li class="word-item"><a href="data/5595-academic.html"><span class="word-id">5595</span><span class="word-name">academic</span><span class="word-meaning">学問の, 大学の</span></a></li>
+        <li class="word-item"><a href="data/5596-specialize.html"><span class="word-id">5596</span><span class="word-name">specialize</span><span class="word-meaning">(～を)専攻する, 専門にする(in～)</span></a></li>
+        <li class="word-item"><a href="data/5597-geography.html"><span class="word-id">5597</span><span class="word-name">geography</span><span class="word-meaning">地理学</span></a></li>
+        <li class="word-item"><a href="data/5598-geology.html"><span class="word-id">5598</span><span class="word-name">geology</span><span class="word-meaning">地質学</span></a></li>
+        <li class="word-item"><a href="data/5599-geometry.html"><span class="word-id">5599</span><span class="word-name">geometry</span><span class="word-meaning">幾何学</span></a></li>
+        <li class="word-item"><a href="data/5600-arithmetic.html"><span class="word-id">5600</span><span class="word-name">arithmetic</span><span class="word-meaning">算数</span></a></li>
+        <li class="word-item"><a href="data/5601-astronomy.html"><span class="word-id">5601</span><span class="word-name">astronomy</span><span class="word-meaning">天文学</span></a></li>
+        <li class="word-item"><a href="data/5602-astrology.html"><span class="word-id">5602</span><span class="word-name">astrology</span><span class="word-meaning">占星術</span></a></li>
+        <li class="word-item"><a href="data/5603-botany.html"><span class="word-id">5603</span><span class="word-name">botany</span><span class="word-meaning">植物学</span></a></li>
+        <li class="word-item"><a href="data/5604-anthropology.html"><span class="word-id">5604</span><span class="word-name">anthropology</span><span class="word-meaning">人類学</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5521.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
