@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#14	関係・対立・一致 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #14	関係・対立・一致
+    </div>
+    
+    <h2 class="section-title">#14	関係・対立・一致</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5410.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5492-relate.html"><span class="word-id">5492</span><span class="word-name">relate</span><span class="word-meaning">～を(…に)関連づける(to～)； ～を話す</span></a></li>
+        <li class="word-item"><a href="data/5493-absolute.html"><span class="word-id">5493</span><span class="word-name">absolute</span><span class="word-meaning">絶対的な, 完全な</span></a></li>
+        <li class="word-item"><a href="data/5494-relevant.html"><span class="word-id">5494</span><span class="word-name">relevant</span><span class="word-meaning">(～と)関連がある(to～), 適切な</span></a></li>
+        <li class="word-item"><a href="data/5495-mutual.html"><span class="word-id">5495</span><span class="word-name">mutual</span><span class="word-meaning">相互の</span></a></li>
+        <li class="word-item"><a href="data/5496-associate.html"><span class="word-id">5496</span><span class="word-name">associate</span><span class="word-meaning">動詞：～を(…と)関連づける(with…)； 連想する； 名詞：同僚, 仲間</span></a></li>
+        <li class="word-item"><a href="data/5497-conflict.html"><span class="word-id">5497</span><span class="word-name">conflict</span><span class="word-meaning">名詞：争い, 衝突； 動詞：対立する, 衝突する</span></a></li>
+        <li class="word-item"><a href="data/5498-collision.html"><span class="word-id">5498</span><span class="word-name">collision</span><span class="word-meaning">衝突</span></a></li>
+        <li class="word-item"><a href="data/5499-friction.html"><span class="word-id">5499</span><span class="word-name">friction</span><span class="word-meaning">摩擦, 不和</span></a></li>
+        <li class="word-item"><a href="data/5500-confront.html"><span class="word-id">5500</span><span class="word-name">confront</span><span class="word-meaning">～に直面する</span></a></li>
+        <li class="word-item"><a href="data/5501-oppose.html"><span class="word-id">5501</span><span class="word-name">oppose</span><span class="word-meaning">～に反対する</span></a></li>
+        <li class="word-item"><a href="data/5502-object.html"><span class="word-id">5502</span><span class="word-name">object</span><span class="word-meaning">名詞：物体, 対象, 目的； 動詞：(～に)反対する(to～)</span></a></li>
+        <li class="word-item"><a href="data/5503-contrary.html"><span class="word-id">5503</span><span class="word-name">contrary</span><span class="word-meaning">(～と)反対の(to～)</span></a></li>
+        <li class="word-item"><a href="data/5504-contrast.html"><span class="word-id">5504</span><span class="word-name">contrast</span><span class="word-meaning">対照</span></a></li>
+        <li class="word-item"><a href="data/5505-contradict.html"><span class="word-id">5505</span><span class="word-name">contradict</span><span class="word-meaning">～を否定する, に反論する, と矛盾する</span></a></li>
+        <li class="word-item"><a href="data/5506-approve.html"><span class="word-id">5506</span><span class="word-name">approve</span><span class="word-meaning">～に賛成する, を認める； (～に)賛成する, 認める(of～)</span></a></li>
+        <li class="word-item"><a href="data/5507-consent.html"><span class="word-id">5507</span><span class="word-name">consent</span><span class="word-meaning">(～に)同意する(to～)； 同意</span></a></li>
+        <li class="word-item"><a href="data/5508-correspond.html"><span class="word-id">5508</span><span class="word-name">correspond</span><span class="word-meaning">(～と)一致する, 合致する(with～)； (～に)対応する(to～)</span></a></li>
+        <li class="word-item"><a href="data/5509-accord.html"><span class="word-id">5509</span><span class="word-name">accord</span><span class="word-meaning">(～と)一致する, 調和する(with～)</span></a></li>
+        <li class="word-item"><a href="data/5510-conform.html"><span class="word-id">5510</span><span class="word-name">conform</span><span class="word-meaning">(～に)従う, 順応する, 一致する(to～)</span></a></li>
+        <li class="word-item"><a href="data/5511-compatible.html"><span class="word-id">5511</span><span class="word-name">compatible</span><span class="word-meaning">(～と)両立可能な, 矛盾しない(with～)</span></a></li>
+        <li class="word-item"><a href="data/5512-compare.html"><span class="word-id">5512</span><span class="word-name">compare</span><span class="word-meaning">～を(…と)比較する(with, to…)</span></a></li>
+        <li class="word-item"><a href="data/5513-confuse.html"><span class="word-id">5513</span><span class="word-name">confuse</span><span class="word-meaning">～を(…と)混同する(with…)； を混乱させる</span></a></li>
+        <li class="word-item"><a href="data/5514-equal.html"><span class="word-id">5514</span><span class="word-name">equal</span><span class="word-meaning">(～と)等しい, 匹敵する, するだけの能力がある(to～)； ～に等しい</span></a></li>
+        <li class="word-item"><a href="data/5515-equivalent.html"><span class="word-id">5515</span><span class="word-name">equivalent</span><span class="word-meaning">(～と)同等の(to～)； 同等のもの</span></a></li>
+        <li class="word-item"><a href="data/5516-counterpart.html"><span class="word-id">5516</span><span class="word-name">counterpart</span><span class="word-meaning">相当するもの・人</span></a></li>
+        <li class="word-item"><a href="data/5517-resemble.html"><span class="word-id">5517</span><span class="word-name">resemble</span><span class="word-meaning">～に似ている</span></a></li>
+        <li class="word-item"><a href="data/5518-diverse.html"><span class="word-id">5518</span><span class="word-name">diverse</span><span class="word-meaning">多様な</span></a></li>
+        <li class="word-item"><a href="data/5519-differ.html"><span class="word-id">5519</span><span class="word-name">differ</span><span class="word-meaning">(～と)(…の点で)異なる(from～)(in…)</span></a></li>
+        <li class="word-item"><a href="data/5520-vary.html"><span class="word-id">5520</span><span class="word-name">vary</span><span class="word-meaning">異なる, 変わる</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5410.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
