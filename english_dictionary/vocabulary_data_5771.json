@@ -1,0 +1,2147 @@
+{
+  "words": [
+    {
+      "number": 5771,
+      "word": "virtue",
+      "pos": "名詞",
+      "meaning": "美徳、長所",
+      "nuance": "「道徳的に優れた性質」や「人の良い点」を指す。'by virtue of'で「～のおかげで」という表現がある。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Patience is a virtue.",
+              "ja": "忍耐は美徳である。",
+              "highlight": "virtue"
+            },
+            {
+              "en": "He is a man of great virtue.",
+              "ja": "彼は非常に徳の高い人だ。",
+              "highlight": "virtue"
+            },
+            {
+              "en": "Honesty is her greatest virtue.",
+              "ja": "誠実さが彼女の最大の長所だ。",
+              "highlight": "virtue"
+            },
+            {
+              "en": "She became famous by virtue of her talent.",
+              "ja": "彼女はその才能のおかげで有名になった。",
+              "highlight": "virtue"
+            },
+            {
+              "en": "The plan has the virtue of simplicity.",
+              "ja": "その計画には簡素さという長所がある。",
+              "highlight": "virtue"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 virtus（力、道徳性）に由来。",
+      "synonyms": [
+        { "word": "goodness", "trans": "善性" },
+        { "word": "morality", "trans": "道徳" },
+        { "word": "strength", "trans": "長所" }
+      ],
+      "antonyms": [
+        { "word": "vice", "trans": "悪徳" },
+        { "word": "evil", "trans": "悪" },
+        { "word": "weakness", "trans": "短所" }
+      ],
+      "related": [
+        { "word": "virtuous", "trans": "徳の高い" },
+        { "word": "virtuously", "trans": "美徳をもって" },
+        { "word": "virtual", "trans": "事実上の（異語源）" }
+      ]
+    },
+    {
+      "number": 5772,
+      "word": "virtual",
+      "pos": "形容詞",
+      "meaning": "仮想の； 事実上の",
+      "nuance": "「実際には存在しないが、それに近い」という意味。コンピューターの「仮想現実」でも使われる。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company is a virtual monopoly.",
+              "ja": "その会社は事実上の独占状態だ。",
+              "highlight": "virtual"
+            },
+            {
+              "en": "He is the virtual head of the organization.",
+              "ja": "彼はその組織の事実上のトップだ。",
+              "highlight": "virtual"
+            },
+            {
+              "en": "The game uses virtual reality technology.",
+              "ja": "そのゲームは仮想現実技術を使っている。",
+              "highlight": "virtual"
+            },
+            {
+              "en": "We had a virtual meeting online.",
+              "ja": "私たちはオンラインで仮想会議を開いた。",
+              "highlight": "virtual"
+            },
+            {
+              "en": "The country is in a state of virtual civil war.",
+              "ja": "その国は事実上の内戦状態にある。",
+              "highlight": "virtual"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 virtus（力）に由来。",
+      "synonyms": [
+        { "word": "simulated", "trans": "模擬の" },
+        { "word": "practical", "trans": "事実上の" },
+        { "word": "digital", "trans": "デジタルの" }
+      ],
+      "antonyms": [
+        { "word": "actual", "trans": "実際の" },
+        { "word": "real", "trans": "現実の" },
+        { "word": "physical", "trans": "物理的な" }
+      ],
+      "related": [
+        { "word": "virtually", "trans": "事実上" },
+        { "word": "virtual reality", "trans": "仮想現実" },
+        { "word": "virtue", "trans": "美徳" }
+      ]
+    },
+    {
+      "number": 5773,
+      "word": "vice",
+      "pos": "名詞",
+      "meaning": "悪、悪徳； 副～、代理の",
+      "nuance": "「道徳的に悪い習慣」や「悪徳」。また「副～」という接頭語的意味もある（vice president）。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Greed is a terrible vice.",
+              "ja": "貪欲は恐ろしい悪徳だ。",
+              "highlight": "vice"
+            },
+            {
+              "en": "He was addicted to every vice.",
+              "ja": "彼はあらゆる悪徳に溺れていた。",
+              "highlight": "vice"
+            },
+            {
+              "en": "Smoking is his only vice.",
+              "ja": "喫煙が彼の唯一の悪い癖だ。",
+              "highlight": "vice"
+            },
+            {
+              "en": "She is the vice president of the company.",
+              "ja": "彼女はその会社の副社長です。",
+              "highlight": "vice"
+            },
+            {
+              "en": "The city is full of vice and crime.",
+              "ja": "その都市は悪徳と犯罪にあふれている。",
+              "highlight": "vice"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vitium（欠陥）に由来。",
+      "synonyms": [
+        { "word": "evil", "trans": "悪" },
+        { "word": "sin", "trans": "罪" },
+        { "word": "corruption", "trans": "腐敗" }
+      ],
+      "antonyms": [
+        { "word": "virtue", "trans": "美徳" },
+        { "word": "goodness", "trans": "善" },
+        { "word": "morality", "trans": "道徳" }
+      ],
+      "related": [
+        { "word": "vicious", "trans": "悪意のある" },
+        { "word": "vice versa", "trans": "逆もまた同様" },
+        { "word": "viceroy", "trans": "副王" }
+      ]
+    },
+    {
+      "number": 5774,
+      "word": "evil",
+      "pos": "形容詞 / 名詞",
+      "meaning": "邪悪な",
+      "nuance": "「道徳的に非常に悪い」という意味。宗教的な文脈でも使われる。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was an evil man.",
+              "ja": "彼は邪悪な男だった。",
+              "highlight": "evil"
+            },
+            {
+              "en": "The evil of war is undeniable.",
+              "ja": "戦争の悪は否定できない。",
+              "highlight": "evil"
+            },
+            {
+              "en": "Money is not evil in itself.",
+              "ja": "お金自体は悪ではない。",
+              "highlight": "evil"
+            },
+            {
+              "en": "She gave me an evil look.",
+              "ja": "彼女は私に意地悪な目を向けた。",
+              "highlight": "evil"
+            },
+            {
+              "en": "The evil spirit was exorcised.",
+              "ja": "その悪霊は追い出された。",
+              "highlight": "evil"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 yfel（悪い）に由来。",
+      "synonyms": [
+        { "word": "wicked", "trans": "邪悪な" },
+        { "word": "sinful", "trans": "罪深い" },
+        { "word": "malevolent", "trans": "悪意のある" }
+      ],
+      "antonyms": [
+        { "word": "good", "trans": "善" },
+        { "word": "virtuous", "trans": "徳の高い" },
+        { "word": "righteous", "trans": "正しい" }
+      ],
+      "related": [
+        { "word": "evilness", "trans": "邪悪さ" },
+        { "word": "evildoer", "trans": "悪人" },
+        { "word": "evil eye", "trans": "邪視" }
+      ]
+    },
+    {
+      "number": 5775,
+      "word": "sin",
+      "pos": "名詞 / 動詞",
+      "meaning": "罪",
+      "nuance": "「宗教的道徳に反する行為」または「大きな過ち」。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He confessed his sins to the priest.",
+              "ja": "彼は司祭に自分の罪を告白した。",
+              "highlight": "sins"
+            },
+            {
+              "en": "It's a sin to waste food.",
+              "ja": "食べ物を無駄にするのは罪だ。",
+              "highlight": "sin"
+            },
+            {
+              "en": "Forgive me for I have sinned.",
+              "ja": "罪を犯した私を赦したまえ。",
+              "highlight": "sinned"
+            },
+            {
+              "en": "Greed is one of the seven deadly sins.",
+              "ja": "貪欲は七つの大罪の一つだ。",
+              "highlight": "sins"
+            },
+            {
+              "en": "He lives a life of sin.",
+              "ja": "彼は罪深い人生を送っている。",
+              "highlight": "sin"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 synn（罪）に由来。",
+      "synonyms": [
+        { "word": "wrongdoing", "trans": "不正" },
+        { "word": "transgression", "trans": "違反" },
+        { "word": "offense", "trans": "犯罪" }
+      ],
+      "antonyms": [
+        { "word": "virtue", "trans": "美徳" },
+        { "word": "good deed", "trans": "善行" },
+        { "word": "righteousness", "trans": "正義" }
+      ],
+      "related": [
+        { "word": "sinful", "trans": "罪深い" },
+        { "word": "sinner", "trans": "罪人" },
+        { "word": "original sin", "trans": "原罪" }
+      ]
+    },
+    {
+      "number": 5776,
+      "word": "crime",
+      "pos": "名詞",
+      "meaning": "犯罪",
+      "nuance": "「法律に違反する行為」全般を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Murder is a serious crime.",
+              "ja": "殺人は重大な犯罪です。",
+              "highlight": "crime"
+            },
+            {
+              "en": "The crime rate has increased.",
+              "ja": "犯罪率が上昇した。",
+              "highlight": "crime"
+            },
+            {
+              "en": "He was arrested for a crime he didn't commit.",
+              "ja": "彼は犯していない罪で逮捕された。",
+              "highlight": "crime"
+            },
+            {
+              "en": "The police are investigating the crime scene.",
+              "ja": "警察は犯罪現場を調査している。",
+              "highlight": "crime"
+            },
+            {
+              "en": "It's a crime to waste so much food.",
+              "ja": "そんなに多くの食べ物を無駄にするのはもったいない（犯罪的だ）。",
+              "highlight": "crime"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 crimen（非難）に由来。",
+      "synonyms": [
+        { "word": "offense", "trans": "犯罪" },
+        { "word": "felony", "trans": "重罪" },
+        { "word": "misdemeanor", "trans": "軽罪" }
+      ],
+      "antonyms": [
+        { "word": "good deed", "trans": "善行" },
+        { "word": "virtue", "trans": "美徳" },
+        { "word": "justice", "trans": "正義" }
+      ],
+      "related": [
+        { "word": "criminal", "trans": "犯罪者" },
+        { "word": "crime scene", "trans": "犯行現場" },
+        { "word": "crime rate", "trans": "犯罪率" }
+      ]
+    },
+    {
+      "number": 5777,
+      "word": "ethics",
+      "pos": "名詞",
+      "meaning": "倫理",
+      "nuance": "「道徳的な行動規範や原則」を指す。複数形で扱うことが多い。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Medical ethics prevent doctors from harming patients.",
+              "ja": "医療倫理は医師が患者を傷つけることを防ぐ。",
+              "highlight": "ethics"
+            },
+            {
+              "en": "He has strong work ethics.",
+              "ja": "彼は強い職業倫理を持っている。",
+              "highlight": "ethics"
+            },
+            {
+              "en": "The ethics of the decision were questioned.",
+              "ja": "その決定の倫理性が問われた。",
+              "highlight": "ethics"
+            },
+            {
+              "en": "Business ethics is an important subject.",
+              "ja": "ビジネス倫理は重要な科目だ。",
+              "highlight": "ethics"
+            },
+            {
+              "en": "The committee reviewed the ethics of the experiment.",
+              "ja": "委員会はその実験の倫理性を審査した。",
+              "highlight": "ethics"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 ethikos（習慣の）に由来。",
+      "synonyms": [
+        { "word": "morality", "trans": "道徳" },
+        { "word": "principles", "trans": "原則" },
+        { "word": "values", "trans": "価値観" }
+      ],
+      "antonyms": [
+        { "word": "corruption", "trans": "腐敗" },
+        { "word": "immorality", "trans": "不道徳" },
+        { "word": "unethical behavior", "trans": "非倫理的行為" }
+      ],
+      "related": [
+        { "word": "ethical", "trans": "倫理的な" },
+        { "word": "ethically", "trans": "倫理的に" },
+        { "word": "ethicist", "trans": "倫理学者" }
+      ]
+    },
+    {
+      "number": 5778,
+      "word": "moral",
+      "pos": "形容詞 / 名詞",
+      "meaning": "道徳上の、精神的な",
+      "nuance": "「善悪の判断に関する」という形容詞。名詞の複数形 morals で「道徳観」を表す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The story has a moral.",
+              "ja": "その話には教訓がある。",
+              "highlight": "moral"
+            },
+            {
+              "en": "He is a man of high moral standards.",
+              "ja": "彼は道徳的基準の高い人だ。",
+              "highlight": "moral"
+            },
+            {
+              "en": "She gave me moral support.",
+              "ja": "彼女は私に精神的な支えを与えた。",
+              "highlight": "moral"
+            },
+            {
+              "en": "The moral of the story is 'be honest'.",
+              "ja": "その話の教訓は「正直であれ」だ。",
+              "highlight": "moral"
+            },
+            {
+              "en": "He has no morals.",
+              "ja": "彼には道徳心がない。",
+              "highlight": "morals"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 moralis（習慣の）に由来。",
+      "synonyms": [
+        { "word": "ethical", "trans": "倫理的な" },
+        { "word": "virtuous", "trans": "高潔な" },
+        { "word": "righteous", "trans": "正義の" }
+      ],
+      "antonyms": [
+        { "word": "immoral", "trans": "不道徳な" },
+        { "word": "unethical", "trans": "非倫理的な" },
+        { "word": "wicked", "trans": "邪悪な" }
+      ],
+      "related": [
+        { "word": "morality", "trans": "道徳" },
+        { "word": "moralize", "trans": "説教する" },
+        { "word": "moral support", "trans": "精神的支え" }
+      ]
+    },
+    {
+      "number": 5779,
+      "word": "confess",
+      "pos": "動詞",
+      "meaning": "告白する、認める",
+      "nuance": "「罪や秘密を認める」という意味。宗教的文脈で使われることも多い。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He confessed to the crime.",
+              "ja": "彼はその犯罪を告白した。",
+              "highlight": "confessed"
+            },
+            {
+              "en": "She confessed that she had lied.",
+              "ja": "彼女は嘘をついたことを認めた。",
+              "highlight": "confessed"
+            },
+            {
+              "en": "I must confess, I don't understand.",
+              "ja": "告白すると、私には理解できない。",
+              "highlight": "confess"
+            },
+            {
+              "en": "He confessed his love for her.",
+              "ja": "彼は彼女への愛を告白した。",
+              "highlight": "confessed"
+            },
+            {
+              "en": "The prisoner confessed under pressure.",
+              "ja": "その囚人は圧力の下で自白した。",
+              "highlight": "confessed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 confiteri（完全に認める）に由来。",
+      "synonyms": [
+        { "word": "admit", "trans": "認める" },
+        { "word": "acknowledge", "trans": "認める" },
+        { "word": "reveal", "trans": "明かす" }
+      ],
+      "antonyms": [
+        { "word": "deny", "trans": "否定する" },
+        { "word": "conceal", "trans": "隠す" },
+        { "word": "hide", "trans": "隠す" }
+      ],
+      "related": [
+        { "word": "confession", "trans": "自白" },
+        { "word": "confessor", "trans": "聴罪司祭" },
+        { "word": "confessed", "trans": "自白した" }
+      ]
+    },
+    {
+      "number": 5780,
+      "word": "punish",
+      "pos": "動詞",
+      "meaning": "罰する(for…)",
+      "nuance": "「間違った行為に対して罰を与える」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The law punishes criminals.",
+              "ja": "法律は犯罪者を罰する。",
+              "highlight": "punishes"
+            },
+            {
+              "en": "He was punished for being late.",
+              "ja": "彼は遅刻したことで罰せられた。",
+              "highlight": "punished"
+            },
+            {
+              "en": "Parents should not punish children harshly.",
+              "ja": "親は子供を厳しく罰するべきではない。",
+              "highlight": "punish"
+            },
+            {
+              "en": "The teacher punished the whole class.",
+              "ja": "先生はクラス全員を罰した。",
+              "highlight": "punished"
+            },
+            {
+              "en": "They were punished for their disobedience.",
+              "ja": "彼らは不従順のために罰せられた。",
+              "highlight": "punished"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 punire（罰する）に由来。",
+      "synonyms": [
+        { "word": "discipline", "trans": "懲らしめる" },
+        { "word": "penalize", "trans": "罰する" },
+        { "word": "correct", "trans": "矯正する" }
+      ],
+      "antonyms": [
+        { "word": "reward", "trans": "報いる" },
+        { "word": "praise", "trans": "称賛する" },
+        { "word": "forgive", "trans": "許す" }
+      ],
+      "related": [
+        { "word": "punishment", "trans": "罰" },
+        { "word": "punitive", "trans": "懲罰的な" },
+        { "word": "punishable", "trans": "罰せられる" }
+      ]
+    },
+    {
+      "number": 5781,
+      "word": "penalty",
+      "pos": "名詞",
+      "meaning": "刑罰",
+      "nuance": "「法律や規則違反に対する罰」を指す。サッカーの「ペナルティキック」もこの語から。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The penalty for murder is life imprisonment.",
+              "ja": "殺人の刑罰は終身刑だ。",
+              "highlight": "penalty"
+            },
+            {
+              "en": "He was given a penalty for cheating.",
+              "ja": "彼はカンニングで罰則を受けた。",
+              "highlight": "penalty"
+            },
+            {
+              "en": "The death penalty is still used in some countries.",
+              "ja": "死刑はまだ一部の国で使われている。",
+              "highlight": "penalty"
+            },
+            {
+              "en": "You will have to pay a penalty for late payment.",
+              "ja": "支払いが遅れた場合、罰金を支払わなければならない。",
+              "highlight": "penalty"
+            },
+            {
+              "en": "The team was awarded a penalty kick.",
+              "ja": "そのチームはペナルティキックを与えられた。",
+              "highlight": "penalty"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 poena（罰）に由来。",
+      "synonyms": [
+        { "word": "punishment", "trans": "罰" },
+        { "word": "fine", "trans": "罰金" },
+        { "word": "sanction", "trans": "制裁" }
+      ],
+      "antonyms": [
+        { "word": "reward", "trans": "報酬" },
+        { "word": "prize", "trans": "賞" },
+        { "word": "exemption", "trans": "免除" }
+      ],
+      "related": [
+        { "word": "penal", "trans": "刑罰の" },
+        { "word": "penalize", "trans": "罰する" },
+        { "word": "penalty kick", "trans": "ペナルティキック" }
+      ]
+    },
+    {
+      "number": 5782,
+      "word": "murder",
+      "pos": "名詞 / 動詞",
+      "meaning": "殺人（する）",
+      "nuance": "「意図的な不法殺人」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was convicted of murder.",
+              "ja": "彼は殺人罪で有罪判決を受けた。",
+              "highlight": "murder"
+            },
+            {
+              "en": "The murder shocked the community.",
+              "ja": "その殺人は地域社会に衝撃を与えた。",
+              "highlight": "murder"
+            },
+            {
+              "en": "She murdered her husband in cold blood.",
+              "ja": "彼女は冷酷に夫を殺害した。",
+              "highlight": "murdered"
+            },
+            {
+              "en": "The victim was found murdered.",
+              "ja": "被害者は殺害された状態で発見された。",
+              "highlight": "murdered"
+            },
+            {
+              "en": "The play is a murder mystery.",
+              "ja": "その劇は殺人ミステリーだ。",
+              "highlight": "murder"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 morþor（殺人）に由来。",
+      "synonyms": [
+        { "word": "kill", "trans": "殺す" },
+        { "word": "slay", "trans": "殺害する" },
+        { "word": "assassinate", "trans": "暗殺する" }
+      ],
+      "antonyms": [
+        { "word": "save", "trans": "救う" },
+        { "word": "rescue", "trans": "救助する" },
+        { "word": "protect", "trans": "守る" }
+      ],
+      "related": [
+        { "word": "murderer", "trans": "殺人犯" },
+        { "word": "murderous", "trans": "殺人的な" },
+        { "word": "attempted murder", "trans": "殺人未遂" }
+      ]
+    },
+    {
+      "number": 5783,
+      "word": "victim",
+      "pos": "名詞",
+      "meaning": "犠牲者、被害者",
+      "nuance": "「犯罪や事故、災害などの被害を受けた人」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The victim of the accident was taken to the hospital.",
+              "ja": "その事故の被害者は病院に運ばれた。",
+              "highlight": "victim"
+            },
+            {
+              "en": "He was a victim of fraud.",
+              "ja": "彼は詐欺の被害者だった。",
+              "highlight": "victim"
+            },
+            {
+              "en": "The earthquake victims need shelter.",
+              "ja": "地震の被災者には避難所が必要だ。",
+              "highlight": "victims"
+            },
+            {
+              "en": "She fell victim to the disease.",
+              "ja": "彼女はその病気の犠牲になった。",
+              "highlight": "victim"
+            },
+            {
+              "en": "The victim identified the attacker.",
+              "ja": "被害者は襲撃者を特定した。",
+              "highlight": "victim"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 victima（生け贄）に由来。",
+      "synonyms": [
+        { "word": "sufferer", "trans": "被災者" },
+        { "word": "casualty", "trans": "死傷者" },
+        { "word": "target", "trans": "標的" }
+      ],
+      "antonyms": [
+        { "word": "offender", "trans": "加害者" },
+        { "word": "perpetrator", "trans": "犯人" },
+        { "word": "attacker", "trans": "襲撃者" }
+      ],
+      "related": [
+        { "word": "victimize", "trans": "被害者にする" },
+        { "word": "victimless", "trans": "被害者のない" },
+        { "word": "victim support", "trans": "被害者支援" }
+      ]
+    },
+    {
+      "number": 5784,
+      "word": "offend",
+      "pos": "動詞",
+      "meaning": "怒らせる",
+      "nuance": "「人の感情を害する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His remarks offended her.",
+              "ja": "彼の発言は彼女を怒らせた。",
+              "highlight": "offended"
+            },
+            {
+              "en": "I didn't mean to offend you.",
+              "ja": "あなたを怒らせるつもりはなかった。",
+              "highlight": "offend"
+            },
+            {
+              "en": "She was easily offended by jokes.",
+              "ja": "彼女は冗談で簡単に怒った。",
+              "highlight": "offended"
+            },
+            {
+              "en": "The article offended many readers.",
+              "ja": "その記事は多くの読者を怒らせた。",
+              "highlight": "offended"
+            },
+            {
+              "en": "He offended against the law.",
+              "ja": "彼は法律に違反した。",
+              "highlight": "offended"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 offendere（打つ）に由来。",
+      "synonyms": [
+        { "word": "insult", "trans": "侮辱する" },
+        { "word": "annoy", "trans": "怒らせる" },
+        { "word": "displease", "trans": "不機嫌にさせる" }
+      ],
+      "antonyms": [
+        { "word": "please", "trans": "喜ばせる" },
+        { "word": "delight", "trans": "楽しませる" },
+        { "word": "gratify", "trans": "満足させる" }
+      ],
+      "related": [
+        { "word": "offense", "trans": "違反" },
+        { "word": "offensive", "trans": "不快な" },
+        { "word": "offender", "trans": "加害者" }
+      ]
+    },
+    {
+      "number": 5785,
+      "word": "defend",
+      "pos": "動詞",
+      "meaning": "防御する、弁護する",
+      "nuance": "「攻撃から守る」または「主張や立場を守る」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The soldiers defended the fort.",
+              "ja": "兵士たちは砦を守った。",
+              "highlight": "defended"
+            },
+            {
+              "en": "She defended her opinion strongly.",
+              "ja": "彼女は自分の意見を強く弁護した。",
+              "highlight": "defended"
+            },
+            {
+              "en": "The lawyer defended the accused.",
+              "ja": "その弁護士は被告を弁護した。",
+              "highlight": "defended"
+            },
+            {
+              "en": "We must defend our country.",
+              "ja": "私たちは国を守らなければならない。",
+              "highlight": "defend"
+            },
+            {
+              "en": "He defended his title successfully.",
+              "ja": "彼はタイトル防衛に成功した。",
+              "highlight": "defended"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン语 defendere（遠ざける）に由来。",
+      "synonyms": [
+        { "word": "protect", "trans": "保護する" },
+        { "word": "guard", "trans": "守る" },
+        { "word": "justify", "trans": "正当化する" }
+      ],
+      "antonyms": [
+        { "word": "attack", "trans": "攻撃する" },
+        { "word": "surrender", "trans": "降伏する" },
+        { "word": "abandon", "trans": "見捨てる" }
+      ],
+      "related": [
+        { "word": "defense", "trans": "防御" },
+        { "word": "defensive", "trans": "防御的な" },
+        { "word": "defender", "trans": "守護者" }
+      ]
+    },
+    {
+      "number": 5786,
+      "word": "motive",
+      "pos": "名詞",
+      "meaning": "動機",
+      "nuance": "「行動の背後にある理由」を指す。犯罪捜査などでよく使われる。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The police are looking for a motive.",
+              "ja": "警察は動機を捜している。",
+              "highlight": "motive"
+            },
+            {
+              "en": "His motive for the crime was greed.",
+              "ja": "彼の犯罪の動機は貪欲さだった。",
+              "highlight": "motive"
+            },
+            {
+              "en": "What was her motive for leaving?",
+              "ja": "彼女が去った動機は何だったのか？",
+              "highlight": "motive"
+            },
+            {
+              "en": "He had a strong motive to lie.",
+              "ja": "彼には嘘をつく強い動機があった。",
+              "highlight": "motive"
+            },
+            {
+              "en": "The motive behind the attack is unclear.",
+              "ja": "その攻撃の背後にある動機は不明だ。",
+              "highlight": "motive"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 movere（動かす）に由来。",
+      "synonyms": [
+        { "word": "reason", "trans": "理由" },
+        { "word": "cause", "trans": "原因" },
+        { "word": "incentive", "trans": "動機" }
+      ],
+      "antonyms": [
+        { "word": "accident", "trans": "偶然" },
+        { "word": "chance", "trans": "偶然" },
+        { "word": "impulse", "trans": "衝動" }
+      ],
+      "related": [
+        { "word": "motivate", "trans": "動機づける" },
+        { "word": "motivation", "trans": "やる気" },
+        { "word": "motiveless", "trans": "無動機の" }
+      ]
+    },
+    {
+      "number": 5787,
+      "word": "witness",
+      "pos": "名詞 / 動詞",
+      "meaning": "証人、目撃者； 目撃する",
+      "nuance": "「出来事を実際に見た人」または「目撃する」という動詞。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She was a witness to the accident.",
+              "ja": "彼女はその事故の目撃者だった。",
+              "highlight": "witness"
+            },
+            {
+              "en": "The witness testified in court.",
+              "ja": "その証人は法廷で証言した。",
+              "highlight": "witness"
+            },
+            {
+              "en": "He witnessed the crime.",
+              "ja": "彼はその犯罪を目撃した。",
+              "highlight": "witnessed"
+            },
+            {
+              "en": "We are witnessing a major change.",
+              "ja": "私たちは大きな変化を目の当たりにしている。",
+              "highlight": "witnessing"
+            },
+            {
+              "en": "The year 2020 witnessed a global pandemic.",
+              "ja": "2020年は世界的なパンデミックを見た。",
+              "highlight": "witnessed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 witnes（知識）に由来。",
+      "synonyms": [
+        { "word": "observer", "trans": "観察者" },
+        { "word": "bystander", "trans": "傍観者" },
+        { "word": "see", "trans": "見る" }
+      ],
+      "antonyms": [
+        { "word": "participant", "trans": "参加者" },
+        { "word": "perpetrator", "trans": "犯人" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "eyewitness", "trans": "目撃者" },
+        { "word": "witness protection", "trans": "証人保護" },
+        { "word": "expert witness", "trans": "専門証人" }
+      ]
+    },
+    {
+      "number": 5788,
+      "word": "arrest",
+      "pos": "動詞 / 名詞",
+      "meaning": "逮捕する：逮捕",
+      "nuance": "「法律に基づいて人を拘束する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The police arrested the suspect.",
+              "ja": "警察は容疑者を逮捕した。",
+              "highlight": "arrested"
+            },
+            {
+              "en": "He was arrested for theft.",
+              "ja": "彼は窃盗で逮捕された。",
+              "highlight": "arrested"
+            },
+            {
+              "en": "The arrest was made without incident.",
+              "ja": "逮捕は何事もなく行われた。",
+              "highlight": "arrest"
+            },
+            {
+              "en": "Her beauty arrested his attention.",
+              "ja": "彼女の美しさが彼の注意を引きつけた。",
+              "highlight": "arrested"
+            },
+            {
+              "en": "The doctor arrested the bleeding.",
+              "ja": "医者は出血を止めた。",
+              "highlight": "arrested"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad（～の方へ）+ restare（止まる）に由来。",
+      "synonyms": [
+        { "word": "detain", "trans": "拘留する" },
+        { "word": "capture", "trans": "捕まえる" },
+        { "word": "apprehend", "trans": "逮捕する" }
+      ],
+      "antonyms": [
+        { "word": "release", "trans": "解放する" },
+        { "word": "free", "trans": "自由にする" },
+        { "word": "let go", "trans": "放す" }
+      ],
+      "related": [
+        { "word": "arrest warrant", "trans": "逮捕状" },
+        { "word": "under arrest", "trans": "逮捕されて" },
+        { "word": "cardiac arrest", "trans": "心停止" }
+      ]
+    },
+    {
+      "number": 5789,
+      "word": "detain",
+      "pos": "動詞",
+      "meaning": "拘留する",
+      "nuance": "「一時的に拘束する」という意味で、arrest よりも法的に軽いニュアンス。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The police detained him for questioning.",
+              "ja": "警察は彼を尋問のために拘留した。",
+              "highlight": "detained"
+            },
+            {
+              "en": "He was detained at the airport.",
+              "ja": "彼は空港で足止めされた。",
+              "highlight": "detained"
+            },
+            {
+              "en": "The teacher detained the student after class.",
+              "ja": "先生は放課後にその生徒を残した。",
+              "highlight": "detained"
+            },
+            {
+              "en": "We were detained by traffic.",
+              "ja": "私たちは交通渋滞で遅れた。",
+              "highlight": "detained"
+            },
+            {
+              "en": "He was detained for illegal entry.",
+              "ja": "彼は不法入国で拘留された。",
+              "highlight": "detained"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 detinere（引き留める）に由来。",
+      "synonyms": [
+        { "word": "delay", "trans": "遅らせる" },
+        { "word": "hold", "trans": "留める" },
+        { "word": "confine", "trans": "閉じ込める" }
+      ],
+      "antonyms": [
+        { "word": "release", "trans": "解放する" },
+        { "word": "free", "trans": "自由にする" },
+        { "word": "let go", "trans": "放す" }
+      ],
+      "related": [
+        { "word": "detention", "trans": "拘留" },
+        { "word": "detainee", "trans": "被拘留者" },
+        { "word": "detaining", "trans": "拘留中" }
+      ]
+    },
+    {
+      "number": 5790,
+      "word": "accuse",
+      "pos": "動詞",
+      "meaning": "非難する、告訴する",
+      "nuance": "「人が悪いことをしたと非難する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was accused of theft.",
+              "ja": "彼は窃盗で告発された。",
+              "highlight": "accused"
+            },
+            {
+              "en": "She accused him of lying.",
+              "ja": "彼女は彼を嘘つきだと非難した。",
+              "highlight": "accused"
+            },
+            {
+              "en": "The teacher accused me of cheating.",
+              "ja": "先生は私をカンニングだと非難した。",
+              "highlight": "accused"
+            },
+            {
+              "en": "They accused the government of corruption.",
+              "ja": "彼らは政府を汚職で非難した。",
+              "highlight": "accused"
+            },
+            {
+              "en": "He was falsely accused.",
+              "ja": "彼は冤罪で告発された。",
+              "highlight": "accused"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 accusare（呼び出す）に由来。",
+      "synonyms": [
+        { "word": "blame", "trans": "責める" },
+        { "word": "charge", "trans": "告訴する" },
+        { "word": "indict", "trans": "起訴する" }
+      ],
+      "antonyms": [
+        { "word": "defend", "trans": "弁護する" },
+        { "word": "praise", "trans": "称賛する" },
+        { "word": "acquit", "trans": "無罪にする" }
+      ],
+      "related": [
+        { "word": "accusation", "trans": "非難" },
+        { "word": "accused", "trans": "被告" },
+        { "word": "accuser", "trans": "告発者" }
+      ]
+    },
+    {
+      "number": 5791,
+      "word": "blame",
+      "pos": "動詞 / 名詞",
+      "meaning": "責任があるとする； せいにする",
+      "nuance": "「悪い結果の責任を負わせる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Don't blame me for your mistake.",
+              "ja": "自分のミスを私のせいにしないで。",
+              "highlight": "blame"
+            },
+            {
+              "en": "He blamed the accident on bad weather.",
+              "ja": "彼はその事故を悪天候のせいにした。",
+              "highlight": "blamed"
+            },
+            {
+              "en": "The company took the blame for the failure.",
+              "ja": "その会社は失敗の責任を負った。",
+              "highlight": "blame"
+            },
+            {
+              "en": "She is partly to blame.",
+              "ja": "彼女にも一部責任がある。",
+              "highlight": "blame"
+            },
+            {
+              "en": "He always blames others.",
+              "ja": "彼はいつも他人のせいにする。",
+              "highlight": "blames"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 blamer（非難する）に由来。",
+      "synonyms": [
+        { "word": "accuse", "trans": "非難する" },
+        { "word": "hold responsible", "trans": "責任を負わせる" },
+        { "word": "fault", "trans": "責める" }
+      ],
+      "antonyms": [
+        { "word": "praise", "trans": "称賛する" },
+        { "word": "credit", "trans": "評価する" },
+        { "word": "absolve", "trans": "免責する" }
+      ],
+      "related": [
+        { "word": "blameless", "trans": "非の打ちどころのない" },
+        { "word": "blameworthy", "trans": "責められるべき" },
+        { "word": "to blame", "trans": "責任があって" }
+      ]
+    },
+    {
+      "number": 5792,
+      "word": "fault",
+      "pos": "名詞",
+      "meaning": "過失、責任； 欠陥",
+      "nuance": "「間違いや欠点、責任」を指す。地質学の「断層」の意味もある。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "It's not my fault.",
+              "ja": "私のせいじゃない。",
+              "highlight": "fault"
+            },
+            {
+              "en": "The accident was the driver's fault.",
+              "ja": "その事故は運転手の過失だった。",
+              "highlight": "fault"
+            },
+            {
+              "en": "She has many faults, but she is kind.",
+              "ja": "彼女には多くの欠点があるが、親切だ。",
+              "highlight": "faults"
+            },
+            {
+              "en": "The earthquake occurred along a fault line.",
+              "ja": "その地震は断層線に沿って発生した。",
+              "highlight": "fault"
+            },
+            {
+              "en": "He found fault with everything.",
+              "ja": "彼は全てに難癖をつけた。",
+              "highlight": "fault"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 fallere（欺く）に由来。",
+      "synonyms": [
+        { "word": "defect", "trans": "欠陥" },
+        { "word": "error", "trans": "誤り" },
+        { "word": "responsibility", "trans": "責任" }
+      ],
+      "antonyms": [
+        { "word": "merit", "trans": "長所" },
+        { "word": "perfection", "trans": "完璧" },
+        { "word": "strength", "trans": "強み" }
+      ],
+      "related": [
+        { "word": "faulty", "trans": "欠陥のある" },
+        { "word": "faultless", "trans": "完璧な" },
+        { "word": "fault line", "trans": "断層線" }
+      ]
+    },
+    {
+      "number": 5793,
+      "word": "condemn",
+      "pos": "動詞",
+      "meaning": "責める、刑を宣告する",
+      "nuance": "「強く非難する」または「死刑を宣告する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was condemned to death.",
+              "ja": "彼は死刑を宣告された。",
+              "highlight": "condemned"
+            },
+            {
+              "en": "The building was condemned as unsafe.",
+              "ja": "その建物は危険として使用禁止になった。",
+              "highlight": "condemned"
+            },
+            {
+              "en": "The government condemned the attack.",
+              "ja": "政府はその攻撃を非難した。",
+              "highlight": "condemned"
+            },
+            {
+              "en": "She condemned his selfish behavior.",
+              "ja": "彼女は彼の利己的な行動を責めた。",
+              "highlight": "condemned"
+            },
+            {
+              "en": "The court condemned him for his crimes.",
+              "ja": "裁判所は彼の罪を非難した。",
+              "highlight": "condemned"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 condemnare（有罪とする）に由来。",
+      "synonyms": [
+        { "word": "denounce", "trans": "非難する" },
+        { "word": "criticize", "trans": "批判する" },
+        { "word": "sentence", "trans": "判決を下す" }
+      ],
+      "antonyms": [
+        { "word": "praise", "trans": "称賛する" },
+        { "word": "absolve", "trans": "赦免する" },
+        { "word": "acquit", "trans": "無罪にする" }
+      ],
+      "related": [
+        { "word": "condemnation", "trans": "非難" },
+        { "word": "condemnatory", "trans": "非難の" },
+        { "word": "condemned", "trans": "非難された" }
+      ]
+    },
+    {
+      "number": 5794,
+      "word": "court",
+      "pos": "名詞",
+      "meaning": "法廷、裁判所； 宮廷",
+      "nuance": "「司法を行う場所」または「王宮」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The case will be heard in court.",
+              "ja": "その訴訟は法廷で審理される。",
+              "highlight": "court"
+            },
+            {
+              "en": "He was ordered to pay a fine by the court.",
+              "ja": "彼は裁判所から罰金の支払いを命じられた。",
+              "highlight": "court"
+            },
+            {
+              "en": "The king and his court lived in the palace.",
+              "ja": "王とその宮廷は宮殿に住んでいた。",
+              "highlight": "court"
+            },
+            {
+              "en": "They played tennis on the court.",
+              "ja": "彼らはコートでテニスをした。",
+              "highlight": "court"
+            },
+            {
+              "en": "She courted controversy with her remarks.",
+              "ja": "彼女は自分の発言で論争を招いた。",
+              "highlight": "courted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 cohors（囲い）に由来。",
+      "synonyms": [
+        { "word": "tribunal", "trans": "審判所" },
+        { "word": "judiciary", "trans": "司法" },
+        { "word": "palace", "trans": "宮殿" }
+      ],
+      "antonyms": [
+        { "word": "settlement", "trans": "和解" },
+        { "word": "private agreement", "trans": "私的合意" }
+      ],
+      "related": [
+        { "word": "courthouse", "trans": "裁判所" },
+        { "word": "courtroom", "trans": "法廷" },
+        { "word": "courteous", "trans": "礼儀正しい" }
+      ]
+    },
+    {
+      "number": 5795,
+      "word": "courtesy",
+      "pos": "名詞",
+      "meaning": "礼儀、作法",
+      "nuance": "「他人に対する思いやりや礼儀正しさ」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He showed great courtesy to everyone.",
+              "ja": "彼は誰に対しても非常に礼儀正しかった。",
+              "highlight": "courtesy"
+            },
+            {
+              "en": "The hotel offers a courtesy bus to the station.",
+              "ja": "そのホテルは駅への無料送迎バスを提供している。",
+              "highlight": "courtesy"
+            },
+            {
+              "en": "By courtesy of the museum, we got a free tour.",
+              "ja": "美術館の好意で、無料ツアーに参加できた。",
+              "highlight": "courtesy"
+            },
+            {
+              "en": "He had the courtesy to apologize.",
+              "ja": "彼は謝罪する礼儀を持っていた。",
+              "highlight": "courtesy"
+            },
+            {
+              "en": "She answered with courtesy.",
+              "ja": "彼女は礼儀正しく答えた。",
+              "highlight": "courtesy"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 cortoisie（宮廷の作法）に由来。",
+      "synonyms": [
+        { "word": "politeness", "trans": "丁寧さ" },
+        { "word": "respect", "trans": "敬意" },
+        { "word": "manners", "trans": "マナー" }
+      ],
+      "antonyms": [
+        { "word": "rudeness", "trans": "無礼" },
+        { "word": "disrespect", "trans": "無礼" },
+        { "word": "insolence", "trans": "傲慢" }
+      ],
+      "related": [
+        { "word": "courteous", "trans": "礼儀正しい" },
+        { "word": "courteously", "trans": "礼儀正しく" },
+        { "word": "court", "trans": "宮廷" }
+      ]
+    },
+    {
+      "number": 5796,
+      "word": "trial",
+      "pos": "名詞",
+      "meaning": "裁判、公判",
+      "nuance": "「法的な審判」または「試し」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The trial lasted three weeks.",
+              "ja": "その裁判は3週間続いた。",
+              "highlight": "trial"
+            },
+            {
+              "en": "He is on trial for murder.",
+              "ja": "彼は殺人罪で公判中だ。",
+              "highlight": "trial"
+            },
+            {
+              "en": "The new drug is undergoing clinical trials.",
+              "ja": "その新薬は臨床試験中だ。",
+              "highlight": "trials"
+            },
+            {
+              "en": "She gave the car a trial run.",
+              "ja": "彼女はその車を試運転した。",
+              "highlight": "trial"
+            },
+            {
+              "en": "Life is full of trials.",
+              "ja": "人生は試練に満ちている。",
+              "highlight": "trials"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 trial（試し）に由来。",
+      "synonyms": [
+        { "word": "test", "trans": "試験" },
+        { "word": "experiment", "trans": "実験" },
+        { "word": "hearing", "trans": "審理" }
+      ],
+      "antonyms": [
+        { "word": "agreement", "trans": "合意" },
+        { "word": "settlement", "trans": "和解" },
+        { "word": "acquittal", "trans": "無罪判決" }
+      ],
+      "related": [
+        { "word": "trial court", "trans": "第一審裁判所" },
+        { "word": "trial run", "trans": "試運転" },
+        { "word": "trial period", "trans": "試用期間" }
+      ]
+    },
+    {
+      "number": 5797,
+      "word": "justice",
+      "pos": "名詞",
+      "meaning": "構成、正義； 裁判",
+      "nuance": "「公正さ」や「司法制度」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He fought for justice.",
+              "ja": "彼は正義のために戦った。",
+              "highlight": "justice"
+            },
+            {
+              "en": "The justice system must be fair.",
+              "ja": "司法制度は公正でなければならない。",
+              "highlight": "justice"
+            },
+            {
+              "en": "She was brought to justice.",
+              "ja": "彼女は法の裁きを受けた。",
+              "highlight": "justice"
+            },
+            {
+              "en": "He became a Supreme Court justice.",
+              "ja": "彼は最高裁判所判事になった。",
+              "highlight": "justice"
+            },
+            {
+              "en": "There is no justice in the world.",
+              "ja": "この世に正義はない。",
+              "highlight": "justice"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 justitia（正しさ）に由来。",
+      "synonyms": [
+        { "word": "fairness", "trans": "公平さ" },
+        { "word": "righteousness", "trans": "正しさ" },
+        { "word": "judiciary", "trans": "司法" }
+      ],
+      "antonyms": [
+        { "word": "injustice", "trans": "不正" },
+        { "word": "unfairness", "trans": "不公平" },
+        { "word": "corruption", "trans": "腐敗" }
+      ],
+      "related": [
+        { "word": "just", "trans": "公正な" },
+        { "word": "justify", "trans": "正当化する" },
+        { "word": "justifiable", "trans": "正当化できる" }
+      ]
+    },
+    {
+      "number": 5798,
+      "word": "judge",
+      "pos": "名詞 / 動詞",
+      "meaning": "判断する； 裁判官",
+      "nuance": "「評価する」または「裁判官」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The judge sentenced him to prison.",
+              "ja": "その裁判官は彼に禁固刑を言い渡した。",
+              "highlight": "judge"
+            },
+            {
+              "en": "Don't judge others by their appearance.",
+              "ja": "外見で人を判断してはいけない。",
+              "highlight": "judge"
+            },
+            {
+              "en": "She judged the competition.",
+              "ja": "彼女はそのコンテストの審査をした。",
+              "highlight": "judged"
+            },
+            {
+              "en": "He is a good judge of character.",
+              "ja": "彼は人物を見る目がある。",
+              "highlight": "judge"
+            },
+            {
+              "en": "It's hard to judge how he will react.",
+              "ja": "彼がどう反応するか判断するのは難しい。",
+              "highlight": "judge"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 judex（裁判官）に由来。",
+      "synonyms": [
+        { "word": "justice", "trans": "裁判官" },
+        { "word": "arbitrator", "trans": "仲裁人" },
+        { "word": "assess", "trans": "評価する" }
+      ],
+      "antonyms": [
+        { "word": "party", "trans": "当事者" },
+        { "word": "accused", "trans": "被告" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "judgment", "trans": "判断" },
+        { "word": "judicial", "trans": "司法の" },
+        { "word": "judiciary", "trans": "司法部" }
+      ]
+    },
+    {
+      "number": 5799,
+      "word": "jury",
+      "pos": "名詞",
+      "meaning": "陪審員団",
+      "nuance": "「裁判で有罪か無罪かを決める市民の集団」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The jury found him guilty.",
+              "ja": "陪審員団は彼を有罪とした。",
+              "highlight": "jury"
+            },
+            {
+              "en": "She served on a jury.",
+              "ja": "彼女は陪審員を務めた。",
+              "highlight": "jury"
+            },
+            {
+              "en": "The jury is still out on that issue.",
+              "ja": "その問題についてはまだ結論が出ていない。",
+              "highlight": "jury"
+            },
+            {
+              "en": "He addressed the jury.",
+              "ja": "彼は陪審員団に向けて話した。",
+              "highlight": "jury"
+            },
+            {
+              "en": "The jury deliberated for two days.",
+              "ja": "陪審員団は2日間審議した。",
+              "highlight": "jury"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 jurare（誓う）に由来。",
+      "synonyms": [
+        { "word": "panel", "trans": "審査員団" },
+        { "word": "tribunal", "trans": "審判団" },
+        { "word": "inquest", "trans": "審問" }
+      ],
+      "antonyms": [
+        { "word": "judge", "trans": "裁判官" },
+        { "word": "single decision-maker", "trans": "単独決定者" }
+      ],
+      "related": [
+        { "word": "juror", "trans": "陪審員" },
+        { "word": "jury duty", "trans": "陪審義務" },
+        { "word": "grand jury", "trans": "大陪審" }
+      ]
+    },
+    {
+      "number": 5800,
+      "word": "testify",
+      "pos": "動詞",
+      "meaning": "証言する",
+      "nuance": "「法廷で証言する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She testified against the defendant.",
+              "ja": "彼女は被告に不利な証言をした。",
+              "highlight": "testified"
+            },
+            {
+              "en": "He testified that he saw the crime.",
+              "ja": "彼はその犯罪を見たと証言した。",
+              "highlight": "testified"
+            },
+            {
+              "en": "The witness refused to testify.",
+              "ja": "その証人は証言を拒否した。",
+              "highlight": "testify"
+            },
+            {
+              "en": "His success testifies to his hard work.",
+              "ja": "彼の成功は彼の勤勉さを物語っている。",
+              "highlight": "testifies"
+            },
+            {
+              "en": "She testified in court.",
+              "ja": "彼女は法廷で証言した。",
+              "highlight": "testified"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 testificari（証言する）に由来。",
+      "synonyms": [
+        { "word": "attest", "trans": "証明する" },
+        { "word": "swear", "trans": "誓う" },
+        { "word": "declare", "trans": "宣言する" }
+      ],
+      "antonyms": [
+        { "word": "refuse to testify", "trans": "証言拒否" },
+        { "word": "conceal", "trans": "隠す" },
+        { "word": "lie", "trans": "嘘をつく" }
+      ],
+      "related": [
+        { "word": "testimony", "trans": "証言" },
+        { "word": "testifier", "trans": "証言者" },
+        { "word": "testimonial", "trans": "推薦状" }
+      ]
+    },
+    {
+      "number": 5801,
+      "word": "guilty",
+      "pos": "形容詞",
+      "meaning": "有罪の",
+      "nuance": "「法律上、罪がある」という意味。感情的な「罪悪感」を表すこともある。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The jury found him guilty.",
+              "ja": "陪審員団は彼を有罪とした。",
+              "highlight": "guilty"
+            },
+            {
+              "en": "She pleaded guilty to the charge.",
+              "ja": "彼女はその容疑に対して有罪を認めた。",
+              "highlight": "guilty"
+            },
+            {
+              "en": "I feel guilty about not helping.",
+              "ja": "手伝わなかったことで罪悪感を感じている。",
+              "highlight": "guilty"
+            },
+            {
+              "en": "He was guilty of negligence.",
+              "ja": "彼は過失の罪があった。",
+              "highlight": "guilty"
+            },
+            {
+              "en": "The guilty party must pay compensation.",
+              "ja": "有罪当事者は補償金を支払わなければならない。",
+              "highlight": "guilty"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 gyltig（罪のある）に由来。",
+      "synonyms": [
+        { "word": "culpable", "trans": "有責の" },
+        { "word": "responsible", "trans": "責任のある" },
+        { "word": "blameworthy", "trans": "責められるべき" }
+      ],
+      "antonyms": [
+        { "word": "innocent", "trans": "無罪の" },
+        { "word": "blameless", "trans": "非の打ちどころのない" },
+        { "word": "guiltless", "trans": "罪のない" }
+      ],
+      "related": [
+        { "word": "guilt", "trans": "罪悪感" },
+        { "word": "guiltily", "trans": "後ろめたそうに" },
+        { "word": "guilty conscience", "trans": "良心の呵責" }
+      ]
+    },
+    {
+      "number": 5802,
+      "word": "innocent",
+      "pos": "形容詞",
+      "meaning": "無罪の、無邪気な",
+      "nuance": "「罪がない」または「純粋で悪意がない」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The court declared him innocent.",
+              "ja": "裁判所は彼を無罪と宣言した。",
+              "highlight": "innocent"
+            },
+            {
+              "en": "She is an innocent child.",
+              "ja": "彼女は無邪気な子供だ。",
+              "highlight": "innocent"
+            },
+            {
+              "en": "He was innocent of the crime.",
+              "ja": "彼はその犯罪に対して無実だった。",
+              "highlight": "innocent"
+            },
+            {
+              "en": "She gave him an innocent smile.",
+              "ja": "彼女は彼に無邪気な微笑みを向けた。",
+              "highlight": "innocent"
+            },
+            {
+              "en": "Many innocent people died in the war.",
+              "ja": "多くの罪のない人々が戦争で死んだ。",
+              "highlight": "innocent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 innocens（害のない）に由来。",
+      "synonyms": [
+        { "word": "blameless", "trans": "非の打ちどころのない" },
+        { "word": "pure", "trans": "純粋な" },
+        { "word": "guiltless", "trans": "罪のない" }
+      ],
+      "antonyms": [
+        { "word": "guilty", "trans": "有罪の" },
+        { "word": "corrupt", "trans": "腐敗した" },
+        { "word": "experienced", "trans": "世故に長けた" }
+      ],
+      "related": [
+        { "word": "innocence", "trans": "無罪" },
+        { "word": "innocently", "trans": "無邪気に" },
+        { "word": "innocent party", "trans": "無実の当事者" }
+      ]
+    },
+    {
+      "number": 5803,
+      "word": "sentence",
+      "pos": "名詞 / 動詞",
+      "meaning": "判決（を下す）",
+      "nuance": "「刑罰の宣告」という意味。文法的な「文」の意味もある。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He received a life sentence.",
+              "ja": "彼は終身刑を宣告された。",
+              "highlight": "sentence"
+            },
+            {
+              "en": "The judge sentenced him to five years in prison.",
+              "ja": "裁判官は彼に5年の禁固刑を宣告した。",
+              "highlight": "sentenced"
+            },
+            {
+              "en": "This sentence is grammatically correct.",
+              "ja": "この文は文法的に正しい。",
+              "highlight": "sentence"
+            },
+            {
+              "en": "He served his sentence.",
+              "ja": "彼は刑期を務めた。",
+              "highlight": "sentence"
+            },
+            {
+              "en": "The sentence was commuted to a fine.",
+              "ja": "その判決は罰金に減刑された。",
+              "highlight": "sentence"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sententia（意見）に由来。",
+      "synonyms": [
+        { "word": "conviction", "trans": "有罪判決" },
+        { "word": "judgment", "trans": "判決" },
+        { "word": "punishment", "trans": "刑罰" }
+      ],
+      "antonyms": [
+        { "word": "acquittal", "trans": "無罪判決" },
+        { "word": "pardon", "trans": "恩赦" },
+        { "word": "release", "trans": "解放" }
+      ],
+      "related": [
+        { "word": "sentencing", "trans": "量刑" },
+        { "word": "death sentence", "trans": "死刑判決" },
+        { "word": "suspended sentence", "trans": "執行猶予" }
+      ]
+    },
+    {
+      "number": 5804,
+      "word": "prison",
+      "pos": "名詞",
+      "meaning": "刑務所",
+      "nuance": "「受刑者が収容される施設」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was sent to prison for ten years.",
+              "ja": "彼は10年間刑務所に送られた。",
+              "highlight": "prison"
+            },
+            {
+              "en": "The prison is overcrowded.",
+              "ja": "その刑務所は過密状態だ。",
+              "highlight": "prison"
+            },
+            {
+              "en": "She escaped from prison.",
+              "ja": "彼女は刑務所から脱走した。",
+              "highlight": "prison"
+            },
+            {
+              "en": "He was released from prison early.",
+              "ja": "彼は早期に刑務所から釈放された。",
+              "highlight": "prison"
+            },
+            {
+              "en": "The prison guards were strict.",
+              "ja": "その刑務官たちは厳しかった。",
+              "highlight": "prison"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 prensio（捕まえること）に由来。",
+      "synonyms": [
+        { "word": "jail", "trans": "拘置所" },
+        { "word": "penitentiary", "trans": "刑務所" },
+        { "word": "detention center", "trans": "拘置所" }
+      ],
+      "antonyms": [
+        { "word": "freedom", "trans": "自由" },
+        { "word": "liberty", "trans": "自由" },
+        { "word": "release", "trans": "解放" }
+      ],
+      "related": [
+        { "word": "prisoner", "trans": "囚人" },
+        { "word": "imprison", "trans": "投獄する" },
+        { "word": "prison term", "trans": "刑期" }
+      ]
+    },
+    {
+      "number": 5805,
+      "word": "deter",
+      "pos": "動詞",
+      "meaning": "抑止する",
+      "nuance": "「思いとどまらせる」「防止する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "High prices deter customers.",
+              "ja": "高い価格は顧客を遠ざける。",
+              "highlight": "deter"
+            },
+            {
+              "en": "The fence deterred intruders.",
+              "ja": "そのフェンスは侵入者を防いだ。",
+              "highlight": "deterred"
+            },
+            {
+              "en": "Fear of punishment deters crime.",
+              "ja": "罰への恐怖が犯罪を抑止する。",
+              "highlight": "deters"
+            },
+            {
+              "en": "He was not deterred by the difficulties.",
+              "ja": "彼は困難に挫けなかった。",
+              "highlight": "deterred"
+            },
+            {
+              "en": "The warning deterred him from trying again.",
+              "ja": "その警告は彼に再挑戦を思いとどまらせた。",
+              "highlight": "deterred"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 deterrere（怖がらせて遠ざける）に由来。",
+      "synonyms": [
+        { "word": "discourage", "trans": "思いとどまらせる" },
+        { "word": "prevent", "trans": "防ぐ" },
+        { "word": "dissuade", "trans": "説得してやめさせる" }
+      ],
+      "antonyms": [
+        { "word": "encourage", "trans": "励ます" },
+        { "word": "promote", "trans": "促進する" },
+        { "word": "attract", "trans": "引き付ける" }
+      ],
+      "related": [
+        { "word": "deterrent", "trans": "抑止力" },
+        { "word": "deterrence", "trans": "抑止" },
+        { "word": "undeterred", "trans": "挫けない" }
+      ]
+    },
+    {
+      "number": 5806,
+      "word": "violence",
+      "pos": "名詞",
+      "meaning": "暴力",
+      "nuance": "「身体的に傷つける行為」全般を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Violence is never the answer.",
+              "ja": "暴力は決して解決策ではない。",
+              "highlight": "Violence"
+            },
+            {
+              "en": "The movie contains scenes of violence.",
+              "ja": "その映画には暴力シーンが含まれている。",
+              "highlight": "violence"
+            },
+            {
+              "en": "He was a victim of domestic violence.",
+              "ja": "彼は家庭内暴力の被害者だった。",
+              "highlight": "violence"
+            },
+            {
+              "en": "The protest turned into violence.",
+              "ja": "その抗議活動は暴力に発展した。",
+              "highlight": "violence"
+            },
+            {
+              "en": "The police condemned the violence.",
+              "ja": "警察はその暴力を非難した。",
+              "highlight": "violence"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 violentia（激しさ）に由来。",
+      "synonyms": [
+        { "word": "brutality", "trans": "残虐性" },
+        { "word": "force", "trans": "武力" },
+        { "word": "aggression", "trans": "攻撃性" }
+      ],
+      "antonyms": [
+        { "word": "peace", "trans": "平和" },
+        { "word": "calm", "trans": "平穏" },
+        { "word": "nonviolence", "trans": "非暴力" }
+      ],
+      "related": [
+        { "word": "violent", "trans": "暴力的な" },
+        { "word": "violently", "trans": "暴力的に" },
+        { "word": "non-violence", "trans": "非暴力" }
+      ]
+    },
+    {
+      "number": 5807,
+      "word": "aggressive",
+      "pos": "形容詞",
+      "meaning": "攻撃的な",
+      "nuance": "「好戦的」または「積極的・果敢な」という意味で、文脈によって肯定的にも使われる。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The dog is very aggressive.",
+              "ja": "その犬はとても攻撃的だ。",
+              "highlight": "aggressive"
+            },
+            {
+              "en": "He took an aggressive approach to sales.",
+              "ja": "彼は販売に対して攻撃的なアプローチを取った。",
+              "highlight": "aggressive"
+            },
+            {
+              "en": "The company has an aggressive marketing strategy.",
+              "ja": "その会社は積極的なマーケティング戦略を持っている。",
+              "highlight": "aggressive"
+            },
+            {
+              "en": "She became aggressive when provoked.",
+              "ja": "彼女は挑発されると攻撃的になった。",
+              "highlight": "aggressive"
+            },
+            {
+              "en": "His aggressive behavior worried everyone.",
+              "ja": "彼の攻撃的な行動は皆を心配させた。",
+              "highlight": "aggressive"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 aggredi（近づく）に由来。",
+      "synonyms": [
+        { "word": "hostile", "trans": "敵対的な" },
+        { "word": "violent", "trans": "暴力的な" },
+        { "word": "assertive", "trans": "自己主張の強い" }
+      ],
+      "antonyms": [
+        { "word": "passive", "trans": "受動的な" },
+        { "word": "peaceful", "trans": "平和的な" },
+        { "word": "gentle", "trans": "穏やかな" }
+      ],
+      "related": [
+        { "word": "aggression", "trans": "攻撃性" },
+        { "word": "aggressively", "trans": "攻撃的に" },
+        { "word": "aggressor", "trans": "侵略者" }
+      ]
+    },
+    {
+      "number": 5808,
+      "word": "legal",
+      "pos": "形容詞",
+      "meaning": "合法の、法律の",
+      "nuance": "「法律に関連する」または「法律で許されている」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Is it legal to park here?",
+              "ja": "ここに駐車するのは合法ですか？",
+              "highlight": "legal"
+            },
+            {
+              "en": "He sought legal advice.",
+              "ja": "彼は法律相談を求めた。",
+              "highlight": "legal"
+            },
+            {
+              "en": "The company has a legal obligation to pay taxes.",
+              "ja": "その会社には税金を支払う法的義務がある。",
+              "highlight": "legal"
+            },
+            {
+              "en": "The document has no legal force.",
+              "ja": "その書類には法的効力がない。",
+              "highlight": "legal"
+            },
+            {
+              "en": "They are fighting a legal battle.",
+              "ja": "彼らは法廷闘争を戦っている。",
+              "highlight": "legal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 legalis（法律の）に由来。",
+      "synonyms": [
+        { "word": "lawful", "trans": "合法の" },
+        { "word": "legitimate", "trans": "正当な" },
+        { "word": "judicial", "trans": "司法の" }
+      ],
+      "antonyms": [
+        { "word": "illegal", "trans": "違法の" },
+        { "word": "unlawful", "trans": "不法の" },
+        { "word": "criminal", "trans": "犯罪の" }
+      ],
+      "related": [
+        { "word": "legally", "trans": "合法的に" },
+        { "word": "legalize", "trans": "合法化する" },
+        { "word": "legal system", "trans": "法制度" }
+      ]
+    },
+    {
+      "number": 5809,
+      "word": "violate",
+      "pos": "動詞",
+      "meaning": "違反する、犯す、侵害する",
+      "nuance": "「規則や権利を破る」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He violated the traffic laws.",
+              "ja": "彼は交通法規に違反した。",
+              "highlight": "violated"
+            },
+            {
+              "en": "The company violated safety regulations.",
+              "ja": "その会社は安全規則を違反した。",
+              "highlight": "violated"
+            },
+            {
+              "en": "The soldiers violated the ceasefire.",
+              "ja": "兵士たちは停戦を破った。",
+              "highlight": "violated"
+            },
+            {
+              "en": "His privacy was violated.",
+              "ja": "彼のプライバシーは侵害された。",
+              "highlight": "violated"
+            },
+            {
+              "en": "The treaty was violated by both sides.",
+              "ja": "その条約は双方によって違反された。",
+              "highlight": "violated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 violare（傷つける）に由来。",
+      "synonyms": [
+        { "word": "break", "trans": "破る" },
+        { "word": "infringe", "trans": "侵害する" },
+        { "word": "disobey", "trans": "従わない" }
+      ],
+      "antonyms": [
+        { "word": "obey", "trans": "従う" },
+        { "word": "respect", "trans": "尊重する" },
+        { "word": "comply", "trans": "遵守する" }
+      ],
+      "related": [
+        { "word": "violation", "trans": "違反" },
+        { "word": "violator", "trans": "違反者" },
+        { "word": "violence", "trans": "暴力" }
+      ]
+    }
+  ]
+}
