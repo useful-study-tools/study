@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#19	力関係 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #19	力関係
+    </div>
+    
+    <h2 class="section-title">#19	力関係</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5639.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_5718.html" class="nav-btn">次の章 →</a>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5675-influence.html"><span class="word-id">5675</span><span class="word-name">influence</span><span class="word-meaning">（～に対する）影響（on～）； ～に影響を及ぼす</span></a></li>
+        <li class="word-item"><a href="data/5676-impact.html"><span class="word-id">5676</span><span class="word-name">impact</span><span class="word-meaning">（～に対する）影響、衝撃（on～）</span></a></li>
+        <li class="word-item"><a href="data/5677-affect.html"><span class="word-id">5677</span><span class="word-name">affect</span><span class="word-meaning">～に（直接）影響・効果を及ぼす</span></a></li>
+        <li class="word-item"><a href="data/5678-effect.html"><span class="word-id">5678</span><span class="word-name">effect</span><span class="word-meaning">効果、影響</span></a></li>
+        <li class="word-item"><a href="data/5679-affection.html"><span class="word-id">5679</span><span class="word-name">affection</span><span class="word-meaning">愛情</span></a></li>
+        <li class="word-item"><a href="data/5680-dominant.html"><span class="word-id">5680</span><span class="word-name">dominant</span><span class="word-meaning">支配的な、より優位にたつ</span></a></li>
+        <li class="word-item"><a href="data/5681-rule.html"><span class="word-id">5681</span><span class="word-name">rule</span><span class="word-meaning">規則； ～を支配する</span></a></li>
+        <li class="word-item"><a href="data/5682-regulate.html"><span class="word-id">5682</span><span class="word-name">regulate</span><span class="word-meaning">規制する</span></a></li>
+        <li class="word-item"><a href="data/5683-control.html"><span class="word-id">5683</span><span class="word-name">control</span><span class="word-meaning">～を抑制する、支配する、制御する； 抑制、支配、制御</span></a></li>
+        <li class="word-item"><a href="data/5684-bind.html"><span class="word-id">5684</span><span class="word-name">bind</span><span class="word-meaning">拘束する</span></a></li>
+        <li class="word-item"><a href="data/5685-authority.html"><span class="word-id">5685</span><span class="word-name">authority</span><span class="word-meaning">権威、権力、権限； 当局</span></a></li>
+        <li class="word-item"><a href="data/5686-author.html"><span class="word-id">5686</span><span class="word-name">author</span><span class="word-meaning">著者</span></a></li>
+        <li class="word-item"><a href="data/5687-exert.html"><span class="word-id">5687</span><span class="word-name">exert</span><span class="word-meaning">～（力など）を行使する、働かせる</span></a></li>
+        <li class="word-item"><a href="data/5688-exercise.html"><span class="word-id">5688</span><span class="word-name">exercise</span><span class="word-meaning">練習； 運動； ～（力など）を行使する</span></a></li>
+        <li class="word-item"><a href="data/5689-obey.html"><span class="word-id">5689</span><span class="word-name">obey</span><span class="word-meaning">従う</span></a></li>
+        <li class="word-item"><a href="data/5690-resist.html"><span class="word-id">5690</span><span class="word-name">resist</span><span class="word-meaning">～に抵抗する</span></a></li>
+        <li class="word-item"><a href="data/5691-protest.html"><span class="word-id">5691</span><span class="word-name">protest</span><span class="word-meaning">抗議（する）</span></a></li>
+        <li class="word-item"><a href="data/5692-rebel.html"><span class="word-id">5692</span><span class="word-name">rebel</span><span class="word-meaning">反逆者、反逆する</span></a></li>
+        <li class="word-item"><a href="data/5693-conquer.html"><span class="word-id">5693</span><span class="word-name">conquer</span><span class="word-meaning">征服する</span></a></li>
+        <li class="word-item"><a href="data/5694-win.html"><span class="word-id">5694</span><span class="word-name">win</span><span class="word-meaning">勝つ； ～（試合など）に勝つ； を獲得する</span></a></li>
+        <li class="word-item"><a href="data/5695-defeat.html"><span class="word-id">5695</span><span class="word-name">defeat</span><span class="word-meaning">～をうち巻かす； 敗北</span></a></li>
+        <li class="word-item"><a href="data/5696-beat.html"><span class="word-id">5696</span><span class="word-name">beat</span><span class="word-meaning">～を（繰り返し）叩く、うち負かす</span></a></li>
+        <li class="word-item"><a href="data/5697-lose.html"><span class="word-id">5697</span><span class="word-name">lose</span><span class="word-meaning">負ける； ～を失う； （試合など）に負ける</span></a></li>
+        <li class="word-item"><a href="data/5698-surrender.html"><span class="word-id">5698</span><span class="word-name">surrender</span><span class="word-meaning">降伏する</span></a></li>
+        <li class="word-item"><a href="data/5699-yield.html"><span class="word-id">5699</span><span class="word-name">yield</span><span class="word-meaning">屈する、産出する</span></a></li>
+        <li class="word-item"><a href="data/5700-depend.html"><span class="word-id">5700</span><span class="word-name">depend</span><span class="word-meaning">（～に）依存する； よる、左右される（on～）</span></a></li>
+        <li class="word-item"><a href="data/5701-independent.html"><span class="word-id">5701</span><span class="word-name">independent</span><span class="word-meaning">（～から）独立している（of～）</span></a></li>
+        <li class="word-item"><a href="data/5702-rely.html"><span class="word-id">5702</span><span class="word-name">rely</span><span class="word-meaning">（～に）頼る、（を）あてにする（on[upon]～）</span></a></li>
+        <li class="word-item"><a href="data/5703-count on.html"><span class="word-id">5703</span><span class="word-name">count on</span><span class="word-meaning">～をあてにする、頼りにする</span></a></li>
+        <li class="word-item"><a href="data/5704-trust.html"><span class="word-id">5704</span><span class="word-name">trust</span><span class="word-meaning">～を信用する； 信用</span></a></li>
+        <li class="word-item"><a href="data/5705-compete.html"><span class="word-id">5705</span><span class="word-name">compete</span><span class="word-meaning">競争する</span></a></li>
+        <li class="word-item"><a href="data/5706-press.html"><span class="word-id">5706</span><span class="word-name">press</span><span class="word-meaning">押す； 強く求める； 新聞・雑誌、報道</span></a></li>
+        <li class="word-item"><a href="data/5707-impress.html"><span class="word-id">5707</span><span class="word-name">impress</span><span class="word-meaning">印象づける、感動させる</span></a></li>
+        <li class="word-item"><a href="data/5708-express.html"><span class="word-id">5708</span><span class="word-name">express</span><span class="word-meaning">表に出す、表現する</span></a></li>
+        <li class="word-item"><a href="data/5709-oppress.html"><span class="word-id">5709</span><span class="word-name">oppress</span><span class="word-meaning">圧迫する、虐げる</span></a></li>
+        <li class="word-item"><a href="data/5710-suppress.html"><span class="word-id">5710</span><span class="word-name">suppress</span><span class="word-meaning">抑える、抑圧する</span></a></li>
+        <li class="word-item"><a href="data/5711-threat.html"><span class="word-id">5711</span><span class="word-name">threat</span><span class="word-meaning">脅し、脅威</span></a></li>
+        <li class="word-item"><a href="data/5712-menace.html"><span class="word-id">5712</span><span class="word-name">menace</span><span class="word-meaning">脅威</span></a></li>
+        <li class="word-item"><a href="data/5713-tame.html"><span class="word-id">5713</span><span class="word-name">tame</span><span class="word-meaning">飼いならす； 飼いならされた</span></a></li>
+        <li class="word-item"><a href="data/5714-superior.html"><span class="word-id">5714</span><span class="word-name">superior</span><span class="word-meaning">～より優れている(to)</span></a></li>
+        <li class="word-item"><a href="data/5715-inferior.html"><span class="word-id">5715</span><span class="word-name">inferior</span><span class="word-meaning">～より劣っている(to)</span></a></li>
+        <li class="word-item"><a href="data/5716-surpass.html"><span class="word-id">5716</span><span class="word-name">surpass</span><span class="word-meaning">～より優れる、～を越える</span></a></li>
+        <li class="word-item"><a href="data/5717-excel.html"><span class="word-id">5717</span><span class="word-name">excel</span><span class="word-meaning">優れる</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5639.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_5718.html" class="nav-btn">次の章 →</a>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
