@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#18	語源から覚える | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #18	語源から覚える
+    </div>
+    
+    <h2 class="section-title">#18	語源から覚える</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5605.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5639-perspective.html"><span class="word-id">5639</span><span class="word-name">perspective</span><span class="word-meaning">展望, ものの見方</span></a></li>
+        <li class="word-item"><a href="data/5640-inspect.html"><span class="word-id">5640</span><span class="word-name">inspect</span><span class="word-meaning">～を詳しく調べる, 検査する</span></a></li>
+        <li class="word-item"><a href="data/5641-prospect.html"><span class="word-id">5641</span><span class="word-name">prospect</span><span class="word-meaning">見通し、展望</span></a></li>
+        <li class="word-item"><a href="data/5642-retrospect.html"><span class="word-id">5642</span><span class="word-name">retrospect</span><span class="word-meaning">追想、回想</span></a></li>
+        <li class="word-item"><a href="data/5643-suspect.html"><span class="word-id">5643</span><span class="word-name">suspect</span><span class="word-meaning">動詞：～を疑う, に気付く； 名詞：容疑者</span></a></li>
+        <li class="word-item"><a href="data/5644-speculate.html"><span class="word-id">5644</span><span class="word-name">speculate</span><span class="word-meaning">～を推測する、熟考する</span></a></li>
+        <li class="word-item"><a href="data/5645-spectacle.html"><span class="word-id">5645</span><span class="word-name">spectacle</span><span class="word-meaning">見世物, 光景, 眼鏡</span></a></li>
+        <li class="word-item"><a href="data/5646-conspicuous.html"><span class="word-id">5646</span><span class="word-name">conspicuous</span><span class="word-meaning">目立つ</span></a></li>
+        <li class="word-item"><a href="data/5647-precede.html"><span class="word-id">5647</span><span class="word-name">precede</span><span class="word-meaning">～より先行する</span></a></li>
+        <li class="word-item"><a href="data/5648-exceed.html"><span class="word-id">5648</span><span class="word-name">exceed</span><span class="word-meaning">～を越える、優る</span></a></li>
+        <li class="word-item"><a href="data/5649-concede.html"><span class="word-id">5649</span><span class="word-name">concede</span><span class="word-meaning">～を認める、譲歩する</span></a></li>
+        <li class="word-item"><a href="data/5650-succeed.html"><span class="word-id">5650</span><span class="word-name">succeed</span><span class="word-meaning">成功する、～の後を継ぐ、～に次いで起こる</span></a></li>
+        <li class="word-item"><a href="data/5651-predict.html"><span class="word-id">5651</span><span class="word-name">predict</span><span class="word-meaning">～を予言する、予測する</span></a></li>
+        <li class="word-item"><a href="data/5652-indicate.html"><span class="word-id">5652</span><span class="word-name">indicate</span><span class="word-meaning">示す、指示する</span></a></li>
+        <li class="word-item"><a href="data/5653-dictate.html"><span class="word-id">5653</span><span class="word-name">dictate</span><span class="word-meaning">書き取らせる、命令する</span></a></li>
+        <li class="word-item"><a href="data/5654-dedicate.html"><span class="word-id">5654</span><span class="word-name">dedicate</span><span class="word-meaning">捧げる</span></a></li>
+        <li class="word-item"><a href="data/5655-admit.html"><span class="word-id">5655</span><span class="word-name">admit</span><span class="word-meaning">～を（しぶしぶ）認める（that…）； （人[の入場・入学]）を受け入れる</span></a></li>
+        <li class="word-item"><a href="data/5656-commit.html"><span class="word-id">5656</span><span class="word-name">commit</span><span class="word-meaning">～（罪）を犯す、～に取り組む、～を約束する、～を明言する</span></a></li>
+        <li class="word-item"><a href="data/5657-omit.html"><span class="word-id">5657</span><span class="word-name">omit</span><span class="word-meaning">省く</span></a></li>
+        <li class="word-item"><a href="data/5658-dismiss.html"><span class="word-id">5658</span><span class="word-name">dismiss</span><span class="word-meaning">～を解散する、解雇する； ～を退ける、却下する</span></a></li>
+        <li class="word-item"><a href="data/5659-transmit.html"><span class="word-id">5659</span><span class="word-name">transmit</span><span class="word-meaning">送る、伝える</span></a></li>
+        <li class="word-item"><a href="data/5660-mission.html"><span class="word-id">5660</span><span class="word-name">mission</span><span class="word-meaning">使命、任務</span></a></li>
+        <li class="word-item"><a href="data/5661-transfer.html"><span class="word-id">5661</span><span class="word-name">transfer</span><span class="word-meaning">～を移動する； 乗り換える、転勤（校）する； 移動、乗り換え、転勤（校）</span></a></li>
+        <li class="word-item"><a href="data/5662-transport.html"><span class="word-id">5662</span><span class="word-name">transport</span><span class="word-meaning">～を輸送する； 輸送、交通手段</span></a></li>
+        <li class="word-item"><a href="data/5663-transform.html"><span class="word-id">5663</span><span class="word-name">transform</span><span class="word-meaning">～を変形する、変化させる</span></a></li>
+        <li class="word-item"><a href="data/5664-translate.html"><span class="word-id">5664</span><span class="word-name">translate</span><span class="word-meaning">～を（…に）翻訳する（into）</span></a></li>
+        <li class="word-item"><a href="data/5665-transplant.html"><span class="word-id">5665</span><span class="word-name">transplant</span><span class="word-meaning">～を移植する； 移植</span></a></li>
+        <li class="word-item"><a href="data/5666-transparent.html"><span class="word-id">5666</span><span class="word-name">transparent</span><span class="word-meaning">透明な</span></a></li>
+        <li class="word-item"><a href="data/5667-transition.html"><span class="word-id">5667</span><span class="word-name">transition</span><span class="word-meaning">移り変わり、過渡期</span></a></li>
+        <li class="word-item"><a href="data/5668-distribute.html"><span class="word-id">5668</span><span class="word-name">distribute</span><span class="word-meaning">分配する</span></a></li>
+        <li class="word-item"><a href="data/5669-contribute.html"><span class="word-id">5669</span><span class="word-name">contribute</span><span class="word-meaning">貢献する</span></a></li>
+        <li class="word-item"><a href="data/5670-attribute.html"><span class="word-id">5670</span><span class="word-name">attribute</span><span class="word-meaning">動詞：原因を帰す； 名詞：属性、性質</span></a></li>
+        <li class="word-item"><a href="data/5671-assure.html"><span class="word-id">5671</span><span class="word-name">assure</span><span class="word-meaning">保証する、確信させる</span></a></li>
+        <li class="word-item"><a href="data/5672-reassure.html"><span class="word-id">5672</span><span class="word-name">reassure</span><span class="word-meaning">安心させる</span></a></li>
+        <li class="word-item"><a href="data/5673-ensure.html"><span class="word-id">5673</span><span class="word-name">ensure</span><span class="word-meaning">保証する、確保する</span></a></li>
+        <li class="word-item"><a href="data/5674-insurance.html"><span class="word-id">5674</span><span class="word-name">insurance</span><span class="word-meaning">保険</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5605.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
