@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#21	善悪・犯罪 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #21	善悪・犯罪
+    </div>
+    
+    <h2 class="section-title">#21	善悪・犯罪</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5718.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5771-virtue.html"><span class="word-id">5771</span><span class="word-name">virtue</span><span class="word-meaning">美徳、長所</span></a></li>
+        <li class="word-item"><a href="data/5772-virtual.html"><span class="word-id">5772</span><span class="word-name">virtual</span><span class="word-meaning">仮想の； 事実上の</span></a></li>
+        <li class="word-item"><a href="data/5773-vice.html"><span class="word-id">5773</span><span class="word-name">vice</span><span class="word-meaning">悪、悪徳； 副～、代理の</span></a></li>
+        <li class="word-item"><a href="data/5774-evil.html"><span class="word-id">5774</span><span class="word-name">evil</span><span class="word-meaning">邪悪な</span></a></li>
+        <li class="word-item"><a href="data/5775-sin.html"><span class="word-id">5775</span><span class="word-name">sin</span><span class="word-meaning">罪</span></a></li>
+        <li class="word-item"><a href="data/5776-crime.html"><span class="word-id">5776</span><span class="word-name">crime</span><span class="word-meaning">犯罪</span></a></li>
+        <li class="word-item"><a href="data/5777-ethics.html"><span class="word-id">5777</span><span class="word-name">ethics</span><span class="word-meaning">倫理</span></a></li>
+        <li class="word-item"><a href="data/5778-moral.html"><span class="word-id">5778</span><span class="word-name">moral</span><span class="word-meaning">道徳上の、精神的な</span></a></li>
+        <li class="word-item"><a href="data/5779-confess.html"><span class="word-id">5779</span><span class="word-name">confess</span><span class="word-meaning">告白する、認める</span></a></li>
+        <li class="word-item"><a href="data/5780-punish.html"><span class="word-id">5780</span><span class="word-name">punish</span><span class="word-meaning">罰する(for…)</span></a></li>
+        <li class="word-item"><a href="data/5781-penalty.html"><span class="word-id">5781</span><span class="word-name">penalty</span><span class="word-meaning">刑罰</span></a></li>
+        <li class="word-item"><a href="data/5782-murder.html"><span class="word-id">5782</span><span class="word-name">murder</span><span class="word-meaning">殺人（する）</span></a></li>
+        <li class="word-item"><a href="data/5783-victim.html"><span class="word-id">5783</span><span class="word-name">victim</span><span class="word-meaning">犠牲者、被害者</span></a></li>
+        <li class="word-item"><a href="data/5784-offend.html"><span class="word-id">5784</span><span class="word-name">offend</span><span class="word-meaning">怒らせる</span></a></li>
+        <li class="word-item"><a href="data/5785-defend.html"><span class="word-id">5785</span><span class="word-name">defend</span><span class="word-meaning">防御する、弁護する</span></a></li>
+        <li class="word-item"><a href="data/5786-motive.html"><span class="word-id">5786</span><span class="word-name">motive</span><span class="word-meaning">動機</span></a></li>
+        <li class="word-item"><a href="data/5787-witness.html"><span class="word-id">5787</span><span class="word-name">witness</span><span class="word-meaning">証人、目撃者； 目撃する</span></a></li>
+        <li class="word-item"><a href="data/5788-arrest.html"><span class="word-id">5788</span><span class="word-name">arrest</span><span class="word-meaning">逮捕する：逮捕</span></a></li>
+        <li class="word-item"><a href="data/5789-detain.html"><span class="word-id">5789</span><span class="word-name">detain</span><span class="word-meaning">拘留する</span></a></li>
+        <li class="word-item"><a href="data/5790-accuse.html"><span class="word-id">5790</span><span class="word-name">accuse</span><span class="word-meaning">非難する、告訴する</span></a></li>
+        <li class="word-item"><a href="data/5791-blame.html"><span class="word-id">5791</span><span class="word-name">blame</span><span class="word-meaning">責任があるとする； せいにする</span></a></li>
+        <li class="word-item"><a href="data/5792-fault.html"><span class="word-id">5792</span><span class="word-name">fault</span><span class="word-meaning">過失、責任； 欠陥</span></a></li>
+        <li class="word-item"><a href="data/5793-condemn.html"><span class="word-id">5793</span><span class="word-name">condemn</span><span class="word-meaning">責める、刑を宣告する</span></a></li>
+        <li class="word-item"><a href="data/5794-court.html"><span class="word-id">5794</span><span class="word-name">court</span><span class="word-meaning">法廷、裁判所； 宮廷</span></a></li>
+        <li class="word-item"><a href="data/5795-courtesy.html"><span class="word-id">5795</span><span class="word-name">courtesy</span><span class="word-meaning">礼儀、作法</span></a></li>
+        <li class="word-item"><a href="data/5796-trial.html"><span class="word-id">5796</span><span class="word-name">trial</span><span class="word-meaning">裁判、公判</span></a></li>
+        <li class="word-item"><a href="data/5797-justice.html"><span class="word-id">5797</span><span class="word-name">justice</span><span class="word-meaning">構成、正義； 裁判</span></a></li>
+        <li class="word-item"><a href="data/5798-judge.html"><span class="word-id">5798</span><span class="word-name">judge</span><span class="word-meaning">判断する； 裁判官</span></a></li>
+        <li class="word-item"><a href="data/5799-jury.html"><span class="word-id">5799</span><span class="word-name">jury</span><span class="word-meaning">陪審員団</span></a></li>
+        <li class="word-item"><a href="data/5800-testify.html"><span class="word-id">5800</span><span class="word-name">testify</span><span class="word-meaning">証言する</span></a></li>
+        <li class="word-item"><a href="data/5801-guilty.html"><span class="word-id">5801</span><span class="word-name">guilty</span><span class="word-meaning">有罪の</span></a></li>
+        <li class="word-item"><a href="data/5802-innocent.html"><span class="word-id">5802</span><span class="word-name">innocent</span><span class="word-meaning">無罪の、無邪気な</span></a></li>
+        <li class="word-item"><a href="data/5803-sentence.html"><span class="word-id">5803</span><span class="word-name">sentence</span><span class="word-meaning">判決（を下す）</span></a></li>
+        <li class="word-item"><a href="data/5804-prison.html"><span class="word-id">5804</span><span class="word-name">prison</span><span class="word-meaning">刑務所</span></a></li>
+        <li class="word-item"><a href="data/5805-deter.html"><span class="word-id">5805</span><span class="word-name">deter</span><span class="word-meaning">抑止する</span></a></li>
+        <li class="word-item"><a href="data/5806-violence.html"><span class="word-id">5806</span><span class="word-name">violence</span><span class="word-meaning">暴力</span></a></li>
+        <li class="word-item"><a href="data/5807-aggressive.html"><span class="word-id">5807</span><span class="word-name">aggressive</span><span class="word-meaning">攻撃的な</span></a></li>
+        <li class="word-item"><a href="data/5808-legal.html"><span class="word-id">5808</span><span class="word-name">legal</span><span class="word-meaning">合法の、法律の</span></a></li>
+        <li class="word-item"><a href="data/5809-violate.html"><span class="word-id">5809</span><span class="word-name">violate</span><span class="word-meaning">違反する、犯す、侵害する</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5718.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
