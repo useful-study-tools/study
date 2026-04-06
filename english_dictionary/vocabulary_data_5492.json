@@ -1,0 +1,1599 @@
+{
+  "words": [
+    {
+      "number": 5492,
+      "word": "relate",
+      "pos": "動詞",
+      "meaning": "～を(…に)関連づける(to～)； ～を話す",
+      "nuance": "「関連性を示す」「関係がある」という意味と、「（出来事を）詳しく話す」という意味があります。'relate to'で「～に関係する」「～に共感する」という使い方が重要です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I can't relate to this character at all.",
+              "ja": "この登場人物には全く共感できない。",
+              "highlight": "relate"
+            },
+            {
+              "en": "The report relates the events of the accident.",
+              "ja": "その報告書は事故の出来事を詳しく述べている。",
+              "highlight": "relates"
+            },
+            {
+              "en": "How does this evidence relate to the case?",
+              "ja": "この証拠は事件とどのように関連しますか？",
+              "highlight": "relate"
+            },
+            {
+              "en": "He related his adventures to us.",
+              "ja": "彼は私たちに自分の冒険談を話した。",
+              "highlight": "related"
+            },
+            {
+              "en": "Many people can relate to her story.",
+              "ja": "多くの人が彼女の話に共感できる。",
+              "highlight": "relate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 referre（持ち帰る）に由来します。",
+      "synonyms": [
+        { "word": "connect", "trans": "関連づける" },
+        { "word": "associate", "trans": "関連づける" },
+        { "word": "narrate", "trans": "語る" }
+      ],
+      "antonyms": [
+        { "word": "disconnect", "trans": "切り離す" },
+        { "word": "separate", "trans": "分離する" },
+        { "word": "unrelated", "trans": "無関係な" }
+      ],
+      "related": [
+        { "word": "relation", "trans": "名詞：関係" },
+        { "word": "relative", "trans": "形容詞：相対的な" },
+        { "word": "relationship", "trans": "名詞：人間関係" }
+      ]
+    },
+    {
+      "number": 5493,
+      "word": "absolute",
+      "pos": "形容詞",
+      "meaning": "絶対的な, 完全な",
+      "nuance": "「条件や制限がない」「完全な」という意味です。'absolute power'（絶対権力）、'absolute truth'（絶対真理）など、強い強調を伴う時に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "You have an absolute right to remain silent.",
+              "ja": "あなたには沈黙する絶対的な権利がある。",
+              "highlight": "absolute"
+            },
+            {
+              "en": "That's an absolute lie!",
+              "ja": "それは全くの嘘だ！",
+              "highlight": "absolute"
+            },
+            {
+              "en": "He has absolute power over the company.",
+              "ja": "彼はその会社に対して絶対的な権力を持っている。",
+              "highlight": "absolute"
+            },
+            {
+              "en": "The silence was absolute.",
+              "ja": "その静けさは完全だった。",
+              "highlight": "absolute"
+            },
+            {
+              "en": "I have absolute confidence in you.",
+              "ja": "私はあなたを完全に信頼している。",
+              "highlight": "absolute"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 absolutus（解放された）に由来します。",
+      "synonyms": [
+        { "word": "complete", "trans": "完全な" },
+        { "word": "total", "trans": "完全な" },
+        { "word": "unconditional", "trans": "無条件の" }
+      ],
+      "antonyms": [
+        { "word": "relative", "trans": "相対的な" },
+        { "word": "partial", "trans": "部分的な" },
+        { "word": "conditional", "trans": "条件付きの" }
+      ],
+      "related": [
+        { "word": "absolutely", "trans": "副詞：絶対に" },
+        { "word": "absolutism", "trans": "名詞：絶対主義" },
+        { "word": "absolution", "trans": "名詞：赦罪" }
+      ]
+    },
+    {
+      "number": 5494,
+      "word": "relevant",
+      "pos": "形容詞",
+      "meaning": "(～と)関連がある(to～), 適切な",
+      "nuance": "「議論や問題に関係がある」「重要で適切な」という意味です。'relevant to'で「～に関連して」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please provide all relevant information.",
+              "ja": "関連する全ての情報を提供してください。",
+              "highlight": "relevant"
+            },
+            {
+              "en": "His comments were not relevant to the discussion.",
+              "ja": "彼のコメントは議論に関連していなかった。",
+              "highlight": "relevant"
+            },
+            {
+              "en": "The evidence is highly relevant to the case.",
+              "ja": "その証拠は事件に非常に重要である。",
+              "highlight": "relevant"
+            },
+            {
+              "en": "She asked a very relevant question.",
+              "ja": "彼女は非常に適切な質問をした。",
+              "highlight": "relevant"
+            },
+            {
+              "en": "This book is still relevant today.",
+              "ja": "この本は今日でも意義がある。",
+              "highlight": "relevant"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 relevare（持ち上げる）に由来します。",
+      "synonyms": [
+        { "word": "pertinent", "trans": "適切な" },
+        { "word": "applicable", "trans": "適用できる" },
+        { "word": "germane", "trans": "密接に関係する" }
+      ],
+      "antonyms": [
+        { "word": "irrelevant", "trans": "無関係な" },
+        { "word": "unrelated", "trans": "関係ない" },
+        { "word": "inappropriate", "trans": "不適切な" }
+      ],
+      "related": [
+        { "word": "relevance", "trans": "名詞：関連性" },
+        { "word": "irrelevant", "trans": "形容詞：無関係な" },
+        { "word": "relate", "trans": "動詞：関連づける" }
+      ]
+    },
+    {
+      "number": 5495,
+      "word": "mutual",
+      "pos": "形容詞",
+      "meaning": "相互の",
+      "nuance": "「お互いに与え合う」「共通の」という意味です。友情、理解、利益など、双方向の関係に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They parted by mutual agreement.",
+              "ja": "彼らは相互の合意のもとに別れた。",
+              "highlight": "mutual"
+            },
+            {
+              "en": "The feeling is mutual.",
+              "ja": "それは相互の感情です（お互い様です）。",
+              "highlight": "mutual"
+            },
+            {
+              "en": "Our friendship is based on mutual respect.",
+              "ja": "私たちの友情は相互尊重に基づいている。",
+              "highlight": "mutual"
+            },
+            {
+              "en": "They have a mutual interest in music.",
+              "ja": "彼らは音楽という共通の趣味を持っている。",
+              "highlight": "mutual"
+            },
+            {
+              "en": "The contract was signed for mutual benefit.",
+              "ja": "その契約は相互利益のために署名された。",
+              "highlight": "mutual"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 mutuus（貸し借りした）に由来します。",
+      "synonyms": [
+        { "word": "reciprocal", "trans": "相互的な" },
+        { "word": "common", "trans": "共通の" },
+        { "word": "shared", "trans": "共有の" }
+      ],
+      "antonyms": [
+        { "word": "one-sided", "trans": "一方的な" },
+        { "word": "individual", "trans": "個々の" },
+        { "word": "unilateral", "trans": "一方的な" }
+      ],
+      "related": [
+        { "word": "mutually", "trans": "副詞：相互に" },
+        { "word": "mutuality", "trans": "名詞：相互性" },
+        { "word": "mutual fund", "trans": "名詞：投資信託" }
+      ]
+    },
+    {
+      "number": 5496,
+      "word": "associate",
+      "pos": "動詞 / 名詞",
+      "meaning": "動詞：～を(…と)関連づける(with…)； 連想する； 名詞：同僚, 仲間",
+      "nuance": "「関連づける」「連想する」という意味の動詞と、「仕事上の同僚」という名詞の意味があります。'associate with'で「～と付き合う」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I associate summer with holidays.",
+              "ja": "夏といえば休暇を連想する。",
+              "highlight": "associate"
+            },
+            {
+              "en": "He is one of my business associates.",
+              "ja": "彼は私のビジネス上の同僚の一人です。",
+              "highlight": "associates"
+            },
+            {
+              "en": "Don't associate with bad company.",
+              "ja": "悪い仲間と付き合ってはいけない。",
+              "highlight": "associate"
+            },
+            {
+              "en": "The color red is often associated with danger.",
+              "ja": "赤色はしばしば危険と関連づけられる。",
+              "highlight": "associated"
+            },
+            {
+              "en": "She is an associate professor at the university.",
+              "ja": "彼女はその大学の准教授です。",
+              "highlight": "associate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 associare（加える）に由来します。",
+      "synonyms": [
+        { "word": "connect", "trans": "関連づける" },
+        { "word": "link", "trans": "結びつける" },
+        { "word": "colleague", "trans": "同僚" }
+      ],
+      "antonyms": [
+        { "word": "dissociate", "trans": "切り離す" },
+        { "word": "separate", "trans": "分離する" },
+        { "word": "avoid", "trans": "避ける" }
+      ],
+      "related": [
+        { "word": "association", "trans": "名詞：協会" },
+        { "word": "associated", "trans": "形容詞：関連した" },
+        { "word": "associative", "trans": "形容詞：連想の" }
+      ]
+    },
+    {
+      "number": 5497,
+      "word": "conflict",
+      "pos": "名詞 / 動詞",
+      "meaning": "名詞：争い, 衝突； 動詞：対立する, 衝突する",
+      "nuance": "「意見や利益の対立」「戦争」を指します。動詞では'conflict with'で「～と衝突する」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The two reports conflict with each other.",
+              "ja": "その二つの報告書は互いに矛盾している。",
+              "highlight": "conflict"
+            },
+            {
+              "en": "The conflict between the two countries lasted for years.",
+              "ja": "その二国間の紛争は何年も続いた。",
+              "highlight": "conflict"
+            },
+            {
+              "en": "His schedule conflicts with mine.",
+              "ja": "彼の予定は私の予定と衝突する。",
+              "highlight": "conflicts"
+            },
+            {
+              "en": "We need to resolve this conflict peacefully.",
+              "ja": "この対立を平和的に解決する必要がある。",
+              "highlight": "conflict"
+            },
+            {
+              "en": "His words conflict with his actions.",
+              "ja": "彼の言葉は行動と矛盾している。",
+              "highlight": "conflict"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 conflictus（打ち付け合う）に由来します。",
+      "synonyms": [
+        { "word": "disagreement", "trans": "不一致" },
+        { "word": "clash", "trans": "衝突" },
+        { "word": "oppose", "trans": "対立する" }
+      ],
+      "antonyms": [
+        { "word": "agreement", "trans": "合意" },
+        { "word": "harmony", "trans": "調和" },
+        { "word": "accord", "trans": "一致" }
+      ],
+      "related": [
+        { "word": "conflicting", "trans": "形容詞：矛盾する" },
+        { "word": "conflict resolution", "trans": "名詞：紛争解決" },
+        { "word": "conflict of interest", "trans": "名詞：利益相反" }
+      ]
+    },
+    {
+      "number": 5498,
+      "word": "collision",
+      "pos": "名詞",
+      "meaning": "衝突",
+      "nuance": "「物理的な物体の衝突」や「意見の激しい衝突」を指します。'collision'は'conflict'よりも物理的なイメージが強いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The car was damaged in a collision.",
+              "ja": "その車は衝突で損傷した。",
+              "highlight": "collision"
+            },
+            {
+              "en": "Two trains were involved in a collision.",
+              "ja": "2台の列車が衝突事故に巻き込まれた。",
+              "highlight": "collision"
+            },
+            {
+              "en": "His idea was in collision with traditional values.",
+              "ja": "彼の考えは伝統的な価値観と衝突していた。",
+              "highlight": "collision"
+            },
+            {
+              "en": "The collision caused a huge traffic jam.",
+              "ja": "その衝突事故は大渋滞を引き起こした。",
+              "highlight": "collision"
+            },
+            {
+              "en": "The spacecraft avoided a collision with the asteroid.",
+              "ja": "その宇宙船は小惑星との衝突を回避した。",
+              "highlight": "collision"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 collidere（打ち付ける）に由来します。",
+      "synonyms": [
+        { "word": "crash", "trans": "衝突" },
+        { "word": "impact", "trans": "衝撃" },
+        { "word": "accident", "trans": "事故" }
+      ],
+      "antonyms": [
+        { "word": "avoidance", "trans": "回避" },
+        { "word": "harmony", "trans": "調和" },
+        { "word": "agreement", "trans": "一致" }
+      ],
+      "related": [
+        { "word": "collide", "trans": "動詞：衝突する" },
+        { "word": "collision course", "trans": "名詞：衝突コース" },
+        { "word": "head-on collision", "trans": "名詞：正面衝突" }
+      ]
+    },
+    {
+      "number": 5499,
+      "word": "friction",
+      "pos": "名詞",
+      "meaning": "摩擦, 不和",
+      "nuance": "「物理的な摩擦」と、人間関係における「不和・対立」の両方を指します。物理の用語としても重要です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Oil reduces friction between moving parts.",
+              "ja": "オイルは可動部品間の摩擦を減らす。",
+              "highlight": "friction"
+            },
+            {
+              "en": "There is constant friction between the two brothers.",
+              "ja": "その二人の兄弟の間には絶え間ない不和がある。",
+              "highlight": "friction"
+            },
+            {
+              "en": "The new policy caused friction among employees.",
+              "ja": "その新しい政策は従業員間の摩擦を引き起こした。",
+              "highlight": "friction"
+            },
+            {
+              "en": "Friction generates heat.",
+              "ja": "摩擦は熱を生み出す。",
+              "highlight": "Friction"
+            },
+            {
+              "en": "The team overcame their internal friction.",
+              "ja": "そのチームは内部の対立を克服した。",
+              "highlight": "friction"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 fricare（こする）に由来します。",
+      "synonyms": [
+        { "word": "resistance", "trans": "抵抗" },
+        { "word": "tension", "trans": "緊張" },
+        { "word": "conflict", "trans": "対立" }
+      ],
+      "antonyms": [
+        { "word": "smoothness", "trans": "滑らかさ" },
+        { "word": "harmony", "trans": "調和" },
+        { "word": "cooperation", "trans": "協力" }
+      ],
+      "related": [
+        { "word": "frictional", "trans": "形容詞：摩擦の" },
+        { "word": "frictionless", "trans": "形容詞：摩擦のない" },
+        { "word": "friction burn", "trans": "名詞：擦過傷" }
+      ]
+    },
+    {
+      "number": 5500,
+      "word": "confront",
+      "pos": "動詞",
+      "meaning": "～に直面する",
+      "nuance": "「問題や困難に立ち向かう」「敵と対決する」という意味です。'be confronted with'で「～に直面する」という受動態でもよく使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We must confront the problem directly.",
+              "ja": "私たちはその問題に直接立ち向かわなければならない。",
+              "highlight": "confront"
+            },
+            {
+              "en": "She confronted her boss about the unfair treatment.",
+              "ja": "彼女は不当な扱いについて上司に詰め寄った。",
+              "highlight": "confronted"
+            },
+            {
+              "en": "When confronted with evidence, he confessed.",
+              "ja": "証拠を突きつけられた時、彼は自白した。",
+              "highlight": "confronted"
+            },
+            {
+              "en": "The country is confronted with a serious crisis.",
+              "ja": "その国は深刻な危機に直面している。",
+              "highlight": "confronted"
+            },
+            {
+              "en": "He confronted his fears and succeeded.",
+              "ja": "彼は恐怖に立ち向かい、成功した。",
+              "highlight": "confronted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 confrontare（向かい合わせる）に由来します。",
+      "synonyms": [
+        { "word": "face", "trans": "直面する" },
+        { "word": "oppose", "trans": "対抗する" },
+        { "word": "challenge", "trans": "挑む" }
+      ],
+      "antonyms": [
+        { "word": "avoid", "trans": "避ける" },
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "evade", "trans": "逃れる" }
+      ],
+      "related": [
+        { "word": "confrontation", "trans": "名詞：対決" },
+        { "word": "confrontational", "trans": "形容詞：対決的な" },
+        { "word": "face", "trans": "名詞：顔" }
+      ]
+    },
+    {
+      "number": 5501,
+      "word": "oppose",
+      "pos": "動詞",
+      "meaning": "～に反対する",
+      "nuance": "「計画や意見に反対する」「抵抗する」という意味です。'be opposed to'で「～に反対している」という形容詞的な使い方もできます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Many people oppose the new law.",
+              "ja": "多くの人がその新しい法律に反対している。",
+              "highlight": "oppose"
+            },
+            {
+              "en": "I am opposed to this plan.",
+              "ja": "私はこの計画に反対です。",
+              "highlight": "opposed"
+            },
+            {
+              "en": "He opposed the idea from the beginning.",
+              "ja": "彼はそのアイデアに最初から反対した。",
+              "highlight": "opposed"
+            },
+            {
+              "en": "They opposed the construction of the new airport.",
+              "ja": "彼らは新しい空港の建設に反対した。",
+              "highlight": "opposed"
+            },
+            {
+              "en": "The senator opposed the tax increase.",
+              "ja": "その上院議員は増税に反対した。",
+              "highlight": "opposed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 opponere（対置する）に由来します。",
+      "synonyms": [
+        { "word": "resist", "trans": "抵抗する" },
+        { "word": "object", "trans": "反対する" },
+        { "word": "defy", "trans": "反抗する" }
+      ],
+      "antonyms": [
+        { "word": "support", "trans": "支持する" },
+        { "word": "agree", "trans": "同意する" },
+        { "word": "favor", "trans": "賛成する" }
+      ],
+      "related": [
+        { "word": "opposition", "trans": "名詞：反対" },
+        { "word": "opposite", "trans": "形容詞：反対の" },
+        { "word": "opponent", "trans": "名詞：反対者" }
+      ]
+    },
+    {
+      "number": 5502,
+      "word": "object",
+      "pos": "名詞 / 動詞",
+      "meaning": "名詞：物体, 対象, 目的； 動詞：(～に)反対する(to～)",
+      "nuance": "名詞では「具体的な物」や「目標」。動詞では「反対する」という意味で、'object to'で「～に反対する」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "What is that object on the table?",
+              "ja": "テーブルの上のあの物体は何ですか？",
+              "highlight": "object"
+            },
+            {
+              "en": "The object of the game is to score points.",
+              "ja": "そのゲームの目的は得点を取ることです。",
+              "highlight": "object"
+            },
+            {
+              "en": "I object to your proposal.",
+              "ja": "私はあなたの提案に反対します。",
+              "highlight": "object"
+            },
+            {
+              "en": "She is the object of his affection.",
+              "ja": "彼女は彼の愛情の対象だ。",
+              "highlight": "object"
+            },
+            {
+              "en": "Many people objected to the new rule.",
+              "ja": "多くの人がその新しい規則に反対した。",
+              "highlight": "objected"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 obicere（前に投げる）に由来します。",
+      "synonyms": [
+        { "word": "thing", "trans": "物" },
+        { "word": "goal", "trans": "目的" },
+        { "word": "protest", "trans": "抗議する" }
+      ],
+      "antonyms": [
+        { "word": "subject", "trans": "主体" },
+        { "word": "agree", "trans": "同意する" },
+        { "word": "support", "trans": "支持する" }
+      ],
+      "related": [
+        { "word": "objective", "trans": "名詞：目標" },
+        { "word": "objection", "trans": "名詞：異議" },
+        { "word": "objectify", "trans": "動詞：客体化する" }
+      ]
+    },
+    {
+      "number": 5503,
+      "word": "contrary",
+      "pos": "形容詞 / 名詞",
+      "meaning": "(～と)反対の(to～)",
+      "nuance": "「正反対の」「矛盾する」という意味です。'on the contrary'で「それどころか」、'contrary to'で「～に反して」という重要表現があります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Contrary to popular belief, he is very shy.",
+              "ja": "一般的な信念に反して、彼は非常に内気だ。",
+              "highlight": "Contrary"
+            },
+            {
+              "en": "His opinion is contrary to mine.",
+              "ja": "彼の意見は私の意見と反対だ。",
+              "highlight": "contrary"
+            },
+            {
+              "en": "On the contrary, I think you're right.",
+              "ja": "それどころか、私はあなたが正しいと思う。",
+              "highlight": "contrary"
+            },
+            {
+              "en": "The result was contrary to expectations.",
+              "ja": "結果は予想に反するものだった。",
+              "highlight": "contrary"
+            },
+            {
+              "en": "She is the contrary of what she seems.",
+              "ja": "彼女は見かけとは正反対の人だ。",
+              "highlight": "contrary"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 contrarius（反対の）に由来します。",
+      "synonyms": [
+        { "word": "opposite", "trans": "反対の" },
+        { "word": "conflicting", "trans": "矛盾する" },
+        { "word": "reverse", "trans": "逆の" }
+      ],
+      "antonyms": [
+        { "word": "same", "trans": "同じ" },
+        { "word": "similar", "trans": "類似した" },
+        { "word": "consistent", "trans": "一貫した" }
+      ],
+      "related": [
+        { "word": "contrariety", "trans": "名詞：相反" },
+        { "word": "contrarily", "trans": "副詞：逆に" },
+        { "word": "counter", "trans": "副詞：反対に" }
+      ]
+    },
+    {
+      "number": 5504,
+      "word": "contrast",
+      "pos": "名詞 / 動詞",
+      "meaning": "対照",
+      "nuance": "「違いを際立たせること」を指します。'in contrast to'で「～と対照的に」、'contrast A with B'で「AとBを対比する」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "In contrast to his brother, he is very tall.",
+              "ja": "彼の兄とは対照的に、彼はとても背が高い。",
+              "highlight": "contrast"
+            },
+            {
+              "en": "The contrast between light and shadow is striking.",
+              "ja": "光と影の対比は印象的だ。",
+              "highlight": "contrast"
+            },
+            {
+              "en": "Let's contrast the two theories.",
+              "ja": "その二つの理論を対比してみよう。",
+              "highlight": "contrast"
+            },
+            {
+              "en": "Her white dress contrasted beautifully with her dark hair.",
+              "ja": "彼女の白いドレスは黒い髪と美しく対照的だった。",
+              "highlight": "contrasted"
+            },
+            {
+              "en": "The contrast between city and country life is huge.",
+              "ja": "都市生活と田舎生活の対比は大きい。",
+              "highlight": "contrast"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 contra（反対に）+ stare（立つ）に由来します。",
+      "synonyms": [
+        { "word": "difference", "trans": "違い" },
+        { "word": "opposition", "trans": "対立" },
+        { "word": "comparison", "trans": "比較" }
+      ],
+      "antonyms": [
+        { "word": "similarity", "trans": "類似" },
+        { "word": "agreement", "trans": "一致" },
+        { "word": "harmony", "trans": "調和" }
+      ],
+      "related": [
+        { "word": "contrasting", "trans": "形容詞：対照的な" },
+        { "word": "contrastive", "trans": "形容詞：対比的な" },
+        { "word": "contrast ratio", "trans": "名詞：コントラスト比" }
+      ]
+    },
+    {
+      "number": 5505,
+      "word": "contradict",
+      "pos": "動詞",
+      "meaning": "～を否定する, に反論する, と矛盾する",
+      "nuance": "「人の言うことに反論する」「二つの事柄が一致しない」という意味です。相手に対して直接否定する時に使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Don't contradict your mother.",
+              "ja": "母親の言うことに反論してはいけない。",
+              "highlight": "contradict"
+            },
+            {
+              "en": "The witness contradicted his earlier statement.",
+              "ja": "その証人は以前の供述と矛盾した。",
+              "highlight": "contradicted"
+            },
+            {
+              "en": "His actions contradict his words.",
+              "ja": "彼の行動は言葉と矛盾している。",
+              "highlight": "contradict"
+            },
+            {
+              "en": "The evidence contradicts the theory.",
+              "ja": "その証拠は理論と矛盾している。",
+              "highlight": "contradicts"
+            },
+            {
+              "en": "She contradicted everything I said.",
+              "ja": "彼女は私の言ったこと全てに反論した。",
+              "highlight": "contradicted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 contradicere（反対を言う）に由来します。",
+      "synonyms": [
+        { "word": "deny", "trans": "否定する" },
+        { "word": "dispute", "trans": "異議を唱える" },
+        { "word": "oppose", "trans": "反対する" }
+      ],
+      "antonyms": [
+        { "word": "agree", "trans": "同意する" },
+        { "word": "confirm", "trans": "確認する" },
+        { "word": "support", "trans": "支持する" }
+      ],
+      "related": [
+        { "word": "contradiction", "trans": "名詞：矛盾" },
+        { "word": "contradictory", "trans": "形容詞：矛盾した" },
+        { "word": "contrary", "trans": "形容詞：反対の" }
+      ]
+    },
+    {
+      "number": 5506,
+      "word": "approve",
+      "pos": "動詞",
+      "meaning": "～に賛成する, を認める； (～に)賛成する, 認める(of～)",
+      "nuance": "「良いと認める」「公式に承認する」という意味です。'approve of'で「～を是認する」、'approve'単独で「承認する」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The committee approved the budget.",
+              "ja": "委員会は予算を承認した。",
+              "highlight": "approved"
+            },
+            {
+              "en": "I don't approve of his behavior.",
+              "ja": "私は彼の行動を是認しない。",
+              "highlight": "approve"
+            },
+            {
+              "en": "Her parents approved of her choice.",
+              "ja": "彼女の両親は彼女の選択に賛成した。",
+              "highlight": "approved"
+            },
+            {
+              "en": "The plan was approved by the board.",
+              "ja": "その計画は取締役会に承認された。",
+              "highlight": "approved"
+            },
+            {
+              "en": "Do you approve of smoking in public places?",
+              "ja": "公共の場での喫煙を認めますか？",
+              "highlight": "approve"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 approbare（良いと認める）に由来します。",
+      "synonyms": [
+        { "word": "accept", "trans": "受け入れる" },
+        { "word": "endorse", "trans": "支持する" },
+        { "word": "support", "trans": "支持する" }
+      ],
+      "antonyms": [
+        { "word": "disapprove", "trans": "認めない" },
+        { "word": "reject", "trans": "拒否する" },
+        { "word": "oppose", "trans": "反対する" }
+      ],
+      "related": [
+        { "word": "approval", "trans": "名詞：承認" },
+        { "word": "approved", "trans": "形容詞：承認済みの" },
+        { "word": "disapprove", "trans": "動詞：認めない" }
+      ]
+    },
+    {
+      "number": 5507,
+      "word": "consent",
+      "pos": "名詞 / 動詞",
+      "meaning": "(～に)同意する(to～)； 同意",
+      "nuance": "「提案や要求に自ら同意する」という意味で、'agree'よりもフォーマルで、特に法律的な文脈で使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She gave her consent to the surgery.",
+              "ja": "彼女は手術に同意した。",
+              "highlight": "consent"
+            },
+            {
+              "en": "He consented to the interview.",
+              "ja": "彼はインタビューを承諾した。",
+              "highlight": "consented"
+            },
+            {
+              "en": "You cannot use the photo without the owner's consent.",
+              "ja": "所有者の同意なしにその写真を使用することはできない。",
+              "highlight": "consent"
+            },
+            {
+              "en": "The patient must give informed consent.",
+              "ja": "患者は説明を受けた上での同意を与えなければならない。",
+              "highlight": "consent"
+            },
+            {
+              "en": "Silence is often interpreted as consent.",
+              "ja": "沈黙はしばしば同意と解釈される。",
+              "highlight": "consent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 consentire（一緒に感じる）に由来します。",
+      "synonyms": [
+        { "word": "agreement", "trans": "同意" },
+        { "word": "permission", "trans": "許可" },
+        { "word": "approval", "trans": "承認" }
+      ],
+      "antonyms": [
+        { "word": "dissent", "trans": "不同意" },
+        { "word": "refusal", "trans": "拒否" },
+        { "word": "objection", "trans": "異議" }
+      ],
+      "related": [
+        { "word": "consensus", "trans": "名詞：合意" },
+        { "word": "consent form", "trans": "名詞：同意書" },
+        { "word": "age of consent", "trans": "名詞：同意年齢" }
+      ]
+    },
+    {
+      "number": 5508,
+      "word": "correspond",
+      "pos": "動詞",
+      "meaning": "(～と)一致する, 合致する(with～)； (～に)対応する(to～)",
+      "nuance": "「二つのものが一致する」「手紙を交換する」という意味があります。'correspond to'で「～に対応する」、'correspond with'で「～と一致する」「～と文通する」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His story corresponds with the facts.",
+              "ja": "彼の話は事実と一致する。",
+              "highlight": "corresponds"
+            },
+            {
+              "en": "Each number corresponds to a letter.",
+              "ja": "各数字は文字に対応している。",
+              "highlight": "corresponds"
+            },
+            {
+              "en": "We have corresponded for many years.",
+              "ja": "私たちは何年も文通している。",
+              "highlight": "corresponded"
+            },
+            {
+              "en": "The witness's testimony did not correspond with the evidence.",
+              "ja": "証人の証言は証拠と合致しなかった。",
+              "highlight": "correspond"
+            },
+            {
+              "en": "The symbol '#' corresponds to 'number' in English.",
+              "ja": "『#』という記号は英語で『number』に対応する。",
+              "highlight": "corresponds"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 correspondere（応じる）に由来します。",
+      "synonyms": [
+        { "word": "match", "trans": "一致する" },
+        { "word": "agree", "trans": "一致する" },
+        { "word": "communicate", "trans": "文通する" }
+      ],
+      "antonyms": [
+        { "word": "differ", "trans": "異なる" },
+        { "word": "conflict", "trans": "衝突する" },
+        { "word": "contradict", "trans": "矛盾する" }
+      ],
+      "related": [
+        { "word": "correspondence", "trans": "名詞：一致" },
+        { "word": "corresponding", "trans": "形容詞：対応する" },
+        { "word": "correspondent", "trans": "名詞：特派員" }
+      ]
+    },
+    {
+      "number": 5509,
+      "word": "accord",
+      "pos": "名詞 / 動詞",
+      "meaning": "(～と)一致する, 調和する(with～)",
+      "nuance": "「一致する」「調和する」という意味のフォーマルな単語です。'of one's own accord'で「自発的に」、'in accord with'で「～と一致して」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His actions are not in accord with his words.",
+              "ja": "彼の行動は言葉と一致していない。",
+              "highlight": "accord"
+            },
+            {
+              "en": "She left of her own accord.",
+              "ja": "彼女は自発的に去った。",
+              "highlight": "accord"
+            },
+            {
+              "en": "The two reports accord with each other.",
+              "ja": "その二つの報告書は互いに一致する。",
+              "highlight": "accord"
+            },
+            {
+              "en": "The peace accord was signed by both countries.",
+              "ja": "その平和協定は両国によって署名された。",
+              "highlight": "accord"
+            },
+            {
+              "en": "His opinion fully accords with mine.",
+              "ja": "彼の意見は私の意見と完全に一致する。",
+              "highlight": "accords"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ad（～に）+ cor（心）に由来します。",
+      "synonyms": [
+        { "word": "agree", "trans": "一致する" },
+        { "word": "harmonize", "trans": "調和する" },
+        { "word": "concur", "trans": "同意する" }
+      ],
+      "antonyms": [
+        { "word": "disagree", "trans": "不一致" },
+        { "word": "conflict", "trans": "衝突" },
+        { "word": "differ", "trans": "異なる" }
+      ],
+      "related": [
+        { "word": "accordance", "trans": "名詞：一致" },
+        { "word": "according", "trans": "形容詞：一致した" },
+        { "word": "accordingly", "trans": "副詞：従って" }
+      ]
+    },
+    {
+      "number": 5510,
+      "word": "conform",
+      "pos": "動詞",
+      "meaning": "(～に)従う, 順応する, 一致する(to～)",
+      "nuance": "「規則や標準に従う」「周囲に合わせる」という意味です。社会の規範に「同調する」時に使われます。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Students must conform to the school rules.",
+              "ja": "学生は校則に従わなければならない。",
+              "highlight": "conform"
+            },
+            {
+              "en": "He refused to conform to society's expectations.",
+              "ja": "彼は社会の期待に従うことを拒否した。",
+              "highlight": "conform"
+            },
+            {
+              "en": "The product conforms to international standards.",
+              "ja": "その製品は国際基準に適合している。",
+              "highlight": "conforms"
+            },
+            {
+              "en": "She always tries to conform to fashion.",
+              "ja": "彼女はいつも流行に合わせようとする。",
+              "highlight": "conform"
+            },
+            {
+              "en": "The building does not conform to safety regulations.",
+              "ja": "その建物は安全規則に適合していない。",
+              "highlight": "conform"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 conformare（形作る）に由来します。",
+      "synonyms": [
+        { "word": "comply", "trans": "従う" },
+        { "word": "obey", "trans": "従う" },
+        { "word": "follow", "trans": "従う" }
+      ],
+      "antonyms": [
+        { "word": "rebel", "trans": "反抗する" },
+        { "word": "deviate", "trans": "逸脱する" },
+        { "word": "differ", "trans": "異なる" }
+      ],
+      "related": [
+        { "word": "conformity", "trans": "名詞：従順" },
+        { "word": "conformist", "trans": "名詞：順応者" },
+        { "word": "nonconformist", "trans": "名詞：非順応者" }
+      ]
+    },
+    {
+      "number": 5511,
+      "word": "compatible",
+      "pos": "形容詞",
+      "meaning": "(～と)両立可能な, 矛盾しない(with～)",
+      "nuance": "「互いに干渉せず共存できる」「相性が良い」という意味です。機械、ソフトウェア、人間関係などに使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Is this software compatible with my computer?",
+              "ja": "このソフトウェアは私のコンピューターと互換性がありますか？",
+              "highlight": "compatible"
+            },
+            {
+              "en": "We are compatible as roommates.",
+              "ja": "私たちはルームメイトとして相性が良い。",
+              "highlight": "compatible"
+            },
+            {
+              "en": "His ideas are not compatible with mine.",
+              "ja": "彼の考えは私の考えと相容れない。",
+              "highlight": "compatible"
+            },
+            {
+              "en": "The new system is compatible with existing equipment.",
+              "ja": "その新しいシステムは既存の機器と互換性がある。",
+              "highlight": "compatible"
+            },
+            {
+              "en": "They are a very compatible couple.",
+              "ja": "彼らはとても相性の良いカップルだ。",
+              "highlight": "compatible"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 compati（共に苦しむ）に由来します。",
+      "synonyms": [
+        { "word": "harmonious", "trans": "調和した" },
+        { "word": "consistent", "trans": "一貫した" },
+        { "word": "matching", "trans": "合う" }
+      ],
+      "antonyms": [
+        { "word": "incompatible", "trans": "両立しない" },
+        { "word": "conflicting", "trans": "矛盾する" },
+        { "word": "unsuitable", "trans": "不適切な" }
+      ],
+      "related": [
+        { "word": "compatibility", "trans": "名詞：互換性" },
+        { "word": "compatibly", "trans": "副詞：両立して" },
+        { "word": "incompatible", "trans": "形容詞：両立しない" }
+      ]
+    },
+    {
+      "number": 5512,
+      "word": "compare",
+      "pos": "動詞",
+      "meaning": "～を(…と)比較する(with, to…)",
+      "nuance": "「二つ以上のものを比べる」という意味です。'compare A with B'で「AとBを比べる」、'compare A to B'で「AをBに例える」という違いがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Compare your answers with the correct ones.",
+              "ja": "自分の答えを正解と比較しなさい。",
+              "highlight": "Compare"
+            },
+            {
+              "en": "Shakespeare is often compared to a genius.",
+              "ja": "シェイクスピアはしばしば天才に例えられる。",
+              "highlight": "compared"
+            },
+            {
+              "en": "This product compares favorably to the competition.",
+              "ja": "この製品は競合他社の製品と比較して優れている。",
+              "highlight": "compares"
+            },
+            {
+              "en": "Nothing compares to you.",
+              "ja": "あなたに比べられるものは何もない。",
+              "highlight": "compares"
+            },
+            {
+              "en": "Let's compare the two prices.",
+              "ja": "二つの価格を比較しよう。",
+              "highlight": "compare"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 comparare（共に準備する）に由来します。",
+      "synonyms": [
+        { "word": "contrast", "trans": "対比する" },
+        { "word": "relate", "trans": "関連づける" },
+        { "word": "liken", "trans": "例える" }
+      ],
+      "antonyms": [
+        { "word": "separate", "trans": "分離する" },
+        { "word": "distinguish", "trans": "区別する" },
+        { "word": "differentiate", "trans": "差異化する" }
+      ],
+      "related": [
+        { "word": "comparison", "trans": "名詞：比較" },
+        { "word": "comparative", "trans": "形容詞：比較の" },
+        { "word": "comparable", "trans": "形容詞：比較できる" }
+      ]
+    },
+    {
+      "number": 5513,
+      "word": "confuse",
+      "pos": "動詞",
+      "meaning": "～を(…と)混同する(with…)； を混乱させる",
+      "nuance": "「二つのものを間違える」「頭を混乱させる」という意味です。'confuse A with B'で「AをBと混同する」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I always confuse her with her sister.",
+              "ja": "私はいつも彼女を妹と混同してしまう。",
+              "highlight": "confuse"
+            },
+            {
+              "en": "The instructions confused me.",
+              "ja": "その説明書は私を混乱させた。",
+              "highlight": "confused"
+            },
+            {
+              "en": "Don't confuse kindness with weakness.",
+              "ja": "親切と弱さを混同してはいけない。",
+              "highlight": "confuse"
+            },
+            {
+              "en": "The road signs confused the driver.",
+              "ja": "道路標識が運転手を混乱させた。",
+              "highlight": "confused"
+            },
+            {
+              "en": "I'm confused about what to do next.",
+              "ja": "次に何をすればいいか混乱している。",
+              "highlight": "confused"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 confundere（一緒に注ぐ）に由来します。",
+      "synonyms": [
+        { "word": "mix up", "trans": "混同する" },
+        { "word": "perplex", "trans": "困惑させる" },
+        { "word": "baffle", "trans": "困惑させる" }
+      ],
+      "antonyms": [
+        { "word": "clarify", "trans": "明確にする" },
+        { "word": "distinguish", "trans": "区別する" },
+        { "word": "enlighten", "trans": "啓発する" }
+      ],
+      "related": [
+        { "word": "confusion", "trans": "名詞：混乱" },
+        { "word": "confused", "trans": "形容詞：混乱した" },
+        { "word": "confusing", "trans": "形容詞：紛らわしい" }
+      ]
+    },
+    {
+      "number": 5514,
+      "word": "equal",
+      "pos": "形容詞 / 動詞",
+      "meaning": "(～と)等しい, 匹敵する, するだけの能力がある(to～)； ～に等しい",
+      "nuance": "「量や価値が同じ」「能力が同じ」という意味です。'equal to'で「～に等しい」「～に耐えられる」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "All people are created equal.",
+              "ja": "全ての人は平等に創造されている。",
+              "highlight": "equal"
+            },
+            {
+              "en": "Two plus two equals four.",
+              "ja": "2足す2は4に等しい。",
+              "highlight": "equals"
+            },
+            {
+              "en": "She is equal to the task.",
+              "ja": "彼女はその仕事をやり遂げる能力がある。",
+              "highlight": "equal"
+            },
+            {
+              "en": "No one can equal him in strength.",
+              "ja": "力では誰も彼に匹敵しない。",
+              "highlight": "equal"
+            },
+            {
+              "en": "They have equal rights under the law.",
+              "ja": "彼らは法の下で平等な権利を持っている。",
+              "highlight": "equal"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 aequalis（等しい）に由来します。",
+      "synonyms": [
+        { "word": "identical", "trans": "同一の" },
+        { "word": "equivalent", "trans": "同等の" },
+        { "word": "match", "trans": "匹敵する" }
+      ],
+      "antonyms": [
+        { "word": "unequal", "trans": "不平等な" },
+        { "word": "different", "trans": "異なる" },
+        { "word": "inferior", "trans": "劣った" }
+      ],
+      "related": [
+        { "word": "equality", "trans": "名詞：平等" },
+        { "word": "equally", "trans": "副詞：平等に" },
+        { "word": "equalize", "trans": "動詞：均等にする" }
+      ]
+    },
+    {
+      "number": 5515,
+      "word": "equivalent",
+      "pos": "形容詞 / 名詞",
+      "meaning": "(～と)同等の(to～)； 同等のもの",
+      "nuance": "「値や意味が同じである」という意味で、'equal'とほぼ同義ですが、異なる種類のものを比較する時に使うことが多いです。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "His salary is equivalent to mine.",
+              "ja": "彼の給料は私の給料と同等だ。",
+              "highlight": "equivalent"
+            },
+            {
+              "en": "One dollar is equivalent to about 150 yen.",
+              "ja": "1ドルは約150円に相当する。",
+              "highlight": "equivalent"
+            },
+            {
+              "en": "This word has no equivalent in Japanese.",
+              "ja": "この単語には日本語に相当する言葉がない。",
+              "highlight": "equivalent"
+            },
+            {
+              "en": "The two products are roughly equivalent in quality.",
+              "ja": "その二つの製品は品質がほぼ同等だ。",
+              "highlight": "equivalent"
+            },
+            {
+              "en": "A meter is equivalent to 100 centimeters.",
+              "ja": "1メートルは100センチメートルに等しい。",
+              "highlight": "equivalent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 aequivalere（同等の価値がある）に由来します。",
+      "synonyms": [
+        { "word": "equal", "trans": "等しい" },
+        { "word": "comparable", "trans": "比較できる" },
+        { "word": "corresponding", "trans": "対応する" }
+      ],
+      "antonyms": [
+        { "word": "different", "trans": "異なる" },
+        { "word": "unequal", "trans": "不平等な" },
+        { "word": "dissimilar", "trans": "似ていない" }
+      ],
+      "related": [
+        { "word": "equivalence", "trans": "名詞：同等性" },
+        { "word": "equivalently", "trans": "副詞：同等に" },
+        { "word": "equal", "trans": "形容詞：等しい" }
+      ]
+    },
+    {
+      "number": 5516,
+      "word": "counterpart",
+      "pos": "名詞",
+      "meaning": "相当するもの・人",
+      "nuance": "「別の場所や組織で同じ役割を果たす人や物」を指します。'Japanese counterpart'で「日本の相手方」などと使います。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The prime minister met with his French counterpart.",
+              "ja": "首相はフランスの首相に相当する人物と会談した。",
+              "highlight": "counterpart"
+            },
+            {
+              "en": "This car is more efficient than its American counterpart.",
+              "ja": "この車はアメリカの対応するモデルよりも効率的だ。",
+              "highlight": "counterpart"
+            },
+            {
+              "en": "The sales manager spoke to her counterpart in Tokyo.",
+              "ja": "営業部長は東京の担当者と話した。",
+              "highlight": "counterpart"
+            },
+            {
+              "en": "The British counterpart to the FBI is MI5.",
+              "ja": "FBIに相当するイギリスの組織はMI5だ。",
+              "highlight": "counterpart"
+            },
+            {
+              "en": "Each department has a counterpart in the other branch.",
+              "ja": "各部署にはもう一方の支店に対応する部門がある。",
+              "highlight": "counterpart"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 contre（反対）+ part（部分）に由来します。",
+      "synonyms": [
+        { "word": "equivalent", "trans": "同等物" },
+        { "word": "match", "trans": "相手" },
+        { "word": "peer", "trans": "同輩" }
+      ],
+      "antonyms": [
+        { "word": "opposite", "trans": "反対" },
+        { "word": "different", "trans": "異なるもの" },
+        { "word": "original", "trans": "オリジナル" }
+      ],
+      "related": [
+        { "word": "counter", "trans": "副詞：反対に" },
+        { "word": "part", "trans": "名詞：部分" },
+        { "word": "correspondent", "trans": "名詞：特派員" }
+      ]
+    },
+    {
+      "number": 5517,
+      "word": "resemble",
+      "pos": "動詞",
+      "meaning": "～に似ている",
+      "nuance": "「外見や性質が似ている」という意味です。他動詞なので目的語を直接取ります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She resembles her mother in many ways.",
+              "ja": "彼女は多くの点で母親に似ている。",
+              "highlight": "resembles"
+            },
+            {
+              "en": "This insect resembles a dead leaf.",
+              "ja": "この昆虫は枯れ葉に似ている。",
+              "highlight": "resembles"
+            },
+            {
+              "en": "The two brothers closely resemble each other.",
+              "ja": "その二人の兄弟は非常によく似ている。",
+              "highlight": "resemble"
+            },
+            {
+              "en": "His painting resembles the work of Monet.",
+              "ja": "彼の絵はモネの作品に似ている。",
+              "highlight": "resembles"
+            },
+            {
+              "en": "The cake resembles a flower.",
+              "ja": "そのケーキは花に似ている。",
+              "highlight": "resembles"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 similare（似る）に由来します。",
+      "synonyms": [
+        { "word": "look like", "trans": "～に見える" },
+        { "word": "be similar to", "trans": "～に類似する" },
+        { "word": "mirror", "trans": "反映する" }
+      ],
+      "antonyms": [
+        { "word": "differ", "trans": "異なる" },
+        { "word": "contrast", "trans": "対照的" },
+        { "word": "disagree", "trans": "一致しない" }
+      ],
+      "related": [
+        { "word": "resemblance", "trans": "名詞：類似" },
+        { "word": "similar", "trans": "形容詞：類似した" },
+        { "word": "assimilate", "trans": "動詞：同化する" }
+      ]
+    },
+    {
+      "number": 5518,
+      "word": "diverse",
+      "pos": "形容詞",
+      "meaning": "多様な",
+      "nuance": "「様々な種類から成る」「異なる性質を持つ」という意味です。'various'よりも「違いが明確で、範囲が広い」ニュアンスがあります。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "New York is a culturally diverse city.",
+              "ja": "ニューヨークは文化的に多様な都市だ。",
+              "highlight": "diverse"
+            },
+            {
+              "en": "The company has a diverse workforce.",
+              "ja": "その会社は多様な労働力を持っている。",
+              "highlight": "diverse"
+            },
+            {
+              "en": "We have diverse opinions on this matter.",
+              "ja": "この問題については多様な意見がある。",
+              "highlight": "diverse"
+            },
+            {
+              "en": "The region has a diverse range of wildlife.",
+              "ja": "その地域には多様な野生生物がいる。",
+              "highlight": "diverse"
+            },
+            {
+              "en": "Her interests are very diverse.",
+              "ja": "彼女の興味は非常に多様だ。",
+              "highlight": "diverse"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 diversus（反対方向へ）に由来します。",
+      "synonyms": [
+        { "word": "varied", "trans": "様々な" },
+        { "word": "multifarious", "trans": "多種多様な" },
+        { "word": "different", "trans": "異なる" }
+      ],
+      "antonyms": [
+        { "word": "uniform", "trans": "一様な" },
+        { "word": "homogeneous", "trans": "同質の" },
+        { "word": "identical", "trans": "同一の" }
+      ],
+      "related": [
+        { "word": "diversity", "trans": "名詞：多様性" },
+        { "word": "diversify", "trans": "動詞：多様化する" },
+        { "word": "diversion", "trans": "名詞：転換" }
+      ]
+    },
+    {
+      "number": 5519,
+      "word": "differ",
+      "pos": "動詞",
+      "meaning": "(～と)(…の点で)異なる(from～)(in…)",
+      "nuance": "「違う」「意見が合わない」という意味です。'differ from'で「～と異なる」、'differ with'で「～と意見が異なる」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "My opinion differs from yours.",
+              "ja": "私の意見はあなたの意見と異なる。",
+              "highlight": "differs"
+            },
+            {
+              "en": "The two products differ in price.",
+              "ja": "その二つの製品は価格が異なる。",
+              "highlight": "differ"
+            },
+            {
+              "en": "I beg to differ.",
+              "ja": "私は異論を唱えさせていただきます。",
+              "highlight": "differ"
+            },
+            {
+              "en": "The twins differ in personality.",
+              "ja": "その双子は性格が異なる。",
+              "highlight": "differ"
+            },
+            {
+              "en": "They differ greatly on this issue.",
+              "ja": "彼らはこの問題について大きく意見が異なる。",
+              "highlight": "differ"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 differre（離れて運ぶ）に由来します。",
+      "synonyms": [
+        { "word": "vary", "trans": "異なる" },
+        { "word": "disagree", "trans": "意見が合わない" },
+        { "word": "contrast", "trans": "対照的である" }
+      ],
+      "antonyms": [
+        { "word": "agree", "trans": "一致する" },
+        { "word": "resemble", "trans": "似ている" },
+        { "word": "match", "trans": "合う" }
+      ],
+      "related": [
+        { "word": "difference", "trans": "名詞：違い" },
+        { "word": "different", "trans": "形容詞：異なる" },
+        { "word": "differentiate", "trans": "動詞：区別する" }
+      ]
+    },
+    {
+      "number": 5520,
+      "word": "vary",
+      "pos": "動詞",
+      "meaning": "異なる, 変わる",
+      "nuance": "「変化する」「一定でない」という意味です。'vary from A to B'で「AからBまで様々である」です。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The price varies depending on the season.",
+              "ja": "価格は季節によって異なる。",
+              "highlight": "varies"
+            },
+            {
+              "en": "Opinions vary on this issue.",
+              "ja": "この問題については意見が分かれる。",
+              "highlight": "vary"
+            },
+            {
+              "en": "The temperature varies from day to day.",
+              "ja": "気温は日によって変わる。",
+              "highlight": "varies"
+            },
+            {
+              "en": "She varies her workout routine to stay motivated.",
+              "ja": "彼女はやる気を維持するためにトレーニングの内容を変えている。",
+              "highlight": "varies"
+            },
+            {
+              "en": "The quality of the product can vary.",
+              "ja": "その製品の品質は変わり得る。",
+              "highlight": "vary"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 variare（変える）に由来します。",
+      "synonyms": [
+        { "word": "change", "trans": "変わる" },
+        { "word": "fluctuate", "trans": "変動する" },
+        { "word": "differ", "trans": "異なる" }
+      ],
+      "antonyms": [
+        { "word": "remain", "trans": "変わらない" },
+        { "word": "stabilize", "trans": "安定する" },
+        { "word": "standardize", "trans": "標準化する" }
+      ],
+      "related": [
+        { "word": "variety", "trans": "名詞：多様性" },
+        { "word": "various", "trans": "形容詞：様々な" },
+        { "word": "variable", "trans": "形容詞：変わりやすい" }
+      ]
+    }
+  ]
+}
