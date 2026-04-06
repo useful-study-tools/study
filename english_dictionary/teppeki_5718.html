@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#20	知覚・感覚・感情 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #20	知覚・感覚・感情
+    </div>
+    
+    <h2 class="section-title">#20	知覚・感覚・感情</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5639.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5718-perceive.html"><span class="word-id">5718</span><span class="word-name">perceive</span><span class="word-meaning">知覚する、感じ取る； 認識する</span></a></li>
+        <li class="word-item"><a href="data/5719-conceive.html"><span class="word-id">5719</span><span class="word-name">conceive</span><span class="word-meaning">考えだす、考案する； 心に抱く</span></a></li>
+        <li class="word-item"><a href="data/5720-deceive.html"><span class="word-id">5720</span><span class="word-name">deceive</span><span class="word-meaning">だます</span></a></li>
+        <li class="word-item"><a href="data/5721-sense.html"><span class="word-id">5721</span><span class="word-name">sense</span><span class="word-meaning">感覚； 判断力、思慮； 意味； ～に感づく</span></a></li>
+        <li class="word-item"><a href="data/5722-sensitive.html"><span class="word-id">5722</span><span class="word-name">sensitive</span><span class="word-meaning">敏感な(to～)</span></a></li>
+        <li class="word-item"><a href="data/5723-sensible.html"><span class="word-id">5723</span><span class="word-name">sensible</span><span class="word-meaning">分別のある、賢明な</span></a></li>
+        <li class="word-item"><a href="data/5724-sensation.html"><span class="word-id">5724</span><span class="word-name">sensation</span><span class="word-meaning">感覚； 物議、騒動</span></a></li>
+        <li class="word-item"><a href="data/5725-visual.html"><span class="word-id">5725</span><span class="word-name">visual</span><span class="word-meaning">視覚の</span></a></li>
+        <li class="word-item"><a href="data/5726-visible.html"><span class="word-id">5726</span><span class="word-name">visible</span><span class="word-meaning">目に見える</span></a></li>
+        <li class="word-item"><a href="data/5727-revise.html"><span class="word-id">5727</span><span class="word-name">revise</span><span class="word-meaning">改訂する、修正する</span></a></li>
+        <li class="word-item"><a href="data/5728-devise.html"><span class="word-id">5728</span><span class="word-name">devise</span><span class="word-meaning">考案する</span></a></li>
+        <li class="word-item"><a href="data/5729-sight.html"><span class="word-id">5729</span><span class="word-name">sight</span><span class="word-meaning">視覚：視力； 光景； 名所</span></a></li>
+        <li class="word-item"><a href="data/5730-stare.html"><span class="word-id">5730</span><span class="word-name">stare</span><span class="word-meaning">（じろじろ）見つめる(at～）</span></a></li>
+        <li class="word-item"><a href="data/5731-gaze.html"><span class="word-id">5731</span><span class="word-name">gaze</span><span class="word-meaning">（うっとりして・ぼーっと）見つめる(at～)</span></a></li>
+        <li class="word-item"><a href="data/5732-glance.html"><span class="word-id">5732</span><span class="word-name">glance</span><span class="word-meaning">（意識的に）ちらりと見る(at～)</span></a></li>
+        <li class="word-item"><a href="data/5733-glimpse.html"><span class="word-id">5733</span><span class="word-name">glimpse</span><span class="word-meaning">（偶然）ちらりと見る、垣間見る</span></a></li>
+        <li class="word-item"><a href="data/5734-audible.html"><span class="word-id">5734</span><span class="word-name">audible</span><span class="word-meaning">聞こえる</span></a></li>
+        <li class="word-item"><a href="data/5735-audience.html"><span class="word-id">5735</span><span class="word-name">audience</span><span class="word-meaning">聴衆、観客</span></a></li>
+        <li class="word-item"><a href="data/5736-scent.html"><span class="word-id">5736</span><span class="word-name">scent</span><span class="word-meaning">香り</span></a></li>
+        <li class="word-item"><a href="data/5737-odor.html"><span class="word-id">5737</span><span class="word-name">odor</span><span class="word-meaning">におい</span></a></li>
+        <li class="word-item"><a href="data/5738-flavor.html"><span class="word-id">5738</span><span class="word-name">flavor</span><span class="word-meaning">味</span></a></li>
+        <li class="word-item"><a href="data/5739-arouse.html"><span class="word-id">5739</span><span class="word-name">arouse</span><span class="word-meaning">～（感情など）を呼び起こす、刺激する</span></a></li>
+        <li class="word-item"><a href="data/5740-evoke.html"><span class="word-id">5740</span><span class="word-name">evoke</span><span class="word-meaning">～（感情など）を呼び起こす、呼び覚ます</span></a></li>
+        <li class="word-item"><a href="data/5741-provoke.html"><span class="word-id">5741</span><span class="word-name">provoke</span><span class="word-meaning">～（反応など）を引き起こす</span></a></li>
+        <li class="word-item"><a href="data/5742-stimulate.html"><span class="word-id">5742</span><span class="word-name">stimulate</span><span class="word-meaning">～を刺激する； 促進する</span></a></li>
+        <li class="word-item"><a href="data/5743-instinct.html"><span class="word-id">5743</span><span class="word-name">instinct</span><span class="word-meaning">本能</span></a></li>
+        <li class="word-item"><a href="data/5744-impulse.html"><span class="word-id">5744</span><span class="word-name">impulse</span><span class="word-meaning">衝動(to do)</span></a></li>
+        <li class="word-item"><a href="data/5745-embarrass.html"><span class="word-id">5745</span><span class="word-name">embarrass</span><span class="word-meaning">恥ずかしい思いをさせる、当惑させる</span></a></li>
+        <li class="word-item"><a href="data/5746-shame.html"><span class="word-id">5746</span><span class="word-name">shame</span><span class="word-meaning">恥； 残念なこと</span></a></li>
+        <li class="word-item"><a href="data/5747-nerve.html"><span class="word-id">5747</span><span class="word-name">nerve</span><span class="word-meaning">神経</span></a></li>
+        <li class="word-item"><a href="data/5748-emotion.html"><span class="word-id">5748</span><span class="word-name">emotion</span><span class="word-meaning">感情</span></a></li>
+        <li class="word-item"><a href="data/5749-passion.html"><span class="word-id">5749</span><span class="word-name">passion</span><span class="word-meaning">情熱</span></a></li>
+        <li class="word-item"><a href="data/5750-compassion.html"><span class="word-id">5750</span><span class="word-name">compassion</span><span class="word-meaning">同情、あわれみ</span></a></li>
+        <li class="word-item"><a href="data/5751-passive.html"><span class="word-id">5751</span><span class="word-name">passive</span><span class="word-meaning">受け身の、受動的な</span></a></li>
+        <li class="word-item"><a href="data/5752-temper.html"><span class="word-id">5752</span><span class="word-name">temper</span><span class="word-meaning">機嫌； 平常心</span></a></li>
+        <li class="word-item"><a href="data/5753-delight.html"><span class="word-id">5753</span><span class="word-name">delight</span><span class="word-meaning">喜び、楽しみ</span></a></li>
+        <li class="word-item"><a href="data/5754-rejoice.html"><span class="word-id">5754</span><span class="word-name">rejoice</span><span class="word-meaning">喜ぶ</span></a></li>
+        <li class="word-item"><a href="data/5755-gratify.html"><span class="word-id">5755</span><span class="word-name">gratify</span><span class="word-meaning">喜ばせる</span></a></li>
+        <li class="word-item"><a href="data/5756-anger.html"><span class="word-id">5756</span><span class="word-name">anger</span><span class="word-meaning">怒り</span></a></li>
+        <li class="word-item"><a href="data/5757-rage.html"><span class="word-id">5757</span><span class="word-name">rage</span><span class="word-meaning">怒り、熱狂</span></a></li>
+        <li class="word-item"><a href="data/5758-fury.html"><span class="word-id">5758</span><span class="word-name">fury</span><span class="word-meaning">怒り</span></a></li>
+        <li class="word-item"><a href="data/5759-resent.html"><span class="word-id">5759</span><span class="word-name">resent</span><span class="word-meaning">憤慨する、腹を立てる</span></a></li>
+        <li class="word-item"><a href="data/5760-annoy.html"><span class="word-id">5760</span><span class="word-name">annoy</span><span class="word-meaning">怒らせる、むっとさせる</span></a></li>
+        <li class="word-item"><a href="data/5761-irritate.html"><span class="word-id">5761</span><span class="word-name">irritate</span><span class="word-meaning">苛立たせる</span></a></li>
+        <li class="word-item"><a href="data/5762-frustrate.html"><span class="word-id">5762</span><span class="word-name">frustrate</span><span class="word-meaning">イライラさせる、失望させる</span></a></li>
+        <li class="word-item"><a href="data/5763-sorrow.html"><span class="word-id">5763</span><span class="word-name">sorrow</span><span class="word-meaning">悲しみ</span></a></li>
+        <li class="word-item"><a href="data/5764-grief.html"><span class="word-id">5764</span><span class="word-name">grief</span><span class="word-meaning">悲しみ</span></a></li>
+        <li class="word-item"><a href="data/5765-lament.html"><span class="word-id">5765</span><span class="word-name">lament</span><span class="word-meaning">悲しみ嘆く</span></a></li>
+        <li class="word-item"><a href="data/5766-mourn.html"><span class="word-id">5766</span><span class="word-name">mourn</span><span class="word-meaning">悲しみ嘆く</span></a></li>
+        <li class="word-item"><a href="data/5767-despair.html"><span class="word-id">5767</span><span class="word-name">despair</span><span class="word-meaning">絶望</span></a></li>
+        <li class="word-item"><a href="data/5768-devastate.html"><span class="word-id">5768</span><span class="word-name">devastate</span><span class="word-meaning">打ちのめす</span></a></li>
+        <li class="word-item"><a href="data/5769-entertain.html"><span class="word-id">5769</span><span class="word-name">entertain</span><span class="word-meaning">楽しませる； 心に抱く、考慮する</span></a></li>
+        <li class="word-item"><a href="data/5770-amuse.html"><span class="word-id">5770</span><span class="word-name">amuse</span><span class="word-meaning">面白がらせる</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5639.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
