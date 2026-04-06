@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#17	議論・主張・要求 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #17	議論・主張・要求
+    </div>
+    
+    <h2 class="section-title">#17	議論・主張・要求</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5575.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5605-discuss.html"><span class="word-id">5605</span><span class="word-name">discuss</span><span class="word-meaning">～を話し合う, 議論する</span></a></li>
+        <li class="word-item"><a href="data/5606-agree.html"><span class="word-id">5606</span><span class="word-name">agree</span><span class="word-meaning">(～に)(with)賛成する, (to)同意する, 一致する</span></a></li>
+        <li class="word-item"><a href="data/5607-argue.html"><span class="word-id">5607</span><span class="word-name">argue</span><span class="word-meaning">～を主張する, 論じる； 言い争う</span></a></li>
+        <li class="word-item"><a href="data/5608-maintain.html"><span class="word-id">5608</span><span class="word-name">maintain</span><span class="word-meaning">～を維持する, 主張する</span></a></li>
+        <li class="word-item"><a href="data/5609-assert.html"><span class="word-id">5609</span><span class="word-name">assert</span><span class="word-meaning">～を主張する, 言い張る</span></a></li>
+        <li class="word-item"><a href="data/5610-claim.html"><span class="word-id">5610</span><span class="word-name">claim</span><span class="word-meaning">動詞：要求する、主張する； 名詞：要求、主張</span></a></li>
+        <li class="word-item"><a href="data/5611-insist.html"><span class="word-id">5611</span><span class="word-name">insist</span><span class="word-meaning">要求する、主張する</span></a></li>
+        <li class="word-item"><a href="data/5612-exclaim.html"><span class="word-id">5612</span><span class="word-name">exclaim</span><span class="word-meaning">～と叫ぶ</span></a></li>
+        <li class="word-item"><a href="data/5613-proclaim.html"><span class="word-id">5613</span><span class="word-name">proclaim</span><span class="word-meaning">～を宣言する</span></a></li>
+        <li class="word-item"><a href="data/5614-declare.html"><span class="word-id">5614</span><span class="word-name">declare</span><span class="word-meaning">宣言する</span></a></li>
+        <li class="word-item"><a href="data/5615-announce.html"><span class="word-id">5615</span><span class="word-name">announce</span><span class="word-meaning">～を告知する</span></a></li>
+        <li class="word-item"><a href="data/5616-exaggerate.html"><span class="word-id">5616</span><span class="word-name">exaggerate</span><span class="word-meaning">～を誇張する, 大げさに言う</span></a></li>
+        <li class="word-item"><a href="data/5617-boast.html"><span class="word-id">5617</span><span class="word-name">boast</span><span class="word-meaning">動詞：自慢する, 鼻にかける； 名詞：自慢</span></a></li>
+        <li class="word-item"><a href="data/5618-controversy.html"><span class="word-id">5618</span><span class="word-name">controversy</span><span class="word-meaning">論争, 議論</span></a></li>
+        <li class="word-item"><a href="data/5619-dispute.html"><span class="word-id">5619</span><span class="word-name">dispute</span><span class="word-meaning">名詞：議論、議論する； 動詞：～を議論する, 討論する</span></a></li>
+        <li class="word-item"><a href="data/5620-debate.html"><span class="word-id">5620</span><span class="word-name">debate</span><span class="word-meaning">名詞：討論； 動詞：討論する</span></a></li>
+        <li class="word-item"><a href="data/5621-conference.html"><span class="word-id">5621</span><span class="word-name">conference</span><span class="word-meaning">会議</span></a></li>
+        <li class="word-item"><a href="data/5622-negotiate.html"><span class="word-id">5622</span><span class="word-name">negotiate</span><span class="word-meaning">交渉する</span></a></li>
+        <li class="word-item"><a href="data/5623-complain.html"><span class="word-id">5623</span><span class="word-name">complain</span><span class="word-meaning">(～について)不満を述べる</span></a></li>
+        <li class="word-item"><a href="data/5624-grumble.html"><span class="word-id">5624</span><span class="word-name">grumble</span><span class="word-meaning">不満を言う</span></a></li>
+        <li class="word-item"><a href="data/5625-quarrel.html"><span class="word-id">5625</span><span class="word-name">quarrel</span><span class="word-meaning">口論, 口喧嘩； 口論する</span></a></li>
+        <li class="word-item"><a href="data/5626-reconcile.html"><span class="word-id">5626</span><span class="word-name">reconcile</span><span class="word-meaning">～を和解させる, 仲直りさせる； 和解する</span></a></li>
+        <li class="word-item"><a href="data/5627-convince.html"><span class="word-id">5627</span><span class="word-name">convince</span><span class="word-meaning">～に確信させる、納得させる</span></a></li>
+        <li class="word-item"><a href="data/5628-persuade.html"><span class="word-id">5628</span><span class="word-name">persuade</span><span class="word-meaning">～に説得する</span></a></li>
+        <li class="word-item"><a href="data/5629-talk～into doing.html"><span class="word-id">5629</span><span class="word-name">talk～into doing</span><span class="word-meaning">～に説得する</span></a></li>
+        <li class="word-item"><a href="data/5630-advantage.html"><span class="word-id">5630</span><span class="word-name">advantage</span><span class="word-meaning">有利な点, 好都合</span></a></li>
+        <li class="word-item"><a href="data/5631-right.html"><span class="word-id">5631</span><span class="word-name">right</span><span class="word-meaning">名詞：権利； 形容詞：正しい, 右の</span></a></li>
+        <li class="word-item"><a href="data/5632-privilege.html"><span class="word-id">5632</span><span class="word-name">privilege</span><span class="word-meaning">特権</span></a></li>
+        <li class="word-item"><a href="data/5633-entitle.html"><span class="word-id">5633</span><span class="word-name">entitle</span><span class="word-meaning">～に資格/権利を与える</span></a></li>
+        <li class="word-item"><a href="data/5634-qualify.html"><span class="word-id">5634</span><span class="word-name">qualify</span><span class="word-meaning">～に資格を与える</span></a></li>
+        <li class="word-item"><a href="data/5635-require.html"><span class="word-id">5635</span><span class="word-name">require</span><span class="word-meaning">～を要求する, 必要とする</span></a></li>
+        <li class="word-item"><a href="data/5636-call for.html"><span class="word-id">5636</span><span class="word-name">call for</span><span class="word-meaning">～を要求する, 必要とする</span></a></li>
+        <li class="word-item"><a href="data/5637-desire.html"><span class="word-id">5637</span><span class="word-name">desire</span><span class="word-meaning">名詞：欲望, 願望； 動詞：～を強く望む</span></a></li>
+        <li class="word-item"><a href="data/5638-demand.html"><span class="word-id">5638</span><span class="word-name">demand</span><span class="word-meaning">名詞：要求； 動詞：～を要求する</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5575.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
