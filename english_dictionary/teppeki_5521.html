@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#15	言語・文学 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #15	言語・文学
+    </div>
+    
+    <h2 class="section-title">#15	言語・文学</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5492.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5521-linguistic.html"><span class="word-id">5521</span><span class="word-name">linguistic</span><span class="word-meaning">言語の</span></a></li>
+        <li class="word-item"><a href="data/5522-literary.html"><span class="word-id">5522</span><span class="word-name">literary</span><span class="word-meaning">文学の</span></a></li>
+        <li class="word-item"><a href="data/5523-literal.html"><span class="word-id">5523</span><span class="word-name">literal</span><span class="word-meaning">文字通りの, 字義通りの</span></a></li>
+        <li class="word-item"><a href="data/5524-literate.html"><span class="word-id">5524</span><span class="word-name">literate</span><span class="word-meaning">読み書きができる, 教養のある</span></a></li>
+        <li class="word-item"><a href="data/5525-letter.html"><span class="word-id">5525</span><span class="word-name">letter</span><span class="word-meaning">手紙, 文字</span></a></li>
+        <li class="word-item"><a href="data/5526-dialogue.html"><span class="word-id">5526</span><span class="word-name">dialogue</span><span class="word-meaning">対話</span></a></li>
+        <li class="word-item"><a href="data/5527-monologue.html"><span class="word-id">5527</span><span class="word-name">monologue</span><span class="word-meaning">独白</span></a></li>
+        <li class="word-item"><a href="data/5528-logic.html"><span class="word-id">5528</span><span class="word-name">logic</span><span class="word-meaning">論理, 論理学</span></a></li>
+        <li class="word-item"><a href="data/5529-apology.html"><span class="word-id">5529</span><span class="word-name">apology</span><span class="word-meaning">謝罪</span></a></li>
+        <li class="word-item"><a href="data/5530-eloquent.html"><span class="word-id">5530</span><span class="word-name">eloquent</span><span class="word-meaning">雄弁な</span></a></li>
+        <li class="word-item"><a href="data/5531-biology.html"><span class="word-id">5531</span><span class="word-name">biology</span><span class="word-meaning">生物学</span></a></li>
+        <li class="word-item"><a href="data/5532-psychology.html"><span class="word-id">5532</span><span class="word-name">psychology</span><span class="word-meaning">心理学</span></a></li>
+        <li class="word-item"><a href="data/5533-analogy.html"><span class="word-id">5533</span><span class="word-name">analogy</span><span class="word-meaning">類推</span></a></li>
+        <li class="word-item"><a href="data/5534-verb.html"><span class="word-id">5534</span><span class="word-name">verb</span><span class="word-meaning">動詞</span></a></li>
+        <li class="word-item"><a href="data/5535-adjective.html"><span class="word-id">5535</span><span class="word-name">adjective</span><span class="word-meaning">形容詞</span></a></li>
+        <li class="word-item"><a href="data/5536-proverb.html"><span class="word-id">5536</span><span class="word-name">proverb</span><span class="word-meaning">ことわざ</span></a></li>
+        <li class="word-item"><a href="data/5537-oral.html"><span class="word-id">5537</span><span class="word-name">oral</span><span class="word-meaning">口頭の, 口の</span></a></li>
+        <li class="word-item"><a href="data/5538-utter.html"><span class="word-id">5538</span><span class="word-name">utter</span><span class="word-meaning">動詞：～(言葉)を発する； 形容詞：完全な, 全くの</span></a></li>
+        <li class="word-item"><a href="data/5539-refer.html"><span class="word-id">5539</span><span class="word-name">refer</span><span class="word-meaning">(～に)言及する； (を)参照する； (を)指す(to～)</span></a></li>
+        <li class="word-item"><a href="data/5540-consult.html"><span class="word-id">5540</span><span class="word-name">consult</span><span class="word-meaning">～に相談する； (辞書など)を参照する</span></a></li>
+        <li class="word-item"><a href="data/5541-look up.html"><span class="word-id">5541</span><span class="word-name">look up</span><span class="word-meaning">～(単語など)を調べる</span></a></li>
+        <li class="word-item"><a href="data/5542-mention.html"><span class="word-id">5542</span><span class="word-name">mention</span><span class="word-meaning">～に言及する, を口にする； 言及</span></a></li>
+        <li class="word-item"><a href="data/5543-imply.html"><span class="word-id">5543</span><span class="word-name">imply</span><span class="word-meaning">～を暗に意味する, 含意する</span></a></li>
+        <li class="word-item"><a href="data/5544-infer.html"><span class="word-id">5544</span><span class="word-name">infer</span><span class="word-meaning">～を推察する</span></a></li>
+        <li class="word-item"><a href="data/5545-interpret.html"><span class="word-id">5545</span><span class="word-name">interpret</span><span class="word-meaning">～を解釈する； 通訳する</span></a></li>
+        <li class="word-item"><a href="data/5546-describe.html"><span class="word-id">5546</span><span class="word-name">describe</span><span class="word-meaning">～を描写する, 説明する</span></a></li>
+        <li class="word-item"><a href="data/5547-subscribe.html"><span class="word-id">5547</span><span class="word-name">subscribe</span><span class="word-meaning">(～を)定期購読する(to～)</span></a></li>
+        <li class="word-item"><a href="data/5548-prescribe.html"><span class="word-id">5548</span><span class="word-name">prescribe</span><span class="word-meaning">～(薬)を処方する； 指示する</span></a></li>
+        <li class="word-item"><a href="data/5549-manuscript.html"><span class="word-id">5549</span><span class="word-name">manuscript</span><span class="word-meaning">原稿</span></a></li>
+        <li class="word-item"><a href="data/5550-criticize.html"><span class="word-id">5550</span><span class="word-name">criticize</span><span class="word-meaning">～を批判する</span></a></li>
+        <li class="word-item"><a href="data/5551-critical.html"><span class="word-id">5551</span><span class="word-name">critical</span><span class="word-meaning">決定的な, 批評の</span></a></li>
+        <li class="word-item"><a href="data/5552-crisis.html"><span class="word-id">5552</span><span class="word-name">crisis</span><span class="word-meaning">危機</span></a></li>
+        <li class="word-item"><a href="data/5553-opinion.html"><span class="word-id">5553</span><span class="word-name">opinion</span><span class="word-meaning">意見</span></a></li>
+        <li class="word-item"><a href="data/5554-remark.html"><span class="word-id">5554</span><span class="word-name">remark</span><span class="word-meaning">名詞：意見, 論評； 動詞：(意見を)述べる</span></a></li>
+        <li class="word-item"><a href="data/5555-comment.html"><span class="word-id">5555</span><span class="word-name">comment</span><span class="word-meaning">名詞：意見, 論評； 動詞：(意見を)述べる</span></a></li>
+        <li class="word-item"><a href="data/5556-prose.html"><span class="word-id">5556</span><span class="word-name">prose</span><span class="word-meaning">散文</span></a></li>
+        <li class="word-item"><a href="data/5557-verse.html"><span class="word-id">5557</span><span class="word-name">verse</span><span class="word-meaning">韻文, 詩</span></a></li>
+        <li class="word-item"><a href="data/5558-poetry.html"><span class="word-id">5558</span><span class="word-name">poetry</span><span class="word-meaning">詩</span></a></li>
+        <li class="word-item"><a href="data/5559-document.html"><span class="word-id">5559</span><span class="word-name">document</span><span class="word-meaning">文書, 書類</span></a></li>
+        <li class="word-item"><a href="data/5560-narrative.html"><span class="word-id">5560</span><span class="word-name">narrative</span><span class="word-meaning">名詞：語り, 物語； 形容詞：物語の</span></a></li>
+        <li class="word-item"><a href="data/5561-plot.html"><span class="word-id">5561</span><span class="word-name">plot</span><span class="word-meaning">筋書き； 策略、陰謀</span></a></li>
+        <li class="word-item"><a href="data/5562-quote.html"><span class="word-id">5562</span><span class="word-name">quote</span><span class="word-meaning">～を引用する</span></a></li>
+        <li class="word-item"><a href="data/5563-rhetoric.html"><span class="word-id">5563</span><span class="word-name">rhetoric</span><span class="word-meaning">修辞学, 美辞麗句</span></a></li>
+        <li class="word-item"><a href="data/5564-metaphor.html"><span class="word-id">5564</span><span class="word-name">metaphor</span><span class="word-meaning">比喩, 隠喩</span></a></li>
+        <li class="word-item"><a href="data/5565-irony.html"><span class="word-id">5565</span><span class="word-name">irony</span><span class="word-meaning">皮肉</span></a></li>
+        <li class="word-item"><a href="data/5566-paradox.html"><span class="word-id">5566</span><span class="word-name">paradox</span><span class="word-meaning">逆説, 矛盾</span></a></li>
+        <li class="word-item"><a href="data/5567-dialect.html"><span class="word-id">5567</span><span class="word-name">dialect</span><span class="word-meaning">方言</span></a></li>
+        <li class="word-item"><a href="data/5568-accent.html"><span class="word-id">5568</span><span class="word-name">accent</span><span class="word-meaning">訛り, 方言</span></a></li>
+        <li class="word-item"><a href="data/5569-pronounce.html"><span class="word-id">5569</span><span class="word-name">pronounce</span><span class="word-meaning">～を発音する</span></a></li>
+        <li class="word-item"><a href="data/5570-tongue.html"><span class="word-id">5570</span><span class="word-name">tongue</span><span class="word-meaning">舌, 言語, 言葉</span></a></li>
+        <li class="word-item"><a href="data/5571-text.html"><span class="word-id">5571</span><span class="word-name">text</span><span class="word-meaning">名詞：文章； メール； 動詞：メールを送る； ～にメールを送る</span></a></li>
+        <li class="word-item"><a href="data/5572-context.html"><span class="word-id">5572</span><span class="word-name">context</span><span class="word-meaning">文脈, 前後関係, 状況</span></a></li>
+        <li class="word-item"><a href="data/5573-grammar.html"><span class="word-id">5573</span><span class="word-name">grammar</span><span class="word-meaning">文法</span></a></li>
+        <li class="word-item"><a href="data/5574-vocabulary.html"><span class="word-id">5574</span><span class="word-name">vocabulary</span><span class="word-meaning">語彙, ボキャブラリー</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5492.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
