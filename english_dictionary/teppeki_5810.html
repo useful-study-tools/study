@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#22	数・量 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #22	数・量
+    </div>
+    
+    <h2 class="section-title">#22	数・量</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5771.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5810-unite.html"><span class="word-id">5810</span><span class="word-name">unite</span><span class="word-meaning">結びつける</span></a></li>
+        <li class="word-item"><a href="data/5811-unity.html"><span class="word-id">5811</span><span class="word-name">unity</span><span class="word-meaning">結束、統一</span></a></li>
+        <li class="word-item"><a href="data/5812-uniform.html"><span class="word-id">5812</span><span class="word-name">uniform</span><span class="word-meaning">一様な、均一の</span></a></li>
+        <li class="word-item"><a href="data/5813-universal.html"><span class="word-id">5813</span><span class="word-name">universal</span><span class="word-meaning">普遍的な</span></a></li>
+        <li class="word-item"><a href="data/5814-union.html"><span class="word-id">5814</span><span class="word-name">union</span><span class="word-meaning">組合</span></a></li>
+        <li class="word-item"><a href="data/5815-reunion.html"><span class="word-id">5815</span><span class="word-name">reunion</span><span class="word-meaning">再開、同窓会</span></a></li>
+        <li class="word-item"><a href="data/5816-sole.html"><span class="word-id">5816</span><span class="word-name">sole</span><span class="word-meaning">唯一の</span></a></li>
+        <li class="word-item"><a href="data/5817-solitude.html"><span class="word-id">5817</span><span class="word-name">solitude</span><span class="word-meaning">孤独</span></a></li>
+        <li class="word-item"><a href="data/5818-console.html"><span class="word-id">5818</span><span class="word-name">console</span><span class="word-meaning">慰める</span></a></li>
+        <li class="word-item"><a href="data/5819-monotonous.html"><span class="word-id">5819</span><span class="word-name">monotonous</span><span class="word-meaning">単調な</span></a></li>
+        <li class="word-item"><a href="data/5820-monopoly.html"><span class="word-id">5820</span><span class="word-name">monopoly</span><span class="word-meaning">独占、専売</span></a></li>
+        <li class="word-item"><a href="data/5821-combine.html"><span class="word-id">5821</span><span class="word-name">combine</span><span class="word-meaning">結合させる</span></a></li>
+        <li class="word-item"><a href="data/5822-dual.html"><span class="word-id">5822</span><span class="word-name">dual</span><span class="word-meaning">２つの、二重の</span></a></li>
+        <li class="word-item"><a href="data/5823-duplicate.html"><span class="word-id">5823</span><span class="word-name">duplicate</span><span class="word-meaning">複製する</span></a></li>
+        <li class="word-item"><a href="data/5824-numerous.html"><span class="word-id">5824</span><span class="word-name">numerous</span><span class="word-meaning">無数の</span></a></li>
+        <li class="word-item"><a href="data/5825-innumerable.html"><span class="word-id">5825</span><span class="word-name">innumerable</span><span class="word-meaning">無数の</span></a></li>
+        <li class="word-item"><a href="data/5826-infinite.html"><span class="word-id">5826</span><span class="word-name">infinite</span><span class="word-meaning">無限の</span></a></li>
+        <li class="word-item"><a href="data/5827-quantity.html"><span class="word-id">5827</span><span class="word-name">quantity</span><span class="word-meaning">量</span></a></li>
+        <li class="word-item"><a href="data/5828-quality.html"><span class="word-id">5828</span><span class="word-name">quality</span><span class="word-meaning">質、品質、性質</span></a></li>
+        <li class="word-item"><a href="data/5829-volume.html"><span class="word-id">5829</span><span class="word-name">volume</span><span class="word-meaning">容積、量、かさ； (大型の)本、(本の)１巻； 多量の、かさばった</span></a></li>
+        <li class="word-item"><a href="data/5830-amount.html"><span class="word-id">5830</span><span class="word-name">amount</span><span class="word-meaning">量、総計、総額； ～に達する、結局～になる(to)</span></a></li>
+        <li class="word-item"><a href="data/5831-sum.html"><span class="word-id">5831</span><span class="word-name">sum</span><span class="word-meaning">合計、要約する</span></a></li>
+        <li class="word-item"><a href="data/5832-total.html"><span class="word-id">5832</span><span class="word-name">total</span><span class="word-meaning">完全な； 合計の：合計</span></a></li>
+        <li class="word-item"><a href="data/5833-vast.html"><span class="word-id">5833</span><span class="word-name">vast</span><span class="word-meaning">莫大な、広大な</span></a></li>
+        <li class="word-item"><a href="data/5834-huge.html"><span class="word-id">5834</span><span class="word-name">huge</span><span class="word-meaning">巨大な、でっかい</span></a></li>
+        <li class="word-item"><a href="data/5835-enormous.html"><span class="word-id">5835</span><span class="word-name">enormous</span><span class="word-meaning">非常に大きい、莫大な</span></a></li>
+        <li class="word-item"><a href="data/5836-immense.html"><span class="word-id">5836</span><span class="word-name">immense</span><span class="word-meaning">巨大な、膨大な</span></a></li>
+        <li class="word-item"><a href="data/5837-abundant.html"><span class="word-id">5837</span><span class="word-name">abundant</span><span class="word-meaning">豊富な</span></a></li>
+        <li class="word-item"><a href="data/5838-ample.html"><span class="word-id">5838</span><span class="word-name">ample</span><span class="word-meaning">十分な、たっぷりの</span></a></li>
+        <li class="word-item"><a href="data/5839-affluent.html"><span class="word-id">5839</span><span class="word-name">affluent</span><span class="word-meaning">富裕な</span></a></li>
+        <li class="word-item"><a href="data/5840-sufficient.html"><span class="word-id">5840</span><span class="word-name">sufficient</span><span class="word-meaning">十分な</span></a></li>
+        <li class="word-item"><a href="data/5841-adequate.html"><span class="word-id">5841</span><span class="word-name">adequate</span><span class="word-meaning">十分な</span></a></li>
+        <li class="word-item"><a href="data/5842-major.html"><span class="word-id">5842</span><span class="word-name">major</span><span class="word-meaning">主要な、専攻する</span></a></li>
+        <li class="word-item"><a href="data/5843-minor.html"><span class="word-id">5843</span><span class="word-name">minor</span><span class="word-meaning">重要でない、小さい； 年少の</span></a></li>
+        <li class="word-item"><a href="data/5844-maximum.html"><span class="word-id">5844</span><span class="word-name">maximum</span><span class="word-meaning">最大</span></a></li>
+        <li class="word-item"><a href="data/5845-minimum.html"><span class="word-id">5845</span><span class="word-name">minimum</span><span class="word-meaning">最小</span></a></li>
+        <li class="word-item"><a href="data/5846-magnificent.html"><span class="word-id">5846</span><span class="word-name">magnificent</span><span class="word-meaning">壮大な</span></a></li>
+        <li class="word-item"><a href="data/5847-diminish.html"><span class="word-id">5847</span><span class="word-name">diminish</span><span class="word-meaning">減らす、小さくする</span></a></li>
+        <li class="word-item"><a href="data/5848-utmost.html"><span class="word-id">5848</span><span class="word-name">utmost</span><span class="word-meaning">最大の</span></a></li>
+        <li class="word-item"><a href="data/5849-increase.html"><span class="word-id">5849</span><span class="word-name">increase</span><span class="word-meaning">増える； ～を増やす； 増加</span></a></li>
+        <li class="word-item"><a href="data/5850-decrease.html"><span class="word-id">5850</span><span class="word-name">decrease</span><span class="word-meaning">減る； 減らす； 減少</span></a></li>
+        <li class="word-item"><a href="data/5851-reduce.html"><span class="word-id">5851</span><span class="word-name">reduce</span><span class="word-meaning">～を減らす、削減する</span></a></li>
+        <li class="word-item"><a href="data/5852-accumulate.html"><span class="word-id">5852</span><span class="word-name">accumulate</span><span class="word-meaning">蓄積する</span></a></li>
+        <li class="word-item"><a href="data/5853-add.html"><span class="word-id">5853</span><span class="word-name">add</span><span class="word-meaning">加える</span></a></li>
+        <li class="word-item"><a href="data/5854-subtract.html"><span class="word-id">5854</span><span class="word-name">subtract</span><span class="word-meaning">引く</span></a></li>
+        <li class="word-item"><a href="data/5855-multiply.html"><span class="word-id">5855</span><span class="word-name">multiply</span><span class="word-meaning">掛ける</span></a></li>
+        <li class="word-item"><a href="data/5856-multitude.html"><span class="word-id">5856</span><span class="word-name">multitude</span><span class="word-meaning">多数</span></a></li>
+        <li class="word-item"><a href="data/5857-calculate.html"><span class="word-id">5857</span><span class="word-name">calculate</span><span class="word-meaning">計算する</span></a></li>
+        <li class="word-item"><a href="data/5858-average.html"><span class="word-id">5858</span><span class="word-name">average</span><span class="word-meaning">平均の、普通の； 平均</span></a></li>
+        <li class="word-item"><a href="data/5859-altogether.html"><span class="word-id">5859</span><span class="word-name">altogether</span><span class="word-meaning">全部で； 全く、完全に</span></a></li>
+        <li class="word-item"><a href="data/5860-overall.html"><span class="word-id">5860</span><span class="word-name">overall</span><span class="word-meaning">全体の、全般の； 概して</span></a></li>
+        <li class="word-item"><a href="data/5861-approximately.html"><span class="word-id">5861</span><span class="word-name">approximately</span><span class="word-meaning">おおよそ</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5771.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
