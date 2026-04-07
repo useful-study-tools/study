@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#23	思考・認識・知 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #23	思考・認識・知
+    </div>
+    
+    <h2 class="section-title">#23	思考・認識・知</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5810.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5862-rational.html"><span class="word-id">5862</span><span class="word-name">rational</span><span class="word-meaning">合理的な</span></a></li>
+        <li class="word-item"><a href="data/5863-reason.html"><span class="word-id">5863</span><span class="word-name">reason</span><span class="word-meaning">理由、根拠； 理性； 論理的に考える</span></a></li>
+        <li class="word-item"><a href="data/5864-beast.html"><span class="word-id">5864</span><span class="word-name">beast</span><span class="word-meaning">獣、動物</span></a></li>
+        <li class="word-item"><a href="data/5865-brute.html"><span class="word-id">5865</span><span class="word-name">brute</span><span class="word-meaning">獣、動物</span></a></li>
+        <li class="word-item"><a href="data/5866-notion.html"><span class="word-id">5866</span><span class="word-name">notion</span><span class="word-meaning">概念、観念</span></a></li>
+        <li class="word-item"><a href="data/5867-abstract.html"><span class="word-id">5867</span><span class="word-name">abstract</span><span class="word-meaning">抽象的な</span></a></li>
+        <li class="word-item"><a href="data/5868-concrete.html"><span class="word-id">5868</span><span class="word-name">concrete</span><span class="word-meaning">具体的な</span></a></li>
+        <li class="word-item"><a href="data/5869-stereotype.html"><span class="word-id">5869</span><span class="word-name">stereotype</span><span class="word-meaning">固定観念、ステレオタイプ</span></a></li>
+        <li class="word-item"><a href="data/5870-prejudice.html"><span class="word-id">5870</span><span class="word-name">prejudice</span><span class="word-meaning">先入観、偏見</span></a></li>
+        <li class="word-item"><a href="data/5871-bias.html"><span class="word-id">5871</span><span class="word-name">bias</span><span class="word-meaning">偏見</span></a></li>
+        <li class="word-item"><a href="data/5872-view.html"><span class="word-id">5872</span><span class="word-name">view</span><span class="word-meaning">眺め、景色； 意見； みなす、考える</span></a></li>
+        <li class="word-item"><a href="data/5873-review.html"><span class="word-id">5873</span><span class="word-name">review</span><span class="word-meaning">見直す、批評</span></a></li>
+        <li class="word-item"><a href="data/5874-viewpoint.html"><span class="word-id">5874</span><span class="word-name">viewpoint</span><span class="word-meaning">観点、見地</span></a></li>
+        <li class="word-item"><a href="data/5875-standpoint.html"><span class="word-id">5875</span><span class="word-name">standpoint</span><span class="word-meaning">立場、観点</span></a></li>
+        <li class="word-item"><a href="data/5876-outlook.html"><span class="word-id">5876</span><span class="word-name">outlook</span><span class="word-meaning">見解、見方、見通し</span></a></li>
+        <li class="word-item"><a href="data/5877-optimistic.html"><span class="word-id">5877</span><span class="word-name">optimistic</span><span class="word-meaning">楽観的な</span></a></li>
+        <li class="word-item"><a href="data/5878-pessimistic.html"><span class="word-id">5878</span><span class="word-name">pessimistic</span><span class="word-meaning">悲観的な</span></a></li>
+        <li class="word-item"><a href="data/5879-aware.html"><span class="word-id">5879</span><span class="word-name">aware</span><span class="word-meaning">意識している</span></a></li>
+        <li class="word-item"><a href="data/5880-alert.html"><span class="word-id">5880</span><span class="word-name">alert</span><span class="word-meaning">警戒している； 警報</span></a></li>
+        <li class="word-item"><a href="data/5881-conscious.html"><span class="word-id">5881</span><span class="word-name">conscious</span><span class="word-meaning">意識している</span></a></li>
+        <li class="word-item"><a href="data/5882-conscience.html"><span class="word-id">5882</span><span class="word-name">conscience</span><span class="word-meaning">良心、善悪の判断力</span></a></li>
+        <li class="word-item"><a href="data/5883-recognize.html"><span class="word-id">5883</span><span class="word-name">recognize</span><span class="word-meaning">識別する、それと分かる； 認める</span></a></li>
+        <li class="word-item"><a href="data/5884-cognition.html"><span class="word-id">5884</span><span class="word-name">cognition</span><span class="word-meaning">認識</span></a></li>
+        <li class="word-item"><a href="data/5885-knowledge.html"><span class="word-id">5885</span><span class="word-name">knowledge</span><span class="word-meaning">知識</span></a></li>
+        <li class="word-item"><a href="data/5886-acknowledge.html"><span class="word-id">5886</span><span class="word-name">acknowledge</span><span class="word-meaning">認める</span></a></li>
+        <li class="word-item"><a href="data/5887-identify.html"><span class="word-id">5887</span><span class="word-name">identify</span><span class="word-meaning">身元を特定する、同一視する</span></a></li>
+        <li class="word-item"><a href="data/5888-intellect.html"><span class="word-id">5888</span><span class="word-name">intellect</span><span class="word-meaning">知性</span></a></li>
+        <li class="word-item"><a href="data/5889-intelligence.html"><span class="word-id">5889</span><span class="word-name">intelligence</span><span class="word-meaning">知性； 諜報</span></a></li>
+        <li class="word-item"><a href="data/5890-intelligible.html"><span class="word-id">5890</span><span class="word-name">intelligible</span><span class="word-meaning">理解可能な、判読可能な</span></a></li>
+        <li class="word-item"><a href="data/5891-wisdom.html"><span class="word-id">5891</span><span class="word-name">wisdom</span><span class="word-meaning">賢明さ、知恵</span></a></li>
+        <li class="word-item"><a href="data/5892-bright.html"><span class="word-id">5892</span><span class="word-name">bright</span><span class="word-meaning">明るい、頭のいい</span></a></li>
+        <li class="word-item"><a href="data/5893-brilliant.html"><span class="word-id">5893</span><span class="word-name">brilliant</span><span class="word-meaning">頭のいい、輝かしい</span></a></li>
+        <li class="word-item"><a href="data/5894-smart.html"><span class="word-id">5894</span><span class="word-name">smart</span><span class="word-meaning">利口な</span></a></li>
+        <li class="word-item"><a href="data/5895-wit.html"><span class="word-id">5895</span><span class="word-name">wit</span><span class="word-meaning">機転、知力</span></a></li>
+        <li class="word-item"><a href="data/5896-insight.html"><span class="word-id">5896</span><span class="word-name">insight</span><span class="word-meaning">洞察力</span></a></li>
+        <li class="word-item"><a href="data/5897-philosophy.html"><span class="word-id">5897</span><span class="word-name">philosophy</span><span class="word-meaning">哲学、考え方</span></a></li>
+        <li class="word-item"><a href="data/5898-comprehend.html"><span class="word-id">5898</span><span class="word-name">comprehend</span><span class="word-meaning">理解する、含む</span></a></li>
+        <li class="word-item"><a href="data/5899-consider.html"><span class="word-id">5899</span><span class="word-name">consider</span><span class="word-meaning">考慮する； みなす</span></a></li>
+        <li class="word-item"><a href="data/5900-contemplation.html"><span class="word-id">5900</span><span class="word-name">contemplation</span><span class="word-meaning">熟考、沈思</span></a></li>
+        <li class="word-item"><a href="data/5901-meditate.html"><span class="word-id">5901</span><span class="word-name">meditate</span><span class="word-meaning">瞑想する、深く考える</span></a></li>
+        <li class="word-item"><a href="data/5902-recollect.html"><span class="word-id">5902</span><span class="word-name">recollect</span><span class="word-meaning">思い出す</span></a></li>
+        <li class="word-item"><a href="data/5903-recall.html"><span class="word-id">5903</span><span class="word-name">recall</span><span class="word-meaning">思い出す</span></a></li>
+        <li class="word-item"><a href="data/5904-inform.html"><span class="word-id">5904</span><span class="word-name">inform</span><span class="word-meaning">知らせる</span></a></li>
+        <li class="word-item"><a href="data/5905-remind.html"><span class="word-id">5905</span><span class="word-name">remind</span><span class="word-meaning">思い出させる(of, that)</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5810.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
