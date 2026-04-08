@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#31	自然・環境 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #31	自然・環境
+    </div>
+    
+    <h2 class="section-title">#31	自然・環境</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6192.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6238-environment.html"><span class="word-id">6238</span><span class="word-name">environment</span><span class="word-meaning">環境</span></a></li>
+        <li class="word-item"><a href="data/6239-species.html"><span class="word-id">6239</span><span class="word-name">species</span><span class="word-meaning">(生物の)種； 人類</span></a></li>
+        <li class="word-item"><a href="data/6240-evolve.html"><span class="word-id">6240</span><span class="word-name">evolve</span><span class="word-meaning">進化する、発展する</span></a></li>
+        <li class="word-item"><a href="data/6241-ecology.html"><span class="word-id">6241</span><span class="word-name">ecology</span><span class="word-meaning">生態(系)、自然環境、環境保護</span></a></li>
+        <li class="word-item"><a href="data/6242-nature.html"><span class="word-id">6242</span><span class="word-name">nature</span><span class="word-meaning">自然； 本質； 性質</span></a></li>
+        <li class="word-item"><a href="data/6243-inherent.html"><span class="word-id">6243</span><span class="word-name">inherent</span><span class="word-meaning">(～に)本来備わっている(in～)</span></a></li>
+        <li class="word-item"><a href="data/6244-artificial.html"><span class="word-id">6244</span><span class="word-name">artificial</span><span class="word-meaning">人工の</span></a></li>
+        <li class="word-item"><a href="data/6245-preserve.html"><span class="word-id">6245</span><span class="word-name">preserve</span><span class="word-meaning">～を保護する、保存する</span></a></li>
+        <li class="word-item"><a href="data/6246-develop.html"><span class="word-id">6246</span><span class="word-name">develop</span><span class="word-meaning">～を発達する、開発する； 発症する； 発達する、発育する</span></a></li>
+        <li class="word-item"><a href="data/6247-sustain.html"><span class="word-id">6247</span><span class="word-name">sustain</span><span class="word-meaning">～を支える、維持する</span></a></li>
+        <li class="word-item"><a href="data/6248-atmosphere.html"><span class="word-id">6248</span><span class="word-name">atmosphere</span><span class="word-meaning">大気； 雰囲気</span></a></li>
+        <li class="word-item"><a href="data/6249-pollute.html"><span class="word-id">6249</span><span class="word-name">pollute</span><span class="word-meaning">～を汚染する</span></a></li>
+        <li class="word-item"><a href="data/6250-waste.html"><span class="word-id">6250</span><span class="word-name">waste</span><span class="word-meaning">無駄、浪費； 廃棄 ～を浪費する</span></a></li>
+        <li class="word-item"><a href="data/6251-garbage.html"><span class="word-id">6251</span><span class="word-name">garbage</span><span class="word-meaning">ゴミ</span></a></li>
+        <li class="word-item"><a href="data/6252-trash.html"><span class="word-id">6252</span><span class="word-name">trash</span><span class="word-meaning">ゴミ； ～を捨てる</span></a></li>
+        <li class="word-item"><a href="data/6253-rubbish.html"><span class="word-id">6253</span><span class="word-name">rubbish</span><span class="word-meaning">ゴミ、くだらないこと</span></a></li>
+        <li class="word-item"><a href="data/6254-litter.html"><span class="word-id">6254</span><span class="word-name">litter</span><span class="word-meaning">散らかす、ゴミ</span></a></li>
+        <li class="word-item"><a href="data/6255-landscape.html"><span class="word-id">6255</span><span class="word-name">landscape</span><span class="word-meaning">風景</span></a></li>
+        <li class="word-item"><a href="data/6256-resource.html"><span class="word-id">6256</span><span class="word-name">resource</span><span class="word-meaning">資源、財源</span></a></li>
+        <li class="word-item"><a href="data/6257-fossil.html"><span class="word-id">6257</span><span class="word-name">fossil</span><span class="word-meaning">化石</span></a></li>
+        <li class="word-item"><a href="data/6258-fuel.html"><span class="word-id">6258</span><span class="word-name">fuel</span><span class="word-meaning">燃料</span></a></li>
+        <li class="word-item"><a href="data/6259-petroleum.html"><span class="word-id">6259</span><span class="word-name">petroleum</span><span class="word-meaning">石油</span></a></li>
+        <li class="word-item"><a href="data/6260-exhaust.html"><span class="word-id">6260</span><span class="word-name">exhaust</span><span class="word-meaning">～を使い果たす、疲れさせる</span></a></li>
+        <li class="word-item"><a href="data/6261-global warming.html"><span class="word-id">6261</span><span class="word-name">global warming</span><span class="word-meaning">地球温暖化</span></a></li>
+        <li class="word-item"><a href="data/6262-greenhouse effect.html"><span class="word-id">6262</span><span class="word-name">greenhouse effect</span><span class="word-meaning">温室効果</span></a></li>
+        <li class="word-item"><a href="data/6263-carbon dioxide.html"><span class="word-id">6263</span><span class="word-name">carbon dioxide</span><span class="word-meaning">二酸化炭素</span></a></li>
+        <li class="word-item"><a href="data/6264-tropical rain forest.html"><span class="word-id">6264</span><span class="word-name">tropical rain forest</span><span class="word-meaning">熱帯雨林</span></a></li>
+        <li class="word-item"><a href="data/6265-acid rain.html"><span class="word-id">6265</span><span class="word-name">acid rain</span><span class="word-meaning">酸性雨</span></a></li>
+        <li class="word-item"><a href="data/6266-ozone layer.html"><span class="word-id">6266</span><span class="word-name">ozone layer</span><span class="word-meaning">オゾン層</span></a></li>
+        <li class="word-item"><a href="data/6267-climate.html"><span class="word-id">6267</span><span class="word-name">climate</span><span class="word-meaning">気候</span></a></li>
+        <li class="word-item"><a href="data/6268-temperature.html"><span class="word-id">6268</span><span class="word-name">temperature</span><span class="word-meaning">温度、気温</span></a></li>
+        <li class="word-item"><a href="data/6269-humid.html"><span class="word-id">6269</span><span class="word-name">humid</span><span class="word-meaning">湿った</span></a></li>
+        <li class="word-item"><a href="data/6270-moist.html"><span class="word-id">6270</span><span class="word-name">moist</span><span class="word-meaning">湿った</span></a></li>
+        <li class="word-item"><a href="data/6271-phenomenon.html"><span class="word-id">6271</span><span class="word-name">phenomenon</span><span class="word-meaning">現象</span></a></li>
+        <li class="word-item"><a href="data/6272-drought.html"><span class="word-id">6272</span><span class="word-name">drought</span><span class="word-meaning">干ばつ</span></a></li>
+        <li class="word-item"><a href="data/6273-disaster.html"><span class="word-id">6273</span><span class="word-name">disaster</span><span class="word-meaning">災害、惨事</span></a></li>
+        <li class="word-item"><a href="data/6274-hemisphere.html"><span class="word-id">6274</span><span class="word-name">hemisphere</span><span class="word-meaning">半球</span></a></li>
+        <li class="word-item"><a href="data/6275-continent.html"><span class="word-id">6275</span><span class="word-name">continent</span><span class="word-meaning">大陸</span></a></li>
+        <li class="word-item"><a href="data/6276-Arctic.html"><span class="word-id">6276</span><span class="word-name">Arctic</span><span class="word-meaning">北極地方</span></a></li>
+        <li class="word-item"><a href="data/6277-pole.html"><span class="word-id">6277</span><span class="word-name">pole</span><span class="word-meaning">極</span></a></li>
+        <li class="word-item"><a href="data/6278-latitude.html"><span class="word-id">6278</span><span class="word-name">latitude</span><span class="word-meaning">緯度</span></a></li>
+        <li class="word-item"><a href="data/6279-longitude.html"><span class="word-id">6279</span><span class="word-name">longitude</span><span class="word-meaning">経度</span></a></li>
+        <li class="word-item"><a href="data/6280-altitude.html"><span class="word-id">6280</span><span class="word-name">altitude</span><span class="word-meaning">高度</span></a></li>
+        <li class="word-item"><a href="data/6281-equator.html"><span class="word-id">6281</span><span class="word-name">equator</span><span class="word-meaning">赤道</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6192.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
