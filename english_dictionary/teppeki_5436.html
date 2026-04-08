@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#13	基本単語の確認 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #13	基本単語の確認
+    </div>
+    
+    <h2 class="section-title">#13	基本単語の確認</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5410.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_5492.html" class="nav-btn">次の章 →</a>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/5436-enter.html"><span class="word-id">5436</span><span class="word-name">enter</span><span class="word-meaning">～に入る</span></a></li>
+        <li class="word-item"><a href="data/5437-receive.html"><span class="word-id">5437</span><span class="word-name">receive</span><span class="word-meaning">～を受け取る</span></a></li>
+        <li class="word-item"><a href="data/5438-accept.html"><span class="word-id">5438</span><span class="word-name">accept</span><span class="word-meaning">～を受け入れる</span></a></li>
+        <li class="word-item"><a href="data/5439-refuse.html"><span class="word-id">5439</span><span class="word-name">refuse</span><span class="word-meaning">～を拒否する； ～しようとしない(to do)</span></a></li>
+        <li class="word-item"><a href="data/5440-reject.html"><span class="word-id">5440</span><span class="word-name">reject</span><span class="word-meaning">～を拒絶する, はねつける</span></a></li>
+        <li class="word-item"><a href="data/5441-deny.html"><span class="word-id">5441</span><span class="word-name">deny</span><span class="word-meaning">～を否定する</span></a></li>
+        <li class="word-item"><a href="data/5442-appear.html"><span class="word-id">5442</span><span class="word-name">appear</span><span class="word-meaning">現れる, のように見える</span></a></li>
+        <li class="word-item"><a href="data/5443-exist.html"><span class="word-id">5443</span><span class="word-name">exist</span><span class="word-meaning">存在する, 生存する</span></a></li>
+        <li class="word-item"><a href="data/5444-expect.html"><span class="word-id">5444</span><span class="word-name">expect</span><span class="word-meaning">～を予想する； 期待する</span></a></li>
+        <li class="word-item"><a href="data/5445-except.html"><span class="word-id">5445</span><span class="word-name">except</span><span class="word-meaning">～を除いて, 以外は</span></a></li>
+        <li class="word-item"><a href="data/5446-improve.html"><span class="word-id">5446</span><span class="word-name">improve</span><span class="word-meaning">～を改良する, 改善する； 改善する, 良くなる</span></a></li>
+        <li class="word-item"><a href="data/5447-solve.html"><span class="word-id">5447</span><span class="word-name">solve</span><span class="word-meaning">～を解く, 解決する</span></a></li>
+        <li class="word-item"><a href="data/5448-suppose.html"><span class="word-id">5448</span><span class="word-name">suppose</span><span class="word-meaning">(…だと)思う(that…)； ～を想定する</span></a></li>
+        <li class="word-item"><a href="data/5449-suggest.html"><span class="word-id">5449</span><span class="word-name">suggest</span><span class="word-meaning">～を提案する； (…ということを)暗に示す(that…)</span></a></li>
+        <li class="word-item"><a href="data/5450-propose.html"><span class="word-id">5450</span><span class="word-name">propose</span><span class="word-meaning">～を提案する</span></a></li>
+        <li class="word-item"><a href="data/5451-pretend.html"><span class="word-id">5451</span><span class="word-name">pretend</span><span class="word-meaning">(～する)ふりをする(to do)</span></a></li>
+        <li class="word-item"><a href="data/5452-doubt.html"><span class="word-id">5452</span><span class="word-name">doubt</span><span class="word-meaning">疑い、～を疑う</span></a></li>
+        <li class="word-item"><a href="data/5453-belong.html"><span class="word-id">5453</span><span class="word-name">belong</span><span class="word-meaning">(～に)属する, (～の)所有である(to～)</span></a></li>
+        <li class="word-item"><a href="data/5454-fail.html"><span class="word-id">5454</span><span class="word-name">fail</span><span class="word-meaning">(～に)失敗する(in～)； (～)しない, できない(to do)</span></a></li>
+        <li class="word-item"><a href="data/5455-enable.html"><span class="word-id">5455</span><span class="word-name">enable</span><span class="word-meaning">～に(…するのを)可能にさせる(to do)</span></a></li>
+        <li class="word-item"><a href="data/5456-prefer.html"><span class="word-id">5456</span><span class="word-name">prefer</span><span class="word-meaning">～をより好む</span></a></li>
+        <li class="word-item"><a href="data/5457-marry.html"><span class="word-id">5457</span><span class="word-name">marry</span><span class="word-meaning">～と結婚する</span></a></li>
+        <li class="word-item"><a href="data/5458-regret.html"><span class="word-id">5458</span><span class="word-name">regret</span><span class="word-meaning">～を後悔する</span></a></li>
+        <li class="word-item"><a href="data/5459-satisfy.html"><span class="word-id">5459</span><span class="word-name">satisfy</span><span class="word-meaning">～を満足させる</span></a></li>
+        <li class="word-item"><a href="data/5460-disappoint.html"><span class="word-id">5460</span><span class="word-name">disappoint</span><span class="word-meaning">～をがっかりさせる</span></a></li>
+        <li class="word-item"><a href="data/5461-bore.html"><span class="word-id">5461</span><span class="word-name">bore</span><span class="word-meaning">～を退屈させる</span></a></li>
+        <li class="word-item"><a href="data/5462-amaze.html"><span class="word-id">5462</span><span class="word-name">amaze</span><span class="word-meaning">～をびっくりさせる</span></a></li>
+        <li class="word-item"><a href="data/5463-astonish.html"><span class="word-id">5463</span><span class="word-name">astonish</span><span class="word-meaning">～をびっくりさせる</span></a></li>
+        <li class="word-item"><a href="data/5464-frighten.html"><span class="word-id">5464</span><span class="word-name">frighten</span><span class="word-meaning">～を怖がらせる, おびえさせる</span></a></li>
+        <li class="word-item"><a href="data/5465-scare.html"><span class="word-id">5465</span><span class="word-name">scare</span><span class="word-meaning">～を怖がらせる</span></a></li>
+        <li class="word-item"><a href="data/5466-cause.html"><span class="word-id">5466</span><span class="word-name">cause</span><span class="word-meaning">名詞：原因； 動詞：～を引き起こす</span></a></li>
+        <li class="word-item"><a href="data/5467-factor.html"><span class="word-id">5467</span><span class="word-name">factor</span><span class="word-meaning">要因, 要素</span></a></li>
+        <li class="word-item"><a href="data/5468-result.html"><span class="word-id">5468</span><span class="word-name">result</span><span class="word-meaning">名詞：結果； 動詞：結果として生ずる</span></a></li>
+        <li class="word-item"><a href="data/5469-lead.html"><span class="word-id">5469</span><span class="word-name">lead</span><span class="word-meaning">動詞：～を(…へ)導く(to…)； (～を)引き起こす(to～)； 名詞：先頭, リード</span></a></li>
+        <li class="word-item"><a href="data/5470-favor.html"><span class="word-id">5470</span><span class="word-name">favor</span><span class="word-meaning">名詞：好意, 親切な行為； 動詞：～を好む</span></a></li>
+        <li class="word-item"><a href="data/5471-harm.html"><span class="word-id">5471</span><span class="word-name">harm</span><span class="word-meaning">名詞：害, 損害； 動詞：～を害する</span></a></li>
+        <li class="word-item"><a href="data/5472-risk.html"><span class="word-id">5472</span><span class="word-name">risk</span><span class="word-meaning">名詞：危険, リスク； 動詞：～を危険にさらす</span></a></li>
+        <li class="word-item"><a href="data/5473-board.html"><span class="word-id">5473</span><span class="word-name">board</span><span class="word-meaning">名詞：板, 委員会； 動詞：～(乗り物)に搭乗する</span></a></li>
+        <li class="word-item"><a href="data/5474-rise.html"><span class="word-id">5474</span><span class="word-name">rise</span><span class="word-meaning">上がる, 増える； 上昇</span></a></li>
+        <li class="word-item"><a href="data/5475-raise.html"><span class="word-id">5475</span><span class="word-name">raise</span><span class="word-meaning">～を上げる； 増やす, ～(子供・家畜)を育てる</span></a></li>
+        <li class="word-item"><a href="data/5476-lie.html"><span class="word-id">5476</span><span class="word-name">lie</span><span class="word-meaning">動詞：横たわる； 存在する； 名詞：嘘</span></a></li>
+        <li class="word-item"><a href="data/5477-lay.html"><span class="word-id">5477</span><span class="word-name">lay</span><span class="word-meaning">～を横たえる； 置く</span></a></li>
+        <li class="word-item"><a href="data/5478-exhibit.html"><span class="word-id">5478</span><span class="word-name">exhibit</span><span class="word-meaning">動詞：～を展示する, 示す； 名詞：展示品</span></a></li>
+        <li class="word-item"><a href="data/5479-convenient.html"><span class="word-id">5479</span><span class="word-name">convenient</span><span class="word-meaning">便利な； 都合のよい</span></a></li>
+        <li class="word-item"><a href="data/5480-comfort.html"><span class="word-id">5480</span><span class="word-name">comfort</span><span class="word-meaning">名詞：快適さ； 動詞：～を慰める, 元気づける</span></a></li>
+        <li class="word-item"><a href="data/5481-correct.html"><span class="word-id">5481</span><span class="word-name">correct</span><span class="word-meaning">形容詞：正しい； 動詞：～(誤り・欠点)を訂正する, 正す</span></a></li>
+        <li class="word-item"><a href="data/5482-salary.html"><span class="word-id">5482</span><span class="word-name">salary</span><span class="word-meaning">給料</span></a></li>
+        <li class="word-item"><a href="data/5483-reputation.html"><span class="word-id">5483</span><span class="word-name">reputation</span><span class="word-meaning">評判, うわさ</span></a></li>
+        <li class="word-item"><a href="data/5484-rumor.html"><span class="word-id">5484</span><span class="word-name">rumor</span><span class="word-meaning">うわさ, 風説</span></a></li>
+        <li class="word-item"><a href="data/5485-duty.html"><span class="word-id">5485</span><span class="word-name">duty</span><span class="word-meaning">義務</span></a></li>
+        <li class="word-item"><a href="data/5486-opportunity.html"><span class="word-id">5486</span><span class="word-name">opportunity</span><span class="word-meaning">機会</span></a></li>
+        <li class="word-item"><a href="data/5487-idle.html"><span class="word-id">5487</span><span class="word-name">idle</span><span class="word-meaning">形容詞：何もしていない； 無用の； 動詞：何もしないでいる</span></a></li>
+        <li class="word-item"><a href="data/5488-calm.html"><span class="word-id">5488</span><span class="word-name">calm</span><span class="word-meaning">形容詞：冷静な, 落ち着いた； 動詞：～を落ち着かせる</span></a></li>
+        <li class="word-item"><a href="data/5489-curious.html"><span class="word-id">5489</span><span class="word-name">curious</span><span class="word-meaning">好奇心のある； 好奇心をそそる, 奇妙な</span></a></li>
+        <li class="word-item"><a href="data/5490-cruel.html"><span class="word-id">5490</span><span class="word-name">cruel</span><span class="word-meaning">残酷な</span></a></li>
+        <li class="word-item"><a href="data/5491-official.html"><span class="word-id">5491</span><span class="word-name">official</span><span class="word-meaning">形容詞：公式の； 名詞：公務員, 役人</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5410.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_5492.html" class="nav-btn">次の章 →</a>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
