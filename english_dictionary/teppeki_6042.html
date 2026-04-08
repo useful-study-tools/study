@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#27	政治 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #27	政治
+    </div>
+    
+    <h2 class="section-title">#27	政治</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6000.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6042-politics.html"><span class="word-id">6042</span><span class="word-name">politics</span><span class="word-meaning">政治、政治学</span></a></li>
+        <li class="word-item"><a href="data/6043-principle.html"><span class="word-id">6043</span><span class="word-name">principle</span><span class="word-meaning">主義、原理、信条</span></a></li>
+        <li class="word-item"><a href="data/6044-conserve.html"><span class="word-id">6044</span><span class="word-name">conserve</span><span class="word-meaning">～を保存する、守る</span></a></li>
+        <li class="word-item"><a href="data/6045-progress.html"><span class="word-id">6045</span><span class="word-name">progress</span><span class="word-meaning">進歩 進歩する</span></a></li>
+        <li class="word-item"><a href="data/6046-radical.html"><span class="word-id">6046</span><span class="word-name">radical</span><span class="word-meaning">徹底的な、根本的な； 急進的な、過激な</span></a></li>
+        <li class="word-item"><a href="data/6047-reform.html"><span class="word-id">6047</span><span class="word-name">reform</span><span class="word-meaning">改革</span></a></li>
+        <li class="word-item"><a href="data/6048-regime.html"><span class="word-id">6048</span><span class="word-name">regime</span><span class="word-meaning">政治体制</span></a></li>
+        <li class="word-item"><a href="data/6049-democracy.html"><span class="word-id">6049</span><span class="word-name">democracy</span><span class="word-meaning">民主主義</span></a></li>
+        <li class="word-item"><a href="data/6050-republic.html"><span class="word-id">6050</span><span class="word-name">republic</span><span class="word-meaning">共和国</span></a></li>
+        <li class="word-item"><a href="data/6051-monarchy.html"><span class="word-id">6051</span><span class="word-name">monarchy</span><span class="word-meaning">君主政治</span></a></li>
+        <li class="word-item"><a href="data/6052-aristocracy.html"><span class="word-id">6052</span><span class="word-name">aristocracy</span><span class="word-meaning">貴族階級、貴族社会</span></a></li>
+        <li class="word-item"><a href="data/6053-bureaucracy.html"><span class="word-id">6053</span><span class="word-name">bureaucracy</span><span class="word-meaning">官僚、官僚主義</span></a></li>
+        <li class="word-item"><a href="data/6054-ideology.html"><span class="word-id">6054</span><span class="word-name">ideology</span><span class="word-meaning">イデオロギー、思考傾向</span></a></li>
+        <li class="word-item"><a href="data/6055-communism.html"><span class="word-id">6055</span><span class="word-name">communism</span><span class="word-meaning">共産主義</span></a></li>
+        <li class="word-item"><a href="data/6056-socialism.html"><span class="word-id">6056</span><span class="word-name">socialism</span><span class="word-meaning">社会主義</span></a></li>
+        <li class="word-item"><a href="data/6057-nationalism.html"><span class="word-id">6057</span><span class="word-name">nationalism</span><span class="word-meaning">国家主義</span></a></li>
+        <li class="word-item"><a href="data/6058-patriotism.html"><span class="word-id">6058</span><span class="word-name">patriotism</span><span class="word-meaning">愛国主義</span></a></li>
+        <li class="word-item"><a href="data/6059-govern.html"><span class="word-id">6059</span><span class="word-name">govern</span><span class="word-meaning">統治する； 決定する、左右する</span></a></li>
+        <li class="word-item"><a href="data/6060-reign.html"><span class="word-id">6060</span><span class="word-name">reign</span><span class="word-meaning">統治、治世； 君臨する</span></a></li>
+        <li class="word-item"><a href="data/6061-tyranny.html"><span class="word-id">6061</span><span class="word-name">tyranny</span><span class="word-meaning">専制政治、暴政</span></a></li>
+        <li class="word-item"><a href="data/6062-administer.html"><span class="word-id">6062</span><span class="word-name">administer</span><span class="word-meaning">～を管理する、運営する</span></a></li>
+        <li class="word-item"><a href="data/6063-policy.html"><span class="word-id">6063</span><span class="word-name">policy</span><span class="word-meaning">政策、方針</span></a></li>
+        <li class="word-item"><a href="data/6064-welfare.html"><span class="word-id">6064</span><span class="word-name">welfare</span><span class="word-meaning">福祉； 幸福</span></a></li>
+        <li class="word-item"><a href="data/6065-ministry.html"><span class="word-id">6065</span><span class="word-name">ministry</span><span class="word-meaning">省庁</span></a></li>
+        <li class="word-item"><a href="data/6066-minister.html"><span class="word-id">6066</span><span class="word-name">minister</span><span class="word-meaning">大臣； 牧師</span></a></li>
+        <li class="word-item"><a href="data/6067-diplomat.html"><span class="word-id">6067</span><span class="word-name">diplomat</span><span class="word-meaning">外交官</span></a></li>
+        <li class="word-item"><a href="data/6068-embassy.html"><span class="word-id">6068</span><span class="word-name">embassy</span><span class="word-meaning">大使館</span></a></li>
+        <li class="word-item"><a href="data/6069-ambassador.html"><span class="word-id">6069</span><span class="word-name">ambassador</span><span class="word-meaning">大使</span></a></li>
+        <li class="word-item"><a href="data/6070-treaty.html"><span class="word-id">6070</span><span class="word-name">treaty</span><span class="word-meaning">条約</span></a></li>
+        <li class="word-item"><a href="data/6071-legislate.html"><span class="word-id">6071</span><span class="word-name">legislate</span><span class="word-meaning">法律を制定する</span></a></li>
+        <li class="word-item"><a href="data/6072-congress.html"><span class="word-id">6072</span><span class="word-name">congress</span><span class="word-meaning">国会、議会； 会議</span></a></li>
+        <li class="word-item"><a href="data/6073-Senate.html"><span class="word-id">6073</span><span class="word-name">Senate</span><span class="word-meaning">上院</span></a></li>
+        <li class="word-item"><a href="data/6074-parliament.html"><span class="word-id">6074</span><span class="word-name">parliament</span><span class="word-meaning">国会</span></a></li>
+        <li class="word-item"><a href="data/6075-Diet.html"><span class="word-id">6075</span><span class="word-name">Diet</span><span class="word-meaning">国会、議会</span></a></li>
+        <li class="word-item"><a href="data/6076-council.html"><span class="word-id">6076</span><span class="word-name">council</span><span class="word-meaning">議会； 評議会、審議会</span></a></li>
+        <li class="word-item"><a href="data/6077-federal.html"><span class="word-id">6077</span><span class="word-name">federal</span><span class="word-meaning">(米国)連邦の</span></a></li>
+        <li class="word-item"><a href="data/6078-bill.html"><span class="word-id">6078</span><span class="word-name">bill</span><span class="word-meaning">請求書； 紙幣； 法案</span></a></li>
+        <li class="word-item"><a href="data/6079-abolish.html"><span class="word-id">6079</span><span class="word-name">abolish</span><span class="word-meaning">～を廃止する</span></a></li>
+        <li class="word-item"><a href="data/6080-elect.html"><span class="word-id">6080</span><span class="word-name">elect</span><span class="word-meaning">～を選出する</span></a></li>
+        <li class="word-item"><a href="data/6081-vote.html"><span class="word-id">6081</span><span class="word-name">vote</span><span class="word-meaning">(～に)投票する(for～)； 投票</span></a></li>
+        <li class="word-item"><a href="data/6082-poll.html"><span class="word-id">6082</span><span class="word-name">poll</span><span class="word-meaning">投票； 世論調査</span></a></li>
+        <li class="word-item"><a href="data/6083-run for.html"><span class="word-id">6083</span><span class="word-name">run for</span><span class="word-meaning">～に出馬する</span></a></li>
+        <li class="word-item"><a href="data/6084-mayor.html"><span class="word-id">6084</span><span class="word-name">mayor</span><span class="word-meaning">市長</span></a></li>
+        <li class="word-item"><a href="data/6085-governor.html"><span class="word-id">6085</span><span class="word-name">governor</span><span class="word-meaning">知事</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6000.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
