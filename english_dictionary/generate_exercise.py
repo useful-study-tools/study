@@ -70,9 +70,16 @@ def generate_html():
         .setup-section, .quiz-section {{ display: none; }}
         .active {{ display: block; }}
         
-        .chapter-container {{ max-height: 300px; overflow-y: auto; border: 1px solid #ddd; padding: 12px; border-radius: 8px; background: #fafafa; margin-bottom: 10px; }}
-        .chapter-group-title {{ font-size: 0.85rem; font-weight: bold; color: #555; background: #e9ecef; padding: 6px 12px; margin: 12px 0 6px 0; border-radius: 4px; border-left: 4px solid var(--primary); }}
-        .chapter-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px; padding: 0 5px; }}
+        .chapter-container {{ max-height: 350px; overflow-y: auto; border: 1px solid #ddd; padding: 12px; border-radius: 8px; background: #fafafa; margin-bottom: 10px; }}
+        
+        /* 変更点：グループヘッダーをクリッカブルに変更 */
+        .chapter-group-header {{ font-size: 0.9rem; font-weight: bold; color: #555; background: #e9ecef; padding: 8px 12px; margin: 8px 0 0 0; border-radius: 4px; border-left: 4px solid var(--primary); display: flex; justify-content: space-between; cursor: pointer; user-select: none; transition: background 0.2s; }}
+        .chapter-group-header:hover {{ background: #dde2e6; }}
+        
+        /* 変更点：デフォルトは非表示にし、.activeが付与されたらグリッド表示 */
+        .chapter-grid {{ display: none; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px; padding: 10px; background: #fff; border: 1px solid #eee; border-top: none; border-radius: 0 0 4px 4px; margin-bottom: 8px; }}
+        .chapter-grid.active {{ display: grid; }}
+        
         .chapter-item {{ font-size: 0.85rem; display: flex; align-items: center; cursor: pointer; }}
         .chapter-item input {{ margin-right: 10px; }}
         
@@ -166,13 +173,13 @@ const GROUPED_CHAPTERS = {chapters_js};
 const FILE_MAPPING = {file_mapping_js};
 let ALL_WORDS_BUFFER = []; // 読み込んだ全単語
 
-// チャプター選択画面の構築
+// 変更点：チャプター選択画面の構築（アコーディオン化）
 const chapterListDiv = document.getElementById('chapterList');
 for (const [group, chapters] of Object.entries(GROUPED_CHAPTERS)) {{
-    const groupTitle = document.createElement('div');
-    groupTitle.className = 'chapter-group-title';
-    groupTitle.innerText = group;
-    chapterListDiv.appendChild(groupTitle);
+    const groupHeader = document.createElement('div');
+    groupHeader.className = 'chapter-group-header';
+    groupHeader.innerHTML = `<span>${{group}}</span><span class="toggle-icon">▽</span>`;
+    chapterListDiv.appendChild(groupHeader);
     
     const grid = document.createElement('div');
     grid.className = 'chapter-grid';
@@ -183,6 +190,12 @@ for (const [group, chapters] of Object.entries(GROUPED_CHAPTERS)) {{
         grid.appendChild(div);
     }});
     chapterListDiv.appendChild(grid);
+
+    // クリックイベントで展開・折りたたみを切り替え
+    groupHeader.addEventListener('click', () => {{
+        const isActive = grid.classList.toggle('active');
+        groupHeader.querySelector('.toggle-icon').innerText = isActive ? '△' : '▽';
+    }});
 }}
 
 let quizWords = [];
