@@ -1,0 +1,2424 @@
+{
+  "words": [
+    {
+      "number": 6238,
+      "word": "environment",
+      "pos": "名詞",
+      "meaning": "環境",
+      "nuance": "「人間や生物を取り巻く周囲の状況」を指す。自然環境だけでなく、社会的・職場環境も含む。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We need to protect the natural environment.",
+              "ja": "私たちは自然環境を保護する必要がある。",
+              "highlight": "environment"
+            },
+            {
+              "en": "The company provides a safe working environment.",
+              "ja": "その会社は安全な職場環境を提供している。",
+              "highlight": "environment"
+            },
+            {
+              "en": "Children are affected by their home environment.",
+              "ja": "子供は家庭環境の影響を受ける。",
+              "highlight": "environment"
+            },
+            {
+              "en": "The environment in the city is very polluted.",
+              "ja": "その都市の環境は非常に汚染されている。",
+              "highlight": "environment"
+            },
+            {
+              "en": "A healthy environment is essential for well-being.",
+              "ja": "健康な環境は幸福のために不可欠だ。",
+              "highlight": "environment"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 environner（周囲を取り巻く）に由来。",
+      "synonyms": [
+        { "word": "surroundings", "trans": "周囲" },
+        { "word": "habitat", "trans": "生息地" },
+        { "word": "setting", "trans": "環境" }
+      ],
+      "antonyms": [
+        { "word": "pollution", "trans": "汚染" },
+        { "word": "destruction", "trans": "破壊" },
+        { "word": "chaos", "trans": "混沌" }
+      ],
+      "related": [
+        { "word": "environmental", "trans": "環境の" },
+        { "word": "environmentally", "trans": "環境的に" },
+        { "word": "environmentalism", "trans": "環境保護主義" }
+      ]
+    },
+    {
+      "number": 6239,
+      "word": "species",
+      "pos": "名詞",
+      "meaning": "(生物の)種； 人類",
+      "nuance": "「生物分類の基本単位」を指す。単数形も複数形も同じ形。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "This species of bird is endangered.",
+              "ja": "この鳥の種は絶滅危惧種だ。",
+              "highlight": "species"
+            },
+            {
+              "en": "There are over 5,000 species of frogs.",
+              "ja": "5,000種以上のカエルが存在する。",
+              "highlight": "species"
+            },
+            {
+              "en": "The human species has spread across the globe.",
+              "ja": "人類は世界中に広がった。",
+              "highlight": "species"
+            },
+            {
+              "en": "New species are still being discovered.",
+              "ja": "新しい種が今も発見されている。",
+              "highlight": "species"
+            },
+            {
+              "en": "The species is adapted to cold climates.",
+              "ja": "その種は寒冷な気候に適応している。",
+              "highlight": "species"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 species（外見、種類）に由来。",
+      "synonyms": [
+        { "word": "type", "trans": "種類" },
+        { "word": "kind", "trans": "種類" },
+        { "word": "breed", "trans": "品種" }
+      ],
+      "antonyms": [
+        { "word": "individual", "trans": "個体" },
+        { "word": "genus", "trans": "属" },
+        { "word": "class", "trans": "綱" }
+      ],
+      "related": [
+        { "word": "specific", "trans": "特定の" },
+        { "word": "specimen", "trans": "標本" },
+        { "word": "special", "trans": "特別な" }
+      ]
+    },
+    {
+      "number": 6240,
+      "word": "evolve",
+      "pos": "動詞",
+      "meaning": "進化する、発展する",
+      "nuance": "「時間をかけて徐々に変化する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Humans evolved from apes.",
+              "ja": "人間は類人猿から進化した。",
+              "highlight": "evolved"
+            },
+            {
+              "en": "The company has evolved over the years.",
+              "ja": "その会社は年月とともに発展してきた。",
+              "highlight": "evolved"
+            },
+            {
+              "en": "The idea evolved from a simple conversation.",
+              "ja": "そのアイデアは簡単な会話から発展した。",
+              "highlight": "evolved"
+            },
+            {
+              "en": "Birds evolved from dinosaurs.",
+              "ja": "鳥は恐竜から進化した。",
+              "highlight": "evolved"
+            },
+            {
+              "en": "The technology continues to evolve rapidly.",
+              "ja": "その技術は急速に進化し続けている。",
+              "highlight": "evolve"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 evolvere（展開する）に由来。",
+      "synonyms": [
+        { "word": "develop", "trans": "発展する" },
+        { "word": "progress", "trans": "進歩する" },
+        { "word": "adapt", "trans": "適応する" }
+      ],
+      "antonyms": [
+        { "word": "regress", "trans": "退行する" },
+        { "word": "stagnate", "trans": "停滞する" },
+        { "word": "devolve", "trans": "退化する" }
+      ],
+      "related": [
+        { "word": "evolution", "trans": "進化" },
+        { "word": "evolutionary", "trans": "進化的な" },
+        { "word": "evolved", "trans": "進化した" }
+      ]
+    },
+    {
+      "number": 6241,
+      "word": "ecology",
+      "pos": "名詞",
+      "meaning": "生態(系)、自然環境、環境保護",
+      "nuance": "「生物と環境の相互作用の研究」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The ecology of the rainforest is very complex.",
+              "ja": "熱帯雨林の生態系は非常に複雑だ。",
+              "highlight": "ecology"
+            },
+            {
+              "en": "She is studying marine ecology.",
+              "ja": "彼女は海洋生態学を研究している。",
+              "highlight": "ecology"
+            },
+            {
+              "en": "The construction project will damage the local ecology.",
+              "ja": "その建設プロジェクトは地域の生態系を損なうだろう。",
+              "highlight": "ecology"
+            },
+            {
+              "en": "Ecology is important for understanding climate change.",
+              "ja": "生態学は気候変動を理解するために重要だ。",
+              "highlight": "Ecology"
+            },
+            {
+              "en": "The ecology of the area has been disrupted by pollution.",
+              "ja": "その地域の生態系は汚染によって乱されている。",
+              "highlight": "ecology"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 oikos（家）+ logos（学問）に由来。",
+      "synonyms": [
+        { "word": "ecosystem", "trans": "生態系" },
+        { "word": "environment", "trans": "環境" },
+        { "word": "habitat", "trans": "生息地" }
+      ],
+      "antonyms": [
+        { "word": "pollution", "trans": "汚染" },
+        { "word": "destruction", "trans": "破壊" },
+        { "word": "extinction", "trans": "絶滅" }
+      ],
+      "related": [
+        { "word": "ecological", "trans": "生態学の" },
+        { "word": "ecologist", "trans": "生態学者" },
+        { "word": "ecosystem", "trans": "生態系" }
+      ]
+    },
+    {
+      "number": 6242,
+      "word": "nature",
+      "pos": "名詞",
+      "meaning": "自然； 本質； 性質",
+      "nuance": "「人間が作り出していない世界」または「物事の本質」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I love spending time in nature.",
+              "ja": "私は自然の中で過ごすのが大好きだ。",
+              "highlight": "nature"
+            },
+            {
+              "en": "It's human nature to be curious.",
+              "ja": "好奇心を持つのは人間の本性だ。",
+              "highlight": "nature"
+            },
+            {
+              "en": "The nature of the problem is complex.",
+              "ja": "その問題の性質は複雑だ。",
+              "highlight": "nature"
+            },
+            {
+              "en": "He has a kind nature.",
+              "ja": "彼は優しい性質を持っている。",
+              "highlight": "nature"
+            },
+            {
+              "en": "The beauty of nature is inspiring.",
+              "ja": "自然の美しさは感動を与える。",
+              "highlight": "nature"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 natura（誕生）に由来。",
+      "synonyms": [
+        { "word": "environment", "trans": "環境" },
+        { "word": "essence", "trans": "本質" },
+        { "word": "character", "trans": "性質" }
+      ],
+      "antonyms": [
+        { "word": "artifice", "trans": "人工" },
+        { "word": "civilization", "trans": "文明" },
+        { "word": "culture", "trans": "文化" }
+      ],
+      "related": [
+        { "word": "natural", "trans": "自然の" },
+        { "word": "naturally", "trans": "自然に" },
+        { "word": "naturalist", "trans": "自然主義者" }
+      ]
+    },
+    {
+      "number": 6243,
+      "word": "inherent",
+      "pos": "形容詞",
+      "meaning": "(～に)本来備わっている(in～)",
+      "nuance": "「本質的な部分として備わっている」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There is an inherent risk in this activity.",
+              "ja": "この活動には本来備わったリスクがある。",
+              "highlight": "inherent"
+            },
+            {
+              "en": "The desire to survive is inherent in all living things.",
+              "ja": "生き延びたいという欲求は全ての生物に本来備わっている。",
+              "highlight": "inherent"
+            },
+            {
+              "en": "The design has inherent flaws.",
+              "ja": "そのデザインには本来の欠陥がある。",
+              "highlight": "inherent"
+            },
+            {
+              "en": "The problem is inherent in the system.",
+              "ja": "その問題はシステムに内在している。",
+              "highlight": "inherent"
+            },
+            {
+              "en": "She has an inherent talent for music.",
+              "ja": "彼女は音楽の生まれつきの才能を持っている。",
+              "highlight": "inherent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 inhaerere（くっついている）に由来。",
+      "synonyms": [
+        { "word": "intrinsic", "trans": "内在的な" },
+        { "word": "innate", "trans": "生まれつきの" },
+        { "word": "inborn", "trans": "先天的な" }
+      ],
+      "antonyms": [
+        { "word": "acquired", "trans": "後天的な" },
+        { "word": "external", "trans": "外部の" },
+        { "word": "extrinsic", "trans": "外的な" }
+      ],
+      "related": [
+        { "word": "inherently", "trans": "本来" },
+        { "word": "inherit", "trans": "受け継ぐ" },
+        { "word": "inherence", "trans": "内在" }
+      ]
+    },
+    {
+      "number": 6244,
+      "word": "artificial",
+      "pos": "形容詞",
+      "meaning": "人工の",
+      "nuance": "「人間によって作られた」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The flowers are artificial, not real.",
+              "ja": "その花は人工のもので、本物ではない。",
+              "highlight": "artificial"
+            },
+            {
+              "en": "Artificial intelligence is advancing rapidly.",
+              "ja": "人工知能は急速に進歩している。",
+              "highlight": "Artificial"
+            },
+            {
+              "en": "The lake is artificial, created by a dam.",
+              "ja": "その湖は人工のもので、ダムによって作られた。",
+              "highlight": "artificial"
+            },
+            {
+              "en": "Her smile seemed artificial.",
+              "ja": "彼女の笑顔は作り物のように見えた。",
+              "highlight": "artificial"
+            },
+            {
+              "en": "The sweetener is artificial.",
+              "ja": "その甘味料は人工的なものだ。",
+              "highlight": "artificial"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 artificium（技術）に由来。",
+      "synonyms": [
+        { "word": "synthetic", "trans": "合成の" },
+        { "word": "man-made", "trans": "人造の" },
+        { "word": "fake", "trans": "偽の" }
+      ],
+      "antonyms": [
+        { "word": "natural", "trans": "自然の" },
+        { "word": "real", "trans": "本物の" },
+        { "word": "genuine", "trans": "真正の" }
+      ],
+      "related": [
+        { "word": "artificially", "trans": "人工的に" },
+        { "word": "artifice", "trans": "策略" },
+        { "word": "artisan", "trans": "職人" }
+      ]
+    },
+    {
+      "number": 6245,
+      "word": "preserve",
+      "pos": "動詞",
+      "meaning": "～を保護する、保存する",
+      "nuance": "「元の状態を維持する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We must preserve the environment for future generations.",
+              "ja": "私たちは将来の世代のために環境を保護しなければならない。",
+              "highlight": "preserve"
+            },
+            {
+              "en": "The ancient manuscript was well preserved.",
+              "ja": "その古代の写本はよく保存されていた。",
+              "highlight": "preserved"
+            },
+            {
+              "en": "Salt preserves food from spoiling.",
+              "ja": "塩は食べ物を腐敗から守る。",
+              "highlight": "preserves"
+            },
+            {
+              "en": "He tries to preserve his cultural heritage.",
+              "ja": "彼は自分の文化遺産を保存しようとしている。",
+              "highlight": "preserve"
+            },
+            {
+              "en": "The organization works to preserve endangered species.",
+              "ja": "その組織は絶滅危惧種を保護するために活動している。",
+              "highlight": "preserve"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 praeservare（前もって守る）に由来。",
+      "synonyms": [
+        { "word": "protect", "trans": "保護する" },
+        { "word": "conserve", "trans": "保存する" },
+        { "word": "maintain", "trans": "維持する" }
+      ],
+      "antonyms": [
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "neglect", "trans": "怠る" },
+        { "word": "damage", "trans": "損傷する" }
+      ],
+      "related": [
+        { "word": "preservation", "trans": "保存" },
+        { "word": "preservative", "trans": "防腐剤" },
+        { "word": "preserver", "trans": "保護者" }
+      ]
+    },
+    {
+      "number": 6246,
+      "word": "develop",
+      "pos": "動詞",
+      "meaning": "～を発達する、開発する； 発症する； 発達する、発育する",
+      "nuance": "「成長させる」または「新しいものを作り出す」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company is developing a new product.",
+              "ja": "その会社は新製品を開発している。",
+              "highlight": "developing"
+            },
+            {
+              "en": "The child is developing normally.",
+              "ja": "その子は正常に発育している。",
+              "highlight": "developing"
+            },
+            {
+              "en": "She developed a rash after taking the medicine.",
+              "ja": "彼女はその薬を飲んだ後、発疹が出た。",
+              "highlight": "developed"
+            },
+            {
+              "en": "The city has developed rapidly over the last decade.",
+              "ja": "その都市は過去10年間で急速に発展した。",
+              "highlight": "developed"
+            },
+            {
+              "en": "He developed a strong interest in photography.",
+              "ja": "彼は写真に強い興味を抱くようになった。",
+              "highlight": "developed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 desveloper（包みを解く）に由来。",
+      "synonyms": [
+        { "word": "grow", "trans": "成長する" },
+        { "word": "evolve", "trans": "進化する" },
+        { "word": "create", "trans": "創造する" }
+      ],
+      "antonyms": [
+        { "word": "stagnate", "trans": "停滞する" },
+        { "word": "regress", "trans": "退行する" },
+        { "word": "decline", "trans": "衰退する" }
+      ],
+      "related": [
+        { "word": "development", "trans": "発展" },
+        { "word": "developer", "trans": "開発者" },
+        { "word": "developing", "trans": "発展途上の" }
+      ]
+    },
+    {
+      "number": 6247,
+      "word": "sustain",
+      "pos": "動詞",
+      "meaning": "～を支える、維持する",
+      "nuance": "「長期間続けさせる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The soil cannot sustain such intensive farming.",
+              "ja": "その土壌はそのような集約的な農業を持続させることができない。",
+              "highlight": "sustain"
+            },
+            {
+              "en": "He sustained serious injuries in the accident.",
+              "ja": "彼はその事故で重傷を負った。",
+              "highlight": "sustained"
+            },
+            {
+              "en": "A healthy diet will sustain you.",
+              "ja": "健康的な食事はあなたを支えるだろう。",
+              "highlight": "sustain"
+            },
+            {
+              "en": "The company cannot sustain its current growth rate.",
+              "ja": "その会社は現在の成長率を維持できない。",
+              "highlight": "sustain"
+            },
+            {
+              "en": "The argument is not sustained by evidence.",
+              "ja": "その主張は証拠によって裏付けられていない。",
+              "highlight": "sustained"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sustinere（下から支える）に由来。",
+      "synonyms": [
+        { "word": "support", "trans": "支える" },
+        { "word": "maintain", "trans": "維持する" },
+        { "word": "continue", "trans": "続ける" }
+      ],
+      "antonyms": [
+        { "word": "abandon", "trans": "放棄する" },
+        { "word": "neglect", "trans": "怠る" },
+        { "word": "cease", "trans": "やめる" }
+      ],
+      "related": [
+        { "word": "sustainable", "trans": "持続可能な" },
+        { "word": "sustenance", "trans": "栄養" },
+        { "word": "sustained", "trans": "持続した" }
+      ]
+    },
+    {
+      "number": 6248,
+      "word": "atmosphere",
+      "pos": "名詞",
+      "meaning": "大気； 雰囲気",
+      "nuance": "「地球を取り巻く空気」または「場所の感じ」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The atmosphere of the Earth is mostly nitrogen.",
+              "ja": "地球の大気は主に窒素でできている。",
+              "highlight": "atmosphere"
+            },
+            {
+              "en": "The restaurant has a cozy atmosphere.",
+              "ja": "そのレストランは居心地の良い雰囲気がある。",
+              "highlight": "atmosphere"
+            },
+            {
+              "en": "The atmosphere at the party was lively.",
+              "ja": "パーティーの雰囲気は活気に満ちていた。",
+              "highlight": "atmosphere"
+            },
+            {
+              "en": "The spaceship burned up in the atmosphere.",
+              "ja": "その宇宙船は大気圏で燃え尽きた。",
+              "highlight": "atmosphere"
+            },
+            {
+              "en": "The tense atmosphere made everyone uncomfortable.",
+              "ja": "その緊張した雰囲気は皆を不快にさせた。",
+              "highlight": "atmosphere"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 atmos（蒸気）+ sphaira（球）に由来。",
+      "synonyms": [
+        { "word": "air", "trans": "空気" },
+        { "word": "ambiance", "trans": "雰囲気" },
+        { "word": "environment", "trans": "環境" }
+      ],
+      "antonyms": [
+        { "word": "vacuum", "trans": "真空" },
+        { "word": "void", "trans": "空虚" },
+        { "word": "emptiness", "trans": "空っぽ" }
+      ],
+      "related": [
+        { "word": "atmospheric", "trans": "大気の" },
+        { "word": "atmospherically", "trans": "雰囲気的に" },
+        { "word": "atmospheric pressure", "trans": "大気圧" }
+      ]
+    },
+    {
+      "number": 6249,
+      "word": "pollute",
+      "pos": "動詞",
+      "meaning": "～を汚染する",
+      "nuance": "「環境に有害な物質を加える」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The factory pollutes the river with chemicals.",
+              "ja": "その工場は化学物質で川を汚染している。",
+              "highlight": "pollutes"
+            },
+            {
+              "en": "Car exhaust pollutes the air.",
+              "ja": "自動車の排気ガスは空気を汚染する。",
+              "highlight": "pollutes"
+            },
+            {
+              "en": "The ocean is being polluted by plastic waste.",
+              "ja": "海洋はプラスチック廃棄物によって汚染されている。",
+              "highlight": "polluted"
+            },
+            {
+              "en": "We must stop polluting the environment.",
+              "ja": "私たちは環境を汚染するのを止めなければならない。",
+              "highlight": "polluting"
+            },
+            {
+              "en": "The scandal polluted his reputation.",
+              "ja": "そのスキャンダルは彼の評判を汚した。",
+              "highlight": "polluted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 polluere（汚す）に由来。",
+      "synonyms": [
+        { "word": "contaminate", "trans": "汚染する" },
+        { "word": "dirty", "trans": "汚す" },
+        { "word": "taint", "trans": "汚す" }
+      ],
+      "antonyms": [
+        { "word": "clean", "trans": "きれいにする" },
+        { "word": "purify", "trans": "浄化する" },
+        { "word": "decontaminate", "trans": "除染する" }
+      ],
+      "related": [
+        { "word": "pollution", "trans": "汚染" },
+        { "word": "pollutant", "trans": "汚染物質" },
+        { "word": "polluter", "trans": "汚染者" }
+      ]
+    },
+    {
+      "number": 6250,
+      "word": "waste",
+      "pos": "名詞 / 動詞",
+      "meaning": "無駄、浪費； 廃棄 ～を浪費する",
+      "nuance": "「不要なもの」または「無駄に使う」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Don't waste water.",
+              "ja": "水を無駄にしないでください。",
+              "highlight": "waste"
+            },
+            {
+              "en": "The factory produces a lot of waste.",
+              "ja": "その工場は多くの廃棄物を出す。",
+              "highlight": "waste"
+            },
+            {
+              "en": "It's a waste of time to wait for him.",
+              "ja": "彼を待つのは時間の無駄だ。",
+              "highlight": "waste"
+            },
+            {
+              "en": "He wasted his money on gambling.",
+              "ja": "彼はギャンブルにお金を浪費した。",
+              "highlight": "wasted"
+            },
+            {
+              "en": "The land was left waste after the fire.",
+              "ja": "その土地は火事の後、荒れ果てて放置された。",
+              "highlight": "waste"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vastus（荒れ果てた）に由来。",
+      "synonyms": [
+        { "word": "garbage", "trans": "ゴミ" },
+        { "word": "squander", "trans": "浪費する" },
+        { "word": "trash", "trans": "ゴミ" }
+      ],
+      "antonyms": [
+        { "word": "save", "trans": "節約する" },
+        { "word": "conserve", "trans": "保存する" },
+        { "word": "recycle", "trans": "リサイクルする" }
+      ],
+      "related": [
+        { "word": "wasteful", "trans": "浪費的な" },
+        { "word": "wasteland", "trans": "荒れ地" },
+        { "word": "waste disposal", "trans": "廃棄物処理" }
+      ]
+    },
+    {
+      "number": 6251,
+      "word": "garbage",
+      "pos": "名詞",
+      "meaning": "ゴミ",
+      "nuance": "「家庭から出る廃棄物」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Please take out the garbage.",
+              "ja": "ゴミを出してください。",
+              "highlight": "garbage"
+            },
+            {
+              "en": "The garbage truck comes on Mondays.",
+              "ja": "ゴミ収集車は月曜日に来る。",
+              "highlight": "garbage"
+            },
+            {
+              "en": "The river is full of garbage.",
+              "ja": "その川はゴミでいっぱいだ。",
+              "highlight": "garbage"
+            },
+            {
+              "en": "His speech was pure garbage.",
+              "ja": "彼のスピーチは全くのゴミだった。",
+              "highlight": "garbage"
+            },
+            {
+              "en": "We need to reduce the amount of garbage we produce.",
+              "ja": "私たちは出すゴミの量を減らす必要がある。",
+              "highlight": "garbage"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 garber（整える）に由来。",
+      "synonyms": [
+        { "word": "trash", "trans": "ゴミ" },
+        { "word": "rubbish", "trans": "ゴミ" },
+        { "word": "waste", "trans": "廃棄物" }
+      ],
+      "antonyms": [
+        { "word": "treasure", "trans": "宝物" },
+        { "word": "valuables", "trans": "貴重品" },
+        { "word": "resource", "trans": "資源" }
+      ],
+      "related": [
+        { "word": "garbage can", "trans": "ゴミ箱" },
+        { "word": "garbage disposal", "trans": "生ごみ処理機" },
+        { "word": "garbage truck", "trans": "ゴミ収集車" }
+      ]
+    },
+    {
+      "number": 6252,
+      "word": "trash",
+      "pos": "名詞 / 動詞",
+      "meaning": "ゴミ； ～を捨てる",
+      "nuance": "「価値のないもの」または「捨てる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The trash can is full.",
+              "ja": "ゴミ箱がいっぱいだ。",
+              "highlight": "trash"
+            },
+            {
+              "en": "Please take the trash out.",
+              "ja": "ゴミを出してください。",
+              "highlight": "trash"
+            },
+            {
+              "en": "He trashed the old furniture.",
+              "ja": "彼は古い家具を捨てた。",
+              "highlight": "trashed"
+            },
+            {
+              "en": "That movie was trash.",
+              "ja": "その映画はひどかった。",
+              "highlight": "trash"
+            },
+            {
+              "en": "The vandals trashed the park.",
+              "ja": "荒らしが公園をめちゃくちゃにした。",
+              "highlight": "trashed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古ノルド語 tros（落ち葉）に由来。",
+      "synonyms": [
+        { "word": "garbage", "trans": "ゴミ" },
+        { "word": "rubbish", "trans": "ゴミ" },
+        { "word": "junk", "trans": "がらくた" }
+      ],
+      "antonyms": [
+        { "word": "treasure", "trans": "宝物" },
+        { "word": "valuable", "trans": "貴重品" },
+        { "word": "keep", "trans": "保つ" }
+      ],
+      "related": [
+        { "word": "trash can", "trans": "ゴミ箱" },
+        { "word": "trash bag", "trans": "ゴミ袋" },
+        { "word": "trash talk", "trans": "悪口" }
+      ]
+    },
+    {
+      "number": 6253,
+      "word": "rubbish",
+      "pos": "名詞",
+      "meaning": "ゴミ、くだらないこと",
+      "nuance": "「廃棄物」または「価値のないもの」を指す。イギリス英語でよく使われる。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The bin is full of rubbish.",
+              "ja": "そのゴミ箱はゴミでいっぱいだ。",
+              "highlight": "rubbish"
+            },
+            {
+              "en": "Don't talk rubbish!",
+              "ja": "くだらないことを言うな！",
+              "highlight": "rubbish"
+            },
+            {
+              "en": "The article was complete rubbish.",
+              "ja": "その記事は全くのゴミだった。",
+              "highlight": "rubbish"
+            },
+            {
+              "en": "They dumped the rubbish in the landfill.",
+              "ja": "彼らはゴミを埋め立て地に捨てた。",
+              "highlight": "rubbish"
+            },
+            {
+              "en": "That's absolute rubbish!",
+              "ja": "それは全くのナンセンスだ！",
+              "highlight": "rubbish"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 robe（衣服）から派生。",
+      "synonyms": [
+        { "word": "garbage", "trans": "ゴミ" },
+        { "word": "trash", "trans": "ゴミ" },
+        { "word": "nonsense", "trans": "ナンセンス" }
+      ],
+      "antonyms": [
+        { "word": "treasure", "trans": "宝物" },
+        { "word": "sense", "trans": "意味" },
+        { "word": "value", "trans": "価値" }
+      ],
+      "related": [
+        { "word": "rubbish bin", "trans": "ゴミ箱" },
+        { "word": "rubbish dump", "trans": "ゴミ捨て場" },
+        { "word": "rubbish collection", "trans": "ゴミ収集" }
+      ]
+    },
+    {
+      "number": 6254,
+      "word": "litter",
+      "pos": "名詞 / 動詞",
+      "meaning": "散らかす、ゴミ",
+      "nuance": "「公共の場に捨てられたゴミ」または「散らかす」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The park was covered with litter.",
+              "ja": "公園はゴミで覆われていた。",
+              "highlight": "litter"
+            },
+            {
+              "en": "Please do not litter.",
+              "ja": "ゴミを捨てないでください。",
+              "highlight": "litter"
+            },
+            {
+              "en": "The puppy was the smallest of the litter.",
+              "ja": "その子犬は一腹の中で一番小さかった。",
+              "highlight": "litter"
+            },
+            {
+              "en": "The floor was littered with papers.",
+              "ja": "床は書類で散らかっていた。",
+              "highlight": "littered"
+            },
+            {
+              "en": "Cat litter is used for house cats.",
+              "ja": "猫砂は室内猫のために使われる。",
+              "highlight": "litter"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 litere（寝台）に由来。",
+      "synonyms": [
+        { "word": "rubbish", "trans": "ゴミ" },
+        { "word": "debris", "trans": "がれき" },
+        { "word": "clutter", "trans": "散らかり" }
+      ],
+      "antonyms": [
+        { "word": "cleanliness", "trans": "清潔" },
+        { "word": "order", "trans": "整頓" },
+        { "word": "purity", "trans": "純粋" }
+      ],
+      "related": [
+        { "word": "litterbug", "trans": "ポイ捨てする人" },
+        { "word": "litter box", "trans": "猫用トイレ" },
+        { "word": "littering", "trans": "ポイ捨て" }
+      ]
+    },
+    {
+      "number": 6255,
+      "word": "landscape",
+      "pos": "名詞",
+      "meaning": "風景",
+      "nuance": "「自然の景色」または「風景画」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The landscape of the countryside is beautiful.",
+              "ja": "田舎の風景は美しい。",
+              "highlight": "landscape"
+            },
+            {
+              "en": "He painted a landscape of the mountains.",
+              "ja": "彼は山の風景画を描いた。",
+              "highlight": "landscape"
+            },
+            {
+              "en": "The political landscape has changed dramatically.",
+              "ja": "政治情勢は劇的に変化した。",
+              "highlight": "landscape"
+            },
+            {
+              "en": "The landscape was devastated by the storm.",
+              "ja": "その風景は嵐で荒廃した。",
+              "highlight": "landscape"
+            },
+            {
+              "en": "She enjoys hiking through natural landscapes.",
+              "ja": "彼女は自然の風景の中をハイキングするのを楽しむ。",
+              "highlight": "landscapes"
+            }
+          ]
+        }
+      ],
+      "etymology": "オランダ語 landschap（土地の形）に由来。",
+      "synonyms": [
+        { "word": "scenery", "trans": "景色" },
+        { "word": "view", "trans": "眺め" },
+        { "word": "panorama", "trans": "パノラマ" }
+      ],
+      "antonyms": [
+        { "word": "cityscape", "trans": "都市景観" },
+        { "word": "seascape", "trans": "海景" },
+        { "word": "void", "trans": "空虚" }
+      ],
+      "related": [
+        { "word": "landscaping", "trans": "造園" },
+        { "word": "landscape architect", "trans": "造園家" },
+        { "word": "landscape painting", "trans": "風景画" }
+      ]
+    },
+    {
+      "number": 6256,
+      "word": "resource",
+      "pos": "名詞",
+      "meaning": "資源、財源",
+      "nuance": "「必要なものを得るための源泉」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Water is a precious resource.",
+              "ja": "水は貴重な資源だ。",
+              "highlight": "resource"
+            },
+            {
+              "en": "The country has abundant natural resources.",
+              "ja": "その国は豊富な天然資源を持っている。",
+              "highlight": "resources"
+            },
+            {
+              "en": "We need to use our resources wisely.",
+              "ja": "私たちは資源を賢く使う必要がある。",
+              "highlight": "resources"
+            },
+            {
+              "en": "The library is a valuable resource for students.",
+              "ja": "図書館は学生にとって貴重な情報源だ。",
+              "highlight": "resource"
+            },
+            {
+              "en": "He has the resourcefulness to solve any problem.",
+              "ja": "彼にはどんな問題も解決する機知がある。",
+              "highlight": "resourcefulness"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 ressource（再び立ち上がる）に由来。",
+      "synonyms": [
+        { "word": "supply", "trans": "供給" },
+        { "word": "material", "trans": "材料" },
+        { "word": "asset", "trans": "資産" }
+      ],
+      "antonyms": [
+        { "word": "scarcity", "trans": "不足" },
+        { "word": "shortage", "trans": "不足" },
+        { "word": "lack", "trans": "欠如" }
+      ],
+      "related": [
+        { "word": "resourceful", "trans": "機知に富んだ" },
+        { "word": "resourcefulness", "trans": "機知" },
+        { "word": "natural resource", "trans": "天然資源" }
+      ]
+    },
+    {
+      "number": 6257,
+      "word": "fossil",
+      "pos": "名詞",
+      "meaning": "化石",
+      "nuance": "「過去の生物の遺骸や痕跡」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The museum has a large collection of fossils.",
+              "ja": "その博物館には化石の大きなコレクションがある。",
+              "highlight": "fossils"
+            },
+            {
+              "en": "Fossil fuels like coal and oil are non-renewable.",
+              "ja": "石炭や石油のような化石燃料は再生不可能だ。",
+              "highlight": "Fossil"
+            },
+            {
+              "en": "The fossil of a dinosaur was discovered.",
+              "ja": "恐竜の化石が発見された。",
+              "highlight": "fossil"
+            },
+            {
+              "en": "He is a fossil of the old school.",
+              "ja": "彼は旧式の化石のような人だ。",
+              "highlight": "fossil"
+            },
+            {
+              "en": "Fossil evidence shows how life evolved.",
+              "ja": "化石の証拠は生命がどのように進化したかを示している。",
+              "highlight": "Fossil"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 fossilis（掘り出された）に由来。",
+      "synonyms": [
+        { "word": "remains", "trans": "遺跡" },
+        { "word": "trace", "trans": "痕跡" },
+        { "word": "relic", "trans": "遺物" }
+      ],
+      "antonyms": [
+        { "word": "living thing", "trans": "生き物" },
+        { "word": "modern", "trans": "現代" },
+        { "word": "contemporary", "trans": "同時代" }
+      ],
+      "related": [
+        { "word": "fossil fuel", "trans": "化石燃料" },
+        { "word": "fossilized", "trans": "化石になった" },
+        { "word": "paleontology", "trans": "古生物学" }
+      ]
+    },
+    {
+      "number": 6258,
+      "word": "fuel",
+      "pos": "名詞",
+      "meaning": "燃料",
+      "nuance": "「エネルギーを生み出すために使われる物質」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Gasoline is a common fuel for cars.",
+              "ja": "ガソリンは車の一般的な燃料だ。",
+              "highlight": "fuel"
+            },
+            {
+              "en": "The plane ran out of fuel.",
+              "ja": "その飛行機は燃料切れになった。",
+              "highlight": "fuel"
+            },
+            {
+              "en": "His anger was fueled by the insult.",
+              "ja": "彼の怒りはその侮辱によってあおられた。",
+              "highlight": "fueled"
+            },
+            {
+              "en": "Renewable fuels are better for the environment.",
+              "ja": "再生可能燃料は環境にとってより良い。",
+              "highlight": "fuels"
+            },
+            {
+              "en": "We need to conserve fuel.",
+              "ja": "燃料を節約する必要がある。",
+              "highlight": "fuel"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 fouaille（火をつけるもの）に由来。",
+      "synonyms": [
+        { "word": "energy", "trans": "エネルギー" },
+        { "word": "gasoline", "trans": "ガソリン" },
+        { "word": "coal", "trans": "石炭" }
+      ],
+      "antonyms": [
+        { "word": "extinguish", "trans": "消す" },
+        { "word": "cool", "trans": "冷ます" },
+        { "word": "starvation", "trans": "飢餓" }
+      ],
+      "related": [
+        { "word": "refuel", "trans": "燃料補給" },
+        { "word": "fuel efficiency", "trans": "燃料効率" },
+        { "word": "fuel tank", "trans": "燃料タンク" }
+      ]
+    },
+    {
+      "number": 6259,
+      "word": "petroleum",
+      "pos": "名詞",
+      "meaning": "石油",
+      "nuance": "「地下から採掘される天然の油」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Petroleum is used to make gasoline.",
+              "ja": "石油はガソリンを作るために使われる。",
+              "highlight": "Petroleum"
+            },
+            {
+              "en": "The country relies heavily on petroleum exports.",
+              "ja": "その国は石油輸出に大きく依存している。",
+              "highlight": "petroleum"
+            },
+            {
+              "en": "Petroleum is a non-renewable resource.",
+              "ja": "石油は再生不可能な資源だ。",
+              "highlight": "Petroleum"
+            },
+            {
+              "en": "The price of petroleum has increased.",
+              "ja": "石油の価格が上昇した。",
+              "highlight": "petroleum"
+            },
+            {
+              "en": "Petroleum products include plastics and chemicals.",
+              "ja": "石油製品にはプラスチックや化学物質が含まれる。",
+              "highlight": "Petroleum"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 petra（岩）+ oleum（油）に由来。",
+      "synonyms": [
+        { "word": "oil", "trans": "油" },
+        { "word": "crude oil", "trans": "原油" },
+        { "word": "fossil fuel", "trans": "化石燃料" }
+      ],
+      "antonyms": [
+        { "word": "renewable energy", "trans": "再生可能エネルギー" },
+        { "word": "biofuel", "trans": "バイオ燃料" },
+        { "word": "solar power", "trans": "太陽光発電" }
+      ],
+      "related": [
+        { "word": "petrochemical", "trans": "石油化学の" },
+        { "word": "petroleum industry", "trans": "石油産業" },
+        { "word": "petroleum refinery", "trans": "石油精製所" }
+      ]
+    },
+    {
+      "number": 6260,
+      "word": "exhaust",
+      "pos": "動詞 / 名詞",
+      "meaning": "～を使い果たす、疲れさせる",
+      "nuance": "「完全に使い切る」または「疲れ果てさせる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The long journey exhausted him.",
+              "ja": "その長い旅は彼を疲れ果てさせた。",
+              "highlight": "exhausted"
+            },
+            {
+              "en": "We have exhausted all our options.",
+              "ja": "私たちは全ての選択肢を使い果たした。",
+              "highlight": "exhausted"
+            },
+            {
+              "en": "The car exhaust is harmful to the environment.",
+              "ja": "自動車の排気ガスは環境に有害だ。",
+              "highlight": "exhaust"
+            },
+            {
+              "en": "She exhausted herself by working too hard.",
+              "ja": "彼女は働きすぎて自分を疲れさせた。",
+              "highlight": "exhausted"
+            },
+            {
+              "en": "The supply of water was exhausted.",
+              "ja": "水の供給は底をついた。",
+              "highlight": "exhausted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 exhaurire（吸い出す）に由来。",
+      "synonyms": [
+        { "word": "drain", "trans": "使い果たす" },
+        { "word": "deplete", "trans": "枯渇させる" },
+        { "word": "tire", "trans": "疲れさせる" }
+      ],
+      "antonyms": [
+        { "word": "refresh", "trans": "元気づける" },
+        { "word": "replenish", "trans": "補充する" },
+        { "word": "energize", "trans": "活力を与える" }
+      ],
+      "related": [
+        { "word": "exhaustion", "trans": "疲労" },
+        { "word": "exhaustive", "trans": "徹底的な" },
+        { "word": "exhaust pipe", "trans": "排気管" }
+      ]
+    },
+    {
+      "number": 6261,
+      "word": "global warming",
+      "pos": "名詞",
+      "meaning": "地球温暖化",
+      "nuance": "「地球の平均気温の上昇」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Global warming is a serious problem.",
+              "ja": "地球温暖化は深刻な問題だ。",
+              "highlight": "Global warming"
+            },
+            {
+              "en": "The effects of global warming are already visible.",
+              "ja": "地球温暖化の影響はすでに見えている。",
+              "highlight": "global warming"
+            },
+            {
+              "en": "Burning fossil fuels contributes to global warming.",
+              "ja": "化石燃料の燃焼は地球温暖化の一因となる。",
+              "highlight": "global warming"
+            },
+            {
+              "en": "Many countries are working to reduce global warming.",
+              "ja": "多くの国が地球温暖化を減らすために取り組んでいる。",
+              "highlight": "global warming"
+            },
+            {
+              "en": "Global warming is causing ice caps to melt.",
+              "ja": "地球温暖化は氷冠を溶かしている。",
+              "highlight": "Global warming"
+            }
+          ]
+        }
+      ],
+      "etymology": "global（地球規模の）+ warming（温暖化）に由来。",
+      "synonyms": [
+        { "word": "climate change", "trans": "気候変動" },
+        { "word": "greenhouse effect", "trans": "温室効果" },
+        { "word": "temperature rise", "trans": "気温上昇" }
+      ],
+      "antonyms": [
+        { "word": "global cooling", "trans": "地球寒冷化" },
+        { "word": "ice age", "trans": "氷河期" },
+        { "word": "climate stability", "trans": "気候安定" }
+      ],
+      "related": [
+        { "word": "greenhouse gas", "trans": "温室効果ガス" },
+        { "word": "carbon footprint", "trans": "カーボンフットプリント" },
+        { "word": "renewable energy", "trans": "再生可能エネルギー" }
+      ]
+    },
+    {
+      "number": 6262,
+      "word": "greenhouse effect",
+      "pos": "名詞",
+      "meaning": "温室効果",
+      "nuance": "「大気が熱を閉じ込める現象」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The greenhouse effect is caused by certain gases.",
+              "ja": "温室効果は特定の気体によって引き起こされる。",
+              "highlight": "greenhouse effect"
+            },
+            {
+              "en": "The natural greenhouse effect keeps the Earth warm.",
+              "ja": "自然の温室効果は地球を暖かく保つ。",
+              "highlight": "greenhouse effect"
+            },
+            {
+              "en": "Human activities have intensified the greenhouse effect.",
+              "ja": "人間の活動は温室効果を強めてきた。",
+              "highlight": "greenhouse effect"
+            },
+            {
+              "en": "The greenhouse effect is linked to global warming.",
+              "ja": "温室効果は地球温暖化と関連している。",
+              "highlight": "greenhouse effect"
+            },
+            {
+              "en": "Carbon dioxide is a major contributor to the greenhouse effect.",
+              "ja": "二酸化炭素は温室効果の主要な原因物質だ。",
+              "highlight": "greenhouse effect"
+            }
+          ]
+        }
+      ],
+      "etymology": "greenhouse（温室）+ effect（効果）に由来。",
+      "synonyms": [
+        { "word": "global warming", "trans": "地球温暖化" },
+        { "word": "climate change", "trans": "気候変動" },
+        { "word": "atmospheric heating", "trans": "大気加熱" }
+      ],
+      "antonyms": [
+        { "word": "cooling", "trans": "冷却" },
+        { "word": "ice age", "trans": "氷河期" },
+        { "word": "climate stability", "trans": "気候安定" }
+      ],
+      "related": [
+        { "word": "greenhouse gas", "trans": "温室効果ガス" },
+        { "word": "carbon dioxide", "trans": "二酸化炭素" },
+        { "word": "methane", "trans": "メタン" }
+      ]
+    },
+    {
+      "number": 6263,
+      "word": "carbon dioxide",
+      "pos": "名詞",
+      "meaning": "二酸化炭素",
+      "nuance": "「CO₂」、温室効果ガスの一種。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Plants absorb carbon dioxide during photosynthesis.",
+              "ja": "植物は光合成の際に二酸化炭素を吸収する。",
+              "highlight": "carbon dioxide"
+            },
+            {
+              "en": "Carbon dioxide is a greenhouse gas.",
+              "ja": "二酸化炭素は温室効果ガスだ。",
+              "highlight": "Carbon dioxide"
+            },
+            {
+              "en": "The level of carbon dioxide in the atmosphere is rising.",
+              "ja": "大気中の二酸化炭素濃度は上昇している。",
+              "highlight": "carbon dioxide"
+            },
+            {
+              "en": "We need to reduce carbon dioxide emissions.",
+              "ja": "二酸化炭素の排出を減らす必要がある。",
+              "highlight": "carbon dioxide"
+            },
+            {
+              "en": "Carbon dioxide is produced when we breathe.",
+              "ja": "二酸化炭素は私たちが呼吸するときに生成される。",
+              "highlight": "Carbon dioxide"
+            }
+          ]
+        }
+      ],
+      "etymology": "carbon（炭素）+ dioxide（二酸化物）に由来。",
+      "synonyms": [
+        { "word": "CO2", "trans": "CO₂" },
+        { "word": "greenhouse gas", "trans": "温室効果ガス" },
+        { "word": "carbon emissions", "trans": "炭素排出" }
+      ],
+      "antonyms": [
+        { "word": "oxygen", "trans": "酸素" },
+        { "word": "clean air", "trans": "きれいな空気" },
+        { "word": "carbon neutral", "trans": "カーボンニュートラル" }
+      ],
+      "related": [
+        { "word": "carbon footprint", "trans": "カーボンフットプリント" },
+        { "word": "carbon capture", "trans": "炭素回収" },
+        { "word": "carbon sink", "trans": "炭素吸収源" }
+      ]
+    },
+    {
+      "number": 6264,
+      "word": "tropical rain forest",
+      "pos": "名詞",
+      "meaning": "熱帯雨林",
+      "nuance": "「高温多湿の地域の森林」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The Amazon is the largest tropical rain forest in the world.",
+              "ja": "アマゾンは世界最大の熱帯雨林だ。",
+              "highlight": "tropical rain forest"
+            },
+            {
+              "en": "Tropical rain forests are home to many species.",
+              "ja": "熱帯雨林は多くの種の生息地だ。",
+              "highlight": "Tropical rain forests"
+            },
+            {
+              "en": "Deforestation is destroying tropical rain forests.",
+              "ja": "森林破壊は熱帯雨林を破壊している。",
+              "highlight": "tropical rain forests"
+            },
+            {
+              "en": "The tropical rain forest has a unique ecosystem.",
+              "ja": "熱帯雨林は独自の生態系を持っている。",
+              "highlight": "tropical rain forest"
+            },
+            {
+              "en": "Protecting tropical rain forests is crucial for biodiversity.",
+              "ja": "熱帯雨林を保護することは生物多様性にとって極めて重要だ。",
+              "highlight": "tropical rain forests"
+            }
+          ]
+        }
+      ],
+      "etymology": "tropical（熱帯の）+ rain（雨）+ forest（森林）に由来。",
+      "synonyms": [
+        { "word": "jungle", "trans": "ジャングル" },
+        { "word": "rainforest", "trans": "雨林" },
+        { "word": "woodland", "trans": "森林地帯" }
+      ],
+      "antonyms": [
+        { "word": "desert", "trans": "砂漠" },
+        { "word": "tundra", "trans": "ツンドラ" },
+        { "word": "grassland", "trans": "草原" }
+      ],
+      "related": [
+        { "word": "biodiversity", "trans": "生物多様性" },
+        { "word": "deforestation", "trans": "森林破壊" },
+        { "word": "canopy", "trans": "林冠" }
+      ]
+    },
+    {
+      "number": 6265,
+      "word": "acid rain",
+      "pos": "名詞",
+      "meaning": "酸性雨",
+      "nuance": "「汚染物質を含んだ雨」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Acid rain damages forests and lakes.",
+              "ja": "酸性雨は森林や湖に被害を与える。",
+              "highlight": "Acid rain"
+            },
+            {
+              "en": "Industrial emissions cause acid rain.",
+              "ja": "産業排出物は酸性雨の原因となる。",
+              "highlight": "acid rain"
+            },
+            {
+              "en": "Acid rain is a serious environmental problem.",
+              "ja": "酸性雨は深刻な環境問題だ。",
+              "highlight": "Acid rain"
+            },
+            {
+              "en": "The statue was eroded by acid rain.",
+              "ja": "その像は酸性雨によって侵食された。",
+              "highlight": "acid rain"
+            },
+            {
+              "en": "Reducing pollution can help prevent acid rain.",
+              "ja": "汚染を減らすことは酸性雨の防止に役立つ。",
+              "highlight": "acid rain"
+            }
+          ]
+        }
+      ],
+      "etymology": "acid（酸性の）+ rain（雨）に由来。",
+      "synonyms": [
+        { "word": "polluted rain", "trans": "汚染された雨" },
+        { "word": "environmental damage", "trans": "環境被害" },
+        { "word": "atmospheric pollution", "trans": "大気汚染" }
+      ],
+      "antonyms": [
+        { "word": "clean rain", "trans": "きれいな雨" },
+        { "word": "pure water", "trans": "純水" },
+        { "word": "freshwater", "trans": "淡水" }
+      ],
+      "related": [
+        { "word": "sulfur dioxide", "trans": "二酸化硫黄" },
+        { "word": "nitrogen oxide", "trans": "窒素酸化物" },
+        { "word": "air pollution", "trans": "大気汚染" }
+      ]
+    },
+    {
+      "number": 6266,
+      "word": "ozone layer",
+      "pos": "名詞",
+      "meaning": "オゾン層",
+      "nuance": "「紫外線を吸収する大気の層」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The ozone layer protects us from UV radiation.",
+              "ja": "オゾン層は私たちを紫外線から守る。",
+              "highlight": "ozone layer"
+            },
+            {
+              "en": "Chemicals have damaged the ozone layer.",
+              "ja": "化学物質がオゾン層を破壊した。",
+              "highlight": "ozone layer"
+            },
+            {
+              "en": "The hole in the ozone layer is shrinking.",
+              "ja": "オゾンホールは縮小している。",
+              "highlight": "ozone layer"
+            },
+            {
+              "en": "Protecting the ozone layer is important.",
+              "ja": "オゾン層を保護することは重要だ。",
+              "highlight": "ozone layer"
+            },
+            {
+              "en": "The Montreal Protocol helped restore the ozone layer.",
+              "ja": "モントリオール議定書はオゾン層の回復に役立った。",
+              "highlight": "ozone layer"
+            }
+          ]
+        }
+      ],
+      "etymology": "ozone（オゾン）+ layer（層）に由来。",
+      "synonyms": [
+        { "word": "stratosphere", "trans": "成層圏" },
+        { "word": "atmospheric layer", "trans": "大気層" },
+        { "word": "UV shield", "trans": "紫外線シールド" }
+      ],
+      "antonyms": [
+        { "word": "ozone hole", "trans": "オゾンホール" },
+        { "word": "UV radiation", "trans": "紫外線" },
+        { "word": "atmospheric damage", "trans": "大気破壊" }
+      ],
+      "related": [
+        { "word": "chlorofluorocarbon", "trans": "クロロフルオロカーボン" },
+        { "word": "UV protection", "trans": "紫外線保護" },
+        { "word": "stratospheric", "trans": "成層圏の" }
+      ]
+    },
+    {
+      "number": 6267,
+      "word": "climate",
+      "pos": "名詞",
+      "meaning": "気候",
+      "nuance": "「長期間の平均的な天候パターン」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The climate in this region is tropical.",
+              "ja": "この地域の気候は熱帯だ。",
+              "highlight": "climate"
+            },
+            {
+              "en": "Climate change is a global issue.",
+              "ja": "気候変動は地球規模の問題だ。",
+              "highlight": "Climate"
+            },
+            {
+              "en": "The political climate has become tense.",
+              "ja": "政治情勢は緊迫してきた。",
+              "highlight": "climate"
+            },
+            {
+              "en": "The climate here is mild and pleasant.",
+              "ja": "ここの気候は穏やかで快適だ。",
+              "highlight": "climate"
+            },
+            {
+              "en": "The business climate is favorable for startups.",
+              "ja": "ビジネス環境はスタートアップに有利だ。",
+              "highlight": "climate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 klima（傾き）に由来。",
+      "synonyms": [
+        { "word": "weather", "trans": "天気" },
+        { "word": "environment", "trans": "環境" },
+        { "word": "atmosphere", "trans": "雰囲気" }
+      ],
+      "antonyms": [
+        { "word": "weather", "trans": "天気" },
+        { "word": "microclimate", "trans": "微気候" },
+        { "word": "isolated condition", "trans": "孤立した状態" }
+      ],
+      "related": [
+        { "word": "climatic", "trans": "気候の" },
+        { "word": "climatology", "trans": "気候学" },
+        { "word": "acclimate", "trans": "順応する" }
+      ]
+    },
+    {
+      "number": 6268,
+      "word": "temperature",
+      "pos": "名詞",
+      "meaning": "温度、気温",
+      "nuance": "「熱さや冷たさの度合い」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The temperature today is 25 degrees.",
+              "ja": "今日の気温は25度だ。",
+              "highlight": "temperature"
+            },
+            {
+              "en": "The patient has a high temperature.",
+              "ja": "その患者は高熱がある。",
+              "highlight": "temperature"
+            },
+            {
+              "en": "The temperature dropped below freezing.",
+              "ja": "気温が氷点下に下がった。",
+              "highlight": "temperature"
+            },
+            {
+              "en": "The oven temperature is set to 200 degrees.",
+              "ja": "オーブンの温度は200度に設定されている。",
+              "highlight": "temperature"
+            },
+            {
+              "en": "Global temperatures are rising.",
+              "ja": "地球の気温は上昇している。",
+              "highlight": "temperatures"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 temperatura（適度な状態）に由来。",
+      "synonyms": [
+        { "word": "heat", "trans": "熱" },
+        { "word": "fever", "trans": "熱" },
+        { "word": "warmth", "trans": "暖かさ" }
+      ],
+      "antonyms": [
+        { "word": "cold", "trans": "寒さ" },
+        { "word": "coolness", "trans": "涼しさ" },
+        { "word": "chill", "trans": "冷気" }
+      ],
+      "related": [
+        { "word": "thermometer", "trans": "温度計" },
+        { "word": "temperature change", "trans": "気温変化" },
+        { "word": "room temperature", "trans": "室温" }
+      ]
+    },
+    {
+      "number": 6269,
+      "word": "humid",
+      "pos": "形容詞",
+      "meaning": "湿った",
+      "nuance": "「空気中の水分が多い」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The weather is hot and humid today.",
+              "ja": "今日の天気は暑くて湿気が多い。",
+              "highlight": "humid"
+            },
+            {
+              "en": "Humid conditions make it feel hotter.",
+              "ja": "湿った状態はより暑く感じさせる。",
+              "highlight": "Humid"
+            },
+            {
+              "en": "The air in the rainforest is always humid.",
+              "ja": "熱帯雨林の空気は常に湿っている。",
+              "highlight": "humid"
+            },
+            {
+              "en": "I hate humid weather.",
+              "ja": "湿気の多い天気は嫌いだ。",
+              "highlight": "humid"
+            },
+            {
+              "en": "The humidifier adds moisture to dry air.",
+              "ja": "加湿器は乾燥した空気に湿気を加える。",
+              "highlight": "humidifier"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 humidus（湿った）に由来。",
+      "synonyms": [
+        { "word": "moist", "trans": "湿った" },
+        { "word": "damp", "trans": "湿った" },
+        { "word": "wet", "trans": "濡れた" }
+      ],
+      "antonyms": [
+        { "word": "dry", "trans": "乾燥した" },
+        { "word": "arid", "trans": "乾燥した" },
+        { "word": "parched", "trans": "乾ききった" }
+      ],
+      "related": [
+        { "word": "humidity", "trans": "湿度" },
+        { "word": "humidify", "trans": "加湿する" },
+        { "word": "dehumidifier", "trans": "除湿器" }
+      ]
+    },
+    {
+      "number": 6270,
+      "word": "moist",
+      "pos": "形容詞",
+      "meaning": "湿った",
+      "nuance": "「適度に湿っている」という意味で、'humid'よりも肯定的なニュアンスがある。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The cake is moist and delicious.",
+              "ja": "そのケーキはしっとりしていて美味しい。",
+              "highlight": "moist"
+            },
+            {
+              "en": "The soil was moist after the rain.",
+              "ja": "雨の後、土は湿っていた。",
+              "highlight": "moist"
+            },
+            {
+              "en": "She used a moist towel to wipe her face.",
+              "ja": "彼女は濡らしたタオルで顔を拭いた。",
+              "highlight": "moist"
+            },
+            {
+              "en": "The air felt cool and moist.",
+              "ja": "空気はひんやりと湿っていた。",
+              "highlight": "moist"
+            },
+            {
+              "en": "Moisturizer keeps your skin moist.",
+              "ja": "保湿剤は肌をしっとり保つ。",
+              "highlight": "moist"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 mucidus（カビの生えた）に由来。",
+      "synonyms": [
+        { "word": "damp", "trans": "湿った" },
+        { "word": "wet", "trans": "濡れた" },
+        { "word": "soggy", "trans": "ずぶ濡れの" }
+      ],
+      "antonyms": [
+        { "word": "dry", "trans": "乾いた" },
+        { "word": "arid", "trans": "乾燥した" },
+        { "word": "parched", "trans": "乾ききった" }
+      ],
+      "related": [
+        { "word": "moisture", "trans": "湿気" },
+        { "word": "moisturize", "trans": "保湿する" },
+        { "word": "moistness", "trans": "湿り気" }
+      ]
+    },
+    {
+      "number": 6271,
+      "word": "phenomenon",
+      "pos": "名詞",
+      "meaning": "現象",
+      "nuance": "「観察可能な出来事や事実」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The northern lights are a natural phenomenon.",
+              "ja": "オーロラは自然現象だ。",
+              "highlight": "phenomenon"
+            },
+            {
+              "en": "Global warming is a worrying phenomenon.",
+              "ja": "地球温暖化は憂慮すべき現象だ。",
+              "highlight": "phenomenon"
+            },
+            {
+              "en": "The phenomenon of bullying is common in schools.",
+              "ja": "いじめの現象は学校でよく見られる。",
+              "highlight": "phenomenon"
+            },
+            {
+              "en": "Scientists are studying this strange phenomenon.",
+              "ja": "科学者たちはこの奇妙な現象を研究している。",
+              "highlight": "phenomenon"
+            },
+            {
+              "en": "The phenomenon of social media has changed communication.",
+              "ja": "ソーシャルメディアという現象はコミュニケーションを変えた。",
+              "highlight": "phenomenon"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 phainomenon（現れるもの）に由来。",
+      "synonyms": [
+        { "word": "occurrence", "trans": "出来事" },
+        { "word": "event", "trans": "出来事" },
+        { "word": "incident", "trans": "事件" }
+      ],
+      "antonyms": [
+        { "word": "nothing", "trans": "無" },
+        { "word": "absence", "trans": "不在" },
+        { "word": "void", "trans": "空虚" }
+      ],
+      "related": [
+        { "word": "phenomenal", "trans": "驚異的な" },
+        { "word": "phenomenally", "trans": "驚異的に" },
+        { "word": "phenomena", "trans": "現象（複数）" }
+      ]
+    },
+    {
+      "number": 6272,
+      "word": "drought",
+      "pos": "名詞",
+      "meaning": "干ばつ",
+      "nuance": "「長期間雨が降らない状態」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The drought has lasted for months.",
+              "ja": "その干ばつは何ヶ月も続いている。",
+              "highlight": "drought"
+            },
+            {
+              "en": "The crops failed due to the drought.",
+              "ja": "干ばつのため作物は不作だった。",
+              "highlight": "drought"
+            },
+            {
+              "en": "The government declared a state of drought emergency.",
+              "ja": "政府は干ばつ緊急事態を宣言した。",
+              "highlight": "drought"
+            },
+            {
+              "en": "Water restrictions were imposed during the drought.",
+              "ja": "干ばつ中は水道使用制限が課された。",
+              "highlight": "drought"
+            },
+            {
+              "en": "The drought caused a food shortage.",
+              "ja": "その干ばつは食糧不足を引き起こした。",
+              "highlight": "drought"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 drūgath（乾燥）に由来。",
+      "synonyms": [
+        { "word": "dry spell", "trans": "乾燥期間" },
+        { "word": "water shortage", "trans": "水不足" },
+        { "word": "famine", "trans": "飢饉" }
+      ],
+      "antonyms": [
+        { "word": "flood", "trans": "洪水" },
+        { "word": "rainfall", "trans": "降雨" },
+        { "word": "deluge", "trans": "豪雨" }
+      ],
+      "related": [
+        { "word": "arid", "trans": "乾燥した" },
+        { "word": "desertification", "trans": "砂漠化" },
+        { "word": "irrigation", "trans": "灌漑" }
+      ]
+    },
+    {
+      "number": 6273,
+      "word": "disaster",
+      "pos": "名詞",
+      "meaning": "災害、惨事",
+      "nuance": "「突然の大きな被害をもたらす出来事」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The earthquake was a major disaster.",
+              "ja": "その地震は大きな災害だった。",
+              "highlight": "disaster"
+            },
+            {
+              "en": "The party was a complete disaster.",
+              "ja": "そのパーティーは完全な大失敗だった。",
+              "highlight": "disaster"
+            },
+            {
+              "en": "The government declared a state of disaster.",
+              "ja": "政府は災害状態を宣言した。",
+              "highlight": "disaster"
+            },
+            {
+              "en": "The plane crash was a terrible disaster.",
+              "ja": "その飛行機墜落は恐ろしい惨事だった。",
+              "highlight": "disaster"
+            },
+            {
+              "en": "Disaster struck when the storm hit.",
+              "ja": "嵐が襲ったとき、災害が発生した。",
+              "highlight": "Disaster"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 dis（悪い）+ astrum（星）に由来。",
+      "synonyms": [
+        { "word": "catastrophe", "trans": "大惨事" },
+        { "word": "calamity", "trans": "災難" },
+        { "word": "tragedy", "trans": "悲劇" }
+      ],
+      "antonyms": [
+        { "word": "miracle", "trans": "奇跡" },
+        { "word": "blessing", "trans": "祝福" },
+        { "word": "success", "trans": "成功" }
+      ],
+      "related": [
+        { "word": "disastrous", "trans": "壊滅的な" },
+        { "word": "disaster relief", "trans": "災害救援" },
+        { "word": "natural disaster", "trans": "自然災害" }
+      ]
+    },
+    {
+      "number": 6274,
+      "word": "hemisphere",
+      "pos": "名詞",
+      "meaning": "半球",
+      "nuance": "「地球の半分」を指す。北半球、南半球など。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The northern hemisphere has winter in December.",
+              "ja": "北半球では12月が冬だ。",
+              "highlight": "hemisphere"
+            },
+            {
+              "en": "Australia is in the southern hemisphere.",
+              "ja": "オーストラリアは南半球にある。",
+              "highlight": "hemisphere"
+            },
+            {
+              "en": "The brain is divided into two hemispheres.",
+              "ja": "脳は二つの半球に分かれている。",
+              "highlight": "hemispheres"
+            },
+            {
+              "en": "The western hemisphere includes the Americas.",
+              "ja": "西半球にはアメリカ大陸が含まれる。",
+              "highlight": "hemisphere"
+            },
+            {
+              "en": "The seasons are opposite in each hemisphere.",
+              "ja": "季節は各半球で逆になる。",
+              "highlight": "hemisphere"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 hemi（半分）+ sphaira（球）に由来。",
+      "synonyms": [
+        { "word": "half", "trans": "半分" },
+        { "word": "sphere", "trans": "球体" },
+        { "word": "region", "trans": "地域" }
+      ],
+      "antonyms": [
+        { "word": "whole", "trans": "全体" },
+        { "word": "equator", "trans": "赤道" },
+        { "word": "globe", "trans": "地球" }
+      ],
+      "related": [
+        { "word": "hemispherical", "trans": "半球形の" },
+        { "word": "northern hemisphere", "trans": "北半球" },
+        { "word": "southern hemisphere", "trans": "南半球" }
+      ]
+    },
+    {
+      "number": 6275,
+      "word": "continent",
+      "pos": "名詞",
+      "meaning": "大陸",
+      "nuance": "「地球の大きな陸地の区分」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Africa is a continent rich in resources.",
+              "ja": "アフリカは資源に富んだ大陸だ。",
+              "highlight": "continent"
+            },
+            {
+              "en": "The seven continents include Asia and Europe.",
+              "ja": "7つの大陸にはアジアとヨーロッパが含まれる。",
+              "highlight": "continents"
+            },
+            {
+              "en": "He traveled across the continent by train.",
+              "ja": "彼は電車で大陸を横断した。",
+              "highlight": "continent"
+            },
+            {
+              "en": "The continent of Australia is also a country.",
+              "ja": "オーストラリア大陸はまた一つの国でもある。",
+              "highlight": "continent"
+            },
+            {
+              "en": "The continent was once connected by land bridges.",
+              "ja": "その大陸はかつて陸橋でつながっていた。",
+              "highlight": "continent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 continens（つながった土地）に由来。",
+      "synonyms": [
+        { "word": "landmass", "trans": "陸塊" },
+        { "word": "mainland", "trans": "本土" },
+        { "word": "land", "trans": "土地" }
+      ],
+      "antonyms": [
+        { "word": "island", "trans": "島" },
+        { "word": "ocean", "trans": "海" },
+        { "word": "sea", "trans": "海" }
+      ],
+      "related": [
+        { "word": "continental", "trans": "大陸の" },
+        { "word": "subcontinent", "trans": "亜大陸" },
+        { "word": "continent-wide", "trans": "大陸全体の" }
+      ]
+    },
+    {
+      "number": 6276,
+      "word": "Arctic",
+      "pos": "名詞 / 形容詞",
+      "meaning": "北極地方",
+      "nuance": "「地球の最北部の地域」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The Arctic is warming faster than other regions.",
+              "ja": "北極は他の地域よりも早く温暖化している。",
+              "highlight": "Arctic"
+            },
+            {
+              "en": "Polar bears live in the Arctic.",
+              "ja": "ホッキョクグマは北極に生息している。",
+              "highlight": "Arctic"
+            },
+            {
+              "en": "The Arctic Circle is at 66.5 degrees north.",
+              "ja": "北極圏は北緯66.5度にある。",
+              "highlight": "Arctic"
+            },
+            {
+              "en": "Arctic conditions are extremely cold.",
+              "ja": "北極の環境は非常に寒い。",
+              "highlight": "Arctic"
+            },
+            {
+              "en": "The Arctic ice cap is melting.",
+              "ja": "北極の氷冠は溶けている。",
+              "highlight": "Arctic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 arktos（熊）に由来（星座の熊にちなむ）。",
+      "synonyms": [
+        { "word": "North Pole", "trans": "北極" },
+        { "word": "polar region", "trans": "極地" },
+        { "word": "frozen north", "trans": "凍てつく北" }
+      ],
+      "antonyms": [
+        { "word": "Antarctic", "trans": "南極" },
+        { "word": "tropics", "trans": "熱帯" },
+        { "word": "equator", "trans": "赤道" }
+      ],
+      "related": [
+        { "word": "arctic fox", "trans": "ホッキョクギツネ" },
+        { "word": "Arctic Ocean", "trans": "北極海" },
+        { "word": "subarctic", "trans": "亜寒帯の" }
+      ]
+    },
+    {
+      "number": 6277,
+      "word": "pole",
+      "pos": "名詞",
+      "meaning": "極",
+      "nuance": "「地球の北端または南端」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The North Pole is covered with ice.",
+              "ja": "北極は氷で覆われている。",
+              "highlight": "Pole"
+            },
+            {
+              "en": "The magnetic pole shifts over time.",
+              "ja": "磁極は時間とともに移動する。",
+              "highlight": "pole"
+            },
+            {
+              "en": "The flag was attached to a wooden pole.",
+              "ja": "旗は木の棒に取り付けられていた。",
+              "highlight": "pole"
+            },
+            {
+              "en": "The South Pole is the southernmost point on Earth.",
+              "ja": "南極は地球上で最も南の地点だ。",
+              "highlight": "Pole"
+            },
+            {
+              "en": "He used a pole to push the boat.",
+              "ja": "彼は棒を使ってボートを押した。",
+              "highlight": "pole"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 polus（天の極）に由来。",
+      "synonyms": [
+        { "word": "extremity", "trans": "末端" },
+        { "word": "end", "trans": "端" },
+        { "word": "rod", "trans": "棒" }
+      ],
+      "antonyms": [
+        { "word": "equator", "trans": "赤道" },
+        { "word": "center", "trans": "中心" },
+        { "word": "middle", "trans": "真ん中" }
+      ],
+      "related": [
+        { "word": "polar", "trans": "極地の" },
+        { "word": "pole star", "trans": "北極星" },
+        { "word": "magnetic pole", "trans": "磁極" }
+      ]
+    },
+    {
+      "number": 6278,
+      "word": "latitude",
+      "pos": "名詞",
+      "meaning": "緯度",
+      "nuance": "「赤道からの南北の距離」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The latitude of Tokyo is about 35 degrees north.",
+              "ja": "東京の緯度は北緯約35度だ。",
+              "highlight": "latitude"
+            },
+            {
+              "en": "High latitudes have colder climates.",
+              "ja": "高緯度地域は気候が寒い。",
+              "highlight": "latitudes"
+            },
+            {
+              "en": "The map shows lines of latitude and longitude.",
+              "ja": "その地図には緯線と経線が示されている。",
+              "highlight": "latitude"
+            },
+            {
+              "en": "The ship sailed at a latitude of 40 degrees north.",
+              "ja": "その船は北緯40度を航行した。",
+              "highlight": "latitude"
+            },
+            {
+              "en": "Plants that grow at this latitude are hardy.",
+              "ja": "この緯度で育つ植物は丈夫だ。",
+              "highlight": "latitude"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 latitudo（幅）に由来。",
+      "synonyms": [
+        { "word": "parallel", "trans": "緯線" },
+        { "word": "coordinate", "trans": "座標" },
+        { "word": "position", "trans": "位置" }
+      ],
+      "antonyms": [
+        { "word": "longitude", "trans": "経度" },
+        { "word": "equator", "trans": "赤道" },
+        { "word": "pole", "trans": "極" }
+      ],
+      "related": [
+        { "word": "latitudinal", "trans": "緯度の" },
+        { "word": "latitude line", "trans": "緯線" },
+        { "word": "low-latitude", "trans": "低緯度の" }
+      ]
+    },
+    {
+      "number": 6279,
+      "word": "longitude",
+      "pos": "名詞",
+      "meaning": "経度",
+      "nuance": "「本初子午線からの東西の距離」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The longitude of Tokyo is about 139 degrees east.",
+              "ja": "東京の経度は東経約139度だ。",
+              "highlight": "longitude"
+            },
+            {
+              "en": "The ship's longitude was calculated using a chronometer.",
+              "ja": "その船の経度はクロノメーターを使って計算された。",
+              "highlight": "longitude"
+            },
+            {
+              "en": "Lines of longitude run from pole to pole.",
+              "ja": "経線は極から極へと走っている。",
+              "highlight": "longitude"
+            },
+            {
+              "en": "The prime meridian is at 0 degrees longitude.",
+              "ja": "本初子午線は経度0度にある。",
+              "highlight": "longitude"
+            },
+            {
+              "en": "The GPS gave the exact longitude and latitude.",
+              "ja": "GPSは正確な経度と緯度を示した。",
+              "highlight": "longitude"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 longitudo（長さ）に由来。",
+      "synonyms": [
+        { "word": "meridian", "trans": "子午線" },
+        { "word": "coordinate", "trans": "座標" },
+        { "word": "position", "trans": "位置" }
+      ],
+      "antonyms": [
+        { "word": "latitude", "trans": "緯度" },
+        { "word": "equator", "trans": "赤道" },
+        { "word": "prime meridian", "trans": "本初子午線" }
+      ],
+      "related": [
+        { "word": "longitudinal", "trans": "経度の" },
+        { "word": "longitude line", "trans": "経線" },
+        { "word": "east longitude", "trans": "東経" }
+      ]
+    },
+    {
+      "number": 6280,
+      "word": "altitude",
+      "pos": "名詞",
+      "meaning": "高度",
+      "nuance": "「海面からの高さ」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The plane is flying at an altitude of 30,000 feet.",
+              "ja": "その飛行機は高度3万フィートを飛行している。",
+              "highlight": "altitude"
+            },
+            {
+              "en": "At high altitudes, the air is thin.",
+              "ja": "高所では空気が薄い。",
+              "highlight": "altitudes"
+            },
+            {
+              "en": "The mountain has an altitude of 3,000 meters.",
+              "ja": "その山の標高は3,000メートルだ。",
+              "highlight": "altitude"
+            },
+            {
+              "en": "Altitude sickness can affect climbers.",
+              "ja": "高山病は登山者に影響を与えることがある。",
+              "highlight": "Altitude"
+            },
+            {
+              "en": "The city is located at a low altitude.",
+              "ja": "その都市は低い標高に位置している。",
+              "highlight": "altitude"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 altitudo（高さ）に由来。",
+      "synonyms": [
+        { "word": "height", "trans": "高さ" },
+        { "word": "elevation", "trans": "標高" },
+        { "word": "peak", "trans": "頂上" }
+      ],
+      "antonyms": [
+        { "word": "depth", "trans": "深さ" },
+        { "word": "lowland", "trans": "低地" },
+        { "word": "valley", "trans": "谷" }
+      ],
+      "related": [
+        { "word": "altimeter", "trans": "高度計" },
+        { "word": "high-altitude", "trans": "高高度の" },
+        { "word": "altitude sickness", "trans": "高山病" }
+      ]
+    },
+    {
+      "number": 6281,
+      "word": "equator",
+      "pos": "名詞",
+      "meaning": "赤道",
+      "nuance": "「地球を南北に二分する線」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The equator divides the Earth into the northern and southern hemispheres.",
+              "ja": "赤道は地球を北半球と南半球に分ける。",
+              "highlight": "equator"
+            },
+            {
+              "en": "Countries near the equator have warm climates.",
+              "ja": "赤道近くの国々は気候が暖かい。",
+              "highlight": "equator"
+            },
+            {
+              "en": "The sun is directly overhead at the equator on the equinox.",
+              "ja": "春分・秋分の日には、太陽は赤道の真上に来る。",
+              "highlight": "equator"
+            },
+            {
+              "en": "The ship crossed the equator during the voyage.",
+              "ja": "その船は航海の途中で赤道を通過した。",
+              "highlight": "equator"
+            },
+            {
+              "en": "The equator is an imaginary line.",
+              "ja": "赤道は想像上の線だ。",
+              "highlight": "equator"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 aequator（均等にするもの）に由来。",
+      "synonyms": [
+        { "word": "equatorial line", "trans": "赤道線" },
+        { "word": "zero latitude", "trans": "緯度0度" },
+        { "word": "midline", "trans": "正中線" }
+      ],
+      "antonyms": [
+        { "word": "pole", "trans": "極" },
+        { "word": "Arctic", "trans": "北極" },
+        { "word": "Antarctic", "trans": "南極" }
+      ],
+      "related": [
+        { "word": "equatorial", "trans": "赤道の" },
+        { "word": "equatorially", "trans": "赤道付近に" },
+        { "word": "equator line", "trans": "赤道線" }
+      ]
+    }
+  ]
+}
