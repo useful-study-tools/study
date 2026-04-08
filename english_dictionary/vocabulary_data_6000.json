@@ -1,0 +1,2314 @@
+{
+  "words": [
+    {
+      "number": 6000,
+      "word": "value",
+      "pos": "名詞 / 動詞",
+      "meaning": "価値； 価値観； ～を重んじる",
+      "nuance": "「金銭的・精神的な重要性」や「大切に思うこと」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The value of the house has increased.",
+              "ja": "その家の価値は上がった。",
+              "highlight": "value"
+            },
+            {
+              "en": "She values honesty above all else.",
+              "ja": "彼女は何よりも誠実さを重んじる。",
+              "highlight": "values"
+            },
+            {
+              "en": "This necklace has sentimental value for me.",
+              "ja": "このネックレスは私にとって思い出の価値がある。",
+              "highlight": "value"
+            },
+            {
+              "en": "He values his friendship with her.",
+              "ja": "彼は彼女との友情を大切にしている。",
+              "highlight": "values"
+            },
+            {
+              "en": "You get good value for your money at this store.",
+              "ja": "この店ではお金に見合う良い価値が得られる。",
+              "highlight": "value"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 valere（強くある）に由来。",
+      "synonyms": [
+        { "word": "worth", "trans": "価値" },
+        { "word": "importance", "trans": "重要性" },
+        { "word": "cherish", "trans": "大切にする" }
+      ],
+      "antonyms": [
+        { "word": "worthlessness", "trans": "無価値" },
+        { "word": "disregard", "trans": "軽視" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "valuable", "trans": "貴重な" },
+        { "word": "valuation", "trans": "評価" },
+        { "word": "values", "trans": "価値観" }
+      ]
+    },
+    {
+      "number": 6001,
+      "word": "worth",
+      "pos": "形容詞 / 名詞",
+      "meaning": "～の価値のある； 価値",
+      "nuance": "「～する価値がある」という意味。名詞では「価値」。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "This book is worth reading.",
+              "ja": "この本は読む価値がある。",
+              "highlight": "worth"
+            },
+            {
+              "en": "The painting is worth a million dollars.",
+              "ja": "その絵は100万ドルの価値がある。",
+              "highlight": "worth"
+            },
+            {
+              "en": "He knows his own worth.",
+              "ja": "彼は自分の価値を知っている。",
+              "highlight": "worth"
+            },
+            {
+              "en": "It's worth the effort.",
+              "ja": "それは努力する価値がある。",
+              "highlight": "worth"
+            },
+            {
+              "en": "The necklace is of great worth.",
+              "ja": "そのネックレスは非常に価値が高い。",
+              "highlight": "worth"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 weorth（価値）に由来。",
+      "synonyms": [
+        { "word": "value", "trans": "価値" },
+        { "word": "merit", "trans": "価値" },
+        { "word": "deserving", "trans": "値する" }
+      ],
+      "antonyms": [
+        { "word": "worthless", "trans": "無価値の" },
+        { "word": "useless", "trans": "役に立たない" },
+        { "word": "insignificant", "trans": "取るに足らない" }
+      ],
+      "related": [
+        { "word": "worthwhile", "trans": "やりがいのある" },
+        { "word": "worthy", "trans": "価値のある" },
+        { "word": "self-worth", "trans": "自己価値" }
+      ]
+    },
+    {
+      "number": 6002,
+      "word": "deserve",
+      "pos": "動詞",
+      "meaning": "～に値する",
+      "nuance": "「良いこと・悪いことに対して当然の報いを受ける」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She deserves a promotion.",
+              "ja": "彼女は昇進に値する。",
+              "highlight": "deserves"
+            },
+            {
+              "en": "He deserved the punishment.",
+              "ja": "彼はその罰を受けるに値した。",
+              "highlight": "deserved"
+            },
+            {
+              "en": "You deserve a break after all that work.",
+              "ja": "あれだけ働いたのだから、休む価値がある。",
+              "highlight": "deserve"
+            },
+            {
+              "en": "They deserve to win.",
+              "ja": "彼らは勝つに値する。",
+              "highlight": "deserve"
+            },
+            {
+              "en": "No one deserves to be treated like that.",
+              "ja": "誰もそのように扱われるべきではない。",
+              "highlight": "deserves"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 deservire（熱心に仕える）に由来。",
+      "synonyms": [
+        { "word": "earn", "trans": "勝ち取る" },
+        { "word": "merit", "trans": "値する" },
+        { "word": "warrant", "trans": "正当化する" }
+      ],
+      "antonyms": [
+        { "word": "unworthy", "trans": "値しない" },
+        { "word": "undeserving", "trans": "受ける資格がない" },
+        { "word": "forfeit", "trans": "失う" }
+      ],
+      "related": [
+        { "word": "deserving", "trans": "値する" },
+        { "word": "deservedly", "trans": "当然" },
+        { "word": "undeserved", "trans": "不当な" }
+      ]
+    },
+    {
+      "number": 6003,
+      "word": "cherish",
+      "pos": "動詞",
+      "meaning": "～を大事にする",
+      "nuance": "「深く愛情を持って大切にする」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She cherishes the memories of her childhood.",
+              "ja": "彼女は子供時代の思い出を大事にしている。",
+              "highlight": "cherishes"
+            },
+            {
+              "en": "He cherishes his family above all else.",
+              "ja": "彼は何よりも家族を大切にしている。",
+              "highlight": "cherishes"
+            },
+            {
+              "en": "This ring is a cherished possession.",
+              "ja": "この指輪は大切な所有物だ。",
+              "highlight": "cherished"
+            },
+            {
+              "en": "I cherish the time we spent together.",
+              "ja": "私たちが一緒に過ごした時間を大切にしている。",
+              "highlight": "cherish"
+            },
+            {
+              "en": "He cherishes his friendship with her.",
+              "ja": "彼は彼女との友情を大切にしている。",
+              "highlight": "cherishes"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 cherir（大切にする）に由来。",
+      "synonyms": [
+        { "word": "treasure", "trans": "大切にする" },
+        { "word": "value", "trans": "重んじる" },
+        { "word": "adore", "trans": "敬愛する" }
+      ],
+      "antonyms": [
+        { "word": "neglect", "trans": "怠る" },
+        { "word": "abandon", "trans": "捨てる" },
+        { "word": "despise", "trans": "軽蔑する" }
+      ],
+      "related": [
+        { "word": "cherished", "trans": "大切にされている" },
+        { "word": "cherishing", "trans": "大切にすること" },
+        { "word": "cherishable", "trans": "大切にできる" }
+      ]
+    },
+    {
+      "number": 6004,
+      "word": "treasure",
+      "pos": "名詞 / 動詞",
+      "meaning": "～を大事にする、宝",
+      "nuance": "「貴重なもの」または「大切に保管する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The pirates hid their treasure on the island.",
+              "ja": "海賊たちは宝物を島に隠した。",
+              "highlight": "treasure"
+            },
+            {
+              "en": "She treasures the letters from her grandmother.",
+              "ja": "彼女は祖母からの手紙を大切にしている。",
+              "highlight": "treasures"
+            },
+            {
+              "en": "The museum has many art treasures.",
+              "ja": "その美術館には多くの芸術的宝物がある。",
+              "highlight": "treasures"
+            },
+            {
+              "en": "I will always treasure the time we spent together.",
+              "ja": "私たちが一緒に過ごした時間をいつまでも大切にする。",
+              "highlight": "treasure"
+            },
+            {
+              "en": "This photo is a family treasure.",
+              "ja": "この写真は家族の宝だ。",
+              "highlight": "treasure"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 thesauros（貯蔵庫）に由来。",
+      "synonyms": [
+        { "word": "jewel", "trans": "宝石" },
+        { "word": "cherish", "trans": "大切にする" },
+        { "word": "value", "trans": "重んじる" }
+      ],
+      "antonyms": [
+        { "word": "trash", "trans": "ゴミ" },
+        { "word": "neglect", "trans": "怠る" },
+        { "word": "discard", "trans": "捨てる" }
+      ],
+      "related": [
+        { "word": "treasurer", "trans": "会計係" },
+        { "word": "treasury", "trans": "財務省" },
+        { "word": "treasure hunt", "trans": "宝探し" }
+      ]
+    },
+    {
+      "number": 6005,
+      "word": "evaluate",
+      "pos": "動詞",
+      "meaning": "～を評価する",
+      "nuance": "「価値や重要性を判断する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We need to evaluate the situation carefully.",
+              "ja": "状況を注意深く評価する必要がある。",
+              "highlight": "evaluate"
+            },
+            {
+              "en": "The teacher evaluated the students' performance.",
+              "ja": "先生は生徒のパフォーマンスを評価した。",
+              "highlight": "evaluated"
+            },
+            {
+              "en": "It's too early to evaluate the success of the project.",
+              "ja": "プロジェクトの成功を評価するにはまだ早い。",
+              "highlight": "evaluate"
+            },
+            {
+              "en": "The job applicant was evaluated on several criteria.",
+              "ja": "その求職者は複数の基準で評価された。",
+              "highlight": "evaluated"
+            },
+            {
+              "en": "We need to evaluate the risks before making a decision.",
+              "ja": "決断する前にリスクを評価する必要がある。",
+              "highlight": "evaluate"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 evaluer（評価する）に由来。",
+      "synonyms": [
+        { "word": "assess", "trans": "査定する" },
+        { "word": "appraise", "trans": "評価する" },
+        { "word": "judge", "trans": "判断する" }
+      ],
+      "antonyms": [
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "neglect", "trans": "軽視する" },
+        { "word": "overlook", "trans": "見落とす" }
+      ],
+      "related": [
+        { "word": "evaluation", "trans": "評価" },
+        { "word": "evaluative", "trans": "評価の" },
+        { "word": "reevaluate", "trans": "再評価する" }
+      ]
+    },
+    {
+      "number": 6006,
+      "word": "measure",
+      "pos": "動詞 / 名詞",
+      "meaning": "～を測定する； (測定の)基準、手段、程度",
+      "nuance": "「大きさや量を測る」または「対策」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Measure the length of the table.",
+              "ja": "テーブルの長さを測りなさい。",
+              "highlight": "Measure"
+            },
+            {
+              "en": "We need to take measures to reduce pollution.",
+              "ja": "汚染を減らすための対策を取る必要がある。",
+              "highlight": "measures"
+            },
+            {
+              "en": "The room measures 5 meters by 4 meters.",
+              "ja": "その部屋は5メートル×4メートルの大きさだ。",
+              "highlight": "measures"
+            },
+            {
+              "en": "His success is a measure of his hard work.",
+              "ja": "彼の成功は彼の勤勉さの尺度だ。",
+              "highlight": "measure"
+            },
+            {
+              "en": "The government introduced new safety measures.",
+              "ja": "政府は新しい安全対策を導入した。",
+              "highlight": "measures"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 mensura（測定）に由来。",
+      "synonyms": [
+        { "word": "calculate", "trans": "計算する" },
+        { "word": "gauge", "trans": "測る" },
+        { "word": "step", "trans": "手段" }
+      ],
+      "antonyms": [
+        { "word": "guess", "trans": "推測する" },
+        { "word": "approximate", "trans": "概算する" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "measurement", "trans": "測定" },
+        { "word": "measurable", "trans": "測定可能な" },
+        { "word": "countermeasure", "trans": "対策" }
+      ]
+    },
+    {
+      "number": 6007,
+      "word": "assess",
+      "pos": "動詞",
+      "meaning": "～を査定する",
+      "nuance": "「価値や重要性を公式に評価する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The insurance company assessed the damage.",
+              "ja": "保険会社は損害を査定した。",
+              "highlight": "assessed"
+            },
+            {
+              "en": "We need to assess the impact of the new policy.",
+              "ja": "新しい政策の影響を評価する必要がある。",
+              "highlight": "assess"
+            },
+            {
+              "en": "The property was assessed at $500,000.",
+              "ja": "その不動産は50万ドルと査定された。",
+              "highlight": "assessed"
+            },
+            {
+              "en": "The teacher assessed the students' progress.",
+              "ja": "先生は生徒の進歩を評価した。",
+              "highlight": "assessed"
+            },
+            {
+              "en": "It's difficult to assess the long-term effects.",
+              "ja": "長期的な影響を評価するのは難しい。",
+              "highlight": "assess"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 assidere（隣に座る）に由来。",
+      "synonyms": [
+        { "word": "evaluate", "trans": "評価する" },
+        { "word": "appraise", "trans": "鑑定する" },
+        { "word": "judge", "trans": "判断する" }
+      ],
+      "antonyms": [
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "neglect", "trans": "軽視する" },
+        { "word": "guess", "trans": "推測する" }
+      ],
+      "related": [
+        { "word": "assessment", "trans": "評価" },
+        { "word": "assessor", "trans": "査定官" },
+        { "word": "reassess", "trans": "再評価する" }
+      ]
+    },
+    {
+      "number": 6008,
+      "word": "standard",
+      "pos": "名詞 / 形容詞",
+      "meaning": "基準、標準、水準",
+      "nuance": "「比較の基準となるもの」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The quality of the product meets the standard.",
+              "ja": "その製品の品質は基準を満たしている。",
+              "highlight": "standard"
+            },
+            {
+              "en": "She has high standards for herself.",
+              "ja": "彼女は自分に対して高い基準を持っている。",
+              "highlight": "standards"
+            },
+            {
+              "en": "This is a standard procedure.",
+              "ja": "これは標準的な手順だ。",
+              "highlight": "standard"
+            },
+            {
+              "en": "The standard of living has improved.",
+              "ja": "生活水準は向上した。",
+              "highlight": "standard"
+            },
+            {
+              "en": "The car comes with standard features.",
+              "ja": "その車には標準装備が付いている。",
+              "highlight": "standard"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 estandard（旗）に由来。",
+      "synonyms": [
+        { "word": "criterion", "trans": "基準" },
+        { "word": "benchmark", "trans": "基準" },
+        { "word": "norm", "trans": "規範" }
+      ],
+      "antonyms": [
+        { "word": "exception", "trans": "例外" },
+        { "word": "anomaly", "trans": "異常" },
+        { "word": "deviation", "trans": "逸脱" }
+      ],
+      "related": [
+        { "word": "standardize", "trans": "標準化する" },
+        { "word": "standardized", "trans": "標準化された" },
+        { "word": "substandard", "trans": "規格外の" }
+      ]
+    },
+    {
+      "number": 6009,
+      "word": "norm",
+      "pos": "名詞",
+      "meaning": "基準、規範",
+      "nuance": "「社会や集団における一般的な標準」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Social norms vary from culture to culture.",
+              "ja": "社会規範は文化によって異なる。",
+              "highlight": "norms"
+            },
+            {
+              "en": "It is the norm to bow when meeting someone in Japan.",
+              "ja": "日本では人に会うときにお辞儀をするのが普通だ。",
+              "highlight": "norm"
+            },
+            {
+              "en": "The new policy goes against the norm.",
+              "ja": "その新しい政策は規範に反している。",
+              "highlight": "norm"
+            },
+            {
+              "en": "His behavior deviates from the norm.",
+              "ja": "彼の行動は規範から逸脱している。",
+              "highlight": "norm"
+            },
+            {
+              "en": "The norm for working hours is 9 to 5.",
+              "ja": "労働時間の標準は9時から5時だ。",
+              "highlight": "norm"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 norma（直角定規）に由来。",
+      "synonyms": [
+        { "word": "standard", "trans": "標準" },
+        { "word": "rule", "trans": "規則" },
+        { "word": "convention", "trans": "慣習" }
+      ],
+      "antonyms": [
+        { "word": "anomaly", "trans": "異常" },
+        { "word": "deviation", "trans": "逸脱" },
+        { "word": "exception", "trans": "例外" }
+      ],
+      "related": [
+        { "word": "normal", "trans": "普通の" },
+        { "word": "normative", "trans": "規範的な" },
+        { "word": "abnormal", "trans": "異常な" }
+      ]
+    },
+    {
+      "number": 6010,
+      "word": "criterion",
+      "pos": "名詞",
+      "meaning": "基準、指標",
+      "nuance": "「判断や評価の基準」を指す。複数形は criteria。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "What are the criteria for admission?",
+              "ja": "入学の基準は何ですか？",
+              "highlight": "criteria"
+            },
+            {
+              "en": "The main criterion is cost.",
+              "ja": "主な基準はコストだ。",
+              "highlight": "criterion"
+            },
+            {
+              "en": "We need to establish clear criteria.",
+              "ja": "明確な基準を確立する必要がある。",
+              "highlight": "criteria"
+            },
+            {
+              "en": "The decision was based on objective criteria.",
+              "ja": "その決断は客観的な基準に基づいていた。",
+              "highlight": "criteria"
+            },
+            {
+              "en": "Success is measured by several criteria.",
+              "ja": "成功は複数の基準で測られる。",
+              "highlight": "criteria"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 kriterion（判断の手段）に由来。",
+      "synonyms": [
+        { "word": "standard", "trans": "基準" },
+        { "word": "benchmark", "trans": "基準" },
+        { "word": "yardstick", "trans": "評価基準" }
+      ],
+      "antonyms": [
+        { "word": "guesswork", "trans": "推測" },
+        { "word": "subjectivity", "trans": "主観" },
+        { "word": "randomness", "trans": "無作為" }
+      ],
+      "related": [
+        { "word": "critic", "trans": "批評家" },
+        { "word": "critical", "trans": "批判的な" },
+        { "word": "critique", "trans": "批評" }
+      ]
+    },
+    {
+      "number": 6011,
+      "word": "test",
+      "pos": "名詞 / 動詞",
+      "meaning": "テスト、判断基準",
+      "nuance": "「能力や品質を試すこと」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I have a math test tomorrow.",
+              "ja": "明日数学のテストがある。",
+              "highlight": "test"
+            },
+            {
+              "en": "The new drug is being tested on animals.",
+              "ja": "その新薬は動物で試験されている。",
+              "highlight": "tested"
+            },
+            {
+              "en": "This is a test of your patience.",
+              "ja": "これはあなたの忍耐力の試しだ。",
+              "highlight": "test"
+            },
+            {
+              "en": "Please test the equipment before using it.",
+              "ja": "使用前に機器をテストしてください。",
+              "highlight": "test"
+            },
+            {
+              "en": "He passed the driving test.",
+              "ja": "彼は運転免許試験に合格した。",
+              "highlight": "test"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 testum（土器）に由来。",
+      "synonyms": [
+        { "word": "exam", "trans": "試験" },
+        { "word": "trial", "trans": "試行" },
+        { "word": "assessment", "trans": "評価" }
+      ],
+      "antonyms": [
+        { "word": "certainty", "trans": "確実性" },
+        { "word": "trust", "trans": "信頼" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "testing", "trans": "テスト" },
+        { "word": "testify", "trans": "証言する" },
+        { "word": "testimony", "trans": "証言" }
+      ]
+    },
+    {
+      "number": 6012,
+      "word": "class",
+      "pos": "名詞",
+      "meaning": "クラス、授業； 階級； 分類",
+      "nuance": "「教育の場」や「社会経済的な階層」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She is in my English class.",
+              "ja": "彼女は私の英語のクラスにいる。",
+              "highlight": "class"
+            },
+            {
+              "en": "He belongs to the upper class.",
+              "ja": "彼は上流階級に属している。",
+              "highlight": "class"
+            },
+            {
+              "en": "The class of 2020 graduated in a pandemic.",
+              "ja": "2020年の卒業生はパンデミックの中で卒業した。",
+              "highlight": "class"
+            },
+            {
+              "en": "This animal belongs to the mammal class.",
+              "ja": "この動物は哺乳類に分類される。",
+              "highlight": "class"
+            },
+            {
+              "en": "She has class and elegance.",
+              "ja": "彼女は品と優雅さを持っている。",
+              "highlight": "class"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 classis（集団）に由来。",
+      "synonyms": [
+        { "word": "group", "trans": "グループ" },
+        { "word": "category", "trans": "カテゴリー" },
+        { "word": "rank", "trans": "階級" }
+      ],
+      "antonyms": [
+        { "word": "individual", "trans": "個人" },
+        { "word": "unclassified", "trans": "未分類の" },
+        { "word": "chaos", "trans": "無秩序" }
+      ],
+      "related": [
+        { "word": "classify", "trans": "分類する" },
+        { "word": "classic", "trans": "古典的な" },
+        { "word": "classroom", "trans": "教室" }
+      ]
+    },
+    {
+      "number": 6013,
+      "word": "sort",
+      "pos": "名詞 / 動詞",
+      "meaning": "種類； ～を分類する",
+      "nuance": "「種類」という意味で、'kind'とほぼ同じ。動詞では「分類する」。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "What sort of music do you like?",
+              "ja": "どんな種類の音楽が好きですか？",
+              "highlight": "sort"
+            },
+            {
+              "en": "He is the sort of person who never gives up.",
+              "ja": "彼は決して諦めないタイプの人だ。",
+              "highlight": "sort"
+            },
+            {
+              "en": "Sort these files alphabetically.",
+              "ja": "これらのファイルをアルファベット順に分類しなさい。",
+              "highlight": "Sort"
+            },
+            {
+              "en": "She sorted the clothes by color.",
+              "ja": "彼女は服を色別に分類した。",
+              "highlight": "sorted"
+            },
+            {
+              "en": "It's a sort of tradition in our family.",
+              "ja": "それは我が家の一種の伝統だ。",
+              "highlight": "sort"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sors（くじ）に由来。",
+      "synonyms": [
+        { "word": "kind", "trans": "種類" },
+        { "word": "type", "trans": "タイプ" },
+        { "word": "category", "trans": "カテゴリー" }
+      ],
+      "antonyms": [
+        { "word": "mix", "trans": "混ぜる" },
+        { "word": "jumble", "trans": "ごちゃ混ぜにする" },
+        { "word": "disorganize", "trans": "混乱させる" }
+      ],
+      "related": [
+        { "word": "sorting", "trans": "分類" },
+        { "word": "sorter", "trans": "分類機" },
+        { "word": "resort", "trans": "頼る" }
+      ]
+    },
+    {
+      "number": 6014,
+      "word": "alter",
+      "pos": "動詞",
+      "meaning": "～を変える",
+      "nuance": "「部分的に変更する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We need to alter our plans slightly.",
+              "ja": "計画を少し変更する必要がある。",
+              "highlight": "alter"
+            },
+            {
+              "en": "The dress was altered to fit her.",
+              "ja": "そのドレスは彼女に合うように直された。",
+              "highlight": "altered"
+            },
+            {
+              "en": "His expression altered when he heard the news.",
+              "ja": "彼はその知らせを聞いて表情を変えた。",
+              "highlight": "altered"
+            },
+            {
+              "en": "The new law alters the way we do business.",
+              "ja": "新しい法律は私たちのビジネスのやり方を変える。",
+              "highlight": "alters"
+            },
+            {
+              "en": "She altered her hairstyle for the party.",
+              "ja": "彼女はパーティーのために髪型を変えた。",
+              "highlight": "altered"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 alter（他の）に由来。",
+      "synonyms": [
+        { "word": "change", "trans": "変える" },
+        { "word": "modify", "trans": "修正する" },
+        { "word": "adjust", "trans": "調整する" }
+      ],
+      "antonyms": [
+        { "word": "preserve", "trans": "保存する" },
+        { "word": "maintain", "trans": "維持する" },
+        { "word": "fix", "trans": "固定する" }
+      ],
+      "related": [
+        { "word": "alteration", "trans": "変更" },
+        { "word": "altered", "trans": "変更された" },
+        { "word": "alternative", "trans": "代替の" }
+      ]
+    },
+    {
+      "number": 6015,
+      "word": "alternative",
+      "pos": "名詞 / 形容詞",
+      "meaning": "(取りうる)選択肢、(～の)代案(to～)； 代わりの",
+      "nuance": "「別の可能性」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We have no alternative but to wait.",
+              "ja": "私たちは待つ以外に選択肢がない。",
+              "highlight": "alternative"
+            },
+            {
+              "en": "Is there an alternative route?",
+              "ja": "別のルートはありますか？",
+              "highlight": "alternative"
+            },
+            {
+              "en": "She offered an alternative solution.",
+              "ja": "彼女は別の解決策を提案した。",
+              "highlight": "alternative"
+            },
+            {
+              "en": "The alternative to coffee is tea.",
+              "ja": "コーヒーの代わりにお茶がある。",
+              "highlight": "alternative"
+            },
+            {
+              "en": "We need to consider all alternatives.",
+              "ja": "全ての選択肢を考慮する必要がある。",
+              "highlight": "alternatives"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 alternare（交互にする）に由来。",
+      "synonyms": [
+        { "word": "option", "trans": "選択肢" },
+        { "word": "choice", "trans": "選択" },
+        { "word": "substitute", "trans": "代用品" }
+      ],
+      "antonyms": [
+        { "word": "necessity", "trans": "必然" },
+        { "word": "compulsion", "trans": "強制" },
+        { "word": "only way", "trans": "唯一の方法" }
+      ],
+      "related": [
+        { "word": "alternate", "trans": "交互の" },
+        { "word": "alternatively", "trans": "あるいは" },
+        { "word": "alternating", "trans": "交互に起こる" }
+      ]
+    },
+    {
+      "number": 6016,
+      "word": "option",
+      "pos": "名詞",
+      "meaning": "選択肢",
+      "nuance": "「選べるもの」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "You have two options: stay or leave.",
+              "ja": "あなたには2つの選択肢がある：留まるか去るか。",
+              "highlight": "options"
+            },
+            {
+              "en": "The car comes with several options.",
+              "ja": "その車にはいくつかのオプションが付いている。",
+              "highlight": "options"
+            },
+            {
+              "en": "I had no option but to agree.",
+              "ja": "同意する以外に選択肢がなかった。",
+              "highlight": "option"
+            },
+            {
+              "en": "The company offers a flexible work option.",
+              "ja": "その会社は柔軟な勤務オプションを提供している。",
+              "highlight": "option"
+            },
+            {
+              "en": "We need to explore all options.",
+              "ja": "全ての選択肢を検討する必要がある。",
+              "highlight": "options"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 optare（選ぶ）に由来。",
+      "synonyms": [
+        { "word": "choice", "trans": "選択" },
+        { "word": "alternative", "trans": "代案" },
+        { "word": "possibility", "trans": "可能性" }
+      ],
+      "antonyms": [
+        { "word": "necessity", "trans": "必然" },
+        { "word": "obligation", "trans": "義務" },
+        { "word": "compulsion", "trans": "強制" }
+      ],
+      "related": [
+        { "word": "optional", "trans": "任意の" },
+        { "word": "optionally", "trans": "任意で" },
+        { "word": "opt", "trans": "選ぶ" }
+      ]
+    },
+    {
+      "number": 6017,
+      "word": "adopt",
+      "pos": "動詞",
+      "meaning": "～(政策など)を採用する、～を養子にする",
+      "nuance": "「自分のものとして受け入れる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They decided to adopt a child.",
+              "ja": "彼らは子供を養子にすることに決めた。",
+              "highlight": "adopt"
+            },
+            {
+              "en": "The company adopted a new policy.",
+              "ja": "その会社は新しい方針を採用した。",
+              "highlight": "adopted"
+            },
+            {
+              "en": "She adopted a different approach.",
+              "ja": "彼女は別のアプローチを取った。",
+              "highlight": "adopted"
+            },
+            {
+              "en": "He adopted a healthy lifestyle.",
+              "ja": "彼は健康的なライフスタイルを取り入れた。",
+              "highlight": "adopted"
+            },
+            {
+              "en": "The committee adopted the proposal unanimously.",
+              "ja": "委員会はその提案を満場一致で採択した。",
+              "highlight": "adopted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 adoptare（選ぶ）に由来。",
+      "synonyms": [
+        { "word": "embrace", "trans": "受け入れる" },
+        { "word": "take on", "trans": "採用する" },
+        { "word": "foster", "trans": "里親になる" }
+      ],
+      "antonyms": [
+        { "word": "reject", "trans": "拒否する" },
+        { "word": "abandon", "trans": "放棄する" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "adoption", "trans": "養子縁組" },
+        { "word": "adoptive", "trans": "養子の" },
+        { "word": "adopted", "trans": "養子になった" }
+      ]
+    },
+    {
+      "number": 6018,
+      "word": "decide",
+      "pos": "動詞",
+      "meaning": "～を決定する",
+      "nuance": "「選択肢の中から一つに決める」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I decided to study abroad.",
+              "ja": "私は留学することに決めた。",
+              "highlight": "decided"
+            },
+            {
+              "en": "The court will decide the case tomorrow.",
+              "ja": "裁判所は明日その訴訟を判決する。",
+              "highlight": "decide"
+            },
+            {
+              "en": "She decided on the blue dress.",
+              "ja": "彼女は青いドレスに決めた。",
+              "highlight": "decided"
+            },
+            {
+              "en": "We need to decide who will lead the team.",
+              "ja": "誰がチームを率いるか決める必要がある。",
+              "highlight": "decide"
+            },
+            {
+              "en": "He decided against taking the job.",
+              "ja": "彼はその仕事を引き受けないことに決めた。",
+              "highlight": "decided"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 decidere（切り落とす）に由来。",
+      "synonyms": [
+        { "word": "determine", "trans": "決定する" },
+        { "word": "resolve", "trans": "決意する" },
+        { "word": "choose", "trans": "選ぶ" }
+      ],
+      "antonyms": [
+        { "word": "hesitate", "trans": "ためらう" },
+        { "word": "waver", "trans": "揺らぐ" },
+        { "word": "delay", "trans": "遅らせる" }
+      ],
+      "related": [
+        { "word": "decision", "trans": "決定" },
+        { "word": "decisive", "trans": "決定的な" },
+        { "word": "undecided", "trans": "未決の" }
+      ]
+    },
+    {
+      "number": 6019,
+      "word": "determine",
+      "pos": "動詞",
+      "meaning": "～を決定する",
+      "nuance": "「しっかりと決める」という意味で、'decide'よりも強い確信がある。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We need to determine the cause of the problem.",
+              "ja": "問題の原因を特定する必要がある。",
+              "highlight": "determine"
+            },
+            {
+              "en": "The judge will determine the sentence.",
+              "ja": "裁判官が刑を決定する。",
+              "highlight": "determine"
+            },
+            {
+              "en": "She determined to succeed no matter what.",
+              "ja": "彼女は何があっても成功すると決意した。",
+              "highlight": "determined"
+            },
+            {
+              "en": "The exam results will determine your grade.",
+              "ja": "試験の結果があなたの成績を決める。",
+              "highlight": "determine"
+            },
+            {
+              "en": "He determined that the theory was correct.",
+              "ja": "彼はその理論が正しいと確信した。",
+              "highlight": "determined"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 determinare（境界を定める）に由来。",
+      "synonyms": [
+        { "word": "decide", "trans": "決定する" },
+        { "word": "establish", "trans": "確立する" },
+        { "word": "ascertain", "trans": "確認する" }
+      ],
+      "antonyms": [
+        { "word": "uncertain", "trans": "不確かな" },
+        { "word": "doubt", "trans": "疑う" },
+        { "word": "hesitate", "trans": "ためらう" }
+      ],
+      "related": [
+        { "word": "determination", "trans": "決意" },
+        { "word": "determined", "trans": "決意した" },
+        { "word": "predetermine", "trans": "あらかじめ決める" }
+      ]
+    },
+    {
+      "number": 6020,
+      "word": "resolve",
+      "pos": "動詞",
+      "meaning": "～を決意する、～を解決する",
+      "nuance": "「強い決意をする」または「問題を解決する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We need to resolve this issue quickly.",
+              "ja": "この問題を迅速に解決する必要がある。",
+              "highlight": "resolve"
+            },
+            {
+              "en": "He resolved to work harder.",
+              "ja": "彼はもっと頑張ると決意した。",
+              "highlight": "resolved"
+            },
+            {
+              "en": "The conflict was resolved peacefully.",
+              "ja": "その紛争は平和的に解決された。",
+              "highlight": "resolved"
+            },
+            {
+              "en": "She resolved that she would never give up.",
+              "ja": "彼女は決して諦めないと決意した。",
+              "highlight": "resolved"
+            },
+            {
+              "en": "The problem has been resolved.",
+              "ja": "その問題は解決された。",
+              "highlight": "resolved"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 resolvere（解く）に由来。",
+      "synonyms": [
+        { "word": "solve", "trans": "解決する" },
+        { "word": "determine", "trans": "決定する" },
+        { "word": "settle", "trans": "解決する" }
+      ],
+      "antonyms": [
+        { "word": "complicate", "trans": "複雑にする" },
+        { "word": "aggravate", "trans": "悪化させる" },
+        { "word": "waver", "trans": "揺らぐ" }
+      ],
+      "related": [
+        { "word": "resolution", "trans": "決議" },
+        { "word": "resolute", "trans": "断固とした" },
+        { "word": "resolved", "trans": "決意した" }
+      ]
+    },
+    {
+      "number": 6021,
+      "word": "event",
+      "pos": "名詞",
+      "meaning": "(重要な)出来事、事件",
+      "nuance": "「特に重要な出来事」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The wedding was a major event.",
+              "ja": "その結婚式は大きな行事だった。",
+              "highlight": "event"
+            },
+            {
+              "en": "In the event of fire, use the stairs.",
+              "ja": "火事の際は階段を使用してください。",
+              "highlight": "event"
+            },
+            {
+              "en": "The event was attended by hundreds of people.",
+              "ja": "そのイベントには何百人もの人が参加した。",
+              "highlight": "event"
+            },
+            {
+              "en": "The festival is an annual event.",
+              "ja": "その祭りは毎年恒例の行事だ。",
+              "highlight": "event"
+            },
+            {
+              "en": "The discovery was a historic event.",
+              "ja": "その発見は歴史的な出来事だった。",
+              "highlight": "event"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 eventus（結果）に由来。",
+      "synonyms": [
+        { "word": "occurrence", "trans": "出来事" },
+        { "word": "incident", "trans": "事件" },
+        { "word": "happening", "trans": "出来事" }
+      ],
+      "antonyms": [
+        { "word": "non-event", "trans": "取るに足らない出来事" },
+        { "word": "routine", "trans": "日常" },
+        { "word": "nothing", "trans": "何もない" }
+      ],
+      "related": [
+        { "word": "eventual", "trans": "最終的な" },
+        { "word": "eventually", "trans": "結局は" },
+        { "word": "eventful", "trans": "出来事の多い" }
+      ]
+    },
+    {
+      "number": 6022,
+      "word": "incident",
+      "pos": "名詞",
+      "meaning": "(付随する)出来事、事件",
+      "nuance": "「特に重要でない出来事」や「トラブル」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "There was a minor incident at the school.",
+              "ja": "学校で小さな事件があった。",
+              "highlight": "incident"
+            },
+            {
+              "en": "The police are investigating the incident.",
+              "ja": "警察はその事件を調査している。",
+              "highlight": "incident"
+            },
+            {
+              "en": "He told me about an amusing incident that happened on his trip.",
+              "ja": "彼は旅行中に起きた面白い出来事について話してくれた。",
+              "highlight": "incident"
+            },
+            {
+              "en": "The incident caused a lot of controversy.",
+              "ja": "その事件は多くの論争を引き起こした。",
+              "highlight": "incident"
+            },
+            {
+              "en": "The incident was captured on camera.",
+              "ja": "その出来事はカメラに捉えられた。",
+              "highlight": "incident"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 incidere（起こる）に由来。",
+      "synonyms": [
+        { "word": "event", "trans": "出来事" },
+        { "word": "occurrence", "trans": "発生" },
+        { "word": "episode", "trans": "エピソード" }
+      ],
+      "antonyms": [
+        { "word": "non-event", "trans": "取るに足らない出来事" },
+        { "word": "routine", "trans": "日常" },
+        { "word": "peace", "trans": "平和" }
+      ],
+      "related": [
+        { "word": "incidental", "trans": "付随的な" },
+        { "word": "incidentally", "trans": "ところで" },
+        { "word": "accident", "trans": "事故" }
+      ]
+    },
+    {
+      "number": 6023,
+      "word": "accident",
+      "pos": "名詞",
+      "meaning": "(偶然の)事故、事件； 偶然",
+      "nuance": "「予期しない出来事」特に事故を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was injured in a car accident.",
+              "ja": "彼は交通事故で負傷した。",
+              "highlight": "accident"
+            },
+            {
+              "en": "We met by accident.",
+              "ja": "私たちは偶然に出会った。",
+              "highlight": "accident"
+            },
+            {
+              "en": "The accident caused a traffic jam.",
+              "ja": "その事故は交通渋滞を引き起こした。",
+              "highlight": "accident"
+            },
+            {
+              "en": "It was no accident that he arrived late.",
+              "ja": "彼が遅刻したのは偶然ではなかった。",
+              "highlight": "accident"
+            },
+            {
+              "en": "He survived the accident with minor injuries.",
+              "ja": "彼は軽傷でその事故を生き延びた。",
+              "highlight": "accident"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 accidere（起こる）に由来。",
+      "synonyms": [
+        { "word": "crash", "trans": "衝突" },
+        { "word": "mishap", "trans": "不幸な出来事" },
+        { "word": "chance", "trans": "偶然" }
+      ],
+      "antonyms": [
+        { "word": "intention", "trans": "意図" },
+        { "word": "plan", "trans": "計画" },
+        { "word": "design", "trans": "設計" }
+      ],
+      "related": [
+        { "word": "accidental", "trans": "偶然の" },
+        { "word": "accidentally", "trans": "偶然に" },
+        { "word": "incident", "trans": "出来事" }
+      ]
+    },
+    {
+      "number": 6024,
+      "word": "affair",
+      "pos": "名詞",
+      "meaning": "出来事、事件； 関心事； 情事",
+      "nuance": "「出来事」や「関係」を指す。特にスキャンダラスな関係を表すこともある。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The wedding was a grand affair.",
+              "ja": "その結婚式は盛大な行事だった。",
+              "highlight": "affair"
+            },
+            {
+              "en": "He had an affair with his coworker.",
+              "ja": "彼は同僚と不倫関係にあった。",
+              "highlight": "affair"
+            },
+            {
+              "en": "The scandal was a private affair.",
+              "ja": "そのスキャンダルは私的な問題だった。",
+              "highlight": "affair"
+            },
+            {
+              "en": "The meeting was a boring affair.",
+              "ja": "その会議は退屈なものだった。",
+              "highlight": "affair"
+            },
+            {
+              "en": "She handles the company's financial affairs.",
+              "ja": "彼女は会社の財務を担当している。",
+              "highlight": "affairs"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 afaire（すること）に由来。",
+      "synonyms": [
+        { "word": "event", "trans": "出来事" },
+        { "word": "incident", "trans": "事件" },
+        { "word": "matter", "trans": "問題" }
+      ],
+      "antonyms": [
+        { "word": "non-event", "trans": "取るに足らない出来事" },
+        { "word": "silence", "trans": "沈黙" },
+        { "word": "nothing", "trans": "何もない" }
+      ],
+      "related": [
+        { "word": "affairs", "trans": "業務" },
+        { "word": "love affair", "trans": "恋愛関係" },
+        { "word": "state of affairs", "trans": "情勢" }
+      ]
+    },
+    {
+      "number": 6025,
+      "word": "occur",
+      "pos": "動詞",
+      "meaning": "起こる； (～に)思い浮かぶ(to～)",
+      "nuance": "「出来事が発生する」または「考えが浮かぶ」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The accident occurred at midnight.",
+              "ja": "その事故は真夜中に発生した。",
+              "highlight": "occurred"
+            },
+            {
+              "en": "It never occurred to me that he might be lying.",
+              "ja": "彼が嘘をついているかもしれないとは思ってもみなかった。",
+              "highlight": "occurred"
+            },
+            {
+              "en": "A strange idea occurred to her.",
+              "ja": "彼女に奇妙な考えが浮かんだ。",
+              "highlight": "occurred"
+            },
+            {
+              "en": "The event occurs every year.",
+              "ja": "そのイベントは毎年行われる。",
+              "highlight": "occurs"
+            },
+            {
+              "en": "Did it occur to you to call the police?",
+              "ja": "警察に電話するという考えは浮かびましたか？",
+              "highlight": "occur"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 occurrere（遭遇する）に由来。",
+      "synonyms": [
+        { "word": "happen", "trans": "起こる" },
+        { "word": "take place", "trans": "行われる" },
+        { "word": "come to mind", "trans": "思い浮かぶ" }
+      ],
+      "antonyms": [
+        { "word": "avoid", "trans": "避ける" },
+        { "word": "prevent", "trans": "防ぐ" },
+        { "word": "forget", "trans": "忘れる" }
+      ],
+      "related": [
+        { "word": "occurrence", "trans": "出来事" },
+        { "word": "recur", "trans": "再発する" },
+        { "word": "recurrence", "trans": "再発" }
+      ]
+    },
+    {
+      "number": 6026,
+      "word": "take place",
+      "pos": "動詞句",
+      "meaning": "(予定されていたことが)起こる、行われる",
+      "nuance": "「計画された出来事が発生する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The meeting will take place on Monday.",
+              "ja": "その会議は月曜日に行われる。",
+              "highlight": "take place"
+            },
+            {
+              "en": "The concert took place last night.",
+              "ja": "そのコンサートは昨夜行われた。",
+              "highlight": "took place"
+            },
+            {
+              "en": "The wedding took place in a small church.",
+              "ja": "その結婚式は小さな教会で行われた。",
+              "highlight": "took place"
+            },
+            {
+              "en": "The changes took place gradually.",
+              "ja": "その変化は徐々に起こった。",
+              "highlight": "took place"
+            },
+            {
+              "en": "The ceremony will take place outdoors.",
+              "ja": "その式典は屋外で行われる。",
+              "highlight": "take place"
+            }
+          ]
+        }
+      ],
+      "etymology": "take（取る）+ place（場所）に由来。",
+      "synonyms": [
+        { "word": "happen", "trans": "起こる" },
+        { "word": "occur", "trans": "発生する" },
+        { "word": "be held", "trans": "開催される" }
+      ],
+      "antonyms": [
+        { "word": "cancel", "trans": "中止する" },
+        { "word": "avoid", "trans": "避ける" },
+        { "word": "prevent", "trans": "防ぐ" }
+      ],
+      "related": [
+        { "word": "place", "trans": "場所" },
+        { "word": "take", "trans": "取る" },
+        { "word": "take effect", "trans": "効力を発揮する" }
+      ]
+    },
+    {
+      "number": 6027,
+      "word": "situation",
+      "pos": "名詞",
+      "meaning": "(物・人が置かれている)状況",
+      "nuance": "「ある時点での状態や環境」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The situation is under control.",
+              "ja": "状況はコントロール下にある。",
+              "highlight": "situation"
+            },
+            {
+              "en": "He found himself in a difficult situation.",
+              "ja": "彼は困難な状況にいることに気づいた。",
+              "highlight": "situation"
+            },
+            {
+              "en": "We need to assess the situation.",
+              "ja": "状況を評価する必要がある。",
+              "highlight": "situation"
+            },
+            {
+              "en": "The situation is getting worse.",
+              "ja": "状況は悪化している。",
+              "highlight": "situation"
+            },
+            {
+              "en": "She handled the situation well.",
+              "ja": "彼女はその状況をうまく処理した。",
+              "highlight": "situation"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 situatio（位置）に由来。",
+      "synonyms": [
+        { "word": "circumstance", "trans": "状況" },
+        { "word": "condition", "trans": "状態" },
+        { "word": "state", "trans": "状態" }
+      ],
+      "antonyms": [
+        { "word": "certainty", "trans": "確実性" },
+        { "word": "stability", "trans": "安定" },
+        { "word": "normality", "trans": "正常" }
+      ],
+      "related": [
+        { "word": "situational", "trans": "状況の" },
+        { "word": "situate", "trans": "配置する" },
+        { "word": "site", "trans": "場所" }
+      ]
+    },
+    {
+      "number": 6028,
+      "word": "condition",
+      "pos": "名詞 / 動詞",
+      "meaning": "状況、体調； 条件； ～を条件づける、制約する",
+      "nuance": "「状態」または「前提条件」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The patient is in critical condition.",
+              "ja": "その患者は危篤状態だ。",
+              "highlight": "condition"
+            },
+            {
+              "en": "You can borrow the book on one condition.",
+              "ja": "一つ条件を付けてその本を貸してもいい。",
+              "highlight": "condition"
+            },
+            {
+              "en": "The car is in good condition.",
+              "ja": "その車は状態が良い。",
+              "highlight": "condition"
+            },
+            {
+              "en": "His success was conditioned by hard work.",
+              "ja": "彼の成功は勤勉によって条件づけられていた。",
+              "highlight": "conditioned"
+            },
+            {
+              "en": "The terms and conditions are attached.",
+              "ja": "利用規約が添付されている。",
+              "highlight": "conditions"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 condicio（合意）に由来。",
+      "synonyms": [
+        { "word": "state", "trans": "状態" },
+        { "word": "situation", "trans": "状況" },
+        { "word": "requirement", "trans": "必要条件" }
+      ],
+      "antonyms": [
+        { "word": "disorder", "trans": "無秩序" },
+        { "word": "chaos", "trans": "混乱" },
+        { "word": "uncondition", "trans": "無条件" }
+      ],
+      "related": [
+        { "word": "conditional", "trans": "条件付きの" },
+        { "word": "conditioner", "trans": "コンディショナー" },
+        { "word": "precondition", "trans": "前提条件" }
+      ]
+    },
+    {
+      "number": 6029,
+      "word": "circumstance",
+      "pos": "名詞",
+      "meaning": "状況、環境",
+      "nuance": "「ある出来事を取り巻く状況」を指す。複数形で使われることが多い。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The circumstances forced him to resign.",
+              "ja": "その状況が彼に辞任を余儀なくさせた。",
+              "highlight": "circumstances"
+            },
+            {
+              "en": "We need to consider the circumstances.",
+              "ja": "状況を考慮する必要がある。",
+              "highlight": "circumstances"
+            },
+            {
+              "en": "Under no circumstances should you open the door.",
+              "ja": "いかなる状況でもドアを開けてはいけない。",
+              "highlight": "circumstances"
+            },
+            {
+              "en": "The wedding was cancelled due to unforeseen circumstances.",
+              "ja": "予期せぬ事情により結婚式は中止された。",
+              "highlight": "circumstances"
+            },
+            {
+              "en": "She acted according to the circumstances.",
+              "ja": "彼女は状況に応じて行動した。",
+              "highlight": "circumstances"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 circumstantia（周囲に立つ）に由来。",
+      "synonyms": [
+        { "word": "situation", "trans": "状況" },
+        { "word": "condition", "trans": "状態" },
+        { "word": "context", "trans": "文脈" }
+      ],
+      "antonyms": [
+        { "word": "certainty", "trans": "確実性" },
+        { "word": "predictability", "trans": "予測可能性" },
+        { "word": "control", "trans": "制御" }
+      ],
+      "related": [
+        { "word": "circumstantial", "trans": "状況証拠の" },
+        { "word": "circumstantially", "trans": "状況的に" },
+        { "word": "circumstance", "trans": "名詞" }
+      ]
+    },
+    {
+      "number": 6030,
+      "word": "participate",
+      "pos": "動詞",
+      "meaning": "参加する(in～)",
+      "nuance": "「活動やイベントに加わる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Many students participated in the contest.",
+              "ja": "多くの学生がそのコンテストに参加した。",
+              "highlight": "participated"
+            },
+            {
+              "en": "She participated in the discussion actively.",
+              "ja": "彼女はその議論に積極的に参加した。",
+              "highlight": "participated"
+            },
+            {
+              "en": "He refused to participate in the project.",
+              "ja": "彼はそのプロジェクトへの参加を拒否した。",
+              "highlight": "participate"
+            },
+            {
+              "en": "Everyone is encouraged to participate.",
+              "ja": "皆が参加することを奨励されている。",
+              "highlight": "participate"
+            },
+            {
+              "en": "The team participated in the tournament.",
+              "ja": "そのチームはトーナメントに参加した。",
+              "highlight": "participated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 participare（分け前を持つ）に由来。",
+      "synonyms": [
+        { "word": "take part", "trans": "参加する" },
+        { "word": "join", "trans": "加わる" },
+        { "word": "engage", "trans": "従事する" }
+      ],
+      "antonyms": [
+        { "word": "withdraw", "trans": "撤退する" },
+        { "word": "refrain", "trans": "控える" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "participation", "trans": "参加" },
+        { "word": "participant", "trans": "参加者" },
+        { "word": "participatory", "trans": "参加型の" }
+      ]
+    },
+    {
+      "number": 6031,
+      "word": "take part",
+      "pos": "動詞句",
+      "meaning": "参加する(in～)",
+      "nuance": "「活動に加わる」という意味のカジュアルな表現。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I decided to take part in the marathon.",
+              "ja": "私はマラソンに参加することに決めた。",
+              "highlight": "take part"
+            },
+            {
+              "en": "Many people took part in the protest.",
+              "ja": "多くの人がその抗議活動に参加した。",
+              "highlight": "took part"
+            },
+            {
+              "en": "She took part in the school play.",
+              "ja": "彼女は学芸会に参加した。",
+              "highlight": "took part"
+            },
+            {
+              "en": "Will you take part in the meeting?",
+              "ja": "その会議に参加しますか？",
+              "highlight": "take part"
+            },
+            {
+              "en": "He refused to take part in the ceremony.",
+              "ja": "彼はその式典への参加を拒否した。",
+              "highlight": "take part"
+            }
+          ]
+        }
+      ],
+      "etymology": "take（取る）+ part（部分）に由来。",
+      "synonyms": [
+        { "word": "participate", "trans": "参加する" },
+        { "word": "join", "trans": "加わる" },
+        { "word": "engage in", "trans": "従事する" }
+      ],
+      "antonyms": [
+        { "word": "withdraw", "trans": "撤退する" },
+        { "word": "refrain", "trans": "控える" },
+        { "word": "avoid", "trans": "避ける" }
+      ],
+      "related": [
+        { "word": "part", "trans": "部分" },
+        { "word": "take", "trans": "取る" },
+        { "word": "take place", "trans": "行われる" }
+      ]
+    },
+    {
+      "number": 6032,
+      "word": "involve",
+      "pos": "動詞",
+      "meaning": "～を(必然的に)含む、関与させる、巻き込む、伴う、必要とする、もたらす",
+      "nuance": "「～を含む」または「～を巻き込む」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The job involves traveling a lot.",
+              "ja": "その仕事は多くの出張を伴う。",
+              "highlight": "involves"
+            },
+            {
+              "en": "He was involved in a car accident.",
+              "ja": "彼は交通事故に巻き込まれた。",
+              "highlight": "involved"
+            },
+            {
+              "en": "The project involves several departments.",
+              "ja": "そのプロジェクトは複数の部門を巻き込む。",
+              "highlight": "involves"
+            },
+            {
+              "en": "She doesn't want to get involved.",
+              "ja": "彼女は関わり合いたくない。",
+              "highlight": "involved"
+            },
+            {
+              "en": "The operation involves risk.",
+              "ja": "その手術はリスクを伴う。",
+              "highlight": "involves"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 involvere（包み込む）に由来。",
+      "synonyms": [
+        { "word": "include", "trans": "含む" },
+        { "word": "entail", "trans": "伴う" },
+        { "word": "implicate", "trans": "巻き込む" }
+      ],
+      "antonyms": [
+        { "word": "exclude", "trans": "除外する" },
+        { "word": "avoid", "trans": "避ける" },
+        { "word": "omit", "trans": "省く" }
+      ],
+      "related": [
+        { "word": "involvement", "trans": "関与" },
+        { "word": "involved", "trans": "関与した" },
+        { "word": "involuntary", "trans": "不随意の" }
+      ]
+    },
+    {
+      "number": 6033,
+      "word": "entail",
+      "pos": "動詞",
+      "meaning": "～を伴う、必要とする； を含意する",
+      "nuance": "「必然的に伴う」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The job entails a lot of responsibility.",
+              "ja": "その仕事は多くの責任を伴う。",
+              "highlight": "entails"
+            },
+            {
+              "en": "The project will entail significant costs.",
+              "ja": "そのプロジェクトは多大な費用を必要とする。",
+              "highlight": "entail"
+            },
+            {
+              "en": "Changing jobs may entail a pay cut.",
+              "ja": "転職は減給を伴うかもしれない。",
+              "highlight": "entail"
+            },
+            {
+              "en": "The new law entails stricter regulations.",
+              "ja": "新しい法律はより厳しい規制を伴う。",
+              "highlight": "entails"
+            },
+            {
+              "en": "The journey entails a long flight.",
+              "ja": "その旅は長時間のフライトを伴う。",
+              "highlight": "entails"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 talis（そのような）に由来。",
+      "synonyms": [
+        { "word": "involve", "trans": "伴う" },
+        { "word": "require", "trans": "必要とする" },
+        { "word": "necessitate", "trans": "必要とする" }
+      ],
+      "antonyms": [
+        { "word": "exclude", "trans": "除外する" },
+        { "word": "omit", "trans": "省く" },
+        { "word": "avoid", "trans": "避ける" }
+      ],
+      "related": [
+        { "word": "entailment", "trans": "含意" },
+        { "word": "entailed", "trans": "伴った" },
+        { "word": "entailing", "trans": "伴うこと" }
+      ]
+    },
+    {
+      "number": 6034,
+      "word": "engage",
+      "pos": "動詞",
+      "meaning": "～を従事させる； (～に)従事する(in～)",
+      "nuance": "「活動に参加する」または「雇う」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She engaged in conversation with her neighbor.",
+              "ja": "彼女は隣人と会話を交わした。",
+              "highlight": "engaged"
+            },
+            {
+              "en": "The company engaged a new lawyer.",
+              "ja": "その会社は新しい弁護士を雇った。",
+              "highlight": "engaged"
+            },
+            {
+              "en": "He is engaged to be married.",
+              "ja": "彼は婚約している。",
+              "highlight": "engaged"
+            },
+            {
+              "en": "The gears engaged smoothly.",
+              "ja": "ギアがスムーズにかみ合った。",
+              "highlight": "engaged"
+            },
+            {
+              "en": "She engaged in volunteer work.",
+              "ja": "彼女はボランティア活動に従事した。",
+              "highlight": "engaged"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in（中へ）+ gage（誓約）に由来。",
+      "synonyms": [
+        { "word": "participate", "trans": "参加する" },
+        { "word": "hire", "trans": "雇う" },
+        { "word": "involve", "trans": "従事させる" }
+      ],
+      "antonyms": [
+        { "word": "fire", "trans": "解雇する" },
+        { "word": "disengage", "trans": "解放する" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "engagement", "trans": "婚約" },
+        { "word": "engaging", "trans": "魅力的な" },
+        { "word": "disengage", "trans": "解放する" }
+      ]
+    },
+    {
+      "number": 6035,
+      "word": "indulge",
+      "pos": "動詞",
+      "meaning": "～を没頭させる、甘やかす (～に)没頭する、耽る(in～)",
+      "nuance": "「欲望を満たす」または「甘やかす」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She indulged herself with a piece of cake.",
+              "ja": "彼女はケーキを食べて自分を甘やかした。",
+              "highlight": "indulged"
+            },
+            {
+              "en": "He indulges in his hobby of painting.",
+              "ja": "彼は絵を描くという趣味に没頭している。",
+              "highlight": "indulges"
+            },
+            {
+              "en": "The grandparents indulged the children.",
+              "ja": "祖父母は子供たちを甘やかした。",
+              "highlight": "indulged"
+            },
+            {
+              "en": "I indulged in a long bath.",
+              "ja": "私は長風呂を楽しんだ。",
+              "highlight": "indulged"
+            },
+            {
+              "en": "He indulged his passion for music.",
+              "ja": "彼は音楽への情熱を満たした。",
+              "highlight": "indulged"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 indulgere（譲歩する）に由来。",
+      "synonyms": [
+        { "word": "pamper", "trans": "甘やかす" },
+        { "word": "spoil", "trans": "甘やかす" },
+        { "word": "gratify", "trans": "満足させる" }
+      ],
+      "antonyms": [
+        { "word": "restrain", "trans": "抑制する" },
+        { "word": "deny", "trans": "拒否する" },
+        { "word": "abstain", "trans": "控える" }
+      ],
+      "related": [
+        { "word": "indulgence", "trans": "贅沢" },
+        { "word": "indulgent", "trans": "甘やかす" },
+        { "word": "self-indulgence", "trans": "自己放縦" }
+      ]
+    },
+    {
+      "number": 6036,
+      "word": "devote",
+      "pos": "動詞",
+      "meaning": "～(金・時間・労力)を(…に)捧げる、割く",
+      "nuance": "「時間や労力を特定の目的に集中させる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She devoted her life to helping others.",
+              "ja": "彼女は自分の人生を他人を助けることに捧げた。",
+              "highlight": "devoted"
+            },
+            {
+              "en": "He devotes an hour a day to exercise.",
+              "ja": "彼は毎日1時間を運動に費やしている。",
+              "highlight": "devotes"
+            },
+            {
+              "en": "They devoted all their resources to the project.",
+              "ja": "彼らは全てのリソースをそのプロジェクトに注いだ。",
+              "highlight": "devoted"
+            },
+            {
+              "en": "She is devoted to her family.",
+              "ja": "彼女は家族に献身的だ。",
+              "highlight": "devoted"
+            },
+            {
+              "en": "He devoted himself to his studies.",
+              "ja": "彼は勉学に専念した。",
+              "highlight": "devoted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 devovere（誓う）に由来。",
+      "synonyms": [
+        { "word": "dedicate", "trans": "捧げる" },
+        { "word": "commit", "trans": "専念する" },
+        { "word": "allocate", "trans": "割り当てる" }
+      ],
+      "antonyms": [
+        { "word": "neglect", "trans": "怠る" },
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "waste", "trans": "浪費する" }
+      ],
+      "related": [
+        { "word": "devotion", "trans": "献身" },
+        { "word": "devoted", "trans": "献身的な" },
+        { "word": "devotee", "trans": "熱心な信者" }
+      ]
+    },
+    {
+      "number": 6037,
+      "word": "act",
+      "pos": "名詞 / 動詞",
+      "meaning": "行動する； 行動； 法令",
+      "nuance": "「行動する」または「法律」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "We need to act quickly.",
+              "ja": "迅速に行動する必要がある。",
+              "highlight": "act"
+            },
+            {
+              "en": "The act of kindness touched everyone.",
+              "ja": "その親切な行為は皆を感動させた。",
+              "highlight": "act"
+            },
+            {
+              "en": "Parliament passed a new act.",
+              "ja": "議会は新しい法律を可決した。",
+              "highlight": "act"
+            },
+            {
+              "en": "He acted as if nothing had happened.",
+              "ja": "彼は何事もなかったかのように振る舞った。",
+              "highlight": "acted"
+            },
+            {
+              "en": "The actor performed on stage.",
+              "ja": "その俳優は舞台で演技した。",
+              "highlight": "actor"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 actus（行動）に由来。",
+      "synonyms": [
+        { "word": "action", "trans": "行動" },
+        { "word": "deed", "trans": "行為" },
+        { "word": "law", "trans": "法律" }
+      ],
+      "antonyms": [
+        { "word": "inaction", "trans": "不活動" },
+        { "word": "idleness", "trans": "怠惰" },
+        { "word": "reaction", "trans": "反応" }
+      ],
+      "related": [
+        { "word": "action", "trans": "行動" },
+        { "word": "actor", "trans": "俳優" },
+        { "word": "active", "trans": "活発な" }
+      ]
+    },
+    {
+      "number": 6038,
+      "word": "enact",
+      "pos": "動詞",
+      "meaning": "～(法律)を制定する",
+      "nuance": "「法律を成立させる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Congress enacted a new tax law.",
+              "ja": "議会は新しい税法を制定した。",
+              "highlight": "enacted"
+            },
+            {
+              "en": "The law was enacted in 1990.",
+              "ja": "その法律は1990年に制定された。",
+              "highlight": "enacted"
+            },
+            {
+              "en": "The government enacted reforms.",
+              "ja": "政府は改革を実施した。",
+              "highlight": "enacted"
+            },
+            {
+              "en": "The scene was enacted perfectly.",
+              "ja": "その場面は完璧に演じられた。",
+              "highlight": "enacted"
+            },
+            {
+              "en": "The policy was enacted to protect the environment.",
+              "ja": "その政策は環境を保護するために制定された。",
+              "highlight": "enacted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 in（中へ）+ agere（行動する）に由来。",
+      "synonyms": [
+        { "word": "pass", "trans": "可決する" },
+        { "word": "legislate", "trans": "立法する" },
+        { "word": "establish", "trans": "制定する" }
+      ],
+      "antonyms": [
+        { "word": "repeal", "trans": "廃止する" },
+        { "word": "abolish", "trans": "廃止する" },
+        { "word": "cancel", "trans": "取り消す" }
+      ],
+      "related": [
+        { "word": "enactment", "trans": "制定" },
+        { "word": "enactor", "trans": "制定者" },
+        { "word": "reenact", "trans": "再現する" }
+      ]
+    },
+    {
+      "number": 6039,
+      "word": "behave",
+      "pos": "動詞",
+      "meaning": "行動する、ふるまう",
+      "nuance": "「特定の方法で行動する」という意味。特に「行儀よく振る舞う」という意味でも使われる。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The children behaved well at the party.",
+              "ja": "子供たちはパーティーで行儀よく振る舞った。",
+              "highlight": "behaved"
+            },
+            {
+              "en": "He behaved like a child.",
+              "ja": "彼は子供のように振る舞った。",
+              "highlight": "behaved"
+            },
+            {
+              "en": "The machine is behaving strangely.",
+              "ja": "その機械は奇妙な動作をしている。",
+              "highlight": "behaving"
+            },
+            {
+              "en": "She was told to behave herself.",
+              "ja": "彼女は行儀よくするように言われた。",
+              "highlight": "behave"
+            },
+            {
+              "en": "He doesn't know how to behave in public.",
+              "ja": "彼は公共の場での振る舞い方を知らない。",
+              "highlight": "behave"
+            }
+          ]
+        }
+      ],
+      "etymology": "be- + have（持つ）に由来。",
+      "synonyms": [
+        { "word": "act", "trans": "行動する" },
+        { "word": "conduct oneself", "trans": "振る舞う" },
+        { "word": "perform", "trans": "実行する" }
+      ],
+      "antonyms": [
+        { "word": "misbehave", "trans": "悪ふざけする" },
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "disobey", "trans": "従わない" }
+      ],
+      "related": [
+        { "word": "behavior", "trans": "行動" },
+        { "word": "behaved", "trans": "行儀の良い" },
+        { "word": "misbehave", "trans": "悪さをする" }
+      ]
+    },
+    {
+      "number": 6040,
+      "word": "conduct",
+      "pos": "動詞 / 名詞",
+      "meaning": "～(研究・実験・業務など)を行う； 行為",
+      "nuance": "「活動を実施する」または「人の振る舞い」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The scientist conducted an experiment.",
+              "ja": "その科学者は実験を行った。",
+              "highlight": "conducted"
+            },
+            {
+              "en": "His conduct at the meeting was inappropriate.",
+              "ja": "会議での彼の行動は不適切だった。",
+              "highlight": "conduct"
+            },
+            {
+              "en": "The orchestra was conducted by a famous conductor.",
+              "ja": "そのオーケストラは有名な指揮者によって指揮された。",
+              "highlight": "conducted"
+            },
+            {
+              "en": "The survey was conducted online.",
+              "ja": "その調査はオンラインで実施された。",
+              "highlight": "conducted"
+            },
+            {
+              "en": "She conducted herself with dignity.",
+              "ja": "彼女は威厳を持って振る舞った。",
+              "highlight": "conducted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 conducere（導く）に由来。",
+      "synonyms": [
+        { "word": "perform", "trans": "実行する" },
+        { "word": "behavior", "trans": "行動" },
+        { "word": "manage", "trans": "管理する" }
+      ],
+      "antonyms": [
+        { "word": "misconduct", "trans": "不正行為" },
+        { "word": "neglect", "trans": "怠る" },
+        { "word": "ignore", "trans": "無視する" }
+      ],
+      "related": [
+        { "word": "conductor", "trans": "指揮者" },
+        { "word": "conductivity", "trans": "伝導性" },
+        { "word": "semiconductor", "trans": "半導体" }
+      ]
+    },
+    {
+      "number": 6041,
+      "word": "attitude",
+      "pos": "名詞",
+      "meaning": "態度、考え方",
+      "nuance": "「物事に対する考え方や感情の表れ」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She has a positive attitude towards life.",
+              "ja": "彼女は人生に対して前向きな態度を持っている。",
+              "highlight": "attitude"
+            },
+            {
+              "en": "His attitude towards work is poor.",
+              "ja": "彼の仕事に対する態度は悪い。",
+              "highlight": "attitude"
+            },
+            {
+              "en": "A good attitude is important for success.",
+              "ja": "良い態度は成功にとって重要だ。",
+              "highlight": "attitude"
+            },
+            {
+              "en": "He showed a hostile attitude.",
+              "ja": "彼は敵対的な態度を示した。",
+              "highlight": "attitude"
+            },
+            {
+              "en": "Your attitude affects how others see you.",
+              "ja": "あなたの態度は他人があなたをどう見るかに影響する。",
+              "highlight": "attitude"
+            }
+          ]
+        }
+      ],
+      "etymology": "イタリア語 attitudine（適性）に由来。",
+      "synonyms": [
+        { "word": "mindset", "trans": "考え方" },
+        { "word": "outlook", "trans": "見解" },
+        { "word": "perspective", "trans": "視点" }
+      ],
+      "antonyms": [
+        { "word": "indifference", "trans": "無関心" },
+        { "word": "apathy", "trans": "無感動" },
+        { "word": "negativity", "trans": "否定的態度" }
+      ],
+      "related": [
+        { "word": "attitudinal", "trans": "態度の" },
+        { "word": "attitude problem", "trans": "態度の問題" },
+        { "word": "mental attitude", "trans": "精神的態度" }
+      ]
+    }
+  ]
+}
