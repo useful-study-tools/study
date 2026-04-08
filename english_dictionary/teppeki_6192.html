@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#30	宗教・民族・慣習 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #30	宗教・民族・慣習
+    </div>
+    
+    <h2 class="section-title">#30	宗教・民族・慣習</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6139.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6192-religion.html"><span class="word-id">6192</span><span class="word-name">religion</span><span class="word-meaning">宗教 信仰</span></a></li>
+        <li class="word-item"><a href="data/6193-faith.html"><span class="word-id">6193</span><span class="word-name">faith</span><span class="word-meaning">信頼、信仰、信念</span></a></li>
+        <li class="word-item"><a href="data/6194-worship.html"><span class="word-id">6194</span><span class="word-name">worship</span><span class="word-meaning">崇拝； ～を崇拝する</span></a></li>
+        <li class="word-item"><a href="data/6195-doctrine.html"><span class="word-id">6195</span><span class="word-name">doctrine</span><span class="word-meaning">教養、学説</span></a></li>
+        <li class="word-item"><a href="data/6196-confidence.html"><span class="word-id">6196</span><span class="word-name">confidence</span><span class="word-meaning">信頼、自信</span></a></li>
+        <li class="word-item"><a href="data/6197-credit.html"><span class="word-id">6197</span><span class="word-name">credit</span><span class="word-meaning">信用、称賛、評判、功績</span></a></li>
+        <li class="word-item"><a href="data/6198-incredible.html"><span class="word-id">6198</span><span class="word-name">incredible</span><span class="word-meaning">信じられない</span></a></li>
+        <li class="word-item"><a href="data/6199-Buddhism.html"><span class="word-id">6199</span><span class="word-name">Buddhism</span><span class="word-meaning">仏教</span></a></li>
+        <li class="word-item"><a href="data/6200-Muslim.html"><span class="word-id">6200</span><span class="word-name">Muslim</span><span class="word-meaning">イスラム教徒、イスラム教の</span></a></li>
+        <li class="word-item"><a href="data/6201-Christianity.html"><span class="word-id">6201</span><span class="word-name">Christianity</span><span class="word-meaning">キリスト教</span></a></li>
+        <li class="word-item"><a href="data/6202-Catholic.html"><span class="word-id">6202</span><span class="word-name">Catholic</span><span class="word-meaning">カトリックの、カトリック教徒</span></a></li>
+        <li class="word-item"><a href="data/6203-Protestant.html"><span class="word-id">6203</span><span class="word-name">Protestant</span><span class="word-meaning">プロテスタントの； 新教徒</span></a></li>
+        <li class="word-item"><a href="data/6204-priest.html"><span class="word-id">6204</span><span class="word-name">priest</span><span class="word-meaning">牧師、司祭</span></a></li>
+        <li class="word-item"><a href="data/6205-clergy.html"><span class="word-id">6205</span><span class="word-name">clergy</span><span class="word-meaning">聖職者</span></a></li>
+        <li class="word-item"><a href="data/6206-preach.html"><span class="word-id">6206</span><span class="word-name">preach</span><span class="word-meaning">説く、説教する</span></a></li>
+        <li class="word-item"><a href="data/6207-pilgrim.html"><span class="word-id">6207</span><span class="word-name">pilgrim</span><span class="word-meaning">巡礼者</span></a></li>
+        <li class="word-item"><a href="data/6208-divine.html"><span class="word-id">6208</span><span class="word-name">divine</span><span class="word-meaning">神の、神々しい</span></a></li>
+        <li class="word-item"><a href="data/6209-sacred.html"><span class="word-id">6209</span><span class="word-name">sacred</span><span class="word-meaning">神聖な</span></a></li>
+        <li class="word-item"><a href="data/6210-sacrifice.html"><span class="word-id">6210</span><span class="word-name">sacrifice</span><span class="word-meaning">犠牲にする； 犠牲； 生け贄</span></a></li>
+        <li class="word-item"><a href="data/6211-saint.html"><span class="word-id">6211</span><span class="word-name">saint</span><span class="word-meaning">聖人； 聖人のような人</span></a></li>
+        <li class="word-item"><a href="data/6212-holy.html"><span class="word-id">6212</span><span class="word-name">holy</span><span class="word-meaning">神聖な</span></a></li>
+        <li class="word-item"><a href="data/6213-shrine.html"><span class="word-id">6213</span><span class="word-name">shrine</span><span class="word-meaning">神社</span></a></li>
+        <li class="word-item"><a href="data/6214-temple.html"><span class="word-id">6214</span><span class="word-name">temple</span><span class="word-meaning">寺院、神殿</span></a></li>
+        <li class="word-item"><a href="data/6215-ritual.html"><span class="word-id">6215</span><span class="word-name">ritual</span><span class="word-meaning">儀式</span></a></li>
+        <li class="word-item"><a href="data/6216-ceremony.html"><span class="word-id">6216</span><span class="word-name">ceremony</span><span class="word-meaning">儀式、式典</span></a></li>
+        <li class="word-item"><a href="data/6217-swear.html"><span class="word-id">6217</span><span class="word-name">swear</span><span class="word-meaning">誓う； ののしる</span></a></li>
+        <li class="word-item"><a href="data/6218-bless.html"><span class="word-id">6218</span><span class="word-name">bless</span><span class="word-meaning">祝福する</span></a></li>
+        <li class="word-item"><a href="data/6219-enchant.html"><span class="word-id">6219</span><span class="word-name">enchant</span><span class="word-meaning">魔法をかける； 魅了する</span></a></li>
+        <li class="word-item"><a href="data/6220-witch.html"><span class="word-id">6220</span><span class="word-name">witch</span><span class="word-meaning">魔女</span></a></li>
+        <li class="word-item"><a href="data/6221-spell.html"><span class="word-id">6221</span><span class="word-name">spell</span><span class="word-meaning">呪文</span></a></li>
+        <li class="word-item"><a href="data/6222-haunt.html"><span class="word-id">6222</span><span class="word-name">haunt</span><span class="word-meaning">出没する</span></a></li>
+        <li class="word-item"><a href="data/6223-race.html"><span class="word-id">6223</span><span class="word-name">race</span><span class="word-meaning">人種； 競争</span></a></li>
+        <li class="word-item"><a href="data/6224-discriminate.html"><span class="word-id">6224</span><span class="word-name">discriminate</span><span class="word-meaning">差別する、区別する</span></a></li>
+        <li class="word-item"><a href="data/6225-tribe.html"><span class="word-id">6225</span><span class="word-name">tribe</span><span class="word-meaning">部族</span></a></li>
+        <li class="word-item"><a href="data/6226-ethnic.html"><span class="word-id">6226</span><span class="word-name">ethnic</span><span class="word-meaning">民族的な</span></a></li>
+        <li class="word-item"><a href="data/6227-nationality.html"><span class="word-id">6227</span><span class="word-name">nationality</span><span class="word-meaning">国籍</span></a></li>
+        <li class="word-item"><a href="data/6228-native.html"><span class="word-id">6228</span><span class="word-name">native</span><span class="word-meaning">出生地の、原住民の</span></a></li>
+        <li class="word-item"><a href="data/6229-tradition.html"><span class="word-id">6229</span><span class="word-name">tradition</span><span class="word-meaning">伝統</span></a></li>
+        <li class="word-item"><a href="data/6230-custom.html"><span class="word-id">6230</span><span class="word-name">custom</span><span class="word-meaning">慣習</span></a></li>
+        <li class="word-item"><a href="data/6231-accustomed.html"><span class="word-id">6231</span><span class="word-name">accustomed</span><span class="word-meaning">慣れている</span></a></li>
+        <li class="word-item"><a href="data/6232-convention.html"><span class="word-id">6232</span><span class="word-name">convention</span><span class="word-meaning">慣習、因習、しきたり； 大会</span></a></li>
+        <li class="word-item"><a href="data/6233-hierarchy.html"><span class="word-id">6233</span><span class="word-name">hierarchy</span><span class="word-meaning">階級制、上下関係</span></a></li>
+        <li class="word-item"><a href="data/6234-folk.html"><span class="word-id">6234</span><span class="word-name">folk</span><span class="word-meaning">民衆、民族</span></a></li>
+        <li class="word-item"><a href="data/6235-myth.html"><span class="word-id">6235</span><span class="word-name">myth</span><span class="word-meaning">神話； 俗説</span></a></li>
+        <li class="word-item"><a href="data/6236-legend.html"><span class="word-id">6236</span><span class="word-name">legend</span><span class="word-meaning">伝説</span></a></li>
+        <li class="word-item"><a href="data/6237-tragedy.html"><span class="word-id">6237</span><span class="word-name">tragedy</span><span class="word-meaning">悲劇、惨劇</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6139.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
