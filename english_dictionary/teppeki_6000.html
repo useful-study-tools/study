@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#26	価値・基準・選択・出来事・参加 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #26	価値・基準・選択・出来事・参加
+    </div>
+    
+    <h2 class="section-title">#26	価値・基準・選択・出来事・参加</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_5952.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6000-value.html"><span class="word-id">6000</span><span class="word-name">value</span><span class="word-meaning">価値； 価値観； ～を重んじる</span></a></li>
+        <li class="word-item"><a href="data/6001-worth.html"><span class="word-id">6001</span><span class="word-name">worth</span><span class="word-meaning">～の価値のある； 価値</span></a></li>
+        <li class="word-item"><a href="data/6002-deserve.html"><span class="word-id">6002</span><span class="word-name">deserve</span><span class="word-meaning">～に値する</span></a></li>
+        <li class="word-item"><a href="data/6003-cherish.html"><span class="word-id">6003</span><span class="word-name">cherish</span><span class="word-meaning">～を大事にする</span></a></li>
+        <li class="word-item"><a href="data/6004-treasure.html"><span class="word-id">6004</span><span class="word-name">treasure</span><span class="word-meaning">～を大事にする、宝</span></a></li>
+        <li class="word-item"><a href="data/6005-evaluate.html"><span class="word-id">6005</span><span class="word-name">evaluate</span><span class="word-meaning">～を評価する</span></a></li>
+        <li class="word-item"><a href="data/6006-measure.html"><span class="word-id">6006</span><span class="word-name">measure</span><span class="word-meaning">～を測定する； (測定の)基準、手段、程度</span></a></li>
+        <li class="word-item"><a href="data/6007-assess.html"><span class="word-id">6007</span><span class="word-name">assess</span><span class="word-meaning">～を査定する</span></a></li>
+        <li class="word-item"><a href="data/6008-standard.html"><span class="word-id">6008</span><span class="word-name">standard</span><span class="word-meaning">基準、標準、水準</span></a></li>
+        <li class="word-item"><a href="data/6009-norm.html"><span class="word-id">6009</span><span class="word-name">norm</span><span class="word-meaning">基準、規範</span></a></li>
+        <li class="word-item"><a href="data/6010-criterion.html"><span class="word-id">6010</span><span class="word-name">criterion</span><span class="word-meaning">基準、指標</span></a></li>
+        <li class="word-item"><a href="data/6011-test.html"><span class="word-id">6011</span><span class="word-name">test</span><span class="word-meaning">テスト、判断基準</span></a></li>
+        <li class="word-item"><a href="data/6012-class.html"><span class="word-id">6012</span><span class="word-name">class</span><span class="word-meaning">クラス、授業； 階級； 分類</span></a></li>
+        <li class="word-item"><a href="data/6013-sort.html"><span class="word-id">6013</span><span class="word-name">sort</span><span class="word-meaning">種類； ～を分類する</span></a></li>
+        <li class="word-item"><a href="data/6014-alter.html"><span class="word-id">6014</span><span class="word-name">alter</span><span class="word-meaning">～を変える</span></a></li>
+        <li class="word-item"><a href="data/6015-alternative.html"><span class="word-id">6015</span><span class="word-name">alternative</span><span class="word-meaning">(取りうる)選択肢、(～の)代案(to～)； 代わりの</span></a></li>
+        <li class="word-item"><a href="data/6016-option.html"><span class="word-id">6016</span><span class="word-name">option</span><span class="word-meaning">選択肢</span></a></li>
+        <li class="word-item"><a href="data/6017-adopt.html"><span class="word-id">6017</span><span class="word-name">adopt</span><span class="word-meaning">～(政策など)を採用する、～を養子にする</span></a></li>
+        <li class="word-item"><a href="data/6018-decide.html"><span class="word-id">6018</span><span class="word-name">decide</span><span class="word-meaning">～を決定する</span></a></li>
+        <li class="word-item"><a href="data/6019-determine.html"><span class="word-id">6019</span><span class="word-name">determine</span><span class="word-meaning">～を決定する</span></a></li>
+        <li class="word-item"><a href="data/6020-resolve.html"><span class="word-id">6020</span><span class="word-name">resolve</span><span class="word-meaning">～を決意する、～を解決する</span></a></li>
+        <li class="word-item"><a href="data/6021-event.html"><span class="word-id">6021</span><span class="word-name">event</span><span class="word-meaning">(重要な)出来事、事件</span></a></li>
+        <li class="word-item"><a href="data/6022-incident.html"><span class="word-id">6022</span><span class="word-name">incident</span><span class="word-meaning">(付随する)出来事、事件</span></a></li>
+        <li class="word-item"><a href="data/6023-accident.html"><span class="word-id">6023</span><span class="word-name">accident</span><span class="word-meaning">(偶然の)事故、事件； 偶然</span></a></li>
+        <li class="word-item"><a href="data/6024-affair.html"><span class="word-id">6024</span><span class="word-name">affair</span><span class="word-meaning">出来事、事件； 関心事； 情事</span></a></li>
+        <li class="word-item"><a href="data/6025-occur.html"><span class="word-id">6025</span><span class="word-name">occur</span><span class="word-meaning">起こる； (～に)思い浮かぶ(to～)</span></a></li>
+        <li class="word-item"><a href="data/6026-take place.html"><span class="word-id">6026</span><span class="word-name">take place</span><span class="word-meaning">(予定されていたことが)起こる、行われる</span></a></li>
+        <li class="word-item"><a href="data/6027-situation.html"><span class="word-id">6027</span><span class="word-name">situation</span><span class="word-meaning">(物・人が置かれている)状況</span></a></li>
+        <li class="word-item"><a href="data/6028-condition.html"><span class="word-id">6028</span><span class="word-name">condition</span><span class="word-meaning">状況、体調； 条件； ～を条件づける、制約する</span></a></li>
+        <li class="word-item"><a href="data/6029-circumstance.html"><span class="word-id">6029</span><span class="word-name">circumstance</span><span class="word-meaning">状況、環境</span></a></li>
+        <li class="word-item"><a href="data/6030-participate.html"><span class="word-id">6030</span><span class="word-name">participate</span><span class="word-meaning">参加する(in～)</span></a></li>
+        <li class="word-item"><a href="data/6031-take part.html"><span class="word-id">6031</span><span class="word-name">take part</span><span class="word-meaning">参加する(in～)</span></a></li>
+        <li class="word-item"><a href="data/6032-involve.html"><span class="word-id">6032</span><span class="word-name">involve</span><span class="word-meaning">～を(必然的に)含む、関与させる、巻き込む、伴う、必要とする、もたらす</span></a></li>
+        <li class="word-item"><a href="data/6033-entail.html"><span class="word-id">6033</span><span class="word-name">entail</span><span class="word-meaning">～を伴う、必要とする； を含意する</span></a></li>
+        <li class="word-item"><a href="data/6034-engage.html"><span class="word-id">6034</span><span class="word-name">engage</span><span class="word-meaning">～を従事させる； (～に)従事する(in～)</span></a></li>
+        <li class="word-item"><a href="data/6035-indulge.html"><span class="word-id">6035</span><span class="word-name">indulge</span><span class="word-meaning">～を没頭させる、甘やかす (～に)没頭する、耽る(in～)</span></a></li>
+        <li class="word-item"><a href="data/6036-devote.html"><span class="word-id">6036</span><span class="word-name">devote</span><span class="word-meaning">～(金・時間・労力)を(…に)捧げる、割く</span></a></li>
+        <li class="word-item"><a href="data/6037-act.html"><span class="word-id">6037</span><span class="word-name">act</span><span class="word-meaning">行動する； 行動； 法令</span></a></li>
+        <li class="word-item"><a href="data/6038-enact.html"><span class="word-id">6038</span><span class="word-name">enact</span><span class="word-meaning">～(法律)を制定する</span></a></li>
+        <li class="word-item"><a href="data/6039-behave.html"><span class="word-id">6039</span><span class="word-name">behave</span><span class="word-meaning">行動する、ふるまう</span></a></li>
+        <li class="word-item"><a href="data/6040-conduct.html"><span class="word-id">6040</span><span class="word-name">conduct</span><span class="word-meaning">～(研究・実験・業務など)を行う； 行為</span></a></li>
+        <li class="word-item"><a href="data/6041-attitude.html"><span class="word-id">6041</span><span class="word-name">attitude</span><span class="word-meaning">態度、考え方</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_5952.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
