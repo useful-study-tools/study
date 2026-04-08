@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#28	産業 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #28	産業
+    </div>
+    
+    <h2 class="section-title">#28	産業</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6042.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6086-industry.html"><span class="word-id">6086</span><span class="word-name">industry</span><span class="word-meaning">産業、工業； 勤勉</span></a></li>
+        <li class="word-item"><a href="data/6087-sector.html"><span class="word-id">6087</span><span class="word-name">sector</span><span class="word-meaning">部門</span></a></li>
+        <li class="word-item"><a href="data/6088-agriculture.html"><span class="word-id">6088</span><span class="word-name">agriculture</span><span class="word-meaning">農業</span></a></li>
+        <li class="word-item"><a href="data/6089-cultivate.html"><span class="word-id">6089</span><span class="word-name">cultivate</span><span class="word-meaning">～を耕す； ～(才能など)を磨く・養う</span></a></li>
+        <li class="word-item"><a href="data/6090-culture.html"><span class="word-id">6090</span><span class="word-name">culture</span><span class="word-meaning">文化； 教養； 栽培</span></a></li>
+        <li class="word-item"><a href="data/6091-crop.html"><span class="word-id">6091</span><span class="word-name">crop</span><span class="word-meaning">作物、収穫</span></a></li>
+        <li class="word-item"><a href="data/6092-harvest.html"><span class="word-id">6092</span><span class="word-name">harvest</span><span class="word-meaning">収穫、収穫高； ～を収穫する</span></a></li>
+        <li class="word-item"><a href="data/6093-soil.html"><span class="word-id">6093</span><span class="word-name">soil</span><span class="word-meaning">土、土壌</span></a></li>
+        <li class="word-item"><a href="data/6094-fertile.html"><span class="word-id">6094</span><span class="word-name">fertile</span><span class="word-meaning">肥沃な</span></a></li>
+        <li class="word-item"><a href="data/6095-barren.html"><span class="word-id">6095</span><span class="word-name">barren</span><span class="word-meaning">不毛な</span></a></li>
+        <li class="word-item"><a href="data/6096-irrigation.html"><span class="word-id">6096</span><span class="word-name">irrigation</span><span class="word-meaning">灌漑</span></a></li>
+        <li class="word-item"><a href="data/6097-grain.html"><span class="word-id">6097</span><span class="word-name">grain</span><span class="word-meaning">穀物</span></a></li>
+        <li class="word-item"><a href="data/6098-wheat.html"><span class="word-id">6098</span><span class="word-name">wheat</span><span class="word-meaning">小麦</span></a></li>
+        <li class="word-item"><a href="data/6099-weed.html"><span class="word-id">6099</span><span class="word-name">weed</span><span class="word-meaning">雑草</span></a></li>
+        <li class="word-item"><a href="data/6100-seed.html"><span class="word-id">6100</span><span class="word-name">seed</span><span class="word-meaning">種</span></a></li>
+        <li class="word-item"><a href="data/6101-sow.html"><span class="word-id">6101</span><span class="word-name">sow</span><span class="word-meaning">～(種)をまく</span></a></li>
+        <li class="word-item"><a href="data/6102-plow.html"><span class="word-id">6102</span><span class="word-name">plow</span><span class="word-meaning">鍬； ～を耕す</span></a></li>
+        <li class="word-item"><a href="data/6103-peasant.html"><span class="word-id">6103</span><span class="word-name">peasant</span><span class="word-meaning">小作農、農夫</span></a></li>
+        <li class="word-item"><a href="data/6104-feed.html"><span class="word-id">6104</span><span class="word-name">feed</span><span class="word-meaning">～に餌・食物を与える</span></a></li>
+        <li class="word-item"><a href="data/6105-breed.html"><span class="word-id">6105</span><span class="word-name">breed</span><span class="word-meaning">～を繁殖させる；品種、血統</span></a></li>
+        <li class="word-item"><a href="data/6106-cattle.html"><span class="word-id">6106</span><span class="word-name">cattle</span><span class="word-meaning">(集合的に)牛</span></a></li>
+        <li class="word-item"><a href="data/6107-herd.html"><span class="word-id">6107</span><span class="word-name">herd</span><span class="word-meaning">(牛などの)群れ</span></a></li>
+        <li class="word-item"><a href="data/6108-flock.html"><span class="word-id">6108</span><span class="word-name">flock</span><span class="word-meaning">(動物の)群れ、群れる</span></a></li>
+        <li class="word-item"><a href="data/6109-ranch.html"><span class="word-id">6109</span><span class="word-name">ranch</span><span class="word-meaning">牧場</span></a></li>
+        <li class="word-item"><a href="data/6110-media.html"><span class="word-id">6110</span><span class="word-name">media</span><span class="word-meaning">メディア、媒体</span></a></li>
+        <li class="word-item"><a href="data/6111-mass.html"><span class="word-id">6111</span><span class="word-name">mass</span><span class="word-meaning">集団、大衆、多数</span></a></li>
+        <li class="word-item"><a href="data/6112-broadcast.html"><span class="word-id">6112</span><span class="word-name">broadcast</span><span class="word-meaning">～を放送する； 放送</span></a></li>
+        <li class="word-item"><a href="data/6113-journalism.html"><span class="word-id">6113</span><span class="word-name">journalism</span><span class="word-meaning">ジャーナリズム、報道</span></a></li>
+        <li class="word-item"><a href="data/6114-article.html"><span class="word-id">6114</span><span class="word-name">article</span><span class="word-meaning">記事、論文； (一つの)品物； 冠詞</span></a></li>
+        <li class="word-item"><a href="data/6115-headline.html"><span class="word-id">6115</span><span class="word-name">headline</span><span class="word-meaning">見出し</span></a></li>
+        <li class="word-item"><a href="data/6116-Internet.html"><span class="word-id">6116</span><span class="word-name">Internet</span><span class="word-meaning">インターネット</span></a></li>
+        <li class="word-item"><a href="data/6117-advertisement.html"><span class="word-id">6117</span><span class="word-name">advertisement</span><span class="word-meaning">広告</span></a></li>
+        <li class="word-item"><a href="data/6118-publish.html"><span class="word-id">6118</span><span class="word-name">publish</span><span class="word-meaning">～を出版する、公表する</span></a></li>
+        <li class="word-item"><a href="data/6119-edit.html"><span class="word-id">6119</span><span class="word-name">edit</span><span class="word-meaning">～を編集する</span></a></li>
+        <li class="word-item"><a href="data/6120-compile.html"><span class="word-id">6120</span><span class="word-name">compile</span><span class="word-meaning">～を編集する、１つに集める</span></a></li>
+        <li class="word-item"><a href="data/6121-cartoon.html"><span class="word-id">6121</span><span class="word-name">cartoon</span><span class="word-meaning">漫画、アニメ</span></a></li>
+        <li class="word-item"><a href="data/6122-manufacture.html"><span class="word-id">6122</span><span class="word-name">manufacture</span><span class="word-meaning">製造、生産； ～を製造する</span></a></li>
+        <li class="word-item"><a href="data/6123-produce.html"><span class="word-id">6123</span><span class="word-name">produce</span><span class="word-meaning">～を生産する、生み出す</span></a></li>
+        <li class="word-item"><a href="data/6124-create.html"><span class="word-id">6124</span><span class="word-name">create</span><span class="word-meaning">～を創造する、生み出す</span></a></li>
+        <li class="word-item"><a href="data/6125-consume.html"><span class="word-id">6125</span><span class="word-name">consume</span><span class="word-meaning">～を消費する</span></a></li>
+        <li class="word-item"><a href="data/6126-trade.html"><span class="word-id">6126</span><span class="word-name">trade</span><span class="word-meaning">貿易、取引； 商売； 職業</span></a></li>
+        <li class="word-item"><a href="data/6127-deal.html"><span class="word-id">6127</span><span class="word-name">deal</span><span class="word-meaning">取引； 量</span></a></li>
+        <li class="word-item"><a href="data/6128-commerce.html"><span class="word-id">6128</span><span class="word-name">commerce</span><span class="word-meaning">通商、貿易</span></a></li>
+        <li class="word-item"><a href="data/6129-merchant.html"><span class="word-id">6129</span><span class="word-name">merchant</span><span class="word-meaning">商人</span></a></li>
+        <li class="word-item"><a href="data/6130-commodity.html"><span class="word-id">6130</span><span class="word-name">commodity</span><span class="word-meaning">商品； 日用品</span></a></li>
+        <li class="word-item"><a href="data/6131-retail.html"><span class="word-id">6131</span><span class="word-name">retail</span><span class="word-meaning">小売りの</span></a></li>
+        <li class="word-item"><a href="data/6132-import.html"><span class="word-id">6132</span><span class="word-name">import</span><span class="word-meaning">～を輸入する； 輸入(品)</span></a></li>
+        <li class="word-item"><a href="data/6133-export.html"><span class="word-id">6133</span><span class="word-name">export</span><span class="word-meaning">～を輸出する； 輸出(品)</span></a></li>
+        <li class="word-item"><a href="data/6134-employ.html"><span class="word-id">6134</span><span class="word-name">employ</span><span class="word-meaning">～を雇う； ～を用いる</span></a></li>
+        <li class="word-item"><a href="data/6135-labor.html"><span class="word-id">6135</span><span class="word-name">labor</span><span class="word-meaning">労働</span></a></li>
+        <li class="word-item"><a href="data/6136-manage.html"><span class="word-id">6136</span><span class="word-name">manage</span><span class="word-meaning">～を経営する； なんとかしてやり遂げる</span></a></li>
+        <li class="word-item"><a href="data/6137-contract.html"><span class="word-id">6137</span><span class="word-name">contract</span><span class="word-meaning">契約； ～を契約する； ～(病気)にかかる、収縮する</span></a></li>
+        <li class="word-item"><a href="data/6138-agent.html"><span class="word-id">6138</span><span class="word-name">agent</span><span class="word-meaning">代理店、代理人、行為者</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6042.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
