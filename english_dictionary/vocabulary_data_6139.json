@@ -1,0 +1,2919 @@
+{
+  "words": [
+    {
+      "number": 6139,
+      "word": "medicine",
+      "pos": "名詞",
+      "meaning": "薬； 医学",
+      "nuance": "「治療に使う薬」または「医学の分野」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The doctor prescribed medicine for my cough.",
+              "ja": "医者は私の咳に薬を処方した。",
+              "highlight": "medicine"
+            },
+            {
+              "en": "She is studying medicine at university.",
+              "ja": "彼女は大学で医学を学んでいる。",
+              "highlight": "medicine"
+            },
+            {
+              "en": "Take this medicine three times a day.",
+              "ja": "この薬を1日3回飲んでください。",
+              "highlight": "medicine"
+            },
+            {
+              "en": "Preventive medicine is important for health.",
+              "ja": "予防医学は健康にとって重要だ。",
+              "highlight": "medicine"
+            },
+            {
+              "en": "The discovery of antibiotics revolutionized medicine.",
+              "ja": "抗生物質の発見は医学に革命をもたらした。",
+              "highlight": "medicine"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 medicina（治癒）に由来。",
+      "synonyms": [
+        { "word": "drug", "trans": "薬" },
+        { "word": "medication", "trans": "薬剤" },
+        { "word": "treatment", "trans": "治療" }
+      ],
+      "antonyms": [
+        { "word": "poison", "trans": "毒" },
+        { "word": "disease", "trans": "病気" },
+        { "word": "injury", "trans": "怪我" }
+      ],
+      "related": [
+        { "word": "medical", "trans": "医学の" },
+        { "word": "medicinal", "trans": "薬用の" },
+        { "word": "medicate", "trans": "薬を投与する" }
+      ]
+    },
+    {
+      "number": 6140,
+      "word": "pharmacy",
+      "pos": "名詞",
+      "meaning": "薬局",
+      "nuance": "「薬を調剤・販売する店舗」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I need to pick up my prescription at the pharmacy.",
+              "ja": "薬局で処方箋を受け取る必要がある。",
+              "highlight": "pharmacy"
+            },
+            {
+              "en": "The pharmacy is open 24 hours.",
+              "ja": "その薬局は24時間営業している。",
+              "highlight": "pharmacy"
+            },
+            {
+              "en": "He works as a pharmacist in a local pharmacy.",
+              "ja": "彼は地元の薬局で薬剤師として働いている。",
+              "highlight": "pharmacy"
+            },
+            {
+              "en": "The pharmacy also sells cosmetics and toiletries.",
+              "ja": "その薬局は化粧品やトイレタリー用品も販売している。",
+              "highlight": "pharmacy"
+            },
+            {
+              "en": "Many pharmacies now offer online ordering.",
+              "ja": "多くの薬局が現在オンライン注文を提供している。",
+              "highlight": "pharmacies"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 pharmakon（薬）に由来。",
+      "synonyms": [
+        { "word": "drugstore", "trans": "ドラッグストア" },
+        { "word": "chemist", "trans": "薬局（英）" },
+        { "word": "apothecary", "trans": "薬局（古）" }
+      ],
+      "antonyms": [
+        { "word": "clinic", "trans": "診療所" },
+        { "word": "hospital", "trans": "病院" },
+        { "word": "doctor's office", "trans": "医者のかかりつけ" }
+      ],
+      "related": [
+        { "word": "pharmacist", "trans": "薬剤師" },
+        { "word": "pharmaceutical", "trans": "製薬の" },
+        { "word": "pharmacology", "trans": "薬理学" }
+      ]
+    },
+    {
+      "number": 6141,
+      "word": "surgery",
+      "pos": "名詞",
+      "meaning": "外科手術",
+      "nuance": "「身体を切開して治療すること」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The patient underwent emergency surgery.",
+              "ja": "その患者は緊急手術を受けた。",
+              "highlight": "surgery"
+            },
+            {
+              "en": "He is a specialist in heart surgery.",
+              "ja": "彼は心臓外科の専門家だ。",
+              "highlight": "surgery"
+            },
+            {
+              "en": "The surgery was successful.",
+              "ja": "その手術は成功した。",
+              "highlight": "surgery"
+            },
+            {
+              "en": "Recovery from major surgery can take months.",
+              "ja": "大手術からの回復には数ヶ月かかることがある。",
+              "highlight": "surgery"
+            },
+            {
+              "en": "Laser surgery is less invasive.",
+              "ja": "レーザー手術は侵襲性が低い。",
+              "highlight": "surgery"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 cheirourgia（手作業）に由来。",
+      "synonyms": [
+        { "word": "operation", "trans": "手術" },
+        { "word": "procedure", "trans": "処置" },
+        { "word": "incision", "trans": "切開" }
+      ],
+      "antonyms": [
+        { "word": "conservative treatment", "trans": "保存的治療" },
+        { "word": "medication", "trans": "薬物療法" },
+        { "word": "therapy", "trans": "療法" }
+      ],
+      "related": [
+        { "word": "surgeon", "trans": "外科医" },
+        { "word": "surgical", "trans": "外科の" },
+        { "word": "postoperative", "trans": "術後の" }
+      ]
+    },
+    {
+      "number": 6142,
+      "word": "vein",
+      "pos": "名詞",
+      "meaning": "血管、静脈",
+      "nuance": "「血液を心臓に戻す血管」を指す。比喩的に「鉱脈」や「スタイル」も意味する。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The nurse inserted the needle into a vein.",
+              "ja": "看護師は針を静脈に刺した。",
+              "highlight": "vein"
+            },
+            {
+              "en": "The diamond was found in an underground vein.",
+              "ja": "そのダイヤモンドは地下の鉱脈で見つかった。",
+              "highlight": "vein"
+            },
+            {
+              "en": "He spoke in a humorous vein.",
+              "ja": "彼はユーモラスな口調で話した。",
+              "highlight": "vein"
+            },
+            {
+              "en": "The veins in her hands were visible.",
+              "ja": "彼女の手の静脈が見えた。",
+              "highlight": "veins"
+            },
+            {
+              "en": "The poet wrote in a romantic vein.",
+              "ja": "その詩人はロマンチックな作風で書いた。",
+              "highlight": "vein"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vena（血管）に由来。",
+      "synonyms": [
+        { "word": "blood vessel", "trans": "血管" },
+        { "word": "artery", "trans": "動脈" },
+        { "word": "seam", "trans": "鉱脈" }
+      ],
+      "antonyms": [
+        { "word": "artery", "trans": "動脈" },
+        { "word": "capillary", "trans": "毛細血管" },
+        { "word": "surface", "trans": "表面" }
+      ],
+      "related": [
+        { "word": "venous", "trans": "静脈の" },
+        { "word": "veiny", "trans": "血管の浮き出た" },
+        { "word": "veinlet", "trans": "小静脈" }
+      ]
+    },
+    {
+      "number": 6143,
+      "word": "artery",
+      "pos": "名詞",
+      "meaning": "動脈",
+      "nuance": "「心臓から血液を送り出す血管」を指す。比喩的に「主要な交通路」も意味する。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The artery carries oxygen-rich blood from the heart.",
+              "ja": "動脈は心臓から酸素を豊富に含んだ血液を運ぶ。",
+              "highlight": "artery"
+            },
+            {
+              "en": "Blocked arteries can lead to a heart attack.",
+              "ja": "動脈の詰まりは心臓発作を引き起こす可能性がある。",
+              "highlight": "arteries"
+            },
+            {
+              "en": "The highway is a major artery of the city.",
+              "ja": "その高速道路は都市の主要な動脈だ。",
+              "highlight": "artery"
+            },
+            {
+              "en": "The surgeon cleared the blocked artery.",
+              "ja": "外科医は詰まった動脈をきれいにした。",
+              "highlight": "artery"
+            },
+            {
+              "en": "The river was an important artery for trade.",
+              "ja": "その川は貿易の重要な動脈だった。",
+              "highlight": "artery"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 arteria（気管）に由来。",
+      "synonyms": [
+        { "word": "blood vessel", "trans": "血管" },
+        { "word": "vein", "trans": "静脈" },
+        { "word": "thoroughfare", "trans": "大通り" }
+      ],
+      "antonyms": [
+        { "word": "vein", "trans": "静脈" },
+        { "word": "capillary", "trans": "毛細血管" },
+        { "word": "side street", "trans": "脇道" }
+      ],
+      "related": [
+        { "word": "arterial", "trans": "動脈の" },
+        { "word": "arteriosclerosis", "trans": "動脈硬化" },
+        { "word": "coronary artery", "trans": "冠状動脈" }
+      ]
+    },
+    {
+      "number": 6144,
+      "word": "physical",
+      "pos": "形容詞",
+      "meaning": "身体の； 物理的な",
+      "nuance": "「肉体に関する」または「物質の性質に関する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Regular exercise improves physical health.",
+              "ja": "定期的な運動は身体の健康を改善する。",
+              "highlight": "physical"
+            },
+            {
+              "en": "The physical properties of water include being liquid.",
+              "ja": "水の物理的性質には液体であることが含まれる。",
+              "highlight": "physical"
+            },
+            {
+              "en": "He underwent a physical examination.",
+              "ja": "彼は身体検査を受けた。",
+              "highlight": "physical"
+            },
+            {
+              "en": "The planet is too hot for physical life.",
+              "ja": "その惑星は生命が存在するには熱すぎる。",
+              "highlight": "physical"
+            },
+            {
+              "en": "There was no physical evidence of the crime.",
+              "ja": "その犯罪の物的証拠はなかった。",
+              "highlight": "physical"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 physikos（自然の）に由来。",
+      "synonyms": [
+        { "word": "bodily", "trans": "身体の" },
+        { "word": "material", "trans": "物質的な" },
+        { "word": "tangible", "trans": "有形の" }
+      ],
+      "antonyms": [
+        { "word": "mental", "trans": "精神的な" },
+        { "word": "spiritual", "trans": "精神的な" },
+        { "word": "abstract", "trans": "抽象的な" }
+      ],
+      "related": [
+        { "word": "physically", "trans": "身体的に" },
+        { "word": "physics", "trans": "物理学" },
+        { "word": "physician", "trans": "医師" }
+      ]
+    },
+    {
+      "number": 6145,
+      "word": "disease",
+      "pos": "名詞",
+      "meaning": "病気",
+      "nuance": "「身体の機能異常」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Heart disease is a leading cause of death.",
+              "ja": "心臓病は主要な死因の一つだ。",
+              "highlight": "disease"
+            },
+            {
+              "en": "The disease spread quickly through the population.",
+              "ja": "その病気は人口の中で急速に広まった。",
+              "highlight": "disease"
+            },
+            {
+              "en": "He suffers from a rare genetic disease.",
+              "ja": "彼は稀な遺伝性疾患に苦しんでいる。",
+              "highlight": "disease"
+            },
+            {
+              "en": "Prevention is better than cure when it comes to disease.",
+              "ja": "病気に関しては、治療よりも予防が重要だ。",
+              "highlight": "disease"
+            },
+            {
+              "en": "The disease is treatable with antibiotics.",
+              "ja": "その病気は抗生物質で治療可能だ。",
+              "highlight": "disease"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 desaise（不快）に由来。",
+      "synonyms": [
+        { "word": "illness", "trans": "病気" },
+        { "word": "sickness", "trans": "病気" },
+        { "word": "disorder", "trans": "障害" }
+      ],
+      "antonyms": [
+        { "word": "health", "trans": "健康" },
+        { "word": "wellness", "trans": "健康" },
+        { "word": "fitness", "trans": "健康" }
+      ],
+      "related": [
+        { "word": "diseased", "trans": "病気の" },
+        { "word": "infectious disease", "trans": "感染症" },
+        { "word": "chronic disease", "trans": "慢性疾患" }
+      ]
+    },
+    {
+      "number": 6146,
+      "word": "symptom",
+      "pos": "名詞",
+      "meaning": "兆候、症状",
+      "nuance": "「病気の徴候」を指す。比喩的にも使われる。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Common symptoms of the flu include fever and cough.",
+              "ja": "インフルエンザの一般的な症状には発熱や咳がある。",
+              "highlight": "symptoms"
+            },
+            {
+              "en": "The doctor asked about my symptoms.",
+              "ja": "医者は私の症状について尋ねた。",
+              "highlight": "symptoms"
+            },
+            {
+              "en": "A rash is often a symptom of an allergy.",
+              "ja": "発疹はしばしばアレルギーの症状だ。",
+              "highlight": "symptom"
+            },
+            {
+              "en": "The crime rate is a symptom of social problems.",
+              "ja": "犯罪率は社会問題の兆候だ。",
+              "highlight": "symptom"
+            },
+            {
+              "en": "The symptoms disappeared after treatment.",
+              "ja": "治療後、症状は消えた。",
+              "highlight": "symptoms"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 symptoma（偶然）に由来。",
+      "synonyms": [
+        { "word": "sign", "trans": "兆候" },
+        { "word": "indication", "trans": "兆候" },
+        { "word": "mark", "trans": "徴候" }
+      ],
+      "antonyms": [
+        { "word": "cause", "trans": "原因" },
+        { "word": "health", "trans": "健康" },
+        { "word": "asymptomatic", "trans": "無症状の" }
+      ],
+      "related": [
+        { "word": "symptomatic", "trans": "症状の" },
+        { "word": "symptomless", "trans": "無症状の" },
+        { "word": "clinical symptom", "trans": "臨床症状" }
+      ]
+    },
+    {
+      "number": 6147,
+      "word": "ache",
+      "pos": "名詞 / 動詞",
+      "meaning": "(ずきずき)痛む",
+      "nuance": "「持続的な鈍い痛み」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I have a headache and a stomach ache.",
+              "ja": "頭痛と胃痛がある。",
+              "highlight": "ache"
+            },
+            {
+              "en": "My legs ache after the long run.",
+              "ja": "長距離走の後、足が痛む。",
+              "highlight": "ache"
+            },
+            {
+              "en": "She felt a dull ache in her back.",
+              "ja": "彼女は背中に鈍い痛みを感じた。",
+              "highlight": "ache"
+            },
+            {
+              "en": "Her heart ached for the suffering child.",
+              "ja": "彼女の心は苦しむ子供を思って痛んだ。",
+              "highlight": "ached"
+            },
+            {
+              "en": "The toothache kept him awake all night.",
+              "ja": "歯痛が彼を一晩中眠らせなかった。",
+              "highlight": "toothache"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 acan（痛む）に由来。",
+      "synonyms": [
+        { "word": "pain", "trans": "痛み" },
+        { "word": "hurt", "trans": "痛み" },
+        { "word": "soreness", "trans": "痛み" }
+      ],
+      "antonyms": [
+        { "word": "comfort", "trans": "快適さ" },
+        { "word": "relief", "trans": "緩和" },
+        { "word": "ease", "trans": "楽さ" }
+      ],
+      "related": [
+        { "word": "headache", "trans": "頭痛" },
+        { "word": "stomachache", "trans": "胃痛" },
+        { "word": "backache", "trans": "背中痛" }
+      ]
+    },
+    {
+      "number": 6148,
+      "word": "acute",
+      "pos": "形容詞",
+      "meaning": "鋭い、激しい",
+      "nuance": "「鋭い」または「深刻な」という意味。医学では「急性の」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He has an acute sense of hearing.",
+              "ja": "彼は鋭い聴覚を持っている。",
+              "highlight": "acute"
+            },
+            {
+              "en": "The patient is suffering from acute pain.",
+              "ja": "その患者は激しい痛みに苦しんでいる。",
+              "highlight": "acute"
+            },
+            {
+              "en": "There is an acute shortage of water.",
+              "ja": "深刻な水不足がある。",
+              "highlight": "acute"
+            },
+            {
+              "en": "An acute angle is less than 90 degrees.",
+              "ja": "鋭角は90度未満だ。",
+              "highlight": "acute"
+            },
+            {
+              "en": "The crisis is acute and requires immediate action.",
+              "ja": "その危機は深刻で、即座の行動が必要だ。",
+              "highlight": "acute"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 acutus（鋭い）に由来。",
+      "synonyms": [
+        { "word": "sharp", "trans": "鋭い" },
+        { "word": "severe", "trans": "激しい" },
+        { "word": "intense", "trans": "激しい" }
+      ],
+      "antonyms": [
+        { "word": "chronic", "trans": "慢性の" },
+        { "word": "dull", "trans": "鈍い" },
+        { "word": "mild", "trans": "穏やかな" }
+      ],
+      "related": [
+        { "word": "acutely", "trans": "鋭く" },
+        { "word": "acuteness", "trans": "鋭さ" },
+        { "word": "acute disease", "trans": "急性疾患" }
+      ]
+    },
+    {
+      "number": 6149,
+      "word": "sore",
+      "pos": "形容詞 / 名詞",
+      "meaning": "(喉、筋肉などがヒリヒリ)痛い",
+      "nuance": "「炎症や傷による痛み」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "My throat is sore from shouting.",
+              "ja": "叫んだので喉が痛い。",
+              "highlight": "sore"
+            },
+            {
+              "en": "I have a sore muscle in my leg.",
+              "ja": "足の筋肉が痛い。",
+              "highlight": "sore"
+            },
+            {
+              "en": "He is sore about losing the game.",
+              "ja": "彼は試合に負けて腹を立てている。",
+              "highlight": "sore"
+            },
+            {
+              "en": "The wound was red and sore.",
+              "ja": "その傷は赤くて痛かった。",
+              "highlight": "sore"
+            },
+            {
+              "en": "She applied ointment to the sore.",
+              "ja": "彼女はその痛む場所に軟膏を塗った。",
+              "highlight": "sore"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 sar（痛み）に由来。",
+      "synonyms": [
+        { "word": "painful", "trans": "痛い" },
+        { "word": "tender", "trans": "敏感な" },
+        { "word": "irritated", "trans": "炎症を起こした" }
+      ],
+      "antonyms": [
+        { "word": "painless", "trans": "痛くない" },
+        { "word": "comfortable", "trans": "快適な" },
+        { "word": "healed", "trans": "治った" }
+      ],
+      "related": [
+        { "word": "soreness", "trans": "痛み" },
+        { "word": "sore throat", "trans": "喉の痛み" },
+        { "word": "sore loser", "trans": "負けず嫌い" }
+      ]
+    },
+    {
+      "number": 6150,
+      "word": "dizzy",
+      "pos": "形容詞",
+      "meaning": "めまいがする",
+      "nuance": "「平衡感覚を失う感覚」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The heat made me feel dizzy.",
+              "ja": "暑さでめまいがした。",
+              "highlight": "dizzy"
+            },
+            {
+              "en": "She felt dizzy after spinning around.",
+              "ja": "彼女はくるくる回った後、めまいを感じた。",
+              "highlight": "dizzy"
+            },
+            {
+              "en": "The dizzy height made him step back.",
+              "ja": "目がくらむような高さに彼は後退した。",
+              "highlight": "dizzy"
+            },
+            {
+              "en": "I get dizzy when I stand up too quickly.",
+              "ja": "急に立ち上がるとめまいがする。",
+              "highlight": "dizzy"
+            },
+            {
+              "en": "The dizzy pace of life in the city can be exhausting.",
+              "ja": "都市のめまぐるしい生活のペースは疲れることがある。",
+              "highlight": "dizzy"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 dysig（愚かな）に由来。",
+      "synonyms": [
+        { "word": "lightheaded", "trans": "ふらふらする" },
+        { "word": "giddy", "trans": "めまいがする" },
+        { "word": "vertiginous", "trans": "めまいの" }
+      ],
+      "antonyms": [
+        { "word": "steady", "trans": "安定した" },
+        { "word": "balanced", "trans": "バランスの取れた" },
+        { "word": "clear-headed", "trans": "頭がはっきりした" }
+      ],
+      "related": [
+        { "word": "dizziness", "trans": "めまい" },
+        { "word": "dizzily", "trans": "めまいがして" },
+        { "word": "dizzying", "trans": "目まいを起こさせる" }
+      ]
+    },
+    {
+      "number": 6151,
+      "word": "cough",
+      "pos": "名詞 / 動詞",
+      "meaning": "咳をする； 咳",
+      "nuance": "「喉から空気を急に出す反射動作」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She has a bad cough and a fever.",
+              "ja": "彼女はひどい咳と熱がある。",
+              "highlight": "cough"
+            },
+            {
+              "en": "He coughed to clear his throat.",
+              "ja": "彼は喉をクリアにするために咳をした。",
+              "highlight": "coughed"
+            },
+            {
+              "en": "The smoke made me cough.",
+              "ja": "煙で咳が出た。",
+              "highlight": "cough"
+            },
+            {
+              "en": "Cough syrup can help relieve a dry cough.",
+              "ja": "咳止めシロップは空咳の緩和に役立つ。",
+              "highlight": "cough"
+            },
+            {
+              "en": "He coughed up a lot of phlegm.",
+              "ja": "彼はたくさんの痰を咳とともに出した。",
+              "highlight": "coughed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 cohhetan（咳をする）に由来。",
+      "synonyms": [
+        { "word": "hack", "trans": "せき込む" },
+        { "word": "clear throat", "trans": "咳払いをする" },
+        { "word": "wheeze", "trans": "ぜいぜい言う" }
+      ],
+      "antonyms": [
+        { "word": "breathe easily", "trans": "楽に呼吸する" },
+        { "word": "silence", "trans": "静けさ" },
+        { "word": "health", "trans": "健康" }
+      ],
+      "related": [
+        { "word": "cough drop", "trans": "咳止めドロップ" },
+        { "word": "cough medicine", "trans": "咳止め薬" },
+        { "word": "whooping cough", "trans": "百日咳" }
+      ]
+    },
+    {
+      "number": 6152,
+      "word": "fever",
+      "pos": "名詞",
+      "meaning": "熱",
+      "nuance": "「体温の異常な上昇」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She has a high fever and needs to rest.",
+              "ja": "彼女は高熱があり、休む必要がある。",
+              "highlight": "fever"
+            },
+            {
+              "en": "The fever broke after two days.",
+              "ja": "熱は2日後に下がった。",
+              "highlight": "fever"
+            },
+            {
+              "en": "He is suffering from hay fever.",
+              "ja": "彼は花粉症に悩まされている。",
+              "highlight": "fever"
+            },
+            {
+              "en": "The crowd was in a fever of excitement.",
+              "ja": "群衆は興奮の熱狂に包まれていた。",
+              "highlight": "fever"
+            },
+            {
+              "en": "Fever is often a sign of infection.",
+              "ja": "発熱はしばしば感染の兆候だ。",
+              "highlight": "Fever"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 febris（熱）に由来。",
+      "synonyms": [
+        { "word": "high temperature", "trans": "高熱" },
+        { "word": "pyrexia", "trans": "発熱" },
+        { "word": "heat", "trans": "熱" }
+      ],
+      "antonyms": [
+        { "word": "normal temperature", "trans": "平熱" },
+        { "word": "chill", "trans": "悪寒" },
+        { "word": "hypothermia", "trans": "低体温" }
+      ],
+      "related": [
+        { "word": "feverish", "trans": "熱っぽい" },
+        { "word": "fever reducer", "trans": "解熱剤" },
+        { "word": "scarlet fever", "trans": "猩紅熱" }
+      ]
+    },
+    {
+      "number": 6153,
+      "word": "paralyze",
+      "pos": "動詞",
+      "meaning": "～麻痺させる",
+      "nuance": "「身体の一部を動かせなくする」または「機能停止させる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The accident paralyzed him from the waist down.",
+              "ja": "その事故で彼は腰から下が麻痺した。",
+              "highlight": "paralyzed"
+            },
+            {
+              "en": "The strike paralyzed the city's transportation system.",
+              "ja": "ストライキが都市の交通機関を麻痺させた。",
+              "highlight": "paralyzed"
+            },
+            {
+              "en": "Fear paralyzed him and he couldn't move.",
+              "ja": "恐怖で彼はすくみ上がり、動けなくなった。",
+              "highlight": "paralyzed"
+            },
+            {
+              "en": "The venom of the snake can paralyze its prey.",
+              "ja": "そのヘビの毒は獲物を麻痺させることができる。",
+              "highlight": "paralyze"
+            },
+            {
+              "en": "The government was paralyzed by internal conflict.",
+              "ja": "政府は内部対立によって機能不全に陥った。",
+              "highlight": "paralyzed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 paralysis（麻痺）に由来。",
+      "synonyms": [
+        { "word": "disable", "trans": "無効にする" },
+        { "word": "immobilize", "trans": "動けなくする" },
+        { "word": "cripple", "trans": "不具にする" }
+      ],
+      "antonyms": [
+        { "word": "mobilize", "trans": "動かす" },
+        { "word": "activate", "trans": "活性化する" },
+        { "word": "restore", "trans": "回復する" }
+      ],
+      "related": [
+        { "word": "paralysis", "trans": "麻痺" },
+        { "word": "paralyzed", "trans": "麻痺した" },
+        { "word": "paralytic", "trans": "麻痺性の" }
+      ]
+    },
+    {
+      "number": 6154,
+      "word": "patient",
+      "pos": "名詞 / 形容詞",
+      "meaning": "患者； 我慢強い",
+      "nuance": "「治療を受けている人」または「忍耐強い性質」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The doctor examined the patient carefully.",
+              "ja": "医者はその患者を注意深く診察した。",
+              "highlight": "patient"
+            },
+            {
+              "en": "You need to be patient with children.",
+              "ja": "子供には忍耐強く接する必要がある。",
+              "highlight": "patient"
+            },
+            {
+              "en": "The patient is recovering well.",
+              "ja": "その患者は順調に回復している。",
+              "highlight": "patient"
+            },
+            {
+              "en": "He is a very patient teacher.",
+              "ja": "彼はとても忍耐強い先生だ。",
+              "highlight": "patient"
+            },
+            {
+              "en": "The hospital has many patients waiting for surgery.",
+              "ja": "その病院には手術を待っている多くの患者がいる。",
+              "highlight": "patients"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 patiens（耐える）に由来。",
+      "synonyms": [
+        { "word": "tolerant", "trans": "寛容な" },
+        { "word": "enduring", "trans": "忍耐強い" },
+        { "word": "sick person", "trans": "病人" }
+      ],
+      "antonyms": [
+        { "word": "impatient", "trans": "せっかちな" },
+        { "word": "doctor", "trans": "医者" },
+        { "word": "nurse", "trans": "看護師" }
+      ],
+      "related": [
+        { "word": "patience", "trans": "忍耐" },
+        { "word": "patiently", "trans": "忍耐強く" },
+        { "word": "outpatient", "trans": "外来患者" }
+      ]
+    },
+    {
+      "number": 6155,
+      "word": "ambulance",
+      "pos": "名詞",
+      "meaning": "救急車",
+      "nuance": "「病人や負傷者を運ぶ車両」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "An ambulance arrived within minutes.",
+              "ja": "救急車が数分以内に到着した。",
+              "highlight": "ambulance"
+            },
+            {
+              "en": "The injured man was taken to the hospital by ambulance.",
+              "ja": "その負傷者は救急車で病院に運ばれた。",
+              "highlight": "ambulance"
+            },
+            {
+              "en": "Call an ambulance immediately!",
+              "ja": "すぐに救急車を呼んでください！",
+              "highlight": "ambulance"
+            },
+            {
+              "en": "The ambulance sirens could be heard from far away.",
+              "ja": "救急車のサイレンが遠くから聞こえた。",
+              "highlight": "ambulance"
+            },
+            {
+              "en": "He works as an ambulance driver.",
+              "ja": "彼は救急車の運転手として働いている。",
+              "highlight": "ambulance"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ambulare（歩く）に由来。",
+      "synonyms": [
+        { "word": "emergency vehicle", "trans": "緊急車両" },
+        { "word": "paramedic unit", "trans": "救急隊" },
+        { "word": "medevac", "trans": "医療用ヘリ" }
+      ],
+      "antonyms": [
+        { "word": "private car", "trans": "自家用車" },
+        { "word": "walk", "trans": "歩くこと" },
+        { "word": "routine transport", "trans": "通常輸送" }
+      ],
+      "related": [
+        { "word": "ambulance service", "trans": "救急サービス" },
+        { "word": "ambulance crew", "trans": "救急隊員" },
+        { "word": "air ambulance", "trans": "救急ヘリ" }
+      ]
+    },
+    {
+      "number": 6156,
+      "word": "diagnose",
+      "pos": "動詞",
+      "meaning": "～を診断する",
+      "nuance": "「病気の原因や性質を特定する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The doctor diagnosed the illness as pneumonia.",
+              "ja": "医者はその病気を肺炎と診断した。",
+              "highlight": "diagnosed"
+            },
+            {
+              "en": "She was diagnosed with cancer last year.",
+              "ja": "彼女は去年癌と診断された。",
+              "highlight": "diagnosed"
+            },
+            {
+              "en": "It can be difficult to diagnose this condition.",
+              "ja": "この症状を診断するのは難しいことがある。",
+              "highlight": "diagnose"
+            },
+            {
+              "en": "The mechanic diagnosed the problem with the engine.",
+              "ja": "整備士はエンジンの問題を診断した。",
+              "highlight": "diagnosed"
+            },
+            {
+              "en": "Early diagnosis is key to successful treatment.",
+              "ja": "早期診断は治療成功の鍵だ。",
+              "highlight": "diagnosis"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 dia（通って）+ gignoskein（知る）に由来。",
+      "synonyms": [
+        { "word": "identify", "trans": "特定する" },
+        { "word": "determine", "trans": "決定する" },
+        { "word": "recognize", "trans": "認識する" }
+      ],
+      "antonyms": [
+        { "word": "misdiagnose", "trans": "誤診する" },
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "overlook", "trans": "見落とす" }
+      ],
+      "related": [
+        { "word": "diagnosis", "trans": "診断" },
+        { "word": "diagnostic", "trans": "診断の" },
+        { "word": "misdiagnosis", "trans": "誤診" }
+      ]
+    },
+    {
+      "number": 6157,
+      "word": "cure",
+      "pos": "動詞 / 名詞",
+      "meaning": "～(病気)を直す、治療する； 治療法",
+      "nuance": "「病気を治す」または「治療法」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The doctor cured her of the disease.",
+              "ja": "医者は彼女の病気を治した。",
+              "highlight": "cured"
+            },
+            {
+              "en": "There is no known cure for this virus.",
+              "ja": "このウイルスに対する既知の治療法はない。",
+              "highlight": "cure"
+            },
+            {
+              "en": "Time is often the best cure for heartache.",
+              "ja": "時間はしばしば心痛の最良の治療法だ。",
+              "highlight": "cure"
+            },
+            {
+              "en": "The new drug cured his infection.",
+              "ja": "その新薬は彼の感染症を治した。",
+              "highlight": "cured"
+            },
+            {
+              "en": "Prevention is better than cure.",
+              "ja": "治療よりも予防が良い。",
+              "highlight": "cure"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 curare（世話する）に由来。",
+      "synonyms": [
+        { "word": "heal", "trans": "治す" },
+        { "word": "remedy", "trans": "治療法" },
+        { "word": "treatment", "trans": "治療" }
+      ],
+      "antonyms": [
+        { "word": "harm", "trans": "害する" },
+        { "word": "worsen", "trans": "悪化させる" },
+        { "word": "cause", "trans": "引き起こす" }
+      ],
+      "related": [
+        { "word": "curable", "trans": "治る" },
+        { "word": "incurable", "trans": "不治の" },
+        { "word": "cure-all", "trans": "万能薬" }
+      ]
+    },
+    {
+      "number": 6158,
+      "word": "heal",
+      "pos": "動詞",
+      "meaning": "～(けが)を治す； (傷が)治る",
+      "nuance": "「傷や病気を治す」という意味。自動詞でも使える。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The wound healed slowly.",
+              "ja": "その傷はゆっくり治った。",
+              "highlight": "healed"
+            },
+            {
+              "en": "Time heals all wounds.",
+              "ja": "時が全ての傷を癒す。",
+              "highlight": "heals"
+            },
+            {
+              "en": "The ointment helped heal the burn.",
+              "ja": "その軟膏は火傷の治癒に役立った。",
+              "highlight": "heal"
+            },
+            {
+              "en": "The broken bone healed completely.",
+              "ja": "その骨折は完全に治った。",
+              "highlight": "healed"
+            },
+            {
+              "en": "Healing takes time, both physically and emotionally.",
+              "ja": "治癒には身体的にも感情的にも時間がかかる。",
+              "highlight": "Healing"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 haelan（癒す）に由来。",
+      "synonyms": [
+        { "word": "cure", "trans": "治す" },
+        { "word": "mend", "trans": "修復する" },
+        { "word": "recover", "trans": "回復する" }
+      ],
+      "antonyms": [
+        { "word": "injure", "trans": "傷つける" },
+        { "word": "wound", "trans": "傷つける" },
+        { "word": "damage", "trans": "損傷する" }
+      ],
+      "related": [
+        { "word": "healing", "trans": "治癒" },
+        { "word": "healer", "trans": "治療者" },
+        { "word": "health", "trans": "健康" }
+      ]
+    },
+    {
+      "number": 6159,
+      "word": "treat",
+      "pos": "動詞",
+      "meaning": "～を扱う、に接する； ～を治療する； ～に(…を)おごる(to …)",
+      "nuance": "「扱う」「治療する」「ごちそうする」という多義的な動詞。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She treated the patient with antibiotics.",
+              "ja": "彼女は抗生物質でその患者を治療した。",
+              "highlight": "treated"
+            },
+            {
+              "en": "He treated me to dinner for my birthday.",
+              "ja": "彼は私の誕生日に夕食をごちそうしてくれた。",
+              "highlight": "treated"
+            },
+            {
+              "en": "You should treat others with respect.",
+              "ja": "他人を敬意を持って扱うべきだ。",
+              "highlight": "treat"
+            },
+            {
+              "en": "The glass must be treated carefully.",
+              "ja": "そのガラスは注意深く扱わなければならない。",
+              "highlight": "treated"
+            },
+            {
+              "en": "The doctor treated the wound with antiseptic.",
+              "ja": "医者は傷を消毒剤で処置した。",
+              "highlight": "treated"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tractare（扱う）に由来。",
+      "synonyms": [
+        { "word": "handle", "trans": "扱う" },
+        { "word": "manage", "trans": "管理する" },
+        { "word": "medicate", "trans": "薬を投与する" }
+      ],
+      "antonyms": [
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "neglect", "trans": "怠る" },
+        { "word": "abuse", "trans": "虐待する" }
+      ],
+      "related": [
+        { "word": "treatment", "trans": "治療" },
+        { "word": "treatable", "trans": "治療可能な" },
+        { "word": "mistreat", "trans": "虐待する" }
+      ]
+    },
+    {
+      "number": 6160,
+      "word": "recover",
+      "pos": "動詞",
+      "meaning": "(～から)回復する(from～)； ～を取り戻す",
+      "nuance": "「健康や状態を戻す」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She is recovering from surgery.",
+              "ja": "彼女は手術から回復している。",
+              "highlight": "recovering"
+            },
+            {
+              "en": "He recovered his stolen wallet.",
+              "ja": "彼は盗まれた財布を取り戻した。",
+              "highlight": "recovered"
+            },
+            {
+              "en": "The economy is slowly recovering.",
+              "ja": "経済は徐々に回復している。",
+              "highlight": "recovering"
+            },
+            {
+              "en": "It took him weeks to recover from the illness.",
+              "ja": "彼がその病気から回復するのに数週間かかった。",
+              "highlight": "recover"
+            },
+            {
+              "en": "She recovered consciousness after a few minutes.",
+              "ja": "彼女は数分後に意識を取り戻した。",
+              "highlight": "recovered"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 recuperare（取り戻す）に由来。",
+      "synonyms": [
+        { "word": "regain", "trans": "取り戻す" },
+        { "word": "improve", "trans": "改善する" },
+        { "word": "heal", "trans": "治る" }
+      ],
+      "antonyms": [
+        { "word": "worsen", "trans": "悪化する" },
+        { "word": "lose", "trans": "失う" },
+        { "word": "deteriorate", "trans": "悪化する" }
+      ],
+      "related": [
+        { "word": "recovery", "trans": "回復" },
+        { "word": "recoverable", "trans": "回復可能な" },
+        { "word": "irrecoverable", "trans": "回復不可能な" }
+      ]
+    },
+    {
+      "number": 6161,
+      "word": "operate",
+      "pos": "動詞",
+      "meaning": "作動・作用する； (～に)手術する(on～)； ～を操作する",
+      "nuance": "「機械を動かす」「手術する」「機能する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The surgeon operated on the patient.",
+              "ja": "外科医はその患者に手術をした。",
+              "highlight": "operated"
+            },
+            {
+              "en": "He operates heavy machinery.",
+              "ja": "彼は重機を操作する。",
+              "highlight": "operates"
+            },
+            {
+              "en": "The elevator doesn't operate properly.",
+              "ja": "そのエレベーターは正常に作動しない。",
+              "highlight": "operate"
+            },
+            {
+              "en": "The company operates in several countries.",
+              "ja": "その会社は数カ国で事業を展開している。",
+              "highlight": "operates"
+            },
+            {
+              "en": "The new law will operate from next month.",
+              "ja": "新しい法律は来月から施行される。",
+              "highlight": "operate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 operari（働く）に由来。",
+      "synonyms": [
+        { "word": "function", "trans": "機能する" },
+        { "word": "run", "trans": "動かす" },
+        { "word": "perform surgery", "trans": "手術する" }
+      ],
+      "antonyms": [
+        { "word": "break down", "trans": "故障する" },
+        { "word": "fail", "trans": "失敗する" },
+        { "word": "stop", "trans": "止まる" }
+      ],
+      "related": [
+        { "word": "operation", "trans": "手術" },
+        { "word": "operator", "trans": "操作者" },
+        { "word": "cooperate", "trans": "協力する" }
+      ]
+    },
+    {
+      "number": 6162,
+      "word": "go through",
+      "pos": "動詞句",
+      "meaning": "～を経験する",
+      "nuance": "「困難な経験をする」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She went through a difficult time after the divorce.",
+              "ja": "彼女は離婚後、困難な時期を経験した。",
+              "highlight": "went through"
+            },
+            {
+              "en": "The family is going through a crisis.",
+              "ja": "その家族は危機を経験している。",
+              "highlight": "going through"
+            },
+            {
+              "en": "He has gone through many hardships in his life.",
+              "ja": "彼は人生で多くの苦難を経験してきた。",
+              "highlight": "gone through"
+            },
+            {
+              "en": "The country is going through a period of change.",
+              "ja": "その国は変化の時期を経験している。",
+              "highlight": "going through"
+            },
+            {
+              "en": "I went through my old photos yesterday.",
+              "ja": "昨日、古い写真をざっと見た。",
+              "highlight": "went through"
+            }
+          ]
+        }
+      ],
+      "etymology": "go（行く）+ through（通って）に由来。",
+      "synonyms": [
+        { "word": "experience", "trans": "経験する" },
+        { "word": "endure", "trans": "耐える" },
+        { "word": "undergo", "trans": "受ける" }
+      ],
+      "antonyms": [
+        { "word": "avoid", "trans": "避ける" },
+        { "word": "escape", "trans": "逃れる" },
+        { "word": "skip", "trans": "飛ばす" }
+      ],
+      "related": [
+        { "word": "go through with", "trans": "やり遂げる" },
+        { "word": "go through the roof", "trans": "急上昇する" },
+        { "word": "go through channels", "trans": "正式な手続きを踏む" }
+      ]
+    },
+    {
+      "number": 6163,
+      "word": "cancer",
+      "pos": "名詞",
+      "meaning": "癌",
+      "nuance": "「異常な細胞の増殖による病気」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He was diagnosed with lung cancer.",
+              "ja": "彼は肺癌と診断された。",
+              "highlight": "cancer"
+            },
+            {
+              "en": "Smoking increases the risk of cancer.",
+              "ja": "喫煙は癌のリスクを高める。",
+              "highlight": "cancer"
+            },
+            {
+              "en": "She survived breast cancer.",
+              "ja": "彼女は乳癌を生き延びた。",
+              "highlight": "cancer"
+            },
+            {
+              "en": "Cancer research has made great progress.",
+              "ja": "癌研究は大きな進歩を遂げた。",
+              "highlight": "Cancer"
+            },
+            {
+              "en": "The cancer spread to other organs.",
+              "ja": "癌は他の臓器に転移した。",
+              "highlight": "cancer"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 cancer（カニ）に由来。",
+      "synonyms": [
+        { "word": "malignancy", "trans": "悪性腫瘍" },
+        { "word": "tumor", "trans": "腫瘍" },
+        { "word": "carcinoma", "trans": "癌腫" }
+      ],
+      "antonyms": [
+        { "word": "benign tumor", "trans": "良性腫瘍" },
+        { "word": "health", "trans": "健康" },
+        { "word": "remission", "trans": "寛解" }
+      ],
+      "related": [
+        { "word": "cancerous", "trans": "癌性の" },
+        { "word": "oncologist", "trans": "腫瘍医" },
+        { "word": "chemotherapy", "trans": "化学療法" }
+      ]
+    },
+    {
+      "number": 6164,
+      "word": "tumor",
+      "pos": "名詞",
+      "meaning": "腫瘍",
+      "nuance": "「異常な細胞の塊」を指す。良性と悪性がある。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The doctor found a tumor in her brain.",
+              "ja": "医者は彼女の脳に腫瘍を見つけた。",
+              "highlight": "tumor"
+            },
+            {
+              "en": "The tumor was removed surgically.",
+              "ja": "その腫瘍は外科的に摘出された。",
+              "highlight": "tumor"
+            },
+            {
+              "en": "Benign tumors are not cancerous.",
+              "ja": "良性腫瘍は癌ではない。",
+              "highlight": "tumors"
+            },
+            {
+              "en": "The tumor was detected early.",
+              "ja": "その腫瘍は早期に発見された。",
+              "highlight": "tumor"
+            },
+            {
+              "en": "The growth of the tumor was monitored regularly.",
+              "ja": "腫瘍の成長は定期的に監視された。",
+              "highlight": "tumor"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 tumor（腫れ）に由来。",
+      "synonyms": [
+        { "word": "growth", "trans": "増殖" },
+        { "word": "mass", "trans": "塊" },
+        { "word": "neoplasm", "trans": "新生物" }
+      ],
+      "antonyms": [
+        { "word": "normal tissue", "trans": "正常組織" },
+        { "word": "health", "trans": "健康" },
+        { "word": "remission", "trans": "寛解" }
+      ],
+      "related": [
+        { "word": "tumorous", "trans": "腫瘍の" },
+        { "word": "brain tumor", "trans": "脳腫瘍" },
+        { "word": "benign tumor", "trans": "良性腫瘍" }
+      ]
+    },
+    {
+      "number": 6165,
+      "word": "diabetes",
+      "pos": "名詞",
+      "meaning": "糖尿病",
+      "nuance": "「血糖値を調節する能力が低下する病気」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He has been diagnosed with type 2 diabetes.",
+              "ja": "彼は2型糖尿病と診断された。",
+              "highlight": "diabetes"
+            },
+            {
+              "en": "Diabetes requires careful management of diet.",
+              "ja": "糖尿病は食事の注意深い管理を必要とする。",
+              "highlight": "Diabetes"
+            },
+            {
+              "en": "Obesity is a risk factor for diabetes.",
+              "ja": "肥満は糖尿病の危険因子だ。",
+              "highlight": "diabetes"
+            },
+            {
+              "en": "She monitors her blood sugar because of her diabetes.",
+              "ja": "彼女は糖尿病のため血糖値を監視している。",
+              "highlight": "diabetes"
+            },
+            {
+              "en": "There is a genetic component to some forms of diabetes.",
+              "ja": "一部の糖尿病には遺伝的要因がある。",
+              "highlight": "diabetes"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 diabetes（サイフォン）に由来。",
+      "synonyms": [
+        { "word": "high blood sugar", "trans": "高血糖" },
+        { "word": "sugar disease", "trans": "糖分の病気" },
+        { "word": "insulin resistance", "trans": "インスリン抵抗性" }
+      ],
+      "antonyms": [
+        { "word": "normal blood sugar", "trans": "正常血糖" },
+        { "word": "health", "trans": "健康" },
+        { "word": "euglycemia", "trans": "正常血糖" }
+      ],
+      "related": [
+        { "word": "diabetic", "trans": "糖尿病の" },
+        { "word": "insulin", "trans": "インスリン" },
+        { "word": "hyperglycemia", "trans": "高血糖" }
+      ]
+    },
+    {
+      "number": 6166,
+      "word": "stroke",
+      "pos": "名詞",
+      "meaning": "脳卒中",
+      "nuance": "「脳への血流障害によって起こる病気」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He suffered a stroke and lost the ability to speak.",
+              "ja": "彼は脳卒中を患い、話す能力を失った。",
+              "highlight": "stroke"
+            },
+            {
+              "en": "High blood pressure increases the risk of stroke.",
+              "ja": "高血圧は脳卒中のリスクを高める。",
+              "highlight": "stroke"
+            },
+            {
+              "en": "She is recovering from a mild stroke.",
+              "ja": "彼女は軽度の脳卒中から回復している。",
+              "highlight": "stroke"
+            },
+            {
+              "en": "The stroke affected the left side of his body.",
+              "ja": "その脳卒中は彼の左半身に影響を与えた。",
+              "highlight": "stroke"
+            },
+            {
+              "en": "Quick treatment is crucial after a stroke.",
+              "ja": "脳卒中後の迅速な治療は極めて重要だ。",
+              "highlight": "stroke"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 strac（打撃）に由来。",
+      "synonyms": [
+        { "word": "cerebrovascular accident", "trans": "脳血管障害" },
+        { "word": "brain attack", "trans": "脳発作" },
+        { "word": "apoplexy", "trans": "脳卒中" }
+      ],
+      "antonyms": [
+        { "word": "health", "trans": "健康" },
+        { "word": "wellness", "trans": "健康" },
+        { "word": "recovery", "trans": "回復" }
+      ],
+      "related": [
+        { "word": "stroke victim", "trans": "脳卒中患者" },
+        { "word": "stroke rehabilitation", "trans": "脳卒中リハビリ" },
+        { "word": "ischemic stroke", "trans": "虚血性脳卒中" }
+      ]
+    },
+    {
+      "number": 6167,
+      "word": "virus",
+      "pos": "名詞",
+      "meaning": "ウイルス",
+      "nuance": "「感染症を引き起こす微小な病原体」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The flu is caused by a virus.",
+              "ja": "インフルエンザはウイルスによって引き起こされる。",
+              "highlight": "virus"
+            },
+            {
+              "en": "The computer virus infected many files.",
+              "ja": "そのコンピューターウイルスは多くのファイルに感染した。",
+              "highlight": "virus"
+            },
+            {
+              "en": "Scientists are studying the virus to find a vaccine.",
+              "ja": "科学者たちはワクチンを見つけるためにそのウイルスを研究している。",
+              "highlight": "virus"
+            },
+            {
+              "en": "The virus spreads through the air.",
+              "ja": "そのウイルスは空気中を介して広がる。",
+              "highlight": "virus"
+            },
+            {
+              "en": "Antiviral drugs can fight the virus.",
+              "ja": "抗ウイルス薬はウイルスと戦うことができる。",
+              "highlight": "virus"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 virus（毒）に由来。",
+      "synonyms": [
+        { "word": "pathogen", "trans": "病原体" },
+        { "word": "infection", "trans": "感染" },
+        { "word": "bug", "trans": "細菌（口語）" }
+      ],
+      "antonyms": [
+        { "word": "vaccine", "trans": "ワクチン" },
+        { "word": "antibiotic", "trans": "抗生物質" },
+        { "word": "cure", "trans": "治療法" }
+      ],
+      "related": [
+        { "word": "viral", "trans": "ウイルスの" },
+        { "word": "virology", "trans": "ウイルス学" },
+        { "word": "antiviral", "trans": "抗ウイルス性の" }
+      ]
+    },
+    {
+      "number": 6168,
+      "word": "germ",
+      "pos": "名詞",
+      "meaning": "ばい菌、細菌",
+      "nuance": "「病気を引き起こす微生物」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Wash your hands to kill germs.",
+              "ja": "手を洗ってバイ菌を殺しなさい。",
+              "highlight": "germs"
+            },
+            {
+              "en": "The germ of an idea began to form in his mind.",
+              "ja": "アイデアの芽が彼の心に芽生え始めた。",
+              "highlight": "germ"
+            },
+            {
+              "en": "Germs can spread through coughing and sneezing.",
+              "ja": "細菌は咳やくしゃみを通じて広がる可能性がある。",
+              "highlight": "Germs"
+            },
+            {
+              "en": "The wound was infected with germs.",
+              "ja": "その傷はバイ菌に感染した。",
+              "highlight": "germs"
+            },
+            {
+              "en": "Antibacterial soap kills most household germs.",
+              "ja": "抗菌石鹸は家庭内のほとんどの細菌を殺す。",
+              "highlight": "germs"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 germen（芽）に由来。",
+      "synonyms": [
+        { "word": "bacteria", "trans": "細菌" },
+        { "word": "microbe", "trans": "微生物" },
+        { "word": "pathogen", "trans": "病原体" }
+      ],
+      "antonyms": [
+        { "word": "sterility", "trans": "無菌" },
+        { "word": "cleanliness", "trans": "清潔" },
+        { "word": "hygiene", "trans": "衛生" }
+      ],
+      "related": [
+        { "word": "germinate", "trans": "発芽する" },
+        { "word": "germicide", "trans": "殺菌剤" },
+        { "word": "germ-free", "trans": "無菌の" }
+      ]
+    },
+    {
+      "number": 6169,
+      "word": "infect",
+      "pos": "動詞",
+      "meaning": "～に感染させる",
+      "nuance": "「病気をうつす」または「悪影響を与える」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The virus infected thousands of people.",
+              "ja": "そのウイルスは数千人に感染した。",
+              "highlight": "infected"
+            },
+            {
+              "en": "Her optimism infected everyone around her.",
+              "ja": "彼女の楽観主義は周りの皆に伝染した。",
+              "highlight": "infected"
+            },
+            {
+              "en": "The wound became infected.",
+              "ja": "その傷は感染した。",
+              "highlight": "infected"
+            },
+            {
+              "en": "The malware infected the computer system.",
+              "ja": "そのマルウェアはコンピューターシステムに感染した。",
+              "highlight": "infected"
+            },
+            {
+              "en": "He infected his colleagues with his enthusiasm.",
+              "ja": "彼は熱意で同僚に影響を与えた。",
+              "highlight": "infected"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 inficere（浸す）に由来。",
+      "synonyms": [
+        { "word": "contaminate", "trans": "汚染する" },
+        { "word": "spread to", "trans": "広がる" },
+        { "word": "affect", "trans": "影響する" }
+      ],
+      "antonyms": [
+        { "word": "cure", "trans": "治す" },
+        { "word": "heal", "trans": "癒す" },
+        { "word": "disinfect", "trans": "消毒する" }
+      ],
+      "related": [
+        { "word": "infection", "trans": "感染" },
+        { "word": "infectious", "trans": "伝染性の" },
+        { "word": "disinfect", "trans": "消毒する" }
+      ]
+    },
+    {
+      "number": 6170,
+      "word": "epidemic",
+      "pos": "名詞",
+      "meaning": "伝染病",
+      "nuance": "「特定の地域で急速に広がる病気」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The flu epidemic affected thousands of people.",
+              "ja": "そのインフルエンザの流行は数千人に影響を与えた。",
+              "highlight": "epidemic"
+            },
+            {
+              "en": "The government took measures to control the epidemic.",
+              "ja": "政府はその伝染病を制御するための措置を取った。",
+              "highlight": "epidemic"
+            },
+            {
+              "en": "Obesity has become an epidemic in many countries.",
+              "ja": "肥満は多くの国で蔓延している。",
+              "highlight": "epidemic"
+            },
+            {
+              "en": "The epidemic spread quickly through the city.",
+              "ja": "その伝染病は都市中に急速に広まった。",
+              "highlight": "epidemic"
+            },
+            {
+              "en": "Vaccination helped stop the epidemic.",
+              "ja": "ワクチン接種がその流行を止めるのに役立った。",
+              "highlight": "epidemic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 epi（上に）+ demos（民衆）に由来。",
+      "synonyms": [
+        { "word": "outbreak", "trans": "発生" },
+        { "word": "pandemic", "trans": "パンデミック" },
+        { "word": "plague", "trans": "疫病" }
+      ],
+      "antonyms": [
+        { "word": "control", "trans": "制御" },
+        { "word": "containment", "trans": "封じ込め" },
+        { "word": "eradication", "trans": "根絶" }
+      ],
+      "related": [
+        { "word": "epidemiology", "trans": "疫学" },
+        { "word": "epidemiological", "trans": "疫学の" },
+        { "word": "epidemiologist", "trans": "疫学者" }
+      ]
+    },
+    {
+      "number": 6171,
+      "word": "plague",
+      "pos": "名詞",
+      "meaning": "疫病； 災難",
+      "nuance": "「歴史的な伝染病」または「厄介な問題」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The Black Death was a plague that killed millions.",
+              "ja": "黒死病は数百万人を殺した疫病だった。",
+              "highlight": "plague"
+            },
+            {
+              "en": "The country is plagued by poverty.",
+              "ja": "その国は貧困に悩まされている。",
+              "highlight": "plagued"
+            },
+            {
+              "en": "A plague of locusts destroyed the crops.",
+              "ja": "イナゴの大群が作物を破壊した。",
+              "highlight": "plague"
+            },
+            {
+              "en": "He was plagued by doubts.",
+              "ja": "彼は疑念に苛まれた。",
+              "highlight": "plagued"
+            },
+            {
+              "en": "The plague spread rapidly through the city.",
+              "ja": "その疫病は都市中に急速に広まった。",
+              "highlight": "plague"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 plaga（打撃）に由来。",
+      "synonyms": [
+        { "word": "pandemic", "trans": "パンデミック" },
+        { "word": "affliction", "trans": "苦難" },
+        { "word": "curse", "trans": "呪い" }
+      ],
+      "antonyms": [
+        { "word": "blessing", "trans": "祝福" },
+        { "word": "health", "trans": "健康" },
+        { "word": "prosperity", "trans": "繁栄" }
+      ],
+      "related": [
+        { "word": "plague victim", "trans": "ペスト患者" },
+        { "word": "bubonic plague", "trans": "腺ペスト" },
+        { "word": "plague doctor", "trans": "ペスト医師" }
+      ]
+    },
+    {
+      "number": 6172,
+      "word": "vaccine",
+      "pos": "名詞",
+      "meaning": "ワクチン",
+      "nuance": "「病気に対する免疫を得るために接種する薬剤」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The new vaccine protects against the flu.",
+              "ja": "その新しいワクチンはインフルエンザを予防する。",
+              "highlight": "vaccine"
+            },
+            {
+              "en": "Scientists are working on a vaccine for the virus.",
+              "ja": "科学者たちはそのウイルスのワクチンを開発している。",
+              "highlight": "vaccine"
+            },
+            {
+              "en": "Children are routinely given vaccines.",
+              "ja": "子供は定期的にワクチンを接種する。",
+              "highlight": "vaccines"
+            },
+            {
+              "en": "The vaccine was tested on thousands of volunteers.",
+              "ja": "そのワクチンは数千人のボランティアでテストされた。",
+              "highlight": "vaccine"
+            },
+            {
+              "en": "Vaccination has eradicated many diseases.",
+              "ja": "ワクチン接種は多くの病気を根絶した。",
+              "highlight": "Vaccination"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vacca（牛）に由来。",
+      "synonyms": [
+        { "word": "inoculation", "trans": "予防接種" },
+        { "word": "immunization", "trans": "免疫化" },
+        { "word": "shot", "trans": "注射" }
+      ],
+      "antonyms": [
+        { "word": "disease", "trans": "病気" },
+        { "word": "infection", "trans": "感染" },
+        { "word": "virus", "trans": "ウイルス" }
+      ],
+      "related": [
+        { "word": "vaccination", "trans": "予防接種" },
+        { "word": "vaccinate", "trans": "ワクチンを接種する" },
+        { "word": "immunity", "trans": "免疫力" }
+      ]
+    },
+    {
+      "number": 6173,
+      "word": "defect",
+      "pos": "名詞",
+      "meaning": "欠陥、欠点、障害",
+      "nuance": "「不完全な部分」または「物理的な欠陥」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The product was recalled due to a manufacturing defect.",
+              "ja": "その製品は製造上の欠陥によりリコールされた。",
+              "highlight": "defect"
+            },
+            {
+              "en": "He has a heart defect that requires surgery.",
+              "ja": "彼には手術が必要な心臓の欠陥がある。",
+              "highlight": "defect"
+            },
+            {
+              "en": "The plan has many defects.",
+              "ja": "その計画には多くの欠点がある。",
+              "highlight": "defects"
+            },
+            {
+              "en": "The car had a defect in the braking system.",
+              "ja": "その車にはブレーキシステムの欠陥があった。",
+              "highlight": "defect"
+            },
+            {
+              "en": "The spy defected to the enemy country.",
+              "ja": "そのスパイは敵国に亡命した。",
+              "highlight": "defected"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 defectus（不足）に由来。",
+      "synonyms": [
+        { "word": "flaw", "trans": "欠陥" },
+        { "word": "imperfection", "trans": "不完全" },
+        { "word": "fault", "trans": "欠点" }
+      ],
+      "antonyms": [
+        { "word": "perfection", "trans": "完璧" },
+        { "word": "strength", "trans": "強み" },
+        { "word": "asset", "trans": "長所" }
+      ],
+      "related": [
+        { "word": "defective", "trans": "欠陥のある" },
+        { "word": "defection", "trans": "亡命" },
+        { "word": "defector", "trans": "亡命者" }
+      ]
+    },
+    {
+      "number": 6174,
+      "word": "immune",
+      "pos": "形容詞",
+      "meaning": "(～に対して)免疫のある(to～)",
+      "nuance": "「特定の病気にかからない」または「影響を受けない」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Once you have had the disease, you are immune to it.",
+              "ja": "その病気にかかると、免疫ができる。",
+              "highlight": "immune"
+            },
+            {
+              "en": "The vaccine makes you immune to the virus.",
+              "ja": "ワクチンはそのウイルスに対する免疫を与える。",
+              "highlight": "immune"
+            },
+            {
+              "en": "He is immune to criticism.",
+              "ja": "彼は批判に影響されない。",
+              "highlight": "immune"
+            },
+            {
+              "en": "The king was immune from prosecution.",
+              "ja": "その王は起訴免除の特権があった。",
+              "highlight": "immune"
+            },
+            {
+              "en": "The immune system protects the body from infection.",
+              "ja": "免疫システムは身体を感染から守る。",
+              "highlight": "immune"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 immunis（免除された）に由来。",
+      "synonyms": [
+        { "word": "resistant", "trans": "耐性のある" },
+        { "word": "protected", "trans": "保護された" },
+        { "word": "insusceptible", "trans": "感受性のない" }
+      ],
+      "antonyms": [
+        { "word": "susceptible", "trans": "感受性のある" },
+        { "word": "vulnerable", "trans": "脆弱な" },
+        { "word": "exposed", "trans": "さらされた" }
+      ],
+      "related": [
+        { "word": "immunity", "trans": "免疫" },
+        { "word": "immunize", "trans": "免疫を与える" },
+        { "word": "autoimmune", "trans": "自己免疫の" }
+      ]
+    },
+    {
+      "number": 6175,
+      "word": "allergy",
+      "pos": "名詞",
+      "meaning": "アレルギー",
+      "nuance": "「特定の物質に対する過敏反応」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She has an allergy to peanuts.",
+              "ja": "彼女はピーナッツアレルギーがある。",
+              "highlight": "allergy"
+            },
+            {
+              "en": "Hay fever is a common allergy.",
+              "ja": "花粉症は一般的なアレルギーだ。",
+              "highlight": "allergy"
+            },
+            {
+              "en": "His allergy causes him to sneeze a lot.",
+              "ja": "彼のアレルギーのせいでよくくしゃみが出る。",
+              "highlight": "allergy"
+            },
+            {
+              "en": "Dust mites can trigger allergies.",
+              "ja": "ダニはアレルギーを引き起こすことがある。",
+              "highlight": "allergies"
+            },
+            {
+              "en": "She is allergic to cats.",
+              "ja": "彼女は猫アレルギーだ。",
+              "highlight": "allergic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 allos（他の）+ ergon（作用）に由来。",
+      "synonyms": [
+        { "word": "hypersensitivity", "trans": "過敏症" },
+        { "word": "reaction", "trans": "反応" },
+        { "word": "intolerance", "trans": "不耐性" }
+      ],
+      "antonyms": [
+        { "word": "tolerance", "trans": "耐性" },
+        { "word": "immunity", "trans": "免疫" },
+        { "word": "resistance", "trans": "抵抗" }
+      ],
+      "related": [
+        { "word": "allergic", "trans": "アレルギーの" },
+        { "word": "allergen", "trans": "アレルゲン" },
+        { "word": "antihistamine", "trans": "抗ヒスタミン薬" }
+      ]
+    },
+    {
+      "number": 6176,
+      "word": "gene",
+      "pos": "名詞",
+      "meaning": "遺伝子",
+      "nuance": "「遺伝情報の単位」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The gene is responsible for eye color.",
+              "ja": "その遺伝子は目の色を決定する。",
+              "highlight": "gene"
+            },
+            {
+              "en": "Scientists have identified the gene linked to the disease.",
+              "ja": "科学者たちはその病気に関連する遺伝子を特定した。",
+              "highlight": "gene"
+            },
+            {
+              "en": "Genes are passed from parents to children.",
+              "ja": "遺伝子は親から子へ受け継がれる。",
+              "highlight": "Genes"
+            },
+            {
+              "en": "The study of genes is called genetics.",
+              "ja": "遺伝子の研究は遺伝学と呼ばれる。",
+              "highlight": "genes"
+            },
+            {
+              "en": "A mutation in this gene can cause cancer.",
+              "ja": "この遺伝子の突然変異が癌を引き起こすことがある。",
+              "highlight": "gene"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 genos（起源）に由来。",
+      "synonyms": [
+        { "word": "DNA segment", "trans": "DNA断片" },
+        { "word": "chromosome", "trans": "染色体" },
+        { "word": "hereditary factor", "trans": "遺伝因子" }
+      ],
+      "antonyms": [
+        { "word": "environment", "trans": "環境" },
+        { "word": "nurture", "trans": "育成" },
+        { "word": "acquired trait", "trans": "後天的形質" }
+      ],
+      "related": [
+        { "word": "genetic", "trans": "遺伝的な" },
+        { "word": "genetics", "trans": "遺伝学" },
+        { "word": "genome", "trans": "ゲノム" }
+      ]
+    },
+    {
+      "number": 6177,
+      "word": "cell",
+      "pos": "名詞",
+      "meaning": "細胞",
+      "nuance": "「生命の基本単位」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The human body is made up of billions of cells.",
+              "ja": "人体は数十億の細胞で構成されている。",
+              "highlight": "cells"
+            },
+            {
+              "en": "Cancer cells grow uncontrollably.",
+              "ja": "癌細胞は制御不能に増殖する。",
+              "highlight": "cells"
+            },
+            {
+              "en": "The prisoner was locked in a small cell.",
+              "ja": "その囚人は小さな独房に閉じ込められた。",
+              "highlight": "cell"
+            },
+            {
+              "en": "She has a cell phone.",
+              "ja": "彼女は携帯電話を持っている。",
+              "highlight": "cell"
+            },
+            {
+              "en": "The cell contains a nucleus.",
+              "ja": "細胞には核が含まれている。",
+              "highlight": "cell"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 cella（小さな部屋）に由来。",
+      "synonyms": [
+        { "word": "unit", "trans": "単位" },
+        { "word": "compartment", "trans": "区画" },
+        { "word": "chamber", "trans": "小部屋" }
+      ],
+      "antonyms": [
+        { "word": "organism", "trans": "生物" },
+        { "word": "tissue", "trans": "組織" },
+        { "word": "whole", "trans": "全体" }
+      ],
+      "related": [
+        { "word": "cellular", "trans": "細胞の" },
+        { "word": "cellulose", "trans": "セルロース" },
+        { "word": "cell membrane", "trans": "細胞膜" }
+      ]
+    },
+    {
+      "number": 6178,
+      "word": "organism",
+      "pos": "名詞",
+      "meaning": "生物",
+      "nuance": "「生命を持つ個体」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Bacteria are single-celled organisms.",
+              "ja": "細菌は単細胞生物だ。",
+              "highlight": "organisms"
+            },
+            {
+              "en": "The human body is a complex organism.",
+              "ja": "人体は複雑な生物だ。",
+              "highlight": "organism"
+            },
+            {
+              "en": "The organism adapts to its environment.",
+              "ja": "その生物は環境に適応する。",
+              "highlight": "organism"
+            },
+            {
+              "en": "The pond is full of tiny organisms.",
+              "ja": "その池は小さな生物でいっぱいだ。",
+              "highlight": "organisms"
+            },
+            {
+              "en": "The organism was studied under a microscope.",
+              "ja": "その生物は顕微鏡で観察された。",
+              "highlight": "organism"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 organon（道具）に由来。",
+      "synonyms": [
+        { "word": "living thing", "trans": "生物" },
+        { "word": "creature", "trans": "生き物" },
+        { "word": "being", "trans": "存在" }
+      ],
+      "antonyms": [
+        { "word": "inorganic matter", "trans": "無機物" },
+        { "word": "dead matter", "trans": "死物質" },
+        { "word": "robot", "trans": "ロボット" }
+      ],
+      "related": [
+        { "word": "organic", "trans": "有機的な" },
+        { "word": "microorganism", "trans": "微生物" },
+        { "word": "organismal", "trans": "生物の" }
+      ]
+    },
+    {
+      "number": 6179,
+      "word": "clone",
+      "pos": "名詞 / 動詞",
+      "meaning": "クローン； ～のクローンを作る",
+      "nuance": "「遺伝的に同一のコピー」または「複製する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Scientists have cloned a sheep.",
+              "ja": "科学者たちは羊のクローンを作った。",
+              "highlight": "cloned"
+            },
+            {
+              "en": "The clone was identical to the original.",
+              "ja": "そのクローンはオリジナルと同一だった。",
+              "highlight": "clone"
+            },
+            {
+              "en": "He is a clone of his father.",
+              "ja": "彼は父親のクローンだ（そっくりだ）。",
+              "highlight": "clone"
+            },
+            {
+              "en": "The company cloned the successful product.",
+              "ja": "その会社は成功した製品を模倣した。",
+              "highlight": "cloned"
+            },
+            {
+              "en": "Cloning raises ethical questions.",
+              "ja": "クローン作成は倫理的問題を引き起こす。",
+              "highlight": "Cloning"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 klon（小枝）に由来。",
+      "synonyms": [
+        { "word": "copy", "trans": "コピー" },
+        { "word": "replica", "trans": "レプリカ" },
+        { "word": "duplicate", "trans": "複製" }
+      ],
+      "antonyms": [
+        { "word": "original", "trans": "オリジナル" },
+        { "word": "unique", "trans": "唯一の" },
+        { "word": "prototype", "trans": "原型" }
+      ],
+      "related": [
+        { "word": "cloning", "trans": "クローン技術" },
+        { "word": "cloned", "trans": "クローンの" },
+        { "word": "clone army", "trans": "クローン軍" }
+      ]
+    },
+    {
+      "number": 6180,
+      "word": "anatomy",
+      "pos": "名詞",
+      "meaning": "解剖学",
+      "nuance": "「生物の構造の研究」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He studied human anatomy in medical school.",
+              "ja": "彼は医学部で人体解剖学を学んだ。",
+              "highlight": "anatomy"
+            },
+            {
+              "en": "The anatomy of a bird is different from that of a mammal.",
+              "ja": "鳥の解剖学的構造は哺乳類とは異なる。",
+              "highlight": "anatomy"
+            },
+            {
+              "en": "The book includes detailed diagrams of anatomy.",
+              "ja": "その本には解剖学の詳細な図が含まれている。",
+              "highlight": "anatomy"
+            },
+            {
+              "en": "She is an expert in plant anatomy.",
+              "ja": "彼女は植物解剖学の専門家だ。",
+              "highlight": "anatomy"
+            },
+            {
+              "en": "The anatomy of the crime was revealed in the trial.",
+              "ja": "その犯罪の構造が裁判で明らかになった。",
+              "highlight": "anatomy"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 ana（上に）+ temnein（切る）に由来。",
+      "synonyms": [
+        { "word": "structure", "trans": "構造" },
+        { "word": "form", "trans": "形態" },
+        { "word": "dissection", "trans": "解剖" }
+      ],
+      "antonyms": [
+        { "word": "physiology", "trans": "生理学" },
+        { "word": "function", "trans": "機能" },
+        { "word": "whole", "trans": "全体" }
+      ],
+      "related": [
+        { "word": "anatomical", "trans": "解剖学の" },
+        { "word": "anatomist", "trans": "解剖学者" },
+        { "word": "gross anatomy", "trans": "肉眼解剖学" }
+      ]
+    },
+    {
+      "number": 6181,
+      "word": "chemistry",
+      "pos": "名詞",
+      "meaning": "科学",
+      "nuance": "「物質の性質や反応を研究する科学」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She is studying chemistry at university.",
+              "ja": "彼女は大学で化学を学んでいる。",
+              "highlight": "chemistry"
+            },
+            {
+              "en": "The chemistry between them was obvious.",
+              "ja": "彼らの間の相性は明らかだった。",
+              "highlight": "chemistry"
+            },
+            {
+              "en": "Organic chemistry deals with carbon compounds.",
+              "ja": "有機化学は炭素化合物を扱う。",
+              "highlight": "chemistry"
+            },
+            {
+              "en": "The experiment requires a knowledge of basic chemistry.",
+              "ja": "その実験には基礎化学の知識が必要だ。",
+              "highlight": "chemistry"
+            },
+            {
+              "en": "He has a degree in chemistry.",
+              "ja": "彼は化学の学位を持っている。",
+              "highlight": "chemistry"
+            }
+          ]
+        }
+      ],
+      "etymology": "アラビア語 al-kimiya（錬金術）に由来。",
+      "synonyms": [
+        { "word": "science", "trans": "科学" },
+        { "word": "interaction", "trans": "相互作用" },
+        { "word": "compatibility", "trans": "相性" }
+      ],
+      "antonyms": [
+        { "word": "physics", "trans": "物理学" },
+        { "word": "biology", "trans": "生物学" },
+        { "word": "incompatibility", "trans": "相性の悪さ" }
+      ],
+      "related": [
+        { "word": "chemical", "trans": "化学の" },
+        { "word": "chemist", "trans": "化学者" },
+        { "word": "biochemistry", "trans": "生化学" }
+      ]
+    },
+    {
+      "number": 6182,
+      "word": "toxic",
+      "pos": "形容詞",
+      "meaning": "有毒な",
+      "nuance": "「毒を含む」または「有害な」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The chemical is highly toxic.",
+              "ja": "その化学物質は非常に有毒だ。",
+              "highlight": "toxic"
+            },
+            {
+              "en": "Toxic waste must be disposed of carefully.",
+              "ja": "有毒廃棄物は注意深く処分しなければならない。",
+              "highlight": "Toxic"
+            },
+            {
+              "en": "The relationship became toxic.",
+              "ja": "その関係は有害になった。",
+              "highlight": "toxic"
+            },
+            {
+              "en": "The plant's berries are toxic to humans.",
+              "ja": "その植物の果実は人間にとって有毒だ。",
+              "highlight": "toxic"
+            },
+            {
+              "en": "Exposure to toxic substances can cause illness.",
+              "ja": "有毒物質への曝露は病気を引き起こす可能性がある。",
+              "highlight": "toxic"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 toxikon（毒）に由来。",
+      "synonyms": [
+        { "word": "poisonous", "trans": "有毒な" },
+        { "word": "harmful", "trans": "有害な" },
+        { "word": "dangerous", "trans": "危険な" }
+      ],
+      "antonyms": [
+        { "word": "harmless", "trans": "無害な" },
+        { "word": "safe", "trans": "安全な" },
+        { "word": "nontoxic", "trans": "無毒の" }
+      ],
+      "related": [
+        { "word": "toxicity", "trans": "毒性" },
+        { "word": "toxicology", "trans": "毒物学" },
+        { "word": "antidote", "trans": "解毒剤" }
+      ]
+    },
+    {
+      "number": 6183,
+      "word": "solid",
+      "pos": "形容詞 / 名詞",
+      "meaning": "固体の、固い、堅固な； 立体の； 中身の詰まった",
+      "nuance": "「固体」または「しっかりした」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Ice is water in a solid state.",
+              "ja": "氷は固体の水だ。",
+              "highlight": "solid"
+            },
+            {
+              "en": "The table is made of solid oak.",
+              "ja": "そのテーブルは無垢のオーク材でできている。",
+              "highlight": "solid"
+            },
+            {
+              "en": "He has a solid understanding of the subject.",
+              "ja": "彼はその主題をしっかりと理解している。",
+              "highlight": "solid"
+            },
+            {
+              "en": "The wall is solid and well-built.",
+              "ja": "その壁は堅固でしっかり建っている。",
+              "highlight": "solid"
+            },
+            {
+              "en": "The cube is a solid shape.",
+              "ja": "立方体は立体の形だ。",
+              "highlight": "solid"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 solidus（しっかりした）に由来。",
+      "synonyms": [
+        { "word": "firm", "trans": "堅固な" },
+        { "word": "hard", "trans": "硬い" },
+        { "word": "strong", "trans": "強い" }
+      ],
+      "antonyms": [
+        { "word": "liquid", "trans": "液体の" },
+        { "word": "gas", "trans": "気体の" },
+        { "word": "soft", "trans": "柔らかい" }
+      ],
+      "related": [
+        { "word": "solidify", "trans": "固める" },
+        { "word": "solidity", "trans": "堅固さ" },
+        { "word": "solidarity", "trans": "連帯" }
+      ]
+    },
+    {
+      "number": 6184,
+      "word": "liquid",
+      "pos": "形容詞 / 名詞",
+      "meaning": "液体の",
+      "nuance": "「流動性のある物質」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Water is a liquid at room temperature.",
+              "ja": "水は室温で液体だ。",
+              "highlight": "liquid"
+            },
+            {
+              "en": "The medicine is available in liquid form.",
+              "ja": "その薬は液体の形で入手できる。",
+              "highlight": "liquid"
+            },
+            {
+              "en": "The company has liquid assets.",
+              "ja": "その会社は流動資産を持っている。",
+              "highlight": "liquid"
+            },
+            {
+              "en": "She poured the liquid into the glass.",
+              "ja": "彼女は液体をグラスに注いだ。",
+              "highlight": "liquid"
+            },
+            {
+              "en": "The liquid turned into a solid when frozen.",
+              "ja": "その液体は凍ると固体になった。",
+              "highlight": "liquid"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 liquidus（流れる）に由来。",
+      "synonyms": [
+        { "word": "fluid", "trans": "流体" },
+        { "word": "watery", "trans": "水っぽい" },
+        { "word": "runny", "trans": "とろとろの" }
+      ],
+      "antonyms": [
+        { "word": "solid", "trans": "固体" },
+        { "word": "gas", "trans": "気体" },
+        { "word": "frozen", "trans": "凍った" }
+      ],
+      "related": [
+        { "word": "liquidity", "trans": "流動性" },
+        { "word": "liquefy", "trans": "液体にする" },
+        { "word": "liquidate", "trans": "清算する" }
+      ]
+    },
+    {
+      "number": 6185,
+      "word": "vapor",
+      "pos": "名詞",
+      "meaning": "蒸気、気体",
+      "nuance": "「気体状態の物質」を指す。特に水蒸気。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Water vapor rises from the lake.",
+              "ja": "水蒸気が湖から立ち上る。",
+              "highlight": "vapor"
+            },
+            {
+              "en": "The vapor condensed on the cold window.",
+              "ja": "蒸気が冷たい窓に結露した。",
+              "highlight": "vapor"
+            },
+            {
+              "en": "The fuel turned into vapor.",
+              "ja": "その燃料は気体になった。",
+              "highlight": "vapor"
+            },
+            {
+              "en": "The vapor from the chemical was dangerous.",
+              "ja": "その化学物質の蒸気は危険だった。",
+              "highlight": "vapor"
+            },
+            {
+              "en": "The water evaporated, leaving a vapor trail.",
+              "ja": "水は蒸発し、蒸気の跡を残した。",
+              "highlight": "vapor"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 vapor（蒸気）に由来。",
+      "synonyms": [
+        { "word": "steam", "trans": "蒸気" },
+        { "word": "fume", "trans": "煙" },
+        { "word": "gas", "trans": "気体" }
+      ],
+      "antonyms": [
+        { "word": "liquid", "trans": "液体" },
+        { "word": "solid", "trans": "固体" },
+        { "word": "condensate", "trans": "凝縮物" }
+      ],
+      "related": [
+        { "word": "vaporize", "trans": "気化する" },
+        { "word": "evaporate", "trans": "蒸発する" },
+        { "word": "vapor pressure", "trans": "蒸気圧" }
+      ]
+    },
+    {
+      "number": 6186,
+      "word": "hydrogen",
+      "pos": "名詞",
+      "meaning": "水素",
+      "nuance": "「最も軽い元素」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Water is composed of hydrogen and oxygen.",
+              "ja": "水は水素と酸素で構成されている。",
+              "highlight": "hydrogen"
+            },
+            {
+              "en": "Hydrogen is the lightest element.",
+              "ja": "水素は最も軽い元素だ。",
+              "highlight": "Hydrogen"
+            },
+            {
+              "en": "Hydrogen fuel cells are a clean energy source.",
+              "ja": "水素燃料電池はクリーンなエネルギー源だ。",
+              "highlight": "Hydrogen"
+            },
+            {
+              "en": "The sun is mostly hydrogen and helium.",
+              "ja": "太陽は主に水素とヘリウムでできている。",
+              "highlight": "hydrogen"
+            },
+            {
+              "en": "Hydrogen gas is highly flammable.",
+              "ja": "水素ガスは非常に可燃性が高い。",
+              "highlight": "Hydrogen"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 hydro（水）+ genes（生み出す）に由来。",
+      "synonyms": [
+        { "word": "H", "trans": "水素の記号" },
+        { "word": "element", "trans": "元素" },
+        { "word": "fuel", "trans": "燃料" }
+      ],
+      "antonyms": [
+        { "word": "oxygen", "trans": "酸素" },
+        { "word": "helium", "trans": "ヘリウム" },
+        { "word": "carbon", "trans": "炭素" }
+      ],
+      "related": [
+        { "word": "hydrogen peroxide", "trans": "過酸化水素" },
+        { "word": "hydrogen bomb", "trans": "水素爆弾" },
+        { "word": "hydrogen sulfide", "trans": "硫化水素" }
+      ]
+    },
+    {
+      "number": 6187,
+      "word": "oxygen",
+      "pos": "名詞",
+      "meaning": "酸素",
+      "nuance": "「呼吸に必要な元素」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Humans need oxygen to survive.",
+              "ja": "人間は生きるために酸素を必要とする。",
+              "highlight": "oxygen"
+            },
+            {
+              "en": "The patient was given supplemental oxygen.",
+              "ja": "その患者は補助酸素を与えられた。",
+              "highlight": "oxygen"
+            },
+            {
+              "en": "Oxygen is essential for combustion.",
+              "ja": "酸素は燃焼に不可欠だ。",
+              "highlight": "Oxygen"
+            },
+            {
+              "en": "The forest produces oxygen through photosynthesis.",
+              "ja": "森は光合成を通じて酸素を生産する。",
+              "highlight": "oxygen"
+            },
+            {
+              "en": "High levels of oxygen can be dangerous.",
+              "ja": "高濃度の酸素は危険になり得る。",
+              "highlight": "oxygen"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 oxys（鋭い）+ genes（生み出す）に由来。",
+      "synonyms": [
+        { "word": "O", "trans": "酸素の記号" },
+        { "word": "air", "trans": "空気" },
+        { "word": "gas", "trans": "気体" }
+      ],
+      "antonyms": [
+        { "word": "carbon dioxide", "trans": "二酸化炭素" },
+        { "word": "hydrogen", "trans": "水素" },
+        { "word": "nitrogen", "trans": "窒素" }
+      ],
+      "related": [
+        { "word": "oxygenate", "trans": "酸素を供給する" },
+        { "word": "oxygen mask", "trans": "酸素マスク" },
+        { "word": "hypoxia", "trans": "低酸素症" }
+      ]
+    },
+    {
+      "number": 6188,
+      "word": "atom",
+      "pos": "名詞",
+      "meaning": "原子",
+      "nuance": "「物質の基本単位」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Molecules are made up of atoms.",
+              "ja": "分子は原子で構成されている。",
+              "highlight": "atoms"
+            },
+            {
+              "en": "The atom is the smallest unit of an element.",
+              "ja": "原子は元素の最小単位だ。",
+              "highlight": "atom"
+            },
+            {
+              "en": "There is not an atom of truth in his story.",
+              "ja": "彼の話には一片の真実もない。",
+              "highlight": "atom"
+            },
+            {
+              "en": "Nuclear energy comes from splitting atoms.",
+              "ja": "核エネルギーは原子を分裂させることで得られる。",
+              "highlight": "atoms"
+            },
+            {
+              "en": "The atom has a nucleus and electrons.",
+              "ja": "原子は原子核と電子を持つ。",
+              "highlight": "atom"
+            }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 atomos（分割できない）に由来。",
+      "synonyms": [
+        { "word": "particle", "trans": "粒子" },
+        { "word": "bit", "trans": "少量" },
+        { "word": "molecule", "trans": "分子" }
+      ],
+      "antonyms": [
+        { "word": "whole", "trans": "全体" },
+        { "word": "mass", "trans": "塊" },
+        { "word": "universe", "trans": "宇宙" }
+      ],
+      "related": [
+        { "word": "atomic", "trans": "原子の" },
+        { "word": "atomize", "trans": "原子化する" },
+        { "word": "subatomic", "trans": "亜原子の" }
+      ]
+    },
+    {
+      "number": 6189,
+      "word": "nuclear",
+      "pos": "形容詞",
+      "meaning": "核の、原子力の",
+      "nuance": "「原子核に関する」または「原子力エネルギーに関する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Nuclear power plants generate electricity.",
+              "ja": "原子力発電所は電力を生成する。",
+              "highlight": "Nuclear"
+            },
+            {
+              "en": "The country developed nuclear weapons.",
+              "ja": "その国は核兵器を開発した。",
+              "highlight": "nuclear"
+            },
+            {
+              "en": "Nuclear physics studies the atomic nucleus.",
+              "ja": "核物理学は原子核を研究する。",
+              "highlight": "Nuclear"
+            },
+            {
+              "en": "The nuclear family consists of parents and children.",
+              "ja": "核家族は両親と子供で構成される。",
+              "highlight": "nuclear"
+            },
+            {
+              "en": "Nuclear waste is dangerous and hard to dispose of.",
+              "ja": "核廃棄物は危険で処分が難しい。",
+              "highlight": "Nuclear"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 nucleus（核）に由来。",
+      "synonyms": [
+        { "word": "atomic", "trans": "原子の" },
+        { "word": "central", "trans": "中心の" },
+        { "word": "core", "trans": "核心の" }
+      ],
+      "antonyms": [
+        { "word": "non-nuclear", "trans": "非核の" },
+        { "word": "conventional", "trans": "通常の" },
+        { "word": "extended", "trans": "拡大家族の" }
+      ],
+      "related": [
+        { "word": "nucleus", "trans": "原子核" },
+        { "word": "nuclear energy", "trans": "核エネルギー" },
+        { "word": "nuclear reactor", "trans": "原子炉" }
+      ]
+    },
+    {
+      "number": 6190,
+      "word": "molecule",
+      "pos": "名詞",
+      "meaning": "分子",
+      "nuance": "「二つ以上の原子が結合したもの」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A water molecule consists of two hydrogen atoms and one oxygen atom.",
+              "ja": "水分子は2つの水素原子と1つの酸素原子から成る。",
+              "highlight": "molecule"
+            },
+            {
+              "en": "The molecule is too small to see with a microscope.",
+              "ja": "その分子は小さすぎて顕微鏡では見えない。",
+              "highlight": "molecule"
+            },
+            {
+              "en": "Organic molecules are essential for life.",
+              "ja": "有機分子は生命に不可欠だ。",
+              "highlight": "molecules"
+            },
+            {
+              "en": "The molecule breaks down into smaller parts.",
+              "ja": "その分子はより小さな部分に分解する。",
+              "highlight": "molecule"
+            },
+            {
+              "en": "Chemists study the structure of molecules.",
+              "ja": "化学者は分子の構造を研究する。",
+              "highlight": "molecules"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 moles（塊）に由来。",
+      "synonyms": [
+        { "word": "particle", "trans": "粒子" },
+        { "word": "compound", "trans": "化合物" },
+        { "word": "atom", "trans": "原子" }
+      ],
+      "antonyms": [
+        { "word": "element", "trans": "元素" },
+        { "word": "macro", "trans": "巨視的" },
+        { "word": "bulk", "trans": "塊" }
+      ],
+      "related": [
+        { "word": "molecular", "trans": "分子の" },
+        { "word": "macromolecule", "trans": "高分子" },
+        { "word": "molecule model", "trans": "分子モデル" }
+      ]
+    },
+    {
+      "number": 6191,
+      "word": "radiation",
+      "pos": "名詞",
+      "meaning": "放射能、放射",
+      "nuance": "「エネルギーが波や粒子として放出される現象」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The patient received radiation therapy for cancer.",
+              "ja": "その患者は癌の放射線療法を受けた。",
+              "highlight": "radiation"
+            },
+            {
+              "en": "Ultraviolet radiation from the sun can cause skin cancer.",
+              "ja": "太陽からの紫外線は皮膚癌を引き起こす可能性がある。",
+              "highlight": "radiation"
+            },
+            {
+              "en": "Nuclear accidents can release harmful radiation.",
+              "ja": "原子力事故は有害な放射能を放出する可能性がある。",
+              "highlight": "radiation"
+            },
+            {
+              "en": "The radiation levels were dangerously high.",
+              "ja": "放射線レベルは危険なほど高かった。",
+              "highlight": "radiation"
+            },
+            {
+              "en": "Radiation is used in medical imaging.",
+              "ja": "放射線は医用画像診断に使用される。",
+              "highlight": "Radiation"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 radiare（放射する）に由来。",
+      "synonyms": [
+        { "word": "emission", "trans": "放出" },
+        { "word": "rays", "trans": "光線" },
+        { "word": "energy", "trans": "エネルギー" }
+      ],
+      "antonyms": [
+        { "word": "absorption", "trans": "吸収" },
+        { "word": "shielding", "trans": "遮蔽" },
+        { "word": "protection", "trans": "保護" }
+      ],
+      "related": [
+        { "word": "radioactive", "trans": "放射性の" },
+        { "word": "radiate", "trans": "放射する" },
+        { "word": "radiation sickness", "trans": "放射線障害" }
+      ]
+    }
+  ]
+}
