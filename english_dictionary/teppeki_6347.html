@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#33	傾向・可能性・反応 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #33	傾向・可能性・反応
+    </div>
+    
+    <h2 class="section-title">#33	傾向・可能性・反応</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6282.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6347-tend.html"><span class="word-id">6347</span><span class="word-name">tend</span><span class="word-meaning">(～する)傾向がある(to do)</span></a></li>
+        <li class="word-item"><a href="data/6348-trend.html"><span class="word-id">6348</span><span class="word-name">trend</span><span class="word-meaning">傾向、風潮</span></a></li>
+        <li class="word-item"><a href="data/6349-apt.html"><span class="word-id">6349</span><span class="word-name">apt</span><span class="word-meaning">～しがちである(to do)</span></a></li>
+        <li class="word-item"><a href="data/6350-liable.html"><span class="word-id">6350</span><span class="word-name">liable</span><span class="word-meaning">(～)しがちである(to do)； (～に対して)法的責任がある(for～)</span></a></li>
+        <li class="word-item"><a href="data/6351-prone.html"><span class="word-id">6351</span><span class="word-name">prone</span><span class="word-meaning">(～)しがちである(to do)、(を)こうむりがちである(to～)</span></a></li>
+        <li class="word-item"><a href="data/6352-susceptible.html"><span class="word-id">6352</span><span class="word-name">susceptible</span><span class="word-meaning">(～の)影響を受けやすい、(を)こうむりがちである(to～)</span></a></li>
+        <li class="word-item"><a href="data/6353-likely.html"><span class="word-id">6353</span><span class="word-name">likely</span><span class="word-meaning">(～)しそうである(to do)</span></a></li>
+        <li class="word-item"><a href="data/6354-probable.html"><span class="word-id">6354</span><span class="word-name">probable</span><span class="word-meaning">じゅうぶんありえる</span></a></li>
+        <li class="word-item"><a href="data/6355-possibly.html"><span class="word-id">6355</span><span class="word-name">possibly</span><span class="word-meaning">ことによると； いったい； 絶対に(…ない)</span></a></li>
+        <li class="word-item"><a href="data/6356-be about to do.html"><span class="word-id">6356</span><span class="word-name">be about to do</span><span class="word-meaning">今にも～しそうである</span></a></li>
+        <li class="word-item"><a href="data/6357-on the verge of.html"><span class="word-id">6357</span><span class="word-name">on the verge of</span><span class="word-meaning">今にも～しそうである</span></a></li>
+        <li class="word-item"><a href="data/6358-on the brink of.html"><span class="word-id">6358</span><span class="word-name">on the brink of</span><span class="word-meaning">今にも～しそうである</span></a></li>
+        <li class="word-item"><a href="data/6359-eager.html"><span class="word-id">6359</span><span class="word-name">eager</span><span class="word-meaning">(～することを)熱望している、しきりに～したがっている(to do, for ～)</span></a></li>
+        <li class="word-item"><a href="data/6360-willing.html"><span class="word-id">6360</span><span class="word-name">willing</span><span class="word-meaning">（～することを）いとわない、快く～する(to do)</span></a></li>
+        <li class="word-item"><a href="data/6361-reluctant.html"><span class="word-id">6361</span><span class="word-name">reluctant</span><span class="word-meaning">(～する)気が進まない</span></a></li>
+        <li class="word-item"><a href="data/6362-enthusiastic.html"><span class="word-id">6362</span><span class="word-name">enthusiastic</span><span class="word-meaning">(～に対し)熱意がある、熱心な(about)</span></a></li>
+        <li class="word-item"><a href="data/6363-keen.html"><span class="word-id">6363</span><span class="word-name">keen</span><span class="word-meaning">(～に)熱心な(on[upon]～)； 鋭い</span></a></li>
+        <li class="word-item"><a href="data/6364-intent.html"><span class="word-id">6364</span><span class="word-name">intent</span><span class="word-meaning">(～に)熱心な、一生懸命の(on[upon])</span></a></li>
+        <li class="word-item"><a href="data/6365-earnest.html"><span class="word-id">6365</span><span class="word-name">earnest</span><span class="word-meaning">まじめな、真剣な</span></a></li>
+        <li class="word-item"><a href="data/6366-aspire.html"><span class="word-id">6366</span><span class="word-name">aspire</span><span class="word-meaning">(～することを)熱望する(to do, for)</span></a></li>
+        <li class="word-item"><a href="data/6367-yearn.html"><span class="word-id">6367</span><span class="word-name">yearn</span><span class="word-meaning">(～することを)熱望する(to do, for)</span></a></li>
+        <li class="word-item"><a href="data/6368-long for.html"><span class="word-id">6368</span><span class="word-name">long for</span><span class="word-meaning">～を待ち望む； 懐かしく思う</span></a></li>
+        <li class="word-item"><a href="data/6369-tempt.html"><span class="word-id">6369</span><span class="word-name">tempt</span><span class="word-meaning">～を(…するよう)誘惑する(to do, into doing)</span></a></li>
+        <li class="word-item"><a href="data/6370-fascinate.html"><span class="word-id">6370</span><span class="word-name">fascinate</span><span class="word-meaning">～を魅了する</span></a></li>
+        <li class="word-item"><a href="data/6371-appeal.html"><span class="word-id">6371</span><span class="word-name">appeal</span><span class="word-meaning">魅力、人気； 訴え、要請； (～に)訴える、要請する(to～)</span></a></li>
+        <li class="word-item"><a href="data/6372-charm.html"><span class="word-id">6372</span><span class="word-name">charm</span><span class="word-meaning">魅力； 呪文</span></a></li>
+        <li class="word-item"><a href="data/6373-respond.html"><span class="word-id">6373</span><span class="word-name">respond</span><span class="word-meaning">(～に)反応する、返事をする(to)</span></a></li>
+        <li class="word-item"><a href="data/6374-react.html"><span class="word-id">6374</span><span class="word-name">react</span><span class="word-meaning">(～に)反応する(to)</span></a></li>
+        <li class="word-item"><a href="data/6375-interact.html"><span class="word-id">6375</span><span class="word-name">interact</span><span class="word-meaning">(～と)相互作用する、交流し合う(with)</span></a></li>
+        <li class="word-item"><a href="data/6376-adjust.html"><span class="word-id">6376</span><span class="word-name">adjust</span><span class="word-meaning">(～に)順応する、適応する(to～)； ～を(…に)適合させる(to…)</span></a></li>
+        <li class="word-item"><a href="data/6377-adapt.html"><span class="word-id">6377</span><span class="word-name">adapt</span><span class="word-meaning">(～に)順応する、適応する(to～)； ～を(…に)適合させる(to…)</span></a></li>
+        <li class="word-item"><a href="data/6378-shift.html"><span class="word-id">6378</span><span class="word-name">shift</span><span class="word-meaning">変化、移行； シフト、交代勤務期間； 移る、変わる</span></a></li>
+        <li class="word-item"><a href="data/6379-fit.html"><span class="word-id">6379</span><span class="word-name">fit</span><span class="word-meaning">合う、はまる； ～に(サイズが)合う； 健康な、体調がよい</span></a></li>
+        <li class="word-item"><a href="data/6380-suit.html"><span class="word-id">6380</span><span class="word-name">suit</span><span class="word-meaning">～に似合う； (都合が)合う</span></a></li>
+        <li class="word-item"><a href="data/6381-match.html"><span class="word-id">6381</span><span class="word-name">match</span><span class="word-meaning">～と(組み合わせが)合う； に匹敵する</span></a></li>
+        <li class="word-item"><a href="data/6382-go with.html"><span class="word-id">6382</span><span class="word-name">go with</span><span class="word-meaning">～と(組み合わせが)合う； ～に同意する、を受け入れる</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6282.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
