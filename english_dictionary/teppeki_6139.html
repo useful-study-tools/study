@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#29	医学・化学 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #29	医学・化学
+    </div>
+    
+    <h2 class="section-title">#29	医学・化学</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6086.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6139-medicine.html"><span class="word-id">6139</span><span class="word-name">medicine</span><span class="word-meaning">薬； 医学</span></a></li>
+        <li class="word-item"><a href="data/6140-pharmacy.html"><span class="word-id">6140</span><span class="word-name">pharmacy</span><span class="word-meaning">薬局</span></a></li>
+        <li class="word-item"><a href="data/6141-surgery.html"><span class="word-id">6141</span><span class="word-name">surgery</span><span class="word-meaning">外科手術</span></a></li>
+        <li class="word-item"><a href="data/6142-vein.html"><span class="word-id">6142</span><span class="word-name">vein</span><span class="word-meaning">血管、静脈</span></a></li>
+        <li class="word-item"><a href="data/6143-artery.html"><span class="word-id">6143</span><span class="word-name">artery</span><span class="word-meaning">動脈</span></a></li>
+        <li class="word-item"><a href="data/6144-physical.html"><span class="word-id">6144</span><span class="word-name">physical</span><span class="word-meaning">身体の； 物理的な</span></a></li>
+        <li class="word-item"><a href="data/6145-disease.html"><span class="word-id">6145</span><span class="word-name">disease</span><span class="word-meaning">病気</span></a></li>
+        <li class="word-item"><a href="data/6146-symptom.html"><span class="word-id">6146</span><span class="word-name">symptom</span><span class="word-meaning">兆候、症状</span></a></li>
+        <li class="word-item"><a href="data/6147-ache.html"><span class="word-id">6147</span><span class="word-name">ache</span><span class="word-meaning">(ずきずき)痛む</span></a></li>
+        <li class="word-item"><a href="data/6148-acute.html"><span class="word-id">6148</span><span class="word-name">acute</span><span class="word-meaning">鋭い、激しい</span></a></li>
+        <li class="word-item"><a href="data/6149-sore.html"><span class="word-id">6149</span><span class="word-name">sore</span><span class="word-meaning">(喉、筋肉などがヒリヒリ)痛い</span></a></li>
+        <li class="word-item"><a href="data/6150-dizzy.html"><span class="word-id">6150</span><span class="word-name">dizzy</span><span class="word-meaning">めまいがする</span></a></li>
+        <li class="word-item"><a href="data/6151-cough.html"><span class="word-id">6151</span><span class="word-name">cough</span><span class="word-meaning">咳をする； 咳</span></a></li>
+        <li class="word-item"><a href="data/6152-fever.html"><span class="word-id">6152</span><span class="word-name">fever</span><span class="word-meaning">熱</span></a></li>
+        <li class="word-item"><a href="data/6153-paralyze.html"><span class="word-id">6153</span><span class="word-name">paralyze</span><span class="word-meaning">～麻痺させる</span></a></li>
+        <li class="word-item"><a href="data/6154-patient.html"><span class="word-id">6154</span><span class="word-name">patient</span><span class="word-meaning">患者； 我慢強い</span></a></li>
+        <li class="word-item"><a href="data/6155-ambulance.html"><span class="word-id">6155</span><span class="word-name">ambulance</span><span class="word-meaning">救急車</span></a></li>
+        <li class="word-item"><a href="data/6156-diagnose.html"><span class="word-id">6156</span><span class="word-name">diagnose</span><span class="word-meaning">～を診断する</span></a></li>
+        <li class="word-item"><a href="data/6157-cure.html"><span class="word-id">6157</span><span class="word-name">cure</span><span class="word-meaning">～(病気)を直す、治療する； 治療法</span></a></li>
+        <li class="word-item"><a href="data/6158-heal.html"><span class="word-id">6158</span><span class="word-name">heal</span><span class="word-meaning">～(けが)を治す； (傷が)治る</span></a></li>
+        <li class="word-item"><a href="data/6159-treat.html"><span class="word-id">6159</span><span class="word-name">treat</span><span class="word-meaning">～を扱う、に接する； ～を治療する； ～に(…を)おごる(to …)</span></a></li>
+        <li class="word-item"><a href="data/6160-recover.html"><span class="word-id">6160</span><span class="word-name">recover</span><span class="word-meaning">(～から)回復する(from～)； ～を取り戻す</span></a></li>
+        <li class="word-item"><a href="data/6161-operate.html"><span class="word-id">6161</span><span class="word-name">operate</span><span class="word-meaning">作動・作用する； (～に)手術する(on～)； ～を操作する</span></a></li>
+        <li class="word-item"><a href="data/6162-go through.html"><span class="word-id">6162</span><span class="word-name">go through</span><span class="word-meaning">～を経験する</span></a></li>
+        <li class="word-item"><a href="data/6163-cancer.html"><span class="word-id">6163</span><span class="word-name">cancer</span><span class="word-meaning">癌</span></a></li>
+        <li class="word-item"><a href="data/6164-tumor.html"><span class="word-id">6164</span><span class="word-name">tumor</span><span class="word-meaning">腫瘍</span></a></li>
+        <li class="word-item"><a href="data/6165-diabetes.html"><span class="word-id">6165</span><span class="word-name">diabetes</span><span class="word-meaning">糖尿病</span></a></li>
+        <li class="word-item"><a href="data/6166-stroke.html"><span class="word-id">6166</span><span class="word-name">stroke</span><span class="word-meaning">脳卒中</span></a></li>
+        <li class="word-item"><a href="data/6167-virus.html"><span class="word-id">6167</span><span class="word-name">virus</span><span class="word-meaning">ウイルス</span></a></li>
+        <li class="word-item"><a href="data/6168-germ.html"><span class="word-id">6168</span><span class="word-name">germ</span><span class="word-meaning">ばい菌、細菌</span></a></li>
+        <li class="word-item"><a href="data/6169-infect.html"><span class="word-id">6169</span><span class="word-name">infect</span><span class="word-meaning">～に感染させる</span></a></li>
+        <li class="word-item"><a href="data/6170-epidemic.html"><span class="word-id">6170</span><span class="word-name">epidemic</span><span class="word-meaning">伝染病</span></a></li>
+        <li class="word-item"><a href="data/6171-plague.html"><span class="word-id">6171</span><span class="word-name">plague</span><span class="word-meaning">疫病； 災難</span></a></li>
+        <li class="word-item"><a href="data/6172-vaccine.html"><span class="word-id">6172</span><span class="word-name">vaccine</span><span class="word-meaning">ワクチン</span></a></li>
+        <li class="word-item"><a href="data/6173-defect.html"><span class="word-id">6173</span><span class="word-name">defect</span><span class="word-meaning">欠陥、欠点、障害</span></a></li>
+        <li class="word-item"><a href="data/6174-immune.html"><span class="word-id">6174</span><span class="word-name">immune</span><span class="word-meaning">(～に対して)免疫のある(to～)</span></a></li>
+        <li class="word-item"><a href="data/6175-allergy.html"><span class="word-id">6175</span><span class="word-name">allergy</span><span class="word-meaning">アレルギー</span></a></li>
+        <li class="word-item"><a href="data/6176-gene.html"><span class="word-id">6176</span><span class="word-name">gene</span><span class="word-meaning">遺伝子</span></a></li>
+        <li class="word-item"><a href="data/6177-cell.html"><span class="word-id">6177</span><span class="word-name">cell</span><span class="word-meaning">細胞</span></a></li>
+        <li class="word-item"><a href="data/6178-organism.html"><span class="word-id">6178</span><span class="word-name">organism</span><span class="word-meaning">生物</span></a></li>
+        <li class="word-item"><a href="data/6179-clone.html"><span class="word-id">6179</span><span class="word-name">clone</span><span class="word-meaning">クローン； ～のクローンを作る</span></a></li>
+        <li class="word-item"><a href="data/6180-anatomy.html"><span class="word-id">6180</span><span class="word-name">anatomy</span><span class="word-meaning">解剖学</span></a></li>
+        <li class="word-item"><a href="data/6181-chemistry.html"><span class="word-id">6181</span><span class="word-name">chemistry</span><span class="word-meaning">科学</span></a></li>
+        <li class="word-item"><a href="data/6182-toxic.html"><span class="word-id">6182</span><span class="word-name">toxic</span><span class="word-meaning">有毒な</span></a></li>
+        <li class="word-item"><a href="data/6183-solid.html"><span class="word-id">6183</span><span class="word-name">solid</span><span class="word-meaning">固体の、固い、堅固な； 立体の； 中身の詰まった</span></a></li>
+        <li class="word-item"><a href="data/6184-liquid.html"><span class="word-id">6184</span><span class="word-name">liquid</span><span class="word-meaning">液体の</span></a></li>
+        <li class="word-item"><a href="data/6185-vapor.html"><span class="word-id">6185</span><span class="word-name">vapor</span><span class="word-meaning">蒸気、気体</span></a></li>
+        <li class="word-item"><a href="data/6186-hydrogen.html"><span class="word-id">6186</span><span class="word-name">hydrogen</span><span class="word-meaning">水素</span></a></li>
+        <li class="word-item"><a href="data/6187-oxygen.html"><span class="word-id">6187</span><span class="word-name">oxygen</span><span class="word-meaning">酸素</span></a></li>
+        <li class="word-item"><a href="data/6188-atom.html"><span class="word-id">6188</span><span class="word-name">atom</span><span class="word-meaning">原子</span></a></li>
+        <li class="word-item"><a href="data/6189-nuclear.html"><span class="word-id">6189</span><span class="word-name">nuclear</span><span class="word-meaning">核の、原子力の</span></a></li>
+        <li class="word-item"><a href="data/6190-molecule.html"><span class="word-id">6190</span><span class="word-name">molecule</span><span class="word-meaning">分子</span></a></li>
+        <li class="word-item"><a href="data/6191-radiation.html"><span class="word-id">6191</span><span class="word-name">radiation</span><span class="word-meaning">放射能、放射</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6086.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
