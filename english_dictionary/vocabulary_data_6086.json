@@ -1,0 +1,2919 @@
+{
+  "words": [
+    {
+      "number": 6086,
+      "word": "industry",
+      "pos": "名詞",
+      "meaning": "産業、工業； 勤勉",
+      "nuance": "「経済活動の分野」または「努力を惜しまない性質」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The automotive industry is facing many challenges.",
+              "ja": "自動車産業は多くの課題に直面している。",
+              "highlight": "industry"
+            },
+            {
+              "en": "His success was due to his industry and determination.",
+              "ja": "彼の成功は勤勉と決意のおかげだった。",
+              "highlight": "industry"
+            },
+            {
+              "en": "Tourism is a major industry in this region.",
+              "ja": "観光業はこの地域の主要産業です。",
+              "highlight": "industry"
+            },
+            {
+              "en": "The government supports local industries.",
+              "ja": "政府は地場産業を支援している。",
+              "highlight": "industries"
+            },
+            {
+              "en": "She is admired for her industry and dedication.",
+              "ja": "彼女は勤勉さと献身で称賛されている。",
+              "highlight": "industry"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 industria（勤勉）に由来。",
+      "synonyms": [
+        { "word": "manufacturing", "trans": "製造業" },
+        { "word": "diligence", "trans": "勤勉" },
+        { "word": "sector", "trans": "部門" }
+      ],
+      "antonyms": [
+        { "word": "laziness", "trans": "怠惰" },
+        { "word": "idleness", "trans": "無為" },
+        { "word": "inactivity", "trans": "不活動" }
+      ],
+      "related": [
+        { "word": "industrial", "trans": "産業の" },
+        { "word": "industrialize", "trans": "工業化する" },
+        { "word": "industrious", "trans": "勤勉な" }
+      ]
+    },
+    {
+      "number": 6087,
+      "word": "sector",
+      "pos": "名詞",
+      "meaning": "部門",
+      "nuance": "「経済や社会の特定の分野」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The private sector is growing rapidly.",
+              "ja": "民間部門は急速に成長している。",
+              "highlight": "sector"
+            },
+            {
+              "en": "The public sector includes government jobs.",
+              "ja": "公共部門には政府の仕事が含まれる。",
+              "highlight": "sector"
+            },
+            {
+              "en": "The financial sector has been hit hard by the crisis.",
+              "ja": "金融部門は危機で大きな打撃を受けた。",
+              "highlight": "sector"
+            },
+            {
+              "en": "The agricultural sector employs many people.",
+              "ja": "農業部門は多くの人を雇用している。",
+              "highlight": "sector"
+            },
+            {
+              "en": "The service sector is the largest part of the economy.",
+              "ja": "サービス部門は経済の最大の部分を占めている。",
+              "highlight": "sector"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 sector（切断するもの）に由来。",
+      "synonyms": [
+        { "word": "industry", "trans": "産業" },
+        { "word": "field", "trans": "分野" },
+        { "word": "area", "trans": "領域" }
+      ],
+      "antonyms": [
+        { "word": "whole", "trans": "全体" },
+        { "word": "entirety", "trans": "全体" },
+        { "word": "totality", "trans": "総体" }
+      ],
+      "related": [
+        { "word": "sectoral", "trans": "部門の" },
+        { "word": "private sector", "trans": "民間部門" },
+        { "word": "public sector", "trans": "公共部門" }
+      ]
+    },
+    {
+      "number": 6088,
+      "word": "agriculture",
+      "pos": "名詞",
+      "meaning": "農業",
+      "nuance": "「作物を育て、家畜を飼う活動」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Agriculture is the backbone of the economy in many countries.",
+              "ja": "農業は多くの国で経済の基盤である。",
+              "highlight": "Agriculture"
+            },
+            {
+              "en": "Modern agriculture relies heavily on technology.",
+              "ja": "現代農業はテクノロジーに大きく依存している。",
+              "highlight": "agriculture"
+            },
+            {
+              "en": "He studied agriculture at university.",
+              "ja": "彼は大学で農業を学んだ。",
+              "highlight": "agriculture"
+            },
+            {
+              "en": "The region is known for its agriculture.",
+              "ja": "その地域は農業で知られている。",
+              "highlight": "agriculture"
+            },
+            {
+              "en": "Sustainable agriculture is becoming more important.",
+              "ja": "持続可能な農業はますます重要になっている。",
+              "highlight": "agriculture"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 ager（畑）+ cultura（耕作）に由来。",
+      "synonyms": [
+        { "word": "farming", "trans": "農業" },
+        { "word": "cultivation", "trans": "耕作" },
+        { "word": "agribusiness", "trans": "アグリビジネス" }
+      ],
+      "antonyms": [
+        { "word": "industry", "trans": "工業" },
+        { "word": "manufacturing", "trans": "製造業" },
+        { "word": "urbanization", "trans": "都市化" }
+      ],
+      "related": [
+        { "word": "agricultural", "trans": "農業の" },
+        { "word": "agriculturist", "trans": "農業家" },
+        { "word": "agronomy", "trans": "農学" }
+      ]
+    },
+    {
+      "number": 6089,
+      "word": "cultivate",
+      "pos": "動詞",
+      "meaning": "～を耕す； ～(才能など)を磨く・養う",
+      "nuance": "「土地を耕す」または「能力や人間関係を育てる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Farmers cultivate the land to grow crops.",
+              "ja": "農家は作物を育てるために土地を耕す。",
+              "highlight": "cultivate"
+            },
+            {
+              "en": "She has cultivated a reputation for honesty.",
+              "ja": "彼女は誠実さで評判を築いてきた。",
+              "highlight": "cultivated"
+            },
+            {
+              "en": "He is trying to cultivate new business relationships.",
+              "ja": "彼は新しいビジネス関係を築こうとしている。",
+              "highlight": "cultivate"
+            },
+            {
+              "en": "The soil here is difficult to cultivate.",
+              "ja": "ここの土壌は耕作が難しい。",
+              "highlight": "cultivate"
+            },
+            {
+              "en": "You should cultivate good study habits.",
+              "ja": "良い勉強習慣を身につけるべきだ。",
+              "highlight": "cultivate"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 cultivare（耕作する）に由来。",
+      "synonyms": [
+        { "word": "farm", "trans": "耕作する" },
+        { "word": "develop", "trans": "発展させる" },
+        { "word": "nurture", "trans": "育成する" }
+      ],
+      "antonyms": [
+        { "word": "neglect", "trans": "怠る" },
+        { "word": "abandon", "trans": "放棄する" },
+        { "word": "destroy", "trans": "破壊する" }
+      ],
+      "related": [
+        { "word": "cultivation", "trans": "耕作" },
+        { "word": "cultivated", "trans": "教養のある" },
+        { "word": "culture", "trans": "文化" }
+      ]
+    },
+    {
+      "number": 6090,
+      "word": "culture",
+      "pos": "名詞",
+      "meaning": "文化； 教養； 栽培",
+      "nuance": "「社会の習慣や芸術」または「細菌の培養」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Japanese culture is rich and diverse.",
+              "ja": "日本の文化は豊かで多様だ。",
+              "highlight": "culture"
+            },
+            {
+              "en": "He is a man of culture and refinement.",
+              "ja": "彼は教養と洗練された男性だ。",
+              "highlight": "culture"
+            },
+            {
+              "en": "The laboratory is growing a bacterial culture.",
+              "ja": "研究室では細菌培養を行っている。",
+              "highlight": "culture"
+            },
+            {
+              "en": "Understanding different cultures is important.",
+              "ja": "異なる文化を理解することは重要だ。",
+              "highlight": "cultures"
+            },
+            {
+              "en": "The company has a culture of innovation.",
+              "ja": "その会社には革新の文化がある。",
+              "highlight": "culture"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 cultura（耕作）に由来。",
+      "synonyms": [
+        { "word": "society", "trans": "社会" },
+        { "word": "civilization", "trans": "文明" },
+        { "word": "refinement", "trans": "教養" }
+      ],
+      "antonyms": [
+        { "word": "ignorance", "trans": "無知" },
+        { "word": "barbarism", "trans": "野蛮" },
+        { "word": "philistinism", "trans": "俗物根性" }
+      ],
+      "related": [
+        { "word": "cultural", "trans": "文化の" },
+        { "word": "cultured", "trans": "教養のある" },
+        { "word": "subculture", "trans": "サブカルチャー" }
+      ]
+    },
+    {
+      "number": 6091,
+      "word": "crop",
+      "pos": "名詞 / 動詞",
+      "meaning": "作物、収穫",
+      "nuance": "「農業で育てられる植物」または「収穫物」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The main crop in this region is rice.",
+              "ja": "この地域の主な作物は米です。",
+              "highlight": "crop"
+            },
+            {
+              "en": "The drought damaged the crops.",
+              "ja": "干ばつが作物に被害を与えた。",
+              "highlight": "crops"
+            },
+            {
+              "en": "We had a good crop of apples this year.",
+              "ja": "今年はリンゴの豊作だった。",
+              "highlight": "crop"
+            },
+            {
+              "en": "Farmers crop the fields every year.",
+              "ja": "農家は毎年畑で作物を育てる。",
+              "highlight": "crop"
+            },
+            {
+              "en": "The photo was cropped to fit the frame.",
+              "ja": "その写真は枠に合わせてトリミングされた。",
+              "highlight": "cropped"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 cropp（房）に由来。",
+      "synonyms": [
+        { "word": "harvest", "trans": "収穫" },
+        { "word": "yield", "trans": "収穫量" },
+        { "word": "produce", "trans": "農産物" }
+      ],
+      "antonyms": [
+        { "word": "famine", "trans": "飢饉" },
+        { "word": "shortage", "trans": "不足" },
+        { "word": "failure", "trans": "不作" }
+      ],
+      "related": [
+        { "word": "crop rotation", "trans": "輪作" },
+        { "word": "crop failure", "trans": "不作" },
+        { "word": "crop yield", "trans": "収穫量" }
+      ]
+    },
+    {
+      "number": 6092,
+      "word": "harvest",
+      "pos": "名詞 / 動詞",
+      "meaning": "収穫、収穫高； ～を収穫する",
+      "nuance": "「作物を収穫すること」または「収穫量」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The harvest will begin next week.",
+              "ja": "収穫は来週始まる。",
+              "highlight": "harvest"
+            },
+            {
+              "en": "Farmers are busy harvesting the wheat.",
+              "ja": "農家は小麦の収穫で忙しい。",
+              "highlight": "harvesting"
+            },
+            {
+              "en": "This year's harvest is the largest in a decade.",
+              "ja": "今年の収穫高は10年で最大だ。",
+              "highlight": "harvest"
+            },
+            {
+              "en": "They harvested the apples by hand.",
+              "ja": "彼らは手作業でリンゴを収穫した。",
+              "highlight": "harvested"
+            },
+            {
+              "en": "The harvest festival celebrates the end of the season.",
+              "ja": "収穫祭は季節の終わりを祝う。",
+              "highlight": "harvest"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 hærfest（秋）に由来。",
+      "synonyms": [
+        { "word": "reap", "trans": "刈り取る" },
+        { "word": "gather", "trans": "集める" },
+        { "word": "crop", "trans": "収穫" }
+      ],
+      "antonyms": [
+        { "word": "plant", "trans": "植える" },
+        { "word": "sow", "trans": "種をまく" },
+        { "word": "lose", "trans": "失う" }
+      ],
+      "related": [
+        { "word": "harvester", "trans": "収穫機" },
+        { "word": "harvest time", "trans": "収穫時期" },
+        { "word": "bumper harvest", "trans": "豊作" }
+      ]
+    },
+    {
+      "number": 6093,
+      "word": "soil",
+      "pos": "名詞",
+      "meaning": "土、土壌",
+      "nuance": "「植物が育つ地面の最上層」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The soil in this area is very fertile.",
+              "ja": "この地域の土壌は非常に肥沃だ。",
+              "highlight": "soil"
+            },
+            {
+              "en": "He studied the composition of the soil.",
+              "ja": "彼は土壌の組成を研究した。",
+              "highlight": "soil"
+            },
+            {
+              "en": "The seeds need good soil to grow.",
+              "ja": "種は育つのに良い土が必要だ。",
+              "highlight": "soil"
+            },
+            {
+              "en": "The soil is too dry for planting.",
+              "ja": "土が乾燥しすぎて植え付けできない。",
+              "highlight": "soil"
+            },
+            {
+              "en": "Soil erosion is a serious problem.",
+              "ja": "土壌浸食は深刻な問題だ。",
+              "highlight": "Soil"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 solum（地面）に由来。",
+      "synonyms": [
+        { "word": "earth", "trans": "土" },
+        { "word": "ground", "trans": "地面" },
+        { "word": "dirt", "trans": "土" }
+      ],
+      "antonyms": [
+        { "word": "rock", "trans": "岩" },
+        { "word": "sand", "trans": "砂" },
+        { "word": "concrete", "trans": "コンクリート" }
+      ],
+      "related": [
+        { "word": "soilless", "trans": "土のない" },
+        { "word": "topsoil", "trans": "表土" },
+        { "word": "soil fertility", "trans": "土壌肥沃度" }
+      ]
+    },
+    {
+      "number": 6094,
+      "word": "fertile",
+      "pos": "形容詞",
+      "meaning": "肥沃な",
+      "nuance": "「植物がよく育つ土地」または「創造性が豊かな」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The fertile soil produces abundant crops.",
+              "ja": "肥沃な土壌は豊富な作物を育てる。",
+              "highlight": "fertile"
+            },
+            {
+              "en": "She has a fertile imagination.",
+              "ja": "彼女は豊かな想像力を持っている。",
+              "highlight": "fertile"
+            },
+            {
+              "en": "The region is known for its fertile land.",
+              "ja": "その地域は肥沃な土地で知られている。",
+              "highlight": "fertile"
+            },
+            {
+              "en": "The couple is fertile and hopes to have children.",
+              "ja": "そのカップルは妊娠可能で、子供を望んでいる。",
+              "highlight": "fertile"
+            },
+            {
+              "en": "The discussion provided fertile ground for new ideas.",
+              "ja": "その議論は新しいアイデアの肥沃な土壌を提供した。",
+              "highlight": "fertile"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 fertilis（実を結ぶ）に由来。",
+      "synonyms": [
+        { "word": "rich", "trans": "豊かな" },
+        { "word": "productive", "trans": "生産的な" },
+        { "word": "fruitful", "trans": "実りの多い" }
+      ],
+      "antonyms": [
+        { "word": "barren", "trans": "不毛な" },
+        { "word": "infertile", "trans": "不妊の" },
+        { "word": "sterile", "trans": "無菌の" }
+      ],
+      "related": [
+        { "word": "fertility", "trans": "肥沃度" },
+        { "word": "fertilize", "trans": "肥料を施す" },
+        { "word": "fertilizer", "trans": "肥料" }
+      ]
+    },
+    {
+      "number": 6095,
+      "word": "barren",
+      "pos": "形容詞",
+      "meaning": "不毛な",
+      "nuance": "「植物が育たない土地」または「子供を産めない」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The desert is a barren land.",
+              "ja": "砂漠は不毛の土地だ。",
+              "highlight": "barren"
+            },
+            {
+              "en": "The barren woman could not have children.",
+              "ja": "その不妊の女性は子供を産めなかった。",
+              "highlight": "barren"
+            },
+            {
+              "en": "The field was barren after the drought.",
+              "ja": "干ばつの後、その畑は不毛だった。",
+              "highlight": "barren"
+            },
+            {
+              "en": "His mind was barren of ideas.",
+              "ja": "彼の頭にはアイデアがなかった。",
+              "highlight": "barren"
+            },
+            {
+              "en": "The barren landscape was depressing.",
+              "ja": "その不毛な風景は憂鬱だった。",
+              "highlight": "barren"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 barain（不毛の）に由来。",
+      "synonyms": [
+        { "word": "infertile", "trans": "不妊の" },
+        { "word": "unproductive", "trans": "非生産的な" },
+        { "word": "sterile", "trans": "無菌の" }
+      ],
+      "antonyms": [
+        { "word": "fertile", "trans": "肥沃な" },
+        { "word": "productive", "trans": "生産的な" },
+        { "word": "fruitful", "trans": "実りの多い" }
+      ],
+      "related": [
+        { "word": "barrenness", "trans": "不毛" },
+        { "word": "barren land", "trans": "不毛の地" },
+        { "word": "barren woman", "trans": "不妊の女性" }
+      ]
+    },
+    {
+      "number": 6096,
+      "word": "irrigation",
+      "pos": "名詞",
+      "meaning": "灌漑",
+      "nuance": "「乾燥した土地に人工的に水を供給すること」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Irrigation is essential for farming in dry areas.",
+              "ja": "乾燥地域での農業には灌漑が不可欠だ。",
+              "highlight": "Irrigation"
+            },
+            {
+              "en": "The farmers built an irrigation system.",
+              "ja": "農家たちは灌漑システムを建設した。",
+              "highlight": "irrigation"
+            },
+            {
+              "en": "Drip irrigation saves water.",
+              "ja": "点滴灌漑は水を節約する。",
+              "highlight": "irrigation"
+            },
+            {
+              "en": "Without irrigation, the crops would die.",
+              "ja": "灌漑がなければ、作物は枯れるだろう。",
+              "highlight": "irrigation"
+            },
+            {
+              "en": "The government invested in irrigation projects.",
+              "ja": "政府は灌漑プロジェクトに投資した。",
+              "highlight": "irrigation"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 irrigare（水をまく）に由来。",
+      "synonyms": [
+        { "word": "watering", "trans": "散水" },
+        { "word": "sprinkling", "trans": "散布" },
+        { "word": "water management", "trans": "水管理" }
+      ],
+      "antonyms": [
+        { "word": "drought", "trans": "干ばつ" },
+        { "word": "aridity", "trans": "乾燥" },
+        { "word": "dehydration", "trans": "脱水" }
+      ],
+      "related": [
+        { "word": "irrigate", "trans": "灌漑する" },
+        { "word": "irrigation canal", "trans": "灌漑用水路" },
+        { "word": "irrigation system", "trans": "灌漑システム" }
+      ]
+    },
+    {
+      "number": 6097,
+      "word": "grain",
+      "pos": "名詞",
+      "meaning": "穀物",
+      "nuance": "「小麦、米、トウモロコシなどの小さな種子」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The main grains grown here are wheat and barley.",
+              "ja": "ここで栽培される主な穀物は小麦と大麦です。",
+              "highlight": "grains"
+            },
+            {
+              "en": "A grain of sand can cause irritation.",
+              "ja": "一粒の砂が刺激を引き起こすことがある。",
+              "highlight": "grain"
+            },
+            {
+              "en": "Whole grains are good for your health.",
+              "ja": "全粒穀物は健康に良い。",
+              "highlight": "grains"
+            },
+            {
+              "en": "The country exports a lot of grain.",
+              "ja": "その国は多くの穀物を輸出している。",
+              "highlight": "grain"
+            },
+            {
+              "en": "There is a grain of truth in every joke.",
+              "ja": "どんな冗談にも一粒の真実がある。",
+              "highlight": "grain"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 granum（種子）に由来。",
+      "synonyms": [
+        { "word": "cereal", "trans": "穀物" },
+        { "word": "kernel", "trans": "粒" },
+        { "word": "seed", "trans": "種" }
+      ],
+      "antonyms": [
+        { "word": "husk", "trans": "もみ殻" },
+        { "word": "chaff", "trans": "もみがら" },
+        { "word": "refuse", "trans": "廃棄物" }
+      ],
+      "related": [
+        { "word": "grainy", "trans": "粒状の" },
+        { "word": "grain elevator", "trans": "穀物エレベーター" },
+        { "word": "grain silo", "trans": "穀物サイロ" }
+      ]
+    },
+    {
+      "number": 6098,
+      "word": "wheat",
+      "pos": "名詞",
+      "meaning": "小麦",
+      "nuance": "「パンや麺類の原料となる主要な穀物」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Wheat is used to make bread and pasta.",
+              "ja": "小麦はパンやパスタの製造に使われる。",
+              "highlight": "Wheat"
+            },
+            {
+              "en": "The fields of wheat turned golden in summer.",
+              "ja": "小麦畑は夏に黄金色に変わった。",
+              "highlight": "wheat"
+            },
+            {
+              "en": "He is allergic to wheat.",
+              "ja": "彼は小麦アレルギーだ。",
+              "highlight": "wheat"
+            },
+            {
+              "en": "The price of wheat has increased.",
+              "ja": "小麦の価格が上昇した。",
+              "highlight": "wheat"
+            },
+            {
+              "en": "Wheat is harvested in late summer.",
+              "ja": "小麦は夏の終わりに収穫される。",
+              "highlight": "Wheat"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 hwæte（小麦）に由来。",
+      "synonyms": [
+        { "word": "grain", "trans": "穀物" },
+        { "word": "cereal", "trans": "穀物" },
+        { "word": "corn", "trans": "小麦（英）" }
+      ],
+      "antonyms": [
+        { "word": "rice", "trans": "米" },
+        { "word": "barley", "trans": "大麦" },
+        { "word": "oats", "trans": "オート麦" }
+      ],
+      "related": [
+        { "word": "wheat field", "trans": "小麦畑" },
+        { "word": "whole wheat", "trans": "全粒小麦" },
+        { "word": "wheat flour", "trans": "小麦粉" }
+      ]
+    },
+    {
+      "number": 6099,
+      "word": "weed",
+      "pos": "名詞 / 動詞",
+      "meaning": "雑草",
+      "nuance": "「望まれない植物」または「雑草を抜く」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The garden is full of weeds.",
+              "ja": "庭は雑草でいっぱいだ。",
+              "highlight": "weeds"
+            },
+            {
+              "en": "He spent the afternoon weeding the flower bed.",
+              "ja": "彼は午後を花壇の草むしりに費やした。",
+              "highlight": "weeding"
+            },
+            {
+              "en": "We need to weed out the bad apples.",
+              "ja": "悪いリンゴを取り除く必要がある。",
+              "highlight": "weed"
+            },
+            {
+              "en": "The weeds are taking over the lawn.",
+              "ja": "雑草が芝生を覆いつくしている。",
+              "highlight": "weeds"
+            },
+            {
+              "en": "He is addicted to weed.",
+              "ja": "彼はマリファナ中毒だ。",
+              "highlight": "weed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 weod（雑草）に由来。",
+      "synonyms": [
+        { "word": "plant", "trans": "植物" },
+        { "word": "herb", "trans": "ハーブ" },
+        { "word": "marijuana", "trans": "マリファナ" }
+      ],
+      "antonyms": [
+        { "word": "crop", "trans": "作物" },
+        { "word": "flower", "trans": "花" },
+        { "word": "cultivated plant", "trans": "栽培植物" }
+      ],
+      "related": [
+        { "word": "weedy", "trans": "雑草の多い" },
+        { "word": "weedkiller", "trans": "除草剤" },
+        { "word": "weed out", "trans": "取り除く" }
+      ]
+    },
+    {
+      "number": 6100,
+      "word": "seed",
+      "pos": "名詞 / 動詞",
+      "meaning": "種",
+      "nuance": "「植物の繁殖単位」または「種をまく」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Plant the seeds in fertile soil.",
+              "ja": "肥沃な土壌に種を植えなさい。",
+              "highlight": "seeds"
+            },
+            {
+              "en": "The idea was the seed of a new business.",
+              "ja": "そのアイデアは新しいビジネスの種だった。",
+              "highlight": "seed"
+            },
+            {
+              "en": "Farmers seed the fields in spring.",
+              "ja": "農家は春に畑に種をまく。",
+              "highlight": "seed"
+            },
+            {
+              "en": "The plant produces thousands of seeds.",
+              "ja": "その植物は何千もの種を生産する。",
+              "highlight": "seeds"
+            },
+            {
+              "en": "He was seeded first in the tournament.",
+              "ja": "彼はトーナメントで第一シードだった。",
+              "highlight": "seeded"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 sed（種）に由来。",
+      "synonyms": [
+        { "word": "kernel", "trans": "粒" },
+        { "word": "grain", "trans": "穀粒" },
+        { "word": "origin", "trans": "起源" }
+      ],
+      "antonyms": [
+        { "word": "fruit", "trans": "果実" },
+        { "word": "harvest", "trans": "収穫" },
+        { "word": "result", "trans": "結果" }
+      ],
+      "related": [
+        { "word": "seeding", "trans": "種まき" },
+        { "word": "seedling", "trans": "苗" },
+        { "word": "seed bank", "trans": "シードバンク" }
+      ]
+    },
+    {
+      "number": 6101,
+      "word": "sow",
+      "pos": "動詞",
+      "meaning": "～(種)をまく",
+      "nuance": "「地面に種をまく」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Farmers sow seeds in the spring.",
+              "ja": "農家は春に種をまく。",
+              "highlight": "sow"
+            },
+            {
+              "en": "You reap what you sow.",
+              "ja": "蒔いた種は自分で刈り取る（自業自得）。",
+              "highlight": "sow"
+            },
+            {
+              "en": "She sowed the seeds of doubt in his mind.",
+              "ja": "彼女は彼の心に疑いの種をまいた。",
+              "highlight": "sowed"
+            },
+            {
+              "en": "They sowed the field with wheat.",
+              "ja": "彼らは畑に小麦を蒔いた。",
+              "highlight": "sowed"
+            },
+            {
+              "en": "It's too early to sow the seeds outdoors.",
+              "ja": "屋外に種を蒔くにはまだ早い。",
+              "highlight": "sow"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 sawan（まく）に由来。",
+      "synonyms": [
+        { "word": "plant", "trans": "植える" },
+        { "word": "scatter", "trans": "まき散らす" },
+        { "word": "broadcast", "trans": "ばらまく" }
+      ],
+      "antonyms": [
+        { "word": "reap", "trans": "刈り取る" },
+        { "word": "harvest", "trans": "収穫する" },
+        { "word": "gather", "trans": "集める" }
+      ],
+      "related": [
+        { "word": "sowing", "trans": "種まき" },
+        { "word": "sower", "trans": "種まき人" },
+        { "word": "seed", "trans": "種" }
+      ]
+    },
+    {
+      "number": 6102,
+      "word": "plow",
+      "pos": "名詞 / 動詞",
+      "meaning": "鍬； ～を耕す",
+      "nuance": "「土を耕す農具」または「耕す動作」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The farmer used a plow to till the soil.",
+              "ja": "農夫は土を耕すために鋤を使った。",
+              "highlight": "plow"
+            },
+            {
+              "en": "They plowed the field before planting.",
+              "ja": "彼らは植え付け前に畑を耕した。",
+              "highlight": "plowed"
+            },
+            {
+              "en": "The snowplow cleared the roads.",
+              "ja": "除雪車が道路をきれいにした。",
+              "highlight": "snowplow"
+            },
+            {
+              "en": "He plowed through the pile of work.",
+              "ja": "彼は山のような仕事を片付けた。",
+              "highlight": "plowed"
+            },
+            {
+              "en": "The ship plowed through the waves.",
+              "ja": "その船は波を切り進んだ。",
+              "highlight": "plowed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 ploh（鋤）に由来。",
+      "synonyms": [
+        { "word": "till", "trans": "耕す" },
+        { "word": "cultivate", "trans": "耕作する" },
+        { "word": "furrow", "trans": "溝を切る" }
+      ],
+      "antonyms": [
+        { "word": "harvest", "trans": "収穫する" },
+        { "word": "reap", "trans": "刈り取る" },
+        { "word": "leave fallow", "trans": "休閑させる" }
+      ],
+      "related": [
+        { "word": "plowing", "trans": "耕作" },
+        { "word": "plowshare", "trans": "鋤の刃" },
+        { "word": "snowplow", "trans": "除雪車" }
+      ]
+    },
+    {
+      "number": 6103,
+      "word": "peasant",
+      "pos": "名詞",
+      "meaning": "小作農、農夫",
+      "nuance": "「伝統的な小規模農業従事者」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The peasants worked hard in the fields.",
+              "ja": "小作農たちは畑で一生懸命働いた。",
+              "highlight": "peasants"
+            },
+            {
+              "en": "He was born a peasant but became a scholar.",
+              "ja": "彼は農民の生まれだが、学者になった。",
+              "highlight": "peasant"
+            },
+            {
+              "en": "The life of a peasant was harsh in the past.",
+              "ja": "過去の農民の生活は厳しかった。",
+              "highlight": "peasant"
+            },
+            {
+              "en": "The peasants revolted against the landowners.",
+              "ja": "小作農たちは地主に対して反乱を起こした。",
+              "highlight": "peasants"
+            },
+            {
+              "en": "Many peasants moved to the cities for work.",
+              "ja": "多くの農民が仕事を求めて都市に移った。",
+              "highlight": "peasants"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 paisant（田舎者）に由来。",
+      "synonyms": [
+        { "word": "farmer", "trans": "農家" },
+        { "word": "rustic", "trans": "田舎者" },
+        { "word": "agriculturist", "trans": "農業従事者" }
+      ],
+      "antonyms": [
+        { "word": "aristocrat", "trans": "貴族" },
+        { "word": "landlord", "trans": "地主" },
+        { "word": "city dweller", "trans": "都市居住者" }
+      ],
+      "related": [
+        { "word": "peasantry", "trans": "農民階級" },
+        { "word": "peasant life", "trans": "農民生活" },
+        { "word": "peasant revolt", "trans": "農民反乱" }
+      ]
+    },
+    {
+      "number": 6104,
+      "word": "feed",
+      "pos": "動詞",
+      "meaning": "～に餌・食物を与える",
+      "nuance": "「人や動物に食べ物を与える」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She feeds the dog twice a day.",
+              "ja": "彼女は犬に1日2回餌を与える。",
+              "highlight": "feeds"
+            },
+            {
+              "en": "The baby needs to be fed every few hours.",
+              "ja": "赤ちゃんは数時間ごとに授乳が必要だ。",
+              "highlight": "fed"
+            },
+            {
+              "en": "He fed the information into the computer.",
+              "ja": "彼はその情報をコンピューターに入力した。",
+              "highlight": "fed"
+            },
+            {
+              "en": "The farm produces enough food to feed the whole village.",
+              "ja": "その農場は村全体を養うのに十分な食料を生産している。",
+              "highlight": "feed"
+            },
+            {
+              "en": "Don't feed the animals in the zoo.",
+              "ja": "動物園の動物に餌を与えないでください。",
+              "highlight": "feed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 fedan（養う）に由来。",
+      "synonyms": [
+        { "word": "nourish", "trans": "栄養を与える" },
+        { "word": "supply", "trans": "供給する" },
+        { "word": "provide", "trans": "提供する" }
+      ],
+      "antonyms": [
+        { "word": "starve", "trans": "飢えさせる" },
+        { "word": "neglect", "trans": "怠る" },
+        { "word": "withhold", "trans": "差し控える" }
+      ],
+      "related": [
+        { "word": "feeding", "trans": "給餌" },
+        { "word": "feedback", "trans": "フィードバック" },
+        { "word": "overfeed", "trans": "過剰に与える" }
+      ]
+    },
+    {
+      "number": 6105,
+      "word": "breed",
+      "pos": "動詞 / 名詞",
+      "meaning": "～を繁殖させる；品種、血統",
+      "nuance": "「動物を繁殖させる」または「特定の種類」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They breed horses on their farm.",
+              "ja": "彼らは農場で馬を繁殖させている。",
+              "highlight": "breed"
+            },
+            {
+              "en": "Poverty breeds crime.",
+              "ja": "貧困は犯罪を生む。",
+              "highlight": "breeds"
+            },
+            {
+              "en": "This breed of dog is very friendly.",
+              "ja": "この犬種はとても人懐っこい。",
+              "highlight": "breed"
+            },
+            {
+              "en": "The rabbits breed quickly.",
+              "ja": "ウサギはすぐに繁殖する。",
+              "highlight": "breed"
+            },
+            {
+              "en": "He is a rare breed of politician.",
+              "ja": "彼は珍しいタイプの政治家だ。",
+              "highlight": "breed"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 bredan（育てる）に由来。",
+      "synonyms": [
+        { "word": "raise", "trans": "育てる" },
+        { "word": "reproduce", "trans": "繁殖する" },
+        { "word": "type", "trans": "種類" }
+      ],
+      "antonyms": [
+        { "word": "kill", "trans": "殺す" },
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "extinct", "trans": "絶滅させる" }
+      ],
+      "related": [
+        { "word": "breeding", "trans": "繁殖" },
+        { "word": "breeder", "trans": "飼育者" },
+        { "word": "crossbreed", "trans": "交配する" }
+      ]
+    },
+    {
+      "number": 6106,
+      "word": "cattle",
+      "pos": "名詞",
+      "meaning": "(集合的に)牛",
+      "nuance": "「乳牛や肉牛の集合体」を指す。複数形扱い。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The farmer raises cattle for beef.",
+              "ja": "その農家は牛肉のために牛を飼育している。",
+              "highlight": "cattle"
+            },
+            {
+              "en": "A herd of cattle was grazing in the field.",
+              "ja": "牛の群れが野原で草を食べていた。",
+              "highlight": "cattle"
+            },
+            {
+              "en": "Cattle are often kept in barns during winter.",
+              "ja": "牛は冬の間、納屋に保管されることが多い。",
+              "highlight": "Cattle"
+            },
+            {
+              "en": "The cattle industry is important in this region.",
+              "ja": "畜産業はこの地域で重要だ。",
+              "highlight": "cattle"
+            },
+            {
+              "en": "The cattle were driven to the market.",
+              "ja": "牛は市場へ追われた。",
+              "highlight": "cattle"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 catel（財産）に由来。",
+      "synonyms": [
+        { "word": "cows", "trans": "雌牛" },
+        { "word": "livestock", "trans": "家畜" },
+        { "word": "oxen", "trans": "雄牛" }
+      ],
+      "antonyms": [
+        { "word": "wild animals", "trans": "野生動物" },
+        { "word": "pets", "trans": "ペット" },
+        { "word": "poultry", "trans": "家禽" }
+      ],
+      "related": [
+        { "word": "cattle ranch", "trans": "牧場" },
+        { "word": "cattle farmer", "trans": "畜産農家" },
+        { "word": "cattle breeding", "trans": "牛の繁殖" }
+      ]
+    },
+    {
+      "number": 6107,
+      "word": "herd",
+      "pos": "名詞 / 動詞",
+      "meaning": "(牛などの)群れ",
+      "nuance": "「動物の群れ」または「群れを作る」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A herd of deer crossed the road.",
+              "ja": "鹿の群れが道路を横切った。",
+              "highlight": "herd"
+            },
+            {
+              "en": "The shepherd herded the sheep into the pen.",
+              "ja": "羊飼いは羊を囲いの中に追い立てた。",
+              "highlight": "herded"
+            },
+            {
+              "en": "He follows the herd without thinking.",
+              "ja": "彼は考えずに群衆に従う。",
+              "highlight": "herd"
+            },
+            {
+              "en": "The cattle were herded together for branding.",
+              "ja": "牛はブランドをつけるために一緒に追い立てられた。",
+              "highlight": "herded"
+            },
+            {
+              "en": "The herd instinct is strong in animals.",
+              "ja": "群れの本能は動物に強い。",
+              "highlight": "herd"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 heord（群れ）に由来。",
+      "synonyms": [
+        { "word": "flock", "trans": "群れ" },
+        { "word": "crowd", "trans": "群衆" },
+        { "word": "drove", "trans": "群れ" }
+      ],
+      "antonyms": [
+        { "word": "individual", "trans": "個体" },
+        { "word": "loner", "trans": "一匹狼" },
+        { "word": "solitary", "trans": "孤独な" }
+      ],
+      "related": [
+        { "word": "herding", "trans": "追い立て" },
+        { "word": "herdsman", "trans": "牧夫" },
+        { "word": "herd instinct", "trans": "群れ本能" }
+      ]
+    },
+    {
+      "number": 6108,
+      "word": "flock",
+      "pos": "名詞 / 動詞",
+      "meaning": "(動物の)群れ、群れる",
+      "nuance": "「鳥や羊などの群れ」または「集まる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A flock of birds flew overhead.",
+              "ja": "鳥の群れが頭上を飛んだ。",
+              "highlight": "flock"
+            },
+            {
+              "en": "The shepherd led his flock to the pasture.",
+              "ja": "羊飼いは羊の群れを牧草地に連れて行った。",
+              "highlight": "flock"
+            },
+            {
+              "en": "People flocked to the beach on the hot day.",
+              "ja": "暑い日には人々がビーチに群がった。",
+              "highlight": "flocked"
+            },
+            {
+              "en": "The tourists flocked to see the monument.",
+              "ja": "観光客はその記念碑を見るために群がった。",
+              "highlight": "flocked"
+            },
+            {
+              "en": "A flock of sheep blocked the road.",
+              "ja": "羊の群れが道路をふさいだ。",
+              "highlight": "flock"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 flocc（群れ）に由来。",
+      "synonyms": [
+        { "word": "crowd", "trans": "群衆" },
+        { "word": "herd", "trans": "群れ" },
+        { "word": "gather", "trans": "集まる" }
+      ],
+      "antonyms": [
+        { "word": "disperse", "trans": "散らばる" },
+        { "word": "scatter", "trans": "散らす" },
+        { "word": "alone", "trans": "一人で" }
+      ],
+      "related": [
+        { "word": "flocking", "trans": "群がり" },
+        { "word": "flock to", "trans": "～に群がる" },
+        { "word": "flock of sheep", "trans": "羊の群れ" }
+      ]
+    },
+    {
+      "number": 6109,
+      "word": "ranch",
+      "pos": "名詞",
+      "meaning": "牧場",
+      "nuance": "「広大な土地で牛や馬を飼育する農場」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He owns a large ranch in Texas.",
+              "ja": "彼はテキサスに広大な牧場を所有している。",
+              "highlight": "ranch"
+            },
+            {
+              "en": "They raise cattle on their ranch.",
+              "ja": "彼らは牧場で牛を飼育している。",
+              "highlight": "ranch"
+            },
+            {
+              "en": "The ranch has hundreds of acres of land.",
+              "ja": "その牧場は何百エーカーの土地を持っている。",
+              "highlight": "ranch"
+            },
+            {
+              "en": "He worked as a cowboy on a ranch.",
+              "ja": "彼は牧場でカウボーイとして働いていた。",
+              "highlight": "ranch"
+            },
+            {
+              "en": "The family ranch has been in business for generations.",
+              "ja": "その家族経営の牧場は何世代にもわたって営業している。",
+              "highlight": "ranch"
+            }
+          ]
+        }
+      ],
+      "etymology": "スペイン語 rancho（小さな農場）に由来。",
+      "synonyms": [
+        { "word": "farm", "trans": "農場" },
+        { "word": "plantation", "trans": "農園" },
+        { "word": "homestead", "trans": "農地" }
+      ],
+      "antonyms": [
+        { "word": "city", "trans": "都市" },
+        { "word": "town", "trans": "町" },
+        { "word": "urban area", "trans": "都市部" }
+      ],
+      "related": [
+        { "word": "rancher", "trans": "牧場主" },
+        { "word": "ranching", "trans": "牧場経営" },
+        { "word": "ranch house", "trans": "牧場の家" }
+      ]
+    },
+    {
+      "number": 6110,
+      "word": "media",
+      "pos": "名詞",
+      "meaning": "メディア、媒体",
+      "nuance": "「情報伝達手段」の総称。テレビ、新聞、インターネットなど。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The media plays an important role in society.",
+              "ja": "メディアは社会において重要な役割を果たしている。",
+              "highlight": "media"
+            },
+            {
+              "en": "Social media has changed the way we communicate.",
+              "ja": "ソーシャルメディアは私たちのコミュニケーション方法を変えた。",
+              "highlight": "media"
+            },
+            {
+              "en": "The news was reported by various media outlets.",
+              "ja": "そのニュースは様々なメディアで報じられた。",
+              "highlight": "media"
+            },
+            {
+              "en": "The media coverage of the event was extensive.",
+              "ja": "その出来事のメディア報道は広範囲に及んだ。",
+              "highlight": "media"
+            },
+            {
+              "en": "She works in the media industry.",
+              "ja": "彼女はメディア業界で働いている。",
+              "highlight": "media"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 medium（中間）の複数形に由来。",
+      "synonyms": [
+        { "word": "press", "trans": "報道" },
+        { "word": "news", "trans": "ニュース" },
+        { "word": "journalism", "trans": "ジャーナリズム" }
+      ],
+      "antonyms": [
+        { "word": "word of mouth", "trans": "口コミ" },
+        { "word": "private conversation", "trans": "私的会話" },
+        { "word": "rumor", "trans": "噂" }
+      ],
+      "related": [
+        { "word": "mass media", "trans": "マスメディア" },
+        { "word": "social media", "trans": "ソーシャルメディア" },
+        { "word": "multimedia", "trans": "マルチメディア" }
+      ]
+    },
+    {
+      "number": 6111,
+      "word": "mass",
+      "pos": "名詞 / 形容詞",
+      "meaning": "集団、大衆、多数",
+      "nuance": "「大きな集まり」または「質量」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "A large mass of people gathered in the square.",
+              "ja": "大勢の人々が広場に集まった。",
+              "highlight": "mass"
+            },
+            {
+              "en": "The mass of the object was measured in kilograms.",
+              "ja": "その物体の質量はキログラムで測定された。",
+              "highlight": "mass"
+            },
+            {
+              "en": "Mass production has lowered the cost.",
+              "ja": "大量生産がコストを下げた。",
+              "highlight": "Mass"
+            },
+            {
+              "en": "The masses were unhappy with the government.",
+              "ja": "大衆は政府に不満だった。",
+              "highlight": "masses"
+            },
+            {
+              "en": "The church holds mass every Sunday.",
+              "ja": "その教会は毎週日曜日にミサを執り行う。",
+              "highlight": "mass"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 massa（塊）に由来。",
+      "synonyms": [
+        { "word": "crowd", "trans": "群衆" },
+        { "word": "multitude", "trans": "多数" },
+        { "word": "bulk", "trans": "大部分" }
+      ],
+      "antonyms": [
+        { "word": "individual", "trans": "個人" },
+        { "word": "minority", "trans": "少数" },
+        { "word": "handful", "trans": "一握り" }
+      ],
+      "related": [
+        { "word": "massive", "trans": "巨大な" },
+        { "word": "massacre", "trans": "虐殺" },
+        { "word": "mass media", "trans": "マスメディア" }
+      ]
+    },
+    {
+      "number": 6112,
+      "word": "broadcast",
+      "pos": "動詞 / 名詞",
+      "meaning": "～を放送する； 放送",
+      "nuance": "「テレビやラジオで送信する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The news will be broadcast at 6 PM.",
+              "ja": "そのニュースは午後6時に放送される。",
+              "highlight": "broadcast"
+            },
+            {
+              "en": "The concert was broadcast live.",
+              "ja": "そのコンサートは生放送された。",
+              "highlight": "broadcast"
+            },
+            {
+              "en": "He works as a radio broadcaster.",
+              "ja": "彼はラジオの放送局で働いている。",
+              "highlight": "broadcaster"
+            },
+            {
+              "en": "The station broadcasts 24 hours a day.",
+              "ja": "その局は24時間放送している。",
+              "highlight": "broadcasts"
+            },
+            {
+              "en": "The broadcast was interrupted by breaking news.",
+              "ja": "その放送は速報ニュースによって中断された。",
+              "highlight": "broadcast"
+            }
+          ]
+        }
+      ],
+      "etymology": "broad（広い）+ cast（投げる）に由来。",
+      "synonyms": [
+        { "word": "transmit", "trans": "送信する" },
+        { "word": "air", "trans": "放映する" },
+        { "word": "televise", "trans": "テレビ放送する" }
+      ],
+      "antonyms": [
+        { "word": "suppress", "trans": "抑える" },
+        { "word": "censor", "trans": "検閲する" },
+        { "word": "conceal", "trans": "隠す" }
+      ],
+      "related": [
+        { "word": "broadcaster", "trans": "放送局" },
+        { "word": "broadcasting", "trans": "放送" },
+        { "word": "rebroadcast", "trans": "再放送" }
+      ]
+    },
+    {
+      "number": 6113,
+      "word": "journalism",
+      "pos": "名詞",
+      "meaning": "ジャーナリズム、報道",
+      "nuance": "「ニュースの収集・編集・発表の活動」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He studied journalism at university.",
+              "ja": "彼は大学でジャーナリズムを学んだ。",
+              "highlight": "journalism"
+            },
+            {
+              "en": "Investigative journalism plays a vital role in democracy.",
+              "ja": "調査報道は民主主義において重要な役割を果たす。",
+              "highlight": "journalism"
+            },
+            {
+              "en": "She has a career in broadcast journalism.",
+              "ja": "彼女は放送ジャーナリズムのキャリアを持っている。",
+              "highlight": "journalism"
+            },
+            {
+              "en": "The standards of journalism have declined.",
+              "ja": "ジャーナリズムの基準は低下した。",
+              "highlight": "journalism"
+            },
+            {
+              "en": "Citizen journalism has grown with social media.",
+              "ja": "市民ジャーナリズムはソーシャルメディアとともに成長した。",
+              "highlight": "journalism"
+            }
+          ]
+        }
+      ],
+      "etymology": "フランス語 journal（日記）に由来。",
+      "synonyms": [
+        { "word": "reporting", "trans": "報道" },
+        { "word": "news gathering", "trans": "ニュース収集" },
+        { "word": "media", "trans": "メディア" }
+      ],
+      "antonyms": [
+        { "word": "censorship", "trans": "検閲" },
+        { "word": "propaganda", "trans": "プロパガンダ" },
+        { "word": "silence", "trans": "沈黙" }
+      ],
+      "related": [
+        { "word": "journalist", "trans": "ジャーナリスト" },
+        { "word": "journalistic", "trans": "ジャーナリズムの" },
+        { "word": "photojournalism", "trans": "写真ジャーナリズム" }
+      ]
+    },
+    {
+      "number": 6114,
+      "word": "article",
+      "pos": "名詞",
+      "meaning": "記事、論文； (一つの)品物； 冠詞",
+      "nuance": "「新聞や雑誌の記事」または「文法の冠詞」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I read an interesting article in the newspaper.",
+              "ja": "新聞で面白い記事を読んだ。",
+              "highlight": "article"
+            },
+            {
+              "en": "She wrote a scholarly article on the topic.",
+              "ja": "彼女はそのテーマに関する学術論文を書いた。",
+              "highlight": "article"
+            },
+            {
+              "en": "The article of clothing was on sale.",
+              "ja": "その衣料品はセール中だった。",
+              "highlight": "article"
+            },
+            {
+              "en": "In English, 'a' and 'an' are indefinite articles.",
+              "ja": "英語では、'a'と'an'は不定冠詞です。",
+              "highlight": "articles"
+            },
+            {
+              "en": "The article was published in a scientific journal.",
+              "ja": "その論文は科学雑誌に掲載された。",
+              "highlight": "article"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 articulus（小さな関節）に由来。",
+      "synonyms": [
+        { "word": "piece", "trans": "記事" },
+        { "word": "essay", "trans": "エッセイ" },
+        { "word": "item", "trans": "品目" }
+      ],
+      "antonyms": [
+        { "word": "whole", "trans": "全体" },
+        { "word": "silence", "trans": "沈黙" },
+        { "word": "omission", "trans": "省略" }
+      ],
+      "related": [
+        { "word": "articulate", "trans": "明瞭に話す" },
+        { "word": "article of faith", "trans": "信念" },
+        { "word": "feature article", "trans": "特集記事" }
+      ]
+    },
+    {
+      "number": 6115,
+      "word": "headline",
+      "pos": "名詞",
+      "meaning": "見出し",
+      "nuance": "「新聞記事のタイトル」または「主要ニュース」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The headline read 'Election Results Announced'.",
+              "ja": "見出しは「選挙結果発表」だった。",
+              "highlight": "headline"
+            },
+            {
+              "en": "The scandal made headlines around the world.",
+              "ja": "そのスキャンダルは世界中で見出しを飾った。",
+              "highlight": "headlines"
+            },
+            {
+              "en": "He glanced at the headlines before breakfast.",
+              "ja": "彼は朝食前に見出しに目を通した。",
+              "highlight": "headlines"
+            },
+            {
+              "en": "The newspaper's headline was misleading.",
+              "ja": "その新聞の見出しは誤解を招くものだった。",
+              "highlight": "headline"
+            },
+            {
+              "en": "She always reads the headlines first.",
+              "ja": "彼女はいつも最初に見出しを読む。",
+              "highlight": "headlines"
+            }
+          ]
+        }
+      ],
+      "etymology": "head（頭）+ line（行）に由来。",
+      "synonyms": [
+        { "word": "title", "trans": "タイトル" },
+        { "word": "caption", "trans": "キャプション" },
+        { "word": "banner", "trans": "バナー見出し" }
+      ],
+      "antonyms": [
+        { "word": "footnote", "trans": "脚注" },
+        { "word": "fine print", "trans": "細かい文字" },
+        { "word": "detail", "trans": "詳細" }
+      ],
+      "related": [
+        { "word": "headliner", "trans": "主役" },
+        { "word": "headline news", "trans": "トップニュース" },
+        { "word": "headline writer", "trans": "見出し記者" }
+      ]
+    },
+    {
+      "number": 6116,
+      "word": "Internet",
+      "pos": "名詞",
+      "meaning": "インターネット",
+      "nuance": "「世界的なコンピューター通信ネットワーク」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I use the Internet every day for work.",
+              "ja": "私は仕事で毎日インターネットを使う。",
+              "highlight": "Internet"
+            },
+            {
+              "en": "The Internet has revolutionized communication.",
+              "ja": "インターネットはコミュニケーションに革命をもたらした。",
+              "highlight": "Internet"
+            },
+            {
+              "en": "You can find almost anything on the Internet.",
+              "ja": "インターネット上ではほとんど何でも見つけられる。",
+              "highlight": "Internet"
+            },
+            {
+              "en": "The Internet connection is slow today.",
+              "ja": "今日はインターネット接続が遅い。",
+              "highlight": "Internet"
+            },
+            {
+              "en": "Many people get their news from the Internet.",
+              "ja": "多くの人はインターネットからニュースを得ている。",
+              "highlight": "Internet"
+            }
+          ]
+        }
+      ],
+      "etymology": "inter（間）+ net（ネットワーク）に由来。",
+      "synonyms": [
+        { "word": "web", "trans": "ウェブ" },
+        { "word": "cyberspace", "trans": "サイバースペース" },
+        { "word": "net", "trans": "ネット" }
+      ],
+      "antonyms": [
+        { "word": "offline", "trans": "オフライン" },
+        { "word": "analog", "trans": "アナログ" },
+        { "word": "print", "trans": "印刷" }
+      ],
+      "related": [
+        { "word": "internet access", "trans": "インターネット接続" },
+        { "word": "internet user", "trans": "インターネットユーザー" },
+        { "word": "internet service", "trans": "インターネットサービス" }
+      ]
+    },
+    {
+      "number": 6117,
+      "word": "advertisement",
+      "pos": "名詞",
+      "meaning": "広告",
+      "nuance": "「商品やサービスを宣伝するもの」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "I saw an advertisement for a new car on TV.",
+              "ja": "テレビで新車の広告を見た。",
+              "highlight": "advertisement"
+            },
+            {
+              "en": "The company placed an advertisement in the newspaper.",
+              "ja": "その会社は新聞に広告を掲載した。",
+              "highlight": "advertisement"
+            },
+            {
+              "en": "Online advertisements are very targeted.",
+              "ja": "オンライン広告は非常にターゲットが絞られている。",
+              "highlight": "advertisements"
+            },
+            {
+              "en": "The advertisement was misleading.",
+              "ja": "その広告は誤解を招くものだった。",
+              "highlight": "advertisement"
+            },
+            {
+              "en": "She works in the advertisement industry.",
+              "ja": "彼女は広告業界で働いている。",
+              "highlight": "advertisement"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 advertere（注意を向ける）に由来。",
+      "synonyms": [
+        { "word": "ad", "trans": "広告" },
+        { "word": "commercial", "trans": "コマーシャル" },
+        { "word": "promotion", "trans": "宣伝" }
+      ],
+      "antonyms": [
+        { "word": "secret", "trans": "秘密" },
+        { "word": "concealment", "trans": "隠蔽" },
+        { "word": "private", "trans": "プライベート" }
+      ],
+      "related": [
+        { "word": "advertise", "trans": "広告する" },
+        { "word": "advertising", "trans": "広告業" },
+        { "word": "advertiser", "trans": "広告主" }
+      ]
+    },
+    {
+      "number": 6118,
+      "word": "publish",
+      "pos": "動詞",
+      "meaning": "～を出版する、公表する",
+      "nuance": "「本や記事を公開する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company publishes academic journals.",
+              "ja": "その会社は学術雑誌を出版している。",
+              "highlight": "publishes"
+            },
+            {
+              "en": "She published her first novel at age 25.",
+              "ja": "彼女は25歳で処女小説を出版した。",
+              "highlight": "published"
+            },
+            {
+              "en": "The results of the study were published in a medical journal.",
+              "ja": "その研究結果は医学雑誌に掲載された。",
+              "highlight": "published"
+            },
+            {
+              "en": "He publishes a weekly newsletter.",
+              "ja": "彼は週刊ニュースレターを発行している。",
+              "highlight": "publishes"
+            },
+            {
+              "en": "The government published the report online.",
+              "ja": "政府はその報告書をオンラインで公開した。",
+              "highlight": "published"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 publicare（公開する）に由来。",
+      "synonyms": [
+        { "word": "issue", "trans": "発行する" },
+        { "word": "release", "trans": "公開する" },
+        { "word": "print", "trans": "印刷する" }
+      ],
+      "antonyms": [
+        { "word": "suppress", "trans": "抑える" },
+        { "word": "censor", "trans": "検閲する" },
+        { "word": "conceal", "trans": "隠す" }
+      ],
+      "related": [
+        { "word": "publication", "trans": "出版物" },
+        { "word": "publisher", "trans": "出版社" },
+        { "word": "publishing", "trans": "出版" }
+      ]
+    },
+    {
+      "number": 6119,
+      "word": "edit",
+      "pos": "動詞",
+      "meaning": "～を編集する",
+      "nuance": "「文章や映像を修正・整理する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She edited the manuscript before publication.",
+              "ja": "彼女は出版前に原稿を編集した。",
+              "highlight": "edited"
+            },
+            {
+              "en": "He edits the school newspaper.",
+              "ja": "彼は学校新聞を編集している。",
+              "highlight": "edits"
+            },
+            {
+              "en": "The video was edited to remove the errors.",
+              "ja": "そのビデオはエラーを削除するために編集された。",
+              "highlight": "edited"
+            },
+            {
+              "en": "You can edit your profile information online.",
+              "ja": "オンラインでプロフィール情報を編集できます。",
+              "highlight": "edit"
+            },
+            {
+              "en": "The editor edited the article for clarity.",
+              "ja": "編集者は明確さのために記事を編集した。",
+              "highlight": "edited"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 editus（出版された）に由来。",
+      "synonyms": [
+        { "word": "revise", "trans": "改訂する" },
+        { "word": "correct", "trans": "訂正する" },
+        { "word": "modify", "trans": "修正する" }
+      ],
+      "antonyms": [
+        { "word": "keep", "trans": "維持する" },
+        { "word": "preserve", "trans": "保存する" },
+        { "word": "publish without change", "trans": "そのまま出版する" }
+      ],
+      "related": [
+        { "word": "editor", "trans": "編集者" },
+        { "word": "edition", "trans": "版" },
+        { "word": "editorial", "trans": "社説" }
+      ]
+    },
+    {
+      "number": 6120,
+      "word": "compile",
+      "pos": "動詞",
+      "meaning": "～を編集する、１つに集める",
+      "nuance": "「様々な情報源から集めて一つのものにまとめる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She compiled a list of all the attendees.",
+              "ja": "彼女は全参加者のリストをまとめた。",
+              "highlight": "compiled"
+            },
+            {
+              "en": "The data was compiled from various sources.",
+              "ja": "そのデータは様々な情報源から編集された。",
+              "highlight": "compiled"
+            },
+            {
+              "en": "He compiled a dictionary of technical terms.",
+              "ja": "彼は専門用語の辞書を編集した。",
+              "highlight": "compiled"
+            },
+            {
+              "en": "The report was compiled by a team of experts.",
+              "ja": "その報告書は専門家チームによって編集された。",
+              "highlight": "compiled"
+            },
+            {
+              "en": "They are compiling a database of customer information.",
+              "ja": "彼らは顧客情報のデータベースを編纂している。",
+              "highlight": "compiling"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 compilare（略奪する）に由来。",
+      "synonyms": [
+        { "word": "assemble", "trans": "集める" },
+        { "word": "gather", "trans": "集める" },
+        { "word": "collect", "trans": "収集する" }
+      ],
+      "antonyms": [
+        { "word": "disperse", "trans": "散らす" },
+        { "word": "scatter", "trans": "散らばる" },
+        { "word": "separate", "trans": "分離する" }
+      ],
+      "related": [
+        { "word": "compilation", "trans": "編集" },
+        { "word": "compiler", "trans": "編集者" },
+        { "word": "compilatory", "trans": "編集の" }
+      ]
+    },
+    {
+      "number": 6121,
+      "word": "cartoon",
+      "pos": "名詞",
+      "meaning": "漫画、アニメ",
+      "nuance": "「風刺画」または「アニメーション」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The newspaper features a political cartoon.",
+              "ja": "その新聞には政治漫画が掲載されている。",
+              "highlight": "cartoon"
+            },
+            {
+              "en": "Children love watching cartoons on TV.",
+              "ja": "子供たちはテレビでアニメを見るのが大好きだ。",
+              "highlight": "cartoons"
+            },
+            {
+              "en": "He draws cartoons for a living.",
+              "ja": "彼は漫画家として生計を立てている。",
+              "highlight": "cartoons"
+            },
+            {
+              "en": "The cartoon was funny and clever.",
+              "ja": "その漫画は面白くて賢かった。",
+              "highlight": "cartoon"
+            },
+            {
+              "en": "The movie is a classic Disney cartoon.",
+              "ja": "その映画はクラシックなディズニーアニメだ。",
+              "highlight": "cartoon"
+            }
+          ]
+        }
+      ],
+      "etymology": "イタリア語 cartone（厚紙）に由来。",
+      "synonyms": [
+        { "word": "comic", "trans": "漫画" },
+        { "word": "animation", "trans": "アニメーション" },
+        { "word": "caricature", "trans": "風刺画" }
+      ],
+      "antonyms": [
+        { "word": "realism", "trans": "写実主義" },
+        { "word": "photograph", "trans": "写真" },
+        { "word": "documentary", "trans": "ドキュメンタリー" }
+      ],
+      "related": [
+        { "word": "cartoonist", "trans": "漫画家" },
+        { "word": "cartoon network", "trans": "カートゥーンネットワーク" },
+        { "word": "cartoon character", "trans": "アニメキャラクター" }
+      ]
+    },
+    {
+      "number": 6122,
+      "word": "manufacture",
+      "pos": "動詞 / 名詞",
+      "meaning": "製造、生産； ～を製造する",
+      "nuance": "「機械を使って商品を大量に作る」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company manufactures car parts.",
+              "ja": "その会社は自動車部品を製造している。",
+              "highlight": "manufactures"
+            },
+            {
+              "en": "The product was manufactured in China.",
+              "ja": "その製品は中国で製造された。",
+              "highlight": "manufactured"
+            },
+            {
+              "en": "The manufacture of steel is a major industry.",
+              "ja": "鉄鋼製造は主要な産業だ。",
+              "highlight": "manufacture"
+            },
+            {
+              "en": "He manufactured an excuse for being late.",
+              "ja": "彼は遅刻の言い訳をでっち上げた。",
+              "highlight": "manufactured"
+            },
+            {
+              "en": "The company specializes in the manufacture of electronics.",
+              "ja": "その会社は電子機器の製造を専門としている。",
+              "highlight": "manufacture"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 manu（手で）+ facere（作る）に由来。",
+      "synonyms": [
+        { "word": "produce", "trans": "生産する" },
+        { "word": "make", "trans": "作る" },
+        { "word": "fabricate", "trans": "製造する" }
+      ],
+      "antonyms": [
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "dismantle", "trans": "解体する" },
+        { "word": "break", "trans": "壊す" }
+      ],
+      "related": [
+        { "word": "manufacturer", "trans": "製造業者" },
+        { "word": "manufacturing", "trans": "製造業" },
+        { "word": "manufactured goods", "trans": "工業製品" }
+      ]
+    },
+    {
+      "number": 6123,
+      "word": "produce",
+      "pos": "動詞 / 名詞",
+      "meaning": "～を生産する、生み出す",
+      "nuance": "「何かを作り出す」または「農産物」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The factory produces cars.",
+              "ja": "その工場は自動車を生産している。",
+              "highlight": "produces"
+            },
+            {
+              "en": "The tree produces fruit every year.",
+              "ja": "その木は毎年果物を実らせる。",
+              "highlight": "produces"
+            },
+            {
+              "en": "The movie was produced by a famous director.",
+              "ja": "その映画は有名な監督によって制作された。",
+              "highlight": "produced"
+            },
+            {
+              "en": "Fresh produce is sold at the farmers' market.",
+              "ja": "新鮮な農産物はファーマーズマーケットで販売されている。",
+              "highlight": "produce"
+            },
+            {
+              "en": "He produced a letter from his pocket.",
+              "ja": "彼はポケットから手紙を取り出した。",
+              "highlight": "produced"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 producere（前に出す）に由来。",
+      "synonyms": [
+        { "word": "make", "trans": "作る" },
+        { "word": "create", "trans": "創造する" },
+        { "word": "generate", "trans": "生み出す" }
+      ],
+      "antonyms": [
+        { "word": "consume", "trans": "消費する" },
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "waste", "trans": "浪費する" }
+      ],
+      "related": [
+        { "word": "production", "trans": "生産" },
+        { "word": "producer", "trans": "プロデューサー" },
+        { "word": "product", "trans": "製品" }
+      ]
+    },
+    {
+      "number": 6124,
+      "word": "create",
+      "pos": "動詞",
+      "meaning": "～を創造する、生み出す",
+      "nuance": "「新しいものを存在させる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The artist created a beautiful sculpture.",
+              "ja": "その芸術家は美しい彫刻を創作した。",
+              "highlight": "created"
+            },
+            {
+              "en": "The new law created many jobs.",
+              "ja": "新しい法律は多くの雇用を生み出した。",
+              "highlight": "created"
+            },
+            {
+              "en": "She created a website for her business.",
+              "ja": "彼女は自分のビジネスのためにウェブサイトを作成した。",
+              "highlight": "created"
+            },
+            {
+              "en": "The noise created a disturbance.",
+              "ja": "その騒音は妨害を引き起こした。",
+              "highlight": "created"
+            },
+            {
+              "en": "He created a new recipe for the restaurant.",
+              "ja": "彼はレストランのために新しいレシピを考案した。",
+              "highlight": "created"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 creare（生み出す）に由来。",
+      "synonyms": [
+        { "word": "make", "trans": "作る" },
+        { "word": "produce", "trans": "生産する" },
+        { "word": "design", "trans": "デザインする" }
+      ],
+      "antonyms": [
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "annihilate", "trans": "絶滅させる" },
+        { "word": "eliminate", "trans": "排除する" }
+      ],
+      "related": [
+        { "word": "creation", "trans": "創造" },
+        { "word": "creative", "trans": "創造的な" },
+        { "word": "creator", "trans": "創造者" }
+      ]
+    },
+    {
+      "number": 6125,
+      "word": "consume",
+      "pos": "動詞",
+      "meaning": "～を消費する",
+      "nuance": "「資源や食料を使い尽くす」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The car consumes a lot of fuel.",
+              "ja": "その車は多くの燃料を消費する。",
+              "highlight": "consumes"
+            },
+            {
+              "en": "He consumes large amounts of coffee.",
+              "ja": "彼は大量のコーヒーを消費する。",
+              "highlight": "consumes"
+            },
+            {
+              "en": "The fire consumed the entire building.",
+              "ja": "火は建物全体を焼き尽くした。",
+              "highlight": "consumed"
+            },
+            {
+              "en": "She was consumed by jealousy.",
+              "ja": "彼女は嫉妬に取り憑かれていた。",
+              "highlight": "consumed"
+            },
+            {
+              "en": "The project consumed all his time and energy.",
+              "ja": "そのプロジェクトは彼の時間とエネルギーの全てを消費した。",
+              "highlight": "consumed"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 consumere（使い尽くす）に由来。",
+      "synonyms": [
+        { "word": "use", "trans": "使う" },
+        { "word": "devour", "trans": "食べ尽くす" },
+        { "word": "exhaust", "trans": "使い果たす" }
+      ],
+      "antonyms": [
+        { "word": "produce", "trans": "生産する" },
+        { "word": "create", "trans": "創造する" },
+        { "word": "save", "trans": "節約する" }
+      ],
+      "related": [
+        { "word": "consumption", "trans": "消費" },
+        { "word": "consumer", "trans": "消費者" },
+        { "word": "consumerism", "trans": "消費主義" }
+      ]
+    },
+    {
+      "number": 6126,
+      "word": "trade",
+      "pos": "名詞 / 動詞",
+      "meaning": "貿易、取引； 商売； 職業",
+      "nuance": "「商品の交換」または「特定の職業」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "International trade has increased significantly.",
+              "ja": "国際貿易は大幅に増加した。",
+              "highlight": "trade"
+            },
+            {
+              "en": "He learned the trade of carpentry from his father.",
+              "ja": "彼は父から大工の職業を学んだ。",
+              "highlight": "trade"
+            },
+            {
+              "en": "The two countries signed a trade agreement.",
+              "ja": "その二国は貿易協定に署名した。",
+              "highlight": "trade"
+            },
+            {
+              "en": "She trades stocks online.",
+              "ja": "彼女はオンラインで株式を取引している。",
+              "highlight": "trades"
+            },
+            {
+              "en": "He traded his old car for a new one.",
+              "ja": "彼は古い車を下取りに出して新しい車を買った。",
+              "highlight": "traded"
+            }
+          ]
+        }
+      ],
+      "etymology": "中英語 trade（道）に由来。",
+      "synonyms": [
+        { "word": "commerce", "trans": "商業" },
+        { "word": "exchange", "trans": "交換" },
+        { "word": "profession", "trans": "職業" }
+      ],
+      "antonyms": [
+        { "word": "barter", "trans": "物々交換" },
+        { "word": "gift", "trans": "贈り物" },
+        { "word": "donation", "trans": "寄付" }
+      ],
+      "related": [
+        { "word": "trader", "trans": "トレーダー" },
+        { "word": "trading", "trans": "取引" },
+        { "word": "trade-off", "trans": "トレードオフ" }
+      ]
+    },
+    {
+      "number": 6127,
+      "word": "deal",
+      "pos": "名詞 / 動詞",
+      "meaning": "取引； 量",
+      "nuance": "「ビジネスの取引」または「大量」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They made a deal to share the profits.",
+              "ja": "彼らは利益を分け合う取引をした。",
+              "highlight": "deal"
+            },
+            {
+              "en": "He has a great deal of experience.",
+              "ja": "彼は多くの経験を持っている。",
+              "highlight": "deal"
+            },
+            {
+              "en": "The company deals in antique furniture.",
+              "ja": "その会社はアンティーク家具を扱っている。",
+              "highlight": "deals"
+            },
+            {
+              "en": "It's a deal!",
+              "ja": "取引成立！",
+              "highlight": "deal"
+            },
+            {
+              "en": "She dealt the cards for the game.",
+              "ja": "彼女はゲームのためにカードを配った。",
+              "highlight": "dealt"
+            }
+          ]
+        }
+      ],
+      "etymology": "古英語 dæl（部分）に由来。",
+      "synonyms": [
+        { "word": "transaction", "trans": "取引" },
+        { "word": "agreement", "trans": "合意" },
+        { "word": "quantity", "trans": "量" }
+      ],
+      "antonyms": [
+        { "word": "refusal", "trans": "拒否" },
+        { "word": "rejection", "trans": "拒絶" },
+        { "word": "lack", "trans": "不足" }
+      ],
+      "related": [
+        { "word": "dealer", "trans": "ディーラー" },
+        { "word": "dealing", "trans": "取引" },
+        { "word": "deal with", "trans": "対処する" }
+      ]
+    },
+    {
+      "number": 6128,
+      "word": "commerce",
+      "pos": "名詞",
+      "meaning": "通商、貿易",
+      "nuance": "「商品やサービスの売買」を指す。'trade'よりもフォーマル。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "E-commerce has grown rapidly.",
+              "ja": "電子商取引は急速に成長した。",
+              "highlight": "E-commerce"
+            },
+            {
+              "en": "The two countries have strong commercial ties.",
+              "ja": "その二国は強い通商関係を持っている。",
+              "highlight": "commercial"
+            },
+            {
+              "en": "Commerce between the nations has increased.",
+              "ja": "国家間の貿易は増加した。",
+              "highlight": "Commerce"
+            },
+            {
+              "en": "The chamber of commerce supports local businesses.",
+              "ja": "商工会議所は地元企業を支援している。",
+              "highlight": "commerce"
+            },
+            {
+              "en": "International commerce is regulated by treaties.",
+              "ja": "国際通商は条約によって規制されている。",
+              "highlight": "commerce"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 commercium（相互の取引）に由来。",
+      "synonyms": [
+        { "word": "trade", "trans": "貿易" },
+        { "word": "business", "trans": "ビジネス" },
+        { "word": "marketing", "trans": "マーケティング" }
+      ],
+      "antonyms": [
+        { "word": "isolation", "trans": "孤立" },
+        { "word": "protectionism", "trans": "保護主義" },
+        { "word": "autarky", "trans": "自給自足" }
+      ],
+      "related": [
+        { "word": "commercial", "trans": "商業の" },
+        { "word": "commercialize", "trans": "商業化する" },
+        { "word": "merchant", "trans": "商人" }
+      ]
+    },
+    {
+      "number": 6129,
+      "word": "merchant",
+      "pos": "名詞",
+      "meaning": "商人",
+      "nuance": "「商品を売買する人」を指す。特に卸売業者を指すことが多い。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The merchant sold spices and silk.",
+              "ja": "その商人は香辛料と絹を売っていた。",
+              "highlight": "merchant"
+            },
+            {
+              "en": "He is a wealthy wine merchant.",
+              "ja": "彼は裕福なワイン商人だ。",
+              "highlight": "merchant"
+            },
+            {
+              "en": "The merchant ship carried goods across the ocean.",
+              "ja": "その商船は海を渡って商品を運んだ。",
+              "highlight": "merchant"
+            },
+            {
+              "en": "She runs a small merchant business.",
+              "ja": "彼女は小さな商売を営んでいる。",
+              "highlight": "merchant"
+            },
+            {
+              "en": "The merchants formed a guild to protect their interests.",
+              "ja": "商人たちは利益を守るために組合を結成した。",
+              "highlight": "merchants"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 mercari（取引する）に由来。",
+      "synonyms": [
+        { "word": "trader", "trans": "トレーダー" },
+        { "word": "dealer", "trans": "ディーラー" },
+        { "word": "shopkeeper", "trans": "店主" }
+      ],
+      "antonyms": [
+        { "word": "customer", "trans": "顧客" },
+        { "word": "buyer", "trans": "買い手" },
+        { "word": "consumer", "trans": "消費者" }
+      ],
+      "related": [
+        { "word": "merchandise", "trans": "商品" },
+        { "word": "merchant marine", "trans": "商船隊" },
+        { "word": "merchant bank", "trans": "商人銀行" }
+      ]
+    },
+    {
+      "number": 6130,
+      "word": "commodity",
+      "pos": "名詞",
+      "meaning": "商品； 日用品",
+      "nuance": "「売買される製品」または「原材料」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Oil is a valuable commodity.",
+              "ja": "石油は貴重な商品だ。",
+              "highlight": "commodity"
+            },
+            {
+              "en": "The price of commodities has risen.",
+              "ja": "商品価格が上昇した。",
+              "highlight": "commodities"
+            },
+            {
+              "en": "Water is a scarce commodity in some regions.",
+              "ja": "水は一部の地域では希少な商品だ。",
+              "highlight": "commodity"
+            },
+            {
+              "en": "Gold and silver are traded as commodities.",
+              "ja": "金と銀は商品として取引される。",
+              "highlight": "commodities"
+            },
+            {
+              "en": "The company deals in agricultural commodities.",
+              "ja": "その会社は農産物を扱っている。",
+              "highlight": "commodities"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 commoditas（便利さ）に由来。",
+      "synonyms": [
+        { "word": "product", "trans": "製品" },
+        { "word": "good", "trans": "商品" },
+        { "word": "resource", "trans": "資源" }
+      ],
+      "antonyms": [
+        { "word": "service", "trans": "サービス" },
+        { "word": "luxury", "trans": "贅沢品" },
+        { "word": "uniqueness", "trans": "独自性" }
+      ],
+      "related": [
+        { "word": "commodity market", "trans": "商品市場" },
+        { "word": "commodity price", "trans": "商品価格" },
+        { "word": "commodity exchange", "trans": "商品取引所" }
+      ]
+    },
+    {
+      "number": 6131,
+      "word": "retail",
+      "pos": "名詞 / 形容詞",
+      "meaning": "小売りの",
+      "nuance": "「消費者に直接販売すること」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The product sells for $50 retail.",
+              "ja": "その製品の小売価格は50ドルです。",
+              "highlight": "retail"
+            },
+            {
+              "en": "He works in retail sales.",
+              "ja": "彼は小売販売で働いている。",
+              "highlight": "retail"
+            },
+            {
+              "en": "The retail price is higher than the wholesale price.",
+              "ja": "小売価格は卸売価格よりも高い。",
+              "highlight": "retail"
+            },
+            {
+              "en": "Online retail has grown significantly.",
+              "ja": "オンライン小売は大きく成長した。",
+              "highlight": "retail"
+            },
+            {
+              "en": "The store specializes in retail of electronics.",
+              "ja": "その店は電子機器の小売を専門としている。",
+              "highlight": "retail"
+            }
+          ]
+        }
+      ],
+      "etymology": "古フランス語 retaille（切り分け）に由来。",
+      "synonyms": [
+        { "word": "selling", "trans": "販売" },
+        { "word": "marketing", "trans": "マーケティング" },
+        { "word": "consumer sales", "trans": "消費者向け販売" }
+      ],
+      "antonyms": [
+        { "word": "wholesale", "trans": "卸売り" },
+        { "word": "bulk sale", "trans": "大口販売" },
+        { "word": "trade", "trans": "取引" }
+      ],
+      "related": [
+        { "word": "retailer", "trans": "小売業者" },
+        { "word": "retailing", "trans": "小売業" },
+        { "word": "retail price", "trans": "小売価格" }
+      ]
+    },
+    {
+      "number": 6132,
+      "word": "import",
+      "pos": "動詞 / 名詞",
+      "meaning": "～を輸入する； 輸入(品)",
+      "nuance": "「外国から商品を購入して持ち込む」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "Japan imports much of its oil.",
+              "ja": "日本は石油の多くを輸入している。",
+              "highlight": "imports"
+            },
+            {
+              "en": "The company imports electronics from China.",
+              "ja": "その会社は中国から電子機器を輸入している。",
+              "highlight": "imports"
+            },
+            {
+              "en": "Imports have increased this year.",
+              "ja": "今年は輸入が増加した。",
+              "highlight": "Imports"
+            },
+            {
+              "en": "The import of luxury goods is restricted.",
+              "ja": "贅沢品の輸入は制限されている。",
+              "highlight": "import"
+            },
+            {
+              "en": "He imported the data into the spreadsheet.",
+              "ja": "彼はデータを表計算ソフトにインポートした。",
+              "highlight": "imported"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 importare（持ち込む）に由来。",
+      "synonyms": [
+        { "word": "bring in", "trans": "持ち込む" },
+        { "word": "ship in", "trans": "船で運ぶ" },
+        { "word": "introduce", "trans": "導入する" }
+      ],
+      "antonyms": [
+        { "word": "export", "trans": "輸出する" },
+        { "word": "sell", "trans": "売る" },
+        { "word": "domestic", "trans": "国内の" }
+      ],
+      "related": [
+        { "word": "importation", "trans": "輸入" },
+        { "word": "importer", "trans": "輸入業者" },
+        { "word": "import duty", "trans": "輸入関税" }
+      ]
+    },
+    {
+      "number": 6133,
+      "word": "export",
+      "pos": "動詞 / 名詞",
+      "meaning": "～を輸出する； 輸出(品)",
+      "nuance": "「自国の商品を外国に販売する」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The country exports cars to Europe.",
+              "ja": "その国はヨーロッパに車を輸出している。",
+              "highlight": "exports"
+            },
+            {
+              "en": "Exports have fallen due to the recession.",
+              "ja": "不況のため輸出が減少した。",
+              "highlight": "Exports"
+            },
+            {
+              "en": "The company exports its products worldwide.",
+              "ja": "その会社は製品を世界中に輸出している。",
+              "highlight": "exports"
+            },
+            {
+              "en": "Rice is a major export of this country.",
+              "ja": "米はこの国の主要な輸出品だ。",
+              "highlight": "export"
+            },
+            {
+              "en": "He exported the file as a PDF.",
+              "ja": "彼はそのファイルをPDFとして書き出した。",
+              "highlight": "exported"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 exportare（運び出す）に由来。",
+      "synonyms": [
+        { "word": "sell abroad", "trans": "海外に売る" },
+        { "word": "ship out", "trans": "出荷する" },
+        { "word": "trade", "trans": "取引する" }
+      ],
+      "antonyms": [
+        { "word": "import", "trans": "輸入する" },
+        { "word": "buy", "trans": "買う" },
+        { "word": "domestic", "trans": "国内の" }
+      ],
+      "related": [
+        { "word": "exportation", "trans": "輸出" },
+        { "word": "exporter", "trans": "輸出業者" },
+        { "word": "export duty", "trans": "輸出関税" }
+      ]
+    },
+    {
+      "number": 6134,
+      "word": "employ",
+      "pos": "動詞",
+      "meaning": "～を雇う； ～を用いる",
+      "nuance": "「人を雇う」または「手段を使う」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The company employs over 500 people.",
+              "ja": "その会社は500人以上を雇用している。",
+              "highlight": "employs"
+            },
+            {
+              "en": "He is employed as a software engineer.",
+              "ja": "彼はソフトウェアエンジニアとして雇用されている。",
+              "highlight": "employed"
+            },
+            {
+              "en": "The method employs a new technique.",
+              "ja": "その方法は新しい技術を用いている。",
+              "highlight": "employs"
+            },
+            {
+              "en": "She employed all her skills to solve the problem.",
+              "ja": "彼女は問題を解決するために自分のスキルを全て駆使した。",
+              "highlight": "employed"
+            },
+            {
+              "en": "The factory employs many local workers.",
+              "ja": "その工場は多くの地元労働者を雇用している。",
+              "highlight": "employs"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 implicare（巻き込む）に由来。",
+      "synonyms": [
+        { "word": "hire", "trans": "雇う" },
+        { "word": "use", "trans": "使う" },
+        { "word": "utilize", "trans": "利用する" }
+      ],
+      "antonyms": [
+        { "word": "fire", "trans": "解雇する" },
+        { "word": "dismiss", "trans": "解雇する" },
+        { "word": "lay off", "trans": "一時解雇する" }
+      ],
+      "related": [
+        { "word": "employment", "trans": "雇用" },
+        { "word": "employer", "trans": "雇用主" },
+        { "word": "employee", "trans": "従業員" }
+      ]
+    },
+    {
+      "number": 6135,
+      "word": "labor",
+      "pos": "名詞 / 動詞",
+      "meaning": "労働",
+      "nuance": "「肉体的または精神的な仕事」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "The construction project required a lot of labor.",
+              "ja": "その建設プロジェクトには多くの労働力が必要だった。",
+              "highlight": "labor"
+            },
+            {
+              "en": "She went into labor at midnight.",
+              "ja": "彼女は真夜中に陣痛が始まった。",
+              "highlight": "labor"
+            },
+            {
+              "en": "The workers labored in the fields all day.",
+              "ja": "労働者たちは一日中畑で働いた。",
+              "highlight": "labored"
+            },
+            {
+              "en": "Manual labor can be physically demanding.",
+              "ja": "肉体労働は体力的にきついことがある。",
+              "highlight": "labor"
+            },
+            {
+              "en": "Labor Day is a holiday in many countries.",
+              "ja": "労働祭は多くの国で祝日だ。",
+              "highlight": "Labor"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 labor（苦労）に由来。",
+      "synonyms": [
+        { "word": "work", "trans": "仕事" },
+        { "word": "effort", "trans": "努力" },
+        { "word": "toil", "trans": "苦労" }
+      ],
+      "antonyms": [
+        { "word": "rest", "trans": "休息" },
+        { "word": "leisure", "trans": "余暇" },
+        { "word": "idleness", "trans": "怠惰" }
+      ],
+      "related": [
+        { "word": "laborer", "trans": "労働者" },
+        { "word": "laborious", "trans": "骨の折れる" },
+        { "word": "labor market", "trans": "労働市場" }
+      ]
+    },
+    {
+      "number": 6136,
+      "word": "manage",
+      "pos": "動詞",
+      "meaning": "～を経営する； なんとかしてやり遂げる",
+      "nuance": "「組織を運営する」または「困難を乗り越える」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "She manages a large team.",
+              "ja": "彼女は大きなチームを管理している。",
+              "highlight": "manages"
+            },
+            {
+              "en": "He managed to finish the project on time.",
+              "ja": "彼はなんとか時間通りにプロジェクトを終えた。",
+              "highlight": "managed"
+            },
+            {
+              "en": "The store is managed by her brother.",
+              "ja": "その店は彼女の兄によって経営されている。",
+              "highlight": "managed"
+            },
+            {
+              "en": "How do you manage with such a small budget?",
+              "ja": "そんな少ない予算でどうやってやりくりしているのですか？",
+              "highlight": "manage"
+            },
+            {
+              "en": "He managed his time wisely.",
+              "ja": "彼は時間を賢く管理した。",
+              "highlight": "managed"
+            }
+          ]
+        }
+      ],
+      "etymology": "イタリア語 maneggiare（扱う）に由来。",
+      "synonyms": [
+        { "word": "administer", "trans": "管理する" },
+        { "word": "supervise", "trans": "監督する" },
+        { "word": "cope", "trans": "やりくりする" }
+      ],
+      "antonyms": [
+        { "word": "mismanage", "trans": "誤って管理する" },
+        { "word": "fail", "trans": "失敗する" },
+        { "word": "neglect", "trans": "怠る" }
+      ],
+      "related": [
+        { "word": "management", "trans": "管理" },
+        { "word": "manager", "trans": "管理者" },
+        { "word": "manageable", "trans": "管理可能な" }
+      ]
+    },
+    {
+      "number": 6137,
+      "word": "contract",
+      "pos": "名詞 / 動詞",
+      "meaning": "契約； ～を契約する； ～(病気)にかかる、収縮する",
+      "nuance": "「法的な合意文書」または「病気にかかる」という意味。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "They signed a contract for the sale of the house.",
+              "ja": "彼らは家の売買契約に署名した。",
+              "highlight": "contract"
+            },
+            {
+              "en": "He contracted a serious illness while traveling.",
+              "ja": "彼は旅行中に重い病気にかかった。",
+              "highlight": "contracted"
+            },
+            {
+              "en": "Metal contracts when it cools.",
+              "ja": "金属は冷えると収縮する。",
+              "highlight": "contracts"
+            },
+            {
+              "en": "The company was awarded a government contract.",
+              "ja": "その会社は政府契約を獲得した。",
+              "highlight": "contract"
+            },
+            {
+              "en": "He contracted with a builder to renovate the house.",
+              "ja": "彼は家を改装するために建築業者と契約した。",
+              "highlight": "contracted"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 contractus（引き締める）に由来。",
+      "synonyms": [
+        { "word": "agreement", "trans": "合意" },
+        { "word": "deal", "trans": "取引" },
+        { "word": "catch", "trans": "かかる" }
+      ],
+      "antonyms": [
+        { "word": "expand", "trans": "拡大する" },
+        { "word": "break", "trans": "破る" },
+        { "word": "cure", "trans": "治す" }
+      ],
+      "related": [
+        { "word": "contractor", "trans": "請負業者" },
+        { "word": "contractual", "trans": "契約の" },
+        { "word": "subcontract", "trans": "下請け契約" }
+      ]
+    },
+    {
+      "number": 6138,
+      "word": "agent",
+      "pos": "名詞",
+      "meaning": "代理店、代理人、行為者",
+      "nuance": "「他の人のために行動する人」または「原因」を指す。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            {
+              "en": "He works as a real estate agent.",
+              "ja": "彼は不動産代理店として働いている。",
+              "highlight": "agent"
+            },
+            {
+              "en": "The travel agent booked our flights.",
+              "ja": "旅行代理店が私たちのフライトを予約した。",
+              "highlight": "agent"
+            },
+            {
+              "en": "The chemical agent caused the reaction.",
+              "ja": "その化学物質が反応を引き起こした。",
+              "highlight": "agent"
+            },
+            {
+              "en": "She is a secret agent.",
+              "ja": "彼女はスパイだ。",
+              "highlight": "agent"
+            },
+            {
+              "en": "The agent negotiated the deal on behalf of the artist.",
+              "ja": "その代理人は芸術家に代わって取引を交渉した。",
+              "highlight": "agent"
+            }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 agere（行動する）に由来。",
+      "synonyms": [
+        { "word": "representative", "trans": "代表" },
+        { "word": "broker", "trans": "仲介人" },
+        { "word": "mediator", "trans": "仲介者" }
+      ],
+      "antonyms": [
+        { "word": "client", "trans": "クライアント" },
+        { "word": "customer", "trans": "顧客" },
+        { "word": "principal", "trans": "本人" }
+      ],
+      "related": [
+        { "word": "agency", "trans": "代理店" },
+        { "word": "agentic", "trans": "主体的な" },
+        { "word": "double agent", "trans": "二重スパイ" }
+      ]
+    }
+  ]
+}
