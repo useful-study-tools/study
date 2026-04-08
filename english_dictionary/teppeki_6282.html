@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#32	短い単語 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #32	短い単語
+    </div>
+    
+    <h2 class="section-title">#32	短い単語</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6238.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6282-nod.html"><span class="word-id">6282</span><span class="word-name">nod</span><span class="word-meaning">うなずく</span></a></li>
+        <li class="word-item"><a href="data/6283-bow.html"><span class="word-id">6283</span><span class="word-name">bow</span><span class="word-meaning">おじぎする； おじぎ</span></a></li>
+        <li class="word-item"><a href="data/6284-sigh.html"><span class="word-id">6284</span><span class="word-name">sigh</span><span class="word-meaning">ため息をつく； ため息</span></a></li>
+        <li class="word-item"><a href="data/6285-rub.html"><span class="word-id">6285</span><span class="word-name">rub</span><span class="word-meaning">～をこする</span></a></li>
+        <li class="word-item"><a href="data/6286-yell.html"><span class="word-id">6286</span><span class="word-name">yell</span><span class="word-meaning">(～に向かって)叫ぶ(at～)</span></a></li>
+        <li class="word-item"><a href="data/6287-leap.html"><span class="word-id">6287</span><span class="word-name">leap</span><span class="word-meaning">跳ぶ 跳躍、飛躍</span></a></li>
+        <li class="word-item"><a href="data/6288-fix.html"><span class="word-id">6288</span><span class="word-name">fix</span><span class="word-meaning">～を固定する； ～を修理する</span></a></li>
+        <li class="word-item"><a href="data/6289-pour.html"><span class="word-id">6289</span><span class="word-name">pour</span><span class="word-meaning">～を注ぐ； 流れ込む</span></a></li>
+        <li class="word-item"><a href="data/6290-dip.html"><span class="word-id">6290</span><span class="word-name">dip</span><span class="word-meaning">～を(軽く)浸す</span></a></li>
+        <li class="word-item"><a href="data/6291-soak.html"><span class="word-id">6291</span><span class="word-name">soak</span><span class="word-meaning">～を浸す、びしょ濡れになる</span></a></li>
+        <li class="word-item"><a href="data/6292-sip.html"><span class="word-id">6292</span><span class="word-name">sip</span><span class="word-meaning">～を一口飲む</span></a></li>
+        <li class="word-item"><a href="data/6293-cast.html"><span class="word-id">6293</span><span class="word-name">cast</span><span class="word-meaning">～を投げる、投げかける</span></a></li>
+        <li class="word-item"><a href="data/6294-shed.html"><span class="word-id">6294</span><span class="word-name">shed</span><span class="word-meaning">～を流す、こぼす</span></a></li>
+        <li class="word-item"><a href="data/6295-spur.html"><span class="word-id">6295</span><span class="word-name">spur</span><span class="word-meaning">～に拍車をかける、駆り立てる</span></a></li>
+        <li class="word-item"><a href="data/6296-blur.html"><span class="word-id">6296</span><span class="word-name">blur</span><span class="word-meaning">～をぼやけさせる； ぼやける</span></a></li>
+        <li class="word-item"><a href="data/6297-cite.html"><span class="word-id">6297</span><span class="word-name">cite</span><span class="word-meaning">～を引用する</span></a></li>
+        <li class="word-item"><a href="data/6298-rear.html"><span class="word-id">6298</span><span class="word-name">rear</span><span class="word-meaning">～を育てる</span></a></li>
+        <li class="word-item"><a href="data/6299-beg.html"><span class="word-id">6299</span><span class="word-name">beg</span><span class="word-meaning">～を懇願する、請う</span></a></li>
+        <li class="word-item"><a href="data/6300-bet.html"><span class="word-id">6300</span><span class="word-name">bet</span><span class="word-meaning">～を賭ける； きっと…だと思う</span></a></li>
+        <li class="word-item"><a href="data/6301-sue.html"><span class="word-id">6301</span><span class="word-name">sue</span><span class="word-meaning">～を告訴する</span></a></li>
+        <li class="word-item"><a href="data/6302-dread.html"><span class="word-id">6302</span><span class="word-name">dread</span><span class="word-meaning">～を恐れる； 恐怖</span></a></li>
+        <li class="word-item"><a href="data/6303-vow.html"><span class="word-id">6303</span><span class="word-name">vow</span><span class="word-meaning">～を誓う； 誓い</span></a></li>
+        <li class="word-item"><a href="data/6304-chill.html"><span class="word-id">6304</span><span class="word-name">chill</span><span class="word-meaning">～を冷やす、に寒気を感じさせる； 寒気、冷たさ</span></a></li>
+        <li class="word-item"><a href="data/6305-staff.html"><span class="word-id">6305</span><span class="word-name">staff</span><span class="word-meaning">社員、職員</span></a></li>
+        <li class="word-item"><a href="data/6306-stuff.html"><span class="word-id">6306</span><span class="word-name">stuff</span><span class="word-meaning">もの； ～を詰め込む</span></a></li>
+        <li class="word-item"><a href="data/6307-crash.html"><span class="word-id">6307</span><span class="word-name">crash</span><span class="word-meaning">衝突する ★ぶつかって壊れる</span></a></li>
+        <li class="word-item"><a href="data/6308-clash.html"><span class="word-id">6308</span><span class="word-name">clash</span><span class="word-meaning">衝突する、衝突 ★「カチン」とぶつかる</span></a></li>
+        <li class="word-item"><a href="data/6309-crush.html"><span class="word-id">6309</span><span class="word-name">crush</span><span class="word-meaning">～を潰す ★「ぐしゃっ」と潰す</span></a></li>
+        <li class="word-item"><a href="data/6310-flesh.html"><span class="word-id">6310</span><span class="word-name">flesh</span><span class="word-meaning">肉</span></a></li>
+        <li class="word-item"><a href="data/6311-glow.html"><span class="word-id">6311</span><span class="word-name">glow</span><span class="word-meaning">輝く； 輝き</span></a></li>
+        <li class="word-item"><a href="data/6312-load.html"><span class="word-id">6312</span><span class="word-name">load</span><span class="word-meaning">荷物、負担； ～に(荷物を)積む</span></a></li>
+        <li class="word-item"><a href="data/6313-pray.html"><span class="word-id">6313</span><span class="word-name">pray</span><span class="word-meaning">祈る</span></a></li>
+        <li class="word-item"><a href="data/6314-prey.html"><span class="word-id">6314</span><span class="word-name">prey</span><span class="word-meaning">獲物、餌食； 捕食する</span></a></li>
+        <li class="word-item"><a href="data/6315-flee.html"><span class="word-id">6315</span><span class="word-name">flee</span><span class="word-meaning">逃げる； ～から逃げる</span></a></li>
+        <li class="word-item"><a href="data/6316-dose.html"><span class="word-id">6316</span><span class="word-name">dose</span><span class="word-meaning">(薬の１回の)服用量</span></a></li>
+        <li class="word-item"><a href="data/6317-role.html"><span class="word-id">6317</span><span class="word-name">role</span><span class="word-meaning">役割</span></a></li>
+        <li class="word-item"><a href="data/6318-roll.html"><span class="word-id">6318</span><span class="word-name">roll</span><span class="word-meaning">転がる； ～を転がす、巻く</span></a></li>
+        <li class="word-item"><a href="data/6319-tale.html"><span class="word-id">6319</span><span class="word-name">tale</span><span class="word-meaning">話、物語</span></a></li>
+        <li class="word-item"><a href="data/6320-awe.html"><span class="word-id">6320</span><span class="word-name">awe</span><span class="word-meaning">畏敬、畏怖； 畏怖させる</span></a></li>
+        <li class="word-item"><a href="data/6321-feat.html"><span class="word-id">6321</span><span class="word-name">feat</span><span class="word-meaning">偉業、離れ業</span></a></li>
+        <li class="word-item"><a href="data/6322-deed.html"><span class="word-id">6322</span><span class="word-name">deed</span><span class="word-meaning">行動、行為</span></a></li>
+        <li class="word-item"><a href="data/6323-clue.html"><span class="word-id">6323</span><span class="word-name">clue</span><span class="word-meaning">手掛かり、鍵</span></a></li>
+        <li class="word-item"><a href="data/6324-path.html"><span class="word-id">6324</span><span class="word-name">path</span><span class="word-meaning">小道、道筋</span></a></li>
+        <li class="word-item"><a href="data/6325-aisle.html"><span class="word-id">6325</span><span class="word-name">aisle</span><span class="word-meaning">通路</span></a></li>
+        <li class="word-item"><a href="data/6326-ray.html"><span class="word-id">6326</span><span class="word-name">ray</span><span class="word-meaning">光線、放射線</span></a></li>
+        <li class="word-item"><a href="data/6327-lump.html"><span class="word-id">6327</span><span class="word-name">lump</span><span class="word-meaning">(小さな)かたまり</span></a></li>
+        <li class="word-item"><a href="data/6328-bulk.html"><span class="word-id">6328</span><span class="word-name">bulk</span><span class="word-meaning">容積、かさ； 巨大なもの</span></a></li>
+        <li class="word-item"><a href="data/6329-pile.html"><span class="word-id">6329</span><span class="word-name">pile</span><span class="word-meaning">(綺麗に積み重なった)山</span></a></li>
+        <li class="word-item"><a href="data/6330-heap.html"><span class="word-id">6330</span><span class="word-name">heap</span><span class="word-meaning">(雑然と積み重なった)山</span></a></li>
+        <li class="word-item"><a href="data/6331-mess.html"><span class="word-id">6331</span><span class="word-name">mess</span><span class="word-meaning">混雑、乱雑</span></a></li>
+        <li class="word-item"><a href="data/6332-fuss.html"><span class="word-id">6332</span><span class="word-name">fuss</span><span class="word-meaning">大騒ぎ</span></a></li>
+        <li class="word-item"><a href="data/6333-mere.html"><span class="word-id">6333</span><span class="word-name">mere</span><span class="word-meaning">単なる、ほんの</span></a></li>
+        <li class="word-item"><a href="data/6334-dull.html"><span class="word-id">6334</span><span class="word-name">dull</span><span class="word-meaning">退屈な； 頭の鈍い</span></a></li>
+        <li class="word-item"><a href="data/6335-ripe.html"><span class="word-id">6335</span><span class="word-name">ripe</span><span class="word-meaning">熟した、成熟した</span></a></li>
+        <li class="word-item"><a href="data/6336-bare.html"><span class="word-id">6336</span><span class="word-name">bare</span><span class="word-meaning">裸の、むき出しの； 最低限の、ギリギリの</span></a></li>
+        <li class="word-item"><a href="data/6337-raw.html"><span class="word-id">6337</span><span class="word-name">raw</span><span class="word-meaning">生の、加工していない</span></a></li>
+        <li class="word-item"><a href="data/6338-net.html"><span class="word-id">6338</span><span class="word-name">net</span><span class="word-meaning">正味の、掛け値なしの</span></a></li>
+        <li class="word-item"><a href="data/6339-gross.html"><span class="word-id">6339</span><span class="word-name">gross</span><span class="word-meaning">総計の</span></a></li>
+        <li class="word-item"><a href="data/6340-dim.html"><span class="word-id">6340</span><span class="word-name">dim</span><span class="word-meaning">薄暗い、ぼんやりとした</span></a></li>
+        <li class="word-item"><a href="data/6341-deaf.html"><span class="word-id">6341</span><span class="word-name">deaf</span><span class="word-meaning">耳が聞こえない</span></a></li>
+        <li class="word-item"><a href="data/6342-dumb.html"><span class="word-id">6342</span><span class="word-name">dumb</span><span class="word-meaning">口がきけない； 馬鹿な</span></a></li>
+        <li class="word-item"><a href="data/6343-weird.html"><span class="word-id">6343</span><span class="word-name">weird</span><span class="word-meaning">変な、奇妙な</span></a></li>
+        <li class="word-item"><a href="data/6344-sake.html"><span class="word-id">6344</span><span class="word-name">sake</span><span class="word-meaning">ため、目的</span></a></li>
+        <li class="word-item"><a href="data/6345-vain.html"><span class="word-id">6345</span><span class="word-name">vain</span><span class="word-meaning">無駄な、虚しい</span></a></li>
+        <li class="word-item"><a href="data/6346-dawn.html"><span class="word-id">6346</span><span class="word-name">dawn</span><span class="word-meaning">夜明け； 始まり 夜が明ける</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6238.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>

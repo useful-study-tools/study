@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6287 leap</title>
+    <link rel="icon" href="/study/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/study/favicon.png">
+    <style>
+        :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; box-sizing: border-box; width: 100%; text-align: left; }
+        .breadcrumb a { color: var(--primary-color); text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
+        .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
+        .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
+        .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
+        .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
+        .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
+        .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
+        .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
+        .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
+        .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
+        .meaning-jp { font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px; padding: 10px 0; color: var(--text-main); }
+        .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
+        .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
+        .en { display: block; font-weight: 500; color: #444; }
+        .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
+        .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
+        .list-unit { margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+        .list-unit:last-child { border-bottom: none; }
+        .word-small { font-weight: bold; color: #444; }
+        .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
+        .source-tag { font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }
+        .list-unit a { text-decoration: none; color: #4169e1; }
+        .list-unit a:hover { text-decoration: underline; opacity: 0.8; }
+        .list-unit a .word-small { color: inherit !important; }
+
+        @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="../../index.html">ホーム</a> &gt; 
+            <a href="../index.html">英単語帳</a> &gt; 
+            <a href="../others.html">鉄壁</a> &gt; 
+            <a href="../others_6282.html">#32	短い単語</a> &gt; 
+            6287 leap
+        </div>
+        <div class="nav-buttons">
+            <a href="6286-yell.html" class="nav-button">← 前の単語</a>
+            <a href="6288-fix.html" class="nav-button">次の単語 →</a>
+        </div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 6287</span>
+                <h1 class="word-title">leap <span class="pos-tag">動詞 / 名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">跳ぶ 跳躍、飛躍</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 「大きく跳ぶ」という意味で、'jump'よりもフォーマルで詩的な響きがある。
+            </div>
+                    <div class="section-title">例文</div>
+        <div class="example-item">
+            <span class="en">The cat <strong>leaped</strong> onto the table.</span>
+            <span class="ja">その猫はテーブルの上に飛び乗った。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">He took a great <strong>leap</strong> forward.</span>
+            <span class="ja">彼は大きく前進した。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">She <strong>leaped</strong> for joy when she heard the news.</span>
+            <span class="ja">彼女はその知らせを聞いて歓喜して跳び上がった。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">The company made a <strong>leap</strong> in technology.</span>
+            <span class="ja">その会社は技術の飛躍的進歩を遂げた。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">Look before you <strong>leap</strong>.</span>
+            <span class="ja">跳ぶ前に見よ（よく考えてから行動せよ）。</span>
+        </div>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    古英語 hleapan（跳ぶ）に由来。
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">jump</span><span class="trans-small">(跳ぶ)</span></div>
+<div class="list-unit"><span class="word-small">spring</span><span class="trans-small">(跳ねる)</span></div>
+<div class="list-unit"><span class="word-small">bound</span><span class="trans-small">(跳躍する)</span></div>
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    <div class="list-unit"><span class="word-small">land</span><span class="trans-small">(着地する)</span></div>
+<div class="list-unit"><span class="word-small">fall</span><span class="trans-small">(落ちる)</span></div>
+<div class="list-unit"><a href="11577-crawl.html"><span class="word-small">crawl</span></a> <span class="trans-small">(這う)</span></div>
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><span class="word-small">leap year</span><span class="trans-small">(閏年)</span></div>
+<div class="list-unit"><span class="word-small">leapfrog</span><span class="trans-small">(馬跳び)</span></div>
+<div class="list-unit"><span class="word-small">quantum leap</span><span class="trans-small">(飛躍的進歩)</span></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
