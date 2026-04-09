@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#41	コロケーションで覚える形容詞 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #41	コロケーションで覚える形容詞
+    </div>
+    
+    <h2 class="section-title">#41	コロケーションで覚える形容詞</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6653.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6722-genuine.html"><span class="word-id">6722</span><span class="word-name">genuine</span><span class="word-meaning">本物の、純粋の、心からの</span></a></li>
+        <li class="word-item"><a href="data/6723-authentic.html"><span class="word-id">6723</span><span class="word-name">authentic</span><span class="word-meaning">本物の、本場の</span></a></li>
+        <li class="word-item"><a href="data/6724-fake.html"><span class="word-id">6724</span><span class="word-name">fake</span><span class="word-meaning">偽物の</span></a></li>
+        <li class="word-item"><a href="data/6725-False.html"><span class="word-id">6725</span><span class="word-name">False</span><span class="word-meaning">(わざと)間違った、偽の</span></a></li>
+        <li class="word-item"><a href="data/6726-sincere.html"><span class="word-id">6726</span><span class="word-name">sincere</span><span class="word-meaning">心からの、誠実な</span></a></li>
+        <li class="word-item"><a href="data/6727-sheer.html"><span class="word-id">6727</span><span class="word-name">sheer</span><span class="word-meaning">全くの</span></a></li>
+        <li class="word-item"><a href="data/6728-elaborate.html"><span class="word-id">6728</span><span class="word-name">elaborate</span><span class="word-meaning">手の込んだ、精巧な</span></a></li>
+        <li class="word-item"><a href="data/6729-intricate.html"><span class="word-id">6729</span><span class="word-name">intricate</span><span class="word-meaning">複雑な、込み入った</span></a></li>
+        <li class="word-item"><a href="data/6730-exquisite.html"><span class="word-id">6730</span><span class="word-name">exquisite</span><span class="word-meaning">精緻な、素晴らしい</span></a></li>
+        <li class="word-item"><a href="data/6731-sophisticated.html"><span class="word-id">6731</span><span class="word-name">sophisticated</span><span class="word-meaning">洗練された； 精巧な</span></a></li>
+        <li class="word-item"><a href="data/6732-proficient.html"><span class="word-id">6732</span><span class="word-name">proficient</span><span class="word-meaning">熟達した</span></a></li>
+        <li class="word-item"><a href="data/6733-negative.html"><span class="word-id">6733</span><span class="word-name">negative</span><span class="word-meaning">否定の、否定的な、消極的な、マイナスの</span></a></li>
+        <li class="word-item"><a href="data/6734-affirmative.html"><span class="word-id">6734</span><span class="word-name">affirmative</span><span class="word-meaning">肯定の、積極的な</span></a></li>
+        <li class="word-item"><a href="data/6735-positive.html"><span class="word-id">6735</span><span class="word-name">positive</span><span class="word-meaning">積極的な、プラスの； 確信している</span></a></li>
+        <li class="word-item"><a href="data/6736-vertical.html"><span class="word-id">6736</span><span class="word-name">vertical</span><span class="word-meaning">垂直の、縦の</span></a></li>
+        <li class="word-item"><a href="data/6737-horizontal.html"><span class="word-id">6737</span><span class="word-name">horizontal</span><span class="word-meaning">水平の</span></a></li>
+        <li class="word-item"><a href="data/6738-parallel.html"><span class="word-id">6738</span><span class="word-name">parallel</span><span class="word-meaning">(～と)平行の、類似した(to～)； 類似(物)、匹敵するもの</span></a></li>
+        <li class="word-item"><a href="data/6739-indifferent.html"><span class="word-id">6739</span><span class="word-name">indifferent</span><span class="word-meaning">(～に対して)無関心な(to)</span></a></li>
+        <li class="word-item"><a href="data/6740-infamous.html"><span class="word-id">6740</span><span class="word-name">infamous</span><span class="word-meaning">悪名高い、評判が悪い</span></a></li>
+        <li class="word-item"><a href="data/6741-notorious.html"><span class="word-id">6741</span><span class="word-name">notorious</span><span class="word-meaning">悪名高い、評判が悪い</span></a></li>
+        <li class="word-item"><a href="data/6742-uneasy.html"><span class="word-id">6742</span><span class="word-name">uneasy</span><span class="word-meaning">落ち着かない、不安な</span></a></li>
+        <li class="word-item"><a href="data/6743-awkward.html"><span class="word-id">6743</span><span class="word-name">awkward</span><span class="word-meaning">落ち着かない、気まずい、不器用な、ぎこちない</span></a></li>
+        <li class="word-item"><a href="data/6744-clumsy.html"><span class="word-id">6744</span><span class="word-name">clumsy</span><span class="word-meaning">不器用な、ぎこちない</span></a></li>
+        <li class="word-item"><a href="data/6745-restless.html"><span class="word-id">6745</span><span class="word-name">restless</span><span class="word-meaning">落ち着きがない、せわしない</span></a></li>
+        <li class="word-item"><a href="data/6746-relentless.html"><span class="word-id">6746</span><span class="word-name">relentless</span><span class="word-meaning">執拗な、情け容赦のない</span></a></li>
+        <li class="word-item"><a href="data/6747-ruthless.html"><span class="word-id">6747</span><span class="word-name">ruthless</span><span class="word-meaning">情け容赦のない、冷酷な</span></a></li>
+        <li class="word-item"><a href="data/6748-reckless.html"><span class="word-id">6748</span><span class="word-name">reckless</span><span class="word-meaning">向こう見ずな</span></a></li>
+        <li class="word-item"><a href="data/6749-stupid.html"><span class="word-id">6749</span><span class="word-name">stupid</span><span class="word-meaning">ばかな、愚かな</span></a></li>
+        <li class="word-item"><a href="data/6750-silly.html"><span class="word-id">6750</span><span class="word-name">silly</span><span class="word-meaning">ばかな</span></a></li>
+        <li class="word-item"><a href="data/6751-absurd.html"><span class="word-id">6751</span><span class="word-name">absurd</span><span class="word-meaning">ばかげた、理に適わない</span></a></li>
+        <li class="word-item"><a href="data/6752-ridiculous.html"><span class="word-id">6752</span><span class="word-name">ridiculous</span><span class="word-meaning">ばかばかしい</span></a></li>
+        <li class="word-item"><a href="data/6753-fragile.html"><span class="word-id">6753</span><span class="word-name">fragile</span><span class="word-meaning">壊れやすい、もろい</span></a></li>
+        <li class="word-item"><a href="data/6754-vulnerable.html"><span class="word-id">6754</span><span class="word-name">vulnerable</span><span class="word-meaning">（～に対して）傷つきやすい、弱い(to)</span></a></li>
+        <li class="word-item"><a href="data/6755-delicate.html"><span class="word-id">6755</span><span class="word-name">delicate</span><span class="word-meaning">繊細な、微細な、優美な、臆病な</span></a></li>
+        <li class="word-item"><a href="data/6756-stiff.html"><span class="word-id">6756</span><span class="word-name">stiff</span><span class="word-meaning">堅い、凝っている； 堅苦しい</span></a></li>
+        <li class="word-item"><a href="data/6757-rigid.html"><span class="word-id">6757</span><span class="word-name">rigid</span><span class="word-meaning">堅い； 厳格な、融通が利かない</span></a></li>
+        <li class="word-item"><a href="data/6758-flexible.html"><span class="word-id">6758</span><span class="word-name">flexible</span><span class="word-meaning">曲がりやすい、柔軟性のある</span></a></li>
+        <li class="word-item"><a href="data/6759-arrogant.html"><span class="word-id">6759</span><span class="word-name">arrogant</span><span class="word-meaning">傲慢な</span></a></li>
+        <li class="word-item"><a href="data/6760-humble.html"><span class="word-id">6760</span><span class="word-name">humble</span><span class="word-meaning">謙虚な、つつましい； 質素な</span></a></li>
+        <li class="word-item"><a href="data/6761-stubborn.html"><span class="word-id">6761</span><span class="word-name">stubborn</span><span class="word-meaning">頑固な</span></a></li>
+        <li class="word-item"><a href="data/6762-obstinate.html"><span class="word-id">6762</span><span class="word-name">obstinate</span><span class="word-meaning">頑固な</span></a></li>
+        <li class="word-item"><a href="data/6763-fierce.html"><span class="word-id">6763</span><span class="word-name">fierce</span><span class="word-meaning">激しい</span></a></li>
+        <li class="word-item"><a href="data/6764-harsh.html"><span class="word-id">6764</span><span class="word-name">harsh</span><span class="word-meaning">厳しい</span></a></li>
+        <li class="word-item"><a href="data/6765-stern.html"><span class="word-id">6765</span><span class="word-name">stern</span><span class="word-meaning">厳格な、険しい</span></a></li>
+        <li class="word-item"><a href="data/6766-brave.html"><span class="word-id">6766</span><span class="word-name">brave</span><span class="word-meaning">勇敢な</span></a></li>
+        <li class="word-item"><a href="data/6767-bold.html"><span class="word-id">6767</span><span class="word-name">bold</span><span class="word-meaning">大胆な</span></a></li>
+        <li class="word-item"><a href="data/6768-timid.html"><span class="word-id">6768</span><span class="word-name">timid</span><span class="word-meaning">臆病な</span></a></li>
+        <li class="word-item"><a href="data/6769-deliberate.html"><span class="word-id">6769</span><span class="word-name">deliberate</span><span class="word-meaning">意図的な、故意の； 慎重な</span></a></li>
+        <li class="word-item"><a href="data/6770-discreet.html"><span class="word-id">6770</span><span class="word-name">discreet</span><span class="word-meaning">慎重な</span></a></li>
+        <li class="word-item"><a href="data/6771-prudent.html"><span class="word-id">6771</span><span class="word-name">prudent</span><span class="word-meaning">慎重な</span></a></li>
+        <li class="word-item"><a href="data/6772-subtle.html"><span class="word-id">6772</span><span class="word-name">subtle</span><span class="word-meaning">微妙な、かすかな</span></a></li>
+        <li class="word-item"><a href="data/6773-drastic.html"><span class="word-id">6773</span><span class="word-name">drastic</span><span class="word-meaning">劇的な、徹底的な</span></a></li>
+        <li class="word-item"><a href="data/6774-integral.html"><span class="word-id">6774</span><span class="word-name">integral</span><span class="word-meaning">必要不可欠な； 完全な</span></a></li>
+        <li class="word-item"><a href="data/6775-decent.html"><span class="word-id">6775</span><span class="word-name">decent</span><span class="word-meaning">まともな、きちんとした、上品な</span></a></li>
+        <li class="word-item"><a href="data/6776-neat.html"><span class="word-id">6776</span><span class="word-name">neat</span><span class="word-meaning">こぎれいな、すばらしい</span></a></li>
+        <li class="word-item"><a href="data/6777-tidy.html"><span class="word-id">6777</span><span class="word-name">tidy</span><span class="word-meaning">きちんとした、こぎれいな</span></a></li>
+        <li class="word-item"><a href="data/6778-crude.html"><span class="word-id">6778</span><span class="word-name">crude</span><span class="word-meaning">生の、天然の、粗野な</span></a></li>
+        <li class="word-item"><a href="data/6779-valid.html"><span class="word-id">6779</span><span class="word-name">valid</span><span class="word-meaning">有効な、正当な</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6653.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
