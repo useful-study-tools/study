@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#42	カタカナ英語 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #42	カタカナ英語
+    </div>
+    
+    <h2 class="section-title">#42	カタカナ英語</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6722.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6780-initiative.html"><span class="word-id">6780</span><span class="word-name">initiative</span><span class="word-meaning">主導権、率先</span></a></li>
+        <li class="word-item"><a href="data/6781-security.html"><span class="word-id">6781</span><span class="word-name">security</span><span class="word-meaning">安全性</span></a></li>
+        <li class="word-item"><a href="data/6782-merit.html"><span class="word-id">6782</span><span class="word-name">merit</span><span class="word-meaning">長所、利点</span></a></li>
+        <li class="word-item"><a href="data/6783-access.html"><span class="word-id">6783</span><span class="word-name">access</span><span class="word-meaning">交通の便、入手、利用</span></a></li>
+        <li class="word-item"><a href="data/6784-technique.html"><span class="word-id">6784</span><span class="word-name">technique</span><span class="word-meaning">(専門的な)技術</span></a></li>
+        <li class="word-item"><a href="data/6785-horror.html"><span class="word-id">6785</span><span class="word-name">horror</span><span class="word-meaning">恐怖</span></a></li>
+        <li class="word-item"><a href="data/6786-terror.html"><span class="word-id">6786</span><span class="word-name">terror</span><span class="word-meaning">恐怖</span></a></li>
+        <li class="word-item"><a href="data/6787-symbol.html"><span class="word-id">6787</span><span class="word-name">symbol</span><span class="word-meaning">象徴</span></a></li>
+        <li class="word-item"><a href="data/6788-barrier.html"><span class="word-id">6788</span><span class="word-name">barrier</span><span class="word-meaning">障壁、障害</span></a></li>
+        <li class="word-item"><a href="data/6789-gap.html"><span class="word-id">6789</span><span class="word-name">gap</span><span class="word-meaning">隔たり、差</span></a></li>
+        <li class="word-item"><a href="data/6790-dilemma.html"><span class="word-id">6790</span><span class="word-name">dilemma</span><span class="word-meaning">ジレンマ、板挟み、難題</span></a></li>
+        <li class="word-item"><a href="data/6791-stretch.html"><span class="word-id">6791</span><span class="word-name">stretch</span><span class="word-meaning">～を伸ばす； 伸びる、広がる</span></a></li>
+        <li class="word-item"><a href="data/6792-elite.html"><span class="word-id">6792</span><span class="word-name">elite</span><span class="word-meaning">エリート、精鋭； エリートの</span></a></li>
+        <li class="word-item"><a href="data/6793-series.html"><span class="word-id">6793</span><span class="word-name">series</span><span class="word-meaning">連続</span></a></li>
+        <li class="word-item"><a href="data/6794-serial.html"><span class="word-id">6794</span><span class="word-name">serial</span><span class="word-meaning">連続した</span></a></li>
+        <li class="word-item"><a href="data/6795-cereal.html"><span class="word-id">6795</span><span class="word-name">cereal</span><span class="word-meaning">穀物、穀物加工食品</span></a></li>
+        <li class="word-item"><a href="data/6796-irregular.html"><span class="word-id">6796</span><span class="word-name">irregular</span><span class="word-meaning">不規則な</span></a></li>
+        <li class="word-item"><a href="data/6797-item.html"><span class="word-id">6797</span><span class="word-name">item</span><span class="word-meaning">品目、項目</span></a></li>
+        <li class="word-item"><a href="data/6798-relax.html"><span class="word-id">6798</span><span class="word-name">relax</span><span class="word-meaning">～をくつろがせる； くつろぐ</span></a></li>
+        <li class="word-item"><a href="data/6799-mood.html"><span class="word-id">6799</span><span class="word-name">mood</span><span class="word-meaning">気分、雰囲気</span></a></li>
+        <li class="word-item"><a href="data/6800-tight.html"><span class="word-id">6800</span><span class="word-name">tight</span><span class="word-meaning">きつい</span></a></li>
+        <li class="word-item"><a href="data/6801-severe.html"><span class="word-id">6801</span><span class="word-name">severe</span><span class="word-meaning">厳しい</span></a></li>
+        <li class="word-item"><a href="data/6802-puzzle.html"><span class="word-id">6802</span><span class="word-name">puzzle</span><span class="word-meaning">～を戸惑わせる</span></a></li>
+        <li class="word-item"><a href="data/6803-pause.html"><span class="word-id">6803</span><span class="word-name">pause</span><span class="word-meaning">一時休止； 一時休止する</span></a></li>
+        <li class="word-item"><a href="data/6804-reverse.html"><span class="word-id">6804</span><span class="word-name">reverse</span><span class="word-meaning">～を逆にする、に逆行する； 逆の； 逆</span></a></li>
+        <li class="word-item"><a href="data/6805-pose.html"><span class="word-id">6805</span><span class="word-name">pose</span><span class="word-meaning">姿勢； ポーズをとる； ～(問題・質問)を提起する</span></a></li>
+        <li class="word-item"><a href="data/6806-random.html"><span class="word-id">6806</span><span class="word-name">random</span><span class="word-meaning">無作為の、でたらめな</span></a></li>
+        <li class="word-item"><a href="data/6807-bitter.html"><span class="word-id">6807</span><span class="word-name">bitter</span><span class="word-meaning">苦い、つらい</span></a></li>
+        <li class="word-item"><a href="data/6808-float.html"><span class="word-id">6808</span><span class="word-name">float</span><span class="word-meaning">(水中・空中に)浮く； ～を浮かべる</span></a></li>
+        <li class="word-item"><a href="data/6809-recipe.html"><span class="word-id">6809</span><span class="word-name">recipe</span><span class="word-meaning">レシピ、調理法； 秘訣</span></a></li>
+        <li class="word-item"><a href="data/6810-luxury.html"><span class="word-id">6810</span><span class="word-name">luxury</span><span class="word-meaning">贅沢、贅沢品</span></a></li>
+        <li class="word-item"><a href="data/6811-charity.html"><span class="word-id">6811</span><span class="word-name">charity</span><span class="word-meaning">慈悲、慈善</span></a></li>
+        <li class="word-item"><a href="data/6812-athlete.html"><span class="word-id">6812</span><span class="word-name">athlete</span><span class="word-meaning">運動選手</span></a></li>
+        <li class="word-item"><a href="data/6813-laundry.html"><span class="word-id">6813</span><span class="word-name">laundry</span><span class="word-meaning">洗濯物</span></a></li>
+        <li class="word-item"><a href="data/6814-label.html"><span class="word-id">6814</span><span class="word-name">label</span><span class="word-meaning">～に(…という)レッテルを貼る(as)</span></a></li>
+        <li class="word-item"><a href="data/6815-loose.html"><span class="word-id">6815</span><span class="word-name">loose</span><span class="word-meaning">ゆるんだ、だらしない</span></a></li>
+        <li class="word-item"><a href="data/6816-humor.html"><span class="word-id">6816</span><span class="word-name">humor</span><span class="word-meaning">ユーモア； 機嫌</span></a></li>
+        <li class="word-item"><a href="data/6817-image.html"><span class="word-id">6817</span><span class="word-name">image</span><span class="word-meaning">イメージ、画像、映像</span></a></li>
+        <li class="word-item"><a href="data/6818-amateur.html"><span class="word-id">6818</span><span class="word-name">amateur</span><span class="word-meaning">アマチュア、素人</span></a></li>
+        <li class="word-item"><a href="data/6819-thrill.html"><span class="word-id">6819</span><span class="word-name">thrill</span><span class="word-meaning">～をわくわくさせる； 興奮</span></a></li>
+        <li class="word-item"><a href="data/6820-theme.html"><span class="word-id">6820</span><span class="word-name">theme</span><span class="word-meaning">テーマ、主題</span></a></li>
+        <li class="word-item"><a href="data/6821-leisure.html"><span class="word-id">6821</span><span class="word-name">leisure</span><span class="word-meaning">余暇</span></a></li>
+        <li class="word-item"><a href="data/6822-alcohol.html"><span class="word-id">6822</span><span class="word-name">alcohol</span><span class="word-meaning">アルコール、酒</span></a></li>
+        <li class="word-item"><a href="data/6823-vitamin.html"><span class="word-id">6823</span><span class="word-name">vitamin</span><span class="word-meaning">ビタミン</span></a></li>
+        <li class="word-item"><a href="data/6824-liver.html"><span class="word-id">6824</span><span class="word-name">liver</span><span class="word-meaning">肝臓</span></a></li>
+        <li class="word-item"><a href="data/6825-kidney.html"><span class="word-id">6825</span><span class="word-name">kidney</span><span class="word-meaning">腎臓</span></a></li>
+        <li class="word-item"><a href="data/6826-chaos.html"><span class="word-id">6826</span><span class="word-name">chaos</span><span class="word-meaning">混沌、無秩序</span></a></li>
+        <li class="word-item"><a href="data/6827-connect.html"><span class="word-id">6827</span><span class="word-name">connect</span><span class="word-meaning">～を繋げる</span></a></li>
+        <li class="word-item"><a href="data/6828-appoint.html"><span class="word-id">6828</span><span class="word-name">appoint</span><span class="word-meaning">～を指名する、指定する</span></a></li>
+        <li class="word-item"><a href="data/6829-guarantee.html"><span class="word-id">6829</span><span class="word-name">guarantee</span><span class="word-meaning">～を保障(保証)する</span></a></li>
+        <li class="word-item"><a href="data/6830-aesthetic.html"><span class="word-id">6830</span><span class="word-name">aesthetic</span><span class="word-meaning">美的な、美学の</span></a></li>
+        <li class="word-item"><a href="data/6831-celebrity.html"><span class="word-id">6831</span><span class="word-name">celebrity</span><span class="word-meaning">有名人</span></a></li>
+        <li class="word-item"><a href="data/6832-animate.html"><span class="word-id">6832</span><span class="word-name">animate</span><span class="word-meaning">～を活気づける、に生命を与える</span></a></li>
+        <li class="word-item"><a href="data/6833-department.html"><span class="word-id">6833</span><span class="word-name">department</span><span class="word-meaning">部署、部門、省</span></a></li>
+        <li class="word-item"><a href="data/6834-depart.html"><span class="word-id">6834</span><span class="word-name">depart</span><span class="word-meaning">出発する</span></a></li>
+        <li class="word-item"><a href="data/6835-casual.html"><span class="word-id">6835</span><span class="word-name">casual</span><span class="word-meaning">何気ない、偶然の； 略式の</span></a></li>
+        <li class="word-item"><a href="data/6836-challenge.html"><span class="word-id">6836</span><span class="word-name">challenge</span><span class="word-meaning">(やりがいのある)難題、課題； 挑戦； ～に挑む、挑戦する； ～に異議を唱える</span></a></li>
+        <li class="word-item"><a href="data/6837-naive.html"><span class="word-id">6837</span><span class="word-name">naive</span><span class="word-meaning">世間知らずの、うぶな</span></a></li>
+        <li class="word-item"><a href="data/6838-alien.html"><span class="word-id">6838</span><span class="word-name">alien</span><span class="word-meaning">異質な、外国の</span></a></li>
+        <li class="word-item"><a href="data/6839-resort.html"><span class="word-id">6839</span><span class="word-name">resort</span><span class="word-meaning">(～[手段]に)訴える(to～) 行楽地</span></a></li>
+        <li class="word-item"><a href="data/6840-web.html"><span class="word-id">6840</span><span class="word-name">web</span><span class="word-meaning">クモの巣； (インターネット上の)ネットワーク、ウェブ</span></a></li>
+        <li class="word-item"><a href="data/6841-faint.html"><span class="word-id">6841</span><span class="word-name">faint</span><span class="word-meaning">かすかな、ぼんやりした 失神する</span></a></li>
+        <li class="word-item"><a href="data/6842-interview.html"><span class="word-id">6842</span><span class="word-name">interview</span><span class="word-meaning">インタビュー、面接</span></a></li>
+        <li class="word-item"><a href="data/6843-bond.html"><span class="word-id">6843</span><span class="word-name">bond</span><span class="word-meaning">きづな、結束</span></a></li>
+        <li class="word-item"><a href="data/6844-tissue.html"><span class="word-id">6844</span><span class="word-name">tissue</span><span class="word-meaning">(細胞の)組織 ； (ガーゼなどの)布、繊維</span></a></li>
+        <li class="word-item"><a href="data/6845-campaign.html"><span class="word-id">6845</span><span class="word-name">campaign</span><span class="word-meaning">選挙活動、政治活動、軍事行動、促進販売</span></a></li>
+        <li class="word-item"><a href="data/6846-boss.html"><span class="word-id">6846</span><span class="word-name">boss</span><span class="word-meaning">上司</span></a></li>
+        <li class="word-item"><a href="data/6847-cafeteria.html"><span class="word-id">6847</span><span class="word-name">cafeteria</span><span class="word-meaning">社員食堂、学食</span></a></li>
+        <li class="word-item"><a href="data/6848-companion.html"><span class="word-id">6848</span><span class="word-name">companion</span><span class="word-meaning">仲間、旅の連れ</span></a></li>
+        <li class="word-item"><a href="data/6849-mode.html"><span class="word-id">6849</span><span class="word-name">mode</span><span class="word-meaning">様式、方式、形態</span></a></li>
+        <li class="word-item"><a href="data/6850-mineral.html"><span class="word-id">6850</span><span class="word-name">mineral</span><span class="word-meaning">鉱物</span></a></li>
+        <li class="word-item"><a href="data/6851-foul.html"><span class="word-id">6851</span><span class="word-name">foul</span><span class="word-meaning">（臭いなどが）不快な、汚い； 反則の； 反則</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6722.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
