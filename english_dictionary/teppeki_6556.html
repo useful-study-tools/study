@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#38	熟語表現・2 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #38	熟語表現・2
+    </div>
+    
+    <h2 class="section-title">#38	熟語表現・2</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6511.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6556-make ～ of A.html"><span class="word-id">6556</span><span class="word-name">make ～ of A</span><span class="word-meaning">Aを～と評価する、判断する</span></a></li>
+        <li class="word-item"><a href="data/6557-make the most of.html"><span class="word-id">6557</span><span class="word-name">make the most of</span><span class="word-meaning">～を最大限利用する</span></a></li>
+        <li class="word-item"><a href="data/6558-make the best of.html"><span class="word-id">6558</span><span class="word-name">make the best of</span><span class="word-meaning">～をできる限り利用する</span></a></li>
+        <li class="word-item"><a href="data/6559-make sure.html"><span class="word-id">6559</span><span class="word-name">make sure</span><span class="word-meaning">確実に～する； ～を確かめる</span></a></li>
+        <li class="word-item"><a href="data/6560-make ends meet.html"><span class="word-id">6560</span><span class="word-name">make ends meet</span><span class="word-meaning">やりくりする、帳尻を合わせる</span></a></li>
+        <li class="word-item"><a href="data/6561-make believe.html"><span class="word-id">6561</span><span class="word-name">make believe</span><span class="word-meaning">～のふりをする、真似をする</span></a></li>
+        <li class="word-item"><a href="data/6562-make a scene.html"><span class="word-id">6562</span><span class="word-name">make a scene</span><span class="word-meaning">ひと騒ぎする、醜態を晒す</span></a></li>
+        <li class="word-item"><a href="data/6563-think much of.html"><span class="word-id">6563</span><span class="word-name">think much of</span><span class="word-meaning">～を高く評価する</span></a></li>
+        <li class="word-item"><a href="data/6564-think better of.html"><span class="word-id">6564</span><span class="word-name">think better of</span><span class="word-meaning">～を考え直す、見直す</span></a></li>
+        <li class="word-item"><a href="data/6565-think twice.html"><span class="word-id">6565</span><span class="word-name">think twice</span><span class="word-meaning">よく考える</span></a></li>
+        <li class="word-item"><a href="data/6566-on second thought.html"><span class="word-id">6566</span><span class="word-name">on second thought</span><span class="word-meaning">考え直して、やっぱり</span></a></li>
+        <li class="word-item"><a href="data/6567-show off.html"><span class="word-id">6567</span><span class="word-name">show off</span><span class="word-meaning">～を見せびらかせる、誇示する</span></a></li>
+        <li class="word-item"><a href="data/6568-show up.html"><span class="word-id">6568</span><span class="word-name">show up</span><span class="word-meaning">現れる、登場する</span></a></li>
+        <li class="word-item"><a href="data/6569-see to.html"><span class="word-id">6569</span><span class="word-name">see to</span><span class="word-meaning">～に対処する、の世話をする、を手配する</span></a></li>
+        <li class="word-item"><a href="data/6570-see through.html"><span class="word-id">6570</span><span class="word-name">see through</span><span class="word-meaning">～（嘘など）を見抜く； ～を最後までやり通す； (人)を最後まで助ける</span></a></li>
+        <li class="word-item"><a href="data/6572-make one's way.html"><span class="word-id">6572</span><span class="word-name">make one's way</span><span class="word-meaning">前進する</span></a></li>
+        <li class="word-item"><a href="data/6573-find one's way.html"><span class="word-id">6573</span><span class="word-name">find one's way</span><span class="word-meaning">たどり着く、入ってくる</span></a></li>
+        <li class="word-item"><a href="data/6574-go out of one's way to do.html"><span class="word-id">6574</span><span class="word-name">go out of one's way to do</span><span class="word-meaning">わざわざ～する</span></a></li>
+        <li class="word-item"><a href="data/6575-by way of.html"><span class="word-id">6575</span><span class="word-name">by way of</span><span class="word-meaning">～を経由して、～によって</span></a></li>
+        <li class="word-item"><a href="data/6576-have a way of doing.html"><span class="word-id">6576</span><span class="word-name">have a way of doing</span><span class="word-meaning">～する癖がある、傾向がある</span></a></li>
+        <li class="word-item"><a href="data/6577-under way.html"><span class="word-id">6577</span><span class="word-name">under way</span><span class="word-meaning">進行中で</span></a></li>
+        <li class="word-item"><a href="data/6578-true for [of].html"><span class="word-id">6578</span><span class="word-name">true for [of]</span><span class="word-meaning">～に当てはまる</span></a></li>
+        <li class="word-item"><a href="data/6579-hold true [good].html"><span class="word-id">6579</span><span class="word-name">hold true [good]</span><span class="word-meaning">当てはまる、通用する</span></a></li>
+        <li class="word-item"><a href="data/6580-true to life.html"><span class="word-id">6580</span><span class="word-name">true to life</span><span class="word-meaning">実物そっくり</span></a></li>
+        <li class="word-item"><a href="data/6581-give rise to.html"><span class="word-id">6581</span><span class="word-name">give rise to</span><span class="word-meaning">～を生じる、引き起こす</span></a></li>
+        <li class="word-item"><a href="data/6582-give birth to.html"><span class="word-id">6582</span><span class="word-name">give birth to</span><span class="word-meaning">～を産む； 生じる、引き起こす</span></a></li>
+        <li class="word-item"><a href="data/6583-put an end to.html"><span class="word-id">6583</span><span class="word-name">put an end to</span><span class="word-meaning">～を終わらせる</span></a></li>
+        <li class="word-item"><a href="data/6584-take turns.html"><span class="word-id">6584</span><span class="word-name">take turns</span><span class="word-meaning">交替する、順番にやる</span></a></li>
+        <li class="word-item"><a href="data/6585-in turn.html"><span class="word-id">6585</span><span class="word-name">in turn</span><span class="word-meaning">それが今度は</span></a></li>
+        <li class="word-item"><a href="data/6586-in return.html"><span class="word-id">6586</span><span class="word-name">in return</span><span class="word-meaning">(～の)お返しに(for)</span></a></li>
+        <li class="word-item"><a href="data/6587-out of the question.html"><span class="word-id">6587</span><span class="word-name">out of the question</span><span class="word-meaning">論外である、話にならない</span></a></li>
+        <li class="word-item"><a href="data/6588-in question.html"><span class="word-id">6588</span><span class="word-name">in question</span><span class="word-meaning">問題になっている、当の</span></a></li>
+        <li class="word-item"><a href="data/6589-on end.html"><span class="word-id">6589</span><span class="word-name">on end</span><span class="word-meaning">続けて</span></a></li>
+        <li class="word-item"><a href="data/6590-in a row.html"><span class="word-id">6590</span><span class="word-name">in a row</span><span class="word-meaning">続けて</span></a></li>
+        <li class="word-item"><a href="data/6591-so far.html"><span class="word-id">6591</span><span class="word-name">so far</span><span class="word-meaning">これ(それ)までのところは</span></a></li>
+        <li class="word-item"><a href="data/6592-go so far as to do.html"><span class="word-id">6592</span><span class="word-name">go so far as to do</span><span class="word-meaning">～までする</span></a></li>
+        <li class="word-item"><a href="data/6593-up to.html"><span class="word-id">6593</span><span class="word-name">up to</span><span class="word-meaning">(最大で)～まで； ～次第で； ～(良くないこと)に従事して、～を企んで</span></a></li>
+        <li class="word-item"><a href="data/6594-leave behind.html"><span class="word-id">6594</span><span class="word-name">leave behind</span><span class="word-meaning">～を置き忘れる、残していく</span></a></li>
+        <li class="word-item"><a href="data/6595-leave out.html"><span class="word-id">6595</span><span class="word-name">leave out</span><span class="word-meaning">～を省く、除外する、のけ者にする</span></a></li>
+        <li class="word-item"><a href="data/6596-rule out.html"><span class="word-id">6596</span><span class="word-name">rule out</span><span class="word-meaning">～を除外する</span></a></li>
+        <li class="word-item"><a href="data/6597-back and forth.html"><span class="word-id">6597</span><span class="word-name">back and forth</span><span class="word-meaning">行ったり来たり</span></a></li>
+        <li class="word-item"><a href="data/6598-upside down.html"><span class="word-id">6598</span><span class="word-name">upside down</span><span class="word-meaning">上下逆さまに</span></a></li>
+        <li class="word-item"><a href="data/6599-inside out.html"><span class="word-id">6599</span><span class="word-name">inside out</span><span class="word-meaning">裏返しに</span></a></li>
+        <li class="word-item"><a href="data/6600-vice versa.html"><span class="word-id">6600</span><span class="word-name">vice versa</span><span class="word-meaning">その逆、逆もまた同様</span></a></li>
+        <li class="word-item"><a href="data/6601-other way around.html"><span class="word-id">6601</span><span class="word-name">other way around</span><span class="word-meaning">あべこべ、逆</span></a></li>
+        <li class="word-item"><a href="data/6602-this and that.html"><span class="word-id">6602</span><span class="word-name">this and that</span><span class="word-meaning">あれこれ、様々なこと</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6511.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
