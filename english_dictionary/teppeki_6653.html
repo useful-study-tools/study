@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#40	心・身体 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #40	心・身体
+    </div>
+    
+    <h2 class="section-title">#40	心・身体</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6603.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6653-mental.html"><span class="word-id">6653</span><span class="word-name">mental</span><span class="word-meaning">頭の、知力の； 精神の、心の</span></a></li>
+        <li class="word-item"><a href="data/6654-spirit.html"><span class="word-id">6654</span><span class="word-name">spirit</span><span class="word-meaning">精神(力)； 気分； 霊魂</span></a></li>
+        <li class="word-item"><a href="data/6655-soul.html"><span class="word-id">6655</span><span class="word-name">soul</span><span class="word-meaning">魂、精神； 人</span></a></li>
+        <li class="word-item"><a href="data/6656-material.html"><span class="word-id">6656</span><span class="word-name">material</span><span class="word-meaning">名詞：素材, 原料, 題材, 教材； 形容詞：物質的な</span></a></li>
+        <li class="word-item"><a href="data/6657-sane.html"><span class="word-id">6657</span><span class="word-name">sane</span><span class="word-meaning">正気の</span></a></li>
+        <li class="word-item"><a href="data/6658-abuse.html"><span class="word-id">6658</span><span class="word-name">abuse</span><span class="word-meaning">名詞：乱用, 虐待； 動詞：～を乱用する、虐待する</span></a></li>
+        <li class="word-item"><a href="data/6659-addict.html"><span class="word-id">6659</span><span class="word-name">addict</span><span class="word-meaning">名詞：中毒者； 動詞：～を中毒にさせる</span></a></li>
+        <li class="word-item"><a href="data/6660-injure.html"><span class="word-id">6660</span><span class="word-name">injure</span><span class="word-meaning">～に怪我をさせる</span></a></li>
+        <li class="word-item"><a href="data/6661-wound.html"><span class="word-id">6661</span><span class="word-name">wound</span><span class="word-meaning">名詞：傷； 動詞：～を負傷させる</span></a></li>
+        <li class="word-item"><a href="data/6662-bleed.html"><span class="word-id">6662</span><span class="word-name">bleed</span><span class="word-meaning">出血する</span></a></li>
+        <li class="word-item"><a href="data/6663-scratch.html"><span class="word-id">6663</span><span class="word-name">scratch</span><span class="word-meaning">引っかき傷、かすり傷、～を引っかく</span></a></li>
+        <li class="word-item"><a href="data/6664-bruise.html"><span class="word-id">6664</span><span class="word-name">bruise</span><span class="word-meaning">あざ、打撲傷 ～に打撲を負わせる</span></a></li>
+        <li class="word-item"><a href="data/6665-suffer.html"><span class="word-id">6665</span><span class="word-name">suffer</span><span class="word-meaning">（～で）苦しむ、悩む（from）</span></a></li>
+        <li class="word-item"><a href="data/6666-torture.html"><span class="word-id">6666</span><span class="word-name">torture</span><span class="word-meaning">名詞：拷問； 動詞：～を拷問する、ひどく苦しめる</span></a></li>
+        <li class="word-item"><a href="data/6667-torment.html"><span class="word-id">6667</span><span class="word-name">torment</span><span class="word-meaning">名詞：苦痛； 動詞：～を苦しめる</span></a></li>
+        <li class="word-item"><a href="data/6668-vigor.html"><span class="word-id">6668</span><span class="word-name">vigor</span><span class="word-meaning">活力</span></a></li>
+        <li class="word-item"><a href="data/6669-feeble.html"><span class="word-id">6669</span><span class="word-name">feeble</span><span class="word-meaning">弱々しい</span></a></li>
+        <li class="word-item"><a href="data/6670-pale.html"><span class="word-id">6670</span><span class="word-name">pale</span><span class="word-meaning">(顔が)青白い、血色が悪い； (色が)淡い</span></a></li>
+        <li class="word-item"><a href="data/6671-fatigue.html"><span class="word-id">6671</span><span class="word-name">fatigue</span><span class="word-meaning">(極度の)疲労</span></a></li>
+        <li class="word-item"><a href="data/6672-weary.html"><span class="word-id">6672</span><span class="word-name">weary</span><span class="word-meaning">(～)に疲れている、飽き飽きしている(of)</span></a></li>
+        <li class="word-item"><a href="data/6673-tedious.html"><span class="word-id">6673</span><span class="word-name">tedious</span><span class="word-meaning">退屈な</span></a></li>
+        <li class="word-item"><a href="data/6674-dreary.html"><span class="word-id">6674</span><span class="word-name">dreary</span><span class="word-meaning">退屈な； ものわびしい</span></a></li>
+        <li class="word-item"><a href="data/6675-thumb.html"><span class="word-id">6675</span><span class="word-name">thumb</span><span class="word-meaning">親指</span></a></li>
+        <li class="word-item"><a href="data/6676-palm.html"><span class="word-id">6676</span><span class="word-name">palm</span><span class="word-meaning">手のひら</span></a></li>
+        <li class="word-item"><a href="data/6677-wrist.html"><span class="word-id">6677</span><span class="word-name">wrist</span><span class="word-meaning">手首</span></a></li>
+        <li class="word-item"><a href="data/6678-fist.html"><span class="word-id">6678</span><span class="word-name">fist</span><span class="word-meaning">握りこぶし</span></a></li>
+        <li class="word-item"><a href="data/6679-elbow.html"><span class="word-id">6679</span><span class="word-name">elbow</span><span class="word-meaning">ひじ</span></a></li>
+        <li class="word-item"><a href="data/6680-muscle.html"><span class="word-id">6680</span><span class="word-name">muscle</span><span class="word-meaning">筋肉</span></a></li>
+        <li class="word-item"><a href="data/6681-thigh.html"><span class="word-id">6681</span><span class="word-name">thigh</span><span class="word-meaning">大股</span></a></li>
+        <li class="word-item"><a href="data/6682-knee.html"><span class="word-id">6682</span><span class="word-name">knee</span><span class="word-meaning">膝</span></a></li>
+        <li class="word-item"><a href="data/6683-heel.html"><span class="word-id">6683</span><span class="word-name">heel</span><span class="word-meaning">かかと</span></a></li>
+        <li class="word-item"><a href="data/6684-ankle.html"><span class="word-id">6684</span><span class="word-name">ankle</span><span class="word-meaning">足首</span></a></li>
+        <li class="word-item"><a href="data/6685-toe.html"><span class="word-id">6685</span><span class="word-name">toe</span><span class="word-meaning">足の指、つま先</span></a></li>
+        <li class="word-item"><a href="data/6686-to one's feet.html"><span class="word-id">6686</span><span class="word-name">to one's feet</span><span class="word-meaning">立って、立った状態で</span></a></li>
+        <li class="word-item"><a href="data/6687-chest.html"><span class="word-id">6687</span><span class="word-name">chest</span><span class="word-meaning">胸； タンス</span></a></li>
+        <li class="word-item"><a href="data/6688-limb.html"><span class="word-id">6688</span><span class="word-name">limb</span><span class="word-meaning">手足、四肢</span></a></li>
+        <li class="word-item"><a href="data/6689-forehead.html"><span class="word-id">6689</span><span class="word-name">forehead</span><span class="word-meaning">ひたい</span></a></li>
+        <li class="word-item"><a href="data/6690-eyebrow.html"><span class="word-id">6690</span><span class="word-name">eyebrow</span><span class="word-meaning">眉毛</span></a></li>
+        <li class="word-item"><a href="data/6691-eyelid.html"><span class="word-id">6691</span><span class="word-name">eyelid</span><span class="word-meaning">まぶた</span></a></li>
+        <li class="word-item"><a href="data/6692-eyelash.html"><span class="word-id">6692</span><span class="word-name">eyelash</span><span class="word-meaning">まつげ</span></a></li>
+        <li class="word-item"><a href="data/6693-beard.html"><span class="word-id">6693</span><span class="word-name">beard</span><span class="word-meaning">あごひげ</span></a></li>
+        <li class="word-item"><a href="data/6694-jaw.html"><span class="word-id">6694</span><span class="word-name">jaw</span><span class="word-meaning">あご</span></a></li>
+        <li class="word-item"><a href="data/6695-chin.html"><span class="word-id">6695</span><span class="word-name">chin</span><span class="word-meaning">あご(の先端)</span></a></li>
+        <li class="word-item"><a href="data/6696-cheek.html"><span class="word-id">6696</span><span class="word-name">cheek</span><span class="word-meaning">頬</span></a></li>
+        <li class="word-item"><a href="data/6697-tremble.html"><span class="word-id">6697</span><span class="word-name">tremble</span><span class="word-meaning">(恐怖・興奮で)震える； 震動する</span></a></li>
+        <li class="word-item"><a href="data/6698-shiver.html"><span class="word-id">6698</span><span class="word-name">shiver</span><span class="word-meaning">(寒さで)震える</span></a></li>
+        <li class="word-item"><a href="data/6699-wander.html"><span class="word-id">6699</span><span class="word-name">wander</span><span class="word-meaning">(目的もなく)さまよう、歩き回る</span></a></li>
+        <li class="word-item"><a href="data/6700-roam.html"><span class="word-id">6700</span><span class="word-name">roam</span><span class="word-meaning">歩き回る、徘徊する； ～を徘徊する</span></a></li>
+        <li class="word-item"><a href="data/6701-stroll.html"><span class="word-id">6701</span><span class="word-name">stroll</span><span class="word-meaning">(ぶらぶら)歩く</span></a></li>
+        <li class="word-item"><a href="data/6702-stride.html"><span class="word-id">6702</span><span class="word-name">stride</span><span class="word-meaning">ひとまたぎ； 進歩； 大股で歩く</span></a></li>
+        <li class="word-item"><a href="data/6703-stumble.html"><span class="word-id">6703</span><span class="word-name">stumble</span><span class="word-meaning">つまずく； (～に)偶然でくわす(on[upon])</span></a></li>
+        <li class="word-item"><a href="data/6704-creep.html"><span class="word-id">6704</span><span class="word-name">creep</span><span class="word-meaning">這う、こっそり進む</span></a></li>
+        <li class="word-item"><a href="data/6705-linger.html"><span class="word-id">6705</span><span class="word-name">linger</span><span class="word-meaning">(立ち去らずに)ぐずぐずする、残存する</span></a></li>
+        <li class="word-item"><a href="data/6706-sniff.html"><span class="word-id">6706</span><span class="word-name">sniff</span><span class="word-meaning">くんくん嗅ぐ； ～のにおいを嗅ぐ</span></a></li>
+        <li class="word-item"><a href="data/6707-sneeze.html"><span class="word-id">6707</span><span class="word-name">sneeze</span><span class="word-meaning">くしゃみをする</span></a></li>
+        <li class="word-item"><a href="data/6708-snore.html"><span class="word-id">6708</span><span class="word-name">snore</span><span class="word-meaning">いびきをかく</span></a></li>
+        <li class="word-item"><a href="data/6709-sneer.html"><span class="word-id">6709</span><span class="word-name">sneer</span><span class="word-meaning">(～を)あざ笑う、鼻で笑う(at)</span></a></li>
+        <li class="word-item"><a href="data/6710-shrug.html"><span class="word-id">6710</span><span class="word-name">shrug</span><span class="word-meaning">肩をすくめる</span></a></li>
+        <li class="word-item"><a href="data/6711-clear one's throat.html"><span class="word-id">6711</span><span class="word-name">clear one's throat</span><span class="word-meaning">咳払いする</span></a></li>
+        <li class="word-item"><a href="data/6712-frown.html"><span class="word-id">6712</span><span class="word-name">frown</span><span class="word-meaning">しかめ面をする； しかめ面</span></a></li>
+        <li class="word-item"><a href="data/6713-grimace.html"><span class="word-id">6713</span><span class="word-name">grimace</span><span class="word-meaning">しかめ面をする； しかめ面</span></a></li>
+        <li class="word-item"><a href="data/6714-blink.html"><span class="word-id">6714</span><span class="word-name">blink</span><span class="word-meaning">まばたきをする； まばたき</span></a></li>
+        <li class="word-item"><a href="data/6715-yawn.html"><span class="word-id">6715</span><span class="word-name">yawn</span><span class="word-meaning">あくびをする</span></a></li>
+        <li class="word-item"><a href="data/6716-mutter.html"><span class="word-id">6716</span><span class="word-name">mutter</span><span class="word-meaning">つぶやく</span></a></li>
+        <li class="word-item"><a href="data/6717-murmur.html"><span class="word-id">6717</span><span class="word-name">murmur</span><span class="word-meaning">つぶやく</span></a></li>
+        <li class="word-item"><a href="data/6718-mumble.html"><span class="word-id">6718</span><span class="word-name">mumble</span><span class="word-meaning">つぶやく</span></a></li>
+        <li class="word-item"><a href="data/6719-whisper.html"><span class="word-id">6719</span><span class="word-name">whisper</span><span class="word-meaning">ささやく</span></a></li>
+        <li class="word-item"><a href="data/6720-shriek.html"><span class="word-id">6720</span><span class="word-name">shriek</span><span class="word-meaning">金切り声を上げる、叫ぶ</span></a></li>
+        <li class="word-item"><a href="data/6721-sob.html"><span class="word-id">6721</span><span class="word-name">sob</span><span class="word-meaning">すすり泣く</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6603.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
