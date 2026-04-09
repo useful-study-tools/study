@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#34	衣食住・日常 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #34	衣食住・日常
+    </div>
+    
+    <h2 class="section-title">#34	衣食住・日常</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6347.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6383-diet.html"><span class="word-id">6383</span><span class="word-name">diet</span><span class="word-meaning">食事, 食習慣</span></a></li>
+        <li class="word-item"><a href="data/6384-obese.html"><span class="word-id">6384</span><span class="word-name">obese</span><span class="word-meaning">肥満した</span></a></li>
+        <li class="word-item"><a href="data/6385-weight.html"><span class="word-id">6385</span><span class="word-name">weight</span><span class="word-meaning">重さ、体重</span></a></li>
+        <li class="word-item"><a href="data/6386-nutrition.html"><span class="word-id">6386</span><span class="word-name">nutrition</span><span class="word-meaning">栄養</span></a></li>
+        <li class="word-item"><a href="data/6387-nourish.html"><span class="word-id">6387</span><span class="word-name">nourish</span><span class="word-meaning">～に栄養を与える、養育する； 育む</span></a></li>
+        <li class="word-item"><a href="data/6388-nurture.html"><span class="word-id">6388</span><span class="word-name">nurture</span><span class="word-meaning">～を養育する、育てる； 育む、促進する</span></a></li>
+        <li class="word-item"><a href="data/6389-foster.html"><span class="word-id">6389</span><span class="word-name">foster</span><span class="word-meaning">～を養育する； 育む、促進する</span></a></li>
+        <li class="word-item"><a href="data/6390-feast.html"><span class="word-id">6390</span><span class="word-name">feast</span><span class="word-meaning">ご馳走</span></a></li>
+        <li class="word-item"><a href="data/6391-appetite.html"><span class="word-id">6391</span><span class="word-name">appetite</span><span class="word-meaning">食欲</span></a></li>
+        <li class="word-item"><a href="data/6392-starve.html"><span class="word-id">6392</span><span class="word-name">starve</span><span class="word-meaning">飢える、空腹である</span></a></li>
+        <li class="word-item"><a href="data/6393-hunger.html"><span class="word-id">6393</span><span class="word-name">hunger</span><span class="word-meaning">空腹</span></a></li>
+        <li class="word-item"><a href="data/6394-thirst.html"><span class="word-id">6394</span><span class="word-name">thirst</span><span class="word-meaning">喉の渇き</span></a></li>
+        <li class="word-item"><a href="data/6395-greed.html"><span class="word-id">6395</span><span class="word-name">greed</span><span class="word-meaning">貪欲</span></a></li>
+        <li class="word-item"><a href="data/6396-famine.html"><span class="word-id">6396</span><span class="word-name">famine</span><span class="word-meaning">飢饉</span></a></li>
+        <li class="word-item"><a href="data/6397-ingredient.html"><span class="word-id">6397</span><span class="word-name">ingredient</span><span class="word-meaning">食材、成分</span></a></li>
+        <li class="word-item"><a href="data/6398-digest.html"><span class="word-id">6398</span><span class="word-name">digest</span><span class="word-meaning">～を消化する</span></a></li>
+        <li class="word-item"><a href="data/6399-beverage.html"><span class="word-id">6399</span><span class="word-name">beverage</span><span class="word-meaning">飲料</span></a></li>
+        <li class="word-item"><a href="data/6400-habitat.html"><span class="word-id">6400</span><span class="word-name">habitat</span><span class="word-meaning">生息地</span></a></li>
+        <li class="word-item"><a href="data/6401-dwell.html"><span class="word-id">6401</span><span class="word-name">dwell</span><span class="word-meaning">住む、宿る</span></a></li>
+        <li class="word-item"><a href="data/6402-residence.html"><span class="word-id">6402</span><span class="word-name">residence</span><span class="word-meaning">住居、居住</span></a></li>
+        <li class="word-item"><a href="data/6403-accommodate.html"><span class="word-id">6403</span><span class="word-name">accommodate</span><span class="word-meaning">～を宿泊させる、収容する； 順応させる</span></a></li>
+        <li class="word-item"><a href="data/6404-refuge.html"><span class="word-id">6404</span><span class="word-name">refuge</span><span class="word-meaning">避難、避難所</span></a></li>
+        <li class="word-item"><a href="data/6405-shelter.html"><span class="word-id">6405</span><span class="word-name">shelter</span><span class="word-meaning">避難所、住まい； ～を保護する、住まわせる</span></a></li>
+        <li class="word-item"><a href="data/6406-clothes.html"><span class="word-id">6406</span><span class="word-name">clothes</span><span class="word-meaning">衣服</span></a></li>
+        <li class="word-item"><a href="data/6407-fabric.html"><span class="word-id">6407</span><span class="word-name">fabric</span><span class="word-meaning">布地</span></a></li>
+        <li class="word-item"><a href="data/6408-thread.html"><span class="word-id">6408</span><span class="word-name">thread</span><span class="word-meaning">糸</span></a></li>
+        <li class="word-item"><a href="data/6409-weave.html"><span class="word-id">6409</span><span class="word-name">weave</span><span class="word-meaning">～を織る</span></a></li>
+        <li class="word-item"><a href="data/6410-wear.html"><span class="word-id">6410</span><span class="word-name">wear</span><span class="word-meaning">～を着ている； をすり減らす</span></a></li>
+        <li class="word-item"><a href="data/6411-disguise.html"><span class="word-id">6411</span><span class="word-name">disguise</span><span class="word-meaning">～を変装する、隠す； 変装、隠蔽</span></a></li>
+        <li class="word-item"><a href="data/6412-naked.html"><span class="word-id">6412</span><span class="word-name">naked</span><span class="word-meaning">裸の、むき出しの</span></a></li>
+        <li class="word-item"><a href="data/6413-fashion.html"><span class="word-id">6413</span><span class="word-name">fashion</span><span class="word-meaning">流行； 方法、やり方</span></a></li>
+        <li class="word-item"><a href="data/6414-household.html"><span class="word-id">6414</span><span class="word-name">household</span><span class="word-meaning">家庭の 家事</span></a></li>
+        <li class="word-item"><a href="data/6415-domestic.html"><span class="word-id">6415</span><span class="word-name">domestic</span><span class="word-meaning">家庭内の； 国内の</span></a></li>
+        <li class="word-item"><a href="data/6416-routine.html"><span class="word-id">6416</span><span class="word-name">routine</span><span class="word-meaning">日常の、おきまりの 日課</span></a></li>
+        <li class="word-item"><a href="data/6417-chore.html"><span class="word-id">6417</span><span class="word-name">chore</span><span class="word-meaning">雑用</span></a></li>
+        <li class="word-item"><a href="data/6418-commute.html"><span class="word-id">6418</span><span class="word-name">commute</span><span class="word-meaning">通勤・通学する</span></a></li>
+        <li class="word-item"><a href="data/6419-grocery.html"><span class="word-id">6419</span><span class="word-name">grocery</span><span class="word-meaning">食料雑貨品</span></a></li>
+        <li class="word-item"><a href="data/6420-greet.html"><span class="word-id">6420</span><span class="word-name">greet</span><span class="word-meaning">～に挨拶する、を出迎える</span></a></li>
+        <li class="word-item"><a href="data/6421-souvenir.html"><span class="word-id">6421</span><span class="word-name">souvenir</span><span class="word-meaning">（主に自分のための）お土産、記念品</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6347.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
