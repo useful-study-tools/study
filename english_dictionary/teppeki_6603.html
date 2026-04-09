@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#39	熟語表現・3 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #39	熟語表現・3
+    </div>
+    
+    <h2 class="section-title">#39	熟語表現・3</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6556.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6603-for the good of.html"><span class="word-id">6603</span><span class="word-name">for the good of</span><span class="word-meaning">～のために、利益となるように</span></a></li>
+        <li class="word-item"><a href="data/6604-as good as.html"><span class="word-id">6604</span><span class="word-name">as good as</span><span class="word-meaning">～も同然</span></a></li>
+        <li class="word-item"><a href="data/6605-get the better of.html"><span class="word-id">6605</span><span class="word-name">get the better of</span><span class="word-meaning">～に勝る、打ち勝つ</span></a></li>
+        <li class="word-item"><a href="data/6606-know better.html"><span class="word-id">6606</span><span class="word-name">know better</span><span class="word-meaning">～するほど馬鹿ではない、もっと分別がある</span></a></li>
+        <li class="word-item"><a href="data/6607-to the best of my knowledge.html"><span class="word-id">6607</span><span class="word-name">to the best of my knowledge</span><span class="word-meaning">私の知る限りでは</span></a></li>
+        <li class="word-item"><a href="data/6608-to say the least.html"><span class="word-id">6608</span><span class="word-name">to say the least</span><span class="word-meaning">控えめに言っても</span></a></li>
+        <li class="word-item"><a href="data/6609-take ～ for granted.html"><span class="word-id">6609</span><span class="word-name">take ～ for granted</span><span class="word-meaning">当然とみなす</span></a></li>
+        <li class="word-item"><a href="data/6610-take one's word for it.html"><span class="word-id">6610</span><span class="word-name">take one's word for it</span><span class="word-meaning">～の言うことを信じる</span></a></li>
+        <li class="word-item"><a href="data/6611-take it easy.html"><span class="word-id">6611</span><span class="word-name">take it easy</span><span class="word-meaning">気楽にやる</span></a></li>
+        <li class="word-item"><a href="data/6612-keep up with.html"><span class="word-id">6612</span><span class="word-name">keep up with</span><span class="word-meaning">～に遅れずについていく</span></a></li>
+        <li class="word-item"><a href="data/6613-catch up with.html"><span class="word-id">6613</span><span class="word-name">catch up with</span><span class="word-meaning">～に追いつく</span></a></li>
+        <li class="word-item"><a href="data/6614-fall behind.html"><span class="word-id">6614</span><span class="word-name">fall behind</span><span class="word-meaning">遅れる</span></a></li>
+        <li class="word-item"><a href="data/6615-keep [stay] in touch with.html"><span class="word-id">6615</span><span class="word-name">keep [stay] in touch with</span><span class="word-meaning">～と連絡を取り合う</span></a></li>
+        <li class="word-item"><a href="data/6616-look into.html"><span class="word-id">6616</span><span class="word-name">look into</span><span class="word-meaning">調べる、検討する</span></a></li>
+        <li class="word-item"><a href="data/6617-look over.html"><span class="word-id">6617</span><span class="word-name">look over</span><span class="word-meaning">～にざっと目を通す</span></a></li>
+        <li class="word-item"><a href="data/6618-look on [upon].html"><span class="word-id">6618</span><span class="word-name">look on [upon]</span><span class="word-meaning">～を（…と）みなす(as)</span></a></li>
+        <li class="word-item"><a href="data/6619-pass on [down].html"><span class="word-id">6619</span><span class="word-name">pass on [down]</span><span class="word-meaning">～を（…に）手渡す、伝える(to)</span></a></li>
+        <li class="word-item"><a href="data/6620-pass for [as].html"><span class="word-id">6620</span><span class="word-name">pass for [as]</span><span class="word-meaning">～として（世間に）通る、通用する</span></a></li>
+        <li class="word-item"><a href="data/6621-pass out.html"><span class="word-id">6621</span><span class="word-name">pass out</span><span class="word-meaning">気絶する</span></a></li>
+        <li class="word-item"><a href="data/6622-pass away.html"><span class="word-id">6622</span><span class="word-name">pass away</span><span class="word-meaning">亡くなる</span></a></li>
+        <li class="word-item"><a href="data/6623-reach (out) for.html"><span class="word-id">6623</span><span class="word-name">reach (out) for</span><span class="word-meaning">～に手を伸ばす</span></a></li>
+        <li class="word-item"><a href="data/6624-set out [off].html"><span class="word-id">6624</span><span class="word-name">set out [off]</span><span class="word-meaning">(～へ)出発する(for)</span></a></li>
+        <li class="word-item"><a href="data/6625-set ～ free.html"><span class="word-id">6625</span><span class="word-name">set ～ free</span><span class="word-meaning">～を解放する</span></a></li>
+        <li class="word-item"><a href="data/6626-work out.html"><span class="word-id">6626</span><span class="word-name">work out</span><span class="word-meaning">～を解く、考え出す； うまくいく； トレーニングをする</span></a></li>
+        <li class="word-item"><a href="data/6627-work on.html"><span class="word-id">6627</span><span class="word-name">work on</span><span class="word-meaning">～(仕事)に取り組む</span></a></li>
+        <li class="word-item"><a href="data/6628-pick up.html"><span class="word-id">6628</span><span class="word-name">pick up</span><span class="word-meaning">～を拾う、取り上げる； ～を車に乗せる、車で迎える； ～を買う； ～(言語・知識など)を身に付ける</span></a></li>
+        <li class="word-item"><a href="data/6629-part with.html"><span class="word-id">6629</span><span class="word-name">part with</span><span class="word-meaning">～を手放す、と別れる</span></a></li>
+        <li class="word-item"><a href="data/6630-live on.html"><span class="word-id">6630</span><span class="word-name">live on</span><span class="word-meaning">～に頼って生きる； を主食とする</span></a></li>
+        <li class="word-item"><a href="data/6631-fall back on.html"><span class="word-id">6631</span><span class="word-name">fall back on</span><span class="word-meaning">～に頼る、を最後の拠り所とする</span></a></li>
+        <li class="word-item"><a href="data/6632-rest on.html"><span class="word-id">6632</span><span class="word-name">rest on</span><span class="word-meaning">～に頼る； に基づく</span></a></li>
+        <li class="word-item"><a href="data/6633-cut down on.html"><span class="word-id">6633</span><span class="word-name">cut down on</span><span class="word-meaning">～を減らす、削減する</span></a></li>
+        <li class="word-item"><a href="data/6634-point.html"><span class="word-id">6634</span><span class="word-name">point</span><span class="word-meaning">要点、言いたいこと</span></a></li>
+        <li class="word-item"><a href="data/6635-to the point.html"><span class="word-id">6635</span><span class="word-name">to the point</span><span class="word-meaning">的を射ている</span></a></li>
+        <li class="word-item"><a href="data/6636-make a point of doing.html"><span class="word-id">6636</span><span class="word-name">make a point of doing</span><span class="word-meaning">必ず～することにしている； ～を重視する</span></a></li>
+        <li class="word-item"><a href="data/6637-keep an eye on.html"><span class="word-id">6637</span><span class="word-name">keep an eye on</span><span class="word-meaning">～を見張る</span></a></li>
+        <li class="word-item"><a href="data/6638-have an eye for.html"><span class="word-id">6638</span><span class="word-name">have an eye for</span><span class="word-meaning">～を見る目がある、鑑賞眼がある</span></a></li>
+        <li class="word-item"><a href="data/6639-turn a deaf ear to.html"><span class="word-id">6639</span><span class="word-name">turn a deaf ear to</span><span class="word-meaning">～を聞こうとしない</span></a></li>
+        <li class="word-item"><a href="data/6640-make a face.html"><span class="word-id">6640</span><span class="word-name">make a face</span><span class="word-meaning">顔をしかめる</span></a></li>
+        <li class="word-item"><a href="data/6641-remain to do.html"><span class="word-id">6641</span><span class="word-name">remain to do</span><span class="word-meaning">まだ～していない</span></a></li>
+        <li class="word-item"><a href="data/6642-have [be] yet to do.html"><span class="word-id">6642</span><span class="word-name">have [be] yet to do</span><span class="word-meaning">まだ～していない</span></a></li>
+        <li class="word-item"><a href="data/6643-on behalf of.html"><span class="word-id">6643</span><span class="word-name">on behalf of</span><span class="word-meaning">～に代わって、を代表して</span></a></li>
+        <li class="word-item"><a href="data/6644-second to none.html"><span class="word-id">6644</span><span class="word-name">second to none</span><span class="word-meaning">誰にも負けない</span></a></li>
+        <li class="word-item"><a href="data/6645-once and for all.html"><span class="word-id">6645</span><span class="word-name">once and for all</span><span class="word-meaning">これを最後に、きっぱりと</span></a></li>
+        <li class="word-item"><a href="data/6646-for once.html"><span class="word-id">6646</span><span class="word-name">for once</span><span class="word-meaning">今回だけは、１回でいいから</span></a></li>
+        <li class="word-item"><a href="data/6647-at stake.html"><span class="word-id">6647</span><span class="word-name">at stake</span><span class="word-meaning">危険にさらされて； 問題となって</span></a></li>
+        <li class="word-item"><a href="data/6648-in the wake of.html"><span class="word-id">6648</span><span class="word-name">in the wake of</span><span class="word-meaning">～の後に続いて</span></a></li>
+        <li class="word-item"><a href="data/6649-Beats me..html"><span class="word-id">6649</span><span class="word-name">Beats me.</span><span class="word-meaning">分からない</span></a></li>
+        <li class="word-item"><a href="data/6650-Serves you right..html"><span class="word-id">6650</span><span class="word-name">Serves you right.</span><span class="word-meaning">ざまあみろ、当然の報いだ</span></a></li>
+        <li class="word-item"><a href="data/6651-Give me a break..html"><span class="word-id">6651</span><span class="word-name">Give me a break.</span><span class="word-meaning">よしてくれ</span></a></li>
+        <li class="word-item"><a href="data/6652-call it a day.html"><span class="word-id">6652</span><span class="word-name">call it a day</span><span class="word-meaning">今日はもう終わり</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6556.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
