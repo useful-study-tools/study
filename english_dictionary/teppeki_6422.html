@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#35	程度・割合 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #35	程度・割合
+    </div>
+    
+    <h2 class="section-title">#35	程度・割合</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6383.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6422-degree.html"><span class="word-id">6422</span><span class="word-name">degree</span><span class="word-meaning">程度； 学位</span></a></li>
+        <li class="word-item"><a href="data/6423-extent.html"><span class="word-id">6423</span><span class="word-name">extent</span><span class="word-meaning">程度、範囲</span></a></li>
+        <li class="word-item"><a href="data/6424-scale.html"><span class="word-id">6424</span><span class="word-name">scale</span><span class="word-meaning">規模、程度</span></a></li>
+        <li class="word-item"><a href="data/6425-moderate.html"><span class="word-id">6425</span><span class="word-name">moderate</span><span class="word-meaning">適度の、控えめな； 穏やかな</span></a></li>
+        <li class="word-item"><a href="data/6426-temperate.html"><span class="word-id">6426</span><span class="word-name">temperate</span><span class="word-meaning">適度の、節度のある； 穏やかな</span></a></li>
+        <li class="word-item"><a href="data/6427-proper.html"><span class="word-id">6427</span><span class="word-name">proper</span><span class="word-meaning">適度の、適切な</span></a></li>
+        <li class="word-item"><a href="data/6428-appropriate.html"><span class="word-id">6428</span><span class="word-name">appropriate</span><span class="word-meaning">適切な</span></a></li>
+        <li class="word-item"><a href="data/6429-extreme.html"><span class="word-id">6429</span><span class="word-name">extreme</span><span class="word-meaning">極端な 極端、極限</span></a></li>
+        <li class="word-item"><a href="data/6430-tremendous.html"><span class="word-id">6430</span><span class="word-name">tremendous</span><span class="word-meaning">凄まじい、莫大な</span></a></li>
+        <li class="word-item"><a href="data/6431-excess.html"><span class="word-id">6431</span><span class="word-name">excess</span><span class="word-meaning">超過、過剰な</span></a></li>
+        <li class="word-item"><a href="data/6432-extra.html"><span class="word-id">6432</span><span class="word-name">extra</span><span class="word-meaning">余分な、臨時の</span></a></li>
+        <li class="word-item"><a href="data/6433-gradual.html"><span class="word-id">6433</span><span class="word-name">gradual</span><span class="word-meaning">徐々の</span></a></li>
+        <li class="word-item"><a href="data/6434-steady.html"><span class="word-id">6434</span><span class="word-name">steady</span><span class="word-meaning">安定した、着実な</span></a></li>
+        <li class="word-item"><a href="data/6435-sharply.html"><span class="word-id">6435</span><span class="word-name">sharply</span><span class="word-meaning">急速に</span></a></li>
+        <li class="word-item"><a href="data/6436-steep.html"><span class="word-id">6436</span><span class="word-name">steep</span><span class="word-meaning">(勾配が)急な、険しい</span></a></li>
+        <li class="word-item"><a href="data/6437-marked.html"><span class="word-id">6437</span><span class="word-name">marked</span><span class="word-meaning">著しい、顕著な</span></a></li>
+        <li class="word-item"><a href="data/6438-partly.html"><span class="word-id">6438</span><span class="word-name">partly</span><span class="word-meaning">部分的に、一部には</span></a></li>
+        <li class="word-item"><a href="data/6439-entire.html"><span class="word-id">6439</span><span class="word-name">entire</span><span class="word-meaning">全体の</span></a></li>
+        <li class="word-item"><a href="data/6440-fully.html"><span class="word-id">6440</span><span class="word-name">fully</span><span class="word-meaning">全く、完全に</span></a></li>
+        <li class="word-item"><a href="data/6441-thorough.html"><span class="word-id">6441</span><span class="word-name">thorough</span><span class="word-meaning">完全な、徹底的な</span></a></li>
+        <li class="word-item"><a href="data/6442-ultimate.html"><span class="word-id">6442</span><span class="word-name">ultimate</span><span class="word-meaning">究極の、最終の</span></a></li>
+        <li class="word-item"><a href="data/6443-terminal.html"><span class="word-id">6443</span><span class="word-name">terminal</span><span class="word-meaning">終点の、最終の</span></a></li>
+        <li class="word-item"><a href="data/6444-eventually.html"><span class="word-id">6444</span><span class="word-name">eventually</span><span class="word-meaning">結局は、ゆくゆくは</span></a></li>
+        <li class="word-item"><a href="data/6445-end up.html"><span class="word-id">6445</span><span class="word-name">end up</span><span class="word-meaning">結局～になる（doing）</span></a></li>
+        <li class="word-item"><a href="data/6446-in the long run.html"><span class="word-id">6446</span><span class="word-name">in the long run</span><span class="word-meaning">長い目で見れば、結局は</span></a></li>
+        <li class="word-item"><a href="data/6447-for good.html"><span class="word-id">6447</span><span class="word-name">for good</span><span class="word-meaning">永遠に</span></a></li>
+        <li class="word-item"><a href="data/6448-rate.html"><span class="word-id">6448</span><span class="word-name">rate</span><span class="word-meaning">(at)割合、速度； ～を評価する</span></a></li>
+        <li class="word-item"><a href="data/6449-proportion.html"><span class="word-id">6449</span><span class="word-name">proportion</span><span class="word-meaning">割合、比率</span></a></li>
+        <li class="word-item"><a href="data/6450-ratio.html"><span class="word-id">6450</span><span class="word-name">ratio</span><span class="word-meaning">比率</span></a></li>
+        <li class="word-item"><a href="data/6451-fraction.html"><span class="word-id">6451</span><span class="word-name">fraction</span><span class="word-meaning">一部分</span></a></li>
+        <li class="word-item"><a href="data/6452-portion.html"><span class="word-id">6452</span><span class="word-name">portion</span><span class="word-meaning">一部分</span></a></li>
+        <li class="word-item"><a href="data/6453-fragment.html"><span class="word-id">6453</span><span class="word-name">fragment</span><span class="word-meaning">断片、破片</span></a></li>
+        <li class="word-item"><a href="data/6454-segment.html"><span class="word-id">6454</span><span class="word-name">segment</span><span class="word-meaning">(区分された)部分</span></a></li>
+        <li class="word-item"><a href="data/6455-cluster.html"><span class="word-id">6455</span><span class="word-name">cluster</span><span class="word-meaning">群れ、集まり</span></a></li>
+        <li class="word-item"><a href="data/6456-partial.html"><span class="word-id">6456</span><span class="word-name">partial</span><span class="word-meaning">部分的な； 偏った、不公平な</span></a></li>
+        <li class="word-item"><a href="data/6457-all in all.html"><span class="word-id">6457</span><span class="word-name">all in all</span><span class="word-meaning">全般的に見て、概して</span></a></li>
+        <li class="word-item"><a href="data/6458-on the whole.html"><span class="word-id">6458</span><span class="word-name">on the whole</span><span class="word-meaning">概して、全般的に</span></a></li>
+        <li class="word-item"><a href="data/6459-by and large.html"><span class="word-id">6459</span><span class="word-name">by and large</span><span class="word-meaning">概して、全般的に</span></a></li>
+        <li class="word-item"><a href="data/6460-at large.html"><span class="word-id">6460</span><span class="word-name">at large</span><span class="word-meaning">全体の； 逃走中で</span></a></li>
+        <li class="word-item"><a href="data/6461-at length.html"><span class="word-id">6461</span><span class="word-name">at length</span><span class="word-meaning">長々と、詳細にわたって； ついには</span></a></li>
+        <li class="word-item"><a href="data/6462-lack.html"><span class="word-id">6462</span><span class="word-name">lack</span><span class="word-meaning">～を欠く； 欠如</span></a></li>
+        <li class="word-item"><a href="data/6463-devoid.html"><span class="word-id">6463</span><span class="word-name">devoid</span><span class="word-meaning">(～が)欠けている(of)</span></a></li>
+        <li class="word-item"><a href="data/6464-run out of.html"><span class="word-id">6464</span><span class="word-name">run out of</span><span class="word-meaning">～を切らす、使い果たす</span></a></li>
+        <li class="word-item"><a href="data/6465-short of.html"><span class="word-id">6465</span><span class="word-name">short of</span><span class="word-meaning">～が不足している</span></a></li>
+        <li class="word-item"><a href="data/6466-deficit.html"><span class="word-id">6466</span><span class="word-name">deficit</span><span class="word-meaning">不足、赤字</span></a></li>
+        <li class="word-item"><a href="data/6467-scarce.html"><span class="word-id">6467</span><span class="word-name">scarce</span><span class="word-meaning">不十分な、乏しい</span></a></li>
+        <li class="word-item"><a href="data/6468-vacant.html"><span class="word-id">6468</span><span class="word-name">vacant</span><span class="word-meaning">空いている</span></a></li>
+        <li class="word-item"><a href="data/6469-for want of.html"><span class="word-id">6469</span><span class="word-name">for want of</span><span class="word-meaning">～がないので、不足して</span></a></li>
+        <li class="word-item"><a href="data/6470-dense.html"><span class="word-id">6470</span><span class="word-name">dense</span><span class="word-meaning">密集した、密度の濃い</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6383.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
