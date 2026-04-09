@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#43	教育・テクノロジー | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #43	教育・テクノロジー
+    </div>
+    
+    <h2 class="section-title">#43	教育・テクノロジー</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6780.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6852-educate.html"><span class="word-id">6852</span><span class="word-name">educate</span><span class="word-meaning">～を教育する</span></a></li>
+        <li class="word-item"><a href="data/6853-discipline.html"><span class="word-id">6853</span><span class="word-name">discipline</span><span class="word-meaning">しつけ、規律 ～をしつける、訓練する</span></a></li>
+        <li class="word-item"><a href="data/6854-instruct.html"><span class="word-id">6854</span><span class="word-name">instruct</span><span class="word-meaning">Aに～するように指示する</span></a></li>
+        <li class="word-item"><a href="data/6855-enlighten.html"><span class="word-id">6855</span><span class="word-name">enlighten</span><span class="word-meaning">～を啓蒙・啓発する、に知らせる</span></a></li>
+        <li class="word-item"><a href="data/6856-illuminate.html"><span class="word-id">6856</span><span class="word-name">illuminate</span><span class="word-meaning">～を照らす； (問題)を明らかにする</span></a></li>
+        <li class="word-item"><a href="data/6857-inspire.html"><span class="word-id">6857</span><span class="word-name">inspire</span><span class="word-meaning">～を（…するよう）奮起させる、の創作意欲をかき立てる(to do)</span></a></li>
+        <li class="word-item"><a href="data/6858-incentive.html"><span class="word-id">6858</span><span class="word-name">incentive</span><span class="word-meaning">動機付け、やる気を出させるもの</span></a></li>
+        <li class="word-item"><a href="data/6859-enroll.html"><span class="word-id">6859</span><span class="word-name">enroll</span><span class="word-meaning">～を登録する、入学・入会させる； 入学する</span></a></li>
+        <li class="word-item"><a href="data/6860-register.html"><span class="word-id">6860</span><span class="word-name">register</span><span class="word-meaning">～を登録する、記録する； 書留にする； 登録する</span></a></li>
+        <li class="word-item"><a href="data/6861-sign up.html"><span class="word-id">6861</span><span class="word-name">sign up</span><span class="word-meaning">（～に）登録する(for)</span></a></li>
+        <li class="word-item"><a href="data/6862-tuition.html"><span class="word-id">6862</span><span class="word-name">tuition</span><span class="word-meaning">授業料</span></a></li>
+        <li class="word-item"><a href="data/6863-tutor.html"><span class="word-id">6863</span><span class="word-name">tutor</span><span class="word-meaning">家庭教師、個人電話； ～を(個人的に)教える</span></a></li>
+        <li class="word-item"><a href="data/6864-faculty.html"><span class="word-id">6864</span><span class="word-name">faculty</span><span class="word-meaning">(大学の)学部； (身体・精神の)能力</span></a></li>
+        <li class="word-item"><a href="data/6865-facility.html"><span class="word-id">6865</span><span class="word-name">facility</span><span class="word-meaning">施設、設備； 能力、容易さ</span></a></li>
+        <li class="word-item"><a href="data/6866-sophomore.html"><span class="word-id">6866</span><span class="word-name">sophomore</span><span class="word-meaning">(高校・大学の)二年生</span></a></li>
+        <li class="word-item"><a href="data/6867-semester.html"><span class="word-id">6867</span><span class="word-name">semester</span><span class="word-meaning">(二学期制の)学期</span></a></li>
+        <li class="word-item"><a href="data/6868-curriculum.html"><span class="word-id">6868</span><span class="word-name">curriculum</span><span class="word-meaning">カリキュラム、教科課程</span></a></li>
+        <li class="word-item"><a href="data/6869-diploma.html"><span class="word-id">6869</span><span class="word-name">diploma</span><span class="word-meaning">(大学の)学位</span></a></li>
+        <li class="word-item"><a href="data/6870-grade.html"><span class="word-id">6870</span><span class="word-name">grade</span><span class="word-meaning">等級、学生； 評価、成績</span></a></li>
+        <li class="word-item"><a href="data/6871-mark.html"><span class="word-id">6871</span><span class="word-name">mark</span><span class="word-meaning">成績； 印、指標； ～を印す</span></a></li>
+        <li class="word-item"><a href="data/6872-rank.html"><span class="word-id">6872</span><span class="word-name">rank</span><span class="word-meaning">等級、階級 位置する； ～を位置づける</span></a></li>
+        <li class="word-item"><a href="data/6873-profession.html"><span class="word-id">6873</span><span class="word-name">profession</span><span class="word-meaning">(知的・専門的な)職業</span></a></li>
+        <li class="word-item"><a href="data/6874-vocation.html"><span class="word-id">6874</span><span class="word-name">vocation</span><span class="word-meaning">天職</span></a></li>
+        <li class="word-item"><a href="data/6875-candidate.html"><span class="word-id">6875</span><span class="word-name">candidate</span><span class="word-meaning">志願者、候補者</span></a></li>
+        <li class="word-item"><a href="data/6876-colleague.html"><span class="word-id">6876</span><span class="word-name">colleague</span><span class="word-meaning">同僚</span></a></li>
+        <li class="word-item"><a href="data/6877-technology.html"><span class="word-id">6877</span><span class="word-name">technology</span><span class="word-meaning">科学技術</span></a></li>
+        <li class="word-item"><a href="data/6878-innovation.html"><span class="word-id">6878</span><span class="word-name">innovation</span><span class="word-meaning">革新、革新技術</span></a></li>
+        <li class="word-item"><a href="data/6879-novel.html"><span class="word-id">6879</span><span class="word-name">novel</span><span class="word-meaning">小説 斬新な、新奇な</span></a></li>
+        <li class="word-item"><a href="data/6880-patent.html"><span class="word-id">6880</span><span class="word-name">patent</span><span class="word-meaning">特許； ～の特許をとる</span></a></li>
+        <li class="word-item"><a href="data/6881-breakthrough.html"><span class="word-id">6881</span><span class="word-name">breakthrough</span><span class="word-meaning">大躍進</span></a></li>
+        <li class="word-item"><a href="data/6882-exploit.html"><span class="word-id">6882</span><span class="word-name">exploit</span><span class="word-meaning">～を開発・利用する； 搾取する</span></a></li>
+        <li class="word-item"><a href="data/6883-tool.html"><span class="word-id">6883</span><span class="word-name">tool</span><span class="word-meaning">道具、工具</span></a></li>
+        <li class="word-item"><a href="data/6884-implement.html"><span class="word-id">6884</span><span class="word-name">implement</span><span class="word-meaning">道具、用具； ～を実行する</span></a></li>
+        <li class="word-item"><a href="data/6885-instrument.html"><span class="word-id">6885</span><span class="word-name">instrument</span><span class="word-meaning">器具； 楽器</span></a></li>
+        <li class="word-item"><a href="data/6886-machinery.html"><span class="word-id">6886</span><span class="word-name">machinery</span><span class="word-meaning">機械類</span></a></li>
+        <li class="word-item"><a href="data/6887-appliance.html"><span class="word-id">6887</span><span class="word-name">appliance</span><span class="word-meaning">電気製品</span></a></li>
+        <li class="word-item"><a href="data/6888-apparatus.html"><span class="word-id">6888</span><span class="word-name">apparatus</span><span class="word-meaning">装置・器具(一式)</span></a></li>
+        <li class="word-item"><a href="data/6889-gadget.html"><span class="word-id">6889</span><span class="word-name">gadget</span><span class="word-meaning">機械器具</span></a></li>
+        <li class="word-item"><a href="data/6890-function.html"><span class="word-id">6890</span><span class="word-name">function</span><span class="word-meaning">機能、働き； 機能する</span></a></li>
+        <li class="word-item"><a href="data/6891-electric.html"><span class="word-id">6891</span><span class="word-name">electric</span><span class="word-meaning">電気の</span></a></li>
+        <li class="word-item"><a href="data/6892-electronic.html"><span class="word-id">6892</span><span class="word-name">electronic</span><span class="word-meaning">電子の</span></a></li>
+        <li class="word-item"><a href="data/6893-vehicle.html"><span class="word-id">6893</span><span class="word-name">vehicle</span><span class="word-meaning">乗り物； 伝達手段、媒体、原動力</span></a></li>
+        <li class="word-item"><a href="data/6894-automobile.html"><span class="word-id">6894</span><span class="word-name">automobile</span><span class="word-meaning">自動車</span></a></li>
+        <li class="word-item"><a href="data/6895-wheel.html"><span class="word-id">6895</span><span class="word-name">wheel</span><span class="word-meaning">車輪； (車の)ハンドル</span></a></li>
+        <li class="word-item"><a href="data/6896-pedestrian.html"><span class="word-id">6896</span><span class="word-name">pedestrian</span><span class="word-meaning">歩行者</span></a></li>
+        <li class="word-item"><a href="data/6897-pave.html"><span class="word-id">6897</span><span class="word-name">pave</span><span class="word-meaning">～を舗装する</span></a></li>
+        <li class="word-item"><a href="data/6898-manual.html"><span class="word-id">6898</span><span class="word-name">manual</span><span class="word-meaning">手動の、手作業の マニュアル、説明書</span></a></li>
+        <li class="word-item"><a href="data/6899-automatic.html"><span class="word-id">6899</span><span class="word-name">automatic</span><span class="word-meaning">自動の</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6780.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
