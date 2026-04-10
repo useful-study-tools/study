@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#46	接続詞・副詞・前置詞 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #46	接続詞・副詞・前置詞
+    </div>
+    
+    <h2 class="section-title">#46	接続詞・副詞・前置詞</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6934.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6973-thus.html"><span class="word-id">6973</span><span class="word-name">thus</span><span class="word-meaning">それ故に； このように</span></a></li>
+        <li class="word-item"><a href="data/6974-hence.html"><span class="word-id">6974</span><span class="word-name">hence</span><span class="word-meaning">それ故に； 後に</span></a></li>
+        <li class="word-item"><a href="data/6975-nevertheless.html"><span class="word-id">6975</span><span class="word-name">nevertheless</span><span class="word-meaning">それにもかかわらず</span></a></li>
+        <li class="word-item"><a href="data/6976-nonetheless.html"><span class="word-id">6976</span><span class="word-name">nonetheless</span><span class="word-meaning">それにもかかわらず</span></a></li>
+        <li class="word-item"><a href="data/6977-notwithstanding.html"><span class="word-id">6977</span><span class="word-name">notwithstanding</span><span class="word-meaning">それにもかかわらず</span></a></li>
+        <li class="word-item"><a href="data/6978-all the same.html"><span class="word-id">6978</span><span class="word-name">all the same</span><span class="word-meaning">それでもやはり、それにもかかわらず</span></a></li>
+        <li class="word-item"><a href="data/6979-despite.html"><span class="word-id">6979</span><span class="word-name">despite</span><span class="word-meaning">～にもかかわらず</span></a></li>
+        <li class="word-item"><a href="data/6980-besides.html"><span class="word-id">6980</span><span class="word-name">besides</span><span class="word-meaning">それに加えて、さらに； ～に加えて</span></a></li>
+        <li class="word-item"><a href="data/6981-moreover.html"><span class="word-id">6981</span><span class="word-name">moreover</span><span class="word-meaning">さらに</span></a></li>
+        <li class="word-item"><a href="data/6982-furthermore.html"><span class="word-id">6982</span><span class="word-name">furthermore</span><span class="word-meaning">さらに</span></a></li>
+        <li class="word-item"><a href="data/6983-whereas.html"><span class="word-id">6983</span><span class="word-name">whereas</span><span class="word-meaning">(～である)その一方で</span></a></li>
+        <li class="word-item"><a href="data/6984-on the other hand.html"><span class="word-id">6984</span><span class="word-name">on the other hand</span><span class="word-meaning">その一方で</span></a></li>
+        <li class="word-item"><a href="data/6985-meanwhile.html"><span class="word-id">6985</span><span class="word-name">meanwhile</span><span class="word-meaning">その間に</span></a></li>
+        <li class="word-item"><a href="data/6986-in the meantime.html"><span class="word-id">6986</span><span class="word-name">in the meantime</span><span class="word-meaning">その間に</span></a></li>
+        <li class="word-item"><a href="data/6987-that is (to say).html"><span class="word-id">6987</span><span class="word-name">that is (to say)</span><span class="word-meaning">すなわち、つまり</span></a></li>
+        <li class="word-item"><a href="data/6988-namely.html"><span class="word-id">6988</span><span class="word-name">namely</span><span class="word-meaning">すなわち、つまり</span></a></li>
+        <li class="word-item"><a href="data/6989-in short.html"><span class="word-id">6989</span><span class="word-name">in short</span><span class="word-meaning">手短に言うと、つまりは</span></a></li>
+        <li class="word-item"><a href="data/6990-say.html"><span class="word-id">6990</span><span class="word-name">say</span><span class="word-meaning">例えば</span></a></li>
+        <li class="word-item"><a href="data/6991-for instance.html"><span class="word-id">6991</span><span class="word-name">for instance</span><span class="word-meaning">例えば</span></a></li>
+        <li class="word-item"><a href="data/6992-indeed.html"><span class="word-id">6992</span><span class="word-name">indeed</span><span class="word-meaning">確かに、本当に</span></a></li>
+        <li class="word-item"><a href="data/6993-somewhat.html"><span class="word-id">6993</span><span class="word-name">somewhat</span><span class="word-meaning">いくぶん、やや</span></a></li>
+        <li class="word-item"><a href="data/6994-somehow.html"><span class="word-id">6994</span><span class="word-name">somehow</span><span class="word-meaning">どういうわけか； 何らかの方法で</span></a></li>
+        <li class="word-item"><a href="data/6995-otherwise.html"><span class="word-id">6995</span><span class="word-name">otherwise</span><span class="word-meaning">さもなければ； その他の点で； 違ったふうに、別のやり方で</span></a></li>
+        <li class="word-item"><a href="data/6996-given.html"><span class="word-id">6996</span><span class="word-name">given</span><span class="word-meaning">～仮定すると、があれば、を考慮すると； 特定の、任意の</span></a></li>
+        <li class="word-item"><a href="data/6997-rightly.html"><span class="word-id">6997</span><span class="word-name">rightly</span><span class="word-meaning">正当に、当然のことながら</span></a></li>
+        <li class="word-item"><a href="data/6998-justly.html"><span class="word-id">6998</span><span class="word-name">justly</span><span class="word-meaning">正当に、当然のことながら</span></a></li>
+        <li class="word-item"><a href="data/6999-mistakenly.html"><span class="word-id">6999</span><span class="word-name">mistakenly</span><span class="word-meaning">間違って</span></a></li>
+        <li class="word-item"><a href="data/7000-reportedly.html"><span class="word-id">7000</span><span class="word-name">reportedly</span><span class="word-meaning">報じられるところでは</span></a></li>
+        <li class="word-item"><a href="data/7001-presumably.html"><span class="word-id">7001</span><span class="word-name">presumably</span><span class="word-meaning">おそらく、たぶん</span></a></li>
+        <li class="word-item"><a href="data/7002-seemingly.html"><span class="word-id">7002</span><span class="word-name">seemingly</span><span class="word-meaning">見たところでは</span></a></li>
+        <li class="word-item"><a href="data/7003-as a matter of fact.html"><span class="word-id">7003</span><span class="word-name">as a matter of fact</span><span class="word-meaning">実は</span></a></li>
+        <li class="word-item"><a href="data/7004-for that matter.html"><span class="word-id">7004</span><span class="word-name">for that matter</span><span class="word-meaning">さらに言えば</span></a></li>
+        <li class="word-item"><a href="data/7005-thereby.html"><span class="word-id">7005</span><span class="word-name">thereby</span><span class="word-meaning">それによって</span></a></li>
+        <li class="word-item"><a href="data/7006-whatsoever.html"><span class="word-id">7006</span><span class="word-name">whatsoever</span><span class="word-meaning">全く、少しでも</span></a></li>
+        <li class="word-item"><a href="data/7007-beneath.html"><span class="word-id">7007</span><span class="word-name">beneath</span><span class="word-meaning">～の下に</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6934.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
