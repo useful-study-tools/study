@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#44	多義語・2 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #44	多義語・2
+    </div>
+    
+    <h2 class="section-title">#44	多義語・2</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6852.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/6900-cover.html"><span class="word-id">6900</span><span class="word-name">cover</span><span class="word-meaning">～を覆う； ～の範囲にわたる； ～を報道する</span></a></li>
+        <li class="word-item"><a href="data/6901-fine.html"><span class="word-id">6901</span><span class="word-name">fine</span><span class="word-meaning">すばらしい； 細かい； 罰金； ～に罰金を科す</span></a></li>
+        <li class="word-item"><a href="data/6902-leave.html"><span class="word-id">6902</span><span class="word-name">leave</span><span class="word-meaning">～を出発する； ～を残す； 休暇； 許可</span></a></li>
+        <li class="word-item"><a href="data/6903-meet.html"><span class="word-id">6903</span><span class="word-name">meet</span><span class="word-meaning">～に会う； ～(要求・必要)を満たす</span></a></li>
+        <li class="word-item"><a href="data/6904-strike.html"><span class="word-id">6904</span><span class="word-name">strike</span><span class="word-meaning">～を打つ； ～に(…という)印象を与える(as)； ストライキ</span></a></li>
+        <li class="word-item"><a href="data/6905-run.html"><span class="word-id">6905</span><span class="word-name">run</span><span class="word-meaning">走る； ～を経営する</span></a></li>
+        <li class="word-item"><a href="data/6906-coin.html"><span class="word-id">6906</span><span class="word-name">coin</span><span class="word-meaning">硬貨； ～(新語)を作り出す</span></a></li>
+        <li class="word-item"><a href="data/6907-room.html"><span class="word-id">6907</span><span class="word-name">room</span><span class="word-meaning">部屋； 空間； 余地、可能性</span></a></li>
+        <li class="word-item"><a href="data/6908-story.html"><span class="word-id">6908</span><span class="word-name">story</span><span class="word-meaning">物語； ～階建て</span></a></li>
+        <li class="word-item"><a href="data/6909-manner.html"><span class="word-id">6909</span><span class="word-name">manner</span><span class="word-meaning">方法、やり方； (-s)礼儀作法、行儀</span></a></li>
+        <li class="word-item"><a href="data/6910-address.html"><span class="word-id">6910</span><span class="word-name">address</span><span class="word-meaning">住所； ～に差し向ける； 取り組む； 話しかける</span></a></li>
+        <li class="word-item"><a href="data/6911-check.html"><span class="word-id">6911</span><span class="word-name">check</span><span class="word-meaning">～を確かめる； ～を抑制する； 検査：抑制、阻止； 小切手</span></a></li>
+        <li class="word-item"><a href="data/6912-forward.html"><span class="word-id">6912</span><span class="word-name">forward</span><span class="word-meaning">前方へ； ～(手紙・メール)を転送する</span></a></li>
+        <li class="word-item"><a href="data/6913-chance.html"><span class="word-id">6913</span><span class="word-name">chance</span><span class="word-meaning">機会； 可能性、見込み； 偶然</span></a></li>
+        <li class="word-item"><a href="data/6914-air.html"><span class="word-id">6914</span><span class="word-name">air</span><span class="word-meaning">空気、空； 外見、態度、雰囲気</span></a></li>
+        <li class="word-item"><a href="data/6915-lot.html"><span class="word-id">6915</span><span class="word-name">lot</span><span class="word-meaning">大量のもの； 区画、用地； 分け前、宿命</span></a></li>
+        <li class="word-item"><a href="data/6916-change.html"><span class="word-id">6916</span><span class="word-name">change</span><span class="word-meaning">～を変える； 変化； 釣り銭、小銭</span></a></li>
+        <li class="word-item"><a href="data/6917-second.html"><span class="word-id">6917</span><span class="word-name">second</span><span class="word-meaning">二番目の、秒、(-s)おかわり</span></a></li>
+        <li class="word-item"><a href="data/6918-still.html"><span class="word-id">6918</span><span class="word-name">still</span><span class="word-meaning">まだ； それでも； 静止した</span></a></li>
+        <li class="word-item"><a href="data/6919-cross.html"><span class="word-id">6919</span><span class="word-name">cross</span><span class="word-meaning">～を横切る； 機嫌の悪い</span></a></li>
+        <li class="word-item"><a href="data/6920-will.html"><span class="word-id">6920</span><span class="word-name">will</span><span class="word-meaning">意志； 遺言</span></a></li>
+        <li class="word-item"><a href="data/6921-sound.html"><span class="word-id">6921</span><span class="word-name">sound</span><span class="word-meaning">音、～のように聞こえる、思える； 健全な； ぐっすりと、無事に</span></a></li>
+        <li class="word-item"><a href="data/6922-fast.html"><span class="word-id">6922</span><span class="word-name">fast</span><span class="word-meaning">速い； 固定した； 速く； しっかりと、ぐっすりと、断食、断食する</span></a></li>
+        <li class="word-item"><a href="data/6923-life.html"><span class="word-id">6923</span><span class="word-name">life</span><span class="word-meaning">人生； 生活； 生命、人命； （美術での）実物、本物</span></a></li>
+        <li class="word-item"><a href="data/6924-art.html"><span class="word-id">6924</span><span class="word-name">art</span><span class="word-meaning">芸術； 技術； 人文学</span></a></li>
+        <li class="word-item"><a href="data/6925-service.html"><span class="word-id">6925</span><span class="word-name">service</span><span class="word-meaning">奉仕、給仕、設備、公共事業、勤務、礼拝、兵役</span></a></li>
+        <li class="word-item"><a href="data/6926-order.html"><span class="word-id">6926</span><span class="word-name">order</span><span class="word-meaning">命令、注文； 順序、秩序； ～を命じる、注文する</span></a></li>
+        <li class="word-item"><a href="data/6927-practice.html"><span class="word-id">6927</span><span class="word-name">practice</span><span class="word-meaning">練習、実践； 慣習、慣行</span></a></li>
+        <li class="word-item"><a href="data/6928-minute.html"><span class="word-id">6928</span><span class="word-name">minute</span><span class="word-meaning">極めて小さい、微細な</span></a></li>
+        <li class="word-item"><a href="data/6929-excuse.html"><span class="word-id">6929</span><span class="word-name">excuse</span><span class="word-meaning">言い訳、理由</span></a></li>
+        <li class="word-item"><a href="data/6930-wind.html"><span class="word-id">6930</span><span class="word-name">wind</span><span class="word-meaning">～を巻きつける、巻く</span></a></li>
+        <li class="word-item"><a href="data/6931-grind.html"><span class="word-id">6931</span><span class="word-name">grind</span><span class="word-meaning">～を（粉に）挽く、すりつぶす</span></a></li>
+        <li class="word-item"><a href="data/6932-command.html"><span class="word-id">6932</span><span class="word-name">command</span><span class="word-meaning">命令； (言語を)自由に使う能力； ～を見晴らす</span></a></li>
+        <li class="word-item"><a href="data/6933-charge.html"><span class="word-id">6933</span><span class="word-name">charge</span><span class="word-meaning">～を(…で)非難する； 告発する(with…)； ～に料金を課す； ～に責任を課す； ～を充電する； 非難； 料金； 責任</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6852.html" class="nav-btn">← 前の章</a>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
