@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#47	難単語・1 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #47	難単語・1
+    </div>
+    
+    <h2 class="section-title">#47	難単語・1</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_6973.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_7129.html" class="nav-btn">次の章 →</a>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/7008-premise.html"><span class="word-id">7008</span><span class="word-name">premise</span><span class="word-meaning">前提、仮定</span></a></li>
+        <li class="word-item"><a href="data/7009-entity.html"><span class="word-id">7009</span><span class="word-name">entity</span><span class="word-meaning">存在物、統一体</span></a></li>
+        <li class="word-item"><a href="data/7010-discourse.html"><span class="word-id">7010</span><span class="word-name">discourse</span><span class="word-meaning">論文、講演、言説</span></a></li>
+        <li class="word-item"><a href="data/7011-transcend.html"><span class="word-id">7011</span><span class="word-name">transcend</span><span class="word-meaning">～を越える、超越する</span></a></li>
+        <li class="word-item"><a href="data/7012-ascribe.html"><span class="word-id">7012</span><span class="word-name">ascribe</span><span class="word-meaning">(…に)～の原因を帰す(to…)</span></a></li>
+        <li class="word-item"><a href="data/7013-intrinsic.html"><span class="word-id">7013</span><span class="word-name">intrinsic</span><span class="word-meaning">本来備わっている</span></a></li>
+        <li class="word-item"><a href="data/7014-articulate.html"><span class="word-id">7014</span><span class="word-name">articulate</span><span class="word-meaning">～を(はっきり)言う、発音する； ～をつなぐ</span></a></li>
+        <li class="word-item"><a href="data/7015-formula.html"><span class="word-id">7015</span><span class="word-name">formula</span><span class="word-meaning">公式； 決まり切ったやり方； 製法</span></a></li>
+        <li class="word-item"><a href="data/7016-contend.html"><span class="word-id">7016</span><span class="word-name">contend</span><span class="word-meaning">…と主張する(that…)； (～と)争う、(に)対処する(with～)</span></a></li>
+        <li class="word-item"><a href="data/7017-advocate.html"><span class="word-id">7017</span><span class="word-name">advocate</span><span class="word-meaning">～(主義・理論)を提唱する、主張する； 提唱者</span></a></li>
+        <li class="word-item"><a href="data/7018-delegation.html"><span class="word-id">7018</span><span class="word-name">delegation</span><span class="word-meaning">代表派遣、使節</span></a></li>
+        <li class="word-item"><a href="data/7019-sanction.html"><span class="word-id">7019</span><span class="word-name">sanction</span><span class="word-meaning">制裁； 是認、許可</span></a></li>
+        <li class="word-item"><a href="data/7020-pledge.html"><span class="word-id">7020</span><span class="word-name">pledge</span><span class="word-meaning">約束、誓約； ～を約束する、誓約する(to do, that…)</span></a></li>
+        <li class="word-item"><a href="data/7021-agenda.html"><span class="word-id">7021</span><span class="word-name">agenda</span><span class="word-meaning">協議事項、議題</span></a></li>
+        <li class="word-item"><a href="data/7022-amend.html"><span class="word-id">7022</span><span class="word-name">amend</span><span class="word-meaning">～を修正する、改正する</span></a></li>
+        <li class="word-item"><a href="data/7023-subsidy.html"><span class="word-id">7023</span><span class="word-name">subsidy</span><span class="word-meaning">補助金、助成金</span></a></li>
+        <li class="word-item"><a href="data/7024-intuition.html"><span class="word-id">7024</span><span class="word-name">intuition</span><span class="word-meaning">直感</span></a></li>
+        <li class="word-item"><a href="data/7025-discern.html"><span class="word-id">7025</span><span class="word-name">discern</span><span class="word-meaning">～を見分ける、識別する</span></a></li>
+        <li class="word-item"><a href="data/7026-skeptical.html"><span class="word-id">7026</span><span class="word-name">skeptical</span><span class="word-meaning">懐疑的な</span></a></li>
+        <li class="word-item"><a href="data/7027-benign.html"><span class="word-id">7027</span><span class="word-name">benign</span><span class="word-meaning">良性の、害のない； 有益な</span></a></li>
+        <li class="word-item"><a href="data/7028-malicious.html"><span class="word-id">7028</span><span class="word-name">malicious</span><span class="word-meaning">悪意的な</span></a></li>
+        <li class="word-item"><a href="data/7029-hypocrisy.html"><span class="word-id">7029</span><span class="word-name">hypocrisy</span><span class="word-meaning">偽善</span></a></li>
+        <li class="word-item"><a href="data/7030-undermine.html"><span class="word-id">7030</span><span class="word-name">undermine</span><span class="word-meaning">～を阻害する、弱体化する</span></a></li>
+        <li class="word-item"><a href="data/7031-impair.html"><span class="word-id">7031</span><span class="word-name">impair</span><span class="word-meaning">～を弱める、損なう</span></a></li>
+        <li class="word-item"><a href="data/7032-deteriorate.html"><span class="word-id">7032</span><span class="word-name">deteriorate</span><span class="word-meaning">悪化する</span></a></li>
+        <li class="word-item"><a href="data/7033-trigger.html"><span class="word-id">7033</span><span class="word-name">trigger</span><span class="word-meaning">～を引き起こす、引き金となる； 引き金</span></a></li>
+        <li class="word-item"><a href="data/7034-induce.html"><span class="word-id">7034</span><span class="word-name">induce</span><span class="word-meaning">～を誘発する、を(…)する気にさせる(to do)</span></a></li>
+        <li class="word-item"><a href="data/7035-deduce.html"><span class="word-id">7035</span><span class="word-name">deduce</span><span class="word-meaning">～(結論)を導き出す、推論する</span></a></li>
+        <li class="word-item"><a href="data/7036-intrigue.html"><span class="word-id">7036</span><span class="word-name">intrigue</span><span class="word-meaning">～の興味をそそる； 陰謀</span></a></li>
+        <li class="word-item"><a href="data/7037-momentum.html"><span class="word-id">7037</span><span class="word-name">momentum</span><span class="word-meaning">力、勢い、運動量</span></a></li>
+        <li class="word-item"><a href="data/7038-velocity.html"><span class="word-id">7038</span><span class="word-name">velocity</span><span class="word-meaning">速度</span></a></li>
+        <li class="word-item"><a href="data/7039-chronic.html"><span class="word-id">7039</span><span class="word-name">chronic</span><span class="word-meaning">長期的な、慢性的な</span></a></li>
+        <li class="word-item"><a href="data/7040-lapse.html"><span class="word-id">7040</span><span class="word-name">lapse</span><span class="word-meaning">(時間の)経過； (ちょっとした)誤り</span></a></li>
+        <li class="word-item"><a href="data/7041-gravity.html"><span class="word-id">7041</span><span class="word-name">gravity</span><span class="word-meaning">重力； 重大さ</span></a></li>
+        <li class="word-item"><a href="data/7042-orbit.html"><span class="word-id">7042</span><span class="word-name">orbit</span><span class="word-meaning">軌道 ～の軌道を回る</span></a></li>
+        <li class="word-item"><a href="data/7043-axis.html"><span class="word-id">7043</span><span class="word-name">axis</span><span class="word-meaning">軸</span></a></li>
+        <li class="word-item"><a href="data/7044-fluid.html"><span class="word-id">7044</span><span class="word-name">fluid</span><span class="word-meaning">流動体； 流動性の</span></a></li>
+        <li class="word-item"><a href="data/7045-resilient.html"><span class="word-id">7045</span><span class="word-name">resilient</span><span class="word-meaning">弾力性のある； 回復力のある、立ち直りの早い</span></a></li>
+        <li class="word-item"><a href="data/7046-erode.html"><span class="word-id">7046</span><span class="word-name">erode</span><span class="word-meaning">腐食する； ～を腐食する、侵食する</span></a></li>
+        <li class="word-item"><a href="data/7047-erupt.html"><span class="word-id">7047</span><span class="word-name">erupt</span><span class="word-meaning">噴火する</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_6973.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_7129.html" class="nav-btn">次の章 →</a>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
