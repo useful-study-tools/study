@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7119 specimen</title>
+    <link rel="icon" href="/study/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/study/favicon.png">
+    <style>
+        :root { --primary-color: #2c3e50; --accent-color: #f4f7f6; --text-main: #333; --text-sub: #666; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--text-main); margin: 0; padding: 20px; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; }
+        .container { width: 100%; max-width: 800px; }
+        
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; box-sizing: border-box; width: 100%; text-align: left; }
+        .breadcrumb a { color: var(--primary-color); text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .nav-buttons { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
+        .nav-button { flex: 1; padding: 12px 20px; border: 2px solid var(--primary-color); background: white; color: var(--primary-color); text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; transition: 0.3s; cursor: pointer; }
+        .nav-button:hover:not(.disabled) { background: var(--primary-color); color: white; }
+        .nav-button.disabled { opacity: 0.3; cursor: not-allowed; border-color: #ccc; color: #ccc; }
+        .word-header { border-bottom: 3px solid var(--primary-color); padding-bottom: 15px; margin-bottom: 25px; }
+        .word-number { font-size: 1rem; color: var(--text-sub); font-weight: bold; }
+        .word-title { font-size: 3rem; margin: 5px 0; letter-spacing: 1px; }
+        .pos-tag { display: inline-block; background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.85rem; vertical-align: middle; margin-left: 10px; }
+        .section-title { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; display: flex; align-items: center; }
+        .section-title::before { content: ""; display: inline-block; width: 4px; height: 18px; background: var(--primary-color); margin-right: 10px; border-radius: 2px; }
+        .meaning-jp { font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px; padding: 10px 0; color: var(--text-main); }
+        .nuance-box { background: var(--accent-color); padding: 15px; border-radius: 8px; font-size: 0.95rem; border: 1px dashed var(--primary-color); }
+        .example-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #ddd; }
+        .en { display: block; font-weight: 500; color: #444; }
+        .ja { display: block; color: var(--text-sub); font-size: 0.9rem; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .info-item { background: #f8f9fa; padding: 12px; border-radius: 8px; font-size: 0.9rem; }
+        .info-label { display: block; font-weight: bold; color: var(--text-sub); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 5px; }
+        .list-unit { margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+        .list-unit:last-child { border-bottom: none; }
+        .word-small { font-weight: bold; color: #444; }
+        .trans-small { color: var(--text-sub); font-size: 0.85em; margin-left: 5px; }
+        .source-tag { font-size: 0.75rem; color: #888; margin-left: 4px; border: 1px solid #ccc; border-radius: 4px; padding: 0 4px; }
+        .list-unit a { text-decoration: none; color: #4169e1; }
+        .list-unit a:hover { text-decoration: underline; opacity: 0.8; }
+        .list-unit a .word-small { color: inherit !important; }
+
+        @media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } .word-title { font-size: 2.2rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="../../index.html">ホーム</a> &gt; 
+            <a href="../index.html">英単語帳</a> &gt; 
+            <a href="../others.html">鉄壁</a> &gt; 
+            <a href="../others_7085.html">#49	難単語・3</a> &gt; 
+            7119 specimen
+        </div>
+        <div class="nav-buttons">
+            <a href="7118-contaminate.html" class="nav-button">← 前の単語</a>
+            <a href="7120-indigenous.html" class="nav-button">次の単語 →</a>
+        </div>
+        <div class="card">
+            <div class="word-header">
+                <span class="word-number"># 7119</span>
+                <h1 class="word-title">specimen <span class="pos-tag">名詞</span></h1>
+            </div>
+            <div class="section-title">主な意味</div>
+            <div class="meaning-jp">標本、見本</div>
+            <div class="nuance-box">
+                <strong>ニュアンス:</strong> 科学的な研究や検査のために採取された、代表的なサンプルを指します。血液や尿の「検体」もこの言葉で表します。
+            </div>
+                    <div class="section-title">例文</div>
+        <div class="example-item">
+            <span class="en">The museum has a collection of insect <strong>specimens</strong>.</span>
+            <span class="ja">その博物館には昆虫標本のコレクションがある。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">The doctor took a blood <strong>specimen</strong> for testing.</span>
+            <span class="ja">医者は検査のために血液検体を採取した。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">This fossil is a perfect <strong>specimen</strong> of a trilobite.</span>
+            <span class="ja">この化石は三葉虫の完璧な標本である。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">The <strong>specimen</strong> was preserved in formaldehyde.</span>
+            <span class="ja">その標本はホルムアルデヒドで保存されていた。</span>
+        </div>
+        <div class="example-item">
+            <span class="en">He is a fine <strong>specimen</strong> of a healthy athlete.</span>
+            <span class="ja">彼は健康なアスリートの良い見本である。</span>
+        </div>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">語源</span>
+                    ラテン語 'specere'（見る）に由来。'specimen'（見本、証拠）から。
+                </div>
+                <div class="info-item">
+                    <span class="info-label">類義語 (Synonyms)</span>
+                    <div class="list-unit"><span class="word-small">sample</span><span class="trans-small">(サンプル)</span></div>
+<div class="list-unit"><span class="word-small">example</span><span class="trans-small">(例)</span></div>
+<div class="list-unit"><a href="11537-prototype.html"><span class="word-small">prototype</span></a> <span class="trans-small">(原型)</span></div>
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">対義語 (Antonyms)</span>
+                    
+                </div>
+                <div class="info-item">
+                    <span class="info-label">関連語</span>
+                    <div class="list-unit"><a href="302-3-specify.html"><span class="word-small">specify</span><span class="source-tag">速読英単語</span></a> <a href="5034-specify.html"><span class="word-small">specify</span><span class="source-tag">鉄壁</span></a> <span class="trans-small">(動詞：指定する)</span></div>
+<div class="list-unit"><span class="word-small">specimen jar</span><span class="trans-small">(名詞：標本瓶)</span></div>
+<div class="list-unit"><span class="word-small">type specimen</span><span class="trans-small">(名詞：基準標本)</span></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

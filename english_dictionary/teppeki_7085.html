@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#49	難単語・3 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #49	難単語・3
+    </div>
+    
+    <h2 class="section-title">#49	難単語・3</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_7048.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_7129.html" class="nav-btn">次の章 →</a>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/7085-ambivalent.html"><span class="word-id">7085</span><span class="word-name">ambivalent</span><span class="word-meaning">矛盾する、相反する、どちらか決めかねて</span></a></li>
+        <li class="word-item"><a href="data/7086-arbitrary.html"><span class="word-id">7086</span><span class="word-name">arbitrary</span><span class="word-meaning">任意の、独断的な、恣意的な、気まぐれな</span></a></li>
+        <li class="word-item"><a href="data/7087-unanimous.html"><span class="word-id">7087</span><span class="word-name">unanimous</span><span class="word-meaning">満場一致の</span></a></li>
+        <li class="word-item"><a href="data/7088-consensus.html"><span class="word-id">7088</span><span class="word-name">consensus</span><span class="word-meaning">意見の一致、合意</span></a></li>
+        <li class="word-item"><a href="data/7089-ponder.html"><span class="word-id">7089</span><span class="word-name">ponder</span><span class="word-meaning">～をじっくり考える</span></a></li>
+        <li class="word-item"><a href="data/7090-reckon.html"><span class="word-id">7090</span><span class="word-name">reckon</span><span class="word-meaning">～を推定する、と考える</span></a></li>
+        <li class="word-item"><a href="data/7091-soar.html"><span class="word-id">7091</span><span class="word-name">soar</span><span class="word-meaning">急上昇する、高く舞い上がる</span></a></li>
+        <li class="word-item"><a href="data/7092-roar.html"><span class="word-id">7092</span><span class="word-name">roar</span><span class="word-meaning">鳴り響く、吠える</span></a></li>
+        <li class="word-item"><a href="data/7093-peer.html"><span class="word-id">7093</span><span class="word-name">peer</span><span class="word-meaning">仲間、同等の人</span></a></li>
+        <li class="word-item"><a href="data/7094-reap.html"><span class="word-id">7094</span><span class="word-name">reap</span><span class="word-meaning">～を収穫する； (報酬・利益)を手に入れる</span></a></li>
+        <li class="word-item"><a href="data/7095-curb.html"><span class="word-id">7095</span><span class="word-name">curb</span><span class="word-meaning">～を抑制する、(歩道の)縁石</span></a></li>
+        <li class="word-item"><a href="data/7096-carve.html"><span class="word-id">7096</span><span class="word-name">carve</span><span class="word-meaning">～を彫る、作る</span></a></li>
+        <li class="word-item"><a href="data/7097-cue.html"><span class="word-id">7097</span><span class="word-name">cue</span><span class="word-meaning">合図、指図</span></a></li>
+        <li class="word-item"><a href="data/7098-queue.html"><span class="word-id">7098</span><span class="word-name">queue</span><span class="word-meaning">行列</span></a></li>
+        <li class="word-item"><a href="data/7099-slap.html"><span class="word-id">7099</span><span class="word-name">slap</span><span class="word-meaning">～をぴしゃりと叩く</span></a></li>
+        <li class="word-item"><a href="data/7100-clap.html"><span class="word-id">7100</span><span class="word-name">clap</span><span class="word-meaning">～(手)を叩く</span></a></li>
+        <li class="word-item"><a href="data/7101-hatch.html"><span class="word-id">7101</span><span class="word-name">hatch</span><span class="word-meaning">(卵が)かえる、孵化する</span></a></li>
+        <li class="word-item"><a href="data/7102-wreck.html"><span class="word-id">7102</span><span class="word-name">wreck</span><span class="word-meaning">～を大破させる、台なしにする； 難破、（破損した）残骸</span></a></li>
+        <li class="word-item"><a href="data/7103-drain.html"><span class="word-id">7103</span><span class="word-name">drain</span><span class="word-meaning">下水、排水； ～の排水をする、を消耗する</span></a></li>
+        <li class="word-item"><a href="data/7104-sewage.html"><span class="word-id">7104</span><span class="word-name">sewage</span><span class="word-meaning">下水</span></a></li>
+        <li class="word-item"><a href="data/7105-sew.html"><span class="word-id">7105</span><span class="word-name">sew</span><span class="word-meaning">～を縫う</span></a></li>
+        <li class="word-item"><a href="data/7106-sober.html"><span class="word-id">7106</span><span class="word-name">sober</span><span class="word-meaning">しらふの； ありのままの</span></a></li>
+        <li class="word-item"><a href="data/7107-kin.html"><span class="word-id">7107</span><span class="word-name">kin</span><span class="word-meaning">血縁、親族</span></a></li>
+        <li class="word-item"><a href="data/7108-merge.html"><span class="word-id">7108</span><span class="word-name">merge</span><span class="word-meaning">合併する</span></a></li>
+        <li class="word-item"><a href="data/7109-riot.html"><span class="word-id">7109</span><span class="word-name">riot</span><span class="word-meaning">暴動、反乱</span></a></li>
+        <li class="word-item"><a href="data/7110-galaxy.html"><span class="word-id">7110</span><span class="word-name">galaxy</span><span class="word-meaning">銀河、星雲</span></a></li>
+        <li class="word-item"><a href="data/7111-cosmos.html"><span class="word-id">7111</span><span class="word-name">cosmos</span><span class="word-meaning">宇宙</span></a></li>
+        <li class="word-item"><a href="data/7112-cosmic.html"><span class="word-id">7112</span><span class="word-name">cosmic</span><span class="word-meaning">宇宙の</span></a></li>
+        <li class="word-item"><a href="data/7113-celestial.html"><span class="word-id">7113</span><span class="word-name">celestial</span><span class="word-meaning">天体の</span></a></li>
+        <li class="word-item"><a href="data/7114-comet.html"><span class="word-id">7114</span><span class="word-name">comet</span><span class="word-meaning">彗星</span></a></li>
+        <li class="word-item"><a href="data/7115-particle.html"><span class="word-id">7115</span><span class="word-name">particle</span><span class="word-meaning">粒子</span></a></li>
+        <li class="word-item"><a href="data/7116-debris.html"><span class="word-id">7116</span><span class="word-name">debris</span><span class="word-meaning">残骸、ゴミ</span></a></li>
+        <li class="word-item"><a href="data/7117-psychiatric.html"><span class="word-id">7117</span><span class="word-name">psychiatric</span><span class="word-meaning">精神医学の</span></a></li>
+        <li class="word-item"><a href="data/7118-contaminate.html"><span class="word-id">7118</span><span class="word-name">contaminate</span><span class="word-meaning">～を汚染する</span></a></li>
+        <li class="word-item"><a href="data/7119-specimen.html"><span class="word-id">7119</span><span class="word-name">specimen</span><span class="word-meaning">標本、見本</span></a></li>
+        <li class="word-item"><a href="data/7120-indigenous.html"><span class="word-id">7120</span><span class="word-name">indigenous</span><span class="word-meaning">原住民の、その土地固有の</span></a></li>
+        <li class="word-item"><a href="data/7121-province.html"><span class="word-id">7121</span><span class="word-name">province</span><span class="word-meaning">州、省； (-s)地方</span></a></li>
+        <li class="word-item"><a href="data/7122-peril.html"><span class="word-id">7122</span><span class="word-name">peril</span><span class="word-meaning">危険</span></a></li>
+        <li class="word-item"><a href="data/7123-hazard.html"><span class="word-id">7123</span><span class="word-name">hazard</span><span class="word-meaning">危険、危険要素</span></a></li>
+        <li class="word-item"><a href="data/7124-plausible.html"><span class="word-id">7124</span><span class="word-name">plausible</span><span class="word-meaning">もっともらしい、まことしやかな</span></a></li>
+        <li class="word-item"><a href="data/7125-preliminary.html"><span class="word-id">7125</span><span class="word-name">preliminary</span><span class="word-meaning">予備の、事前の</span></a></li>
+        <li class="word-item"><a href="data/7126-anonymous.html"><span class="word-id">7126</span><span class="word-name">anonymous</span><span class="word-meaning">匿名の</span></a></li>
+        <li class="word-item"><a href="data/7127-obsolete.html"><span class="word-id">7127</span><span class="word-name">obsolete</span><span class="word-meaning">すたれた、時代遅れの</span></a></li>
+        <li class="word-item"><a href="data/7128-innate.html"><span class="word-id">7128</span><span class="word-name">innate</span><span class="word-meaning">生まれつき持っている； 固有の</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_7048.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_7129.html" class="nav-btn">次の章 →</a>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
