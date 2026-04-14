@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#48	難単語・2 | 鉄壁</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="teppeki.html">鉄壁</a> > #48	難単語・2
+    </div>
+    
+    <h2 class="section-title">#48	難単語・2</h2>
+    
+    <div class="nav-buttons">
+        <a href="teppeki_7008.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_7129.html" class="nav-btn">次の章 →</a>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/7048-assimilate.html"><span class="word-id">7048</span><span class="word-name">assimilate</span><span class="word-meaning">～を同化する； 消化・吸収する； 同化する</span></a></li>
+        <li class="word-item"><a href="data/7049-adhere.html"><span class="word-id">7049</span><span class="word-name">adhere</span><span class="word-meaning">(～に)くっつく、(を)固守する(to～)</span></a></li>
+        <li class="word-item"><a href="data/7050-exile.html"><span class="word-id">7050</span><span class="word-name">exile</span><span class="word-meaning">(祖国からの)追放、亡命； ～を追放する</span></a></li>
+        <li class="word-item"><a href="data/7051-probe.html"><span class="word-id">7051</span><span class="word-name">probe</span><span class="word-meaning">探査； 探査機 ～を厳密に調べる</span></a></li>
+        <li class="word-item"><a href="data/7052-scrutinize.html"><span class="word-id">7052</span><span class="word-name">scrutinize</span><span class="word-meaning">～を綿密に調べる</span></a></li>
+        <li class="word-item"><a href="data/7053-verify.html"><span class="word-id">7053</span><span class="word-name">verify</span><span class="word-meaning">～を(正しいと)証明する、確かめる</span></a></li>
+        <li class="word-item"><a href="data/7054-census.html"><span class="word-id">7054</span><span class="word-name">census</span><span class="word-meaning">国勢調査</span></a></li>
+        <li class="word-item"><a href="data/7055-censorship.html"><span class="word-id">7055</span><span class="word-name">censorship</span><span class="word-meaning">検閲</span></a></li>
+        <li class="word-item"><a href="data/7056-index.html"><span class="word-id">7056</span><span class="word-name">index</span><span class="word-meaning">指標、指針、指数； 見出し</span></a></li>
+        <li class="word-item"><a href="data/7057-defy.html"><span class="word-id">7057</span><span class="word-name">defy</span><span class="word-meaning">～を拒む、に反抗する</span></a></li>
+        <li class="word-item"><a href="data/7058-comply.html"><span class="word-id">7058</span><span class="word-name">comply</span><span class="word-meaning">～(規則・命令・基準)に従う、合致する(with ～)</span></a></li>
+        <li class="word-item"><a href="data/7059-synthesize.html"><span class="word-id">7059</span><span class="word-name">synthesize</span><span class="word-meaning">～を総合する、合成する、合成して作り出す</span></a></li>
+        <li class="word-item"><a href="data/7060-coordinate.html"><span class="word-id">7060</span><span class="word-name">coordinate</span><span class="word-meaning">～を同調して動かす、調整する</span></a></li>
+        <li class="word-item"><a href="data/7061-subordinate.html"><span class="word-id">7061</span><span class="word-name">subordinate</span><span class="word-meaning">従属している、下位の； 二次的な 従属するもの、下位のもの ～を従属させる</span></a></li>
+        <li class="word-item"><a href="data/7062-incorporate.html"><span class="word-id">7062</span><span class="word-name">incorporate</span><span class="word-meaning">～を(…に)組み込む(into…)</span></a></li>
+        <li class="word-item"><a href="data/7063-comprise.html"><span class="word-id">7063</span><span class="word-name">comprise</span><span class="word-meaning">～を構成する； ～からなる</span></a></li>
+        <li class="word-item"><a href="data/7064-manipulate.html"><span class="word-id">7064</span><span class="word-name">manipulate</span><span class="word-meaning">～を操作する、あやつる</span></a></li>
+        <li class="word-item"><a href="data/7065-tangible.html"><span class="word-id">7065</span><span class="word-name">tangible</span><span class="word-meaning">触れることができる； 明白な、具体的な</span></a></li>
+        <li class="word-item"><a href="data/7066-designate.html"><span class="word-id">7066</span><span class="word-name">designate</span><span class="word-meaning">～を指名する、指定する</span></a></li>
+        <li class="word-item"><a href="data/7067-depict.html"><span class="word-id">7067</span><span class="word-name">depict</span><span class="word-meaning">～を描く</span></a></li>
+        <li class="word-item"><a href="data/7068-ingenious.html"><span class="word-id">7068</span><span class="word-name">ingenious</span><span class="word-meaning">創意工夫に富んだ</span></a></li>
+        <li class="word-item"><a href="data/7069-ingenuous.html"><span class="word-id">7069</span><span class="word-name">ingenuous</span><span class="word-meaning">純真な、無邪気な</span></a></li>
+        <li class="word-item"><a href="data/7070-proximity.html"><span class="word-id">7070</span><span class="word-name">proximity</span><span class="word-meaning">(～に)近いこと(to)</span></a></li>
+        <li class="word-item"><a href="data/7071-dismay.html"><span class="word-id">7071</span><span class="word-name">dismay</span><span class="word-meaning">～を動揺させる； 動揺</span></a></li>
+        <li class="word-item"><a href="data/7072-appall.html"><span class="word-id">7072</span><span class="word-name">appall</span><span class="word-meaning">～をぎょっとさせる</span></a></li>
+        <li class="word-item"><a href="data/7073-stun.html"><span class="word-id">7073</span><span class="word-name">stun</span><span class="word-meaning">～をびっくりさせる、茫然とさせる</span></a></li>
+        <li class="word-item"><a href="data/7074-marvel.html"><span class="word-id">7074</span><span class="word-name">marvel</span><span class="word-meaning">(～に)驚く、驚き(at～)； 驚き</span></a></li>
+        <li class="word-item"><a href="data/7075-perplex.html"><span class="word-id">7075</span><span class="word-name">perplex</span><span class="word-meaning">～を当惑させる</span></a></li>
+        <li class="word-item"><a href="data/7076-bewilder.html"><span class="word-id">7076</span><span class="word-name">bewilder</span><span class="word-meaning">～を当惑させる</span></a></li>
+        <li class="word-item"><a href="data/7077-astound.html"><span class="word-id">7077</span><span class="word-name">astound</span><span class="word-meaning">～をびっくりさせる</span></a></li>
+        <li class="word-item"><a href="data/7078-startle.html"><span class="word-id">7078</span><span class="word-name">startle</span><span class="word-meaning">～をびっくりさせる</span></a></li>
+        <li class="word-item"><a href="data/7079-anticipate.html"><span class="word-id">7079</span><span class="word-name">anticipate</span><span class="word-meaning">～を予期する</span></a></li>
+        <li class="word-item"><a href="data/7080-apprehension.html"><span class="word-id">7080</span><span class="word-name">apprehension</span><span class="word-meaning">懸念、不安</span></a></li>
+        <li class="word-item"><a href="data/7081-deplore.html"><span class="word-id">7081</span><span class="word-name">deplore</span><span class="word-meaning">～を嘆く</span></a></li>
+        <li class="word-item"><a href="data/7082-agony.html"><span class="word-id">7082</span><span class="word-name">agony</span><span class="word-meaning">苦悩、苦痛</span></a></li>
+        <li class="word-item"><a href="data/7083-inflict.html"><span class="word-id">7083</span><span class="word-name">inflict</span><span class="word-meaning">～(苦痛・打撃)を与える</span></a></li>
+        <li class="word-item"><a href="data/7084-afflict.html"><span class="word-id">7084</span><span class="word-name">afflict</span><span class="word-meaning">～を苦しめる</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <a href="teppeki_7008.html" class="nav-btn">← 前の章</a>
+        <a href="teppeki_7129.html" class="nav-btn">次の章 →</a>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
