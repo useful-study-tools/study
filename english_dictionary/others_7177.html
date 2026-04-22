@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter1 | Cutting Edge Orange</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        
+        body { font-family: sans-serif; background: #f4f7f9; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1 { color: #007bff; text-align: center; margin-bottom: 20px; }
+        h2.section-title { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; margin-top: 35px; margin-bottom: 15px; font-size: 1.3em; }
+        
+        .breadcrumb { margin-bottom: 25px; font-size: 0.9em; padding: 12px 15px; background: #e9ecef; border-radius: 6px; color: #6c757d; }
+        .breadcrumb a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .btn { display: inline-block; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; transition: 0.2s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-exercise { background: #28a745; color: white; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; display: block; width: fit-content; margin: 0 auto 30px; }
+        
+        /* 前後章ナビゲーションボタンのスタイル */
+        .nav-buttons { display: flex; justify-content: space-between; margin: 20px 0; }
+        .nav-btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.2s; }
+        .nav-btn:hover { background: #0056b3; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nav-btn.disabled { background: #ccc; color: #666; cursor: not-allowed; pointer-events: none; transform: none; box-shadow: none; }
+    
+        .local-search { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .word-list { list-style: none; padding: 0; margin: 0; }
+        .word-item { background: white; margin-bottom: 8px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: 0.2s; }
+        .word-item:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .word-item a { display: flex; padding: 15px 20px; text-decoration: none; color: #333; align-items: center; gap: 15px; }
+        .word-id { font-weight: bold; color: #007bff; font-family: monospace; min-width: 60px; }
+        .word-name { font-size: 1.1em; font-weight: 500; min-width: 120px; }
+        .word-meaning { font-size: 0.9em; color: #666; }
+        
+        .sub-word { margin-left: 20px; border-left: 4px solid #ccd5ae; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a href="../index.html">ホーム</a> > <a href="index.html">英単語帳</a> > <a href="others.html">Cutting Edge Orange</a> > chapter1
+    </div>
+    
+    <h2 class="section-title">chapter1</h2>
+    
+    <div class="nav-buttons">
+        <span class="nav-btn disabled">← 前の章</span>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+    
+    <input type="text" id="localSearch" class="local-search" placeholder="この章の中で検索..." onkeyup="filterLocal()">
+
+    <ul class="word-list" id="wordList">
+        <li class="word-item"><a href="data/7177-spoil.html"><span class="word-id">7177</span><span class="word-name">spoil</span><span class="word-meaning">台無しにする、甘やかす、腐る</span></a></li>
+        <li class="word-item"><a href="data/7178-publish.html"><span class="word-id">7178</span><span class="word-name">publish</span><span class="word-meaning">出版する、公表する</span></a></li>
+        <li class="word-item"><a href="data/7179-recover.html"><span class="word-id">7179</span><span class="word-name">recover</span><span class="word-meaning">回復する、取り戻す</span></a></li>
+        <li class="word-item"><a href="data/7180-species.html"><span class="word-id">7180</span><span class="word-name">species</span><span class="word-meaning">（生物の）種、種類</span></a></li>
+        <li class="word-item"><a href="data/7181-currently.html"><span class="word-id">7181</span><span class="word-name">currently</span><span class="word-meaning">現在は、目下</span></a></li>
+        <li class="word-item"><a href="data/7182-instruction.html"><span class="word-id">7182</span><span class="word-name">instruction</span><span class="word-meaning">指示、教育、取扱説明書</span></a></li>
+        <li class="word-item"><a href="data/7183-raise.html"><span class="word-id">7183</span><span class="word-name">raise</span><span class="word-meaning">上げる、育てる、（資金を）集める</span></a></li>
+        <li class="word-item"><a href="data/7184-further.html"><span class="word-id">7184</span><span class="word-name">further</span><span class="word-meaning">さらなる、もっと遠くに、さらに進める</span></a></li>
+        <li class="word-item"><a href="data/7185-creature.html"><span class="word-id">7185</span><span class="word-name">creature</span><span class="word-meaning">生き物、動物、人間</span></a></li>
+        <li class="word-item"><a href="data/7186-predict.html"><span class="word-id">7186</span><span class="word-name">predict</span><span class="word-meaning">予測する、予言する</span></a></li>
+        <li class="word-item"><a href="data/7187-extinct.html"><span class="word-id">7187</span><span class="word-name">extinct</span><span class="word-meaning">絶滅した、（火などが）消えた</span></a></li>
+        <li class="word-item"><a href="data/7188-beast.html"><span class="word-id">7188</span><span class="word-name">beast</span><span class="word-meaning">けだもの、野獣、動物</span></a></li>
+        <li class="word-item"><a href="data/7189-destroy.html"><span class="word-id">7189</span><span class="word-name">destroy</span><span class="word-meaning">破壊する、台無しにする、殺す</span></a></li>
+        <li class="word-item"><a href="data/7190-circumstance.html"><span class="word-id">7190</span><span class="word-name">circumstance</span><span class="word-meaning">状況、事情、境遇</span></a></li>
+        <li class="word-item"><a href="data/7191-preserve.html"><span class="word-id">7191</span><span class="word-name">preserve</span><span class="word-meaning">保存する、保護する、維持する</span></a></li>
+        <li class="word-item"><a href="data/7192-cave.html"><span class="word-id">7192</span><span class="word-name">cave</span><span class="word-meaning">洞窟、洞穴</span></a></li>
+        <li class="word-item"><a href="data/7193-region.html"><span class="word-id">7193</span><span class="word-name">region</span><span class="word-meaning">地域、地方、分野</span></a></li>
+        <li class="word-item"><a href="data/7194-probability.html"><span class="word-id">7194</span><span class="word-name">probability</span><span class="word-meaning">確率、可能性、見込み</span></a></li>
+        <li class="word-item"><a href="data/7195-ideal.html"><span class="word-id">7195</span><span class="word-name">ideal</span><span class="word-meaning">理想的な、理想</span></a></li>
+        <li class="word-item"><a href="data/7196-genetic.html"><span class="word-id">7196</span><span class="word-name">genetic</span><span class="word-meaning">遺伝の、遺伝学的な</span></a></li>
+        <li class="word-item"><a href="data/7197-yield.html"><span class="word-id">7197</span><span class="word-name">yield</span><span class="word-meaning">産出する、譲る、屈する、収穫量</span></a></li>
+        <li class="word-item"><a href="data/7198-fix.html"><span class="word-id">7198</span><span class="word-name">fix</span><span class="word-meaning">修理する、固定する、決定する</span></a></li>
+        <li class="word-item"><a href="data/7199-mammal.html"><span class="word-id">7199</span><span class="word-name">mammal</span><span class="word-meaning">哺乳類、哺乳動物</span></a></li>
+        <li class="word-item"><a href="data/7200-assume.html"><span class="word-id">7200</span><span class="word-name">assume</span><span class="word-meaning">仮定する、思い込む、引き受ける、（態度を）とる</span></a></li>
+        <li class="word-item"><a href="data/7201-prospect.html"><span class="word-id">7201</span><span class="word-name">prospect</span><span class="word-meaning">見込み、期待、展望</span></a></li>
+        <li class="word-item"><a href="data/7202-recipe.html"><span class="word-id">7202</span><span class="word-name">recipe</span><span class="word-meaning">調理法、処方、秘訣</span></a></li>
+        <li class="word-item"><a href="data/7203-speculation.html"><span class="word-id">7203</span><span class="word-name">speculation</span><span class="word-meaning">推測、思索、投機</span></a></li>
+        <li class="word-item"><a href="data/7204-woolly.html"><span class="word-id">7204</span><span class="word-name">woolly</span><span class="word-meaning">羊毛の、毛に覆われた、ぼんやりした</span></a></li>
+        <li class="word-item"><a href="data/7205-untouched.html"><span class="word-id">7205</span><span class="word-name">untouched</span><span class="word-meaning">手つかずの、影響を受けていない、感動しない</span></a></li>
+        <li class="word-item"><a href="data/7206-bacteria.html"><span class="word-id">7206</span><span class="word-name">bacteria</span><span class="word-meaning">バクテリア、細菌</span></a></li>
+        <li class="word-item"><a href="data/7207-specimen.html"><span class="word-id">7207</span><span class="word-name">specimen</span><span class="word-meaning">標本、見本、試料</span></a></li>
+        <li class="word-item"><a href="data/7208-intact.html"><span class="word-id">7208</span><span class="word-name">intact</span><span class="word-meaning">無傷の、損なわれていない、手つかずの</span></a></li>
+        <li class="word-item"><a href="data/7209-sequence.html"><span class="word-id">7209</span><span class="word-name">sequence</span><span class="word-meaning">順序、連続、配列を決定する</span></a></li>
+        <li class="word-item"><a href="data/7210-clone.html"><span class="word-id">7210</span><span class="word-name">clone</span><span class="word-meaning">クローン、複製、～のクローンを作る</span></a></li>
+        <li class="word-item"><a href="data/7211-charisma.html"><span class="word-id">7211</span><span class="word-name">charisma</span><span class="word-meaning">カリスマ性、非凡な魅力</span></a></li>
+    </ul>
+
+    <div class="nav-buttons">
+        <span class="nav-btn disabled">← 前の章</span>
+        <span class="nav-btn disabled">次の章 →</span>
+    </div>
+
+<script>
+    function filterLocal() {
+        const filter = document.getElementById('localSearch').value.toLowerCase();
+        const items = document.getElementById('wordList').getElementsByTagName('li');
+        
+        for (let i = 0; i < items.length; i++) {
+            const text = items[i].textContent || items[i].innerText;
+            if (text.toLowerCase().indexOf(filter) > -1) {
+                items[i].style.display = "";
+            } else {
+                items[i].style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
