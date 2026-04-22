@@ -1,1228 +1,913 @@
 {
   "words": [
     {
-      "number": 7177,
-      "word": "spoil",
-      "pos": "動詞",
-      "meaning": "台無しにする、甘やかす、腐る",
-      "nuance": "計画や楽しみを壊してしまうことや、子供を過度に甘やかして性格を悪くすること、また食べ物が傷むことを指します。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "The rain spoiled our plans for a picnic.", "ja": "雨のせいでピクニックの計画が台無しになった。", "highlight": "spoiled" },
-            { "en": "Don't spoil your appetite by eating snacks before dinner.", "ja": "夕食前に間食をして食欲を台無しにしないでください。", "highlight": "spoil" },
-            { "en": "Grandparents often tend to spoil their grandchildren.", "ja": "祖父母はしばしば孫を甘やかしすぎる傾向がある。", "highlight": "spoil" },
-            { "en": "The meat will spoil if you leave it out of the fridge.", "ja": "冷蔵庫から出しておくと肉は腐ってしまうだろう。", "highlight": "spoil" },
-            { "en": "I don't want to spoil the ending of the movie for you.", "ja": "映画の結末を話して、君の楽しみを台無しにしたくない。", "highlight": "spoil" }
-          ]
-        }
-      ],
-      "etymology": "ラテン語 spoliare（皮を剥ぐ、略奪する）が語源。後に「質を落とす」という意味に変化。",
-      "synonyms": [
-        { "word": "ruin", "trans": "破滅させる、台無しにする" },
-        { "word": "damage", "trans": "損害を与える" },
-        { "word": "indulge", "trans": "甘やかす" }
-      ],
-      "antonyms": [
-        { "word": "improve", "trans": "改善する" },
-        { "word": "preserve", "trans": "保存する" },
-        { "word": "strict", "trans": "厳しい（甘やかしの対義）" }
-      ],
-      "related": [
-        { "word": "spoiler", "trans": "名詞：台無しにする人、ネタバレ" },
-        { "word": "spoilt", "trans": "形容詞：甘やかされた、ダメになった" },
-        { "word": "spoliation", "trans": "名詞：略奪、破壊" }
-      ]
-    },
-    {
-      "number": 7178,
-      "word": "publish",
-      "pos": "動詞",
-      "meaning": "出版する、公表する",
-      "nuance": "書籍などを印刷して世に出すこと、または情報を公式に発表すること。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "The company published a new dictionary last year.", "ja": "その会社は昨年、新しい辞書を出版した。", "highlight": "published" },
-            { "en": "They will publish the test results tomorrow.", "ja": "彼らは明日、テスト結果を公表する。", "highlight": "publish" },
-            { "en": "She wants to publish her poetry in a magazine.", "ja": "彼女は雑誌に自分の詩を掲載したいと考えている。", "highlight": "publish" },
-            { "en": "The government published a report on climate change.", "ja": "政府は気候変動に関する報告書を公表した。", "highlight": "published" },
-            { "en": "His first novel was published when he was twenty.", "ja": "彼の最初の小説は20歳の時に出版された。", "highlight": "published" }
-          ]
-        }
-      ],
-      "etymology": "ラテン語 publicare（公にする）より。public（公衆）と同語源。",
-      "synonyms": [
-        { "word": "issue", "trans": "発行する" },
-        { "word": "release", "trans": "解禁する、公開する" },
-        { "word": "announce", "trans": "発表する" }
-      ],
-      "antonyms": [
-        { "word": "conceal", "trans": "隠す" },
-        { "word": "suppress", "trans": "抑圧する、伏せる" },
-        { "word": "withhold", "trans": "出さない、保留する" }
-      ],
-      "related": [
-        { "word": "publication", "trans": "名詞：出版、発行" },
-        { "word": "publisher", "trans": "名詞：出版社" },
-        { "word": "publicity", "trans": "名詞：宣伝、広報" }
-      ]
-    },
-    {
-      "number": 7179,
-      "word": "recover",
-      "pos": "動詞",
-      "meaning": "回復する、取り戻す",
-      "nuance": "病気から健康に戻ること、または失った物や地位を再び手に入れること。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "He is still recovering from a serious illness.", "ja": "彼はまだ重病から回復している最中だ。", "highlight": "recovering" },
-            { "en": "The police recovered the stolen jewelry.", "ja": "警察は盗まれた宝石を取り戻した。", "highlight": "recovered" },
-            { "en": "The economy began to recover after the crisis.", "ja": "危機の後、経済は回復し始めた。", "highlight": "recover" },
-            { "en": "She recovered her composure after a few minutes.", "ja": "彼女は数分後に落ち着きを取り戻した。", "highlight": "recovered" },
-            { "en": "It took months to recover the data from the hard drive.", "ja": "ハードディスクからデータを回収するのに数ヶ月かかった。", "highlight": "recover" }
-          ]
-        }
-      ],
-      "etymology": "ラテン語 re-（再び）+ capere（取る）。「再び取る」が転じて回復へ。",
-      "synonyms": [
-        { "word": "regain", "trans": "取り戻す" },
-        { "word": "recuperate", "trans": "療養する、回復する" },
-        { "word": "retrieve", "trans": "回収する" }
-      ],
-      "antonyms": [
-        { "word": "deteriorate", "trans": "悪化する" },
-        { "word": "lose", "trans": "失う" },
-        { "word": "worsen", "trans": "悪くなる" }
-      ],
-      "related": [
-        { "word": "recovery", "trans": "名詞：回復、再生" },
-        { "word": "recoverable", "trans": "形容詞：取り戻せる" },
-        { "word": "re-cover", "trans": "動詞：覆い直す（※別単語）" }
-      ]
-    },
-    {
-      "number": 7180,
-      "word": "species",
-      "pos": "名詞",
-      "meaning": "（生物の）種、種類",
-      "nuance": "生物学上の分類単位。単複同形（単数でも複数でもspecies）である点に注意。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "There are many rare species of birds on this island.", "ja": "この島には多くの珍しい種の鳥がいる。", "highlight": "species" },
-            { "en": "The panda is an endangered species.", "ja": "パンダは絶滅危惧種である。", "highlight": "species" },
-            { "en": "Scientists discovered a new species of orchid.", "ja": "科学者たちは新種のランを発見した。", "highlight": "species" },
-            { "en": "Overfishing threatens several species of fish.", "ja": "乱獲が数種の魚を脅かしている。", "highlight": "species" },
-            { "en": "The origin of species was discussed in the book.", "ja": "その本では種の起源について議論された。", "highlight": "species" }
-          ]
-        }
-      ],
-      "etymology": "ラテン語 specere（見る）から、「外見、種類」を意味するようになった。",
-      "synonyms": [
-        { "word": "breed", "trans": "品種、種類" },
-        { "word": "category", "trans": "範疇、区分" },
-        { "word": "kind", "trans": "種類" }
-      ],
-      "antonyms": [
-        { "word": "genus", "trans": "属（分類学上の上位概念）" },
-        { "word": "individual", "trans": "個体" },
-        { "word": "whole", "trans": "全体" }
-      ],
-      "related": [
-        { "word": "special", "trans": "形容詞：特別な" },
-        { "word": "specific", "trans": "形容詞：特定の、具体的な" },
-        { "word": "specimen", "trans": "名詞：標本、見本" }
-      ]
-    },
-    {
-      "number": 7181,
-      "word": "currently",
-      "pos": "副詞",
-      "meaning": "現在は、目下",
-      "nuance": "「今この時点で」という意味で、nowよりも進行中のニュアンスやフォーマルな響きがある。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "The museum is currently closed for renovation.", "ja": "博物館は現在、改修のため閉館している。", "highlight": "currently" },
-            { "en": "I am currently working on a new project.", "ja": "私は現在、新しいプロジェクトに取り組んでいます。", "highlight": "currently" },
-            { "en": "This product is currently unavailable.", "ja": "この製品は現在、入手できません。", "highlight": "currently" },
-            { "en": "Currently, we have no plans to expand overseas.", "ja": "現在のところ、海外進出の計画はありません。", "highlight": "Currently" },
-            { "en": "Prices are currently rising due to inflation.", "ja": "インフレの影響で、現在価格が上昇している。", "highlight": "currently" }
-          ]
-        }
-      ],
-      "etymology": "ラテン語 currere（走る）から。current（流れ）→「今流れている時」。",
-      "synonyms": [
-        { "word": "presently", "trans": "現在、まもなく" },
-        { "word": "now", "trans": "今" },
-        { "word": "at the moment", "trans": "今のところ" }
-      ],
-      "antonyms": [
-        { "word": "previously", "trans": "以前は" },
-        { "word": "formerly", "trans": "かつては" },
-        { "word": "eventually", "trans": "結局は（将来的に）" }
-      ],
-      "related": [
-        { "word": "current", "trans": "形容詞：現在の、通用している" },
-        { "word": "currency", "trans": "名詞：通貨" },
-        { "word": "concur", "trans": "動詞：一致する" }
-      ]
-    },
-    {
-      "number": 7182,
-      "word": "instruction",
-      "pos": "名詞",
-      "meaning": "指示、教育、取扱説明書",
-      "nuance": "何かを行うためのガイドラインや命令、または知識を授けることを指す。複数形(instructions)で「説明書」となることが多い。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "Please read the instructions before using the machine.", "ja": "機械を使う前に説明書を読んでください。", "highlight": "instructions" },
-            { "en": "The teacher gave us clear instructions on how to write the essay.", "ja": "先生はエッセイの書き方について明確な指示をくれた。", "highlight": "instructions" },
-            { "en": "She acts under the instruction of her coach.", "ja": "彼女はコーチの指導のもとで行動している。", "highlight": "instruction" },
-            { "en": "Computer instruction is a key part of the curriculum.", "ja": "コンピュータ教育はカリキュラムの重要な部分だ。", "highlight": "instruction" },
-            { "en": "I followed his instructions to the letter.", "ja": "私は彼の指示に忠実に従った。", "highlight": "instructions" }
-          ]
-        }
-      ],
-      "etymology": "ラテン語 in-（中に）+ struere（建てる）。知識を頭の中に建てること。",
-      "synonyms": [
-        { "word": "direction", "trans": "指示、方向" },
-        { "word": "guidance", "trans": "指導" },
-        { "word": "order", "trans": "命令" }
-      ],
-      "antonyms": [
-        { "word": "confusion", "trans": "混乱" },
-        { "word": "neglect", "trans": "放置、無視" },
-        { "word": "disobedience", "trans": "不服従" }
-      ],
-      "related": [
-        { "word": "instruct", "trans": "動詞：指示する、教える" },
-        { "word": "instructor", "trans": "名詞：講師" },
-        { "word": "instructive", "trans": "形容詞：教育的な" }
-      ]
-    },
-    {
-      "number": 7183,
-      "word": "raise",
-      "pos": "動詞",
-      "meaning": "上げる、育てる、（資金を）集める",
-      "nuance": "物理的に何かを上に動かすだけでなく、子供を育てる、問題を提起する、寄付を集めるなど多岐にわたる。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "Please raise your hand if you have a question.", "ja": "質問があれば手を挙げてください。", "highlight": "raise" },
-            { "en": "They raised three children in a small town.", "ja": "彼らは小さな町で3人の子供を育てた。", "highlight": "raised" },
-            { "en": "The charity aims to raise money for homeless people.", "ja": "その慈善団体はホームレスの人々のために資金を集めることを目的としている。", "highlight": "raise" },
-            { "en": "The news raised many important questions about privacy.", "ja": "そのニュースはプライバシーに関する多くの重要な問題を提起した。", "highlight": "raised" },
-            { "en": "The government decided to raise taxes next year.", "ja": "政府は来年、増税することを決定した。", "highlight": "raise" }
-          ]
-        }
-      ],
-      "etymology": "古ノルド語の「立ち上がらせる」という言葉に由来。他動詞（～を上げる）であることに注意。",
-      "synonyms": [
-        { "word": "lift", "trans": "持ち上げる" },
-        { "word": "rear", "trans": "（子供を）育てる" },
-        { "word": "collect", "trans": "集める" }
-      ],
-      "antonyms": [
-        { "word": "lower", "trans": "下げる" },
-        { "word": "drop", "trans": "落とす" },
-        { "word": "abandon", "trans": "見捨てる（育てるの対義）" }
-      ],
-      "related": [
-        { "word": "rise", "trans": "動詞：上がる（自動詞）" },
-        { "word": "upraise", "trans": "動詞：高める" },
-        { "word": "fundraising", "trans": "名詞：資金調達" }
-      ]
-    },
-    {
-      "number": 7184,
-      "word": "further",
-      "pos": "形容詞・副詞",
-      "meaning": "さらなる、もっと遠くに、さらに進める",
-      "nuance": "距離の遠さだけでなく、程度や時間が「さらに進んだ」状態を指す。farの比較級の一つ。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "For further information, please visit our website.", "ja": "さらなる情報については、ウェブサイトをご覧ください。", "highlight": "further" },
-            { "en": "We need to discuss this matter further.", "ja": "この件についてさらに議論する必要がある。", "highlight": "further" },
-            { "en": "Nothing could be further from the truth.", "ja": "真実からこれほど遠い（かけ離れた）ことはない。", "highlight": "further" },
-            { "en": "The house is further down the road.", "ja": "その家は道をもっと進んだところにあります。", "highlight": "further" },
-            { "en": "She decided to pursue further studies in Europe.", "ja": "彼女はヨーロッパでさらなる研究を続けることに決めた。", "highlight": "further" }
-          ]
-        }
-      ],
-      "etymology": "古英語の「前へ、より遠くへ」を意味する語から。forth（前へ）に関連。",
-      "synonyms": [
-        { "word": "additional", "trans": "追加の" },
-        { "word": "extra", "trans": "余分な、さらなる" },
-        { "word": "moreover", "trans": "そのうえ（副詞的）" }
-      ],
-      "antonyms": [
-        { "word": "closer", "trans": "より近い" },
-        { "word": "nearer", "trans": "より近くに" },
-        { "word": "previous", "trans": "前の（進むの対義）" }
-      ],
-      "related": [
-        { "word": "furthermore", "trans": "副詞：さらに、そのうえ" },
-        { "word": "furthest", "trans": "形容詞：もっとも遠い" },
-        { "word": "far", "trans": "形容詞・副詞：遠い" }
-      ]
-    },
-    {
-      "number": 7185,
+      "number": 7189,
       "word": "creature",
       "pos": "名詞",
-      "meaning": "生き物、動物、人間",
-      "nuance": "生命のあるもの全般を指す。特に人間以外の動物や、神によって創られたもの（被造物）というニュアンスを含むこともある。",
+      "meaning": "生き物、生物、動物",
+      "nuance": "人間以外の動物や想像上の存在も含む。感情を込めて使われることもある。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "The ocean is full of mysterious creatures.", "ja": "海は神秘的な生き物でいっぱいだ。", "highlight": "creatures" },
-            { "en": "Every living creature needs water to survive.", "ja": "すべての生き物は生き残るために水を必要とする。", "highlight": "creature" },
-            { "en": "He is a strange creature with peculiar habits.", "ja": "彼は独特な習慣を持つ奇妙な人間（やつ）だ。", "highlight": "creature" },
-            { "en": "The myth describes a creature that is half-man, half-horse.", "ja": "その神話は、半分人間、半分馬の生き物を描いている。", "highlight": "creature" },
-            { "en": "Domestic creatures like cats and dogs are popular pets.", "ja": "犬や猫のような家庭的な生き物は人気のペットだ。", "highlight": "creatures" }
+            { "en": "Whales are magnificent creatures.", "ja": "クジラは雄大な生き物です。", "highlight": "creatures" },
+            { "en": "The forest is full of strange creatures.", "ja": "その森は奇妙な生き物であふれている。", "highlight": "creatures" },
+            { "en": "She is a gentle creature by nature.", "ja": "彼女は生まれつき優しい人間だ。", "highlight": "creature" },
+            { "en": "Legends speak of a mythical creature living in the lake.", "ja": "伝説では湖に伝説の生き物が住んでいるという。", "highlight": "creature" },
+            { "en": "All living creatures need water to survive.", "ja": "すべての生き物は生き残るために水を必要とする。", "highlight": "creatures" }
           ]
         }
       ],
-      "etymology": "ラテン語 creare（創り出す）から。create（創造する）と同語源。",
+      "etymology": "ラテン語 creatura（創造されたもの）から。",
       "synonyms": [
-        { "word": "organism", "trans": "有機体、生物" },
-        { "word": "beast", "trans": "獣、動物" },
-        { "word": "living thing", "trans": "生物" }
+        { "word": "animal", "trans": "動物" },
+        { "word": "being", "trans": "存在" },
+        { "word": "organism", "trans": "有機体" }
       ],
       "antonyms": [
+        { "word": "plant", "trans": "植物" },
         { "word": "inanimate object", "trans": "無生物" },
-        { "word": "mineral", "trans": "鉱物" },
-        { "word": "machine", "trans": "機械" }
+        { "word": "spirit", "trans": "霊" }
       ],
       "related": [
         { "word": "create", "trans": "動詞：創造する" },
-        { "word": "creation", "trans": "名詞：天地創造、作品" },
-        { "word": "creative", "trans": "形容詞：創造的な" }
+        { "word": "creation", "trans": "名詞：創造" },
+        { "word": "creator", "trans": "名詞：創造主" }
       ]
     },
     {
-      "number": 7186,
-      "word": "predict",
-      "pos": "動詞",
-      "meaning": "予測する、予言する",
-      "nuance": "データ、経験、証拠などに基づいて、将来何が起こるかを事前に述べること。",
+      "number": 7190,
+      "word": "bring ... back to life",
+      "pos": "句動詞",
+      "meaning": "～を生き返らせる、復活させる",
+      "nuance": "文字通り死者を蘇らせるほか、廃れたものや忘れられていたものを再び活性化する比喩表現としても使う。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "It is difficult to predict the weather accurately.", "ja": "天気を正確に予測するのは難しい。", "highlight": "predict" },
-            { "en": "Economists predict that prices will continue to rise.", "ja": "経済学者は価格が上昇し続けると予測している。", "highlight": "predict" },
-            { "en": "The fortune teller predicted that she would travel soon.", "ja": "占い師は彼女が近々旅行すると予言した。", "highlight": "predicted" },
-            { "en": "Scientists can often predict when a volcano will erupt.", "ja": "科学者はしばしば火山がいつ噴火するかを予測できる。", "highlight": "predict" },
-            { "en": "No one could have predicted the outcome of the race.", "ja": "誰もレースの結果を予測できなかっただろう。", "highlight": "predicted" }
+            { "en": "The doctor tried to bring the patient back to life.", "ja": "医者は患者を生き返らせようとした。", "highlight": "bring back to life" },
+            { "en": "This new policy could bring the old tradition back to life.", "ja": "この新しい政策で古い伝統が復活するかもしれない。", "highlight": "bring back to life" },
+            { "en": "Scientists are trying to bring extinct species back to life.", "ja": "科学者たちは絶滅した種を復活させようとしている。", "highlight": "bring back to life" },
+            { "en": "The revival concert brought his music back to life.", "ja": "復活コンサートで彼の音楽が再び息を吹き返した。", "highlight": "brought back to life" },
+            { "en": "They used CPR to bring him back to life.", "ja": "彼らはCPRを使って彼を蘇生させた。", "highlight": "bring back to life" }
           ]
         }
       ],
-      "etymology": "ラテン語 pre-（前に）+ dicere（言う）→ 前もって言う。",
+      "etymology": "古英語 bringan（運ぶ）+ bæc（後ろに）+ līf（生命）",
       "synonyms": [
-        { "word": "foresee", "trans": "予見する" },
-        { "word": "forecast", "trans": "（天候などを）予報する" },
-        { "word": "anticipate", "trans": "期待する、予想する" }
+        { "word": "revive", "trans": "復活させる" },
+        { "word": "resurrect", "trans": "よみがえらせる" },
+        { "word": "reanimate", "trans": "再び生命を与える" }
       ],
       "antonyms": [
-        { "word": "recall", "trans": "思い出す（過去のこと）" },
-        { "word": "hindsight", "trans": "後知恵（終わった後での理解）" },
-        { "word": "ignore", "trans": "無視する" }
+        { "word": "kill", "trans": "殺す" },
+        { "word": "extinguish", "trans": "消す" },
+        { "word": "destroy", "trans": "破壊する" }
+      ],
+      "related": [
+        { "word": "come back to life", "trans": "生き返る" },
+        { "word": "bring back", "trans": "戻す" },
+        { "word": "revival", "trans": "復活" }
+      ]
+    },
+    {
+      "number": 7191,
+      "word": "be sure to do",
+      "pos": "句動詞",
+      "meaning": "必ず～する、確実に～する",
+      "nuance": "注意を促す表現。命令やアドバイスで「忘れずに～しなさい」の意味になる。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            { "en": "Be sure to lock the door when you leave.", "ja": "出かけるときは必ず鍵をかけてください。", "highlight": "Be sure to" },
+            { "en": "She was sure to arrive early.", "ja": "彼女は必ず早く到着した。", "highlight": "was sure to" },
+            { "en": "Be sure to call me before you come.", "ja": "来る前に必ず電話してください。", "highlight": "Be sure to" },
+            { "en": "He is sure to win the competition.", "ja": "彼は間違いなくその大会に勝つだろう。", "highlight": "is sure to" },
+            { "en": "Be sure to bring your ID card.", "ja": "身分証明書を忘れずに持ってきてください。", "highlight": "Be sure to" }
+          ]
+        }
+      ],
+      "etymology": "古英語 sēcur（安全な）から。",
+      "synonyms": [
+        { "word": "make sure to", "trans": "確実に～する" },
+        { "word": "don't forget to", "trans": "忘れずに～する" },
+        { "word": "certainly", "trans": "確かに" }
+      ],
+      "antonyms": [
+        { "word": "might not", "trans": "～しないかもしれない" },
+        { "word": "be likely not to", "trans": "おそらく～しない" },
+        { "word": "fail to", "trans": "～しそこなう" }
+      ],
+      "related": [
+        { "word": "sure", "trans": "確信している" },
+        { "word": "ensure", "trans": "保証する" },
+        { "word": "certain", "trans": "確かな" }
+      ]
+    },
+    {
+      "number": 7192,
+      "word": "predict",
+      "pos": "動詞",
+      "meaning": "予測する、予言する",
+      "nuance": "データや根拠に基づく科学的予測から、直感的な予言まで幅広く使う。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            { "en": "Economists predict a recession next year.", "ja": "経済学者は来年の景気後退を予測している。", "highlight": "predict" },
+            { "en": "No one can predict the future with certainty.", "ja": "誰も未来を確実に予測できない。", "highlight": "predict" },
+            { "en": "The weather forecast predicts rain tomorrow.", "ja": "天気予報は明日雨を予想している。", "highlight": "predicts" },
+            { "en": "She predicted that he would win.", "ja": "彼女は彼が勝つだろうと予言した。", "highlight": "predicted" },
+            { "en": "It's difficult to predict how people will react.", "ja": "人々がどう反応するかを予測するのは難しい。", "highlight": "predict" }
+          ]
+        }
+      ],
+      "etymology": "ラテン語 prae-（前に）+ dicere（言う）→ 前もって言う。",
+      "synonyms": [
+        { "word": "forecast", "trans": "予報する" },
+        { "word": "foresee", "trans": "見通す" },
+        { "word": "prophesy", "trans": "予言する" }
+      ],
+      "antonyms": [
+        { "word": "guess", "trans": "推測する" },
+        { "word": "ignore", "trans": "無視する" },
+        { "word": "doubt", "trans": "疑う" }
       ],
       "related": [
         { "word": "prediction", "trans": "名詞：予測" },
         { "word": "predictable", "trans": "形容詞：予測可能な" },
-        { "word": "dictate", "trans": "動詞：口述する、命令する" }
+        { "word": "predictor", "trans": "名詞：予測因子" }
       ]
     },
     {
-      "number": 7187,
+      "number": 7193,
       "word": "extinct",
       "pos": "形容詞",
-      "meaning": "絶滅した、（火などが）消えた",
-      "nuance": "ある種の生き物が完全にいなくなった状態。また、火山の活動が止まっている状態（死火山）にも使われる。",
+      "meaning": "絶滅した、消えた",
+      "nuance": "生物種だけでなく、火山や習慣、言語などにも使える。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "Dinosaurs became extinct millions of years ago.", "ja": "恐竜は何百万年も前に絶滅した。", "highlight": "extinct" },
-            { "en": "The species is in danger of becoming extinct.", "ja": "その種は絶滅の危機に瀕している。", "highlight": "extinct" },
-            { "en": "This volcano is extinct and will not erupt again.", "ja": "この火山は死火山であり、再び噴火することはない。", "highlight": "extinct" },
-            { "en": "The custom has been extinct for centuries.", "ja": "その慣習は何世紀もの間、途絶えている。", "highlight": "extinct" },
-            { "en": "Many languages are now extinct.", "ja": "多くの言語が現在は消滅している。", "highlight": "extinct" }
+            { "en": "Dinosaurs have been extinct for millions of years.", "ja": "恐竜は何百万年も前に絶滅した。", "highlight": "extinct" },
+            { "en": "Many languages are becoming extinct.", "ja": "多くの言語が消滅しつつある。", "highlight": "extinct" },
+            { "en": "The volcano is now extinct.", "ja": "その火山は現在休火山（死火山）である。", "highlight": "extinct" },
+            { "en": "Efforts are being made to save endangered species from going extinct.", "ja": "絶滅危惧種を絶滅から守る努力が行われている。", "highlight": "extinct" },
+            { "en": "That custom has been extinct for centuries.", "ja": "その習慣は何世紀も前に廃れた。", "highlight": "extinct" }
           ]
         }
       ],
-      "etymology": "ラテン語 ex-（外へ）+ stinguere（消す）→ 完全に消え去った。",
+      "etymology": "ラテン語 exstinguere（消す）から。",
       "synonyms": [
-        { "word": "dead", "trans": "死んだ" },
-        { "word": "vanished", "trans": "消え去った" },
-        { "word": "gone", "trans": "なくなった" }
+        { "word": "vanished", "trans": "消えた" },
+        { "word": "died out", "trans": "死に絶えた" },
+        { "word": "extirpated", "trans": "根絶された" }
       ],
       "antonyms": [
-        { "word": "extant", "trans": "現存している" },
-        { "word": "alive", "trans": "生きている" },
-        { "word": "active", "trans": "活動中の" }
+        { "word": "extant", "trans": "現存する" },
+        { "word": "living", "trans": "生きている" },
+        { "word": "thriving", "trans": "栄えている" }
       ],
       "related": [
         { "word": "extinction", "trans": "名詞：絶滅" },
-        { "word": "extinguish", "trans": "動詞：火を消す、絶やす" },
-        { "word": "extinguisher", "trans": "名詞：消火器" }
+        { "word": "extinct species", "trans": "絶滅種" },
+        { "word": "endangered", "trans": "絶滅危惧の" }
       ]
     },
     {
-      "number": 7188,
+      "number": 7194,
       "word": "beast",
       "pos": "名詞",
-      "meaning": "けだもの、野獣、動物",
-      "nuance": "理性のない「野蛮な動物」という響きが強く、時には残忍な人間を例えて使うこともある。",
+      "meaning": "獣、野獣、残酷な人",
+      "nuance": "大型で危険な動物を指すことが多い。比喩的に「粗暴な人」も表す。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "The hunters were tracking a wild beast through the forest.", "ja": "ハンターたちは森の中で野獣を追跡していた。", "highlight": "beast" },
-            { "en": "He worked like a beast to finish the job on time.", "ja": "彼は仕事を時間通りに終わらせるために、獣のように（猛烈に）働いた。", "highlight": "beast" },
-            { "en": "The story 'Beauty and the Beast' is world-famous.", "ja": "『美女と野獣』の物語は世界的に有名だ。", "highlight": "Beast" },
-            { "en": "The lion is known as the king of beasts.", "ja": "ライオンは百獣の王として知られている。", "highlight": "beasts" },
-            { "en": "Don't be such a beast to your younger sister!", "ja": "妹に対してそんなひどいやつ（獣）になるな！", "highlight": "beast" }
+            { "en": "The lion is called the king of beasts.", "ja": "ライオンは百獣の王と呼ばれる。", "highlight": "beasts" },
+            { "en": "He was attacked by a wild beast.", "ja": "彼は野獣に襲われた。", "highlight": "beast" },
+            { "en": "The beast in the story could talk.", "ja": "その物語に出てくる獣は話すことができた。", "highlight": "beast" },
+            { "en": "He behaved like a beast.", "ja": "彼は獣のように振る舞った。", "highlight": "beast" },
+            { "en": "The legend speaks of a mythical beast.", "ja": "伝説には神話の獣が登場する。", "highlight": "beast" }
           ]
         }
       ],
-      "etymology": "ラテン語 bestia（動物）より。人間と対照的な存在としての動物を指す。",
+      "etymology": "ラテン語 bestia（獣）から。",
       "synonyms": [
-        { "word": "brute", "trans": "けだもの、粗暴な人" },
         { "word": "animal", "trans": "動物" },
-        { "word": "monster", "trans": "怪物" }
+        { "word": "monster", "trans": "怪物" },
+        { "word": "brute", "trans": "残忍な人" }
       ],
       "antonyms": [
         { "word": "human", "trans": "人間" },
         { "word": "angel", "trans": "天使" },
-        { "word": "civilized person", "trans": "文明人" }
+        { "word": "gentle soul", "trans": "優しい人" }
       ],
       "related": [
-        { "word": "beastly", "trans": "形容詞：獣のような、ひどい" },
-        { "word": "bestial", "trans": "形容詞：獣のような、野蛮な" },
-        { "word": "bestiary", "trans": "名詞：動物寓話集" }
+        { "word": "beastly", "trans": "形容詞：獣のような" },
+        { "word": "beauty and the beast", "trans": "美女と野獣" },
+        { "word": "wild beast", "trans": "野獣" }
       ]
     },
     {
-      "number": 7189,
+      "number": 7195,
       "word": "destroy",
       "pos": "動詞",
-      "meaning": "破壊する、台無しにする、殺す",
-      "nuance": "形あるものを粉々に壊す、あるいは希望や計画を根底から潰すことを指す。",
+      "meaning": "破壊する、滅ぼす",
+      "nuance": "完全に壊して元に戻せなくするイメージ。物理的・抽象的な対象にも使える。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
             { "en": "The earthquake destroyed many buildings.", "ja": "地震で多くの建物が破壊された。", "highlight": "destroyed" },
-            { "en": "Careless smoking can destroy an entire forest.", "ja": "不注意な喫煙が森全体を焼き尽くす（破壊する）ことがある。", "highlight": "destroy" },
-            { "en": "Lies can destroy a friendship.", "ja": "嘘は友情を壊してしまうことがある。", "highlight": "destroy" },
-            { "en": "The army destroyed the enemy's base.", "ja": "軍隊は敵の基地を破壊した。", "highlight": "destroyed" },
-            { "en": "The bad news destroyed all his hopes.", "ja": "その悪い知らせは彼のすべての希望を打ち砕いた。", "highlight": "destroyed" }
+            { "en": "His reputation was destroyed by the scandal.", "ja": "スキャンダルで彼の評判は台無しになった。", "highlight": "destroyed" },
+            { "en": "The fire destroyed the entire forest.", "ja": "火事で森全体が焼け尽きた。", "highlight": "destroyed" },
+            { "en": "They destroyed the evidence before the trial.", "ja": "彼らは裁判前に証拠を廃棄した。", "highlight": "destroyed" },
+            { "en": "The virus destroys cells in the body.", "ja": "そのウイルスは体内の細胞を破壊する。", "highlight": "destroys" }
           ]
         }
       ],
-      "etymology": "ラテン語 de-（反対に）+ struere（建てる）→ 建てたものを逆にする（壊す）。",
+      "etymology": "ラテン語 de-（下に）+ struere（建てる）→ 建てたものを崩す。",
       "synonyms": [
-        { "word": "demolish", "trans": "（建物などを）取り壊す" },
-        { "word": "ruin", "trans": "破滅させる" },
-        { "word": "wreck", "trans": "難破させる、壊す" }
+        { "word": "demolish", "trans": "取り壊す" },
+        { "word": "ruin", "trans": "台無しにする" },
+        { "word": "annihilate", "trans": "全滅させる" }
       ],
       "antonyms": [
-        { "word": "construct", "trans": "建設する" },
+        { "word": "build", "trans": "建てる" },
         { "word": "create", "trans": "創造する" },
-        { "word": "build", "trans": "建てる" }
+        { "word": "preserve", "trans": "保存する" }
       ],
       "related": [
         { "word": "destruction", "trans": "名詞：破壊" },
         { "word": "destructive", "trans": "形容詞：破壊的な" },
-        { "word": "destroyer", "trans": "名詞：破壊者、駆逐艦" }
-      ]
-    },
-    {
-      "number": 7190,
-      "word": "circumstance",
-      "pos": "名詞",
-      "meaning": "状況、事情、境遇",
-      "nuance": "自分の周囲で起きている出来事や、ある事件に付随する条件。通常は複数形(circumstances)で使われることが多い。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "Due to unforeseen circumstances, the flight was canceled.", "ja": "予期せぬ事情により、その便は欠航となった。", "highlight": "circumstances" },
-            { "en": "He is in very difficult financial circumstances.", "ja": "彼は経済的に非常に苦しい状況にある。", "highlight": "circumstances" },
-            { "en": "The circumstances of the accident are still unclear.", "ja": "その事故の状況はいまだに不明だ。", "highlight": "circumstances" },
-            { "en": "Under no circumstances should you open this door.", "ja": "どんな状況があっても、このドアを開けてはいけない。", "highlight": "circumstances" },
-            { "en": "The decision depends on the circumstances.", "ja": "その決定は状況次第だ。", "highlight": "circumstances" }
-          ]
-        }
-      ],
-      "etymology": "ラテン語 circum-（周囲に）+ stare（立つ）→ 周囲に立っているもの。",
-      "synonyms": [
-        { "word": "situation", "trans": "状況" },
-        { "word": "condition", "trans": "条件、状態" },
-        { "word": "context", "trans": "背景、文脈" }
-      ],
-      "antonyms": [
-        { "word": "essence", "trans": "本質（付随的な状況の対義）" },
-        { "word": "core", "trans": "核心" },
-        { "word": "certainty", "trans": "確実性（不確かな状況の対義）" }
-      ],
-      "related": [
-        { "word": "circumstantial", "trans": "形容詞：状況による、詳細な" },
-        { "word": "circumspect", "trans": "形容詞：慎重な（周囲を見る）" },
-        { "word": "circulate", "trans": "動詞：循環する" }
-      ]
-    },
-    {
-      "number": 7191,
-      "word": "preserve",
-      "pos": "動詞",
-      "meaning": "保存する、保護する、維持する",
-      "nuance": "状態が変わらないように守ること。食品の保存や、古い建物の保護、平和の維持などに使われる。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "We need to preserve our natural resources.", "ja": "私たちは天然資源を保護する必要がある。", "highlight": "preserve" },
-            { "en": "This method helps to preserve the color of the fruit.", "ja": "この方法は果実の色を保つのに役立つ。", "highlight": "preserve" },
-            { "en": "They are working to preserve ancient traditions.", "ja": "彼らは古代の伝統を維持するために活動している。", "highlight": "preserve" },
-            { "en": "You can preserve fish in salt.", "ja": "魚は塩漬けにして保存できる。", "highlight": "preserve" },
-            { "en": "He managed to preserve his dignity despite the failure.", "ja": "失敗にもかかわらず、彼は尊厳を保つことができた。", "highlight": "preserve" }
-          ]
-        }
-      ],
-      "etymology": "ラテン語 pre-（前に）+ servare（守る）→ あらかじめ守っておく。",
-      "synonyms": [
-        { "word": "maintain", "trans": "維持する" },
-        { "word": "conserve", "trans": "（資源などを）大切に保存する" },
-        { "word": "save", "trans": "救う、蓄える" }
-      ],
-      "antonyms": [
-        { "word": "destroy", "trans": "破壊する" },
-        { "word": "damage", "trans": "損なう" },
-        { "word": "neglect", "trans": "放置する" }
-      ],
-      "related": [
-        { "word": "preservation", "trans": "名詞：保存、保護" },
-        { "word": "preservative", "trans": "名詞：防腐剤" },
-        { "word": "reserve", "trans": "動詞：予約する、取っておく" }
-      ]
-    },
-    {
-      "number": 7192,
-      "word": "cave",
-      "pos": "名詞",
-      "meaning": "洞窟、洞穴",
-      "nuance": "山や地下にある大きな穴。動詞として「崩れる(cave in)」という意味でも使われる。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "The explorers entered the dark cave.", "ja": "探検家たちは暗い洞窟に入った。", "highlight": "cave" },
-            { "en": "Ancient humans used to live in caves.", "ja": "古代の人間は洞窟に住んでいた。", "highlight": "caves" },
-            { "en": "The cave was filled with beautiful stalactites.", "ja": "その洞窟は美しい鍾乳石で満たされていた。", "highlight": "cave" },
-            { "en": "They took shelter in a cave during the storm.", "ja": "彼らは嵐の間、洞窟に避難した。", "highlight": "cave" },
-            { "en": "The roof of the cave is very low.", "ja": "その洞窟の天井は非常に低い。", "highlight": "cave" }
-          ]
-        }
-      ],
-      "etymology": "ラテン語 cavus（空洞の）より。cavity（空洞、虫歯の穴）と同語源。",
-      "synonyms": [
-        { "word": "cavern", "trans": "大きな洞窟" },
-        { "word": "grotto", "trans": "小さな洞窟" },
-        { "word": "hollow", "trans": "空洞、くぼみ" }
-      ],
-      "antonyms": [
-        { "word": "peak", "trans": "頂上" },
-        { "word": "mountain", "trans": "山" },
-        { "word": "solid", "trans": "固形物（空洞の対義）" }
-      ],
-      "related": [
-        { "word": "cavernous", "trans": "形容詞：洞窟のような、広々とした" },
-        { "word": "cave-in", "trans": "名詞：崩落" },
-        { "word": "concave", "trans": "形容詞：凹面の" }
-      ]
-    },
-    {
-      "number": 7193,
-      "word": "region",
-      "pos": "名詞",
-      "meaning": "地域、地方、分野",
-      "nuance": "境界線がはっきり決まっていないこともある、広大な場所や特定の特性を持つ範囲を指す。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "This region is known for its delicious grapes.", "ja": "この地域は美味しいブドウで知られている。", "highlight": "region" },
-            { "en": "The arctic region is very cold.", "ja": "北極地方は非常に寒い。", "highlight": "region" },
-            { "en": "He felt a sharp pain in the abdominal region.", "ja": "彼は腹部に鋭い痛みを感じた。", "highlight": "region" },
-            { "en": "Tourism is the main industry in this region.", "ja": "観光はこの地域の主要な産業だ。", "highlight": "region" },
-            { "en": "Tropical regions often experience heavy rain.", "ja": "熱帯地方はしばしば大雨に見舞われる。", "highlight": "regions" }
-          ]
-        }
-      ],
-      "etymology": "ラテン語 regere（支配する）から。支配される範囲を意味した。",
-      "synonyms": [
-        { "word": "area", "trans": "面積、地域" },
-        { "word": "district", "trans": "地区、行政区" },
-        { "word": "zone", "trans": "地帯" }
-      ],
-      "antonyms": [
-        { "word": "center", "trans": "中心" },
-        { "word": "point", "trans": "地点" },
-        { "word": "whole", "trans": "全体" }
-      ],
-      "related": [
-        { "word": "regional", "trans": "形容詞：地域の" },
-        { "word": "register", "trans": "動詞：登録する（語源的に支配に関連）" },
-        { "word": "regime", "trans": "名詞：政権、制度" }
-      ]
-    },
-    {
-      "number": 7194,
-      "word": "probability",
-      "pos": "名詞",
-      "meaning": "確率、可能性、見込み",
-      "nuance": "ある事象が起こる数学的な確からしさや、一般的にもっともらしいと思われる度合い。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "There is a high probability of rain tomorrow.", "ja": "明日は雨が降る確率が高い。", "highlight": "probability" },
-            { "en": "The probability of winning the lottery is very low.", "ja": "宝くじに当たる確率は非常に低い。", "highlight": "probability" },
-            { "en": "In all probability, the meeting will be canceled.", "ja": "十中八九（おそらく）、会議は中止になるだろう。", "highlight": "probability" },
-            { "en": "Scientists calculated the probability of an earthquake.", "ja": "科学者たちは地震の確率を計算した。", "highlight": "probability" },
-            { "en": "We must consider the probability of success.", "ja": "私たちは成功の可能性を考慮しなければならない。", "highlight": "probability" }
-          ]
-        }
-      ],
-      "etymology": "ラテン語 probabilis（証明できる、もっともらしい）より。",
-      "synonyms": [
-        { "word": "likelihood", "trans": "見込み、ありそうなこと" },
-        { "word": "chance", "trans": "偶然、可能性" },
-        { "word": "odds", "trans": "勝算、確率" }
-      ],
-      "antonyms": [
-        { "word": "impossibility", "trans": "不可能" },
-        { "word": "certainty", "trans": "確実性" },
-        { "word": "unlikelihood", "trans": "ありそうにないこと" }
-      ],
-      "related": [
-        { "word": "probable", "trans": "形容詞：ありそうな" },
-        { "word": "probably", "trans": "副詞：たぶん、おそらく" },
-        { "word": "probation", "trans": "名詞：見習い期間、保護観察" }
-      ]
-    },
-    {
-      "number": 7195,
-      "word": "ideal",
-      "pos": "形容詞・名詞",
-      "meaning": "理想的な、理想",
-      "nuance": "これ以上ないほど完璧な状態、または頭の中で描く最高の目標を指す。",
-      "example_sections": [
-        {
-          "title": "例文",
-          "examples": [
-            { "en": "It was an ideal day for a wedding.", "ja": "結婚式には理想的な日だった。", "highlight": "ideal" },
-            { "en": "This house is ideal for a large family.", "ja": "この家は大家族にとって理想的だ。", "highlight": "ideal" },
-            { "en": "She is the ideal candidate for the job.", "ja": "彼女はその仕事に理想的な候補者だ。", "highlight": "ideal" },
-            { "en": "We should strive toward our ideals.", "ja": "私たちは自分たちの理想に向かって努力すべきだ。", "highlight": "ideals" },
-            { "en": "The situation is far from ideal.", "ja": "状況は理想とは程遠い。", "highlight": "ideal" }
-          ]
-        }
-      ],
-      "etymology": "ギリシャ語 idea（形、姿）から。idea（考え）と同語源。",
-      "synonyms": [
-        { "word": "perfect", "trans": "完璧な" },
-        { "word": "optimal", "trans": "最適な" },
-        { "word": "model", "trans": "手本となる" }
-      ],
-      "antonyms": [
-        { "word": "flawed", "trans": "欠陥のある" },
-        { "word": "imperfect", "trans": "不完全な" },
-        { "word": "practical", "trans": "現実的な（理想の対義として）" }
-      ],
-      "related": [
-        { "word": "idea", "trans": "名詞：考え、アイデア" },
-        { "word": "idealism", "trans": "名詞：理想主義" },
-        { "word": "idealize", "trans": "動詞：理想化する" }
+        { "word": "destroyer", "trans": "名詞：破壊者" }
       ]
     },
     {
       "number": 7196,
-      "word": "genetic",
-      "pos": "形容詞",
-      "meaning": "遺伝の、遺伝学的な",
-      "nuance": "親から子へ受け継がれる遺伝子(gene)に関連することを指す。",
+      "word": "circumstance",
+      "pos": "名詞",
+      "meaning": "状況、事情、環境",
+      "nuance": "ある出来事に影響を与える周囲の条件や事実。複数形でよく使われる。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "They are researching genetic diseases.", "ja": "彼らは遺伝病について研究している。", "highlight": "genetic" },
-            { "en": "Hair color is determined by genetic factors.", "ja": "髪の色は遺伝的要因によって決まる。", "highlight": "genetic" },
-            { "en": "The scientists mapped the genetic information of the plant.", "ja": "科学者たちはその植物の遺伝情報を解読した。", "highlight": "genetic" },
-            { "en": "Genetic engineering is a controversial topic.", "ja": "遺伝子工学は議論を呼ぶトピックだ。", "highlight": "Genetic" },
-            { "en": "Is there a genetic link between these two conditions?", "ja": "これら2つの状態の間に遺伝的なつながりはありますか？", "highlight": "genetic" }
+            { "en": "Due to unforeseen circumstances, the event is canceled.", "ja": "予期せぬ事情により、イベントは中止となりました。", "highlight": "circumstances" },
+            { "en": "Under no circumstances should you open that door.", "ja": "いかなる状況下でもそのドアを開けてはいけない。", "highlight": "circumstances" },
+            { "en": "His financial circumstances forced him to quit school.", "ja": "彼の経済的事情で学校を辞めざるを得なかった。", "highlight": "circumstances" },
+            { "en": "We need to adapt to changing circumstances.", "ja": "変化する状況に適応する必要がある。", "highlight": "circumstances" },
+            { "en": "The circumstances surrounding the accident are suspicious.", "ja": "その事故を取り巻く状況は不審である。", "highlight": "circumstances" }
           ]
         }
       ],
-      "etymology": "ギリシャ語 genesis（誕生、起源）から。",
+      "etymology": "ラテン語 circumstantia（周りに立つこと）から。",
       "synonyms": [
-        { "word": "hereditary", "trans": "遺伝的な、世襲の" },
-        { "word": "inherited", "trans": "受け継いだ" },
-        { "word": "innate", "trans": "生まれつきの" }
+        { "word": "situation", "trans": "状況" },
+        { "word": "condition", "trans": "条件" },
+        { "word": "background", "trans": "背景" }
       ],
       "antonyms": [
-        { "word": "acquired", "trans": "（後天的に）獲得した" },
-        { "word": "environmental", "trans": "環境による" },
-        { "word": "learned", "trans": "学習による" }
+        { "word": "certainty", "trans": "確実性" },
+        { "word": "constant", "trans": "不変のもの" },
+        { "word": "plan", "trans": "計画" }
       ],
       "related": [
-        { "word": "gene", "trans": "名詞：遺伝子" },
-        { "word": "genetics", "trans": "名詞：遺伝学" },
-        { "word": "generation", "trans": "名詞：世代" }
+        { "word": "circumstantial", "trans": "形容詞：状況証拠の" },
+        { "word": "under the circumstances", "trans": "こんな状況では" },
+        { "word": "poverty circumstances", "trans": "貧困状態" }
       ]
     },
     {
       "number": 7197,
-      "word": "yield",
-      "pos": "動詞・名詞",
-      "meaning": "産出する、譲る、屈する、収穫量",
-      "nuance": "利益や作物を生み出すこと、または相手に道を譲ったり圧力に負けたりすることを指す。",
+      "word": "preserve",
+      "pos": "動詞",
+      "meaning": "保存する、保護する、維持する",
+      "nuance": "良い状態を保つ意図的な行為。食品の保存から文化遺産の保護まで使える。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "This soil yields a rich harvest every year.", "ja": "この土壌は毎年豊かな収穫をもたらす（産出する）。", "highlight": "yields" },
-            { "en": "He refused to yield to the enemy's demands.", "ja": "彼は敵の要求に屈することを拒んだ。", "highlight": "yield" },
-            { "en": "Cars must yield to pedestrians at the crosswalk.", "ja": "車は横断歩道で歩行者に道を譲らなければならない。", "highlight": "yield" },
-            { "en": "The investment yielded a 10% profit.", "ja": "その投資は10%の利益を生んだ。", "highlight": "yielded" },
-            { "en": "The farmers were happy with the wheat yield.", "ja": "農家たちは小麦の収穫量に満足していた。", "highlight": "yield" }
+            { "en": "We must preserve the environment for future generations.", "ja": "将来の世代のために環境を守らねばならない。", "highlight": "preserve" },
+            { "en": "This salt helps preserve meat.", "ja": "この塩は肉の保存に役立つ。", "highlight": "preserve" },
+            { "en": "The museum preserves ancient artifacts.", "ja": "その博物館は古代の遺物を保存している。", "highlight": "preserves" },
+            { "en": "He tried to preserve his dignity.", "ja": "彼は自分の尊厳を保とうとした。", "highlight": "preserve" },
+            { "en": "The forest is preserved as a national park.", "ja": "その森は国立公園として保護されている。", "highlight": "preserved" }
           ]
         }
       ],
-      "etymology": "古英語の「支払う、与える」を意味する語から。",
+      "etymology": "ラテン語 prae-（前に）+ servare（保つ）→ あらかじめ守る。",
       "synonyms": [
-        { "word": "produce", "trans": "生産する" },
-        { "word": "surrender", "trans": "降伏する" },
-        { "word": "concede", "trans": "（権利などを）譲る、認める" }
+        { "word": "conserve", "trans": "保全する" },
+        { "word": "maintain", "trans": "維持する" },
+        { "word": "protect", "trans": "保護する" }
       ],
       "antonyms": [
-        { "word": "resist", "trans": "抵抗する" },
-        { "word": "withstand", "trans": "耐える" },
-        { "word": "consume", "trans": "消費する（産出の対義）" }
+        { "word": "destroy", "trans": "破壊する" },
+        { "word": "neglect", "trans": "放置する" },
+        { "word": "abandon", "trans": "見捨てる" }
       ],
       "related": [
-        { "word": "unyielding", "trans": "形容詞：屈しない、頑固な" },
-        { "word": "yield sign", "trans": "名詞：譲れ（交通標識）" },
-        { "word": "remuneration", "trans": "名詞：報酬（支払うという根源的意味で関連）" }
+        { "word": "preservation", "trans": "名詞：保存" },
+        { "word": "preservative", "trans": "名詞：防腐剤" },
+        { "word": "preserved", "trans": "形容詞：保存された" }
       ]
     },
     {
       "number": 7198,
-      "word": "fix",
-      "pos": "動詞",
-      "meaning": "修理する、固定する、決定する",
-      "nuance": "壊れたものを直すだけでなく、場所を動かないようにする、日時などを決める、といった「安定させる」ニュアンスがある。",
+      "word": "cave",
+      "pos": "名詞",
+      "meaning": "洞窟、洞穴",
+      "nuance": "自然にできた地下の空間。比喩的に「cave in」で「陥没する・折れる」の意味も。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "Can you fix my broken bicycle?", "ja": "私の壊れた自転車を直してくれますか？", "highlight": "fix" },
-            { "en": "We need to fix a date for the next meeting.", "ja": "次の会議の日程を決める必要がある。", "highlight": "fix" },
-            { "en": "He fixed the shelf to the wall with screws.", "ja": "彼はネジで棚を壁に固定した。", "highlight": "fixed" },
-            { "en": "I'll fix lunch for us in a minute.", "ja": "すぐに私たちの昼食を用意するよ（作るよ）。", "highlight": "fix" },
-            { "en": "The problem is difficult to fix.", "ja": "その問題を解決するのは難しい。", "highlight": "fix" }
+            { "en": "They discovered ancient paintings in the cave.", "ja": "彼らは洞窟で古代の絵画を発見した。", "highlight": "cave" },
+            { "en": "The cave was dark and cold.", "ja": "洞窟は暗く寒かった。", "highlight": "cave" },
+            { "en": "Bears sometimes hibernate in caves.", "ja": "クマは時々洞窟で冬眠する。", "highlight": "caves" },
+            { "en": "We explored a limestone cave.", "ja": "私たちは石灰岩の洞窟を探検した。", "highlight": "cave" },
+            { "en": "The entrance to the cave was hidden.", "ja": "洞窟の入り口は隠されていた。", "highlight": "cave" }
           ]
         }
       ],
-      "etymology": "ラテン語 figere（突き刺す、固定する）から。",
+      "etymology": "ラテン語 cava（穴）から。",
       "synonyms": [
-        { "word": "repair", "trans": "修理する" },
-        { "word": "fasten", "trans": "固定する" },
-        { "word": "settle", "trans": "決定する、解決する" }
+        { "word": "cavern", "trans": "大洞窟" },
+        { "word": "grotto", "trans": "小洞窟" },
+        { "word": "hollow", "trans": "空洞" }
       ],
       "antonyms": [
-        { "word": "break", "trans": "壊す" },
-        { "word": "move", "trans": "動かす" },
-        { "word": "change", "trans": "変える（固定の対義）" }
+        { "word": "mountain", "trans": "山" },
+        { "word": "peak", "trans": "頂上" },
+        { "word": "hill", "trans": "丘" }
       ],
       "related": [
-        { "word": "fixture", "trans": "名詞：備品、固定された物" },
-        { "word": "prefix", "trans": "名詞：接頭辞（前に固定されるもの）" },
-        { "word": "fixated", "trans": "形容詞：執着した" }
+        { "word": "cave in", "trans": "陥没する・折れる" },
+        { "word": "caveman", "trans": "穴居人" },
+        { "word": "cavernous", "trans": "洞窟のような" }
       ]
     },
     {
       "number": 7199,
-      "word": "mammal",
+      "word": "region",
       "pos": "名詞",
-      "meaning": "哺乳類、哺乳動物",
-      "nuance": "母乳で子を育てる、毛や毛皮を持つ、温血動物であるなどの特徴を持つ動物の分類。",
+      "meaning": "地域、地方、範囲",
+      "nuance": "明確な境界がない広いエリア。気候・文化・行政などのまとまり。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "Whales and dolphins are mammals, not fish.", "ja": "クジラやイルカは魚ではなく哺乳類だ。", "highlight": "mammals" },
-            { "en": "Humans are the most intelligent mammals.", "ja": "人間はもっとも知能の高い哺乳類だ。", "highlight": "mammals" },
-            { "en": "Unlike reptiles, mammals give birth to live young.", "ja": "爬虫類と違い、哺乳類は生きた子を産む。", "highlight": "mammals" },
-            { "en": "The platypus is a rare egg-laying mammal.", "ja": "カモノハシは珍しい卵生の哺乳類だ。", "highlight": "mammal" },
-            { "en": "Bats are the only mammals that can truly fly.", "ja": "コウモリは自力で飛ぶことができる唯一の哺乳類だ。", "highlight": "mammals" }
+            { "en": "The region is known for its wine production.", "ja": "その地域はワイン生産で知られている。", "highlight": "region" },
+            { "en": "He comes from a mountainous region.", "ja": "彼は山岳地帯の出身だ。", "highlight": "region" },
+            { "en": "This region has a tropical climate.", "ja": "この地域は熱帯気候です。", "highlight": "region" },
+            { "en": "The conflict affected the entire region.", "ja": "紛争は地域全体に影響を与えた。", "highlight": "region" },
+            { "en": "They live in the northern region of the country.", "ja": "彼らはその国の北部地域に住んでいる。", "highlight": "region" }
           ]
         }
       ],
-      "etymology": "ラテン語 mamma（乳房）から。",
+      "etymology": "ラテン語 regio（方向、境界線）から。",
       "synonyms": [
-        { "word": "beast", "trans": "（しばしば哺乳類の）獣" },
-        { "word": "creature", "trans": "生き物" },
-        { "word": "vertebrate", "trans": "脊椎動物（より広い分類）" }
+        { "word": "area", "trans": "エリア" },
+        { "word": "district", "trans": "地区" },
+        { "word": "zone", "trans": "ゾーン" }
       ],
       "antonyms": [
-        { "word": "reptile", "trans": "爬虫類" },
-        { "word": "bird", "trans": "鳥類" },
-        { "word": "amphibian", "trans": "両生類" }
+        { "word": "whole", "trans": "全体" },
+        { "word": "global", "trans": "地球規模の" },
+        { "word": "center", "trans": "中心" }
       ],
       "related": [
-        { "word": "mammary", "trans": "形容詞：乳房の" },
-        { "word": "mammalian", "trans": "形容詞：哺乳類の" },
-        { "word": "mammography", "trans": "名詞：乳房X線撮影" }
+        { "word": "regional", "trans": "形容詞：地域の" },
+        { "word": "regionally", "trans": "副詞：地域的に" },
+        { "word": "bioregion", "trans": "生物地域" }
       ]
     },
     {
       "number": 7200,
-      "word": "assume",
-      "pos": "動詞",
-      "meaning": "仮定する、思い込む、引き受ける、（態度を）とる",
-      "nuance": "証拠はないが当然だと思うこと、または責任や役割などを身に引き受けることを指す。",
+      "word": "near-complete",
+      "pos": "形容詞",
+      "meaning": "ほぼ完全な、ほとんど完成した",
+      "nuance": "完全ではないが、非常にそれに近い状態を表す。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "I assumed that you were tired.", "ja": "君は疲れているのだと思い込んでいた。", "highlight": "assumed" },
-            { "en": "Let's assume for a moment that he is telling the truth.", "ja": "彼が真実を言っていると仮定してみよう。", "highlight": "assume" },
-            { "en": "She will assume her new duties next week.", "ja": "彼女は来週、新しい職務に就く（引き受ける）。", "highlight": "assume" },
-            { "en": "The situation assumed a new importance.", "ja": "その状況は新たな重要性を帯びた（とる）。", "highlight": "assumed" },
-            { "en": "Don't assume anything without checking the facts.", "ja": "事実を確認せずに何も決めつけるな（思い込むな）。", "highlight": "assume" }
+            { "en": "They have a near-complete collection of his works.", "ja": "彼らは彼の作品のほぼ完全なコレクションを持っている。", "highlight": "near-complete" },
+            { "en": "The near-complete skeleton was found in the cave.", "ja": "ほぼ完全な骨格が洞窟で見つかった。", "highlight": "near-complete" },
+            { "en": "After years of work, the project is near-complete.", "ja": "何年もの作業の後、プロジェクトはほぼ完成している。", "highlight": "near-complete" },
+            { "en": "A near-complete manuscript was discovered.", "ja": "ほぼ完全な原稿が発見された。", "highlight": "near-complete" },
+            { "en": "The near-complete darkness made it hard to see.", "ja": "ほぼ完全な暗闇で見えにくかった。", "highlight": "near-complete" }
           ]
         }
       ],
-      "etymology": "ラテン語 ad-（～の方へ）+ sumere（取る）→ 自分の方へ取る。",
+      "etymology": "near（近い）+ complete（完全な）",
       "synonyms": [
-        { "word": "presume", "trans": "推定する、思う" },
-        { "word": "suppose", "trans": "仮定する" },
-        { "word": "undertake", "trans": "（責任などを）引き受ける" }
+        { "word": "almost complete", "trans": "ほとんど完成した" },
+        { "word": "nearly finished", "trans": "ほぼ終わった" },
+        { "word": "virtually complete", "trans": "事実上完全な" }
       ],
       "antonyms": [
-        { "word": "prove", "trans": "証明する" },
-        { "word": "deny", "trans": "否定する" },
-        { "word": "shirk", "trans": "（責任を）回避する" }
+        { "word": "incomplete", "trans": "不完全な" },
+        { "word": "partial", "trans": "部分的な" },
+        { "word": "far from complete", "trans": "ほど遠い" }
       ],
       "related": [
-        { "word": "assumption", "trans": "名詞：仮定、思い込み" },
-        { "word": "assuming", "trans": "接続詞：～と仮定すれば" },
-        { "word": "reassume", "trans": "動詞：再び引き受ける" }
+        { "word": "complete", "trans": "完全な" },
+        { "word": "near", "trans": "近い" },
+        { "word": "completion", "trans": "完了" }
       ]
     },
     {
       "number": 7201,
-      "word": "prospect",
-      "pos": "名詞",
-      "meaning": "見込み、期待、展望",
-      "nuance": "将来起こりそうなことや、将来の成功の可能性。また、視界に広がる風景を指すこともある。",
+      "word": "long-extinct",
+      "pos": "形容詞",
+      "meaning": "とっくに絶滅した、遠い昔に絶滅した",
+      "nuance": "非常に長い時間前に絶滅したことを強調する表現。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "The prospect of a job interview made her nervous.", "ja": "就職面接の見込みが彼女を緊張させた。", "highlight": "prospect" },
-            { "en": "His career prospects look very promising.", "ja": "彼のキャリアの見通しは非常に明るいようだ。", "highlight": "prospects" },
-            { "en": "There is little prospect of an immediate recovery.", "ja": "即時の回復の見込みはほとんどない。", "highlight": "prospect" },
-            { "en": "We were excited at the prospect of traveling abroad.", "ja": "私たちは海外旅行の期待にワクワクしていた。", "highlight": "prospect" },
-            { "en": "From the hilltop, the prospect was magnificent.", "ja": "丘の頂上からの展望は素晴らしかった。", "highlight": "prospect" }
+            { "en": "The dodo is a long-extinct bird.", "ja": "ドードーはとっくに絶滅した鳥だ。", "highlight": "long-extinct" },
+            { "en": "Scientists are studying DNA from long-extinct animals.", "ja": "科学者たちはとっくに絶滅した動物のDNAを研究している。", "highlight": "long-extinct" },
+            { "en": "Long-extinct species sometimes appear in legends.", "ja": "遠い昔に絶滅した種が伝説に登場することがある。", "highlight": "Long-extinct" },
+            { "en": "This fossil belongs to a long-extinct creature.", "ja": "この化石はとっくに絶滅した生物のものだ。", "highlight": "long-extinct" },
+            { "en": "Can we bring back long-extinct animals?", "ja": "とっくに絶滅した動物を復活させることはできるのか？", "highlight": "long-extinct" }
           ]
         }
       ],
-      "etymology": "ラテン語 pro-（前方へ）+ specere（見る）→ 前方を見ること。",
+      "etymology": "long（長い間）+ extinct（絶滅した）",
       "synonyms": [
-        { "word": "outlook", "trans": "展望、見通し" },
-        { "word": "possibility", "trans": "可能性" },
-        { "word": "expectation", "trans": "期待" }
+        { "word": "ancient extinct", "trans": "古代の絶滅種" },
+        { "word": "long-gone", "trans": "ずっと前にいなくなった" },
+        { "word": "prehistoric extinct", "trans": "先史時代に絶滅した" }
       ],
       "antonyms": [
-        { "word": "retrospect", "trans": "回想（過去を見ること）" },
-        { "word": "hopelessness", "trans": "絶望" },
-        { "word": "despair", "trans": "絶望" }
+        { "word": "still living", "trans": "まだ生きている" },
+        { "word": "extant", "trans": "現存する" },
+        { "word": "recently extinct", "trans": "最近絶滅した" }
       ],
       "related": [
-        { "word": "prospective", "trans": "形容詞：見込みのある、将来の" },
-        { "word": "prospectus", "trans": "名詞：案内書、目論見書" },
-        { "word": "inspect", "trans": "動詞：検査する（中を見る）" }
+        { "word": "extinct", "trans": "絶滅した" },
+        { "word": "long-lost", "trans": "長く失われた" },
+        { "word": "ancient", "trans": "古代の" }
       ]
     },
     {
       "number": 7202,
-      "word": "recipe",
+      "word": "woolly mammal",
       "pos": "名詞",
-      "meaning": "調理法、処方、秘訣",
-      "nuance": "料理の作り方だけでなく、ある結果をもたらすための「方法」や「原因」としても使われる（例：不幸せになるための秘訣）。",
+      "meaning": "毛に覆われた哺乳類",
+      "nuance": "特にケナガマンモス（woolly mammoth）などを指すことが多い。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "I tried a new recipe for chocolate cake.", "ja": "私はチョコレートケーキの新しいレシピを試した。", "highlight": "recipe" },
-            { "en": "What is the secret recipe for this sauce?", "ja": "このソースの秘伝のレシピは何ですか？", "highlight": "recipe" },
-            { "en": "His behavior is a recipe for disaster.", "ja": "彼の行動は災難を招くもと（秘訣）だ。", "highlight": "recipe" },
-            { "en": "Do you have any good recipes for vegetarian food?", "ja": "ベジタリアン料理の良いレシピを持っていますか？", "highlight": "recipes" },
-            { "en": "The grandmother passed down her recipes to her daughter.", "ja": "祖母は娘にレシピを伝えた。", "highlight": "recipes" }
+            { "en": "The woolly mammoth is a famous woolly mammal.", "ja": "ケナガマンモスは有名な毛に覆われた哺乳類だ。", "highlight": "woolly mammal" },
+            { "en": "Many woolly mammals lived during the ice age.", "ja": "多くの毛深い哺乳類が氷河期に生息していた。", "highlight": "woolly mammals" },
+            { "en": "The woolly rhinoceros was another woolly mammal.", "ja": "ケナガサイもまた毛深い哺乳類だった。", "highlight": "woolly mammal" },
+            { "en": "Scientists found a frozen woolly mammal in Siberia.", "ja": "科学者たちはシベリアで凍った毛深い哺乳類を発見した。", "highlight": "woolly mammal" },
+            { "en": "Woolly mammals had thick fur to survive the cold.", "ja": "毛深い哺乳類は寒さを生き抜くために厚い毛皮を持っていた。", "highlight": "Woolly mammals" }
           ]
         }
       ],
-      "etymology": "ラテン語 recipere（受け取る）の命令形。「受け取れ」から処方箋の書き出しに使われた。",
+      "etymology": "woolly（羊毛のような）+ mammal（哺乳類）",
       "synonyms": [
-        { "word": "formula", "trans": "公式、製法" },
-        { "word": "method", "trans": "方法" },
-        { "word": "prescription", "trans": "処方箋（語源的に近い）" }
+        { "word": "furry mammal", "trans": "毛皮のある哺乳類" },
+        { "word": "hairy mammal", "trans": "毛深い哺乳類" },
+        { "word": "woolly creature", "trans": "毛深い生き物" }
       ],
       "antonyms": [
-        { "word": "improvisation", "trans": "即興" },
-        { "word": "disorder", "trans": "無秩序" },
-        { "word": "chaos", "trans": "混沌" }
+        { "word": "hairless mammal", "trans": "無毛の哺乳類" },
+        { "word": "smooth-skinned animal", "trans": "滑らかな皮膚の動物" },
+        { "word": "reptile", "trans": "爬虫類" }
       ],
       "related": [
-        { "word": "receive", "trans": "動詞：受け取る" },
-        { "word": "receipt", "trans": "名詞：領収書、受け取り" },
-        { "word": "recipient", "trans": "名詞：受取人" }
+        { "word": "woolly mammoth", "trans": "ケナガマンモス" },
+        { "word": "mammal", "trans": "哺乳類" },
+        { "word": "fur", "trans": "毛皮" }
       ]
     },
     {
       "number": 7203,
-      "word": "speculation",
+      "word": "molecular biologist",
       "pos": "名詞",
-      "meaning": "推測、思索、投機",
-      "nuance": "十分な証拠がない状態での「あてずっぽうの推測」や、利益を狙った株などの「投機」を指す。",
+      "meaning": "分子生物学者",
+      "nuance": "DNA・RNA・タンパク質など分子レベルで生命現象を研究する科学者。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "There is much speculation about the cause of the fire.", "ja": "火事の原因について多くの推測がなされている。", "highlight": "speculation" },
-            { "en": "The news is based on pure speculation.", "ja": "そのニュースは単なる推測に基づいている。", "highlight": "speculation" },
-            { "en": "He lost a lot of money in property speculation.", "ja": "彼は不動産投機で大損した。", "highlight": "speculation" },
-            { "en": "Speculation that she might resign has been denied.", "ja": "彼女が辞任するかもしれないという推測は否定された。", "highlight": "Speculation" },
-            { "en": "Scientists are engaged in speculation about life on Mars.", "ja": "科学者たちは火星の生命についての推測を行っている。", "highlight": "speculation" }
+            { "en": "The molecular biologist discovered a new gene.", "ja": "その分子生物学者は新しい遺伝子を発見した。", "highlight": "molecular biologist" },
+            { "en": "She works as a molecular biologist at a university.", "ja": "彼女は大学で分子生物学者として働いている。", "highlight": "molecular biologist" },
+            { "en": "Molecular biologists study the building blocks of life.", "ja": "分子生物学者は生命の構成要素を研究する。", "highlight": "Molecular biologists" },
+            { "en": "He won a prize for his work as a molecular biologist.", "ja": "彼は分子生物学者としての業績で賞を受賞した。", "highlight": "molecular biologist" },
+            { "en": "Many molecular biologists are working on gene editing.", "ja": "多くの分子生物学者が遺伝子編集に取り組んでいる。", "highlight": "molecular biologists" }
           ]
         }
       ],
-      "etymology": "ラテン語 speculari（見張る、観察する）から。specere（見る）が語源。",
+      "etymology": "molecular（分子の）+ biologist（生物学者）",
       "synonyms": [
-        { "word": "conjecture", "trans": "推測" },
-        { "word": "guesswork", "trans": "あてずっぽう" },
-        { "word": "investment", "trans": "投資（投機の文脈で）" }
+        { "word": "geneticist", "trans": "遺伝学者" },
+        { "word": "biochemist", "trans": "生化学者" },
+        { "word": "cell biologist", "trans": "細胞生物学者" }
       ],
       "antonyms": [
-        { "word": "fact", "trans": "事実" },
-        { "word": "certainty", "trans": "確実性" },
-        { "word": "proof", "trans": "証明" }
+        { "word": "ecologist", "trans": "生態学者" },
+        { "word": "field biologist", "trans": "フィールド生物学者" },
+        { "word": "zoologist", "trans": "動物学者" }
       ],
       "related": [
-        { "word": "speculate", "trans": "動詞：推測する、投機する" },
-        { "word": "speculative", "trans": "形容詞：推測に基づく、投機的な" },
-        { "word": "spectacle", "trans": "名詞：光景、見世物" }
+        { "word": "molecular biology", "trans": "分子生物学" },
+        { "word": "biologist", "trans": "生物学者" },
+        { "word": "molecule", "trans": "分子" }
       ]
     },
     {
       "number": 7204,
-      "word": "woolly",
-      "pos": "形容詞",
-      "meaning": "羊毛の、毛に覆われた、ぼんやりした",
-      "nuance": "羊の毛のような質感だけでなく、考えや輪郭が「はっきりしない、もやもやした」ことも表す。",
+      "word": "driving force behind ...",
+      "pos": "名詞句",
+      "meaning": "～を支える原動力",
+      "nuance": "何かを進行させたり成功させたりする主要な力や動機を指す。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "The woolly mammoth is an extinct animal.", "ja": "ケナガマンモスは絶滅した動物だ。", "highlight": "woolly" },
-            { "en": "She wore a thick, woolly sweater.", "ja": "彼女は厚手の羊毛のセーターを着ていた。", "highlight": "woolly" },
-            { "en": "His ideas are a bit woolly and unclear.", "ja": "彼の考えは少しぼんやりしていて不明確だ。", "highlight": "woolly" },
-            { "en": "The dog has a soft, woolly coat.", "ja": "その犬は柔らかい毛に覆われている。", "highlight": "woolly" },
-            { "en": "I have a woolly feeling in my head today.", "ja": "今日は頭がぼーっとする（ぼんやりした感じだ）。", "highlight": "woolly" }
+            { "en": "Curiosity is the driving force behind scientific discovery.", "ja": "好奇心が科学の発見を支える原動力だ。", "highlight": "driving force behind" },
+            { "en": "She was the driving force behind the project.", "ja": "彼女はそのプロジェクトの原動力だった。", "highlight": "driving force behind" },
+            { "en": "Passion is the driving force behind his success.", "ja": "情熱が彼の成功の原動力です。", "highlight": "driving force behind" },
+            { "en": "The CEO is the driving force behind the company's growth.", "ja": "CEOが会社の成長を支える原動力だ。", "highlight": "driving force behind" },
+            { "en": "Innovation is the driving force behind economic development.", "ja": "イノベーションは経済発展の原動力である。", "highlight": "driving force behind" }
           ]
         }
       ],
-      "etymology": "名詞 wool（羊毛）+ 接尾辞 -y（～の性質の）。",
+      "etymology": "drive（駆り立てる）+ force（力）",
       "synonyms": [
-        { "word": "hairy", "trans": "毛深い" },
-        { "word": "fuzzy", "trans": "けばだった、あいまいな" },
-        { "word": "vague", "trans": "あいまいな（考えなどが）" }
+        { "word": "engine of", "trans": "～のエンジン" },
+        { "word": "catalyst for", "trans": "～の触媒" },
+        { "word": "mainspring of", "trans": "～の主な動機" }
       ],
       "antonyms": [
-        { "word": "hairless", "trans": "毛のない" },
-        { "word": "clear", "trans": "明確な" },
-        { "word": "sharp", "trans": "鋭い、はっきりした" }
+        { "word": "obstacle to", "trans": "～の障害" },
+        { "word": "hindrance", "trans": "妨げ" },
+        { "word": "drag on", "trans": "足を引っ張るもの" }
       ],
       "related": [
-        { "word": "wool", "trans": "名詞：羊毛" },
-        { "word": "woollen", "trans": "形容詞：毛織物の" },
-        { "word": "woolliness", "trans": "名詞：毛深さ、あいまいさ" }
+        { "word": "driving force", "trans": "原動力" },
+        { "word": "behind", "trans": "～の背後に" },
+        { "word": "motivation", "trans": "動機" }
       ]
     },
     {
       "number": 7205,
       "word": "untouched",
       "pos": "形容詞",
-      "meaning": "手つかずの、影響を受けていない、感動しない",
-      "nuance": "人が足を踏み入れていない自然や、変化を免れた状態、または感情が動かされなかったことを指す。",
+      "meaning": "手つかずの、無傷の、影響を受けていない",
+      "nuance": "人間の手が加えられていない状態。比喩的にも使える。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "The island's natural beauty remains untouched.", "ja": "その島の自然の美しさは手つかずのままだ。", "highlight": "untouched" },
-            { "en": "The food on the table was left untouched.", "ja": "テーブルの上の食べ物は手つかずのまま残されていた。", "highlight": "untouched" },
-            { "en": "Fortunately, the village was untouched by the war.", "ja": "幸いなことに、その村は戦争の被害を受けなかった。", "highlight": "untouched" },
-            { "en": "He seemed completely untouched by her tears.", "ja": "彼は彼女の涙にまったく心を動かされないようだった。", "highlight": "untouched" },
-            { "en": "This ancient forest is one of the few untouched areas left.", "ja": "この古代の森は、数少ない手つかずの地域の1つだ。", "highlight": "untouched" }
+            { "en": "The forest remains untouched by development.", "ja": "その森は開発の手が入っていない。", "highlight": "untouched" },
+            { "en": "He left his food untouched.", "ja": "彼は食事に手をつけなかった。", "highlight": "untouched" },
+            { "en": "The ancient tomb was found untouched.", "ja": "古代の墓は無傷のまま見つかった。", "highlight": "untouched" },
+            { "en": "Her beauty remained untouched by age.", "ja": "彼女の美しさは年齢の影響を受けていなかった。", "highlight": "untouched" },
+            { "en": "These areas have been untouched for centuries.", "ja": "これらの地域は何世紀も手つかずのままである。", "highlight": "untouched" }
           ]
         }
       ],
-      "etymology": "否定の un- + touch（触れる）+ 受動の -ed。触れられていないこと。",
+      "etymology": "un-（否定）+ touched（触れられた）",
       "synonyms": [
-        { "word": "pristine", "trans": "汚れのない、初期状態の" },
-        { "word": "unspoiled", "trans": "台無しにされていない、純朴な" },
-        { "word": "intact", "trans": "損なわれていない" }
+        { "word": "pristine", "trans": "原始のままの" },
+        { "word": "unspoiled", "trans": "損なわれていない" },
+        { "word": "intact", "trans": "無傷の" }
       ],
       "antonyms": [
         { "word": "damaged", "trans": "損傷した" },
-        { "word": "altered", "trans": "変えられた" },
-        { "word": "affected", "trans": "影響を受けた、感動した" }
+        { "word": "touched", "trans": "触れられた" },
+        { "word": "altered", "trans": "変えられた" }
       ],
       "related": [
-        { "word": "touch", "trans": "動詞：触れる、感動させる" },
-        { "word": "touching", "trans": "形容詞：感動的な" },
-        { "word": "unapproachable", "trans": "形容詞：近づきがたい" }
+        { "word": "touch", "trans": "触れる" },
+        { "word": "untouchable", "trans": "触れられない" },
+        { "word": "virgin", "trans": "未開の" }
       ]
     },
     {
       "number": 7206,
       "word": "bacteria",
       "pos": "名詞",
-      "meaning": "バクテリア、細菌",
-      "nuance": "単数形は bacterium。顕微鏡でしか見えない単細胞生物。善玉菌も悪玉菌も含まれる。",
+      "meaning": "細菌",
+      "nuance": "単数形は bacterium。多くは有害ではないが、病原菌も含む。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "Antibiotics are used to kill harmful bacteria.", "ja": "抗生物質は有害な細菌を殺すために使われる。", "highlight": "bacteria" },
-            { "en": "Some bacteria are essential for human health.", "ja": "一部のバクテリアは人間の健康に不可欠だ。", "highlight": "bacteria" },
-            { "en": "Bacteria can multiply rapidly in warm conditions.", "ja": "細菌は暖かい環境で急速に増殖する可能性がある。", "highlight": "Bacteria" },
-            { "en": "The yogurt contains live bacteria.", "ja": "そのヨーグルトには生きた乳酸菌（細菌）が含まれている。", "highlight": "bacteria" },
-            { "en": "He suffered from a severe bacteria infection.", "ja": "彼はひどい細菌感染症に苦しんだ。", "highlight": "bacteria" }
+            { "en": "Some bacteria are beneficial for digestion.", "ja": "一部の細菌は消化に良い。", "highlight": "bacteria" },
+            { "en": "The infection is caused by bacteria.", "ja": "その感染症は細菌によって引き起こされる。", "highlight": "bacteria" },
+            { "en": "Bacteria multiply quickly in warm conditions.", "ja": "細菌は暖かい環境ですばやく増殖する。", "highlight": "Bacteria" },
+            { "en": "Antibiotics kill harmful bacteria.", "ja": "抗生物質は有害な細菌を殺す。", "highlight": "bacteria" },
+            { "en": "The water was contaminated with bacteria.", "ja": "その水は細菌で汚染されていた。", "highlight": "bacteria" }
           ]
         }
       ],
-      "etymology": "ギリシャ語で「小さな杖」を意味する言葉から。顕微鏡で見える形に由来。",
+      "etymology": "ギリシャ語 bakterion（小さな棒）から。",
       "synonyms": [
-        { "word": "germs", "trans": "ばい菌（より一般的な呼称）" },
-        { "word": "microorganisms", "trans": "微生物" },
-        { "word": "microbes", "trans": "微生物、細菌" }
+        { "word": "germs", "trans": "病原菌" },
+        { "word": "microbes", "trans": "微生物" },
+        { "word": "microorganisms", "trans": "微生物" }
       ],
       "antonyms": [
-        { "word": "virus", "trans": "ウイルス（生物学的分類が異なる）" },
-        { "word": "sterility", "trans": "無菌状態" },
-        { "word": "host", "trans": "宿主" }
+        { "word": "virus", "trans": "ウイルス" },
+        { "word": "fungus", "trans": "真菌" },
+        { "word": "sterile", "trans": "無菌の状態" }
       ],
       "related": [
-        { "word": "bacterium", "trans": "名詞：細菌（単数形）" },
         { "word": "bacterial", "trans": "形容詞：細菌の" },
-        { "word": "bacteriology", "trans": "名詞：細菌学" }
+        { "word": "bacterium", "trans": "単数形：細菌" },
+        { "word": "antibiotic", "trans": "抗生物質" }
       ]
     },
     {
       "number": 7207,
       "word": "specimen",
       "pos": "名詞",
-      "meaning": "標本、見本、試料",
-      "nuance": "研究や検査のために採取された、全体を代表する一部。また、変わった人物を指して「やつ」と呼ぶこともある。",
+      "meaning": "標本、見本、検査サンプル",
+      "nuance": "研究や検査のために採取された代表的なサンプル。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "The museum has a fine specimen of a dinosaur skull.", "ja": "その博物館には恐竜の頭蓋骨の見事な標本がある。", "highlight": "specimen" },
-            { "en": "Please provide a urine specimen for the medical check.", "ja": "健康診断のために尿の検体（試料）を提出してください。", "highlight": "specimen" },
-            { "en": "This is a rare specimen of a 17th-century coin.", "ja": "これは17世紀の硬貨の珍しい見本だ。", "highlight": "specimen" },
-            { "en": "The lab is analyzing the blood specimen.", "ja": "研究室は血液の検体を分析している。", "highlight": "specimen" },
-            { "en": "He's a very strange specimen of a man.", "ja": "彼は実におかしなやつ（標本のような男）だ。", "highlight": "specimen" }
+            { "en": "The museum has a rare dinosaur specimen.", "ja": "その博物館には珍しい恐竜の標本がある。", "highlight": "specimen" },
+            { "en": "The doctor took a blood specimen.", "ja": "医者は血液検体を採取した。", "highlight": "specimen" },
+            { "en": "This is a perfect specimen of the species.", "ja": "これはその種の完璧な標本だ。", "highlight": "specimen" },
+            { "en": "They collected plant specimens in the rainforest.", "ja": "彼らは熱帯雨林で植物標本を採集した。", "highlight": "specimens" },
+            { "en": "The fossil specimen is over 10,000 years old.", "ja": "その化石標本は1万年以上前のものだ。", "highlight": "specimen" }
           ]
         }
       ],
-      "etymology": "ラテン語 specere（見る）から。見られるべきもの。",
+      "etymology": "ラテン語 specere（見る）から → 見本。",
       "synonyms": [
-        { "word": "sample", "trans": "サンプル、見本" },
+        { "word": "sample", "trans": "サンプル" },
         { "word": "example", "trans": "例" },
-        { "word": "model", "trans": "模型、手本" }
+        { "word": "representative", "trans": "代表例" }
       ],
       "antonyms": [
         { "word": "whole", "trans": "全体" },
-        { "word": "mass", "trans": "塊、集団" },
-        { "word": "entirety", "trans": "全体、総体" }
+        { "word": "population", "trans": "母集団" },
+        { "word": "average", "trans": "平均的なもの" }
       ],
       "related": [
-        { "word": "specific", "trans": "形容詞：特定の" },
-        { "word": "species", "trans": "名詞：種" },
-        { "word": "spectate", "trans": "動詞：観戦する" }
+        { "word": "specify", "trans": "明確に指定する" },
+        { "word": "species", "trans": "種" },
+        { "word": "type", "trans": "タイプ" }
       ]
     },
     {
       "number": 7208,
-      "word": "intact",
-      "pos": "形容詞",
-      "meaning": "無傷の、損なわれていない、手つかずの",
-      "nuance": "壊れたり欠けたりせず、元のままの状態を保っていること。",
+      "word": "icy wasteland",
+      "pos": "名詞句",
+      "meaning": "氷に覆われた不毛の地",
+      "nuance": "厳しい寒さで生命がほとんど存在しない地域を描写する。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "The vase fell, but fortunately it remained intact.", "ja": "花瓶は落ちたが、幸いにも無傷だった。", "highlight": "intact" },
-            { "en": "Most of the ancient ruins are still intact.", "ja": "古代遺跡の大部分はまだそのままの形で残っている。", "highlight": "intact" },
-            { "en": "His reputation survived the scandal intact.", "ja": "彼の名声はスキャンダルを乗り越えても損なわれなかった。", "highlight": "intact" },
-            { "en": "The package arrived with its seal intact.", "ja": "荷物は封印が解かれないまま届いた。", "highlight": "intact" },
-            { "en": "Despite the fire, the historic documents were found intact.", "ja": "火事にもかかわらず、歴史的文書は無事（無傷）で見つかった。", "highlight": "intact" }
+            { "en": "Antarctica is a vast icy wasteland.", "ja": "南極は広大な氷の不毛の地である。", "highlight": "icy wasteland" },
+            { "en": "The explorers crossed the icy wasteland for months.", "ja": "探検家たちは何ヶ月もかけて氷の不毛の地を横断した。", "highlight": "icy wasteland" },
+            { "en": "Nothing grows in that icy wasteland.", "ja": "その氷の不毛の地では何も育たない。", "highlight": "icy wasteland" },
+            { "en": "They were lost in an icy wasteland with no shelter.", "ja": "彼らは避難所のない氷の荒地で迷子になった。", "highlight": "icy wasteland" },
+            { "en": "The movie is set in a post-apocalyptic icy wasteland.", "ja": "その映画は終末後の氷の荒地が舞台だ。", "highlight": "icy wasteland" }
           ]
         }
       ],
-      "etymology": "ラテン語 in-（否定）+ tangere（触れる）→ 触れられていない、損なわれていない。",
+      "etymology": "icy（氷の）+ wasteland（荒地）",
       "synonyms": [
-        { "word": "undamaged", "trans": "損傷のない" },
-        { "word": "whole", "trans": "全体の、欠けたところのない" },
-        { "word": "complete", "trans": "完全な" }
+        { "word": "frozen desert", "trans": "凍った砂漠" },
+        { "word": "polar desert", "trans": "極地砂漠" },
+        { "word": "glacier plain", "trans": "氷河平原" }
       ],
       "antonyms": [
-        { "word": "damaged", "trans": "損傷した" },
-        { "word": "broken", "trans": "壊れた" },
-        { "word": "fragmented", "trans": "断片化した" }
+        { "word": "lush forest", "trans": "豊かな森" },
+        { "word": "fertile land", "trans": "肥沃な土地" },
+        { "word": "tropical paradise", "trans": "熱帯の楽園" }
       ],
       "related": [
-        { "word": "tangible", "trans": "形容詞：触れられる、明白な" },
-        { "word": "contact", "trans": "名詞：接触" },
-        { "word": "tactile", "trans": "形容詞：触覚の" }
+        { "word": "wasteland", "trans": "荒地" },
+        { "word": "icy", "trans": "氷の" },
+        { "word": "tundra", "trans": "ツンドラ" }
       ]
     },
     {
       "number": 7209,
-      "word": "sequence",
-      "pos": "名詞・動詞",
-      "meaning": "順序、連続、配列を決定する",
-      "nuance": "物事が起こる順番や一連の流れを指す。科学の分野ではDNAの配列を決定することを動詞として「シークエンスする」と言う。",
+      "word": "intact",
+      "pos": "形容詞",
+      "meaning": "無傷の、完全な",
+      "nuance": "壊れたり損なわれたりしていない状態。元のままの完全さを強調。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "The tasks must be performed in the correct sequence.", "ja": "タスクは正しい順序で行われなければならない。", "highlight": "sequence" },
-            { "en": "The film has an exciting opening sequence.", "ja": "その映画にはワクワクするような冒頭シーンの連続がある。", "highlight": "sequence" },
-            { "en": "Scientists managed to sequence the entire human genome.", "ja": "科学者たちはヒトゲノム全体を配列決定（シークエンス）することに成功した。", "highlight": "sequence" },
-            { "en": "He numbered the pages in sequence.", "ja": "彼はページに順に番号を振った。", "highlight": "sequence" },
-            { "en": "This is a sequence of events that led to the accident.", "ja": "これが事故に至る一連の出来事の流れだ。", "highlight": "sequence" }
+            { "en": "The ancient vase was found intact.", "ja": "その古代の壺は無傷で見つかった。", "highlight": "intact" },
+            { "en": "His reputation remained intact after the scandal.", "ja": "スキャンダルの後も彼の評判は無傷だった。", "highlight": "intact" },
+            { "en": "The building's structure is still intact.", "ja": "建物の構造はまだ無傷だ。", "highlight": "intact" },
+            { "en": "They survived the crash with their dignity intact.", "ja": "彼らは墜落を尊厳を保ったまま生き延びた。", "highlight": "intact" },
+            { "en": "The frozen body was perfectly intact.", "ja": "凍った遺体は完全に無傷だった。", "highlight": "intact" }
           ]
         }
       ],
-      "etymology": "ラテン語 sequi（続く）より。次々に続くこと。",
+      "etymology": "ラテン語 intactus（触れられていない）から。",
       "synonyms": [
-        { "word": "order", "trans": "順序" },
-        { "word": "succession", "trans": "連続、継承" },
-        { "word": "series", "trans": "シリーズ、一連" }
+        { "word": "undamaged", "trans": "損傷していない" },
+        { "word": "unbroken", "trans": "壊れていない" },
+        { "word": "whole", "trans": "全体の" }
       ],
       "antonyms": [
-        { "word": "disorder", "trans": "無秩序" },
-        { "word": "randomness", "trans": "ランダムさ" },
-        { "word": "jumble", "trans": "ごちゃまぜ" }
+        { "word": "damaged", "trans": "損傷した" },
+        { "word": "broken", "trans": "壊れた" },
+        { "word": "partial", "trans": "部分的な" }
       ],
       "related": [
-        { "word": "consequence", "trans": "名詞：結果（続いて起こること）" },
-        { "word": "subsequent", "trans": "形容詞：次に起こる" },
-        { "word": "sequel", "trans": "名詞：続編" }
+        { "word": "intactness", "trans": "完全性" },
+        { "word": "intactly", "trans": "副詞：無傷で" },
+        { "word": "contact", "trans": "接触" }
       ]
     },
     {
       "number": 7210,
-      "word": "clone",
-      "pos": "名詞・動詞",
-      "meaning": "クローン、複製、～のクローンを作る",
-      "nuance": "遺伝的に同一の個体や、まったく同じコピーを作ることを指す。",
+      "word": "out",
+      "pos": "形容詞",
+      "meaning": "受け入れられない、時代遅れの、場違いな",
+      "nuance": "流行や規範から外れている状態。カジュアルな表現。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "Dolly the sheep was the first mammal to be cloned.", "ja": "羊のドリーは、クローン化された最初の哺乳類だった。", "highlight": "cloned" },
-            { "en": "The movie is just a clone of an earlier successful film.", "ja": "その映画は以前の成功作の単なる模倣（クローン）だ。", "highlight": "clone" },
-            { "en": "Scientists are debating the ethics of human cloning.", "ja": "科学者たちはヒトクローンの倫理について議論している。", "highlight": "cloning" },
-            { "en": "It is possible to clone certain plants from a single leaf.", "ja": "1枚の葉から特定の植物のクローンを作ることが可能だ。", "highlight": "clone" },
-            { "en": "He felt like a clone, dressed exactly like everyone else.", "ja": "彼は皆とまったく同じ格好をして、まるでクローンのように感じた。", "highlight": "clone" }
+            { "en": "That style is out this season.", "ja": "そのスタイルは今シーズンは受け入れられない（流行遅れだ）。", "highlight": "out" },
+            { "en": "Your suggestion is completely out.", "ja": "あなたの提案はまったく場違いだ。", "highlight": "out" },
+            { "en": "Long skirts are out; short skirts are in.", "ja": "長いスカートは流行遅れで、短いスカートがはやっている。", "highlight": "out" },
+            { "en": "His behavior was out of line.", "ja": "彼の行動は不適切だった。", "highlight": "out" },
+            { "en": "That idea is out; nobody supports it.", "ja": "そのアイデアは受け入れられない。誰も支持していない。", "highlight": "out" }
           ]
         }
       ],
-      "etymology": "ギリシャ語 klon（小枝）から。挿し木で増やすことに由来。",
+      "etymology": "古英語 ut（外へ）から。",
       "synonyms": [
-        { "word": "duplicate", "trans": "複製、二重の" },
-        { "word": "copy", "trans": "コピー、写し" },
-        { "word": "replica", "trans": "レプリカ、模造品" }
+        { "word": "unacceptable", "trans": "受け入れられない" },
+        { "word": "unfashionable", "trans": "時代遅れの" },
+        { "word": "inappropriate", "trans": "不適切な" }
       ],
       "antonyms": [
-        { "word": "original", "trans": "オリジナル、独創的なもの" },
-        { "word": "prototype", "trans": "原型" },
-        { "word": "unique", "trans": "唯一無二の" }
+        { "word": "in", "trans": "はやっている" },
+        { "word": "acceptable", "trans": "受け入れられる" },
+        { "word": "fashionable", "trans": "流行の" }
       ],
       "related": [
-        { "word": "clonal", "trans": "形容詞：クローンの" },
-        { "word": "cloning", "trans": "名詞：クローン作成" },
-        { "word": "monoclonal", "trans": "形容詞：単一クローン性の" }
+        { "word": "out of style", "trans": "流行遅れ" },
+        { "word": "outdated", "trans": "時代遅れの" },
+        { "word": "outcast", "trans": "追放された人" }
       ]
     },
     {
       "number": 7211,
-      "word": "charisma",
-      "pos": "名詞",
-      "meaning": "カリスマ性、非凡な魅力",
-      "nuance": "人々を引きつけ、心酔させるような天賦の才能や強い個人的な魅力。",
+      "word": "sequence",
+      "pos": "動詞",
+      "meaning": "並べる、順序づける、配列を決定する",
+      "nuance": "特にDNAの塩基配列を決定する文脈でよく使われる。",
       "example_sections": [
         {
           "title": "例文",
           "examples": [
-            { "en": "The leader possessed great personal charisma.", "ja": "そのリーダーは素晴らしい個人的なカリスマ性を持っていた。", "highlight": "charisma" },
-            { "en": "She lacks the charisma needed to be a TV host.", "ja": "彼女にはテレビ司会者として必要なカリスマ性が欠けている。", "highlight": "charisma" },
-            { "en": "His charisma helped him win the election.", "ja": "彼のカリスマ性が選挙に勝つのを助けた。", "highlight": "charisma" },
-            { "en": "The actor has a certain charisma that shines on screen.", "ja": "その俳優にはスクリーンで輝くある種のカリスマ性がある。", "highlight": "charisma" },
-            { "en": "It's hard to define charisma, but you know it when you see it.", "ja": "カリスマ性を定義するのは難しいが、見ればそれが何かわかる。", "highlight": "charisma" }
+            { "en": "Scientists sequenced the entire genome.", "ja": "科学者たちは全ゲノムの配列を決定した。", "highlight": "sequenced" },
+            { "en": "We need to sequence the data in chronological order.", "ja": "データを時系列順に並べる必要がある。", "highlight": "sequence" },
+            { "en": "The lab sequenced the DNA sample.", "ja": "研究室はDNAサンプルの配列を決定した。", "highlight": "sequenced" },
+            { "en": "He sequenced the events as they happened.", "ja": "彼は出来事を起こった順に並べた。", "highlight": "sequenced" },
+            { "en": "Sequencing the human genome took over a decade.", "ja": "ヒトゲノムの配列決定には10年以上かかった。", "highlight": "Sequencing" }
           ]
         }
       ],
-      "etymology": "ギリシャ語 charis（恵み、恩恵）から。神からの授かりものを意味した。",
+      "etymology": "ラテン語 sequi（続く）から。",
       "synonyms": [
-        { "word": "magnetism", "trans": "人を引きつける魅力" },
+        { "word": "arrange", "trans": "整列させる" },
+        { "word": "order", "trans": "順序づける" },
+        { "word": "sort", "trans": "分類する" }
+      ],
+      "antonyms": [
+        { "word": "scramble", "trans": "ごちゃ混ぜにする" },
+        { "word": "disorder", "trans": "乱す" },
+        { "word": "randomize", "trans": "ランダム化する" }
+      ],
+      "related": [
+        { "word": "sequence", "trans": "名詞：順序、配列" },
+        { "word": "sequencer", "trans": "シーケンサー" },
+        { "word": "subsequence", "trans": "部分列" }
+      ]
+    },
+    {
+      "number": 7212,
+      "word": "inherited disease",
+      "pos": "名詞",
+      "meaning": "遺伝病、遺伝性疾患",
+      "nuance": "親から子へ遺伝子を通じて伝わる病気。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            { "en": "Cystic fibrosis is a common inherited disease.", "ja": "嚢胞性線維症は一般的な遺伝病である。", "highlight": "inherited disease" },
+            { "en": "Some inherited diseases can be detected before birth.", "ja": "一部の遺伝病は出生前に検出できる。", "highlight": "inherited disease" },
+            { "en": "He suffers from a rare inherited disease.", "ja": "彼は稀な遺伝病を患っている。", "highlight": "inherited disease" },
+            { "en": "Gene therapy may cure certain inherited diseases.", "ja": "遺伝子治療は特定の遺伝病を治すかもしれない。", "highlight": "inherited diseases" },
+            { "en": "The inherited disease affected multiple generations.", "ja": "その遺伝病は複数世代に影響を与えた。", "highlight": "inherited disease" }
+          ]
+        }
+      ],
+      "etymology": "inherit（遺伝する）+ disease（病気）",
+      "synonyms": [
+        { "word": "genetic disorder", "trans": "遺伝性疾患" },
+        { "word": "hereditary disease", "trans": "遺伝病" },
+        { "word": "congenital disease", "trans": "先天性疾患" }
+      ],
+      "antonyms": [
+        { "word": "acquired disease", "trans": "後天性疾患" },
+        { "word": "infectious disease", "trans": "感染症" },
+        { "word": "lifestyle disease", "trans": "生活習慣病" }
+      ],
+      "related": [
+        { "word": "inherit", "trans": "遺伝する" },
+        { "word": "genetic mutation", "trans": "遺伝子変異" },
+        { "word": "carrier", "trans": "保因者" }
+      ]
+    },
+    {
+      "number": 7213,
+      "word": "clone",
+      "pos": "動詞",
+      "meaning": "クローンを作る、複製する",
+      "nuance": "遺伝的に同一のコピーを作成すること。比喩的にも使える。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            { "en": "Scientists cloned a sheep named Dolly.", "ja": "科学者たちはドリーという名前の羊のクローンを作った。", "highlight": "cloned" },
+            { "en": "They are trying to clone an extinct species.", "ja": "彼らは絶滅した種のクローンを作ろうとしている。", "highlight": "clone" },
+            { "en": "It is illegal to clone humans in many countries.", "ja": "多くの国で人間のクローンを作ることは違法である。", "highlight": "clone" },
+            { "en": "The company cloned the software illegally.", "ja": "その会社はソフトウェアを違法に複製した。", "highlight": "cloned" },
+            { "en": "He cloned his phone's data to the new device.", "ja": "彼は電話のデータを新しいデバイスに複製した。", "highlight": "cloned" }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 klōn（小枝）から → 挿し木で増やすこと。",
+      "synonyms": [
+        { "word": "copy", "trans": "複製する" },
+        { "word": "duplicate", "trans": "複製する" },
+        { "word": "replicate", "trans": "複製する" }
+      ],
+      "antonyms": [
+        { "word": "original", "trans": "オリジナル" },
+        { "word": "unique", "trans": "唯一の" },
+        { "word": "destroy", "trans": "破壊する" }
+      ],
+      "related": [
+        { "word": "clone", "trans": "名詞：クローン" },
+        { "word": "cloning", "trans": "クローン技術" },
+        { "word": "clonal", "trans": "クローンの" }
+      ]
+    },
+    {
+      "number": 7214,
+      "word": "charisma",
+      "pos": "名詞",
+      "meaning": "カリスマ性、人を引きつける魅力",
+      "nuance": "自然に他者を惹きつける特別な資質。リーダーに多い。",
+      "example_sections": [
+        {
+          "title": "例文",
+          "examples": [
+            { "en": "The leader had great charisma.", "ja": "そのリーダーは非常にカリスマ性があった。", "highlight": "charisma" },
+            { "en": "Her charisma made her a popular speaker.", "ja": "彼女のカリスマ性で人気のスピーカーになった。", "highlight": "charisma" },
+            { "en": "Some people are born with natural charisma.", "ja": "生まれつきカリスマ性を持つ人もいる。", "highlight": "charisma" },
+            { "en": "Charisma alone is not enough to be a good leader.", "ja": "カリスマ性だけでは良いリーダーにはなれない。", "highlight": "Charisma" },
+            { "en": "The actor's charisma captivated the audience.", "ja": "その俳優のカリスマ性が観客を魅了した。", "highlight": "charisma" }
+          ]
+        }
+      ],
+      "etymology": "ギリシャ語 kharisma（神からの恩恵）から。",
+      "synonyms": [
+        { "word": "magnetism", "trans": "魅力" },
         { "word": "presence", "trans": "存在感" },
         { "word": "charm", "trans": "魅力" }
       ],
       "antonyms": [
-        { "word": "dullness", "trans": "退屈さ、平凡さ" },
-        { "word": "repulsion", "trans": "嫌悪、反発" },
-        { "word": "unattractiveness", "trans": "魅力のなさ" }
+        { "word": "blandness", "trans": "無個性" },
+        { "word": "unattractiveness", "trans": "魅力のなさ" },
+        { "word": "repulsiveness", "trans": "嫌悪感" }
       ],
       "related": [
         { "word": "charismatic", "trans": "形容詞：カリスマ的な" },
-        { "word": "charity", "trans": "名詞：慈善、慈愛（語源が同じ）" },
-        { "word": "cherish", "trans": "動詞：大切にする" }
+        { "word": "charismatically", "trans": "副詞：カリスマ的に" },
+        { "word": "charismatics", "trans": "カリスマ派の人々" }
       ]
     }
   ]
