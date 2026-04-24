@@ -1,186 +1,521 @@
-<html>
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>207系H3編成 | 鉄道写真</title>
+  <meta name="description" content="207系H3編成の編成情報・車歴・写真をまとめたページです。" />
 
-<head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push(i)})
-(window,'GTM-G26Z','google_tags_first_party');</script><script>(function(w,d,s,l){w[l]=w[l]||[];(function(){w[l].push(arguments);})('set', 'developer_id.dYzg1YT', true);
-		w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s);j.async=true;j.src='/ngstracking/';
-		f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer');</script>
-  <title>東進学力POS</title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="keywords" content="東進,東進,ハイスクール,予備校,センター,試験,大学,受験,入試">
-  <meta name="description" content="大学受験の東進ハイスクール入学案内。難関大学受験・入試に確かな合格実績。東進ハイスクールは授業をするだけの予備校ではなく、本当に学力を伸ばす予備校です。">
-  <meta name="reply-to" content="pub@toshin.ac.jp">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="https://www.toshin.com/IncUnit/css/global.css" rel="stylesheet" type="text/css">
-  <link href="css/property-reset.css" rel="stylesheet" type="text/css">
-  <link href="css/ad-banner.css" rel="stylesheet">
-<script type="text/javascript" async src="/js/tracking_code.js" charset="utf-8"></script></head>
+  <style>
+    :root {
+      --page-bg: #f5f7fb;
+      --card-bg: #ffffff;
+      --text: #222;
+      --subtext: #666;
+      --line: #d7dce3;
+      --accent: #2b6cb0;
+      --accent-soft: #e9f2fb;
+      --head-bg: #f2f4f7;
+      --note-bg: #f8f8f8;
+      --shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+      --radius: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page-bg);
+      color: var(--text);
+      font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 18px 14px 40px;
+    }
+
+    .site-header {
+      margin-bottom: 14px;
+      padding: 18px 18px 14px;
+      background: linear-gradient(180deg, #fff 0%, #fbfcfe 100%);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .breadcrumb {
+      margin: 0 0 10px;
+      color: #7a8594;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .breadcrumb span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .site-title {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.35;
+    }
+
+    .site-subtitle {
+      margin: 6px 0 0;
+      color: var(--subtext);
+      font-size: 14px;
+    }
+
+    .content-card {
+      padding: 18px 16px 20px;
+      background: var(--card-bg);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .train-info-container {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .yellow-bg {
+      display: inline-block;
+      margin-bottom: 5px;
+      padding: 3px 8px 3px 10px;
+      border-left: 6px solid #ffa500;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      background-color: rgb(255, 255, 153);
+      font-size: 125%;
+      font-weight: bold;
+    }
+
+    .history-toggle--plain {
+      margin-bottom: 20px;
+      padding: 10px 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+
+    .history-toggle--plain .history-summary {
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      list-style: none;
+      outline: none;
+    }
+
+    .history-toggle--plain .history-summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .history-toggle--plain .history-summary::before {
+      content: "▶ ";
+    }
+
+    .history-toggle--plain[open] .history-summary::before {
+      content: "▼ ";
+    }
+
+    .history-group {
+      margin-bottom: 20px;
+    }
+
+    .old-number {
+      display: inline-block;
+      margin: 4px 0 8px 12px;
+      padding: 2px 8px;
+      background: #f5f5f5;
+      border-left: 3px solid #999;
+      color: #444;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .direction-label {
+      margin-bottom: 5px;
+      color: #666;
+      font-size: 13px;
+    }
+
+    .formation-table {
+      width: 100%;
+      margin: 10px 0;
+      border-collapse: collapse;
+      table-layout: fixed;
+      background: #fff;
+    }
+
+    .formation-table th {
+      padding: 8px 2px;
+      border: 1px solid #ccc;
+      background-color: #f2f2f2;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .formation-table td {
+      padding: 8px 2px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .h3-link-cell {
+      background: #fff4c7 !important;
+      font-weight: bold;
+    }
+
+    .h3-final-cell {
+      background: #dff2df !important;
+      font-weight: bold;
+    }
+
+    .hist207-renumber-box {
+      margin-top: 8px;
+      margin-bottom: 10px;
+    }
+
+    .image-wrapper {
+      padding: 10px 0 !important;
+      text-align: center;
+      background: #fff;
+    }
+
+    .image-wrapper img {
+      display: inline-block;
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+      border-radius: 8px;
+    }
+
+    .photo-table {
+      width: 100%;
+      margin-top: 15px;
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+      background: #fff;
+    }
+
+    .photo-table th {
+      width: 110px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #f2f2f2;
+      color: #333;
+      text-align: left;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    .photo-table td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+    }
+
+    .related-link {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+    .footer-note {
+      margin-top: 16px;
+      color: #7a8594;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 10px 10px 28px;
+      }
+
+      .site-header {
+        padding: 14px 14px 12px;
+      }
+
+      .site-title {
+        font-size: 20px;
+      }
+
+      .content-card {
+        padding: 14px 12px 16px;
+      }
+
+      .yellow-bg {
+        font-size: 112%;
+      }
+
+      .photo-table th {
+        width: 92px;
+      }
+
+      .formation-table th,
+      .formation-table td,
+      .photo-table th,
+      .photo-table td {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
 
 <body>
-  <form name="frmStudentLogin" method="post" action="#" id="frmStudentLogin" onSubmit="return InitializeTimer(10);">
-    <div class="wrapper">
-      <div class="pos-header">
-        <div class="pos-header-logo"><img src="img/logo.png"></div>
-        <div class="pos-header-body">
-          東進学力POS・携帯サイトが「お気に入り」からアクセスできなくなっている場合には、https://pos.toshin.com/i/に登録しなおしてください。<br>
-          ※SSL非対応機種をご利用の方はhttp://pos.toshin.com/in/をご利用ください。
-          <div class="pos-header-link">
-            <a href="https://pos.toshin.com/SSO1/SSOLogin/guide/guide.html" target="_blank" rel="noopener">&gt; 初回ログインの手順</a>
-            <a href="https://pos.toshin.com/SSO1/SSOLogin/ssofaq/faq.html#stdlogin" target="_blank" rel="noopener">&gt; FAQ</a>
-            <a href="https://pos.toshin.com/info/vista070130/pos_pc_spec.htm" target="_blank" rel="noopener">&gt; 動作環境</a>
-          </div>
-        </div>
-        <div class="pos-header-login-button"><a href="https://pos.toshin.com/SSO1/SSOLogin/studentfirstlogin.aspx" target="_blank" rel="noopener"><img src="img/btn_login_seito.gif" border="0"></a></div>
-        <div class="pos-header-login-button"><a href="https://pos.toshin.com/SSO1/SSOLogin/parentfirstlogin.aspx" target="_blank" rel="noopener"><img src="img/btn_login_fubo.gif" border="0"></a></div>
+  <div class="page">
+    <header class="site-header">
+      <div class="breadcrumb">
+        <span>ホーム</span> &gt; <span>207系</span> &gt; <span>207系H3編成</span>
       </div>
-      <div class="clear"></div>
-      <div class="pos-body">
-        <div class="pos-body-title-img"><img src="img/pos.png"></div>
-        <div class="pos-body-login">
-          <div class="pos-body-login-box">
+      <h1 class="site-title">207系H3編成</h1>
+      <p class="site-subtitle">編成情報、車歴、撮影記録をまとめたページです。</p>
+    </header>
 
-          
-            <div class="pos-body-login-account">
-              <span>ログイン</span>
-              <input id="userid" name="userid" type="text" tabindex="5" size="100" maxlength="100">
-            </div>
-            <div class="pos-body-login-account-notice">
-              ※生徒・ご父母のどちらのアカウントでもログインできます。<br>※ご父母用学力POSへログインする場合は、生徒用ログインIDの先頭に「P」をつけて下さい。
+    <main class="content-card">
+      <div class="train-info-container">
+        <div class="history-group">
+          <span class="yellow-bg">編成</span>
+          <div class="direction-label">←加古川，篠山口　　　草津，木津→</div>
+          <table class="formation-table">
+            <thead>
+              <tr>
+                <th>クハ206</th>
+                <th>モハ207</th>
+                <th>モハ207</th>
+                <th>クハ207</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>103</td>
+                <td>1523</td>
+                <td>505</td>
+                <td>103</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <details class="history-toggle history-toggle--plain">
+          <summary class="history-summary">車歴（クリックで展開）</summary>
+
+          <div class="history-group">
+            <span class="yellow-bg">淀川新製配置（A5編成）</span><br />
+            1992年1月8日<br />
+
+            <span class="yellow-bg">高槻新製配置（T12編成）</span><br />
+            1991年12月14日<br />
+
+            <div class="old-number">A5編成（淀川）</div>
+            <div class="direction-label">　 ←片町　　　奈良，木津→</div>
+
+            <table class="formation-table">
+              <thead>
+                <tr>
+                  <th>クハ206</th>
+                  <th>モハ207</th>
+                  <th>クハ207</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="h3-link-cell">103</td>
+                  <td class="h3-link-cell">5</td>
+                  <td class="h3-link-cell">103</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="old-number">T12編成（高槻）</div>
+            <div class="direction-label">　←加古川，篠山口　　　草津，木津→</div>
+
+            <table class="formation-table">
+              <thead>
+                <tr>
+                  <th>クハ206</th>
+                  <th>モハ207</th>
+                  <th>サハ207</th>
+                  <th>モハ207</th>
+                  <th>サハ207</th>
+                  <th>クモハ207</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1012</td>
+                  <td>1024</td>
+                  <td>1112</td>
+                  <td class="h3-link-cell">1023</td>
+                  <td>1012</td>
+                  <td>1012</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="history-group">
+            <span class="yellow-bg">高槻転属，編成組み換え</span><br />
+            1996年7月10日<br />
+
+            <div class="hist207-renumber-box">
+              <div class="old-number">改番車両表</div>
+
+              <table class="formation-table">
+                <thead>
+                  <tr>
+                    <th colspan="2">旧</th>
+                    <th colspan="2">新</th>
+                    <th>備考</th>
+                  </tr>
+                  <tr>
+                    <th>形式</th>
+                    <th>車番</th>
+                    <th>形式</th>
+                    <th>車番</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>モハ207</td>
+                    <td class="h3-link-cell">5</td>
+                    <td>モハ207</td>
+                    <td class="h3-final-cell">505</td>
+                    <td>H3編成へ</td>
+                  </tr>
+                  <tr>
+                    <td>モハ207</td>
+                    <td class="h3-link-cell">1023</td>
+                    <td>モハ207</td>
+                    <td class="h3-final-cell">1523</td>
+                    <td>H3編成へ</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
 
-            <div class="pos-body-login-password">
-              <span>パスワード</span>
-              <input id="pass" name="pass" type="password" tabindex="5" size="100" maxlength="100">
-            </div>
-            <div class="pos-body-forgot-password">
-              <div><a href="https://pos.toshin.com/SSO1/SSOLogin/ForgotPassword.aspx?App=Student" target="_blank">生徒用のパスワードを忘れた方はこちら</a></div>
-              <div><a href="https://pos.toshin.com/SSO1/SSOLogin/ForgotPassword.aspx?App=Parent" target="_blank">ご父母用のパスワードを忘れた方はこちら</a></div>
-            </div>
-            <div class="pos-body-login-button">
-              <input id="ibLogin" type="image" name="ibLogin" tabindex="4" src="img/btn_login.png" alt="" border="0">
-            </div>
-            <div class="pos-junior-login">
-              <div><a href="https://pos.toshin.com/SSO1/TJ/SSOLogin/StudentLogin.aspx?_gl=1*okyzwb*_gcl_au*NjM4NTA1MzA3LjE3Mzc5NzQ1MzQ." target="_blank">東進中学NETに所属の方はこちら</a></div>
-            </div>
-            <div class="pos-password-attention">
-              パスワードは、皆さんの学習情報・個人情報を守る極めて重要な情報です。<br>以下を確認し、適切な管理をお願いします。
-              <ul>
-                <li>①　安全なパスワードの設定:　生徒番号・自分の名前等推測されやすいものは避ける</li>
-                <li>②　適切な管理: 　他人に絶対に教えない、自分で管理する</li>
-              </ul>パスワードの変更は、ログイン後右上のタブから出来ます。
-            </div>
-            <div class="pos-body-login-notice">
-              <span><img src="img/sign.png"></span>
-              学力POSに繋がりにくい場合や、顔認証ログインの場合は、<br><a href="https://pos.toshin.com/SSO1/SSOLogin/StudentLogin.aspx">こちら</a>からログインして下さい。
-            </div>
+            <div class="old-number">H3編成</div>
+            <div class="direction-label">　 ←加古川，篠山口　　　草津，木津→</div>
+
+            <table class="formation-table">
+              <thead>
+                <tr>
+                  <th>クハ206</th>
+                  <th>モハ207</th>
+                  <th>モハ207</th>
+                  <th>クハ207</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="h3-link-cell">103</td>
+                  <td class="h3-final-cell">1523</td>
+                  <td class="h3-final-cell">505</td>
+                  <td class="h3-link-cell">103</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+
+          <div class="history-group">
+            <span class="yellow-bg">明石転属</span><br />
+            2000年3月11日<br />
+
+            <div class="old-number">H3編成</div>
+            <div class="direction-label">　 ←加古川，篠山口　　　草津，木津→</div>
+
+            <table class="formation-table">
+              <thead>
+                <tr>
+                  <th>クハ206</th>
+                  <th>モハ207</th>
+                  <th>モハ207</th>
+                  <th>クハ207</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>103</td>
+                  <td>1523</td>
+                  <td>505</td>
+                  <td>103</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="history-group">
+            <span class="yellow-bg">帯色変更</span><br />
+            2006年2月4日
+          </div>
+
+          <div class="history-group">
+            <span class="yellow-bg">リニューアル</span><br />
+            2005年12月17日（吹田）
+          </div>
+        </details>
+      </div>
+
+      <div class="photo-table-wrapper">
+        <table class="photo-table">
+          <tbody>
+            <tr>
+              <td colspan="2" class="image-wrapper">
+                <a href="https://livedoor.blogimg.jp/kumapphoto/imgs/4/f/4f076eb4.jpg" title="IMG_20250421_8210" target="_blank">
+                  <img src="https://livedoor.blogimg.jp/kumapphoto/imgs/4/f/4f076eb4-s.jpg" width="480" height="320" border="0" alt="IMG_20250421_8210" hspace="5" class="pict" />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th>撮影日</th>
+              <td>2025年4月21日</td>
+            </tr>
+            <tr>
+              <th>列車番号</th>
+              <td>514C</td>
+            </tr>
+            <tr>
+              <th>種別・行先</th>
+              <td>普通 京都行き</td>
+            </tr>
+            <tr>
+              <th>撮影地</th>
+              <td>島本</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="related-link">
+          関連ページ：
+          <a href="https://kumaphoto.doorblog.jp/archives/207.html" target="_self">207系配置一覧</a>
         </div>
       </div>
-      <a href="https://www.toshin.com/?utm_source=pos_1&utm_medium=pos&utm_campaign=pos_top" class="top-link">東進ドットコム トップページはこちら >></a>
-      <div class="pos-banner">
-        <ul id="ad_banner">
-                              <li>
-            <a href="http://www.toshin.com/app/?utm_source=pos_1&utm_medium=pos&utm_campaign=pos_app_example">
-              <img src="img/reibun300.png" loading="lazy" decoding="async" alt="例文300">
-            </a>
-          </li>
-          <li><a href="https://www.toshin.com/movie/?utm_source=pos_1&utm_medium=pos&utm_campaign=pos_toushinTV"><img style="width:100%;" src="img/movie_flash_pc.jpg" alt="東進TV"></a></li>
-          <li><a href="http://www.toshin.com/question_stop/?utm_source=pos_1&utm_medium=pos&utm_campaign=pos_question_stop"><img style="width:100%;" src="img/nayami_flash_pc.jpg" alt="悩み相談"></a></li>
-          <li><a href="http://www.toshin.com/app/?utm_source=pos_1&utm_medium=pos&utm_campaign=pos_app_word"><img src="img/eitango1800.jpg" alt="英単語1800"></a></li>
-          <li>
-            <a href="https://www.toshin.com/books/archives/2020/09/_1800_1.html">
-              <img src="img/center1800.png" loading="lazy" decoding="async" alt="センター1800">
-            </a>
-          </li>
-          <!-- <li><a href="https://www.facebook.com/ToshinHighSchool"><img src="img/facebook_ban_.jpg" alt="フェイスブック"></a></li> -->
-        </ul>
-        <div class="pos-banner-button-left"><img src="img/button_prev.png"></div>
-        <div class="pos-banner-button-right"><img src="img/button_next.png"></div>
-      </div>
-      <div class="pos-footer">
-        <p class="pos-footer-copyright">
-          抜群の現役合格実績を上げる大学受験、高校受験の予備校・塾 東進ドットコム
-        </p>
-        <div class="pos-footer-link">
-          <a href="http://www.toshin.com/">大学受験予備校・塾の東進ドットコムTOP</a>
-          ｜
-          <a href="http://www.toshin.com/sitemap/aboutsite.html">このサイトについて</a>
-          ｜
-          <a href="http://www.toshin.com/link_popularity/">リンクについて</a>
-          ｜
-          <a href="http://www.toshin.com/toi/">お問い合わせ</a>
-          ｜
-          <a href="http://www.toshin.com/sitemap/privacypolicy.html">プライバシーポリシー</a>
-        </div>
-        <div>Copyright (C) Nagase Brothers Inc.</div>
-      </div>
+    </main>
+
+    <div class="footer-note">
+      © 鉄道写真ページ
     </div>
-  </form>
-  <div id="clickdiv"></div>
-  <span class="add_banner_data" name="naibu"></span>
-  <script src="assets/js/jquery.js"></script>
-  <script src="assets/js/jquery.timers.js"></script>
-  <script src="js/banner.js?1020341729"></script>
-  <!-- リダイレクトJavascript -->
-  <script>
-    //Function called upon the click of Link in SSO Menu page.
-    var secs
-    var timerID = null
-    var timerRunning = false
-    var idelay = 1000
-
-    function InitializeTimer(delay) {
-      if (document.getElementById('userid').value == '') {
-        alert('IDとパスワードが入力されていません。');
-        return false;
-      }
-
-      document.frmStudentLogin.action = 'https://pos.toshin.com/SSO1/LoginRedirector/ParentStudentLogin.aspx';
-
-      secs = parseInt(delay)
-
-      StopTheClock()
-      StartTheTimer()
-      return true;
-    }
-
-    function StopTheClock() {
-      var i;
-      if (timerRunning)
-        clearTimeout(timerID)
-      timerRunning = false
-      document.getElementById('clickdiv').style.visibility = 'hidden';
-
-    }
-
-    function StartTheTimer() {
-      if (secs == 0) {
-        StopTheClock()
-      } else {
-        document.getElementById('clickdiv').style.visibility = 'visible';
-        //self.status = secs
-        secs = secs - 1
-        timerRunning = true
-        timerID = self.setTimeout('StartTheTimer()', idelay)
-      }
-    }
-  </script>
-  <!-- <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-29019646-3']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script');
-    ga.type = 'text/javascript';
-    ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(ga, s);
-  })();
-  </script> -->
-  <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script><script type="text/javascript" src="https://www.toshin.com/js/tracking_code.js" charset="utf-8"></script></body>
-
+  </div>
+</body>
 </html>
